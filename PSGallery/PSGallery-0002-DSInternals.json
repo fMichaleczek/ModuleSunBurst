@@ -1,0 +1,332 @@
+{
+  "name": "DSInternals",
+  "children": [
+    {
+      "name": "DSInternals.Passkeys",
+      "companyName": "DSInternals",
+      "children": [
+        {
+          "name": "PasskeyRegistrationOptions",
+          "children": [
+            {
+              "name": "Get-PasskeyRegistrationOptions"
+            }
+          ]
+        },
+        {
+          "name": "Passkey",
+          "children": [
+            {
+              "name": "New-Passkey"
+            },
+            {
+              "name": "Register-Passkey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSInternals",
+      "companyName": "DSInternals",
+      "children": [
+        {
+          "name": "NTHash",
+          "children": [
+            {
+              "name": "ConvertTo-NTHash"
+            }
+          ]
+        },
+        {
+          "name": "LMHash",
+          "children": [
+            {
+              "name": "ConvertTo-LMHash"
+            }
+          ]
+        },
+        {
+          "name": "SamAccountPasswordHash",
+          "children": [
+            {
+              "name": "Set-SamAccountPasswordHash"
+            }
+          ]
+        },
+        {
+          "name": "UnicodePassword",
+          "children": [
+            {
+              "name": "ConvertFrom-UnicodePassword"
+            },
+            {
+              "name": "ConvertTo-UnicodePassword"
+            }
+          ]
+        },
+        {
+          "name": "OrgIdHash",
+          "children": [
+            {
+              "name": "ConvertTo-OrgIdHash"
+            }
+          ]
+        },
+        {
+          "name": "GPPrefPassword",
+          "children": [
+            {
+              "name": "ConvertFrom-GPPrefPassword"
+            },
+            {
+              "name": "ConvertTo-GPPrefPassword"
+            }
+          ]
+        },
+        {
+          "name": "ADDBSidHistory",
+          "children": [
+            {
+              "name": "Add-ADDBSidHistory"
+            }
+          ]
+        },
+        {
+          "name": "ADDBPrimaryGroup",
+          "children": [
+            {
+              "name": "Set-ADDBPrimaryGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADDBDomainController",
+          "children": [
+            {
+              "name": "Get-ADDBDomainController"
+            },
+            {
+              "name": "Set-ADDBDomainController"
+            }
+          ]
+        },
+        {
+          "name": "ADDBSchemaAttribute",
+          "children": [
+            {
+              "name": "Get-ADDBSchemaAttribute"
+            }
+          ]
+        },
+        {
+          "name": "ADDBObject",
+          "children": [
+            {
+              "name": "Remove-ADDBObject"
+            }
+          ]
+        },
+        {
+          "name": "ADDBAccount",
+          "children": [
+            {
+              "name": "Get-ADDBAccount"
+            },
+            {
+              "name": "Enable-ADDBAccount"
+            },
+            {
+              "name": "Disable-ADDBAccount"
+            },
+            {
+              "name": "Unlock-ADDBAccount"
+            }
+          ]
+        },
+        {
+          "name": "BootKey",
+          "children": [
+            {
+              "name": "Get-BootKey"
+            }
+          ]
+        },
+        {
+          "name": "ADReplAccount",
+          "children": [
+            {
+              "name": "Get-ADReplAccount"
+            }
+          ]
+        },
+        {
+          "name": "Hex",
+          "children": [
+            {
+              "name": "ConvertTo-Hex"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKey",
+          "children": [
+            {
+              "name": "ConvertTo-KerberosKey"
+            }
+          ]
+        },
+        {
+          "name": "ADManagedPasswordBlob",
+          "children": [
+            {
+              "name": "ConvertFrom-ADManagedPasswordBlob"
+            }
+          ]
+        },
+        {
+          "name": "ADDBBackupKey",
+          "children": [
+            {
+              "name": "Get-ADDBBackupKey"
+            }
+          ]
+        },
+        {
+          "name": "ADReplBackupKey",
+          "children": [
+            {
+              "name": "Get-ADReplBackupKey"
+            }
+          ]
+        },
+        {
+          "name": "DPAPIBlob",
+          "children": [
+            {
+              "name": "Save-DPAPIBlob"
+            }
+          ]
+        },
+        {
+          "name": "ADDBBootKey",
+          "children": [
+            {
+              "name": "Set-ADDBBootKey"
+            }
+          ]
+        },
+        {
+          "name": "PasswordQuality",
+          "children": [
+            {
+              "name": "Test-PasswordQuality"
+            }
+          ]
+        },
+        {
+          "name": "ADDBServiceAccount",
+          "children": [
+            {
+              "name": "Get-ADDBServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "ADDBKdsRootKey",
+          "children": [
+            {
+              "name": "Get-ADDBKdsRootKey"
+            }
+          ]
+        },
+        {
+          "name": "SamPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-SamPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADSIAccount",
+          "children": [
+            {
+              "name": "Get-ADSIAccount"
+            }
+          ]
+        },
+        {
+          "name": "ADKeyCredential",
+          "children": [
+            {
+              "name": "Get-ADKeyCredential"
+            }
+          ]
+        },
+        {
+          "name": "ADDBAccountPassword",
+          "children": [
+            {
+              "name": "Set-ADDBAccountPassword"
+            }
+          ]
+        },
+        {
+          "name": "ADDBAccountPasswordHash",
+          "children": [
+            {
+              "name": "Set-ADDBAccountPasswordHash"
+            }
+          ]
+        },
+        {
+          "name": "LsaPolicyInformation",
+          "children": [
+            {
+              "name": "Get-LsaPolicyInformation"
+            },
+            {
+              "name": "Set-LSAPolicyInformation"
+            }
+          ]
+        },
+        {
+          "name": "ADDBRestoreFromMediaScript",
+          "children": [
+            {
+              "name": "New-ADDBRestoreFromMediaScript"
+            }
+          ]
+        },
+        {
+          "name": "LsaBackupKey",
+          "children": [
+            {
+              "name": "Get-LsaBackupKey"
+            }
+          ]
+        },
+        {
+          "name": "ADReplNgcKey",
+          "children": [
+            {
+              "name": "Add-ADReplNgcKey"
+            }
+          ]
+        },
+        {
+          "name": "AzureADUserEx",
+          "children": [
+            {
+              "name": "Get-AzureADUserEx"
+            },
+            {
+              "name": "Set-AzureADUserEx"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

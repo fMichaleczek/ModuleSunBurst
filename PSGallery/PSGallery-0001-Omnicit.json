@@ -1,0 +1,339 @@
+{
+  "name": "Omnicit",
+  "children": [
+    {
+      "name": "SendGridTools",
+      "companyName": "Omnicit",
+      "children": [
+        {
+          "name": "SGEmailAddressToSuppressionGroup",
+          "children": [
+            {
+              "name": "Add-SGEmailAddressToSuppressionGroup"
+            }
+          ]
+        },
+        {
+          "name": "SGGlobalSuppression",
+          "children": [
+            {
+              "name": "Add-SGGlobalSuppression"
+            },
+            {
+              "name": "Get-SGGlobalSuppression"
+            },
+            {
+              "name": "Remove-SGGlobalSuppression"
+            }
+          ]
+        },
+        {
+          "name": "SGAuthenticatedDomain",
+          "children": [
+            {
+              "name": "Confirm-SGAuthenticatedDomain"
+            },
+            {
+              "name": "Get-SGAuthenticatedDomain"
+            },
+            {
+              "name": "New-SGAuthenticatedDomain"
+            },
+            {
+              "name": "Remove-SGAuthenticatedDomain"
+            },
+            {
+              "name": "Set-SGAuthenticatedDomain"
+            }
+          ]
+        },
+        {
+          "name": "SGBrandedDomainLink",
+          "children": [
+            {
+              "name": "Confirm-SGBrandedDomainLink"
+            },
+            {
+              "name": "Get-SGBrandedDomainLink"
+            },
+            {
+              "name": "New-SGBrandedDomainLink"
+            },
+            {
+              "name": "Remove-SGBrandedDomainLink"
+            },
+            {
+              "name": "Set-SGBrandedDomainLink"
+            }
+          ]
+        },
+        {
+          "name": "SendGrid",
+          "children": [
+            {
+              "name": "Connect-SendGrid"
+            },
+            {
+              "name": "Disconnect-SendGrid"
+            }
+          ]
+        },
+        {
+          "name": "SGSubuser",
+          "children": [
+            {
+              "name": "Disable-SGSubuser"
+            },
+            {
+              "name": "Enable-SGSubuser"
+            },
+            {
+              "name": "Get-SGSubuser"
+            },
+            {
+              "name": "New-SGSubuser"
+            },
+            {
+              "name": "Remove-SGSubuser"
+            }
+          ]
+        },
+        {
+          "name": "SGAddressWhitelistSetting",
+          "children": [
+            {
+              "name": "Get-SGAddressWhitelistSetting"
+            },
+            {
+              "name": "Set-SGAddressWhitelistSetting"
+            }
+          ]
+        },
+        {
+          "name": "SGAlert",
+          "children": [
+            {
+              "name": "Get-SGAlert"
+            },
+            {
+              "name": "New-SGAlert"
+            },
+            {
+              "name": "Remove-SGAlert"
+            },
+            {
+              "name": "Set-SGAlert"
+            }
+          ]
+        },
+        {
+          "name": "SGApiKey",
+          "children": [
+            {
+              "name": "Get-SGApiKey"
+            },
+            {
+              "name": "New-SGApiKey"
+            },
+            {
+              "name": "Remove-SGApiKey"
+            },
+            {
+              "name": "Set-SGApiKey"
+            }
+          ]
+        },
+        {
+          "name": "SGBlock",
+          "children": [
+            {
+              "name": "Get-SGBlock"
+            },
+            {
+              "name": "Remove-SGBlock"
+            }
+          ]
+        },
+        {
+          "name": "SGBounce",
+          "children": [
+            {
+              "name": "Get-SGBounce"
+            },
+            {
+              "name": "Remove-SGBounce"
+            }
+          ]
+        },
+        {
+          "name": "SGBounceByClassification",
+          "children": [
+            {
+              "name": "Get-SGBounceByClassification"
+            }
+          ]
+        },
+        {
+          "name": "SGBouncePurgeSetting",
+          "children": [
+            {
+              "name": "Get-SGBouncePurgeSetting"
+            },
+            {
+              "name": "Set-SGBouncePurgeSetting"
+            }
+          ]
+        },
+        {
+          "name": "SGDesign",
+          "children": [
+            {
+              "name": "Get-SGDesign"
+            }
+          ]
+        },
+        {
+          "name": "SGEmailActivity",
+          "children": [
+            {
+              "name": "Get-SGEmailActivity"
+            }
+          ]
+        },
+        {
+          "name": "SGForwardBounceSetting",
+          "children": [
+            {
+              "name": "Get-SGForwardBounceSetting"
+            },
+            {
+              "name": "Set-SGForwardBounceSetting"
+            }
+          ]
+        },
+        {
+          "name": "SGForwardSpamSetting",
+          "children": [
+            {
+              "name": "Get-SGForwardSpamSetting"
+            },
+            {
+              "name": "Set-SGForwardSpamSetting"
+            }
+          ]
+        },
+        {
+          "name": "SGInvalidEmail",
+          "children": [
+            {
+              "name": "Get-SGInvalidEmail"
+            },
+            {
+              "name": "Remove-SGInvalidEmail"
+            }
+          ]
+        },
+        {
+          "name": "SGIPAddress",
+          "children": [
+            {
+              "name": "Get-SGIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "SGMailSetting",
+          "children": [
+            {
+              "name": "Get-SGMailSetting"
+            }
+          ]
+        },
+        {
+          "name": "SGPermissionScopes",
+          "children": [
+            {
+              "name": "Get-SGPermissionScopes"
+            }
+          ]
+        },
+        {
+          "name": "SGSpamReport",
+          "children": [
+            {
+              "name": "Get-SGSpamReport"
+            },
+            {
+              "name": "Remove-SGSpamReport"
+            }
+          ]
+        },
+        {
+          "name": "SGSuppression",
+          "children": [
+            {
+              "name": "Get-SGSuppression"
+            }
+          ]
+        },
+        {
+          "name": "SGSuppressionGroup",
+          "children": [
+            {
+              "name": "Get-SGSuppressionGroup"
+            },
+            {
+              "name": "New-SGSuppressionGroup"
+            },
+            {
+              "name": "Remove-SGSuppressionGroup"
+            },
+            {
+              "name": "Set-SGSuppressionGroup"
+            }
+          ]
+        },
+        {
+          "name": "SGTeammate",
+          "children": [
+            {
+              "name": "Get-SGTeammate"
+            }
+          ]
+        },
+        {
+          "name": "SGCommand",
+          "children": [
+            {
+              "name": "Invoke-SGCommand"
+            }
+          ]
+        },
+        {
+          "name": "SGCombinedDomain",
+          "children": [
+            {
+              "name": "New-SGCombinedDomain"
+            }
+          ]
+        },
+        {
+          "name": "SGMailMessage",
+          "children": [
+            {
+              "name": "Send-SGMailMessage"
+            }
+          ]
+        },
+        {
+          "name": "SGAuthenticatedDomainToSubUser",
+          "children": [
+            {
+              "name": "Set-SGAuthenticatedDomainToSubUser"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

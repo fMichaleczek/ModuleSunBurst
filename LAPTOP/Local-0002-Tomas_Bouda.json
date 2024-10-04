@@ -1,0 +1,205 @@
+{
+  "name": "Tomas Bouda",
+  "children": [
+    {
+      "name": "PoShLog",
+      "companyName": "Tomas Bouda",
+      "children": [
+        {
+          "name": "EnrichFromLogContext",
+          "children": [
+            {
+              "name": "Add-EnrichFromLogContext"
+            }
+          ]
+        },
+        {
+          "name": "EnrichWithErrorRecord",
+          "children": [
+            {
+              "name": "Add-EnrichWithErrorRecord"
+            }
+          ]
+        },
+        {
+          "name": "EnrichWithProperty",
+          "children": [
+            {
+              "name": "Add-EnrichWithProperty"
+            }
+          ]
+        },
+        {
+          "name": "SinkConsole",
+          "children": [
+            {
+              "name": "Add-SinkConsole"
+            }
+          ]
+        },
+        {
+          "name": "SinkFile",
+          "children": [
+            {
+              "name": "Add-SinkFile"
+            }
+          ]
+        },
+        {
+          "name": "SinkPowerShell",
+          "children": [
+            {
+              "name": "Add-SinkPowerShell"
+            }
+          ]
+        },
+        {
+          "name": "Logger",
+          "children": [
+            {
+              "name": "Close-Logger"
+            },
+            {
+              "name": "New-Logger"
+            },
+            {
+              "name": "Set-Logger"
+            },
+            {
+              "name": "Start-Logger"
+            }
+          ]
+        },
+        {
+          "name": "LogFunctions",
+          "children": [
+            {
+              "name": "Convert-LogFunctions"
+            }
+          ]
+        },
+        {
+          "name": "JsonFormatter",
+          "children": [
+            {
+              "name": "Get-JsonFormatter"
+            }
+          ]
+        },
+        {
+          "name": "LevelSwitch",
+          "children": [
+            {
+              "name": "New-LevelSwitch"
+            },
+            {
+              "name": "Set-LevelSwitch"
+            }
+          ]
+        },
+        {
+          "name": "MinimumLevel",
+          "children": [
+            {
+              "name": "Set-MinimumLevel"
+            }
+          ]
+        },
+        {
+          "name": "DebugLog",
+          "children": [
+            {
+              "name": "Write-DebugLog"
+            }
+          ]
+        },
+        {
+          "name": "ErrorLog",
+          "children": [
+            {
+              "name": "Write-ErrorLog"
+            }
+          ]
+        },
+        {
+          "name": "FatalLog",
+          "children": [
+            {
+              "name": "Write-FatalLog"
+            }
+          ]
+        },
+        {
+          "name": "InfoLog",
+          "children": [
+            {
+              "name": "Write-InfoLog"
+            }
+          ]
+        },
+        {
+          "name": "InformationLog",
+          "children": [
+            {
+              "name": "Write-InformationLog"
+            }
+          ]
+        },
+        {
+          "name": "VerboseLog",
+          "children": [
+            {
+              "name": "Write-VerboseLog"
+            }
+          ]
+        },
+        {
+          "name": "WarningLog",
+          "children": [
+            {
+              "name": "Write-WarningLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoShLog.Enrichers",
+      "companyName": "Tomas Bouda",
+      "children": [
+        {
+          "name": "EnrichWithEnvironment",
+          "children": [
+            {
+              "name": "Add-EnrichWithEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "EnrichWithExceptionDetails",
+          "children": [
+            {
+              "name": "Add-EnrichWithExceptionDetails"
+            }
+          ]
+        },
+        {
+          "name": "EnrichWithProcessId",
+          "children": [
+            {
+              "name": "Add-EnrichWithProcessId"
+            }
+          ]
+        },
+        {
+          "name": "EnrichWithProcessName",
+          "children": [
+            {
+              "name": "Add-EnrichWithProcessName"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

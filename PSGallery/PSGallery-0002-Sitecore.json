@@ -1,0 +1,41 @@
+{
+  "name": "Sitecore",
+  "children": [
+    {
+      "name": "Sitecore.Courier",
+      "companyName": "Sitecore",
+      "children": [
+        {
+          "name": "CourierPackage",
+          "children": [
+            {
+              "name": "New-CourierPackage"
+            }
+          ]
+        },
+        {
+          "name": "CourierSecurityPackage",
+          "children": [
+            {
+              "name": "New-CourierSecurityPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCInstall",
+      "companyName": "Sitecore",
+      "children": [
+        {
+          "name": "Greeting",
+          "children": [
+            {
+              "name": "Get-Greeting"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

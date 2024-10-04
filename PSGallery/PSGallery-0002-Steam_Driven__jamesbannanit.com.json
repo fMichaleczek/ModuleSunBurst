@@ -1,0 +1,90 @@
+{
+  "name": "Steam Driven  jamesbannanit.com",
+  "children": [
+    {
+      "name": "AzureResourceSecurity",
+      "companyName": "Steam Driven  jamesbannanit.com",
+      "children": [
+        {
+          "name": "AzureRegion",
+          "children": [
+            {
+              "name": "Get-AzureRegion"
+            }
+          ]
+        },
+        {
+          "name": "SecureResourceGroupPolicyLocation",
+          "children": [
+            {
+              "name": "Assert-SecureResourceGroupPolicyLocation"
+            }
+          ]
+        },
+        {
+          "name": "SecureResourceGroupRbac",
+          "children": [
+            {
+              "name": "Assert-SecureResourceGroupRbac"
+            }
+          ]
+        },
+        {
+          "name": "SecureSubscriptionPolicyLocation",
+          "children": [
+            {
+              "name": "Assert-SecureSubscriptionPolicyLocation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChefAutomate",
+      "companyName": "Steam Driven  jamesbannanit.com",
+      "children": [
+        {
+          "name": "ChefAutomateStatus",
+          "children": [
+            {
+              "name": "Get-ChefAutomateStatus"
+            }
+          ]
+        },
+        {
+          "name": "SessionSecurityProtocol",
+          "children": [
+            {
+              "name": "Set-SessionSecurityProtocol"
+            }
+          ]
+        },
+        {
+          "name": "ChefAutomateComplianceProfiles",
+          "children": [
+            {
+              "name": "Get-ChefAutomateComplianceProfiles"
+            }
+          ]
+        },
+        {
+          "name": "ChefAutomateComplianceProfile",
+          "children": [
+            {
+              "name": "Get-ChefAutomateComplianceProfile"
+            },
+            {
+              "name": "Save-ChefAutomateComplianceProfile"
+            },
+            {
+              "name": "Remove-ChefAutomateComplianceProfile"
+            },
+            {
+              "name": "Set-ChefAutomateComplianceProfile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

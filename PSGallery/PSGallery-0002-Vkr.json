@@ -1,0 +1,41 @@
+{
+  "name": "Vkr",
+  "children": [
+    {
+      "name": "ConvertOfficeSKU",
+      "companyName": "Vkr",
+      "children": [
+        {
+          "name": "OfficeSku",
+          "children": [
+            {
+              "name": "Convert-OfficeSku"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Get-LoggedUser",
+      "companyName": "Vkr",
+      "children": [
+        {
+          "name": "LoggedUser",
+          "children": [
+            {
+              "name": "Get-LoggedUser"
+            }
+          ]
+        },
+        {
+          "name": "ADLoggedUser",
+          "children": [
+            {
+              "name": "Get-ADLoggedUser"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

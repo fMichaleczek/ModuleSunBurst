@@ -1,0 +1,141 @@
+{
+  "name": "ConnorCG",
+  "children": [
+    {
+      "name": "PS-RiskSense",
+      "companyName": "ConnorCG",
+      "children": [
+        {
+          "name": "RiskSenseClient",
+          "children": [
+            {
+              "name": "Get-RiskSenseClient"
+            }
+          ]
+        },
+        {
+          "name": "RiskSenseHost",
+          "children": [
+            {
+              "name": "Get-RiskSenseHost"
+            },
+            {
+              "name": "Remove-RiskSenseHost"
+            }
+          ]
+        },
+        {
+          "name": "RiskSenseFinding",
+          "children": [
+            {
+              "name": "Get-RiskSenseFinding"
+            }
+          ]
+        },
+        {
+          "name": "RiskSenseFindingExport",
+          "children": [
+            {
+              "name": "Invoke-RiskSenseFindingExport"
+            }
+          ]
+        },
+        {
+          "name": "RiskSenseExport",
+          "children": [
+            {
+              "name": "Get-RiskSenseExport"
+            }
+          ]
+        },
+        {
+          "name": "RiskSenseExportStatus",
+          "children": [
+            {
+              "name": "Get-RiskSenseExportStatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Posh-YNAB",
+      "companyName": "ConnorCG",
+      "children": [
+        {
+          "name": "YnabTransaction",
+          "children": [
+            {
+              "name": "Add-YnabTransaction"
+            },
+            {
+              "name": "Get-YnabTransaction"
+            }
+          ]
+        },
+        {
+          "name": "YnabTransactionPreset",
+          "children": [
+            {
+              "name": "Add-YnabTransactionPreset"
+            },
+            {
+              "name": "Get-YnabTransactionPreset"
+            },
+            {
+              "name": "Remove-YnabTransactionPreset"
+            }
+          ]
+        },
+        {
+          "name": "YnabAccount",
+          "children": [
+            {
+              "name": "Get-YnabAccount"
+            }
+          ]
+        },
+        {
+          "name": "YnabBudget",
+          "children": [
+            {
+              "name": "Get-YnabBudget"
+            }
+          ]
+        },
+        {
+          "name": "YnabCategory",
+          "children": [
+            {
+              "name": "Get-YnabCategory"
+            }
+          ]
+        },
+        {
+          "name": "YnabPayee",
+          "children": [
+            {
+              "name": "Get-YnabPayee"
+            }
+          ]
+        },
+        {
+          "name": "YnabUser",
+          "children": [
+            {
+              "name": "Get-YnabUser"
+            }
+          ]
+        },
+        {
+          "name": "YnabDefault",
+          "children": [
+            {
+              "name": "Set-YnabDefault"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

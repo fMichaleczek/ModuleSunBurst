@@ -1,0 +1,1036 @@
+{
+  "name": "Jan Tietze",
+  "children": [
+    {
+      "name": "CyCLI",
+      "companyName": "Jan Tietze",
+      "children": [
+        {
+          "name": "CyAPI",
+          "children": [
+            {
+              "name": "Get-CyAPI"
+            }
+          ]
+        },
+        {
+          "name": "CyJwtToken",
+          "children": [
+            {
+              "name": "Get-CyJwtToken"
+            }
+          ]
+        },
+        {
+          "name": "CyClaimsFromJwtToken",
+          "children": [
+            {
+              "name": "Get-CyClaimsFromJwtToken"
+            }
+          ]
+        },
+        {
+          "name": "CyGlobalSettings",
+          "children": [
+            {
+              "name": "Get-CyGlobalSettings"
+            },
+            {
+              "name": "Set-CyGlobalSettings"
+            }
+          ]
+        },
+        {
+          "name": "CyRestMethod",
+          "children": [
+            {
+              "name": "Invoke-CyRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "CyConsoleArgumentAutoCompleter",
+          "children": [
+            {
+              "name": "Get-CyConsoleArgumentAutoCompleter"
+            }
+          ]
+        },
+        {
+          "name": "CyDateString",
+          "children": [
+            {
+              "name": "ConvertTo-CyDateString"
+            },
+            {
+              "name": "ConvertFrom-CyDateString"
+            }
+          ]
+        },
+        {
+          "name": "CyAPIHandle",
+          "children": [
+            {
+              "name": "Get-CyAPIHandle"
+            },
+            {
+              "name": "Clear-CyAPIHandle"
+            }
+          ]
+        },
+        {
+          "name": "CyObject",
+          "children": [
+            {
+              "name": "Convert-CyObject"
+            }
+          ]
+        },
+        {
+          "name": "CyDeviceList",
+          "children": [
+            {
+              "name": "Get-CyDeviceList"
+            }
+          ]
+        },
+        {
+          "name": "CyDeviceDetail",
+          "children": [
+            {
+              "name": "Get-CyDeviceDetail"
+            }
+          ]
+        },
+        {
+          "name": "CyZoneList",
+          "children": [
+            {
+              "name": "Get-CyZoneList"
+            }
+          ]
+        },
+        {
+          "name": "CyZone",
+          "children": [
+            {
+              "name": "Get-CyZone"
+            },
+            {
+              "name": "New-CyZone"
+            },
+            {
+              "name": "Update-CyZone"
+            },
+            {
+              "name": "Remove-CyZone"
+            }
+          ]
+        },
+        {
+          "name": "CyThreatDetail",
+          "children": [
+            {
+              "name": "Get-CyThreatDetail"
+            }
+          ]
+        },
+        {
+          "name": "CyDeviceToZone",
+          "children": [
+            {
+              "name": "Add-CyDeviceToZone"
+            }
+          ]
+        },
+        {
+          "name": "CyThreatList",
+          "children": [
+            {
+              "name": "Get-CyThreatList"
+            }
+          ]
+        },
+        {
+          "name": "CyDeviceThreatList",
+          "children": [
+            {
+              "name": "Get-CyDeviceThreatList"
+            }
+          ]
+        },
+        {
+          "name": "CyDeviceThreat",
+          "children": [
+            {
+              "name": "Update-CyDeviceThreat"
+            }
+          ]
+        },
+        {
+          "name": "CyHashToGlobalList",
+          "children": [
+            {
+              "name": "Add-CyHashToGlobalList"
+            }
+          ]
+        },
+        {
+          "name": "CyGlobalList",
+          "children": [
+            {
+              "name": "Get-CyGlobalList"
+            }
+          ]
+        },
+        {
+          "name": "CyHashFromGlobalList",
+          "children": [
+            {
+              "name": "Remove-CyHashFromGlobalList"
+            }
+          ]
+        },
+        {
+          "name": "CyData",
+          "children": [
+            {
+              "name": "Read-CyData"
+            }
+          ]
+        },
+        {
+          "name": "CyDeviceFromZone",
+          "children": [
+            {
+              "name": "Remove-CyDeviceFromZone"
+            }
+          ]
+        },
+        {
+          "name": "CyPolicyForDevice",
+          "children": [
+            {
+              "name": "Set-CyPolicyForDevice"
+            }
+          ]
+        },
+        {
+          "name": "CyAgentInstallerLink",
+          "children": [
+            {
+              "name": "Get-CyAgentInstallerLink"
+            }
+          ]
+        },
+        {
+          "name": "CyDevice",
+          "children": [
+            {
+              "name": "Remove-CyDevice"
+            }
+          ]
+        },
+        {
+          "name": "CyThreatDownloadLink",
+          "children": [
+            {
+              "name": "Get-CyThreatDownloadLink"
+            }
+          ]
+        },
+        {
+          "name": "CyThreatDeviceList",
+          "children": [
+            {
+              "name": "Get-CyThreatDeviceList"
+            }
+          ]
+        },
+        {
+          "name": "CyDeviceDetailByMac",
+          "children": [
+            {
+              "name": "Get-CyDeviceDetailByMac"
+            }
+          ]
+        },
+        {
+          "name": "CyUserList",
+          "children": [
+            {
+              "name": "Get-CyUserList"
+            }
+          ]
+        },
+        {
+          "name": "CyUserDetail",
+          "children": [
+            {
+              "name": "Get-CyUserDetail"
+            }
+          ]
+        },
+        {
+          "name": "CyUser",
+          "children": [
+            {
+              "name": "New-CyUser"
+            }
+          ]
+        },
+        {
+          "name": "CySendUserInvite",
+          "children": [
+            {
+              "name": "Invoke-CySendUserInvite"
+            }
+          ]
+        },
+        {
+          "name": "CyPolicy",
+          "children": [
+            {
+              "name": "Get-CyPolicy"
+            },
+            {
+              "name": "Remove-CyPolicy"
+            },
+            {
+              "name": "Copy-CyPolicy"
+            },
+            {
+              "name": "Update-CyPolicy"
+            },
+            {
+              "name": "New-CyPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CyPolicyList",
+          "children": [
+            {
+              "name": "Get-CyPolicyList"
+            }
+          ]
+        },
+        {
+          "name": "CyPolicyListSetting",
+          "children": [
+            {
+              "name": "Add-CyPolicyListSetting"
+            }
+          ]
+        },
+        {
+          "name": "CyPolicyScaffold",
+          "children": [
+            {
+              "name": "Get-CyPolicyScaffold"
+            }
+          ]
+        },
+        {
+          "name": "CyTDRs",
+          "children": [
+            {
+              "name": "Get-CyTDRs"
+            }
+          ]
+        },
+        {
+          "name": "CyTDRsToXLSX",
+          "children": [
+            {
+              "name": "Convert-CyTDRsToXLSX"
+            }
+          ]
+        },
+        {
+          "name": "CyTDRsForAllConsoles",
+          "children": [
+            {
+              "name": "Get-CyTDRsForAllConsoles"
+            }
+          ]
+        },
+        {
+          "name": "CyConsoleConfig",
+          "children": [
+            {
+              "name": "Get-CyConsoleConfig"
+            },
+            {
+              "name": "New-CyConsoleConfig"
+            },
+            {
+              "name": "Remove-CyConsoleConfig"
+            }
+          ]
+        },
+        {
+          "name": "CyDetectionList",
+          "children": [
+            {
+              "name": "Get-CyDetectionList"
+            }
+          ]
+        },
+        {
+          "name": "CyDetectionRecentList",
+          "children": [
+            {
+              "name": "Get-CyDetectionRecentList"
+            }
+          ]
+        },
+        {
+          "name": "CyDetectionDetail",
+          "children": [
+            {
+              "name": "Get-CyDetectionDetail"
+            }
+          ]
+        },
+        {
+          "name": "CyDetection",
+          "children": [
+            {
+              "name": "Remove-CyDetection"
+            },
+            {
+              "name": "Update-CyDetection"
+            }
+          ]
+        },
+        {
+          "name": "CyDetectionExceptionList",
+          "children": [
+            {
+              "name": "Get-CyDetectionExceptionList"
+            }
+          ]
+        },
+        {
+          "name": "CyDetectionExceptionDetail",
+          "children": [
+            {
+              "name": "Get-CyDetectionExceptionDetail"
+            }
+          ]
+        },
+        {
+          "name": "CyLockdownStatus",
+          "children": [
+            {
+              "name": "Get-CyLockdownStatus"
+            }
+          ]
+        },
+        {
+          "name": "CyDetectionRuleList",
+          "children": [
+            {
+              "name": "Get-CyDetectionRuleList"
+            }
+          ]
+        },
+        {
+          "name": "CyDetectionRuleDetail",
+          "children": [
+            {
+              "name": "Get-CyDetectionRuleDetail"
+            }
+          ]
+        },
+        {
+          "name": "CyPackagesList",
+          "children": [
+            {
+              "name": "Get-CyPackagesList"
+            }
+          ]
+        },
+        {
+          "name": "CyInstaQuery",
+          "children": [
+            {
+              "name": "New-CyInstaQuery"
+            }
+          ]
+        },
+        {
+          "name": "CyInstaQueryResults",
+          "children": [
+            {
+              "name": "Get-CyInstaQueryResults"
+            }
+          ]
+        },
+        {
+          "name": "CyInstaQueries",
+          "children": [
+            {
+              "name": "Get-CyInstaQueries"
+            }
+          ]
+        },
+        {
+          "name": "CyUserByEmail",
+          "children": [
+            {
+              "name": "Get-CyUserByEmail"
+            }
+          ]
+        },
+        {
+          "name": "CyPolicyExclusionsForApplication",
+          "children": [
+            {
+              "name": "Add-CyPolicyExclusionsForApplication"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TietzeIO.CyShell",
+      "companyName": "Jan Tietze",
+      "children": [
+        {
+          "name": "CylanceDeviceToZone",
+          "children": [
+            {
+              "name": "Add-CylanceDeviceToZone"
+            }
+          ]
+        },
+        {
+          "name": "CylanceZone",
+          "children": [
+            {
+              "name": "Get-CylanceZone"
+            },
+            {
+              "name": "New-CylanceZone"
+            },
+            {
+              "name": "Remove-CylanceZone"
+            },
+            {
+              "name": "Update-CylanceZone"
+            }
+          ]
+        },
+        {
+          "name": "CylanceZones",
+          "children": [
+            {
+              "name": "Get-CylanceZones"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDeviceFromZone",
+          "children": [
+            {
+              "name": "Remove-CylanceDeviceFromZone"
+            }
+          ]
+        },
+        {
+          "name": "CylanceUser",
+          "children": [
+            {
+              "name": "Get-CylanceUser"
+            },
+            {
+              "name": "New-CylanceUser"
+            }
+          ]
+        },
+        {
+          "name": "CylanceUsers",
+          "children": [
+            {
+              "name": "Get-CylanceUsers"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDeviceThreat",
+          "children": [
+            {
+              "name": "Block-CylanceDeviceThreat"
+            },
+            {
+              "name": "Unblock-CylanceDeviceThreat"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDeviceThreats",
+          "children": [
+            {
+              "name": "Get-CylanceDeviceThreats"
+            }
+          ]
+        },
+        {
+          "name": "CylanceThreat",
+          "children": [
+            {
+              "name": "Get-CylanceThreat"
+            },
+            {
+              "name": "Select-CylanceThreat"
+            }
+          ]
+        },
+        {
+          "name": "CylanceThreatDevices",
+          "children": [
+            {
+              "name": "Get-CylanceThreatDevices"
+            },
+            {
+              "name": "Select-CylanceThreatDevices"
+            }
+          ]
+        },
+        {
+          "name": "CylanceThreats",
+          "children": [
+            {
+              "name": "Get-CylanceThreats"
+            }
+          ]
+        },
+        {
+          "name": "CylanceTDRtoXLSX",
+          "children": [
+            {
+              "name": "Convert-CylanceTDRtoXLSX"
+            }
+          ]
+        },
+        {
+          "name": "CylanceTDR",
+          "children": [
+            {
+              "name": "Get-CylanceTDR"
+            }
+          ]
+        },
+        {
+          "name": "Cylance",
+          "children": [
+            {
+              "name": "Connect-Cylance"
+            },
+            {
+              "name": "Disconnect-Cylance"
+            }
+          ]
+        },
+        {
+          "name": "CylanceSession",
+          "children": [
+            {
+              "name": "Get-CylanceSession"
+            },
+            {
+              "name": "Set-CylanceSession"
+            }
+          ]
+        },
+        {
+          "name": "CylanceVersion",
+          "children": [
+            {
+              "name": "Get-CylanceVersion"
+            }
+          ]
+        },
+        {
+          "name": "CylanceArtifact",
+          "children": [
+            {
+              "name": "Select-CylanceArtifact"
+            },
+            {
+              "name": "Get-CylanceArtifact"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDetection",
+          "children": [
+            {
+              "name": "Select-CylanceDetection"
+            },
+            {
+              "name": "Get-CylanceDetection"
+            },
+            {
+              "name": "Open-CylanceDetection"
+            },
+            {
+              "name": "Remove-CylanceDetection"
+            },
+            {
+              "name": "Update-CylanceDetection"
+            }
+          ]
+        },
+        {
+          "name": "CylancePolicy",
+          "children": [
+            {
+              "name": "Copy-CylancePolicy"
+            },
+            {
+              "name": "Get-CylancePolicy"
+            },
+            {
+              "name": "New-CylancePolicy"
+            },
+            {
+              "name": "Remove-CylancePolicy"
+            },
+            {
+              "name": "Update-CylancePolicy"
+            }
+          ]
+        },
+        {
+          "name": "CylanceApplicationTemplate",
+          "children": [
+            {
+              "name": "Enable-CylanceApplicationTemplate"
+            }
+          ]
+        },
+        {
+          "name": "CylancePolicies",
+          "children": [
+            {
+              "name": "Get-CylancePolicies"
+            }
+          ]
+        },
+        {
+          "name": "CylanceLockdownHistory",
+          "children": [
+            {
+              "name": "Get-CylanceLockdownHistory"
+            }
+          ]
+        },
+        {
+          "name": "ToCylanceGlobalQuarantineList",
+          "children": [
+            {
+              "name": "Add-ToCylanceGlobalQuarantineList"
+            }
+          ]
+        },
+        {
+          "name": "ToCylanceGlobalSafeList",
+          "children": [
+            {
+              "name": "Add-ToCylanceGlobalSafeList"
+            }
+          ]
+        },
+        {
+          "name": "CylanceGlobalQuarantineList",
+          "children": [
+            {
+              "name": "Get-CylanceGlobalQuarantineList"
+            }
+          ]
+        },
+        {
+          "name": "CylanceGlobalSafeList",
+          "children": [
+            {
+              "name": "Get-CylanceGlobalSafeList"
+            }
+          ]
+        },
+        {
+          "name": "FromCylanceGlobalQuarantineList",
+          "children": [
+            {
+              "name": "Remove-FromCylanceGlobalQuarantineList"
+            }
+          ]
+        },
+        {
+          "name": "FromCylanceGlobalSafeList",
+          "children": [
+            {
+              "name": "Remove-FromCylanceGlobalSafeList"
+            }
+          ]
+        },
+        {
+          "name": "CylanceInstaQueries",
+          "children": [
+            {
+              "name": "Get-CylanceInstaQueries"
+            }
+          ]
+        },
+        {
+          "name": "CylanceInstaQuery",
+          "children": [
+            {
+              "name": "Get-CylanceInstaQuery"
+            },
+            {
+              "name": "Hide-CylanceInstaQuery"
+            },
+            {
+              "name": "New-CylanceInstaQuery"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDevice",
+          "children": [
+            {
+              "name": "Get-CylanceDevice"
+            },
+            {
+              "name": "Remove-CylanceDevice"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDevices",
+          "children": [
+            {
+              "name": "Get-CylanceDevices"
+            }
+          ]
+        },
+        {
+          "name": "CylancePolicyForDevice",
+          "children": [
+            {
+              "name": "Set-CylancePolicyForDevice"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDetections",
+          "children": [
+            {
+              "name": "Get-CylanceDetections"
+            }
+          ]
+        },
+        {
+          "name": "CylancePackage",
+          "children": [
+            {
+              "name": "Get-CylancePackage"
+            }
+          ]
+        },
+        {
+          "name": "CylancePackages",
+          "children": [
+            {
+              "name": "Get-CylancePackages"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDetectionRule",
+          "children": [
+            {
+              "name": "Get-CylanceDetectionRule"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDetectionRules",
+          "children": [
+            {
+              "name": "Get-CylanceDetectionRules"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDetectionRuleSet",
+          "children": [
+            {
+              "name": "Get-CylanceDetectionRuleSet"
+            },
+            {
+              "name": "New-CylanceDetectionRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDetectionRuleSets",
+          "children": [
+            {
+              "name": "Get-CylanceDetectionRuleSets"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDetectionException",
+          "children": [
+            {
+              "name": "Get-CylanceDetectionException"
+            },
+            {
+              "name": "New-CylanceDetectionException"
+            },
+            {
+              "name": "Update-CylanceDetectionException"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDetectionExceptions",
+          "children": [
+            {
+              "name": "Get-CylanceDetectionExceptions"
+            }
+          ]
+        },
+        {
+          "name": "CylanceObjectToJson",
+          "children": [
+            {
+              "name": "Convert-CylanceObjectToJson"
+            }
+          ]
+        },
+        {
+          "name": "CylanceConsole",
+          "children": [
+            {
+              "name": "Get-CylanceConsole"
+            },
+            {
+              "name": "New-CylanceConsole"
+            },
+            {
+              "name": "Remove-CylanceConsole"
+            },
+            {
+              "name": "Set-CylanceConsole"
+            }
+          ]
+        },
+        {
+          "name": "CylanceCache",
+          "children": [
+            {
+              "name": "Clear-CylanceCache"
+            },
+            {
+              "name": "Sync-CylanceCache"
+            }
+          ]
+        },
+        {
+          "name": "CylanceCachedDetections",
+          "children": [
+            {
+              "name": "Get-CylanceCachedDetections"
+            }
+          ]
+        },
+        {
+          "name": "CylanceCachedThreatDevices",
+          "children": [
+            {
+              "name": "Get-CylanceCachedThreatDevices"
+            }
+          ]
+        },
+        {
+          "name": "CylanceCachedThreats",
+          "children": [
+            {
+              "name": "Get-CylanceCachedThreats"
+            }
+          ]
+        },
+        {
+          "name": "CylanceThreatAnalysis",
+          "children": [
+            {
+              "name": "Invoke-CylanceThreatAnalysis"
+            }
+          ]
+        },
+        {
+          "name": "CylanceArtifactAnalysis",
+          "children": [
+            {
+              "name": "Invoke-CylanceArtifactAnalysis"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDetectionRuleAnalysis",
+          "children": [
+            {
+              "name": "Invoke-CylanceDetectionRuleAnalysis"
+            }
+          ]
+        },
+        {
+          "name": "CylanceDetectionStats",
+          "children": [
+            {
+              "name": "Invoke-CylanceDetectionStats"
+            }
+          ]
+        },
+        {
+          "name": "CylanceThreatPathAnalysis",
+          "children": [
+            {
+              "name": "Invoke-CylanceThreatPathAnalysis"
+            }
+          ]
+        },
+        {
+          "name": "CylanceOpticsPackages",
+          "children": [
+            {
+              "name": "Backup-CylanceOpticsPackages"
+            }
+          ]
+        },
+        {
+          "name": "CylanceTenant",
+          "children": [
+            {
+              "name": "Backup-CylanceTenant"
+            }
+          ]
+        },
+        {
+          "name": "CylanceIssuerSignatureMissingWizard",
+          "children": [
+            {
+              "name": "Invoke-CylanceIssuerSignatureMissingWizard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

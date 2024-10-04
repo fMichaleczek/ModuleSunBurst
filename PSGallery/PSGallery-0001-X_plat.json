@@ -1,0 +1,27 @@
+{
+  "name": "X plat",
+  "children": [
+    {
+      "name": "appveyorartifacts",
+      "companyName": "X plat",
+      "children": [
+        {
+          "name": "AppveyorBuildArtifacts",
+          "children": [
+            {
+              "name": "Get-AppveyorBuildArtifacts"
+            }
+          ]
+        },
+        {
+          "name": "AppveyorBranchArtifacts",
+          "children": [
+            {
+              "name": "Get-AppveyorBranchArtifacts"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

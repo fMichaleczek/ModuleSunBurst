@@ -1,0 +1,80 @@
+{
+  "name": "Posh Security  poshsecurity.com",
+  "children": [
+    {
+      "name": "AzurePublicIPAddresses",
+      "companyName": "Posh Security  poshsecurity.com",
+      "children": [
+        {
+          "name": "MicrosoftAzureDatacenterIPRange",
+          "children": [
+            {
+              "name": "Get-MicrosoftAzureDatacenterIPRange"
+            }
+          ]
+        },
+        {
+          "name": "MicrosoftAzureDatacenterIPRangeFile",
+          "children": [
+            {
+              "name": "Get-MicrosoftAzureDatacenterIPRangeFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellPushOver",
+      "companyName": "Posh Security  poshsecurity.com",
+      "children": [
+        {
+          "name": "Pushover",
+          "children": [
+            {
+              "name": "Send-Pushover"
+            },
+            {
+              "name": "Test-Pushover"
+            }
+          ]
+        },
+        {
+          "name": "PushoverReceipt",
+          "children": [
+            {
+              "name": "Get-PushoverReceipt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Posh-SubnetTools",
+      "companyName": "Posh Security  poshsecurity.com",
+      "children": [
+        {
+          "name": "SubnetSize",
+          "children": [
+            {
+              "name": "Get-SubnetSize"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Windows2008PFXImport",
+      "companyName": "Posh Security  poshsecurity.com",
+      "children": [
+        {
+          "name": "PfxCertificate",
+          "children": [
+            {
+              "name": "Import-PfxCertificate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

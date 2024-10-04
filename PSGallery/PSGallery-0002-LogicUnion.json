@@ -1,0 +1,249 @@
+{
+  "name": "LogicUnion",
+  "children": [
+    {
+      "name": "AzPseudoGUI",
+      "companyName": "LogicUnion",
+      "children": [
+        {
+          "name": "ResourceGroup",
+          "children": [
+            {
+              "name": "select-ResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "Subscription",
+          "children": [
+            {
+              "name": "select-Subscription"
+            }
+          ]
+        },
+        {
+          "name": "KeyVault",
+          "children": [
+            {
+              "name": "select-KeyVault"
+            }
+          ]
+        },
+        {
+          "name": "encryptionKey",
+          "children": [
+            {
+              "name": "select-encryptionKey"
+            }
+          ]
+        },
+        {
+          "name": "VirtualNetwork",
+          "children": [
+            {
+              "name": "select-VirtualNetwork"
+            }
+          ]
+        },
+        {
+          "name": "Subnet",
+          "children": [
+            {
+              "name": "select-Subnet"
+            }
+          ]
+        },
+        {
+          "name": "StorageAccount",
+          "children": [
+            {
+              "name": "select-StorageAccount"
+            }
+          ]
+        },
+        {
+          "name": "VirtualMachine",
+          "children": [
+            {
+              "name": "select-VirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "recoveryVault",
+          "children": [
+            {
+              "name": "select-recoveryVault"
+            }
+          ]
+        },
+        {
+          "name": "recoveryContainer",
+          "children": [
+            {
+              "name": "select-recoveryContainer"
+            }
+          ]
+        },
+        {
+          "name": "networkSecurityGroup",
+          "children": [
+            {
+              "name": "select-networkSecurityGroup"
+            }
+          ]
+        },
+        {
+          "name": "LogAnalyticsWorkspace",
+          "children": [
+            {
+              "name": "select-LogAnalyticsWorkspace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "eNLib",
+      "companyName": "LogicUnion",
+      "children": [
+        {
+          "name": "Logging",
+          "children": [
+            {
+              "name": "start-Logging"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "write-Log"
+            }
+          ]
+        },
+        {
+          "name": "structuredCSV",
+          "children": [
+            {
+              "name": "import-structuredCSV"
+            }
+          ]
+        },
+        {
+          "name": "XLStoCSV",
+          "children": [
+            {
+              "name": "convert-XLStoCSV"
+            }
+          ]
+        },
+        {
+          "name": "CSVtoXLS",
+          "children": [
+            {
+              "name": "convert-CSVtoXLS"
+            }
+          ]
+        },
+        {
+          "name": "randomPassword",
+          "children": [
+            {
+              "name": "new-randomPassword"
+            }
+          ]
+        },
+        {
+          "name": "QuickEditMode",
+          "children": [
+            {
+              "name": "set-QuickEditMode"
+            }
+          ]
+        },
+        {
+          "name": "answerBox",
+          "children": [
+            {
+              "name": "get-answerBox"
+            }
+          ]
+        },
+        {
+          "name": "valueFromInputBox",
+          "children": [
+            {
+              "name": "get-valueFromInputBox"
+            }
+          ]
+        },
+        {
+          "name": "ADObject",
+          "children": [
+            {
+              "name": "select-ADObject"
+            }
+          ]
+        },
+        {
+          "name": "organizationalUnit",
+          "children": [
+            {
+              "name": "select-organizationalUnit"
+            }
+          ]
+        },
+        {
+          "name": "Directory",
+          "children": [
+            {
+              "name": "select-Directory"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "select-File"
+            }
+          ]
+        },
+        {
+          "name": "XLS",
+          "children": [
+            {
+              "name": "import-XLS"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeConnectionStatus",
+          "children": [
+            {
+              "name": "get-ExchangeConnectionStatus"
+            }
+          ]
+        },
+        {
+          "name": "AzureADConnectionStatus",
+          "children": [
+            {
+              "name": "get-AzureADConnectionStatus"
+            }
+          ]
+        },
+        {
+          "name": "Azure",
+          "children": [
+            {
+              "name": "connect-Azure"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

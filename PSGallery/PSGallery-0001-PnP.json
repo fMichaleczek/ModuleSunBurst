@@ -1,0 +1,38 @@
+{
+  "name": "PnP",
+  "children": [
+    {
+      "name": "PnP.PowerShell.Predictor",
+      "companyName": "PnP",
+      "children": [
+        {
+          "name": "PnPPredictorToolSearch",
+          "children": [
+            {
+              "name": "Set-PnPPredictorToolSearch"
+            }
+          ]
+        },
+        {
+          "name": "PnPPredictorToolSuggestions",
+          "children": [
+            {
+              "name": "Enable-PnPPredictorToolSuggestions"
+            },
+            {
+              "name": "Disable-PnPPredictorToolSuggestions"
+            }
+          ]
+        },
+        {
+          "name": "PnPPowerShellPredictions",
+          "children": [
+            {
+              "name": "Update-PnPPowerShellPredictions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

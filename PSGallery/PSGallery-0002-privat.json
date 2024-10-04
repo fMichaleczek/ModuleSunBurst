@@ -1,0 +1,76 @@
+{
+  "name": "privat",
+  "children": [
+    {
+      "name": "malu",
+      "companyName": "privat",
+      "children": [
+        {
+          "name": "RandomPasswordUser",
+          "children": [
+            {
+              "name": "Get-RandomPasswordUser"
+            }
+          ]
+        },
+        {
+          "name": "RandomPasswordAdmin",
+          "children": [
+            {
+              "name": "Get-RandomPasswordAdmin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pollmodule",
+      "companyName": "privat",
+      "children": [
+        {
+          "name": "Question",
+          "children": [
+            {
+              "name": "Import-Question"
+            }
+          ]
+        },
+        {
+          "name": "Answer",
+          "children": [
+            {
+              "name": "Import-Answer"
+            }
+          ]
+        },
+        {
+          "name": "Poll",
+          "children": [
+            {
+              "name": "New-Poll"
+            }
+          ]
+        },
+        {
+          "name": "Subscriber",
+          "children": [
+            {
+              "name": "New-Subscriber"
+            },
+            {
+              "name": "Invite-Subscriber"
+            }
+          ]
+        },
+        {
+          "name": "Result",
+          "children": [
+            {
+              "name": "Import-Result"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

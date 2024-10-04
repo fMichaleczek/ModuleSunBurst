@@ -1,0 +1,371 @@
+{
+  "name": "MangesBasementIT",
+  "children": [
+    {
+      "name": "PSTopdeskFunctions",
+      "companyName": "MangesBasementIT",
+      "children": [
+        {
+          "name": "TopdeskAPI",
+          "children": [
+            {
+              "name": "Connect-TopdeskAPI"
+            }
+          ]
+        },
+        {
+          "name": "TopdeskAssets",
+          "children": [
+            {
+              "name": "Get-TopdeskAssets"
+            }
+          ]
+        },
+        {
+          "name": "TopdeskSuppliers",
+          "children": [
+            {
+              "name": "Get-TopdeskSuppliers"
+            }
+          ]
+        },
+        {
+          "name": "TopdeskBranch",
+          "children": [
+            {
+              "name": "Get-TopdeskBranch"
+            }
+          ]
+        },
+        {
+          "name": "TopdeskAssetDropdownOptions",
+          "children": [
+            {
+              "name": "Get-TopdeskAssetDropdownOptions"
+            }
+          ]
+        },
+        {
+          "name": "TopdeskAsset",
+          "children": [
+            {
+              "name": "Update-TopdeskAsset"
+            },
+            {
+              "name": "Get-TopdeskAsset"
+            },
+            {
+              "name": "Disable-TopdeskAsset"
+            },
+            {
+              "name": "Enable-TopdeskAsset"
+            },
+            {
+              "name": "New-TopdeskAsset"
+            }
+          ]
+        },
+        {
+          "name": "TopdeskAssetAssignment",
+          "children": [
+            {
+              "name": "New-TopdeskAssetAssignment"
+            }
+          ]
+        },
+        {
+          "name": "TopdeskAssetTemplates",
+          "children": [
+            {
+              "name": "Get-TopdeskAssetTemplates"
+            }
+          ]
+        },
+        {
+          "name": "TopdeskBranches",
+          "children": [
+            {
+              "name": "Get-TopdeskBranches"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSNetboxFunctions",
+      "companyName": "MangesBasementIT",
+      "children": [
+        {
+          "name": "NetboxObjects",
+          "children": [
+            {
+              "name": "Get-NetboxObjects"
+            }
+          ]
+        },
+        {
+          "name": "NetboxConnection",
+          "children": [
+            {
+              "name": "Find-NetboxConnection"
+            }
+          ]
+        },
+        {
+          "name": "NetboxAPI",
+          "children": [
+            {
+              "name": "Connect-NetboxAPI"
+            }
+          ]
+        },
+        {
+          "name": "NetboxTenant",
+          "children": [
+            {
+              "name": "New-NetboxTenant"
+            },
+            {
+              "name": "Update-NetboxTenant"
+            }
+          ]
+        },
+        {
+          "name": "NetboxSite",
+          "children": [
+            {
+              "name": "New-NetboxSite"
+            }
+          ]
+        },
+        {
+          "name": "NetboxObject",
+          "children": [
+            {
+              "name": "Remove-NetboxObject"
+            }
+          ]
+        },
+        {
+          "name": "ValidSlug",
+          "children": [
+            {
+              "name": "ConvertTo-ValidSlug"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSLoggingFunctions",
+      "companyName": "MangesBasementIT",
+      "children": [
+        {
+          "name": "TryCatchLog",
+          "children": [
+            {
+              "name": "Invoke-TryCatchLog"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSHelpFunctions",
+      "companyName": "MangesBasementIT",
+      "children": [
+        {
+          "name": "BadStringCharacters",
+          "children": [
+            {
+              "name": "Remove-BadStringCharacters"
+            }
+          ]
+        },
+        {
+          "name": "ValueWithinString",
+          "children": [
+            {
+              "name": "Get-ValueWithinString"
+            }
+          ]
+        },
+        {
+          "name": "UTF8ToString",
+          "children": [
+            {
+              "name": "Convert-UTF8ToString"
+            }
+          ]
+        },
+        {
+          "name": "ValidDate",
+          "children": [
+            {
+              "name": "Get-ValidDate"
+            }
+          ]
+        },
+        {
+          "name": "SpecialCharacters",
+          "children": [
+            {
+              "name": "Remove-SpecialCharacters"
+            }
+          ]
+        },
+        {
+          "name": "IsNotNULL",
+          "children": [
+            {
+              "name": "IsNotNULL"
+            }
+          ]
+        },
+        {
+          "name": "IsNULL",
+          "children": [
+            {
+              "name": "IsNULL"
+            }
+          ]
+        },
+        {
+          "name": "MultiThreads",
+          "children": [
+            {
+              "name": "Invoke-MultiThreads"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAzureFunctions",
+      "companyName": "MangesBasementIT",
+      "children": [
+        {
+          "name": "GraphAPI",
+          "children": [
+            {
+              "name": "Connect-GraphAPI"
+            }
+          ]
+        },
+        {
+          "name": "AzureGraphAPIConnection",
+          "children": [
+            {
+              "name": "Find-AzureGraphAPIConnection"
+            }
+          ]
+        },
+        {
+          "name": "EndpointManagerDevices",
+          "children": [
+            {
+              "name": "Get-EndpointManagerDevices"
+            }
+          ]
+        },
+        {
+          "name": "EntraIDUsers",
+          "children": [
+            {
+              "name": "Get-EntraIDUsers"
+            }
+          ]
+        },
+        {
+          "name": "AzureTenantSecurityScore",
+          "children": [
+            {
+              "name": "Get-AzureTenantSecurityScore"
+            }
+          ]
+        },
+        {
+          "name": "AzureServicePrincipals",
+          "children": [
+            {
+              "name": "Get-AzureServicePrincipals"
+            }
+          ]
+        },
+        {
+          "name": "AzureServicePrincipalOwner",
+          "children": [
+            {
+              "name": "Get-AzureServicePrincipalOwner"
+            }
+          ]
+        },
+        {
+          "name": "AzureServicePrincipalSignInActivities",
+          "children": [
+            {
+              "name": "Get-AzureServicePrincipalSignInActivities"
+            }
+          ]
+        },
+        {
+          "name": "AzureApplications",
+          "children": [
+            {
+              "name": "Get-AzureApplications"
+            }
+          ]
+        },
+        {
+          "name": "AzureApplicationOwner",
+          "children": [
+            {
+              "name": "Get-AzureApplicationOwner"
+            }
+          ]
+        },
+        {
+          "name": "EndpointManagerDevice",
+          "children": [
+            {
+              "name": "Get-EndpointManagerDevice"
+            },
+            {
+              "name": "Remove-EndpointManagerDevice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS3stepFunctions",
+      "companyName": "MangesBasementIT",
+      "children": [
+        {
+          "name": "3stepAPI",
+          "children": [
+            {
+              "name": "Connect-3stepAPI"
+            }
+          ]
+        },
+        {
+          "name": "3stepDevices",
+          "children": [
+            {
+              "name": "Get-3stepDevices"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "name": "Google Inc",
+  "children": [
+    {
+      "name": "GoogleCloudBeta",
+      "companyName": "Google Inc",
+      "children": [
+        {
+          "name": "BqDataset",
+          "children": [
+            {
+              "name": "Get-BqDataset"
+            },
+            {
+              "name": "Set-BqDataset"
+            },
+            {
+              "name": "New-BqDataset"
+            },
+            {
+              "name": "Remove-BqDataset"
+            }
+          ]
+        },
+        {
+          "name": "BqTable",
+          "children": [
+            {
+              "name": "Get-BqTable"
+            },
+            {
+              "name": "Set-BqTable"
+            },
+            {
+              "name": "New-BqTable"
+            },
+            {
+              "name": "Remove-BqTable"
+            }
+          ]
+        },
+        {
+          "name": "BqSchema",
+          "children": [
+            {
+              "name": "New-BqSchema"
+            },
+            {
+              "name": "Set-BqSchema"
+            }
+          ]
+        },
+        {
+          "name": "BqTableRow",
+          "children": [
+            {
+              "name": "Add-BqTableRow"
+            },
+            {
+              "name": "Get-BqTableRow"
+            }
+          ]
+        },
+        {
+          "name": "BqJob",
+          "children": [
+            {
+              "name": "Get-BqJob"
+            },
+            {
+              "name": "Start-BqJob"
+            },
+            {
+              "name": "Receive-BqJob"
+            },
+            {
+              "name": "Stop-BqJob"
+            }
+          ]
+        },
+        {
+          "name": "GkeCluster",
+          "children": [
+            {
+              "name": "Get-GkeCluster"
+            },
+            {
+              "name": "Add-GkeCluster"
+            },
+            {
+              "name": "Set-GkeCluster"
+            },
+            {
+              "name": "Remove-GkeCluster"
+            }
+          ]
+        },
+        {
+          "name": "GkeNodeConfig",
+          "children": [
+            {
+              "name": "New-GkeNodeConfig"
+            }
+          ]
+        },
+        {
+          "name": "GkeNodePool",
+          "children": [
+            {
+              "name": "Add-GkeNodePool"
+            },
+            {
+              "name": "Get-GkeNodePool"
+            },
+            {
+              "name": "New-GkeNodePool"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GoogleCloud",
+      "companyName": "Google Inc",
+      "children": [
+        {
+          "name": "GcsBucketAcl",
+          "children": [
+            {
+              "name": "Add-GcsBucketAcl"
+            },
+            {
+              "name": "Get-GcsBucketAcl"
+            },
+            {
+              "name": "Remove-GcsBucketAcl"
+            }
+          ]
+        },
+        {
+          "name": "GcsObjectAcl",
+          "children": [
+            {
+              "name": "Add-GcsObjectAcl"
+            },
+            {
+              "name": "Get-GcsObjectAcl"
+            },
+            {
+              "name": "Remove-GcsObjectAcl"
+            }
+          ]
+        },
+        {
+          "name": "GcsDefaultObjectAcl",
+          "children": [
+            {
+              "name": "Add-GcsDefaultObjectAcl"
+            },
+            {
+              "name": "Get-GcsDefaultObjectAcl"
+            },
+            {
+              "name": "Remove-GcsDefaultObjectAcl"
+            }
+          ]
+        },
+        {
+          "name": "GcsBucket",
+          "children": [
+            {
+              "name": "Get-GcsBucket"
+            },
+            {
+              "name": "New-GcsBucket"
+            },
+            {
+              "name": "Remove-GcsBucket"
+            },
+            {
+              "name": "Test-GcsBucket"
+            }
+          ]
+        },
+        {
+          "name": "GcsBucketLogging",
+          "children": [
+            {
+              "name": "Remove-GcsBucketLogging"
+            },
+            {
+              "name": "Write-GcsBucketLogging"
+            }
+          ]
+        },
+        {
+          "name": "GcsBucketWebsite",
+          "children": [
+            {
+              "name": "Remove-GcsBucketWebsite"
+            },
+            {
+              "name": "Write-GcsBucketWebsite"
+            }
+          ]
+        },
+        {
+          "name": "GcsObject",
+          "children": [
+            {
+              "name": "New-GcsObject"
+            },
+            {
+              "name": "Get-GcsObject"
+            },
+            {
+              "name": "Set-GcsObject"
+            },
+            {
+              "name": "Remove-GcsObject"
+            },
+            {
+              "name": "Read-GcsObject"
+            },
+            {
+              "name": "Write-GcsObject"
+            },
+            {
+              "name": "Test-GcsObject"
+            },
+            {
+              "name": "Copy-GcsObject"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlBackupRun",
+          "children": [
+            {
+              "name": "Get-GcSqlBackupRun"
+            },
+            {
+              "name": "Remove-GcSqlBackupRun"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlFlags",
+          "children": [
+            {
+              "name": "Get-GcSqlFlags"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlInstance",
+          "children": [
+            {
+              "name": "Get-GcSqlInstance"
+            },
+            {
+              "name": "Add-GcSqlInstance"
+            },
+            {
+              "name": "Remove-GcSqlInstance"
+            },
+            {
+              "name": "Export-GcSqlInstance"
+            },
+            {
+              "name": "Import-GcSqlInstance"
+            },
+            {
+              "name": "Restart-GcSqlInstance"
+            },
+            {
+              "name": "ConvertTo-GcSqlInstance"
+            },
+            {
+              "name": "Update-GcSqlInstance"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlReplica",
+          "children": [
+            {
+              "name": "Start-GcSqlReplica"
+            },
+            {
+              "name": "Stop-GcSqlReplica"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlInstanceBackup",
+          "children": [
+            {
+              "name": "Restore-GcSqlInstanceBackup"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlInstanceFailover",
+          "children": [
+            {
+              "name": "Invoke-GcSqlInstanceFailover"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlInstanceConfig",
+          "children": [
+            {
+              "name": "New-GcSqlInstanceConfig"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlInstanceReplicaConfig",
+          "children": [
+            {
+              "name": "New-GcSqlInstanceReplicaConfig"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlOperation",
+          "children": [
+            {
+              "name": "Get-GcSqlOperation"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlSettingConfig",
+          "children": [
+            {
+              "name": "New-GcSqlSettingConfig"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlSslCert",
+          "children": [
+            {
+              "name": "Get-GcSqlSslCert"
+            },
+            {
+              "name": "Add-GcSqlSslCert"
+            },
+            {
+              "name": "Remove-GcSqlSslCert"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlSslEphemeral",
+          "children": [
+            {
+              "name": "Add-GcSqlSslEphemeral"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlSslConfig",
+          "children": [
+            {
+              "name": "Reset-GcSqlSslConfig"
+            }
+          ]
+        },
+        {
+          "name": "GcSqlTiers",
+          "children": [
+            {
+              "name": "Get-GcSqlTiers"
+            }
+          ]
+        },
+        {
+          "name": "GcpsMessage",
+          "children": [
+            {
+              "name": "Get-GcpsMessage"
+            },
+            {
+              "name": "New-GcpsMessage"
+            },
+            {
+              "name": "Publish-GcpsMessage"
+            }
+          ]
+        },
+        {
+          "name": "GcpsAck",
+          "children": [
+            {
+              "name": "Send-GcpsAck"
+            }
+          ]
+        },
+        {
+          "name": "GcpsAckDeadline",
+          "children": [
+            {
+              "name": "Set-GcpsAckDeadline"
+            }
+          ]
+        },
+        {
+          "name": "GcpsSubscription",
+          "children": [
+            {
+              "name": "New-GcpsSubscription"
+            },
+            {
+              "name": "Get-GcpsSubscription"
+            },
+            {
+              "name": "Remove-GcpsSubscription"
+            }
+          ]
+        },
+        {
+          "name": "GcpsSubscriptionConfig",
+          "children": [
+            {
+              "name": "Set-GcpsSubscriptionConfig"
+            }
+          ]
+        },
+        {
+          "name": "GcpsTopic",
+          "children": [
+            {
+              "name": "New-GcpsTopic"
+            },
+            {
+              "name": "Get-GcpsTopic"
+            },
+            {
+              "name": "Remove-GcpsTopic"
+            }
+          ]
+        },
+        {
+          "name": "GcLogEntry",
+          "children": [
+            {
+              "name": "Get-GcLogEntry"
+            },
+            {
+              "name": "New-GcLogEntry"
+            }
+          ]
+        },
+        {
+          "name": "GcLogMonitoredResource",
+          "children": [
+            {
+              "name": "New-GcLogMonitoredResource"
+            }
+          ]
+        },
+        {
+          "name": "GcLog",
+          "children": [
+            {
+              "name": "Get-GcLog"
+            },
+            {
+              "name": "Remove-GcLog"
+            }
+          ]
+        },
+        {
+          "name": "GcLogMetric",
+          "children": [
+            {
+              "name": "Get-GcLogMetric"
+            },
+            {
+              "name": "New-GcLogMetric"
+            },
+            {
+              "name": "Set-GcLogMetric"
+            },
+            {
+              "name": "Remove-GcLogMetric"
+            }
+          ]
+        },
+        {
+          "name": "GcLogSink",
+          "children": [
+            {
+              "name": "Get-GcLogSink"
+            },
+            {
+              "name": "New-GcLogSink"
+            },
+            {
+              "name": "Set-GcLogSink"
+            },
+            {
+              "name": "Remove-GcLogSink"
+            }
+          ]
+        },
+        {
+          "name": "GcdChange",
+          "children": [
+            {
+              "name": "Get-GcdChange"
+            },
+            {
+              "name": "Add-GcdChange"
+            }
+          ]
+        },
+        {
+          "name": "GcdManagedZone",
+          "children": [
+            {
+              "name": "Get-GcdManagedZone"
+            },
+            {
+              "name": "Add-GcdManagedZone"
+            },
+            {
+              "name": "Remove-GcdManagedZone"
+            }
+          ]
+        },
+        {
+          "name": "GcdQuota",
+          "children": [
+            {
+              "name": "Get-GcdQuota"
+            }
+          ]
+        },
+        {
+          "name": "GcdResourceRecordSet",
+          "children": [
+            {
+              "name": "Get-GcdResourceRecordSet"
+            },
+            {
+              "name": "New-GcdResourceRecordSet"
+            }
+          ]
+        },
+        {
+          "name": "GkeNodePool",
+          "children": [
+            {
+              "name": "Remove-GkeNodePool"
+            }
+          ]
+        },
+        {
+          "name": "GceMachineType",
+          "children": [
+            {
+              "name": "Get-GceMachineType"
+            }
+          ]
+        },
+        {
+          "name": "GceManagedInstanceGroup",
+          "children": [
+            {
+              "name": "Get-GceManagedInstanceGroup"
+            },
+            {
+              "name": "Add-GceManagedInstanceGroup"
+            },
+            {
+              "name": "Remove-GceManagedInstanceGroup"
+            },
+            {
+              "name": "Set-GceManagedInstanceGroup"
+            },
+            {
+              "name": "Wait-GceManagedInstanceGroup"
+            }
+          ]
+        },
+        {
+          "name": "GceNetwork",
+          "children": [
+            {
+              "name": "New-GceNetwork"
+            },
+            {
+              "name": "Get-GceNetwork"
+            },
+            {
+              "name": "Remove-GceNetwork"
+            }
+          ]
+        },
+        {
+          "name": "GceRoute",
+          "children": [
+            {
+              "name": "Add-GceRoute"
+            },
+            {
+              "name": "Get-GceRoute"
+            },
+            {
+              "name": "Remove-GceRoute"
+            }
+          ]
+        },
+        {
+          "name": "GceSnapshot",
+          "children": [
+            {
+              "name": "Add-GceSnapshot"
+            },
+            {
+              "name": "Get-GceSnapshot"
+            },
+            {
+              "name": "Remove-GceSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "GceAddress",
+          "children": [
+            {
+              "name": "Get-GceAddress"
+            },
+            {
+              "name": "Add-GceAddress"
+            },
+            {
+              "name": "Remove-GceAddress"
+            }
+          ]
+        },
+        {
+          "name": "GceBackendService",
+          "children": [
+            {
+              "name": "Get-GceBackendService"
+            }
+          ]
+        },
+        {
+          "name": "GceAttachedDiskConfig",
+          "children": [
+            {
+              "name": "New-GceAttachedDiskConfig"
+            }
+          ]
+        },
+        {
+          "name": "GceFirewall",
+          "children": [
+            {
+              "name": "Get-GceFirewall"
+            },
+            {
+              "name": "Add-GceFirewall"
+            },
+            {
+              "name": "Remove-GceFirewall"
+            },
+            {
+              "name": "Set-GceFirewall"
+            }
+          ]
+        },
+        {
+          "name": "GceForwardingRule",
+          "children": [
+            {
+              "name": "Get-GceForwardingRule"
+            }
+          ]
+        },
+        {
+          "name": "GceHealthCheck",
+          "children": [
+            {
+              "name": "Add-GceHealthCheck"
+            },
+            {
+              "name": "Get-GceHealthCheck"
+            },
+            {
+              "name": "Remove-GceHealthCheck"
+            },
+            {
+              "name": "Set-GceHealthCheck"
+            }
+          ]
+        },
+        {
+          "name": "GceImage",
+          "children": [
+            {
+              "name": "Get-GceImage"
+            },
+            {
+              "name": "Add-GceImage"
+            },
+            {
+              "name": "Remove-GceImage"
+            },
+            {
+              "name": "Disable-GceImage"
+            }
+          ]
+        },
+        {
+          "name": "GceInstance",
+          "children": [
+            {
+              "name": "Get-GceInstance"
+            },
+            {
+              "name": "Add-GceInstance"
+            },
+            {
+              "name": "Remove-GceInstance"
+            },
+            {
+              "name": "Start-GceInstance"
+            },
+            {
+              "name": "Stop-GceInstance"
+            },
+            {
+              "name": "Restart-GceInstance"
+            },
+            {
+              "name": "Set-GceInstance"
+            }
+          ]
+        },
+        {
+          "name": "GceDisk",
+          "children": [
+            {
+              "name": "Get-GceDisk"
+            },
+            {
+              "name": "New-GceDisk"
+            },
+            {
+              "name": "Resize-GceDisk"
+            },
+            {
+              "name": "Remove-GceDisk"
+            }
+          ]
+        },
+        {
+          "name": "GceInstanceConfig",
+          "children": [
+            {
+              "name": "New-GceInstanceConfig"
+            }
+          ]
+        },
+        {
+          "name": "GceInstanceTemplate",
+          "children": [
+            {
+              "name": "Get-GceInstanceTemplate"
+            },
+            {
+              "name": "Add-GceInstanceTemplate"
+            },
+            {
+              "name": "Remove-GceInstanceTemplate"
+            }
+          ]
+        },
+        {
+          "name": "GceMetadata",
+          "children": [
+            {
+              "name": "Get-GceMetadata"
+            }
+          ]
+        },
+        {
+          "name": "GceServiceAccountConfig",
+          "children": [
+            {
+              "name": "New-GceServiceAccountConfig"
+            }
+          ]
+        },
+        {
+          "name": "GceTargetPool",
+          "children": [
+            {
+              "name": "Get-GceTargetPool"
+            },
+            {
+              "name": "Set-GceTargetPool"
+            }
+          ]
+        },
+        {
+          "name": "GceTargetProxy",
+          "children": [
+            {
+              "name": "Get-GceTargetProxy"
+            }
+          ]
+        },
+        {
+          "name": "GceUrlMap",
+          "children": [
+            {
+              "name": "Get-GceUrlMap"
+            }
+          ]
+        },
+        {
+          "name": "GceFirewallProtocol",
+          "children": [
+            {
+              "name": "New-GceFirewallProtocol"
+            }
+          ]
+        },
+        {
+          "name": "GcpProject",
+          "children": [
+            {
+              "name": "Get-GcpProject"
+            }
+          ]
+        },
+        {
+          "name": "GcIamPolicyBinding",
+          "children": [
+            {
+              "name": "Get-GcIamPolicyBinding"
+            },
+            {
+              "name": "Add-GcIamPolicyBinding"
+            },
+            {
+              "name": "Remove-GcIamPolicyBinding"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

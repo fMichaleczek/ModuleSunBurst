@@ -1,0 +1,3711 @@
+{
+  "name": "SDL plc",
+  "children": [
+    {
+      "name": "ISHServer.15",
+      "companyName": "SDL plc",
+      "children": [
+        {
+          "name": "ISHCD",
+          "children": [
+            {
+              "name": "Expand-ISHCD"
+            },
+            {
+              "name": "Get-ISHCD"
+            }
+          ]
+        },
+        {
+          "name": "ISHNETInfo",
+          "children": [
+            {
+              "name": "Get-ISHNETInfo"
+            }
+          ]
+        },
+        {
+          "name": "ISHNormalizedCredential",
+          "children": [
+            {
+              "name": "Get-ISHNormalizedCredential"
+            }
+          ]
+        },
+        {
+          "name": "ISHOSInfo",
+          "children": [
+            {
+              "name": "Get-ISHOSInfo"
+            }
+          ]
+        },
+        {
+          "name": "ISHPrerequisites",
+          "children": [
+            {
+              "name": "Get-ISHPrerequisites"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerCOMPlus",
+          "children": [
+            {
+              "name": "Get-ISHServerCOMPlus"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerFolderPath",
+          "children": [
+            {
+              "name": "Get-ISHServerFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLogOnAsService",
+          "children": [
+            {
+              "name": "Grant-ISHUserLogOnAsService"
+            }
+          ]
+        },
+        {
+          "name": "ISHIIS",
+          "children": [
+            {
+              "name": "Initialize-ISHIIS"
+            }
+          ]
+        },
+        {
+          "name": "ISHLocale",
+          "children": [
+            {
+              "name": "Initialize-ISHLocale"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegional",
+          "children": [
+            {
+              "name": "Initialize-ISHRegional"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegionalDefault",
+          "children": [
+            {
+              "name": "Initialize-ISHRegionalDefault"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegistry",
+          "children": [
+            {
+              "name": "Initialize-ISHRegistry"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLocalProfile",
+          "children": [
+            {
+              "name": "Initialize-ISHUserLocalProfile"
+            }
+          ]
+        },
+        {
+          "name": "ISHDotNetHosting",
+          "children": [
+            {
+              "name": "Install-ISHDotNetHosting"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolAntennaHouse",
+          "children": [
+            {
+              "name": "Install-ISHToolAntennaHouse"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolDotNET",
+          "children": [
+            {
+              "name": "Install-ISHToolDotNET"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolEclipseTemurinOpenJDK",
+          "children": [
+            {
+              "name": "Install-ISHToolEclipseTemurinOpenJDK"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolHtmlHelp",
+          "children": [
+            {
+              "name": "Install-ISHToolHtmlHelp"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolJavaHelp",
+          "children": [
+            {
+              "name": "Install-ISHToolJavaHelp"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolMSOLEDBSQL",
+          "children": [
+            {
+              "name": "Install-ISHToolMSOLEDBSQL"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolOracleODAC",
+          "children": [
+            {
+              "name": "Install-ISHToolOracleODAC"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolOracleODACv19",
+          "children": [
+            {
+              "name": "Install-ISHToolOracleODACv19"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolVisualCPP",
+          "children": [
+            {
+              "name": "Install-ISHToolVisualCPP"
+            }
+          ]
+        },
+        {
+          "name": "ISHVisualBasicRuntime",
+          "children": [
+            {
+              "name": "Install-ISHVisualBasicRuntime"
+            }
+          ]
+        },
+        {
+          "name": "ISHWindowsFeature",
+          "children": [
+            {
+              "name": "Install-ISHWindowsFeature"
+            }
+          ]
+        },
+        {
+          "name": "ISHWindowsFeatureIISWinAuth",
+          "children": [
+            {
+              "name": "Install-ISHWindowsFeatureIISWinAuth"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallHTTPS",
+          "children": [
+            {
+              "name": "Set-ISHFirewallHTTPS"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallNETBIOS",
+          "children": [
+            {
+              "name": "Set-ISHFirewallNETBIOS"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallOracle",
+          "children": [
+            {
+              "name": "Set-ISHFirewallOracle"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallSMTP",
+          "children": [
+            {
+              "name": "Set-ISHFirewallSMTP"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallSQLServer",
+          "children": [
+            {
+              "name": "Set-ISHFirewallSQLServer"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolAntennaHouseLicense",
+          "children": [
+            {
+              "name": "Set-ISHToolAntennaHouseLicense"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserAdministrator",
+          "children": [
+            {
+              "name": "Set-ISHUserAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLocal",
+          "children": [
+            {
+              "name": "Set-ISHUserLocal"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerCompliance",
+          "children": [
+            {
+              "name": "Test-ISHServerCompliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISHServer.14",
+      "companyName": "SDL plc",
+      "children": [
+        {
+          "name": "ISHCD",
+          "children": [
+            {
+              "name": "Expand-ISHCD"
+            },
+            {
+              "name": "Get-ISHCD"
+            }
+          ]
+        },
+        {
+          "name": "ISHNETInfo",
+          "children": [
+            {
+              "name": "Get-ISHNETInfo"
+            }
+          ]
+        },
+        {
+          "name": "ISHNormalizedCredential",
+          "children": [
+            {
+              "name": "Get-ISHNormalizedCredential"
+            }
+          ]
+        },
+        {
+          "name": "ISHOSInfo",
+          "children": [
+            {
+              "name": "Get-ISHOSInfo"
+            }
+          ]
+        },
+        {
+          "name": "ISHPrerequisites",
+          "children": [
+            {
+              "name": "Get-ISHPrerequisites"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerCOMPlus",
+          "children": [
+            {
+              "name": "Get-ISHServerCOMPlus"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerFolderPath",
+          "children": [
+            {
+              "name": "Get-ISHServerFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLogOnAsService",
+          "children": [
+            {
+              "name": "Grant-ISHUserLogOnAsService"
+            }
+          ]
+        },
+        {
+          "name": "ISHIIS",
+          "children": [
+            {
+              "name": "Initialize-ISHIIS"
+            }
+          ]
+        },
+        {
+          "name": "ISHLocale",
+          "children": [
+            {
+              "name": "Initialize-ISHLocale"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegional",
+          "children": [
+            {
+              "name": "Initialize-ISHRegional"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegionalDefault",
+          "children": [
+            {
+              "name": "Initialize-ISHRegionalDefault"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegistry",
+          "children": [
+            {
+              "name": "Initialize-ISHRegistry"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLocalProfile",
+          "children": [
+            {
+              "name": "Initialize-ISHUserLocalProfile"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolAdoptOpenJDK",
+          "children": [
+            {
+              "name": "Install-ISHToolAdoptOpenJDK"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolAdoptOpenJRE",
+          "children": [
+            {
+              "name": "Install-ISHToolAdoptOpenJRE"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolAntennaHouse",
+          "children": [
+            {
+              "name": "Install-ISHToolAntennaHouse"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolDotNET",
+          "children": [
+            {
+              "name": "Install-ISHToolDotNET"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolHtmlHelp",
+          "children": [
+            {
+              "name": "Install-ISHToolHtmlHelp"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolJAVA",
+          "children": [
+            {
+              "name": "Install-ISHToolJAVA"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolJavaHelp",
+          "children": [
+            {
+              "name": "Install-ISHToolJavaHelp"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolMSOLEDBSQL",
+          "children": [
+            {
+              "name": "Install-ISHToolMSOLEDBSQL"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolOracleODAC",
+          "children": [
+            {
+              "name": "Install-ISHToolOracleODAC"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolOracleODACv19",
+          "children": [
+            {
+              "name": "Install-ISHToolOracleODACv19"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolVisualCPP",
+          "children": [
+            {
+              "name": "Install-ISHToolVisualCPP"
+            }
+          ]
+        },
+        {
+          "name": "ISHVisualBasicRuntime",
+          "children": [
+            {
+              "name": "Install-ISHVisualBasicRuntime"
+            }
+          ]
+        },
+        {
+          "name": "ISHWindowsFeature",
+          "children": [
+            {
+              "name": "Install-ISHWindowsFeature"
+            }
+          ]
+        },
+        {
+          "name": "ISHWindowsFeatureIISWinAuth",
+          "children": [
+            {
+              "name": "Install-ISHWindowsFeatureIISWinAuth"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallHTTPS",
+          "children": [
+            {
+              "name": "Set-ISHFirewallHTTPS"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallNETBIOS",
+          "children": [
+            {
+              "name": "Set-ISHFirewallNETBIOS"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallOracle",
+          "children": [
+            {
+              "name": "Set-ISHFirewallOracle"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallSMTP",
+          "children": [
+            {
+              "name": "Set-ISHFirewallSMTP"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallSQLServer",
+          "children": [
+            {
+              "name": "Set-ISHFirewallSQLServer"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolAntennaHouseLicense",
+          "children": [
+            {
+              "name": "Set-ISHToolAntennaHouseLicense"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserAdministrator",
+          "children": [
+            {
+              "name": "Set-ISHUserAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLocal",
+          "children": [
+            {
+              "name": "Set-ISHUserLocal"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerCompliance",
+          "children": [
+            {
+              "name": "Test-ISHServerCompliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISHServer.13",
+      "companyName": "SDL plc",
+      "children": [
+        {
+          "name": "ISHCD",
+          "children": [
+            {
+              "name": "Expand-ISHCD"
+            },
+            {
+              "name": "Get-ISHCD"
+            }
+          ]
+        },
+        {
+          "name": "ISHNETInfo",
+          "children": [
+            {
+              "name": "Get-ISHNETInfo"
+            }
+          ]
+        },
+        {
+          "name": "ISHNormalizedCredential",
+          "children": [
+            {
+              "name": "Get-ISHNormalizedCredential"
+            }
+          ]
+        },
+        {
+          "name": "ISHOSInfo",
+          "children": [
+            {
+              "name": "Get-ISHOSInfo"
+            }
+          ]
+        },
+        {
+          "name": "ISHPrerequisites",
+          "children": [
+            {
+              "name": "Get-ISHPrerequisites"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerCOMPlus",
+          "children": [
+            {
+              "name": "Get-ISHServerCOMPlus"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerFolderPath",
+          "children": [
+            {
+              "name": "Get-ISHServerFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLogOnAsService",
+          "children": [
+            {
+              "name": "Grant-ISHUserLogOnAsService"
+            }
+          ]
+        },
+        {
+          "name": "ISHIIS",
+          "children": [
+            {
+              "name": "Initialize-ISHIIS"
+            }
+          ]
+        },
+        {
+          "name": "ISHLocale",
+          "children": [
+            {
+              "name": "Initialize-ISHLocale"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegional",
+          "children": [
+            {
+              "name": "Initialize-ISHRegional"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegionalDefault",
+          "children": [
+            {
+              "name": "Initialize-ISHRegionalDefault"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegistry",
+          "children": [
+            {
+              "name": "Initialize-ISHRegistry"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLocalProfile",
+          "children": [
+            {
+              "name": "Initialize-ISHUserLocalProfile"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolAntennaHouse",
+          "children": [
+            {
+              "name": "Install-ISHToolAntennaHouse"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolDotNET",
+          "children": [
+            {
+              "name": "Install-ISHToolDotNET"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolHtmlHelp",
+          "children": [
+            {
+              "name": "Install-ISHToolHtmlHelp"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolJAVA",
+          "children": [
+            {
+              "name": "Install-ISHToolJAVA"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolJavaHelp",
+          "children": [
+            {
+              "name": "Install-ISHToolJavaHelp"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolOracleODAC",
+          "children": [
+            {
+              "name": "Install-ISHToolOracleODAC"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolVisualCPP",
+          "children": [
+            {
+              "name": "Install-ISHToolVisualCPP"
+            }
+          ]
+        },
+        {
+          "name": "ISHVisualBasicRuntime",
+          "children": [
+            {
+              "name": "Install-ISHVisualBasicRuntime"
+            }
+          ]
+        },
+        {
+          "name": "ISHWindowsFeature",
+          "children": [
+            {
+              "name": "Install-ISHWindowsFeature"
+            }
+          ]
+        },
+        {
+          "name": "ISHWindowsFeatureIISWinAuth",
+          "children": [
+            {
+              "name": "Install-ISHWindowsFeatureIISWinAuth"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallHTTPS",
+          "children": [
+            {
+              "name": "Set-ISHFirewallHTTPS"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallNETBIOS",
+          "children": [
+            {
+              "name": "Set-ISHFirewallNETBIOS"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallOracle",
+          "children": [
+            {
+              "name": "Set-ISHFirewallOracle"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallSMTP",
+          "children": [
+            {
+              "name": "Set-ISHFirewallSMTP"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallSQLServer",
+          "children": [
+            {
+              "name": "Set-ISHFirewallSQLServer"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolAntennaHouseLicense",
+          "children": [
+            {
+              "name": "Set-ISHToolAntennaHouseLicense"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserAdministrator",
+          "children": [
+            {
+              "name": "Set-ISHUserAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLocal",
+          "children": [
+            {
+              "name": "Set-ISHUserLocal"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerCompliance",
+          "children": [
+            {
+              "name": "Test-ISHServerCompliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISHServer.12",
+      "companyName": "SDL plc",
+      "children": [
+        {
+          "name": "ISHCD",
+          "children": [
+            {
+              "name": "Expand-ISHCD"
+            },
+            {
+              "name": "Get-ISHCD"
+            }
+          ]
+        },
+        {
+          "name": "ISHNETInfo",
+          "children": [
+            {
+              "name": "Get-ISHNETInfo"
+            }
+          ]
+        },
+        {
+          "name": "ISHNormalizedCredential",
+          "children": [
+            {
+              "name": "Get-ISHNormalizedCredential"
+            }
+          ]
+        },
+        {
+          "name": "ISHOSInfo",
+          "children": [
+            {
+              "name": "Get-ISHOSInfo"
+            }
+          ]
+        },
+        {
+          "name": "ISHPrerequisites",
+          "children": [
+            {
+              "name": "Get-ISHPrerequisites"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerCOMPlus",
+          "children": [
+            {
+              "name": "Get-ISHServerCOMPlus"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerFolderPath",
+          "children": [
+            {
+              "name": "Get-ISHServerFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLogOnAsService",
+          "children": [
+            {
+              "name": "Grant-ISHUserLogOnAsService"
+            }
+          ]
+        },
+        {
+          "name": "ISHIIS",
+          "children": [
+            {
+              "name": "Initialize-ISHIIS"
+            }
+          ]
+        },
+        {
+          "name": "ISHLocale",
+          "children": [
+            {
+              "name": "Initialize-ISHLocale"
+            }
+          ]
+        },
+        {
+          "name": "ISHMSDTCSettings",
+          "children": [
+            {
+              "name": "Initialize-ISHMSDTCSettings"
+            }
+          ]
+        },
+        {
+          "name": "ISHMSDTCTransactionTimeout",
+          "children": [
+            {
+              "name": "Initialize-ISHMSDTCTransactionTimeout"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegional",
+          "children": [
+            {
+              "name": "Initialize-ISHRegional"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegionalDefault",
+          "children": [
+            {
+              "name": "Initialize-ISHRegionalDefault"
+            }
+          ]
+        },
+        {
+          "name": "ISHRegistry",
+          "children": [
+            {
+              "name": "Initialize-ISHRegistry"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLocalProfile",
+          "children": [
+            {
+              "name": "Initialize-ISHUserLocalProfile"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolAntennaHouse",
+          "children": [
+            {
+              "name": "Install-ISHToolAntennaHouse"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolDotNET",
+          "children": [
+            {
+              "name": "Install-ISHToolDotNET"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolHtmlHelp",
+          "children": [
+            {
+              "name": "Install-ISHToolHtmlHelp"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolJAVA",
+          "children": [
+            {
+              "name": "Install-ISHToolJAVA"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolJavaHelp",
+          "children": [
+            {
+              "name": "Install-ISHToolJavaHelp"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolMSXML4",
+          "children": [
+            {
+              "name": "Install-ISHToolMSXML4"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolOracleODAC",
+          "children": [
+            {
+              "name": "Install-ISHToolOracleODAC"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolVisualCPP",
+          "children": [
+            {
+              "name": "Install-ISHToolVisualCPP"
+            }
+          ]
+        },
+        {
+          "name": "ISHVisualBasicRuntime",
+          "children": [
+            {
+              "name": "Install-ISHVisualBasicRuntime"
+            }
+          ]
+        },
+        {
+          "name": "ISHWindowsFeature",
+          "children": [
+            {
+              "name": "Install-ISHWindowsFeature"
+            }
+          ]
+        },
+        {
+          "name": "ISHWindowsFeatureIISWinAuth",
+          "children": [
+            {
+              "name": "Install-ISHWindowsFeatureIISWinAuth"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallHTTPS",
+          "children": [
+            {
+              "name": "Set-ISHFirewallHTTPS"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallMSDTC",
+          "children": [
+            {
+              "name": "Set-ISHFirewallMSDTC"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallNETBIOS",
+          "children": [
+            {
+              "name": "Set-ISHFirewallNETBIOS"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallOracle",
+          "children": [
+            {
+              "name": "Set-ISHFirewallOracle"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallSMTP",
+          "children": [
+            {
+              "name": "Set-ISHFirewallSMTP"
+            }
+          ]
+        },
+        {
+          "name": "ISHFirewallSQLServer",
+          "children": [
+            {
+              "name": "Set-ISHFirewallSQLServer"
+            }
+          ]
+        },
+        {
+          "name": "ISHToolAntennaHouseLicense",
+          "children": [
+            {
+              "name": "Set-ISHToolAntennaHouseLicense"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserAdministrator",
+          "children": [
+            {
+              "name": "Set-ISHUserAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "ISHUserLocal",
+          "children": [
+            {
+              "name": "Set-ISHUserLocal"
+            }
+          ]
+        },
+        {
+          "name": "ISHServerCompliance",
+          "children": [
+            {
+              "name": "Test-ISHServerCompliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISHDeploy.13.0",
+      "companyName": "SDL plc",
+      "children": [
+        {
+          "name": "ISHCMFile",
+          "children": [
+            {
+              "name": "Copy-ISHCMFile"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMPackage",
+          "children": [
+            {
+              "name": "Expand-ISHCMPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHUITranslationJob",
+          "children": [
+            {
+              "name": "Disable-ISHUITranslationJob"
+            },
+            {
+              "name": "Enable-ISHUITranslationJob"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIQualityAssistant",
+          "children": [
+            {
+              "name": "Disable-ISHUIQualityAssistant"
+            },
+            {
+              "name": "Enable-ISHUIQualityAssistant"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIContentEditor",
+          "children": [
+            {
+              "name": "Disable-ISHUIContentEditor"
+            },
+            {
+              "name": "Enable-ISHUIContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHExternalPreview",
+          "children": [
+            {
+              "name": "Disable-ISHExternalPreview"
+            },
+            {
+              "name": "Enable-ISHExternalPreview"
+            }
+          ]
+        },
+        {
+          "name": "ISHContentEditor",
+          "children": [
+            {
+              "name": "Set-ISHContentEditor"
+            },
+            {
+              "name": "Test-ISHContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIEventMonitorMenuBarItem",
+          "children": [
+            {
+              "name": "Set-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Move-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIEventMonitorMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUISearchMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUISearchMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIMainMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUIMainMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIButtonBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Remove-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Set-ISHUIButtonBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSRelyingParty",
+          "children": [
+            {
+              "name": "Set-ISHSTSRelyingParty"
+            },
+            {
+              "name": "Get-ISHSTSRelyingParty"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTS",
+          "children": [
+            {
+              "name": "Reset-ISHSTS"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSConfiguration",
+          "children": [
+            {
+              "name": "Set-ISHSTSConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSConfigurationPackage",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationSTSConfigurationPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSFederation",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSFederation"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSTrust",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSTrust"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSInternalAuthentication",
+          "children": [
+            {
+              "name": "Disable-ISHIntegrationSTSInternalAuthentication"
+            },
+            {
+              "name": "Enable-ISHIntegrationSTSInternalAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSCertificate",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationSTSCertificate"
+            },
+            {
+              "name": "Set-ISHIntegrationSTSCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMCUILResourceGroup",
+          "children": [
+            {
+              "name": "Set-ISHCMCUILResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "ISHPackageFolderPath",
+          "children": [
+            {
+              "name": "Get-ISHPackageFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ISHAPIWCFServiceCertificate",
+          "children": [
+            {
+              "name": "Set-ISHAPIWCFServiceCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHMaintenance",
+          "children": [
+            {
+              "name": "Invoke-ISHMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationDB",
+          "children": [
+            {
+              "name": "Get-ISHIntegrationDB"
+            },
+            {
+              "name": "Set-ISHIntegrationDB"
+            },
+            {
+              "name": "Test-ISHIntegrationDB"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationDBSTSSQLServerConfiguration",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationDBSTSSQLServerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeployment",
+          "children": [
+            {
+              "name": "Restart-ISHDeployment"
+            },
+            {
+              "name": "Start-ISHDeployment"
+            },
+            {
+              "name": "Stop-ISHDeployment"
+            },
+            {
+              "name": "Backup-ISHDeployment"
+            },
+            {
+              "name": "Get-ISHDeployment"
+            },
+            {
+              "name": "Undo-ISHDeployment"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentHistory",
+          "children": [
+            {
+              "name": "Clear-ISHDeploymentHistory"
+            },
+            {
+              "name": "Get-ISHDeploymentHistory"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentParameters",
+          "children": [
+            {
+              "name": "Get-ISHDeploymentParameters"
+            }
+          ]
+        },
+        {
+          "name": "ISHActor",
+          "children": [
+            {
+              "name": "Set-ISHActor"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceUser",
+          "children": [
+            {
+              "name": "Set-ISHServiceUser"
+            }
+          ]
+        },
+        {
+          "name": "ISHOSUser",
+          "children": [
+            {
+              "name": "Set-ISHOSUser"
+            }
+          ]
+        },
+        {
+          "name": "ISHIISAppPool",
+          "children": [
+            {
+              "name": "Get-ISHIISAppPool"
+            },
+            {
+              "name": "Enable-ISHIISAppPool"
+            },
+            {
+              "name": "Disable-ISHIISAppPool"
+            }
+          ]
+        },
+        {
+          "name": "ISHCOMPlus",
+          "children": [
+            {
+              "name": "Get-ISHCOMPlus"
+            },
+            {
+              "name": "Disable-ISHCOMPlus"
+            },
+            {
+              "name": "Enable-ISHCOMPlus"
+            }
+          ]
+        },
+        {
+          "name": "ISHComponent",
+          "children": [
+            {
+              "name": "Get-ISHComponent"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationOrganizer",
+          "children": [
+            {
+              "name": "Disable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Get-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Set-ISHServiceTranslationOrganizer"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationBuilder",
+          "children": [
+            {
+              "name": "Get-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Set-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Disable-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationBuilder"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSTemplate",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ISHFieldMetadata",
+          "children": [
+            {
+              "name": "New-ISHFieldMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServerMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationWorldServerMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHTranslationFileSystemExport",
+          "children": [
+            {
+              "name": "Remove-ISHTranslationFileSystemExport"
+            },
+            {
+              "name": "Set-ISHTranslationFileSystemExport"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMS",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationTMS"
+            },
+            {
+              "name": "Set-ISHIntegrationTMS"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServer",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationWorldServer"
+            },
+            {
+              "name": "Set-ISHIntegrationWorldServer"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceCrawler",
+          "children": [
+            {
+              "name": "Set-ISHServiceCrawler"
+            },
+            {
+              "name": "Disable-ISHServiceCrawler"
+            },
+            {
+              "name": "Enable-ISHServiceCrawler"
+            },
+            {
+              "name": "Get-ISHServiceCrawler"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationFullTextIndex",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationFullTextIndex"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceFullTextIndex",
+          "children": [
+            {
+              "name": "Disable-ISHServiceFullTextIndex"
+            },
+            {
+              "name": "Enable-ISHServiceFullTextIndex"
+            },
+            {
+              "name": "Get-ISHServiceFullTextIndex"
+            },
+            {
+              "name": "Set-ISHServiceFullTextIndex"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceBackgroundTask",
+          "children": [
+            {
+              "name": "Remove-ISHServiceBackgroundTask"
+            },
+            {
+              "name": "Disable-ISHServiceBackgroundTask"
+            },
+            {
+              "name": "Enable-ISHServiceBackgroundTask"
+            },
+            {
+              "name": "Get-ISHServiceBackgroundTask"
+            },
+            {
+              "name": "Set-ISHServiceBackgroundTask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISHDeploy.12.0.4",
+      "companyName": "SDL plc",
+      "children": [
+        {
+          "name": "ISHCMFile",
+          "children": [
+            {
+              "name": "Copy-ISHCMFile"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMPackage",
+          "children": [
+            {
+              "name": "Expand-ISHCMPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHUITranslationJob",
+          "children": [
+            {
+              "name": "Disable-ISHUITranslationJob"
+            },
+            {
+              "name": "Enable-ISHUITranslationJob"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIQualityAssistant",
+          "children": [
+            {
+              "name": "Disable-ISHUIQualityAssistant"
+            },
+            {
+              "name": "Enable-ISHUIQualityAssistant"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIContentEditor",
+          "children": [
+            {
+              "name": "Disable-ISHUIContentEditor"
+            },
+            {
+              "name": "Enable-ISHUIContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHExternalPreview",
+          "children": [
+            {
+              "name": "Disable-ISHExternalPreview"
+            },
+            {
+              "name": "Enable-ISHExternalPreview"
+            }
+          ]
+        },
+        {
+          "name": "ISHContentEditor",
+          "children": [
+            {
+              "name": "Set-ISHContentEditor"
+            },
+            {
+              "name": "Test-ISHContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIEventMonitorMenuBarItem",
+          "children": [
+            {
+              "name": "Set-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Move-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIEventMonitorMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUISearchMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUISearchMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIMainMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUIMainMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIButtonBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Remove-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Set-ISHUIButtonBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSRelyingParty",
+          "children": [
+            {
+              "name": "Set-ISHSTSRelyingParty"
+            },
+            {
+              "name": "Get-ISHSTSRelyingParty"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTS",
+          "children": [
+            {
+              "name": "Reset-ISHSTS"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSConfiguration",
+          "children": [
+            {
+              "name": "Set-ISHSTSConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSConfigurationPackage",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationSTSConfigurationPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSFederation",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSFederation"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSTrust",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSTrust"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSInternalAuthentication",
+          "children": [
+            {
+              "name": "Disable-ISHIntegrationSTSInternalAuthentication"
+            },
+            {
+              "name": "Enable-ISHIntegrationSTSInternalAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSCertificate",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationSTSCertificate"
+            },
+            {
+              "name": "Set-ISHIntegrationSTSCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationDBSTSSQLServerConfiguration",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationDBSTSSQLServerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentHistory",
+          "children": [
+            {
+              "name": "Clear-ISHDeploymentHistory"
+            },
+            {
+              "name": "Get-ISHDeploymentHistory"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentParameters",
+          "children": [
+            {
+              "name": "Get-ISHDeploymentParameters"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeployment",
+          "children": [
+            {
+              "name": "Backup-ISHDeployment"
+            },
+            {
+              "name": "Get-ISHDeployment"
+            },
+            {
+              "name": "Undo-ISHDeployment"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMCUILResourceGroup",
+          "children": [
+            {
+              "name": "Set-ISHCMCUILResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "ISHPackageFolderPath",
+          "children": [
+            {
+              "name": "Get-ISHPackageFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ISHAPIWCFServiceCertificate",
+          "children": [
+            {
+              "name": "Set-ISHAPIWCFServiceCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationOrganizer",
+          "children": [
+            {
+              "name": "Disable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Get-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Set-ISHServiceTranslationOrganizer"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationBuilder",
+          "children": [
+            {
+              "name": "Get-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Set-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Disable-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationBuilder"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSTemplate",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ISHFieldMetadata",
+          "children": [
+            {
+              "name": "New-ISHFieldMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServerMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationWorldServerMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHTranslationFileSystemExport",
+          "children": [
+            {
+              "name": "Remove-ISHTranslationFileSystemExport"
+            },
+            {
+              "name": "Set-ISHTranslationFileSystemExport"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMS",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationTMS"
+            },
+            {
+              "name": "Set-ISHIntegrationTMS"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServer",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationWorldServer"
+            },
+            {
+              "name": "Set-ISHIntegrationWorldServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISHDeploy.12.0.3",
+      "companyName": "SDL plc",
+      "children": [
+        {
+          "name": "ISHCMFile",
+          "children": [
+            {
+              "name": "Copy-ISHCMFile"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMPackage",
+          "children": [
+            {
+              "name": "Expand-ISHCMPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHUITranslationJob",
+          "children": [
+            {
+              "name": "Disable-ISHUITranslationJob"
+            },
+            {
+              "name": "Enable-ISHUITranslationJob"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIQualityAssistant",
+          "children": [
+            {
+              "name": "Disable-ISHUIQualityAssistant"
+            },
+            {
+              "name": "Enable-ISHUIQualityAssistant"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIContentEditor",
+          "children": [
+            {
+              "name": "Disable-ISHUIContentEditor"
+            },
+            {
+              "name": "Enable-ISHUIContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHExternalPreview",
+          "children": [
+            {
+              "name": "Disable-ISHExternalPreview"
+            },
+            {
+              "name": "Enable-ISHExternalPreview"
+            }
+          ]
+        },
+        {
+          "name": "ISHContentEditor",
+          "children": [
+            {
+              "name": "Set-ISHContentEditor"
+            },
+            {
+              "name": "Test-ISHContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIEventMonitorMenuBarItem",
+          "children": [
+            {
+              "name": "Set-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Move-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIEventMonitorMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUISearchMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUISearchMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIMainMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUIMainMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIButtonBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Remove-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Set-ISHUIButtonBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSRelyingParty",
+          "children": [
+            {
+              "name": "Set-ISHSTSRelyingParty"
+            },
+            {
+              "name": "Get-ISHSTSRelyingParty"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTS",
+          "children": [
+            {
+              "name": "Reset-ISHSTS"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSConfiguration",
+          "children": [
+            {
+              "name": "Set-ISHSTSConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSConfigurationPackage",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationSTSConfigurationPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSFederation",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSFederation"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSTrust",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSTrust"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSInternalAuthentication",
+          "children": [
+            {
+              "name": "Disable-ISHIntegrationSTSInternalAuthentication"
+            },
+            {
+              "name": "Enable-ISHIntegrationSTSInternalAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSCertificate",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationSTSCertificate"
+            },
+            {
+              "name": "Set-ISHIntegrationSTSCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationDBSTSSQLServerConfiguration",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationDBSTSSQLServerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentHistory",
+          "children": [
+            {
+              "name": "Clear-ISHDeploymentHistory"
+            },
+            {
+              "name": "Get-ISHDeploymentHistory"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentParameters",
+          "children": [
+            {
+              "name": "Get-ISHDeploymentParameters"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeployment",
+          "children": [
+            {
+              "name": "Backup-ISHDeployment"
+            },
+            {
+              "name": "Get-ISHDeployment"
+            },
+            {
+              "name": "Undo-ISHDeployment"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMCUILResourceGroup",
+          "children": [
+            {
+              "name": "Set-ISHCMCUILResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "ISHPackageFolderPath",
+          "children": [
+            {
+              "name": "Get-ISHPackageFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ISHAPIWCFServiceCertificate",
+          "children": [
+            {
+              "name": "Set-ISHAPIWCFServiceCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationOrganizer",
+          "children": [
+            {
+              "name": "Disable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Get-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Set-ISHServiceTranslationOrganizer"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationBuilder",
+          "children": [
+            {
+              "name": "Get-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Set-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Disable-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationBuilder"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSTemplate",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ISHFieldMetadata",
+          "children": [
+            {
+              "name": "New-ISHFieldMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServerMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationWorldServerMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHTranslationFileSystemExport",
+          "children": [
+            {
+              "name": "Remove-ISHTranslationFileSystemExport"
+            },
+            {
+              "name": "Set-ISHTranslationFileSystemExport"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMS",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationTMS"
+            },
+            {
+              "name": "Set-ISHIntegrationTMS"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServer",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationWorldServer"
+            },
+            {
+              "name": "Set-ISHIntegrationWorldServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISHDeploy.12.0.1",
+      "companyName": "SDL plc",
+      "children": [
+        {
+          "name": "ISHCMFile",
+          "children": [
+            {
+              "name": "Copy-ISHCMFile"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMPackage",
+          "children": [
+            {
+              "name": "Expand-ISHCMPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHUITranslationJob",
+          "children": [
+            {
+              "name": "Disable-ISHUITranslationJob"
+            },
+            {
+              "name": "Enable-ISHUITranslationJob"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIQualityAssistant",
+          "children": [
+            {
+              "name": "Disable-ISHUIQualityAssistant"
+            },
+            {
+              "name": "Enable-ISHUIQualityAssistant"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIContentEditor",
+          "children": [
+            {
+              "name": "Disable-ISHUIContentEditor"
+            },
+            {
+              "name": "Enable-ISHUIContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHExternalPreview",
+          "children": [
+            {
+              "name": "Disable-ISHExternalPreview"
+            },
+            {
+              "name": "Enable-ISHExternalPreview"
+            }
+          ]
+        },
+        {
+          "name": "ISHContentEditor",
+          "children": [
+            {
+              "name": "Set-ISHContentEditor"
+            },
+            {
+              "name": "Test-ISHContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIEventMonitorMenuBarItem",
+          "children": [
+            {
+              "name": "Set-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Move-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIEventMonitorMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUISearchMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUISearchMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIMainMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUIMainMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIButtonBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Remove-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Set-ISHUIButtonBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSRelyingParty",
+          "children": [
+            {
+              "name": "Set-ISHSTSRelyingParty"
+            },
+            {
+              "name": "Get-ISHSTSRelyingParty"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTS",
+          "children": [
+            {
+              "name": "Reset-ISHSTS"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSConfiguration",
+          "children": [
+            {
+              "name": "Set-ISHSTSConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSConfigurationPackage",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationSTSConfigurationPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSFederation",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSFederation"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSTrust",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSTrust"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSInternalAuthentication",
+          "children": [
+            {
+              "name": "Disable-ISHIntegrationSTSInternalAuthentication"
+            },
+            {
+              "name": "Enable-ISHIntegrationSTSInternalAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSCertificate",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationSTSCertificate"
+            },
+            {
+              "name": "Set-ISHIntegrationSTSCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationDBSTSSQLServerConfiguration",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationDBSTSSQLServerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentHistory",
+          "children": [
+            {
+              "name": "Clear-ISHDeploymentHistory"
+            },
+            {
+              "name": "Get-ISHDeploymentHistory"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentParameters",
+          "children": [
+            {
+              "name": "Get-ISHDeploymentParameters"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeployment",
+          "children": [
+            {
+              "name": "Backup-ISHDeployment"
+            },
+            {
+              "name": "Get-ISHDeployment"
+            },
+            {
+              "name": "Undo-ISHDeployment"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMCUILResourceGroup",
+          "children": [
+            {
+              "name": "Set-ISHCMCUILResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "ISHPackageFolderPath",
+          "children": [
+            {
+              "name": "Get-ISHPackageFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ISHAPIWCFServiceCertificate",
+          "children": [
+            {
+              "name": "Set-ISHAPIWCFServiceCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationOrganizer",
+          "children": [
+            {
+              "name": "Disable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Get-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Set-ISHServiceTranslationOrganizer"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationBuilder",
+          "children": [
+            {
+              "name": "Get-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Set-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Disable-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationBuilder"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSTemplate",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ISHFieldMetadata",
+          "children": [
+            {
+              "name": "New-ISHFieldMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServerMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationWorldServerMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHTranslationFileSystemExport",
+          "children": [
+            {
+              "name": "Remove-ISHTranslationFileSystemExport"
+            },
+            {
+              "name": "Set-ISHTranslationFileSystemExport"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMS",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationTMS"
+            },
+            {
+              "name": "Set-ISHIntegrationTMS"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServer",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationWorldServer"
+            },
+            {
+              "name": "Set-ISHIntegrationWorldServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISHDeploy.12.0.0",
+      "companyName": "SDL plc",
+      "children": [
+        {
+          "name": "ISHCMFile",
+          "children": [
+            {
+              "name": "Copy-ISHCMFile"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMPackage",
+          "children": [
+            {
+              "name": "Expand-ISHCMPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHUITranslationJob",
+          "children": [
+            {
+              "name": "Disable-ISHUITranslationJob"
+            },
+            {
+              "name": "Enable-ISHUITranslationJob"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIQualityAssistant",
+          "children": [
+            {
+              "name": "Disable-ISHUIQualityAssistant"
+            },
+            {
+              "name": "Enable-ISHUIQualityAssistant"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIContentEditor",
+          "children": [
+            {
+              "name": "Disable-ISHUIContentEditor"
+            },
+            {
+              "name": "Enable-ISHUIContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHExternalPreview",
+          "children": [
+            {
+              "name": "Disable-ISHExternalPreview"
+            },
+            {
+              "name": "Enable-ISHExternalPreview"
+            }
+          ]
+        },
+        {
+          "name": "ISHContentEditor",
+          "children": [
+            {
+              "name": "Set-ISHContentEditor"
+            },
+            {
+              "name": "Test-ISHContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIEventMonitorMenuBarItem",
+          "children": [
+            {
+              "name": "Set-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Move-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIEventMonitorMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUISearchMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUISearchMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIMainMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUIMainMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIButtonBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Remove-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Set-ISHUIButtonBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSRelyingParty",
+          "children": [
+            {
+              "name": "Set-ISHSTSRelyingParty"
+            },
+            {
+              "name": "Get-ISHSTSRelyingParty"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTS",
+          "children": [
+            {
+              "name": "Reset-ISHSTS"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSConfiguration",
+          "children": [
+            {
+              "name": "Set-ISHSTSConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSConfigurationPackage",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationSTSConfigurationPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSFederation",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSFederation"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSTrust",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSTrust"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSInternalAuthentication",
+          "children": [
+            {
+              "name": "Disable-ISHIntegrationSTSInternalAuthentication"
+            },
+            {
+              "name": "Enable-ISHIntegrationSTSInternalAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSCertificate",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationSTSCertificate"
+            },
+            {
+              "name": "Set-ISHIntegrationSTSCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationDBSTSSQLServerConfiguration",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationDBSTSSQLServerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentHistory",
+          "children": [
+            {
+              "name": "Clear-ISHDeploymentHistory"
+            },
+            {
+              "name": "Get-ISHDeploymentHistory"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentParameters",
+          "children": [
+            {
+              "name": "Get-ISHDeploymentParameters"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeployment",
+          "children": [
+            {
+              "name": "Backup-ISHDeployment"
+            },
+            {
+              "name": "Get-ISHDeployment"
+            },
+            {
+              "name": "Undo-ISHDeployment"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMCUILResourceGroup",
+          "children": [
+            {
+              "name": "Set-ISHCMCUILResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "ISHPackageFolderPath",
+          "children": [
+            {
+              "name": "Get-ISHPackageFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ISHAPIWCFServiceCertificate",
+          "children": [
+            {
+              "name": "Set-ISHAPIWCFServiceCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationOrganizer",
+          "children": [
+            {
+              "name": "Disable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Get-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Set-ISHServiceTranslationOrganizer"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationBuilder",
+          "children": [
+            {
+              "name": "Get-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Set-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Disable-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationBuilder"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSTemplate",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ISHFieldMetadata",
+          "children": [
+            {
+              "name": "New-ISHFieldMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServerMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationWorldServerMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHTranslationFileSystemExport",
+          "children": [
+            {
+              "name": "Remove-ISHTranslationFileSystemExport"
+            },
+            {
+              "name": "Set-ISHTranslationFileSystemExport"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMS",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationTMS"
+            },
+            {
+              "name": "Set-ISHIntegrationTMS"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServer",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationWorldServer"
+            },
+            {
+              "name": "Set-ISHIntegrationWorldServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISHDeploy.12.0",
+      "companyName": "SDL plc",
+      "children": [
+        {
+          "name": "ISHCMFile",
+          "children": [
+            {
+              "name": "Copy-ISHCMFile"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMPackage",
+          "children": [
+            {
+              "name": "Expand-ISHCMPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHUITranslationJob",
+          "children": [
+            {
+              "name": "Disable-ISHUITranslationJob"
+            },
+            {
+              "name": "Enable-ISHUITranslationJob"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIQualityAssistant",
+          "children": [
+            {
+              "name": "Disable-ISHUIQualityAssistant"
+            },
+            {
+              "name": "Enable-ISHUIQualityAssistant"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIContentEditor",
+          "children": [
+            {
+              "name": "Disable-ISHUIContentEditor"
+            },
+            {
+              "name": "Enable-ISHUIContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHExternalPreview",
+          "children": [
+            {
+              "name": "Disable-ISHExternalPreview"
+            },
+            {
+              "name": "Enable-ISHExternalPreview"
+            }
+          ]
+        },
+        {
+          "name": "ISHContentEditor",
+          "children": [
+            {
+              "name": "Set-ISHContentEditor"
+            },
+            {
+              "name": "Test-ISHContentEditor"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIEventMonitorMenuBarItem",
+          "children": [
+            {
+              "name": "Set-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Move-ISHUIEventMonitorMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIEventMonitorMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUISearchMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUISearchMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUISearchMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIMainMenuBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Remove-ISHUIMainMenuBarItem"
+            },
+            {
+              "name": "Set-ISHUIMainMenuBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHUIButtonBarItem",
+          "children": [
+            {
+              "name": "Move-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Remove-ISHUIButtonBarItem"
+            },
+            {
+              "name": "Set-ISHUIButtonBarItem"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSRelyingParty",
+          "children": [
+            {
+              "name": "Set-ISHSTSRelyingParty"
+            },
+            {
+              "name": "Get-ISHSTSRelyingParty"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTS",
+          "children": [
+            {
+              "name": "Reset-ISHSTS"
+            }
+          ]
+        },
+        {
+          "name": "ISHSTSConfiguration",
+          "children": [
+            {
+              "name": "Set-ISHSTSConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSConfigurationPackage",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationSTSConfigurationPackage"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSFederation",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSFederation"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSWSTrust",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationSTSWSTrust"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSInternalAuthentication",
+          "children": [
+            {
+              "name": "Disable-ISHIntegrationSTSInternalAuthentication"
+            },
+            {
+              "name": "Enable-ISHIntegrationSTSInternalAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationSTSCertificate",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationSTSCertificate"
+            },
+            {
+              "name": "Set-ISHIntegrationSTSCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHCMCUILResourceGroup",
+          "children": [
+            {
+              "name": "Set-ISHCMCUILResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "ISHPackageFolderPath",
+          "children": [
+            {
+              "name": "Get-ISHPackageFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ISHAPIWCFServiceCertificate",
+          "children": [
+            {
+              "name": "Set-ISHAPIWCFServiceCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ISHMaintenance",
+          "children": [
+            {
+              "name": "Invoke-ISHMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationDB",
+          "children": [
+            {
+              "name": "Get-ISHIntegrationDB"
+            },
+            {
+              "name": "Set-ISHIntegrationDB"
+            },
+            {
+              "name": "Test-ISHIntegrationDB"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationDBSTSSQLServerConfiguration",
+          "children": [
+            {
+              "name": "Save-ISHIntegrationDBSTSSQLServerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeployment",
+          "children": [
+            {
+              "name": "Restart-ISHDeployment"
+            },
+            {
+              "name": "Start-ISHDeployment"
+            },
+            {
+              "name": "Stop-ISHDeployment"
+            },
+            {
+              "name": "Backup-ISHDeployment"
+            },
+            {
+              "name": "Get-ISHDeployment"
+            },
+            {
+              "name": "Undo-ISHDeployment"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentHistory",
+          "children": [
+            {
+              "name": "Clear-ISHDeploymentHistory"
+            },
+            {
+              "name": "Get-ISHDeploymentHistory"
+            }
+          ]
+        },
+        {
+          "name": "ISHDeploymentParameters",
+          "children": [
+            {
+              "name": "Get-ISHDeploymentParameters"
+            }
+          ]
+        },
+        {
+          "name": "ISHActor",
+          "children": [
+            {
+              "name": "Set-ISHActor"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceUser",
+          "children": [
+            {
+              "name": "Set-ISHServiceUser"
+            }
+          ]
+        },
+        {
+          "name": "ISHOSUser",
+          "children": [
+            {
+              "name": "Set-ISHOSUser"
+            }
+          ]
+        },
+        {
+          "name": "ISHIISAppPool",
+          "children": [
+            {
+              "name": "Get-ISHIISAppPool"
+            },
+            {
+              "name": "Enable-ISHIISAppPool"
+            },
+            {
+              "name": "Disable-ISHIISAppPool"
+            }
+          ]
+        },
+        {
+          "name": "ISHCOMPlus",
+          "children": [
+            {
+              "name": "Get-ISHCOMPlus"
+            },
+            {
+              "name": "Disable-ISHCOMPlus"
+            },
+            {
+              "name": "Enable-ISHCOMPlus"
+            }
+          ]
+        },
+        {
+          "name": "ISHComponent",
+          "children": [
+            {
+              "name": "Get-ISHComponent"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationOrganizer",
+          "children": [
+            {
+              "name": "Disable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Get-ISHServiceTranslationOrganizer"
+            },
+            {
+              "name": "Set-ISHServiceTranslationOrganizer"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceTranslationBuilder",
+          "children": [
+            {
+              "name": "Get-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Set-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Disable-ISHServiceTranslationBuilder"
+            },
+            {
+              "name": "Enable-ISHServiceTranslationBuilder"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSTemplate",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ISHFieldMetadata",
+          "children": [
+            {
+              "name": "New-ISHFieldMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMSMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationTMSMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServerMapping",
+          "children": [
+            {
+              "name": "New-ISHIntegrationWorldServerMapping"
+            }
+          ]
+        },
+        {
+          "name": "ISHTranslationFileSystemExport",
+          "children": [
+            {
+              "name": "Remove-ISHTranslationFileSystemExport"
+            },
+            {
+              "name": "Set-ISHTranslationFileSystemExport"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationTMS",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationTMS"
+            },
+            {
+              "name": "Set-ISHIntegrationTMS"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationWorldServer",
+          "children": [
+            {
+              "name": "Remove-ISHIntegrationWorldServer"
+            },
+            {
+              "name": "Set-ISHIntegrationWorldServer"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceCrawler",
+          "children": [
+            {
+              "name": "Set-ISHServiceCrawler"
+            },
+            {
+              "name": "Disable-ISHServiceCrawler"
+            },
+            {
+              "name": "Enable-ISHServiceCrawler"
+            },
+            {
+              "name": "Get-ISHServiceCrawler"
+            }
+          ]
+        },
+        {
+          "name": "ISHIntegrationFullTextIndex",
+          "children": [
+            {
+              "name": "Set-ISHIntegrationFullTextIndex"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceFullTextIndex",
+          "children": [
+            {
+              "name": "Disable-ISHServiceFullTextIndex"
+            },
+            {
+              "name": "Enable-ISHServiceFullTextIndex"
+            },
+            {
+              "name": "Get-ISHServiceFullTextIndex"
+            },
+            {
+              "name": "Set-ISHServiceFullTextIndex"
+            }
+          ]
+        },
+        {
+          "name": "ISHServiceBackgroundTask",
+          "children": [
+            {
+              "name": "Remove-ISHServiceBackgroundTask"
+            },
+            {
+              "name": "Disable-ISHServiceBackgroundTask"
+            },
+            {
+              "name": "Enable-ISHServiceBackgroundTask"
+            },
+            {
+              "name": "Get-ISHServiceBackgroundTask"
+            },
+            {
+              "name": "Set-ISHServiceBackgroundTask"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "name": "Microsoft Corp",
+  "children": [
+    {
+      "name": "AuditBuddy",
+      "companyName": "Microsoft Corp",
+      "children": [
+        {
+          "name": "AdvancedAuditPolicy",
+          "children": [
+            {
+              "name": "Get-AdvancedAuditPolicy"
+            },
+            {
+              "name": "Set-AdvancedAuditPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AdvancedAuditPolicyCategories",
+          "children": [
+            {
+              "name": "Get-AdvancedAuditPolicyCategories"
+            }
+          ]
+        },
+        {
+          "name": "AdvancedAuditPolicySubCategories",
+          "children": [
+            {
+              "name": "Get-AdvancedAuditPolicySubCategories"
+            }
+          ]
+        },
+        {
+          "name": "AuditPolicy",
+          "children": [
+            {
+              "name": "Get-AuditPolicy"
+            },
+            {
+              "name": "Set-AuditPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AuditPolicyCategories",
+          "children": [
+            {
+              "name": "Get-AuditPolicyCategories"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TurnKeySdn",
+      "companyName": "Microsoft Corp",
+      "children": [
+        {
+          "name": "TurnKeySdn",
+          "children": [
+            {
+              "name": "Install-TurnKeySdn"
+            },
+            {
+              "name": "Uninstall-TurnKeySdn"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnWorkload",
+          "children": [
+            {
+              "name": "Install-TurnKeySdnWorkload"
+            },
+            {
+              "name": "Uninstall-TurnKeySdnWorkload"
+            }
+          ]
+        },
+        {
+          "name": "TurnkeySdnAddressRandmoizerSeed",
+          "children": [
+            {
+              "name": "Set-TurnkeySdnAddressRandmoizerSeed"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnNCConfig",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnNCConfig"
+            },
+            {
+              "name": "Get-TurnKeySdnNCConfig"
+            }
+          ]
+        },
+        {
+          "name": "SdnHLKOfflinePackage",
+          "children": [
+            {
+              "name": "Get-SdnHLKOfflinePackage"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnHNVPANetwork",
+          "children": [
+            {
+              "name": "Get-TurnKeySdnHNVPANetwork"
+            },
+            {
+              "name": "Set-TurnKeySdnHNVPANetwork"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnManagementNetwork",
+          "children": [
+            {
+              "name": "Get-TurnKeySdnManagementNetwork"
+            },
+            {
+              "name": "Set-TurnKeySdnManagementNetwork"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnPublicVIPNetwork",
+          "children": [
+            {
+              "name": "Get-TurnKeySdnPublicVIPNetwork"
+            },
+            {
+              "name": "Set-TurnKeySdnPublicVIPNetwork"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnPrivateVIPNetwork",
+          "children": [
+            {
+              "name": "Get-TurnKeySdnPrivateVIPNetwork"
+            },
+            {
+              "name": "Set-TurnKeySdnPrivateVIPNetwork"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnDeploymentConfig",
+          "children": [
+            {
+              "name": "Get-TurnKeySdnDeploymentConfig"
+            },
+            {
+              "name": "Set-TurnKeySdnDeploymentConfig"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnCredentials",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnCredentials"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnCorpCredentials",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnCorpCredentials"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnDeploymentPath",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnDeploymentPath"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnDeploymentVhd",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnDeploymentVhd"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnDeploymentWinBuild",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnDeploymentWinBuild"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnGatewayConfig",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnGatewayConfig"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnMuxConfig",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnMuxConfig"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnNetworkConfiguration",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnNetworkConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnDeployment",
+          "children": [
+            {
+              "name": "Initialize-TurnKeySdnDeployment"
+            }
+          ]
+        },
+        {
+          "name": "TurnkeySdnDeploymentId",
+          "children": [
+            {
+              "name": "Set-TurnkeySdnDeploymentId"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnWorkLoadImage",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnWorkLoadImage"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnConfig",
+          "children": [
+            {
+              "name": "Show-TurnKeySdnConfig"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnTrafficTests",
+          "children": [
+            {
+              "name": "Start-TurnKeySdnTrafficTests"
+            }
+          ]
+        },
+        {
+          "name": "SdnExpressPath",
+          "children": [
+            {
+              "name": "Set-SdnExpressPath"
+            }
+          ]
+        },
+        {
+          "name": "TurnKeySdnNetIntent",
+          "children": [
+            {
+              "name": "Set-TurnKeySdnNetIntent"
+            }
+          ]
+        },
+        {
+          "name": "IsTurnKeySdnInstalled",
+          "children": [
+            {
+              "name": "Test-IsTurnKeySdnInstalled"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WindowsPSModulePath",
+      "companyName": "Microsoft Corp",
+      "children": [
+        {
+          "name": "WindowsPSModulePath",
+          "children": [
+            {
+              "name": "Add-WindowsPSModulePath"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

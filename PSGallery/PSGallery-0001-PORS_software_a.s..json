@@ -1,0 +1,492 @@
+{
+  "name": "PORS software a.s.",
+  "children": [
+    {
+      "name": "Beaver",
+      "companyName": "PORS software a.s.",
+      "children": [
+        {
+          "name": "MemberLocalGroup",
+          "children": [
+            {
+              "name": "Add-MemberLocalGroup"
+            }
+          ]
+        },
+        {
+          "name": "SignatureInISE",
+          "children": [
+            {
+              "name": "Add-SignatureInISE"
+            }
+          ]
+        },
+        {
+          "name": "SignatureToFile",
+          "children": [
+            {
+              "name": "Add-SignatureToFile"
+            }
+          ]
+        },
+        {
+          "name": "SybaseODBCProfile",
+          "children": [
+            {
+              "name": "Add-SybaseODBCProfile"
+            }
+          ]
+        },
+        {
+          "name": "ScheduleTask",
+          "children": [
+            {
+              "name": "Backup-ScheduleTask"
+            },
+            {
+              "name": "Restore-ScheduleTask"
+            }
+          ]
+        },
+        {
+          "name": "EventLog",
+          "children": [
+            {
+              "name": "Clear-EventLog"
+            }
+          ]
+        },
+        {
+          "name": "ISEHistory",
+          "children": [
+            {
+              "name": "Clear-ISEHistory"
+            }
+          ]
+        },
+        {
+          "name": "Deflate",
+          "children": [
+            {
+              "name": "Compress-Deflate"
+            },
+            {
+              "name": "Expand-Deflate"
+            }
+          ]
+        },
+        {
+          "name": "GZip",
+          "children": [
+            {
+              "name": "Compress-GZip"
+            },
+            {
+              "name": "Expand-GZip"
+            }
+          ]
+        },
+        {
+          "name": "SidToUserName",
+          "children": [
+            {
+              "name": "Convert-SidToUserName"
+            }
+          ]
+        },
+        {
+          "name": "UserNameToSid",
+          "children": [
+            {
+              "name": "Convert-UserNameToSid"
+            }
+          ]
+        },
+        {
+          "name": "Acl",
+          "children": [
+            {
+              "name": "Copy-Acl"
+            }
+          ]
+        },
+        {
+          "name": "LocalUser",
+          "children": [
+            {
+              "name": "Disable-LocalUser"
+            },
+            {
+              "name": "Enable-LocalUser"
+            },
+            {
+              "name": "Get-LocalUser"
+            }
+          ]
+        },
+        {
+          "name": "WindowsAutologon",
+          "children": [
+            {
+              "name": "Disable-WindowsAutologon"
+            },
+            {
+              "name": "Enable-WindowsAutologon"
+            }
+          ]
+        },
+        {
+          "name": "InDirectoryService",
+          "children": [
+            {
+              "name": "Find-InDirectoryService"
+            }
+          ]
+        },
+        {
+          "name": "CurrentIdentityInformation",
+          "children": [
+            {
+              "name": "Get-CurrentIdentityInformation"
+            }
+          ]
+        },
+        {
+          "name": "DirectoryEntry",
+          "children": [
+            {
+              "name": "Get-DirectoryEntry"
+            }
+          ]
+        },
+        {
+          "name": "DirectoryEntryObjectProperty",
+          "children": [
+            {
+              "name": "Get-DirectoryEntryObjectProperty"
+            }
+          ]
+        },
+        {
+          "name": "ExpireCertificate",
+          "children": [
+            {
+              "name": "Get-ExpireCertificate"
+            }
+          ]
+        },
+        {
+          "name": "MaskLength",
+          "children": [
+            {
+              "name": "Get-MaskLength"
+            }
+          ]
+        },
+        {
+          "name": "NextFreeDriveLetter",
+          "children": [
+            {
+              "name": "Get-NextFreeDriveLetter"
+            }
+          ]
+        },
+        {
+          "name": "StringHash",
+          "children": [
+            {
+              "name": "Get-StringHash"
+            }
+          ]
+        },
+        {
+          "name": "EmptyFileWithSize",
+          "children": [
+            {
+              "name": "New-EmptyFileWithSize"
+            }
+          ]
+        },
+        {
+          "name": "LocalObject",
+          "children": [
+            {
+              "name": "New-LocalObject"
+            },
+            {
+              "name": "Remove-LocalObject"
+            },
+            {
+              "name": "Rename-LocalObject"
+            }
+          ]
+        },
+        {
+          "name": "Password",
+          "children": [
+            {
+              "name": "New-Password"
+            }
+          ]
+        },
+        {
+          "name": "HmacSha256",
+          "children": [
+            {
+              "name": "Protect-HmacSha256"
+            }
+          ]
+        },
+        {
+          "name": "DocAsPdf",
+          "children": [
+            {
+              "name": "Save-DocAsPdf"
+            }
+          ]
+        },
+        {
+          "name": "PptAsFormat",
+          "children": [
+            {
+              "name": "Save-PptAsFormat"
+            }
+          ]
+        },
+        {
+          "name": "FileOnFTP",
+          "children": [
+            {
+              "name": "Send-FileOnFTP"
+            }
+          ]
+        },
+        {
+          "name": "WakeOnLan",
+          "children": [
+            {
+              "name": "Send-WakeOnLan"
+            }
+          ]
+        },
+        {
+          "name": "LocalUserPassword",
+          "children": [
+            {
+              "name": "Set-LocalUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "RegistryValue",
+          "children": [
+            {
+              "name": "Set-RegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "WindowsEventLogForTaskScheduler",
+          "children": [
+            {
+              "name": "Set-WindowsEventLogForTaskScheduler"
+            }
+          ]
+        },
+        {
+          "name": "CurrentUserInGroup",
+          "children": [
+            {
+              "name": "Test-CurrentUserInGroup"
+            }
+          ]
+        },
+        {
+          "name": "IPInSubnet",
+          "children": [
+            {
+              "name": "Test-IPInSubnet"
+            }
+          ]
+        },
+        {
+          "name": "IsComputerDomainMember",
+          "children": [
+            {
+              "name": "Test-IsComputerDomainMember"
+            }
+          ]
+        },
+        {
+          "name": "LocalUserEnabled",
+          "children": [
+            {
+              "name": "Test-LocalUserEnabled"
+            }
+          ]
+        },
+        {
+          "name": "MSIPackage",
+          "children": [
+            {
+              "name": "Uninstall-MSIPackage"
+            },
+            {
+              "name": "Install-MSIPackage"
+            }
+          ]
+        },
+        {
+          "name": "UserNameFromLogin",
+          "children": [
+            {
+              "name": "Get-UserNameFromLogin"
+            }
+          ]
+        },
+        {
+          "name": "DomainFromLogin",
+          "children": [
+            {
+              "name": "Get-DomainFromLogin"
+            }
+          ]
+        },
+        {
+          "name": "PasswordFromSecureString",
+          "children": [
+            {
+              "name": "Get-PasswordFromSecureString"
+            }
+          ]
+        },
+        {
+          "name": "MSSQLQueryResult",
+          "children": [
+            {
+              "name": "Get-MSSQLQueryResult"
+            }
+          ]
+        },
+        {
+          "name": "PrivilegeNameToInt",
+          "children": [
+            {
+              "name": "Convert-PrivilegeNameToInt"
+            }
+          ]
+        },
+        {
+          "name": "TokenPrivileges",
+          "children": [
+            {
+              "name": "Set-TokenPrivileges"
+            }
+          ]
+        },
+        {
+          "name": "ProcessToken",
+          "children": [
+            {
+              "name": "Copy-ProcessToken"
+            }
+          ]
+        },
+        {
+          "name": "WindowsAPI",
+          "children": [
+            {
+              "name": "Import-WindowsAPI"
+            }
+          ]
+        },
+        {
+          "name": "Self",
+          "children": [
+            {
+              "name": "Restore-Self"
+            }
+          ]
+        },
+        {
+          "name": "AsSystem",
+          "children": [
+            {
+              "name": "Invoke-AsSystem"
+            }
+          ]
+        },
+        {
+          "name": "RegKeyClass",
+          "children": [
+            {
+              "name": "Get-RegKeyClass"
+            }
+          ]
+        },
+        {
+          "name": "BootKey",
+          "children": [
+            {
+              "name": "Get-BootKey"
+            }
+          ]
+        },
+        {
+          "name": "RC4",
+          "children": [
+            {
+              "name": "Get-RC4"
+            }
+          ]
+        },
+        {
+          "name": "HBootKey",
+          "children": [
+            {
+              "name": "Get-HBootKey"
+            }
+          ]
+        },
+        {
+          "name": "DESCipher",
+          "children": [
+            {
+              "name": "Protect-DESCipher"
+            },
+            {
+              "name": "UnProtect-DESCipher"
+            }
+          ]
+        },
+        {
+          "name": "TlsConnection",
+          "children": [
+            {
+              "name": "Test-TlsConnection"
+            }
+          ]
+        },
+        {
+          "name": "AESKey",
+          "children": [
+            {
+              "name": "New-AESKey"
+            }
+          ]
+        },
+        {
+          "name": "AES",
+          "children": [
+            {
+              "name": "Protect-AES"
+            },
+            {
+              "name": "UnProtect-AES"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

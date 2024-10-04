@@ -1,0 +1,47 @@
+{
+  "name": "Angry IT",
+  "children": [
+    {
+      "name": "FreeLDAP",
+      "companyName": "Angry IT",
+      "children": [
+        {
+          "name": "LdapServer",
+          "children": [
+            {
+              "name": "Connect-LdapServer"
+            }
+          ]
+        },
+        {
+          "name": "LdapUser",
+          "children": [
+            {
+              "name": "Get-LdapUser"
+            },
+            {
+              "name": "Set-LdapUser"
+            },
+            {
+              "name": "Move-LdapUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FileSystemForms",
+      "companyName": "Angry IT",
+      "children": [
+        {
+          "name": "FileSystemForm",
+          "children": [
+            {
+              "name": "Select-FileSystemForm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

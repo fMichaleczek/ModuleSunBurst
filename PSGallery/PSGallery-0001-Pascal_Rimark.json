@@ -1,0 +1,43 @@
+{
+  "name": "Pascal Rimark",
+  "children": [
+    {
+      "name": "Read-ExcelFile",
+      "companyName": "Pascal Rimark",
+      "children": [
+        {
+          "name": "ExcelFile",
+          "children": [
+            {
+              "name": "Read-ExcelFile"
+            }
+          ]
+        },
+        {
+          "name": "ExcelCellContent",
+          "children": [
+            {
+              "name": "Get-ExcelCellContent"
+            }
+          ]
+        },
+        {
+          "name": "ExcelSpreadSheetTables",
+          "children": [
+            {
+              "name": "Get-ExcelSpreadSheetTables"
+            }
+          ]
+        },
+        {
+          "name": "ExcelWorkSheets",
+          "children": [
+            {
+              "name": "Get-ExcelWorkSheets"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

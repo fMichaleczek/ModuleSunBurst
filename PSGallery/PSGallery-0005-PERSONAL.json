@@ -1,0 +1,502 @@
+{
+  "name": "PERSONAL",
+  "children": [
+    {
+      "name": "NetOwls.PSCommonFunctionSet",
+      "companyName": "PERSONAL",
+      "children": [
+        {
+          "name": "Information",
+          "children": [
+            {
+              "name": "Log-Information"
+            }
+          ]
+        },
+        {
+          "name": "Debug",
+          "children": [
+            {
+              "name": "Log-Debug"
+            }
+          ]
+        },
+        {
+          "name": "Trace",
+          "children": [
+            {
+              "name": "Log-Trace"
+            }
+          ]
+        },
+        {
+          "name": "Warning",
+          "children": [
+            {
+              "name": "Log-Warning"
+            }
+          ]
+        },
+        {
+          "name": "Error",
+          "children": [
+            {
+              "name": "Log-Error"
+            }
+          ]
+        },
+        {
+          "name": "ChoiseOptions",
+          "children": [
+            {
+              "name": "Prompt-ChoiseOptions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NetOwls.NuCommandSet",
+      "companyName": "Personal",
+      "children": [
+        {
+          "name": "NuCommandLineTools",
+          "children": [
+            {
+              "name": "Get-NuCommandLineTools"
+            }
+          ]
+        },
+        {
+          "name": "NuSpecials",
+          "children": [
+            {
+              "name": "Create-NuSpecials"
+            }
+          ]
+        },
+        {
+          "name": "NuPackage",
+          "children": [
+            {
+              "name": "Create-NuPackage"
+            },
+            {
+              "name": "Publish-NuPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSLiteDB",
+      "companyName": "Personal",
+      "children": [
+        {
+          "name": "LiteDbDocument",
+          "children": [
+            {
+              "name": "Upsert-LiteDbDocument"
+            },
+            {
+              "name": "Add-LiteDBDocument"
+            },
+            {
+              "name": "Find-LiteDBDocument"
+            },
+            {
+              "name": "Merge-LiteDBDocument"
+            },
+            {
+              "name": "Remove-LiteDBDocument"
+            },
+            {
+              "name": "Update-LiteDBDocument"
+            }
+          ]
+        },
+        {
+          "name": "LiteDbBSON",
+          "children": [
+            {
+              "name": "ConvertTo-LiteDbBSON"
+            }
+          ]
+        },
+        {
+          "name": "LiteDBConnection",
+          "children": [
+            {
+              "name": "Close-LiteDBConnection"
+            },
+            {
+              "name": "Open-LiteDBConnection"
+            }
+          ]
+        },
+        {
+          "name": "LiteDBCollectionName",
+          "children": [
+            {
+              "name": "Get-LiteDBCollectionName"
+            }
+          ]
+        },
+        {
+          "name": "LiteDBIndex",
+          "children": [
+            {
+              "name": "Get-LiteDBIndex"
+            },
+            {
+              "name": "New-LiteDBIndex"
+            },
+            {
+              "name": "Remove-LiteDBIndex"
+            }
+          ]
+        },
+        {
+          "name": "LiteDBCollection",
+          "children": [
+            {
+              "name": "New-LiteDBCollection"
+            },
+            {
+              "name": "Remove-LiteDBCollection"
+            },
+            {
+              "name": "Rename-LiteDBCollection"
+            }
+          ]
+        },
+        {
+          "name": "LiteDBDatabase",
+          "children": [
+            {
+              "name": "New-LiteDBDatabase"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAlphaFS",
+      "companyName": "Personal",
+      "children": [
+        {
+          "name": "LongItem",
+          "children": [
+            {
+              "name": "Copy-LongItem"
+            },
+            {
+              "name": "Get-LongItem"
+            },
+            {
+              "name": "Move-LongItem"
+            },
+            {
+              "name": "New-LongItem"
+            },
+            {
+              "name": "Remove-LongItem"
+            },
+            {
+              "name": "Rename-LongItem"
+            }
+          ]
+        },
+        {
+          "name": "LongShare",
+          "children": [
+            {
+              "name": "DisMount-LongShare"
+            },
+            {
+              "name": "Mount-LongShare"
+            }
+          ]
+        },
+        {
+          "name": "LongChildItem",
+          "children": [
+            {
+              "name": "Get-LongChildItem"
+            }
+          ]
+        },
+        {
+          "name": "LongDirectorySize",
+          "children": [
+            {
+              "name": "Get-LongDirectorySize"
+            }
+          ]
+        },
+        {
+          "name": "LongDiskDrive",
+          "children": [
+            {
+              "name": "Get-LongDiskDrive"
+            }
+          ]
+        },
+        {
+          "name": "LongFreeDriveLetter",
+          "children": [
+            {
+              "name": "Get-LongFreeDriveLetter"
+            }
+          ]
+        },
+        {
+          "name": "LongMappedDrive",
+          "children": [
+            {
+              "name": "Get-LongMappedDrive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WFM-Tools",
+      "companyName": "Personal",
+      "children": [
+        {
+          "name": "Functions",
+          "children": [
+            {
+              "name": "Format-Functions"
+            }
+          ]
+        },
+        {
+          "name": "Accounts",
+          "children": [
+            {
+              "name": "Get-Accounts"
+            }
+          ]
+        },
+        {
+          "name": "ADComputerList",
+          "children": [
+            {
+              "name": "Get-ADComputerList"
+            }
+          ]
+        },
+        {
+          "name": "ADUserList",
+          "children": [
+            {
+              "name": "Get-ADUserList"
+            }
+          ]
+        },
+        {
+          "name": "AllArrayData",
+          "children": [
+            {
+              "name": "Get-AllArrayData"
+            }
+          ]
+        },
+        {
+          "name": "BitLockerStatus",
+          "children": [
+            {
+              "name": "Get-BitLockerStatus"
+            }
+          ]
+        },
+        {
+          "name": "Certificates",
+          "children": [
+            {
+              "name": "Get-Certificates"
+            }
+          ]
+        },
+        {
+          "name": "FlattenedArray",
+          "children": [
+            {
+              "name": "Get-FlattenedArray"
+            }
+          ]
+        },
+        {
+          "name": "Group",
+          "children": [
+            {
+              "name": "Get-Group"
+            }
+          ]
+        },
+        {
+          "name": "GroupMembership",
+          "children": [
+            {
+              "name": "Get-GroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "Lockouts",
+          "children": [
+            {
+              "name": "Get-Lockouts"
+            }
+          ]
+        },
+        {
+          "name": "MetaDataTags",
+          "children": [
+            {
+              "name": "Get-MetaDataTags"
+            }
+          ]
+        },
+        {
+          "name": "NoteProperties",
+          "children": [
+            {
+              "name": "Get-NoteProperties"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountList",
+          "children": [
+            {
+              "name": "Get-PASAccountList"
+            }
+          ]
+        },
+        {
+          "name": "PASAdminCredential",
+          "children": [
+            {
+              "name": "Get-PASAdminCredential"
+            }
+          ]
+        },
+        {
+          "name": "PCInfo",
+          "children": [
+            {
+              "name": "Get-PCInfo"
+            }
+          ]
+        },
+        {
+          "name": "UserGroups",
+          "children": [
+            {
+              "name": "Get-UserGroups"
+            }
+          ]
+        },
+        {
+          "name": "UserInfo",
+          "children": [
+            {
+              "name": "Get-UserInfo"
+            }
+          ]
+        },
+        {
+          "name": "UserTeam",
+          "children": [
+            {
+              "name": "Get-UserTeam"
+            }
+          ]
+        },
+        {
+          "name": "WinEventData",
+          "children": [
+            {
+              "name": "Get-WinEventData"
+            }
+          ]
+        },
+        {
+          "name": "Dependencies",
+          "children": [
+            {
+              "name": "Install-Dependencies"
+            }
+          ]
+        },
+        {
+          "name": "TierGroup",
+          "children": [
+            {
+              "name": "Search-TierGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADUC",
+          "children": [
+            {
+              "name": "Start-ADUC"
+            }
+          ]
+        },
+        {
+          "name": "ComputerDataSanitization",
+          "children": [
+            {
+              "name": "Start-ComputerDataSanitization"
+            }
+          ]
+        },
+        {
+          "name": "ISE",
+          "children": [
+            {
+              "name": "Start-ISE"
+            }
+          ]
+        },
+        {
+          "name": "UserDataSanitization",
+          "children": [
+            {
+              "name": "Start-UserDataSanitization"
+            }
+          ]
+        },
+        {
+          "name": "PSRemoting",
+          "children": [
+            {
+              "name": "Test-PSRemoting"
+            }
+          ]
+        },
+        {
+          "name": "PVWAServer",
+          "children": [
+            {
+              "name": "Test-PVWAServer"
+            }
+          ]
+        },
+        {
+          "name": "StoreNetwork",
+          "children": [
+            {
+              "name": "Test-StoreNetwork"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

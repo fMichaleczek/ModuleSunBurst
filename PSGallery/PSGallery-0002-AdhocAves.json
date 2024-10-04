@@ -1,0 +1,714 @@
+{
+  "name": "AdhocAves",
+  "children": [
+    {
+      "name": "AdhocAves.CommonFunctions",
+      "companyName": "AdhocAves",
+      "children": [
+        {
+          "name": "GitModulesToPowershell",
+          "children": [
+            {
+              "name": "Push-GitModulesToPowershell"
+            }
+          ]
+        },
+        {
+          "name": "GitRepoFolder",
+          "children": [
+            {
+              "name": "Get-GitRepoFolder"
+            },
+            {
+              "name": "Set-GitRepoFolder"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        },
+        {
+          "name": "NetworkRange",
+          "children": [
+            {
+              "name": "Get-NetworkRange"
+            }
+          ]
+        },
+        {
+          "name": "PowershellModuleFolder",
+          "children": [
+            {
+              "name": "Set-PowershellModuleFolder"
+            },
+            {
+              "name": "Get-PowershellModuleFolder"
+            }
+          ]
+        },
+        {
+          "name": "HostDetails",
+          "children": [
+            {
+              "name": "Get-HostDetails"
+            }
+          ]
+        },
+        {
+          "name": "ModuleDependencies",
+          "children": [
+            {
+              "name": "Confirm-ModuleDependencies"
+            }
+          ]
+        },
+        {
+          "name": "DNSHostname",
+          "children": [
+            {
+              "name": "Get-DNSHostname"
+            }
+          ]
+        },
+        {
+          "name": "CommonFunctionsVariableLoad",
+          "children": [
+            {
+              "name": "Invoke-CommonFunctionsVariableLoad"
+            }
+          ]
+        },
+        {
+          "name": "LinesOfCode",
+          "children": [
+            {
+              "name": "Measure-LinesOfCode"
+            }
+          ]
+        },
+        {
+          "name": "FixedWidthTable",
+          "children": [
+            {
+              "name": "ConvertFrom-FixedWidthTable"
+            }
+          ]
+        },
+        {
+          "name": "VariableJSONLoad",
+          "children": [
+            {
+              "name": "Invoke-VariableJSONLoad"
+            }
+          ]
+        },
+        {
+          "name": "CommonFunctionsVariableSave",
+          "children": [
+            {
+              "name": "Invoke-CommonFunctionsVariableSave"
+            }
+          ]
+        },
+        {
+          "name": "HostStatus",
+          "children": [
+            {
+              "name": "Test-HostStatus"
+            }
+          ]
+        },
+        {
+          "name": "HostDetailsObject",
+          "children": [
+            {
+              "name": "New-HostDetailsObject"
+            }
+          ]
+        },
+        {
+          "name": "ConcurrentSessionCheck",
+          "children": [
+            {
+              "name": "Invoke-ConcurrentSessionCheck"
+            }
+          ]
+        },
+        {
+          "name": "VariableJSONSave",
+          "children": [
+            {
+              "name": "Invoke-VariableJSONSave"
+            }
+          ]
+        },
+        {
+          "name": "Network",
+          "children": [
+            {
+              "name": "Search-Network"
+            }
+          ]
+        },
+        {
+          "name": "PageinatedList",
+          "children": [
+            {
+              "name": "Get-PageinatedList"
+            }
+          ]
+        },
+        {
+          "name": "JSONArray",
+          "children": [
+            {
+              "name": "Get-JSONArray"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerMist",
+      "companyName": "AdhocAves",
+      "children": [
+        {
+          "name": "MistSavedAPIURI",
+          "children": [
+            {
+              "name": "Get-MistSavedAPIURI"
+            },
+            {
+              "name": "Set-MistSavedAPIURI"
+            }
+          ]
+        },
+        {
+          "name": "MistSavedSession",
+          "children": [
+            {
+              "name": "Get-MistSavedSession"
+            }
+          ]
+        },
+        {
+          "name": "MistSavedAPIToken",
+          "children": [
+            {
+              "name": "Get-MistSavedAPIToken"
+            },
+            {
+              "name": "Set-MistSavedAPIToken"
+            }
+          ]
+        },
+        {
+          "name": "MistSavedOrgID",
+          "children": [
+            {
+              "name": "Get-MistSavedOrgID"
+            },
+            {
+              "name": "Set-MistSavedOrgID"
+            }
+          ]
+        },
+        {
+          "name": "MistSavedUserCreds",
+          "children": [
+            {
+              "name": "Get-MistSavedUserCreds"
+            },
+            {
+              "name": "Set-MistSavedUserCreds"
+            }
+          ]
+        },
+        {
+          "name": "MistVariableSaveStatus",
+          "children": [
+            {
+              "name": "Get-MistVariableSaveStatus"
+            }
+          ]
+        },
+        {
+          "name": "MistVariableSaveList",
+          "children": [
+            {
+              "name": "Get-MistVariableSaveList"
+            }
+          ]
+        },
+        {
+          "name": "MistSession",
+          "children": [
+            {
+              "name": "Restart-MistSession"
+            }
+          ]
+        },
+        {
+          "name": "MistSavedAPITokenFromPath",
+          "children": [
+            {
+              "name": "Set-MistSavedAPITokenFromPath"
+            }
+          ]
+        },
+        {
+          "name": "MistVariablesSave",
+          "children": [
+            {
+              "name": "Set-MistVariablesSave"
+            }
+          ]
+        },
+        {
+          "name": "MistVariablesToSave",
+          "children": [
+            {
+              "name": "Set-MistVariablesToSave"
+            },
+            {
+              "name": "Add-MistVariablesToSave"
+            }
+          ]
+        },
+        {
+          "name": "MistVariableSave",
+          "children": [
+            {
+              "name": "Invoke-MistVariableSave"
+            }
+          ]
+        },
+        {
+          "name": "MistVariableLoad",
+          "children": [
+            {
+              "name": "Invoke-MistVariableLoad"
+            }
+          ]
+        },
+        {
+          "name": "Mist2FAQRCode",
+          "children": [
+            {
+              "name": "Get-Mist2FAQRCode"
+            },
+            {
+              "name": "Show-Mist2FAQRCode"
+            }
+          ]
+        },
+        {
+          "name": "MistAPIToken",
+          "children": [
+            {
+              "name": "Export-MistAPIToken"
+            },
+            {
+              "name": "Import-MistAPIToken"
+            },
+            {
+              "name": "New-MistAPIToken"
+            },
+            {
+              "name": "Get-MistAPIToken"
+            },
+            {
+              "name": "Remove-MistAPIToken"
+            }
+          ]
+        },
+        {
+          "name": "MistLogin",
+          "children": [
+            {
+              "name": "Invoke-MistLogin"
+            },
+            {
+              "name": "Confirm-MistLogin"
+            }
+          ]
+        },
+        {
+          "name": "MistUserInfo",
+          "children": [
+            {
+              "name": "Get-MistUserInfo"
+            }
+          ]
+        },
+        {
+          "name": "MistUserAuditLogs",
+          "children": [
+            {
+              "name": "Get-MistUserAuditLogs"
+            }
+          ]
+        },
+        {
+          "name": "Mist2FA",
+          "children": [
+            {
+              "name": "Get-Mist2FA"
+            }
+          ]
+        },
+        {
+          "name": "Mist2FAVerification",
+          "children": [
+            {
+              "name": "Invoke-Mist2FAVerification"
+            }
+          ]
+        },
+        {
+          "name": "MistLoginStatus",
+          "children": [
+            {
+              "name": "Get-MistLoginStatus"
+            }
+          ]
+        },
+        {
+          "name": "MistLogout",
+          "children": [
+            {
+              "name": "Invoke-MistLogout"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgTemplates",
+          "children": [
+            {
+              "name": "Get-MistOrgTemplates"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteGroup",
+          "children": [
+            {
+              "name": "New-MistSiteGroup"
+            }
+          ]
+        },
+        {
+          "name": "MistWAPfromEdge",
+          "children": [
+            {
+              "name": "Disconnect-MistWAPfromEdge"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgRFTemplates",
+          "children": [
+            {
+              "name": "Get-MistOrgRFTemplates"
+            }
+          ]
+        },
+        {
+          "name": "MistGroupWlans",
+          "children": [
+            {
+              "name": "Get-MistGroupWlans"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgWlans",
+          "children": [
+            {
+              "name": "Get-MistOrgWlans"
+            }
+          ]
+        },
+        {
+          "name": "MistSites",
+          "children": [
+            {
+              "name": "Import-MistSites"
+            },
+            {
+              "name": "Get-MistSites"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgWlan",
+          "children": [
+            {
+              "name": "Get-MistOrgWlan"
+            }
+          ]
+        },
+        {
+          "name": "MistInsightMetrics",
+          "children": [
+            {
+              "name": "Get-MistInsightMetrics"
+            }
+          ]
+        },
+        {
+          "name": "MistSite",
+          "children": [
+            {
+              "name": "New-MistSite"
+            },
+            {
+              "name": "Get-MistSite"
+            }
+          ]
+        },
+        {
+          "name": "MistDeviceManagementURI",
+          "children": [
+            {
+              "name": "Get-MistDeviceManagementURI"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgPSK",
+          "children": [
+            {
+              "name": "Update-MistOrgPSK"
+            },
+            {
+              "name": "New-MistOrgPSK"
+            }
+          ]
+        },
+        {
+          "name": "MistInventory",
+          "children": [
+            {
+              "name": "Get-MistInventory"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgTemplate",
+          "children": [
+            {
+              "name": "Get-MistOrgTemplate"
+            }
+          ]
+        },
+        {
+          "name": "MistWAPsfromEdgeAtRandom",
+          "children": [
+            {
+              "name": "Disconnect-MistWAPsfromEdgeAtRandom"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgGroup",
+          "children": [
+            {
+              "name": "Get-MistOrgGroup"
+            }
+          ]
+        },
+        {
+          "name": "MistOrkPSK",
+          "children": [
+            {
+              "name": "remove-MistOrkPSK"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgPsks",
+          "children": [
+            {
+              "name": "Get-MistOrgPsks"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgEdges",
+          "children": [
+            {
+              "name": "Get-MistOrgEdges"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteGroups",
+          "children": [
+            {
+              "name": "Get-MistSiteGroups"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgEdgePorts",
+          "children": [
+            {
+              "name": "Reset-MistOrgEdgePorts"
+            }
+          ]
+        },
+        {
+          "name": "MistOrgDeviceStats",
+          "children": [
+            {
+              "name": "Get-MistOrgDeviceStats"
+            }
+          ]
+        },
+        {
+          "name": "MistOrganizations",
+          "children": [
+            {
+              "name": "Get-MistOrganizations"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteMap",
+          "children": [
+            {
+              "name": "Get-MistSiteMap"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteDevice",
+          "children": [
+            {
+              "name": "Get-MistSiteDevice"
+            }
+          ]
+        },
+        {
+          "name": "MistSitePSK",
+          "children": [
+            {
+              "name": "Add-MistSitePSK"
+            },
+            {
+              "name": "Remove-MistSitePSK"
+            },
+            {
+              "name": "Get-MistSitePSK"
+            },
+            {
+              "name": "Set-MistSitePSK"
+            }
+          ]
+        },
+        {
+          "name": "MistDeviceImage",
+          "children": [
+            {
+              "name": "Add-MistDeviceImage"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteInsights",
+          "children": [
+            {
+              "name": "Get-MistSiteInsights"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteDeviceStats",
+          "children": [
+            {
+              "name": "Get-MistSiteDeviceStats"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteAlarms",
+          "children": [
+            {
+              "name": "Get-MistSiteAlarms"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteWlan",
+          "children": [
+            {
+              "name": "Set-MistSiteWlan"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteSetting",
+          "children": [
+            {
+              "name": "Get-MistSiteSetting"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteSettings",
+          "children": [
+            {
+              "name": "Set-MistSiteSettings"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteMaps",
+          "children": [
+            {
+              "name": "Get-MistSiteMaps"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteClients",
+          "children": [
+            {
+              "name": "Get-MistSiteClients"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteWlans",
+          "children": [
+            {
+              "name": "Get-MistSiteWlans"
+            }
+          ]
+        },
+        {
+          "name": "MistSitePSKSettings",
+          "children": [
+            {
+              "name": "Initialize-MistSitePSKSettings"
+            }
+          ]
+        },
+        {
+          "name": "MistSiteInventory",
+          "children": [
+            {
+              "name": "Get-MistSiteInventory"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

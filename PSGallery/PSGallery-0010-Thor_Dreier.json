@@ -1,0 +1,348 @@
+{
+  "name": "Thor Dreier",
+  "children": [
+    {
+      "name": "CertificateTools",
+      "companyName": "Thor Dreier",
+      "children": [
+        {
+          "name": "NewestCertificate",
+          "children": [
+            {
+              "name": "Find-NewestCertificate"
+            }
+          ]
+        },
+        {
+          "name": "HttpsBinding",
+          "children": [
+            {
+              "name": "Get-HttpsBinding"
+            },
+            {
+              "name": "Set-HttpsBinding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KeePassImportExport",
+      "companyName": "Thor Dreier",
+      "children": [
+        {
+          "name": "KeePassEntry",
+          "children": [
+            {
+              "name": "Export-KeePassEntry"
+            },
+            {
+              "name": "Import-KeePassEntry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NetBoxing",
+      "companyName": "Thor Dreier",
+      "children": [
+        {
+          "name": "NetboxRequest",
+          "children": [
+            {
+              "name": "Invoke-NetboxRequest"
+            }
+          ]
+        },
+        {
+          "name": "NetboxPatch",
+          "children": [
+            {
+              "name": "Invoke-NetboxPatch"
+            }
+          ]
+        },
+        {
+          "name": "NetboxObject",
+          "children": [
+            {
+              "name": "Find-NetboxObject"
+            }
+          ]
+        },
+        {
+          "name": "NetboxUpsert",
+          "children": [
+            {
+              "name": "Invoke-NetboxUpsert"
+            }
+          ]
+        },
+        {
+          "name": "Netbox",
+          "children": [
+            {
+              "name": "Connect-Netbox"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OAuth2PS",
+      "companyName": "Thor Dreier",
+      "children": [
+        {
+          "name": "OAuth2",
+          "children": [
+            {
+              "name": "Connect-OAuth2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSVault",
+      "companyName": "Thor Dreier",
+      "children": [
+        {
+          "name": "VaultCredential",
+          "children": [
+            {
+              "name": "Get-VaultCredential"
+            },
+            {
+              "name": "Set-VaultCredential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PPS",
+      "companyName": "Thor Dreier",
+      "children": [
+        {
+          "name": "PpsEntry",
+          "children": [
+            {
+              "name": "New-PpsEntry"
+            },
+            {
+              "name": "Import-PpsEntry"
+            },
+            {
+              "name": "Get-PpsEntry"
+            },
+            {
+              "name": "Remove-PpsEntry"
+            },
+            {
+              "name": "Set-PpsEntry"
+            },
+            {
+              "name": "Export-PpsEntry"
+            }
+          ]
+        },
+        {
+          "name": "PpsGroup",
+          "children": [
+            {
+              "name": "New-PpsGroup"
+            },
+            {
+              "name": "Get-PpsGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pps",
+          "children": [
+            {
+              "name": "Connect-Pps"
+            }
+          ]
+        },
+        {
+          "name": "PpsApiRequest",
+          "children": [
+            {
+              "name": "Invoke-PpsApiRequest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellModuleTools",
+      "companyName": "Thor Dreier",
+      "children": [
+        {
+          "name": "ModuleMarkup",
+          "children": [
+            {
+              "name": "Get-ModuleMarkup"
+            }
+          ]
+        },
+        {
+          "name": "ModuleBuildStructure",
+          "children": [
+            {
+              "name": "New-ModuleBuildStructure"
+            }
+          ]
+        },
+        {
+          "name": "ModuleBuild",
+          "children": [
+            {
+              "name": "Invoke-ModuleBuild"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SimpleIP",
+      "companyName": "Thor Dreier",
+      "children": [
+        {
+          "name": "IPv4Mask",
+          "children": [
+            {
+              "name": "Get-IPv4Mask"
+            },
+            {
+              "name": "Convert-IPv4Mask"
+            }
+          ]
+        },
+        {
+          "name": "IPv4Subnet",
+          "children": [
+            {
+              "name": "Get-IPv4Subnet"
+            },
+            {
+              "name": "Test-IPv4Subnet"
+            }
+          ]
+        },
+        {
+          "name": "IPv4Address",
+          "children": [
+            {
+              "name": "Test-IPv4Address"
+            },
+            {
+              "name": "Convert-IPv4Address"
+            },
+            {
+              "name": "Get-IPv4Address"
+            }
+          ]
+        },
+        {
+          "name": "IPv6Subnet",
+          "children": [
+            {
+              "name": "Test-IPv6Subnet"
+            },
+            {
+              "name": "Get-IPv6Subnet"
+            }
+          ]
+        },
+        {
+          "name": "IPv6Address",
+          "children": [
+            {
+              "name": "Test-IPv6Address"
+            },
+            {
+              "name": "Convert-IPv6Address"
+            },
+            {
+              "name": "Get-IPv6Address"
+            }
+          ]
+        },
+        {
+          "name": "IPv6AddressInSameNet",
+          "children": [
+            {
+              "name": "Test-IPv6AddressInSameNet"
+            }
+          ]
+        },
+        {
+          "name": "IPv6AddressInSubnet",
+          "children": [
+            {
+              "name": "Test-IPv6AddressInSubnet"
+            }
+          ]
+        },
+        {
+          "name": "IPv4AddressInSubnet",
+          "children": [
+            {
+              "name": "Test-IPv4AddressInSubnet"
+            }
+          ]
+        },
+        {
+          "name": "IPv4AddressIsPrivate",
+          "children": [
+            {
+              "name": "Test-IPv4AddressIsPrivate"
+            }
+          ]
+        },
+        {
+          "name": "IPv4AddressInSameNet",
+          "children": [
+            {
+              "name": "Test-IPv4AddressInSameNet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShaCrypt",
+      "companyName": "Thor Dreier",
+      "children": [
+        {
+          "name": "ShaPassword",
+          "children": [
+            {
+              "name": "New-ShaPassword"
+            },
+            {
+              "name": "Test-ShaPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VersionNumber",
+      "companyName": "Thor Dreier",
+      "children": [
+        {
+          "name": "CalculatedVersionNumber",
+          "children": [
+            {
+              "name": "Get-CalculatedVersionNumber"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

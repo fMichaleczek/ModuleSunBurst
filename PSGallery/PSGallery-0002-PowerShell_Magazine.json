@@ -1,0 +1,71 @@
+{
+  "name": "PowerShell Magazine",
+  "children": [
+    {
+      "name": "PSConfDrive",
+      "companyName": "PowerShell Magazine",
+      "children": [
+        {
+          "name": "AgendaDate",
+          "children": [
+            {
+              "name": "Get-AgendaDate"
+            }
+          ]
+        },
+        {
+          "name": "AgendaSpeaker",
+          "children": [
+            {
+              "name": "Get-AgendaSpeaker"
+            }
+          ]
+        },
+        {
+          "name": "AgendaCategory",
+          "children": [
+            {
+              "name": "Get-AgendaCategory"
+            }
+          ]
+        },
+        {
+          "name": "AgendaItem",
+          "children": [
+            {
+              "name": "Get-AgendaItem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSBookmark",
+      "companyName": "PowerShell Magazine",
+      "children": [
+        {
+          "name": "LocationBookmark",
+          "children": [
+            {
+              "name": "Save-LocationBookmark"
+            },
+            {
+              "name": "Get-LocationBookmark"
+            },
+            {
+              "name": "Remove-LocationBookmark"
+            }
+          ]
+        },
+        {
+          "name": "LocationBookmarkAsPWD",
+          "children": [
+            {
+              "name": "Set-LocationBookmarkAsPWD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

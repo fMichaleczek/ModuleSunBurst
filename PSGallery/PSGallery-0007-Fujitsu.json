@@ -1,0 +1,340 @@
+{
+  "name": "Fujitsu",
+  "children": [
+    {
+      "name": "PS-Zabbix-Host",
+      "companyName": "Fujitsu",
+      "children": [
+        {
+          "name": "ZabbixAgent",
+          "children": [
+            {
+              "name": "Install-ZabbixAgent"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixToken",
+          "children": [
+            {
+              "name": "New-ZabbixToken"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHost",
+          "children": [
+            {
+              "name": "New-ZabbixHost"
+            }
+          ]
+        },
+        {
+          "name": "LocalIPAddress",
+          "children": [
+            {
+              "name": "Get-LocalIPAddress"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ps-vmware-az-assessment",
+      "companyName": "Fujitsu",
+      "children": [
+        {
+          "name": "AzMigrate",
+          "children": [
+            {
+              "name": "ConvertTo-AzMigrate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS-Terraform-Cloud",
+      "companyName": "Fujitsu",
+      "children": [
+        {
+          "name": "WorkspaceVariable",
+          "children": [
+            {
+              "name": "New-WorkspaceVariable"
+            }
+          ]
+        },
+        {
+          "name": "TerraformCloudOrganization",
+          "children": [
+            {
+              "name": "New-TerraformCloudOrganization"
+            }
+          ]
+        },
+        {
+          "name": "TerraformCloudWorkspace",
+          "children": [
+            {
+              "name": "New-TerraformCloudWorkspace"
+            },
+            {
+              "name": "Get-TerraformCloudWorkspace"
+            },
+            {
+              "name": "Remove-TerraformCloudWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "TerraformCloudWorkspaceVariable",
+          "children": [
+            {
+              "name": "New-TerraformCloudWorkspaceVariable"
+            },
+            {
+              "name": "Update-TerraformCloudWorkspaceVariable"
+            },
+            {
+              "name": "Get-TerraformCloudWorkspaceVariable"
+            },
+            {
+              "name": "Remove-TerraformCloudWorkspaceVariable"
+            }
+          ]
+        },
+        {
+          "name": "TerraformCloudOAuthClient",
+          "children": [
+            {
+              "name": "Get-TerraformCloudOAuthClient"
+            }
+          ]
+        },
+        {
+          "name": "TerraformCloudOAuthToken",
+          "children": [
+            {
+              "name": "Get-TerraformCloudOAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "TerraformAzureState",
+          "children": [
+            {
+              "name": "Import-TerraformAzureState"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ps-azure-container-registry",
+      "companyName": "Fujitsu",
+      "children": [
+        {
+          "name": "AzureLoginSession",
+          "children": [
+            {
+              "name": "Set-AzureLoginSession"
+            }
+          ]
+        },
+        {
+          "name": "AzureContainerRegistry",
+          "children": [
+            {
+              "name": "Get-AzureContainerRegistry"
+            }
+          ]
+        },
+        {
+          "name": "AzureRepository",
+          "children": [
+            {
+              "name": "Get-AzureRepository"
+            }
+          ]
+        },
+        {
+          "name": "AzureRepositoryTags",
+          "children": [
+            {
+              "name": "Get-AzureRepositoryTags"
+            }
+          ]
+        },
+        {
+          "name": "AzureRegistryCredentials",
+          "children": [
+            {
+              "name": "Get-AzureRegistryCredentials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QAToolModule",
+      "companyName": "Fujitsu",
+      "children": [
+        {
+          "name": "InstallUninstall1",
+          "children": [
+            {
+              "name": "Check-InstallUninstall1"
+            }
+          ]
+        },
+        {
+          "name": "FileName",
+          "children": [
+            {
+              "name": "Get-FileName"
+            }
+          ]
+        },
+        {
+          "name": "Transforms",
+          "children": [
+            {
+              "name": "Apply-Transforms"
+            },
+            {
+              "name": "Equated-Transforms"
+            }
+          ]
+        },
+        {
+          "name": "Readiness",
+          "children": [
+            {
+              "name": "Check-Readiness"
+            }
+          ]
+        },
+        {
+          "name": "MSIProperties",
+          "children": [
+            {
+              "name": "Get-MSIProperties"
+            }
+          ]
+        },
+        {
+          "name": "HTMLFolder",
+          "children": [
+            {
+              "name": "Check-HTMLFolder"
+            }
+          ]
+        },
+        {
+          "name": "ValueIntheBox",
+          "children": [
+            {
+              "name": "get-ValueIntheBox"
+            }
+          ]
+        },
+        {
+          "name": "LogFolder",
+          "children": [
+            {
+              "name": "Check-LogFolder"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        },
+        {
+          "name": "DataFromWord",
+          "children": [
+            {
+              "name": "Get-DataFromWord"
+            }
+          ]
+        },
+        {
+          "name": "DataFromWordNew",
+          "children": [
+            {
+              "name": "Get-DataFromWordNew"
+            }
+          ]
+        },
+        {
+          "name": "ActionBox1",
+          "children": [
+            {
+              "name": "Load-ActionBox1"
+            }
+          ]
+        },
+        {
+          "name": "Prereq",
+          "children": [
+            {
+              "name": "Check-Prereq"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServiceNow-MIDServer",
+      "companyName": "Fujitsu",
+      "children": [
+        {
+          "name": "ServiceNowMIDServer",
+          "children": [
+            {
+              "name": "Install-ServiceNowMIDServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TerraformSetup",
+      "companyName": "Fujitsu",
+      "children": [
+        {
+          "name": "TerraformVersion",
+          "children": [
+            {
+              "name": "Get-TerraformVersion"
+            }
+          ]
+        },
+        {
+          "name": "Terraform",
+          "children": [
+            {
+              "name": "Install-Terraform"
+            },
+            {
+              "name": "Uninstall-Terraform"
+            }
+          ]
+        },
+        {
+          "name": "TerraformFolders",
+          "children": [
+            {
+              "name": "New-TerraformFolders"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

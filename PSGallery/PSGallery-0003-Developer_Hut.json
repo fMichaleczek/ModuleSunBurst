@@ -1,0 +1,55 @@
+{
+  "name": "Developer Hut",
+  "children": [
+    {
+      "name": "gibbels-software",
+      "companyName": "Developer Hut",
+      "children": [
+        {
+          "name": "DotNet4.6.1",
+          "children": [
+            {
+              "name": "Install-DotNet4.6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gibbels-common",
+      "companyName": "Developer Hut",
+      "children": [
+        {
+          "name": "DotNetVersion",
+          "children": [
+            {
+              "name": "Get-DotNetVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gibbels-algorithms",
+      "companyName": "Developer Hut",
+      "children": [
+        {
+          "name": "LuhnValidation",
+          "children": [
+            {
+              "name": "Test-LuhnValidation"
+            }
+          ]
+        },
+        {
+          "name": "LevenshteinDistance",
+          "children": [
+            {
+              "name": "Test-LevenshteinDistance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

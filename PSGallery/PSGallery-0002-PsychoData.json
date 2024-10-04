@@ -1,0 +1,87 @@
+{
+  "name": "PsychoData",
+  "children": [
+    {
+      "name": "Onedrive-client",
+      "companyName": "PsychoData",
+      "children": [
+        {
+          "name": "ODSyncedItemConfig",
+          "children": [
+            {
+              "name": "Remove-ODSyncedItemConfig"
+            }
+          ]
+        },
+        {
+          "name": "ODSyncedLibraryConfig",
+          "children": [
+            {
+              "name": "Get-ODSyncedLibraryConfig"
+            }
+          ]
+        },
+        {
+          "name": "ODSyncedFolderConfig",
+          "children": [
+            {
+              "name": "Get-ODSyncedFolderConfig"
+            }
+          ]
+        },
+        {
+          "name": "ODClientEXE",
+          "children": [
+            {
+              "name": "Get-ODClientEXE"
+            }
+          ]
+        },
+        {
+          "name": "ODClients",
+          "children": [
+            {
+              "name": "Get-ODClients"
+            },
+            {
+              "name": "Start-ODClients"
+            },
+            {
+              "name": "Stop-ODClients"
+            }
+          ]
+        },
+        {
+          "name": "ODConfig",
+          "children": [
+            {
+              "name": "Get-ODConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Posh-AdaptiveCards",
+      "companyName": "PsychoData",
+      "children": [
+        {
+          "name": "AdaptiveCardInstance",
+          "children": [
+            {
+              "name": "New-AdaptiveCardInstance"
+            }
+          ]
+        },
+        {
+          "name": "AdaptiveCardTemplate",
+          "children": [
+            {
+              "name": "New-AdaptiveCardTemplate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

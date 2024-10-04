@@ -1,0 +1,1408 @@
+{
+  "name": "XtremIO Dell EMC",
+  "children": [
+    {
+      "name": "XtremLib3",
+      "companyName": "XtremIO Dell EMC",
+      "children": [
+        {
+          "name": "XtremXMS",
+          "children": [
+            {
+              "name": "Get-XtremXMS"
+            }
+          ]
+        },
+        {
+          "name": "XtremClusters",
+          "children": [
+            {
+              "name": "Get-XtremClusters"
+            }
+          ]
+        },
+        {
+          "name": "XtremCluster",
+          "children": [
+            {
+              "name": "Get-XtremCluster"
+            },
+            {
+              "name": "Select-XtremCluster"
+            }
+          ]
+        },
+        {
+          "name": "XtremClusterFunctions",
+          "children": [
+            {
+              "name": "Create-XtremClusterFunctions"
+            }
+          ]
+        },
+        {
+          "name": "XtremBricks",
+          "children": [
+            {
+              "name": "Get-XtremBricks"
+            }
+          ]
+        },
+        {
+          "name": "XtremBrick",
+          "children": [
+            {
+              "name": "Get-XtremBrick"
+            }
+          ]
+        },
+        {
+          "name": "XtremVolumes",
+          "children": [
+            {
+              "name": "Get-XtremVolumes"
+            }
+          ]
+        },
+        {
+          "name": "XtremVolume",
+          "children": [
+            {
+              "name": "Get-XtremVolume"
+            },
+            {
+              "name": "New-XtremVolume"
+            },
+            {
+              "name": "Set-XtremVolume"
+            },
+            {
+              "name": "Remove-XtremVolume"
+            }
+          ]
+        },
+        {
+          "name": "XtremConsistencyGroups",
+          "children": [
+            {
+              "name": "Get-XtremConsistencyGroups"
+            }
+          ]
+        },
+        {
+          "name": "XtremConsistencyGroup",
+          "children": [
+            {
+              "name": "Get-XtremConsistencyGroup"
+            },
+            {
+              "name": "Remove-XtremConsistencyGroup"
+            },
+            {
+              "name": "New-XtremConsistencyGroup"
+            },
+            {
+              "name": "Set-XtremConsistencyGroup"
+            }
+          ]
+        },
+        {
+          "name": "SetParametersForRequestCG",
+          "children": [
+            {
+              "name": "SetParametersForRequestCG"
+            }
+          ]
+        },
+        {
+          "name": "XtremConsistencyGroupVolumes",
+          "children": [
+            {
+              "name": "Get-XtremConsistencyGroupVolumes"
+            }
+          ]
+        },
+        {
+          "name": "XtremConsistencyGroupVolume",
+          "children": [
+            {
+              "name": "Get-XtremConsistencyGroupVolume"
+            },
+            {
+              "name": "New-XtremConsistencyGroupVolume"
+            },
+            {
+              "name": "Remove-XtremConsistencyGroupVolume"
+            }
+          ]
+        },
+        {
+          "name": "GetXtremErrorMsg",
+          "children": [
+            {
+              "name": "GetXtremErrorMsg"
+            }
+          ]
+        },
+        {
+          "name": "GetXtremAuthHeader",
+          "children": [
+            {
+              "name": "GetXtremAuthHeader"
+            }
+          ]
+        },
+        {
+          "name": "GetXtremRawRequest",
+          "children": [
+            {
+              "name": "GetXtremRawRequest"
+            }
+          ]
+        },
+        {
+          "name": "showRestIfset",
+          "children": [
+            {
+              "name": "showRestIfset"
+            }
+          ]
+        },
+        {
+          "name": "BuildURIRequest",
+          "children": [
+            {
+              "name": "BuildURIRequest"
+            }
+          ]
+        },
+        {
+          "name": "XtremGETRequest",
+          "children": [
+            {
+              "name": "XtremGETRequest"
+            },
+            {
+              "name": "Invoke-XtremGetRequest"
+            }
+          ]
+        },
+        {
+          "name": "InvokeAsyncAnim",
+          "children": [
+            {
+              "name": "InvokeAsyncAnim"
+            }
+          ]
+        },
+        {
+          "name": "isConsoleHost",
+          "children": [
+            {
+              "name": "isConsoleHost"
+            }
+          ]
+        },
+        {
+          "name": "initAnimation",
+          "children": [
+            {
+              "name": "initAnimation"
+            }
+          ]
+        },
+        {
+          "name": "endAnimation",
+          "children": [
+            {
+              "name": "endAnimation"
+            }
+          ]
+        },
+        {
+          "name": "clearAnimationText",
+          "children": [
+            {
+              "name": "clearAnimationText"
+            }
+          ]
+        },
+        {
+          "name": "doAnimation",
+          "children": [
+            {
+              "name": "doAnimation"
+            }
+          ]
+        },
+        {
+          "name": "findSelectedObject",
+          "children": [
+            {
+              "name": "findSelectedObject"
+            }
+          ]
+        },
+        {
+          "name": "XtremPOSTRequest",
+          "children": [
+            {
+              "name": "XtremPOSTRequest"
+            }
+          ]
+        },
+        {
+          "name": "XtremPUTRequest",
+          "children": [
+            {
+              "name": "XtremPUTRequest"
+            }
+          ]
+        },
+        {
+          "name": "XtremDELETERequest",
+          "children": [
+            {
+              "name": "XtremDELETERequest"
+            }
+          ]
+        },
+        {
+          "name": "NewXtremRequest",
+          "children": [
+            {
+              "name": "NewXtremRequest"
+            }
+          ]
+        },
+        {
+          "name": "SetParametersForRequest",
+          "children": [
+            {
+              "name": "SetParametersForRequest"
+            }
+          ]
+        },
+        {
+          "name": "XtremTrustAllCertsPolicy",
+          "children": [
+            {
+              "name": "Set-XtremTrustAllCertsPolicy"
+            }
+          ]
+        },
+        {
+          "name": "XtremTypes",
+          "children": [
+            {
+              "name": "Get-XtremTypes"
+            }
+          ]
+        },
+        {
+          "name": "AddIfExists",
+          "children": [
+            {
+              "name": "AddIfExists"
+            }
+          ]
+        },
+        {
+          "name": "IsConfirmed",
+          "children": [
+            {
+              "name": "IsConfirmed"
+            }
+          ]
+        },
+        {
+          "name": "BuildXtremJson",
+          "children": [
+            {
+              "name": "BuildXtremJson"
+            }
+          ]
+        },
+        {
+          "name": "XtremCSV",
+          "children": [
+            {
+              "name": "Export-XtremCSV"
+            }
+          ]
+        },
+        {
+          "name": "XMScommand",
+          "children": [
+            {
+              "name": "Get-XMScommand"
+            }
+          ]
+        },
+        {
+          "name": "getCmdletUserParams",
+          "children": [
+            {
+              "name": "getCmdletUserParams"
+            }
+          ]
+        },
+        {
+          "name": "getNextParamToInsert",
+          "children": [
+            {
+              "name": "getNextParamToInsert"
+            }
+          ]
+        },
+        {
+          "name": "countUsedParams",
+          "children": [
+            {
+              "name": "countUsedParams"
+            }
+          ]
+        },
+        {
+          "name": "lineHandleQuotedStings",
+          "children": [
+            {
+              "name": "lineHandleQuotedStings"
+            }
+          ]
+        },
+        {
+          "name": "enterHandle",
+          "children": [
+            {
+              "name": "enterHandle"
+            }
+          ]
+        },
+        {
+          "name": "pipeHandle",
+          "children": [
+            {
+              "name": "pipeHandle"
+            }
+          ]
+        },
+        {
+          "name": "tabHandle",
+          "children": [
+            {
+              "name": "tabHandle"
+            }
+          ]
+        },
+        {
+          "name": "shiftTabHandle",
+          "children": [
+            {
+              "name": "shiftTabHandle"
+            }
+          ]
+        },
+        {
+          "name": "backSpaceHandle",
+          "children": [
+            {
+              "name": "backSpaceHandle"
+            }
+          ]
+        },
+        {
+          "name": "cntrlSpaceHandle",
+          "children": [
+            {
+              "name": "cntrlSpaceHandle"
+            }
+          ]
+        },
+        {
+          "name": "spaceBarHandle",
+          "children": [
+            {
+              "name": "spaceBarHandle"
+            }
+          ]
+        },
+        {
+          "name": "isXmsCommand",
+          "children": [
+            {
+              "name": "isXmsCommand"
+            }
+          ]
+        },
+        {
+          "name": "getXMSHistoryCommands",
+          "children": [
+            {
+              "name": "getXMSHistoryCommands"
+            }
+          ]
+        },
+        {
+          "name": "XtremProtectionCopy",
+          "children": [
+            {
+              "name": "New-XtremProtectionCopy"
+            }
+          ]
+        },
+        {
+          "name": "XtremRepurposeCopy",
+          "children": [
+            {
+              "name": "New-XtremRepurposeCopy"
+            }
+          ]
+        },
+        {
+          "name": "XtremDAERowControllers",
+          "children": [
+            {
+              "name": "Get-XtremDAERowControllers"
+            }
+          ]
+        },
+        {
+          "name": "XtremDAERowController",
+          "children": [
+            {
+              "name": "Get-XtremDAERowController"
+            }
+          ]
+        },
+        {
+          "name": "XtremDAEControllers",
+          "children": [
+            {
+              "name": "Get-XtremDAEControllers"
+            }
+          ]
+        },
+        {
+          "name": "XtremDAEController",
+          "children": [
+            {
+              "name": "Get-XtremDAEController"
+            }
+          ]
+        },
+        {
+          "name": "XtremDAEs",
+          "children": [
+            {
+              "name": "Get-XtremDAEs"
+            }
+          ]
+        },
+        {
+          "name": "XtremDAE",
+          "children": [
+            {
+              "name": "Get-XtremDAE"
+            }
+          ]
+        },
+        {
+          "name": "XtremDAEPSUs",
+          "children": [
+            {
+              "name": "Get-XtremDAEPSUs"
+            }
+          ]
+        },
+        {
+          "name": "XtremDAEPSU",
+          "children": [
+            {
+              "name": "Get-XtremDAEPSU"
+            }
+          ]
+        },
+        {
+          "name": "XtremInfinibandSwitches",
+          "children": [
+            {
+              "name": "Get-XtremInfinibandSwitches"
+            }
+          ]
+        },
+        {
+          "name": "XtremInfinibandSwitch",
+          "children": [
+            {
+              "name": "Get-XtremInfinibandSwitch"
+            }
+          ]
+        },
+        {
+          "name": "XtremInitiatorGroups",
+          "children": [
+            {
+              "name": "Get-XtremInitiatorGroups"
+            }
+          ]
+        },
+        {
+          "name": "XtremInitiatorGroup",
+          "children": [
+            {
+              "name": "Get-XtremInitiatorGroup"
+            },
+            {
+              "name": "New-XtremInitiatorGroup"
+            },
+            {
+              "name": "Set-XtremInitiatorGroup"
+            },
+            {
+              "name": "Remove-XtremInitiatorGroup"
+            }
+          ]
+        },
+        {
+          "name": "getInitiatorsInfo",
+          "children": [
+            {
+              "name": "getInitiatorsInfo"
+            }
+          ]
+        },
+        {
+          "name": "XtremInitiators",
+          "children": [
+            {
+              "name": "Get-XtremInitiators"
+            }
+          ]
+        },
+        {
+          "name": "XtremInitiator",
+          "children": [
+            {
+              "name": "Get-XtremInitiator"
+            },
+            {
+              "name": "New-XtremInitiator"
+            },
+            {
+              "name": "Set-XtremInitiator"
+            },
+            {
+              "name": "Remove-XtremInitiator"
+            }
+          ]
+        },
+        {
+          "name": "XtremISCSIPortals",
+          "children": [
+            {
+              "name": "Get-XtremISCSIPortals"
+            }
+          ]
+        },
+        {
+          "name": "XtremISCSIPortal",
+          "children": [
+            {
+              "name": "Get-XtremISCSIPortal"
+            },
+            {
+              "name": "Remove-XtremISCSIPortal"
+            },
+            {
+              "name": "New-XtremISCSIPortal"
+            }
+          ]
+        },
+        {
+          "name": "XtremISCSIRoutes",
+          "children": [
+            {
+              "name": "Get-XtremISCSIRoutes"
+            }
+          ]
+        },
+        {
+          "name": "XtremISCSIRoute",
+          "children": [
+            {
+              "name": "Get-XtremISCSIRoute"
+            }
+          ]
+        },
+        {
+          "name": "XtremAdvisoryNotices",
+          "children": [
+            {
+              "name": "Get-XtremAdvisoryNotices"
+            }
+          ]
+        },
+        {
+          "name": "XtremAdvisoryNotice",
+          "children": [
+            {
+              "name": "Get-XtremAdvisoryNotice"
+            },
+            {
+              "name": "Set-XtremAdvisoryNotice"
+            }
+          ]
+        },
+        {
+          "name": "XtremUserAccounts",
+          "children": [
+            {
+              "name": "Get-XtremUserAccounts"
+            }
+          ]
+        },
+        {
+          "name": "XtremUserAccount",
+          "children": [
+            {
+              "name": "Get-XtremUserAccount"
+            },
+            {
+              "name": "Remove-XtremUserAccount"
+            },
+            {
+              "name": "New-XtremUserAccount"
+            },
+            {
+              "name": "Set-XtremUserAccount"
+            }
+          ]
+        },
+        {
+          "name": "XtremDataProtectionGroups",
+          "children": [
+            {
+              "name": "Get-XtremDataProtectionGroups"
+            }
+          ]
+        },
+        {
+          "name": "XtremDataProtectionGroup",
+          "children": [
+            {
+              "name": "Get-XtremDataProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "XtremAlerts",
+          "children": [
+            {
+              "name": "Get-XtremAlerts"
+            }
+          ]
+        },
+        {
+          "name": "XtremAlert",
+          "children": [
+            {
+              "name": "Get-XtremAlert"
+            }
+          ]
+        },
+        {
+          "name": "XtremAlertDefinitions",
+          "children": [
+            {
+              "name": "Get-XtremAlertDefinitions"
+            }
+          ]
+        },
+        {
+          "name": "XtremAlertDefinition",
+          "children": [
+            {
+              "name": "Get-XtremAlertDefinition"
+            },
+            {
+              "name": "Set-XtremAlertDefinition"
+            }
+          ]
+        },
+        {
+          "name": "XtremEvents",
+          "children": [
+            {
+              "name": "Get-XtremEvents"
+            }
+          ]
+        },
+        {
+          "name": "XtremXEnvs",
+          "children": [
+            {
+              "name": "Get-XtremXEnvs"
+            }
+          ]
+        },
+        {
+          "name": "XtremXEnv",
+          "children": [
+            {
+              "name": "Get-XtremXEnv"
+            }
+          ]
+        },
+        {
+          "name": "XtremLDAPConfigs",
+          "children": [
+            {
+              "name": "Get-XtremLDAPConfigs"
+            }
+          ]
+        },
+        {
+          "name": "XtremLDAPConfig",
+          "children": [
+            {
+              "name": "Get-XtremLDAPConfig"
+            }
+          ]
+        },
+        {
+          "name": "XtremPerformance",
+          "children": [
+            {
+              "name": "Get-XtremPerformance"
+            }
+          ]
+        },
+        {
+          "name": "XtremVolumeMappings",
+          "children": [
+            {
+              "name": "Get-XtremVolumeMappings"
+            }
+          ]
+        },
+        {
+          "name": "XtremVolumeMapping",
+          "children": [
+            {
+              "name": "Get-XtremVolumeMapping"
+            },
+            {
+              "name": "New-XtremVolumeMapping"
+            },
+            {
+              "name": "Remove-XtremVolumeMapping"
+            }
+          ]
+        },
+        {
+          "name": "XtremEmailNotifiers",
+          "children": [
+            {
+              "name": "Get-XtremEmailNotifiers"
+            }
+          ]
+        },
+        {
+          "name": "XtremEmailNotifier",
+          "children": [
+            {
+              "name": "Get-XtremEmailNotifier"
+            }
+          ]
+        },
+        {
+          "name": "XtremSNMPNotifiers",
+          "children": [
+            {
+              "name": "Get-XtremSNMPNotifiers"
+            }
+          ]
+        },
+        {
+          "name": "XtremSNMPNotifier",
+          "children": [
+            {
+              "name": "Get-XtremSNMPNotifier"
+            }
+          ]
+        },
+        {
+          "name": "XtremSYSLOGNotifiers",
+          "children": [
+            {
+              "name": "Get-XtremSYSLOGNotifiers"
+            }
+          ]
+        },
+        {
+          "name": "XtremSYSLOGNotifier",
+          "children": [
+            {
+              "name": "Get-XtremSYSLOGNotifier"
+            }
+          ]
+        },
+        {
+          "name": "XtremNVRAMs",
+          "children": [
+            {
+              "name": "Get-XtremNVRAMs"
+            }
+          ]
+        },
+        {
+          "name": "XtremNVRAM",
+          "children": [
+            {
+              "name": "Get-XtremNVRAM"
+            }
+          ]
+        },
+        {
+          "name": "XtremNVRAMSupercap",
+          "children": [
+            {
+              "name": "Get-XtremNVRAMSupercap"
+            }
+          ]
+        },
+        {
+          "name": "XtremBBUs",
+          "children": [
+            {
+              "name": "Get-XtremBBUs"
+            }
+          ]
+        },
+        {
+          "name": "XtremBBU",
+          "children": [
+            {
+              "name": "Get-XtremBBU"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionPeerXMS",
+          "children": [
+            {
+              "name": "Get-XtremRemoteProtectionPeerXMS"
+            },
+            {
+              "name": "New-XtremRemoteProtectionPeerXMS"
+            },
+            {
+              "name": "Set-XtremRemoteProtectionPeerXMS"
+            },
+            {
+              "name": "Remove-XtremRemoteProtectionPeerXMS"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionClusters",
+          "children": [
+            {
+              "name": "Get-XtremRemoteProtectionClusters"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionIPLinks",
+          "children": [
+            {
+              "name": "Get-XtremRemoteProtectionIPLinks"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionIpLink",
+          "children": [
+            {
+              "name": "Get-XtremRemoteProtectionIpLink"
+            },
+            {
+              "name": "New-XtremRemoteProtectionIpLink"
+            },
+            {
+              "name": "Set-XtremRemoteProtectionIpLink"
+            },
+            {
+              "name": "Remove-XtremRemoteProtectionIpLink"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionPorts",
+          "children": [
+            {
+              "name": "Get-XtremRemoteProtectionPorts"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionVolumes",
+          "children": [
+            {
+              "name": "Get-XtremRemoteProtectionVolumes"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionConsistencyGroups",
+          "children": [
+            {
+              "name": "Get-XtremRemoteProtectionConsistencyGroups"
+            }
+          ]
+        },
+        {
+          "name": "XtremLocalProtectionSessions",
+          "children": [
+            {
+              "name": "Get-XtremLocalProtectionSessions"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionSession",
+          "children": [
+            {
+              "name": "Get-XtremRemoteProtectionSession"
+            },
+            {
+              "name": "New-XtremRemoteProtectionSession"
+            },
+            {
+              "name": "Set-XtremRemoteProtectionSession"
+            },
+            {
+              "name": "Start-XtremRemoteProtectionSession"
+            },
+            {
+              "name": "Suspend-XtremRemoteProtectionSession"
+            },
+            {
+              "name": "Terminate-XtremRemoteProtectionSession"
+            },
+            {
+              "name": "Resume-XtremRemoteProtectionSession"
+            },
+            {
+              "name": "Remove-XtremRemoteProtectionSession"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionSessions",
+          "children": [
+            {
+              "name": "Get-XtremRemoteProtectionSessions"
+            }
+          ]
+        },
+        {
+          "name": "XtremLocalProtectionSession",
+          "children": [
+            {
+              "name": "New-XtremLocalProtectionSession"
+            },
+            {
+              "name": "Set-XtremLocalProtectionSession"
+            },
+            {
+              "name": "Remove-XtremLocalProtectionSession"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionSessionFailover",
+          "children": [
+            {
+              "name": "Start-XtremRemoteProtectionSessionFailover"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionTestCopy",
+          "children": [
+            {
+              "name": "Start-XtremRemoteProtectionTestCopy"
+            },
+            {
+              "name": "Finish-XtremRemoteProtectionTestCopy"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionBookMark",
+          "children": [
+            {
+              "name": "New-XtremRemoteProtectionBookMark"
+            }
+          ]
+        },
+        {
+          "name": "XtremLocalProtectionSnapshotSets",
+          "children": [
+            {
+              "name": "Get-XtremLocalProtectionSnapshotSets"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionSnapshotSets",
+          "children": [
+            {
+              "name": "Get-XtremRemoteProtectionSnapshotSets"
+            }
+          ]
+        },
+        {
+          "name": "XtremRemoteProtectionSnapshotSet",
+          "children": [
+            {
+              "name": "Set-XtremRemoteProtectionSnapshotSet"
+            }
+          ]
+        },
+        {
+          "name": "XtremProtectionRetentionPolices",
+          "children": [
+            {
+              "name": "Get-XtremProtectionRetentionPolices"
+            }
+          ]
+        },
+        {
+          "name": "XtremProtectionRetentionPolicy",
+          "children": [
+            {
+              "name": "Get-XtremProtectionRetentionPolicy"
+            },
+            {
+              "name": "New-XtremProtectionRetentionPolicy"
+            },
+            {
+              "name": "Copy-XtremProtectionRetentionPolicy"
+            },
+            {
+              "name": "Set-XtremProtectionRetentionPolicy"
+            },
+            {
+              "name": "Remove-XtremProtectionRetentionPolicy"
+            }
+          ]
+        },
+        {
+          "name": "getRemoteProtectionState",
+          "children": [
+            {
+              "name": "getRemoteProtectionState"
+            }
+          ]
+        },
+        {
+          "name": "XtremSchedulers",
+          "children": [
+            {
+              "name": "Get-XtremSchedulers"
+            }
+          ]
+        },
+        {
+          "name": "XtremScheduler",
+          "children": [
+            {
+              "name": "Get-XtremScheduler"
+            },
+            {
+              "name": "Remove-XtremScheduler"
+            },
+            {
+              "name": "New-XtremScheduler"
+            },
+            {
+              "name": "Set-XtremScheduler"
+            }
+          ]
+        },
+        {
+          "name": "XtremQoSs",
+          "children": [
+            {
+              "name": "Get-XtremQoSs"
+            }
+          ]
+        },
+        {
+          "name": "XtremQoS",
+          "children": [
+            {
+              "name": "Get-XtremQoS"
+            },
+            {
+              "name": "New-XtremQoS"
+            },
+            {
+              "name": "Set-XtremQoS"
+            },
+            {
+              "name": "Remove-XtremQoS"
+            }
+          ]
+        },
+        {
+          "name": "CreateXtremSessionObject",
+          "children": [
+            {
+              "name": "CreateXtremSessionObject"
+            }
+          ]
+        },
+        {
+          "name": "XtremSession",
+          "children": [
+            {
+              "name": "New-XtremSession"
+            },
+            {
+              "name": "Remove-XtremSession"
+            },
+            {
+              "name": "Select-XtremSession"
+            },
+            {
+              "name": "Exit-XtremSession"
+            }
+          ]
+        },
+        {
+          "name": "XtremDefaultSession",
+          "children": [
+            {
+              "name": "Get-XtremDefaultSession"
+            }
+          ]
+        },
+        {
+          "name": "XtremSnapshots",
+          "children": [
+            {
+              "name": "Get-XtremSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "XtremSnapshot",
+          "children": [
+            {
+              "name": "Get-XtremSnapshot"
+            },
+            {
+              "name": "Remove-XtremSnapshot"
+            },
+            {
+              "name": "New-XtremSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "XtremSnapshotSets",
+          "children": [
+            {
+              "name": "Get-XtremSnapshotSets"
+            }
+          ]
+        },
+        {
+          "name": "XtremSnapshotSet",
+          "children": [
+            {
+              "name": "Get-XtremSnapshotSet"
+            },
+            {
+              "name": "Remove-XtremSnapshotSet"
+            },
+            {
+              "name": "Set-XtremSnapshotSet"
+            }
+          ]
+        },
+        {
+          "name": "XtremSnapshotAndReassign",
+          "children": [
+            {
+              "name": "New-XtremSnapshotAndReassign"
+            }
+          ]
+        },
+        {
+          "name": "XtremData",
+          "children": [
+            {
+              "name": "Refresh-XtremData"
+            },
+            {
+              "name": "Restore-XtremData"
+            }
+          ]
+        },
+        {
+          "name": "XtremSSDs",
+          "children": [
+            {
+              "name": "Get-XtremSSDs"
+            }
+          ]
+        },
+        {
+          "name": "XtremSSD",
+          "children": [
+            {
+              "name": "Get-XtremSSD"
+            }
+          ]
+        },
+        {
+          "name": "XtremSlots",
+          "children": [
+            {
+              "name": "Get-XtremSlots"
+            }
+          ]
+        },
+        {
+          "name": "XtremSlot",
+          "children": [
+            {
+              "name": "Get-XtremSlot"
+            }
+          ]
+        },
+        {
+          "name": "XtremStorageControllers",
+          "children": [
+            {
+              "name": "Get-XtremStorageControllers"
+            }
+          ]
+        },
+        {
+          "name": "XtremStorageController",
+          "children": [
+            {
+              "name": "Get-XtremStorageController"
+            }
+          ]
+        },
+        {
+          "name": "XtremStorageControllerPSUs",
+          "children": [
+            {
+              "name": "Get-XtremStorageControllerPSUs"
+            }
+          ]
+        },
+        {
+          "name": "XtremStorageControllerPSU",
+          "children": [
+            {
+              "name": "Get-XtremStorageControllerPSU"
+            }
+          ]
+        },
+        {
+          "name": "XtremLocalDisks",
+          "children": [
+            {
+              "name": "Get-XtremLocalDisks"
+            }
+          ]
+        },
+        {
+          "name": "XtremLocalDisk",
+          "children": [
+            {
+              "name": "Get-XtremLocalDisk"
+            }
+          ]
+        },
+        {
+          "name": "XtremTags",
+          "children": [
+            {
+              "name": "Get-XtremTags"
+            }
+          ]
+        },
+        {
+          "name": "XtremTag",
+          "children": [
+            {
+              "name": "Get-XtremTag"
+            },
+            {
+              "name": "New-XtremTag"
+            },
+            {
+              "name": "Remove-XtremTag"
+            },
+            {
+              "name": "Set-XtremTag"
+            }
+          ]
+        },
+        {
+          "name": "XtremTagObject",
+          "children": [
+            {
+              "name": "Set-XtremTagObject"
+            }
+          ]
+        },
+        {
+          "name": "XtremTargets",
+          "children": [
+            {
+              "name": "Get-XtremTargets"
+            }
+          ]
+        },
+        {
+          "name": "XtremTarget",
+          "children": [
+            {
+              "name": "Get-XtremTarget"
+            },
+            {
+              "name": "Set-XtremTarget"
+            }
+          ]
+        },
+        {
+          "name": "XtremTargetGroups",
+          "children": [
+            {
+              "name": "Get-XtremTargetGroups"
+            }
+          ]
+        },
+        {
+          "name": "XtremTargetGroup",
+          "children": [
+            {
+              "name": "Get-XtremTargetGroup"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

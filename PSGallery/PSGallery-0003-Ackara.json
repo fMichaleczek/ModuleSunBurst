@@ -1,0 +1,126 @@
+{
+  "name": "Ackara",
+  "children": [
+    {
+      "name": "Daterpillar.Automation",
+      "companyName": "Ackara",
+      "children": [
+        {
+          "name": "Schema",
+          "children": [
+            {
+              "name": "Compare-Schema"
+            },
+            {
+              "name": "ConvertTo-Schema"
+            }
+          ]
+        },
+        {
+          "name": "Script",
+          "children": [
+            {
+              "name": "ConvertTo-Script"
+            }
+          ]
+        },
+        {
+          "name": "SQLData",
+          "children": [
+            {
+              "name": "Import-SQLData"
+            }
+          ]
+        },
+        {
+          "name": "SQLCommand",
+          "children": [
+            {
+              "name": "Invoke-SQLCommand"
+            }
+          ]
+        },
+        {
+          "name": "Database",
+          "children": [
+            {
+              "name": "New-Database"
+            },
+            {
+              "name": "Remove-Database"
+            }
+          ]
+        },
+        {
+          "name": "MigrationScript",
+          "children": [
+            {
+              "name": "New-MigrationScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Daterpillar",
+      "companyName": "Ackara",
+      "children": [
+        {
+          "name": "DaterpillarSchema",
+          "children": [
+            {
+              "name": "Clear-DaterpillarSchema"
+            },
+            {
+              "name": "Export-DaterpillarSchema"
+            },
+            {
+              "name": "Repair-DaterpillarSchema"
+            },
+            {
+              "name": "Update-DaterpillarSchema"
+            }
+          ]
+        },
+        {
+          "name": "DaterpillarMigrationScript",
+          "children": [
+            {
+              "name": "New-DaterpillarMigrationScript"
+            }
+          ]
+        },
+        {
+          "name": "DaterpillarMigrationHistory",
+          "children": [
+            {
+              "name": "Show-DaterpillarMigrationHistory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Traneleon",
+      "companyName": "Ackara",
+      "children": [
+        {
+          "name": "Traneleon",
+          "children": [
+            {
+              "name": "Invoke-Traneleon"
+            }
+          ]
+        },
+        {
+          "name": "WebProject",
+          "children": [
+            {
+              "name": "Watch-WebProject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

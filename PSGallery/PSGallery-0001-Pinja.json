@@ -1,0 +1,43 @@
+{
+  "name": "Pinja",
+  "children": [
+    {
+      "name": "Pinja.Azure.Alerts",
+      "companyName": "Pinja",
+      "children": [
+        {
+          "name": "DefaultAlertRules",
+          "children": [
+            {
+              "name": "Get-DefaultAlertRules"
+            }
+          ]
+        },
+        {
+          "name": "AlertRule",
+          "children": [
+            {
+              "name": "New-AlertRule"
+            }
+          ]
+        },
+        {
+          "name": "AlertRuleOverwrite",
+          "children": [
+            {
+              "name": "New-AlertRuleOverwrite"
+            }
+          ]
+        },
+        {
+          "name": "AlertRules",
+          "children": [
+            {
+              "name": "Set-AlertRules"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

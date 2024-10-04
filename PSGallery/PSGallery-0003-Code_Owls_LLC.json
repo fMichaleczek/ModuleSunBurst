@@ -1,0 +1,55 @@
+{
+  "name": "Code Owls LLC",
+  "children": [
+    {
+      "name": "AzureBlobStorageProvider",
+      "companyName": "Code Owls LLC",
+      "children": [
+        {
+          "name": "azureBlobItem",
+          "children": [
+            {
+              "name": "copy-azureBlobItem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dropbox",
+      "companyName": "Code Owls LLC",
+      "children": [
+        {
+          "name": "dropBoxItem",
+          "children": [
+            {
+              "name": "copy-dropBoxItem"
+            }
+          ]
+        },
+        {
+          "name": "DropboxProtectedAccessToken",
+          "children": [
+            {
+              "name": "get-DropboxProtectedAccessToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OData",
+      "companyName": "Code Owls LLC",
+      "children": [
+        {
+          "name": "OData",
+          "children": [
+            {
+              "name": "mount-OData"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

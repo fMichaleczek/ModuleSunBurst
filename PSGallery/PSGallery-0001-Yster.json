@@ -1,0 +1,838 @@
+{
+  "name": "Yster",
+  "children": [
+    {
+      "name": "Yster.DesktopCentral",
+      "companyName": "Yster",
+      "children": [
+        {
+          "name": "DCAPICustomGroupMember",
+          "children": [
+            {
+              "name": "Add-DCAPICustomGroupMember"
+            },
+            {
+              "name": "Remove-DCAPICustomGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIInventoryScanSchedule",
+          "children": [
+            {
+              "name": "Disable-DCAPIInventoryScanSchedule"
+            },
+            {
+              "name": "Enable-DCAPIInventoryScanSchedule"
+            },
+            {
+              "name": "Get-DCAPIInventoryScanSchedule"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoftwareMetering",
+          "children": [
+            {
+              "name": "Disable-DCAPISoftwareMetering"
+            },
+            {
+              "name": "Enable-DCAPISoftwareMetering"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoftwareMeteringRule",
+          "children": [
+            {
+              "name": "Disable-DCAPISoftwareMeteringRule"
+            },
+            {
+              "name": "Enable-DCAPISoftwareMeteringRule"
+            },
+            {
+              "name": "Get-DCAPISoftwareMeteringRule"
+            }
+          ]
+        },
+        {
+          "name": "DCAPDTask",
+          "children": [
+            {
+              "name": "Get-DCAPDTask"
+            },
+            {
+              "name": "New-DCAPDTask"
+            },
+            {
+              "name": "Remove-DCAPDTask"
+            },
+            {
+              "name": "Resume-DCAPDTask"
+            },
+            {
+              "name": "Set-DCAPDTask"
+            },
+            {
+              "name": "Suspend-DCAPDTask"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIAgentInstallStatus",
+          "children": [
+            {
+              "name": "Get-DCAPIAgentInstallStatus"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIAgentSettings",
+          "children": [
+            {
+              "name": "Get-DCAPIAgentSettings"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIAgentTrayIconSettings",
+          "children": [
+            {
+              "name": "Get-DCAPIAgentTrayIconSettings"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIAgentUninstallStatus",
+          "children": [
+            {
+              "name": "Get-DCAPIAgentUninstallStatus"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIAgentUpgradeInProgress",
+          "children": [
+            {
+              "name": "Get-DCAPIAgentUpgradeInProgress"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIAlertHistoryDuration",
+          "children": [
+            {
+              "name": "Get-DCAPIAlertHistoryDuration"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIAlerts",
+          "children": [
+            {
+              "name": "Get-DCAPIAlerts"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputer",
+          "children": [
+            {
+              "name": "Get-DCAPIComputer"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerAvailableHardware",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerAvailableHardware"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerCertificateScanStatus",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerCertificateScanStatus"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerCustomDetails",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerCustomDetails"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerCustomFields",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerCustomFields"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerDetails",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerDetails"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerGroups",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerGroups"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerHardware",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerHardware"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerScanHistory",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerScanHistory"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerScanStatus",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerScanStatus"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerSecurity",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerSecurity"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerSummary",
+          "children": [
+            {
+              "name": "Get-DCAPIComputerSummary"
+            }
+          ]
+        },
+        {
+          "name": "DCAPICustomGroup",
+          "children": [
+            {
+              "name": "Get-DCAPICustomGroup"
+            },
+            {
+              "name": "New-DCAPICustomGroup"
+            },
+            {
+              "name": "Set-DCAPICustomGroup"
+            }
+          ]
+        },
+        {
+          "name": "DCAPICustomReport",
+          "children": [
+            {
+              "name": "Get-DCAPICustomReport"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIDomain",
+          "children": [
+            {
+              "name": "Get-DCAPIDomain"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIDomainComputers",
+          "children": [
+            {
+              "name": "Get-DCAPIDomainComputers"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIDomainComputerSyncStatus",
+          "children": [
+            {
+              "name": "Get-DCAPIDomainComputerSyncStatus"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIDomainSummary",
+          "children": [
+            {
+              "name": "Get-DCAPIDomainSummary"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIDomainSyncStatus",
+          "children": [
+            {
+              "name": "Get-DCAPIDomainSyncStatus"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIFileScanConfigured",
+          "children": [
+            {
+              "name": "Get-DCAPIFileScanConfigured"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIFileScanDetails",
+          "children": [
+            {
+              "name": "Get-DCAPIFileScanDetails"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIInventoryScanNextScheduledDate",
+          "children": [
+            {
+              "name": "Get-DCAPIInventoryScanNextScheduledDate"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIInventoryScanScheduleConfigured",
+          "children": [
+            {
+              "name": "Get-DCAPIInventoryScanScheduleConfigured"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIInventoryScanSettings",
+          "children": [
+            {
+              "name": "Get-DCAPIInventoryScanSettings"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIInventorySummaryStatus",
+          "children": [
+            {
+              "name": "Get-DCAPIInventorySummaryStatus"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIIPScope",
+          "children": [
+            {
+              "name": "Get-DCAPIIPScope"
+            }
+          ]
+        },
+        {
+          "name": "DCAPILicense",
+          "children": [
+            {
+              "name": "Get-DCAPILicense"
+            }
+          ]
+        },
+        {
+          "name": "DCAPINATSettings",
+          "children": [
+            {
+              "name": "Get-DCAPINATSettings"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIRemoteOffice",
+          "children": [
+            {
+              "name": "Get-DCAPIRemoteOffice"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIReplicationPolicy",
+          "children": [
+            {
+              "name": "Get-DCAPIReplicationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIReplicationPolicyAssociations",
+          "children": [
+            {
+              "name": "Get-DCAPIReplicationPolicyAssociations"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIResource",
+          "children": [
+            {
+              "name": "Get-DCAPIResource"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIServerDetails",
+          "children": [
+            {
+              "name": "Get-DCAPIServerDetails"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoftware",
+          "children": [
+            {
+              "name": "Get-DCAPISoftware"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoftwareCategory",
+          "children": [
+            {
+              "name": "Get-DCAPISoftwareCategory"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoftwareMeteringSettings",
+          "children": [
+            {
+              "name": "Get-DCAPISoftwareMeteringSettings"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoftwareMeteringUsage",
+          "children": [
+            {
+              "name": "Get-DCAPISoftwareMeteringUsage"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoftwareRecentInstallation",
+          "children": [
+            {
+              "name": "Get-DCAPISoftwareRecentInstallation"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoftwareSilentSwitches",
+          "children": [
+            {
+              "name": "Get-DCAPISoftwareSilentSwitches"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoftwareSummary",
+          "children": [
+            {
+              "name": "Get-DCAPISoftwareSummary"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoMPolicySettings",
+          "children": [
+            {
+              "name": "Get-DCAPISoMPolicySettings"
+            }
+          ]
+        },
+        {
+          "name": "DCAPISoMPolicyTarget",
+          "children": [
+            {
+              "name": "Get-DCAPISoMPolicyTarget"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIToken",
+          "children": [
+            {
+              "name": "Get-DCAPIToken"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIWarrantySummary",
+          "children": [
+            {
+              "name": "Get-DCAPIWarrantySummary"
+            }
+          ]
+        },
+        {
+          "name": "DCComputer",
+          "children": [
+            {
+              "name": "Get-DCComputer"
+            },
+            {
+              "name": "Remove-DCComputer"
+            }
+          ]
+        },
+        {
+          "name": "DCComputerInventory",
+          "children": [
+            {
+              "name": "Get-DCComputerInventory"
+            }
+          ]
+        },
+        {
+          "name": "DCComputerInventorySummary",
+          "children": [
+            {
+              "name": "Get-DCComputerInventorySummary"
+            }
+          ]
+        },
+        {
+          "name": "DCComputerPatching",
+          "children": [
+            {
+              "name": "Get-DCComputerPatching"
+            }
+          ]
+        },
+        {
+          "name": "DCComputerScanning",
+          "children": [
+            {
+              "name": "Get-DCComputerScanning"
+            }
+          ]
+        },
+        {
+          "name": "DCConfiguration",
+          "children": [
+            {
+              "name": "Get-DCConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DCDeploymentPolicies",
+          "children": [
+            {
+              "name": "Get-DCDeploymentPolicies"
+            }
+          ]
+        },
+        {
+          "name": "DCDownloadedPatches",
+          "children": [
+            {
+              "name": "Get-DCDownloadedPatches"
+            }
+          ]
+        },
+        {
+          "name": "DCFilterParameters",
+          "children": [
+            {
+              "name": "Get-DCFilterParameters"
+            }
+          ]
+        },
+        {
+          "name": "DCHardware",
+          "children": [
+            {
+              "name": "Get-DCHardware"
+            }
+          ]
+        },
+        {
+          "name": "DCHealthPolicy",
+          "children": [
+            {
+              "name": "Get-DCHealthPolicy"
+            }
+          ]
+        },
+        {
+          "name": "DCInventorySummary",
+          "children": [
+            {
+              "name": "Get-DCInventorySummary"
+            }
+          ]
+        },
+        {
+          "name": "DCPatch",
+          "children": [
+            {
+              "name": "Get-DCPatch"
+            },
+            {
+              "name": "Install-DCPatch"
+            },
+            {
+              "name": "Uninstall-DCPatch"
+            }
+          ]
+        },
+        {
+          "name": "DCPatchApproval",
+          "children": [
+            {
+              "name": "Get-DCPatchApproval"
+            }
+          ]
+        },
+        {
+          "name": "DCPatchDBStatus",
+          "children": [
+            {
+              "name": "Get-DCPatchDBStatus"
+            }
+          ]
+        },
+        {
+          "name": "DCPatchDetail",
+          "children": [
+            {
+              "name": "Get-DCPatchDetail"
+            }
+          ]
+        },
+        {
+          "name": "DCPatchPerSystem",
+          "children": [
+            {
+              "name": "Get-DCPatchPerSystem"
+            }
+          ]
+        },
+        {
+          "name": "DCPatchSummary",
+          "children": [
+            {
+              "name": "Get-DCPatchSummary"
+            }
+          ]
+        },
+        {
+          "name": "DCRemoteOffice",
+          "children": [
+            {
+              "name": "Get-DCRemoteOffice"
+            }
+          ]
+        },
+        {
+          "name": "DCServerLists",
+          "children": [
+            {
+              "name": "Get-DCServerLists"
+            }
+          ]
+        },
+        {
+          "name": "DCServerOptions",
+          "children": [
+            {
+              "name": "Get-DCServerOptions"
+            }
+          ]
+        },
+        {
+          "name": "DCSoftware",
+          "children": [
+            {
+              "name": "Get-DCSoftware"
+            }
+          ]
+        },
+        {
+          "name": "DCSoftwareComputers",
+          "children": [
+            {
+              "name": "Get-DCSoftwareComputers"
+            }
+          ]
+        },
+        {
+          "name": "DCSoftwareLicense",
+          "children": [
+            {
+              "name": "Get-DCSoftwareLicense"
+            }
+          ]
+        },
+        {
+          "name": "DCSoftwareLicensePerSystem",
+          "children": [
+            {
+              "name": "Get-DCSoftwareLicensePerSystem"
+            }
+          ]
+        },
+        {
+          "name": "DCSoftwareMeteringRule",
+          "children": [
+            {
+              "name": "Get-DCSoftwareMeteringRule"
+            }
+          ]
+        },
+        {
+          "name": "DCSoftwarePerSystem",
+          "children": [
+            {
+              "name": "Get-DCSoftwarePerSystem"
+            }
+          ]
+        },
+        {
+          "name": "DCSOMSummary",
+          "children": [
+            {
+              "name": "Get-DCSOMSummary"
+            }
+          ]
+        },
+        {
+          "name": "DCAgent",
+          "children": [
+            {
+              "name": "Install-DCAgent"
+            },
+            {
+              "name": "Uninstall-DCAgent"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIComputerScan",
+          "children": [
+            {
+              "name": "Invoke-DCAPIComputerScan"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIInventorySummary",
+          "children": [
+            {
+              "name": "Invoke-DCAPIInventorySummary"
+            }
+          ]
+        },
+        {
+          "name": "DCAPIWarrantyScan",
+          "children": [
+            {
+              "name": "Invoke-DCAPIWarrantyScan"
+            }
+          ]
+        },
+        {
+          "name": "DCApprovePatch",
+          "children": [
+            {
+              "name": "Invoke-DCApprovePatch"
+            }
+          ]
+        },
+        {
+          "name": "DCDeclinePatch",
+          "children": [
+            {
+              "name": "Invoke-DCDeclinePatch"
+            }
+          ]
+        },
+        {
+          "name": "DCDownloadPatch",
+          "children": [
+            {
+              "name": "Invoke-DCDownloadPatch"
+            }
+          ]
+        },
+        {
+          "name": "DCInventoryScan",
+          "children": [
+            {
+              "name": "Invoke-DCInventoryScan"
+            }
+          ]
+        },
+        {
+          "name": "DCInventoryScanAll",
+          "children": [
+            {
+              "name": "Invoke-DCInventoryScanAll"
+            }
+          ]
+        },
+        {
+          "name": "DCPatchScan",
+          "children": [
+            {
+              "name": "Invoke-DCPatchScan"
+            }
+          ]
+        },
+        {
+          "name": "DCPatchScanAll",
+          "children": [
+            {
+              "name": "Invoke-DCPatchScanAll"
+            }
+          ]
+        },
+        {
+          "name": "DCUnapprovePatch",
+          "children": [
+            {
+              "name": "Invoke-DCUnapprovePatch"
+            }
+          ]
+        },
+        {
+          "name": "DCPatchDB",
+          "children": [
+            {
+              "name": "Update-DCPatchDB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "name": "Chris Dent",
+  "children": [
+    {
+      "name": "Indented.StubCommand",
+      "companyName": "Chris Dent",
+      "children": [
+        {
+          "name": "StubRequiredType",
+          "children": [
+            {
+              "name": "Get-StubRequiredType"
+            }
+          ]
+        },
+        {
+          "name": "StubCommand",
+          "children": [
+            {
+              "name": "New-StubCommand"
+            }
+          ]
+        },
+        {
+          "name": "StubDynamicParam",
+          "children": [
+            {
+              "name": "New-StubDynamicParam"
+            }
+          ]
+        },
+        {
+          "name": "StubModule",
+          "children": [
+            {
+              "name": "New-StubModule"
+            }
+          ]
+        },
+        {
+          "name": "StubType",
+          "children": [
+            {
+              "name": "New-StubType"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indented.SecurityPolicy",
+      "companyName": "Chris Dent",
+      "children": [
+        {
+          "name": "UserRight",
+          "children": [
+            {
+              "name": "Clear-UserRight"
+            },
+            {
+              "name": "Get-UserRight"
+            },
+            {
+              "name": "Grant-UserRight"
+            },
+            {
+              "name": "Resolve-UserRight"
+            },
+            {
+              "name": "Revoke-UserRight"
+            },
+            {
+              "name": "Set-UserRight"
+            }
+          ]
+        },
+        {
+          "name": "AssignedUserRight",
+          "children": [
+            {
+              "name": "Get-AssignedUserRight"
+            }
+          ]
+        },
+        {
+          "name": "SecurityOption",
+          "children": [
+            {
+              "name": "Get-SecurityOption"
+            },
+            {
+              "name": "Reset-SecurityOption"
+            },
+            {
+              "name": "Resolve-SecurityOption"
+            },
+            {
+              "name": "Set-SecurityOption"
+            }
+          ]
+        },
+        {
+          "name": "GroupManagedServiceAccount",
+          "children": [
+            {
+              "name": "Install-GroupManagedServiceAccount"
+            },
+            {
+              "name": "Test-GroupManagedServiceAccount"
+            },
+            {
+              "name": "Uninstall-GroupManagedServiceAccount"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indented.Net.IP",
+      "companyName": "Chris Dent",
+      "children": [
+        {
+          "name": "HexIP",
+          "children": [
+            {
+              "name": "ConvertFrom-HexIP"
+            },
+            {
+              "name": "ConvertTo-HexIP"
+            }
+          ]
+        },
+        {
+          "name": "BinaryIP",
+          "children": [
+            {
+              "name": "ConvertTo-BinaryIP"
+            }
+          ]
+        },
+        {
+          "name": "DecimalIP",
+          "children": [
+            {
+              "name": "ConvertTo-DecimalIP"
+            }
+          ]
+        },
+        {
+          "name": "DottedDecimalIP",
+          "children": [
+            {
+              "name": "ConvertTo-DottedDecimalIP"
+            }
+          ]
+        },
+        {
+          "name": "Mask",
+          "children": [
+            {
+              "name": "ConvertTo-Mask"
+            }
+          ]
+        },
+        {
+          "name": "MaskLength",
+          "children": [
+            {
+              "name": "ConvertTo-MaskLength"
+            }
+          ]
+        },
+        {
+          "name": "Subnet",
+          "children": [
+            {
+              "name": "ConvertTo-Subnet"
+            },
+            {
+              "name": "Get-Subnet"
+            }
+          ]
+        },
+        {
+          "name": "BroadcastAddress",
+          "children": [
+            {
+              "name": "Get-BroadcastAddress"
+            }
+          ]
+        },
+        {
+          "name": "NetworkAddress",
+          "children": [
+            {
+              "name": "Get-NetworkAddress"
+            }
+          ]
+        },
+        {
+          "name": "NetworkRange",
+          "children": [
+            {
+              "name": "Get-NetworkRange"
+            }
+          ]
+        },
+        {
+          "name": "NetworkSummary",
+          "children": [
+            {
+              "name": "Get-NetworkSummary"
+            }
+          ]
+        },
+        {
+          "name": "IPAddress",
+          "children": [
+            {
+              "name": "Resolve-IPAddress"
+            }
+          ]
+        },
+        {
+          "name": "SubnetMember",
+          "children": [
+            {
+              "name": "Test-SubnetMember"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indented.Net.Dns",
+      "companyName": "Chris Dent",
+      "children": [
+        {
+          "name": "InternalDnsCacheRecord",
+          "children": [
+            {
+              "name": "Add-InternalDnsCacheRecord"
+            },
+            {
+              "name": "Get-InternalDnsCacheRecord"
+            },
+            {
+              "name": "Remove-InternalDnsCacheRecord"
+            }
+          ]
+        },
+        {
+          "name": "InternalDnsCache",
+          "children": [
+            {
+              "name": "Clear-InternalDnsCache"
+            },
+            {
+              "name": "Initialize-InternalDnsCache"
+            }
+          ]
+        },
+        {
+          "name": "DnsResponse",
+          "children": [
+            {
+              "name": "Format-DnsResponse"
+            }
+          ]
+        },
+        {
+          "name": "Dns",
+          "children": [
+            {
+              "name": "Get-Dns"
+            },
+            {
+              "name": "Search-Dns"
+            },
+            {
+              "name": "Trace-Dns"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerList",
+          "children": [
+            {
+              "name": "Get-DnsServerList"
+            }
+          ]
+        },
+        {
+          "name": "DnsVersion",
+          "children": [
+            {
+              "name": "Get-DnsVersion"
+            }
+          ]
+        },
+        {
+          "name": "DnsZoneTransfer",
+          "children": [
+            {
+              "name": "Get-DnsZoneTransfer"
+            }
+          ]
+        },
+        {
+          "name": "InternalRootHint",
+          "children": [
+            {
+              "name": "Update-InternalRootHint"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indented.IniFile",
+      "companyName": "Chris Dent",
+      "children": [
+        {
+          "name": "IniFileItem",
+          "children": [
+            {
+              "name": "Get-IniFileItem"
+            },
+            {
+              "name": "Remove-IniFileItem"
+            },
+            {
+              "name": "Set-IniFileItem"
+            }
+          ]
+        },
+        {
+          "name": "IniFileSection",
+          "children": [
+            {
+              "name": "Get-IniFileSection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indented.ComSecurity",
+      "companyName": "Chris Dent",
+      "children": [
+        {
+          "name": "ComAcl",
+          "children": [
+            {
+              "name": "Get-ComAcl"
+            },
+            {
+              "name": "Set-ComAcl"
+            }
+          ]
+        },
+        {
+          "name": "ComPermission",
+          "children": [
+            {
+              "name": "Grant-ComPermission"
+            },
+            {
+              "name": "Revoke-ComPermission"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indented.Build",
+      "companyName": "Chris Dent",
+      "children": [
+        {
+          "name": "PesterTemplate",
+          "children": [
+            {
+              "name": "Add-PesterTemplate"
+            }
+          ]
+        },
+        {
+          "name": "BuildTask",
+          "children": [
+            {
+              "name": "BuildTask"
+            },
+            {
+              "name": "Get-BuildTask"
+            }
+          ]
+        },
+        {
+          "name": "CodeCoverage",
+          "children": [
+            {
+              "name": "Convert-CodeCoverage"
+            }
+          ]
+        },
+        {
+          "name": "ChocoPackage",
+          "children": [
+            {
+              "name": "ConvertTo-ChocoPackage"
+            }
+          ]
+        },
+        {
+          "name": "Metadata",
+          "children": [
+            {
+              "name": "Enable-Metadata"
+            }
+          ]
+        },
+        {
+          "name": "BuildScript",
+          "children": [
+            {
+              "name": "Export-BuildScript"
+            }
+          ]
+        },
+        {
+          "name": "Ast",
+          "children": [
+            {
+              "name": "Get-Ast"
+            }
+          ]
+        },
+        {
+          "name": "BuildInfo",
+          "children": [
+            {
+              "name": "Get-BuildInfo"
+            }
+          ]
+        },
+        {
+          "name": "BuildItem",
+          "children": [
+            {
+              "name": "Get-BuildItem"
+            }
+          ]
+        },
+        {
+          "name": "ClassInfo",
+          "children": [
+            {
+              "name": "Get-ClassInfo"
+            }
+          ]
+        },
+        {
+          "name": "FunctionInfo",
+          "children": [
+            {
+              "name": "Get-FunctionInfo"
+            }
+          ]
+        },
+        {
+          "name": "LevenshteinDistance",
+          "children": [
+            {
+              "name": "Get-LevenshteinDistance"
+            }
+          ]
+        },
+        {
+          "name": "MethodInfo",
+          "children": [
+            {
+              "name": "Get-MethodInfo"
+            }
+          ]
+        },
+        {
+          "name": "ConfigDocument",
+          "children": [
+            {
+              "name": "New-ConfigDocument"
+            }
+          ]
+        },
+        {
+          "name": "Build",
+          "children": [
+            {
+              "name": "Start-Build"
+            }
+          ]
+        },
+        {
+          "name": "DevRootModule",
+          "children": [
+            {
+              "name": "Update-DevRootModule"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

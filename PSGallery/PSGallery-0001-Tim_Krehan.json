@@ -1,0 +1,65 @@
+{
+  "name": "Tim Krehan",
+  "children": [
+    {
+      "name": "powershell-logging",
+      "companyName": "Tim Krehan",
+      "children": [
+        {
+          "name": "LogTarget",
+          "children": [
+            {
+              "name": "Add-LogTarget"
+            },
+            {
+              "name": "Clear-LogTarget"
+            },
+            {
+              "name": "Disable-LogTarget"
+            },
+            {
+              "name": "Enable-LogTarget"
+            },
+            {
+              "name": "Move-LogTarget"
+            },
+            {
+              "name": "Remove-LogTarget"
+            },
+            {
+              "name": "Rename-LogTarget"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Close-Log"
+            },
+            {
+              "name": "Get-Log"
+            },
+            {
+              "name": "Open-Log"
+            },
+            {
+              "name": "Switch-Log"
+            },
+            {
+              "name": "Write-Log"
+            }
+          ]
+        },
+        {
+          "name": "LogContent",
+          "children": [
+            {
+              "name": "Get-LogContent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

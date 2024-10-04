@@ -1,0 +1,66 @@
+{
+  "name": "Illallangi Enterprises",
+  "children": [
+    {
+      "name": "Illallangi.MailFolders",
+      "companyName": "Illallangi Enterprises",
+      "children": [
+        {
+          "name": "MailFolder",
+          "children": [
+            {
+              "name": "Get-MailFolder"
+            },
+            {
+              "name": "New-MailFolder"
+            }
+          ]
+        },
+        {
+          "name": "MailFolderCache",
+          "children": [
+            {
+              "name": "Clear-MailFolderCache"
+            }
+          ]
+        },
+        {
+          "name": "OutlookNamespace",
+          "children": [
+            {
+              "name": "Get-OutlookNamespace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Illallangi.CopyFileToHash",
+      "companyName": "Illallangi Enterprises",
+      "children": [
+        {
+          "name": "FileToHash",
+          "children": [
+            {
+              "name": "Copy-FileToHash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Illallangi.ConvertDateTimeOffsetPropertyToString",
+      "companyName": "Illallangi Enterprises",
+      "children": [
+        {
+          "name": "DateTimeOffsetPropertyToString",
+          "children": [
+            {
+              "name": "Convert-DateTimeOffsetPropertyToString"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

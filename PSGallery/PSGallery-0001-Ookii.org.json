@@ -1,0 +1,69 @@
+{
+  "name": "Ookii.org",
+  "children": [
+    {
+      "name": "Wsl",
+      "companyName": "Ookii.org",
+      "children": [
+        {
+          "name": "WslDistribution",
+          "children": [
+            {
+              "name": "Get-WslDistribution"
+            },
+            {
+              "name": "Set-WslDistribution"
+            },
+            {
+              "name": "Stop-WslDistribution"
+            },
+            {
+              "name": "Remove-WslDistribution"
+            },
+            {
+              "name": "Import-WslDistribution"
+            },
+            {
+              "name": "Export-WslDistribution"
+            },
+            {
+              "name": "Enter-WslDistribution"
+            }
+          ]
+        },
+        {
+          "name": "WslCommand",
+          "children": [
+            {
+              "name": "Invoke-WslCommand"
+            }
+          ]
+        },
+        {
+          "name": "Wsl",
+          "children": [
+            {
+              "name": "Stop-Wsl"
+            }
+          ]
+        },
+        {
+          "name": "WslVersion",
+          "children": [
+            {
+              "name": "Get-WslVersion"
+            }
+          ]
+        },
+        {
+          "name": "WslDistributionOnline",
+          "children": [
+            {
+              "name": "Get-WslDistributionOnline"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

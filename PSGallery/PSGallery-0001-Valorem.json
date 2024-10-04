@@ -1,0 +1,45 @@
+{
+  "name": "Valorem",
+  "children": [
+    {
+      "name": "OfficeProvider",
+      "companyName": "Valorem",
+      "children": [
+        {
+          "name": "BitsFile",
+          "children": [
+            {
+              "name": "Add-BitsFile"
+            }
+          ]
+        },
+        {
+          "name": "BitsTransfer",
+          "children": [
+            {
+              "name": "Complete-BitsTransfer"
+            },
+            {
+              "name": "Get-BitsTransfer"
+            },
+            {
+              "name": "Remove-BitsTransfer"
+            },
+            {
+              "name": "Resume-BitsTransfer"
+            },
+            {
+              "name": "Set-BitsTransfer"
+            },
+            {
+              "name": "Start-BitsTransfer"
+            },
+            {
+              "name": "Suspend-BitsTransfer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

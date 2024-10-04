@@ -1,0 +1,283 @@
+{
+  "name": "i Sys",
+  "children": [
+    {
+      "name": "ReCrutch.Tools",
+      "companyName": "i Sys",
+      "children": [
+        {
+          "name": "ReCrCommands",
+          "children": [
+            {
+              "name": "Show-ReCrCommands"
+            }
+          ]
+        },
+        {
+          "name": "ReCr",
+          "children": [
+            {
+              "name": "Invoke-ReCr"
+            }
+          ]
+        },
+        {
+          "name": "ReCrScriptPath",
+          "children": [
+            {
+              "name": "Get-ReCrScriptPath"
+            }
+          ]
+        },
+        {
+          "name": "ReCrCmd",
+          "children": [
+            {
+              "name": "Start-ReCrCmd"
+            }
+          ]
+        },
+        {
+          "name": "ReCrReplaceContenFile",
+          "children": [
+            {
+              "name": "Set-ReCrReplaceContenFile"
+            }
+          ]
+        },
+        {
+          "name": "ReCrFolder",
+          "children": [
+            {
+              "name": "Clear-ReCrFolder"
+            }
+          ]
+        },
+        {
+          "name": "ReCrUri",
+          "children": [
+            {
+              "name": "Repair-ReCrUri"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ReCrutch.GitLab",
+      "companyName": "i Sys",
+      "children": [
+        {
+          "name": "ReCrGitLabSettings",
+          "children": [
+            {
+              "name": "Set-ReCrGitLabSettings"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabPrivateToken",
+          "children": [
+            {
+              "name": "Get-ReCrGitLabPrivateToken"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabRestApi",
+          "children": [
+            {
+              "name": "Invoke-ReCrGitLabRestApi"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabRestApiGet",
+          "children": [
+            {
+              "name": "Invoke-ReCrGitLabRestApiGet"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabRestApiPost",
+          "children": [
+            {
+              "name": "Invoke-ReCrGitLabRestApiPost"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabRestApiPut",
+          "children": [
+            {
+              "name": "Invoke-ReCrGitLabRestApiPut"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabTag",
+          "children": [
+            {
+              "name": "Get-ReCrGitLabTag"
+            },
+            {
+              "name": "New-ReCrGitLabTag"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabTagRelease",
+          "children": [
+            {
+              "name": "New-ReCrGitLabTagRelease"
+            },
+            {
+              "name": "Update-ReCrGitLabTagRelease"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabTagReleaseBuildPathAndIssues",
+          "children": [
+            {
+              "name": "Update-ReCrGitLabTagReleaseBuildPathAndIssues"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabTagCommits",
+          "children": [
+            {
+              "name": "Get-ReCrGitLabTagCommits"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabTagCommitsIssueIds",
+          "children": [
+            {
+              "name": "Get-ReCrGitLabTagCommitsIssueIds"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabLabel",
+          "children": [
+            {
+              "name": "New-ReCrGitLabLabel"
+            }
+          ]
+        },
+        {
+          "name": "ReCrPrjFromIssueId",
+          "children": [
+            {
+              "name": "Get-ReCrPrjFromIssueId"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabIssue",
+          "children": [
+            {
+              "name": "Get-ReCrGitLabIssue"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabCommentToIssue",
+          "children": [
+            {
+              "name": "Add-ReCrGitLabCommentToIssue"
+            }
+          ]
+        },
+        {
+          "name": "ReCrGitLabLabelToIssue",
+          "children": [
+            {
+              "name": "Set-ReCrGitLabLabelToIssue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ReCrutch.Build",
+      "companyName": "i Sys",
+      "children": [
+        {
+          "name": "ReCrAssembliesForBuildSharePointSln",
+          "children": [
+            {
+              "name": "Install-ReCrAssembliesForBuildSharePointSln"
+            }
+          ]
+        },
+        {
+          "name": "ReCrVSPaths",
+          "children": [
+            {
+              "name": "Get-ReCrVSPaths"
+            }
+          ]
+        },
+        {
+          "name": "ReCrVsDevCmdBatVariables",
+          "children": [
+            {
+              "name": "Set-ReCrVsDevCmdBatVariables"
+            }
+          ]
+        },
+        {
+          "name": "ReCrMsBuild",
+          "children": [
+            {
+              "name": "Invoke-ReCrMsBuild"
+            }
+          ]
+        },
+        {
+          "name": "ReCrDevenv",
+          "children": [
+            {
+              "name": "Start-ReCrDevenv"
+            }
+          ]
+        },
+        {
+          "name": "ReCrNuGetPackage",
+          "children": [
+            {
+              "name": "Restore-ReCrNuGetPackage"
+            }
+          ]
+        },
+        {
+          "name": "ReCrNpmPackage",
+          "children": [
+            {
+              "name": "Restore-ReCrNpmPackage"
+            }
+          ]
+        },
+        {
+          "name": "ReCrBuildVersions",
+          "children": [
+            {
+              "name": "Get-ReCrBuildVersions"
+            },
+            {
+              "name": "Set-ReCrBuildVersions"
+            },
+            {
+              "name": "Copy-ReCrBuildVersions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

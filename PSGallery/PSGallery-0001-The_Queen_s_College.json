@@ -1,0 +1,44 @@
+{
+  "name": "The Queen s College, University of Oxford",
+  "children": [
+    {
+      "name": "PSSympa",
+      "companyName": "The Queen s College, University of Oxford",
+      "children": [
+        {
+          "name": "SympaLogin",
+          "children": [
+            {
+              "name": "Get-SympaLogin"
+            }
+          ]
+        },
+        {
+          "name": "SympaMailingListMember",
+          "children": [
+            {
+              "name": "Get-SympaMailingListMember"
+            },
+            {
+              "name": "Remove-SympaMailingListMember"
+            },
+            {
+              "name": "Add-SympaMailingListMember"
+            },
+            {
+              "name": "Test-SympaMailingListMember"
+            }
+          ]
+        },
+        {
+          "name": "SympaMailingList",
+          "children": [
+            {
+              "name": "Sync-SympaMailingList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

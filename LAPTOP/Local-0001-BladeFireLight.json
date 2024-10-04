@@ -1,0 +1,51 @@
+{
+  "name": "BladeFireLight",
+  "children": [
+    {
+      "name": "WindowsImageTools",
+      "companyName": "BladeFireLight",
+      "children": [
+        {
+          "name": "Wim2VHD",
+          "children": [
+            {
+              "name": "Convert-Wim2VHD"
+            }
+          ]
+        },
+        {
+          "name": "DataDisk",
+          "children": [
+            {
+              "name": "Initialize-DataDisk"
+            }
+          ]
+        },
+        {
+          "name": "WindowsFromWim",
+          "children": [
+            {
+              "name": "Install-WindowsFromWim"
+            }
+          ]
+        },
+        {
+          "name": "DataVHD",
+          "children": [
+            {
+              "name": "New-DataVHD"
+            }
+          ]
+        },
+        {
+          "name": "UnattendXml",
+          "children": [
+            {
+              "name": "New-UnattendXml"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

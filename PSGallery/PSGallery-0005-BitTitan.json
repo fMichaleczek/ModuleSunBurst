@@ -1,0 +1,318 @@
+{
+  "name": "BitTitan",
+  "children": [
+    {
+      "name": "ADtoO365",
+      "companyName": "BitTitan",
+      "children": [
+        {
+          "name": "ADtoO365",
+          "children": [
+            {
+              "name": "Sync-ADtoO365"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitanManagement",
+      "companyName": "BitTitan",
+      "children": [
+        {
+          "name": "ActiveDirectoryToOffice365ContactDirectorySync",
+          "children": [
+            {
+              "name": "New-ActiveDirectoryToOffice365ContactDirectorySync"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryToOffice365GroupDirectorySync",
+          "children": [
+            {
+              "name": "New-ActiveDirectoryToOffice365GroupDirectorySync"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryToOffice365UserDirectorySync",
+          "children": [
+            {
+              "name": "New-ActiveDirectoryToOffice365UserDirectorySync"
+            }
+          ]
+        },
+        {
+          "name": "PublicFolderLicenseEstimate",
+          "children": [
+            {
+              "name": "Select-PublicFolderLicenseEstimate"
+            }
+          ]
+        },
+        {
+          "name": "PublicFolderMigrations",
+          "children": [
+            {
+              "name": "Split-PublicFolderMigrations"
+            }
+          ]
+        },
+        {
+          "name": "PublicFolderData",
+          "children": [
+            {
+              "name": "Select-PublicFolderData"
+            }
+          ]
+        },
+        {
+          "name": "PublicFoldersIntoMailboxes",
+          "children": [
+            {
+              "name": "Split-PublicFoldersIntoMailboxes"
+            }
+          ]
+        },
+        {
+          "name": "PostponeTask",
+          "children": [
+            {
+              "name": "Request-PostponeTask"
+            }
+          ]
+        },
+        {
+          "name": "MW",
+          "children": [
+            {
+              "name": "Get-MW"
+            },
+            {
+              "name": "Add-MW"
+            },
+            {
+              "name": "Set-MW"
+            },
+            {
+              "name": "Remove-MW"
+            },
+            {
+              "name": "New-MW"
+            }
+          ]
+        },
+        {
+          "name": "AzureContainer",
+          "children": [
+            {
+              "name": "Rename-AzureContainer"
+            }
+          ]
+        },
+        {
+          "name": "BT",
+          "children": [
+            {
+              "name": "New-BT"
+            },
+            {
+              "name": "Add-BT"
+            },
+            {
+              "name": "Get-BT"
+            },
+            {
+              "name": "Set-BT"
+            },
+            {
+              "name": "Remove-BT"
+            },
+            {
+              "name": "Complete-BT"
+            },
+            {
+              "name": "Export-BT"
+            },
+            {
+              "name": "Import-BT"
+            },
+            {
+              "name": "Send-BT"
+            },
+            {
+              "name": "Start-BT"
+            }
+          ]
+        },
+        {
+          "name": "MSPC",
+          "children": [
+            {
+              "name": "Initialize-MSPC"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVersion",
+          "children": [
+            {
+              "name": "Get-ModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "MigrationWizGoogleEmailForward",
+          "children": [
+            {
+              "name": "Get-MigrationWizGoogleEmailForward"
+            },
+            {
+              "name": "Set-MigrationWizGoogleEmailForward"
+            }
+          ]
+        },
+        {
+          "name": "MigrationWizGoogleUserAccounts",
+          "children": [
+            {
+              "name": "Get-MigrationWizGoogleUserAccounts"
+            }
+          ]
+        },
+        {
+          "name": "MigrationWizGoogleOAuth2AccessToken",
+          "children": [
+            {
+              "name": "Remove-MigrationWizGoogleOAuth2AccessToken"
+            }
+          ]
+        },
+        {
+          "name": "MigrationWizGoogleUserPassword",
+          "children": [
+            {
+              "name": "Set-MigrationWizGoogleUserPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EMLFileSorter",
+      "companyName": "BitTitan",
+      "children": [
+        {
+          "name": "LoggingConfiguration",
+          "children": [
+            {
+              "name": "Set-LoggingConfiguration"
+            },
+            {
+              "name": "Get-LoggingConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "LogEntry",
+          "children": [
+            {
+              "name": "Add-LogEntry"
+            }
+          ]
+        },
+        {
+          "name": "Logging",
+          "children": [
+            {
+              "name": "Suspend-Logging"
+            },
+            {
+              "name": "Resume-Logging"
+            }
+          ]
+        },
+        {
+          "name": "LogFileArchive",
+          "children": [
+            {
+              "name": "Export-LogFileArchive"
+            }
+          ]
+        },
+        {
+          "name": "SelectMode",
+          "children": [
+            {
+              "name": "Disable-SelectMode"
+            },
+            {
+              "name": "Enable-SelectMode"
+            }
+          ]
+        },
+        {
+          "name": "BtZipFile",
+          "children": [
+            {
+              "name": "New-BtZipFile"
+            }
+          ]
+        },
+        {
+          "name": "BTPowerShell",
+          "children": [
+            {
+              "name": "Import-BTPowerShell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GraphFastVoleer",
+      "companyName": "BitTitan",
+      "children": [
+        {
+          "name": "GraphFast",
+          "children": [
+            {
+              "name": "Invoke-GraphFast"
+            }
+          ]
+        },
+        {
+          "name": "GraphBatchItem",
+          "children": [
+            {
+              "name": "New-GraphBatchItem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GraphFast",
+      "companyName": "BitTitan",
+      "children": [
+        {
+          "name": "GraphFast",
+          "children": [
+            {
+              "name": "Invoke-GraphFast"
+            }
+          ]
+        },
+        {
+          "name": "GraphBatchItem",
+          "children": [
+            {
+              "name": "New-GraphBatchItem"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

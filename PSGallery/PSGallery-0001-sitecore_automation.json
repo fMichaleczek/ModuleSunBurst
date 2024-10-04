@@ -1,0 +1,151 @@
+{
+  "name": "sitecore automation",
+  "children": [
+    {
+      "name": "sitecore-automation",
+      "companyName": "sitecore automation",
+      "children": [
+        {
+          "name": "SitecoreEnvironment",
+          "children": [
+            {
+              "name": "Set-SitecoreEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "SitecoreSites",
+          "children": [
+            {
+              "name": "Get-SitecoreSites"
+            }
+          ]
+        },
+        {
+          "name": "SitecoreBindings",
+          "children": [
+            {
+              "name": "Add-SitecoreBindings"
+            },
+            {
+              "name": "Remove-SitecoreBindings"
+            }
+          ]
+        },
+        {
+          "name": "WebResponse",
+          "children": [
+            {
+              "name": "Test-WebResponse"
+            }
+          ]
+        },
+        {
+          "name": "CopyLocal",
+          "children": [
+            {
+              "name": "Clear-CopyLocal"
+            }
+          ]
+        },
+        {
+          "name": "IISHandler",
+          "children": [
+            {
+              "name": "New-IISHandler"
+            },
+            {
+              "name": "Remove-IISHandler"
+            },
+            {
+              "name": "Disable-IISHandler"
+            }
+          ]
+        },
+        {
+          "name": "SettingsFile",
+          "children": [
+            {
+              "name": "New-SettingsFile"
+            }
+          ]
+        },
+        {
+          "name": "SettingsPatch",
+          "children": [
+            {
+              "name": "New-SettingsPatch"
+            }
+          ]
+        },
+        {
+          "name": "SitecoreHostsEntry",
+          "children": [
+            {
+              "name": "New-SitecoreHostsEntry"
+            },
+            {
+              "name": "Remove-SitecoreHostsEntry"
+            }
+          ]
+        },
+        {
+          "name": "StoredCredential",
+          "children": [
+            {
+              "name": "New-StoredCredential"
+            }
+          ]
+        },
+        {
+          "name": "StoredPSCredential",
+          "children": [
+            {
+              "name": "Get-StoredPSCredential"
+            }
+          ]
+        },
+        {
+          "name": "Email",
+          "children": [
+            {
+              "name": "Send-Email"
+            }
+          ]
+        },
+        {
+          "name": "SitecoreAzureRegion",
+          "children": [
+            {
+              "name": "Test-SitecoreAzureRegion"
+            }
+          ]
+        },
+        {
+          "name": "AzureAccountSilent",
+          "children": [
+            {
+              "name": "Login-AzureAccountSilent"
+            }
+          ]
+        },
+        {
+          "name": "FilesToAzureContainer",
+          "children": [
+            {
+              "name": "Copy-FilesToAzureContainer"
+            }
+          ]
+        },
+        {
+          "name": "SitecoreRights",
+          "children": [
+            {
+              "name": "Describe-SitecoreRights"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

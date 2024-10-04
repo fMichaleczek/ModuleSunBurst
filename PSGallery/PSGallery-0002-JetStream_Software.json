@@ -1,0 +1,152 @@
+{
+  "name": "JetStream Software, Inc.",
+  "children": [
+    {
+      "name": "JSDR.Configuration",
+      "companyName": "JetStream Software, Inc.",
+      "children": [
+        {
+          "name": "JetDRWithStaticIP",
+          "children": [
+            {
+              "name": "Install-JetDRWithStaticIP"
+            }
+          ]
+        },
+        {
+          "name": "JetDRWithDHCP",
+          "children": [
+            {
+              "name": "Install-JetDRWithDHCP"
+            }
+          ]
+        },
+        {
+          "name": "JetDR",
+          "children": [
+            {
+              "name": "Uninstall-JetDR"
+            },
+            {
+              "name": "Update-JetDR"
+            }
+          ]
+        },
+        {
+          "name": "PreflightJetDRInstall",
+          "children": [
+            {
+              "name": "Invoke-PreflightJetDRInstall"
+            }
+          ]
+        },
+        {
+          "name": "PreflightJetDRUninstall",
+          "children": [
+            {
+              "name": "Invoke-PreflightJetDRUninstall"
+            }
+          ]
+        },
+        {
+          "name": "JetDRForCluster",
+          "children": [
+            {
+              "name": "Enable-JetDRForCluster"
+            },
+            {
+              "name": "Disable-JetDRForCluster"
+            }
+          ]
+        },
+        {
+          "name": "JetDRSshd",
+          "children": [
+            {
+              "name": "Enable-JetDRSshd"
+            },
+            {
+              "name": "Disable-JetDRSshd"
+            }
+          ]
+        },
+        {
+          "name": "HostIssue",
+          "children": [
+            {
+              "name": "Resolve-HostIssue"
+            }
+          ]
+        },
+        {
+          "name": "ClusterIssue",
+          "children": [
+            {
+              "name": "Resolve-ClusterIssue"
+            }
+          ]
+        },
+        {
+          "name": "JetDRPlugin",
+          "children": [
+            {
+              "name": "Register-JetDRPlugin"
+            },
+            {
+              "name": "Unregister-JetDRPlugin"
+            }
+          ]
+        },
+        {
+          "name": "JetDRDaemon",
+          "children": [
+            {
+              "name": "Restart-JetDRDaemon"
+            }
+          ]
+        },
+        {
+          "name": "JetStreamRESTUser",
+          "children": [
+            {
+              "name": "Enable-JetStreamRESTUser"
+            }
+          ]
+        },
+        {
+          "name": "JetDRApplianceConnection",
+          "children": [
+            {
+              "name": "Test-JetDRApplianceConnection"
+            }
+          ]
+        },
+        {
+          "name": "MSA",
+          "children": [
+            {
+              "name": "Start-MSA"
+            },
+            {
+              "name": "Restart-MSA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Test.HelloWorld",
+      "companyName": "JetStream Software, Inc.",
+      "children": [
+        {
+          "name": "HelloWorld",
+          "children": [
+            {
+              "name": "Write-HelloWorld"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

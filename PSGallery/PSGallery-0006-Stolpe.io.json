@@ -1,0 +1,135 @@
+{
+  "name": "Stolpe.io",
+  "children": [
+    {
+      "name": "ConvertSID",
+      "companyName": "Stolpe.io",
+      "children": [
+        {
+          "name": "SID",
+          "children": [
+            {
+              "name": "Convert-SID"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GenerateRandomPassword",
+      "companyName": "Stolpe.io",
+      "children": [
+        {
+          "name": "RSRandomPassword",
+          "children": [
+            {
+              "name": "New-RSRandomPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MonitorInformation",
+      "companyName": "Stolpe.io",
+      "children": [
+        {
+          "name": "RSMonitorInformation",
+          "children": [
+            {
+              "name": "Get-RSMonitorInformation"
+            }
+          ]
+        },
+        {
+          "name": "MonitorManufacturer",
+          "children": [
+            {
+              "name": "Convert-MonitorManufacturer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MaintainModule",
+      "companyName": "Stolpe.io",
+      "children": [
+        {
+          "name": "RSModule",
+          "children": [
+            {
+              "name": "Uninstall-RSModule"
+            },
+            {
+              "name": "Update-RSModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rsServiceModule",
+      "companyName": "Stolpe.io",
+      "children": [
+        {
+          "name": "ReturnMessageTemplate",
+          "children": [
+            {
+              "name": "Get-ReturnMessageTemplate"
+            }
+          ]
+        },
+        {
+          "name": "WhiteSpaceToDot",
+          "children": [
+            {
+              "name": "Convert-WhiteSpaceToDot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WinSoftwareUpdate",
+      "companyName": "Stolpe.io",
+      "children": [
+        {
+          "name": "RSWinSoftware",
+          "children": [
+            {
+              "name": "Update-RSWinSoftware"
+            }
+          ]
+        },
+        {
+          "name": "RSWinGet",
+          "children": [
+            {
+              "name": "Confirm-RSWinGet"
+            },
+            {
+              "name": "Start-RSWinGet"
+            }
+          ]
+        },
+        {
+          "name": "RSInstallInfo",
+          "children": [
+            {
+              "name": "Get-RSInstallInfo"
+            }
+          ]
+        },
+        {
+          "name": "RSVCLib",
+          "children": [
+            {
+              "name": "Install-RSVCLib"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

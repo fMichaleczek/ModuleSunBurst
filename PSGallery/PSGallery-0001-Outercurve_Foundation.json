@@ -1,0 +1,89 @@
+{
+  "name": "Outercurve Foundation",
+  "children": [
+    {
+      "name": "CoApp",
+      "companyName": "Outercurve Foundation",
+      "children": [
+        {
+          "name": "SignatureViaService",
+          "children": [
+            {
+              "name": "Set-SignatureViaService"
+            }
+          ]
+        },
+        {
+          "name": "Package",
+          "children": [
+            {
+              "name": "Submit-Package"
+            }
+          ]
+        },
+        {
+          "name": "NuGetPackageVisibility",
+          "children": [
+            {
+              "name": "Set-NuGetPackageVisibility"
+            }
+          ]
+        },
+        {
+          "name": "NuGetPackage",
+          "children": [
+            {
+              "name": "Hide-NuGetPackage"
+            },
+            {
+              "name": "Show-NuGetPackage"
+            }
+          ]
+        },
+        {
+          "name": "PushDelete",
+          "children": [
+            {
+              "name": "PushDelete"
+            }
+          ]
+        },
+        {
+          "name": "SetVisibility",
+          "children": [
+            {
+              "name": "SetVisibility"
+            }
+          ]
+        },
+        {
+          "name": "CoAppEtcDirectory",
+          "children": [
+            {
+              "name": "Show-CoAppEtcDirectory"
+            },
+            {
+              "name": "Get-CoAppEtcDirectory"
+            }
+          ]
+        },
+        {
+          "name": "VCProject",
+          "children": [
+            {
+              "name": "New-VCProject"
+            }
+          ]
+        },
+        {
+          "name": "BuildInfo",
+          "children": [
+            {
+              "name": "New-BuildInfo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+{
+  "name": "Juriba",
+  "children": [
+    {
+      "name": "Juriba.DPC",
+      "companyName": "Juriba",
+      "children": [
+        {
+          "name": "JuribaCustomFieldValue",
+          "children": [
+            {
+              "name": "Add-JuribaCustomFieldValue"
+            },
+            {
+              "name": "Update-JuribaCustomFieldValue"
+            }
+          ]
+        },
+        {
+          "name": "JuribaListTag",
+          "children": [
+            {
+              "name": "Add-JuribaListTag"
+            }
+          ]
+        },
+        {
+          "name": "Juriba",
+          "children": [
+            {
+              "name": "Connect-Juriba"
+            },
+            {
+              "name": "Disconnect-Juriba"
+            }
+          ]
+        },
+        {
+          "name": "JuribaList",
+          "children": [
+            {
+              "name": "Export-JuribaList"
+            },
+            {
+              "name": "Get-JuribaList"
+            },
+            {
+              "name": "New-JuribaList"
+            },
+            {
+              "name": "Remove-JuribaList"
+            }
+          ]
+        },
+        {
+          "name": "JuribaApplicationV1",
+          "children": [
+            {
+              "name": "Get-JuribaApplicationV1"
+            }
+          ]
+        },
+        {
+          "name": "JuribaAutomation",
+          "children": [
+            {
+              "name": "Get-JuribaAutomation"
+            },
+            {
+              "name": "Invoke-JuribaAutomation"
+            },
+            {
+              "name": "New-JuribaAutomation"
+            },
+            {
+              "name": "Remove-JuribaAutomation"
+            },
+            {
+              "name": "Set-JuribaAutomation"
+            }
+          ]
+        },
+        {
+          "name": "JuribaAutomationAction",
+          "children": [
+            {
+              "name": "Get-JuribaAutomationAction"
+            },
+            {
+              "name": "New-JuribaAutomationAction"
+            },
+            {
+              "name": "Set-JuribaAutomationAction"
+            }
+          ]
+        },
+        {
+          "name": "JuribaBucket",
+          "children": [
+            {
+              "name": "Get-JuribaBucket"
+            },
+            {
+              "name": "New-JuribaBucket"
+            },
+            {
+              "name": "Remove-JuribaBucket"
+            },
+            {
+              "name": "Set-JuribaBucket"
+            }
+          ]
+        },
+        {
+          "name": "JuribaCapacitySlot",
+          "children": [
+            {
+              "name": "Get-JuribaCapacitySlot"
+            },
+            {
+              "name": "New-JuribaCapacitySlot"
+            },
+            {
+              "name": "Remove-JuribaCapacitySlot"
+            },
+            {
+              "name": "Set-JuribaCapacitySlot"
+            }
+          ]
+        },
+        {
+          "name": "JuribaCapacityUnit",
+          "children": [
+            {
+              "name": "Get-JuribaCapacityUnit"
+            },
+            {
+              "name": "New-JuribaCapacityUnit"
+            },
+            {
+              "name": "Remove-JuribaCapacityUnit"
+            },
+            {
+              "name": "Set-JuribaCapacityUnit"
+            }
+          ]
+        },
+        {
+          "name": "JuribaCustomField",
+          "children": [
+            {
+              "name": "Get-JuribaCustomField"
+            },
+            {
+              "name": "New-JuribaCustomField"
+            },
+            {
+              "name": "Remove-JuribaCustomField"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboard",
+          "children": [
+            {
+              "name": "Get-JuribaDashboard"
+            },
+            {
+              "name": "New-JuribaDashboard"
+            },
+            {
+              "name": "Remove-JuribaDashboard"
+            }
+          ]
+        },
+        {
+          "name": "JuribaETLJob",
+          "children": [
+            {
+              "name": "Get-JuribaETLJob"
+            },
+            {
+              "name": "Start-JuribaETLJob"
+            },
+            {
+              "name": "Stop-JuribaETLJob"
+            }
+          ]
+        },
+        {
+          "name": "JuribaEvergreenSelfService",
+          "children": [
+            {
+              "name": "Get-JuribaEvergreenSelfService"
+            },
+            {
+              "name": "New-JuribaEvergreenSelfService"
+            },
+            {
+              "name": "Set-JuribaEvergreenSelfService"
+            }
+          ]
+        },
+        {
+          "name": "JuribaEvergreenSelfServiceBaseURL",
+          "children": [
+            {
+              "name": "Get-JuribaEvergreenSelfServiceBaseURL"
+            },
+            {
+              "name": "Set-JuribaEvergreenSelfServiceBaseURL"
+            }
+          ]
+        },
+        {
+          "name": "JuribaEvergreenSelfServiceComponent",
+          "children": [
+            {
+              "name": "Get-JuribaEvergreenSelfServiceComponent"
+            },
+            {
+              "name": "New-JuribaEvergreenSelfServiceComponent"
+            },
+            {
+              "name": "Set-JuribaEvergreenSelfServiceComponent"
+            }
+          ]
+        },
+        {
+          "name": "JuribaEvergreenSelfServicePage",
+          "children": [
+            {
+              "name": "Get-JuribaEvergreenSelfServicePage"
+            },
+            {
+              "name": "New-JuribaEvergreenSelfServicePage"
+            },
+            {
+              "name": "Set-JuribaEvergreenSelfServicePage"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportApplication",
+          "children": [
+            {
+              "name": "Get-JuribaImportApplication"
+            },
+            {
+              "name": "New-JuribaImportApplication"
+            },
+            {
+              "name": "Remove-JuribaImportApplication"
+            },
+            {
+              "name": "Set-JuribaImportApplication"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportApplicationFeed",
+          "children": [
+            {
+              "name": "Get-JuribaImportApplicationFeed"
+            },
+            {
+              "name": "New-JuribaImportApplicationFeed"
+            },
+            {
+              "name": "Remove-JuribaImportApplicationFeed"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportDepartment",
+          "children": [
+            {
+              "name": "Get-JuribaImportDepartment"
+            },
+            {
+              "name": "New-JuribaImportDepartment"
+            },
+            {
+              "name": "Remove-JuribaImportDepartment"
+            },
+            {
+              "name": "Set-JuribaImportDepartment"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportDepartmentFeed",
+          "children": [
+            {
+              "name": "Get-JuribaImportDepartmentFeed"
+            },
+            {
+              "name": "New-JuribaImportDepartmentFeed"
+            },
+            {
+              "name": "Remove-JuribaImportDepartmentFeed"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportDevice",
+          "children": [
+            {
+              "name": "Get-JuribaImportDevice"
+            },
+            {
+              "name": "New-JuribaImportDevice"
+            },
+            {
+              "name": "Remove-JuribaImportDevice"
+            },
+            {
+              "name": "Set-JuribaImportDevice"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportDeviceFeed",
+          "children": [
+            {
+              "name": "Get-JuribaImportDeviceFeed"
+            },
+            {
+              "name": "New-JuribaImportDeviceFeed"
+            },
+            {
+              "name": "Remove-JuribaImportDeviceFeed"
+            },
+            {
+              "name": "Set-JuribaImportDeviceFeed"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportLocation",
+          "children": [
+            {
+              "name": "Get-JuribaImportLocation"
+            },
+            {
+              "name": "New-JuribaImportLocation"
+            },
+            {
+              "name": "Remove-JuribaImportLocation"
+            },
+            {
+              "name": "Set-JuribaImportLocation"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportLocationFeed",
+          "children": [
+            {
+              "name": "Get-JuribaImportLocationFeed"
+            },
+            {
+              "name": "New-JuribaImportLocationFeed"
+            },
+            {
+              "name": "Remove-JuribaImportLocationFeed"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportMailbox",
+          "children": [
+            {
+              "name": "Get-JuribaImportMailbox"
+            },
+            {
+              "name": "New-JuribaImportMailbox"
+            },
+            {
+              "name": "Remove-JuribaImportMailbox"
+            },
+            {
+              "name": "Set-JuribaImportMailbox"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportMailboxFeed",
+          "children": [
+            {
+              "name": "Get-JuribaImportMailboxFeed"
+            },
+            {
+              "name": "New-JuribaImportMailboxFeed"
+            },
+            {
+              "name": "Remove-JuribaImportMailboxFeed"
+            },
+            {
+              "name": "Set-JuribaImportMailboxFeed"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportUser",
+          "children": [
+            {
+              "name": "Get-JuribaImportUser"
+            },
+            {
+              "name": "New-JuribaImportUser"
+            },
+            {
+              "name": "Remove-JuribaImportUser"
+            },
+            {
+              "name": "Set-JuribaImportUser"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportUserFeed",
+          "children": [
+            {
+              "name": "Get-JuribaImportUserFeed"
+            },
+            {
+              "name": "New-JuribaImportUserFeed"
+            },
+            {
+              "name": "Remove-JuribaImportUserFeed"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportGroup",
+          "children": [
+            {
+              "name": "Get-JuribaImportGroup"
+            },
+            {
+              "name": "New-JuribaImportGroup"
+            },
+            {
+              "name": "Remove-JuribaImportGroup"
+            },
+            {
+              "name": "Set-JuribaImportGroup"
+            }
+          ]
+        },
+        {
+          "name": "JuribaProject",
+          "children": [
+            {
+              "name": "Get-JuribaProject"
+            }
+          ]
+        },
+        {
+          "name": "JuribaProjectDetail",
+          "children": [
+            {
+              "name": "Get-JuribaProjectDetail"
+            }
+          ]
+        },
+        {
+          "name": "JuribaProjectPath",
+          "children": [
+            {
+              "name": "Get-JuribaProjectPath"
+            }
+          ]
+        },
+        {
+          "name": "JuribaProjectReadiness",
+          "children": [
+            {
+              "name": "Get-JuribaProjectReadiness"
+            }
+          ]
+        },
+        {
+          "name": "JuribaSessionUser",
+          "children": [
+            {
+              "name": "Get-JuribaSessionUser"
+            }
+          ]
+        },
+        {
+          "name": "JuribaTag",
+          "children": [
+            {
+              "name": "Get-JuribaTag"
+            },
+            {
+              "name": "New-JuribaTag"
+            },
+            {
+              "name": "Remove-JuribaTag"
+            }
+          ]
+        },
+        {
+          "name": "JuribaTask",
+          "children": [
+            {
+              "name": "Get-JuribaTask"
+            }
+          ]
+        },
+        {
+          "name": "JuribaTeam",
+          "children": [
+            {
+              "name": "Get-JuribaTeam"
+            },
+            {
+              "name": "New-JuribaTeam"
+            },
+            {
+              "name": "Remove-JuribaTeam"
+            },
+            {
+              "name": "Set-JuribaTeam"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardBarWidget",
+          "children": [
+            {
+              "name": "New-JuribaDashboardBarWidget"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardCardWidget",
+          "children": [
+            {
+              "name": "New-JuribaDashboardCardWidget"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardColumnWidget",
+          "children": [
+            {
+              "name": "New-JuribaDashboardColumnWidget"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardDonutWidget",
+          "children": [
+            {
+              "name": "New-JuribaDashboardDonutWidget"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardHalfDonutWidget",
+          "children": [
+            {
+              "name": "New-JuribaDashboardHalfDonutWidget"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardLineWidget",
+          "children": [
+            {
+              "name": "New-JuribaDashboardLineWidget"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardListWidget",
+          "children": [
+            {
+              "name": "New-JuribaDashboardListWidget"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardPieWidget",
+          "children": [
+            {
+              "name": "New-JuribaDashboardPieWidget"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardSection",
+          "children": [
+            {
+              "name": "New-JuribaDashboardSection"
+            },
+            {
+              "name": "Set-JuribaDashboardSection"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardTableWidget",
+          "children": [
+            {
+              "name": "New-JuribaDashboardTableWidget"
+            }
+          ]
+        },
+        {
+          "name": "JuribaEvergreenSelfServicePortal",
+          "children": [
+            {
+              "name": "Remove-JuribaEvergreenSelfServicePortal"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportDeviceFeedAllItem",
+          "children": [
+            {
+              "name": "Remove-JuribaImportDeviceFeedAllItem"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportLocationFeedAllItem",
+          "children": [
+            {
+              "name": "Remove-JuribaImportLocationFeedAllItem"
+            }
+          ]
+        },
+        {
+          "name": "JuribaImportUserFeedAllItem",
+          "children": [
+            {
+              "name": "Remove-JuribaImportUserFeedAllItem"
+            }
+          ]
+        },
+        {
+          "name": "JuribaTaskValueDate",
+          "children": [
+            {
+              "name": "Remove-JuribaTaskValueDate"
+            },
+            {
+              "name": "Set-JuribaTaskValueDate"
+            }
+          ]
+        },
+        {
+          "name": "JuribaTaskValueText",
+          "children": [
+            {
+              "name": "Remove-JuribaTaskValueText"
+            },
+            {
+              "name": "Set-JuribaTaskValueText"
+            }
+          ]
+        },
+        {
+          "name": "JuribaDashboardWidgetColour",
+          "children": [
+            {
+              "name": "Set-JuribaDashboardWidgetColour"
+            }
+          ]
+        },
+        {
+          "name": "JuribaProjectCapacityDetail",
+          "children": [
+            {
+              "name": "Set-JuribaProjectCapacityDetail"
+            }
+          ]
+        },
+        {
+          "name": "JuribaTaskValueSelect",
+          "children": [
+            {
+              "name": "Set-JuribaTaskValueSelect"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationOwner",
+          "children": [
+            {
+              "name": "Update-ApplicationOwner"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Juriba.AppM",
+      "companyName": "Juriba",
+      "children": [
+        {
+          "name": "GenericIntegrations",
+          "children": [
+            {
+              "name": "Get-GenericIntegrations"
+            }
+          ]
+        },
+        {
+          "name": "IntegrationPublishings",
+          "children": [
+            {
+              "name": "Get-IntegrationPublishings"
+            }
+          ]
+        },
+        {
+          "name": "PublishingPrerequisites",
+          "children": [
+            {
+              "name": "Get-PublishingPrerequisites"
+            }
+          ]
+        },
+        {
+          "name": "PublishingProperties",
+          "children": [
+            {
+              "name": "Get-PublishingProperties"
+            }
+          ]
+        },
+        {
+          "name": "PublishingSource",
+          "children": [
+            {
+              "name": "Get-PublishingSource"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationPackageDetails",
+          "children": [
+            {
+              "name": "Get-ApplicationPackageDetails"
+            }
+          ]
+        },
+        {
+          "name": "PublishingLog",
+          "children": [
+            {
+              "name": "Add-PublishingLog"
+            }
+          ]
+        },
+        {
+          "name": "PublishingState",
+          "children": [
+            {
+              "name": "Update-PublishingState"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

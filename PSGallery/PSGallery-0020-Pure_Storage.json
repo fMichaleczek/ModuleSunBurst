@@ -1,0 +1,7776 @@
+{
+  "name": "Pure Storage, Inc.",
+  "children": [
+    {
+      "name": "Cody.PureStorage.Pure1",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PureOneRestConnection",
+          "children": [
+            {
+              "name": "New-PureOneRestConnection"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArray",
+          "children": [
+            {
+              "name": "Get-PureOneArray"
+            }
+          ]
+        },
+        {
+          "name": "PureOneRestOperation",
+          "children": [
+            {
+              "name": "New-PureOneRestOperation"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArrayTag",
+          "children": [
+            {
+              "name": "Get-PureOneArrayTag"
+            },
+            {
+              "name": "Set-PureOneArrayTag"
+            },
+            {
+              "name": "Remove-PureOneArrayTag"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArrayNetworking",
+          "children": [
+            {
+              "name": "Get-PureOneArrayNetworking"
+            }
+          ]
+        },
+        {
+          "name": "PureOneMetricDetail",
+          "children": [
+            {
+              "name": "Get-PureOneMetricDetail"
+            }
+          ]
+        },
+        {
+          "name": "PureOneMetric",
+          "children": [
+            {
+              "name": "Get-PureOneMetric"
+            }
+          ]
+        },
+        {
+          "name": "PureOneVolume",
+          "children": [
+            {
+              "name": "Get-PureOneVolume"
+            }
+          ]
+        },
+        {
+          "name": "PureOnePod",
+          "children": [
+            {
+              "name": "Get-PureOnePod"
+            }
+          ]
+        },
+        {
+          "name": "PureOneVolumeSnapshot",
+          "children": [
+            {
+              "name": "Get-PureOneVolumeSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PureOneFileSystem",
+          "children": [
+            {
+              "name": "Get-PureOneFileSystem"
+            }
+          ]
+        },
+        {
+          "name": "PureOneFileSystemSnapshot",
+          "children": [
+            {
+              "name": "Get-PureOneFileSystemSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArrayBusyMeter",
+          "children": [
+            {
+              "name": "Get-PureOneArrayBusyMeter"
+            }
+          ]
+        },
+        {
+          "name": "PureOneCertificate",
+          "children": [
+            {
+              "name": "New-PureOneCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PureOnePublicKey",
+          "children": [
+            {
+              "name": "Get-PureOnePublicKey"
+            }
+          ]
+        },
+        {
+          "name": "PureOneJwt",
+          "children": [
+            {
+              "name": "New-PureOneJwt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cody.PureStorage.FlashArray.VMware",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "faVolumeNameFromVvolUuid",
+          "children": [
+            {
+              "name": "get-faVolumeNameFromVvolUuid"
+            }
+          ]
+        },
+        {
+          "name": "pureflasharrayRestSession",
+          "children": [
+            {
+              "name": "new-pureflasharrayRestSession"
+            },
+            {
+              "name": "remove-pureflasharrayRestSession"
+            }
+          ]
+        },
+        {
+          "name": "vmdkFromWindowsDisk",
+          "children": [
+            {
+              "name": "get-vmdkFromWindowsDisk"
+            }
+          ]
+        },
+        {
+          "name": "faHostFromVmHost",
+          "children": [
+            {
+              "name": "new-faHostFromVmHost"
+            },
+            {
+              "name": "get-faHostFromVmHost"
+            }
+          ]
+        },
+        {
+          "name": "faHostGroupfromVcCluster",
+          "children": [
+            {
+              "name": "get-faHostGroupfromVcCluster"
+            },
+            {
+              "name": "new-faHostGroupfromVcCluster"
+            }
+          ]
+        },
+        {
+          "name": "vmHostPureFaiSCSI",
+          "children": [
+            {
+              "name": "set-vmHostPureFaiSCSI"
+            }
+          ]
+        },
+        {
+          "name": "clusterPureFAiSCSI",
+          "children": [
+            {
+              "name": "set-clusterPureFAiSCSI"
+            }
+          ]
+        },
+        {
+          "name": "faVolfromVMFS",
+          "children": [
+            {
+              "name": "get-faVolfromVMFS"
+            }
+          ]
+        },
+        {
+          "name": "faVolVmfs",
+          "children": [
+            {
+              "name": "new-faVolVmfs"
+            }
+          ]
+        },
+        {
+          "name": "faVolVmfsToCluster",
+          "children": [
+            {
+              "name": "add-faVolVmfsToCluster"
+            }
+          ]
+        },
+        {
+          "name": "faVolVmfsCapacity",
+          "children": [
+            {
+              "name": "set-faVolVmfsCapacity"
+            }
+          ]
+        },
+        {
+          "name": "faVolVmfsSnapshots",
+          "children": [
+            {
+              "name": "get-faVolVmfsSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "faVolVmfsSnapshot",
+          "children": [
+            {
+              "name": "new-faVolVmfsSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "faVolVmfsFromSnapshot",
+          "children": [
+            {
+              "name": "new-faVolVmfsFromSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "faVvolVmVolumeGroup",
+          "children": [
+            {
+              "name": "update-faVvolVmVolumeGroup"
+            }
+          ]
+        },
+        {
+          "name": "vvolUuidFromHardDisk",
+          "children": [
+            {
+              "name": "get-vvolUuidFromHardDisk"
+            }
+          ]
+        },
+        {
+          "name": "faSnapshotsFromVvolHardDisk",
+          "children": [
+            {
+              "name": "get-faSnapshotsFromVvolHardDisk"
+            }
+          ]
+        },
+        {
+          "name": "faVvolVmdkToNewVvolVmdk",
+          "children": [
+            {
+              "name": "copy-faVvolVmdkToNewVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "faSnapshotToExistingVvolVmdk",
+          "children": [
+            {
+              "name": "copy-faSnapshotToExistingVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "faSnapshotToNewVvolVmdk",
+          "children": [
+            {
+              "name": "copy-faSnapshotToNewVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "faVvolVmdkToExistingVvolVmdk",
+          "children": [
+            {
+              "name": "copy-faVvolVmdkToExistingVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "faSnapshotOfVvolVmdk",
+          "children": [
+            {
+              "name": "new-faSnapshotOfVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "faVolRdm",
+          "children": [
+            {
+              "name": "new-faVolRdm"
+            },
+            {
+              "name": "remove-faVolRDM"
+            }
+          ]
+        },
+        {
+          "name": "faVolRDMCapacity",
+          "children": [
+            {
+              "name": "set-faVolRDMCapacity"
+            }
+          ]
+        },
+        {
+          "name": "faSnapshotToRDM",
+          "children": [
+            {
+              "name": "copy-faSnapshotToRDM"
+            }
+          ]
+        },
+        {
+          "name": "faVolRDMSnapshots",
+          "children": [
+            {
+              "name": "get-faVolRDMSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "faVolRdmSnapshot",
+          "children": [
+            {
+              "name": "new-faVolRdmSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "faVolfromRDM",
+          "children": [
+            {
+              "name": "get-faVolfromRDM"
+            }
+          ]
+        },
+        {
+          "name": "faVolRDMtoVvol",
+          "children": [
+            {
+              "name": "convert-faVolRDMtoVvol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStoragePowerShellToolkit.WindowsAdministration",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "Pfa2HostBusAdapter",
+          "children": [
+            {
+              "name": "Get-Pfa2HostBusAdapter"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SerialNumbers",
+          "children": [
+            {
+              "name": "Get-Pfa2SerialNumbers"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2QuickFixEngineering",
+          "children": [
+            {
+              "name": "Get-Pfa2QuickFixEngineering"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeShadowCopy",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeShadowCopy"
+            },
+            {
+              "name": "New-Pfa2VolumeShadowCopy"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2WindowsDiagnosticInfo",
+          "children": [
+            {
+              "name": "Get-Pfa2WindowsDiagnosticInfo"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2MPIODiskLBPolicy",
+          "children": [
+            {
+              "name": "Get-Pfa2MPIODiskLBPolicy"
+            },
+            {
+              "name": "Set-Pfa2MPIODiskLBPolicy"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2TlsVersions",
+          "children": [
+            {
+              "name": "Set-Pfa2TlsVersions"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2WindowsPowerScheme",
+          "children": [
+            {
+              "name": "Set-Pfa2WindowsPowerScheme"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SecureChannelProtocol",
+          "children": [
+            {
+              "name": "Enable-Pfa2SecureChannelProtocol"
+            },
+            {
+              "name": "Disable-Pfa2SecureChannelProtocol"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostVolumes",
+          "children": [
+            {
+              "name": "Mount-Pfa2HostVolumes"
+            },
+            {
+              "name": "Dismount-Pfa2HostVolumes"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DriveInformation",
+          "children": [
+            {
+              "name": "Update-Pfa2DriveInformation"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2WindowsBestPractices",
+          "children": [
+            {
+              "name": "Test-Pfa2WindowsBestPractices"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HypervClusterVolumeReport",
+          "children": [
+            {
+              "name": "New-Pfa2HypervClusterVolumeReport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStoragePowerShellToolkit.FlashArray",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "Pfa2AllHostVolumeInfo",
+          "children": [
+            {
+              "name": "Get-Pfa2AllHostVolumeInfo"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DisconnectedVolumes",
+          "children": [
+            {
+              "name": "Get-Pfa2DisconnectedVolumes"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Space",
+          "children": [
+            {
+              "name": "Get-Pfa2Space"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2StaleSnapshots",
+          "children": [
+            {
+              "name": "Get-Pfa2StaleSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PgroupsConfig",
+          "children": [
+            {
+              "name": "Get-Pfa2PgroupsConfig"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Config",
+          "children": [
+            {
+              "name": "Get-Pfa2Config"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Hierarchy",
+          "children": [
+            {
+              "name": "Get-Pfa2Hierarchy"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2QuickCapacityStats",
+          "children": [
+            {
+              "name": "Get-Pfa2QuickCapacityStats"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2RASession",
+          "children": [
+            {
+              "name": "Get-Pfa2RASession"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeGrowth",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeGrowth"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ConnectDetails",
+          "children": [
+            {
+              "name": "Get-Pfa2ConnectDetails"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PendingDeletes",
+          "children": [
+            {
+              "name": "Remove-Pfa2PendingDeletes"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PGroupVolumeSnapshots",
+          "children": [
+            {
+              "name": "Restore-Pfa2PGroupVolumeSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Hosts",
+          "children": [
+            {
+              "name": "Sync-Pfa2Hosts"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PGroupVolumes",
+          "children": [
+            {
+              "name": "New-Pfa2PGroupVolumes"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2CapacityReport",
+          "children": [
+            {
+              "name": "New-Pfa2CapacityReport"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Excel",
+          "children": [
+            {
+              "name": "Export-Pfa2Excel"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ExcelReport",
+          "children": [
+            {
+              "name": "New-Pfa2ExcelReport"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Credential",
+          "children": [
+            {
+              "name": "Get-Pfa2Credential"
+            },
+            {
+              "name": "Set-Pfa2Credential"
+            },
+            {
+              "name": "Clear-Pfa2Credential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStoragePowerShellToolkit.Exchange",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "Pfa2ExchangeBackup",
+          "children": [
+            {
+              "name": "Get-Pfa2ExchangeBackup"
+            },
+            {
+              "name": "New-Pfa2ExchangeBackup"
+            },
+            {
+              "name": "Remove-Pfa2ExchangeBackup"
+            },
+            {
+              "name": "Restore-Pfa2ExchangeBackup"
+            },
+            {
+              "name": "Mount-Pfa2ExchangeBackup"
+            },
+            {
+              "name": "Dismount-Pfa2ExchangeBackup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ExchangeBackupExposeSession",
+          "children": [
+            {
+              "name": "Enter-Pfa2ExchangeBackupExposeSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStoragePowerShellToolkit.DatabaseTools",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "Pfa2DynamicDataMasking",
+          "children": [
+            {
+              "name": "Invoke-Pfa2DynamicDataMasking"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2StaticDataMasking",
+          "children": [
+            {
+              "name": "Invoke-Pfa2StaticDataMasking"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DbSnapshot",
+          "children": [
+            {
+              "name": "New-Pfa2DbSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DbRefresh",
+          "children": [
+            {
+              "name": "Invoke-Pfa2DbRefresh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStoragePowerShellSDK2",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "Pfa2Array",
+          "children": [
+            {
+              "name": "Connect-Pfa2Array"
+            },
+            {
+              "name": "Disconnect-Pfa2Array"
+            },
+            {
+              "name": "Get-Pfa2Array"
+            },
+            {
+              "name": "Update-Pfa2Array"
+            },
+            {
+              "name": "Remove-Pfa2Array"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ApiVersion",
+          "children": [
+            {
+              "name": "Get-Pfa2ApiVersion"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2CLICommand",
+          "children": [
+            {
+              "name": "Invoke-Pfa2CLICommand"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2RestCommand",
+          "children": [
+            {
+              "name": "Invoke-Pfa2RestCommand"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArrayAuth",
+          "children": [
+            {
+              "name": "New-Pfa2ArrayAuth"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Logging",
+          "children": [
+            {
+              "name": "Set-Pfa2Logging"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Login",
+          "children": [
+            {
+              "name": "New-Pfa2Login"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Logout",
+          "children": [
+            {
+              "name": "New-Pfa2Logout"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ActiveDirectory",
+          "children": [
+            {
+              "name": "Get-Pfa2ActiveDirectory"
+            },
+            {
+              "name": "New-Pfa2ActiveDirectory"
+            },
+            {
+              "name": "Update-Pfa2ActiveDirectory"
+            },
+            {
+              "name": "Remove-Pfa2ActiveDirectory"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Admin",
+          "children": [
+            {
+              "name": "Get-Pfa2Admin"
+            },
+            {
+              "name": "New-Pfa2Admin"
+            },
+            {
+              "name": "Update-Pfa2Admin"
+            },
+            {
+              "name": "Remove-Pfa2Admin"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2AdminApiToken",
+          "children": [
+            {
+              "name": "Get-Pfa2AdminApiToken"
+            },
+            {
+              "name": "New-Pfa2AdminApiToken"
+            },
+            {
+              "name": "Remove-Pfa2AdminApiToken"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2AdminCache",
+          "children": [
+            {
+              "name": "Get-Pfa2AdminCache"
+            },
+            {
+              "name": "Set-Pfa2AdminCache"
+            },
+            {
+              "name": "Remove-Pfa2AdminCache"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2AdminSetting",
+          "children": [
+            {
+              "name": "Get-Pfa2AdminSetting"
+            },
+            {
+              "name": "Update-Pfa2AdminSetting"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Alert",
+          "children": [
+            {
+              "name": "Get-Pfa2Alert"
+            },
+            {
+              "name": "Update-Pfa2Alert"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2AlertEvent",
+          "children": [
+            {
+              "name": "Get-Pfa2AlertEvent"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2AlertRule",
+          "children": [
+            {
+              "name": "Get-Pfa2AlertRule"
+            },
+            {
+              "name": "New-Pfa2AlertRule"
+            },
+            {
+              "name": "Update-Pfa2AlertRule"
+            },
+            {
+              "name": "Remove-Pfa2AlertRule"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2AlertRuleCatalog",
+          "children": [
+            {
+              "name": "Get-Pfa2AlertRuleCatalog"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2AlertWatcher",
+          "children": [
+            {
+              "name": "Get-Pfa2AlertWatcher"
+            },
+            {
+              "name": "New-Pfa2AlertWatcher"
+            },
+            {
+              "name": "Update-Pfa2AlertWatcher"
+            },
+            {
+              "name": "Remove-Pfa2AlertWatcher"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2AlertWatcherTest",
+          "children": [
+            {
+              "name": "Get-Pfa2AlertWatcherTest"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ApiClient",
+          "children": [
+            {
+              "name": "Get-Pfa2ApiClient"
+            },
+            {
+              "name": "New-Pfa2ApiClient"
+            },
+            {
+              "name": "Update-Pfa2ApiClient"
+            },
+            {
+              "name": "Remove-Pfa2ApiClient"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2App",
+          "children": [
+            {
+              "name": "Get-Pfa2App"
+            },
+            {
+              "name": "Update-Pfa2App"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2AppNode",
+          "children": [
+            {
+              "name": "Get-Pfa2AppNode"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArrayCloudProviderTag",
+          "children": [
+            {
+              "name": "Get-Pfa2ArrayCloudProviderTag"
+            },
+            {
+              "name": "Remove-Pfa2ArrayCloudProviderTag"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArrayCloudProviderTagBatch",
+          "children": [
+            {
+              "name": "Set-Pfa2ArrayCloudProviderTagBatch"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArrayEula",
+          "children": [
+            {
+              "name": "Get-Pfa2ArrayEula"
+            },
+            {
+              "name": "Update-Pfa2ArrayEula"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArrayFactoryResetToken",
+          "children": [
+            {
+              "name": "Get-Pfa2ArrayFactoryResetToken"
+            },
+            {
+              "name": "New-Pfa2ArrayFactoryResetToken"
+            },
+            {
+              "name": "Remove-Pfa2ArrayFactoryResetToken"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArrayNtpTest",
+          "children": [
+            {
+              "name": "Get-Pfa2ArrayNtpTest"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArrayPerformance",
+          "children": [
+            {
+              "name": "Get-Pfa2ArrayPerformance"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArraysPerformanceByLink",
+          "children": [
+            {
+              "name": "Get-Pfa2ArraysPerformanceByLink"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArraySpace",
+          "children": [
+            {
+              "name": "Get-Pfa2ArraySpace"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArrayConnection",
+          "children": [
+            {
+              "name": "Get-Pfa2ArrayConnection"
+            },
+            {
+              "name": "New-Pfa2ArrayConnection"
+            },
+            {
+              "name": "Update-Pfa2ArrayConnection"
+            },
+            {
+              "name": "Remove-Pfa2ArrayConnection"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArrayConnectionKey",
+          "children": [
+            {
+              "name": "Get-Pfa2ArrayConnectionKey"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ArrayConnectionPath",
+          "children": [
+            {
+              "name": "Get-Pfa2ArrayConnectionPath"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Audit",
+          "children": [
+            {
+              "name": "Get-Pfa2Audit"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Certificate",
+          "children": [
+            {
+              "name": "Get-Pfa2Certificate"
+            },
+            {
+              "name": "New-Pfa2Certificate"
+            },
+            {
+              "name": "Update-Pfa2Certificate"
+            },
+            {
+              "name": "Remove-Pfa2Certificate"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2CertificateSigningRequest",
+          "children": [
+            {
+              "name": "New-Pfa2CertificateSigningRequest"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Connection",
+          "children": [
+            {
+              "name": "Get-Pfa2Connection"
+            },
+            {
+              "name": "New-Pfa2Connection"
+            },
+            {
+              "name": "Remove-Pfa2Connection"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ContainerDefaultProtection",
+          "children": [
+            {
+              "name": "Get-Pfa2ContainerDefaultProtection"
+            },
+            {
+              "name": "Update-Pfa2ContainerDefaultProtection"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Controller",
+          "children": [
+            {
+              "name": "Get-Pfa2Controller"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Directory",
+          "children": [
+            {
+              "name": "Get-Pfa2Directory"
+            },
+            {
+              "name": "New-Pfa2Directory"
+            },
+            {
+              "name": "Update-Pfa2Directory"
+            },
+            {
+              "name": "Remove-Pfa2Directory"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryPerformance",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryPerformance"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryPolicy",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryPolicy"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryPolicyAutodir",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryPolicyAutodir"
+            },
+            {
+              "name": "New-Pfa2DirectoryPolicyAutodir"
+            },
+            {
+              "name": "Remove-Pfa2DirectoryPolicyAutodir"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryPolicyNfs",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryPolicyNfs"
+            },
+            {
+              "name": "New-Pfa2DirectoryPolicyNfs"
+            },
+            {
+              "name": "Remove-Pfa2DirectoryPolicyNfs"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryPolicyQuota",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryPolicyQuota"
+            },
+            {
+              "name": "New-Pfa2DirectoryPolicyQuota"
+            },
+            {
+              "name": "Remove-Pfa2DirectoryPolicyQuota"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryPolicySmb",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryPolicySmb"
+            },
+            {
+              "name": "New-Pfa2DirectoryPolicySmb"
+            },
+            {
+              "name": "Remove-Pfa2DirectoryPolicySmb"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryPolicySnapshot",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryPolicySnapshot"
+            },
+            {
+              "name": "New-Pfa2DirectoryPolicySnapshot"
+            },
+            {
+              "name": "Remove-Pfa2DirectoryPolicySnapshot"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectorySpace",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectorySpace"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryExport",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryExport"
+            },
+            {
+              "name": "New-Pfa2DirectoryExport"
+            },
+            {
+              "name": "Remove-Pfa2DirectoryExport"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryQuota",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryQuota"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryService",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryService"
+            },
+            {
+              "name": "Update-Pfa2DirectoryService"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryServiceRole",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryServiceRole"
+            },
+            {
+              "name": "Update-Pfa2DirectoryServiceRole"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryServiceTest",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryServiceTest"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryServiceLocalGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryServiceLocalGroup"
+            },
+            {
+              "name": "New-Pfa2DirectoryServiceLocalGroup"
+            },
+            {
+              "name": "Update-Pfa2DirectoryServiceLocalGroup"
+            },
+            {
+              "name": "Remove-Pfa2DirectoryServiceLocalGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryServiceLocalGroupMember",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryServiceLocalGroupMember"
+            },
+            {
+              "name": "New-Pfa2DirectoryServiceLocalGroupMember"
+            },
+            {
+              "name": "Remove-Pfa2DirectoryServiceLocalGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryServiceLocalUser",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryServiceLocalUser"
+            },
+            {
+              "name": "New-Pfa2DirectoryServiceLocalUser"
+            },
+            {
+              "name": "Update-Pfa2DirectoryServiceLocalUser"
+            },
+            {
+              "name": "Remove-Pfa2DirectoryServiceLocalUser"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryServiceLocalUserMember",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectoryServiceLocalUserMember"
+            },
+            {
+              "name": "New-Pfa2DirectoryServiceLocalUserMember"
+            },
+            {
+              "name": "Remove-Pfa2DirectoryServiceLocalUserMember"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectorySnapshot",
+          "children": [
+            {
+              "name": "Get-Pfa2DirectorySnapshot"
+            },
+            {
+              "name": "New-Pfa2DirectorySnapshot"
+            },
+            {
+              "name": "Update-Pfa2DirectorySnapshot"
+            },
+            {
+              "name": "Remove-Pfa2DirectorySnapshot"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DirectoryLockNlmReclamation",
+          "children": [
+            {
+              "name": "New-Pfa2DirectoryLockNlmReclamation"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Dns",
+          "children": [
+            {
+              "name": "Get-Pfa2Dns"
+            },
+            {
+              "name": "New-Pfa2Dns"
+            },
+            {
+              "name": "Update-Pfa2Dns"
+            },
+            {
+              "name": "Remove-Pfa2Dns"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Drive",
+          "children": [
+            {
+              "name": "Get-Pfa2Drive"
+            },
+            {
+              "name": "Update-Pfa2Drive"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2FileSystem",
+          "children": [
+            {
+              "name": "Get-Pfa2FileSystem"
+            },
+            {
+              "name": "New-Pfa2FileSystem"
+            },
+            {
+              "name": "Update-Pfa2FileSystem"
+            },
+            {
+              "name": "Remove-Pfa2FileSystem"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Files",
+          "children": [
+            {
+              "name": "New-Pfa2Files"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Hardware",
+          "children": [
+            {
+              "name": "Get-Pfa2Hardware"
+            },
+            {
+              "name": "Update-Pfa2Hardware"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2HostGroup"
+            },
+            {
+              "name": "New-Pfa2HostGroup"
+            },
+            {
+              "name": "Update-Pfa2HostGroup"
+            },
+            {
+              "name": "Remove-Pfa2HostGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostGroupHost",
+          "children": [
+            {
+              "name": "Get-Pfa2HostGroupHost"
+            },
+            {
+              "name": "New-Pfa2HostGroupHost"
+            },
+            {
+              "name": "Remove-Pfa2HostGroupHost"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostGroupPerformance",
+          "children": [
+            {
+              "name": "Get-Pfa2HostGroupPerformance"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostGroupPerformanceByArray",
+          "children": [
+            {
+              "name": "Get-Pfa2HostGroupPerformanceByArray"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostGroupProtectionGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2HostGroupProtectionGroup"
+            },
+            {
+              "name": "New-Pfa2HostGroupProtectionGroup"
+            },
+            {
+              "name": "Remove-Pfa2HostGroupProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostGroupSpace",
+          "children": [
+            {
+              "name": "Get-Pfa2HostGroupSpace"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Host",
+          "children": [
+            {
+              "name": "Get-Pfa2Host"
+            },
+            {
+              "name": "New-Pfa2Host"
+            },
+            {
+              "name": "Update-Pfa2Host"
+            },
+            {
+              "name": "Remove-Pfa2Host"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostHostGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2HostHostGroup"
+            },
+            {
+              "name": "New-Pfa2HostHostGroup"
+            },
+            {
+              "name": "Remove-Pfa2HostHostGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostPerformance",
+          "children": [
+            {
+              "name": "Get-Pfa2HostPerformance"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostPerformanceBalance",
+          "children": [
+            {
+              "name": "Get-Pfa2HostPerformanceBalance"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostPerformanceByArray",
+          "children": [
+            {
+              "name": "Get-Pfa2HostPerformanceByArray"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostProtectionGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2HostProtectionGroup"
+            },
+            {
+              "name": "New-Pfa2HostProtectionGroup"
+            },
+            {
+              "name": "Remove-Pfa2HostProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostSpace",
+          "children": [
+            {
+              "name": "Get-Pfa2HostSpace"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Kmip",
+          "children": [
+            {
+              "name": "Get-Pfa2Kmip"
+            },
+            {
+              "name": "New-Pfa2Kmip"
+            },
+            {
+              "name": "Update-Pfa2Kmip"
+            },
+            {
+              "name": "Remove-Pfa2Kmip"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2KmipTest",
+          "children": [
+            {
+              "name": "Get-Pfa2KmipTest"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2MaintenanceWindow",
+          "children": [
+            {
+              "name": "Get-Pfa2MaintenanceWindow"
+            },
+            {
+              "name": "New-Pfa2MaintenanceWindow"
+            },
+            {
+              "name": "Remove-Pfa2MaintenanceWindow"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2NetworkInterface",
+          "children": [
+            {
+              "name": "Get-Pfa2NetworkInterface"
+            },
+            {
+              "name": "New-Pfa2NetworkInterface"
+            },
+            {
+              "name": "Update-Pfa2NetworkInterface"
+            },
+            {
+              "name": "Remove-Pfa2NetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2NetworkInterfaceNeighbor",
+          "children": [
+            {
+              "name": "Get-Pfa2NetworkInterfaceNeighbor"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2NetworkInterfacePerformance",
+          "children": [
+            {
+              "name": "Get-Pfa2NetworkInterfacePerformance"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2NetworkInterfacePortDetail",
+          "children": [
+            {
+              "name": "Get-Pfa2NetworkInterfacePortDetail"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Offload",
+          "children": [
+            {
+              "name": "Get-Pfa2Offload"
+            },
+            {
+              "name": "New-Pfa2Offload"
+            },
+            {
+              "name": "Remove-Pfa2Offload"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Pod",
+          "children": [
+            {
+              "name": "Get-Pfa2Pod"
+            },
+            {
+              "name": "New-Pfa2Pod"
+            },
+            {
+              "name": "Update-Pfa2Pod"
+            },
+            {
+              "name": "Remove-Pfa2Pod"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PodArray",
+          "children": [
+            {
+              "name": "Get-Pfa2PodArray"
+            },
+            {
+              "name": "New-Pfa2PodArray"
+            },
+            {
+              "name": "Remove-Pfa2PodArray"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PodPerformance",
+          "children": [
+            {
+              "name": "Get-Pfa2PodPerformance"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PodPerformanceByArray",
+          "children": [
+            {
+              "name": "Get-Pfa2PodPerformanceByArray"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PodPerformanceReplication",
+          "children": [
+            {
+              "name": "Get-Pfa2PodPerformanceReplication"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PodPerformanceReplicationByArray",
+          "children": [
+            {
+              "name": "Get-Pfa2PodPerformanceReplicationByArray"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PodSpace",
+          "children": [
+            {
+              "name": "Get-Pfa2PodSpace"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PodReplicaLink",
+          "children": [
+            {
+              "name": "Get-Pfa2PodReplicaLink"
+            },
+            {
+              "name": "New-Pfa2PodReplicaLink"
+            },
+            {
+              "name": "Update-Pfa2PodReplicaLink"
+            },
+            {
+              "name": "Remove-Pfa2PodReplicaLink"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PodReplicaLinkLag",
+          "children": [
+            {
+              "name": "Get-Pfa2PodReplicaLinkLag"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PodReplicaLinkPerformanceReplication",
+          "children": [
+            {
+              "name": "Get-Pfa2PodReplicaLinkPerformanceReplication"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Policy",
+          "children": [
+            {
+              "name": "Get-Pfa2Policy"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicyAutodir",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicyAutodir"
+            },
+            {
+              "name": "New-Pfa2PolicyAutodir"
+            },
+            {
+              "name": "Update-Pfa2PolicyAutodir"
+            },
+            {
+              "name": "Remove-Pfa2PolicyAutodir"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicyAutodirMember",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicyAutodirMember"
+            },
+            {
+              "name": "New-Pfa2PolicyAutodirMember"
+            },
+            {
+              "name": "Remove-Pfa2PolicyAutodirMember"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicyMember",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicyMember"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicyNfs",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicyNfs"
+            },
+            {
+              "name": "New-Pfa2PolicyNfs"
+            },
+            {
+              "name": "Update-Pfa2PolicyNfs"
+            },
+            {
+              "name": "Remove-Pfa2PolicyNfs"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicyNfsClientRule",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicyNfsClientRule"
+            },
+            {
+              "name": "New-Pfa2PolicyNfsClientRule"
+            },
+            {
+              "name": "Remove-Pfa2PolicyNfsClientRule"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicyNfsMember",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicyNfsMember"
+            },
+            {
+              "name": "New-Pfa2PolicyNfsMember"
+            },
+            {
+              "name": "Remove-Pfa2PolicyNfsMember"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicyQuota",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicyQuota"
+            },
+            {
+              "name": "New-Pfa2PolicyQuota"
+            },
+            {
+              "name": "Update-Pfa2PolicyQuota"
+            },
+            {
+              "name": "Remove-Pfa2PolicyQuota"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicyQuotaMember",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicyQuotaMember"
+            },
+            {
+              "name": "New-Pfa2PolicyQuotaMember"
+            },
+            {
+              "name": "Remove-Pfa2PolicyQuotaMember"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicyQuotaRule",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicyQuotaRule"
+            },
+            {
+              "name": "New-Pfa2PolicyQuotaRule"
+            },
+            {
+              "name": "Update-Pfa2PolicyQuotaRule"
+            },
+            {
+              "name": "Remove-Pfa2PolicyQuotaRule"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicySmb",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicySmb"
+            },
+            {
+              "name": "New-Pfa2PolicySmb"
+            },
+            {
+              "name": "Update-Pfa2PolicySmb"
+            },
+            {
+              "name": "Remove-Pfa2PolicySmb"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicySmbClientRule",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicySmbClientRule"
+            },
+            {
+              "name": "New-Pfa2PolicySmbClientRule"
+            },
+            {
+              "name": "Remove-Pfa2PolicySmbClientRule"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicySmbMember",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicySmbMember"
+            },
+            {
+              "name": "New-Pfa2PolicySmbMember"
+            },
+            {
+              "name": "Remove-Pfa2PolicySmbMember"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicySnapshot",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicySnapshot"
+            },
+            {
+              "name": "New-Pfa2PolicySnapshot"
+            },
+            {
+              "name": "Update-Pfa2PolicySnapshot"
+            },
+            {
+              "name": "Remove-Pfa2PolicySnapshot"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicySnapshotMember",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicySnapshotMember"
+            },
+            {
+              "name": "New-Pfa2PolicySnapshotMember"
+            },
+            {
+              "name": "Remove-Pfa2PolicySnapshotMember"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PolicySnapshotRule",
+          "children": [
+            {
+              "name": "Get-Pfa2PolicySnapshotRule"
+            },
+            {
+              "name": "New-Pfa2PolicySnapshotRule"
+            },
+            {
+              "name": "Remove-Pfa2PolicySnapshotRule"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Port",
+          "children": [
+            {
+              "name": "Get-Pfa2Port"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PortInitiator",
+          "children": [
+            {
+              "name": "Get-Pfa2PortInitiator"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2ProtectionGroup"
+            },
+            {
+              "name": "New-Pfa2ProtectionGroup"
+            },
+            {
+              "name": "Update-Pfa2ProtectionGroup"
+            },
+            {
+              "name": "Remove-Pfa2ProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupHost",
+          "children": [
+            {
+              "name": "Get-Pfa2ProtectionGroupHost"
+            },
+            {
+              "name": "New-Pfa2ProtectionGroupHost"
+            },
+            {
+              "name": "Remove-Pfa2ProtectionGroupHost"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupHostGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2ProtectionGroupHostGroup"
+            },
+            {
+              "name": "New-Pfa2ProtectionGroupHostGroup"
+            },
+            {
+              "name": "Remove-Pfa2ProtectionGroupHostGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupPerformanceReplication",
+          "children": [
+            {
+              "name": "Get-Pfa2ProtectionGroupPerformanceReplication"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupPerformanceReplicationByArray",
+          "children": [
+            {
+              "name": "Get-Pfa2ProtectionGroupPerformanceReplicationByArray"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupSpace",
+          "children": [
+            {
+              "name": "Get-Pfa2ProtectionGroupSpace"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupTarget",
+          "children": [
+            {
+              "name": "Get-Pfa2ProtectionGroupTarget"
+            },
+            {
+              "name": "New-Pfa2ProtectionGroupTarget"
+            },
+            {
+              "name": "Update-Pfa2ProtectionGroupTarget"
+            },
+            {
+              "name": "Remove-Pfa2ProtectionGroupTarget"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupVolume",
+          "children": [
+            {
+              "name": "Get-Pfa2ProtectionGroupVolume"
+            },
+            {
+              "name": "New-Pfa2ProtectionGroupVolume"
+            },
+            {
+              "name": "Remove-Pfa2ProtectionGroupVolume"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupSnapshot",
+          "children": [
+            {
+              "name": "Get-Pfa2ProtectionGroupSnapshot"
+            },
+            {
+              "name": "New-Pfa2ProtectionGroupSnapshot"
+            },
+            {
+              "name": "Update-Pfa2ProtectionGroupSnapshot"
+            },
+            {
+              "name": "Remove-Pfa2ProtectionGroupSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupSnapshotReplica",
+          "children": [
+            {
+              "name": "New-Pfa2ProtectionGroupSnapshotReplica"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupSnapshotTransfer",
+          "children": [
+            {
+              "name": "Get-Pfa2ProtectionGroupSnapshotTransfer"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ProtectionGroupSnapshotTest",
+          "children": [
+            {
+              "name": "New-Pfa2ProtectionGroupSnapshotTest"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2RemotePod",
+          "children": [
+            {
+              "name": "Get-Pfa2RemotePod"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2RemoteProtectionGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2RemoteProtectionGroup"
+            },
+            {
+              "name": "Update-Pfa2RemoteProtectionGroup"
+            },
+            {
+              "name": "Remove-Pfa2RemoteProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2RemoteProtectionGroupSnapshot",
+          "children": [
+            {
+              "name": "Get-Pfa2RemoteProtectionGroupSnapshot"
+            },
+            {
+              "name": "New-Pfa2RemoteProtectionGroupSnapshot"
+            },
+            {
+              "name": "Update-Pfa2RemoteProtectionGroupSnapshot"
+            },
+            {
+              "name": "Remove-Pfa2RemoteProtectionGroupSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2RemoteProtectionGroupSnapshotTransfer",
+          "children": [
+            {
+              "name": "Get-Pfa2RemoteProtectionGroupSnapshotTransfer"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2RemoteProtectionGroupSnapshotTest",
+          "children": [
+            {
+              "name": "New-Pfa2RemoteProtectionGroupSnapshotTest"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2RemoteVolumeSnapshot",
+          "children": [
+            {
+              "name": "Get-Pfa2RemoteVolumeSnapshot"
+            },
+            {
+              "name": "New-Pfa2RemoteVolumeSnapshot"
+            },
+            {
+              "name": "Update-Pfa2RemoteVolumeSnapshot"
+            },
+            {
+              "name": "Remove-Pfa2RemoteVolumeSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2RemoteVolumeSnapshotTransfer",
+          "children": [
+            {
+              "name": "Get-Pfa2RemoteVolumeSnapshotTransfer"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Session",
+          "children": [
+            {
+              "name": "Get-Pfa2Session"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SmiS",
+          "children": [
+            {
+              "name": "Get-Pfa2SmiS"
+            },
+            {
+              "name": "Update-Pfa2SmiS"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SmtpServer",
+          "children": [
+            {
+              "name": "Get-Pfa2SmtpServer"
+            },
+            {
+              "name": "Update-Pfa2SmtpServer"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SnmpAgent",
+          "children": [
+            {
+              "name": "Get-Pfa2SnmpAgent"
+            },
+            {
+              "name": "Update-Pfa2SnmpAgent"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SnmpAgentMib",
+          "children": [
+            {
+              "name": "Get-Pfa2SnmpAgentMib"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SnmpManager",
+          "children": [
+            {
+              "name": "Get-Pfa2SnmpManager"
+            },
+            {
+              "name": "New-Pfa2SnmpManager"
+            },
+            {
+              "name": "Update-Pfa2SnmpManager"
+            },
+            {
+              "name": "Remove-Pfa2SnmpManager"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SnmpManagerTest",
+          "children": [
+            {
+              "name": "Get-Pfa2SnmpManagerTest"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Software",
+          "children": [
+            {
+              "name": "Get-Pfa2Software"
+            },
+            {
+              "name": "New-Pfa2Software"
+            },
+            {
+              "name": "Remove-Pfa2Software"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SoftwareBundle",
+          "children": [
+            {
+              "name": "Get-Pfa2SoftwareBundle"
+            },
+            {
+              "name": "New-Pfa2SoftwareBundle"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SoftwareCheck",
+          "children": [
+            {
+              "name": "Get-Pfa2SoftwareCheck"
+            },
+            {
+              "name": "New-Pfa2SoftwareCheck"
+            },
+            {
+              "name": "Remove-Pfa2SoftwareCheck"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SoftwareInstallation",
+          "children": [
+            {
+              "name": "Get-Pfa2SoftwareInstallation"
+            },
+            {
+              "name": "New-Pfa2SoftwareInstallation"
+            },
+            {
+              "name": "Update-Pfa2SoftwareInstallation"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SoftwareInstallationStep",
+          "children": [
+            {
+              "name": "Get-Pfa2SoftwareInstallationStep"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SoftwarePatch",
+          "children": [
+            {
+              "name": "Get-Pfa2SoftwarePatch"
+            },
+            {
+              "name": "New-Pfa2SoftwarePatch"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SoftwarePatchCatalog",
+          "children": [
+            {
+              "name": "Get-Pfa2SoftwarePatchCatalog"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SoftwareVersion",
+          "children": [
+            {
+              "name": "Get-Pfa2SoftwareVersion"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SsoSaml2",
+          "children": [
+            {
+              "name": "Get-Pfa2SsoSaml2"
+            },
+            {
+              "name": "New-Pfa2SsoSaml2"
+            },
+            {
+              "name": "Update-Pfa2SsoSaml2"
+            },
+            {
+              "name": "Remove-Pfa2SsoSaml2"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SsoSaml2Test",
+          "children": [
+            {
+              "name": "Get-Pfa2SsoSaml2Test"
+            },
+            {
+              "name": "Update-Pfa2SsoSaml2Test"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Subnet",
+          "children": [
+            {
+              "name": "Get-Pfa2Subnet"
+            },
+            {
+              "name": "New-Pfa2Subnet"
+            },
+            {
+              "name": "Update-Pfa2Subnet"
+            },
+            {
+              "name": "Remove-Pfa2Subnet"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Subscription",
+          "children": [
+            {
+              "name": "Get-Pfa2Subscription"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SubscriptionAsset",
+          "children": [
+            {
+              "name": "Get-Pfa2SubscriptionAsset"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Support",
+          "children": [
+            {
+              "name": "Get-Pfa2Support"
+            },
+            {
+              "name": "Update-Pfa2Support"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SupportTest",
+          "children": [
+            {
+              "name": "Get-Pfa2SupportTest"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SyslogServer",
+          "children": [
+            {
+              "name": "Get-Pfa2SyslogServer"
+            },
+            {
+              "name": "New-Pfa2SyslogServer"
+            },
+            {
+              "name": "Update-Pfa2SyslogServer"
+            },
+            {
+              "name": "Remove-Pfa2SyslogServer"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SyslogServerSetting",
+          "children": [
+            {
+              "name": "Get-Pfa2SyslogServerSetting"
+            },
+            {
+              "name": "Update-Pfa2SyslogServerSetting"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SyslogServerTest",
+          "children": [
+            {
+              "name": "Get-Pfa2SyslogServerTest"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Vchost",
+          "children": [
+            {
+              "name": "Get-Pfa2Vchost"
+            },
+            {
+              "name": "New-Pfa2Vchost"
+            },
+            {
+              "name": "Update-Pfa2Vchost"
+            },
+            {
+              "name": "Remove-Pfa2Vchost"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VchostCertificate",
+          "children": [
+            {
+              "name": "Get-Pfa2VchostCertificate"
+            },
+            {
+              "name": "New-Pfa2VchostCertificate"
+            },
+            {
+              "name": "Update-Pfa2VchostCertificate"
+            },
+            {
+              "name": "Remove-Pfa2VchostCertificate"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VchostEndpoint",
+          "children": [
+            {
+              "name": "Get-Pfa2VchostEndpoint"
+            },
+            {
+              "name": "New-Pfa2VchostEndpoint"
+            },
+            {
+              "name": "Update-Pfa2VchostEndpoint"
+            },
+            {
+              "name": "Remove-Pfa2VchostEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VirtualMachine",
+          "children": [
+            {
+              "name": "Get-Pfa2VirtualMachine"
+            },
+            {
+              "name": "New-Pfa2VirtualMachine"
+            },
+            {
+              "name": "Update-Pfa2VirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VirtualMachineSnapshot",
+          "children": [
+            {
+              "name": "Get-Pfa2VirtualMachineSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Volume",
+          "children": [
+            {
+              "name": "Get-Pfa2Volume"
+            },
+            {
+              "name": "New-Pfa2Volume"
+            },
+            {
+              "name": "Update-Pfa2Volume"
+            },
+            {
+              "name": "Remove-Pfa2Volume"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeDiff",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeDiff"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumePerformance",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumePerformance"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumePerformanceByArray",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumePerformanceByArray"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeProtectionGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeProtectionGroup"
+            },
+            {
+              "name": "New-Pfa2VolumeProtectionGroup"
+            },
+            {
+              "name": "Remove-Pfa2VolumeProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeSpace",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeSpace"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeTag",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeTag"
+            },
+            {
+              "name": "Remove-Pfa2VolumeTag"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeTagBatch",
+          "children": [
+            {
+              "name": "Set-Pfa2VolumeTagBatch"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeVolumeGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeVolumeGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeGroup",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeGroup"
+            },
+            {
+              "name": "New-Pfa2VolumeGroup"
+            },
+            {
+              "name": "Update-Pfa2VolumeGroup"
+            },
+            {
+              "name": "Remove-Pfa2VolumeGroup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeGroupPerformance",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeGroupPerformance"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeGroupSpace",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeGroupSpace"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeGroupVolume",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeGroupVolume"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeSnapshot",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeSnapshot"
+            },
+            {
+              "name": "New-Pfa2VolumeSnapshot"
+            },
+            {
+              "name": "Update-Pfa2VolumeSnapshot"
+            },
+            {
+              "name": "Remove-Pfa2VolumeSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeSnapshotTransfer",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeSnapshotTransfer"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeSnapshotTags",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeSnapshotTags"
+            },
+            {
+              "name": "Remove-Pfa2VolumeSnapshotTags"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeSnapshotTagsBatch",
+          "children": [
+            {
+              "name": "Set-Pfa2VolumeSnapshotTagsBatch"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeSnapshotTest",
+          "children": [
+            {
+              "name": "New-Pfa2VolumeSnapshotTest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStoragePowerShellSDK",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PfaAlert",
+          "children": [
+            {
+              "name": "Disable-PfaAlert"
+            },
+            {
+              "name": "Enable-PfaAlert"
+            },
+            {
+              "name": "Get-PfaAlert"
+            },
+            {
+              "name": "New-PfaAlert"
+            },
+            {
+              "name": "Remove-PfaAlert"
+            },
+            {
+              "name": "Test-PfaAlert"
+            }
+          ]
+        },
+        {
+          "name": "PfaAlerts",
+          "children": [
+            {
+              "name": "Get-PfaAlerts"
+            },
+            {
+              "name": "Test-PfaAlerts"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayAttributes",
+          "children": [
+            {
+              "name": "Get-PfaArrayAttributes"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayConnections",
+          "children": [
+            {
+              "name": "Get-PfaArrayConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayConnectionsThrottlingInformation",
+          "children": [
+            {
+              "name": "Get-PfaArrayConnectionsThrottlingInformation"
+            },
+            {
+              "name": "Update-PfaArrayConnectionsThrottlingInformation"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayEula",
+          "children": [
+            {
+              "name": "Get-PfaArrayEula"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayId",
+          "children": [
+            {
+              "name": "Get-PfaArrayId"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayIOLatencyMetrics",
+          "children": [
+            {
+              "name": "Get-PfaArrayIOLatencyMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayIOMetricsAverage",
+          "children": [
+            {
+              "name": "Get-PfaArrayIOMetricsAverage"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayIOMetrics",
+          "children": [
+            {
+              "name": "Get-PfaArrayIOMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayIOMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaArrayIOMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaArraySpaceMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaArraySpaceMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaArraySpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaArraySpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayTCPConnection",
+          "children": [
+            {
+              "name": "Get-PfaArrayTCPConnection"
+            }
+          ]
+        },
+        {
+          "name": "PfaBanner",
+          "children": [
+            {
+              "name": "Get-PfaBanner"
+            },
+            {
+              "name": "Set-PfaBanner"
+            }
+          ]
+        },
+        {
+          "name": "PfaConnectionKey",
+          "children": [
+            {
+              "name": "Get-PfaConnectionKey"
+            }
+          ]
+        },
+        {
+          "name": "PfaConsoleLock",
+          "children": [
+            {
+              "name": "Get-PfaConsoleLock"
+            },
+            {
+              "name": "Set-PfaConsoleLock"
+            }
+          ]
+        },
+        {
+          "name": "PfaControllers",
+          "children": [
+            {
+              "name": "Get-PfaControllers"
+            }
+          ]
+        },
+        {
+          "name": "PfaIdleTimeout",
+          "children": [
+            {
+              "name": "Get-PfaIdleTimeout"
+            },
+            {
+              "name": "Set-PfaIdleTimeout"
+            }
+          ]
+        },
+        {
+          "name": "PfaNtpServers",
+          "children": [
+            {
+              "name": "Get-PfaNtpServers"
+            },
+            {
+              "name": "Set-PfaNtpServers"
+            }
+          ]
+        },
+        {
+          "name": "PfaPhoneHomeActionStatus",
+          "children": [
+            {
+              "name": "Get-PfaPhoneHomeActionStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaPhoneHomeStatus",
+          "children": [
+            {
+              "name": "Get-PfaPhoneHomeStatus"
+            },
+            {
+              "name": "Set-PfaPhoneHomeStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaProxy",
+          "children": [
+            {
+              "name": "Get-PfaProxy"
+            },
+            {
+              "name": "Set-PfaProxy"
+            }
+          ]
+        },
+        {
+          "name": "PfaPureAppAttributes",
+          "children": [
+            {
+              "name": "Get-PfaPureAppAttributes"
+            }
+          ]
+        },
+        {
+          "name": "PfaPureAppsAttributes",
+          "children": [
+            {
+              "name": "Get-PfaPureAppsAttributes"
+            }
+          ]
+        },
+        {
+          "name": "PfaRelayHost",
+          "children": [
+            {
+              "name": "Get-PfaRelayHost"
+            },
+            {
+              "name": "Set-PfaRelayHost"
+            }
+          ]
+        },
+        {
+          "name": "PfaRemoteAssistSession",
+          "children": [
+            {
+              "name": "Get-PfaRemoteAssistSession"
+            }
+          ]
+        },
+        {
+          "name": "PfaScsiTimeout",
+          "children": [
+            {
+              "name": "Get-PfaScsiTimeout"
+            },
+            {
+              "name": "Set-PfaScsiTimeout"
+            }
+          ]
+        },
+        {
+          "name": "PfaSenderDomain",
+          "children": [
+            {
+              "name": "Get-PfaSenderDomain"
+            },
+            {
+              "name": "Set-PfaSenderDomain"
+            }
+          ]
+        },
+        {
+          "name": "PfaSyslogServers",
+          "children": [
+            {
+              "name": "Get-PfaSyslogServers"
+            },
+            {
+              "name": "Set-PfaSyslogServers"
+            }
+          ]
+        },
+        {
+          "name": "PfaPhoneHomeAction",
+          "children": [
+            {
+              "name": "Invoke-PfaPhoneHomeAction"
+            }
+          ]
+        },
+        {
+          "name": "PfaRestCommand",
+          "children": [
+            {
+              "name": "Invoke-PfaRestCommand"
+            }
+          ]
+        },
+        {
+          "name": "PfaReplicationConnection",
+          "children": [
+            {
+              "name": "New-PfaReplicationConnection"
+            },
+            {
+              "name": "Remove-PfaReplicationConnection"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayEulaAccept",
+          "children": [
+            {
+              "name": "Set-PfaArrayEulaAccept"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayName",
+          "children": [
+            {
+              "name": "Set-PfaArrayName"
+            }
+          ]
+        },
+        {
+          "name": "PfaRemoteAssistStatus",
+          "children": [
+            {
+              "name": "Set-PfaRemoteAssistStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaRestApiToken",
+          "children": [
+            {
+              "name": "New-PfaRestApiToken"
+            }
+          ]
+        },
+        {
+          "name": "PfaCertificate",
+          "children": [
+            {
+              "name": "Get-PfaCertificate"
+            },
+            {
+              "name": "Import-PfaCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PfaCurrentCertificateAttributes",
+          "children": [
+            {
+              "name": "Get-PfaCurrentCertificateAttributes"
+            }
+          ]
+        },
+        {
+          "name": "PfaCurrentCertificate",
+          "children": [
+            {
+              "name": "Get-PfaCurrentCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PfaCurrentIntermediateCertificate",
+          "children": [
+            {
+              "name": "Get-PfaCurrentIntermediateCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedCertificateAttribute",
+          "children": [
+            {
+              "name": "Get-PfaNamedCertificateAttribute"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedCertificateAttributes",
+          "children": [
+            {
+              "name": "Get-PfaNamedCertificateAttributes"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedCertificate",
+          "children": [
+            {
+              "name": "Get-PfaNamedCertificate"
+            },
+            {
+              "name": "Import-PfaNamedCertificate"
+            },
+            {
+              "name": "Remove-PfaNamedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PfaCertificateSigningRequest",
+          "children": [
+            {
+              "name": "New-PfaCertificateSigningRequest"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedCertificateImport",
+          "children": [
+            {
+              "name": "New-PfaNamedCertificateImport"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedCertificateSigningRequest",
+          "children": [
+            {
+              "name": "New-PfaNamedCertificateSigningRequest"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedSelfSignedCertificate",
+          "children": [
+            {
+              "name": "New-PfaNamedSelfSignedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PfaSelfSignedCertificate",
+          "children": [
+            {
+              "name": "New-PfaSelfSignedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PfaIdLight",
+          "children": [
+            {
+              "name": "Disable-PfaIdLight"
+            },
+            {
+              "name": "Enable-PfaIdLight"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllDriveAttributes",
+          "children": [
+            {
+              "name": "Get-PfaAllDriveAttributes"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHardwareAttributes",
+          "children": [
+            {
+              "name": "Get-PfaAllHardwareAttributes"
+            }
+          ]
+        },
+        {
+          "name": "PfaDriveAttributes",
+          "children": [
+            {
+              "name": "Get-PfaDriveAttributes"
+            }
+          ]
+        },
+        {
+          "name": "PfaHardwareAttributes",
+          "children": [
+            {
+              "name": "Get-PfaHardwareAttributes"
+            }
+          ]
+        },
+        {
+          "name": "PfaHardwareIndex",
+          "children": [
+            {
+              "name": "Set-PfaHardwareIndex"
+            }
+          ]
+        },
+        {
+          "name": "PfaHosts",
+          "children": [
+            {
+              "name": "Add-PfaHosts"
+            },
+            {
+              "name": "Remove-PfaHosts"
+            },
+            {
+              "name": "Set-PfaHosts"
+            },
+            {
+              "name": "Get-PfaHosts"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostGroupIOLatencyMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllHostGroupIOLatencyMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostGroupIOLatencyMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaAllHostGroupIOLatencyMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostGroupIOLatencyMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllHostGroupIOLatencyMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostGroupIOMetricsAverage",
+          "children": [
+            {
+              "name": "Get-PfaAllHostGroupIOMetricsAverage"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostGroupIOMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllHostGroupIOMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostGroupIOMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaAllHostGroupIOMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostGroupIOMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllHostGroupIOMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostGroupSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllHostGroupSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllProtectedHostGroups",
+          "children": [
+            {
+              "name": "Get-PfaAllProtectedHostGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroup",
+          "children": [
+            {
+              "name": "Get-PfaHostGroup"
+            },
+            {
+              "name": "New-PfaHostGroup"
+            },
+            {
+              "name": "Remove-PfaHostGroup"
+            },
+            {
+              "name": "Rename-PfaHostGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupIOLatencyMetrics",
+          "children": [
+            {
+              "name": "Get-PfaHostGroupIOLatencyMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupIOLatencyMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaHostGroupIOLatencyMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupIOMetricsAverage",
+          "children": [
+            {
+              "name": "Get-PfaHostGroupIOMetricsAverage"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupIOMetrics",
+          "children": [
+            {
+              "name": "Get-PfaHostGroupIOMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupIOMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaHostGroupIOMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupProtectionGroups",
+          "children": [
+            {
+              "name": "Get-PfaHostGroupProtectionGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroups",
+          "children": [
+            {
+              "name": "Get-PfaHostGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaHostGroupSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupVolumeConnections",
+          "children": [
+            {
+              "name": "Get-PfaHostGroupVolumeConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedHostGroups",
+          "children": [
+            {
+              "name": "Get-PfaNamedHostGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaRemoteHostGroup",
+          "children": [
+            {
+              "name": "Get-PfaRemoteHostGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaRemoteHostGroups",
+          "children": [
+            {
+              "name": "Get-PfaRemoteHostGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaRemoteHostGroupVolumeConnections",
+          "children": [
+            {
+              "name": "Get-PfaRemoteHostGroupVolumeConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupProtocolEndpointVolumeConnection",
+          "children": [
+            {
+              "name": "New-PfaHostGroupProtocolEndpointVolumeConnection"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupVolumeConnection",
+          "children": [
+            {
+              "name": "New-PfaHostGroupVolumeConnection"
+            },
+            {
+              "name": "Remove-PfaHostGroupVolumeConnection"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostIqns",
+          "children": [
+            {
+              "name": "Add-PfaHostIqns"
+            },
+            {
+              "name": "Remove-PfaHostIqns"
+            },
+            {
+              "name": "Set-PfaHostIqns"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostNqn",
+          "children": [
+            {
+              "name": "Add-PfaHostNqn"
+            },
+            {
+              "name": "Remove-PfaHostNqn"
+            },
+            {
+              "name": "Set-PfaHostNqn"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostWwns",
+          "children": [
+            {
+              "name": "Add-PfaHostWwns"
+            },
+            {
+              "name": "Remove-PfaHostWwns"
+            },
+            {
+              "name": "Set-PfaHostWwns"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostIOLatencyMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllHostIOLatencyMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostIOLatencyMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaAllHostIOLatencyMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostIOLatencyMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllHostIOLatencyMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostIOMetricsAverage",
+          "children": [
+            {
+              "name": "Get-PfaAllHostIOMetricsAverage"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostIOMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllHostIOMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostIOMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaAllHostIOMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostIOMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllHostIOMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllHostSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllHostSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllProtectedHosts",
+          "children": [
+            {
+              "name": "Get-PfaAllProtectedHosts"
+            }
+          ]
+        },
+        {
+          "name": "PfaChapStatus",
+          "children": [
+            {
+              "name": "Get-PfaChapStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaChapStatuses",
+          "children": [
+            {
+              "name": "Get-PfaChapStatuses"
+            }
+          ]
+        },
+        {
+          "name": "PfaHost",
+          "children": [
+            {
+              "name": "Get-PfaHost"
+            },
+            {
+              "name": "New-PfaHost"
+            },
+            {
+              "name": "Remove-PfaHost"
+            },
+            {
+              "name": "Rename-PfaHost"
+            },
+            {
+              "name": "Set-PfaHost"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostIOLatencyMetrics",
+          "children": [
+            {
+              "name": "Get-PfaHostIOLatencyMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostIOLatencyMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaHostIOLatencyMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostIOMetricsAverage",
+          "children": [
+            {
+              "name": "Get-PfaHostIOMetricsAverage"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostIOMetrics",
+          "children": [
+            {
+              "name": "Get-PfaHostIOMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostIOMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaHostIOMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostPrivateVolumeConnections",
+          "children": [
+            {
+              "name": "Get-PfaHostPrivateVolumeConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostProtectionGroups",
+          "children": [
+            {
+              "name": "Get-PfaHostProtectionGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostSharedVolumeConnections",
+          "children": [
+            {
+              "name": "Get-PfaHostSharedVolumeConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaHostSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostVolumeConnections",
+          "children": [
+            {
+              "name": "Get-PfaHostVolumeConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedHosts",
+          "children": [
+            {
+              "name": "Get-PfaNamedHosts"
+            }
+          ]
+        },
+        {
+          "name": "PfaPersonalities",
+          "children": [
+            {
+              "name": "Get-PfaPersonalities"
+            }
+          ]
+        },
+        {
+          "name": "PfaPersonality",
+          "children": [
+            {
+              "name": "Get-PfaPersonality"
+            },
+            {
+              "name": "Set-PfaPersonality"
+            }
+          ]
+        },
+        {
+          "name": "PfaRemoteHost",
+          "children": [
+            {
+              "name": "Get-PfaRemoteHost"
+            }
+          ]
+        },
+        {
+          "name": "PfaRemoteHosts",
+          "children": [
+            {
+              "name": "Get-PfaRemoteHosts"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostProtocolEndpointVolumeConnection",
+          "children": [
+            {
+              "name": "New-PfaHostProtocolEndpointVolumeConnection"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostVolumeConnection",
+          "children": [
+            {
+              "name": "New-PfaHostVolumeConnection"
+            },
+            {
+              "name": "Remove-PfaHostVolumeConnection"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostCredentials",
+          "children": [
+            {
+              "name": "Set-PfaHostCredentials"
+            }
+          ]
+        },
+        {
+          "name": "PfaTargetCredentials",
+          "children": [
+            {
+              "name": "Set-PfaTargetCredentials"
+            }
+          ]
+        },
+        {
+          "name": "PfaKmip",
+          "children": [
+            {
+              "name": "Get-PfaKmip"
+            },
+            {
+              "name": "New-PfaKmip"
+            },
+            {
+              "name": "Remove-PfaKmip"
+            },
+            {
+              "name": "Test-PfaKmip"
+            },
+            {
+              "name": "Update-PfaKmip"
+            }
+          ]
+        },
+        {
+          "name": "PfaKmips",
+          "children": [
+            {
+              "name": "Get-PfaKmips"
+            }
+          ]
+        },
+        {
+          "name": "PfaMaintenanceWindow",
+          "children": [
+            {
+              "name": "Get-PfaMaintenanceWindow"
+            },
+            {
+              "name": "New-PfaMaintenanceWindow"
+            },
+            {
+              "name": "Remove-PfaMaintenanceWindow"
+            }
+          ]
+        },
+        {
+          "name": "PfaItemFlag",
+          "children": [
+            {
+              "name": "Clear-PfaItemFlag"
+            },
+            {
+              "name": "Set-PfaItemFlag"
+            },
+            {
+              "name": "Update-PfaItemFlag"
+            }
+          ]
+        },
+        {
+          "name": "PfaAuditRecords",
+          "children": [
+            {
+              "name": "Get-PfaAuditRecords"
+            }
+          ]
+        },
+        {
+          "name": "PfaFlaggedAuditRecords",
+          "children": [
+            {
+              "name": "Get-PfaFlaggedAuditRecords"
+            }
+          ]
+        },
+        {
+          "name": "PfaFlaggedMessages",
+          "children": [
+            {
+              "name": "Get-PfaFlaggedMessages"
+            }
+          ]
+        },
+        {
+          "name": "PfaMessages",
+          "children": [
+            {
+              "name": "Get-PfaMessages"
+            }
+          ]
+        },
+        {
+          "name": "PfaOpenMessages",
+          "children": [
+            {
+              "name": "Get-PfaOpenMessages"
+            }
+          ]
+        },
+        {
+          "name": "PfaRecentAuditRecords",
+          "children": [
+            {
+              "name": "Get-PfaRecentAuditRecords"
+            }
+          ]
+        },
+        {
+          "name": "PfaRecentMessages",
+          "children": [
+            {
+              "name": "Get-PfaRecentMessages"
+            }
+          ]
+        },
+        {
+          "name": "PfaRecentUserSessionRecords",
+          "children": [
+            {
+              "name": "Get-PfaRecentUserSessionRecords"
+            }
+          ]
+        },
+        {
+          "name": "PfaUserSessionRecords",
+          "children": [
+            {
+              "name": "Get-PfaUserSessionRecords"
+            }
+          ]
+        },
+        {
+          "name": "PfaSlaveInterfaces",
+          "children": [
+            {
+              "name": "Add-PfaSlaveInterfaces"
+            },
+            {
+              "name": "Remove-PfaSlaveInterfaces"
+            },
+            {
+              "name": "Set-PfaSlaveInterfaces"
+            }
+          ]
+        },
+        {
+          "name": "PfaNetworkInterface",
+          "children": [
+            {
+              "name": "Disable-PfaNetworkInterface"
+            },
+            {
+              "name": "Enable-PfaNetworkInterface"
+            },
+            {
+              "name": "Get-PfaNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllNetworkInterfaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllNetworkInterfaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllNetworkInterfaceMetricsError",
+          "children": [
+            {
+              "name": "Get-PfaAllNetworkInterfaceMetricsError"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllNetworkInterfaceMetricsErrorTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllNetworkInterfaceMetricsErrorTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllNetworkInterfaceMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllNetworkInterfaceMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllSubnets",
+          "children": [
+            {
+              "name": "Get-PfaAllSubnets"
+            }
+          ]
+        },
+        {
+          "name": "PfaDnsAttributes",
+          "children": [
+            {
+              "name": "Get-PfaDnsAttributes"
+            }
+          ]
+        },
+        {
+          "name": "PfaNetworkInterfaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaNetworkInterfaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaNetworkInterfaceMetricsError",
+          "children": [
+            {
+              "name": "Get-PfaNetworkInterfaceMetricsError"
+            }
+          ]
+        },
+        {
+          "name": "PfaNetworkInterfaces",
+          "children": [
+            {
+              "name": "Get-PfaNetworkInterfaces"
+            }
+          ]
+        },
+        {
+          "name": "PfaSubnet",
+          "children": [
+            {
+              "name": "Get-PfaSubnet"
+            },
+            {
+              "name": "New-PfaSubnet"
+            },
+            {
+              "name": "Remove-PfaSubnet"
+            },
+            {
+              "name": "Rename-PfaSubnet"
+            }
+          ]
+        },
+        {
+          "name": "PfaVlanInterface",
+          "children": [
+            {
+              "name": "New-PfaVlanInterface"
+            },
+            {
+              "name": "Remove-PfaVlanInterface"
+            }
+          ]
+        },
+        {
+          "name": "PfaDnsDomain",
+          "children": [
+            {
+              "name": "Set-PfaDnsDomain"
+            }
+          ]
+        },
+        {
+          "name": "PfaDnsNameServers",
+          "children": [
+            {
+              "name": "Set-PfaDnsNameServers"
+            }
+          ]
+        },
+        {
+          "name": "PfaInterfaceAddressAndNetmask",
+          "children": [
+            {
+              "name": "Set-PfaInterfaceAddressAndNetmask"
+            }
+          ]
+        },
+        {
+          "name": "PfaInterfaceAddress",
+          "children": [
+            {
+              "name": "Set-PfaInterfaceAddress"
+            }
+          ]
+        },
+        {
+          "name": "PfaInterfaceGateway",
+          "children": [
+            {
+              "name": "Set-PfaInterfaceGateway"
+            }
+          ]
+        },
+        {
+          "name": "PfaInterfaceMtu",
+          "children": [
+            {
+              "name": "Set-PfaInterfaceMtu"
+            }
+          ]
+        },
+        {
+          "name": "PfaSubnetSettings",
+          "children": [
+            {
+              "name": "Update-PfaSubnetSettings"
+            }
+          ]
+        },
+        {
+          "name": "PfaSubnetStatus",
+          "children": [
+            {
+              "name": "Update-PfaSubnetStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaOffloadAzureTarget",
+          "children": [
+            {
+              "name": "Connect-PfaOffloadAzureTarget"
+            },
+            {
+              "name": "Disconnect-PfaOffloadAzureTarget"
+            },
+            {
+              "name": "Get-PfaOffloadAzureTarget"
+            }
+          ]
+        },
+        {
+          "name": "PfaOffloadNFSTarget",
+          "children": [
+            {
+              "name": "Connect-PfaOffloadNFSTarget"
+            },
+            {
+              "name": "Disconnect-PfaOffloadNFSTarget"
+            },
+            {
+              "name": "Get-PfaOffloadNFSTarget"
+            }
+          ]
+        },
+        {
+          "name": "PfaOffloadS3Target",
+          "children": [
+            {
+              "name": "Connect-PfaOffloadS3Target"
+            },
+            {
+              "name": "Disconnect-PfaOffloadS3Target"
+            },
+            {
+              "name": "Get-PfaOffloadS3Target"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllOffloadAzureTarget",
+          "children": [
+            {
+              "name": "Get-PfaAllOffloadAzureTarget"
+            }
+          ]
+        },
+        {
+          "name": "PfaOffloadTarget",
+          "children": [
+            {
+              "name": "Get-PfaOffloadTarget"
+            }
+          ]
+        },
+        {
+          "name": "PfaOffloadTargetWithSpace",
+          "children": [
+            {
+              "name": "Get-PfaOffloadTargetWithSpace"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayToPod",
+          "children": [
+            {
+              "name": "Add-PfaArrayToPod"
+            }
+          ]
+        },
+        {
+          "name": "PfaPodReplicaLink",
+          "children": [
+            {
+              "name": "Add-PfaPodReplicaLink"
+            },
+            {
+              "name": "Get-PfaPodReplicaLink"
+            }
+          ]
+        },
+        {
+          "name": "PfaPod",
+          "children": [
+            {
+              "name": "Copy-PfaPod"
+            },
+            {
+              "name": "Get-PfaPod"
+            },
+            {
+              "name": "New-PfaPod"
+            },
+            {
+              "name": "Remove-PfaPod"
+            },
+            {
+              "name": "Rename-PfaPod"
+            },
+            {
+              "name": "Restore-PfaPod"
+            },
+            {
+              "name": "Set-PfaPod"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllPodFootprint",
+          "children": [
+            {
+              "name": "Get-PfaAllPodFootprint"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllPodIOLatencyMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaAllPodIOLatencyMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllPodIOLatencyReplicationMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaAllPodIOLatencyReplicationMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllPodIOMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaAllPodIOMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllPodIOReplicationMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaAllPodIOReplicationMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllPodMediator",
+          "children": [
+            {
+              "name": "Get-PfaAllPodMediator"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllPodSpaceHistory",
+          "children": [
+            {
+              "name": "Get-PfaAllPodSpaceHistory"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllPodSpaceMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllPodSpaceMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllPodSpaces",
+          "children": [
+            {
+              "name": "Get-PfaAllPodSpaces"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllRemotePod",
+          "children": [
+            {
+              "name": "Get-PfaAllRemotePod"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedPodFootprint",
+          "children": [
+            {
+              "name": "Get-PfaNamedPodFootprint"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedPodMediator",
+          "children": [
+            {
+              "name": "Get-PfaNamedPodMediator"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedPods",
+          "children": [
+            {
+              "name": "Get-PfaNamedPods"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedPodSpace",
+          "children": [
+            {
+              "name": "Get-PfaNamedPodSpace"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedPodSpaceHistory",
+          "children": [
+            {
+              "name": "Get-PfaNamedPodSpaceHistory"
+            }
+          ]
+        },
+        {
+          "name": "PfaPendingDeletePods",
+          "children": [
+            {
+              "name": "Get-PfaPendingDeletePods"
+            }
+          ]
+        },
+        {
+          "name": "PfaPendingPodFootprint",
+          "children": [
+            {
+              "name": "Get-PfaPendingPodFootprint"
+            }
+          ]
+        },
+        {
+          "name": "PfaPendingPodMediator",
+          "children": [
+            {
+              "name": "Get-PfaPendingPodMediator"
+            }
+          ]
+        },
+        {
+          "name": "PfaPendingPodSpace",
+          "children": [
+            {
+              "name": "Get-PfaPendingPodSpace"
+            }
+          ]
+        },
+        {
+          "name": "PfaPodIOLatencyMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaPodIOLatencyMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaPodIOLatencyReplicationMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaPodIOLatencyReplicationMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaPodIOMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaPodIOMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaPodIOReplicationMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaPodIOReplicationMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaPodReplicaLinkHistory",
+          "children": [
+            {
+              "name": "Get-PfaPodReplicaLinkHistory"
+            }
+          ]
+        },
+        {
+          "name": "PfaPods",
+          "children": [
+            {
+              "name": "Get-PfaPods"
+            }
+          ]
+        },
+        {
+          "name": "PfaRemotePod",
+          "children": [
+            {
+              "name": "Get-PfaRemotePod"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayFromPod",
+          "children": [
+            {
+              "name": "Remove-PfaArrayFromPod"
+            }
+          ]
+        },
+        {
+          "name": "PfaReplicaLink",
+          "children": [
+            {
+              "name": "Remove-PfaReplicaLink"
+            }
+          ]
+        },
+        {
+          "name": "PfaPodDemote",
+          "children": [
+            {
+              "name": "Set-PfaPodDemote"
+            }
+          ]
+        },
+        {
+          "name": "PfaPodPromote",
+          "children": [
+            {
+              "name": "Set-PfaPodPromote"
+            }
+          ]
+        },
+        {
+          "name": "PfaArrayPorts",
+          "children": [
+            {
+              "name": "Get-PfaArrayPorts"
+            }
+          ]
+        },
+        {
+          "name": "PfaInitiatorPorts",
+          "children": [
+            {
+              "name": "Get-PfaInitiatorPorts"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupsToProtectionGroup",
+          "children": [
+            {
+              "name": "Add-PfaHostGroupsToProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostsToProtectionGroup",
+          "children": [
+            {
+              "name": "Add-PfaHostsToProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaTargetArrays",
+          "children": [
+            {
+              "name": "Add-PfaTargetArrays"
+            },
+            {
+              "name": "Remove-PfaTargetArrays"
+            },
+            {
+              "name": "Set-PfaTargetArrays"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumesToProtectionGroup",
+          "children": [
+            {
+              "name": "Add-PfaVolumesToProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaReplicationSchedule",
+          "children": [
+            {
+              "name": "Disable-PfaReplicationSchedule"
+            },
+            {
+              "name": "Enable-PfaReplicationSchedule"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotSchedule",
+          "children": [
+            {
+              "name": "Disable-PfaSnapshotSchedule"
+            },
+            {
+              "name": "Enable-PfaSnapshotSchedule"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllProtectionGroupOffloadSnapshot",
+          "children": [
+            {
+              "name": "Get-PfaAllProtectionGroupOffloadSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllProtectionGroupReplicationBandwidthByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaAllProtectionGroupReplicationBandwidthByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllProtectionGroupReplicationBandwidth",
+          "children": [
+            {
+              "name": "Get-PfaAllProtectionGroupReplicationBandwidth"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedProtectionGroups",
+          "children": [
+            {
+              "name": "Get-PfaNamedProtectionGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaPendingDeleteProtectionGroups",
+          "children": [
+            {
+              "name": "Get-PfaPendingDeleteProtectionGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroup",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroup"
+            },
+            {
+              "name": "New-PfaProtectionGroup"
+            },
+            {
+              "name": "Rename-PfaProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupOffloadSnapshot",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupOffloadSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupReplicationBandwidthByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupReplicationBandwidthByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupReplicationBandwidth",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupReplicationBandwidth"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupRetention",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupRetention"
+            },
+            {
+              "name": "Set-PfaProtectionGroupRetention"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupRetentions",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupRetentions"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupSchedule",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupSchedule"
+            },
+            {
+              "name": "Set-PfaProtectionGroupSchedule"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupSchedules",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupSchedules"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroups",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupSnapshotReplicationStatus",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupSnapshotReplicationStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupSnapshots",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupSnapshotSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupSnapshotSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupVolumeSnapshots",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupVolumeSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupVolumeSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaProtectionGroupVolumeSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaSourceProtectionGroupRetentions",
+          "children": [
+            {
+              "name": "Get-PfaSourceProtectionGroupRetentions"
+            }
+          ]
+        },
+        {
+          "name": "PfaSourceProtectionGroupSchedules",
+          "children": [
+            {
+              "name": "Get-PfaSourceProtectionGroupSchedules"
+            }
+          ]
+        },
+        {
+          "name": "PfaSourceProtectionGroups",
+          "children": [
+            {
+              "name": "Get-PfaSourceProtectionGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaTargetProtectionGroups",
+          "children": [
+            {
+              "name": "Get-PfaTargetProtectionGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaTotalSnapshotSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaTotalSnapshotSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaReplicationToTargetProtectionGroup",
+          "children": [
+            {
+              "name": "Grant-PfaReplicationToTargetProtectionGroup"
+            },
+            {
+              "name": "Revoke-PfaReplicationToTargetProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupSnapshot",
+          "children": [
+            {
+              "name": "New-PfaProtectionGroupSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupsFromProtectionGroup",
+          "children": [
+            {
+              "name": "Remove-PfaHostGroupsFromProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostsFromProtectionGroup",
+          "children": [
+            {
+              "name": "Remove-PfaHostsFromProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtectionGroupOrSnapshot",
+          "children": [
+            {
+              "name": "Remove-PfaProtectionGroupOrSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumesFromProtectionGroup",
+          "children": [
+            {
+              "name": "Remove-PfaVolumesFromProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaDestroyedProtectionGroup",
+          "children": [
+            {
+              "name": "Restore-PfaDestroyedProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupsInProtectionGroup",
+          "children": [
+            {
+              "name": "Set-PfaHostGroupsInProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostsInProtectionGroup",
+          "children": [
+            {
+              "name": "Set-PfaHostsInProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumesInProtectionGroup",
+          "children": [
+            {
+              "name": "Set-PfaVolumesInProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaSmtpManagerAttribute",
+          "children": [
+            {
+              "name": "Get-PfaSmtpManagerAttribute"
+            },
+            {
+              "name": "Set-PfaSmtpManagerAttribute"
+            }
+          ]
+        },
+        {
+          "name": "PfaEngineId",
+          "children": [
+            {
+              "name": "Get-PfaEngineId"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManager",
+          "children": [
+            {
+              "name": "Get-PfaSnmpManager"
+            },
+            {
+              "name": "Remove-PfaSnmpManager"
+            },
+            {
+              "name": "Rename-PfaSnmpManager"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManagers",
+          "children": [
+            {
+              "name": "Get-PfaSnmpManagers"
+            }
+          ]
+        },
+        {
+          "name": "PfaV2SnmpManager",
+          "children": [
+            {
+              "name": "New-PfaV2SnmpManager"
+            }
+          ]
+        },
+        {
+          "name": "PfaV3SnmpManager",
+          "children": [
+            {
+              "name": "New-PfaV3SnmpManager"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManagerAuthPassphrase",
+          "children": [
+            {
+              "name": "Set-PfaSnmpManagerAuthPassphrase"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManagerAuthProtocol",
+          "children": [
+            {
+              "name": "Set-PfaSnmpManagerAuthProtocol"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManagerCommunity",
+          "children": [
+            {
+              "name": "Set-PfaSnmpManagerCommunity"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManagerHost",
+          "children": [
+            {
+              "name": "Set-PfaSnmpManagerHost"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManagerNotification",
+          "children": [
+            {
+              "name": "Set-PfaSnmpManagerNotification"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManagerPrivacyPassphrase",
+          "children": [
+            {
+              "name": "Set-PfaSnmpManagerPrivacyPassphrase"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManagerPrivacyProtocol",
+          "children": [
+            {
+              "name": "Set-PfaSnmpManagerPrivacyProtocol"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManagerUser",
+          "children": [
+            {
+              "name": "Set-PfaSnmpManagerUser"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpManagerVersion",
+          "children": [
+            {
+              "name": "Set-PfaSnmpManagerVersion"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnmpTrap",
+          "children": [
+            {
+              "name": "Test-PfaSnmpTrap"
+            }
+          ]
+        },
+        {
+          "name": "PfaSoftware",
+          "children": [
+            {
+              "name": "Disable-PfaSoftware"
+            },
+            {
+              "name": "Enable-PfaSoftware"
+            },
+            {
+              "name": "Get-PfaSoftware"
+            },
+            {
+              "name": "New-PfaSoftware"
+            },
+            {
+              "name": "Remove-PfaSoftware"
+            }
+          ]
+        },
+        {
+          "name": "PfaSoftwareVNC",
+          "children": [
+            {
+              "name": "Disable-PfaSoftwareVNC"
+            },
+            {
+              "name": "Enable-PfaSoftwareVNC"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllSoftwareNode",
+          "children": [
+            {
+              "name": "Get-PfaAllSoftwareNode"
+            }
+          ]
+        },
+        {
+          "name": "PfaSoftwareAttribute",
+          "children": [
+            {
+              "name": "Get-PfaSoftwareAttribute"
+            }
+          ]
+        },
+        {
+          "name": "PfaSoftwareNode",
+          "children": [
+            {
+              "name": "Get-PfaSoftwareNode"
+            }
+          ]
+        },
+        {
+          "name": "PfaAdminSetting",
+          "children": [
+            {
+              "name": "Get-PfaAdminSetting"
+            },
+            {
+              "name": "Set-PfaAdminSetting"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllApiTokens",
+          "children": [
+            {
+              "name": "Get-PfaAllApiTokens"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllLockedUser",
+          "children": [
+            {
+              "name": "Get-PfaAllLockedUser"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllPublicKeys",
+          "children": [
+            {
+              "name": "Get-PfaAllPublicKeys"
+            }
+          ]
+        },
+        {
+          "name": "PfaApiToken",
+          "children": [
+            {
+              "name": "Get-PfaApiToken"
+            },
+            {
+              "name": "New-PfaApiToken"
+            },
+            {
+              "name": "Remove-PfaApiToken"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryServiceCACertificate",
+          "children": [
+            {
+              "name": "Get-PfaDirectoryServiceCACertificate"
+            },
+            {
+              "name": "Set-PfaDirectoryServiceCACertificate"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryServiceConfiguration",
+          "children": [
+            {
+              "name": "Get-PfaDirectoryServiceConfiguration"
+            },
+            {
+              "name": "Set-PfaDirectoryServiceConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryServiceGroups",
+          "children": [
+            {
+              "name": "Get-PfaDirectoryServiceGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryServiceRole",
+          "children": [
+            {
+              "name": "Get-PfaDirectoryServiceRole"
+            },
+            {
+              "name": "New-PfaDirectoryServiceRole"
+            }
+          ]
+        },
+        {
+          "name": "PfaLockedUser",
+          "children": [
+            {
+              "name": "Get-PfaLockedUser"
+            }
+          ]
+        },
+        {
+          "name": "PfaPublicKey",
+          "children": [
+            {
+              "name": "Get-PfaPublicKey"
+            }
+          ]
+        },
+        {
+          "name": "PfaLocalUser",
+          "children": [
+            {
+              "name": "New-PfaLocalUser"
+            },
+            {
+              "name": "Remove-PfaLocalUser"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryServiceArrayAdminGroup",
+          "children": [
+            {
+              "name": "Set-PfaDirectoryServiceArrayAdminGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryServiceAuthenticationStatus",
+          "children": [
+            {
+              "name": "Set-PfaDirectoryServiceAuthenticationStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryServiceGroupBase",
+          "children": [
+            {
+              "name": "Set-PfaDirectoryServiceGroupBase"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryServiceReadOnlyGroup",
+          "children": [
+            {
+              "name": "Set-PfaDirectoryServiceReadOnlyGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryServiceStatus",
+          "children": [
+            {
+              "name": "Set-PfaDirectoryServiceStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryServiceStorageAdminGroup",
+          "children": [
+            {
+              "name": "Set-PfaDirectoryServiceStorageAdminGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaDirectoryService",
+          "children": [
+            {
+              "name": "Test-PfaDirectoryService"
+            }
+          ]
+        },
+        {
+          "name": "PfaUser",
+          "children": [
+            {
+              "name": "Unlock-PfaUser"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeGroupIOLatencyMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeGroupIOLatencyMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeGroupIOLatencyMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeGroupIOLatencyMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeGroupIOMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeGroupIOMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeGroupIOMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeGroupIOMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeGroupsIOLatencyMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeGroupsIOLatencyMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeGroupsIOMetricsAverage",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeGroupsIOMetricsAverage"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeGroupsIOMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeGroupsIOMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeGroupSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeGroupSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedVolumeGroups",
+          "children": [
+            {
+              "name": "Get-PfaNamedVolumeGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedVolumeGroupsIOLatencyMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaNamedVolumeGroupsIOLatencyMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedVolumeGroupsIOMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaNamedVolumeGroupsIOMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaPendingDeleteVolumeGroups",
+          "children": [
+            {
+              "name": "Get-PfaPendingDeleteVolumeGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeGroup",
+          "children": [
+            {
+              "name": "Get-PfaVolumeGroup"
+            },
+            {
+              "name": "New-PfaVolumeGroup"
+            },
+            {
+              "name": "Remove-PfaVolumeGroup"
+            },
+            {
+              "name": "Rename-PfaVolumeGroup"
+            },
+            {
+              "name": "Restore-PfaVolumeGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeGroupIOLatencyMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaVolumeGroupIOLatencyMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeGroupIOLatencyMetrics",
+          "children": [
+            {
+              "name": "Get-PfaVolumeGroupIOLatencyMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeGroupIOMetricsAverage",
+          "children": [
+            {
+              "name": "Get-PfaVolumeGroupIOMetricsAverage"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeGroupIOMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaVolumeGroupIOMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeGroupIOMetrics",
+          "children": [
+            {
+              "name": "Get-PfaVolumeGroupIOMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeGroups",
+          "children": [
+            {
+              "name": "Get-PfaVolumeGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeGroupSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaVolumeGroupSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeGroupBandwidthLimit",
+          "children": [
+            {
+              "name": "Set-PfaVolumeGroupBandwidthLimit"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeGroupIOPSLimit",
+          "children": [
+            {
+              "name": "Set-PfaVolumeGroupIOPSLimit"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumesTag",
+          "children": [
+            {
+              "name": "Add-PfaVolumesTag"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeToContainer",
+          "children": [
+            {
+              "name": "Add-PfaVolumeToContainer"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllProtectedVolumes",
+          "children": [
+            {
+              "name": "Get-PfaAllProtectedVolumes"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllSnapshotSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllSnapshotSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeHostEncryptionKeyStatus",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeHostEncryptionKeyStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeIOLatencyMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeIOLatencyMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeIOLatencyMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeIOLatencyMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeIOLatencyMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeIOLatencyMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeIOMetricsAverage",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeIOMetricsAverage"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeIOMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeIOMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeIOMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeIOMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeIOMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeIOMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeIOMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeIOMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeOffloadSnapshot",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeOffloadSnapshot"
+            },
+            {
+              "name": "Restore-PfaAllVolumeOffloadSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeOffloadSnapshotRestoreStatus",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeOffloadSnapshotRestoreStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeSnapshots",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeSpaceMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeSpaceMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeSpaceMetricsTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeSpaceMetricsTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaAllVolumeTotal",
+          "children": [
+            {
+              "name": "Get-PfaAllVolumeTotal"
+            }
+          ]
+        },
+        {
+          "name": "PfaBlockDifferences",
+          "children": [
+            {
+              "name": "Get-PfaBlockDifferences"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedVolumes",
+          "children": [
+            {
+              "name": "Get-PfaNamedVolumes"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedVolumesIOLatencyMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaNamedVolumesIOLatencyMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaNamedVolumesIOMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaNamedVolumesIOMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaOffloadSnapshot",
+          "children": [
+            {
+              "name": "Get-PfaOffloadSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaOffloadSnapshotRestoreStatus",
+          "children": [
+            {
+              "name": "Get-PfaOffloadSnapshotRestoreStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaPendingDeleteSnapshotsTags",
+          "children": [
+            {
+              "name": "Get-PfaPendingDeleteSnapshotsTags"
+            }
+          ]
+        },
+        {
+          "name": "PfaPendingDeleteVolumes",
+          "children": [
+            {
+              "name": "Get-PfaPendingDeleteVolumes"
+            }
+          ]
+        },
+        {
+          "name": "PfaPendingDeleteVolumeSnapshots",
+          "children": [
+            {
+              "name": "Get-PfaPendingDeleteVolumeSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "PfaPendingDeleteVolumesTags",
+          "children": [
+            {
+              "name": "Get-PfaPendingDeleteVolumesTags"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtocolEndpointVolume",
+          "children": [
+            {
+              "name": "Get-PfaProtocolEndpointVolume"
+            },
+            {
+              "name": "New-PfaProtocolEndpointVolume"
+            }
+          ]
+        },
+        {
+          "name": "PfaProtocolEndpointVolumes",
+          "children": [
+            {
+              "name": "Get-PfaProtocolEndpointVolumes"
+            }
+          ]
+        },
+        {
+          "name": "PfaRemoteVolumeHostConnections",
+          "children": [
+            {
+              "name": "Get-PfaRemoteVolumeHostConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfaRemoteVolumeHostGroupConnections",
+          "children": [
+            {
+              "name": "Get-PfaRemoteVolumeHostGroupConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaSnapshotSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotsTags",
+          "children": [
+            {
+              "name": "Get-PfaSnapshotsTags"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotTags",
+          "children": [
+            {
+              "name": "Get-PfaSnapshotTags"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolume",
+          "children": [
+            {
+              "name": "Get-PfaVolume"
+            },
+            {
+              "name": "New-PfaVolume"
+            },
+            {
+              "name": "Resize-PfaVolume"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeConnection",
+          "children": [
+            {
+              "name": "Get-PfaVolumeConnection"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeHostConnections",
+          "children": [
+            {
+              "name": "Get-PfaVolumeHostConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeHostEncryptionKeyStatus",
+          "children": [
+            {
+              "name": "Get-PfaVolumeHostEncryptionKeyStatus"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeHostGroupConnections",
+          "children": [
+            {
+              "name": "Get-PfaVolumeHostGroupConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeIOLatencyMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaVolumeIOLatencyMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeIOLatencyMetrics",
+          "children": [
+            {
+              "name": "Get-PfaVolumeIOLatencyMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeIOLatencyMetricsMirroredByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaVolumeIOLatencyMetricsMirroredByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeIOMetricsAverage",
+          "children": [
+            {
+              "name": "Get-PfaVolumeIOMetricsAverage"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeIOMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaVolumeIOMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeIOMetrics",
+          "children": [
+            {
+              "name": "Get-PfaVolumeIOMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeIOMetricsMirroredByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaVolumeIOMetricsMirroredByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeIOMetricsMirrored",
+          "children": [
+            {
+              "name": "Get-PfaVolumeIOMetricsMirrored"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeProtectionGroups",
+          "children": [
+            {
+              "name": "Get-PfaVolumeProtectionGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumes",
+          "children": [
+            {
+              "name": "Get-PfaVolumes"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeSnapshot",
+          "children": [
+            {
+              "name": "Get-PfaVolumeSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeSnapshots",
+          "children": [
+            {
+              "name": "Get-PfaVolumeSnapshots"
+            },
+            {
+              "name": "New-PfaVolumeSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeSpaceMetricsByTimeRange",
+          "children": [
+            {
+              "name": "Get-PfaVolumeSpaceMetricsByTimeRange"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeSpaceMetrics",
+          "children": [
+            {
+              "name": "Get-PfaVolumeSpaceMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumesTags",
+          "children": [
+            {
+              "name": "Get-PfaVolumesTags"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeTags",
+          "children": [
+            {
+              "name": "Get-PfaVolumeTags"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeOrSnapshot",
+          "children": [
+            {
+              "name": "Move-PfaVolumeOrSnapshot"
+            },
+            {
+              "name": "Remove-PfaVolumeOrSnapshot"
+            },
+            {
+              "name": "Rename-PfaVolumeOrSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeFromContainer",
+          "children": [
+            {
+              "name": "Remove-PfaVolumeFromContainer"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeTag",
+          "children": [
+            {
+              "name": "Remove-PfaVolumeTag"
+            }
+          ]
+        },
+        {
+          "name": "PfaDestroyedVolume",
+          "children": [
+            {
+              "name": "Restore-PfaDestroyedVolume"
+            }
+          ]
+        },
+        {
+          "name": "PfaDestroyedVolumeSnapshot",
+          "children": [
+            {
+              "name": "Restore-PfaDestroyedVolumeSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeBandwidthLimit",
+          "children": [
+            {
+              "name": "Set-PfaVolumeBandwidthLimit"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeIOPSLimit",
+          "children": [
+            {
+              "name": "Set-PfaVolumeIOPSLimit"
+            }
+          ]
+        },
+        {
+          "name": "PfaArray",
+          "children": [
+            {
+              "name": "Disconnect-PfaArray"
+            },
+            {
+              "name": "New-PfaArray"
+            }
+          ]
+        },
+        {
+          "name": "PfaCLICommand",
+          "children": [
+            {
+              "name": "New-PfaCLICommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.Pure1",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PureOneConnection",
+          "children": [
+            {
+              "name": "New-PureOneConnection"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArray",
+          "children": [
+            {
+              "name": "Get-PureOneArray"
+            }
+          ]
+        },
+        {
+          "name": "PureOneOperation",
+          "children": [
+            {
+              "name": "New-PureOneOperation"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArrayTag",
+          "children": [
+            {
+              "name": "Get-PureOneArrayTag"
+            },
+            {
+              "name": "Set-PureOneArrayTag"
+            },
+            {
+              "name": "Remove-PureOneArrayTag"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArrayNetworking",
+          "children": [
+            {
+              "name": "Get-PureOneArrayNetworking"
+            }
+          ]
+        },
+        {
+          "name": "PureOneMetricDetail",
+          "children": [
+            {
+              "name": "Get-PureOneMetricDetail"
+            }
+          ]
+        },
+        {
+          "name": "PureOneMetric",
+          "children": [
+            {
+              "name": "Get-PureOneMetric"
+            }
+          ]
+        },
+        {
+          "name": "PureOneVolume",
+          "children": [
+            {
+              "name": "Get-PureOneVolume"
+            }
+          ]
+        },
+        {
+          "name": "PureOnePod",
+          "children": [
+            {
+              "name": "Get-PureOnePod"
+            }
+          ]
+        },
+        {
+          "name": "PureOneVolumeSnapshot",
+          "children": [
+            {
+              "name": "Get-PureOneVolumeSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PureOneFileSystem",
+          "children": [
+            {
+              "name": "Get-PureOneFileSystem"
+            }
+          ]
+        },
+        {
+          "name": "PureOneFileSystemSnapshot",
+          "children": [
+            {
+              "name": "Get-PureOneFileSystemSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArrayLoadMeter",
+          "children": [
+            {
+              "name": "Get-PureOneArrayLoadMeter"
+            }
+          ]
+        },
+        {
+          "name": "PureOneCertificate",
+          "children": [
+            {
+              "name": "New-PureOneCertificate"
+            },
+            {
+              "name": "Get-PureOneCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PureOnePublicKey",
+          "children": [
+            {
+              "name": "Get-PureOnePublicKey"
+            }
+          ]
+        },
+        {
+          "name": "PureOneJwt",
+          "children": [
+            {
+              "name": "New-PureOneJwt"
+            }
+          ]
+        },
+        {
+          "name": "PureOneAlert",
+          "children": [
+            {
+              "name": "Get-PureOneAlert"
+            }
+          ]
+        },
+        {
+          "name": "PureOneSupportContract",
+          "children": [
+            {
+              "name": "Get-PureOneSupportContract"
+            }
+          ]
+        },
+        {
+          "name": "PureOneDefaultCertificate",
+          "children": [
+            {
+              "name": "Set-PureOneDefaultCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PureOneLicense",
+          "children": [
+            {
+              "name": "Get-PureOneLicense"
+            }
+          ]
+        },
+        {
+          "name": "PureOneSubscription",
+          "children": [
+            {
+              "name": "Get-PureOneSubscription"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.VVol.SPBM",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PfavVolStoragePolicy",
+          "children": [
+            {
+              "name": "Get-PfavVolStoragePolicy"
+            },
+            {
+              "name": "New-PfavVolStoragePolicy"
+            },
+            {
+              "name": "Edit-PfavVolStoragePolicy"
+            }
+          ]
+        },
+        {
+          "name": "PfavVolStoragePolicyConfig",
+          "children": [
+            {
+              "name": "Build-PfavVolStoragePolicyConfig"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolVmStoragePolicy",
+          "children": [
+            {
+              "name": "Set-PfaVvolVmStoragePolicy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.VVol.Replication",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PfavVolReplicationGroup",
+          "children": [
+            {
+              "name": "Get-PfavVolReplicationGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfavVolReplicationGroupPartner",
+          "children": [
+            {
+              "name": "Get-PfavVolReplicationGroupPartner"
+            }
+          ]
+        },
+        {
+          "name": "PfavVolFaultDomain",
+          "children": [
+            {
+              "name": "Get-PfavVolFaultDomain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.VVol",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PfaVvolVol",
+          "children": [
+            {
+              "name": "Get-PfaVvolVol"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolVmVolumeGroup",
+          "children": [
+            {
+              "name": "Update-PfaVvolVmVolumeGroup"
+            }
+          ]
+        },
+        {
+          "name": "VvolUuidFromVmdk",
+          "children": [
+            {
+              "name": "Get-VvolUuidFromVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeNameFromVvolUuid",
+          "children": [
+            {
+              "name": "Get-PfaVolumeNameFromVvolUuid"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotFromVvolVmdk",
+          "children": [
+            {
+              "name": "Get-PfaSnapshotFromVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolVmdkToNewVvolVmdk",
+          "children": [
+            {
+              "name": "Copy-PfaVvolVmdkToNewVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotToExistingVvolVmdk",
+          "children": [
+            {
+              "name": "Copy-PfaSnapshotToExistingVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotToNewVvolVmdk",
+          "children": [
+            {
+              "name": "Copy-PfaSnapshotToNewVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolVmdkToExistingVvolVmdk",
+          "children": [
+            {
+              "name": "Copy-PfaVvolVmdkToExistingVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotOfVvolVmdk",
+          "children": [
+            {
+              "name": "New-PfaSnapshotOfVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "VmdkFromWindowsDisk",
+          "children": [
+            {
+              "name": "Get-VmdkFromWindowsDisk"
+            }
+          ]
+        },
+        {
+          "name": "PfaVasaProvider",
+          "children": [
+            {
+              "name": "New-PfaVasaProvider"
+            },
+            {
+              "name": "Get-PfaVasaProvider"
+            },
+            {
+              "name": "Remove-PfaVasaProvider"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolDatastore",
+          "children": [
+            {
+              "name": "Mount-PfaVvolDatastore"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolStorageArray",
+          "children": [
+            {
+              "name": "Get-PfaVvolStorageArray"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.VMFS",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PfaVmfsVol",
+          "children": [
+            {
+              "name": "Get-PfaVmfsVol"
+            }
+          ]
+        },
+        {
+          "name": "PfaVmfs",
+          "children": [
+            {
+              "name": "New-PfaVmfs"
+            }
+          ]
+        },
+        {
+          "name": "PfaVmfsToCluster",
+          "children": [
+            {
+              "name": "Add-PfaVmfsToCluster"
+            }
+          ]
+        },
+        {
+          "name": "PfaVmfsCapacity",
+          "children": [
+            {
+              "name": "Set-PfaVmfsCapacity"
+            }
+          ]
+        },
+        {
+          "name": "PfaVmfsSnapshot",
+          "children": [
+            {
+              "name": "Get-PfaVmfsSnapshot"
+            },
+            {
+              "name": "New-PfaVmfsSnapshot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.VCF",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PfaVcfWorkloadDomain",
+          "children": [
+            {
+              "name": "Initialize-PfaVcfWorkloadDomain"
+            }
+          ]
+        },
+        {
+          "name": "PfaVcfVasaProvider",
+          "children": [
+            {
+              "name": "Get-PfaVcfVasaProvider"
+            },
+            {
+              "name": "New-PfaVcfVasaProvider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.Software",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PfaVspherePlugin",
+          "children": [
+            {
+              "name": "Install-PfaVspherePlugin"
+            },
+            {
+              "name": "Get-PfaVspherePlugin"
+            },
+            {
+              "name": "Uninstall-PfaVspherePlugin"
+            }
+          ]
+        },
+        {
+          "name": "PfaAppliance",
+          "children": [
+            {
+              "name": "Deploy-PfaAppliance"
+            },
+            {
+              "name": "Get-PfaAppliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.RDM",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PfaRdmToVvol",
+          "children": [
+            {
+              "name": "Convert-PfaRdmToVvol"
+            }
+          ]
+        },
+        {
+          "name": "PfaRdm",
+          "children": [
+            {
+              "name": "Remove-PfaRdm"
+            },
+            {
+              "name": "New-PfaRdm"
+            }
+          ]
+        },
+        {
+          "name": "PfaRdmCapacity",
+          "children": [
+            {
+              "name": "Set-PfaRdmCapacity"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotToRdm",
+          "children": [
+            {
+              "name": "Copy-PfaSnapshotToRdm"
+            }
+          ]
+        },
+        {
+          "name": "PfaRdmSnapshot",
+          "children": [
+            {
+              "name": "Get-PfaRdmSnapshot"
+            },
+            {
+              "name": "New-PfaRdmSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaConnectionFromRdm",
+          "children": [
+            {
+              "name": "Get-PfaConnectionFromRdm"
+            }
+          ]
+        },
+        {
+          "name": "PfaRdmVol",
+          "children": [
+            {
+              "name": "Get-PfaRdmVol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.Pure1",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "pfaConnectionsWithPureOne",
+          "children": [
+            {
+              "name": "new-pfaConnectionsWithPureOne"
+            }
+          ]
+        },
+        {
+          "name": "leastBusyPfaConnection",
+          "children": [
+            {
+              "name": "get-leastBusyPfaConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.Configuration",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PfaRestOperation",
+          "children": [
+            {
+              "name": "New-PfaRestOperation"
+            }
+          ]
+        },
+        {
+          "name": "PfaConnection",
+          "children": [
+            {
+              "name": "New-PfaConnection"
+            }
+          ]
+        },
+        {
+          "name": "PfaDatastore",
+          "children": [
+            {
+              "name": "Get-PfaDatastore"
+            }
+          ]
+        },
+        {
+          "name": "PfaConnectionOfDatastore",
+          "children": [
+            {
+              "name": "Get-PfaConnectionOfDatastore"
+            }
+          ]
+        },
+        {
+          "name": "PfaRestSession",
+          "children": [
+            {
+              "name": "New-PfaRestSession"
+            },
+            {
+              "name": "Remove-PfaRestSession"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostFromVmHost",
+          "children": [
+            {
+              "name": "New-PfaHostFromVmHost"
+            },
+            {
+              "name": "Get-PfaHostFromVmHost"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupfromVcCluster",
+          "children": [
+            {
+              "name": "Get-PfaHostGroupfromVcCluster"
+            },
+            {
+              "name": "New-PfaHostGroupfromVcCluster"
+            }
+          ]
+        },
+        {
+          "name": "VmHostPfaiSCSI",
+          "children": [
+            {
+              "name": "Set-VmHostPfaiSCSI"
+            }
+          ]
+        },
+        {
+          "name": "ClusterPfaiSCSI",
+          "children": [
+            {
+              "name": "Set-ClusterPfaiSCSI"
+            }
+          ]
+        },
+        {
+          "name": "PfaConnectionFromArrayId",
+          "children": [
+            {
+              "name": "get-PfaConnectionFromArrayId"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.Backup",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PsbSnapshotJob",
+          "children": [
+            {
+              "name": "Invoke-PsbSnapshotJob"
+            }
+          ]
+        },
+        {
+          "name": "PsbSnapshotJobHistory",
+          "children": [
+            {
+              "name": "Get-PsbSnapshotJobHistory"
+            }
+          ]
+        },
+        {
+          "name": "PsbSnapshotSet",
+          "children": [
+            {
+              "name": "Remove-PsbSnapshotSet"
+            },
+            {
+              "name": "Mount-PsbSnapshotSet"
+            },
+            {
+              "name": "Dismount-PsbSnapshotSet"
+            }
+          ]
+        },
+        {
+          "name": "PsbSnapshotSetMountHistory",
+          "children": [
+            {
+              "name": "Get-PsbSnapshotSetMountHistory"
+            }
+          ]
+        },
+        {
+          "name": "PsbVolumeSet",
+          "children": [
+            {
+              "name": "New-PsbVolumeSet"
+            },
+            {
+              "name": "Get-PsbVolumeSet"
+            },
+            {
+              "name": "Remove-PsbVolumeSet"
+            }
+          ]
+        },
+        {
+          "name": "PsbVolumeSetProtectionGroup",
+          "children": [
+            {
+              "name": "Get-PsbVolumeSetProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PSBAvailableDrive",
+          "children": [
+            {
+              "name": "Get-PSBAvailableDrive"
+            }
+          ]
+        },
+        {
+          "name": "PSBVMPersistentId",
+          "children": [
+            {
+              "name": "Get-PSBVMPersistentId"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureFBModule",
+      "companyName": "Pure Storage, Inc.",
+      "children": [
+        {
+          "name": "PfbDateSinceEpoc",
+          "children": [
+            {
+              "name": "Get-PfbDateSinceEpoc"
+            }
+          ]
+        },
+        {
+          "name": "InternalPfbJson",
+          "children": [
+            {
+              "name": "Get-InternalPfbJson"
+            }
+          ]
+        },
+        {
+          "name": "InternalPfbAuthToken",
+          "children": [
+            {
+              "name": "Get-InternalPfbAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "InternalPfbAuthTokenLogout",
+          "children": [
+            {
+              "name": "Get-InternalPfbAuthTokenLogout"
+            }
+          ]
+        },
+        {
+          "name": "InternalHTTPError",
+          "children": [
+            {
+              "name": "Get-InternalHTTPError"
+            }
+          ]
+        },
+        {
+          "name": "InternalCatchallError",
+          "children": [
+            {
+              "name": "Get-InternalCatchallError"
+            }
+          ]
+        },
+        {
+          "name": "APIVersion",
+          "children": [
+            {
+              "name": "Test-APIVersion"
+            }
+          ]
+        },
+        {
+          "name": "PfbAPIVers",
+          "children": [
+            {
+              "name": "Get-PfbAPIVers"
+            }
+          ]
+        },
+        {
+          "name": "PfbActiveDirectory",
+          "children": [
+            {
+              "name": "Get-PfbActiveDirectory"
+            },
+            {
+              "name": "Add-PfbActiveDirectory"
+            },
+            {
+              "name": "Update-PfbActiveDirectory"
+            },
+            {
+              "name": "Remove-PfbActiveDirectory"
+            }
+          ]
+        },
+        {
+          "name": "PfbAlert",
+          "children": [
+            {
+              "name": "Get-PfbAlert"
+            },
+            {
+              "name": "Update-PfbAlert"
+            }
+          ]
+        },
+        {
+          "name": "PfbAlertWatcher",
+          "children": [
+            {
+              "name": "Get-PfbAlertWatcher"
+            },
+            {
+              "name": "Add-PfbAlertWatcher"
+            },
+            {
+              "name": "Update-PfbAlertWatcher"
+            },
+            {
+              "name": "Remove-PfbAlertWatcher"
+            }
+          ]
+        },
+        {
+          "name": "PfbAPIClients",
+          "children": [
+            {
+              "name": "Get-PfbAPIClients"
+            },
+            {
+              "name": "Add-PfbAPIClients"
+            },
+            {
+              "name": "Update-PfbAPIClients"
+            },
+            {
+              "name": "Remove-PfbAPIClients"
+            }
+          ]
+        },
+        {
+          "name": "PfbArray",
+          "children": [
+            {
+              "name": "Get-PfbArray"
+            },
+            {
+              "name": "Update-PfbArray"
+            }
+          ]
+        },
+        {
+          "name": "PfbArraySpace",
+          "children": [
+            {
+              "name": "Get-PfbArraySpace"
+            }
+          ]
+        },
+        {
+          "name": "PfbArrayPerformance",
+          "children": [
+            {
+              "name": "Get-PfbArrayPerformance"
+            }
+          ]
+        },
+        {
+          "name": "PfbArrayClientPerformance",
+          "children": [
+            {
+              "name": "Get-PfbArrayClientPerformance"
+            }
+          ]
+        },
+        {
+          "name": "PfbArrayHttpSpecificPerformance",
+          "children": [
+            {
+              "name": "Get-PfbArrayHttpSpecificPerformance"
+            }
+          ]
+        },
+        {
+          "name": "PfbArrayS3SpecificPerformance",
+          "children": [
+            {
+              "name": "Get-PfbArrayS3SpecificPerformance"
+            }
+          ]
+        },
+        {
+          "name": "PfbArrayConnections",
+          "children": [
+            {
+              "name": "Get-PfbArrayConnections"
+            },
+            {
+              "name": "Update-PfbArrayConnections"
+            },
+            {
+              "name": "Add-PfbArrayConnections"
+            },
+            {
+              "name": "Remove-PfbArrayConnections"
+            }
+          ]
+        },
+        {
+          "name": "PfbArrayConnectionsConnectionKey",
+          "children": [
+            {
+              "name": "Get-PfbArrayConnectionsConnectionKey"
+            },
+            {
+              "name": "Add-PfbArrayConnectionsConnectionKey"
+            }
+          ]
+        },
+        {
+          "name": "PfbArrayConnectionsPath",
+          "children": [
+            {
+              "name": "Get-PfbArrayConnectionsPath"
+            }
+          ]
+        },
+        {
+          "name": "PfbArrayConnectionsPerformanceReplication",
+          "children": [
+            {
+              "name": "Get-PfbArrayConnectionsPerformanceReplication"
+            }
+          ]
+        },
+        {
+          "name": "PfbAudits",
+          "children": [
+            {
+              "name": "Get-PfbAudits"
+            }
+          ]
+        },
+        {
+          "name": "PfbBucket",
+          "children": [
+            {
+              "name": "Get-PfbBucket"
+            },
+            {
+              "name": "Add-PfbBucket"
+            },
+            {
+              "name": "Update-PfbBucket"
+            },
+            {
+              "name": "Remove-PfbBucket"
+            }
+          ]
+        },
+        {
+          "name": "PfbBucketPerformance",
+          "children": [
+            {
+              "name": "Get-PfbBucketPerformance"
+            }
+          ]
+        },
+        {
+          "name": "PfbBucketReplicaLinks",
+          "children": [
+            {
+              "name": "Get-PfbBucketReplicaLinks"
+            },
+            {
+              "name": "Add-PfbBucketReplicaLinks"
+            },
+            {
+              "name": "Update-PfbBucketReplicaLinks"
+            },
+            {
+              "name": "Remove-PfbBucketReplicaLinks"
+            }
+          ]
+        },
+        {
+          "name": "PfbBucketS3SpecificPerformance",
+          "children": [
+            {
+              "name": "Get-PfbBucketS3SpecificPerformance"
+            }
+          ]
+        },
+        {
+          "name": "PfbCertificate",
+          "children": [
+            {
+              "name": "Get-PfbCertificate"
+            },
+            {
+              "name": "Add-PfbCertificate"
+            },
+            {
+              "name": "Update-PfbCertificate"
+            },
+            {
+              "name": "Remove-PfbCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PfbCertificatesUse",
+          "children": [
+            {
+              "name": "Get-PfbCertificatesUse"
+            }
+          ]
+        },
+        {
+          "name": "PfbCertificateGroup",
+          "children": [
+            {
+              "name": "Get-PfbCertificateGroup"
+            },
+            {
+              "name": "Add-PfbCertificateGroup"
+            },
+            {
+              "name": "Remove-PfbCertificateGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfbCertificateGroupCertificate",
+          "children": [
+            {
+              "name": "Get-PfbCertificateGroupCertificate"
+            },
+            {
+              "name": "Add-PfbCertificateGroupCertificate"
+            },
+            {
+              "name": "Remove-PfbCertificateGroupCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PfbCertificateGroupsUse",
+          "children": [
+            {
+              "name": "Get-PfbCertificateGroupsUse"
+            }
+          ]
+        },
+        {
+          "name": "PfbDirectoryService",
+          "children": [
+            {
+              "name": "Get-PfbDirectoryService"
+            },
+            {
+              "name": "Update-PfbDirectoryService"
+            }
+          ]
+        },
+        {
+          "name": "PfbDirectoryServiceRole",
+          "children": [
+            {
+              "name": "Get-PfbDirectoryServiceRole"
+            },
+            {
+              "name": "Update-PfbDirectoryServiceRole"
+            }
+          ]
+        },
+        {
+          "name": "Pfbtemsnaptem",
+          "children": [
+            {
+              "name": "Get-Pfbtemsnaptem"
+            }
+          ]
+        },
+        {
+          "name": "PfbFilesystem",
+          "children": [
+            {
+              "name": "Add-PfbFilesystem"
+            },
+            {
+              "name": "Update-PfbFilesystem"
+            },
+            {
+              "name": "Remove-PfbFilesystem"
+            }
+          ]
+        },
+        {
+          "name": "PfbFilesystemPerformance",
+          "children": [
+            {
+              "name": "Get-PfbFilesystemPerformance"
+            }
+          ]
+        },
+        {
+          "name": "PfbFilesystemUserPerformance",
+          "children": [
+            {
+              "name": "Get-PfbFilesystemUserPerformance"
+            }
+          ]
+        },
+        {
+          "name": "PfbFilesystemPolicies",
+          "children": [
+            {
+              "name": "Get-PfbFilesystemPolicies"
+            },
+            {
+              "name": "Add-PfbFilesystemPolicies"
+            },
+            {
+              "name": "Remove-PfbFilesystemPolicies"
+            }
+          ]
+        },
+        {
+          "name": "PfbFileSystemReplicaLinks",
+          "children": [
+            {
+              "name": "Get-PfbFileSystemReplicaLinks"
+            },
+            {
+              "name": "Add-PfbFileSystemReplicaLinks"
+            }
+          ]
+        },
+        {
+          "name": "PfbFileSystemReplicaLinksPolicies",
+          "children": [
+            {
+              "name": "Get-PfbFileSystemReplicaLinksPolicies"
+            },
+            {
+              "name": "Add-PfbFileSystemReplicaLinksPolicies"
+            },
+            {
+              "name": "Remove-PfbFileSystemReplicaLinksPolicies"
+            }
+          ]
+        },
+        {
+          "name": "PfbFilesystemSnapshot",
+          "children": [
+            {
+              "name": "Get-PfbFilesystemSnapshot"
+            },
+            {
+              "name": "Add-PfbFilesystemSnapshot"
+            },
+            {
+              "name": "Update-PfbFilesystemSnapshot"
+            },
+            {
+              "name": "Remove-PfbFilesystemSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfbFilesystemSnapshotPolicies",
+          "children": [
+            {
+              "name": "Get-PfbFilesystemSnapshotPolicies"
+            }
+          ]
+        },
+        {
+          "name": "PfbBlades",
+          "children": [
+            {
+              "name": "Get-PfbBlades"
+            }
+          ]
+        },
+        {
+          "name": "PfbHardware",
+          "children": [
+            {
+              "name": "Get-PfbHardware"
+            },
+            {
+              "name": "Update-PfbHardware"
+            }
+          ]
+        },
+        {
+          "name": "PfbHardwareConnector",
+          "children": [
+            {
+              "name": "Get-PfbHardwareConnector"
+            },
+            {
+              "name": "Update-PfbHardwareConnector"
+            }
+          ]
+        },
+        {
+          "name": "PfbKeytabs",
+          "children": [
+            {
+              "name": "Get-PfbKeytabs"
+            },
+            {
+              "name": "Remove-PfbKeytabs"
+            }
+          ]
+        },
+        {
+          "name": "NOPfbKeytabs",
+          "children": [
+            {
+              "name": "Add-NOPfbKeytabs"
+            }
+          ]
+        },
+        {
+          "name": "PfbLifeCycleRules",
+          "children": [
+            {
+              "name": "Get-PfbLifeCycleRules"
+            },
+            {
+              "name": "Add-PfbLifeCycleRules"
+            },
+            {
+              "name": "Update-PfbLifeCycleRules"
+            },
+            {
+              "name": "Remove-PfbLifeCycleRules"
+            }
+          ]
+        },
+        {
+          "name": "NOPfbLogs",
+          "children": [
+            {
+              "name": "Get-NOPfbLogs"
+            }
+          ]
+        },
+        {
+          "name": "PfbDns",
+          "children": [
+            {
+              "name": "Get-PfbDns"
+            },
+            {
+              "name": "Update-PfbDns"
+            }
+          ]
+        },
+        {
+          "name": "PfbLag",
+          "children": [
+            {
+              "name": "Get-PfbLag"
+            },
+            {
+              "name": "Add-PfbLag"
+            },
+            {
+              "name": "Update-PfbLag"
+            },
+            {
+              "name": "Remove-PfbLag"
+            }
+          ]
+        },
+        {
+          "name": "PfbNetworkInterface",
+          "children": [
+            {
+              "name": "Get-PfbNetworkInterface"
+            },
+            {
+              "name": "Add-PfbNetworkInterface"
+            },
+            {
+              "name": "Update-PfbNetworkInterface"
+            },
+            {
+              "name": "Remove-PfbNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "PfbSmtp",
+          "children": [
+            {
+              "name": "Get-PfbSmtp"
+            },
+            {
+              "name": "Update-PfbSmtp"
+            }
+          ]
+        },
+        {
+          "name": "PfbSnmpAgents",
+          "children": [
+            {
+              "name": "Get-PfbSnmpAgents"
+            },
+            {
+              "name": "Update-PfbSnmpAgents"
+            }
+          ]
+        },
+        {
+          "name": "PfbSnmpManagers",
+          "children": [
+            {
+              "name": "Get-PfbSnmpManagers"
+            },
+            {
+              "name": "Add-PfbSnmpManagers"
+            },
+            {
+              "name": "Update-PfbSnmpManagers"
+            }
+          ]
+        },
+        {
+          "name": "PfbSubnet",
+          "children": [
+            {
+              "name": "Get-PfbSubnet"
+            },
+            {
+              "name": "Add-PfbSubnet"
+            },
+            {
+              "name": "Update-PfbSubnet"
+            },
+            {
+              "name": "Remove-PfbSubnet"
+            }
+          ]
+        },
+        {
+          "name": "PfbSyslogServers",
+          "children": [
+            {
+              "name": "Get-PfbSyslogServers"
+            },
+            {
+              "name": "Add-PfbSyslogServers"
+            },
+            {
+              "name": "Update-PfbSyslogServers"
+            },
+            {
+              "name": "Remove-PfbSyslogServers"
+            }
+          ]
+        },
+        {
+          "name": "PfbSyslogServersSettings",
+          "children": [
+            {
+              "name": "Get-PfbSyslogServersSettings"
+            },
+            {
+              "name": "Update-PfbSyslogServersSettings"
+            }
+          ]
+        },
+        {
+          "name": "PfbObjectStoreAccessKey",
+          "children": [
+            {
+              "name": "Get-PfbObjectStoreAccessKey"
+            },
+            {
+              "name": "Add-PfbObjectStoreAccessKey"
+            },
+            {
+              "name": "Update-PfbObjectStoreAccessKey"
+            },
+            {
+              "name": "Remove-PfbObjectStoreAccessKey"
+            }
+          ]
+        },
+        {
+          "name": "PfbObjectStoreAccessPolicies",
+          "children": [
+            {
+              "name": "Get-PfbObjectStoreAccessPolicies"
+            }
+          ]
+        },
+        {
+          "name": "PfbObjectStoreAccessPoliciesUsers",
+          "children": [
+            {
+              "name": "Get-PfbObjectStoreAccessPoliciesUsers"
+            },
+            {
+              "name": "Add-PfbObjectStoreAccessPoliciesUsers"
+            },
+            {
+              "name": "Remove-PfbObjectStoreAccessPoliciesUsers"
+            }
+          ]
+        },
+        {
+          "name": "PfbObjectStoreAccount",
+          "children": [
+            {
+              "name": "Get-PfbObjectStoreAccount"
+            },
+            {
+              "name": "Add-PfbObjectStoreAccount"
+            },
+            {
+              "name": "Remove-PfbObjectStoreAccount"
+            }
+          ]
+        },
+        {
+          "name": "PfbObjectStoreUser",
+          "children": [
+            {
+              "name": "Get-PfbObjectStoreUser"
+            },
+            {
+              "name": "Add-PfbObjectStoreUser"
+            },
+            {
+              "name": "Remove-PfbObjectStoreUser"
+            }
+          ]
+        },
+        {
+          "name": "PfbObjectStoreVirtualHosts",
+          "children": [
+            {
+              "name": "Get-PfbObjectStoreVirtualHosts"
+            },
+            {
+              "name": "Remove-PfbObjectStoreVirtualHosts"
+            }
+          ]
+        },
+        {
+          "name": "PfbObjectVirtualHosts",
+          "children": [
+            {
+              "name": "Add-PfbObjectVirtualHosts"
+            }
+          ]
+        },
+        {
+          "name": "PfbObjectStoreRC",
+          "children": [
+            {
+              "name": "Get-PfbObjectStoreRC"
+            },
+            {
+              "name": "Add-PfbObjectStoreRC"
+            },
+            {
+              "name": "Update-PfbObjectStoreRC"
+            },
+            {
+              "name": "Remove-PfbObjectStoreRC"
+            }
+          ]
+        },
+        {
+          "name": "PfbPolicies",
+          "children": [
+            {
+              "name": "Get-PfbPolicies"
+            },
+            {
+              "name": "Add-PfbPolicies"
+            },
+            {
+              "name": "Update-PfbPolicies"
+            },
+            {
+              "name": "Remove-PfbPolicies"
+            }
+          ]
+        },
+        {
+          "name": "PfbPoliciesFileSystem",
+          "children": [
+            {
+              "name": "Get-PfbPoliciesFileSystem"
+            },
+            {
+              "name": "Add-PfbPoliciesFileSystem"
+            },
+            {
+              "name": "Remove-PfbPoliciesFileSystem"
+            }
+          ]
+        },
+        {
+          "name": "PfbPoliciesFileSystemReplicaLinks",
+          "children": [
+            {
+              "name": "Get-PfbPoliciesFileSystemReplicaLinks"
+            },
+            {
+              "name": "Add-PfbPoliciesFileSystemReplicaLinks"
+            },
+            {
+              "name": "Remove-PfbPoliciesFileSystemReplicaLinks"
+            }
+          ]
+        },
+        {
+          "name": "PfbPoliciesFileSystemSnapshot",
+          "children": [
+            {
+              "name": "Get-PfbPoliciesFileSystemSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfbPoliciesMember",
+          "children": [
+            {
+              "name": "Get-PfbPoliciesMember"
+            }
+          ]
+        },
+        {
+          "name": "PfbQuotaGroup",
+          "children": [
+            {
+              "name": "Get-PfbQuotaGroup"
+            },
+            {
+              "name": "Add-PfbQuotaGroup"
+            },
+            {
+              "name": "Update-PfbQuotaGroup"
+            },
+            {
+              "name": "Remove-PfbQuotaGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfbQuotaUser",
+          "children": [
+            {
+              "name": "Get-PfbQuotaUser"
+            },
+            {
+              "name": "Add-PfbQuotaUser"
+            },
+            {
+              "name": "Update-PfbQuotaUser"
+            },
+            {
+              "name": "Remove-PfbQuotaUser"
+            }
+          ]
+        },
+        {
+          "name": "PfbRoles",
+          "children": [
+            {
+              "name": "Get-PfbRoles"
+            }
+          ]
+        },
+        {
+          "name": "PfbUsageGroup",
+          "children": [
+            {
+              "name": "Get-PfbUsageGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfbUsageUser",
+          "children": [
+            {
+              "name": "Get-PfbUsageUser"
+            }
+          ]
+        },
+        {
+          "name": "PfbAdmin",
+          "children": [
+            {
+              "name": "Get-PfbAdmin"
+            },
+            {
+              "name": "Update-PfbAdmin"
+            }
+          ]
+        },
+        {
+          "name": "PfbAdminCache",
+          "children": [
+            {
+              "name": "Get-PfbAdminCache"
+            },
+            {
+              "name": "Remove-PfbAdminCache"
+            }
+          ]
+        },
+        {
+          "name": "PfbSupport",
+          "children": [
+            {
+              "name": "Get-PfbSupport"
+            },
+            {
+              "name": "Update-PfbSupport"
+            }
+          ]
+        },
+        {
+          "name": "PfbTargets",
+          "children": [
+            {
+              "name": "Get-PfbTargets"
+            },
+            {
+              "name": "Add-PfbTargets"
+            },
+            {
+              "name": "Update-PfbTargets"
+            },
+            {
+              "name": "Remove-PfbTargets"
+            }
+          ]
+        },
+        {
+          "name": "PfbUsageGroups",
+          "children": [
+            {
+              "name": "Get-PfbUsageGroups"
+            }
+          ]
+        },
+        {
+          "name": "PfbUsageUsers",
+          "children": [
+            {
+              "name": "Get-PfbUsageUsers"
+            }
+          ]
+        },
+        {
+          "name": "PfbTargetsPerformanceReplication",
+          "children": [
+            {
+              "name": "Get-PfbTargetsPerformanceReplication"
+            }
+          ]
+        },
+        {
+          "name": "PfbZTP",
+          "children": [
+            {
+              "name": "Get-PfbZTP"
+            },
+            {
+              "name": "Update-PfbZTP"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

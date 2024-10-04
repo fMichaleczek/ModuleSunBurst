@@ -1,0 +1,955 @@
+{
+  "name": "Nutstone",
+  "children": [
+    {
+      "name": "Nutstone.Devops",
+      "companyName": "Nutstone",
+      "children": [
+        {
+          "name": "TestNutstone",
+          "children": [
+            {
+              "name": "Get-TestNutstone"
+            }
+          ]
+        },
+        {
+          "name": "Assembly",
+          "children": [
+            {
+              "name": "Start-Assembly"
+            }
+          ]
+        },
+        {
+          "name": "Monitoring",
+          "children": [
+            {
+              "name": "Start-Monitoring"
+            }
+          ]
+        },
+        {
+          "name": "Configuration",
+          "children": [
+            {
+              "name": "Update-Configuration"
+            },
+            {
+              "name": "Get-Configuration"
+            }
+          ]
+        },
+        {
+          "name": "Connections",
+          "children": [
+            {
+              "name": "Assert-Connections"
+            },
+            {
+              "name": "Get-Connections"
+            }
+          ]
+        },
+        {
+          "name": "Group",
+          "children": [
+            {
+              "name": "Invoke-Group"
+            },
+            {
+              "name": "Export-Group"
+            }
+          ]
+        },
+        {
+          "name": "Connection",
+          "children": [
+            {
+              "name": "Add-Connection"
+            },
+            {
+              "name": "Set-Connection"
+            }
+          ]
+        },
+        {
+          "name": "ExternalReference",
+          "children": [
+            {
+              "name": "Add-ExternalReference"
+            }
+          ]
+        },
+        {
+          "name": "ExternalReferences",
+          "children": [
+            {
+              "name": "Get-ExternalReferences"
+            }
+          ]
+        },
+        {
+          "name": "Repository",
+          "children": [
+            {
+              "name": "Get-Repository"
+            },
+            {
+              "name": "Copy-Repository"
+            },
+            {
+              "name": "Find-Repository"
+            },
+            {
+              "name": "Clear-Repository"
+            },
+            {
+              "name": "Push-Repository"
+            }
+          ]
+        },
+        {
+          "name": "RepositoryChanges",
+          "children": [
+            {
+              "name": "Test-RepositoryChanges"
+            }
+          ]
+        },
+        {
+          "name": "CurrentBranch",
+          "children": [
+            {
+              "name": "Get-CurrentBranch"
+            }
+          ]
+        },
+        {
+          "name": "Branch",
+          "children": [
+            {
+              "name": "New-Branch"
+            },
+            {
+              "name": "Switch-Branch"
+            }
+          ]
+        },
+        {
+          "name": "Tag",
+          "children": [
+            {
+              "name": "Find-Tag"
+            },
+            {
+              "name": "Switch-Tag"
+            }
+          ]
+        },
+        {
+          "name": "TagList",
+          "children": [
+            {
+              "name": "Get-TagList"
+            }
+          ]
+        },
+        {
+          "name": "Pipeline",
+          "children": [
+            {
+              "name": "Invoke-Pipeline"
+            },
+            {
+              "name": "Wait-Pipeline"
+            }
+          ]
+        },
+        {
+          "name": "Git",
+          "children": [
+            {
+              "name": "Test-Git"
+            }
+          ]
+        },
+        {
+          "name": "GitPath",
+          "children": [
+            {
+              "name": "Get-GitPath"
+            }
+          ]
+        },
+        {
+          "name": "PipelineVariable",
+          "children": [
+            {
+              "name": "New-PipelineVariable"
+            },
+            {
+              "name": "Add-PipelineVariable"
+            }
+          ]
+        },
+        {
+          "name": "AzureConnection",
+          "children": [
+            {
+              "name": "Test-AzureConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS.Utilities",
+      "companyName": "Nutstone",
+      "children": [
+        {
+          "name": "Repository",
+          "children": [
+            {
+              "name": "Copy-Repository"
+            },
+            {
+              "name": "Sync-Repository"
+            },
+            {
+              "name": "Save-Repository"
+            },
+            {
+              "name": "Push-Repository"
+            },
+            {
+              "name": "New-Repository"
+            }
+          ]
+        },
+        {
+          "name": "Branches",
+          "children": [
+            {
+              "name": "Get-Branches"
+            }
+          ]
+        },
+        {
+          "name": "Branch",
+          "children": [
+            {
+              "name": "Switch-Branch"
+            },
+            {
+              "name": "Find-Branch"
+            },
+            {
+              "name": "Remove-Branch"
+            },
+            {
+              "name": "New-Branch"
+            }
+          ]
+        },
+        {
+          "name": "Tag",
+          "children": [
+            {
+              "name": "New-Tag"
+            }
+          ]
+        },
+        {
+          "name": "Tags",
+          "children": [
+            {
+              "name": "Get-Tags"
+            }
+          ]
+        },
+        {
+          "name": "Commits",
+          "children": [
+            {
+              "name": "Get-Commits"
+            }
+          ]
+        },
+        {
+          "name": "Git",
+          "children": [
+            {
+              "name": "Test-Git"
+            },
+            {
+              "name": "Install-Git"
+            },
+            {
+              "name": "Invoke-Git"
+            }
+          ]
+        },
+        {
+          "name": "DevopsCredentials",
+          "children": [
+            {
+              "name": "Test-DevopsCredentials"
+            },
+            {
+              "name": "Set-DevopsCredentials"
+            }
+          ]
+        },
+        {
+          "name": "DevopsProjects",
+          "children": [
+            {
+              "name": "Get-DevopsProjects"
+            }
+          ]
+        },
+        {
+          "name": "DevopsProject",
+          "children": [
+            {
+              "name": "Get-DevopsProject"
+            }
+          ]
+        },
+        {
+          "name": "DevopsRepositories",
+          "children": [
+            {
+              "name": "Get-DevopsRepositories"
+            }
+          ]
+        },
+        {
+          "name": "DevopsRepository",
+          "children": [
+            {
+              "name": "Get-DevopsRepository"
+            },
+            {
+              "name": "Find-DevopsRepository"
+            }
+          ]
+        },
+        {
+          "name": "DevopsPipelines",
+          "children": [
+            {
+              "name": "Get-DevopsPipelines"
+            }
+          ]
+        },
+        {
+          "name": "DevopsPipeline",
+          "children": [
+            {
+              "name": "Invoke-DevopsPipeline"
+            },
+            {
+              "name": "Wait-DevopsPipeline"
+            }
+          ]
+        },
+        {
+          "name": "DevopsPullRequest",
+          "children": [
+            {
+              "name": "New-DevopsPullRequest"
+            },
+            {
+              "name": "Complete-DevopsPullRequest"
+            }
+          ]
+        },
+        {
+          "name": "Excel",
+          "children": [
+            {
+              "name": "New-Excel"
+            },
+            {
+              "name": "Save-Excel"
+            },
+            {
+              "name": "Open-Excel"
+            }
+          ]
+        },
+        {
+          "name": "ExcelData",
+          "children": [
+            {
+              "name": "Set-ExcelData"
+            },
+            {
+              "name": "Get-ExcelData"
+            }
+          ]
+        },
+        {
+          "name": "ExcelRowProperty",
+          "children": [
+            {
+              "name": "Set-ExcelRowProperty"
+            }
+          ]
+        },
+        {
+          "name": "ExcelDynamicData",
+          "children": [
+            {
+              "name": "Get-ExcelDynamicData"
+            }
+          ]
+        },
+        {
+          "name": "ExcelWorkSheet",
+          "children": [
+            {
+              "name": "Select-ExcelWorkSheet"
+            },
+            {
+              "name": "Add-ExcelWorkSheet"
+            }
+          ]
+        },
+        {
+          "name": "DotNetProcess",
+          "children": [
+            {
+              "name": "Invoke-DotNetProcess"
+            },
+            {
+              "name": "Wait-DotNetProcess"
+            }
+          ]
+        },
+        {
+          "name": "DotNetCommand",
+          "children": [
+            {
+              "name": "Start-DotNetCommand"
+            }
+          ]
+        },
+        {
+          "name": "VisualStudioCommand",
+          "children": [
+            {
+              "name": "Start-VisualStudioCommand"
+            }
+          ]
+        },
+        {
+          "name": "VisualStudioBuild",
+          "children": [
+            {
+              "name": "Invoke-VisualStudioBuild"
+            }
+          ]
+        },
+        {
+          "name": "SqlResult",
+          "children": [
+            {
+              "name": "Resolve-SqlResult"
+            }
+          ]
+        },
+        {
+          "name": "NugetConfig",
+          "children": [
+            {
+              "name": "Update-NugetConfig"
+            }
+          ]
+        },
+        {
+          "name": "ObjectToString",
+          "children": [
+            {
+              "name": "Resolve-ObjectToString"
+            }
+          ]
+        },
+        {
+          "name": "SqlNonQuery",
+          "children": [
+            {
+              "name": "Invoke-SqlNonQuery"
+            }
+          ]
+        },
+        {
+          "name": "SqlQuery",
+          "children": [
+            {
+              "name": "Invoke-SqlQuery"
+            }
+          ]
+        },
+        {
+          "name": "SqlParameter",
+          "children": [
+            {
+              "name": "New-SqlParameter"
+            }
+          ]
+        },
+        {
+          "name": "SqlParameters",
+          "children": [
+            {
+              "name": "New-SqlParameters"
+            }
+          ]
+        },
+        {
+          "name": "SqlDatabase",
+          "children": [
+            {
+              "name": "Test-SqlDatabase"
+            }
+          ]
+        },
+        {
+          "name": "SqlTable",
+          "children": [
+            {
+              "name": "Test-SqlTable"
+            }
+          ]
+        },
+        {
+          "name": "DataTableCsv",
+          "children": [
+            {
+              "name": "ConvertTo-DataTableCsv"
+            }
+          ]
+        },
+        {
+          "name": "Base64",
+          "children": [
+            {
+              "name": "ConvertTo-Base64"
+            }
+          ]
+        },
+        {
+          "name": "DevopsPipelineVariable",
+          "children": [
+            {
+              "name": "New-DevopsPipelineVariable"
+            }
+          ]
+        },
+        {
+          "name": "DevopsPipelineLog",
+          "children": [
+            {
+              "name": "Get-DevopsPipelineLog"
+            }
+          ]
+        },
+        {
+          "name": "FileAsBase64String",
+          "children": [
+            {
+              "name": "Get-FileAsBase64String"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS.Selenium",
+      "companyName": "Nutstone",
+      "children": [
+        {
+          "name": "Driver",
+          "children": [
+            {
+              "name": "New-Driver"
+            }
+          ]
+        },
+        {
+          "name": "Page",
+          "children": [
+            {
+              "name": "New-Page"
+            },
+            {
+              "name": "Invoke-Page"
+            },
+            {
+              "name": "Add-Page"
+            }
+          ]
+        },
+        {
+          "name": "Element",
+          "children": [
+            {
+              "name": "New-Element"
+            },
+            {
+              "name": "Set-Element"
+            },
+            {
+              "name": "Find-Element"
+            },
+            {
+              "name": "Edit-Element"
+            },
+            {
+              "name": "Invoke-Element"
+            },
+            {
+              "name": "Assert-Element"
+            },
+            {
+              "name": "Add-Element"
+            },
+            {
+              "name": "Get-Element"
+            }
+          ]
+        },
+        {
+          "name": "ElementValue",
+          "children": [
+            {
+              "name": "Set-ElementValue"
+            }
+          ]
+        },
+        {
+          "name": "ScreenShot",
+          "children": [
+            {
+              "name": "Get-ScreenShot"
+            },
+            {
+              "name": "Save-ScreenShot"
+            }
+          ]
+        },
+        {
+          "name": "Url",
+          "children": [
+            {
+              "name": "Get-Url"
+            },
+            {
+              "name": "Wait-Url"
+            }
+          ]
+        },
+        {
+          "name": "ElementExists",
+          "children": [
+            {
+              "name": "Test-ElementExists"
+            }
+          ]
+        },
+        {
+          "name": "ElementText",
+          "children": [
+            {
+              "name": "Test-ElementText"
+            }
+          ]
+        },
+        {
+          "name": "Logs",
+          "children": [
+            {
+              "name": "Get-Logs"
+            }
+          ]
+        },
+        {
+          "name": "Browser",
+          "children": [
+            {
+              "name": "Close-Browser"
+            }
+          ]
+        },
+        {
+          "name": "ElementCollection",
+          "children": [
+            {
+              "name": "New-ElementCollection"
+            }
+          ]
+        },
+        {
+          "name": "Elements",
+          "children": [
+            {
+              "name": "Save-Elements"
+            },
+            {
+              "name": "Import-Elements"
+            }
+          ]
+        },
+        {
+          "name": "Test",
+          "children": [
+            {
+              "name": "New-Test"
+            },
+            {
+              "name": "Invoke-Test"
+            }
+          ]
+        },
+        {
+          "name": "BrowserOptions",
+          "children": [
+            {
+              "name": "Get-BrowserOptions"
+            }
+          ]
+        },
+        {
+          "name": "WebElement",
+          "children": [
+            {
+              "name": "Invoke-WebElement"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "children": [
+            {
+              "name": "Get-Table"
+            }
+          ]
+        },
+        {
+          "name": "TableColumn",
+          "children": [
+            {
+              "name": "Get-TableColumn"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Save-Log"
+            }
+          ]
+        },
+        {
+          "name": "Report",
+          "children": [
+            {
+              "name": "New-Report"
+            },
+            {
+              "name": "Open-Report"
+            }
+          ]
+        },
+        {
+          "name": "Network",
+          "children": [
+            {
+              "name": "Get-Network"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS.Reporting",
+      "companyName": "Nutstone",
+      "children": [
+        {
+          "name": "Html",
+          "children": [
+            {
+              "name": "New-Html"
+            },
+            {
+              "name": "Get-Html"
+            }
+          ]
+        },
+        {
+          "name": "HtmlTag",
+          "children": [
+            {
+              "name": "New-HtmlTag"
+            }
+          ]
+        },
+        {
+          "name": "HtmlFile",
+          "children": [
+            {
+              "name": "Save-HtmlFile"
+            }
+          ]
+        },
+        {
+          "name": "HtmlClass",
+          "children": [
+            {
+              "name": "New-HtmlClass"
+            }
+          ]
+        },
+        {
+          "name": "ClassStyle",
+          "children": [
+            {
+              "name": "Add-ClassStyle"
+            }
+          ]
+        },
+        {
+          "name": "HtmlTable",
+          "children": [
+            {
+              "name": "New-HtmlTable"
+            }
+          ]
+        },
+        {
+          "name": "HtmlTableRow",
+          "children": [
+            {
+              "name": "Add-HtmlTableRow"
+            }
+          ]
+        },
+        {
+          "name": "HtmlTableRowColumn",
+          "children": [
+            {
+              "name": "Add-HtmlTableRowColumn"
+            }
+          ]
+        },
+        {
+          "name": "TableModel",
+          "children": [
+            {
+              "name": "Test-TableModel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS.Octopus",
+      "companyName": "Nutstone",
+      "children": [
+        {
+          "name": "OctProject",
+          "children": [
+            {
+              "name": "Invoke-OctProject"
+            },
+            {
+              "name": "Get-OctProject"
+            },
+            {
+              "name": "Wait-OctProject"
+            }
+          ]
+        },
+        {
+          "name": "OctVariable",
+          "children": [
+            {
+              "name": "Set-OctVariable"
+            }
+          ]
+        },
+        {
+          "name": "OctRelease",
+          "children": [
+            {
+              "name": "New-OctRelease"
+            }
+          ]
+        },
+        {
+          "name": "OctLogs",
+          "children": [
+            {
+              "name": "Get-OctLogs"
+            }
+          ]
+        },
+        {
+          "name": "OctVariableNames",
+          "children": [
+            {
+              "name": "Get-OctVariableNames"
+            }
+          ]
+        },
+        {
+          "name": "OctKeys",
+          "children": [
+            {
+              "name": "Test-OctKeys"
+            }
+          ]
+        },
+        {
+          "name": "OctPackage",
+          "children": [
+            {
+              "name": "New-OctPackage"
+            },
+            {
+              "name": "Remove-OctPackage"
+            }
+          ]
+        },
+        {
+          "name": "OctPackages",
+          "children": [
+            {
+              "name": "Get-OctPackages"
+            }
+          ]
+        },
+        {
+          "name": "OctRunbook",
+          "children": [
+            {
+              "name": "Invoke-OctRunbook"
+            }
+          ]
+        },
+        {
+          "name": "OctRunbookSnapShot",
+          "children": [
+            {
+              "name": "Remove-OctRunbookSnapShot"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

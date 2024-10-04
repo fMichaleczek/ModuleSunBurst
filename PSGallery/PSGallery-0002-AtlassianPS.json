@@ -1,0 +1,161 @@
+{
+  "name": "AtlassianPS",
+  "children": [
+    {
+      "name": "AtlassianPS.Configuration",
+      "companyName": "AtlassianPS",
+      "children": [
+        {
+          "name": "ServerConfiguration",
+          "children": [
+            {
+              "name": "Add-ServerConfiguration"
+            },
+            {
+              "name": "Get-ServerConfiguration"
+            },
+            {
+              "name": "Remove-ServerConfiguration"
+            },
+            {
+              "name": "Set-ServerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "Configuration",
+          "children": [
+            {
+              "name": "Get-Configuration"
+            },
+            {
+              "name": "Remove-Configuration"
+            },
+            {
+              "name": "Set-Configuration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConfluencePS",
+      "companyName": "AtlassianPS",
+      "children": [
+        {
+          "name": "Attachment",
+          "children": [
+            {
+              "name": "Add-Attachment"
+            },
+            {
+              "name": "Get-Attachment"
+            },
+            {
+              "name": "Remove-Attachment"
+            },
+            {
+              "name": "Set-Attachment"
+            }
+          ]
+        },
+        {
+          "name": "Label",
+          "children": [
+            {
+              "name": "Add-Label"
+            },
+            {
+              "name": "Get-Label"
+            },
+            {
+              "name": "Remove-Label"
+            },
+            {
+              "name": "Set-Label"
+            }
+          ]
+        },
+        {
+          "name": "StorageFormat",
+          "children": [
+            {
+              "name": "ConvertTo-StorageFormat"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "children": [
+            {
+              "name": "ConvertTo-Table"
+            }
+          ]
+        },
+        {
+          "name": "AttachmentFile",
+          "children": [
+            {
+              "name": "Get-AttachmentFile"
+            }
+          ]
+        },
+        {
+          "name": "ChildPage",
+          "children": [
+            {
+              "name": "Get-ChildPage"
+            }
+          ]
+        },
+        {
+          "name": "Page",
+          "children": [
+            {
+              "name": "Get-Page"
+            },
+            {
+              "name": "New-Page"
+            },
+            {
+              "name": "Remove-Page"
+            },
+            {
+              "name": "Set-Page"
+            }
+          ]
+        },
+        {
+          "name": "Space",
+          "children": [
+            {
+              "name": "Get-Space"
+            },
+            {
+              "name": "New-Space"
+            },
+            {
+              "name": "Remove-Space"
+            }
+          ]
+        },
+        {
+          "name": "Method",
+          "children": [
+            {
+              "name": "Invoke-Method"
+            }
+          ]
+        },
+        {
+          "name": "Info",
+          "children": [
+            {
+              "name": "Set-Info"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

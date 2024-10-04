@@ -1,0 +1,174 @@
+{
+  "name": "Oxymores",
+  "children": [
+    {
+      "name": "PSZabbix",
+      "companyName": "Oxymores",
+      "children": [
+        {
+          "name": "ApiSession",
+          "children": [
+            {
+              "name": "New-ApiSession"
+            }
+          ]
+        },
+        {
+          "name": "Action",
+          "children": [
+            {
+              "name": "Get-Action"
+            }
+          ]
+        },
+        {
+          "name": "User",
+          "children": [
+            {
+              "name": "Get-User"
+            },
+            {
+              "name": "New-User"
+            },
+            {
+              "name": "Remove-User"
+            }
+          ]
+        },
+        {
+          "name": "UserGroupMembership",
+          "children": [
+            {
+              "name": "Add-UserGroupMembership"
+            },
+            {
+              "name": "Remove-UserGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "UserGroupPermission",
+          "children": [
+            {
+              "name": "Add-UserGroupPermission"
+            }
+          ]
+        },
+        {
+          "name": "UserGroup",
+          "children": [
+            {
+              "name": "Get-UserGroup"
+            },
+            {
+              "name": "New-UserGroup"
+            },
+            {
+              "name": "Remove-UserGroup"
+            },
+            {
+              "name": "Enable-UserGroup"
+            },
+            {
+              "name": "Disable-UserGroup"
+            }
+          ]
+        },
+        {
+          "name": "HostGroup",
+          "children": [
+            {
+              "name": "Get-HostGroup"
+            },
+            {
+              "name": "New-HostGroup"
+            },
+            {
+              "name": "Remove-HostGroup"
+            }
+          ]
+        },
+        {
+          "name": "Template",
+          "children": [
+            {
+              "name": "Get-Template"
+            },
+            {
+              "name": "Remove-Template"
+            }
+          ]
+        },
+        {
+          "name": "Host",
+          "children": [
+            {
+              "name": "Get-Host"
+            },
+            {
+              "name": "New-Host"
+            },
+            {
+              "name": "Remove-Host"
+            },
+            {
+              "name": "Update-Host"
+            },
+            {
+              "name": "Enable-Host"
+            },
+            {
+              "name": "Disable-Host"
+            }
+          ]
+        },
+        {
+          "name": "HostGroupMembership",
+          "children": [
+            {
+              "name": "Add-HostGroupMembership"
+            },
+            {
+              "name": "Remove-HostGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "Proxy",
+          "children": [
+            {
+              "name": "Get-Proxy"
+            }
+          ]
+        },
+        {
+          "name": "Media",
+          "children": [
+            {
+              "name": "Get-Media"
+            },
+            {
+              "name": "Remove-Media"
+            }
+          ]
+        },
+        {
+          "name": "UserMail",
+          "children": [
+            {
+              "name": "Add-UserMail"
+            }
+          ]
+        },
+        {
+          "name": "MediaType",
+          "children": [
+            {
+              "name": "Get-MediaType"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

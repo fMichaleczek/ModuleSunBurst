@@ -1,0 +1,103 @@
+{
+  "name": "PowerCode",
+  "children": [
+    {
+      "name": "cdpath",
+      "companyName": "PowerCode",
+      "children": [
+        {
+          "name": "CDPath",
+          "children": [
+            {
+              "name": "Add-CDPath"
+            },
+            {
+              "name": "Get-CDPath"
+            },
+            {
+              "name": "Set-CDPath"
+            },
+            {
+              "name": "Update-Cdpath"
+            }
+          ]
+        },
+        {
+          "name": "CDPathOption",
+          "children": [
+            {
+              "name": "Get-CDPathOption"
+            },
+            {
+              "name": "Set-CDPathOption"
+            }
+          ]
+        },
+        {
+          "name": "CDPathLocation",
+          "children": [
+            {
+              "name": "Set-CDPathLocation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerCode.TextTools",
+      "companyName": "PowerCode",
+      "children": [
+        {
+          "name": "TextLine",
+          "children": [
+            {
+              "name": "Edit-TextLine"
+            }
+          ]
+        },
+        {
+          "name": "TextLineEdit",
+          "children": [
+            {
+              "name": "Undo-TextLineEdit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerCode.PSTaglib",
+      "companyName": "PowerCode",
+      "children": [
+        {
+          "name": "TaggedFile",
+          "children": [
+            {
+              "name": "Get-TaggedFile"
+            },
+            {
+              "name": "Set-TaggedFile"
+            },
+            {
+              "name": "Select-TaggedFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vim",
+      "companyName": "PowerCode",
+      "children": [
+        {
+          "name": "Gvim",
+          "children": [
+            {
+              "name": "Invoke-Gvim"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

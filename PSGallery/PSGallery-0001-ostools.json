@@ -1,0 +1,62 @@
+{
+  "name": "ostools",
+  "children": [
+    {
+      "name": "DynamicsCRM-Automation",
+      "companyName": "ostools",
+      "children": [
+        {
+          "name": "CrmPSDrive",
+          "children": [
+            {
+              "name": "New-CrmPSDrive"
+            },
+            {
+              "name": "Initialize-CrmPSDrive"
+            }
+          ]
+        },
+        {
+          "name": "CrmDiscoveryServiceAdapter",
+          "children": [
+            {
+              "name": "New-CrmDiscoveryServiceAdapter"
+            }
+          ]
+        },
+        {
+          "name": "CrmOrganizationServiceAdapter",
+          "children": [
+            {
+              "name": "New-CrmOrganizationServiceAdapter"
+            }
+          ]
+        },
+        {
+          "name": "CrmContext",
+          "children": [
+            {
+              "name": "Show-CrmContext"
+            }
+          ]
+        },
+        {
+          "name": "Json",
+          "children": [
+            {
+              "name": "Validate-Json"
+            }
+          ]
+        },
+        {
+          "name": "CrmPSDriveConfig",
+          "children": [
+            {
+              "name": "Get-CrmPSDriveConfig"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

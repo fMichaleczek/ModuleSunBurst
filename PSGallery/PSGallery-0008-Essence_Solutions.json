@@ -1,0 +1,2516 @@
+{
+  "name": "Essence Solutions",
+  "children": [
+    {
+      "name": "AzureRm.Extensions",
+      "companyName": "Essence Solutions",
+      "children": [
+        {
+          "name": "AzureRmTagToResource",
+          "children": [
+            {
+              "name": "Add-AzureRmTagToResource"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmTagToResourceGroup",
+          "children": [
+            {
+              "name": "Add-AzureRmTagToResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmResourceExt",
+          "children": [
+            {
+              "name": "Get-AzureRmResourceExt"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmResourceGroupExt",
+          "children": [
+            {
+              "name": "Get-AzureRmResourceGroupExt"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmSubscriptionExt",
+          "children": [
+            {
+              "name": "Get-AzureRmSubscriptionExt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ax2012.tools",
+      "companyName": "Essence Solutions",
+      "children": [
+        {
+          "name": "AxActiveEnvironmentConfig",
+          "children": [
+            {
+              "name": "Clear-AxActiveEnvironmentConfig"
+            },
+            {
+              "name": "Get-AxActiveEnvironmentConfig"
+            },
+            {
+              "name": "Set-AxActiveEnvironmentConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxClientCacheObjects",
+          "children": [
+            {
+              "name": "Clear-AxClientCacheObjects"
+            }
+          ]
+        },
+        {
+          "name": "AxInstanceGlobalGuid",
+          "children": [
+            {
+              "name": "Clear-AxInstanceGlobalGuid"
+            }
+          ]
+        },
+        {
+          "name": "AxServerCacheObjects",
+          "children": [
+            {
+              "name": "Clear-AxServerCacheObjects"
+            }
+          ]
+        },
+        {
+          "name": "AxEnvironmentConfig",
+          "children": [
+            {
+              "name": "Add-AxEnvironmentConfig"
+            },
+            {
+              "name": "Get-AxEnvironmentConfig"
+            },
+            {
+              "name": "Remove-AxEnvironmentConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxModelV2",
+          "children": [
+            {
+              "name": "Export-AxModelV2"
+            },
+            {
+              "name": "Import-AxModelV2"
+            }
+          ]
+        },
+        {
+          "name": "AxModelStoreV2",
+          "children": [
+            {
+              "name": "Export-AxModelStoreV2"
+            },
+            {
+              "name": "Initialize-AXModelStoreV2"
+            },
+            {
+              "name": "Import-AXModelStoreV2"
+            }
+          ]
+        },
+        {
+          "name": "AxActiveAosConfig",
+          "children": [
+            {
+              "name": "Get-AxActiveAosConfig"
+            },
+            {
+              "name": "Set-AxActiveAosConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxAosInstance",
+          "children": [
+            {
+              "name": "Get-AxAosInstance"
+            }
+          ]
+        },
+        {
+          "name": "AxAosServerFromDB",
+          "children": [
+            {
+              "name": "Get-AxAosServerFromDB"
+            }
+          ]
+        },
+        {
+          "name": "AxAutoRunXml",
+          "children": [
+            {
+              "name": "Get-AxAutoRunXml"
+            }
+          ]
+        },
+        {
+          "name": "AxClientBuild",
+          "children": [
+            {
+              "name": "Get-AxClientBuild"
+            }
+          ]
+        },
+        {
+          "name": "AxClientConfig",
+          "children": [
+            {
+              "name": "Get-AxClientConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxLogicAppConfig",
+          "children": [
+            {
+              "name": "Get-AxLogicAppConfig"
+            },
+            {
+              "name": "Set-AxLogicAppConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxMr2012Instance",
+          "children": [
+            {
+              "name": "Get-AxMr2012Instance"
+            }
+          ]
+        },
+        {
+          "name": "AxParameterSniffingSetting",
+          "children": [
+            {
+              "name": "Get-AxParameterSniffingSetting"
+            },
+            {
+              "name": "Set-AxParameterSniffingSetting"
+            }
+          ]
+        },
+        {
+          "name": "AxServerXppILHash",
+          "children": [
+            {
+              "name": "Get-AxServerXppILHash"
+            }
+          ]
+        },
+        {
+          "name": "AxService",
+          "children": [
+            {
+              "name": "Get-AxService"
+            },
+            {
+              "name": "Start-AxService"
+            },
+            {
+              "name": "Stop-AxService"
+            }
+          ]
+        },
+        {
+          "name": "AxSsrsConfig",
+          "children": [
+            {
+              "name": "Get-AxSsrsConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxWMDPDetails",
+          "children": [
+            {
+              "name": "Get-AxWMDPDetails"
+            }
+          ]
+        },
+        {
+          "name": "AxBuild",
+          "children": [
+            {
+              "name": "Invoke-AxBuild"
+            }
+          ]
+        },
+        {
+          "name": "AxLogicApp",
+          "children": [
+            {
+              "name": "Invoke-AxLogicApp"
+            }
+          ]
+        },
+        {
+          "name": "AxStartAutoRun",
+          "children": [
+            {
+              "name": "Invoke-AxStartAutoRun"
+            }
+          ]
+        },
+        {
+          "name": "AxTableFieldIDs",
+          "children": [
+            {
+              "name": "Resolve-AxTableFieldIDs"
+            }
+          ]
+        },
+        {
+          "name": "AxAdmin",
+          "children": [
+            {
+              "name": "Set-AxAdmin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d365fo.tools",
+      "companyName": "Essence Solutions",
+      "children": [
+        {
+          "name": "D365AzureStorageConfig",
+          "children": [
+            {
+              "name": "Add-D365AzureStorageConfig"
+            },
+            {
+              "name": "Get-D365AzureStorageConfig"
+            },
+            {
+              "name": "Register-D365AzureStorageConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365BroadcastMessageConfig",
+          "children": [
+            {
+              "name": "Add-D365BroadcastMessageConfig"
+            },
+            {
+              "name": "Get-D365BroadcastMessageConfig"
+            },
+            {
+              "name": "Remove-D365BroadcastMessageConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365ModuleToRemove",
+          "children": [
+            {
+              "name": "Add-D365ModuleToRemove"
+            },
+            {
+              "name": "New-D365ModuleToRemove"
+            }
+          ]
+        },
+        {
+          "name": "D365RsatWifConfigAuthorityThumbprint",
+          "children": [
+            {
+              "name": "Add-D365RsatWifConfigAuthorityThumbprint"
+            }
+          ]
+        },
+        {
+          "name": "D365WindowsDefenderRules",
+          "children": [
+            {
+              "name": "Add-D365WindowsDefenderRules"
+            }
+          ]
+        },
+        {
+          "name": "D365DevConfig",
+          "children": [
+            {
+              "name": "Backup-D365DevConfig"
+            },
+            {
+              "name": "Restore-D365DevConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365MetaDataDir",
+          "children": [
+            {
+              "name": "Backup-D365MetaDataDir"
+            }
+          ]
+        },
+        {
+          "name": "D365Runbook",
+          "children": [
+            {
+              "name": "Backup-D365Runbook"
+            },
+            {
+              "name": "Get-D365Runbook"
+            }
+          ]
+        },
+        {
+          "name": "D365WebConfig",
+          "children": [
+            {
+              "name": "Backup-D365WebConfig"
+            },
+            {
+              "name": "Restore-D365WebConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365WifConfig",
+          "children": [
+            {
+              "name": "Backup-D365WifConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365ActiveBroadcastMessageConfig",
+          "children": [
+            {
+              "name": "Clear-D365ActiveBroadcastMessageConfig"
+            },
+            {
+              "name": "Get-D365ActiveBroadcastMessageConfig"
+            },
+            {
+              "name": "Set-D365ActiveBroadcastMessageConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365BacpacObject",
+          "children": [
+            {
+              "name": "Clear-D365BacpacObject"
+            }
+          ]
+        },
+        {
+          "name": "D365BacpacTableData",
+          "children": [
+            {
+              "name": "Clear-D365BacpacTableData"
+            }
+          ]
+        },
+        {
+          "name": "D365MonitorData",
+          "children": [
+            {
+              "name": "Clear-D365MonitorData"
+            }
+          ]
+        },
+        {
+          "name": "D365TempDbTables",
+          "children": [
+            {
+              "name": "Clear-D365TempDbTables"
+            }
+          ]
+        },
+        {
+          "name": "D365Dacpac",
+          "children": [
+            {
+              "name": "ConvertTo-D365Dacpac"
+            },
+            {
+              "name": "Import-D365Dacpac"
+            }
+          ]
+        },
+        {
+          "name": "D365SsrsReport",
+          "children": [
+            {
+              "name": "Publish-D365SsrsReport"
+            }
+          ]
+        },
+        {
+          "name": "D365MaintenanceMode",
+          "children": [
+            {
+              "name": "Disable-D365MaintenanceMode"
+            },
+            {
+              "name": "Enable-D365MaintenanceMode"
+            },
+            {
+              "name": "Get-D365MaintenanceMode"
+            }
+          ]
+        },
+        {
+          "name": "D365SqlChangeTracking",
+          "children": [
+            {
+              "name": "Disable-D365SqlChangeTracking"
+            },
+            {
+              "name": "Enable-D365SqlChangeTracking"
+            }
+          ]
+        },
+        {
+          "name": "D365User",
+          "children": [
+            {
+              "name": "Disable-D365User"
+            },
+            {
+              "name": "Enable-D365User"
+            },
+            {
+              "name": "Get-D365User"
+            },
+            {
+              "name": "Remove-D365User"
+            },
+            {
+              "name": "Update-D365User"
+            }
+          ]
+        },
+        {
+          "name": "D365Flight",
+          "children": [
+            {
+              "name": "Disable-D365Flight"
+            },
+            {
+              "name": "Enable-D365Flight"
+            },
+            {
+              "name": "Get-D365Flight"
+            }
+          ]
+        },
+        {
+          "name": "D365Exception",
+          "children": [
+            {
+              "name": "Disable-D365Exception"
+            },
+            {
+              "name": "Enable-D365Exception"
+            }
+          ]
+        },
+        {
+          "name": "D365BacpacModelFile",
+          "children": [
+            {
+              "name": "Export-D365BacpacModelFile"
+            },
+            {
+              "name": "Repair-D365BacpacModelFile"
+            }
+          ]
+        },
+        {
+          "name": "D365Model",
+          "children": [
+            {
+              "name": "Export-D365Model"
+            },
+            {
+              "name": "Get-D365Model"
+            },
+            {
+              "name": "Import-D365Model"
+            },
+            {
+              "name": "Remove-D365Model"
+            }
+          ]
+        },
+        {
+          "name": "D365SecurityDetails",
+          "children": [
+            {
+              "name": "Export-D365SecurityDetails"
+            }
+          ]
+        },
+        {
+          "name": "D365Command",
+          "children": [
+            {
+              "name": "Find-D365Command"
+            },
+            {
+              "name": "Test-D365Command"
+            }
+          ]
+        },
+        {
+          "name": "D365ActiveAzureStorageConfig",
+          "children": [
+            {
+              "name": "Get-D365ActiveAzureStorageConfig"
+            },
+            {
+              "name": "Set-D365ActiveAzureStorageConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365AOTObject",
+          "children": [
+            {
+              "name": "Get-D365AOTObject"
+            }
+          ]
+        },
+        {
+          "name": "D365AzureDevOpsNuget",
+          "children": [
+            {
+              "name": "Get-D365AzureDevOpsNuget"
+            }
+          ]
+        },
+        {
+          "name": "D365AzureStorageFile",
+          "children": [
+            {
+              "name": "Get-D365AzureStorageFile"
+            }
+          ]
+        },
+        {
+          "name": "D365AzureStorageUrl",
+          "children": [
+            {
+              "name": "Get-D365AzureStorageUrl"
+            }
+          ]
+        },
+        {
+          "name": "D365BacpacSqlOptions",
+          "children": [
+            {
+              "name": "Get-D365BacpacSqlOptions"
+            }
+          ]
+        },
+        {
+          "name": "D365BacpacTable",
+          "children": [
+            {
+              "name": "Get-D365BacpacTable"
+            }
+          ]
+        },
+        {
+          "name": "D365BroadcastMessage",
+          "children": [
+            {
+              "name": "Get-D365BroadcastMessage"
+            },
+            {
+              "name": "Send-D365BroadcastMessage"
+            }
+          ]
+        },
+        {
+          "name": "D365ClickOnceTrustPrompt",
+          "children": [
+            {
+              "name": "Get-D365ClickOnceTrustPrompt"
+            },
+            {
+              "name": "Set-D365ClickOnceTrustPrompt"
+            }
+          ]
+        },
+        {
+          "name": "D365CompilerResult",
+          "children": [
+            {
+              "name": "Get-D365CompilerResult"
+            }
+          ]
+        },
+        {
+          "name": "D365Database",
+          "children": [
+            {
+              "name": "Get-D365Database"
+            },
+            {
+              "name": "Remove-D365Database"
+            }
+          ]
+        },
+        {
+          "name": "D365DatabaseAccess",
+          "children": [
+            {
+              "name": "Get-D365DatabaseAccess"
+            }
+          ]
+        },
+        {
+          "name": "D365DecryptedWebConfig",
+          "children": [
+            {
+              "name": "Get-D365DecryptedWebConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365DefaultModelForNewProjects",
+          "children": [
+            {
+              "name": "Get-D365DefaultModelForNewProjects"
+            },
+            {
+              "name": "Set-D365DefaultModelForNewProjects"
+            }
+          ]
+        },
+        {
+          "name": "D365DotNetClass",
+          "children": [
+            {
+              "name": "Get-D365DotNetClass"
+            }
+          ]
+        },
+        {
+          "name": "D365DotNetMethod",
+          "children": [
+            {
+              "name": "Get-D365DotNetMethod"
+            }
+          ]
+        },
+        {
+          "name": "D365Environment",
+          "children": [
+            {
+              "name": "Get-D365Environment"
+            },
+            {
+              "name": "Restart-D365Environment"
+            },
+            {
+              "name": "Start-D365Environment"
+            },
+            {
+              "name": "Stop-D365Environment"
+            }
+          ]
+        },
+        {
+          "name": "D365EnvironmentSettings",
+          "children": [
+            {
+              "name": "Get-D365EnvironmentSettings"
+            }
+          ]
+        },
+        {
+          "name": "D365EventTraceProvider",
+          "children": [
+            {
+              "name": "Get-D365EventTraceProvider"
+            }
+          ]
+        },
+        {
+          "name": "D365ExternalIP",
+          "children": [
+            {
+              "name": "Get-D365ExternalIP"
+            }
+          ]
+        },
+        {
+          "name": "D365JsonService",
+          "children": [
+            {
+              "name": "Get-D365JsonService"
+            }
+          ]
+        },
+        {
+          "name": "D365InstalledHotfix",
+          "children": [
+            {
+              "name": "Get-D365InstalledHotfix"
+            }
+          ]
+        },
+        {
+          "name": "D365InstalledPackage",
+          "children": [
+            {
+              "name": "Get-D365InstalledPackage"
+            }
+          ]
+        },
+        {
+          "name": "D365InstalledService",
+          "children": [
+            {
+              "name": "Get-D365InstalledService"
+            }
+          ]
+        },
+        {
+          "name": "D365InstanceName",
+          "children": [
+            {
+              "name": "Get-D365InstanceName"
+            }
+          ]
+        },
+        {
+          "name": "D365Label",
+          "children": [
+            {
+              "name": "Get-D365Label"
+            }
+          ]
+        },
+        {
+          "name": "D365Language",
+          "children": [
+            {
+              "name": "Get-D365Language"
+            }
+          ]
+        },
+        {
+          "name": "D365LabelFile",
+          "children": [
+            {
+              "name": "Get-D365LabelFile"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsApiConfig",
+          "children": [
+            {
+              "name": "Get-D365LcsApiConfig"
+            },
+            {
+              "name": "Set-D365LcsApiConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsApiToken",
+          "children": [
+            {
+              "name": "Get-D365LcsApiToken"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsAssetFile",
+          "children": [
+            {
+              "name": "Get-D365LcsAssetFile"
+            },
+            {
+              "name": "Remove-D365LcsAssetFile"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsSharedAssetFile",
+          "children": [
+            {
+              "name": "Get-D365LcsSharedAssetFile"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsAssetValidationStatus",
+          "children": [
+            {
+              "name": "Get-D365LcsAssetValidationStatus"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsDatabaseBackups",
+          "children": [
+            {
+              "name": "Get-D365LcsDatabaseBackups"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsDatabaseOperationStatus",
+          "children": [
+            {
+              "name": "Get-D365LcsDatabaseOperationStatus"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsDeploymentStatus",
+          "children": [
+            {
+              "name": "Get-D365LcsDeploymentStatus"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsEnvironmentHistory",
+          "children": [
+            {
+              "name": "Get-D365LcsEnvironmentHistory"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsEnvironmentMetadata",
+          "children": [
+            {
+              "name": "Get-D365LcsEnvironmentMetadata"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsEnvironmentRsatCertificate",
+          "children": [
+            {
+              "name": "Get-D365LcsEnvironmentRsatCertificate"
+            }
+          ]
+        },
+        {
+          "name": "D365Module",
+          "children": [
+            {
+              "name": "Get-D365Module"
+            }
+          ]
+        },
+        {
+          "name": "D365OfflineAuthenticationAdminEmail",
+          "children": [
+            {
+              "name": "Get-D365OfflineAuthenticationAdminEmail"
+            },
+            {
+              "name": "Set-D365OfflineAuthenticationAdminEmail"
+            }
+          ]
+        },
+        {
+          "name": "D365PackageBundleDetail",
+          "children": [
+            {
+              "name": "Get-D365PackageBundleDetail"
+            }
+          ]
+        },
+        {
+          "name": "D365PackageLabelResourceFile",
+          "children": [
+            {
+              "name": "Get-D365PackageLabelResourceFile"
+            }
+          ]
+        },
+        {
+          "name": "D365PackageLabelResources",
+          "children": [
+            {
+              "name": "Get-D365PackageLabelResources"
+            }
+          ]
+        },
+        {
+          "name": "D365ProductInformation",
+          "children": [
+            {
+              "name": "Get-D365ProductInformation"
+            }
+          ]
+        },
+        {
+          "name": "D365RsatCertificateThumbprint",
+          "children": [
+            {
+              "name": "Get-D365RsatCertificateThumbprint"
+            }
+          ]
+        },
+        {
+          "name": "D365RsatPlaybackFile",
+          "children": [
+            {
+              "name": "Get-D365RsatPlaybackFile"
+            }
+          ]
+        },
+        {
+          "name": "D365RsatSoapHostname",
+          "children": [
+            {
+              "name": "Get-D365RsatSoapHostname"
+            }
+          ]
+        },
+        {
+          "name": "D365RunbookId",
+          "children": [
+            {
+              "name": "Get-D365RunbookId"
+            }
+          ]
+        },
+        {
+          "name": "D365RunbookLogFile",
+          "children": [
+            {
+              "name": "Get-D365RunbookLogFile"
+            }
+          ]
+        },
+        {
+          "name": "D365SDPCleanUp",
+          "children": [
+            {
+              "name": "Get-D365SDPCleanUp"
+            },
+            {
+              "name": "Set-D365SDPCleanUp"
+            }
+          ]
+        },
+        {
+          "name": "D365SDPDetails",
+          "children": [
+            {
+              "name": "Get-D365SDPDetails"
+            }
+          ]
+        },
+        {
+          "name": "D365Table",
+          "children": [
+            {
+              "name": "Get-D365Table"
+            }
+          ]
+        },
+        {
+          "name": "D365TableField",
+          "children": [
+            {
+              "name": "Get-D365TableField"
+            }
+          ]
+        },
+        {
+          "name": "D365TableSequence",
+          "children": [
+            {
+              "name": "Get-D365TableSequence"
+            }
+          ]
+        },
+        {
+          "name": "D365TablesInChangedTracking",
+          "children": [
+            {
+              "name": "Get-D365TablesInChangedTracking"
+            }
+          ]
+        },
+        {
+          "name": "D365TfsUri",
+          "children": [
+            {
+              "name": "Get-D365TfsUri"
+            }
+          ]
+        },
+        {
+          "name": "D365TfsWorkspace",
+          "children": [
+            {
+              "name": "Get-D365TfsWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "D365Url",
+          "children": [
+            {
+              "name": "Get-D365Url"
+            }
+          ]
+        },
+        {
+          "name": "D365UserAuthenticationDetail",
+          "children": [
+            {
+              "name": "Get-D365UserAuthenticationDetail"
+            }
+          ]
+        },
+        {
+          "name": "D365VisualStudioCompilerResult",
+          "children": [
+            {
+              "name": "Get-D365VisualStudioCompilerResult"
+            }
+          ]
+        },
+        {
+          "name": "D365WebServerType",
+          "children": [
+            {
+              "name": "Get-D365WebServerType"
+            },
+            {
+              "name": "Set-D365WebServerType"
+            }
+          ]
+        },
+        {
+          "name": "D365WindowsActivationStatus",
+          "children": [
+            {
+              "name": "Get-D365WindowsActivationStatus"
+            }
+          ]
+        },
+        {
+          "name": "D365AadUser",
+          "children": [
+            {
+              "name": "Import-D365AadUser"
+            }
+          ]
+        },
+        {
+          "name": "D365AadApplication",
+          "children": [
+            {
+              "name": "Import-D365AadApplication"
+            }
+          ]
+        },
+        {
+          "name": "D365Bacpac",
+          "children": [
+            {
+              "name": "Import-D365Bacpac"
+            },
+            {
+              "name": "New-D365Bacpac"
+            }
+          ]
+        },
+        {
+          "name": "D365ExternalUser",
+          "children": [
+            {
+              "name": "Import-D365ExternalUser"
+            }
+          ]
+        },
+        {
+          "name": "D365RsatSelfServiceCertificates",
+          "children": [
+            {
+              "name": "Import-D365RsatSelfServiceCertificates"
+            }
+          ]
+        },
+        {
+          "name": "D365RsatCertificate",
+          "children": [
+            {
+              "name": "Initialize-D365RsatCertificate"
+            }
+          ]
+        },
+        {
+          "name": "D365SupportingSoftware",
+          "children": [
+            {
+              "name": "Install-D365SupportingSoftware"
+            }
+          ]
+        },
+        {
+          "name": "D365AzCopyTransfer",
+          "children": [
+            {
+              "name": "Invoke-D365AzCopyTransfer"
+            }
+          ]
+        },
+        {
+          "name": "D365AzureDevOpsNugetPush",
+          "children": [
+            {
+              "name": "Invoke-D365AzureDevOpsNugetPush"
+            }
+          ]
+        },
+        {
+          "name": "D365AzureStorageDownload",
+          "children": [
+            {
+              "name": "Invoke-D365AzureStorageDownload"
+            }
+          ]
+        },
+        {
+          "name": "D365AzureStorageUpload",
+          "children": [
+            {
+              "name": "Invoke-D365AzureStorageUpload"
+            }
+          ]
+        },
+        {
+          "name": "D365CompilerResultAnalyzer",
+          "children": [
+            {
+              "name": "Invoke-D365CompilerResultAnalyzer"
+            }
+          ]
+        },
+        {
+          "name": "D365DataFlush",
+          "children": [
+            {
+              "name": "Invoke-D365DataFlush"
+            }
+          ]
+        },
+        {
+          "name": "D365DbSync",
+          "children": [
+            {
+              "name": "Invoke-D365DbSync"
+            }
+          ]
+        },
+        {
+          "name": "D365DbSyncPartial",
+          "children": [
+            {
+              "name": "Invoke-D365DbSyncPartial"
+            }
+          ]
+        },
+        {
+          "name": "D365DbSyncModule",
+          "children": [
+            {
+              "name": "Invoke-D365DbSyncModule"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportAggregateDataEntity",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportAggregateDataEntity"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportAggregateMeasure",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportAggregateMeasure"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportConfigKey",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportConfigKey"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportConfigKeyGroup",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportConfigKeyGroup"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportDataEntity",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportDataEntity"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportDataEntityField",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportDataEntityField"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportKpi",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportKpi"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportLicenseCode",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportLicenseCode"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportMenuItem",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportMenuItem"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReports",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReports"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportSsrs",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportSsrs"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportTable",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportTable"
+            }
+          ]
+        },
+        {
+          "name": "D365GenerateReportWorkflowType",
+          "children": [
+            {
+              "name": "Invoke-D365GenerateReportWorkflowType"
+            }
+          ]
+        },
+        {
+          "name": "D365InstallAzCopy",
+          "children": [
+            {
+              "name": "Invoke-D365InstallAzCopy"
+            }
+          ]
+        },
+        {
+          "name": "D365InstallLicense",
+          "children": [
+            {
+              "name": "Invoke-D365InstallLicense"
+            }
+          ]
+        },
+        {
+          "name": "D365InstallNuget",
+          "children": [
+            {
+              "name": "Invoke-D365InstallNuget"
+            }
+          ]
+        },
+        {
+          "name": "D365InstallSqlPackage",
+          "children": [
+            {
+              "name": "Invoke-D365InstallSqlPackage"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsApiRefreshToken",
+          "children": [
+            {
+              "name": "Invoke-D365LcsApiRefreshToken"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsDatabaseExport",
+          "children": [
+            {
+              "name": "Invoke-D365LcsDatabaseExport"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsDatabaseRefresh",
+          "children": [
+            {
+              "name": "Invoke-D365LcsDatabaseRefresh"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsDeployment",
+          "children": [
+            {
+              "name": "Invoke-D365LcsDeployment"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsEnvironmentStart",
+          "children": [
+            {
+              "name": "Invoke-D365LcsEnvironmentStart"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsEnvironmentStop",
+          "children": [
+            {
+              "name": "Invoke-D365LcsEnvironmentStop"
+            }
+          ]
+        },
+        {
+          "name": "D365LcsUpload",
+          "children": [
+            {
+              "name": "Invoke-D365LcsUpload"
+            }
+          ]
+        },
+        {
+          "name": "D365ModuleCompile",
+          "children": [
+            {
+              "name": "Invoke-D365ModuleCompile"
+            }
+          ]
+        },
+        {
+          "name": "D365ModuleLabelGeneration",
+          "children": [
+            {
+              "name": "Invoke-D365ModuleLabelGeneration"
+            }
+          ]
+        },
+        {
+          "name": "D365ModuleReportsCompile",
+          "children": [
+            {
+              "name": "Invoke-D365ModuleReportsCompile"
+            }
+          ]
+        },
+        {
+          "name": "D365ModuleFullCompile",
+          "children": [
+            {
+              "name": "Invoke-D365ModuleFullCompile"
+            }
+          ]
+        },
+        {
+          "name": "D365ProcessModule",
+          "children": [
+            {
+              "name": "Invoke-D365ProcessModule"
+            }
+          ]
+        },
+        {
+          "name": "D365ReArmWindows",
+          "children": [
+            {
+              "name": "Invoke-D365ReArmWindows"
+            }
+          ]
+        },
+        {
+          "name": "D365RunbookAnalyzer",
+          "children": [
+            {
+              "name": "Invoke-D365RunbookAnalyzer"
+            }
+          ]
+        },
+        {
+          "name": "D365SDPInstall",
+          "children": [
+            {
+              "name": "Invoke-D365SDPInstall"
+            }
+          ]
+        },
+        {
+          "name": "D365SDPInstallUDE",
+          "children": [
+            {
+              "name": "Invoke-D365SDPInstallUDE"
+            }
+          ]
+        },
+        {
+          "name": "D365SCDPBundleInstall",
+          "children": [
+            {
+              "name": "Invoke-D365SCDPBundleInstall"
+            }
+          ]
+        },
+        {
+          "name": "D365SeleniumDownload",
+          "children": [
+            {
+              "name": "Invoke-D365SeleniumDownload"
+            }
+          ]
+        },
+        {
+          "name": "D365SysFlushAodCache",
+          "children": [
+            {
+              "name": "Invoke-D365SysFlushAodCache"
+            }
+          ]
+        },
+        {
+          "name": "D365SysRunnerClass",
+          "children": [
+            {
+              "name": "Invoke-D365SysRunnerClass"
+            }
+          ]
+        },
+        {
+          "name": "D365SqlScript",
+          "children": [
+            {
+              "name": "Invoke-D365SqlScript"
+            }
+          ]
+        },
+        {
+          "name": "D365VisualStudioCompilerResultAnalyzer",
+          "children": [
+            {
+              "name": "Invoke-D365VisualStudioCompilerResultAnalyzer"
+            }
+          ]
+        },
+        {
+          "name": "D365WinRmCertificateRotation",
+          "children": [
+            {
+              "name": "Invoke-D365WinRmCertificateRotation"
+            }
+          ]
+        },
+        {
+          "name": "D365TableBrowser",
+          "children": [
+            {
+              "name": "Invoke-D365TableBrowser"
+            }
+          ]
+        },
+        {
+          "name": "D365BestPractice",
+          "children": [
+            {
+              "name": "Invoke-D365BestPractice"
+            }
+          ]
+        },
+        {
+          "name": "D365CAReport",
+          "children": [
+            {
+              "name": "New-D365CAReport"
+            }
+          ]
+        },
+        {
+          "name": "D365EntraIntegration",
+          "children": [
+            {
+              "name": "New-D365EntraIntegration"
+            },
+            {
+              "name": "Test-D365EntraIntegration"
+            }
+          ]
+        },
+        {
+          "name": "D365ISVLicense",
+          "children": [
+            {
+              "name": "New-D365ISVLicense"
+            }
+          ]
+        },
+        {
+          "name": "D365TopologyFile",
+          "children": [
+            {
+              "name": "New-D365TopologyFile"
+            }
+          ]
+        },
+        {
+          "name": "D365Instance",
+          "children": [
+            {
+              "name": "Rename-D365Instance"
+            }
+          ]
+        },
+        {
+          "name": "D365ComputerName",
+          "children": [
+            {
+              "name": "Rename-D365ComputerName"
+            }
+          ]
+        },
+        {
+          "name": "D365Admin",
+          "children": [
+            {
+              "name": "Set-D365Admin"
+            }
+          ]
+        },
+        {
+          "name": "D365AzCopyPath",
+          "children": [
+            {
+              "name": "Set-D365AzCopyPath"
+            }
+          ]
+        },
+        {
+          "name": "D365FavoriteBookmark",
+          "children": [
+            {
+              "name": "Set-D365FavoriteBookmark"
+            }
+          ]
+        },
+        {
+          "name": "D365NugetPath",
+          "children": [
+            {
+              "name": "Set-D365NugetPath"
+            }
+          ]
+        },
+        {
+          "name": "D365RsatTier2Crypto",
+          "children": [
+            {
+              "name": "Set-D365RsatTier2Crypto"
+            }
+          ]
+        },
+        {
+          "name": "D365RsatConfiguration",
+          "children": [
+            {
+              "name": "Set-D365RsatConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "D365StartPage",
+          "children": [
+            {
+              "name": "Set-D365StartPage"
+            }
+          ]
+        },
+        {
+          "name": "D365SqlPackagePath",
+          "children": [
+            {
+              "name": "Set-D365SqlPackagePath"
+            }
+          ]
+        },
+        {
+          "name": "D365SysAdmin",
+          "children": [
+            {
+              "name": "Set-D365SysAdmin"
+            }
+          ]
+        },
+        {
+          "name": "D365WebConfigDatabase",
+          "children": [
+            {
+              "name": "Set-D365WebConfigDatabase"
+            }
+          ]
+        },
+        {
+          "name": "D365TraceParserFileSize",
+          "children": [
+            {
+              "name": "Set-D365TraceParserFileSize"
+            }
+          ]
+        },
+        {
+          "name": "D365WorkstationMode",
+          "children": [
+            {
+              "name": "Set-D365WorkstationMode"
+            }
+          ]
+        },
+        {
+          "name": "D365FlightServiceCatalogId",
+          "children": [
+            {
+              "name": "Set-D365FlightServiceCatalogId"
+            },
+            {
+              "name": "Test-D365FlightServiceCatalogId"
+            }
+          ]
+        },
+        {
+          "name": "D365EnvironmentV2",
+          "children": [
+            {
+              "name": "Start-D365EnvironmentV2"
+            }
+          ]
+        },
+        {
+          "name": "D365EventTrace",
+          "children": [
+            {
+              "name": "Start-D365EventTrace"
+            },
+            {
+              "name": "Stop-D365EventTrace"
+            }
+          ]
+        },
+        {
+          "name": "D365ActiveDatabase",
+          "children": [
+            {
+              "name": "Switch-D365ActiveDatabase"
+            }
+          ]
+        },
+        {
+          "name": "D365DataverseConnection",
+          "children": [
+            {
+              "name": "Test-D365DataverseConnection"
+            }
+          ]
+        },
+        {
+          "name": "D365LabelIdIsValid",
+          "children": [
+            {
+              "name": "Test-D365LabelIdIsValid"
+            }
+          ]
+        },
+        {
+          "name": "D365BacpacModelFileSingleTable",
+          "children": [
+            {
+              "name": "Update-D365BacpacModelFileSingleTable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d365fo.integrations",
+      "companyName": "Essence Solutions",
+      "children": [
+        {
+          "name": "D365ODataConfig",
+          "children": [
+            {
+              "name": "Add-D365ODataConfig"
+            },
+            {
+              "name": "Get-D365ODataConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365ExceptionIntegrations",
+          "children": [
+            {
+              "name": "Enable-D365ExceptionIntegrations"
+            }
+          ]
+        },
+        {
+          "name": "D365DmfPackage",
+          "children": [
+            {
+              "name": "Export-D365DmfPackage"
+            },
+            {
+              "name": "Import-D365DmfPackage"
+            }
+          ]
+        },
+        {
+          "name": "D365ActiveODataConfig",
+          "children": [
+            {
+              "name": "Get-D365ActiveODataConfig"
+            },
+            {
+              "name": "Set-D365ActiveODataConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365DmfDataEntity",
+          "children": [
+            {
+              "name": "Get-D365DmfDataEntity"
+            }
+          ]
+        },
+        {
+          "name": "D365DmfMessageStatus",
+          "children": [
+            {
+              "name": "Get-D365DmfMessageStatus"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataEntityData",
+          "children": [
+            {
+              "name": "Get-D365ODataEntityData"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataEntityDataByKey",
+          "children": [
+            {
+              "name": "Get-D365ODataEntityDataByKey"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataEntityKey",
+          "children": [
+            {
+              "name": "Get-D365ODataEntityKey"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataEntityMandatoryField",
+          "children": [
+            {
+              "name": "Get-D365ODataEntityMandatoryField"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataEntityUrl",
+          "children": [
+            {
+              "name": "Get-D365ODataEntityUrl"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataMetadata",
+          "children": [
+            {
+              "name": "Get-D365ODataMetadata"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataPublicEntity",
+          "children": [
+            {
+              "name": "Get-D365ODataPublicEntity"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataPublicEnum",
+          "children": [
+            {
+              "name": "Get-D365ODataPublicEnum"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataToken",
+          "children": [
+            {
+              "name": "Get-D365ODataToken"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataTokenInteractive",
+          "children": [
+            {
+              "name": "Get-D365ODataTokenInteractive"
+            }
+          ]
+        },
+        {
+          "name": "D365RestServiceGroup",
+          "children": [
+            {
+              "name": "Get-D365RestServiceGroup"
+            }
+          ]
+        },
+        {
+          "name": "D365RestService",
+          "children": [
+            {
+              "name": "Get-D365RestService"
+            }
+          ]
+        },
+        {
+          "name": "D365RestServiceOperation",
+          "children": [
+            {
+              "name": "Get-D365RestServiceOperation"
+            }
+          ]
+        },
+        {
+          "name": "D365RestServiceOperationDetails",
+          "children": [
+            {
+              "name": "Get-D365RestServiceOperationDetails"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataEntity",
+          "children": [
+            {
+              "name": "Import-D365ODataEntity"
+            },
+            {
+              "name": "Remove-D365ODataEntity"
+            },
+            {
+              "name": "Update-D365ODataEntity"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataEntityBatchMode",
+          "children": [
+            {
+              "name": "Import-D365ODataEntityBatchMode"
+            },
+            {
+              "name": "Remove-D365ODataEntityBatchMode"
+            },
+            {
+              "name": "Update-D365ODataEntityBatchMode"
+            }
+          ]
+        },
+        {
+          "name": "D365DmfInit",
+          "children": [
+            {
+              "name": "Invoke-D365DmfInit"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataEntityAction",
+          "children": [
+            {
+              "name": "Invoke-D365ODataEntityAction"
+            }
+          ]
+        },
+        {
+          "name": "D365RestEndpoint",
+          "children": [
+            {
+              "name": "Invoke-D365RestEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "D365ODataTokenInSession",
+          "children": [
+            {
+              "name": "Set-D365ODataTokenInSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d365ce.integrations",
+      "companyName": "Essence Solutions",
+      "children": [
+        {
+          "name": "D365CeODataConfig",
+          "children": [
+            {
+              "name": "Add-D365CeODataConfig"
+            },
+            {
+              "name": "Get-D365CeODataConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365CeException",
+          "children": [
+            {
+              "name": "Enable-D365CeException"
+            }
+          ]
+        },
+        {
+          "name": "D365CeActiveODataConfig",
+          "children": [
+            {
+              "name": "Get-D365CeActiveODataConfig"
+            },
+            {
+              "name": "Set-D365CeActiveODataConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365CeODataEntityData",
+          "children": [
+            {
+              "name": "Get-D365CeODataEntityData"
+            }
+          ]
+        },
+        {
+          "name": "D365CeODataEntityDataByKey",
+          "children": [
+            {
+              "name": "Get-D365CeODataEntityDataByKey"
+            }
+          ]
+        },
+        {
+          "name": "D365CeODataEntity",
+          "children": [
+            {
+              "name": "Import-D365CeODataEntity"
+            },
+            {
+              "name": "Remove-D365CeODataEntity"
+            },
+            {
+              "name": "Update-D365CeODataEntity"
+            }
+          ]
+        },
+        {
+          "name": "D365CeODataEntityBatchMode",
+          "children": [
+            {
+              "name": "Import-D365CeODataEntityBatchMode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d365bap.tools",
+      "companyName": "Essence Solutions",
+      "children": [
+        {
+          "name": "BapEnvironmentD365App",
+          "children": [
+            {
+              "name": "Compare-BapEnvironmentD365App"
+            },
+            {
+              "name": "Get-BapEnvironmentD365App"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentUser",
+          "children": [
+            {
+              "name": "Compare-BapEnvironmentUser"
+            },
+            {
+              "name": "Get-BapEnvironmentUser"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentVirtualEntity",
+          "children": [
+            {
+              "name": "Compare-BapEnvironmentVirtualEntity"
+            },
+            {
+              "name": "Get-BapEnvironmentVirtualEntity"
+            },
+            {
+              "name": "Set-BapEnvironmentVirtualEntity"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentIntegration",
+          "children": [
+            {
+              "name": "Confirm-BapEnvironmentIntegration"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentSolution",
+          "children": [
+            {
+              "name": "Export-BapEnvironmentSolution"
+            },
+            {
+              "name": "Get-BapEnvironmentSolution"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironment",
+          "children": [
+            {
+              "name": "Get-BapEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentApplicationUser",
+          "children": [
+            {
+              "name": "Get-BapEnvironmentApplicationUser"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentLinkEnterprisePolicy",
+          "children": [
+            {
+              "name": "Get-BapEnvironmentLinkEnterprisePolicy"
+            },
+            {
+              "name": "Set-BapEnvironmentLinkEnterprisePolicy"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentSecurityRole",
+          "children": [
+            {
+              "name": "Get-BapEnvironmentSecurityRole"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentInstallD365App",
+          "children": [
+            {
+              "name": "Invoke-BapEnvironmentInstallD365App"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentVirtualEntityMetadata",
+          "children": [
+            {
+              "name": "Update-BapEnvironmentVirtualEntityMetadata"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psnotification",
+      "companyName": "Essence Solutions",
+      "children": [
+        {
+          "name": "PSNUrl",
+          "children": [
+            {
+              "name": "Get-PSNUrl"
+            },
+            {
+              "name": "Set-PSNUrl"
+            }
+          ]
+        },
+        {
+          "name": "PSNHttpEndpoint",
+          "children": [
+            {
+              "name": "Invoke-PSNHttpEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "PSNMessage",
+          "children": [
+            {
+              "name": "Invoke-PSNMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsLogicAppExtractor",
+      "companyName": "Essence Solutions",
+      "children": [
+        {
+          "name": "PsLaArmParameter",
+          "children": [
+            {
+              "name": "Get-PsLaArmParameter"
+            }
+          ]
+        },
+        {
+          "name": "PsLaManagedApiConnection",
+          "children": [
+            {
+              "name": "Get-PsLaManagedApiConnection"
+            }
+          ]
+        },
+        {
+          "name": "PsLaManagedApiConnection.Status.ViaGraph.AzAccount",
+          "children": [
+            {
+              "name": "Get-PsLaManagedApiConnection.Status.ViaGraph.AzAccount"
+            }
+          ]
+        },
+        {
+          "name": "PsLaManagedApiConnection.ViaGraph.AzAccount",
+          "children": [
+            {
+              "name": "Get-PsLaManagedApiConnection.ViaGraph.AzAccount"
+            }
+          ]
+        },
+        {
+          "name": "PsLaManagedApiConnectionByUsage",
+          "children": [
+            {
+              "name": "Get-PsLaManagedApiConnectionByUsage"
+            }
+          ]
+        },
+        {
+          "name": "PsLaTask",
+          "children": [
+            {
+              "name": "Get-PsLaTask"
+            }
+          ]
+        },
+        {
+          "name": "PsLaTaskByFile",
+          "children": [
+            {
+              "name": "Get-PsLaTaskByFile"
+            }
+          ]
+        },
+        {
+          "name": "PsLaTaskByPath",
+          "children": [
+            {
+              "name": "Get-PsLaTaskByPath"
+            }
+          ]
+        },
+        {
+          "name": "PsLaTaskOrderByFile",
+          "children": [
+            {
+              "name": "Get-PsLaTaskOrderByFile"
+            }
+          ]
+        },
+        {
+          "name": "PsLaTaskTemplate",
+          "children": [
+            {
+              "name": "Get-PsLaTaskTemplate"
+            }
+          ]
+        },
+        {
+          "name": "PsLaConsent.AzAccount",
+          "children": [
+            {
+              "name": "Invoke-PsLaConsent.AzAccount"
+            }
+          ]
+        },
+        {
+          "name": "PsLaConsent.AzCli",
+          "children": [
+            {
+              "name": "Invoke-PsLaConsent.AzCli"
+            }
+          ]
+        },
+        {
+          "name": "PsLaExtractor",
+          "children": [
+            {
+              "name": "Invoke-PsLaExtractor"
+            }
+          ]
+        },
+        {
+          "name": "PsLaRunbookByPath",
+          "children": [
+            {
+              "name": "New-PsLaRunbookByPath"
+            }
+          ]
+        },
+        {
+          "name": "PsLaRunbookByTask",
+          "children": [
+            {
+              "name": "New-PsLaRunbookByTask"
+            }
+          ]
+        },
+        {
+          "name": "ArmParameter",
+          "children": [
+            {
+              "name": "Add-ArmParameter"
+            },
+            {
+              "name": "Remove-ArmParameter"
+            }
+          ]
+        },
+        {
+          "name": "ArmVariable",
+          "children": [
+            {
+              "name": "Add-ArmVariable"
+            },
+            {
+              "name": "Remove-ArmVariable"
+            }
+          ]
+        },
+        {
+          "name": "LogicAppParm",
+          "children": [
+            {
+              "name": "Add-LogicAppParm"
+            },
+            {
+              "name": "Remove-LogicAppParm"
+            }
+          ]
+        },
+        {
+          "name": "ArmParameterValue",
+          "children": [
+            {
+              "name": "Get-ArmParameterValue"
+            }
+          ]
+        },
+        {
+          "name": "ExtractOutput",
+          "children": [
+            {
+              "name": "Get-ExtractOutput"
+            }
+          ]
+        },
+        {
+          "name": "ActionsByType",
+          "children": [
+            {
+              "name": "Get-ActionsByType"
+            }
+          ]
+        },
+        {
+          "name": "TaskWorkObject",
+          "children": [
+            {
+              "name": "Get-TaskWorkObject"
+            }
+          ]
+        },
+        {
+          "name": "TaskWorkRaw",
+          "children": [
+            {
+              "name": "Get-TaskWorkRaw"
+            }
+          ]
+        },
+        {
+          "name": "TaskFile",
+          "children": [
+            {
+              "name": "Out-TaskFile"
+            }
+          ]
+        },
+        {
+          "name": "TaskFileArm",
+          "children": [
+            {
+              "name": "Out-TaskFileArm"
+            }
+          ]
+        },
+        {
+          "name": "TaskFileLogicApp",
+          "children": [
+            {
+              "name": "Out-TaskFileLogicApp"
+            }
+          ]
+        },
+        {
+          "name": "Name",
+          "children": [
+            {
+              "name": "Format-Name"
+            }
+          ]
+        },
+        {
+          "name": "TaskWorkDirectory",
+          "children": [
+            {
+              "name": "Set-TaskWorkDirectory"
+            }
+          ]
+        },
+        {
+          "name": "PsLaArmTemplate",
+          "children": [
+            {
+              "name": "Split-PsLaArmTemplate"
+            },
+            {
+              "name": "Update-PsLaArmTemplate"
+            }
+          ]
+        },
+        {
+          "name": "PsLaArmParameterFile",
+          "children": [
+            {
+              "name": "Update-PsLaArmParameterFile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

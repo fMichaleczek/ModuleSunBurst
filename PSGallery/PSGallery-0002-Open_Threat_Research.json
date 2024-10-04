@@ -1,0 +1,191 @@
+{
+  "name": "Open Threat Research",
+  "children": [
+    {
+      "name": "PwshAzCosmosDB",
+      "companyName": "Open Threat Research",
+      "children": [
+        {
+          "name": "AzCosmosDB",
+          "children": [
+            {
+              "name": "Connect-AzCosmosDB"
+            }
+          ]
+        },
+        {
+          "name": "AzCosmosDBDocument",
+          "children": [
+            {
+              "name": "Get-AzCosmosDBDocument"
+            },
+            {
+              "name": "Update-AzCosmosDBDocument"
+            },
+            {
+              "name": "Remove-AzCosmosDBDocument"
+            },
+            {
+              "name": "New-AzCosmosDBDocument"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PwshAzContainer",
+      "companyName": "Open Threat Research",
+      "children": [
+        {
+          "name": "AzResourceManager",
+          "children": [
+            {
+              "name": "Connect-AzResourceManager"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerAppEnvironment",
+          "children": [
+            {
+              "name": "Get-AzContainerAppEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerAppJobExecution",
+          "children": [
+            {
+              "name": "Get-AzContainerAppJobExecution"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerAppJobResource",
+          "children": [
+            {
+              "name": "Get-AzContainerAppJobResource"
+            },
+            {
+              "name": "New-AzContainerAppJobResource"
+            },
+            {
+              "name": "Remove-AzContainerAppJobResource"
+            },
+            {
+              "name": "Start-AzContainerAppJobResource"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerAppResource",
+          "children": [
+            {
+              "name": "Get-AzContainerAppResource"
+            },
+            {
+              "name": "New-AzContainerAppResource"
+            },
+            {
+              "name": "Remove-AzContainerAppResource"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerGroupResource",
+          "children": [
+            {
+              "name": "Get-AzContainerGroupResource"
+            },
+            {
+              "name": "New-AzContainerGroupResource"
+            },
+            {
+              "name": "Remove-AzContainerGroupResource"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerAppIngress",
+          "children": [
+            {
+              "name": "New-AzContainerAppIngress"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerAppJobExecutionTemplate",
+          "children": [
+            {
+              "name": "New-AzContainerAppJobExecutionTemplate"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerAppJobTemplate",
+          "children": [
+            {
+              "name": "New-AzContainerAppJobTemplate"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerAppRegistryCredentials",
+          "children": [
+            {
+              "name": "New-AzContainerAppRegistryCredentials"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerAppTemplate",
+          "children": [
+            {
+              "name": "New-AzContainerAppTemplate"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerAppTrafficWeight",
+          "children": [
+            {
+              "name": "New-AzContainerAppTrafficWeight"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerGroupPort",
+          "children": [
+            {
+              "name": "New-AzContainerGroupPort"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerGroupRegistryCredentials",
+          "children": [
+            {
+              "name": "New-AzContainerGroupRegistryCredentials"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerInstanceContainer",
+          "children": [
+            {
+              "name": "New-AzContainerInstanceContainer"
+            }
+          ]
+        },
+        {
+          "name": "AzContainerInstancePort",
+          "children": [
+            {
+              "name": "New-AzContainerInstancePort"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

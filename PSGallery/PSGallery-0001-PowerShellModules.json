@@ -1,0 +1,51 @@
+{
+  "name": "PowerShellModules",
+  "children": [
+    {
+      "name": "PesterHelpers",
+      "companyName": "PowerShellModules",
+      "children": [
+        {
+          "name": "Function",
+          "children": [
+            {
+              "name": "Export-Function"
+            }
+          ]
+        },
+        {
+          "name": "FunctionFile",
+          "children": [
+            {
+              "name": "New-FunctionFile"
+            }
+          ]
+        },
+        {
+          "name": "FunctionPesterTest",
+          "children": [
+            {
+              "name": "New-FunctionPesterTest"
+            }
+          ]
+        },
+        {
+          "name": "ModulePesterTest",
+          "children": [
+            {
+              "name": "New-ModulePesterTest"
+            }
+          ]
+        },
+        {
+          "name": "AllModuleFunction",
+          "children": [
+            {
+              "name": "Export-AllModuleFunction"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

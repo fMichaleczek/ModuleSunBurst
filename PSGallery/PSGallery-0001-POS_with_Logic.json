@@ -1,0 +1,59 @@
+{
+  "name": "POS with Logic",
+  "children": [
+    {
+      "name": "Deploy-DotNet48",
+      "companyName": "POS with Logic",
+      "children": [
+        {
+          "name": "PatchState",
+          "children": [
+            {
+              "name": "Get-PatchState"
+            }
+          ]
+        },
+        {
+          "name": "UNCProperPath",
+          "children": [
+            {
+              "name": "Resolve-UNCProperPath"
+            }
+          ]
+        },
+        {
+          "name": "Patch",
+          "children": [
+            {
+              "name": "Deploy-Patch"
+            }
+          ]
+        },
+        {
+          "name": "Property",
+          "children": [
+            {
+              "name": "Copy-Property"
+            }
+          ]
+        },
+        {
+          "name": "RebootState",
+          "children": [
+            {
+              "name": "Get-RebootState"
+            }
+          ]
+        },
+        {
+          "name": "RequierdAssets",
+          "children": [
+            {
+              "name": "Get-RequierdAssets"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

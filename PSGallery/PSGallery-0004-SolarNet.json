@@ -1,0 +1,357 @@
+{
+  "name": "SolarNet",
+  "children": [
+    {
+      "name": "SimplyXD",
+      "companyName": "SolarNet",
+      "children": [
+        {
+          "name": "XdDocumentOperation",
+          "children": [
+            {
+              "name": "Add-XdDocumentOperation"
+            },
+            {
+              "name": "Get-XdDocumentOperation"
+            }
+          ]
+        },
+        {
+          "name": "XdDocumentProvider",
+          "children": [
+            {
+              "name": "Add-XdDocumentProvider"
+            },
+            {
+              "name": "Get-XdDocumentProvider"
+            }
+          ]
+        },
+        {
+          "name": "XdGroupUser",
+          "children": [
+            {
+              "name": "Add-XdGroupUser"
+            },
+            {
+              "name": "Get-XdGroupUser"
+            }
+          ]
+        },
+        {
+          "name": "XdBatchGroup",
+          "children": [
+            {
+              "name": "Clear-XdBatchGroup"
+            },
+            {
+              "name": "Get-XdBatchGroup"
+            },
+            {
+              "name": "New-XdBatchGroup"
+            },
+            {
+              "name": "Remove-XdBatchGroup"
+            }
+          ]
+        },
+        {
+          "name": "XdPortal",
+          "children": [
+            {
+              "name": "Connect-XdPortal"
+            },
+            {
+              "name": "Get-XdPortal"
+            }
+          ]
+        },
+        {
+          "name": "XdTemplate",
+          "children": [
+            {
+              "name": "Export-XdTemplate"
+            },
+            {
+              "name": "Get-XdTemplate"
+            },
+            {
+              "name": "Import-XdTemplate"
+            },
+            {
+              "name": "New-XdTemplate"
+            },
+            {
+              "name": "Remove-XdTemplate"
+            },
+            {
+              "name": "Set-XdTemplate"
+            }
+          ]
+        },
+        {
+          "name": "XdAddInPackage",
+          "children": [
+            {
+              "name": "Get-XdAddInPackage"
+            }
+          ]
+        },
+        {
+          "name": "XdBatch",
+          "children": [
+            {
+              "name": "Get-XdBatch"
+            },
+            {
+              "name": "New-XdBatch"
+            },
+            {
+              "name": "Remove-XdBatch"
+            },
+            {
+              "name": "Start-XdBatch"
+            }
+          ]
+        },
+        {
+          "name": "XdConfig",
+          "children": [
+            {
+              "name": "Get-XdConfig"
+            }
+          ]
+        },
+        {
+          "name": "XdDocument",
+          "children": [
+            {
+              "name": "Get-XdDocument"
+            },
+            {
+              "name": "New-XdDocument"
+            }
+          ]
+        },
+        {
+          "name": "XdGroup",
+          "children": [
+            {
+              "name": "Get-XdGroup"
+            }
+          ]
+        },
+        {
+          "name": "XdTemplateGroup",
+          "children": [
+            {
+              "name": "Get-XdTemplateGroup"
+            },
+            {
+              "name": "New-XdTemplateGroup"
+            },
+            {
+              "name": "Remove-XdTemplateGroup"
+            }
+          ]
+        },
+        {
+          "name": "XdTemplateLibrary",
+          "children": [
+            {
+              "name": "Get-XdTemplateLibrary"
+            },
+            {
+              "name": "New-XdTemplateLibrary"
+            },
+            {
+              "name": "Remove-XdTemplateLibrary"
+            }
+          ]
+        },
+        {
+          "name": "XdUserProfile",
+          "children": [
+            {
+              "name": "Get-XdUserProfile"
+            },
+            {
+              "name": "New-XdUserProfile"
+            },
+            {
+              "name": "Remove-XdUserProfile"
+            },
+            {
+              "name": "Set-XdUserProfile"
+            }
+          ]
+        },
+        {
+          "name": "XdTemplateContent",
+          "children": [
+            {
+              "name": "Set-XdTemplateContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SimplySql",
+      "companyName": "SolarNet",
+      "children": [
+        {
+          "name": "SqlMessage",
+          "children": [
+            {
+              "name": "Clear-SqlMessage"
+            },
+            {
+              "name": "Get-SqlMessage"
+            }
+          ]
+        },
+        {
+          "name": "SqlConnection",
+          "children": [
+            {
+              "name": "Close-SqlConnection"
+            },
+            {
+              "name": "Get-SqlConnection"
+            },
+            {
+              "name": "Open-SQLConnection"
+            },
+            {
+              "name": "Set-SqlConnection"
+            },
+            {
+              "name": "Show-SqlConnection"
+            },
+            {
+              "name": "Test-SqlConnection"
+            }
+          ]
+        },
+        {
+          "name": "SqlTransaction",
+          "children": [
+            {
+              "name": "Complete-SqlTransaction"
+            },
+            {
+              "name": "Get-SqlTransaction"
+            },
+            {
+              "name": "Start-SqlTransaction"
+            },
+            {
+              "name": "Undo-SqlTransaction"
+            }
+          ]
+        },
+        {
+          "name": "SqlBulkCopy",
+          "children": [
+            {
+              "name": "Invoke-SqlBulkCopy"
+            }
+          ]
+        },
+        {
+          "name": "SqlQuery",
+          "children": [
+            {
+              "name": "Invoke-SqlQuery"
+            }
+          ]
+        },
+        {
+          "name": "SqlScalar",
+          "children": [
+            {
+              "name": "Invoke-SqlScalar"
+            }
+          ]
+        },
+        {
+          "name": "SqlUpdate",
+          "children": [
+            {
+              "name": "Invoke-SqlUpdate"
+            }
+          ]
+        },
+        {
+          "name": "MySqlConnection",
+          "children": [
+            {
+              "name": "Open-MySqlConnection"
+            }
+          ]
+        },
+        {
+          "name": "OracleConnection",
+          "children": [
+            {
+              "name": "Open-OracleConnection"
+            }
+          ]
+        },
+        {
+          "name": "PostGreConnection",
+          "children": [
+            {
+              "name": "Open-PostGreConnection"
+            }
+          ]
+        },
+        {
+          "name": "SQLiteConnection",
+          "children": [
+            {
+              "name": "Open-SQLiteConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SimplyLog",
+      "companyName": "SolarNet",
+      "children": [
+        {
+          "name": "PSLog",
+          "children": [
+            {
+              "name": "Write-PSLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SimplyDraw",
+      "companyName": "SolarNet",
+      "children": [
+        {
+          "name": "BoxChar",
+          "children": [
+            {
+              "name": "Get-BoxChar"
+            }
+          ]
+        },
+        {
+          "name": "BoxClass",
+          "children": [
+            {
+              "name": "Get-BoxClass"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "name": "Equinor",
+  "children": [
+    {
+      "name": "Om.Yaml",
+      "companyName": "Equinor",
+      "children": [
+        {
+          "name": "OmYaml",
+          "children": [
+            {
+              "name": "ConvertFrom-OmYaml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Om.Azure.Management",
+      "companyName": "Equinor",
+      "children": [
+        {
+          "name": "OmResourceID",
+          "children": [
+            {
+              "name": "ConvertFrom-OmResourceID"
+            },
+            {
+              "name": "ConvertTo-OmResourceID"
+            }
+          ]
+        },
+        {
+          "name": "OmAADObject",
+          "children": [
+            {
+              "name": "Get-OmAADObject"
+            }
+          ]
+        },
+        {
+          "name": "OmAADMGraphGroup",
+          "children": [
+            {
+              "name": "Get-OmAADMGraphGroup"
+            }
+          ]
+        },
+        {
+          "name": "OmAADMGraphServicePrincipal",
+          "children": [
+            {
+              "name": "Get-OmAADMGraphServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "OmAADGroup",
+          "children": [
+            {
+              "name": "Expand-OmAADGroup"
+            }
+          ]
+        },
+        {
+          "name": "OmParentManagementGroup",
+          "children": [
+            {
+              "name": "Get-OmParentManagementGroup"
+            }
+          ]
+        },
+        {
+          "name": "OmParentResourceID",
+          "children": [
+            {
+              "name": "Get-OmParentResourceID"
+            }
+          ]
+        },
+        {
+          "name": "OmSubscriptionsFromMG",
+          "children": [
+            {
+              "name": "Get-OmSubscriptionsFromMG"
+            }
+          ]
+        },
+        {
+          "name": "OmRoleDefinitions",
+          "children": [
+            {
+              "name": "Get-OmRoleDefinitions"
+            }
+          ]
+        },
+        {
+          "name": "OmMgDecendants",
+          "children": [
+            {
+              "name": "Get-OmMgDecendants"
+            }
+          ]
+        },
+        {
+          "name": "OmMgSubscriptionDecendants",
+          "children": [
+            {
+              "name": "Get-OmMgSubscriptionDecendants"
+            }
+          ]
+        },
+        {
+          "name": "OmMgManagementGroupDecendants",
+          "children": [
+            {
+              "name": "Get-OmMgManagementGroupDecendants"
+            }
+          ]
+        },
+        {
+          "name": "OmAzureRMAuthHeader",
+          "children": [
+            {
+              "name": "Get-OmAzureRMAuthHeader"
+            }
+          ]
+        },
+        {
+          "name": "OmAzureMGraphAuthHeader",
+          "children": [
+            {
+              "name": "Get-OmAzureMGraphAuthHeader"
+            }
+          ]
+        },
+        {
+          "name": "OmPrivilegedAzureResource",
+          "children": [
+            {
+              "name": "Get-OmPrivilegedAzureResource"
+            }
+          ]
+        },
+        {
+          "name": "OmPrivilegedAzureResourcesRoleDefinitions",
+          "children": [
+            {
+              "name": "Get-OmPrivilegedAzureResourcesRoleDefinitions"
+            }
+          ]
+        },
+        {
+          "name": "OmPrivilegedAzureResourcesroleAssignments",
+          "children": [
+            {
+              "name": "Get-OmPrivilegedAzureResourcesroleAssignments"
+            }
+          ]
+        },
+        {
+          "name": "OmResourceGraph",
+          "children": [
+            {
+              "name": "Search-OmResourceGraph"
+            }
+          ]
+        },
+        {
+          "name": "OmSharedKey",
+          "children": [
+            {
+              "name": "Get-OmSharedKey"
+            }
+          ]
+        },
+        {
+          "name": "OmLogAnalyticsData",
+          "children": [
+            {
+              "name": "Post-OmLogAnalyticsData"
+            }
+          ]
+        },
+        {
+          "name": "OmJobOutput",
+          "children": [
+            {
+              "name": "Get-OmJobOutput"
+            }
+          ]
+        },
+        {
+          "name": "OmPrivilegedEligibleRoleAssignments",
+          "children": [
+            {
+              "name": "Get-OmPrivilegedEligibleRoleAssignments"
+            }
+          ]
+        },
+        {
+          "name": "OmPrivilegedEligibleRoleAssignmentInstances",
+          "children": [
+            {
+              "name": "Get-OmPrivilegedEligibleRoleAssignmentInstances"
+            }
+          ]
+        },
+        {
+          "name": "OmPrivilegedEligibleRoleAssignment",
+          "children": [
+            {
+              "name": "New-OmPrivilegedEligibleRoleAssignment"
+            }
+          ]
+        },
+        {
+          "name": "OmPrivilegedRoleAssignments",
+          "children": [
+            {
+              "name": "Get-OmPrivilegedRoleAssignments"
+            }
+          ]
+        },
+        {
+          "name": "OmPrivilegedRoleAssignmentInstances",
+          "children": [
+            {
+              "name": "Get-OmPrivilegedRoleAssignmentInstances"
+            }
+          ]
+        },
+        {
+          "name": "OmRoleAssignments",
+          "children": [
+            {
+              "name": "Get-OmRoleAssignments"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "name": "github trondr",
+  "children": [
+    {
+      "name": "DriverTool.PowerCLI",
+      "companyName": "github trondr",
+      "children": [
+        {
+          "name": "DtDriverPack",
+          "children": [
+            {
+              "name": "Get-DtDriverPack"
+            }
+          ]
+        },
+        {
+          "name": "DtDriverUpdates",
+          "children": [
+            {
+              "name": "Get-DtDriverUpdates"
+            }
+          ]
+        },
+        {
+          "name": "DtDownloadDriverPack",
+          "children": [
+            {
+              "name": "Invoke-DtDownloadDriverPack"
+            }
+          ]
+        },
+        {
+          "name": "DtDownloadDriverUpdates",
+          "children": [
+            {
+              "name": "Invoke-DtDownloadDriverUpdates"
+            }
+          ]
+        },
+        {
+          "name": "DtExceptionToMessage",
+          "children": [
+            {
+              "name": "Convert-DtExceptionToMessage"
+            }
+          ]
+        },
+        {
+          "name": "DtDriverPackPackageDefinitionSms",
+          "children": [
+            {
+              "name": "Import-DtDriverPackPackageDefinitionSms"
+            }
+          ]
+        },
+        {
+          "name": "DtScriptNewCmPackageFromDriverPackPackageDefinitionSms",
+          "children": [
+            {
+              "name": "Get-DtScriptNewCmPackageFromDriverPackPackageDefinitionSms"
+            }
+          ]
+        },
+        {
+          "name": "DtScriptNewCmTaskSequenceFromDriverPackPackageDefinitionSms",
+          "children": [
+            {
+              "name": "Get-DtScriptNewCmTaskSequenceFromDriverPackPackageDefinitionSms"
+            }
+          ]
+        },
+        {
+          "name": "DtIsDriverUpdateRequired",
+          "children": [
+            {
+              "name": "Test-DtIsDriverUpdateRequired"
+            }
+          ]
+        },
+        {
+          "name": "DtDriverTool",
+          "children": [
+            {
+              "name": "Invoke-DtDriverTool"
+            }
+          ]
+        },
+        {
+          "name": "DtCmDeviceModel",
+          "children": [
+            {
+              "name": "Get-DtCmDeviceModel"
+            }
+          ]
+        },
+        {
+          "name": "DtCmSite",
+          "children": [
+            {
+              "name": "Connect-DtCmSite"
+            }
+          ]
+        },
+        {
+          "name": "DtCmPackageFromDriverPackPackageDefinitionSms",
+          "children": [
+            {
+              "name": "New-DtCmPackageFromDriverPackPackageDefinitionSms"
+            }
+          ]
+        },
+        {
+          "name": "DtCmTaskSequenceFromDriverPackPackageDefinitionSms",
+          "children": [
+            {
+              "name": "New-DtCmTaskSequenceFromDriverPackPackageDefinitionSms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DefenderAsrPreference",
+      "companyName": "github trondr",
+      "children": [
+        {
+          "name": "DefenderAsrPreference",
+          "children": [
+            {
+              "name": "Get-DefenderAsrPreference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MovieToGif",
+      "companyName": "github trondr",
+      "children": [
+        {
+          "name": "MovieToGif",
+          "children": [
+            {
+              "name": "Convert-MovieToGif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SccmAM",
+      "companyName": "github trondr",
+      "children": [
+        {
+          "name": "SAMCmSite",
+          "children": [
+            {
+              "name": "Connect-SAMCmSite"
+            }
+          ]
+        },
+        {
+          "name": "SAMCmAssignedSite",
+          "children": [
+            {
+              "name": "Get-SAMCmAssignedSite"
+            }
+          ]
+        },
+        {
+          "name": "SAMCmCurrentManagementPoint",
+          "children": [
+            {
+              "name": "Get-SAMCmCurrentManagementPoint"
+            }
+          ]
+        },
+        {
+          "name": "SAMPackageDefinitionSms",
+          "children": [
+            {
+              "name": "Import-SAMPackageDefinitionSms"
+            }
+          ]
+        },
+        {
+          "name": "SAMCmApplicationFromPackageDefinitionSms",
+          "children": [
+            {
+              "name": "New-SAMCmApplicationFromPackageDefinitionSms"
+            }
+          ]
+        },
+        {
+          "name": "SAMCmPackageFromPackageDefinitionSms",
+          "children": [
+            {
+              "name": "New-SAMCmPackageFromPackageDefinitionSms"
+            }
+          ]
+        },
+        {
+          "name": "SAMCmApplicationExists",
+          "children": [
+            {
+              "name": "Test-SAMCmApplicationExists"
+            }
+          ]
+        },
+        {
+          "name": "SAMCmPackageExists",
+          "children": [
+            {
+              "name": "Test-SAMCmPackageExists"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

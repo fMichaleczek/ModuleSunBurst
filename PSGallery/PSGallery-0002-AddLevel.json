@@ -1,0 +1,47 @@
+{
+  "name": "AddLevel",
+  "children": [
+    {
+      "name": "Kickstart",
+      "companyName": "AddLevel",
+      "children": [
+        {
+          "name": "Kickstart",
+          "children": [
+            {
+              "name": "Start-Kickstart"
+            },
+            {
+              "name": "Remove-Kickstart"
+            },
+            {
+              "name": "Show-Kickstart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NonPSJob",
+      "companyName": "AddLevel",
+      "children": [
+        {
+          "name": "NonPSJob",
+          "children": [
+            {
+              "name": "Get-NonPSJob"
+            }
+          ]
+        },
+        {
+          "name": "Propeller",
+          "children": [
+            {
+              "name": "Get-Propeller"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

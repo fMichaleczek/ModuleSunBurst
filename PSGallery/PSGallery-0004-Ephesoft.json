@@ -1,0 +1,418 @@
+{
+  "name": "Ephesoft",
+  "children": [
+    {
+      "name": "Ephesoft.Transact",
+      "companyName": "Ephesoft",
+      "children": [
+        {
+          "name": "TransactBatchClassList",
+          "children": [
+            {
+              "name": "Get-TransactBatchClassList"
+            }
+          ]
+        },
+        {
+          "name": "TransactBatchClass",
+          "children": [
+            {
+              "name": "Import-TransactBatchClass"
+            }
+          ]
+        },
+        {
+          "name": "TransactBatch",
+          "children": [
+            {
+              "name": "Submit-TransactBatch"
+            }
+          ]
+        },
+        {
+          "name": "TransactService",
+          "children": [
+            {
+              "name": "Restart-TransactService"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GitPS",
+      "companyName": "Ephesoft",
+      "children": [
+        {
+          "name": "GitChangesToCommit",
+          "children": [
+            {
+              "name": "Add-GitChangesToCommit"
+            }
+          ]
+        },
+        {
+          "name": "GitBranch",
+          "children": [
+            {
+              "name": "Switch-GitBranch"
+            },
+            {
+              "name": "New-GitBranch"
+            },
+            {
+              "name": "Push-GitBranch"
+            },
+            {
+              "name": "Update-GitBranch"
+            }
+          ]
+        },
+        {
+          "name": "GitRepository",
+          "children": [
+            {
+              "name": "Get-GitRepository"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NewRelicPS",
+      "companyName": "Ephesoft",
+      "children": [
+        {
+          "name": "NRNotificationChannelToAlertPolicy",
+          "children": [
+            {
+              "name": "Add-NRNotificationChannelToAlertPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NRAlertPolicy",
+          "children": [
+            {
+              "name": "Get-NRAlertPolicy"
+            },
+            {
+              "name": "New-NRAlertPolicy"
+            },
+            {
+              "name": "Remove-NRAlertPolicy"
+            },
+            {
+              "name": "Update-NRAlertPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NRAPMEntity",
+          "children": [
+            {
+              "name": "Get-NRAPMEntity"
+            }
+          ]
+        },
+        {
+          "name": "NRDashboard",
+          "children": [
+            {
+              "name": "Get-NRDashboard"
+            },
+            {
+              "name": "Copy-NRDashboard"
+            },
+            {
+              "name": "New-NRDashboard"
+            },
+            {
+              "name": "Remove-NRDashboard"
+            },
+            {
+              "name": "Restore-NRDashboard"
+            },
+            {
+              "name": "Update-NRDashboard"
+            }
+          ]
+        },
+        {
+          "name": "NRDashboardList",
+          "children": [
+            {
+              "name": "Get-NRDashboardList"
+            }
+          ]
+        },
+        {
+          "name": "NRInsightsQuery",
+          "children": [
+            {
+              "name": "Get-NRInsightsQuery"
+            }
+          ]
+        },
+        {
+          "name": "NRNotificationChannel",
+          "children": [
+            {
+              "name": "Get-NRNotificationChannel"
+            },
+            {
+              "name": "New-NRNotificationChannel"
+            },
+            {
+              "name": "Remove-NRNotificationChannel"
+            }
+          ]
+        },
+        {
+          "name": "NRQLCondition",
+          "children": [
+            {
+              "name": "Get-NRQLCondition"
+            },
+            {
+              "name": "New-NRQLCondition"
+            },
+            {
+              "name": "Update-NRQLCondition"
+            }
+          ]
+        },
+        {
+          "name": "NRNormalizationRule",
+          "children": [
+            {
+              "name": "Get-NRNormalizationRule"
+            },
+            {
+              "name": "New-NRNormalizationRule"
+            },
+            {
+              "name": "Update-NRNormalizationRule"
+            }
+          ]
+        },
+        {
+          "name": "NRSyntheticLocationList",
+          "children": [
+            {
+              "name": "Get-NRSyntheticLocationList"
+            }
+          ]
+        },
+        {
+          "name": "NRSyntheticLocationCondition",
+          "children": [
+            {
+              "name": "Get-NRSyntheticLocationCondition"
+            },
+            {
+              "name": "New-NRSyntheticLocationCondition"
+            },
+            {
+              "name": "Remove-NRSyntheticLocationCondition"
+            },
+            {
+              "name": "Update-NRSyntheticLocationCondition"
+            }
+          ]
+        },
+        {
+          "name": "NRSyntheticMonitor",
+          "children": [
+            {
+              "name": "Get-NRSyntheticMonitor"
+            },
+            {
+              "name": "New-NRSyntheticMonitor"
+            },
+            {
+              "name": "Remove-NRSyntheticMonitor"
+            },
+            {
+              "name": "Update-NRSyntheticMonitor"
+            }
+          ]
+        },
+        {
+          "name": "NRSyntheticMonitorScript",
+          "children": [
+            {
+              "name": "Get-NRSyntheticMonitorScript"
+            },
+            {
+              "name": "Update-NRSyntheticMonitorScript"
+            }
+          ]
+        },
+        {
+          "name": "NRSyntheticSecureCredential",
+          "children": [
+            {
+              "name": "Get-NRSyntheticSecureCredential"
+            },
+            {
+              "name": "New-NRSyntheticSecureCredential"
+            },
+            {
+              "name": "Remove-NRSyntheticSecureCredential"
+            },
+            {
+              "name": "Update-NRSyntheticSecureCredential"
+            }
+          ]
+        },
+        {
+          "name": "NRCondition",
+          "children": [
+            {
+              "name": "Remove-NRCondition"
+            }
+          ]
+        },
+        {
+          "name": "NRNotificationChannelFromAlertPolicy",
+          "children": [
+            {
+              "name": "Remove-NRNotificationChannelFromAlertPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NRConfiguration",
+          "children": [
+            {
+              "name": "Update-NRConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "NRHostName",
+          "children": [
+            {
+              "name": "Get-NRHostName"
+            }
+          ]
+        },
+        {
+          "name": "NRApplication",
+          "children": [
+            {
+              "name": "Get-NRApplication"
+            }
+          ]
+        },
+        {
+          "name": "NRQLQuery",
+          "children": [
+            {
+              "name": "Invoke-NRQLQuery"
+            }
+          ]
+        },
+        {
+          "name": "NRMutingRule",
+          "children": [
+            {
+              "name": "New-NRMutingRule"
+            }
+          ]
+        },
+        {
+          "name": "NRResourceTag",
+          "children": [
+            {
+              "name": "New-NRResourceTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pingdom.Management",
+      "companyName": "Ephesoft",
+      "children": [
+        {
+          "name": "PingdomCheck",
+          "children": [
+            {
+              "name": "Get-PingdomCheck"
+            },
+            {
+              "name": "New-PingdomCheck"
+            },
+            {
+              "name": "Remove-PingdomCheck"
+            }
+          ]
+        },
+        {
+          "name": "PingdomCheckUptime",
+          "children": [
+            {
+              "name": "Get-PingdomCheckUptime"
+            }
+          ]
+        },
+        {
+          "name": "PingdomCheckOutageCount",
+          "children": [
+            {
+              "name": "Get-PingdomCheckOutageCount"
+            }
+          ]
+        },
+        {
+          "name": "PingdomUptimeReport",
+          "children": [
+            {
+              "name": "Get-PingdomUptimeReport"
+            }
+          ]
+        },
+        {
+          "name": "PingdomCheckByID",
+          "children": [
+            {
+              "name": "Update-PingdomCheckByID"
+            }
+          ]
+        },
+        {
+          "name": "PingdomProbeList",
+          "children": [
+            {
+              "name": "Get-PingdomProbeList"
+            }
+          ]
+        },
+        {
+          "name": "PingdomMaintenance",
+          "children": [
+            {
+              "name": "Get-PingdomMaintenance"
+            },
+            {
+              "name": "New-PingdomMaintenance"
+            },
+            {
+              "name": "Remove-PingdomMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "CheckToPingdomMaintenance",
+          "children": [
+            {
+              "name": "Add-CheckToPingdomMaintenance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

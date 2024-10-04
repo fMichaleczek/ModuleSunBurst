@@ -1,0 +1,512 @@
+{
+  "name": "RiverMeadow Software Inc.",
+  "children": [
+    {
+      "name": "RiverMeadow.Release.Migrate",
+      "companyName": "RiverMeadow Software Inc.",
+      "children": [
+        {
+          "name": "RMLogin",
+          "children": [
+            {
+              "name": "Invoke-RMLogin"
+            }
+          ]
+        },
+        {
+          "name": "RMLogout",
+          "children": [
+            {
+              "name": "Invoke-RMLogout"
+            }
+          ]
+        },
+        {
+          "name": "RMProject",
+          "children": [
+            {
+              "name": "Switch-RMProject"
+            }
+          ]
+        },
+        {
+          "name": "RMSource",
+          "children": [
+            {
+              "name": "Add-RMSource"
+            }
+          ]
+        },
+        {
+          "name": "RMVSphereOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMVSphereOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMVSphereVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMVSphereVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAzureOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAzureOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAzureVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAzureVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAWSOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAWSOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAWSVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAWSVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMOSBasedWorkloadDeltaMigration",
+          "children": [
+            {
+              "name": "Start-RMOSBasedWorkloadDeltaMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMGCPOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMGCPOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMGCPVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMGCPVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMVMBasedWorkloadDeltaMigration",
+          "children": [
+            {
+              "name": "Start-RMVMBasedWorkloadDeltaMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMMigrations",
+          "children": [
+            {
+              "name": "Get-RMMigrations"
+            }
+          ]
+        },
+        {
+          "name": "RMMigration",
+          "children": [
+            {
+              "name": "Stop-RMMigration"
+            },
+            {
+              "name": "Search-RMMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMVsphereSource",
+          "children": [
+            {
+              "name": "Update-RMVsphereSource"
+            }
+          ]
+        },
+        {
+          "name": "RMRevertInSituMigration",
+          "children": [
+            {
+              "name": "Start-RMRevertInSituMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMRemoveInSituMigration",
+          "children": [
+            {
+              "name": "Start-RMRemoveInSituMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMInSituMigration",
+          "children": [
+            {
+              "name": "Start-RMInSituMigration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RiverMeadow.Migrate",
+      "companyName": "RiverMeadow Software Inc.",
+      "children": [
+        {
+          "name": "RMLogin",
+          "children": [
+            {
+              "name": "Invoke-RMLogin"
+            }
+          ]
+        },
+        {
+          "name": "RMLogout",
+          "children": [
+            {
+              "name": "Invoke-RMLogout"
+            }
+          ]
+        },
+        {
+          "name": "RMProject",
+          "children": [
+            {
+              "name": "Switch-RMProject"
+            }
+          ]
+        },
+        {
+          "name": "RMSource",
+          "children": [
+            {
+              "name": "Add-RMSource"
+            }
+          ]
+        },
+        {
+          "name": "RMVSphereOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMVSphereOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMVSphereVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMVSphereVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAzureOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAzureOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAzureVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAzureVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAWSOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAWSOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAWSVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAWSVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMOSBasedDifferentialMigration",
+          "children": [
+            {
+              "name": "Start-RMOSBasedDifferentialMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMGCPOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMGCPOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMGCPVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMGCPVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMVMBasedDifferentialMigration",
+          "children": [
+            {
+              "name": "Start-RMVMBasedDifferentialMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMMigrations",
+          "children": [
+            {
+              "name": "Get-RMMigrations"
+            }
+          ]
+        },
+        {
+          "name": "RMMigration",
+          "children": [
+            {
+              "name": "Stop-RMMigration"
+            },
+            {
+              "name": "Search-RMMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMVsphereSource",
+          "children": [
+            {
+              "name": "Update-RMVsphereSource"
+            }
+          ]
+        },
+        {
+          "name": "RMRevertInSituMigration",
+          "children": [
+            {
+              "name": "Start-RMRevertInSituMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMRemoveInSituMigration",
+          "children": [
+            {
+              "name": "Start-RMRemoveInSituMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMInSituMigration",
+          "children": [
+            {
+              "name": "Start-RMInSituMigration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RiverMeadow.Development.Migrate",
+      "companyName": "RiverMeadow Software Inc.",
+      "children": [
+        {
+          "name": "RMLogin",
+          "children": [
+            {
+              "name": "Invoke-RMLogin"
+            }
+          ]
+        },
+        {
+          "name": "RMLogout",
+          "children": [
+            {
+              "name": "Invoke-RMLogout"
+            }
+          ]
+        },
+        {
+          "name": "RMProject",
+          "children": [
+            {
+              "name": "Switch-RMProject"
+            }
+          ]
+        },
+        {
+          "name": "RMSource",
+          "children": [
+            {
+              "name": "Add-RMSource"
+            }
+          ]
+        },
+        {
+          "name": "RMVSphereOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMVSphereOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMVSphereVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMVSphereVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAzureOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAzureOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAzureVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAzureVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAWSOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAWSOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMAWSVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMAWSVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMOSBasedWorkloadDeltaMigration",
+          "children": [
+            {
+              "name": "Start-RMOSBasedWorkloadDeltaMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMGCPOSBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMGCPOSBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMGCPVMBasedMigration",
+          "children": [
+            {
+              "name": "Start-RMGCPVMBasedMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMVMBasedWorkloadDeltaMigration",
+          "children": [
+            {
+              "name": "Start-RMVMBasedWorkloadDeltaMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMMigrations",
+          "children": [
+            {
+              "name": "Get-RMMigrations"
+            }
+          ]
+        },
+        {
+          "name": "RMMigration",
+          "children": [
+            {
+              "name": "Stop-RMMigration"
+            },
+            {
+              "name": "Search-RMMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMVsphereSource",
+          "children": [
+            {
+              "name": "Update-RMVsphereSource"
+            }
+          ]
+        },
+        {
+          "name": "RMRevertInSituMigration",
+          "children": [
+            {
+              "name": "Start-RMRevertInSituMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMRemoveInSituMigration",
+          "children": [
+            {
+              "name": "Start-RMRemoveInSituMigration"
+            }
+          ]
+        },
+        {
+          "name": "RMInSituMigration",
+          "children": [
+            {
+              "name": "Start-RMInSituMigration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

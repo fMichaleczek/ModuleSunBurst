@@ -1,0 +1,177 @@
+{
+  "name": "SHIMSOFT",
+  "children": [
+    {
+      "name": "SHIMSOFT-NetProcess",
+      "companyName": "SHIMSOFT",
+      "children": [
+        {
+          "name": "NetProcess",
+          "children": [
+            {
+              "name": "Get-NetProcess"
+            }
+          ]
+        },
+        {
+          "name": "IsUsedIP",
+          "children": [
+            {
+              "name": "Test-IsUsedIP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SHIMSOFT-iTunesSearch",
+      "companyName": "SHIMSOFT",
+      "children": [
+        {
+          "name": "iTunesAppInfo",
+          "children": [
+            {
+              "name": "Get-iTunesAppInfo"
+            }
+          ]
+        },
+        {
+          "name": "iTunesArtistInfo",
+          "children": [
+            {
+              "name": "Get-iTunesArtistInfo"
+            }
+          ]
+        },
+        {
+          "name": "iTunesMusicInfo",
+          "children": [
+            {
+              "name": "Get-iTunesMusicInfo"
+            }
+          ]
+        },
+        {
+          "name": "Wild",
+          "children": [
+            {
+              "name": "Get-Wild"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SHIMSOFT-Holidays",
+      "companyName": "SHIMSOFT",
+      "children": [
+        {
+          "name": "NextWeekDay",
+          "children": [
+            {
+              "name": "Get-NextWeekDay"
+            }
+          ]
+        },
+        {
+          "name": "HolidaysTemplate",
+          "children": [
+            {
+              "name": "Reset-HolidaysTemplate"
+            },
+            {
+              "name": "Get-HolidaysTemplate"
+            },
+            {
+              "name": "Update-HolidaysTemplate"
+            }
+          ]
+        },
+        {
+          "name": "Holidays",
+          "children": [
+            {
+              "name": "Get-Holidays"
+            }
+          ]
+        },
+        {
+          "name": "CustomHoliday",
+          "children": [
+            {
+              "name": "New-CustomHoliday"
+            },
+            {
+              "name": "Add-CustomHoliday"
+            },
+            {
+              "name": "Remove-CustomHoliday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SHIMSOFT-Fundamentals",
+      "companyName": "SHIMSOFT",
+      "children": [
+        {
+          "name": "PropertyNames",
+          "children": [
+            {
+              "name": "Get-PropertyNames"
+            }
+          ]
+        },
+        {
+          "name": "MSProductLifeCycle",
+          "children": [
+            {
+              "name": "Get-MSProductLifeCycle"
+            }
+          ]
+        },
+        {
+          "name": "Narrow",
+          "children": [
+            {
+              "name": "ConvertTo-Narrow"
+            }
+          ]
+        },
+        {
+          "name": "Wide",
+          "children": [
+            {
+              "name": "ConvertTo-Wide"
+            }
+          ]
+        },
+        {
+          "name": "IsNumeric",
+          "children": [
+            {
+              "name": "Test-IsNumeric"
+            }
+          ]
+        },
+        {
+          "name": "WindowsFeature",
+          "children": [
+            {
+              "name": "Format-WindowsFeature"
+            }
+          ]
+        },
+        {
+          "name": "ObjectProperties",
+          "children": [
+            {
+              "name": "Compare-ObjectProperties"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

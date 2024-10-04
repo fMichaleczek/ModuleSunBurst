@@ -1,0 +1,428 @@
+{
+  "name": "thedavecarroll",
+  "children": [
+    {
+      "name": "BluebirdPS",
+      "companyName": "thedavecarroll",
+      "children": [
+        {
+          "name": "TwitterAuthentication",
+          "children": [
+            {
+              "name": "Export-TwitterAuthentication"
+            },
+            {
+              "name": "Import-TwitterAuthentication"
+            },
+            {
+              "name": "Set-TwitterAuthentication"
+            },
+            {
+              "name": "Show-TwitterAuthentication"
+            },
+            {
+              "name": "Test-TwitterAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "TwitterBearerToken",
+          "children": [
+            {
+              "name": "Set-TwitterBearerToken"
+            }
+          ]
+        },
+        {
+          "name": "TwitterRequest",
+          "children": [
+            {
+              "name": "Invoke-TwitterRequest"
+            }
+          ]
+        },
+        {
+          "name": "TwitterDM",
+          "children": [
+            {
+              "name": "Get-TwitterDM"
+            },
+            {
+              "name": "Publish-TwitterDM"
+            },
+            {
+              "name": "Unpublish-TwitterDM"
+            }
+          ]
+        },
+        {
+          "name": "TwitterMedia",
+          "children": [
+            {
+              "name": "Send-TwitterMedia"
+            }
+          ]
+        },
+        {
+          "name": "TwitterSavedSearch",
+          "children": [
+            {
+              "name": "Add-TwitterSavedSearch"
+            },
+            {
+              "name": "Get-TwitterSavedSearch"
+            },
+            {
+              "name": "Remove-TwitterSavedSearch"
+            }
+          ]
+        },
+        {
+          "name": "TwitterAccountSettings",
+          "children": [
+            {
+              "name": "Get-TwitterAccountSettings"
+            }
+          ]
+        },
+        {
+          "name": "TwitterPermissions",
+          "children": [
+            {
+              "name": "Get-TwitterPermissions"
+            }
+          ]
+        },
+        {
+          "name": "TwitterRateLimitStatus",
+          "children": [
+            {
+              "name": "Get-TwitterRateLimitStatus"
+            }
+          ]
+        },
+        {
+          "name": "TwitterUserProfileBanner",
+          "children": [
+            {
+              "name": "Get-TwitterUserProfileBanner"
+            }
+          ]
+        },
+        {
+          "name": "TwitterFriendship",
+          "children": [
+            {
+              "name": "Get-TwitterFriendship"
+            }
+          ]
+        },
+        {
+          "name": "TwitterUserAsSpam",
+          "children": [
+            {
+              "name": "Submit-TwitterUserAsSpam"
+            }
+          ]
+        },
+        {
+          "name": "TwitterList",
+          "children": [
+            {
+              "name": "Add-TwitterList"
+            },
+            {
+              "name": "Get-TwitterList"
+            },
+            {
+              "name": "Remove-TwitterList"
+            },
+            {
+              "name": "Set-TwitterList"
+            }
+          ]
+        },
+        {
+          "name": "TwitterListMember",
+          "children": [
+            {
+              "name": "Add-TwitterListMember"
+            },
+            {
+              "name": "Get-TwitterListMember"
+            },
+            {
+              "name": "Remove-TwitterListMember"
+            }
+          ]
+        },
+        {
+          "name": "TwitterListSubscription",
+          "children": [
+            {
+              "name": "Add-TwitterListSubscription"
+            },
+            {
+              "name": "Get-TwitterListSubscription"
+            },
+            {
+              "name": "Remove-TwitterListSubscription"
+            },
+            {
+              "name": "Test-TwitterListSubscription"
+            }
+          ]
+        },
+        {
+          "name": "TwitterListMembership",
+          "children": [
+            {
+              "name": "Get-TwitterListMembership"
+            },
+            {
+              "name": "Test-TwitterListMembership"
+            }
+          ]
+        },
+        {
+          "name": "TwitterListSubscriber",
+          "children": [
+            {
+              "name": "Get-TwitterListSubscriber"
+            }
+          ]
+        },
+        {
+          "name": "TwitterListTweets",
+          "children": [
+            {
+              "name": "Get-TwitterListTweets"
+            }
+          ]
+        },
+        {
+          "name": "TwitterPinnedList",
+          "children": [
+            {
+              "name": "Get-TwitterPinnedList"
+            },
+            {
+              "name": "Set-TwitterPinnedList"
+            }
+          ]
+        },
+        {
+          "name": "Tweet",
+          "children": [
+            {
+              "name": "Get-Tweet"
+            },
+            {
+              "name": "Publish-Tweet"
+            },
+            {
+              "name": "Search-Tweet"
+            },
+            {
+              "name": "Unpublish-Tweet"
+            }
+          ]
+        },
+        {
+          "name": "TweetConversation",
+          "children": [
+            {
+              "name": "Get-TweetConversation"
+            }
+          ]
+        },
+        {
+          "name": "TweetCount",
+          "children": [
+            {
+              "name": "Get-TweetCount"
+            }
+          ]
+        },
+        {
+          "name": "TweetLikes",
+          "children": [
+            {
+              "name": "Get-TweetLikes"
+            }
+          ]
+        },
+        {
+          "name": "TweetPoll",
+          "children": [
+            {
+              "name": "Get-TweetPoll"
+            }
+          ]
+        },
+        {
+          "name": "TwitterTimeline",
+          "children": [
+            {
+              "name": "Get-TwitterTimeline"
+            }
+          ]
+        },
+        {
+          "name": "Retweet",
+          "children": [
+            {
+              "name": "Set-Retweet"
+            }
+          ]
+        },
+        {
+          "name": "TweetLike",
+          "children": [
+            {
+              "name": "Set-TweetLike"
+            }
+          ]
+        },
+        {
+          "name": "TweetReply",
+          "children": [
+            {
+              "name": "Set-TweetReply"
+            }
+          ]
+        },
+        {
+          "name": "TwitterFriend",
+          "children": [
+            {
+              "name": "Add-TwitterFriend"
+            },
+            {
+              "name": "Remove-TwitterFriend"
+            }
+          ]
+        },
+        {
+          "name": "TwitterBlockedUser",
+          "children": [
+            {
+              "name": "Get-TwitterBlockedUser"
+            },
+            {
+              "name": "Set-TwitterBlockedUser"
+            }
+          ]
+        },
+        {
+          "name": "TwitterFollowers",
+          "children": [
+            {
+              "name": "Get-TwitterFollowers"
+            }
+          ]
+        },
+        {
+          "name": "TwitterFriends",
+          "children": [
+            {
+              "name": "Get-TwitterFriends"
+            }
+          ]
+        },
+        {
+          "name": "TwitterMutedUser",
+          "children": [
+            {
+              "name": "Get-TwitterMutedUser"
+            },
+            {
+              "name": "Set-TwitterMutedUser"
+            }
+          ]
+        },
+        {
+          "name": "TwitterUser",
+          "children": [
+            {
+              "name": "Get-TwitterUser"
+            }
+          ]
+        },
+        {
+          "name": "EpochTime",
+          "children": [
+            {
+              "name": "ConvertFrom-EpochTime"
+            }
+          ]
+        },
+        {
+          "name": "TwitterV1Date",
+          "children": [
+            {
+              "name": "ConvertFrom-TwitterV1Date"
+            }
+          ]
+        },
+        {
+          "name": "BluebirdPSConfiguration",
+          "children": [
+            {
+              "name": "Export-BluebirdPSConfiguration"
+            },
+            {
+              "name": "Get-BluebirdPSConfiguration"
+            },
+            {
+              "name": "Import-BluebirdPSConfiguration"
+            },
+            {
+              "name": "Set-BluebirdPSConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "TwitterMastodonLinks",
+          "children": [
+            {
+              "name": "Find-TwitterMastodonLinks"
+            }
+          ]
+        },
+        {
+          "name": "BluebirdPSAssemblyDetails",
+          "children": [
+            {
+              "name": "Get-BluebirdPSAssemblyDetails"
+            }
+          ]
+        },
+        {
+          "name": "BluebirdPSHistory",
+          "children": [
+            {
+              "name": "Get-BluebirdPSHistory"
+            }
+          ]
+        },
+        {
+          "name": "BluebirdPSVersion",
+          "children": [
+            {
+              "name": "Get-BluebirdPSVersion"
+            }
+          ]
+        },
+        {
+          "name": "TwitterApiEndpoint",
+          "children": [
+            {
+              "name": "Get-TwitterApiEndpoint"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

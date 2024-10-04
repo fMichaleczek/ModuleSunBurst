@@ -1,0 +1,49 @@
+{
+  "name": "RootITUp UG  haftungsbeschr nkt",
+  "children": [
+    {
+      "name": "PSGithubUtils",
+      "companyName": "RootITUp UG  haftungsbeschr nkt",
+      "children": [
+        {
+          "name": "GithubToken",
+          "children": [
+            {
+              "name": "Get-GithubToken"
+            }
+          ]
+        },
+        {
+          "name": "OrganizationMember",
+          "children": [
+            {
+              "name": "New-OrganizationMember"
+            }
+          ]
+        },
+        {
+          "name": "PendingOrganizationInvitations",
+          "children": [
+            {
+              "name": "Get-PendingOrganizationInvitations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDeviceVerification",
+      "companyName": "RootITUp UG  haftungsbeschr nkt",
+      "children": [
+        {
+          "name": "DeviceInformation",
+          "children": [
+            {
+              "name": "Assert-DeviceInformation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Yandex.Cloud",
+  "children": [
+    {
+      "name": "YCPasswordReset",
+      "companyName": "Yandex.Cloud",
+      "children": [
+        {
+          "name": "YCUserPassword",
+          "children": [
+            {
+              "name": "Reset-YCUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "RSAPrivateKey",
+          "children": [
+            {
+              "name": "New-RSAPrivateKey"
+            }
+          ]
+        },
+        {
+          "name": "Modulus",
+          "children": [
+            {
+              "name": "Export-Modulus"
+            }
+          ]
+        },
+        {
+          "name": "Exponent",
+          "children": [
+            {
+              "name": "Export-Exponent"
+            }
+          ]
+        },
+        {
+          "name": "Unixtime",
+          "children": [
+            {
+              "name": "Get-Unixtime"
+            },
+            {
+              "name": "ConvertTo-Unixtime"
+            }
+          ]
+        },
+        {
+          "name": "EncryptedString",
+          "children": [
+            {
+              "name": "ConvertFrom-EncryptedString"
+            }
+          ]
+        },
+        {
+          "name": "PasswordResetRequest",
+          "children": [
+            {
+              "name": "New-PasswordResetRequest"
+            }
+          ]
+        },
+        {
+          "name": "Message",
+          "children": [
+            {
+              "name": "New-Message"
+            }
+          ]
+        },
+        {
+          "name": "CliInstalled",
+          "children": [
+            {
+              "name": "Test-CliInstalled"
+            }
+          ]
+        },
+        {
+          "name": "CliVersion",
+          "children": [
+            {
+              "name": "Get-CliVersion"
+            }
+          ]
+        },
+        {
+          "name": "Envelope",
+          "children": [
+            {
+              "name": "Test-Envelope"
+            }
+          ]
+        },
+        {
+          "name": "UserChangeResponse",
+          "children": [
+            {
+              "name": "Test-UserChangeResponse"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

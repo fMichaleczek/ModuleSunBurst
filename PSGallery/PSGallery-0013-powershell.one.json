@@ -1,0 +1,499 @@
+{
+  "name": "powershell.one",
+  "children": [
+    {
+      "name": "Aimtec_QRCodeGenerator",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "PSOneQRCodeGeolocation",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeGeolocation"
+            }
+          ]
+        },
+        {
+          "name": "PSOneQRCodeTwitter",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeTwitter"
+            }
+          ]
+        },
+        {
+          "name": "PSOneQRCodeWifiAccess",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeWifiAccess"
+            }
+          ]
+        },
+        {
+          "name": "PSOneQRCodeVCard",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeVCard"
+            }
+          ]
+        },
+        {
+          "name": "PSOneQRCodeText",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeText"
+            }
+          ]
+        },
+        {
+          "name": "PSOneQRCodeURI",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeURI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dynpar",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "PsoDynamicParameterDefinition",
+          "children": [
+            {
+              "name": "Get-PsoDynamicParameterDefinition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DeviceManagement",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "Driver",
+          "children": [
+            {
+              "name": "Get-Driver"
+            }
+          ]
+        },
+        {
+          "name": "NUMA",
+          "children": [
+            {
+              "name": "Get-NUMA"
+            }
+          ]
+        },
+        {
+          "name": "Device",
+          "children": [
+            {
+              "name": "Disable-Device"
+            },
+            {
+              "name": "Enable-Device"
+            },
+            {
+              "name": "Get-Device"
+            }
+          ]
+        },
+        {
+          "name": "DeviceDriver",
+          "children": [
+            {
+              "name": "Install-DeviceDriver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EncodingAnalyzer",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "PsOneEncoding",
+          "children": [
+            {
+              "name": "Get-PsOneEncoding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GetNetStat",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "NetStat",
+          "children": [
+            {
+              "name": "Get-NetStat"
+            }
+          ]
+        },
+        {
+          "name": "HostNameProperty",
+          "children": [
+            {
+              "name": "Resolve-HostNameProperty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsoProgressButton",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "PsoProgressButtonState",
+          "children": [
+            {
+              "name": "Set-PsoProgressButtonState"
+            }
+          ]
+        },
+        {
+          "name": "PsoProgressButtonValue",
+          "children": [
+            {
+              "name": "Set-PsoProgressButtonValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSOneTools",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "PsOneFolderExists",
+          "children": [
+            {
+              "name": "Assert-PsOneFolderExists"
+            }
+          ]
+        },
+        {
+          "name": "PSOneClipboardListener",
+          "children": [
+            {
+              "name": "Start-PSOneClipboardListener"
+            },
+            {
+              "name": "Stop-PSOneClipboardListener"
+            }
+          ]
+        },
+        {
+          "name": "PSOneClipboardListenerStatus",
+          "children": [
+            {
+              "name": "Get-PSOneClipboardListenerStatus"
+            }
+          ]
+        },
+        {
+          "name": "PSOneApplicationWindow",
+          "children": [
+            {
+              "name": "Show-PSOneApplicationWindow"
+            }
+          ]
+        },
+        {
+          "name": "PSOneDuplicateFile",
+          "children": [
+            {
+              "name": "Find-PSOneDuplicateFile"
+            }
+          ]
+        },
+        {
+          "name": "PSOnePort",
+          "children": [
+            {
+              "name": "Test-PSOnePort"
+            }
+          ]
+        },
+        {
+          "name": "PSOnePing",
+          "children": [
+            {
+              "name": "Test-PSOnePing"
+            }
+          ]
+        },
+        {
+          "name": "ObjectFast",
+          "children": [
+            {
+              "name": "Foreach-ObjectFast"
+            },
+            {
+              "name": "Where-ObjectFast"
+            },
+            {
+              "name": "Group-ObjectFast"
+            }
+          ]
+        },
+        {
+          "name": "PSOneScript",
+          "children": [
+            {
+              "name": "Test-PSOneScript"
+            }
+          ]
+        },
+        {
+          "name": "PSOneToken",
+          "children": [
+            {
+              "name": "Get-PSOneToken"
+            },
+            {
+              "name": "Expand-PSOneToken"
+            }
+          ]
+        },
+        {
+          "name": "PSOneDirectory",
+          "children": [
+            {
+              "name": "Get-PSOneDirectory"
+            }
+          ]
+        },
+        {
+          "name": "PSOneDuplicateFileFast",
+          "children": [
+            {
+              "name": "Find-PSOneDuplicateFileFast"
+            }
+          ]
+        },
+        {
+          "name": "PsOneFileHash",
+          "children": [
+            {
+              "name": "Get-PsOneFileHash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsoDownloader",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "DownloadFile",
+          "children": [
+            {
+              "name": "Invoke-DownloadFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsOcr",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "PsoImageToText",
+          "children": [
+            {
+              "name": "Convert-PsoImageToText"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsCommandDiscovery",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "ApplicationType",
+          "children": [
+            {
+              "name": "Test-ApplicationType"
+            }
+          ]
+        },
+        {
+          "name": "CimTypeToNetType",
+          "children": [
+            {
+              "name": "Convert-CimTypeToNetType"
+            }
+          ]
+        },
+        {
+          "name": "TypeToTypeAccelerator",
+          "children": [
+            {
+              "name": "Convert-TypeToTypeAccelerator"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellCommand",
+          "children": [
+            {
+              "name": "Find-PowerShellCommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ParameterCache",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "ParameterCache",
+          "children": [
+            {
+              "name": "Register-ParameterCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QRCodeGenerator",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "PSOneQRCodeGeolocation",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeGeolocation"
+            }
+          ]
+        },
+        {
+          "name": "PSOneQRCodeTwitter",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeTwitter"
+            }
+          ]
+        },
+        {
+          "name": "PSOneQRCodeWifiAccess",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeWifiAccess"
+            }
+          ]
+        },
+        {
+          "name": "PSOneQRCodeVCard",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeVCard"
+            }
+          ]
+        },
+        {
+          "name": "PSOneQRCodeText",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeText"
+            }
+          ]
+        },
+        {
+          "name": "PSOneQRCodeURI",
+          "children": [
+            {
+              "name": "New-PSOneQRCodeURI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ScriptBlockLoggingAnalyzer",
+      "companyName": "powershell.one",
+      "children": [
+        {
+          "name": "SBLLog",
+          "children": [
+            {
+              "name": "Clear-SBLLog"
+            }
+          ]
+        },
+        {
+          "name": "SidToUser",
+          "children": [
+            {
+              "name": "Convert-SidToUser"
+            }
+          ]
+        },
+        {
+          "name": "SBL",
+          "children": [
+            {
+              "name": "Disable-SBL"
+            },
+            {
+              "name": "Enable-SBL"
+            }
+          ]
+        },
+        {
+          "name": "SBLCodeStatistics",
+          "children": [
+            {
+              "name": "Get-SBLCodeStatistics"
+            }
+          ]
+        },
+        {
+          "name": "SBLEvent",
+          "children": [
+            {
+              "name": "Get-SBLEvent"
+            }
+          ]
+        },
+        {
+          "name": "SBLLogSize",
+          "children": [
+            {
+              "name": "Get-SBLLogSize"
+            },
+            {
+              "name": "Set-SBLLogSize"
+            }
+          ]
+        },
+        {
+          "name": "SBLStatus",
+          "children": [
+            {
+              "name": "Get-SBLStatus"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

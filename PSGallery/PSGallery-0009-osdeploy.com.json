@@ -1,0 +1,492 @@
+{
+  "name": "osdeploy.com",
+  "children": [
+    {
+      "name": "AutopilotOOBE",
+      "companyName": "osdeploy.com",
+      "children": [
+        {
+          "name": "AutopilotOOBEcmd",
+          "children": [
+            {
+              "name": "Invoke-AutopilotOOBEcmd"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotOOBE",
+          "children": [
+            {
+              "name": "Start-AutopilotOOBE"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotOOBEnetwork",
+          "children": [
+            {
+              "name": "Test-AutopilotOOBEnetwork"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotOOBEconnection",
+          "children": [
+            {
+              "name": "Test-AutopilotOOBEconnection"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotOOBEevents",
+          "children": [
+            {
+              "name": "Watch-AutopilotOOBEevents"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDUpdate",
+      "companyName": "osdeploy.com",
+      "children": [
+        {
+          "name": "OSDUpdate",
+          "children": [
+            {
+              "name": "Get-OSDUpdate"
+            }
+          ]
+        },
+        {
+          "name": "DownDefender",
+          "children": [
+            {
+              "name": "Get-DownDefender"
+            }
+          ]
+        },
+        {
+          "name": "DownMcAfee",
+          "children": [
+            {
+              "name": "Get-DownMcAfee"
+            }
+          ]
+        },
+        {
+          "name": "DownOSDUpdate",
+          "children": [
+            {
+              "name": "Get-DownOSDUpdate"
+            }
+          ]
+        },
+        {
+          "name": "DownOffice",
+          "children": [
+            {
+              "name": "Get-DownOffice"
+            }
+          ]
+        },
+        {
+          "name": "OSDUpdatePackage",
+          "children": [
+            {
+              "name": "New-OSDUpdatePackage"
+            }
+          ]
+        },
+        {
+          "name": "ModuleOSDUpdate",
+          "children": [
+            {
+              "name": "Update-ModuleOSDUpdate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDSUS",
+      "companyName": "osdeploy.com",
+      "children": [
+        {
+          "name": "OSDSUS",
+          "children": [
+            {
+              "name": "Get-OSDSUS"
+            },
+            {
+              "name": "Update-OSDSUS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDSoftware",
+      "companyName": "osdeploy.com",
+      "children": [
+        {
+          "name": "OSDSoftware",
+          "children": [
+            {
+              "name": "Get-OSDSoftware"
+            }
+          ]
+        },
+        {
+          "name": "ModuleOSDSoftware",
+          "children": [
+            {
+              "name": "Update-ModuleOSDSoftware"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDDrivers",
+      "companyName": "osdeploy.com",
+      "children": [
+        {
+          "name": "OSDDrivers",
+          "children": [
+            {
+              "name": "Get-OSDDrivers"
+            }
+          ]
+        },
+        {
+          "name": "OSDDriversModelPack",
+          "children": [
+            {
+              "name": "Save-OSDDriversModelPack"
+            }
+          ]
+        },
+        {
+          "name": "OSDDriversMultiPack",
+          "children": [
+            {
+              "name": "Save-OSDDriversMultiPack"
+            },
+            {
+              "name": "Update-OSDDriversMultiPack"
+            }
+          ]
+        },
+        {
+          "name": "OSDDriversPack",
+          "children": [
+            {
+              "name": "Save-OSDDriversPack"
+            }
+          ]
+        },
+        {
+          "name": "OSDDriversScripts",
+          "children": [
+            {
+              "name": "Update-OSDDriversScripts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDCatalog",
+      "companyName": "osdeploy.com",
+      "children": [
+        {
+          "name": "OSDCatalog",
+          "children": [
+            {
+              "name": "New-OSDCatalog"
+            }
+          ]
+        },
+        {
+          "name": "ModuleOSDCatalog",
+          "children": [
+            {
+              "name": "Update-ModuleOSDCatalog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDBuilder",
+      "companyName": "osdeploy.com",
+      "children": [
+        {
+          "name": "OSDBuilderDownload",
+          "children": [
+            {
+              "name": "Save-OSDBuilderDownload"
+            }
+          ]
+        },
+        {
+          "name": "OSBuilds",
+          "children": [
+            {
+              "name": "Get-OSBuilds"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilder",
+          "children": [
+            {
+              "name": "Get-OSDBuilder"
+            },
+            {
+              "name": "Initialize-OSDBuilder"
+            }
+          ]
+        },
+        {
+          "name": "OSMedia",
+          "children": [
+            {
+              "name": "Get-OSMedia"
+            },
+            {
+              "name": "Import-OSMedia"
+            },
+            {
+              "name": "Update-OSMedia"
+            }
+          ]
+        },
+        {
+          "name": "PEBuilds",
+          "children": [
+            {
+              "name": "Get-PEBuilds"
+            }
+          ]
+        },
+        {
+          "name": "OSBuild",
+          "children": [
+            {
+              "name": "New-OSBuild"
+            }
+          ]
+        },
+        {
+          "name": "OSBuildMultiLang",
+          "children": [
+            {
+              "name": "New-OSBuildMultiLang"
+            }
+          ]
+        },
+        {
+          "name": "OSBuildTask",
+          "children": [
+            {
+              "name": "New-OSBuildTask"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilderContentPack",
+          "children": [
+            {
+              "name": "New-OSDBuilderContentPack"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilderISO",
+          "children": [
+            {
+              "name": "New-OSDBuilderISO"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilderUSB",
+          "children": [
+            {
+              "name": "New-OSDBuilderUSB"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilderVHD",
+          "children": [
+            {
+              "name": "New-OSDBuilderVHD"
+            }
+          ]
+        },
+        {
+          "name": "PEBuild",
+          "children": [
+            {
+              "name": "New-PEBuild"
+            }
+          ]
+        },
+        {
+          "name": "PEBuildTask",
+          "children": [
+            {
+              "name": "New-PEBuildTask"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilderInfo",
+          "children": [
+            {
+              "name": "Show-OSDBuilderInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSBuilder",
+      "companyName": "osdeploy.com",
+      "children": [
+        {
+          "name": "OSBuilder",
+          "children": [
+            {
+              "name": "Get-OSBuilder"
+            }
+          ]
+        },
+        {
+          "name": "OSBMediaISO",
+          "children": [
+            {
+              "name": "New-OSBMediaISO"
+            }
+          ]
+        },
+        {
+          "name": "OSBMediaUSB",
+          "children": [
+            {
+              "name": "New-OSBMediaUSB"
+            }
+          ]
+        },
+        {
+          "name": "OSBMediaInfo",
+          "children": [
+            {
+              "name": "Show-OSBMediaInfo"
+            }
+          ]
+        },
+        {
+          "name": "OSBUpdate",
+          "children": [
+            {
+              "name": "Get-OSBUpdate"
+            },
+            {
+              "name": "New-OSBUpdate"
+            }
+          ]
+        },
+        {
+          "name": "OSMedia",
+          "children": [
+            {
+              "name": "Get-OSMedia"
+            },
+            {
+              "name": "Import-OSMedia"
+            },
+            {
+              "name": "Update-OSMedia"
+            },
+            {
+              "name": "Rename-OSMedia"
+            }
+          ]
+        },
+        {
+          "name": "OSBuild",
+          "children": [
+            {
+              "name": "New-OSBuild"
+            }
+          ]
+        },
+        {
+          "name": "OSBuildTask",
+          "children": [
+            {
+              "name": "New-OSBuildTask"
+            },
+            {
+              "name": "Repair-OSBuildTask"
+            }
+          ]
+        },
+        {
+          "name": "PEBuild",
+          "children": [
+            {
+              "name": "New-PEBuild"
+            }
+          ]
+        },
+        {
+          "name": "PEBuildTask",
+          "children": [
+            {
+              "name": "New-PEBuildTask"
+            },
+            {
+              "name": "Repair-PEBuildTask"
+            }
+          ]
+        },
+        {
+          "name": "OSBuilds",
+          "children": [
+            {
+              "name": "Get-OSBuilds"
+            }
+          ]
+        },
+        {
+          "name": "PEBuilds",
+          "children": [
+            {
+              "name": "Get-PEBuilds"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PShot",
+      "companyName": "osdeploy.com",
+      "children": [
+        {
+          "name": "PShot",
+          "children": [
+            {
+              "name": "Get-PShot"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

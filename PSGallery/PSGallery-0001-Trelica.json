@@ -1,0 +1,38 @@
+{
+  "name": "Trelica",
+  "children": [
+    {
+      "name": "Trelica",
+      "companyName": "Trelica",
+      "children": [
+        {
+          "name": "TrelicaCredentials",
+          "children": [
+            {
+              "name": "Initialize-TrelicaCredentials"
+            },
+            {
+              "name": "Get-TrelicaCredentials"
+            }
+          ]
+        },
+        {
+          "name": "TrelicaContext",
+          "children": [
+            {
+              "name": "Get-TrelicaContext"
+            }
+          ]
+        },
+        {
+          "name": "TrelicaRequest",
+          "children": [
+            {
+              "name": "Invoke-TrelicaRequest"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

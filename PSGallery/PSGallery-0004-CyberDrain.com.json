@@ -1,0 +1,92 @@
+{
+  "name": "CyberDrain.com",
+  "children": [
+    {
+      "name": "PSWarranty",
+      "companyName": "CyberDrain.com",
+      "children": [
+        {
+          "name": "WarrantyReport",
+          "children": [
+            {
+              "name": "New-WarrantyReport"
+            }
+          ]
+        },
+        {
+          "name": "Warrantyinfo",
+          "children": [
+            {
+              "name": "Get-Warrantyinfo"
+            },
+            {
+              "name": "Update-Warrantyinfo"
+            }
+          ]
+        },
+        {
+          "name": "WarrantyAPIKeys",
+          "children": [
+            {
+              "name": "Set-WarrantyAPIKeys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsNetSapiens",
+      "companyName": "CyberDrain.com",
+      "children": [
+        {
+          "name": "NSApi",
+          "children": [
+            {
+              "name": "Connect-NSApi"
+            },
+            {
+              "name": "Get-NSAPI"
+            },
+            {
+              "name": "Set-NSAPI"
+            },
+            {
+              "name": "New-NSAPI"
+            },
+            {
+              "name": "Remove-NSAPI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RunAsUserimpact",
+      "companyName": "CyberDrain.com",
+      "children": [
+        {
+          "name": "AsCurrentUser",
+          "children": [
+            {
+              "name": "Invoke-AsCurrentUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RunAsUser",
+      "companyName": "CyberDrain.com",
+      "children": [
+        {
+          "name": "AsCurrentUser",
+          "children": [
+            {
+              "name": "Invoke-AsCurrentUser"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

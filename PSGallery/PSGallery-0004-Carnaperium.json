@@ -1,0 +1,86 @@
+{
+  "name": "Carnaperium",
+  "children": [
+    {
+      "name": "AxSQLServerCe",
+      "companyName": "Carnaperium",
+      "children": [
+        {
+          "name": "SdfFile",
+          "children": [
+            {
+              "name": "Connect-SdfFile"
+            },
+            {
+              "name": "New-SdfFile"
+            }
+          ]
+        },
+        {
+          "name": "SdfCmd",
+          "children": [
+            {
+              "name": "Invoke-SdfCmd"
+            }
+          ]
+        },
+        {
+          "name": "SavedQuery",
+          "children": [
+            {
+              "name": "Set-SavedQuery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CPUStressTest",
+      "companyName": "Carnaperium",
+      "children": [
+        {
+          "name": "CPUStressTest",
+          "children": [
+            {
+              "name": "Start-CPUStressTest"
+            },
+            {
+              "name": "Stop-CPUStressTest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSParquet",
+      "companyName": "Carnaperium",
+      "children": [
+        {
+          "name": "Parquet",
+          "children": [
+            {
+              "name": "Import-Parquet"
+            },
+            {
+              "name": "Export-Parquet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSIoTDevice",
+      "companyName": "Carnaperium",
+      "children": [
+        {
+          "name": "DPSGroupDevice",
+          "children": [
+            {
+              "name": "New-DPSGroupDevice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

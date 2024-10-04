@@ -1,0 +1,1574 @@
+{
+  "name": "Evotec",
+  "children": [
+    {
+      "name": "PSParseHTML",
+      "companyName": "Evotec",
+      "children": [
+        {
+          "name": "HTMLToText",
+          "children": [
+            {
+              "name": "Convert-HTMLToText"
+            }
+          ]
+        },
+        {
+          "name": "HTML",
+          "children": [
+            {
+              "name": "ConvertFrom-HTML"
+            },
+            {
+              "name": "Format-HTML"
+            },
+            {
+              "name": "Optimize-HTML"
+            }
+          ]
+        },
+        {
+          "name": "HTMLAttributes",
+          "children": [
+            {
+              "name": "ConvertFrom-HTMLAttributes"
+            }
+          ]
+        },
+        {
+          "name": "HtmlTable",
+          "children": [
+            {
+              "name": "ConvertFrom-HtmlTable"
+            }
+          ]
+        },
+        {
+          "name": "CSS",
+          "children": [
+            {
+              "name": "Format-CSS"
+            },
+            {
+              "name": "Optimize-CSS"
+            }
+          ]
+        },
+        {
+          "name": "JavaScript",
+          "children": [
+            {
+              "name": "Format-JavaScript"
+            },
+            {
+              "name": "Optimize-JavaScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSWriteHTML",
+      "companyName": "Evotec",
+      "children": [
+        {
+          "name": "HTML",
+          "children": [
+            {
+              "name": "Add-HTML"
+            },
+            {
+              "name": "New-HTML"
+            },
+            {
+              "name": "Save-HTML"
+            }
+          ]
+        },
+        {
+          "name": "HTMLScript",
+          "children": [
+            {
+              "name": "Add-HTMLScript"
+            }
+          ]
+        },
+        {
+          "name": "HTMLStyle",
+          "children": [
+            {
+              "name": "Add-HTMLStyle"
+            }
+          ]
+        },
+        {
+          "name": "CascadingStyleSheets",
+          "children": [
+            {
+              "name": "ConvertTo-CascadingStyleSheets"
+            }
+          ]
+        },
+        {
+          "name": "Email",
+          "children": [
+            {
+              "name": "Email"
+            }
+          ]
+        },
+        {
+          "name": "EmailAttachment",
+          "children": [
+            {
+              "name": "EmailAttachment"
+            }
+          ]
+        },
+        {
+          "name": "EmailBCC",
+          "children": [
+            {
+              "name": "EmailBCC"
+            }
+          ]
+        },
+        {
+          "name": "EmailBody",
+          "children": [
+            {
+              "name": "EmailBody"
+            }
+          ]
+        },
+        {
+          "name": "EmailCC",
+          "children": [
+            {
+              "name": "EmailCC"
+            }
+          ]
+        },
+        {
+          "name": "EmailFrom",
+          "children": [
+            {
+              "name": "EmailFrom"
+            }
+          ]
+        },
+        {
+          "name": "EmailHeader",
+          "children": [
+            {
+              "name": "EmailHeader"
+            }
+          ]
+        },
+        {
+          "name": "EmailLayout",
+          "children": [
+            {
+              "name": "EmailLayout"
+            }
+          ]
+        },
+        {
+          "name": "EmailLayoutColumn",
+          "children": [
+            {
+              "name": "EmailLayoutColumn"
+            }
+          ]
+        },
+        {
+          "name": "EmailLayoutRow",
+          "children": [
+            {
+              "name": "EmailLayoutRow"
+            }
+          ]
+        },
+        {
+          "name": "EmailListItem",
+          "children": [
+            {
+              "name": "EmailListItem"
+            }
+          ]
+        },
+        {
+          "name": "EmailOptions",
+          "children": [
+            {
+              "name": "EmailOptions"
+            }
+          ]
+        },
+        {
+          "name": "EmailReplyTo",
+          "children": [
+            {
+              "name": "EmailReplyTo"
+            }
+          ]
+        },
+        {
+          "name": "EmailServer",
+          "children": [
+            {
+              "name": "EmailServer"
+            }
+          ]
+        },
+        {
+          "name": "EmailSubject",
+          "children": [
+            {
+              "name": "EmailSubject"
+            }
+          ]
+        },
+        {
+          "name": "EmailTo",
+          "children": [
+            {
+              "name": "EmailTo"
+            }
+          ]
+        },
+        {
+          "name": "HTMLFeature",
+          "children": [
+            {
+              "name": "Enable-HTMLFeature"
+            }
+          ]
+        },
+        {
+          "name": "AccordionItem",
+          "children": [
+            {
+              "name": "New-AccordionItem"
+            }
+          ]
+        },
+        {
+          "name": "CalendarEvent",
+          "children": [
+            {
+              "name": "New-CalendarEvent"
+            }
+          ]
+        },
+        {
+          "name": "CarouselSlide",
+          "children": [
+            {
+              "name": "New-CarouselSlide"
+            }
+          ]
+        },
+        {
+          "name": "ChartAxisX",
+          "children": [
+            {
+              "name": "New-ChartAxisX"
+            }
+          ]
+        },
+        {
+          "name": "ChartAxisY",
+          "children": [
+            {
+              "name": "New-ChartAxisY"
+            }
+          ]
+        },
+        {
+          "name": "ChartBar",
+          "children": [
+            {
+              "name": "New-ChartBar"
+            }
+          ]
+        },
+        {
+          "name": "ChartBarOptions",
+          "children": [
+            {
+              "name": "New-ChartBarOptions"
+            }
+          ]
+        },
+        {
+          "name": "ChartDataLabel",
+          "children": [
+            {
+              "name": "New-ChartDataLabel"
+            }
+          ]
+        },
+        {
+          "name": "ChartDesign",
+          "children": [
+            {
+              "name": "New-ChartDesign"
+            }
+          ]
+        },
+        {
+          "name": "ChartDonut",
+          "children": [
+            {
+              "name": "New-ChartDonut"
+            }
+          ]
+        },
+        {
+          "name": "ChartEvent",
+          "children": [
+            {
+              "name": "New-ChartEvent"
+            }
+          ]
+        },
+        {
+          "name": "ChartGrid",
+          "children": [
+            {
+              "name": "New-ChartGrid"
+            }
+          ]
+        },
+        {
+          "name": "ChartLegend",
+          "children": [
+            {
+              "name": "New-ChartLegend"
+            }
+          ]
+        },
+        {
+          "name": "ChartLine",
+          "children": [
+            {
+              "name": "New-ChartLine"
+            }
+          ]
+        },
+        {
+          "name": "ChartMarker",
+          "children": [
+            {
+              "name": "New-ChartMarker"
+            }
+          ]
+        },
+        {
+          "name": "ChartPie",
+          "children": [
+            {
+              "name": "New-ChartPie"
+            }
+          ]
+        },
+        {
+          "name": "ChartRadial",
+          "children": [
+            {
+              "name": "New-ChartRadial"
+            }
+          ]
+        },
+        {
+          "name": "ChartRadialOptions",
+          "children": [
+            {
+              "name": "New-ChartRadialOptions"
+            }
+          ]
+        },
+        {
+          "name": "ChartSpark",
+          "children": [
+            {
+              "name": "New-ChartSpark"
+            }
+          ]
+        },
+        {
+          "name": "ChartTheme",
+          "children": [
+            {
+              "name": "New-ChartTheme"
+            }
+          ]
+        },
+        {
+          "name": "ChartTimeLine",
+          "children": [
+            {
+              "name": "New-ChartTimeLine"
+            }
+          ]
+        },
+        {
+          "name": "ChartToolbar",
+          "children": [
+            {
+              "name": "New-ChartToolbar"
+            }
+          ]
+        },
+        {
+          "name": "ChartToolTip",
+          "children": [
+            {
+              "name": "New-ChartToolTip"
+            }
+          ]
+        },
+        {
+          "name": "DiagramEvent",
+          "children": [
+            {
+              "name": "New-DiagramEvent"
+            }
+          ]
+        },
+        {
+          "name": "DiagramLink",
+          "children": [
+            {
+              "name": "New-DiagramLink"
+            }
+          ]
+        },
+        {
+          "name": "DiagramNode",
+          "children": [
+            {
+              "name": "New-DiagramNode"
+            }
+          ]
+        },
+        {
+          "name": "DiagramOptionsInteraction",
+          "children": [
+            {
+              "name": "New-DiagramOptionsInteraction"
+            }
+          ]
+        },
+        {
+          "name": "DiagramOptionsLayout",
+          "children": [
+            {
+              "name": "New-DiagramOptionsLayout"
+            }
+          ]
+        },
+        {
+          "name": "DiagramOptionsLinks",
+          "children": [
+            {
+              "name": "New-DiagramOptionsLinks"
+            }
+          ]
+        },
+        {
+          "name": "DiagramOptionsManipulation",
+          "children": [
+            {
+              "name": "New-DiagramOptionsManipulation"
+            }
+          ]
+        },
+        {
+          "name": "DiagramOptionsNodes",
+          "children": [
+            {
+              "name": "New-DiagramOptionsNodes"
+            }
+          ]
+        },
+        {
+          "name": "DiagramOptionsPhysics",
+          "children": [
+            {
+              "name": "New-DiagramOptionsPhysics"
+            }
+          ]
+        },
+        {
+          "name": "GageSector",
+          "children": [
+            {
+              "name": "New-GageSector"
+            }
+          ]
+        },
+        {
+          "name": "HierarchicalTreeNode",
+          "children": [
+            {
+              "name": "New-HierarchicalTreeNode"
+            }
+          ]
+        },
+        {
+          "name": "HTMLAccordion",
+          "children": [
+            {
+              "name": "New-HTMLAccordion"
+            }
+          ]
+        },
+        {
+          "name": "HTMLAnchor",
+          "children": [
+            {
+              "name": "New-HTMLAnchor"
+            }
+          ]
+        },
+        {
+          "name": "HTMLCalendar",
+          "children": [
+            {
+              "name": "New-HTMLCalendar"
+            }
+          ]
+        },
+        {
+          "name": "HTMLCarousel",
+          "children": [
+            {
+              "name": "New-HTMLCarousel"
+            }
+          ]
+        },
+        {
+          "name": "HTMLCarouselStyle",
+          "children": [
+            {
+              "name": "New-HTMLCarouselStyle"
+            }
+          ]
+        },
+        {
+          "name": "HTMLChart",
+          "children": [
+            {
+              "name": "New-HTMLChart"
+            }
+          ]
+        },
+        {
+          "name": "HTMLCodeBlock",
+          "children": [
+            {
+              "name": "New-HTMLCodeBlock"
+            }
+          ]
+        },
+        {
+          "name": "HTMLContainer",
+          "children": [
+            {
+              "name": "New-HTMLContainer"
+            }
+          ]
+        },
+        {
+          "name": "HTMLDiagram",
+          "children": [
+            {
+              "name": "New-HTMLDiagram"
+            }
+          ]
+        },
+        {
+          "name": "HTMLFontIcon",
+          "children": [
+            {
+              "name": "New-HTMLFontIcon"
+            }
+          ]
+        },
+        {
+          "name": "HTMLFooter",
+          "children": [
+            {
+              "name": "New-HTMLFooter"
+            }
+          ]
+        },
+        {
+          "name": "HTMLFrame",
+          "children": [
+            {
+              "name": "New-HTMLFrame"
+            }
+          ]
+        },
+        {
+          "name": "HTMLGage",
+          "children": [
+            {
+              "name": "New-HTMLGage"
+            }
+          ]
+        },
+        {
+          "name": "HTMLHeader",
+          "children": [
+            {
+              "name": "New-HTMLHeader"
+            }
+          ]
+        },
+        {
+          "name": "HTMLHeading",
+          "children": [
+            {
+              "name": "New-HTMLHeading"
+            }
+          ]
+        },
+        {
+          "name": "HTMLHierarchicalTree",
+          "children": [
+            {
+              "name": "New-HTMLHierarchicalTree"
+            }
+          ]
+        },
+        {
+          "name": "HTMLHorizontalLine",
+          "children": [
+            {
+              "name": "New-HTMLHorizontalLine"
+            }
+          ]
+        },
+        {
+          "name": "HTMLImage",
+          "children": [
+            {
+              "name": "New-HTMLImage"
+            }
+          ]
+        },
+        {
+          "name": "HTMLList",
+          "children": [
+            {
+              "name": "New-HTMLList"
+            }
+          ]
+        },
+        {
+          "name": "HTMLListItem",
+          "children": [
+            {
+              "name": "New-HTMLListItem"
+            }
+          ]
+        },
+        {
+          "name": "HTMLLogo",
+          "children": [
+            {
+              "name": "New-HTMLLogo"
+            }
+          ]
+        },
+        {
+          "name": "HTMLMain",
+          "children": [
+            {
+              "name": "New-HTMLMain"
+            }
+          ]
+        },
+        {
+          "name": "HTMLMap",
+          "children": [
+            {
+              "name": "New-HTMLMap"
+            }
+          ]
+        },
+        {
+          "name": "HTMLNav",
+          "children": [
+            {
+              "name": "New-HTMLNav"
+            }
+          ]
+        },
+        {
+          "name": "HTMLNavFloat",
+          "children": [
+            {
+              "name": "New-HTMLNavFloat"
+            }
+          ]
+        },
+        {
+          "name": "HTMLNavTop",
+          "children": [
+            {
+              "name": "New-HTMLNavTop"
+            }
+          ]
+        },
+        {
+          "name": "HTMLOrgChart",
+          "children": [
+            {
+              "name": "New-HTMLOrgChart"
+            }
+          ]
+        },
+        {
+          "name": "HTMLPage",
+          "children": [
+            {
+              "name": "New-HTMLPage"
+            }
+          ]
+        },
+        {
+          "name": "HTMLPanel",
+          "children": [
+            {
+              "name": "New-HTMLPanel"
+            }
+          ]
+        },
+        {
+          "name": "HTMLPanelStyle",
+          "children": [
+            {
+              "name": "New-HTMLPanelStyle"
+            }
+          ]
+        },
+        {
+          "name": "HTMLQRCode",
+          "children": [
+            {
+              "name": "New-HTMLQRCode"
+            }
+          ]
+        },
+        {
+          "name": "HTMLSection",
+          "children": [
+            {
+              "name": "New-HTMLSection"
+            }
+          ]
+        },
+        {
+          "name": "HTMLSectionScrolling",
+          "children": [
+            {
+              "name": "New-HTMLSectionScrolling"
+            }
+          ]
+        },
+        {
+          "name": "HTMLSectionScrollingItem",
+          "children": [
+            {
+              "name": "New-HTMLSectionScrollingItem"
+            }
+          ]
+        },
+        {
+          "name": "HTMLSectionStyle",
+          "children": [
+            {
+              "name": "New-HTMLSectionStyle"
+            }
+          ]
+        },
+        {
+          "name": "HTMLSpanStyle",
+          "children": [
+            {
+              "name": "New-HTMLSpanStyle"
+            }
+          ]
+        },
+        {
+          "name": "HTMLStatus",
+          "children": [
+            {
+              "name": "New-HTMLStatus"
+            }
+          ]
+        },
+        {
+          "name": "HTMLStatusItem",
+          "children": [
+            {
+              "name": "New-HTMLStatusItem"
+            }
+          ]
+        },
+        {
+          "name": "HTMLSummary",
+          "children": [
+            {
+              "name": "New-HTMLSummary"
+            }
+          ]
+        },
+        {
+          "name": "HTMLSummaryItem",
+          "children": [
+            {
+              "name": "New-HTMLSummaryItem"
+            }
+          ]
+        },
+        {
+          "name": "HTMLSummaryItemData",
+          "children": [
+            {
+              "name": "New-HTMLSummaryItemData"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTab",
+          "children": [
+            {
+              "name": "New-HTMLTab"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTable",
+          "children": [
+            {
+              "name": "New-HTMLTable"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTableOption",
+          "children": [
+            {
+              "name": "New-HTMLTableOption"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTableStyle",
+          "children": [
+            {
+              "name": "New-HTMLTableStyle"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTabPanel",
+          "children": [
+            {
+              "name": "New-HTMLTabPanel"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTabStyle",
+          "children": [
+            {
+              "name": "New-HTMLTabStyle"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTag",
+          "children": [
+            {
+              "name": "New-HTMLTag"
+            }
+          ]
+        },
+        {
+          "name": "HTMLText",
+          "children": [
+            {
+              "name": "New-HTMLText"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTextBox",
+          "children": [
+            {
+              "name": "New-HTMLTextBox"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTimeline",
+          "children": [
+            {
+              "name": "New-HTMLTimeline"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTimelineItem",
+          "children": [
+            {
+              "name": "New-HTMLTimelineItem"
+            }
+          ]
+        },
+        {
+          "name": "HTMLToast",
+          "children": [
+            {
+              "name": "New-HTMLToast"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTree",
+          "children": [
+            {
+              "name": "New-HTMLTree"
+            }
+          ]
+        },
+        {
+          "name": "HTMLWinBox",
+          "children": [
+            {
+              "name": "New-HTMLWinBox"
+            }
+          ]
+        },
+        {
+          "name": "HTMLWizard",
+          "children": [
+            {
+              "name": "New-HTMLWizard"
+            }
+          ]
+        },
+        {
+          "name": "HTMLWizardStep",
+          "children": [
+            {
+              "name": "New-HTMLWizardStep"
+            }
+          ]
+        },
+        {
+          "name": "MapArea",
+          "children": [
+            {
+              "name": "New-MapArea"
+            }
+          ]
+        },
+        {
+          "name": "MapLegendOption",
+          "children": [
+            {
+              "name": "New-MapLegendOption"
+            }
+          ]
+        },
+        {
+          "name": "MapLegendSlice",
+          "children": [
+            {
+              "name": "New-MapLegendSlice"
+            }
+          ]
+        },
+        {
+          "name": "MapPlot",
+          "children": [
+            {
+              "name": "New-MapPlot"
+            }
+          ]
+        },
+        {
+          "name": "NavFloatWidget",
+          "children": [
+            {
+              "name": "New-NavFloatWidget"
+            }
+          ]
+        },
+        {
+          "name": "NavFloatWidgetItem",
+          "children": [
+            {
+              "name": "New-NavFloatWidgetItem"
+            }
+          ]
+        },
+        {
+          "name": "NavItem",
+          "children": [
+            {
+              "name": "New-NavItem"
+            }
+          ]
+        },
+        {
+          "name": "NavLink",
+          "children": [
+            {
+              "name": "New-NavLink"
+            }
+          ]
+        },
+        {
+          "name": "NavTopMenu",
+          "children": [
+            {
+              "name": "New-NavTopMenu"
+            }
+          ]
+        },
+        {
+          "name": "OrgChartNode",
+          "children": [
+            {
+              "name": "New-OrgChartNode"
+            }
+          ]
+        },
+        {
+          "name": "TableAlphabetSearch",
+          "children": [
+            {
+              "name": "New-TableAlphabetSearch"
+            }
+          ]
+        },
+        {
+          "name": "TableButtonCopy",
+          "children": [
+            {
+              "name": "New-TableButtonCopy"
+            }
+          ]
+        },
+        {
+          "name": "TableButtonCSV",
+          "children": [
+            {
+              "name": "New-TableButtonCSV"
+            }
+          ]
+        },
+        {
+          "name": "TableButtonExcel",
+          "children": [
+            {
+              "name": "New-TableButtonExcel"
+            }
+          ]
+        },
+        {
+          "name": "TableButtonPageLength",
+          "children": [
+            {
+              "name": "New-TableButtonPageLength"
+            }
+          ]
+        },
+        {
+          "name": "TableButtonPDF",
+          "children": [
+            {
+              "name": "New-TableButtonPDF"
+            }
+          ]
+        },
+        {
+          "name": "TableButtonPrint",
+          "children": [
+            {
+              "name": "New-TableButtonPrint"
+            }
+          ]
+        },
+        {
+          "name": "TableButtonSearchBuilder",
+          "children": [
+            {
+              "name": "New-TableButtonSearchBuilder"
+            }
+          ]
+        },
+        {
+          "name": "TableColumnOption",
+          "children": [
+            {
+              "name": "New-TableColumnOption"
+            }
+          ]
+        },
+        {
+          "name": "TableCondition",
+          "children": [
+            {
+              "name": "New-TableCondition"
+            }
+          ]
+        },
+        {
+          "name": "TableConditionGroup",
+          "children": [
+            {
+              "name": "New-TableConditionGroup"
+            }
+          ]
+        },
+        {
+          "name": "TableContent",
+          "children": [
+            {
+              "name": "New-TableContent"
+            }
+          ]
+        },
+        {
+          "name": "TableEvent",
+          "children": [
+            {
+              "name": "New-TableEvent"
+            }
+          ]
+        },
+        {
+          "name": "TableHeader",
+          "children": [
+            {
+              "name": "New-TableHeader"
+            }
+          ]
+        },
+        {
+          "name": "TableLanguage",
+          "children": [
+            {
+              "name": "New-TableLanguage"
+            }
+          ]
+        },
+        {
+          "name": "TablePercentageBar",
+          "children": [
+            {
+              "name": "New-TablePercentageBar"
+            }
+          ]
+        },
+        {
+          "name": "TableReplace",
+          "children": [
+            {
+              "name": "New-TableReplace"
+            }
+          ]
+        },
+        {
+          "name": "TableRowGrouping",
+          "children": [
+            {
+              "name": "New-TableRowGrouping"
+            }
+          ]
+        },
+        {
+          "name": "TreeNode",
+          "children": [
+            {
+              "name": "New-TreeNode"
+            }
+          ]
+        },
+        {
+          "name": "HtmlView",
+          "children": [
+            {
+              "name": "Out-HtmlView"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSWriteOffice",
+      "companyName": "Evotec",
+      "children": [
+        {
+          "name": "OfficeWord",
+          "children": [
+            {
+              "name": "Close-OfficeWord"
+            },
+            {
+              "name": "Get-OfficeWord"
+            },
+            {
+              "name": "New-OfficeWord"
+            },
+            {
+              "name": "Save-OfficeWord"
+            }
+          ]
+        },
+        {
+          "name": "HTMLtoWord",
+          "children": [
+            {
+              "name": "ConvertFrom-HTMLtoWord"
+            }
+          ]
+        },
+        {
+          "name": "OfficeExcel",
+          "children": [
+            {
+              "name": "Export-OfficeExcel"
+            },
+            {
+              "name": "Get-OfficeExcel"
+            },
+            {
+              "name": "Import-OfficeExcel"
+            },
+            {
+              "name": "New-OfficeExcel"
+            },
+            {
+              "name": "Save-OfficeExcel"
+            }
+          ]
+        },
+        {
+          "name": "OfficeExcelValue",
+          "children": [
+            {
+              "name": "Get-OfficeExcelValue"
+            },
+            {
+              "name": "New-OfficeExcelValue"
+            }
+          ]
+        },
+        {
+          "name": "OfficeExcelWorkSheet",
+          "children": [
+            {
+              "name": "Get-OfficeExcelWorkSheet"
+            },
+            {
+              "name": "New-OfficeExcelWorkSheet"
+            }
+          ]
+        },
+        {
+          "name": "OfficeExcelWorkSheetData",
+          "children": [
+            {
+              "name": "Get-OfficeExcelWorkSheetData"
+            }
+          ]
+        },
+        {
+          "name": "OfficeExcelTable",
+          "children": [
+            {
+              "name": "New-OfficeExcelTable"
+            }
+          ]
+        },
+        {
+          "name": "OfficeExcelTableOptions",
+          "children": [
+            {
+              "name": "New-OfficeExcelTableOptions"
+            }
+          ]
+        },
+        {
+          "name": "OfficeWordList",
+          "children": [
+            {
+              "name": "New-OfficeWordList"
+            }
+          ]
+        },
+        {
+          "name": "OfficeWordListItem",
+          "children": [
+            {
+              "name": "New-OfficeWordListItem"
+            }
+          ]
+        },
+        {
+          "name": "OfficeWordTable",
+          "children": [
+            {
+              "name": "New-OfficeWordTable"
+            }
+          ]
+        },
+        {
+          "name": "OfficeWordText",
+          "children": [
+            {
+              "name": "New-OfficeWordText"
+            }
+          ]
+        },
+        {
+          "name": "OfficeWordFooter",
+          "children": [
+            {
+              "name": "Remove-OfficeWordFooter"
+            }
+          ]
+        },
+        {
+          "name": "OfficeWordHeader",
+          "children": [
+            {
+              "name": "Remove-OfficeWordHeader"
+            }
+          ]
+        },
+        {
+          "name": "OfficeExcelCellStyle",
+          "children": [
+            {
+              "name": "Set-OfficeExcelCellStyle"
+            }
+          ]
+        },
+        {
+          "name": "OfficeExcelWorkSheetStyle",
+          "children": [
+            {
+              "name": "Set-OfficeExcelWorkSheetStyle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSWritePDF",
+      "companyName": "Evotec",
+      "children": [
+        {
+          "name": "PDF",
+          "children": [
+            {
+              "name": "Close-PDF"
+            },
+            {
+              "name": "Get-PDF"
+            },
+            {
+              "name": "Merge-PDF"
+            },
+            {
+              "name": "New-PDF"
+            },
+            {
+              "name": "Split-PDF"
+            }
+          ]
+        },
+        {
+          "name": "HTMLToPDF",
+          "children": [
+            {
+              "name": "Convert-HTMLToPDF"
+            }
+          ]
+        },
+        {
+          "name": "PDFToText",
+          "children": [
+            {
+              "name": "Convert-PDFToText"
+            }
+          ]
+        },
+        {
+          "name": "PDFConstantAction",
+          "children": [
+            {
+              "name": "Get-PDFConstantAction"
+            }
+          ]
+        },
+        {
+          "name": "PDFConstantColor",
+          "children": [
+            {
+              "name": "Get-PDFConstantColor"
+            }
+          ]
+        },
+        {
+          "name": "PDFConstantFont",
+          "children": [
+            {
+              "name": "Get-PDFConstantFont"
+            }
+          ]
+        },
+        {
+          "name": "PDFConstantPageSize",
+          "children": [
+            {
+              "name": "Get-PDFConstantPageSize"
+            }
+          ]
+        },
+        {
+          "name": "PDFConstantVersion",
+          "children": [
+            {
+              "name": "Get-PDFConstantVersion"
+            }
+          ]
+        },
+        {
+          "name": "PDFDetails",
+          "children": [
+            {
+              "name": "Get-PDFDetails"
+            }
+          ]
+        },
+        {
+          "name": "PDFFormField",
+          "children": [
+            {
+              "name": "Get-PDFFormField"
+            }
+          ]
+        },
+        {
+          "name": "PDFArea",
+          "children": [
+            {
+              "name": "New-PDFArea"
+            }
+          ]
+        },
+        {
+          "name": "PDFDocument",
+          "children": [
+            {
+              "name": "New-PDFDocument"
+            }
+          ]
+        },
+        {
+          "name": "PDFImage",
+          "children": [
+            {
+              "name": "New-PDFImage"
+            }
+          ]
+        },
+        {
+          "name": "PDFInfo",
+          "children": [
+            {
+              "name": "New-PDFInfo"
+            }
+          ]
+        },
+        {
+          "name": "PDFList",
+          "children": [
+            {
+              "name": "New-PDFList"
+            }
+          ]
+        },
+        {
+          "name": "PDFListItem",
+          "children": [
+            {
+              "name": "New-PDFListItem"
+            }
+          ]
+        },
+        {
+          "name": "PDFOptions",
+          "children": [
+            {
+              "name": "New-PDFOptions"
+            }
+          ]
+        },
+        {
+          "name": "PDFPage",
+          "children": [
+            {
+              "name": "New-PDFPage"
+            }
+          ]
+        },
+        {
+          "name": "PDFTable",
+          "children": [
+            {
+              "name": "New-PDFTable"
+            }
+          ]
+        },
+        {
+          "name": "PDFText",
+          "children": [
+            {
+              "name": "New-PDFText"
+            }
+          ]
+        },
+        {
+          "name": "PDFFont",
+          "children": [
+            {
+              "name": "Register-PDFFont"
+            }
+          ]
+        },
+        {
+          "name": "PDFForm",
+          "children": [
+            {
+              "name": "Set-PDFForm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "name": "ST BER SYSTEMS GmbH",
+  "children": [
+    {
+      "name": "PsUntis",
+      "companyName": "ST BER SYSTEMS GmbH",
+      "children": [
+        {
+          "name": "UntisBackup",
+          "children": [
+            {
+              "name": "Start-UntisBackup"
+            }
+          ]
+        },
+        {
+          "name": "UntisExport",
+          "children": [
+            {
+              "name": "Start-UntisExport"
+            }
+          ]
+        },
+        {
+          "name": "UntisTerms",
+          "children": [
+            {
+              "name": "Get-UntisTerms"
+            }
+          ]
+        },
+        {
+          "name": "UntisTermAsActive",
+          "children": [
+            {
+              "name": "Set-UntisTermAsActive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsEnbrea",
+      "companyName": "ST BER SYSTEMS GmbH",
+      "children": [
+        {
+          "name": "EnbreaImport",
+          "children": [
+            {
+              "name": "Initialize-EnbreaImport"
+            },
+            {
+              "name": "Start-EnbreaImport"
+            }
+          ]
+        },
+        {
+          "name": "EnbreaExport",
+          "children": [
+            {
+              "name": "Initialize-EnbreaExport"
+            },
+            {
+              "name": "Start-EnbreaExport"
+            }
+          ]
+        },
+        {
+          "name": "EcfTools",
+          "children": [
+            {
+              "name": "Install-EcfTools"
+            },
+            {
+              "name": "Update-EcfTools"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsDaVinci",
+      "companyName": "ST BER SYSTEMS GmbH",
+      "children": [
+        {
+          "name": "DaVinciImport",
+          "children": [
+            {
+              "name": "Initialize-DaVinciImport"
+            },
+            {
+              "name": "Start-DaVinciImport"
+            }
+          ]
+        },
+        {
+          "name": "DaVinciExport",
+          "children": [
+            {
+              "name": "Initialize-DaVinciExport"
+            },
+            {
+              "name": "Start-DaVinciExport"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

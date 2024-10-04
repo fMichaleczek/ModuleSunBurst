@@ -1,0 +1,97 @@
+{
+  "name": "BladeFireLight",
+  "children": [
+    {
+      "name": "PKITools",
+      "companyName": "BladeFireLight",
+      "children": [
+        {
+          "name": "CaLocationString",
+          "children": [
+            {
+              "name": "Get-CaLocationString"
+            }
+          ]
+        },
+        {
+          "name": "IssuedCertificate",
+          "children": [
+            {
+              "name": "Get-IssuedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "ADCertificateTemplate",
+          "children": [
+            {
+              "name": "Get-ADCertificateTemplate"
+            }
+          ]
+        },
+        {
+          "name": "CertificatAuthority",
+          "children": [
+            {
+              "name": "Get-CertificatAuthority"
+            }
+          ]
+        },
+        {
+          "name": "CertificateTemplateOID",
+          "children": [
+            {
+              "name": "Get-CertificateTemplateOID"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WindowsImageTools",
+      "companyName": "BladeFireLight",
+      "children": [
+        {
+          "name": "Wim2VHD",
+          "children": [
+            {
+              "name": "Convert-Wim2VHD"
+            }
+          ]
+        },
+        {
+          "name": "DataDisk",
+          "children": [
+            {
+              "name": "Initialize-DataDisk"
+            }
+          ]
+        },
+        {
+          "name": "WindowsFromWim",
+          "children": [
+            {
+              "name": "Install-WindowsFromWim"
+            }
+          ]
+        },
+        {
+          "name": "DataVHD",
+          "children": [
+            {
+              "name": "New-DataVHD"
+            }
+          ]
+        },
+        {
+          "name": "UnattendXml",
+          "children": [
+            {
+              "name": "New-UnattendXml"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

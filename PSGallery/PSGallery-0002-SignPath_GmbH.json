@@ -1,0 +1,84 @@
+{
+  "name": "SignPath GmbH",
+  "children": [
+    {
+      "name": "SignPathDocker",
+      "companyName": "SignPath GmbH",
+      "children": [
+        {
+          "name": "DockerSigning",
+          "children": [
+            {
+              "name": "Initialize-DockerSigning"
+            },
+            {
+              "name": "Invoke-DockerSigning"
+            }
+          ]
+        },
+        {
+          "name": "DelegationCertificate",
+          "children": [
+            {
+              "name": "Add-DelegationCertificate"
+            }
+          ]
+        },
+        {
+          "name": "RootCertificate",
+          "children": [
+            {
+              "name": "Get-RootCertificate"
+            }
+          ]
+        },
+        {
+          "name": "DockerSigningData",
+          "children": [
+            {
+              "name": "New-DockerSigningData"
+            }
+          ]
+        },
+        {
+          "name": "SignedDockerSigningData",
+          "children": [
+            {
+              "name": "Push-SignedDockerSigningData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SignPath",
+      "companyName": "SignPath GmbH",
+      "children": [
+        {
+          "name": "SigningRequest",
+          "children": [
+            {
+              "name": "Submit-SigningRequest"
+            }
+          ]
+        },
+        {
+          "name": "SignedArtifact",
+          "children": [
+            {
+              "name": "Get-SignedArtifact"
+            }
+          ]
+        },
+        {
+          "name": "CertificateByMicrosoftTemplateId",
+          "children": [
+            {
+              "name": "Get-CertificateByMicrosoftTemplateId"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

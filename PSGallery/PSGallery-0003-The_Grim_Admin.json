@@ -1,0 +1,654 @@
+{
+  "name": "The Grim Admin",
+  "children": [
+    {
+      "name": "GoogleWorkspace",
+      "companyName": "The Grim Admin",
+      "children": [
+        {
+          "name": "GoogleWorkspaceConfigFilePath",
+          "children": [
+            {
+              "name": "Set-GoogleWorkspaceConfigFilePath"
+            }
+          ]
+        },
+        {
+          "name": "GoogleWorkspaceScopes",
+          "children": [
+            {
+              "name": "Set-GoogleWorkspaceScopes"
+            }
+          ]
+        },
+        {
+          "name": "GoogleWorkspaceTokensFilePath",
+          "children": [
+            {
+              "name": "Set-GoogleWorkspaceTokensFilePath"
+            }
+          ]
+        },
+        {
+          "name": "GoogleWorkspaceAuthTokensFromFile",
+          "children": [
+            {
+              "name": "Get-GoogleWorkspaceAuthTokensFromFile"
+            }
+          ]
+        },
+        {
+          "name": "GoogleWorkspace",
+          "children": [
+            {
+              "name": "Connect-GoogleWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "GoogleWorkspaceConfig",
+          "children": [
+            {
+              "name": "Get-GoogleWorkspaceConfig"
+            }
+          ]
+        },
+        {
+          "name": "GoogleClassroomCourse",
+          "children": [
+            {
+              "name": "Get-GoogleClassroomCourse"
+            },
+            {
+              "name": "New-GoogleClassroomCourse"
+            },
+            {
+              "name": "Remove-GoogleClassroomCourse"
+            },
+            {
+              "name": "Update-GoogleClassroomCourse"
+            }
+          ]
+        },
+        {
+          "name": "GoogleClassroomCoursesAliases",
+          "children": [
+            {
+              "name": "Get-GoogleClassroomCoursesAliases"
+            }
+          ]
+        },
+        {
+          "name": "GoogleClassroomCoursesList",
+          "children": [
+            {
+              "name": "Get-GoogleClassroomCoursesList"
+            }
+          ]
+        },
+        {
+          "name": "GoogleClassroomCoursesStudentsList",
+          "children": [
+            {
+              "name": "Get-GoogleClassroomCoursesStudentsList"
+            }
+          ]
+        },
+        {
+          "name": "GoogleClassroomCoursesTeachersList",
+          "children": [
+            {
+              "name": "Get-GoogleClassroomCoursesTeachersList"
+            }
+          ]
+        },
+        {
+          "name": "GoogleClassroomUserProfile",
+          "children": [
+            {
+              "name": "Get-GoogleClassroomUserProfile"
+            }
+          ]
+        },
+        {
+          "name": "GoogleAdminUser",
+          "children": [
+            {
+              "name": "Get-GoogleAdminUser"
+            }
+          ]
+        },
+        {
+          "name": "GoogleClassroomCourseAlias",
+          "children": [
+            {
+              "name": "New-GoogleClassroomCourseAlias"
+            }
+          ]
+        },
+        {
+          "name": "GoogleClassroomCourseStudent",
+          "children": [
+            {
+              "name": "New-GoogleClassroomCourseStudent"
+            }
+          ]
+        },
+        {
+          "name": "GoogleClassroomCourseTeacher",
+          "children": [
+            {
+              "name": "New-GoogleClassroomCourseTeacher"
+            },
+            {
+              "name": "Remove-GoogleClassroomCourseTeacher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SKYAPI",
+      "companyName": "The Grim Admin",
+      "children": [
+        {
+          "name": "SKYAPIConfigFilePath",
+          "children": [
+            {
+              "name": "Set-SKYAPIConfigFilePath"
+            }
+          ]
+        },
+        {
+          "name": "SKYAPITokensFilePath",
+          "children": [
+            {
+              "name": "Set-SKYAPITokensFilePath"
+            }
+          ]
+        },
+        {
+          "name": "SKYAPIConfig",
+          "children": [
+            {
+              "name": "Get-SKYAPIConfig"
+            },
+            {
+              "name": "Set-SKYAPIConfig"
+            }
+          ]
+        },
+        {
+          "name": "SKYAPI",
+          "children": [
+            {
+              "name": "Connect-SKYAPI"
+            }
+          ]
+        },
+        {
+          "name": "SKYAPIContext",
+          "children": [
+            {
+              "name": "Get-SKYAPIContext"
+            }
+          ]
+        },
+        {
+          "name": "SKYAPIAuthTokensFromFile",
+          "children": [
+            {
+              "name": "Get-SKYAPIAuthTokensFromFile"
+            }
+          ]
+        },
+        {
+          "name": "ReConstituentRatingSource",
+          "children": [
+            {
+              "name": "Get-ReConstituentRatingSource"
+            }
+          ]
+        },
+        {
+          "name": "ReConstituentRelationshipType",
+          "children": [
+            {
+              "name": "Get-ReConstituentRelationshipType"
+            }
+          ]
+        },
+        {
+          "name": "ReConstituentSuffix",
+          "children": [
+            {
+              "name": "Get-ReConstituentSuffix"
+            }
+          ]
+        },
+        {
+          "name": "ReConstituentTitle",
+          "children": [
+            {
+              "name": "Get-ReConstituentTitle"
+            }
+          ]
+        },
+        {
+          "name": "SchoolActivityBySchoolLevel",
+          "children": [
+            {
+              "name": "Get-SchoolActivityBySchoolLevel"
+            }
+          ]
+        },
+        {
+          "name": "SchoolAdvisoryBySchoolLevel",
+          "children": [
+            {
+              "name": "Get-SchoolAdvisoryBySchoolLevel"
+            }
+          ]
+        },
+        {
+          "name": "SchoolAssignmentBySection",
+          "children": [
+            {
+              "name": "Get-SchoolAssignmentBySection"
+            }
+          ]
+        },
+        {
+          "name": "SchoolAssignmentByStudent",
+          "children": [
+            {
+              "name": "Get-SchoolAssignmentByStudent"
+            }
+          ]
+        },
+        {
+          "name": "SchoolCourse",
+          "children": [
+            {
+              "name": "Get-SchoolCourse"
+            }
+          ]
+        },
+        {
+          "name": "SchoolCycleBySection",
+          "children": [
+            {
+              "name": "Get-SchoolCycleBySection"
+            }
+          ]
+        },
+        {
+          "name": "SchoolDepartment",
+          "children": [
+            {
+              "name": "Get-SchoolDepartment"
+            }
+          ]
+        },
+        {
+          "name": "SchoolEnrollment",
+          "children": [
+            {
+              "name": "Get-SchoolEnrollment"
+            }
+          ]
+        },
+        {
+          "name": "SchoolGradeLevel",
+          "children": [
+            {
+              "name": "Get-SchoolGradeLevel"
+            }
+          ]
+        },
+        {
+          "name": "SchoolLevel",
+          "children": [
+            {
+              "name": "Get-SchoolLevel"
+            }
+          ]
+        },
+        {
+          "name": "SchoolList",
+          "children": [
+            {
+              "name": "Get-SchoolList"
+            }
+          ]
+        },
+        {
+          "name": "SchoolListOfLists",
+          "children": [
+            {
+              "name": "Get-SchoolListOfLists"
+            }
+          ]
+        },
+        {
+          "name": "SchoolNewsCategory",
+          "children": [
+            {
+              "name": "Get-SchoolNewsCategory"
+            }
+          ]
+        },
+        {
+          "name": "SchoolNewsItem",
+          "children": [
+            {
+              "name": "Get-SchoolNewsItem"
+            }
+          ]
+        },
+        {
+          "name": "SchoolOfferingType",
+          "children": [
+            {
+              "name": "Get-SchoolOfferingType"
+            }
+          ]
+        },
+        {
+          "name": "SchoolRole",
+          "children": [
+            {
+              "name": "Get-SchoolRole"
+            }
+          ]
+        },
+        {
+          "name": "SchoolResourceBoard",
+          "children": [
+            {
+              "name": "Get-SchoolResourceBoard"
+            }
+          ]
+        },
+        {
+          "name": "SchoolScheduleMeeting",
+          "children": [
+            {
+              "name": "Get-SchoolScheduleMeeting"
+            }
+          ]
+        },
+        {
+          "name": "SchoolSectionBySchoolLevel",
+          "children": [
+            {
+              "name": "Get-SchoolSectionBySchoolLevel"
+            }
+          ]
+        },
+        {
+          "name": "SchoolSectionByStudent",
+          "children": [
+            {
+              "name": "Get-SchoolSectionByStudent"
+            }
+          ]
+        },
+        {
+          "name": "SchoolSectionByTeacher",
+          "children": [
+            {
+              "name": "Get-SchoolSectionByTeacher"
+            }
+          ]
+        },
+        {
+          "name": "SchoolSession",
+          "children": [
+            {
+              "name": "Get-SchoolSession"
+            }
+          ]
+        },
+        {
+          "name": "SchoolStudentEnrollment",
+          "children": [
+            {
+              "name": "Get-SchoolStudentEnrollment"
+            }
+          ]
+        },
+        {
+          "name": "SchoolStudentBySection",
+          "children": [
+            {
+              "name": "Get-SchoolStudentBySection"
+            }
+          ]
+        },
+        {
+          "name": "SchoolTerm",
+          "children": [
+            {
+              "name": "Get-SchoolTerm"
+            }
+          ]
+        },
+        {
+          "name": "SchoolTimeZone",
+          "children": [
+            {
+              "name": "Get-SchoolTimeZone"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUser",
+          "children": [
+            {
+              "name": "Get-SchoolUser"
+            },
+            {
+              "name": "Update-SchoolUser"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserAddress",
+          "children": [
+            {
+              "name": "Get-SchoolUserAddress"
+            },
+            {
+              "name": "New-SchoolUserAddress"
+            },
+            {
+              "name": "Update-SchoolUserAddress"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserAddressType",
+          "children": [
+            {
+              "name": "Get-SchoolUserAddressType"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserBBIDStatus",
+          "children": [
+            {
+              "name": "Get-SchoolUserBBIDStatus"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserByRole",
+          "children": [
+            {
+              "name": "Get-SchoolUserByRole"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserEducation",
+          "children": [
+            {
+              "name": "Get-SchoolUserEducation"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserEmployment",
+          "children": [
+            {
+              "name": "Get-SchoolUserEmployment"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserExtended",
+          "children": [
+            {
+              "name": "Get-SchoolUserExtended"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserExtendedByBaseRole",
+          "children": [
+            {
+              "name": "Get-SchoolUserExtendedByBaseRole"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserGenderType",
+          "children": [
+            {
+              "name": "Get-SchoolUserGenderType"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserMe",
+          "children": [
+            {
+              "name": "Get-SchoolUserMe"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserOccupation",
+          "children": [
+            {
+              "name": "Get-SchoolUserOccupation"
+            },
+            {
+              "name": "New-SchoolUserOccupation"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserPhone",
+          "children": [
+            {
+              "name": "Get-SchoolUserPhone"
+            },
+            {
+              "name": "New-SchoolUserPhone"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserPhoneType",
+          "children": [
+            {
+              "name": "Get-SchoolUserPhoneType"
+            }
+          ]
+        },
+        {
+          "name": "SchoolUserRelationship",
+          "children": [
+            {
+              "name": "Get-SchoolUserRelationship"
+            },
+            {
+              "name": "Remove-SchoolUserRelationship"
+            },
+            {
+              "name": "Set-SchoolUserRelationship"
+            }
+          ]
+        },
+        {
+          "name": "SchoolVenueBuilding",
+          "children": [
+            {
+              "name": "Get-SchoolVenueBuilding"
+            }
+          ]
+        },
+        {
+          "name": "SchoolYear",
+          "children": [
+            {
+              "name": "Get-SchoolYear"
+            }
+          ]
+        },
+        {
+          "name": "SchoolEventCategory",
+          "children": [
+            {
+              "name": "New-SchoolEventCategory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ScriptMessage",
+      "companyName": "The Grim Admin",
+      "children": [
+        {
+          "name": "ScriptMessage",
+          "children": [
+            {
+              "name": "Connect-ScriptMessage"
+            },
+            {
+              "name": "Send-ScriptMessage"
+            }
+          ]
+        },
+        {
+          "name": "ScriptMessageConfig",
+          "children": [
+            {
+              "name": "Get-ScriptMessageConfig"
+            }
+          ]
+        },
+        {
+          "name": "ScriptMessageContext",
+          "children": [
+            {
+              "name": "Get-ScriptMessageContext"
+            }
+          ]
+        },
+        {
+          "name": "ScriptMessageConfigFilePath",
+          "children": [
+            {
+              "name": "Set-ScriptMessageConfigFilePath"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

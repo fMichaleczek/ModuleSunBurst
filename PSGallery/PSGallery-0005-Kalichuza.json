@@ -1,0 +1,108 @@
+{
+  "name": "Kalichuza",
+  "children": [
+    {
+      "name": "NinjaRmmTicketTool",
+      "companyName": "Kalichuza",
+      "children": [
+        {
+          "name": "NinjaRmmGlobalSettings",
+          "children": [
+            {
+              "name": "Set-NinjaRmmGlobalSettings"
+            }
+          ]
+        },
+        {
+          "name": "NinjaTicketBearerToken",
+          "children": [
+            {
+              "name": "Get-NinjaTicketBearerToken"
+            }
+          ]
+        },
+        {
+          "name": "NinjaTicket",
+          "children": [
+            {
+              "name": "New-NinjaTicket"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSProfileManager",
+      "companyName": "Kalichuza",
+      "children": [
+        {
+          "name": "PSProfile",
+          "children": [
+            {
+              "name": "New-PSProfile"
+            },
+            {
+              "name": "Test-PSProfile"
+            },
+            {
+              "name": "Import-PSProfile"
+            },
+            {
+              "name": "Backup-PSProfile"
+            }
+          ]
+        },
+        {
+          "name": "PSProfileSource",
+          "children": [
+            {
+              "name": "Set-PSProfileSource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSCompareHash",
+      "companyName": "kalichuza",
+      "children": [
+        {
+          "name": "FileHash",
+          "children": [
+            {
+              "name": "Test-FileHash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regex-Finder",
+      "companyName": "kalichuza",
+      "children": [
+        {
+          "name": "Regex",
+          "children": [
+            {
+              "name": "Find-Regex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regex-Filter",
+      "companyName": "kalichuza",
+      "children": [
+        {
+          "name": "Regex",
+          "children": [
+            {
+              "name": "Use-Regex"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ThreatHunterz",
+  "children": [
+    {
+      "name": "AzureHunter",
+      "companyName": "ThreatHunterz",
+      "children": [
+        {
+          "name": "AzHunterPlaybook",
+          "children": [
+            {
+              "name": "Invoke-AzHunterPlaybook"
+            }
+          ]
+        },
+        {
+          "name": "AzureCloudUnifiedLog",
+          "children": [
+            {
+              "name": "Search-AzureCloudUnifiedLog"
+            },
+            {
+              "name": "Test-AzureCloudUnifiedLog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

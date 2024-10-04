@@ -1,0 +1,5342 @@
+{
+  "name": "Akamai Technologies Ltd.",
+  "children": [
+    {
+      "name": "Akamai.TestCenter",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "TestCase",
+          "children": [
+            {
+              "name": "Get-TestCase"
+            },
+            {
+              "name": "New-TestCase"
+            },
+            {
+              "name": "Remove-TestCase"
+            },
+            {
+              "name": "Restore-TestCase"
+            },
+            {
+              "name": "Set-TestCase"
+            }
+          ]
+        },
+        {
+          "name": "TestCatalogTemplate",
+          "children": [
+            {
+              "name": "Get-TestCatalogTemplate"
+            }
+          ]
+        },
+        {
+          "name": "TestCondition",
+          "children": [
+            {
+              "name": "Get-TestCondition"
+            }
+          ]
+        },
+        {
+          "name": "TestRequest",
+          "children": [
+            {
+              "name": "Get-TestRequest"
+            }
+          ]
+        },
+        {
+          "name": "TestRun",
+          "children": [
+            {
+              "name": "Get-TestRun"
+            },
+            {
+              "name": "New-TestRun"
+            }
+          ]
+        },
+        {
+          "name": "TestSuite",
+          "children": [
+            {
+              "name": "Get-TestSuite"
+            },
+            {
+              "name": "New-TestSuite"
+            },
+            {
+              "name": "Remove-TestSuite"
+            },
+            {
+              "name": "Restore-TestSuite"
+            },
+            {
+              "name": "Set-TestSuite"
+            }
+          ]
+        },
+        {
+          "name": "TestVariable",
+          "children": [
+            {
+              "name": "Get-TestVariable"
+            },
+            {
+              "name": "New-TestVariable"
+            },
+            {
+              "name": "Remove-TestVariable"
+            },
+            {
+              "name": "Set-TestVariable"
+            }
+          ]
+        },
+        {
+          "name": "TestCaseOrder",
+          "children": [
+            {
+              "name": "Set-TestCaseOrder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.SLA",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "SLAAvailabilityReport",
+          "children": [
+            {
+              "name": "Get-SLAAvailabilityReport"
+            }
+          ]
+        },
+        {
+          "name": "SLAPerformanceReport",
+          "children": [
+            {
+              "name": "Get-SLAPerformanceReport"
+            }
+          ]
+        },
+        {
+          "name": "SLATestAgentGroup",
+          "children": [
+            {
+              "name": "Get-SLATestAgentGroup"
+            }
+          ]
+        },
+        {
+          "name": "SLATestConfiguration",
+          "children": [
+            {
+              "name": "Get-SLATestConfiguration"
+            },
+            {
+              "name": "New-SLATestConfiguration"
+            },
+            {
+              "name": "Remove-SLATestConfiguration"
+            },
+            {
+              "name": "Set-SLATestConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SLATestConfigurationQuota",
+          "children": [
+            {
+              "name": "Get-SLATestConfigurationQuota"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.Siteshield",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "SiteShieldMap",
+          "children": [
+            {
+              "name": "Confirm-SiteShieldMap"
+            },
+            {
+              "name": "Get-SiteShieldMap"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.SIEM",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "SIEMEvent",
+          "children": [
+            {
+              "name": "Format-SIEMEvent"
+            }
+          ]
+        },
+        {
+          "name": "SIEMData",
+          "children": [
+            {
+              "name": "Get-SIEMData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.Reporting",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "Report",
+          "children": [
+            {
+              "name": "Get-Report"
+            },
+            {
+              "name": "New-Report"
+            }
+          ]
+        },
+        {
+          "name": "ReportType",
+          "children": [
+            {
+              "name": "Get-ReportType"
+            }
+          ]
+        },
+        {
+          "name": "ReportTypeVersions",
+          "children": [
+            {
+              "name": "Get-ReportTypeVersions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.Purge",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "AkamaiCache",
+          "children": [
+            {
+              "name": "Clear-AkamaiCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.Property",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "ChildRuleSnippet",
+          "children": [
+            {
+              "name": "Expand-ChildRuleSnippet"
+            },
+            {
+              "name": "Get-ChildRuleSnippet"
+            }
+          ]
+        },
+        {
+          "name": "PropertyDetails",
+          "children": [
+            {
+              "name": "Expand-PropertyDetails"
+            }
+          ]
+        },
+        {
+          "name": "PropertyIncludeDetails",
+          "children": [
+            {
+              "name": "Expand-PropertyIncludeDetails"
+            }
+          ]
+        },
+        {
+          "name": "BucketHostname",
+          "children": [
+            {
+              "name": "Add-BucketHostname"
+            },
+            {
+              "name": "Compare-BucketHostname"
+            },
+            {
+              "name": "Get-BucketHostname"
+            },
+            {
+              "name": "Remove-BucketHostname"
+            }
+          ]
+        },
+        {
+          "name": "PropertyHostname",
+          "children": [
+            {
+              "name": "Add-PropertyHostname"
+            },
+            {
+              "name": "Get-PropertyHostname"
+            },
+            {
+              "name": "Remove-PropertyHostname"
+            },
+            {
+              "name": "Set-PropertyHostname"
+            }
+          ]
+        },
+        {
+          "name": "PropertyRule",
+          "children": [
+            {
+              "name": "Add-PropertyRule"
+            },
+            {
+              "name": "Remove-PropertyRule"
+            },
+            {
+              "name": "Test-PropertyRule"
+            },
+            {
+              "name": "Update-PropertyRule"
+            }
+          ]
+        },
+        {
+          "name": "Property",
+          "children": [
+            {
+              "name": "Find-Property"
+            },
+            {
+              "name": "Get-Property"
+            },
+            {
+              "name": "New-Property"
+            },
+            {
+              "name": "Remove-Property"
+            }
+          ]
+        },
+        {
+          "name": "AccountID",
+          "children": [
+            {
+              "name": "Get-AccountID"
+            }
+          ]
+        },
+        {
+          "name": "BucketActivation",
+          "children": [
+            {
+              "name": "Get-BucketActivation"
+            },
+            {
+              "name": "Undo-BucketActivation"
+            }
+          ]
+        },
+        {
+          "name": "BulkActivatedProperty",
+          "children": [
+            {
+              "name": "Get-BulkActivatedProperty"
+            }
+          ]
+        },
+        {
+          "name": "BulkPatchedProperty",
+          "children": [
+            {
+              "name": "Get-BulkPatchedProperty"
+            }
+          ]
+        },
+        {
+          "name": "BulkSearchResult",
+          "children": [
+            {
+              "name": "Get-BulkSearchResult"
+            }
+          ]
+        },
+        {
+          "name": "BulkVersionedProperty",
+          "children": [
+            {
+              "name": "Get-BulkVersionedProperty"
+            }
+          ]
+        },
+        {
+          "name": "CustomBehavior",
+          "children": [
+            {
+              "name": "Get-CustomBehavior"
+            }
+          ]
+        },
+        {
+          "name": "CustomOverride",
+          "children": [
+            {
+              "name": "Get-CustomOverride"
+            }
+          ]
+        },
+        {
+          "name": "Group",
+          "children": [
+            {
+              "name": "Get-Group"
+            }
+          ]
+        },
+        {
+          "name": "HostnameAuditHistory",
+          "children": [
+            {
+              "name": "Get-HostnameAuditHistory"
+            }
+          ]
+        },
+        {
+          "name": "Product",
+          "children": [
+            {
+              "name": "Get-Product"
+            }
+          ]
+        },
+        {
+          "name": "ProductUseCases",
+          "children": [
+            {
+              "name": "Get-ProductUseCases"
+            }
+          ]
+        },
+        {
+          "name": "PropertyActivation",
+          "children": [
+            {
+              "name": "Get-PropertyActivation"
+            },
+            {
+              "name": "New-PropertyActivation"
+            },
+            {
+              "name": "Undo-PropertyActivation"
+            }
+          ]
+        },
+        {
+          "name": "PropertyBehaviors",
+          "children": [
+            {
+              "name": "Get-PropertyBehaviors"
+            }
+          ]
+        },
+        {
+          "name": "PropertyBuild",
+          "children": [
+            {
+              "name": "Get-PropertyBuild"
+            }
+          ]
+        },
+        {
+          "name": "PropertyCertificateChallenge",
+          "children": [
+            {
+              "name": "Get-PropertyCertificateChallenge"
+            }
+          ]
+        },
+        {
+          "name": "PropertyClientSettings",
+          "children": [
+            {
+              "name": "Get-PropertyClientSettings"
+            },
+            {
+              "name": "Set-PropertyClientSettings"
+            }
+          ]
+        },
+        {
+          "name": "PropertyContract",
+          "children": [
+            {
+              "name": "Get-PropertyContract"
+            }
+          ]
+        },
+        {
+          "name": "PropertyCPCode",
+          "children": [
+            {
+              "name": "Get-PropertyCPCode"
+            }
+          ]
+        },
+        {
+          "name": "PropertyCriteria",
+          "children": [
+            {
+              "name": "Get-PropertyCriteria"
+            }
+          ]
+        },
+        {
+          "name": "PropertyEdgeHostname",
+          "children": [
+            {
+              "name": "Get-PropertyEdgeHostname"
+            }
+          ]
+        },
+        {
+          "name": "PropertyInclude",
+          "children": [
+            {
+              "name": "Get-PropertyInclude"
+            },
+            {
+              "name": "New-PropertyInclude"
+            },
+            {
+              "name": "Remove-PropertyInclude"
+            },
+            {
+              "name": "Test-PropertyInclude"
+            }
+          ]
+        },
+        {
+          "name": "PropertyIncludeActivation",
+          "children": [
+            {
+              "name": "Get-PropertyIncludeActivation"
+            },
+            {
+              "name": "New-PropertyIncludeActivation"
+            },
+            {
+              "name": "Undo-PropertyIncludeActivation"
+            }
+          ]
+        },
+        {
+          "name": "PropertyIncludeBehaviors",
+          "children": [
+            {
+              "name": "Get-PropertyIncludeBehaviors"
+            }
+          ]
+        },
+        {
+          "name": "PropertyIncludeCriteria",
+          "children": [
+            {
+              "name": "Get-PropertyIncludeCriteria"
+            }
+          ]
+        },
+        {
+          "name": "PropertyIncludeRules",
+          "children": [
+            {
+              "name": "Get-PropertyIncludeRules"
+            },
+            {
+              "name": "Set-PropertyIncludeRules"
+            }
+          ]
+        },
+        {
+          "name": "PropertyIncludeRulesDigest",
+          "children": [
+            {
+              "name": "Get-PropertyIncludeRulesDigest"
+            }
+          ]
+        },
+        {
+          "name": "PropertyIncludeVersion",
+          "children": [
+            {
+              "name": "Get-PropertyIncludeVersion"
+            },
+            {
+              "name": "New-PropertyIncludeVersion"
+            }
+          ]
+        },
+        {
+          "name": "PropertyRequestSchema",
+          "children": [
+            {
+              "name": "Get-PropertyRequestSchema"
+            }
+          ]
+        },
+        {
+          "name": "PropertyRules",
+          "children": [
+            {
+              "name": "Get-PropertyRules"
+            },
+            {
+              "name": "Merge-PropertyRules"
+            },
+            {
+              "name": "Set-PropertyRules"
+            }
+          ]
+        },
+        {
+          "name": "PropertyRulesDigest",
+          "children": [
+            {
+              "name": "Get-PropertyRulesDigest"
+            }
+          ]
+        },
+        {
+          "name": "PropertyVersion",
+          "children": [
+            {
+              "name": "Get-PropertyVersion"
+            },
+            {
+              "name": "New-PropertyVersion"
+            }
+          ]
+        },
+        {
+          "name": "PropertyVersionInclude",
+          "children": [
+            {
+              "name": "Get-PropertyVersionInclude"
+            }
+          ]
+        },
+        {
+          "name": "RuleFormat",
+          "children": [
+            {
+              "name": "Get-RuleFormat"
+            }
+          ]
+        },
+        {
+          "name": "RuleFormatSchema",
+          "children": [
+            {
+              "name": "Get-RuleFormatSchema"
+            }
+          ]
+        },
+        {
+          "name": "TopLevelGroup",
+          "children": [
+            {
+              "name": "Get-TopLevelGroup"
+            }
+          ]
+        },
+        {
+          "name": "BulkActivation",
+          "children": [
+            {
+              "name": "New-BulkActivation"
+            }
+          ]
+        },
+        {
+          "name": "BulkPatch",
+          "children": [
+            {
+              "name": "New-BulkPatch"
+            }
+          ]
+        },
+        {
+          "name": "BulkSearch",
+          "children": [
+            {
+              "name": "New-BulkSearch"
+            }
+          ]
+        },
+        {
+          "name": "BulkVersion",
+          "children": [
+            {
+              "name": "New-BulkVersion"
+            }
+          ]
+        },
+        {
+          "name": "CPCode",
+          "children": [
+            {
+              "name": "New-CPCode"
+            }
+          ]
+        },
+        {
+          "name": "EdgeHostname",
+          "children": [
+            {
+              "name": "New-EdgeHostname"
+            }
+          ]
+        },
+        {
+          "name": "PropertyDeactivation",
+          "children": [
+            {
+              "name": "New-PropertyDeactivation"
+            }
+          ]
+        },
+        {
+          "name": "PropertyIncludeDeactivation",
+          "children": [
+            {
+              "name": "New-PropertyIncludeDeactivation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.NetworkLists",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "NetworkListElement",
+          "children": [
+            {
+              "name": "Add-NetworkListElement"
+            },
+            {
+              "name": "Remove-NetworkListElement"
+            }
+          ]
+        },
+        {
+          "name": "NetworkList",
+          "children": [
+            {
+              "name": "Get-NetworkList"
+            },
+            {
+              "name": "New-NetworkList"
+            },
+            {
+              "name": "Remove-NetworkList"
+            },
+            {
+              "name": "Set-NetworkList"
+            }
+          ]
+        },
+        {
+          "name": "NetworkListActivation",
+          "children": [
+            {
+              "name": "Get-NetworkListActivation"
+            },
+            {
+              "name": "New-NetworkListActivation"
+            }
+          ]
+        },
+        {
+          "name": "NetworkListActivationStatus",
+          "children": [
+            {
+              "name": "Get-NetworkListActivationStatus"
+            }
+          ]
+        },
+        {
+          "name": "NetworkListSnapshot",
+          "children": [
+            {
+              "name": "Get-NetworkListSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "NetworkListSubscription",
+          "children": [
+            {
+              "name": "New-NetworkListSubscription"
+            },
+            {
+              "name": "Remove-NetworkListSubscription"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.Netstorage",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "NetstorageUploadAccountFTPKey",
+          "children": [
+            {
+              "name": "Add-NetstorageUploadAccountFTPKey"
+            },
+            {
+              "name": "Disable-NetstorageUploadAccountFTPKey"
+            },
+            {
+              "name": "Enable-NetstorageUploadAccountFTPKey"
+            },
+            {
+              "name": "Remove-NetstorageUploadAccountFTPKey"
+            },
+            {
+              "name": "Set-NetstorageUploadAccountFTPKey"
+            },
+            {
+              "name": "Update-NetstorageUploadAccountFTPKey"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageUploadAccountRSyncKey",
+          "children": [
+            {
+              "name": "Add-NetstorageUploadAccountRSyncKey"
+            },
+            {
+              "name": "Disable-NetstorageUploadAccountRSyncKey"
+            },
+            {
+              "name": "Enable-NetstorageUploadAccountRSyncKey"
+            },
+            {
+              "name": "Remove-NetstorageUploadAccountRSyncKey"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageUploadAccountSSHKey",
+          "children": [
+            {
+              "name": "Add-NetstorageUploadAccountSSHKey"
+            },
+            {
+              "name": "Disable-NetstorageUploadAccountSSHKey"
+            },
+            {
+              "name": "Enable-NetstorageUploadAccountSSHKey"
+            },
+            {
+              "name": "Remove-NetstorageUploadAccountSSHKey"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageUploadAccount",
+          "children": [
+            {
+              "name": "Disable-NetstorageUploadAccount"
+            },
+            {
+              "name": "Enable-NetstorageUploadAccount"
+            },
+            {
+              "name": "Get-NetstorageUploadAccount"
+            },
+            {
+              "name": "New-NetstorageUploadAccount"
+            },
+            {
+              "name": "Set-NetstorageUploadAccount"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageCPCode",
+          "children": [
+            {
+              "name": "Get-NetstorageCPCode"
+            },
+            {
+              "name": "New-NetstorageCPCode"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageCPCodePurgeRoutine",
+          "children": [
+            {
+              "name": "Get-NetstorageCPCodePurgeRoutine"
+            },
+            {
+              "name": "Remove-NetstorageCPCodePurgeRoutine"
+            },
+            {
+              "name": "Set-NetstorageCPCodePurgeRoutine"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageDirectory",
+          "children": [
+            {
+              "name": "Get-NetstorageDirectory"
+            },
+            {
+              "name": "New-NetstorageDirectory"
+            },
+            {
+              "name": "Remove-NetstorageDirectory"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageDirectoryUsage",
+          "children": [
+            {
+              "name": "Get-NetstorageDirectoryUsage"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageGroup",
+          "children": [
+            {
+              "name": "Get-NetstorageGroup"
+            },
+            {
+              "name": "New-NetstorageGroup"
+            },
+            {
+              "name": "Set-NetstorageGroup"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageRuleSet",
+          "children": [
+            {
+              "name": "Get-NetstorageRuleSet"
+            },
+            {
+              "name": "New-NetstorageRuleSet"
+            },
+            {
+              "name": "Remove-NetstorageRuleSet"
+            },
+            {
+              "name": "Set-NetstorageRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageSnapshot",
+          "children": [
+            {
+              "name": "Get-NetstorageSnapshot"
+            },
+            {
+              "name": "New-NetstorageSnapshot"
+            },
+            {
+              "name": "Remove-NetstorageSnapshot"
+            },
+            {
+              "name": "Set-NetstorageSnapshot"
+            },
+            {
+              "name": "Start-NetstorageSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageZones",
+          "children": [
+            {
+              "name": "Get-NetstorageZones"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageObject",
+          "children": [
+            {
+              "name": "Measure-NetstorageObject"
+            },
+            {
+              "name": "Read-NetstorageObject"
+            },
+            {
+              "name": "Remove-NetstorageObject"
+            },
+            {
+              "name": "Rename-NetstorageObject"
+            },
+            {
+              "name": "Write-NetstorageObject"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageAuth",
+          "children": [
+            {
+              "name": "New-NetstorageAuth"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageSymlink",
+          "children": [
+            {
+              "name": "New-NetstorageSymlink"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageObjectMTime",
+          "children": [
+            {
+              "name": "Set-NetstorageObjectMTime"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.METS",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "METSCASetDetails",
+          "children": [
+            {
+              "name": "Expand-METSCASetDetails"
+            }
+          ]
+        },
+        {
+          "name": "METSCASetVersion",
+          "children": [
+            {
+              "name": "Copy-METSCASetVersion"
+            },
+            {
+              "name": "Get-METSCASetVersion"
+            },
+            {
+              "name": "New-METSCASetVersion"
+            },
+            {
+              "name": "Set-METSCASetVersion"
+            }
+          ]
+        },
+        {
+          "name": "METSCASet",
+          "children": [
+            {
+              "name": "Get-METSCASet"
+            },
+            {
+              "name": "New-METSCASet"
+            },
+            {
+              "name": "Remove-METSCASet"
+            }
+          ]
+        },
+        {
+          "name": "METSCASetActivation",
+          "children": [
+            {
+              "name": "Get-METSCASetActivation"
+            },
+            {
+              "name": "New-METSCASetActivation"
+            }
+          ]
+        },
+        {
+          "name": "METSCASetActivities",
+          "children": [
+            {
+              "name": "Get-METSCASetActivities"
+            }
+          ]
+        },
+        {
+          "name": "METSCASetVersionCertificate",
+          "children": [
+            {
+              "name": "Get-METSCASetVersionCertificate"
+            }
+          ]
+        },
+        {
+          "name": "METSRemoval",
+          "children": [
+            {
+              "name": "Get-METSRemoval"
+            }
+          ]
+        },
+        {
+          "name": "METSCASetDeactivation",
+          "children": [
+            {
+              "name": "New-METSCASetDeactivation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.MediaServicesLive",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "MSLCDN",
+          "children": [
+            {
+              "name": "Get-MSLCDN"
+            }
+          ]
+        },
+        {
+          "name": "MSLContract",
+          "children": [
+            {
+              "name": "Get-MSLContract"
+            }
+          ]
+        },
+        {
+          "name": "MSLCPCode",
+          "children": [
+            {
+              "name": "Get-MSLCPCode"
+            },
+            {
+              "name": "New-MSLCPCode"
+            }
+          ]
+        },
+        {
+          "name": "MSLOrigin",
+          "children": [
+            {
+              "name": "Get-MSLOrigin"
+            },
+            {
+              "name": "New-MSLOrigin"
+            },
+            {
+              "name": "Remove-MSLOrigin"
+            },
+            {
+              "name": "Set-MSLOrigin"
+            }
+          ]
+        },
+        {
+          "name": "MSLOriginCPCode",
+          "children": [
+            {
+              "name": "Get-MSLOriginCPCode"
+            }
+          ]
+        },
+        {
+          "name": "MSLPublishingLocations",
+          "children": [
+            {
+              "name": "Get-MSLPublishingLocations"
+            }
+          ]
+        },
+        {
+          "name": "MSLStream",
+          "children": [
+            {
+              "name": "Get-MSLStream"
+            },
+            {
+              "name": "New-MSLStream"
+            },
+            {
+              "name": "Remove-MSLStream"
+            },
+            {
+              "name": "Set-MSLStream"
+            }
+          ]
+        },
+        {
+          "name": "MSLVODOrigin",
+          "children": [
+            {
+              "name": "Get-MSLVODOrigin"
+            }
+          ]
+        },
+        {
+          "name": "MSLKey",
+          "children": [
+            {
+              "name": "New-MSLKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.IVM",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "IVMErrorDetails",
+          "children": [
+            {
+              "name": "Get-IVMErrorDetails"
+            }
+          ]
+        },
+        {
+          "name": "IVMImage",
+          "children": [
+            {
+              "name": "Get-IVMImage"
+            }
+          ]
+        },
+        {
+          "name": "IVMLogDetails",
+          "children": [
+            {
+              "name": "Get-IVMLogDetails"
+            }
+          ]
+        },
+        {
+          "name": "IVMPolicy",
+          "children": [
+            {
+              "name": "Get-IVMPolicy"
+            },
+            {
+              "name": "New-IVMPolicy"
+            },
+            {
+              "name": "Remove-IVMPolicy"
+            },
+            {
+              "name": "Restore-IVMPolicy"
+            },
+            {
+              "name": "Set-IVMPolicy"
+            }
+          ]
+        },
+        {
+          "name": "IVMPolicyHistory",
+          "children": [
+            {
+              "name": "Get-IVMPolicyHistory"
+            }
+          ]
+        },
+        {
+          "name": "IVMPolicySet",
+          "children": [
+            {
+              "name": "Get-IVMPolicySet"
+            },
+            {
+              "name": "New-IVMPolicySet"
+            },
+            {
+              "name": "Remove-IVMPolicySet"
+            },
+            {
+              "name": "Set-IVMPolicySet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.IAM",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "IAMPropertyUsers",
+          "children": [
+            {
+              "name": "Block-IAMPropertyUsers"
+            },
+            {
+              "name": "Get-IAMPropertyUsers"
+            }
+          ]
+        },
+        {
+          "name": "IAMAPICredential",
+          "children": [
+            {
+              "name": "Disable-IAMAPICredential"
+            },
+            {
+              "name": "Get-IAMAPICredential"
+            },
+            {
+              "name": "New-IAMAPICredential"
+            },
+            {
+              "name": "Remove-IAMAPICredential"
+            },
+            {
+              "name": "Set-IAMAPICredential"
+            }
+          ]
+        },
+        {
+          "name": "IAMIPAllowList",
+          "children": [
+            {
+              "name": "Disable-IAMIPAllowList"
+            },
+            {
+              "name": "Enable-IAMIPAllowList"
+            }
+          ]
+        },
+        {
+          "name": "AccountSwitchKey",
+          "children": [
+            {
+              "name": "Get-AccountSwitchKey"
+            }
+          ]
+        },
+        {
+          "name": "IAMAccessibleGroups",
+          "children": [
+            {
+              "name": "Get-IAMAccessibleGroups"
+            }
+          ]
+        },
+        {
+          "name": "IAMAdminContactTypes",
+          "children": [
+            {
+              "name": "Get-IAMAdminContactTypes"
+            }
+          ]
+        },
+        {
+          "name": "IAMAdminCountries",
+          "children": [
+            {
+              "name": "Get-IAMAdminCountries"
+            }
+          ]
+        },
+        {
+          "name": "IAMAdminLanguages",
+          "children": [
+            {
+              "name": "Get-IAMAdminLanguages"
+            }
+          ]
+        },
+        {
+          "name": "IAMAdminPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-IAMAdminPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "IAMAdminProducts",
+          "children": [
+            {
+              "name": "Get-IAMAdminProducts"
+            }
+          ]
+        },
+        {
+          "name": "IAMAdminStates",
+          "children": [
+            {
+              "name": "Get-IAMAdminStates"
+            }
+          ]
+        },
+        {
+          "name": "IAMAdminTimeoutPolicy",
+          "children": [
+            {
+              "name": "Get-IAMAdminTimeoutPolicy"
+            }
+          ]
+        },
+        {
+          "name": "IAMAdminTimeZones",
+          "children": [
+            {
+              "name": "Get-IAMAdminTimeZones"
+            }
+          ]
+        },
+        {
+          "name": "IAMAllowedAPIs",
+          "children": [
+            {
+              "name": "Get-IAMAllowedAPIs"
+            }
+          ]
+        },
+        {
+          "name": "IAMAllowedCPCodes",
+          "children": [
+            {
+              "name": "Get-IAMAllowedCPCodes"
+            }
+          ]
+        },
+        {
+          "name": "IAMAPIClient",
+          "children": [
+            {
+              "name": "Get-IAMAPIClient"
+            },
+            {
+              "name": "Lock-IAMAPIClient"
+            },
+            {
+              "name": "New-IAMAPIClient"
+            },
+            {
+              "name": "Remove-IAMAPIClient"
+            },
+            {
+              "name": "Set-IAMAPIClient"
+            },
+            {
+              "name": "Unlock-IAMAPIClient"
+            }
+          ]
+        },
+        {
+          "name": "IAMAuthorizedUsers",
+          "children": [
+            {
+              "name": "Get-IAMAuthorizedUsers"
+            }
+          ]
+        },
+        {
+          "name": "IAMCIDRBlock",
+          "children": [
+            {
+              "name": "Get-IAMCIDRBlock"
+            },
+            {
+              "name": "New-IAMCIDRBlock"
+            },
+            {
+              "name": "Remove-IAMCIDRBlock"
+            },
+            {
+              "name": "Set-IAMCIDRBlock"
+            },
+            {
+              "name": "Test-IAMCIDRBlock"
+            }
+          ]
+        },
+        {
+          "name": "IAMGrantableRole",
+          "children": [
+            {
+              "name": "Get-IAMGrantableRole"
+            }
+          ]
+        },
+        {
+          "name": "IAMGroup",
+          "children": [
+            {
+              "name": "Get-IAMGroup"
+            },
+            {
+              "name": "Move-IAMGroup"
+            },
+            {
+              "name": "New-IAMGroup"
+            },
+            {
+              "name": "Remove-IAMGroup"
+            },
+            {
+              "name": "Set-IAMGroup"
+            }
+          ]
+        },
+        {
+          "name": "IAMGroupMoveAffectedUsers",
+          "children": [
+            {
+              "name": "Get-IAMGroupMoveAffectedUsers"
+            }
+          ]
+        },
+        {
+          "name": "IAMIPAllowListStatus",
+          "children": [
+            {
+              "name": "Get-IAMIPAllowListStatus"
+            }
+          ]
+        },
+        {
+          "name": "IAMProperty",
+          "children": [
+            {
+              "name": "Get-IAMProperty"
+            },
+            {
+              "name": "Move-IAMProperty"
+            }
+          ]
+        },
+        {
+          "name": "IAMPropertyResources",
+          "children": [
+            {
+              "name": "Get-IAMPropertyResources"
+            }
+          ]
+        },
+        {
+          "name": "IAMRole",
+          "children": [
+            {
+              "name": "Get-IAMRole"
+            },
+            {
+              "name": "New-IAMRole"
+            },
+            {
+              "name": "Remove-IAMRole"
+            },
+            {
+              "name": "Set-IAMRole"
+            }
+          ]
+        },
+        {
+          "name": "IAMUser",
+          "children": [
+            {
+              "name": "Get-IAMUser"
+            },
+            {
+              "name": "Lock-IAMUser"
+            },
+            {
+              "name": "New-IAMUser"
+            },
+            {
+              "name": "Remove-IAMUser"
+            },
+            {
+              "name": "Set-IAMUser"
+            },
+            {
+              "name": "Unlock-IAMUser"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserBlockedProperties",
+          "children": [
+            {
+              "name": "Get-IAMUserBlockedProperties"
+            },
+            {
+              "name": "Set-IAMUserBlockedProperties"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserContactTypes",
+          "children": [
+            {
+              "name": "Get-IAMUserContactTypes"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserCountries",
+          "children": [
+            {
+              "name": "Get-IAMUserCountries"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserLanguages",
+          "children": [
+            {
+              "name": "Get-IAMUserLanguages"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-IAMUserPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserProducts",
+          "children": [
+            {
+              "name": "Get-IAMUserProducts"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserProfile",
+          "children": [
+            {
+              "name": "Get-IAMUserProfile"
+            },
+            {
+              "name": "Set-IAMUserProfile"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserStates",
+          "children": [
+            {
+              "name": "Get-IAMUserStates"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserTimeoutPolicy",
+          "children": [
+            {
+              "name": "Get-IAMUserTimeoutPolicy"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserTimeZones",
+          "children": [
+            {
+              "name": "Get-IAMUserTimeZones"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserMFA",
+          "children": [
+            {
+              "name": "Reset-IAMUserMFA"
+            },
+            {
+              "name": "Set-IAMUSerMFA"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserPassword",
+          "children": [
+            {
+              "name": "Reset-IAMUserPassword"
+            },
+            {
+              "name": "Set-IAMUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserGroupAndRole",
+          "children": [
+            {
+              "name": "Set-IAMUserGroupAndRole"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserNotifications",
+          "children": [
+            {
+              "name": "Set-IAMUserNotifications"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.GTM",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "GTMASMap",
+          "children": [
+            {
+              "name": "Get-GTMASMap"
+            },
+            {
+              "name": "New-GTMASMap"
+            },
+            {
+              "name": "Remove-GTMASMap"
+            },
+            {
+              "name": "Set-GTMASMap"
+            }
+          ]
+        },
+        {
+          "name": "GTMCIDRMap",
+          "children": [
+            {
+              "name": "Get-GTMCIDRMap"
+            },
+            {
+              "name": "New-GTMCIDRMap"
+            },
+            {
+              "name": "Remove-GTMCIDRMap"
+            },
+            {
+              "name": "Set-GTMCIDRMap"
+            }
+          ]
+        },
+        {
+          "name": "GTMDatacenter",
+          "children": [
+            {
+              "name": "Get-GTMDatacenter"
+            },
+            {
+              "name": "New-GTMDatacenter"
+            },
+            {
+              "name": "Remove-GTMDatacenter"
+            },
+            {
+              "name": "Set-GTMDatacenter"
+            }
+          ]
+        },
+        {
+          "name": "GTMDatacenterLatency",
+          "children": [
+            {
+              "name": "Get-GTMDatacenterLatency"
+            }
+          ]
+        },
+        {
+          "name": "GTMDemand",
+          "children": [
+            {
+              "name": "Get-GTMDemand"
+            }
+          ]
+        },
+        {
+          "name": "GTMDomain",
+          "children": [
+            {
+              "name": "Get-GTMDomain"
+            },
+            {
+              "name": "New-GTMDomain"
+            },
+            {
+              "name": "Set-GTMDomain"
+            }
+          ]
+        },
+        {
+          "name": "GTMDomainHistory",
+          "children": [
+            {
+              "name": "Get-GTMDomainHistory"
+            }
+          ]
+        },
+        {
+          "name": "GTMDomainStatus",
+          "children": [
+            {
+              "name": "Get-GTMDomainStatus"
+            }
+          ]
+        },
+        {
+          "name": "GTMGeoMap",
+          "children": [
+            {
+              "name": "Get-GTMGeoMap"
+            },
+            {
+              "name": "New-GTMGeoMap"
+            },
+            {
+              "name": "Remove-GTMGeoMap"
+            },
+            {
+              "name": "Set-GTMGeoMap"
+            }
+          ]
+        },
+        {
+          "name": "GTMIPAvailability",
+          "children": [
+            {
+              "name": "Get-GTMIPAvailability"
+            }
+          ]
+        },
+        {
+          "name": "GTMLivenessPerProperty",
+          "children": [
+            {
+              "name": "Get-GTMLivenessPerProperty"
+            }
+          ]
+        },
+        {
+          "name": "GTMLivenessTestError",
+          "children": [
+            {
+              "name": "Get-GTMLivenessTestError"
+            }
+          ]
+        },
+        {
+          "name": "GTMLoadData",
+          "children": [
+            {
+              "name": "Get-GTMLoadData"
+            },
+            {
+              "name": "Submit-GTMLoadData"
+            }
+          ]
+        },
+        {
+          "name": "GTMLoadFeedbackReport",
+          "children": [
+            {
+              "name": "Get-GTMLoadFeedbackReport"
+            }
+          ]
+        },
+        {
+          "name": "GTMProperty",
+          "children": [
+            {
+              "name": "Get-GTMProperty"
+            },
+            {
+              "name": "New-GTMProperty"
+            },
+            {
+              "name": "Remove-GTMProperty"
+            },
+            {
+              "name": "Set-GTMProperty"
+            }
+          ]
+        },
+        {
+          "name": "GTMResource",
+          "children": [
+            {
+              "name": "Get-GTMResource"
+            },
+            {
+              "name": "New-GTMResource"
+            },
+            {
+              "name": "Remove-GTMResource"
+            },
+            {
+              "name": "Set-GTMResource"
+            }
+          ]
+        },
+        {
+          "name": "GTMTrafficPerDatacenter",
+          "children": [
+            {
+              "name": "Get-GTMTrafficPerDatacenter"
+            }
+          ]
+        },
+        {
+          "name": "GTMTrafficPerProperty",
+          "children": [
+            {
+              "name": "Get-GTMTrafficPerProperty"
+            }
+          ]
+        },
+        {
+          "name": "GTMDefaultDatacenter",
+          "children": [
+            {
+              "name": "New-GTMDefaultDatacenter"
+            }
+          ]
+        },
+        {
+          "name": "GTMDefaultDatacenterForIP",
+          "children": [
+            {
+              "name": "New-GTMDefaultDatacenterForIP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.FirewallRulesNotification",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "FirewallRulesCIDR",
+          "children": [
+            {
+              "name": "Get-FirewallRulesCIDR"
+            }
+          ]
+        },
+        {
+          "name": "FirewallRulesService",
+          "children": [
+            {
+              "name": "Get-FirewallRulesService"
+            }
+          ]
+        },
+        {
+          "name": "FirewallRulesSubscription",
+          "children": [
+            {
+              "name": "Get-FirewallRulesSubscription"
+            },
+            {
+              "name": "New-FirewallRulesSubscription"
+            },
+            {
+              "name": "Remove-FirewallRulesSubscription"
+            },
+            {
+              "name": "Set-FirewallRulesSubscription"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.EdgeWorkers",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "EdgeWorkerDetails",
+          "children": [
+            {
+              "name": "Expand-EdgeWorkerDetails"
+            }
+          ]
+        },
+        {
+          "name": "EdgeworkerRevision",
+          "children": [
+            {
+              "name": "Compare-EdgeworkerRevision"
+            },
+            {
+              "name": "Get-EdgeworkerRevision"
+            },
+            {
+              "name": "Set-EdgeworkerRevision"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorker",
+          "children": [
+            {
+              "name": "Copy-EdgeWorker"
+            },
+            {
+              "name": "Get-EdgeWorker"
+            },
+            {
+              "name": "New-EdgeWorker"
+            },
+            {
+              "name": "Remove-EdgeWorker"
+            },
+            {
+              "name": "Set-EdgeWorker"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerActivation",
+          "children": [
+            {
+              "name": "Get-EdgeWorkerActivation"
+            },
+            {
+              "name": "New-EdgeWorkerActivation"
+            },
+            {
+              "name": "Remove-EdgeWorkerActivation"
+            },
+            {
+              "name": "Undo-EdgeWorkerActivation"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerCodeBundle",
+          "children": [
+            {
+              "name": "Get-EdgeWorkerCodeBundle"
+            },
+            {
+              "name": "Test-EdgeWorkerCodeBundle"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerContract",
+          "children": [
+            {
+              "name": "Get-EdgeWorkerContract"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerDeactivation",
+          "children": [
+            {
+              "name": "Get-EdgeWorkerDeactivation"
+            },
+            {
+              "name": "New-EdgeWorkerDeactivation"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerGroup",
+          "children": [
+            {
+              "name": "Get-EdgeWorkerGroup"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerLimit",
+          "children": [
+            {
+              "name": "Get-EdgeWorkerLimit"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerProperties",
+          "children": [
+            {
+              "name": "Get-EdgeWorkerProperties"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerReport",
+          "children": [
+            {
+              "name": "Get-EdgeWorkerReport"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerResourceTier",
+          "children": [
+            {
+              "name": "Get-EdgeWorkerResourceTier"
+            }
+          ]
+        },
+        {
+          "name": "EdgeworkerRevisionActivation",
+          "children": [
+            {
+              "name": "Get-EdgeworkerRevisionActivation"
+            },
+            {
+              "name": "New-EdgeworkerRevisionActivation"
+            }
+          ]
+        },
+        {
+          "name": "EdgeworkerRevisionBom",
+          "children": [
+            {
+              "name": "Get-EdgeworkerRevisionBom"
+            }
+          ]
+        },
+        {
+          "name": "EdgeworkerRevisionCodeBundle",
+          "children": [
+            {
+              "name": "Get-EdgeworkerRevisionCodeBundle"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerVersion",
+          "children": [
+            {
+              "name": "Get-EdgeWorkerVersion"
+            },
+            {
+              "name": "New-EdgeWorkerVersion"
+            },
+            {
+              "name": "Remove-EdgeWorkerVersion"
+            }
+          ]
+        },
+        {
+          "name": "EdgeWorkerAuthToken",
+          "children": [
+            {
+              "name": "New-EdgeWorkerAuthToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.EdgeKV",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "EdgeKVAccessToken",
+          "children": [
+            {
+              "name": "Get-EdgeKVAccessToken"
+            },
+            {
+              "name": "New-EdgeKVAccessToken"
+            },
+            {
+              "name": "Remove-EdgeKVAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "EdgeKVGroup",
+          "children": [
+            {
+              "name": "Get-EdgeKVGroup"
+            }
+          ]
+        },
+        {
+          "name": "EdgeKVInitializationStatus",
+          "children": [
+            {
+              "name": "Get-EdgeKVInitializationStatus"
+            }
+          ]
+        },
+        {
+          "name": "EdgeKVItem",
+          "children": [
+            {
+              "name": "Get-EdgeKVItem"
+            },
+            {
+              "name": "New-EdgeKVItem"
+            },
+            {
+              "name": "Remove-EdgeKVItem"
+            }
+          ]
+        },
+        {
+          "name": "EdgeKVNamespace",
+          "children": [
+            {
+              "name": "Get-EdgeKVNamespace"
+            },
+            {
+              "name": "Move-EdgeKVNamespace"
+            },
+            {
+              "name": "New-EdgeKVNamespace"
+            },
+            {
+              "name": "Set-EdgeKVNamespace"
+            },
+            {
+              "name": "Update-EdgeKVNamespace"
+            }
+          ]
+        },
+        {
+          "name": "EdgeKV",
+          "children": [
+            {
+              "name": "Initialize-EdgeKV"
+            }
+          ]
+        },
+        {
+          "name": "EdgeKVDefaultAccessPolicy",
+          "children": [
+            {
+              "name": "Set-EdgeKVDefaultAccessPolicy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.EdgeHostnames",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "EdgeHostname",
+          "children": [
+            {
+              "name": "Get-EdgeHostname"
+            },
+            {
+              "name": "Remove-EdgeHostname"
+            },
+            {
+              "name": "Set-EdgeHostname"
+            }
+          ]
+        },
+        {
+          "name": "EdgeHostnameCertificate",
+          "children": [
+            {
+              "name": "Get-EdgeHostnameCertificate"
+            }
+          ]
+        },
+        {
+          "name": "EdgeHostnameChangeRequest",
+          "children": [
+            {
+              "name": "Get-EdgeHostnameChangeRequest"
+            }
+          ]
+        },
+        {
+          "name": "EdgeHostnameLocalizationData",
+          "children": [
+            {
+              "name": "Get-EdgeHostnameLocalizationData"
+            }
+          ]
+        },
+        {
+          "name": "EdgeHostnameProduct",
+          "children": [
+            {
+              "name": "Get-EdgeHostnameProduct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.EdgeDNS",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "EdnsZoneVersion",
+          "children": [
+            {
+              "name": "Compare-EdnsZoneVersion"
+            },
+            {
+              "name": "Get-EdnsZoneVersion"
+            },
+            {
+              "name": "Restore-EdnsZoneVersion"
+            }
+          ]
+        },
+        {
+          "name": "EdnsAuthority",
+          "children": [
+            {
+              "name": "Get-EdnsAuthority"
+            }
+          ]
+        },
+        {
+          "name": "EdnsChangeList",
+          "children": [
+            {
+              "name": "Get-EdnsChangeList"
+            },
+            {
+              "name": "New-EdnsChangeList"
+            },
+            {
+              "name": "Remove-EdnsChangeList"
+            },
+            {
+              "name": "Submit-EdnsChangeList"
+            }
+          ]
+        },
+        {
+          "name": "EdnsChangeListDiff",
+          "children": [
+            {
+              "name": "Get-EdnsChangeListDiff"
+            }
+          ]
+        },
+        {
+          "name": "EdnsChangeListRecordSet",
+          "children": [
+            {
+              "name": "Get-EdnsChangeListRecordSet"
+            },
+            {
+              "name": "Set-EdnsChangeListRecordSet"
+            }
+          ]
+        },
+        {
+          "name": "EdnsChangeListRecordSetNames",
+          "children": [
+            {
+              "name": "Get-EdnsChangeListRecordSetNames"
+            }
+          ]
+        },
+        {
+          "name": "EdnsChangeListRecordSetTypes",
+          "children": [
+            {
+              "name": "Get-EdnsChangeListRecordSetTypes"
+            }
+          ]
+        },
+        {
+          "name": "EdnsChangeListSettings",
+          "children": [
+            {
+              "name": "Get-EdnsChangeListSettings"
+            },
+            {
+              "name": "Set-EdnsChangeListSettings"
+            }
+          ]
+        },
+        {
+          "name": "EdnsContracts",
+          "children": [
+            {
+              "name": "Get-EdnsContracts"
+            }
+          ]
+        },
+        {
+          "name": "EdnsDNSSECAlgorithms",
+          "children": [
+            {
+              "name": "Get-EdnsDNSSECAlgorithms"
+            }
+          ]
+        },
+        {
+          "name": "EdnsEdgeHostnames",
+          "children": [
+            {
+              "name": "Get-EdnsEdgeHostnames"
+            }
+          ]
+        },
+        {
+          "name": "EdnsGroups",
+          "children": [
+            {
+              "name": "Get-EdnsGroups"
+            }
+          ]
+        },
+        {
+          "name": "EdnsMasterFile",
+          "children": [
+            {
+              "name": "Get-EdnsMasterFile"
+            },
+            {
+              "name": "Set-EdnsMasterFile"
+            }
+          ]
+        },
+        {
+          "name": "EdnsRecordSet",
+          "children": [
+            {
+              "name": "Get-EdnsRecordSet"
+            },
+            {
+              "name": "New-EdnsRecordSet"
+            },
+            {
+              "name": "Remove-EdnsRecordSet"
+            },
+            {
+              "name": "Set-EdnsRecordSet"
+            }
+          ]
+        },
+        {
+          "name": "EdnsRecordSetTypes",
+          "children": [
+            {
+              "name": "Get-EdnsRecordSetTypes"
+            }
+          ]
+        },
+        {
+          "name": "EdnsTSIGAlgorithms",
+          "children": [
+            {
+              "name": "Get-EdnsTSIGAlgorithms"
+            }
+          ]
+        },
+        {
+          "name": "EdnsTSIGKey",
+          "children": [
+            {
+              "name": "Get-EdnsTSIGKey"
+            },
+            {
+              "name": "Remove-EdnsTSIGKey"
+            },
+            {
+              "name": "Set-EdnsTSIGKey"
+            }
+          ]
+        },
+        {
+          "name": "EdnsTSIGKeyUsedBy",
+          "children": [
+            {
+              "name": "Get-EdnsTSIGKeyUsedBy"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZone",
+          "children": [
+            {
+              "name": "Get-EdnsZone"
+            },
+            {
+              "name": "New-EdnsZone"
+            },
+            {
+              "name": "Set-EdnsZone"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneAlias",
+          "children": [
+            {
+              "name": "Get-EdnsZoneAlias"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneBulkCreateResult",
+          "children": [
+            {
+              "name": "Get-EdnsZoneBulkCreateResult"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneBulkCreateStatus",
+          "children": [
+            {
+              "name": "Get-EdnsZoneBulkCreateStatus"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneBulkDeleteResult",
+          "children": [
+            {
+              "name": "Get-EdnsZoneBulkDeleteResult"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneBulkDeleteStatus",
+          "children": [
+            {
+              "name": "Get-EdnsZoneBulkDeleteStatus"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneContract",
+          "children": [
+            {
+              "name": "Get-EdnsZoneContract"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneDNSSECStatus",
+          "children": [
+            {
+              "name": "Get-EdnsZoneDNSSECStatus"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneTransferStatus",
+          "children": [
+            {
+              "name": "Get-EdnsZoneTransferStatus"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneVersionMasterFile",
+          "children": [
+            {
+              "name": "Get-EdnsZoneVersionMasterFile"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneVersionRecordSet",
+          "children": [
+            {
+              "name": "Get-EdnsZoneVersionRecordSet"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneBulkCreate",
+          "children": [
+            {
+              "name": "New-EdnsZoneBulkCreate"
+            }
+          ]
+        },
+        {
+          "name": "EdnsZoneBulkDelete",
+          "children": [
+            {
+              "name": "New-EdnsZoneBulkDelete"
+            }
+          ]
+        },
+        {
+          "name": "EdnsChangeListMasterFile",
+          "children": [
+            {
+              "name": "Set-EdnsChangeListMasterFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.EdgeDiagnostics",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "IPAddress",
+          "children": [
+            {
+              "name": "Find-IPAddress"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsConnectivityProblem",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsConnectivityProblem"
+            },
+            {
+              "name": "New-EdgeDiagnosticsConnectivityProblem"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsContentProblem",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsContentProblem"
+            },
+            {
+              "name": "New-EdgeDiagnosticsContentProblem"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsErrorStatistics",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsErrorStatistics"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsErrorTranslation",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsErrorTranslation"
+            },
+            {
+              "name": "New-EdgeDiagnosticsErrorTranslation"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsGrep",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsGrep"
+            },
+            {
+              "name": "New-EdgeDiagnosticsGrep"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsGroup",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsGroup"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsGTMProperties",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsGTMProperties"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsGTMPropertyIPs",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsGTMPropertyIPs"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsIPAHostnames",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsIPAHostnames"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsLocations",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsLocations"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsLogs",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsLogs"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsMetadataTrace",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsMetadataTrace"
+            },
+            {
+              "name": "New-EdgeDiagnosticsMetadataTrace"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsMetadataTraceLocations",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsMetadataTraceLocations"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsURLHealthCheck",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsURLHealthCheck"
+            },
+            {
+              "name": "New-EdgeDiagnosticsURLHealthCheck"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsURLTranslation",
+          "children": [
+            {
+              "name": "Get-EdgeDiagnosticsURLTranslation"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsCurl",
+          "children": [
+            {
+              "name": "New-EdgeDiagnosticsCurl"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsDig",
+          "children": [
+            {
+              "name": "New-EdgeDiagnosticsDig"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsESIDebug",
+          "children": [
+            {
+              "name": "New-EdgeDiagnosticsESIDebug"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsLink",
+          "children": [
+            {
+              "name": "New-EdgeDiagnosticsLink"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsMTR",
+          "children": [
+            {
+              "name": "New-EdgeDiagnosticsMTR"
+            }
+          ]
+        },
+        {
+          "name": "EdgeDiagnosticsIP",
+          "children": [
+            {
+              "name": "Test-EdgeDiagnosticsIP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.Datastream",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "DataStream",
+          "children": [
+            {
+              "name": "Get-DataStream"
+            },
+            {
+              "name": "New-DataStream"
+            },
+            {
+              "name": "Remove-DataStream"
+            },
+            {
+              "name": "Set-DataStream"
+            },
+            {
+              "name": "Update-DataStream"
+            }
+          ]
+        },
+        {
+          "name": "DataStreamActivationHistory",
+          "children": [
+            {
+              "name": "Get-DataStreamActivationHistory"
+            }
+          ]
+        },
+        {
+          "name": "DatastreamDatasets",
+          "children": [
+            {
+              "name": "Get-DatastreamDatasets"
+            }
+          ]
+        },
+        {
+          "name": "DatastreamGroups",
+          "children": [
+            {
+              "name": "Get-DatastreamGroups"
+            }
+          ]
+        },
+        {
+          "name": "DataStreamHistory",
+          "children": [
+            {
+              "name": "Get-DataStreamHistory"
+            }
+          ]
+        },
+        {
+          "name": "DataStreamMetrics",
+          "children": [
+            {
+              "name": "Get-DataStreamMetrics"
+            }
+          ]
+        },
+        {
+          "name": "DataStreamProperties",
+          "children": [
+            {
+              "name": "Get-DataStreamProperties"
+            }
+          ]
+        },
+        {
+          "name": "DataStreamActivation",
+          "children": [
+            {
+              "name": "New-DataStreamActivation"
+            }
+          ]
+        },
+        {
+          "name": "DataStreamDeactivation",
+          "children": [
+            {
+              "name": "New-DataStreamDeactivation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.CPS",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "CPSThirdPartyCert",
+          "children": [
+            {
+              "name": "Add-CPSThirdPartyCert"
+            }
+          ]
+        },
+        {
+          "name": "CPSChange",
+          "children": [
+            {
+              "name": "Complete-CPSChange"
+            },
+            {
+              "name": "Remove-CPSChange"
+            }
+          ]
+        },
+        {
+          "name": "CPSLetsEncryptChallengesCompleted",
+          "children": [
+            {
+              "name": "Confirm-CPSLetsEncryptChallengesCompleted"
+            }
+          ]
+        },
+        {
+          "name": "CPSPostVerificationWarnings",
+          "children": [
+            {
+              "name": "Confirm-CPSPostVerificationWarnings"
+            },
+            {
+              "name": "Get-CPSPostVerificationWarnings"
+            }
+          ]
+        },
+        {
+          "name": "CPSPreVerificationWarnings",
+          "children": [
+            {
+              "name": "Confirm-CPSPreVerificationWarnings"
+            },
+            {
+              "name": "Get-CPSPreVerificationWarnings"
+            }
+          ]
+        },
+        {
+          "name": "CPSCertificateHistory",
+          "children": [
+            {
+              "name": "Get-CPSCertificateHistory"
+            }
+          ]
+        },
+        {
+          "name": "CPSChangeHistory",
+          "children": [
+            {
+              "name": "Get-CPSChangeHistory"
+            }
+          ]
+        },
+        {
+          "name": "CPSChangeStagingStatus",
+          "children": [
+            {
+              "name": "Get-CPSChangeStagingStatus"
+            }
+          ]
+        },
+        {
+          "name": "CPSChangeStatus",
+          "children": [
+            {
+              "name": "Get-CPSChangeStatus"
+            }
+          ]
+        },
+        {
+          "name": "CPSCSR",
+          "children": [
+            {
+              "name": "Get-CPSCSR"
+            }
+          ]
+        },
+        {
+          "name": "CPSDeployment",
+          "children": [
+            {
+              "name": "Get-CPSDeployment"
+            }
+          ]
+        },
+        {
+          "name": "CPSDeploymentSchedule",
+          "children": [
+            {
+              "name": "Get-CPSDeploymentSchedule"
+            },
+            {
+              "name": "Set-CPSDeploymentSchedule"
+            }
+          ]
+        },
+        {
+          "name": "CPSDVHistory",
+          "children": [
+            {
+              "name": "Get-CPSDVHistory"
+            }
+          ]
+        },
+        {
+          "name": "CPSEnrollment",
+          "children": [
+            {
+              "name": "Get-CPSEnrollment"
+            },
+            {
+              "name": "New-CPSEnrollment"
+            },
+            {
+              "name": "Remove-CPSEnrollment"
+            },
+            {
+              "name": "Set-CPSEnrollment"
+            }
+          ]
+        },
+        {
+          "name": "CPSLetsEncryptChallenges",
+          "children": [
+            {
+              "name": "Get-CPSLetsEncryptChallenges"
+            }
+          ]
+        },
+        {
+          "name": "CPSProductionDeployment",
+          "children": [
+            {
+              "name": "Get-CPSProductionDeployment"
+            }
+          ]
+        },
+        {
+          "name": "CPSStagingDeployment",
+          "children": [
+            {
+              "name": "Get-CPSStagingDeployment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.CPCodes",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "CPCode",
+          "children": [
+            {
+              "name": "Get-CPCode"
+            },
+            {
+              "name": "Set-CPCode"
+            }
+          ]
+        },
+        {
+          "name": "CPCodeWatermarkLimit",
+          "children": [
+            {
+              "name": "Get-CPCodeWatermarkLimit"
+            }
+          ]
+        },
+        {
+          "name": "CPReportingGroup",
+          "children": [
+            {
+              "name": "Get-CPReportingGroup"
+            },
+            {
+              "name": "New-CPReportingGroup"
+            },
+            {
+              "name": "Remove-CPReportingGroup"
+            },
+            {
+              "name": "Set-CPReportingGroup"
+            }
+          ]
+        },
+        {
+          "name": "CPReportingGroupProducts",
+          "children": [
+            {
+              "name": "Get-CPReportingGroupProducts"
+            }
+          ]
+        },
+        {
+          "name": "CPReportingGroupWatermarkLimit",
+          "children": [
+            {
+              "name": "Get-CPReportingGroupWatermarkLimit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.Contracts",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "Contract",
+          "children": [
+            {
+              "name": "Get-Contract"
+            }
+          ]
+        },
+        {
+          "name": "ProductsPerContract",
+          "children": [
+            {
+              "name": "Get-ProductsPerContract"
+            }
+          ]
+        },
+        {
+          "name": "ProductsPerReportingGroup",
+          "children": [
+            {
+              "name": "Get-ProductsPerReportingGroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.Common",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "Base64String",
+          "children": [
+            {
+              "name": "Convert-Base64String"
+            }
+          ]
+        },
+        {
+          "name": "URL",
+          "children": [
+            {
+              "name": "Convert-URL"
+            }
+          ]
+        },
+        {
+          "name": "Base64",
+          "children": [
+            {
+              "name": "ConvertFrom-Base64"
+            },
+            {
+              "name": "ConvertTo-Base64"
+            }
+          ]
+        },
+        {
+          "name": "Filename",
+          "children": [
+            {
+              "name": "Format-Filename"
+            }
+          ]
+        },
+        {
+          "name": "QueryString",
+          "children": [
+            {
+              "name": "Format-QueryString"
+            }
+          ]
+        },
+        {
+          "name": "BodyObject",
+          "children": [
+            {
+              "name": "Get-BodyObject"
+            }
+          ]
+        },
+        {
+          "name": "Crypto",
+          "children": [
+            {
+              "name": "Get-Crypto"
+            }
+          ]
+        },
+        {
+          "name": "OSSlashCharacter",
+          "children": [
+            {
+              "name": "Get-OSSlashCharacter"
+            }
+          ]
+        },
+        {
+          "name": "ISO8601",
+          "children": [
+            {
+              "name": "Test-ISO8601"
+            }
+          ]
+        },
+        {
+          "name": "Auth",
+          "children": [
+            {
+              "name": "Confirm-Auth"
+            }
+          ]
+        },
+        {
+          "name": "AkamaiCredentials",
+          "children": [
+            {
+              "name": "Get-AkamaiCredentials"
+            }
+          ]
+        },
+        {
+          "name": "AkamaiSession",
+          "children": [
+            {
+              "name": "Get-AkamaiSession"
+            },
+            {
+              "name": "New-AkamaiSession"
+            },
+            {
+              "name": "Remove-AkamaiSession"
+            },
+            {
+              "name": "Set-AkamaiSession"
+            }
+          ]
+        },
+        {
+          "name": "AuthGrants",
+          "children": [
+            {
+              "name": "Get-AuthGrants"
+            }
+          ]
+        },
+        {
+          "name": "NetstorageCredentials",
+          "children": [
+            {
+              "name": "Get-NetstorageCredentials"
+            }
+          ]
+        },
+        {
+          "name": "RandomString",
+          "children": [
+            {
+              "name": "Get-RandomString"
+            }
+          ]
+        },
+        {
+          "name": "AkamaiNSAPIRequest",
+          "children": [
+            {
+              "name": "Invoke-AkamaiNSAPIRequest"
+            }
+          ]
+        },
+        {
+          "name": "AkamaiRestMethod",
+          "children": [
+            {
+              "name": "Invoke-AkamaiRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "EdgeAuthToken",
+          "children": [
+            {
+              "name": "New-EdgeAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "OpenApi",
+          "children": [
+            {
+              "name": "Test-OpenApi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.CloudWrapper",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "CloudWrapperAuthKey",
+          "children": [
+            {
+              "name": "Get-CloudWrapperAuthKey"
+            }
+          ]
+        },
+        {
+          "name": "CloudWrapperCapacity",
+          "children": [
+            {
+              "name": "Get-CloudWrapperCapacity"
+            }
+          ]
+        },
+        {
+          "name": "CloudWrapperConfiguration",
+          "children": [
+            {
+              "name": "Get-CloudWrapperConfiguration"
+            },
+            {
+              "name": "New-CloudWrapperConfiguration"
+            },
+            {
+              "name": "Remove-CloudWrapperConfiguration"
+            },
+            {
+              "name": "Set-CloudWrapperConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "CloudWrapperConfigurationOrigins",
+          "children": [
+            {
+              "name": "Get-CloudWrapperConfigurationOrigins"
+            }
+          ]
+        },
+        {
+          "name": "CloudWrapperLocation",
+          "children": [
+            {
+              "name": "Get-CloudWrapperLocation"
+            }
+          ]
+        },
+        {
+          "name": "CloudWrapperOrigin",
+          "children": [
+            {
+              "name": "Get-CloudWrapperOrigin"
+            }
+          ]
+        },
+        {
+          "name": "CloudWrapperProperty",
+          "children": [
+            {
+              "name": "Get-CloudWrapperProperty"
+            }
+          ]
+        },
+        {
+          "name": "CloudWrapperProvider",
+          "children": [
+            {
+              "name": "Get-CloudWrapperProvider"
+            }
+          ]
+        },
+        {
+          "name": "CloudWrapperConfigurationActivation",
+          "children": [
+            {
+              "name": "New-CloudWrapperConfigurationActivation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.Cloudlets",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "CloudletLoadBalancerDetails",
+          "children": [
+            {
+              "name": "Expand-CloudletLoadBalancerDetails"
+            }
+          ]
+        },
+        {
+          "name": "CloudletPolicyDetails",
+          "children": [
+            {
+              "name": "Expand-CloudletPolicyDetails"
+            }
+          ]
+        },
+        {
+          "name": "CloudletPolicy",
+          "children": [
+            {
+              "name": "Copy-CloudletPolicy"
+            },
+            {
+              "name": "Get-CloudletPolicy"
+            },
+            {
+              "name": "New-CloudletPolicy"
+            },
+            {
+              "name": "Remove-CloudletPolicy"
+            },
+            {
+              "name": "Set-CloudletPolicy"
+            }
+          ]
+        },
+        {
+          "name": "Cloudlet",
+          "children": [
+            {
+              "name": "Get-Cloudlet"
+            }
+          ]
+        },
+        {
+          "name": "CloudletGroup",
+          "children": [
+            {
+              "name": "Get-CloudletGroup"
+            }
+          ]
+        },
+        {
+          "name": "CloudletLoadBalancer",
+          "children": [
+            {
+              "name": "Get-CloudletLoadBalancer"
+            },
+            {
+              "name": "New-CloudletLoadBalancer"
+            },
+            {
+              "name": "Set-CloudletLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "CloudletLoadBalancerActivation",
+          "children": [
+            {
+              "name": "Get-CloudletLoadBalancerActivation"
+            },
+            {
+              "name": "New-CloudletLoadBalancerActivation"
+            }
+          ]
+        },
+        {
+          "name": "CloudletLoadBalancerVersion",
+          "children": [
+            {
+              "name": "Get-CloudletLoadBalancerVersion"
+            },
+            {
+              "name": "New-CloudletLoadBalancerVersion"
+            },
+            {
+              "name": "Set-CloudletLoadBalancerVersion"
+            }
+          ]
+        },
+        {
+          "name": "CloudletPolicyActivation",
+          "children": [
+            {
+              "name": "Get-CloudletPolicyActivation"
+            },
+            {
+              "name": "New-CloudletPolicyActivation"
+            }
+          ]
+        },
+        {
+          "name": "CloudletPolicyCSV",
+          "children": [
+            {
+              "name": "Get-CloudletPolicyCSV"
+            }
+          ]
+        },
+        {
+          "name": "CloudletPolicyProperty",
+          "children": [
+            {
+              "name": "Get-CloudletPolicyProperty"
+            }
+          ]
+        },
+        {
+          "name": "CloudletPolicyVersion",
+          "children": [
+            {
+              "name": "Get-CloudletPolicyVersion"
+            },
+            {
+              "name": "New-CloudletPolicyVersion"
+            },
+            {
+              "name": "Remove-CloudletPolicyVersion"
+            },
+            {
+              "name": "Set-CloudletPolicyVersion"
+            }
+          ]
+        },
+        {
+          "name": "CloudletPolicyVersionRule",
+          "children": [
+            {
+              "name": "Get-CloudletPolicyVersionRule"
+            },
+            {
+              "name": "New-CloudletPolicyVersionRule"
+            },
+            {
+              "name": "Set-CloudletPolicyVersionRule"
+            }
+          ]
+        },
+        {
+          "name": "CloudletProperty",
+          "children": [
+            {
+              "name": "Get-CloudletProperty"
+            }
+          ]
+        },
+        {
+          "name": "CloudletSchema",
+          "children": [
+            {
+              "name": "Get-CloudletSchema"
+            }
+          ]
+        },
+        {
+          "name": "CloudletPolicyDeactivation",
+          "children": [
+            {
+              "name": "New-CloudletPolicyDeactivation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.CloudAccessManager",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "CloudAccessKey",
+          "children": [
+            {
+              "name": "Get-CloudAccessKey"
+            },
+            {
+              "name": "New-CloudAccessKey"
+            }
+          ]
+        },
+        {
+          "name": "CloudAccessKeyCreateRequest",
+          "children": [
+            {
+              "name": "Get-CloudAccessKeyCreateRequest"
+            }
+          ]
+        },
+        {
+          "name": "CloudAccessKeyVersion",
+          "children": [
+            {
+              "name": "Get-CloudAccessKeyVersion"
+            },
+            {
+              "name": "New-CloudAccessKeyVersion"
+            },
+            {
+              "name": "Remove-CloudAccessKeyVersion"
+            }
+          ]
+        },
+        {
+          "name": "CloudAccessKeyVersionCreateRequest",
+          "children": [
+            {
+              "name": "Get-CloudAccessKeyVersionCreateRequest"
+            }
+          ]
+        },
+        {
+          "name": "CloudAccessKeyVersionProperties",
+          "children": [
+            {
+              "name": "Get-CloudAccessKeyVersionProperties"
+            }
+          ]
+        },
+        {
+          "name": "CloudAccessKeyVersionStatus",
+          "children": [
+            {
+              "name": "Get-CloudAccessKeyVersionStatus"
+            }
+          ]
+        },
+        {
+          "name": "CloudAccessLookup",
+          "children": [
+            {
+              "name": "Get-CloudAccessLookup"
+            },
+            {
+              "name": "New-CloudAccessLookup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.ClientLists",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "ClientListItem",
+          "children": [
+            {
+              "name": "Add-ClientListItem"
+            },
+            {
+              "name": "Get-ClientListItem"
+            },
+            {
+              "name": "Set-ClientListItem"
+            }
+          ]
+        },
+        {
+          "name": "ClientListDetails",
+          "children": [
+            {
+              "name": "Expand-ClientListDetails"
+            }
+          ]
+        },
+        {
+          "name": "ClientList",
+          "children": [
+            {
+              "name": "Get-ClientList"
+            },
+            {
+              "name": "New-ClientList"
+            },
+            {
+              "name": "Remove-ClientList"
+            },
+            {
+              "name": "Set-ClientList"
+            }
+          ]
+        },
+        {
+          "name": "ClientListActivation",
+          "children": [
+            {
+              "name": "Get-ClientListActivation"
+            },
+            {
+              "name": "New-ClientListActivation"
+            }
+          ]
+        },
+        {
+          "name": "ClientListActivationStatus",
+          "children": [
+            {
+              "name": "Get-ClientListActivationStatus"
+            }
+          ]
+        },
+        {
+          "name": "ClientListContractsGroups",
+          "children": [
+            {
+              "name": "Get-ClientListContractsGroups"
+            }
+          ]
+        },
+        {
+          "name": "ClientListSnapshot",
+          "children": [
+            {
+              "name": "Get-ClientListSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "ClientListTag",
+          "children": [
+            {
+              "name": "Get-ClientListTag"
+            }
+          ]
+        },
+        {
+          "name": "ClientListUsage",
+          "children": [
+            {
+              "name": "Get-ClientListUsage"
+            }
+          ]
+        },
+        {
+          "name": "ClientListDeactivation",
+          "children": [
+            {
+              "name": "New-ClientListDeactivation"
+            }
+          ]
+        },
+        {
+          "name": "ClientListItems",
+          "children": [
+            {
+              "name": "Test-ClientListItems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.ChinaCDN",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "ChinaCDNDeprovisionPolicy",
+          "children": [
+            {
+              "name": "Get-ChinaCDNDeprovisionPolicy"
+            },
+            {
+              "name": "Set-ChinaCDNDeprovisionPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ChinaCDNEdgeHostnames",
+          "children": [
+            {
+              "name": "Get-ChinaCDNEdgeHostnames"
+            }
+          ]
+        },
+        {
+          "name": "ChinaCDNGroups",
+          "children": [
+            {
+              "name": "Get-ChinaCDNGroups"
+            }
+          ]
+        },
+        {
+          "name": "ChinaCDNHoldingEntities",
+          "children": [
+            {
+              "name": "Get-ChinaCDNHoldingEntities"
+            }
+          ]
+        },
+        {
+          "name": "ChinaCDNICPNumbers",
+          "children": [
+            {
+              "name": "Get-ChinaCDNICPNumbers"
+            }
+          ]
+        },
+        {
+          "name": "ChinaCDNPropertyHostname",
+          "children": [
+            {
+              "name": "Get-ChinaCDNPropertyHostname"
+            },
+            {
+              "name": "New-ChinaCDNPropertyHostname"
+            }
+          ]
+        },
+        {
+          "name": "ChinaCDNProvisionStateChange",
+          "children": [
+            {
+              "name": "Get-ChinaCDNProvisionStateChange"
+            },
+            {
+              "name": "New-ChinaCDNProvisionStateChange"
+            }
+          ]
+        },
+        {
+          "name": "ChinaCDNProvisionStates",
+          "children": [
+            {
+              "name": "Get-ChinaCDNProvisionStates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.AppSec",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "AppSecConfigDetails",
+          "children": [
+            {
+              "name": "Expand-AppSecConfigDetails"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicySelectedHostnames",
+          "children": [
+            {
+              "name": "Add-AppSecPolicySelectedHostnames"
+            },
+            {
+              "name": "Get-AppSecPolicySelectedHostnames"
+            },
+            {
+              "name": "Remove-AppSecPolicySelectedHostnames"
+            },
+            {
+              "name": "Set-AppSecPolicySelectedHostnames"
+            }
+          ]
+        },
+        {
+          "name": "AppSecSelectedHostnames",
+          "children": [
+            {
+              "name": "Add-AppSecSelectedHostnames"
+            },
+            {
+              "name": "Get-AppSecSelectedHostnames"
+            },
+            {
+              "name": "Remove-AppSecSelectedHostnames"
+            },
+            {
+              "name": "Set-AppSecSelectedHostnames"
+            }
+          ]
+        },
+        {
+          "name": "AppSecConfiguration",
+          "children": [
+            {
+              "name": "Export-AppSecConfiguration"
+            },
+            {
+              "name": "Get-AppSecConfiguration"
+            },
+            {
+              "name": "New-AppSecConfiguration"
+            },
+            {
+              "name": "Remove-AppSecConfiguration"
+            },
+            {
+              "name": "Rename-AppSecConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "AppSecActivationHistory",
+          "children": [
+            {
+              "name": "Get-AppSecActivationHistory"
+            }
+          ]
+        },
+        {
+          "name": "AppSecActivationRequestStatus",
+          "children": [
+            {
+              "name": "Get-AppSecActivationRequestStatus"
+            }
+          ]
+        },
+        {
+          "name": "AppSecActivationStatus",
+          "children": [
+            {
+              "name": "Get-AppSecActivationStatus"
+            }
+          ]
+        },
+        {
+          "name": "AppSecAttackPayloadSettings",
+          "children": [
+            {
+              "name": "Get-AppSecAttackPayloadSettings"
+            },
+            {
+              "name": "Set-AppSecAttackPayloadSettings"
+            }
+          ]
+        },
+        {
+          "name": "AppSecAvailableHostnames",
+          "children": [
+            {
+              "name": "Get-AppSecAvailableHostnames"
+            }
+          ]
+        },
+        {
+          "name": "AppSecBypassNetworkLists",
+          "children": [
+            {
+              "name": "Get-AppSecBypassNetworkLists"
+            },
+            {
+              "name": "Set-AppSecBypassNetworkLists"
+            }
+          ]
+        },
+        {
+          "name": "AppSecConfigurationVersion",
+          "children": [
+            {
+              "name": "Get-AppSecConfigurationVersion"
+            },
+            {
+              "name": "New-AppSecConfigurationVersion"
+            },
+            {
+              "name": "Remove-AppSecConfigurationVersion"
+            }
+          ]
+        },
+        {
+          "name": "AppSecContractsAndGroups",
+          "children": [
+            {
+              "name": "Get-AppSecContractsAndGroups"
+            }
+          ]
+        },
+        {
+          "name": "AppSecCustomDenyAction",
+          "children": [
+            {
+              "name": "Get-AppSecCustomDenyAction"
+            },
+            {
+              "name": "New-AppSecCustomDenyAction"
+            },
+            {
+              "name": "Remove-AppSecCustomDenyAction"
+            },
+            {
+              "name": "Set-AppSecCustomDenyAction"
+            }
+          ]
+        },
+        {
+          "name": "AppSecCustomRule",
+          "children": [
+            {
+              "name": "Get-AppSecCustomRule"
+            },
+            {
+              "name": "New-AppSecCustomRule"
+            },
+            {
+              "name": "Remove-AppSecCustomRule"
+            },
+            {
+              "name": "Set-AppSecCustomRule"
+            }
+          ]
+        },
+        {
+          "name": "AppsecDiscoveredApi",
+          "children": [
+            {
+              "name": "Get-AppsecDiscoveredApi"
+            },
+            {
+              "name": "Hide-AppSecDiscoveredApi"
+            },
+            {
+              "name": "Show-AppSecDiscoveredApi"
+            }
+          ]
+        },
+        {
+          "name": "AppsecDiscoveredApiEndpoints",
+          "children": [
+            {
+              "name": "Get-AppsecDiscoveredApiEndpoints"
+            }
+          ]
+        },
+        {
+          "name": "AppsecEvaluationHostnames",
+          "children": [
+            {
+              "name": "Get-AppsecEvaluationHostnames"
+            },
+            {
+              "name": "Protect-AppSecEvaluationHostnames"
+            },
+            {
+              "name": "Set-AppSecEvaluationHostnames"
+            }
+          ]
+        },
+        {
+          "name": "AppSecEvasivePathMatch",
+          "children": [
+            {
+              "name": "Get-AppSecEvasivePathMatch"
+            },
+            {
+              "name": "Set-AppSecEvasivePathMatch"
+            }
+          ]
+        },
+        {
+          "name": "AppSecFailoverHostnames",
+          "children": [
+            {
+              "name": "Get-AppSecFailoverHostnames"
+            }
+          ]
+        },
+        {
+          "name": "AppSecHostnameCoverage",
+          "children": [
+            {
+              "name": "Get-AppSecHostnameCoverage"
+            }
+          ]
+        },
+        {
+          "name": "AppSecHostnameMatchTargets",
+          "children": [
+            {
+              "name": "Get-AppSecHostnameMatchTargets"
+            }
+          ]
+        },
+        {
+          "name": "AppSecHostnameOverlap",
+          "children": [
+            {
+              "name": "Get-AppSecHostnameOverlap"
+            }
+          ]
+        },
+        {
+          "name": "AppSecLogging",
+          "children": [
+            {
+              "name": "Get-AppSecLogging"
+            },
+            {
+              "name": "Set-AppSecLogging"
+            }
+          ]
+        },
+        {
+          "name": "AppsecMalwarePolicy",
+          "children": [
+            {
+              "name": "Get-AppsecMalwarePolicy"
+            },
+            {
+              "name": "New-AppsecMalwarePolicy"
+            },
+            {
+              "name": "Remove-AppsecMalwarePolicy"
+            },
+            {
+              "name": "Set-AppsecMalwarePolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppsecMalwarePolicyContentType",
+          "children": [
+            {
+              "name": "Get-AppsecMalwarePolicyContentType"
+            }
+          ]
+        },
+        {
+          "name": "AppSecMatchTarget",
+          "children": [
+            {
+              "name": "Get-AppSecMatchTarget"
+            },
+            {
+              "name": "New-AppSecMatchTarget"
+            },
+            {
+              "name": "Remove-AppSecMatchTarget"
+            },
+            {
+              "name": "Set-AppSecMatchTarget"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPIISettings",
+          "children": [
+            {
+              "name": "Get-AppSecPIISettings"
+            },
+            {
+              "name": "Set-AppSecPIISettings"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicy",
+          "children": [
+            {
+              "name": "Get-AppSecPolicy"
+            },
+            {
+              "name": "New-AppSecPolicy"
+            },
+            {
+              "name": "Remove-AppSecPolicy"
+            },
+            {
+              "name": "Set-AppSecPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyAdaptiveIntelligence",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyAdaptiveIntelligence"
+            },
+            {
+              "name": "Set-AppSecPolicyAdaptiveIntelligence"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyAPIEndpoints",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyAPIEndpoints"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyAPIRequestConstraints",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyAPIRequestConstraints"
+            },
+            {
+              "name": "Set-AppSecPolicyAPIRequestConstraints"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyAttackGroup",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyAttackGroup"
+            },
+            {
+              "name": "Set-AppSecPolicyAttackGroup"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyAttackGroupExceptions",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyAttackGroupExceptions"
+            },
+            {
+              "name": "Set-AppSecPolicyAttackGroupExceptions"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyAttackGroupRecommendations",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyAttackGroupRecommendations"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyAttackPayload",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyAttackPayload"
+            },
+            {
+              "name": "Set-AppSecPolicyAttackPayload"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyBypassNetworkLists",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyBypassNetworkLists"
+            },
+            {
+              "name": "Set-AppSecPolicyBypassNetworkLists"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyCustomRules",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyCustomRules"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyEvaluationAttackGroup",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyEvaluationAttackGroup"
+            },
+            {
+              "name": "Set-AppSecPolicyEvaluationAttackGroup"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyEvaluationAttackGroupExceptions",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyEvaluationAttackGroupExceptions"
+            },
+            {
+              "name": "Set-AppSecPolicyEvaluationAttackGroupExceptions"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyEvaluationHostnames",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyEvaluationHostnames"
+            },
+            {
+              "name": "Protect-AppSecPolicyEvaluationHostnames"
+            },
+            {
+              "name": "Set-AppsecPolicyEvaluationHostnames"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyEvaluationPenaltyBox",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyEvaluationPenaltyBox"
+            },
+            {
+              "name": "Set-AppSecPolicyEvaluationPenaltyBox"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyEvaluationRule",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyEvaluationRule"
+            },
+            {
+              "name": "Set-AppSecPolicyEvaluationRule"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyEvaluationRuleExceptions",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyEvaluationRuleExceptions"
+            },
+            {
+              "name": "Set-AppSecPolicyEvaluationRuleExceptions"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyEvasivePathMatch",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyEvasivePathMatch"
+            },
+            {
+              "name": "Set-AppSecPolicyEvasivePathMatch"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyIPGeoFirewall",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyIPGeoFirewall"
+            },
+            {
+              "name": "Set-AppSecPolicyIPGeoFirewall"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyLogging",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyLogging"
+            },
+            {
+              "name": "Set-AppSecPolicyLogging"
+            }
+          ]
+        },
+        {
+          "name": "AppsecPolicyMalwarePolicy",
+          "children": [
+            {
+              "name": "Get-AppsecPolicyMalwarePolicy"
+            },
+            {
+              "name": "Set-AppsecPolicyMalwarePolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyMode",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyMode"
+            },
+            {
+              "name": "Set-AppSecPolicyMode"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyPenaltyBox",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyPenaltyBox"
+            },
+            {
+              "name": "Set-AppSecPolicyPenaltyBox"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyPragmaSettings",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyPragmaSettings"
+            },
+            {
+              "name": "Set-AppSecPolicyPragmaSettings"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyProtections",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyProtections"
+            },
+            {
+              "name": "Set-AppSecPolicyProtections"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyRatePolicy",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyRatePolicy"
+            },
+            {
+              "name": "Set-AppSecPolicyRatePolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyReputationAnalysis",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyReputationAnalysis"
+            },
+            {
+              "name": "Set-AppSecPolicyReputationAnalysis"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyReputationProfile",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyReputationProfile"
+            },
+            {
+              "name": "Set-AppSecPolicyReputationProfile"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyRequestSizeLimit",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyRequestSizeLimit"
+            },
+            {
+              "name": "Set-AppSecPolicyRequestSizeLimit"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyRule",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyRule"
+            },
+            {
+              "name": "Set-AppSecPolicyRule"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyRuleExceptions",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyRuleExceptions"
+            },
+            {
+              "name": "Set-AppSecPolicyRuleExceptions"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyRuleRecommendations",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyRuleRecommendations"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicySlowPost",
+          "children": [
+            {
+              "name": "Get-AppSecPolicySlowPost"
+            },
+            {
+              "name": "Set-AppSecPolicySlowPost"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyTuningRecommendations",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyTuningRecommendations"
+            },
+            {
+              "name": "Set-AppSecPolicyTuningRecommendations"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyUpgradeDetails",
+          "children": [
+            {
+              "name": "Get-AppSecPolicyUpgradeDetails"
+            }
+          ]
+        },
+        {
+          "name": "AppsecPolicyUrlProtectionPolicy",
+          "children": [
+            {
+              "name": "Get-AppsecPolicyUrlProtectionPolicy"
+            },
+            {
+              "name": "Set-AppsecPolicyUrlProtectionPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPragmaSettings",
+          "children": [
+            {
+              "name": "Get-AppSecPragmaSettings"
+            },
+            {
+              "name": "Set-AppSecPragmaSettings"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPrefetch",
+          "children": [
+            {
+              "name": "Get-AppSecPrefetch"
+            },
+            {
+              "name": "Set-AppSecPrefetch"
+            }
+          ]
+        },
+        {
+          "name": "AppSecRatePolicy",
+          "children": [
+            {
+              "name": "Get-AppSecRatePolicy"
+            },
+            {
+              "name": "New-AppSecRatePolicy"
+            },
+            {
+              "name": "Remove-AppSecRatePolicy"
+            },
+            {
+              "name": "Set-AppSecRatePolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppSecReputationProfile",
+          "children": [
+            {
+              "name": "Get-AppSecReputationProfile"
+            },
+            {
+              "name": "New-AppSecReputationProfile"
+            },
+            {
+              "name": "Remove-AppSecReputationProfile"
+            },
+            {
+              "name": "Set-AppSecReputationProfile"
+            }
+          ]
+        },
+        {
+          "name": "AppSecRequestSizeLimit",
+          "children": [
+            {
+              "name": "Get-AppSecRequestSizeLimit"
+            },
+            {
+              "name": "Set-AppSecRequestSizeLimit"
+            }
+          ]
+        },
+        {
+          "name": "AppSecSelectableHostnames",
+          "children": [
+            {
+              "name": "Get-AppSecSelectableHostnames"
+            }
+          ]
+        },
+        {
+          "name": "AppSecSiemSettings",
+          "children": [
+            {
+              "name": "Get-AppSecSiemSettings"
+            },
+            {
+              "name": "Set-AppSecSiemSettings"
+            }
+          ]
+        },
+        {
+          "name": "AppSecSiemVersions",
+          "children": [
+            {
+              "name": "Get-AppSecSiemVersions"
+            }
+          ]
+        },
+        {
+          "name": "AppSecSubscribers",
+          "children": [
+            {
+              "name": "Get-AppSecSubscribers"
+            }
+          ]
+        },
+        {
+          "name": "AppsecUrlProtectionPolicy",
+          "children": [
+            {
+              "name": "Get-AppsecUrlProtectionPolicy"
+            },
+            {
+              "name": "New-AppsecUrlProtectionPolicy"
+            },
+            {
+              "name": "Remove-AppsecUrlProtectionPolicy"
+            },
+            {
+              "name": "Set-AppsecUrlProtectionPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppSecVersionNotes",
+          "children": [
+            {
+              "name": "Get-AppSecVersionNotes"
+            },
+            {
+              "name": "Set-AppSecVersionNotes"
+            }
+          ]
+        },
+        {
+          "name": "AppSecActivation",
+          "children": [
+            {
+              "name": "New-AppSecActivation"
+            }
+          ]
+        },
+        {
+          "name": "AppSecDiscoveredApiEndpoint",
+          "children": [
+            {
+              "name": "New-AppSecDiscoveredApiEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "AppSecSubscription",
+          "children": [
+            {
+              "name": "New-AppSecSubscription"
+            },
+            {
+              "name": "Remove-AppSecSubscription"
+            }
+          ]
+        },
+        {
+          "name": "AppSecMatchTargetOrder",
+          "children": [
+            {
+              "name": "Set-AppSecMatchTargetOrder"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyCustomRule",
+          "children": [
+            {
+              "name": "Set-AppSecPolicyCustomRule"
+            }
+          ]
+        },
+        {
+          "name": "AppSecPolicyEvaluationMode",
+          "children": [
+            {
+              "name": "Set-AppSecPolicyEvaluationMode"
+            }
+          ]
+        },
+        {
+          "name": "AppSecKRSRuleSet",
+          "children": [
+            {
+              "name": "Update-AppSecKRSRuleSet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.APIKeyManager",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "APIKeyToCollection",
+          "children": [
+            {
+              "name": "Add-APIKeyToCollection"
+            }
+          ]
+        },
+        {
+          "name": "APIKey",
+          "children": [
+            {
+              "name": "Export-APIKey"
+            },
+            {
+              "name": "Get-APIKey"
+            },
+            {
+              "name": "Import-APIKey"
+            },
+            {
+              "name": "Move-APIKey"
+            },
+            {
+              "name": "New-APIKey"
+            },
+            {
+              "name": "Restore-APIKey"
+            },
+            {
+              "name": "Revoke-APIKey"
+            },
+            {
+              "name": "Set-APIKey"
+            }
+          ]
+        },
+        {
+          "name": "ApiKeyCollection",
+          "children": [
+            {
+              "name": "Get-ApiKeyCollection"
+            },
+            {
+              "name": "New-ApiKeyCollection"
+            },
+            {
+              "name": "Remove-APIKeyCollection"
+            },
+            {
+              "name": "Set-APIKeyCollection"
+            }
+          ]
+        },
+        {
+          "name": "APIKeyCollectionACL",
+          "children": [
+            {
+              "name": "Get-APIKeyCollectionACL"
+            },
+            {
+              "name": "Set-ApiKeyCollectionACL"
+            }
+          ]
+        },
+        {
+          "name": "APIKeyCollectionEndpoints",
+          "children": [
+            {
+              "name": "Get-APIKeyCollectionEndpoints"
+            }
+          ]
+        },
+        {
+          "name": "APIKeyCollectionQuota",
+          "children": [
+            {
+              "name": "Get-APIKeyCollectionQuota"
+            },
+            {
+              "name": "Reset-APIKeyCollectionQuota"
+            },
+            {
+              "name": "Set-APIKeyCollectionQuota"
+            }
+          ]
+        },
+        {
+          "name": "APITag",
+          "children": [
+            {
+              "name": "Get-APITag"
+            }
+          ]
+        },
+        {
+          "name": "APIThrottlingCounter",
+          "children": [
+            {
+              "name": "Get-APIThrottlingCounter"
+            },
+            {
+              "name": "New-APIThrottlingCounter"
+            },
+            {
+              "name": "Remove-APIThrottlingCounter"
+            },
+            {
+              "name": "Set-APIThrottlingCounter"
+            }
+          ]
+        },
+        {
+          "name": "APIThrottlingCounterEndpoints",
+          "children": [
+            {
+              "name": "Get-APIThrottlingCounterEndpoints"
+            }
+          ]
+        },
+        {
+          "name": "APIThrottlingCounterKeyCollections",
+          "children": [
+            {
+              "name": "Get-APIThrottlingCounterKeyCollections"
+            }
+          ]
+        },
+        {
+          "name": "APIThrottlingCounterKeys",
+          "children": [
+            {
+              "name": "Get-APIThrottlingCounterKeys"
+            }
+          ]
+        },
+        {
+          "name": "APIKeyFromCollection",
+          "children": [
+            {
+              "name": "Remove-APIKeyFromCollection"
+            }
+          ]
+        },
+        {
+          "name": "APIKeyQuota",
+          "children": [
+            {
+              "name": "Reset-APIKeyQuota"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akamai.APIDefinitions",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "APIEndpointDetails",
+          "children": [
+            {
+              "name": "Expand-APIEndpointDetails"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpoint",
+          "children": [
+            {
+              "name": "Copy-APIEndpoint"
+            },
+            {
+              "name": "Hide-APIEndpoint"
+            },
+            {
+              "name": "New-APIEndpoint"
+            },
+            {
+              "name": "Remove-APIEndpoint"
+            },
+            {
+              "name": "Show-APIEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "APICategory",
+          "children": [
+            {
+              "name": "Get-APICategory"
+            },
+            {
+              "name": "New-APICategory"
+            },
+            {
+              "name": "Remove-APICategory"
+            },
+            {
+              "name": "Set-APICategory"
+            }
+          ]
+        },
+        {
+          "name": "APIContractsAndGroups",
+          "children": [
+            {
+              "name": "Get-APIContractsAndGroups"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpoints",
+          "children": [
+            {
+              "name": "Get-APIEndpoints"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersion",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersion"
+            },
+            {
+              "name": "Hide-APIEndpointVersion"
+            },
+            {
+              "name": "New-APIEndpointVersion"
+            },
+            {
+              "name": "Remove-APIEndpointVersion"
+            },
+            {
+              "name": "Set-APIEndpointVersion"
+            },
+            {
+              "name": "Show-APIEndpointVersion"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionCache",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionCache"
+            },
+            {
+              "name": "Set-APIEndpointVersionCache"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionCORS",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionCORS"
+            },
+            {
+              "name": "Set-APIEndpointVersionCORS"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionErrorResponses",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionErrorResponses"
+            },
+            {
+              "name": "Set-APIEndpointVersionErrorResponses"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionErrorResponseType",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionErrorResponseType"
+            },
+            {
+              "name": "Set-APIEndpointVersionErrorResponseType"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionGraphQL",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionGraphQL"
+            },
+            {
+              "name": "Set-APIEndpointVersionGraphQL"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionGZip",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionGZip"
+            },
+            {
+              "name": "Set-APIEndpointVersionGZip"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionJWT",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionJWT"
+            },
+            {
+              "name": "Set-APIEndpointVersionJWT"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionPII",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionPII"
+            },
+            {
+              "name": "New-APIEndpointVersionPII"
+            },
+            {
+              "name": "Remove-APIEndpointVersionPII"
+            },
+            {
+              "name": "Set-APIEndpointVersionPII"
+            },
+            {
+              "name": "Update-APIEndpointVersionPII"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionPIIParams",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionPIIParams"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionPrivacy",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionPrivacy"
+            },
+            {
+              "name": "Set-APIEndpointVersionPrivacy"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionResource",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionResource"
+            },
+            {
+              "name": "New-APIEndpointVersionResource"
+            },
+            {
+              "name": "Remove-APIEndpointVersionResource"
+            },
+            {
+              "name": "Set-APIEndpointVersionResource"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionResourceOperation",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionResourceOperation"
+            },
+            {
+              "name": "New-APIEndpointVersionResourceOperation"
+            },
+            {
+              "name": "Remove-APIEndpointVersionResourceOperation"
+            },
+            {
+              "name": "Set-APIEndpointVersionResourceOperation"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionResourcesAndOperations",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionResourcesAndOperations"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionRouting",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionRouting"
+            },
+            {
+              "name": "Set-APIEndpointVersionRouting"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionSummary",
+          "children": [
+            {
+              "name": "Get-APIEndpointVersionSummary"
+            }
+          ]
+        },
+        {
+          "name": "APIHostnames",
+          "children": [
+            {
+              "name": "Get-APIHostnames"
+            }
+          ]
+        },
+        {
+          "name": "APIHostnamesAndGroups",
+          "children": [
+            {
+              "name": "Get-APIHostnamesAndGroups"
+            }
+          ]
+        },
+        {
+          "name": "APIOperations",
+          "children": [
+            {
+              "name": "Get-APIOperations"
+            },
+            {
+              "name": "Test-APIOperations"
+            }
+          ]
+        },
+        {
+          "name": "APIUserEntitlements",
+          "children": [
+            {
+              "name": "Get-APIUserEntitlements"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointActivation",
+          "children": [
+            {
+              "name": "New-APIEndpointActivation"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointDeactivation",
+          "children": [
+            {
+              "name": "New-APIEndpointDeactivation"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointFromFile",
+          "children": [
+            {
+              "name": "New-APIEndpointFromFile"
+            }
+          ]
+        },
+        {
+          "name": "APIOperationsQuery",
+          "children": [
+            {
+              "name": "New-APIOperationsQuery"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionFromFile",
+          "children": [
+            {
+              "name": "Set-APIEndpointVersionFromFile"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionPIIParameters",
+          "children": [
+            {
+              "name": "Set-APIEndpointVersionPIIParameters"
+            }
+          ]
+        },
+        {
+          "name": "APIEndpointVersionPIIStatus",
+          "children": [
+            {
+              "name": "Set-APIEndpointVersionPIIStatus"
+            }
+          ]
+        },
+        {
+          "name": "APISecureConnection",
+          "children": [
+            {
+              "name": "Test-APISecureConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HighWinds",
+      "companyName": "Akamai Technologies Ltd.",
+      "children": [
+        {
+          "name": "HighWindsAccount",
+          "children": [
+            {
+              "name": "Get-HighWindsAccount"
+            }
+          ]
+        },
+        {
+          "name": "HighWindsConfigScope",
+          "children": [
+            {
+              "name": "Get-HighWindsConfigScope"
+            }
+          ]
+        },
+        {
+          "name": "HighWindsHost",
+          "children": [
+            {
+              "name": "Get-HighWindsHost"
+            }
+          ]
+        },
+        {
+          "name": "HighWindsOrigin",
+          "children": [
+            {
+              "name": "Get-HighWindsOrigin"
+            }
+          ]
+        },
+        {
+          "name": "HighWindsSubAccount",
+          "children": [
+            {
+              "name": "Get-HighWindsSubAccount"
+            }
+          ]
+        },
+        {
+          "name": "HighWindsUserMe",
+          "children": [
+            {
+              "name": "Get-HighWindsUserMe"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

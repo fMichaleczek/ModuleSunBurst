@@ -1,0 +1,71 @@
+{
+  "name": "ForFree",
+  "children": [
+    {
+      "name": "ECS.WindowsGeneric",
+      "companyName": "ForFree",
+      "children": [
+        {
+          "name": "ECSSIDToAccount",
+          "children": [
+            {
+              "name": "Convert-ECSSIDToAccount"
+            }
+          ]
+        },
+        {
+          "name": "ECSAccountToSID",
+          "children": [
+            {
+              "name": "Convert-ECSAccountToSID"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ECS.LocalGPO",
+      "companyName": "ForFree",
+      "children": [
+        {
+          "name": "ECSSIDToAccount",
+          "children": [
+            {
+              "name": "Convert-ECSSIDToAccount"
+            }
+          ]
+        },
+        {
+          "name": "ECSAccountToSID",
+          "children": [
+            {
+              "name": "Convert-ECSAccountToSID"
+            }
+          ]
+        },
+        {
+          "name": "ECSLocalGPOUserRightAssignment",
+          "children": [
+            {
+              "name": "Get-ECSLocalGPOUserRightAssignment"
+            },
+            {
+              "name": "Add-ECSLocalGPOUserRightAssignment"
+            },
+            {
+              "name": "Remove-ECSLocalGPOUserRightAssignment"
+            }
+          ]
+        },
+        {
+          "name": "ECSLocalGPOAvailableUserRightAssignments",
+          "children": [
+            {
+              "name": "Show-ECSLocalGPOAvailableUserRightAssignments"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "name": "www.darkoperator.com",
+  "children": [
+    {
+      "name": "Posh-SSH",
+      "companyName": "www.darkoperator.com",
+      "children": [
+        {
+          "name": "SCPItem",
+          "children": [
+            {
+              "name": "Get-SCPItem"
+            },
+            {
+              "name": "Set-SCPItem"
+            }
+          ]
+        },
+        {
+          "name": "SFTPItem",
+          "children": [
+            {
+              "name": "Get-SFTPItem"
+            },
+            {
+              "name": "Set-SFTPItem"
+            },
+            {
+              "name": "Move-SFTPItem"
+            },
+            {
+              "name": "New-SFTPItem"
+            },
+            {
+              "name": "Remove-SFTPItem"
+            }
+          ]
+        },
+        {
+          "name": "SFTPSession",
+          "children": [
+            {
+              "name": "New-SFTPSession"
+            },
+            {
+              "name": "Get-SFTPSession"
+            },
+            {
+              "name": "Remove-SFTPSession"
+            }
+          ]
+        },
+        {
+          "name": "SSHSession",
+          "children": [
+            {
+              "name": "New-SSHSession"
+            },
+            {
+              "name": "Get-SSHSession"
+            },
+            {
+              "name": "Remove-SSHSession"
+            }
+          ]
+        },
+        {
+          "name": "SSHMemoryKnownHost",
+          "children": [
+            {
+              "name": "New-SSHMemoryKnownHost"
+            }
+          ]
+        },
+        {
+          "name": "SSHJsonKnownHost",
+          "children": [
+            {
+              "name": "Get-SSHJsonKnownHost"
+            }
+          ]
+        },
+        {
+          "name": "SSHOpenSSHKnownHost",
+          "children": [
+            {
+              "name": "Get-SSHOpenSSHKnownHost"
+            }
+          ]
+        },
+        {
+          "name": "SSHHostKey",
+          "children": [
+            {
+              "name": "Get-SSHHostKey"
+            }
+          ]
+        },
+        {
+          "name": "PoshSSHModVersion",
+          "children": [
+            {
+              "name": "Get-PoshSSHModVersion"
+            }
+          ]
+        },
+        {
+          "name": "SFTPChildItem",
+          "children": [
+            {
+              "name": "Get-SFTPChildItem"
+            }
+          ]
+        },
+        {
+          "name": "SFTPContent",
+          "children": [
+            {
+              "name": "Get-SFTPContent"
+            },
+            {
+              "name": "Set-SFTPContent"
+            }
+          ]
+        },
+        {
+          "name": "SFTPLocation",
+          "children": [
+            {
+              "name": "Get-SFTPLocation"
+            },
+            {
+              "name": "Set-SFTPLocation"
+            }
+          ]
+        },
+        {
+          "name": "SFTPPathAttribute",
+          "children": [
+            {
+              "name": "Get-SFTPPathAttribute"
+            },
+            {
+              "name": "Set-SFTPPathAttribute"
+            }
+          ]
+        },
+        {
+          "name": "SFTPPathInformation",
+          "children": [
+            {
+              "name": "Get-SFTPPathInformation"
+            }
+          ]
+        },
+        {
+          "name": "SSHPortForward",
+          "children": [
+            {
+              "name": "Get-SSHPortForward"
+            },
+            {
+              "name": "Start-SSHPortForward"
+            },
+            {
+              "name": "Stop-SSHPortForward"
+            }
+          ]
+        },
+        {
+          "name": "SSHTrustedHost",
+          "children": [
+            {
+              "name": "Get-SSHTrustedHost"
+            },
+            {
+              "name": "New-SSHTrustedHost"
+            },
+            {
+              "name": "Remove-SSHTrustedHost"
+            }
+          ]
+        },
+        {
+          "name": "SSHCommand",
+          "children": [
+            {
+              "name": "Invoke-SSHCommand"
+            }
+          ]
+        },
+        {
+          "name": "SSHCommandStream",
+          "children": [
+            {
+              "name": "Invoke-SSHCommandStream"
+            }
+          ]
+        },
+        {
+          "name": "SSHStreamExpectAction",
+          "children": [
+            {
+              "name": "Invoke-SSHStreamExpectAction"
+            }
+          ]
+        },
+        {
+          "name": "SSHStreamExpectSecureAction",
+          "children": [
+            {
+              "name": "Invoke-SSHStreamExpectSecureAction"
+            }
+          ]
+        },
+        {
+          "name": "SSHStreamShellCommand",
+          "children": [
+            {
+              "name": "Invoke-SSHStreamShellCommand"
+            }
+          ]
+        },
+        {
+          "name": "SFTPFileStream",
+          "children": [
+            {
+              "name": "New-SFTPFileStream"
+            }
+          ]
+        },
+        {
+          "name": "SFTPSymlink",
+          "children": [
+            {
+              "name": "New-SFTPSymlink"
+            }
+          ]
+        },
+        {
+          "name": "SSHDynamicPortForward",
+          "children": [
+            {
+              "name": "New-SSHDynamicPortForward"
+            }
+          ]
+        },
+        {
+          "name": "SSHLocalPortForward",
+          "children": [
+            {
+              "name": "New-SSHLocalPortForward"
+            }
+          ]
+        },
+        {
+          "name": "SSHRemotePortForward",
+          "children": [
+            {
+              "name": "New-SSHRemotePortForward"
+            }
+          ]
+        },
+        {
+          "name": "SSHShellStream",
+          "children": [
+            {
+              "name": "New-SSHShellStream"
+            }
+          ]
+        },
+        {
+          "name": "SFTPFile",
+          "children": [
+            {
+              "name": "Rename-SFTPFile"
+            }
+          ]
+        },
+        {
+          "name": "SFTPPath",
+          "children": [
+            {
+              "name": "Test-SFTPPath"
+            }
+          ]
+        },
+        {
+          "name": "SSHRegistryToJsonKnownHost",
+          "children": [
+            {
+              "name": "Convert-SSHRegistryToJsonKnownHost"
+            }
+          ]
+        },
+        {
+          "name": "SSHRegistryKnownHost",
+          "children": [
+            {
+              "name": "Get-SSHRegistryKnownHost"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

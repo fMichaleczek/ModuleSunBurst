@@ -1,0 +1,61 @@
+{
+  "name": "sid 500.com",
+  "children": [
+    {
+      "name": "Enable-RemoteDesktop",
+      "companyName": "sid 500.com",
+      "children": [
+        {
+          "name": "RemoteDesktop",
+          "children": [
+            {
+              "name": "Enable-RemoteDesktop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Get-AntiMalwareStatus",
+      "companyName": "sid 500.com",
+      "children": [
+        {
+          "name": "AntimalwareStatus",
+          "children": [
+            {
+              "name": "Get-AntimalwareStatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Get-ADUserLastLogon",
+      "companyName": "sid 500.com",
+      "children": [
+        {
+          "name": "ADUserLastLogon",
+          "children": [
+            {
+              "name": "Get-ADUserLastLogon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Test-OpenPort",
+      "companyName": "sid 500.com",
+      "children": [
+        {
+          "name": "OpenPort",
+          "children": [
+            {
+              "name": "Test-OpenPort"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

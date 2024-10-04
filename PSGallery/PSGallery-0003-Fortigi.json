@@ -1,0 +1,131 @@
+{
+  "name": "Fortigi",
+  "children": [
+    {
+      "name": "AzureADB2C",
+      "companyName": "Fortigi",
+      "children": [
+        {
+          "name": "AzureADB2CAccessToken",
+          "children": [
+            {
+              "name": "Get-AzureADB2CAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "AzureADB2CSession",
+          "children": [
+            {
+              "name": "Get-AzureADB2CSession"
+            }
+          ]
+        },
+        {
+          "name": "AzureADB2CPolicy",
+          "children": [
+            {
+              "name": "Get-AzureADB2CPolicy"
+            },
+            {
+              "name": "New-AzureADB2CPolicy"
+            },
+            {
+              "name": "Remove-AzureADB2CPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AzureADB2CKeyContainer",
+          "children": [
+            {
+              "name": "Get-AzureADB2CKeyContainer"
+            },
+            {
+              "name": "New-AzureADB2CKeyContainer"
+            },
+            {
+              "name": "Remove-AzureADB2CKeyContainer"
+            }
+          ]
+        },
+        {
+          "name": "AzureADB2CApplication",
+          "children": [
+            {
+              "name": "Get-AzureADB2CApplication"
+            },
+            {
+              "name": "New-AzureADB2CApplication"
+            },
+            {
+              "name": "Remove-AzureADB2CApplication"
+            },
+            {
+              "name": "Set-AzureADB2CApplication"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AADB2C",
+      "companyName": "Fortigi",
+      "children": [
+        {
+          "name": "AADB2CPolicy",
+          "children": [
+            {
+              "name": "Get-AADB2CPolicy"
+            },
+            {
+              "name": "New-AADB2CPolicy"
+            },
+            {
+              "name": "Remove-AADB2CPolicy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConditionalAccess",
+      "companyName": "Fortigi",
+      "children": [
+        {
+          "name": "AccessToken",
+          "children": [
+            {
+              "name": "Get-AccessToken"
+            }
+          ]
+        },
+        {
+          "name": "ConditionalAccessPolicy",
+          "children": [
+            {
+              "name": "New-ConditionalAccessPolicy"
+            },
+            {
+              "name": "Remove-ConditionalAccessPolicy"
+            },
+            {
+              "name": "Get-ConditionalAccessPolicy"
+            },
+            {
+              "name": "Set-ConditionalAccessPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ConditionalAccessPolicyFile",
+          "children": [
+            {
+              "name": "Get-ConditionalAccessPolicyFile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

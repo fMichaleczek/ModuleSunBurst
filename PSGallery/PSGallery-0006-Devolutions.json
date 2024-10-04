@@ -1,0 +1,4545 @@
+{
+  "name": "Devolutions",
+  "children": [
+    {
+      "name": "DevolutionsGateway",
+      "companyName": "Devolutions",
+      "children": [
+        {
+          "name": "DGatewayConfig",
+          "children": [
+            {
+              "name": "Find-DGatewayConfig"
+            },
+            {
+              "name": "Enter-DGatewayConfig"
+            },
+            {
+              "name": "Exit-DGatewayConfig"
+            },
+            {
+              "name": "Set-DGatewayConfig"
+            },
+            {
+              "name": "Get-DGatewayConfig"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayNgrokConfig",
+          "children": [
+            {
+              "name": "New-DGatewayNgrokConfig"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayNgrokTunnel",
+          "children": [
+            {
+              "name": "New-DGatewayNgrokTunnel"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayHostname",
+          "children": [
+            {
+              "name": "Set-DGatewayHostname"
+            },
+            {
+              "name": "Get-DGatewayHostname"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayListener",
+          "children": [
+            {
+              "name": "New-DGatewayListener"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayListeners",
+          "children": [
+            {
+              "name": "Get-DGatewayListeners"
+            },
+            {
+              "name": "Set-DGatewayListeners"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayPath",
+          "children": [
+            {
+              "name": "Get-DGatewayPath"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayRecordingPath",
+          "children": [
+            {
+              "name": "Get-DGatewayRecordingPath"
+            },
+            {
+              "name": "Set-DGatewayRecordingPath"
+            },
+            {
+              "name": "Reset-DGatewayRecordingPath"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayCertificate",
+          "children": [
+            {
+              "name": "New-DGatewayCertificate"
+            },
+            {
+              "name": "Import-DGatewayCertificate"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayProvisionerKeyPair",
+          "children": [
+            {
+              "name": "New-DGatewayProvisionerKeyPair"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayProvisionerKey",
+          "children": [
+            {
+              "name": "Import-DGatewayProvisionerKey"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayDelegationKeyPair",
+          "children": [
+            {
+              "name": "New-DGatewayDelegationKeyPair"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayDelegationKey",
+          "children": [
+            {
+              "name": "Import-DGatewayDelegationKey"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayToken",
+          "children": [
+            {
+              "name": "New-DGatewayToken"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayWebAppConfig",
+          "children": [
+            {
+              "name": "New-DGatewayWebAppConfig"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayUser",
+          "children": [
+            {
+              "name": "Set-DGatewayUser"
+            },
+            {
+              "name": "Remove-DGatewayUser"
+            },
+            {
+              "name": "Get-DGatewayUser"
+            }
+          ]
+        },
+        {
+          "name": "DGateway",
+          "children": [
+            {
+              "name": "Start-DGateway"
+            },
+            {
+              "name": "Stop-DGateway"
+            },
+            {
+              "name": "Restart-DGateway"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayVersion",
+          "children": [
+            {
+              "name": "Get-DGatewayVersion"
+            }
+          ]
+        },
+        {
+          "name": "DGatewayPackage",
+          "children": [
+            {
+              "name": "Get-DGatewayPackage"
+            },
+            {
+              "name": "Install-DGatewayPackage"
+            },
+            {
+              "name": "Uninstall-DGatewayPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Devolutions.Server",
+      "companyName": "Devolutions",
+      "children": [
+        {
+          "name": "DSServerInfo",
+          "children": [
+            {
+              "name": "Get-DSServerInfo"
+            }
+          ]
+        },
+        {
+          "name": "DSSession",
+          "children": [
+            {
+              "name": "New-DSSession"
+            },
+            {
+              "name": "Close-DSSession"
+            }
+          ]
+        },
+        {
+          "name": "DSIsLogged",
+          "children": [
+            {
+              "name": "Get-DSIsLogged"
+            }
+          ]
+        },
+        {
+          "name": "ResourceToHexString",
+          "children": [
+            {
+              "name": "Protect-ResourceToHexString"
+            }
+          ]
+        },
+        {
+          "name": "DSSecureMessages",
+          "children": [
+            {
+              "name": "Get-DSSecureMessages"
+            }
+          ]
+        },
+        {
+          "name": "DSVaults",
+          "children": [
+            {
+              "name": "Get-DSVaults"
+            }
+          ]
+        },
+        {
+          "name": "DSVault",
+          "children": [
+            {
+              "name": "Get-DSVault"
+            },
+            {
+              "name": "New-DSVault"
+            },
+            {
+              "name": "Update-DSVault"
+            },
+            {
+              "name": "Remove-DSVault"
+            }
+          ]
+        },
+        {
+          "name": "DSVaultPermissions",
+          "children": [
+            {
+              "name": "Get-DSVaultPermissions"
+            }
+          ]
+        },
+        {
+          "name": "DSVaultUsers",
+          "children": [
+            {
+              "name": "Set-DSVaultUsers"
+            }
+          ]
+        },
+        {
+          "name": "DSVaultRoles",
+          "children": [
+            {
+              "name": "Set-DSVaultRoles"
+            }
+          ]
+        },
+        {
+          "name": "DSVaultApplications",
+          "children": [
+            {
+              "name": "Set-DSVaultApplications"
+            }
+          ]
+        },
+        {
+          "name": "DSRootSession",
+          "children": [
+            {
+              "name": "Get-DSRootSession"
+            }
+          ]
+        },
+        {
+          "name": "DSEntriesTree",
+          "children": [
+            {
+              "name": "Get-DSEntriesTree"
+            }
+          ]
+        },
+        {
+          "name": "DSFolders",
+          "children": [
+            {
+              "name": "Get-DSFolders"
+            }
+          ]
+        },
+        {
+          "name": "DSFolder",
+          "children": [
+            {
+              "name": "New-DSFolder"
+            },
+            {
+              "name": "Get-DSFolder"
+            }
+          ]
+        },
+        {
+          "name": "DSFolderCredentials",
+          "children": [
+            {
+              "name": "Update-DSFolderCredentials"
+            }
+          ]
+        },
+        {
+          "name": "DSEntries",
+          "children": [
+            {
+              "name": "Get-DSEntries"
+            }
+          ]
+        },
+        {
+          "name": "DSEntry",
+          "children": [
+            {
+              "name": "Get-DSEntry"
+            },
+            {
+              "name": "Remove-DSEntry"
+            }
+          ]
+        },
+        {
+          "name": "DSEntrySensitiveData",
+          "children": [
+            {
+              "name": "Get-DSEntrySensitiveData"
+            }
+          ]
+        },
+        {
+          "name": "DSEntriesPermissions",
+          "children": [
+            {
+              "name": "Get-DSEntriesPermissions"
+            }
+          ]
+        },
+        {
+          "name": "DSEntryOTP",
+          "children": [
+            {
+              "name": "Get-DSEntryOTP"
+            }
+          ]
+        },
+        {
+          "name": "DSEntrySubConnections",
+          "children": [
+            {
+              "name": "Get-DSEntrySubConnections"
+            }
+          ]
+        },
+        {
+          "name": "DSEntryPasswordHistory",
+          "children": [
+            {
+              "name": "Get-DSEntryPasswordHistory"
+            }
+          ]
+        },
+        {
+          "name": "DSCredentialEntry",
+          "children": [
+            {
+              "name": "New-DSCredentialEntry"
+            },
+            {
+              "name": "Update-DSCredentialEntry"
+            }
+          ]
+        },
+        {
+          "name": "DSPamProviders",
+          "children": [
+            {
+              "name": "Get-DSPamProviders"
+            }
+          ]
+        },
+        {
+          "name": "DSPamProvider",
+          "children": [
+            {
+              "name": "New-DSPamProvider"
+            },
+            {
+              "name": "Remove-DSPamProvider"
+            },
+            {
+              "name": "Update-DSPamProvider"
+            }
+          ]
+        },
+        {
+          "name": "DSPamFolders",
+          "children": [
+            {
+              "name": "Get-DSPamFolders"
+            }
+          ]
+        },
+        {
+          "name": "DSPamFolder",
+          "children": [
+            {
+              "name": "Get-DSPamFolder"
+            },
+            {
+              "name": "New-DSPamFolder"
+            },
+            {
+              "name": "Remove-DSPamFolder"
+            },
+            {
+              "name": "Update-DSPamFolder"
+            }
+          ]
+        },
+        {
+          "name": "DSPamAccounts",
+          "children": [
+            {
+              "name": "Get-DSPamAccounts"
+            }
+          ]
+        },
+        {
+          "name": "DSPamAccount",
+          "children": [
+            {
+              "name": "Get-DSPamAccount"
+            },
+            {
+              "name": "New-DSPamAccount"
+            },
+            {
+              "name": "Remove-DSPamAccount"
+            }
+          ]
+        },
+        {
+          "name": "DSPamAccountBase",
+          "children": [
+            {
+              "name": "Update-DSPamAccountBase"
+            }
+          ]
+        },
+        {
+          "name": "DSPamAccountSyncStatus",
+          "children": [
+            {
+              "name": "Get-DSPamAccountSyncStatus"
+            }
+          ]
+        },
+        {
+          "name": "DSRole",
+          "children": [
+            {
+              "name": "New-DSRole"
+            },
+            {
+              "name": "Get-DSRole"
+            },
+            {
+              "name": "Update-DSRole"
+            },
+            {
+              "name": "Remove-DSRole"
+            }
+          ]
+        },
+        {
+          "name": "DSUser",
+          "children": [
+            {
+              "name": "New-DSUser"
+            },
+            {
+              "name": "Update-DSUser"
+            },
+            {
+              "name": "Remove-DSUser"
+            }
+          ]
+        },
+        {
+          "name": "DSUsers",
+          "children": [
+            {
+              "name": "Get-DSUsers"
+            }
+          ]
+        },
+        {
+          "name": "DSEntryBase",
+          "children": [
+            {
+              "name": "New-DSEntryBase"
+            },
+            {
+              "name": "Update-DSEntryBase"
+            }
+          ]
+        },
+        {
+          "name": "DSRDPEntry",
+          "children": [
+            {
+              "name": "New-DSRDPEntry"
+            },
+            {
+              "name": "Update-DSRDPEntry"
+            }
+          ]
+        },
+        {
+          "name": "DSSSHShellEntry",
+          "children": [
+            {
+              "name": "New-DSSSHShellEntry"
+            },
+            {
+              "name": "Update-DSSSHShellEntry"
+            }
+          ]
+        },
+        {
+          "name": "XMLToPSCustomObject",
+          "children": [
+            {
+              "name": "Convert-XMLToPSCustomObject"
+            }
+          ]
+        },
+        {
+          "name": "PSCustomObjectToXML",
+          "children": [
+            {
+              "name": "Convert-PSCustomObjectToXML"
+            }
+          ]
+        },
+        {
+          "name": "XMLToSerializedString",
+          "children": [
+            {
+              "name": "Convert-XMLToSerializedString"
+            }
+          ]
+        },
+        {
+          "name": "DSPasswordsReport",
+          "children": [
+            {
+              "name": "Get-DSPasswordsReport"
+            }
+          ]
+        },
+        {
+          "name": "DSResetServerCache",
+          "children": [
+            {
+              "name": "Invoke-DSResetServerCache"
+            }
+          ]
+        },
+        {
+          "name": "DSPamCheckout",
+          "children": [
+            {
+              "name": "Invoke-DSPamCheckout"
+            },
+            {
+              "name": "Get-DSPamCheckout"
+            }
+          ]
+        },
+        {
+          "name": "DSPamCheckin",
+          "children": [
+            {
+              "name": "Invoke-DSPamCheckin"
+            }
+          ]
+        },
+        {
+          "name": "DSPamCredential",
+          "children": [
+            {
+              "name": "Get-DSPamCredential"
+            }
+          ]
+        },
+        {
+          "name": "DSPamCheckoutPending",
+          "children": [
+            {
+              "name": "Invoke-DSPamCheckoutPending"
+            }
+          ]
+        },
+        {
+          "name": "DSPamPassword",
+          "children": [
+            {
+              "name": "Get-DSPamPassword"
+            }
+          ]
+        },
+        {
+          "name": "DSUser2FA",
+          "children": [
+            {
+              "name": "Enable-DSUser2FA"
+            },
+            {
+              "name": "Disable-DSUser2FA"
+            }
+          ]
+        },
+        {
+          "name": "DSAuthenticationModes",
+          "children": [
+            {
+              "name": "Get-DSAuthenticationModes"
+            },
+            {
+              "name": "Set-DSAuthenticationModes"
+            }
+          ]
+        },
+        {
+          "name": "DSAdDomain",
+          "children": [
+            {
+              "name": "Get-DSAdDomain"
+            },
+            {
+              "name": "New-DSAdDomain"
+            },
+            {
+              "name": "Update-DSAdDomain"
+            },
+            {
+              "name": "Remove-DSAdDomain"
+            }
+          ]
+        },
+        {
+          "name": "DSDomainUsers",
+          "children": [
+            {
+              "name": "Get-DSDomainUsers"
+            }
+          ]
+        },
+        {
+          "name": "DSAdUsers",
+          "children": [
+            {
+              "name": "Import-DSAdUsers"
+            }
+          ]
+        },
+        {
+          "name": "DSEntityPermissions",
+          "children": [
+            {
+              "name": "Set-DSEntityPermissions"
+            }
+          ]
+        },
+        {
+          "name": "DSGateway",
+          "children": [
+            {
+              "name": "New-DSGateway"
+            },
+            {
+              "name": "Get-DSGateway"
+            },
+            {
+              "name": "Update-DSGateway"
+            },
+            {
+              "name": "Remove-DSGateway"
+            },
+            {
+              "name": "Test-DSGateway"
+            }
+          ]
+        },
+        {
+          "name": "DSGatewayLogs",
+          "children": [
+            {
+              "name": "Get-DSGatewayLogs"
+            }
+          ]
+        },
+        {
+          "name": "DSGatewaySessions",
+          "children": [
+            {
+              "name": "Get-DSGatewaySessions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Devolutions.PowerShell",
+      "companyName": "Devolutions",
+      "children": [
+        {
+          "name": "RDMRoleRepositoryAccess",
+          "children": [
+            {
+              "name": "Add-RDMRoleRepositoryAccess"
+            },
+            {
+              "name": "Get-RDMRoleRepositoryAccess"
+            },
+            {
+              "name": "Remove-RDMRoleRepositoryAccess"
+            }
+          ]
+        },
+        {
+          "name": "RDMFavoriteEntry",
+          "children": [
+            {
+              "name": "Add-RDMFavoriteEntry"
+            },
+            {
+              "name": "Get-RDMFavoriteEntry"
+            },
+            {
+              "name": "Remove-RDMFavoriteEntry"
+            }
+          ]
+        },
+        {
+          "name": "RDMRoleToUser",
+          "children": [
+            {
+              "name": "Add-RDMRoleToUser"
+            },
+            {
+              "name": "Remove-RDMRoleToUser"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionAttachment",
+          "children": [
+            {
+              "name": "Add-RDMSessionAttachment"
+            },
+            {
+              "name": "Get-RDMSessionAttachment"
+            },
+            {
+              "name": "Remove-RDMSessionAttachment"
+            },
+            {
+              "name": "Set-RDMSessionAttachment"
+            },
+            {
+              "name": "Update-RDMSessionAttachment"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionAttachment",
+          "children": [
+            {
+              "name": "Add-RDMPrivateSessionAttachment"
+            },
+            {
+              "name": "Get-RDMPrivateSessionAttachment"
+            },
+            {
+              "name": "Set-RDMPrivateSessionAttachment"
+            }
+          ]
+        },
+        {
+          "name": "RDMSshAgentKey",
+          "children": [
+            {
+              "name": "Add-RDMSshAgentKey"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserRepositoryAccess",
+          "children": [
+            {
+              "name": "Add-RDMUserRepositoryAccess"
+            },
+            {
+              "name": "Get-RDMUserRepositoryAccess"
+            },
+            {
+              "name": "Remove-RDMUserRepositoryAccess"
+            }
+          ]
+        },
+        {
+          "name": "RDMActivityLogs",
+          "children": [
+            {
+              "name": "Clear-RDMActivityLogs"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntriesHistory",
+          "children": [
+            {
+              "name": "Clear-RDMEntriesHistory"
+            }
+          ]
+        },
+        {
+          "name": "RDMSession",
+          "children": [
+            {
+              "name": "Close-RDMSession"
+            },
+            {
+              "name": "Copy-RDMSession"
+            },
+            {
+              "name": "Export-RDMSession"
+            },
+            {
+              "name": "Get-RDMSession"
+            },
+            {
+              "name": "Import-RDMSession"
+            },
+            {
+              "name": "Move-RDMSession"
+            },
+            {
+              "name": "New-RDMSession"
+            },
+            {
+              "name": "Open-RDMSession"
+            },
+            {
+              "name": "Read-RDMSession"
+            },
+            {
+              "name": "Remove-RDMSession"
+            },
+            {
+              "name": "Set-RDMSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMDataSource",
+          "children": [
+            {
+              "name": "Copy-RDMDataSource"
+            },
+            {
+              "name": "Get-RDMDataSource"
+            },
+            {
+              "name": "Import-RDMDataSource"
+            },
+            {
+              "name": "New-RDMDataSource"
+            },
+            {
+              "name": "Remove-RDMDataSource"
+            },
+            {
+              "name": "Set-RDMDataSource"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserTemplate",
+          "children": [
+            {
+              "name": "Edit-RDMUserTemplate"
+            }
+          ]
+        },
+        {
+          "name": "RDMActivityLogsReport",
+          "children": [
+            {
+              "name": "Export-RDMActivityLogsReport"
+            }
+          ]
+        },
+        {
+          "name": "RDMOptionFile",
+          "children": [
+            {
+              "name": "Export-RDMOptionFile"
+            }
+          ]
+        },
+        {
+          "name": "RDMPasswordAnalyzerReport",
+          "children": [
+            {
+              "name": "Export-RDMPasswordAnalyzerReport"
+            }
+          ]
+        },
+        {
+          "name": "RDMRepository",
+          "children": [
+            {
+              "name": "Export-RDMRepository"
+            },
+            {
+              "name": "Get-RDMRepository"
+            },
+            {
+              "name": "Import-RDMRepository"
+            },
+            {
+              "name": "New-RDMRepository"
+            },
+            {
+              "name": "Remove-RDMRepository"
+            },
+            {
+              "name": "Set-RDMRepository"
+            },
+            {
+              "name": "Unlock-RDMRepository"
+            },
+            {
+              "name": "Update-RDMRepository"
+            }
+          ]
+        },
+        {
+          "name": "RDMSystemInformationReport",
+          "children": [
+            {
+              "name": "Export-RDMSystemInformationReport"
+            },
+            {
+              "name": "Get-RDMSystemInformationReport"
+            },
+            {
+              "name": "Import-RDMSystemInformationReport"
+            },
+            {
+              "name": "New-RDMSystemInformationReport"
+            },
+            {
+              "name": "Remove-RDMSystemInformationReport"
+            }
+          ]
+        },
+        {
+          "name": "RDMCommand",
+          "children": [
+            {
+              "name": "Get-RDMCommand"
+            }
+          ]
+        },
+        {
+          "name": "RDMCurrentDataSource",
+          "children": [
+            {
+              "name": "Get-RDMCurrentDataSource"
+            },
+            {
+              "name": "Set-RDMCurrentDataSource"
+            }
+          ]
+        },
+        {
+          "name": "RDMCurrentRepository",
+          "children": [
+            {
+              "name": "Get-RDMCurrentRepository"
+            },
+            {
+              "name": "Set-RDMCurrentRepository"
+            }
+          ]
+        },
+        {
+          "name": "RDMDatasourceProperty",
+          "children": [
+            {
+              "name": "Get-RDMDatasourceProperty"
+            },
+            {
+              "name": "Set-RDMDatasourceProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMDataSourceCustomVariable",
+          "children": [
+            {
+              "name": "Get-RDMDataSourceCustomVariable"
+            },
+            {
+              "name": "New-RDMDataSourceCustomVariable"
+            },
+            {
+              "name": "Remove-RDMDataSourceCustomVariable"
+            },
+            {
+              "name": "Set-RDMDataSourceCustomVariable"
+            }
+          ]
+        },
+        {
+          "name": "RDMDeletedEntry",
+          "children": [
+            {
+              "name": "Get-RDMDeletedEntry"
+            },
+            {
+              "name": "Remove-RDMDeletedEntry"
+            }
+          ]
+        },
+        {
+          "name": "RDMDiagnostic",
+          "children": [
+            {
+              "name": "Get-RDMDiagnostic"
+            }
+          ]
+        },
+        {
+          "name": "RDMInstance",
+          "children": [
+            {
+              "name": "Get-RDMInstance"
+            },
+            {
+              "name": "Start-RDMInstance"
+            }
+          ]
+        },
+        {
+          "name": "RDMLicense",
+          "children": [
+            {
+              "name": "Get-RDMLicense"
+            },
+            {
+              "name": "New-RDMLicense"
+            },
+            {
+              "name": "Remove-RDMLicense"
+            },
+            {
+              "name": "Set-RDMLicense"
+            }
+          ]
+        },
+        {
+          "name": "RDMOffline",
+          "children": [
+            {
+              "name": "Get-RDMOffline"
+            }
+          ]
+        },
+        {
+          "name": "RDMOnline",
+          "children": [
+            {
+              "name": "Get-RDMOnline"
+            }
+          ]
+        },
+        {
+          "name": "RDMOpenedSession",
+          "children": [
+            {
+              "name": "Get-RDMOpenedSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMOTPPassword",
+          "children": [
+            {
+              "name": "Get-RDMOTPPassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMPackage",
+          "children": [
+            {
+              "name": "Get-RDMPackage"
+            },
+            {
+              "name": "Install-RDMPackage"
+            },
+            {
+              "name": "Uninstall-RDMPackage"
+            },
+            {
+              "name": "Update-RDMPackage"
+            }
+          ]
+        },
+        {
+          "name": "RDMPersonalCredentials",
+          "children": [
+            {
+              "name": "Get-RDMPersonalCredentials"
+            },
+            {
+              "name": "Set-RDMPersonalCredentials"
+            }
+          ]
+        },
+        {
+          "name": "RDMPersonalSSHKey",
+          "children": [
+            {
+              "name": "Get-RDMPersonalSSHKey"
+            },
+            {
+              "name": "Set-RDMPersonalSSHKey"
+            }
+          ]
+        },
+        {
+          "name": "RDMPlaylistLocal",
+          "children": [
+            {
+              "name": "Get-RDMPlaylistLocal"
+            },
+            {
+              "name": "New-RDMPlaylistLocal"
+            },
+            {
+              "name": "Set-RDMPlaylistLocal"
+            }
+          ]
+        },
+        {
+          "name": "RDMPlaylistShared",
+          "children": [
+            {
+              "name": "Get-RDMPlaylistShared"
+            },
+            {
+              "name": "New-RDMPlaylistShared"
+            },
+            {
+              "name": "Set-RDMPlaylistShared"
+            }
+          ]
+        },
+        {
+          "name": "RDMPowerShellOverride",
+          "children": [
+            {
+              "name": "Get-RDMPowerShellOverride"
+            },
+            {
+              "name": "Set-RDMPowerShellOverride"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSession",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSession"
+            },
+            {
+              "name": "Remove-RDMPrivateSession"
+            },
+            {
+              "name": "Set-RDMPrivateSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionCredentials",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionCredentials"
+            },
+            {
+              "name": "Set-RDMPrivateSessionCredentials"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionDocumentStoredInDatabase",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionDocumentStoredInDatabase"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionDomain",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionDomain"
+            },
+            {
+              "name": "Set-RDMPrivateSessionDomain"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionOTP",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionOTP"
+            },
+            {
+              "name": "Set-RDMPrivateSessionOTP"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionPassword",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionPassword"
+            },
+            {
+              "name": "Set-RDMPrivateSessionPassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionProperty",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionProperty"
+            },
+            {
+              "name": "Set-RDMPrivateSessionProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionStatus",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionStatus"
+            },
+            {
+              "name": "Set-RDMPrivateSessionStatus"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionUserName",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionUserName"
+            },
+            {
+              "name": "Set-RDMPrivateSessionUsername"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivilegedAccount",
+          "children": [
+            {
+              "name": "Get-RDMPrivilegedAccount"
+            },
+            {
+              "name": "Set-RDMPrivilegedAccount"
+            }
+          ]
+        },
+        {
+          "name": "RDMProcess",
+          "children": [
+            {
+              "name": "Get-RDMProcess"
+            },
+            {
+              "name": "Restart-RDMProcess"
+            },
+            {
+              "name": "Start-RDMProcess"
+            },
+            {
+              "name": "Stop-RDMProcess"
+            }
+          ]
+        },
+        {
+          "name": "RDMRegistrationInfo",
+          "children": [
+            {
+              "name": "Get-RDMRegistrationInfo"
+            },
+            {
+              "name": "Set-RDMRegistrationInfo"
+            }
+          ]
+        },
+        {
+          "name": "RDMRole",
+          "children": [
+            {
+              "name": "Get-RDMRole"
+            },
+            {
+              "name": "New-RDMRole"
+            },
+            {
+              "name": "Remove-RDMRole"
+            },
+            {
+              "name": "Set-RDMRole"
+            }
+          ]
+        },
+        {
+          "name": "RDMRootSession",
+          "children": [
+            {
+              "name": "Get-RDMRootSession"
+            },
+            {
+              "name": "Set-RDMRootSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionCredentials",
+          "children": [
+            {
+              "name": "Get-RDMSessionCredentials"
+            },
+            {
+              "name": "Set-RDMSessionCredentials"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionDocumentation",
+          "children": [
+            {
+              "name": "Get-RDMSessionDocumentation"
+            },
+            {
+              "name": "Remove-RDMSessionDocumentation"
+            },
+            {
+              "name": "Set-RDMSessionDocumentation"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionDocumentStoredInDatabase",
+          "children": [
+            {
+              "name": "Get-RDMSessionDocumentStoredInDatabase"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionDomain",
+          "children": [
+            {
+              "name": "Get-RDMSessionDomain"
+            },
+            {
+              "name": "Set-RDMSessionDomain"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionOTP",
+          "children": [
+            {
+              "name": "Get-RDMSessionOTP"
+            },
+            {
+              "name": "Set-RDMSessionOTP"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionPassword",
+          "children": [
+            {
+              "name": "Get-RDMSessionPassword"
+            },
+            {
+              "name": "Set-RDMSessionPassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionProperty",
+          "children": [
+            {
+              "name": "Get-RDMSessionProperty"
+            },
+            {
+              "name": "Set-RDMSessionProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionStatus",
+          "children": [
+            {
+              "name": "Get-RDMSessionStatus"
+            },
+            {
+              "name": "Set-RDMSessionStatus"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionUserName",
+          "children": [
+            {
+              "name": "Get-RDMSessionUserName"
+            },
+            {
+              "name": "Set-RDMSessionUsername"
+            }
+          ]
+        },
+        {
+          "name": "RDMSshAgentLog",
+          "children": [
+            {
+              "name": "Get-RDMSshAgentLog"
+            }
+          ]
+        },
+        {
+          "name": "RDMTask",
+          "children": [
+            {
+              "name": "Get-RDMTask"
+            },
+            {
+              "name": "New-RDMTask"
+            },
+            {
+              "name": "Remove-RDMTask"
+            },
+            {
+              "name": "Set-RDMTask"
+            }
+          ]
+        },
+        {
+          "name": "RDMTemplate",
+          "children": [
+            {
+              "name": "Get-RDMTemplate"
+            },
+            {
+              "name": "New-RDMTemplate"
+            },
+            {
+              "name": "Remove-RDMTemplate"
+            },
+            {
+              "name": "Set-RDMTemplate"
+            }
+          ]
+        },
+        {
+          "name": "RDMUser",
+          "children": [
+            {
+              "name": "Get-RDMUser"
+            },
+            {
+              "name": "New-RDMUser"
+            },
+            {
+              "name": "Remove-RDMUser"
+            },
+            {
+              "name": "Set-RDMUser"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserSpecificSettings",
+          "children": [
+            {
+              "name": "Get-RDMUserSpecificSettings"
+            },
+            {
+              "name": "Remove-RDMUserSpecificSettings"
+            },
+            {
+              "name": "Set-RDMUserSpecificSettings"
+            }
+          ]
+        },
+        {
+          "name": "RDMVersion",
+          "children": [
+            {
+              "name": "Get-RDMVersion"
+            }
+          ]
+        },
+        {
+          "name": "RDMCreateDataSourceDatabase",
+          "children": [
+            {
+              "name": "Invoke-RDMCreateDataSourceDatabase"
+            }
+          ]
+        },
+        {
+          "name": "RDMLoadFromInventorySession",
+          "children": [
+            {
+              "name": "Invoke-RDMLoadFromInventorySession"
+            }
+          ]
+        },
+        {
+          "name": "RDMParentSession",
+          "children": [
+            {
+              "name": "Invoke-RDMParentSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMUnparentSession",
+          "children": [
+            {
+              "name": "Invoke-RDMUnparentSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMUpdateDataSourceDatabase",
+          "children": [
+            {
+              "name": "Invoke-RDMUpdateDataSourceDatabase"
+            }
+          ]
+        },
+        {
+          "name": "RDMFavoriteFolder",
+          "children": [
+            {
+              "name": "New-RDMFavoriteFolder"
+            },
+            {
+              "name": "Remove-RDMFavoriteFolder"
+            }
+          ]
+        },
+        {
+          "name": "RDMLogComment",
+          "children": [
+            {
+              "name": "New-RDMLogComment"
+            }
+          ]
+        },
+        {
+          "name": "RDMPort",
+          "children": [
+            {
+              "name": "New-RDMPort"
+            }
+          ]
+        },
+        {
+          "name": "RDMRandomPassword",
+          "children": [
+            {
+              "name": "New-RDMRandomPassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMSSHKey",
+          "children": [
+            {
+              "name": "New-RDMSSHKey"
+            }
+          ]
+        },
+        {
+          "name": "RDMQuickConnect",
+          "children": [
+            {
+              "name": "Open-RDMQuickConnect"
+            }
+          ]
+        },
+        {
+          "name": "RDMSyncSession",
+          "children": [
+            {
+              "name": "Open-RDMSyncSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMFromDataSource",
+          "children": [
+            {
+              "name": "Register-RDMFromDataSource"
+            }
+          ]
+        },
+        {
+          "name": "RDMSecretVault",
+          "children": [
+            {
+              "name": "Register-RDMSecretVault"
+            }
+          ]
+        },
+        {
+          "name": "RDMGroup",
+          "children": [
+            {
+              "name": "Rename-RDMGroup"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserSqlLogin",
+          "children": [
+            {
+              "name": "Repair-RDMUserSqlLogin"
+            }
+          ]
+        },
+        {
+          "name": "RDMDatasourceMasterKey",
+          "children": [
+            {
+              "name": "Set-RDMDatasourceMasterKey"
+            }
+          ]
+        },
+        {
+          "name": "RDMDatasourceRepository",
+          "children": [
+            {
+              "name": "Set-RDMDatasourceRepository"
+            }
+          ]
+        },
+        {
+          "name": "RDMDefaultDataSource",
+          "children": [
+            {
+              "name": "Set-RDMDefaultDataSource"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionDocument",
+          "children": [
+            {
+              "name": "Set-RDMPrivateSessionDocument"
+            }
+          ]
+        },
+        {
+          "name": "RDMRoleProperty",
+          "children": [
+            {
+              "name": "Set-RDMRoleProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionDocument",
+          "children": [
+            {
+              "name": "Set-RDMSessionDocument"
+            }
+          ]
+        },
+        {
+          "name": "RDMSQLiteDatasourcePassword",
+          "children": [
+            {
+              "name": "Set-RDMSQLiteDatasourcePassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserProperty",
+          "children": [
+            {
+              "name": "Set-RDMUserProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserSecurity",
+          "children": [
+            {
+              "name": "Set-RDMUserSecurity"
+            }
+          ]
+        },
+        {
+          "name": "RDMProfiler",
+          "children": [
+            {
+              "name": "Start-RDMProfiler"
+            },
+            {
+              "name": "Stop-RDMProfiler"
+            }
+          ]
+        },
+        {
+          "name": "RDMSshAgent",
+          "children": [
+            {
+              "name": "Start-RDMSshAgent"
+            },
+            {
+              "name": "Stop-RDMSshAgent"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntries",
+          "children": [
+            {
+              "name": "Update-RDMEntries"
+            }
+          ]
+        },
+        {
+          "name": "RDMUI",
+          "children": [
+            {
+              "name": "Update-RDMUI"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryAttachment",
+          "children": [
+            {
+              "name": "Add-RDMEntryAttachment"
+            },
+            {
+              "name": "Get-RDMEntryAttachment"
+            },
+            {
+              "name": "Remove-RDMEntryAttachment"
+            },
+            {
+              "name": "Set-RDMEntryAttachment"
+            },
+            {
+              "name": "Update-RDMEntryAttachment"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntry",
+          "children": [
+            {
+              "name": "Get-RDMEntry"
+            },
+            {
+              "name": "New-RDMEntry"
+            },
+            {
+              "name": "Remove-RDMEntry"
+            },
+            {
+              "name": "Set-RDMEntry"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryDocument",
+          "children": [
+            {
+              "name": "Get-RDMEntryDocument"
+            },
+            {
+              "name": "Set-RDMEntryDocument"
+            },
+            {
+              "name": "Update-RDMEntryDocument"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryDocumentation",
+          "children": [
+            {
+              "name": "Get-RDMEntryDocumentation"
+            },
+            {
+              "name": "New-RDMEntryDocumentation"
+            },
+            {
+              "name": "Remove-RDMEntryDocumentation"
+            },
+            {
+              "name": "Set-RDMEntryDocumentation"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryDomain",
+          "children": [
+            {
+              "name": "Get-RDMEntryDomain"
+            },
+            {
+              "name": "Set-RDMEntryDomain"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryOTP",
+          "children": [
+            {
+              "name": "Get-RDMEntryOTP"
+            },
+            {
+              "name": "Set-RDMEntryOTP"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryOTPKey",
+          "children": [
+            {
+              "name": "Get-RDMEntryOTPKey"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryPassword",
+          "children": [
+            {
+              "name": "Get-RDMEntryPassword"
+            },
+            {
+              "name": "Set-RDMEntryPassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryPrivateKey",
+          "children": [
+            {
+              "name": "Get-RDMEntryPrivateKey"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryProperty",
+          "children": [
+            {
+              "name": "Get-RDMEntryProperty"
+            },
+            {
+              "name": "Set-RDMEntryProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryStatus",
+          "children": [
+            {
+              "name": "Get-RDMEntryStatus"
+            },
+            {
+              "name": "Set-RDMEntryStatus"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryUsername",
+          "children": [
+            {
+              "name": "Get-RDMEntryUsername"
+            },
+            {
+              "name": "Set-RDMEntryUsername"
+            }
+          ]
+        },
+        {
+          "name": "RDMSealedEntry",
+          "children": [
+            {
+              "name": "Get-RDMSealedEntry"
+            },
+            {
+              "name": "Unprotect-RDMSealedEntry"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryCheckIn",
+          "children": [
+            {
+              "name": "Invoke-RDMEntryCheckIn"
+            }
+          ]
+        },
+        {
+          "name": "RDMEntryCheckOut",
+          "children": [
+            {
+              "name": "Invoke-RDMEntryCheckOut"
+            }
+          ]
+        },
+        {
+          "name": "HubGroupUser",
+          "children": [
+            {
+              "name": "Add-HubGroupUser"
+            },
+            {
+              "name": "Remove-HubGroupUser"
+            }
+          ]
+        },
+        {
+          "name": "HubAccount",
+          "children": [
+            {
+              "name": "Connect-HubAccount"
+            },
+            {
+              "name": "Disconnect-HubAccount"
+            }
+          ]
+        },
+        {
+          "name": "HubFlatObject",
+          "children": [
+            {
+              "name": "ConvertTo-HubFlatObject"
+            }
+          ]
+        },
+        {
+          "name": "HubContext",
+          "children": [
+            {
+              "name": "Get-HubContext"
+            },
+            {
+              "name": "Import-HubContext"
+            },
+            {
+              "name": "Save-HubContext"
+            },
+            {
+              "name": "Select-HubContext"
+            },
+            {
+              "name": "Set-HubContext"
+            }
+          ]
+        },
+        {
+          "name": "HubGroup",
+          "children": [
+            {
+              "name": "Get-HubGroup"
+            },
+            {
+              "name": "New-HubGroup"
+            },
+            {
+              "name": "Remove-HubGroup"
+            },
+            {
+              "name": "Set-HubGroup"
+            }
+          ]
+        },
+        {
+          "name": "HubEntry",
+          "children": [
+            {
+              "name": "Get-HubEntry"
+            },
+            {
+              "name": "New-HubEntry"
+            },
+            {
+              "name": "Remove-HubEntry"
+            },
+            {
+              "name": "Set-HubEntry"
+            }
+          ]
+        },
+        {
+          "name": "HubEntryPermission",
+          "children": [
+            {
+              "name": "Get-HubEntryPermission"
+            },
+            {
+              "name": "New-HubEntryPermission"
+            },
+            {
+              "name": "Remove-HubEntryPermission"
+            },
+            {
+              "name": "Set-HubEntryPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogs",
+          "children": [
+            {
+              "name": "Get-HubSiemLogs"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogsDaily",
+          "children": [
+            {
+              "name": "Get-HubSiemLogsDaily"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogsMonthly",
+          "children": [
+            {
+              "name": "Get-HubSiemLogsMonthly"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogsWeekly",
+          "children": [
+            {
+              "name": "Get-HubSiemLogsWeekly"
+            }
+          ]
+        },
+        {
+          "name": "HubEntriesForExport",
+          "children": [
+            {
+              "name": "Get-HubEntriesForExport"
+            }
+          ]
+        },
+        {
+          "name": "HubSystemPermission",
+          "children": [
+            {
+              "name": "Get-HubSystemPermission"
+            },
+            {
+              "name": "New-HubSystemPermission"
+            },
+            {
+              "name": "Remove-HubSystemPermission"
+            },
+            {
+              "name": "Set-HubSystemPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubSystemSettings",
+          "children": [
+            {
+              "name": "Get-HubSystemSettings"
+            },
+            {
+              "name": "Set-HubSystemSettings"
+            }
+          ]
+        },
+        {
+          "name": "HubSystemVaultPermission",
+          "children": [
+            {
+              "name": "Get-HubSystemVaultPermission"
+            },
+            {
+              "name": "New-HubSystemVaultPermission"
+            },
+            {
+              "name": "Remove-HubSystemVaultPermission"
+            },
+            {
+              "name": "Set-HubSystemVaultPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubUser",
+          "children": [
+            {
+              "name": "Get-HubUser"
+            },
+            {
+              "name": "New-HubUser"
+            },
+            {
+              "name": "Remove-HubUser"
+            },
+            {
+              "name": "Set-HubUser"
+            }
+          ]
+        },
+        {
+          "name": "HubVault",
+          "children": [
+            {
+              "name": "Get-HubVault"
+            },
+            {
+              "name": "New-HubVault"
+            },
+            {
+              "name": "Remove-HubVault"
+            },
+            {
+              "name": "Set-HubVault"
+            }
+          ]
+        },
+        {
+          "name": "HubVaultPermission",
+          "children": [
+            {
+              "name": "Get-HubVaultPermission"
+            },
+            {
+              "name": "New-HubVaultPermission"
+            },
+            {
+              "name": "Remove-HubVaultPermission"
+            },
+            {
+              "name": "Set-HubVaultPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubVaultRole",
+          "children": [
+            {
+              "name": "Get-HubVaultRole"
+            }
+          ]
+        },
+        {
+          "name": "HubEntryRole",
+          "children": [
+            {
+              "name": "Get-HubEntryRole"
+            }
+          ]
+        },
+        {
+          "name": "HubOrganizationUser",
+          "children": [
+            {
+              "name": "New-HubOrganizationUser"
+            }
+          ]
+        },
+        {
+          "name": "HubGateway",
+          "children": [
+            {
+              "name": "New-HubGateway"
+            },
+            {
+              "name": "Set-HubGateway"
+            },
+            {
+              "name": "Remove-HubGateway"
+            },
+            {
+              "name": "Get-HubGateway"
+            }
+          ]
+        },
+        {
+          "name": "HubGatewaySettings",
+          "children": [
+            {
+              "name": "Get-HubGatewaySettings"
+            },
+            {
+              "name": "New-HubGatewaySettings"
+            },
+            {
+              "name": "Set-HubGatewaySettings"
+            }
+          ]
+        },
+        {
+          "name": "HubEntryResolved",
+          "children": [
+            {
+              "name": "Get-HubEntryResolved"
+            },
+            {
+              "name": "Format-HubEntryResolved"
+            }
+          ]
+        },
+        {
+          "name": "DSSession",
+          "children": [
+            {
+              "name": "Close-DSSession"
+            },
+            {
+              "name": "New-DSSession"
+            }
+          ]
+        },
+        {
+          "name": "PSCustomObjectToXML",
+          "children": [
+            {
+              "name": "Convert-PSCustomObjectToXML"
+            }
+          ]
+        },
+        {
+          "name": "XMLToPSCustomObject",
+          "children": [
+            {
+              "name": "Convert-XMLToPSCustomObject"
+            }
+          ]
+        },
+        {
+          "name": "XMLToSerializedString",
+          "children": [
+            {
+              "name": "Convert-XMLToSerializedString"
+            }
+          ]
+        },
+        {
+          "name": "DSUser2FA",
+          "children": [
+            {
+              "name": "Disable-DSUser2FA"
+            },
+            {
+              "name": "Enable-DSUser2FA"
+            }
+          ]
+        },
+        {
+          "name": "DSPamAccountAccessReport",
+          "children": [
+            {
+              "name": "Export-DSPamAccountAccessReport"
+            }
+          ]
+        },
+        {
+          "name": "DSAdDomain",
+          "children": [
+            {
+              "name": "Get-DSAdDomain"
+            },
+            {
+              "name": "New-DSAdDomain"
+            },
+            {
+              "name": "Remove-DSAdDomain"
+            },
+            {
+              "name": "Update-DSAdDomain"
+            }
+          ]
+        },
+        {
+          "name": "DSADGroup",
+          "children": [
+            {
+              "name": "Get-DSADGroup"
+            }
+          ]
+        },
+        {
+          "name": "DSAuthenticationModes",
+          "children": [
+            {
+              "name": "Get-DSAuthenticationModes"
+            },
+            {
+              "name": "Set-DSAuthenticationModes"
+            }
+          ]
+        },
+        {
+          "name": "DSAzureADGroup",
+          "children": [
+            {
+              "name": "Get-DSAzureADGroup"
+            }
+          ]
+        },
+        {
+          "name": "DSDomainUser",
+          "children": [
+            {
+              "name": "Get-DSDomainUser"
+            }
+          ]
+        },
+        {
+          "name": "DSEntriesPermissions",
+          "children": [
+            {
+              "name": "Get-DSEntriesPermissions"
+            }
+          ]
+        },
+        {
+          "name": "DSEntry",
+          "children": [
+            {
+              "name": "Get-DSEntry"
+            },
+            {
+              "name": "Remove-DSEntry"
+            },
+            {
+              "name": "Search-DSEntry"
+            }
+          ]
+        },
+        {
+          "name": "DSEntryOTP",
+          "children": [
+            {
+              "name": "Get-DSEntryOTP"
+            }
+          ]
+        },
+        {
+          "name": "DSEntryPasswordHistory",
+          "children": [
+            {
+              "name": "Get-DSEntryPasswordHistory"
+            }
+          ]
+        },
+        {
+          "name": "DSEntrySensitiveData",
+          "children": [
+            {
+              "name": "Get-DSEntrySensitiveData"
+            }
+          ]
+        },
+        {
+          "name": "DSEntrySubConnections",
+          "children": [
+            {
+              "name": "Get-DSEntrySubConnections"
+            }
+          ]
+        },
+        {
+          "name": "DSGateway",
+          "children": [
+            {
+              "name": "Get-DSGateway"
+            },
+            {
+              "name": "New-DSGateway"
+            },
+            {
+              "name": "Remove-DSGateway"
+            },
+            {
+              "name": "Test-DSGateway"
+            },
+            {
+              "name": "Update-DSGateway"
+            }
+          ]
+        },
+        {
+          "name": "DSGatewayLogs",
+          "children": [
+            {
+              "name": "Get-DSGatewayLogs"
+            }
+          ]
+        },
+        {
+          "name": "DSGatewaySession",
+          "children": [
+            {
+              "name": "Get-DSGatewaySession"
+            }
+          ]
+        },
+        {
+          "name": "DSGatewayToken",
+          "children": [
+            {
+              "name": "Get-DSGatewayToken"
+            }
+          ]
+        },
+        {
+          "name": "DSFolder",
+          "children": [
+            {
+              "name": "Get-DSFolder"
+            },
+            {
+              "name": "New-DSFolder"
+            }
+          ]
+        },
+        {
+          "name": "DSFolders",
+          "children": [
+            {
+              "name": "Get-DSFolders"
+            }
+          ]
+        },
+        {
+          "name": "DSIsLogged",
+          "children": [
+            {
+              "name": "Get-DSIsLogged"
+            }
+          ]
+        },
+        {
+          "name": "DSLicense",
+          "children": [
+            {
+              "name": "Get-DSLicense"
+            },
+            {
+              "name": "Register-DSLicense"
+            },
+            {
+              "name": "Unregister-DSLicense"
+            }
+          ]
+        },
+        {
+          "name": "DSPamAccount",
+          "children": [
+            {
+              "name": "Get-DSPamAccount"
+            },
+            {
+              "name": "New-DSPamAccount"
+            },
+            {
+              "name": "Remove-DSPamAccount"
+            },
+            {
+              "name": "Update-DSPamAccount"
+            }
+          ]
+        },
+        {
+          "name": "DSPamAccountSecurity",
+          "children": [
+            {
+              "name": "Get-DSPamAccountSecurity"
+            }
+          ]
+        },
+        {
+          "name": "DSPamAccountSyncStatus",
+          "children": [
+            {
+              "name": "Get-DSPamAccountSyncStatus"
+            }
+          ]
+        },
+        {
+          "name": "DSPamCheckout",
+          "children": [
+            {
+              "name": "Get-DSPamCheckout"
+            },
+            {
+              "name": "Invoke-DSPamCheckout"
+            }
+          ]
+        },
+        {
+          "name": "DSPamCheckoutPolicy",
+          "children": [
+            {
+              "name": "Get-DSPamCheckoutPolicy"
+            },
+            {
+              "name": "New-DSPamCheckoutPolicy"
+            },
+            {
+              "name": "Remove-DSPamCheckoutPolicy"
+            },
+            {
+              "name": "Update-DSPamCheckoutPolicy"
+            }
+          ]
+        },
+        {
+          "name": "DSPamFolder",
+          "children": [
+            {
+              "name": "Get-DSPamFolder"
+            },
+            {
+              "name": "New-DSPamFolder"
+            },
+            {
+              "name": "Remove-DSPamFolder"
+            },
+            {
+              "name": "Update-DSPamFolder"
+            }
+          ]
+        },
+        {
+          "name": "DSPamFolderSecurity",
+          "children": [
+            {
+              "name": "Get-DSPamFolderSecurity"
+            }
+          ]
+        },
+        {
+          "name": "DSPamPassword",
+          "children": [
+            {
+              "name": "Get-DSPamPassword"
+            },
+            {
+              "name": "Reset-DSPamPassword"
+            }
+          ]
+        },
+        {
+          "name": "DSPamProvider",
+          "children": [
+            {
+              "name": "Get-DSPamProvider"
+            },
+            {
+              "name": "New-DSPamProvider"
+            },
+            {
+              "name": "Remove-DSPamProvider"
+            },
+            {
+              "name": "Update-DSPamProvider"
+            }
+          ]
+        },
+        {
+          "name": "DSPamScanConfiguration",
+          "children": [
+            {
+              "name": "Get-DSPamScanConfiguration"
+            },
+            {
+              "name": "New-DSPamScanConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DSPamScanResult",
+          "children": [
+            {
+              "name": "Get-DSPamScanResult"
+            },
+            {
+              "name": "Import-DSPamScanResult"
+            }
+          ]
+        },
+        {
+          "name": "DSPamVault",
+          "children": [
+            {
+              "name": "Get-DSPamVault"
+            },
+            {
+              "name": "New-DSPamVault"
+            },
+            {
+              "name": "Remove-DSPamVault"
+            },
+            {
+              "name": "Update-DSPamVault"
+            }
+          ]
+        },
+        {
+          "name": "DSPasswordsReport",
+          "children": [
+            {
+              "name": "Get-DSPasswordsReport"
+            }
+          ]
+        },
+        {
+          "name": "DSRole",
+          "children": [
+            {
+              "name": "Get-DSRole"
+            },
+            {
+              "name": "New-DSRole"
+            },
+            {
+              "name": "Remove-DSRole"
+            },
+            {
+              "name": "Update-DSRole"
+            }
+          ]
+        },
+        {
+          "name": "DSRootSession",
+          "children": [
+            {
+              "name": "Get-DSRootSession"
+            }
+          ]
+        },
+        {
+          "name": "DSScriptConfigurationSummary",
+          "children": [
+            {
+              "name": "Get-DSScriptConfigurationSummary"
+            }
+          ]
+        },
+        {
+          "name": "DSSecureMessages",
+          "children": [
+            {
+              "name": "Get-DSSecureMessages"
+            }
+          ]
+        },
+        {
+          "name": "DSPublicServerInfo",
+          "children": [
+            {
+              "name": "Get-DSPublicServerInfo"
+            }
+          ]
+        },
+        {
+          "name": "DSPrivateServerInfo",
+          "children": [
+            {
+              "name": "Get-DSPrivateServerInfo"
+            }
+          ]
+        },
+        {
+          "name": "DSUser",
+          "children": [
+            {
+              "name": "Get-DSUser"
+            },
+            {
+              "name": "New-DSUser"
+            },
+            {
+              "name": "Remove-DSUser"
+            },
+            {
+              "name": "Update-DSUser"
+            }
+          ]
+        },
+        {
+          "name": "DSUserLicense",
+          "children": [
+            {
+              "name": "Get-DSUserLicense"
+            },
+            {
+              "name": "Set-DSUserLicense"
+            }
+          ]
+        },
+        {
+          "name": "DSVault",
+          "children": [
+            {
+              "name": "Get-DSVault"
+            },
+            {
+              "name": "New-DSVault"
+            },
+            {
+              "name": "Remove-DSVault"
+            },
+            {
+              "name": "Update-DSVault"
+            }
+          ]
+        },
+        {
+          "name": "DSVaultPermission",
+          "children": [
+            {
+              "name": "Get-DSVaultPermission"
+            }
+          ]
+        },
+        {
+          "name": "DSAdUsers",
+          "children": [
+            {
+              "name": "Import-DSAdUsers"
+            }
+          ]
+        },
+        {
+          "name": "DSPamCheckin",
+          "children": [
+            {
+              "name": "Invoke-DSPamCheckin"
+            }
+          ]
+        },
+        {
+          "name": "DSPamCheckoutPending",
+          "children": [
+            {
+              "name": "Invoke-DSPamCheckoutPending"
+            }
+          ]
+        },
+        {
+          "name": "DSResetServerCache",
+          "children": [
+            {
+              "name": "Invoke-DSResetServerCache"
+            }
+          ]
+        },
+        {
+          "name": "DSCredentialEntry",
+          "children": [
+            {
+              "name": "New-DSCredentialEntry"
+            }
+          ]
+        },
+        {
+          "name": "DSEntityPermission",
+          "children": [
+            {
+              "name": "New-DSEntityPermission"
+            }
+          ]
+        },
+        {
+          "name": "DSEntryBase",
+          "children": [
+            {
+              "name": "New-DSEntryBase"
+            },
+            {
+              "name": "Update-DSEntryBase"
+            }
+          ]
+        },
+        {
+          "name": "DSPamSecurity",
+          "children": [
+            {
+              "name": "New-DSPamSecurity"
+            }
+          ]
+        },
+        {
+          "name": "DSRDPEntry",
+          "children": [
+            {
+              "name": "New-DSRDPEntry"
+            },
+            {
+              "name": "Update-DSRDPEntry"
+            }
+          ]
+        },
+        {
+          "name": "DSSearchCriteria",
+          "children": [
+            {
+              "name": "New-DSSearchCriteria"
+            }
+          ]
+        },
+        {
+          "name": "DSSSHShellEntry",
+          "children": [
+            {
+              "name": "New-DSSSHShellEntry"
+            },
+            {
+              "name": "Update-DSSSHShellEntry"
+            }
+          ]
+        },
+        {
+          "name": "DSServerLicense",
+          "children": [
+            {
+              "name": "Register-DSServerLicense"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionCommand",
+          "children": [
+            {
+              "name": "Send-RDMSessionCommand"
+            }
+          ]
+        },
+        {
+          "name": "DSVaultApplication",
+          "children": [
+            {
+              "name": "Set-DSVaultApplication"
+            }
+          ]
+        },
+        {
+          "name": "DSVaultRole",
+          "children": [
+            {
+              "name": "Set-DSVaultRole"
+            }
+          ]
+        },
+        {
+          "name": "DSVaultUser",
+          "children": [
+            {
+              "name": "Set-DSVaultUser"
+            }
+          ]
+        },
+        {
+          "name": "DSEntityPermissions",
+          "children": [
+            {
+              "name": "Set-DSEntityPermissions"
+            }
+          ]
+        },
+        {
+          "name": "DSJetsocat",
+          "children": [
+            {
+              "name": "Start-DSJetsocat"
+            }
+          ]
+        },
+        {
+          "name": "DSSealedEntry",
+          "children": [
+            {
+              "name": "Unprotect-DSSealedEntry"
+            }
+          ]
+        },
+        {
+          "name": "DSFolderCredentials",
+          "children": [
+            {
+              "name": "Update-DSFolderCredentials"
+            }
+          ]
+        },
+        {
+          "name": "DPSAccessUri",
+          "children": [
+            {
+              "name": "Get-DPSAccessUri"
+            },
+            {
+              "name": "Set-DPSAccessUri"
+            }
+          ]
+        },
+        {
+          "name": "DPSAppSettings",
+          "children": [
+            {
+              "name": "Get-DPSAppSettings"
+            },
+            {
+              "name": "New-DPSAppSettings"
+            },
+            {
+              "name": "Set-DPSAppSettings"
+            }
+          ]
+        },
+        {
+          "name": "DPSAdministrator",
+          "children": [
+            {
+              "name": "New-DPSAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "DPSDatabaseAppSettings",
+          "children": [
+            {
+              "name": "New-DPSDatabaseAppSettings"
+            }
+          ]
+        },
+        {
+          "name": "DPSDatabase",
+          "children": [
+            {
+              "name": "New-DPSDatabase"
+            },
+            {
+              "name": "Update-DPSDatabase"
+            }
+          ]
+        },
+        {
+          "name": "DPSDataSourceSettings",
+          "children": [
+            {
+              "name": "New-DPSDataSourceSettings"
+            }
+          ]
+        },
+        {
+          "name": "DPSDatabaseApp",
+          "children": [
+            {
+              "name": "Register-DPSDatabaseApp"
+            }
+          ]
+        },
+        {
+          "name": "DPSEncryptConfiguration",
+          "children": [
+            {
+              "name": "New-DPSEncryptConfiguration"
+            },
+            {
+              "name": "Unprotect-DPSEncryptConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DPSInstallConfiguration",
+          "children": [
+            {
+              "name": "New-DPSInstallConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Devolutions.Hub",
+      "companyName": "Devolutions",
+      "children": [
+        {
+          "name": "HubAccount",
+          "children": [
+            {
+              "name": "Connect-HubAccount"
+            },
+            {
+              "name": "Disconnect-HubAccount"
+            }
+          ]
+        },
+        {
+          "name": "HubSystemSettings",
+          "children": [
+            {
+              "name": "Get-HubSystemSettings"
+            },
+            {
+              "name": "Set-HubSystemSettings"
+            }
+          ]
+        },
+        {
+          "name": "HubContext",
+          "children": [
+            {
+              "name": "Get-HubContext"
+            },
+            {
+              "name": "Set-HubContext"
+            },
+            {
+              "name": "Select-HubContext"
+            },
+            {
+              "name": "Import-HubContext"
+            },
+            {
+              "name": "Save-HubContext"
+            }
+          ]
+        },
+        {
+          "name": "HubSystemPermission",
+          "children": [
+            {
+              "name": "Get-HubSystemPermission"
+            },
+            {
+              "name": "Set-HubSystemPermission"
+            },
+            {
+              "name": "New-HubSystemPermission"
+            },
+            {
+              "name": "Remove-HubSystemPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubSystemVaultPermission",
+          "children": [
+            {
+              "name": "Get-HubSystemVaultPermission"
+            },
+            {
+              "name": "Set-HubSystemVaultPermission"
+            },
+            {
+              "name": "New-HubSystemVaultPermission"
+            },
+            {
+              "name": "Remove-HubSystemVaultPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubVaultPermission",
+          "children": [
+            {
+              "name": "Get-HubVaultPermission"
+            },
+            {
+              "name": "Set-HubVaultPermission"
+            },
+            {
+              "name": "New-HubVaultPermission"
+            },
+            {
+              "name": "Remove-HubVaultPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubGroupUser",
+          "children": [
+            {
+              "name": "Add-HubGroupUser"
+            },
+            {
+              "name": "Remove-HubGroupUser"
+            }
+          ]
+        },
+        {
+          "name": "HubEntry",
+          "children": [
+            {
+              "name": "Get-HubEntry"
+            },
+            {
+              "name": "Set-HubEntry"
+            },
+            {
+              "name": "New-HubEntry"
+            },
+            {
+              "name": "Remove-HubEntry"
+            }
+          ]
+        },
+        {
+          "name": "HubEntryPermission",
+          "children": [
+            {
+              "name": "Get-HubEntryPermission"
+            },
+            {
+              "name": "Set-HubEntryPermission"
+            },
+            {
+              "name": "New-HubEntryPermission"
+            },
+            {
+              "name": "Remove-HubEntryPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubGroup",
+          "children": [
+            {
+              "name": "Get-HubGroup"
+            },
+            {
+              "name": "Set-HubGroup"
+            },
+            {
+              "name": "New-HubGroup"
+            },
+            {
+              "name": "Remove-HubGroup"
+            }
+          ]
+        },
+        {
+          "name": "HubUser",
+          "children": [
+            {
+              "name": "Get-HubUser"
+            },
+            {
+              "name": "Set-HubUser"
+            },
+            {
+              "name": "New-HubUser"
+            },
+            {
+              "name": "Remove-HubUser"
+            }
+          ]
+        },
+        {
+          "name": "HubOrganizationUser",
+          "children": [
+            {
+              "name": "New-HubOrganizationUser"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogs",
+          "children": [
+            {
+              "name": "Get-HubSiemLogs"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogsDaily",
+          "children": [
+            {
+              "name": "Get-HubSiemLogsDaily"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogsWeekly",
+          "children": [
+            {
+              "name": "Get-HubSiemLogsWeekly"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogsMonthly",
+          "children": [
+            {
+              "name": "Get-HubSiemLogsMonthly"
+            }
+          ]
+        },
+        {
+          "name": "HubVault",
+          "children": [
+            {
+              "name": "Get-HubVault"
+            },
+            {
+              "name": "Set-HubVault"
+            },
+            {
+              "name": "New-HubVault"
+            },
+            {
+              "name": "Remove-HubVault"
+            }
+          ]
+        },
+        {
+          "name": "HubFlatObject",
+          "children": [
+            {
+              "name": "ConvertTo-HubFlatObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Devolutions.Authenticode",
+      "companyName": "Devolutions",
+      "children": [
+        {
+          "name": "ZipAuthenticodeDigest",
+          "children": [
+            {
+              "name": "Get-ZipAuthenticodeDigest"
+            }
+          ]
+        },
+        {
+          "name": "ZipAuthenticodeSignature",
+          "children": [
+            {
+              "name": "Get-ZipAuthenticodeSignature"
+            },
+            {
+              "name": "Set-ZipAuthenticodeSignature"
+            },
+            {
+              "name": "Import-ZipAuthenticodeSignature"
+            },
+            {
+              "name": "Export-ZipAuthenticodeSignature"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RemoteDesktopManager",
+      "companyName": "Devolutions",
+      "children": [
+        {
+          "name": "RDMRoleRepositoryAccess",
+          "children": [
+            {
+              "name": "Add-RDMRoleRepositoryAccess"
+            },
+            {
+              "name": "Remove-RDMRoleRepositoryAccess"
+            }
+          ]
+        },
+        {
+          "name": "RDMRoleToUser",
+          "children": [
+            {
+              "name": "Add-RDMRoleToUser"
+            },
+            {
+              "name": "Remove-RDMRoleToUser"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionAttachment",
+          "children": [
+            {
+              "name": "Add-RDMSessionAttachment"
+            },
+            {
+              "name": "Get-RDMSessionAttachment"
+            },
+            {
+              "name": "Remove-RDMSessionAttachment"
+            },
+            {
+              "name": "Set-RDMSessionAttachment"
+            },
+            {
+              "name": "Update-RDMSessionAttachment"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionAttachment",
+          "children": [
+            {
+              "name": "Add-RDMPrivateSessionAttachment"
+            },
+            {
+              "name": "Get-RDMPrivateSessionAttachment"
+            },
+            {
+              "name": "Set-RDMPrivateSessionAttachment"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserRepositoryAccess",
+          "children": [
+            {
+              "name": "Add-RDMUserRepositoryAccess"
+            },
+            {
+              "name": "Get-RDMUserRepositoryAccess"
+            },
+            {
+              "name": "Remove-RDMUserRepositoryAccess"
+            }
+          ]
+        },
+        {
+          "name": "RDMSession",
+          "children": [
+            {
+              "name": "Close-RDMSession"
+            },
+            {
+              "name": "Copy-RDMSession"
+            },
+            {
+              "name": "Export-RDMSession"
+            },
+            {
+              "name": "Get-RDMSession"
+            },
+            {
+              "name": "Import-RDMSession"
+            },
+            {
+              "name": "New-RDMSession"
+            },
+            {
+              "name": "Open-RDMSession"
+            },
+            {
+              "name": "Read-RDMSession"
+            },
+            {
+              "name": "Remove-RDMSession"
+            },
+            {
+              "name": "Set-RDMSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserTemplate",
+          "children": [
+            {
+              "name": "Edit-RDMUserTemplate"
+            }
+          ]
+        },
+        {
+          "name": "RDMActivityLogsReport",
+          "children": [
+            {
+              "name": "Export-RDMActivityLogsReport"
+            }
+          ]
+        },
+        {
+          "name": "RDMOptionFile",
+          "children": [
+            {
+              "name": "Export-RDMOptionFile"
+            }
+          ]
+        },
+        {
+          "name": "RDMPasswordAnalyzerReport",
+          "children": [
+            {
+              "name": "Export-RDMPasswordAnalyzerReport"
+            }
+          ]
+        },
+        {
+          "name": "RDMCommand",
+          "children": [
+            {
+              "name": "Get-RDMCommand"
+            }
+          ]
+        },
+        {
+          "name": "RDMCurrentDataSource",
+          "children": [
+            {
+              "name": "Get-RDMCurrentDataSource"
+            },
+            {
+              "name": "Set-RDMCurrentDataSource"
+            }
+          ]
+        },
+        {
+          "name": "RDMCurrentRepository",
+          "children": [
+            {
+              "name": "Get-RDMCurrentRepository"
+            },
+            {
+              "name": "Set-RDMCurrentRepository"
+            }
+          ]
+        },
+        {
+          "name": "RDMDataSource",
+          "children": [
+            {
+              "name": "Get-RDMDataSource"
+            },
+            {
+              "name": "Import-RDMDataSource"
+            },
+            {
+              "name": "New-RDMDataSource"
+            },
+            {
+              "name": "Remove-RDMDataSource"
+            },
+            {
+              "name": "Set-RDMDataSource"
+            }
+          ]
+        },
+        {
+          "name": "RDMDatasourceProperty",
+          "children": [
+            {
+              "name": "Get-RDMDatasourceProperty"
+            },
+            {
+              "name": "Set-RDMDatasourceProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMDiagnostic",
+          "children": [
+            {
+              "name": "Get-RDMDiagnostic"
+            }
+          ]
+        },
+        {
+          "name": "RDMInstance",
+          "children": [
+            {
+              "name": "Get-RDMInstance"
+            },
+            {
+              "name": "Start-RDMInstance"
+            }
+          ]
+        },
+        {
+          "name": "RDMLicense",
+          "children": [
+            {
+              "name": "Get-RDMLicense"
+            },
+            {
+              "name": "New-RDMLicense"
+            },
+            {
+              "name": "Remove-RDMLicense"
+            },
+            {
+              "name": "Set-RDMLicense"
+            }
+          ]
+        },
+        {
+          "name": "RDMOffline",
+          "children": [
+            {
+              "name": "Get-RDMOffline"
+            }
+          ]
+        },
+        {
+          "name": "RDMOnline",
+          "children": [
+            {
+              "name": "Get-RDMOnline"
+            }
+          ]
+        },
+        {
+          "name": "RDMOpenedSession",
+          "children": [
+            {
+              "name": "Get-RDMOpenedSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMOTPPassword",
+          "children": [
+            {
+              "name": "Get-RDMOTPPassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMPackage",
+          "children": [
+            {
+              "name": "Get-RDMPackage"
+            },
+            {
+              "name": "Install-RDMPackage"
+            },
+            {
+              "name": "Uninstall-RDMPackage"
+            },
+            {
+              "name": "Update-RDMPackage"
+            }
+          ]
+        },
+        {
+          "name": "RDMPersonalCredentials",
+          "children": [
+            {
+              "name": "Get-RDMPersonalCredentials"
+            },
+            {
+              "name": "Set-RDMPersonalCredentials"
+            }
+          ]
+        },
+        {
+          "name": "RDMPlaylistLocal",
+          "children": [
+            {
+              "name": "Get-RDMPlaylistLocal"
+            },
+            {
+              "name": "New-RDMPlaylistLocal"
+            },
+            {
+              "name": "Set-RDMPlaylistLocal"
+            }
+          ]
+        },
+        {
+          "name": "RDMPlaylistShared",
+          "children": [
+            {
+              "name": "Get-RDMPlaylistShared"
+            },
+            {
+              "name": "New-RDMPlaylistShared"
+            },
+            {
+              "name": "Set-RDMPlaylistShared"
+            }
+          ]
+        },
+        {
+          "name": "RDMPowerShellOverride",
+          "children": [
+            {
+              "name": "Get-RDMPowerShellOverride"
+            },
+            {
+              "name": "Set-RDMPowerShellOverride"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSession",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSession"
+            },
+            {
+              "name": "Remove-RDMPrivateSession"
+            },
+            {
+              "name": "Set-RDMPrivateSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionCredentials",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionCredentials"
+            },
+            {
+              "name": "Set-RDMPrivateSessionCredentials"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionDocumentStoredInDatabase",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionDocumentStoredInDatabase"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionDomain",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionDomain"
+            },
+            {
+              "name": "Set-RDMPrivateSessionDomain"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionOTP",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionOTP"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionPassword",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionPassword"
+            },
+            {
+              "name": "Set-RDMPrivateSessionPassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionProperty",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionProperty"
+            },
+            {
+              "name": "Set-RDMPrivateSessionProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionStatus",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionStatus"
+            },
+            {
+              "name": "Set-RDMPrivateSessionStatus"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionUserName",
+          "children": [
+            {
+              "name": "Get-RDMPrivateSessionUserName"
+            },
+            {
+              "name": "Set-RDMPrivateSessionUsername"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivilegedAccount",
+          "children": [
+            {
+              "name": "Get-RDMPrivilegedAccount"
+            },
+            {
+              "name": "Set-RDMPrivilegedAccount"
+            }
+          ]
+        },
+        {
+          "name": "RDMProcess",
+          "children": [
+            {
+              "name": "Get-RDMProcess"
+            },
+            {
+              "name": "Restart-RDMProcess"
+            },
+            {
+              "name": "Start-RDMProcess"
+            },
+            {
+              "name": "Stop-RDMProcess"
+            }
+          ]
+        },
+        {
+          "name": "RDMRegistrationInfo",
+          "children": [
+            {
+              "name": "Get-RDMRegistrationInfo"
+            },
+            {
+              "name": "Set-RDMRegistrationInfo"
+            }
+          ]
+        },
+        {
+          "name": "RDMRepository",
+          "children": [
+            {
+              "name": "Get-RDMRepository"
+            },
+            {
+              "name": "New-RDMRepository"
+            },
+            {
+              "name": "Remove-RDMRepository"
+            },
+            {
+              "name": "Set-RDMRepository"
+            },
+            {
+              "name": "Update-RDMRepository"
+            }
+          ]
+        },
+        {
+          "name": "RDMRole",
+          "children": [
+            {
+              "name": "Get-RDMRole"
+            },
+            {
+              "name": "New-RDMRole"
+            },
+            {
+              "name": "Remove-RDMRole"
+            },
+            {
+              "name": "Set-RDMRole"
+            }
+          ]
+        },
+        {
+          "name": "RDMRootSession",
+          "children": [
+            {
+              "name": "Get-RDMRootSession"
+            },
+            {
+              "name": "Set-RDMRootSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMSecurityGroup",
+          "children": [
+            {
+              "name": "Get-RDMSecurityGroup"
+            },
+            {
+              "name": "New-RDMSecurityGroup"
+            },
+            {
+              "name": "Remove-RDMSecurityGroup"
+            },
+            {
+              "name": "Set-RDMSecurityGroup"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionCredentials",
+          "children": [
+            {
+              "name": "Get-RDMSessionCredentials"
+            },
+            {
+              "name": "Set-RDMSessionCredentials"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionDocumentation",
+          "children": [
+            {
+              "name": "Get-RDMSessionDocumentation"
+            },
+            {
+              "name": "Remove-RDMSessionDocumentation"
+            },
+            {
+              "name": "Set-RDMSessionDocumentation"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionDocumentStoredInDatabase",
+          "children": [
+            {
+              "name": "Get-RDMSessionDocumentStoredInDatabase"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionDomain",
+          "children": [
+            {
+              "name": "Get-RDMSessionDomain"
+            },
+            {
+              "name": "Set-RDMSessionDomain"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionOTP",
+          "children": [
+            {
+              "name": "Get-RDMSessionOTP"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionPassword",
+          "children": [
+            {
+              "name": "Get-RDMSessionPassword"
+            },
+            {
+              "name": "Set-RDMSessionPassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionProperty",
+          "children": [
+            {
+              "name": "Get-RDMSessionProperty"
+            },
+            {
+              "name": "Set-RDMSessionProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionStatus",
+          "children": [
+            {
+              "name": "Get-RDMSessionStatus"
+            },
+            {
+              "name": "Set-RDMSessionStatus"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionUserName",
+          "children": [
+            {
+              "name": "Get-RDMSessionUserName"
+            },
+            {
+              "name": "Set-RDMSessionUsername"
+            }
+          ]
+        },
+        {
+          "name": "RDMTask",
+          "children": [
+            {
+              "name": "Get-RDMTask"
+            },
+            {
+              "name": "New-RDMTask"
+            },
+            {
+              "name": "Remove-RDMTask"
+            },
+            {
+              "name": "Set-RDMTask"
+            }
+          ]
+        },
+        {
+          "name": "RDMTemplate",
+          "children": [
+            {
+              "name": "Get-RDMTemplate"
+            },
+            {
+              "name": "New-RDMTemplate"
+            },
+            {
+              "name": "Remove-RDMTemplate"
+            },
+            {
+              "name": "Set-RDMTemplate"
+            }
+          ]
+        },
+        {
+          "name": "RDMUser",
+          "children": [
+            {
+              "name": "Get-RDMUser"
+            },
+            {
+              "name": "New-RDMUser"
+            },
+            {
+              "name": "Remove-RDMUser"
+            },
+            {
+              "name": "Set-RDMUser"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserSpecificSettings",
+          "children": [
+            {
+              "name": "Get-RDMUserSpecificSettings"
+            },
+            {
+              "name": "Remove-RDMUserSpecificSettings"
+            },
+            {
+              "name": "Set-RDMUserSpecificSettings"
+            }
+          ]
+        },
+        {
+          "name": "RDMVersion",
+          "children": [
+            {
+              "name": "Get-RDMVersion"
+            }
+          ]
+        },
+        {
+          "name": "RDMCreateDataSourceDatabase",
+          "children": [
+            {
+              "name": "Invoke-RDMCreateDataSourceDatabase"
+            }
+          ]
+        },
+        {
+          "name": "RDMLoadFromInventorySession",
+          "children": [
+            {
+              "name": "Invoke-RDMLoadFromInventorySession"
+            }
+          ]
+        },
+        {
+          "name": "RDMParentSession",
+          "children": [
+            {
+              "name": "Invoke-RDMParentSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMUnparentSession",
+          "children": [
+            {
+              "name": "Invoke-RDMUnparentSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMUpdateDataSourceDatabase",
+          "children": [
+            {
+              "name": "Invoke-RDMUpdateDataSourceDatabase"
+            }
+          ]
+        },
+        {
+          "name": "RDMLogComment",
+          "children": [
+            {
+              "name": "New-RDMLogComment"
+            }
+          ]
+        },
+        {
+          "name": "RDMPort",
+          "children": [
+            {
+              "name": "New-RDMPort"
+            }
+          ]
+        },
+        {
+          "name": "RDMRandomPassword",
+          "children": [
+            {
+              "name": "New-RDMRandomPassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMSSHKey",
+          "children": [
+            {
+              "name": "New-RDMSSHKey"
+            }
+          ]
+        },
+        {
+          "name": "RDMQuickConnect",
+          "children": [
+            {
+              "name": "Open-RDMQuickConnect"
+            }
+          ]
+        },
+        {
+          "name": "RDMSyncSession",
+          "children": [
+            {
+              "name": "Open-RDMSyncSession"
+            }
+          ]
+        },
+        {
+          "name": "RDMFromDataSource",
+          "children": [
+            {
+              "name": "Register-RDMFromDataSource"
+            }
+          ]
+        },
+        {
+          "name": "RDMGroup",
+          "children": [
+            {
+              "name": "Rename-RDMGroup"
+            }
+          ]
+        },
+        {
+          "name": "RDMDatasourceMasterKey",
+          "children": [
+            {
+              "name": "Set-RDMDatasourceMasterKey"
+            }
+          ]
+        },
+        {
+          "name": "RDMDatasourceRepository",
+          "children": [
+            {
+              "name": "Set-RDMDatasourceRepository"
+            }
+          ]
+        },
+        {
+          "name": "RDMPrivateSessionDocument",
+          "children": [
+            {
+              "name": "Set-RDMPrivateSessionDocument"
+            }
+          ]
+        },
+        {
+          "name": "RDMRoleGroupRights",
+          "children": [
+            {
+              "name": "Set-RDMRoleGroupRights"
+            }
+          ]
+        },
+        {
+          "name": "RDMRoleProperty",
+          "children": [
+            {
+              "name": "Set-RDMRoleProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMSecurityGroupProperty",
+          "children": [
+            {
+              "name": "Set-RDMSecurityGroupProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMSessionDocument",
+          "children": [
+            {
+              "name": "Set-RDMSessionDocument"
+            }
+          ]
+        },
+        {
+          "name": "RDMSQLiteDatasourcePassword",
+          "children": [
+            {
+              "name": "Set-RDMSQLiteDatasourcePassword"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserGroupRights",
+          "children": [
+            {
+              "name": "Set-RDMUserGroupRights"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserProperty",
+          "children": [
+            {
+              "name": "Set-RDMUserProperty"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserSecurity",
+          "children": [
+            {
+              "name": "Set-RDMUserSecurity"
+            }
+          ]
+        },
+        {
+          "name": "RDMUI",
+          "children": [
+            {
+              "name": "Update-RDMUI"
+            }
+          ]
+        },
+        {
+          "name": "RDMUserVaultSessionUsername",
+          "children": [
+            {
+              "name": "Set-RDMUserVaultSessionUsername"
+            }
+          ]
+        },
+        {
+          "name": "HubGroupUser",
+          "children": [
+            {
+              "name": "Add-HubGroupUser"
+            },
+            {
+              "name": "Remove-HubGroupUser"
+            }
+          ]
+        },
+        {
+          "name": "HubAccount",
+          "children": [
+            {
+              "name": "Connect-HubAccount"
+            },
+            {
+              "name": "Disconnect-HubAccount"
+            }
+          ]
+        },
+        {
+          "name": "HubFlatObject",
+          "children": [
+            {
+              "name": "ConvertTo-HubFlatObject"
+            }
+          ]
+        },
+        {
+          "name": "HubContext",
+          "children": [
+            {
+              "name": "Get-HubContext"
+            },
+            {
+              "name": "Import-HubContext"
+            },
+            {
+              "name": "Save-HubContext"
+            },
+            {
+              "name": "Select-HubContext"
+            },
+            {
+              "name": "Set-HubContext"
+            }
+          ]
+        },
+        {
+          "name": "HubGroup",
+          "children": [
+            {
+              "name": "Get-HubGroup"
+            },
+            {
+              "name": "New-HubGroup"
+            },
+            {
+              "name": "Remove-HubGroup"
+            },
+            {
+              "name": "Set-HubGroup"
+            }
+          ]
+        },
+        {
+          "name": "HubEntry",
+          "children": [
+            {
+              "name": "Get-HubEntry"
+            },
+            {
+              "name": "New-HubEntry"
+            },
+            {
+              "name": "Remove-HubEntry"
+            },
+            {
+              "name": "Set-HubEntry"
+            }
+          ]
+        },
+        {
+          "name": "HubEntryPermission",
+          "children": [
+            {
+              "name": "Get-HubEntryPermission"
+            },
+            {
+              "name": "New-HubEntryPermission"
+            },
+            {
+              "name": "Remove-HubEntryPermission"
+            },
+            {
+              "name": "Set-HubEntryPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogs",
+          "children": [
+            {
+              "name": "Get-HubSiemLogs"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogsDaily",
+          "children": [
+            {
+              "name": "Get-HubSiemLogsDaily"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogsMonthly",
+          "children": [
+            {
+              "name": "Get-HubSiemLogsMonthly"
+            }
+          ]
+        },
+        {
+          "name": "HubSiemLogsWeekly",
+          "children": [
+            {
+              "name": "Get-HubSiemLogsWeekly"
+            }
+          ]
+        },
+        {
+          "name": "HubEntriesForExport",
+          "children": [
+            {
+              "name": "Get-HubEntriesForExport"
+            }
+          ]
+        },
+        {
+          "name": "HubSystemPermission",
+          "children": [
+            {
+              "name": "Get-HubSystemPermission"
+            },
+            {
+              "name": "New-HubSystemPermission"
+            },
+            {
+              "name": "Remove-HubSystemPermission"
+            },
+            {
+              "name": "Set-HubSystemPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubSystemSettings",
+          "children": [
+            {
+              "name": "Get-HubSystemSettings"
+            },
+            {
+              "name": "Set-HubSystemSettings"
+            }
+          ]
+        },
+        {
+          "name": "HubSystemVaultPermission",
+          "children": [
+            {
+              "name": "Get-HubSystemVaultPermission"
+            },
+            {
+              "name": "New-HubSystemVaultPermission"
+            },
+            {
+              "name": "Remove-HubSystemVaultPermission"
+            },
+            {
+              "name": "Set-HubSystemVaultPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubUser",
+          "children": [
+            {
+              "name": "Get-HubUser"
+            },
+            {
+              "name": "New-HubUser"
+            },
+            {
+              "name": "Remove-HubUser"
+            },
+            {
+              "name": "Set-HubUser"
+            }
+          ]
+        },
+        {
+          "name": "HubVault",
+          "children": [
+            {
+              "name": "Get-HubVault"
+            },
+            {
+              "name": "New-HubVault"
+            },
+            {
+              "name": "Remove-HubVault"
+            },
+            {
+              "name": "Set-HubVault"
+            }
+          ]
+        },
+        {
+          "name": "HubVaultPermission",
+          "children": [
+            {
+              "name": "Get-HubVaultPermission"
+            },
+            {
+              "name": "New-HubVaultPermission"
+            },
+            {
+              "name": "Remove-HubVaultPermission"
+            },
+            {
+              "name": "Set-HubVaultPermission"
+            }
+          ]
+        },
+        {
+          "name": "HubOrganizationUser",
+          "children": [
+            {
+              "name": "New-HubOrganizationUser"
+            }
+          ]
+        },
+        {
+          "name": "HubGateway",
+          "children": [
+            {
+              "name": "New-HubGateway"
+            },
+            {
+              "name": "Set-HubGateway"
+            },
+            {
+              "name": "Remove-HubGateway"
+            },
+            {
+              "name": "Get-HubGateway"
+            }
+          ]
+        },
+        {
+          "name": "HubGatewaySettings",
+          "children": [
+            {
+              "name": "Get-HubGatewaySettings"
+            },
+            {
+              "name": "New-HubGatewaySettings"
+            },
+            {
+              "name": "Set-HubGatewaySettings"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

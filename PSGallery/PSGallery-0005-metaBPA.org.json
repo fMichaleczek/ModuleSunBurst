@@ -1,0 +1,213 @@
+{
+  "name": "metaBPA.org",
+  "children": [
+    {
+      "name": "HVDX",
+      "companyName": "metaBPA.org",
+      "children": [
+        {
+          "name": "HostKVP",
+          "children": [
+            {
+              "name": "Read-HostKVP"
+            },
+            {
+              "name": "Write-HostKVP"
+            }
+          ]
+        },
+        {
+          "name": "GuestKVP",
+          "children": [
+            {
+              "name": "Read-GuestKVP"
+            },
+            {
+              "name": "Write-GuestKVP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IPAX",
+      "companyName": "metaBPA.org",
+      "children": [
+        {
+          "name": "IPv4Address",
+          "children": [
+            {
+              "name": "Resolve-IPv4Address"
+            }
+          ]
+        },
+        {
+          "name": "IPv4SameSubnet",
+          "children": [
+            {
+              "name": "Test-IPv4SameSubnet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSWMIRegistry",
+      "companyName": "metaBPA.org",
+      "children": [
+        {
+          "name": "WMIRegistryKey",
+          "children": [
+            {
+              "name": "Test-WMIRegistryKey"
+            },
+            {
+              "name": "New-WMIRegistryKey"
+            }
+          ]
+        },
+        {
+          "name": "WMIRegistryValue",
+          "children": [
+            {
+              "name": "Get-WMIRegistryValue"
+            },
+            {
+              "name": "Set-WMIRegistryValue"
+            },
+            {
+              "name": "Remove-WMIRegistryValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSBrowserBookmarks",
+      "companyName": "metaBPA.org",
+      "children": [
+        {
+          "name": "BrowserBookmark",
+          "children": [
+            {
+              "name": "New-BrowserBookmark"
+            }
+          ]
+        },
+        {
+          "name": "FirefoxBookmarkLocation",
+          "children": [
+            {
+              "name": "Get-FirefoxBookmarkLocation"
+            }
+          ]
+        },
+        {
+          "name": "FirefoxBookmark",
+          "children": [
+            {
+              "name": "Get-FirefoxBookmark"
+            },
+            {
+              "name": "Add-FirefoxBookmark"
+            },
+            {
+              "name": "Remove-FirefoxBookmark"
+            },
+            {
+              "name": "Backup-FirefoxBookmark"
+            }
+          ]
+        },
+        {
+          "name": "IEBookmarkLocation",
+          "children": [
+            {
+              "name": "Get-IEBookmarkLocation"
+            }
+          ]
+        },
+        {
+          "name": "IEBookmark",
+          "children": [
+            {
+              "name": "Get-IEBookmark"
+            },
+            {
+              "name": "Add-IEBookmark"
+            },
+            {
+              "name": "Remove-IEBookmark"
+            },
+            {
+              "name": "Backup-IEBookmark"
+            }
+          ]
+        },
+        {
+          "name": "ChromeBookmarkLocation",
+          "children": [
+            {
+              "name": "Get-ChromeBookmarkLocation"
+            }
+          ]
+        },
+        {
+          "name": "ChromeBookmark",
+          "children": [
+            {
+              "name": "Get-ChromeBookmark"
+            },
+            {
+              "name": "Add-ChromeBookmark"
+            },
+            {
+              "name": "Remove-ChromeBookmark"
+            },
+            {
+              "name": "Backup-ChromeBookmark"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SDDLParser",
+      "companyName": "metaBPA.org",
+      "children": [
+        {
+          "name": "SDDLString",
+          "children": [
+            {
+              "name": "Expand-SDDLString"
+            }
+          ]
+        },
+        {
+          "name": "SDDLPrincipal",
+          "children": [
+            {
+              "name": "Resolve-SDDLPrincipal"
+            }
+          ]
+        },
+        {
+          "name": "WellKnownPrincipal",
+          "children": [
+            {
+              "name": "Resolve-WellKnownPrincipal"
+            }
+          ]
+        },
+        {
+          "name": "ADSchemaGUID",
+          "children": [
+            {
+              "name": "Update-ADSchemaGUID"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

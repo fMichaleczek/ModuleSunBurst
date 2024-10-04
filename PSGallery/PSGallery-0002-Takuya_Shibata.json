@@ -1,0 +1,168 @@
+{
+  "name": "Takuya Shibata",
+  "children": [
+    {
+      "name": "PSCoreUpdate",
+      "companyName": "Takuya Shibata",
+      "children": [
+        {
+          "name": "PowerShellBuildStatus",
+          "children": [
+            {
+              "name": "Find-PowerShellBuildStatus"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellSupportStatus",
+          "children": [
+            {
+              "name": "Find-PowerShellSupportStatus"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellRelease",
+          "children": [
+            {
+              "name": "Find-PowerShellRelease"
+            },
+            {
+              "name": "Update-PowerShellRelease"
+            }
+          ]
+        },
+        {
+          "name": "LatestVersion",
+          "children": [
+            {
+              "name": "Test-LatestVersion"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellAsset",
+          "children": [
+            {
+              "name": "Save-PowerShellAsset"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellGitHubApiToken",
+          "children": [
+            {
+              "name": "Get-PowerShellGitHubApiToken"
+            },
+            {
+              "name": "Remove-PowerShellGitHubApiToken"
+            },
+            {
+              "name": "Set-PowerShellGitHubApiToken"
+            }
+          ]
+        },
+        {
+          "name": "PSCoreUpdateLegacyAlias",
+          "children": [
+            {
+              "name": "Enable-PSCoreUpdateLegacyAlias"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TerraformUtil",
+      "companyName": "Takuya Shibata",
+      "children": [
+        {
+          "name": "TFArgumentCompleter",
+          "children": [
+            {
+              "name": "Register-TFArgumentCompleter"
+            },
+            {
+              "name": "UnRegister-TFArgumentCompleter"
+            }
+          ]
+        },
+        {
+          "name": "TFRelease",
+          "children": [
+            {
+              "name": "Find-TFRelease"
+            }
+          ]
+        },
+        {
+          "name": "TFVersion",
+          "children": [
+            {
+              "name": "Find-TFVersion"
+            }
+          ]
+        },
+        {
+          "name": "TFVersionFromFile",
+          "children": [
+            {
+              "name": "Get-TFVersionFromFile"
+            }
+          ]
+        },
+        {
+          "name": "TFBinary",
+          "children": [
+            {
+              "name": "Save-TFBinary"
+            }
+          ]
+        },
+        {
+          "name": "TFSecBinary",
+          "children": [
+            {
+              "name": "Save-TFSecBinary"
+            }
+          ]
+        },
+        {
+          "name": "TFLinterBinary",
+          "children": [
+            {
+              "name": "Save-TFLinterBinary"
+            }
+          ]
+        },
+        {
+          "name": "TFLinterHCL",
+          "children": [
+            {
+              "name": "Write-TFLinterHCL"
+            }
+          ]
+        },
+        {
+          "name": "TFAlias",
+          "children": [
+            {
+              "name": "Set-TFAlias"
+            },
+            {
+              "name": "Uninstall-TFAlias"
+            }
+          ]
+        },
+        {
+          "name": "TFInstalledAlias",
+          "children": [
+            {
+              "name": "Get-TFInstalledAlias"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

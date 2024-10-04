@@ -1,0 +1,60 @@
+{
+  "name": "JDMSFT",
+  "children": [
+    {
+      "name": "Az.LogAnalytics",
+      "companyName": "JDMSFT",
+      "children": [
+        {
+          "name": "LogAnalyticsWorkspaceExist",
+          "children": [
+            {
+              "name": "Test-LogAnalyticsWorkspaceExist"
+            }
+          ]
+        },
+        {
+          "name": "LogAnalyticsWorkspace",
+          "children": [
+            {
+              "name": "Get-LogAnalyticsWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "LogAnalyticsWorkspaceSharedKeys",
+          "children": [
+            {
+              "name": "Get-LogAnalyticsWorkspaceSharedKeys"
+            }
+          ]
+        },
+        {
+          "name": "LogToLogAnalytics",
+          "children": [
+            {
+              "name": "Send-LogToLogAnalytics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSRequiredModules",
+      "companyName": "JDMSFT",
+      "children": [
+        {
+          "name": "RequiredModules",
+          "children": [
+            {
+              "name": "Get-RequiredModules"
+            },
+            {
+              "name": "Import-RequiredModules"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

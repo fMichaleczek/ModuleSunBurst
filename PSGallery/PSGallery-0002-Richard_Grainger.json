@@ -1,0 +1,462 @@
+{
+  "name": "Richard Grainger",
+  "children": [
+    {
+      "name": "powershell-wix",
+      "companyName": "Richard Grainger",
+      "children": [
+        {
+          "name": "WixBuild",
+          "children": [
+            {
+              "name": "Start-WixBuild"
+            }
+          ]
+        },
+        {
+          "name": "WixLocalConfig",
+          "children": [
+            {
+              "name": "Get-WixLocalConfig"
+            },
+            {
+              "name": "Set-WixLocalConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "powershell-pulp",
+      "companyName": "Richard Grainger",
+      "children": [
+        {
+          "name": "PulpContentUnit",
+          "children": [
+            {
+              "name": "Add-PulpContentUnit"
+            },
+            {
+              "name": "Copy-PulpContentUnit"
+            },
+            {
+              "name": "Export-PulpContentUnit"
+            },
+            {
+              "name": "Get-PulpContentUnit"
+            },
+            {
+              "name": "Remove-PulpContentUnit"
+            }
+          ]
+        },
+        {
+          "name": "PulpIso",
+          "children": [
+            {
+              "name": "Add-PulpIso"
+            },
+            {
+              "name": "Copy-PulpIso"
+            },
+            {
+              "name": "Export-PulpIso"
+            },
+            {
+              "name": "Get-PulpIso"
+            },
+            {
+              "name": "Remove-PulpIso"
+            }
+          ]
+        },
+        {
+          "name": "PulpPuppetModule",
+          "children": [
+            {
+              "name": "Add-PulpPuppetModule"
+            },
+            {
+              "name": "Copy-PulpPuppetModule"
+            },
+            {
+              "name": "Export-PulpPuppetModule"
+            },
+            {
+              "name": "Get-PulpPuppetModule"
+            },
+            {
+              "name": "Remove-PulpPuppetModule"
+            }
+          ]
+        },
+        {
+          "name": "PulpRoleMember",
+          "children": [
+            {
+              "name": "Add-PulpRoleMember"
+            },
+            {
+              "name": "Remove-PulpRoleMember"
+            }
+          ]
+        },
+        {
+          "name": "PulpRpm",
+          "children": [
+            {
+              "name": "Add-PulpRpm"
+            },
+            {
+              "name": "Copy-PulpRpm"
+            },
+            {
+              "name": "Export-PulpRpm"
+            },
+            {
+              "name": "Get-PulpRpm"
+            },
+            {
+              "name": "Remove-PulpRpm"
+            }
+          ]
+        },
+        {
+          "name": "PulpBasicAuthHeaders",
+          "children": [
+            {
+              "name": "Get-PulpBasicAuthHeaders"
+            }
+          ]
+        },
+        {
+          "name": "PulpCertificate",
+          "children": [
+            {
+              "name": "Get-PulpCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PulpIsoOrphan",
+          "children": [
+            {
+              "name": "Get-PulpIsoOrphan"
+            },
+            {
+              "name": "Remove-PulpIsoOrphan"
+            }
+          ]
+        },
+        {
+          "name": "PulpIsoRepo",
+          "children": [
+            {
+              "name": "Get-PulpIsoRepo"
+            },
+            {
+              "name": "New-PulpIsoRepo"
+            },
+            {
+              "name": "Publish-PulpIsoRepo"
+            },
+            {
+              "name": "Remove-PulpIsoRepo"
+            },
+            {
+              "name": "Set-PulpIsoRepo"
+            }
+          ]
+        },
+        {
+          "name": "PulpIsoSyncSchedule",
+          "children": [
+            {
+              "name": "Get-PulpIsoSyncSchedule"
+            },
+            {
+              "name": "New-PulpIsoSyncSchedule"
+            },
+            {
+              "name": "Remove-PulpIsoSyncSchedule"
+            }
+          ]
+        },
+        {
+          "name": "PulpIsoSyncStatus",
+          "children": [
+            {
+              "name": "Get-PulpIsoSyncStatus"
+            }
+          ]
+        },
+        {
+          "name": "PulpLocalConfig",
+          "children": [
+            {
+              "name": "Get-PulpLocalConfig"
+            },
+            {
+              "name": "Set-PulpLocalConfig"
+            }
+          ]
+        },
+        {
+          "name": "PulpOrphan",
+          "children": [
+            {
+              "name": "Get-PulpOrphan"
+            },
+            {
+              "name": "Remove-PulpOrphan"
+            }
+          ]
+        },
+        {
+          "name": "PulpPermission",
+          "children": [
+            {
+              "name": "Get-PulpPermission"
+            },
+            {
+              "name": "Set-PulpPermission"
+            }
+          ]
+        },
+        {
+          "name": "PulpPuppetOrphan",
+          "children": [
+            {
+              "name": "Get-PulpPuppetOrphan"
+            },
+            {
+              "name": "Remove-PulpPuppetOrphan"
+            }
+          ]
+        },
+        {
+          "name": "PulpPuppetRepo",
+          "children": [
+            {
+              "name": "Get-PulpPuppetRepo"
+            },
+            {
+              "name": "New-PulpPuppetRepo"
+            },
+            {
+              "name": "Publish-PulpPuppetRepo"
+            },
+            {
+              "name": "Remove-PulpPuppetRepo"
+            },
+            {
+              "name": "Set-PulpPuppetRepo"
+            }
+          ]
+        },
+        {
+          "name": "PulpPuppetSyncSchedule",
+          "children": [
+            {
+              "name": "Get-PulpPuppetSyncSchedule"
+            },
+            {
+              "name": "New-PulpPuppetSyncSchedule"
+            },
+            {
+              "name": "Remove-PulpPuppetSyncSchedule"
+            }
+          ]
+        },
+        {
+          "name": "PulpPuppetSyncStatus",
+          "children": [
+            {
+              "name": "Get-PulpPuppetSyncStatus"
+            }
+          ]
+        },
+        {
+          "name": "PulpRepo",
+          "children": [
+            {
+              "name": "Get-PulpRepo"
+            },
+            {
+              "name": "New-PulpRepo"
+            },
+            {
+              "name": "Publish-PulpRepo"
+            },
+            {
+              "name": "Remove-PulpRepo"
+            },
+            {
+              "name": "Set-PulpRepo"
+            }
+          ]
+        },
+        {
+          "name": "PulpRole",
+          "children": [
+            {
+              "name": "Get-PulpRole"
+            },
+            {
+              "name": "New-PulpRole"
+            },
+            {
+              "name": "Remove-PulpRole"
+            },
+            {
+              "name": "Set-PulpRole"
+            }
+          ]
+        },
+        {
+          "name": "PulpRpmOrphan",
+          "children": [
+            {
+              "name": "Get-PulpRpmOrphan"
+            },
+            {
+              "name": "Remove-PulpRpmOrphan"
+            }
+          ]
+        },
+        {
+          "name": "PulpRpmRepo",
+          "children": [
+            {
+              "name": "Get-PulpRpmRepo"
+            },
+            {
+              "name": "New-PulpRpmRepo"
+            },
+            {
+              "name": "Publish-PulpRpmRepo"
+            },
+            {
+              "name": "Remove-PulpRpmRepo"
+            },
+            {
+              "name": "Set-PulpRpmRepo"
+            }
+          ]
+        },
+        {
+          "name": "PulpRpmSyncSchedule",
+          "children": [
+            {
+              "name": "Get-PulpRpmSyncSchedule"
+            },
+            {
+              "name": "New-PulpRpmSyncSchedule"
+            },
+            {
+              "name": "Remove-PulpRpmSyncSchedule"
+            }
+          ]
+        },
+        {
+          "name": "PulpRpmSyncStatus",
+          "children": [
+            {
+              "name": "Get-PulpRpmSyncStatus"
+            }
+          ]
+        },
+        {
+          "name": "PulpSyncSchedule",
+          "children": [
+            {
+              "name": "Get-PulpSyncSchedule"
+            },
+            {
+              "name": "New-PulpSyncSchedule"
+            },
+            {
+              "name": "Remove-PulpSyncSchedule"
+            }
+          ]
+        },
+        {
+          "name": "PulpSyncStatus",
+          "children": [
+            {
+              "name": "Get-PulpSyncStatus"
+            }
+          ]
+        },
+        {
+          "name": "PulpTask",
+          "children": [
+            {
+              "name": "Get-PulpTask"
+            },
+            {
+              "name": "Stop-PulpTask"
+            }
+          ]
+        },
+        {
+          "name": "PulpUser",
+          "children": [
+            {
+              "name": "Get-PulpUser"
+            },
+            {
+              "name": "New-PulpUser"
+            },
+            {
+              "name": "Remove-PulpUser"
+            },
+            {
+              "name": "Set-PulpUser"
+            }
+          ]
+        },
+        {
+          "name": "PulpRestMethod",
+          "children": [
+            {
+              "name": "Invoke-PulpRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "PulpIsoSync",
+          "children": [
+            {
+              "name": "Start-PulpIsoSync"
+            }
+          ]
+        },
+        {
+          "name": "PulpPuppetSync",
+          "children": [
+            {
+              "name": "Start-PulpPuppetSync"
+            }
+          ]
+        },
+        {
+          "name": "PulpRpmSync",
+          "children": [
+            {
+              "name": "Start-PulpRpmSync"
+            }
+          ]
+        },
+        {
+          "name": "PulpSync",
+          "children": [
+            {
+              "name": "Start-PulpSync"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

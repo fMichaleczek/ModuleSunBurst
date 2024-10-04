@@ -1,0 +1,60 @@
+{
+  "name": "bzzzt",
+  "children": [
+    {
+      "name": "rib",
+      "companyName": "bzzzt",
+      "children": [
+        {
+          "name": "VstsBuild",
+          "children": [
+            {
+              "name": "Get-VstsBuild"
+            },
+            {
+              "name": "Invoke-VstsBuild"
+            }
+          ]
+        },
+        {
+          "name": "VstsRelease",
+          "children": [
+            {
+              "name": "Get-VstsRelease"
+            }
+          ]
+        },
+        {
+          "name": "VstsReleaseByName",
+          "children": [
+            {
+              "name": "Get-VstsReleaseByName"
+            }
+          ]
+        },
+        {
+          "name": "VstsReleaseInBuild",
+          "children": [
+            {
+              "name": "Invoke-VstsReleaseInBuild"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vstsBuildWatcher",
+      "companyName": "bzzzt",
+      "children": [
+        {
+          "name": "VstsBuilds",
+          "children": [
+            {
+              "name": "Show-VstsBuilds"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

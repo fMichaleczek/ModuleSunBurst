@@ -1,0 +1,681 @@
+{
+  "name": "be.stateless",
+  "children": [
+    {
+      "name": "BizTalk.Deployment",
+      "companyName": "be.stateless",
+      "children": [
+        {
+          "name": "AffiliateApplication",
+          "children": [
+            {
+              "name": "Get-AffiliateApplication"
+            },
+            {
+              "name": "New-AffiliateApplication"
+            },
+            {
+              "name": "Remove-AffiliateApplication"
+            }
+          ]
+        },
+        {
+          "name": "AffiliateApplicationStore",
+          "children": [
+            {
+              "name": "Get-AffiliateApplicationStore"
+            },
+            {
+              "name": "Update-AffiliateApplicationStore"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationBinding",
+          "children": [
+            {
+              "name": "Convert-ApplicationBinding"
+            },
+            {
+              "name": "Expand-ApplicationBinding"
+            },
+            {
+              "name": "Test-ApplicationBinding"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationHosts",
+          "children": [
+            {
+              "name": "Get-ApplicationHosts"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationState",
+          "children": [
+            {
+              "name": "Initialize-ApplicationState"
+            },
+            {
+              "name": "Test-ApplicationState"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationFileAdapterFolders",
+          "children": [
+            {
+              "name": "Install-ApplicationFileAdapterFolders"
+            },
+            {
+              "name": "Uninstall-ApplicationFileAdapterFolders"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BizTalk.Administration",
+      "companyName": "be.stateless",
+      "children": [
+        {
+          "name": "BizTalkServerInstalled",
+          "children": [
+            {
+              "name": "Assert-BizTalkServerInstalled"
+            },
+            {
+              "name": "Test-BizTalkServerInstalled"
+            }
+          ]
+        },
+        {
+          "name": "BizTalkAdapter",
+          "children": [
+            {
+              "name": "Assert-BizTalkAdapter"
+            },
+            {
+              "name": "Get-BizTalkAdapter"
+            },
+            {
+              "name": "New-BizTalkAdapter"
+            },
+            {
+              "name": "Remove-BizTalkAdapter"
+            },
+            {
+              "name": "Test-BizTalkAdapter"
+            }
+          ]
+        },
+        {
+          "name": "BizTalkApplication",
+          "children": [
+            {
+              "name": "Assert-BizTalkApplication"
+            },
+            {
+              "name": "Get-BizTalkApplication"
+            },
+            {
+              "name": "New-BizTalkApplication"
+            },
+            {
+              "name": "Remove-BizTalkApplication"
+            },
+            {
+              "name": "Start-BizTalkApplication"
+            },
+            {
+              "name": "Stop-BizTalkApplication"
+            },
+            {
+              "name": "Test-BizTalkApplication"
+            }
+          ]
+        },
+        {
+          "name": "BizTalkGroupSettings",
+          "children": [
+            {
+              "name": "Get-BizTalkGroupSettings"
+            }
+          ]
+        },
+        {
+          "name": "BizTalkHandler",
+          "children": [
+            {
+              "name": "Assert-BizTalkHandler"
+            },
+            {
+              "name": "Get-BizTalkHandler"
+            },
+            {
+              "name": "New-BizTalkHandler"
+            },
+            {
+              "name": "Remove-BizTalkHandler"
+            },
+            {
+              "name": "Test-BizTalkHandler"
+            }
+          ]
+        },
+        {
+          "name": "BizTalkHost",
+          "children": [
+            {
+              "name": "Assert-BizTalkHost"
+            },
+            {
+              "name": "Get-BizTalkHost"
+            },
+            {
+              "name": "New-BizTalkHost"
+            },
+            {
+              "name": "Remove-BizTalkHost"
+            },
+            {
+              "name": "Test-BizTalkHost"
+            },
+            {
+              "name": "Update-BizTalkHost"
+            }
+          ]
+        },
+        {
+          "name": "BizTalkHostInstance",
+          "children": [
+            {
+              "name": "Assert-BizTalkHostInstance"
+            },
+            {
+              "name": "Disable-BizTalkHostInstance"
+            },
+            {
+              "name": "Enable-BizTalkHostInstance"
+            },
+            {
+              "name": "Get-BizTalkHostInstance"
+            },
+            {
+              "name": "New-BizTalkHostInstance"
+            },
+            {
+              "name": "Remove-BizTalkHostInstance"
+            },
+            {
+              "name": "Restart-BizTalkHostInstance"
+            },
+            {
+              "name": "Start-BizTalkHostInstance"
+            },
+            {
+              "name": "Stop-BizTalkHostInstance"
+            },
+            {
+              "name": "Test-BizTalkHostInstance"
+            }
+          ]
+        },
+        {
+          "name": "BizTalkCatalog",
+          "children": [
+            {
+              "name": "Get-BizTalkCatalog"
+            }
+          ]
+        },
+        {
+          "name": "BizTalkController",
+          "children": [
+            {
+              "name": "Get-BizTalkController"
+            }
+          ]
+        },
+        {
+          "name": "BizTalkServer",
+          "children": [
+            {
+              "name": "Assert-BizTalkServer"
+            },
+            {
+              "name": "Get-BizTalkServer"
+            },
+            {
+              "name": "Test-BizTalkServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dsl.Configuration",
+      "companyName": "be.stateless",
+      "children": [
+        {
+          "name": "ConfigurationElement",
+          "children": [
+            {
+              "name": "Add-ConfigurationElement"
+            },
+            {
+              "name": "Remove-ConfigurationElement"
+            },
+            {
+              "name": "Set-ConfigurationElement"
+            }
+          ]
+        },
+        {
+          "name": "ConfigurationSpecification",
+          "children": [
+            {
+              "name": "Merge-ConfigurationSpecification"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exec",
+      "companyName": "be.stateless",
+      "children": [
+        {
+          "name": "ToolAlias",
+          "children": [
+            {
+              "name": "Add-ToolAlias"
+            }
+          ]
+        },
+        {
+          "name": "Tool",
+          "children": [
+            {
+              "name": "Invoke-Tool"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Psx",
+      "companyName": "be.stateless",
+      "children": [
+        {
+          "name": "ActionPreference",
+          "children": [
+            {
+              "name": "Resolve-ActionPreference"
+            }
+          ]
+        },
+        {
+          "name": "CommandAlias",
+          "children": [
+            {
+              "name": "Get-CommandAlias"
+            }
+          ]
+        },
+        {
+          "name": "32bitProcess",
+          "children": [
+            {
+              "name": "Assert-32bitProcess"
+            },
+            {
+              "name": "Test-32bitProcess"
+            }
+          ]
+        },
+        {
+          "name": "64bitProcess",
+          "children": [
+            {
+              "name": "Assert-64bitProcess"
+            },
+            {
+              "name": "Test-64bitProcess"
+            }
+          ]
+        },
+        {
+          "name": "32bitArchitecture",
+          "children": [
+            {
+              "name": "Test-32bitArchitecture"
+            }
+          ]
+        },
+        {
+          "name": "64bitArchitecture",
+          "children": [
+            {
+              "name": "Test-64bitArchitecture"
+            }
+          ]
+        },
+        {
+          "name": "HashTable",
+          "children": [
+            {
+              "name": "Compare-HashTable"
+            },
+            {
+              "name": "Merge-HashTable"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Use-Object"
+            }
+          ]
+        },
+        {
+          "name": "Any",
+          "children": [
+            {
+              "name": "Test-Any"
+            }
+          ]
+        },
+        {
+          "name": "None",
+          "children": [
+            {
+              "name": "Test-None"
+            }
+          ]
+        },
+        {
+          "name": "RegistryKey",
+          "children": [
+            {
+              "name": "Clear-RegistryKey"
+            }
+          ]
+        },
+        {
+          "name": "RegistryEntry",
+          "children": [
+            {
+              "name": "Get-RegistryEntry"
+            },
+            {
+              "name": "Remove-RegistryEntry"
+            },
+            {
+              "name": "Set-RegistryEntry"
+            },
+            {
+              "name": "Test-RegistryEntry"
+            }
+          ]
+        },
+        {
+          "name": "ScriptBlockParametersToDynamicParameters",
+          "children": [
+            {
+              "name": "Convert-ScriptBlockParametersToDynamicParameters"
+            }
+          ]
+        },
+        {
+          "name": "ScriptBlock",
+          "children": [
+            {
+              "name": "Invoke-ScriptBlock"
+            }
+          ]
+        },
+        {
+          "name": "Elevated",
+          "children": [
+            {
+              "name": "Assert-Elevated"
+            },
+            {
+              "name": "Test-Elevated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resource.Manifest",
+      "companyName": "be.stateless",
+      "children": [
+        {
+          "name": "Assembly",
+          "children": [
+            {
+              "name": "New-Assembly"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationManifest",
+          "children": [
+            {
+              "name": "New-ApplicationManifest"
+            }
+          ]
+        },
+        {
+          "name": "BamActivityModel",
+          "children": [
+            {
+              "name": "New-BamActivityModel"
+            }
+          ]
+        },
+        {
+          "name": "BamIndex",
+          "children": [
+            {
+              "name": "New-BamIndex"
+            }
+          ]
+        },
+        {
+          "name": "Binding",
+          "children": [
+            {
+              "name": "New-Binding"
+            }
+          ]
+        },
+        {
+          "name": "LibraryManifest",
+          "children": [
+            {
+              "name": "New-LibraryManifest"
+            }
+          ]
+        },
+        {
+          "name": "Map",
+          "children": [
+            {
+              "name": "New-Map"
+            }
+          ]
+        },
+        {
+          "name": "Orchestration",
+          "children": [
+            {
+              "name": "New-Orchestration"
+            }
+          ]
+        },
+        {
+          "name": "Pipeline",
+          "children": [
+            {
+              "name": "New-Pipeline"
+            }
+          ]
+        },
+        {
+          "name": "PipelineComponent",
+          "children": [
+            {
+              "name": "New-PipelineComponent"
+            }
+          ]
+        },
+        {
+          "name": "ProcessDescriptor",
+          "children": [
+            {
+              "name": "New-ProcessDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "Schema",
+          "children": [
+            {
+              "name": "New-Schema"
+            }
+          ]
+        },
+        {
+          "name": "EventLogSource",
+          "children": [
+            {
+              "name": "New-EventLogSource"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "New-File"
+            }
+          ]
+        },
+        {
+          "name": "Installer",
+          "children": [
+            {
+              "name": "New-Installer"
+            }
+          ]
+        },
+        {
+          "name": "ServiceComponent",
+          "children": [
+            {
+              "name": "New-ServiceComponent"
+            }
+          ]
+        },
+        {
+          "name": "SqlDatabase",
+          "children": [
+            {
+              "name": "New-SqlDatabase"
+            }
+          ]
+        },
+        {
+          "name": "SqlDeploymentScript",
+          "children": [
+            {
+              "name": "New-SqlDeploymentScript"
+            }
+          ]
+        },
+        {
+          "name": "SqlLogin",
+          "children": [
+            {
+              "name": "ConvertTo-SqlLogin"
+            }
+          ]
+        },
+        {
+          "name": "SqlUndeploymentScript",
+          "children": [
+            {
+              "name": "New-SqlUndeploymentScript"
+            }
+          ]
+        },
+        {
+          "name": "ResourceItem",
+          "children": [
+            {
+              "name": "Get-ResourceItem"
+            },
+            {
+              "name": "New-ResourceItem"
+            }
+          ]
+        },
+        {
+          "name": "ResourceManifest",
+          "children": [
+            {
+              "name": "New-ResourceManifest"
+            }
+          ]
+        },
+        {
+          "name": "SsoConfigStore",
+          "children": [
+            {
+              "name": "New-SsoConfigStore"
+            }
+          ]
+        },
+        {
+          "name": "WindowsService",
+          "children": [
+            {
+              "name": "New-WindowsService"
+            }
+          ]
+        },
+        {
+          "name": "XmlConfiguration",
+          "children": [
+            {
+              "name": "New-XmlConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "XmlConfigurationAction",
+          "children": [
+            {
+              "name": "New-XmlConfigurationAction"
+            }
+          ]
+        },
+        {
+          "name": "XmlUnconfigurationAction",
+          "children": [
+            {
+              "name": "New-XmlUnconfigurationAction"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

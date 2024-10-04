@@ -1,0 +1,55 @@
+{
+  "name": "PK Services",
+  "children": [
+    {
+      "name": "PKWmfInstall",
+      "companyName": "PK Services",
+      "children": [
+        {
+          "name": "PKWmfShare",
+          "children": [
+            {
+              "name": "New-PKWmfShare"
+            }
+          ]
+        },
+        {
+          "name": "PKWmfInstall",
+          "children": [
+            {
+              "name": "Start-PKWmfInstall"
+            },
+            {
+              "name": "Get-PKWmfInstall"
+            }
+          ]
+        },
+        {
+          "name": "PKWmfConfiguration",
+          "children": [
+            {
+              "name": "Clear-PKWmfConfiguration"
+            },
+            {
+              "name": "Remove-PKWmfConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PKClip",
+      "companyName": "PK Services",
+      "children": [
+        {
+          "name": "PKClip",
+          "children": [
+            {
+              "name": "PKClip"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

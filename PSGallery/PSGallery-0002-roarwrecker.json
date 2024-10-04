@@ -1,0 +1,41 @@
+{
+  "name": "roarwrecker",
+  "children": [
+    {
+      "name": "testing",
+      "companyName": "roarwrecker",
+      "children": [
+        {
+          "name": "ModuleFromPath",
+          "children": [
+            {
+              "name": "Import-ModuleFromPath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Templates",
+      "companyName": "roarwrecker",
+      "children": [
+        {
+          "name": "ModuleFromTemplate",
+          "children": [
+            {
+              "name": "New-ModuleFromTemplate"
+            }
+          ]
+        },
+        {
+          "name": "CmdletFromTemplate",
+          "children": [
+            {
+              "name": "New-CmdletFromTemplate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

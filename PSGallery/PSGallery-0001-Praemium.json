@@ -1,0 +1,51 @@
+{
+  "name": "Praemium",
+  "children": [
+    {
+      "name": "PPSLogModule",
+      "companyName": "Praemium",
+      "children": [
+        {
+          "name": "AzureSimpleLog",
+          "children": [
+            {
+              "name": "New-AzureSimpleLog"
+            }
+          ]
+        },
+        {
+          "name": "AzureBackupLog",
+          "children": [
+            {
+              "name": "New-AzureBackupLog"
+            }
+          ]
+        },
+        {
+          "name": "AzureAppLog",
+          "children": [
+            {
+              "name": "New-AzureAppLog"
+            }
+          ]
+        },
+        {
+          "name": "LogAnalyticsSettings",
+          "children": [
+            {
+              "name": "Set-LogAnalyticsSettings"
+            }
+          ]
+        },
+        {
+          "name": "LoggedOnUserSID",
+          "children": [
+            {
+              "name": "Get-LoggedOnUserSID"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

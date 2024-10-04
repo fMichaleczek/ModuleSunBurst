@@ -1,0 +1,1397 @@
+{
+  "name": "Kloud Solutions",
+  "children": [
+    {
+      "name": "au.com.kloud.netscaler",
+      "companyName": "Kloud Solutions",
+      "children": [
+        {
+          "name": "NSresponderpolicy",
+          "children": [
+            {
+              "name": "New-NSresponderpolicy"
+            },
+            {
+              "name": "Get-NSresponderpolicy"
+            },
+            {
+              "name": "Remove-NSresponderpolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSresponderaction",
+          "children": [
+            {
+              "name": "Get-NSresponderaction"
+            },
+            {
+              "name": "New-NSresponderaction"
+            },
+            {
+              "name": "Remove-NSresponderaction"
+            },
+            {
+              "name": "Set-NSresponderaction"
+            }
+          ]
+        },
+        {
+          "name": "NSsystemgroup",
+          "children": [
+            {
+              "name": "New-NSsystemgroup"
+            },
+            {
+              "name": "Remove-NSsystemgroup"
+            }
+          ]
+        },
+        {
+          "name": "NSPolicyToSystemGroup",
+          "children": [
+            {
+              "name": "Add-NSPolicyToSystemGroup"
+            },
+            {
+              "name": "Remove-NSPolicyToSystemGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSPolicyToGlobal",
+          "children": [
+            {
+              "name": "Add-NSPolicyToGlobal"
+            },
+            {
+              "name": "Remove-NSPolicyToGlobal"
+            }
+          ]
+        },
+        {
+          "name": "NShttpProfile",
+          "children": [
+            {
+              "name": "New-NShttpProfile"
+            },
+            {
+              "name": "Get-NShttpProfile"
+            },
+            {
+              "name": "Set-NShttpProfile"
+            },
+            {
+              "name": "Remove-NShttpProfile"
+            }
+          ]
+        },
+        {
+          "name": "NStcpProfile",
+          "children": [
+            {
+              "name": "New-NStcpProfile"
+            },
+            {
+              "name": "Get-NStcpProfile"
+            },
+            {
+              "name": "Set-NStcpProfile"
+            },
+            {
+              "name": "Remove-NStcpProfile"
+            }
+          ]
+        },
+        {
+          "name": "crvserver",
+          "children": [
+            {
+              "name": "New-crvserver"
+            },
+            {
+              "name": "Get-crvserver"
+            }
+          ]
+        },
+        {
+          "name": "NSdnsrecord",
+          "children": [
+            {
+              "name": "New-NSdnsrecord"
+            },
+            {
+              "name": "Remove-NSdnsrecord"
+            }
+          ]
+        },
+        {
+          "name": "NSdnssuffix",
+          "children": [
+            {
+              "name": "New-NSdnssuffix"
+            },
+            {
+              "name": "Remove-NSdnssuffix"
+            }
+          ]
+        },
+        {
+          "name": "NSfile",
+          "children": [
+            {
+              "name": "Push-NSfile"
+            },
+            {
+              "name": "Add-NSFile"
+            }
+          ]
+        },
+        {
+          "name": "NScertTovserver",
+          "children": [
+            {
+              "name": "Add-NScertTovserver"
+            }
+          ]
+        },
+        {
+          "name": "NSciphergroup",
+          "children": [
+            {
+              "name": "New-NSciphergroup"
+            }
+          ]
+        },
+        {
+          "name": "NScipherToGroup",
+          "children": [
+            {
+              "name": "Add-NScipherToGroup"
+            },
+            {
+              "name": "Remove-NScipherToGroup"
+            }
+          ]
+        },
+        {
+          "name": "NScipherToVserver",
+          "children": [
+            {
+              "name": "Add-NScipherToVserver"
+            },
+            {
+              "name": "Remove-NScipherToVserver"
+            }
+          ]
+        },
+        {
+          "name": "NSsslvserver",
+          "children": [
+            {
+              "name": "Get-NSsslvserver"
+            },
+            {
+              "name": "Set-nssslvserver"
+            }
+          ]
+        },
+        {
+          "name": "nscertfile",
+          "children": [
+            {
+              "name": "Format-nscertfile"
+            }
+          ]
+        },
+        {
+          "name": "NScerttoSSLservice",
+          "children": [
+            {
+              "name": "Add-NScerttoSSLservice"
+            }
+          ]
+        },
+        {
+          "name": "NSpolicytovpnvserver",
+          "children": [
+            {
+              "name": "Add-NSpolicytovpnvserver"
+            },
+            {
+              "name": "Remove-NSpolicytovpnvserver"
+            }
+          ]
+        },
+        {
+          "name": "NSurl",
+          "children": [
+            {
+              "name": "New-NSurl"
+            },
+            {
+              "name": "Remove-NSurl"
+            }
+          ]
+        },
+        {
+          "name": "NStheme",
+          "children": [
+            {
+              "name": "New-NStheme"
+            },
+            {
+              "name": "Remove-NStheme"
+            }
+          ]
+        },
+        {
+          "name": "NSvpneula",
+          "children": [
+            {
+              "name": "New-NSvpneula"
+            },
+            {
+              "name": "Remove-NSvpneula"
+            }
+          ]
+        },
+        {
+          "name": "NSvpnintranetapplication",
+          "children": [
+            {
+              "name": "New-NSvpnintranetapplication"
+            },
+            {
+              "name": "Remove-NSvpnintranetapplication"
+            }
+          ]
+        },
+        {
+          "name": "NSthemetovpnvserver",
+          "children": [
+            {
+              "name": "Add-NSthemetovpnvserver"
+            },
+            {
+              "name": "Remove-NSthemetovpnvserver"
+            }
+          ]
+        },
+        {
+          "name": "NSeulatovpnvserver",
+          "children": [
+            {
+              "name": "Add-NSeulatovpnvserver"
+            },
+            {
+              "name": "Remove-NSeulatovpnvserver"
+            }
+          ]
+        },
+        {
+          "name": "NSintranetapptovserver",
+          "children": [
+            {
+              "name": "Add-NSintranetapptovserver"
+            },
+            {
+              "name": "Remove-NSintranetapptovserver"
+            }
+          ]
+        },
+        {
+          "name": "NSiiptovserver",
+          "children": [
+            {
+              "name": "Remove-NSiiptovserver"
+            },
+            {
+              "name": "Add-NsIipToVserver"
+            }
+          ]
+        },
+        {
+          "name": "NitroSession",
+          "children": [
+            {
+              "name": "New-NitroSession"
+            }
+          ]
+        },
+        {
+          "name": "NSFiles",
+          "children": [
+            {
+              "name": "Get-NSFiles"
+            }
+          ]
+        },
+        {
+          "name": "NSsslprofile",
+          "children": [
+            {
+              "name": "Get-NSsslprofile"
+            },
+            {
+              "name": "New-NSsslprofile"
+            },
+            {
+              "name": "Remove-NSsslprofile"
+            },
+            {
+              "name": "Set-NSsslprofile"
+            }
+          ]
+        },
+        {
+          "name": "NScertificate",
+          "children": [
+            {
+              "name": "Get-NScertificate"
+            },
+            {
+              "name": "New-NScertificate"
+            },
+            {
+              "name": "Set-NScertificate"
+            }
+          ]
+        },
+        {
+          "name": "nsrewritepolicy",
+          "children": [
+            {
+              "name": "New-nsrewritepolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSrewriteaction",
+          "children": [
+            {
+              "name": "Get-NSrewriteaction"
+            },
+            {
+              "name": "New-NSrewriteaction"
+            }
+          ]
+        },
+        {
+          "name": "NShardware",
+          "children": [
+            {
+              "name": "Get-NShardware"
+            }
+          ]
+        },
+        {
+          "name": "nstimeout",
+          "children": [
+            {
+              "name": "Get-nstimeout"
+            },
+            {
+              "name": "Set-nstimeout"
+            }
+          ]
+        },
+        {
+          "name": "NSIP",
+          "children": [
+            {
+              "name": "Get-NSIP"
+            },
+            {
+              "name": "New-NSIP"
+            },
+            {
+              "name": "Set-NSIP"
+            }
+          ]
+        },
+        {
+          "name": "NStimezone",
+          "children": [
+            {
+              "name": "Set-NStimezone"
+            }
+          ]
+        },
+        {
+          "name": "nsroute",
+          "children": [
+            {
+              "name": "Get-nsroute"
+            },
+            {
+              "name": "New-NSroute"
+            },
+            {
+              "name": "Remove-NSroute"
+            },
+            {
+              "name": "Set-NSroute"
+            }
+          ]
+        },
+        {
+          "name": "NSlbvserver",
+          "children": [
+            {
+              "name": "Get-NSlbvserver"
+            },
+            {
+              "name": "Sync-NSlbvserver"
+            },
+            {
+              "name": "New-NSlbvserver"
+            },
+            {
+              "name": "Remove-NSlbvserver"
+            },
+            {
+              "name": "Set-nslbvserver"
+            }
+          ]
+        },
+        {
+          "name": "NSmonitor",
+          "children": [
+            {
+              "name": "Get-NSmonitor"
+            },
+            {
+              "name": "New-NSmonitor"
+            },
+            {
+              "name": "Remove-NSmonitor"
+            },
+            {
+              "name": "Set-NSmonitor"
+            }
+          ]
+        },
+        {
+          "name": "NSpolicyTovserver",
+          "children": [
+            {
+              "name": "Remove-NSpolicyTovserver"
+            },
+            {
+              "name": "Add-NSpolicyTovserver"
+            }
+          ]
+        },
+        {
+          "name": "NSmonitorToService",
+          "children": [
+            {
+              "name": "Add-NSmonitorToService"
+            },
+            {
+              "name": "Remove-NSmonitorToService"
+            }
+          ]
+        },
+        {
+          "name": "NSresponderpolicyTovserver",
+          "children": [
+            {
+              "name": "Add-NSresponderpolicyTovserver"
+            },
+            {
+              "name": "Remove-NSresponderpolicyTovserver"
+            }
+          ]
+        },
+        {
+          "name": "NSserverToServiceGroup",
+          "children": [
+            {
+              "name": "Add-NSserverToServiceGroup"
+            },
+            {
+              "name": "Remove-NSservertoServiceGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSserviceTovserver",
+          "children": [
+            {
+              "name": "Add-NSserviceTovserver"
+            },
+            {
+              "name": "Remove-NSserviceTovserver"
+            }
+          ]
+        },
+        {
+          "name": "NsGslbVserver",
+          "children": [
+            {
+              "name": "Disable-NsGslbVserver"
+            },
+            {
+              "name": "Enable-NsGslbVserver"
+            },
+            {
+              "name": "Get-NsGslbVserver"
+            },
+            {
+              "name": "New-NsGslbVserver"
+            },
+            {
+              "name": "Remove-NsGslbVserver"
+            },
+            {
+              "name": "Set-NsGslbVserver"
+            },
+            {
+              "name": "Update-NsGslbVserver"
+            }
+          ]
+        },
+        {
+          "name": "NsGslbSite",
+          "children": [
+            {
+              "name": "Get-NsGslbSite"
+            },
+            {
+              "name": "New-NSgslbsite"
+            },
+            {
+              "name": "Remove-NsGslbSite"
+            },
+            {
+              "name": "Set-NsGslbSite"
+            },
+            {
+              "name": "Update-NsGslbSite"
+            }
+          ]
+        },
+        {
+          "name": "NsGslbService",
+          "children": [
+            {
+              "name": "Disable-NsGslbService"
+            },
+            {
+              "name": "Enable-NsGslbService"
+            },
+            {
+              "name": "Get-NsGslbService"
+            },
+            {
+              "name": "New-NSgslbservice"
+            },
+            {
+              "name": "Remove-NsGslbService"
+            },
+            {
+              "name": "Set-NsGslbService"
+            },
+            {
+              "name": "Update-NsGslbService"
+            }
+          ]
+        },
+        {
+          "name": "NsGslbSettings",
+          "children": [
+            {
+              "name": "Get-NsGslbSettings"
+            },
+            {
+              "name": "Set-NSgslbsettings"
+            },
+            {
+              "name": "Update-NsGslbSettings"
+            }
+          ]
+        },
+        {
+          "name": "NSDnszone",
+          "children": [
+            {
+              "name": "Remove-NSDnszone"
+            },
+            {
+              "name": "New-NSDnszone"
+            }
+          ]
+        },
+        {
+          "name": "NSnameserver",
+          "children": [
+            {
+              "name": "Get-NSnameserver"
+            },
+            {
+              "name": "New-NSnameserver"
+            },
+            {
+              "name": "Remove-NSnameserver"
+            }
+          ]
+        },
+        {
+          "name": "NsDnsPolicyToGlobal",
+          "children": [
+            {
+              "name": "Add-NsDnsPolicyToGlobal"
+            },
+            {
+              "name": "Remove-NsDnsPolicyToGlobal"
+            }
+          ]
+        },
+        {
+          "name": "NsDnsAction",
+          "children": [
+            {
+              "name": "Get-NsDnsAction"
+            },
+            {
+              "name": "New-NsDnsAction"
+            },
+            {
+              "name": "Remove-NsDnsAction"
+            }
+          ]
+        },
+        {
+          "name": "NsCsVserver",
+          "children": [
+            {
+              "name": "Disable-NsCsVserver"
+            },
+            {
+              "name": "Enable-NsCsVserver"
+            },
+            {
+              "name": "Get-NsCsVserver"
+            },
+            {
+              "name": "New-NsCsVserver"
+            },
+            {
+              "name": "Remove-NsCsVserver"
+            },
+            {
+              "name": "Set-NScsvserver"
+            },
+            {
+              "name": "Update-NsCsVserver"
+            }
+          ]
+        },
+        {
+          "name": "NsPolicyToCsVserver",
+          "children": [
+            {
+              "name": "Add-NsPolicyToCsVserver"
+            },
+            {
+              "name": "Remove-NsPolicyToCsVserver"
+            }
+          ]
+        },
+        {
+          "name": "NsCsAction",
+          "children": [
+            {
+              "name": "Get-NsCsAction"
+            },
+            {
+              "name": "New-NsCsAction"
+            },
+            {
+              "name": "Remove-NsCsAction"
+            },
+            {
+              "name": "Set-NsCsAction"
+            },
+            {
+              "name": "Update-NsCsAction"
+            }
+          ]
+        },
+        {
+          "name": "NsCsPolicy",
+          "children": [
+            {
+              "name": "Get-NsCsPolicy"
+            },
+            {
+              "name": "New-NsCsPolicy"
+            },
+            {
+              "name": "Remove-NsCsPolicy"
+            },
+            {
+              "name": "Set-NsCsPolicy"
+            },
+            {
+              "name": "Update-NsCsPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NsItemToVserver",
+          "children": [
+            {
+              "name": "Remove-NsItemToVserver"
+            },
+            {
+              "name": "Add-NsItemToVserver"
+            }
+          ]
+        },
+        {
+          "name": "NSStaToVServer",
+          "children": [
+            {
+              "name": "Add-NSStaToVServer"
+            },
+            {
+              "name": "Remove-NSStaToVServer"
+            }
+          ]
+        },
+        {
+          "name": "NSsessionpolicy",
+          "children": [
+            {
+              "name": "Get-NSsessionpolicy"
+            },
+            {
+              "name": "New-NSsessionpolicy"
+            },
+            {
+              "name": "Set-NSsessionpolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSsessionprofile",
+          "children": [
+            {
+              "name": "Get-NSsessionprofile"
+            },
+            {
+              "name": "New-NSsessionprofile"
+            },
+            {
+              "name": "Remove-NSsessionprofile"
+            },
+            {
+              "name": "Set-NSsessionprofile"
+            }
+          ]
+        },
+        {
+          "name": "NSvpnvserver",
+          "children": [
+            {
+              "name": "Get-NSvpnvserver"
+            },
+            {
+              "name": "New-NSvpnvserver"
+            },
+            {
+              "name": "Remove-NSvpnvserver"
+            },
+            {
+              "name": "Set-NSvpnvserver"
+            }
+          ]
+        },
+        {
+          "name": "NSvpnglobalsettings",
+          "children": [
+            {
+              "name": "Get-NSvpnglobalsettings"
+            },
+            {
+              "name": "Set-NSvpnglobalsettings"
+            }
+          ]
+        },
+        {
+          "name": "NsDnsPolicy",
+          "children": [
+            {
+              "name": "Get-NsDnsPolicy"
+            },
+            {
+              "name": "New-NsDnsPolicy"
+            },
+            {
+              "name": "Remove-NsDnsPolicy"
+            },
+            {
+              "name": "Set-NsDnsPolicy"
+            },
+            {
+              "name": "Update-NsDnsPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NsTrafficPolicy",
+          "children": [
+            {
+              "name": "Get-NsTrafficPolicy"
+            },
+            {
+              "name": "New-NsTrafficPolicy"
+            },
+            {
+              "name": "Remove-NsTrafficPolicy"
+            },
+            {
+              "name": "Set-NsTrafficPolicy"
+            },
+            {
+              "name": "Update-NsTrafficPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NsCrVserver",
+          "children": [
+            {
+              "name": "Remove-NsCrVserver"
+            },
+            {
+              "name": "Get-NsCrVserver"
+            },
+            {
+              "name": "New-NsCrVserver"
+            },
+            {
+              "name": "Set-NsCrVserver"
+            }
+          ]
+        },
+        {
+          "name": "NsTrafficAction",
+          "children": [
+            {
+              "name": "Get-NsTrafficAction"
+            },
+            {
+              "name": "New-NsTrafficAction"
+            },
+            {
+              "name": "Remove-NsTrafficAction"
+            },
+            {
+              "name": "Set-NsTrafficAction"
+            },
+            {
+              "name": "Update-NsTrafficAction"
+            }
+          ]
+        },
+        {
+          "name": "NsCrPolicy",
+          "children": [
+            {
+              "name": "Set-NsCrPolicy"
+            },
+            {
+              "name": "Remove-NsCrPolicy"
+            },
+            {
+              "name": "Get-NsCrPolicy"
+            },
+            {
+              "name": "New-NsCrPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NsCachePolicy",
+          "children": [
+            {
+              "name": "Get-NsCachePolicy"
+            },
+            {
+              "name": "New-NsCachePolicy"
+            },
+            {
+              "name": "Remove-NsCachePolicy"
+            },
+            {
+              "name": "Set-NsCachePolicy"
+            },
+            {
+              "name": "Update-NsCachePolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSServiceGroup",
+          "children": [
+            {
+              "name": "Get-NSServiceGroup"
+            },
+            {
+              "name": "New-NSServiceGroup"
+            },
+            {
+              "name": "Remove-NsServiceGroup"
+            },
+            {
+              "name": "Set-NsServiceGroup"
+            },
+            {
+              "name": "Update-NsServiceGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSservice",
+          "children": [
+            {
+              "name": "Disable-NSservice"
+            },
+            {
+              "name": "Enable-NSservice"
+            },
+            {
+              "name": "Get-NSservice"
+            },
+            {
+              "name": "New-NSservice"
+            },
+            {
+              "name": "Remove-NSservice"
+            },
+            {
+              "name": "Set-NSservice"
+            }
+          ]
+        },
+        {
+          "name": "NSserver",
+          "children": [
+            {
+              "name": "New-NSserver"
+            },
+            {
+              "name": "Remove-NSserver"
+            },
+            {
+              "name": "Set-NSserver"
+            },
+            {
+              "name": "Get-NSserver"
+            }
+          ]
+        },
+        {
+          "name": "NsLocation",
+          "children": [
+            {
+              "name": "Get-NsLocation"
+            },
+            {
+              "name": "New-NsLocation"
+            },
+            {
+              "name": "Remove-NsLocation"
+            }
+          ]
+        },
+        {
+          "name": "NSauthorizationpolicy",
+          "children": [
+            {
+              "name": "Get-NSauthorizationpolicy"
+            },
+            {
+              "name": "New-NSauthorizationpolicy"
+            },
+            {
+              "name": "Remove-NSauthorizationpolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSaaavserver",
+          "children": [
+            {
+              "name": "Get-NSaaavserver"
+            },
+            {
+              "name": "New-NSaaavserver"
+            },
+            {
+              "name": "Set-NSaaavserver"
+            }
+          ]
+        },
+        {
+          "name": "NSSamlPolicy",
+          "children": [
+            {
+              "name": "New-NSSamlPolicy"
+            },
+            {
+              "name": "Remove-NSSamlPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSSamlAction",
+          "children": [
+            {
+              "name": "Get-NSSamlAction"
+            },
+            {
+              "name": "New-NSSamlAction"
+            },
+            {
+              "name": "Remove-NSSamlAction"
+            },
+            {
+              "name": "Set-NSSamlAction"
+            }
+          ]
+        },
+        {
+          "name": "nsradiusaction",
+          "children": [
+            {
+              "name": "Get-nsradiusaction"
+            },
+            {
+              "name": "New-nsradiusaction"
+            },
+            {
+              "name": "Remove-NSRadiusAction"
+            },
+            {
+              "name": "Set-nsradiusaction"
+            }
+          ]
+        },
+        {
+          "name": "NSauthenticationpolicy",
+          "children": [
+            {
+              "name": "Get-NSauthenticationpolicy"
+            },
+            {
+              "name": "New-NSauthenticationpolicy"
+            },
+            {
+              "name": "Remove-NSauthenticationpolicy"
+            },
+            {
+              "name": "Set-NSauthenticationpolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSauthpolicylabel",
+          "children": [
+            {
+              "name": "New-NSauthpolicylabel"
+            }
+          ]
+        },
+        {
+          "name": "NSoauthaction",
+          "children": [
+            {
+              "name": "Get-NSoauthaction"
+            },
+            {
+              "name": "New-NSoauthaction"
+            },
+            {
+              "name": "Set-nsoauthaction"
+            }
+          ]
+        },
+        {
+          "name": "nsloginschema",
+          "children": [
+            {
+              "name": "New-nsloginschema"
+            }
+          ]
+        },
+        {
+          "name": "NSloginschemapolicy",
+          "children": [
+            {
+              "name": "New-NSloginschemapolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSldapserver",
+          "children": [
+            {
+              "name": "Get-NSldapserver"
+            },
+            {
+              "name": "New-NSldapserver"
+            },
+            {
+              "name": "Remove-nsldapserver"
+            },
+            {
+              "name": "Set-nsldapserver"
+            }
+          ]
+        },
+        {
+          "name": "NScertaction",
+          "children": [
+            {
+              "name": "New-NScertaction"
+            }
+          ]
+        },
+        {
+          "name": "NSauthpolicyTolabel",
+          "children": [
+            {
+              "name": "Add-NSauthpolicyTolabel"
+            }
+          ]
+        },
+        {
+          "name": "NSauthpolicytovserver",
+          "children": [
+            {
+              "name": "Add-NSauthpolicytovserver"
+            },
+            {
+              "name": "Remove-NSauthpolicytovserver"
+            }
+          ]
+        },
+        {
+          "name": "NSthemetovserver",
+          "children": [
+            {
+              "name": "Add-NSthemetovserver"
+            },
+            {
+              "name": "Remove-NSthemetovserver"
+            }
+          ]
+        },
+        {
+          "name": "NSauthnprofile",
+          "children": [
+            {
+              "name": "New-NSauthnprofile"
+            }
+          ]
+        },
+        {
+          "name": "NSsyslogpolicy",
+          "children": [
+            {
+              "name": "Get-NSsyslogpolicy"
+            },
+            {
+              "name": "New-NSsyslogpolicy"
+            },
+            {
+              "name": "Remove-NSsyslogpolicy"
+            },
+            {
+              "name": "Set-NSsyslogpolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSSyslogPolicyToGlobal",
+          "children": [
+            {
+              "name": "Add-NSSyslogPolicyToGlobal"
+            }
+          ]
+        },
+        {
+          "name": "NSsyslogaction",
+          "children": [
+            {
+              "name": "Get-NSsyslogaction"
+            },
+            {
+              "name": "New-NSsyslogaction"
+            },
+            {
+              "name": "Remove-NSsyslogaction"
+            },
+            {
+              "name": "Set-NSsyslogaction"
+            }
+          ]
+        },
+        {
+          "name": "NSAppFlowParam",
+          "children": [
+            {
+              "name": "Get-NSAppFlowParam"
+            },
+            {
+              "name": "Set-nsappflowparam"
+            }
+          ]
+        },
+        {
+          "name": "NSAppFlowAction",
+          "children": [
+            {
+              "name": "Remove-NSAppFlowAction"
+            },
+            {
+              "name": "Set-NSAppFlowAction"
+            },
+            {
+              "name": "Get-NSAppFlowAction"
+            },
+            {
+              "name": "New-NsAppFlowAction"
+            }
+          ]
+        },
+        {
+          "name": "NSAppFlowCollector",
+          "children": [
+            {
+              "name": "Remove-NSAppFlowCollector"
+            },
+            {
+              "name": "Set-NSAppFlowCollector"
+            },
+            {
+              "name": "Get-NSAppFlowCollector"
+            },
+            {
+              "name": "New-NSAppFlowCollector"
+            }
+          ]
+        },
+        {
+          "name": "NSAppFlowPolicy",
+          "children": [
+            {
+              "name": "Remove-NSAppFlowPolicy"
+            },
+            {
+              "name": "Set-NSAppFlowPolicy"
+            },
+            {
+              "name": "Get-NSAppFlowPolicy"
+            },
+            {
+              "name": "New-NsAppFlowPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSgroup",
+          "children": [
+            {
+              "name": "Get-NSgroup"
+            },
+            {
+              "name": "New-NSgroup"
+            },
+            {
+              "name": "Remove-NSgroup"
+            }
+          ]
+        },
+        {
+          "name": "NSbinding",
+          "children": [
+            {
+              "name": "Add-NSbinding"
+            }
+          ]
+        },
+        {
+          "name": "nsbulkobject",
+          "children": [
+            {
+              "name": "Add-nsbulkobject"
+            }
+          ]
+        },
+        {
+          "name": "NSpolicytoGroup",
+          "children": [
+            {
+              "name": "Add-NSpolicytoGroup"
+            },
+            {
+              "name": "Remove-NSpolicytoGroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ks.Tools",
+      "companyName": "Kloud Solutions",
+      "children": [
+        {
+          "name": "ktnextsubnet",
+          "children": [
+            {
+              "name": "Find-ktnextsubnet"
+            }
+          ]
+        },
+        {
+          "name": "KtSubnet",
+          "children": [
+            {
+              "name": "Split-KtSubnet"
+            }
+          ]
+        },
+        {
+          "name": "KtServiceBusConnection",
+          "children": [
+            {
+              "name": "New-KtServiceBusConnection"
+            }
+          ]
+        },
+        {
+          "name": "KtServiceBusMessage",
+          "children": [
+            {
+              "name": "Send-KtServiceBusMessage"
+            }
+          ]
+        },
+        {
+          "name": "Ktpassword",
+          "children": [
+            {
+              "name": "New-Ktpassword"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

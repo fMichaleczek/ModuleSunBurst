@@ -1,0 +1,116 @@
+{
+  "name": "www.proCRM.ch",
+  "children": [
+    {
+      "name": "ProCrm.Xrm.PowerShell",
+      "companyName": "www.proCRM.ch",
+      "children": [
+        {
+          "name": "XrmUserToSecurityRole",
+          "children": [
+            {
+              "name": "Add-XrmUserToSecurityRole"
+            }
+          ]
+        },
+        {
+          "name": "XrmRecordsCount",
+          "children": [
+            {
+              "name": "Get-XrmRecordsCount"
+            }
+          ]
+        },
+        {
+          "name": "CrmConnectionInteractive",
+          "children": [
+            {
+              "name": "Invoke-CrmConnectionInteractive"
+            }
+          ]
+        },
+        {
+          "name": "CrmConnection",
+          "children": [
+            {
+              "name": "Invoke-CrmConnection"
+            }
+          ]
+        },
+        {
+          "name": "Credentials",
+          "children": [
+            {
+              "name": "Get-Credentials"
+            }
+          ]
+        },
+        {
+          "name": "XrmPublisherAndDefaultSolution",
+          "children": [
+            {
+              "name": "New-XrmPublisherAndDefaultSolution"
+            }
+          ]
+        },
+        {
+          "name": "XrmSolutionVersionIncremention",
+          "children": [
+            {
+              "name": "Invoke-XrmSolutionVersionIncremention"
+            }
+          ]
+        },
+        {
+          "name": "XrmSolution",
+          "children": [
+            {
+              "name": "Import-XrmSolution"
+            },
+            {
+              "name": "Export-XrmSolution"
+            },
+            {
+              "name": "Remove-XrmSolution"
+            }
+          ]
+        },
+        {
+          "name": "XrmWorkflow",
+          "children": [
+            {
+              "name": "Invoke-XrmWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "AllCrmSolutionDataToCsv",
+          "children": [
+            {
+              "name": "Export-AllCrmSolutionDataToCsv"
+            }
+          ]
+        },
+        {
+          "name": "CrmAutonumberAttribute",
+          "children": [
+            {
+              "name": "New-CrmAutonumberAttribute"
+            }
+          ]
+        },
+        {
+          "name": "CrmEntity",
+          "children": [
+            {
+              "name": "New-CrmEntity"
+            },
+            {
+              "name": "Remove-CrmEntity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

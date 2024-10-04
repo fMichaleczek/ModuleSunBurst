@@ -1,0 +1,206 @@
+{
+  "name": "ParTech",
+  "children": [
+    {
+      "name": "ParTech.SimpleInstallScripts",
+      "companyName": "ParTech",
+      "children": [
+        {
+          "name": "EnsureAdmin",
+          "children": [
+            {
+              "name": "Invoke-EnsureAdmin"
+            }
+          ]
+        },
+        {
+          "name": "SitecoreGallery",
+          "children": [
+            {
+              "name": "Register-SitecoreGallery"
+            }
+          ]
+        },
+        {
+          "name": "SitecoreInstallFramework",
+          "children": [
+            {
+              "name": "Install-SitecoreInstallFramework"
+            }
+          ]
+        },
+        {
+          "name": "ModernSecurityProtocols",
+          "children": [
+            {
+              "name": "Enable-ModernSecurityProtocols"
+            }
+          ]
+        },
+        {
+          "name": "SifPrerequisites",
+          "children": [
+            {
+              "name": "Install-SifPrerequisites"
+            }
+          ]
+        },
+        {
+          "name": "Solr",
+          "children": [
+            {
+              "name": "Install-Solr"
+            }
+          ]
+        },
+        {
+          "name": "AllPrerequisites",
+          "children": [
+            {
+              "name": "Install-AllPrerequisites"
+            }
+          ]
+        },
+        {
+          "name": "DownloadPackages",
+          "children": [
+            {
+              "name": "Invoke-DownloadPackages"
+            }
+          ]
+        },
+        {
+          "name": "ContainedDatabaseAuthentication",
+          "children": [
+            {
+              "name": "Enable-ContainedDatabaseAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "DownloadIfNeeded",
+          "children": [
+            {
+              "name": "Invoke-DownloadIfNeeded"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "DefaultSitecoreParameters",
+          "children": [
+            {
+              "name": "Get-DefaultSitecoreParameters"
+            }
+          ]
+        },
+        {
+          "name": "Unicorn",
+          "children": [
+            {
+              "name": "Sync-Unicorn"
+            }
+          ]
+        },
+        {
+          "name": "Sitecore91",
+          "children": [
+            {
+              "name": "Install-Sitecore91"
+            }
+          ]
+        },
+        {
+          "name": "Sitecore92",
+          "children": [
+            {
+              "name": "Install-Sitecore92"
+            }
+          ]
+        },
+        {
+          "name": "Sitecore93",
+          "children": [
+            {
+              "name": "Install-Sitecore93"
+            }
+          ]
+        },
+        {
+          "name": "ParameterNamesFromCommand",
+          "children": [
+            {
+              "name": "Get-ParameterNamesFromCommand"
+            }
+          ]
+        },
+        {
+          "name": "ParameterNamesFromSitecoreConfiguration",
+          "children": [
+            {
+              "name": "Get-ParameterNamesFromSitecoreConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "EffectiveParametersForCommand",
+          "children": [
+            {
+              "name": "Get-EffectiveParametersForCommand"
+            }
+          ]
+        },
+        {
+          "name": "CommandWithEffectiveParameters",
+          "children": [
+            {
+              "name": "Invoke-CommandWithEffectiveParameters"
+            }
+          ]
+        },
+        {
+          "name": "EffectiveParameters",
+          "children": [
+            {
+              "name": "Get-EffectiveParameters"
+            }
+          ]
+        },
+        {
+          "name": "SimpleInstallScriptsProxies",
+          "children": [
+            {
+              "name": "Install-SimpleInstallScriptsProxies"
+            },
+            {
+              "name": "Remove-SimpleInstallScriptsProxies"
+            }
+          ]
+        },
+        {
+          "name": "Site",
+          "children": [
+            {
+              "name": "Test-Site"
+            }
+          ]
+        },
+        {
+          "name": "WaitForJobsToFinish",
+          "children": [
+            {
+              "name": "Invoke-WaitForJobsToFinish"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

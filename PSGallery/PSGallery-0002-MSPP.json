@@ -1,0 +1,552 @@
+{
+  "name": "MSPP",
+  "children": [
+    {
+      "name": "HuduAPI",
+      "companyName": "MSPP",
+      "children": [
+        {
+          "name": "HuduActivityLogs",
+          "children": [
+            {
+              "name": "Get-HuduActivityLogs"
+            }
+          ]
+        },
+        {
+          "name": "HuduApiKey",
+          "children": [
+            {
+              "name": "Get-HuduApiKey"
+            },
+            {
+              "name": "New-HuduAPIKey"
+            },
+            {
+              "name": "Remove-HuduAPIKey"
+            }
+          ]
+        },
+        {
+          "name": "HuduAppInfo",
+          "children": [
+            {
+              "name": "Get-HuduAppInfo"
+            }
+          ]
+        },
+        {
+          "name": "HuduArticles",
+          "children": [
+            {
+              "name": "Get-HuduArticles"
+            }
+          ]
+        },
+        {
+          "name": "HuduAssetLayoutFieldID",
+          "children": [
+            {
+              "name": "Get-HuduAssetLayoutFieldID"
+            }
+          ]
+        },
+        {
+          "name": "HuduAssetLayouts",
+          "children": [
+            {
+              "name": "Get-HuduAssetLayouts"
+            }
+          ]
+        },
+        {
+          "name": "HuduAssets",
+          "children": [
+            {
+              "name": "Get-HuduAssets"
+            }
+          ]
+        },
+        {
+          "name": "HuduBaseURL",
+          "children": [
+            {
+              "name": "Get-HuduBaseURL"
+            },
+            {
+              "name": "New-HuduBaseURL"
+            },
+            {
+              "name": "Remove-HuduBaseURL"
+            }
+          ]
+        },
+        {
+          "name": "HuduCard",
+          "children": [
+            {
+              "name": "Get-HuduCard"
+            }
+          ]
+        },
+        {
+          "name": "HuduCompanies",
+          "children": [
+            {
+              "name": "Get-HuduCompanies"
+            }
+          ]
+        },
+        {
+          "name": "HuduExpirations",
+          "children": [
+            {
+              "name": "Get-HuduExpirations"
+            }
+          ]
+        },
+        {
+          "name": "HuduFolderMap",
+          "children": [
+            {
+              "name": "Get-HuduFolderMap"
+            }
+          ]
+        },
+        {
+          "name": "HuduFolders",
+          "children": [
+            {
+              "name": "Get-HuduFolders"
+            }
+          ]
+        },
+        {
+          "name": "HuduIntegrationMatchers",
+          "children": [
+            {
+              "name": "Get-HuduIntegrationMatchers"
+            }
+          ]
+        },
+        {
+          "name": "HuduMagicDashes",
+          "children": [
+            {
+              "name": "Get-HuduMagicDashes"
+            }
+          ]
+        },
+        {
+          "name": "HuduObjectByUrl",
+          "children": [
+            {
+              "name": "Get-HuduObjectByUrl"
+            }
+          ]
+        },
+        {
+          "name": "HuduPasswordFolders",
+          "children": [
+            {
+              "name": "Get-HuduPasswordFolders"
+            }
+          ]
+        },
+        {
+          "name": "HuduPasswords",
+          "children": [
+            {
+              "name": "Get-HuduPasswords"
+            }
+          ]
+        },
+        {
+          "name": "HuduProcesses",
+          "children": [
+            {
+              "name": "Get-HuduProcesses"
+            }
+          ]
+        },
+        {
+          "name": "HuduPublicPhotos",
+          "children": [
+            {
+              "name": "Get-HuduPublicPhotos"
+            }
+          ]
+        },
+        {
+          "name": "HuduRelations",
+          "children": [
+            {
+              "name": "Get-HuduRelations"
+            }
+          ]
+        },
+        {
+          "name": "HuduUploads",
+          "children": [
+            {
+              "name": "Get-HuduUploads"
+            }
+          ]
+        },
+        {
+          "name": "HuduWebsites",
+          "children": [
+            {
+              "name": "Get-HuduWebsites"
+            }
+          ]
+        },
+        {
+          "name": "HuduFolder",
+          "children": [
+            {
+              "name": "Initialize-HuduFolder"
+            },
+            {
+              "name": "New-HuduFolder"
+            },
+            {
+              "name": "Set-HuduFolder"
+            }
+          ]
+        },
+        {
+          "name": "HuduAssetsToNewLayout",
+          "children": [
+            {
+              "name": "Move-HuduAssetsToNewLayout"
+            }
+          ]
+        },
+        {
+          "name": "HuduArticle",
+          "children": [
+            {
+              "name": "New-HuduArticle"
+            },
+            {
+              "name": "Remove-HuduArticle"
+            },
+            {
+              "name": "Set-HuduArticle"
+            }
+          ]
+        },
+        {
+          "name": "HuduAsset",
+          "children": [
+            {
+              "name": "New-HuduAsset"
+            },
+            {
+              "name": "Remove-HuduAsset"
+            },
+            {
+              "name": "Set-HuduAsset"
+            }
+          ]
+        },
+        {
+          "name": "HuduAssetLayout",
+          "children": [
+            {
+              "name": "New-HuduAssetLayout"
+            },
+            {
+              "name": "Set-HuduAssetLayout"
+            }
+          ]
+        },
+        {
+          "name": "HuduCompany",
+          "children": [
+            {
+              "name": "New-HuduCompany"
+            },
+            {
+              "name": "Remove-HuduCompany"
+            },
+            {
+              "name": "Set-HuduCompany"
+            }
+          ]
+        },
+        {
+          "name": "HuduCustomHeaders",
+          "children": [
+            {
+              "name": "New-HuduCustomHeaders"
+            },
+            {
+              "name": "Remove-HuduCustomHeaders"
+            }
+          ]
+        },
+        {
+          "name": "HuduPassword",
+          "children": [
+            {
+              "name": "New-HuduPassword"
+            },
+            {
+              "name": "Remove-HuduPassword"
+            },
+            {
+              "name": "Set-HuduPassword"
+            }
+          ]
+        },
+        {
+          "name": "HuduPublicPhoto",
+          "children": [
+            {
+              "name": "New-HuduPublicPhoto"
+            }
+          ]
+        },
+        {
+          "name": "HuduRelation",
+          "children": [
+            {
+              "name": "New-HuduRelation"
+            },
+            {
+              "name": "Remove-HuduRelation"
+            }
+          ]
+        },
+        {
+          "name": "HuduUpload",
+          "children": [
+            {
+              "name": "New-HuduUpload"
+            },
+            {
+              "name": "Remove-HuduUpload"
+            }
+          ]
+        },
+        {
+          "name": "HuduWebsite",
+          "children": [
+            {
+              "name": "New-HuduWebsite"
+            },
+            {
+              "name": "Remove-HuduWebsite"
+            },
+            {
+              "name": "Set-HuduWebsite"
+            }
+          ]
+        },
+        {
+          "name": "HuduMagicDash",
+          "children": [
+            {
+              "name": "Remove-HuduMagicDash"
+            },
+            {
+              "name": "Set-HuduMagicDash"
+            }
+          ]
+        },
+        {
+          "name": "HuduArticleArchive",
+          "children": [
+            {
+              "name": "Set-HuduArticleArchive"
+            }
+          ]
+        },
+        {
+          "name": "HuduAssetArchive",
+          "children": [
+            {
+              "name": "Set-HuduAssetArchive"
+            }
+          ]
+        },
+        {
+          "name": "HuduCompanyArchive",
+          "children": [
+            {
+              "name": "Set-HuduCompanyArchive"
+            }
+          ]
+        },
+        {
+          "name": "HuduIntegrationMatcher",
+          "children": [
+            {
+              "name": "Set-HuduIntegrationMatcher"
+            }
+          ]
+        },
+        {
+          "name": "HuduPasswordArchive",
+          "children": [
+            {
+              "name": "Set-HuduPasswordArchive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NinjaOneDocs",
+      "companyName": "MSPP",
+      "children": [
+        {
+          "name": "NinjaOne",
+          "children": [
+            {
+              "name": "Connect-NinjaOne"
+            }
+          ]
+        },
+        {
+          "name": "HeatMap",
+          "children": [
+            {
+              "name": "Get-HeatMap"
+            }
+          ]
+        },
+        {
+          "name": "MapColour",
+          "children": [
+            {
+              "name": "Get-MapColour"
+            }
+          ]
+        },
+        {
+          "name": "NinjaInLineBarGraph",
+          "children": [
+            {
+              "name": "Get-NinjaInLineBarGraph"
+            }
+          ]
+        },
+        {
+          "name": "NinjaOneActivities",
+          "children": [
+            {
+              "name": "Get-NinjaOneActivities"
+            }
+          ]
+        },
+        {
+          "name": "NinjaOneCard",
+          "children": [
+            {
+              "name": "Get-NinjaOneCard"
+            }
+          ]
+        },
+        {
+          "name": "NinjaOneCSSCol",
+          "children": [
+            {
+              "name": "Get-NinjaOneCSSCol"
+            }
+          ]
+        },
+        {
+          "name": "NinjaOneInfoCard",
+          "children": [
+            {
+              "name": "Get-NinjaOneInfoCard"
+            }
+          ]
+        },
+        {
+          "name": "NinjaOneLinks",
+          "children": [
+            {
+              "name": "Get-NinjaOneLinks"
+            }
+          ]
+        },
+        {
+          "name": "NinjaOneTime",
+          "children": [
+            {
+              "name": "Get-NinjaOneTime"
+            }
+          ]
+        },
+        {
+          "name": "NinjaOneTitle",
+          "children": [
+            {
+              "name": "Get-NinjaOneTitle"
+            }
+          ]
+        },
+        {
+          "name": "NinjaOneWidgetCard",
+          "children": [
+            {
+              "name": "Get-NinjaOneWidgetCard"
+            }
+          ]
+        },
+        {
+          "name": "TimeFromNinjaOne",
+          "children": [
+            {
+              "name": "Get-TimeFromNinjaOne"
+            }
+          ]
+        },
+        {
+          "name": "NinjaOneDocumentTemplate",
+          "children": [
+            {
+              "name": "Invoke-NinjaOneDocumentTemplate"
+            }
+          ]
+        },
+        {
+          "name": "NinjaOneRequest",
+          "children": [
+            {
+              "name": "Invoke-NinjaOneRequest"
+            }
+          ]
+        },
+        {
+          "name": "NinjaBarGraph",
+          "children": [
+            {
+              "name": "Get-NinjaBarGraph"
+            }
+          ]
+        },
+        {
+          "name": "ObjectToHtmlTable",
+          "children": [
+            {
+              "name": "ConvertTo-ObjectToHtmlTable"
+            }
+          ]
+        },
+        {
+          "name": "HtmlTableToObject",
+          "children": [
+            {
+              "name": "ConvertTo-HtmlTableToObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

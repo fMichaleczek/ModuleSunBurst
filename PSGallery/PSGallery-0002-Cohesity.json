@@ -1,0 +1,1769 @@
+{
+  "name": "Cohesity",
+  "children": [
+    {
+      "name": "Cohesity.PowerShell.Core",
+      "companyName": "Cohesity",
+      "children": [
+        {
+          "name": "CohesityViewShare",
+          "children": [
+            {
+              "name": "Add-CohesityViewShare"
+            },
+            {
+              "name": "Get-CohesityViewShare"
+            },
+            {
+              "name": "Remove-CohesityViewShare"
+            }
+          ]
+        },
+        {
+          "name": "CohesityCluster",
+          "children": [
+            {
+              "name": "Connect-CohesityCluster"
+            },
+            {
+              "name": "Disconnect-CohesityCluster"
+            },
+            {
+              "name": "Get-CohesityCluster"
+            }
+          ]
+        },
+        {
+          "name": "CohesityDateTimeToUsecs",
+          "children": [
+            {
+              "name": "Convert-CohesityDateTimeToUsecs"
+            }
+          ]
+        },
+        {
+          "name": "CohesityUsecsToDateTime",
+          "children": [
+            {
+              "name": "Convert-CohesityUsecsToDateTime"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionJob",
+          "children": [
+            {
+              "name": "Disable-CohesityProtectionJob"
+            },
+            {
+              "name": "Enable-CohesityProtectionJob"
+            },
+            {
+              "name": "New-CohesityProtectionJob"
+            },
+            {
+              "name": "Remove-CohesityProtectionJob"
+            },
+            {
+              "name": "Resume-CohesityProtectionJob"
+            },
+            {
+              "name": "Start-CohesityProtectionJob"
+            },
+            {
+              "name": "Suspend-CohesityProtectionJob"
+            },
+            {
+              "name": "Get-CohesityProtectionJob"
+            },
+            {
+              "name": "Set-CohesityProtectionJob"
+            },
+            {
+              "name": "Stop-CohesityProtectionJob"
+            }
+          ]
+        },
+        {
+          "name": "CohesityVolume",
+          "children": [
+            {
+              "name": "Dismount-CohesityVolume"
+            },
+            {
+              "name": "Mount-CohesityVolume"
+            }
+          ]
+        },
+        {
+          "name": "CohesityFilesForRestore",
+          "children": [
+            {
+              "name": "Find-CohesityFilesForRestore"
+            }
+          ]
+        },
+        {
+          "name": "CohesityObjectsForRestore",
+          "children": [
+            {
+              "name": "Find-CohesityObjectsForRestore"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAgentStatus",
+          "children": [
+            {
+              "name": "Get-CohesityAgentStatus"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAlert",
+          "children": [
+            {
+              "name": "Get-CohesityAlert"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAlertResolution",
+          "children": [
+            {
+              "name": "Get-CohesityAlertResolution"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAuditLog",
+          "children": [
+            {
+              "name": "Get-CohesityAuditLog"
+            }
+          ]
+        },
+        {
+          "name": "CohesityClusterConfiguration",
+          "children": [
+            {
+              "name": "Get-CohesityClusterConfiguration"
+            },
+            {
+              "name": "Set-CohesityClusterConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "CohesityClusterPartition",
+          "children": [
+            {
+              "name": "Get-CohesityClusterPartition"
+            }
+          ]
+        },
+        {
+          "name": "CohesityMSSQLObject",
+          "children": [
+            {
+              "name": "Get-CohesityMSSQLObject"
+            },
+            {
+              "name": "Restore-CohesityMSSQLObject"
+            },
+            {
+              "name": "Copy-CohesityMSSQLObject"
+            }
+          ]
+        },
+        {
+          "name": "CohesityPhysicalAgent",
+          "children": [
+            {
+              "name": "Get-CohesityPhysicalAgent"
+            },
+            {
+              "name": "Update-CohesityPhysicalAgent"
+            }
+          ]
+        },
+        {
+          "name": "CohesityPrivilege",
+          "children": [
+            {
+              "name": "Get-CohesityPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteCluster",
+          "children": [
+            {
+              "name": "Get-CohesityRemoteCluster"
+            },
+            {
+              "name": "Register-CohesityRemoteCluster"
+            },
+            {
+              "name": "Set-CohesityRemoteCluster"
+            },
+            {
+              "name": "Unregister-CohesityRemoteCluster"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRestoreTask",
+          "children": [
+            {
+              "name": "Get-CohesityRestoreTask"
+            },
+            {
+              "name": "Stop-CohesityRestoreTask"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRole",
+          "children": [
+            {
+              "name": "Get-CohesityRole"
+            }
+          ]
+        },
+        {
+          "name": "CohesityUser",
+          "children": [
+            {
+              "name": "Get-CohesityUser"
+            },
+            {
+              "name": "New-CohesityUser"
+            },
+            {
+              "name": "Remove-CohesityUser"
+            },
+            {
+              "name": "Set-CohesityUser"
+            }
+          ]
+        },
+        {
+          "name": "CohesityView",
+          "children": [
+            {
+              "name": "Get-CohesityView"
+            },
+            {
+              "name": "New-CohesityView"
+            },
+            {
+              "name": "Remove-CohesityView"
+            },
+            {
+              "name": "Set-CohesityView"
+            },
+            {
+              "name": "Copy-CohesityView"
+            }
+          ]
+        },
+        {
+          "name": "CohesityVMwareVM",
+          "children": [
+            {
+              "name": "Get-CohesityVMwareVM"
+            },
+            {
+              "name": "Copy-CohesityVMwareVM"
+            },
+            {
+              "name": "Restore-CohesityVMwareVM"
+            }
+          ]
+        },
+        {
+          "name": "CohesityReplicationEncryptionKey",
+          "children": [
+            {
+              "name": "New-CohesityReplicationEncryptionKey"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceAcropolis",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceAcropolis"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceMSSQL",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceMSSQL"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceNetApp",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceNetApp"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceNFS",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceNFS"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourcePhysical",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourcePhysical"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourcePureStorageArray",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourcePureStorageArray"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceSMB",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceSMB"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceVMware",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceVMware"
+            }
+          ]
+        },
+        {
+          "name": "CohesityClone",
+          "children": [
+            {
+              "name": "Remove-CohesityClone"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionPolicy",
+          "children": [
+            {
+              "name": "Remove-CohesityProtectionPolicy"
+            },
+            {
+              "name": "Get-CohesityProtectionPolicy"
+            },
+            {
+              "name": "New-CohesityProtectionPolicy"
+            },
+            {
+              "name": "Set-CohesityProtectionPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CohesitySnapshot",
+          "children": [
+            {
+              "name": "Remove-CohesitySnapshot"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAcropolisVM",
+          "children": [
+            {
+              "name": "Restore-CohesityAcropolisVM"
+            }
+          ]
+        },
+        {
+          "name": "CohesityFile",
+          "children": [
+            {
+              "name": "Restore-CohesityFile"
+            },
+            {
+              "name": "Save-CohesityFile"
+            }
+          ]
+        },
+        {
+          "name": "CohesityHyperVVM",
+          "children": [
+            {
+              "name": "Restore-CohesityHyperVVM"
+            }
+          ]
+        },
+        {
+          "name": "CohesityApplicationServer",
+          "children": [
+            {
+              "name": "Unregister-CohesityApplicationServer"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSource",
+          "children": [
+            {
+              "name": "Unregister-CohesityProtectionSource"
+            },
+            {
+              "name": "Update-CohesityProtectionSource"
+            },
+            {
+              "name": "Get-CohesityProtectionSource"
+            },
+            {
+              "name": "Set-CohesityProtectionSource"
+            }
+          ]
+        },
+        {
+          "name": "CohesityExternalClient",
+          "children": [
+            {
+              "name": "Add-CohesityExternalClient"
+            },
+            {
+              "name": "Get-CohesityExternalClient"
+            },
+            {
+              "name": "Remove-CohesityExternalClient"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceForPrincipal",
+          "children": [
+            {
+              "name": "Add-CohesityProtectionSourceForPrincipal"
+            },
+            {
+              "name": "Get-CohesityProtectionSourceForPrincipal"
+            },
+            {
+              "name": "Remove-CohesityProtectionSourceForPrincipal"
+            }
+          ]
+        },
+        {
+          "name": "CohesityUserAPIKey",
+          "children": [
+            {
+              "name": "Add-CohesityUserAPIKey"
+            },
+            {
+              "name": "Get-CohesityUserAPIKey"
+            },
+            {
+              "name": "Remove-CohesityUserAPIKey"
+            }
+          ]
+        },
+        {
+          "name": "CohesityViewForPrincipal",
+          "children": [
+            {
+              "name": "Add-CohesityViewForPrincipal"
+            },
+            {
+              "name": "Get-CohesityViewForPrincipal"
+            },
+            {
+              "name": "Remove-CohesityViewForPrincipal"
+            }
+          ]
+        },
+        {
+          "name": "CohesityViewAllowlist",
+          "children": [
+            {
+              "name": "Add-CohesityViewAllowlist"
+            },
+            {
+              "name": "Get-CohesityViewAllowlist"
+            },
+            {
+              "name": "Remove-CohesityViewAllowlist"
+            }
+          ]
+        },
+        {
+          "name": "CohesityViewShareAllowlist",
+          "children": [
+            {
+              "name": "Add-CohesityViewShareAllowlist"
+            },
+            {
+              "name": "Get-CohesityViewShareAllowlist"
+            },
+            {
+              "name": "Remove-CohesityViewShareAllowlist"
+            }
+          ]
+        },
+        {
+          "name": "CohesityFileSnapshot",
+          "children": [
+            {
+              "name": "Find-CohesityFileSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "CohesityObjectSnapshot",
+          "children": [
+            {
+              "name": "Find-CohesityObjectSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteFileSnapshot",
+          "children": [
+            {
+              "name": "Find-CohesityRemoteFileSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "CohesityActiveDirectory",
+          "children": [
+            {
+              "name": "Get-CohesityActiveDirectory"
+            },
+            {
+              "name": "New-CohesityActiveDirectory"
+            },
+            {
+              "name": "Remove-CohesityActiveDirectory"
+            },
+            {
+              "name": "Update-CohesityActiveDirectory"
+            }
+          ]
+        },
+        {
+          "name": "CohesityCmdletConfig",
+          "children": [
+            {
+              "name": "Get-CohesityCmdletConfig"
+            },
+            {
+              "name": "Set-CohesityCmdletConfig"
+            }
+          ]
+        },
+        {
+          "name": "CohesityInterfaceGroup",
+          "children": [
+            {
+              "name": "Get-CohesityInterfaceGroup"
+            }
+          ]
+        },
+        {
+          "name": "CohesityObject",
+          "children": [
+            {
+              "name": "Get-CohesityObject"
+            }
+          ]
+        },
+        {
+          "name": "CohesityOrganization",
+          "children": [
+            {
+              "name": "Get-CohesityOrganization"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionJobRun",
+          "children": [
+            {
+              "name": "Get-CohesityProtectionJobRun"
+            },
+            {
+              "name": "Update-CohesityProtectionJobRun"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionJobStatus",
+          "children": [
+            {
+              "name": "Get-CohesityProtectionJobStatus"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceObject",
+          "children": [
+            {
+              "name": "Get-CohesityProtectionSourceObject"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceSummary",
+          "children": [
+            {
+              "name": "Get-CohesityProtectionSourceSummary"
+            }
+          ]
+        },
+        {
+          "name": "CohesityQOSPolicy",
+          "children": [
+            {
+              "name": "Get-CohesityQOSPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRoutes",
+          "children": [
+            {
+              "name": "Get-CohesityRoutes"
+            },
+            {
+              "name": "New-CohesityRoutes"
+            },
+            {
+              "name": "Remove-CohesityRoutes"
+            }
+          ]
+        },
+        {
+          "name": "CohesityStorageDomain",
+          "children": [
+            {
+              "name": "Get-CohesityStorageDomain"
+            },
+            {
+              "name": "New-CohesityStorageDomain"
+            },
+            {
+              "name": "Set-CohesityStorageDomain"
+            }
+          ]
+        },
+        {
+          "name": "CohesityUserGroup",
+          "children": [
+            {
+              "name": "Get-CohesityUserGroup"
+            },
+            {
+              "name": "New-CohesityUserGroup"
+            },
+            {
+              "name": "Remove-CohesityUserGroup"
+            },
+            {
+              "name": "Update-CohesityUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "CohesityVault",
+          "children": [
+            {
+              "name": "Get-CohesityVault"
+            }
+          ]
+        },
+        {
+          "name": "CohesityVirtualIP",
+          "children": [
+            {
+              "name": "Get-CohesityVirtualIP"
+            },
+            {
+              "name": "New-CohesityVirtualIP"
+            },
+            {
+              "name": "Remove-CohesityVirtualIP"
+            }
+          ]
+        },
+        {
+          "name": "CohesityViewDirectoryQuota",
+          "children": [
+            {
+              "name": "Get-CohesityViewDirectoryQuota"
+            },
+            {
+              "name": "Set-CohesityViewDirectoryQuota"
+            }
+          ]
+        },
+        {
+          "name": "CohesityVlan",
+          "children": [
+            {
+              "name": "Get-CohesityVlan"
+            },
+            {
+              "name": "New-CohesityVlan"
+            },
+            {
+              "name": "Remove-CohesityVlan"
+            },
+            {
+              "name": "Update-CohesityVlan"
+            }
+          ]
+        },
+        {
+          "name": "CohesityGenericProtectionJob",
+          "children": [
+            {
+              "name": "New-CohesityGenericProtectionJob"
+            }
+          ]
+        },
+        {
+          "name": "CohesityNASProtectionJob",
+          "children": [
+            {
+              "name": "New-CohesityNASProtectionJob"
+            }
+          ]
+        },
+        {
+          "name": "CohesityHypervProtectionJob",
+          "children": [
+            {
+              "name": "New-CohesityHypervProtectionJob"
+            }
+          ]
+        },
+        {
+          "name": "CohesityPhysicalServerProtectionJob",
+          "children": [
+            {
+              "name": "New-CohesityPhysicalServerProtectionJob"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceAWS",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceAWS"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceHyperV",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceHyperV"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceIsilon",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceIsilon"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceO365",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceO365"
+            }
+          ]
+        },
+        {
+          "name": "CohesityBackupToView",
+          "children": [
+            {
+              "name": "Restore-CohesityBackupToView"
+            }
+          ]
+        },
+        {
+          "name": "CohesityFileV2",
+          "children": [
+            {
+              "name": "Restore-CohesityFileV2"
+            }
+          ]
+        },
+        {
+          "name": "CohesityOracleDatabase",
+          "children": [
+            {
+              "name": "Restore-CohesityOracleDatabase"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteFile",
+          "children": [
+            {
+              "name": "Restore-CohesityRemoteFile"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteFileV2",
+          "children": [
+            {
+              "name": "Restore-CohesityRemoteFileV2"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteMSSQLObject",
+          "children": [
+            {
+              "name": "Restore-CohesityRemoteMSSQLObject"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteOracleDatabase",
+          "children": [
+            {
+              "name": "Restore-CohesityRemoteOracleDatabase"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAlertResolutions",
+          "children": [
+            {
+              "name": "Set-CohesityAlertResolutions"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAllowlist",
+          "children": [
+            {
+              "name": "Set-CohesityAllowlist"
+            }
+          ]
+        },
+        {
+          "name": "CohesitySnapshotRetention",
+          "children": [
+            {
+              "name": "Set-CohesitySnapshotRetention"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cohesity.PowerShell",
+      "companyName": "Cohesity",
+      "children": [
+        {
+          "name": "CohesityViewShare",
+          "children": [
+            {
+              "name": "Add-CohesityViewShare"
+            },
+            {
+              "name": "Get-CohesityViewShare"
+            },
+            {
+              "name": "Remove-CohesityViewShare"
+            }
+          ]
+        },
+        {
+          "name": "CohesityCluster",
+          "children": [
+            {
+              "name": "Connect-CohesityCluster"
+            },
+            {
+              "name": "Disconnect-CohesityCluster"
+            },
+            {
+              "name": "Get-CohesityCluster"
+            }
+          ]
+        },
+        {
+          "name": "CohesityDateTimeToUsecs",
+          "children": [
+            {
+              "name": "Convert-CohesityDateTimeToUsecs"
+            }
+          ]
+        },
+        {
+          "name": "CohesityUsecsToDateTime",
+          "children": [
+            {
+              "name": "Convert-CohesityUsecsToDateTime"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionJob",
+          "children": [
+            {
+              "name": "Disable-CohesityProtectionJob"
+            },
+            {
+              "name": "Enable-CohesityProtectionJob"
+            },
+            {
+              "name": "New-CohesityProtectionJob"
+            },
+            {
+              "name": "Remove-CohesityProtectionJob"
+            },
+            {
+              "name": "Resume-CohesityProtectionJob"
+            },
+            {
+              "name": "Start-CohesityProtectionJob"
+            },
+            {
+              "name": "Suspend-CohesityProtectionJob"
+            },
+            {
+              "name": "Get-CohesityProtectionJob"
+            },
+            {
+              "name": "Set-CohesityProtectionJob"
+            },
+            {
+              "name": "Stop-CohesityProtectionJob"
+            }
+          ]
+        },
+        {
+          "name": "CohesityVolume",
+          "children": [
+            {
+              "name": "Dismount-CohesityVolume"
+            },
+            {
+              "name": "Mount-CohesityVolume"
+            }
+          ]
+        },
+        {
+          "name": "CohesityFilesForRestore",
+          "children": [
+            {
+              "name": "Find-CohesityFilesForRestore"
+            }
+          ]
+        },
+        {
+          "name": "CohesityObjectsForRestore",
+          "children": [
+            {
+              "name": "Find-CohesityObjectsForRestore"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAgentStatus",
+          "children": [
+            {
+              "name": "Get-CohesityAgentStatus"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAlert",
+          "children": [
+            {
+              "name": "Get-CohesityAlert"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAlertResolution",
+          "children": [
+            {
+              "name": "Get-CohesityAlertResolution"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAuditLog",
+          "children": [
+            {
+              "name": "Get-CohesityAuditLog"
+            }
+          ]
+        },
+        {
+          "name": "CohesityClusterConfiguration",
+          "children": [
+            {
+              "name": "Get-CohesityClusterConfiguration"
+            },
+            {
+              "name": "Set-CohesityClusterConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "CohesityClusterPartition",
+          "children": [
+            {
+              "name": "Get-CohesityClusterPartition"
+            }
+          ]
+        },
+        {
+          "name": "CohesityMSSQLObject",
+          "children": [
+            {
+              "name": "Get-CohesityMSSQLObject"
+            },
+            {
+              "name": "Restore-CohesityMSSQLObject"
+            },
+            {
+              "name": "Copy-CohesityMSSQLObject"
+            }
+          ]
+        },
+        {
+          "name": "CohesityPhysicalAgent",
+          "children": [
+            {
+              "name": "Get-CohesityPhysicalAgent"
+            },
+            {
+              "name": "Update-CohesityPhysicalAgent"
+            }
+          ]
+        },
+        {
+          "name": "CohesityPrivilege",
+          "children": [
+            {
+              "name": "Get-CohesityPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteCluster",
+          "children": [
+            {
+              "name": "Get-CohesityRemoteCluster"
+            },
+            {
+              "name": "Register-CohesityRemoteCluster"
+            },
+            {
+              "name": "Set-CohesityRemoteCluster"
+            },
+            {
+              "name": "Unregister-CohesityRemoteCluster"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRestoreTask",
+          "children": [
+            {
+              "name": "Get-CohesityRestoreTask"
+            },
+            {
+              "name": "Stop-CohesityRestoreTask"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRole",
+          "children": [
+            {
+              "name": "Get-CohesityRole"
+            }
+          ]
+        },
+        {
+          "name": "CohesityUser",
+          "children": [
+            {
+              "name": "Get-CohesityUser"
+            },
+            {
+              "name": "New-CohesityUser"
+            },
+            {
+              "name": "Remove-CohesityUser"
+            },
+            {
+              "name": "Set-CohesityUser"
+            }
+          ]
+        },
+        {
+          "name": "CohesityView",
+          "children": [
+            {
+              "name": "Get-CohesityView"
+            },
+            {
+              "name": "New-CohesityView"
+            },
+            {
+              "name": "Remove-CohesityView"
+            },
+            {
+              "name": "Set-CohesityView"
+            },
+            {
+              "name": "Copy-CohesityView"
+            }
+          ]
+        },
+        {
+          "name": "CohesityVMwareVM",
+          "children": [
+            {
+              "name": "Get-CohesityVMwareVM"
+            },
+            {
+              "name": "Copy-CohesityVMwareVM"
+            },
+            {
+              "name": "Restore-CohesityVMwareVM"
+            }
+          ]
+        },
+        {
+          "name": "CohesityReplicationEncryptionKey",
+          "children": [
+            {
+              "name": "New-CohesityReplicationEncryptionKey"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceAcropolis",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceAcropolis"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceMSSQL",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceMSSQL"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceNetApp",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceNetApp"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceNFS",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceNFS"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourcePhysical",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourcePhysical"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourcePureStorageArray",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourcePureStorageArray"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceSMB",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceSMB"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceVMware",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceVMware"
+            }
+          ]
+        },
+        {
+          "name": "CohesityClone",
+          "children": [
+            {
+              "name": "Remove-CohesityClone"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionPolicy",
+          "children": [
+            {
+              "name": "Remove-CohesityProtectionPolicy"
+            },
+            {
+              "name": "Get-CohesityProtectionPolicy"
+            },
+            {
+              "name": "New-CohesityProtectionPolicy"
+            },
+            {
+              "name": "Set-CohesityProtectionPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CohesitySnapshot",
+          "children": [
+            {
+              "name": "Remove-CohesitySnapshot"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAcropolisVM",
+          "children": [
+            {
+              "name": "Restore-CohesityAcropolisVM"
+            }
+          ]
+        },
+        {
+          "name": "CohesityFile",
+          "children": [
+            {
+              "name": "Restore-CohesityFile"
+            },
+            {
+              "name": "Save-CohesityFile"
+            }
+          ]
+        },
+        {
+          "name": "CohesityHyperVVM",
+          "children": [
+            {
+              "name": "Restore-CohesityHyperVVM"
+            }
+          ]
+        },
+        {
+          "name": "CohesityApplicationServer",
+          "children": [
+            {
+              "name": "Unregister-CohesityApplicationServer"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSource",
+          "children": [
+            {
+              "name": "Unregister-CohesityProtectionSource"
+            },
+            {
+              "name": "Update-CohesityProtectionSource"
+            },
+            {
+              "name": "Get-CohesityProtectionSource"
+            },
+            {
+              "name": "Set-CohesityProtectionSource"
+            }
+          ]
+        },
+        {
+          "name": "CohesityExternalClient",
+          "children": [
+            {
+              "name": "Add-CohesityExternalClient"
+            },
+            {
+              "name": "Get-CohesityExternalClient"
+            },
+            {
+              "name": "Remove-CohesityExternalClient"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceForPrincipal",
+          "children": [
+            {
+              "name": "Add-CohesityProtectionSourceForPrincipal"
+            },
+            {
+              "name": "Get-CohesityProtectionSourceForPrincipal"
+            },
+            {
+              "name": "Remove-CohesityProtectionSourceForPrincipal"
+            }
+          ]
+        },
+        {
+          "name": "CohesityUserAPIKey",
+          "children": [
+            {
+              "name": "Add-CohesityUserAPIKey"
+            },
+            {
+              "name": "Get-CohesityUserAPIKey"
+            },
+            {
+              "name": "Remove-CohesityUserAPIKey"
+            }
+          ]
+        },
+        {
+          "name": "CohesityViewForPrincipal",
+          "children": [
+            {
+              "name": "Add-CohesityViewForPrincipal"
+            },
+            {
+              "name": "Get-CohesityViewForPrincipal"
+            },
+            {
+              "name": "Remove-CohesityViewForPrincipal"
+            }
+          ]
+        },
+        {
+          "name": "CohesityViewAllowlist",
+          "children": [
+            {
+              "name": "Add-CohesityViewAllowlist"
+            },
+            {
+              "name": "Get-CohesityViewAllowlist"
+            },
+            {
+              "name": "Remove-CohesityViewAllowlist"
+            }
+          ]
+        },
+        {
+          "name": "CohesityViewShareAllowlist",
+          "children": [
+            {
+              "name": "Add-CohesityViewShareAllowlist"
+            },
+            {
+              "name": "Get-CohesityViewShareAllowlist"
+            },
+            {
+              "name": "Remove-CohesityViewShareAllowlist"
+            }
+          ]
+        },
+        {
+          "name": "CohesityFileSnapshot",
+          "children": [
+            {
+              "name": "Find-CohesityFileSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "CohesityObjectSnapshot",
+          "children": [
+            {
+              "name": "Find-CohesityObjectSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteFileSnapshot",
+          "children": [
+            {
+              "name": "Find-CohesityRemoteFileSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "CohesityActiveDirectory",
+          "children": [
+            {
+              "name": "Get-CohesityActiveDirectory"
+            },
+            {
+              "name": "New-CohesityActiveDirectory"
+            },
+            {
+              "name": "Remove-CohesityActiveDirectory"
+            },
+            {
+              "name": "Update-CohesityActiveDirectory"
+            }
+          ]
+        },
+        {
+          "name": "CohesityCmdletConfig",
+          "children": [
+            {
+              "name": "Get-CohesityCmdletConfig"
+            },
+            {
+              "name": "Set-CohesityCmdletConfig"
+            }
+          ]
+        },
+        {
+          "name": "CohesityInterfaceGroup",
+          "children": [
+            {
+              "name": "Get-CohesityInterfaceGroup"
+            }
+          ]
+        },
+        {
+          "name": "CohesityObject",
+          "children": [
+            {
+              "name": "Get-CohesityObject"
+            }
+          ]
+        },
+        {
+          "name": "CohesityOrganization",
+          "children": [
+            {
+              "name": "Get-CohesityOrganization"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionJobRun",
+          "children": [
+            {
+              "name": "Get-CohesityProtectionJobRun"
+            },
+            {
+              "name": "Update-CohesityProtectionJobRun"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionJobStatus",
+          "children": [
+            {
+              "name": "Get-CohesityProtectionJobStatus"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceObject",
+          "children": [
+            {
+              "name": "Get-CohesityProtectionSourceObject"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceSummary",
+          "children": [
+            {
+              "name": "Get-CohesityProtectionSourceSummary"
+            }
+          ]
+        },
+        {
+          "name": "CohesityQOSPolicy",
+          "children": [
+            {
+              "name": "Get-CohesityQOSPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRoutes",
+          "children": [
+            {
+              "name": "Get-CohesityRoutes"
+            },
+            {
+              "name": "New-CohesityRoutes"
+            },
+            {
+              "name": "Remove-CohesityRoutes"
+            }
+          ]
+        },
+        {
+          "name": "CohesityStorageDomain",
+          "children": [
+            {
+              "name": "Get-CohesityStorageDomain"
+            },
+            {
+              "name": "New-CohesityStorageDomain"
+            },
+            {
+              "name": "Set-CohesityStorageDomain"
+            }
+          ]
+        },
+        {
+          "name": "CohesityUserGroup",
+          "children": [
+            {
+              "name": "Get-CohesityUserGroup"
+            },
+            {
+              "name": "New-CohesityUserGroup"
+            },
+            {
+              "name": "Remove-CohesityUserGroup"
+            },
+            {
+              "name": "Update-CohesityUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "CohesityVault",
+          "children": [
+            {
+              "name": "Get-CohesityVault"
+            }
+          ]
+        },
+        {
+          "name": "CohesityVirtualIP",
+          "children": [
+            {
+              "name": "Get-CohesityVirtualIP"
+            },
+            {
+              "name": "New-CohesityVirtualIP"
+            },
+            {
+              "name": "Remove-CohesityVirtualIP"
+            }
+          ]
+        },
+        {
+          "name": "CohesityViewDirectoryQuota",
+          "children": [
+            {
+              "name": "Get-CohesityViewDirectoryQuota"
+            },
+            {
+              "name": "Set-CohesityViewDirectoryQuota"
+            }
+          ]
+        },
+        {
+          "name": "CohesityVlan",
+          "children": [
+            {
+              "name": "Get-CohesityVlan"
+            },
+            {
+              "name": "New-CohesityVlan"
+            },
+            {
+              "name": "Remove-CohesityVlan"
+            },
+            {
+              "name": "Update-CohesityVlan"
+            }
+          ]
+        },
+        {
+          "name": "CohesityGenericProtectionJob",
+          "children": [
+            {
+              "name": "New-CohesityGenericProtectionJob"
+            }
+          ]
+        },
+        {
+          "name": "CohesityNASProtectionJob",
+          "children": [
+            {
+              "name": "New-CohesityNASProtectionJob"
+            }
+          ]
+        },
+        {
+          "name": "CohesityHypervProtectionJob",
+          "children": [
+            {
+              "name": "New-CohesityHypervProtectionJob"
+            }
+          ]
+        },
+        {
+          "name": "CohesityPhysicalServerProtectionJob",
+          "children": [
+            {
+              "name": "New-CohesityPhysicalServerProtectionJob"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceAWS",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceAWS"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceHyperV",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceHyperV"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceIsilon",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceIsilon"
+            }
+          ]
+        },
+        {
+          "name": "CohesityProtectionSourceO365",
+          "children": [
+            {
+              "name": "Register-CohesityProtectionSourceO365"
+            }
+          ]
+        },
+        {
+          "name": "CohesityBackupToView",
+          "children": [
+            {
+              "name": "Restore-CohesityBackupToView"
+            }
+          ]
+        },
+        {
+          "name": "CohesityFileV2",
+          "children": [
+            {
+              "name": "Restore-CohesityFileV2"
+            }
+          ]
+        },
+        {
+          "name": "CohesityOracleDatabase",
+          "children": [
+            {
+              "name": "Restore-CohesityOracleDatabase"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteFile",
+          "children": [
+            {
+              "name": "Restore-CohesityRemoteFile"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteFileV2",
+          "children": [
+            {
+              "name": "Restore-CohesityRemoteFileV2"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteMSSQLObject",
+          "children": [
+            {
+              "name": "Restore-CohesityRemoteMSSQLObject"
+            }
+          ]
+        },
+        {
+          "name": "CohesityRemoteOracleDatabase",
+          "children": [
+            {
+              "name": "Restore-CohesityRemoteOracleDatabase"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAlertResolutions",
+          "children": [
+            {
+              "name": "Set-CohesityAlertResolutions"
+            }
+          ]
+        },
+        {
+          "name": "CohesityAllowlist",
+          "children": [
+            {
+              "name": "Set-CohesityAllowlist"
+            }
+          ]
+        },
+        {
+          "name": "CohesitySnapshotRetention",
+          "children": [
+            {
+              "name": "Set-CohesitySnapshotRetention"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

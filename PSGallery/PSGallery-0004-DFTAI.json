@@ -1,0 +1,125 @@
+{
+  "name": "DFTAI",
+  "children": [
+    {
+      "name": "MOFCompare",
+      "companyName": "DFTAI",
+      "children": [
+        {
+          "name": "MOF",
+          "children": [
+            {
+              "name": "Compare-MOF"
+            },
+            {
+              "name": "ConvertFrom-MOF"
+            }
+          ]
+        },
+        {
+          "name": "DscResourceCache",
+          "children": [
+            {
+              "name": "Initialize-DscResourceCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSTerraformParser",
+      "companyName": "DFTAI",
+      "children": [
+        {
+          "name": "TerraformPlan",
+          "children": [
+            {
+              "name": "Read-TerraformPlan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSKeepAChangeLog",
+      "companyName": "DFTAI",
+      "children": [
+        {
+          "name": "ChangeLog",
+          "children": [
+            {
+              "name": "New-ChangeLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StoragePre2K12",
+      "companyName": "DFTAI",
+      "children": [
+        {
+          "name": "Volume",
+          "children": [
+            {
+              "name": "Format-Volume"
+            },
+            {
+              "name": "Get-Volume"
+            },
+            {
+              "name": "Set-Volume"
+            }
+          ]
+        },
+        {
+          "name": "Disk",
+          "children": [
+            {
+              "name": "Get-Disk"
+            },
+            {
+              "name": "Initialize-Disk"
+            },
+            {
+              "name": "Set-Disk"
+            }
+          ]
+        },
+        {
+          "name": "Partition",
+          "children": [
+            {
+              "name": "Get-Partition"
+            },
+            {
+              "name": "New-Partition"
+            },
+            {
+              "name": "Resize-Partition"
+            },
+            {
+              "name": "Set-Partition"
+            }
+          ]
+        },
+        {
+          "name": "PartitionSupportedSize",
+          "children": [
+            {
+              "name": "Get-PartitionSupportedSize"
+            }
+          ]
+        },
+        {
+          "name": "HostStorageCache",
+          "children": [
+            {
+              "name": "Update-HostStorageCache"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

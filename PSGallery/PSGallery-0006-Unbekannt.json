@@ -1,0 +1,205 @@
+{
+  "name": "Unbekannt",
+  "children": [
+    {
+      "name": "ManageBootStick",
+      "companyName": "Unbekannt",
+      "children": [
+        {
+          "name": "MBSBootEntry",
+          "children": [
+            {
+              "name": "Get-MBSBootEntry"
+            },
+            {
+              "name": "Remove-MBSBootEntry"
+            }
+          ]
+        },
+        {
+          "name": "MBSBootVolume",
+          "children": [
+            {
+              "name": "Get-MBSBootVolume"
+            }
+          ]
+        },
+        {
+          "name": "MBSBootDiskEntry",
+          "children": [
+            {
+              "name": "New-MBSBootDiskEntry"
+            }
+          ]
+        },
+        {
+          "name": "MBSBootLoader",
+          "children": [
+            {
+              "name": "New-MBSBootLoader"
+            }
+          ]
+        },
+        {
+          "name": "MBSBootRamDriveEntry",
+          "children": [
+            {
+              "name": "New-MBSBootRamDriveEntry"
+            }
+          ]
+        },
+        {
+          "name": "MBSBootVhdBootEntry",
+          "children": [
+            {
+              "name": "New-MBSBootVhdBootEntry"
+            }
+          ]
+        },
+        {
+          "name": "MBSUsbBootStick",
+          "children": [
+            {
+              "name": "New-MBSUsbBootStick"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProCrm.Xrm.PowerShell.MetaData",
+      "companyName": "Unbekannt",
+      "children": [
+        {
+          "name": "AllCrmSolutionDataToCsv",
+          "children": [
+            {
+              "name": "Export-AllCrmSolutionDataToCsv"
+            }
+          ]
+        },
+        {
+          "name": "CrmAutonumberAttribute",
+          "children": [
+            {
+              "name": "New-CrmAutonumberAttribute"
+            }
+          ]
+        },
+        {
+          "name": "CrmEntity",
+          "children": [
+            {
+              "name": "New-CrmEntity"
+            },
+            {
+              "name": "Remove-CrmEntity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProCrm.Xrm.PowerShell.Helpers",
+      "companyName": "Unbekannt",
+      "children": [
+        {
+          "name": "XrmWorkflow",
+          "children": [
+            {
+              "name": "Invoke-XrmWorkflow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProCrm.Xrm.PowerShell.Deployment",
+      "companyName": "Unbekannt",
+      "children": [
+        {
+          "name": "XrmPublisherAndDefaultSolution",
+          "children": [
+            {
+              "name": "New-XrmPublisherAndDefaultSolution"
+            }
+          ]
+        },
+        {
+          "name": "XrmSolutionVersionIncremention",
+          "children": [
+            {
+              "name": "Invoke-XrmSolutionVersionIncremention"
+            }
+          ]
+        },
+        {
+          "name": "XrmSolution",
+          "children": [
+            {
+              "name": "Import-XrmSolution"
+            },
+            {
+              "name": "Export-XrmSolution"
+            },
+            {
+              "name": "Remove-XrmSolution"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProCrm.Xrm.PowerShell.Connect",
+      "companyName": "Unbekannt",
+      "children": [
+        {
+          "name": "CrmConnectionInteractive",
+          "children": [
+            {
+              "name": "Invoke-CrmConnectionInteractive"
+            }
+          ]
+        },
+        {
+          "name": "CrmConnection",
+          "children": [
+            {
+              "name": "Invoke-CrmConnection"
+            }
+          ]
+        },
+        {
+          "name": "Credentials",
+          "children": [
+            {
+              "name": "Get-Credentials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProCrm.Xrm.PowerShell.Admin",
+      "companyName": "Unbekannt",
+      "children": [
+        {
+          "name": "XrmUserToSecurityRole",
+          "children": [
+            {
+              "name": "Add-XrmUserToSecurityRole"
+            }
+          ]
+        },
+        {
+          "name": "XrmRecordsCount",
+          "children": [
+            {
+              "name": "Get-XrmRecordsCount"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

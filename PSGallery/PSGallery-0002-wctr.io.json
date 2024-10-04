@@ -1,0 +1,47 @@
+{
+  "name": "wctr.io",
+  "children": [
+    {
+      "name": "base64-guid_transform",
+      "companyName": "wctr.io",
+      "children": [
+        {
+          "name": "Base64GuidToGuid",
+          "children": [
+            {
+              "name": "Convert-Base64GuidToGuid"
+            }
+          ]
+        },
+        {
+          "name": "GuidToBase64Guid",
+          "children": [
+            {
+              "name": "Convert-GuidToBase64Guid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Myjson",
+      "companyName": "wctr.io",
+      "children": [
+        {
+          "name": "Myjson",
+          "children": [
+            {
+              "name": "Get-Myjson"
+            },
+            {
+              "name": "Set-Myjson"
+            },
+            {
+              "name": "New-Myjson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

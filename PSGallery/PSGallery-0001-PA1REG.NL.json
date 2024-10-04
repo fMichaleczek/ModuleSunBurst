@@ -1,0 +1,35 @@
+{
+  "name": "PA1REG.NL",
+  "children": [
+    {
+      "name": "PSDxExpeditions",
+      "companyName": "PA1REG.NL",
+      "children": [
+        {
+          "name": "DxHrdAlarmFile",
+          "children": [
+            {
+              "name": "Update-DxHrdAlarmFile"
+            }
+          ]
+        },
+        {
+          "name": "DxVe7ccAlarmFile",
+          "children": [
+            {
+              "name": "Update-DxVe7ccAlarmFile"
+            }
+          ]
+        },
+        {
+          "name": "DxCheckApplicationRunning",
+          "children": [
+            {
+              "name": "Get-DxCheckApplicationRunning"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

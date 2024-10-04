@@ -1,0 +1,41 @@
+{
+  "name": "Get Random AB",
+  "children": [
+    {
+      "name": "InvokeAsSystem",
+      "companyName": "Get Random AB",
+      "children": [
+        {
+          "name": "AsSystem",
+          "children": [
+            {
+              "name": "Invoke-AsSystem"
+            }
+          ]
+        },
+        {
+          "name": "AsService",
+          "children": [
+            {
+              "name": "Invoke-AsService"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MeasureScript",
+      "companyName": "Get Random AB",
+      "children": [
+        {
+          "name": "Script",
+          "children": [
+            {
+              "name": "Measure-Script"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

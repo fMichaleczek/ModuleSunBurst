@@ -1,0 +1,58 @@
+{
+  "name": "Valorem Reply",
+  "children": [
+    {
+      "name": "ManageRoles",
+      "companyName": "Valorem Reply",
+      "children": [
+        {
+          "name": "Role",
+          "children": [
+            {
+              "name": "Get-Role"
+            },
+            {
+              "name": "Set-Role"
+            },
+            {
+              "name": "New-Role"
+            },
+            {
+              "name": "Remove-Role"
+            }
+          ]
+        },
+        {
+          "name": "RoleActions",
+          "children": [
+            {
+              "name": "Get-RoleActions"
+            },
+            {
+              "name": "Set-RoleActions"
+            }
+          ]
+        },
+        {
+          "name": "RoleScope",
+          "children": [
+            {
+              "name": "Get-RoleScope"
+            },
+            {
+              "name": "Set-RoleScope"
+            }
+          ]
+        },
+        {
+          "name": "RoleHelp",
+          "children": [
+            {
+              "name": "Get-RoleHelp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

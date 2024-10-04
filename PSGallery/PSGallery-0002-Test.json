@@ -1,0 +1,93 @@
+{
+  "name": "Test",
+  "children": [
+    {
+      "name": "ChocolateyTools",
+      "companyName": "Test",
+      "children": [
+        {
+          "name": "ChocolateyPackage",
+          "children": [
+            {
+              "name": "New-ChocolateyPackage"
+            },
+            {
+              "name": "Publish-ChocolateyPackage"
+            },
+            {
+              "name": "Test-ChocolateyPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pallavi-powershell-module",
+      "companyName": "test",
+      "children": [
+        {
+          "name": "TwilioService",
+          "children": [
+            {
+              "name": "Connect-TwilioService"
+            }
+          ]
+        },
+        {
+          "name": "TwilioCredentials",
+          "children": [
+            {
+              "name": "Test-TwilioCredentials"
+            }
+          ]
+        },
+        {
+          "name": "TwilioApiUri",
+          "children": [
+            {
+              "name": "Get-TwilioApiUri"
+            },
+            {
+              "name": "Set-TwilioApiUri"
+            }
+          ]
+        },
+        {
+          "name": "TwilioAccountPhoneNumber",
+          "children": [
+            {
+              "name": "Get-TwilioAccountPhoneNumber"
+            },
+            {
+              "name": "Set-TwilioAccountPhoneNumber"
+            }
+          ]
+        },
+        {
+          "name": "TwilioSMS",
+          "children": [
+            {
+              "name": "Send-TwilioSMS"
+            }
+          ]
+        },
+        {
+          "name": "TwilioSMSHistory",
+          "children": [
+            {
+              "name": "Get-TwilioSMSHistory"
+            }
+          ]
+        },
+        {
+          "name": "TwilioPhoneNumberInformation",
+          "children": [
+            {
+              "name": "Get-TwilioPhoneNumberInformation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

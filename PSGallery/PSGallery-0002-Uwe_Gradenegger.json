@@ -1,0 +1,315 @@
+{
+  "name": "Uwe Gradenegger",
+  "children": [
+    {
+      "name": "PSGhostWriter",
+      "companyName": "Uwe Gradenegger",
+      "children": [
+        {
+          "name": "WordDocument",
+          "children": [
+            {
+              "name": "Add-WordDocument"
+            },
+            {
+              "name": "Close-WordDocument"
+            },
+            {
+              "name": "Open-WordDocument"
+            },
+            {
+              "name": "Save-WordDocument"
+            }
+          ]
+        },
+        {
+          "name": "WordDraftWatermark",
+          "children": [
+            {
+              "name": "Add-WordDraftWatermark"
+            }
+          ]
+        },
+        {
+          "name": "WordLineBreak",
+          "children": [
+            {
+              "name": "Add-WordLineBreak"
+            }
+          ]
+        },
+        {
+          "name": "WordPageBreak",
+          "children": [
+            {
+              "name": "Add-WordPageBreak"
+            }
+          ]
+        },
+        {
+          "name": "WordPictureToHeader",
+          "children": [
+            {
+              "name": "Add-WordPictureToHeader"
+            }
+          ]
+        },
+        {
+          "name": "WordSectionBreak",
+          "children": [
+            {
+              "name": "Add-WordSectionBreak"
+            }
+          ]
+        },
+        {
+          "name": "WordApplication",
+          "children": [
+            {
+              "name": "Close-WordApplication"
+            },
+            {
+              "name": "New-WordApplication"
+            }
+          ]
+        },
+        {
+          "name": "WordPattern",
+          "children": [
+            {
+              "name": "Edit-WordPattern"
+            }
+          ]
+        },
+        {
+          "name": "WordVersion",
+          "children": [
+            {
+              "name": "Get-WordVersion"
+            }
+          ]
+        },
+        {
+          "name": "WordTable",
+          "children": [
+            {
+              "name": "New-WordTable"
+            }
+          ]
+        },
+        {
+          "name": "WordLine",
+          "children": [
+            {
+              "name": "New-WordLine"
+            }
+          ]
+        },
+        {
+          "name": "WordDisabledItem",
+          "children": [
+            {
+              "name": "Remove-WordDisabledItem"
+            }
+          ]
+        },
+        {
+          "name": "WordSelection",
+          "children": [
+            {
+              "name": "Remove-WordSelection"
+            }
+          ]
+        },
+        {
+          "name": "WordPatternAndReplaceInDocument",
+          "children": [
+            {
+              "name": "Search-WordPatternAndReplaceInDocument"
+            }
+          ]
+        },
+        {
+          "name": "WordPatternAndReplaceInSelection",
+          "children": [
+            {
+              "name": "Search-WordPatternAndReplaceInSelection"
+            }
+          ]
+        },
+        {
+          "name": "WordDocumentTemplate",
+          "children": [
+            {
+              "name": "Set-WordDocumentTemplate"
+            }
+          ]
+        },
+        {
+          "name": "WordDocumentTitle",
+          "children": [
+            {
+              "name": "Set-WordDocumentTitle"
+            }
+          ]
+        },
+        {
+          "name": "WordFootersLinkedToSection",
+          "children": [
+            {
+              "name": "Set-WordFootersLinkedToSection"
+            }
+          ]
+        },
+        {
+          "name": "WordHeadersLinkedToSection",
+          "children": [
+            {
+              "name": "Set-WordHeadersLinkedToSection"
+            }
+          ]
+        },
+        {
+          "name": "WordPaperFormat",
+          "children": [
+            {
+              "name": "Set-WordPaperFormat"
+            }
+          ]
+        },
+        {
+          "name": "WordSelectionToBottomOfDocument",
+          "children": [
+            {
+              "name": "Set-WordSelectionToBottomOfDocument"
+            }
+          ]
+        },
+        {
+          "name": "WordSelectionToPattern",
+          "children": [
+            {
+              "name": "Set-WordSelectionToPattern"
+            }
+          ]
+        },
+        {
+          "name": "WordSelectionToTopOfDocument",
+          "children": [
+            {
+              "name": "Set-WordSelectionToTopOfDocument"
+            }
+          ]
+        },
+        {
+          "name": "WordStyleForSelection",
+          "children": [
+            {
+              "name": "Set-WordStyleForSelection"
+            }
+          ]
+        },
+        {
+          "name": "WordIsValidStyle",
+          "children": [
+            {
+              "name": "Test-WordIsValidStyle"
+            }
+          ]
+        },
+        {
+          "name": "WordDocumentFields",
+          "children": [
+            {
+              "name": "Update-WordDocumentFields"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSCertificateEnrollment",
+      "companyName": "Uwe Gradenegger",
+      "children": [
+        {
+          "name": "NDESOTP",
+          "children": [
+            {
+              "name": "Get-NDESOTP"
+            }
+          ]
+        },
+        {
+          "name": "NDESCertificate",
+          "children": [
+            {
+              "name": "Get-NDESCertificate"
+            }
+          ]
+        },
+        {
+          "name": "KeyStorageProvider",
+          "children": [
+            {
+              "name": "Get-KeyStorageProvider"
+            }
+          ]
+        },
+        {
+          "name": "IssuedCertificate",
+          "children": [
+            {
+              "name": "Get-IssuedCertificate"
+            },
+            {
+              "name": "Install-IssuedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "CertificateRequest",
+          "children": [
+            {
+              "name": "New-CertificateRequest"
+            }
+          ]
+        },
+        {
+          "name": "SignedCertificateRequest",
+          "children": [
+            {
+              "name": "New-SignedCertificateRequest"
+            }
+          ]
+        },
+        {
+          "name": "CertificateArchival",
+          "children": [
+            {
+              "name": "Undo-CertificateArchival"
+            }
+          ]
+        },
+        {
+          "name": "RemoteDesktopCertificate",
+          "children": [
+            {
+              "name": "Get-RemoteDesktopCertificate"
+            },
+            {
+              "name": "Set-RemoteDesktopCertificate"
+            }
+          ]
+        },
+        {
+          "name": "AutoEnrollmentTask",
+          "children": [
+            {
+              "name": "Invoke-AutoEnrollmentTask"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

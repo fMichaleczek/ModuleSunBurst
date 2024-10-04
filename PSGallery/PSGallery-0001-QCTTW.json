@@ -1,0 +1,98 @@
+{
+  "name": "QCTTW",
+  "children": [
+    {
+      "name": "QCT-Update-Management",
+      "companyName": "QCTTW",
+      "children": [
+        {
+          "name": "Driver",
+          "children": [
+            {
+              "name": "Get-Driver"
+            },
+            {
+              "name": "Install-Driver"
+            }
+          ]
+        },
+        {
+          "name": "DiskLocate",
+          "children": [
+            {
+              "name": "Enable-DiskLocate"
+            },
+            {
+              "name": "Disable-DiskLocate"
+            }
+          ]
+        },
+        {
+          "name": "SmartInfo",
+          "children": [
+            {
+              "name": "Get-SmartInfo"
+            }
+          ]
+        },
+        {
+          "name": "ClusterDriver",
+          "children": [
+            {
+              "name": "Get-ClusterDriver"
+            }
+          ]
+        },
+        {
+          "name": "WindowsUpdate",
+          "children": [
+            {
+              "name": "Check-WindowsUpdate"
+            },
+            {
+              "name": "Download-WindowsUpdate"
+            },
+            {
+              "name": "Install-WindowsUpdate"
+            }
+          ]
+        },
+        {
+          "name": "WindowsUpdateInstalledList",
+          "children": [
+            {
+              "name": "Get-WindowsUpdateInstalledList"
+            }
+          ]
+        },
+        {
+          "name": "OSVersion",
+          "children": [
+            {
+              "name": "Get-OSVersion"
+            }
+          ]
+        },
+        {
+          "name": "ServerPhysicalDisk",
+          "children": [
+            {
+              "name": "Get-ServerPhysicalDisk"
+            }
+          ]
+        },
+        {
+          "name": "SecuredCore",
+          "children": [
+            {
+              "name": "Get-SecuredCore"
+            },
+            {
+              "name": "Set-SecuredCore"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

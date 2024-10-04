@@ -1,0 +1,478 @@
+{
+  "name": "TY Consulting Pty Ltd",
+  "children": [
+    {
+      "name": "AzureTableEntity",
+      "companyName": "TY Consulting Pty Ltd",
+      "children": [
+        {
+          "name": "AzureTable*",
+          "children": [
+            {
+              "name": "*-AzureTable*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureServicePrincipalAccount",
+      "companyName": "TY Consulting Pty Ltd",
+      "children": [
+        {
+          "name": "AzServicePrincipalAccount",
+          "children": [
+            {
+              "name": "Add-AzServicePrincipalAccount"
+            }
+          ]
+        },
+        {
+          "name": "AzureADToken",
+          "children": [
+            {
+              "name": "Get-AzureADToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureKeyVaultPasswordRepo",
+      "companyName": "TY Consulting Pty Ltd",
+      "children": [
+        {
+          "name": "AzureKeyVaultPasswordRepository",
+          "children": [
+            {
+              "name": "Invoke-AzureKeyVaultPasswordRepository"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzPolicyTest",
+      "companyName": "TY Consulting Pty Ltd",
+      "children": [
+        {
+          "name": "AzPolicyDefinition",
+          "children": [
+            {
+              "name": "Test-AzPolicyDefinition"
+            }
+          ]
+        },
+        {
+          "name": "AzPolicySetDefinition",
+          "children": [
+            {
+              "name": "Test-AzPolicySetDefinition"
+            }
+          ]
+        },
+        {
+          "name": "JSONContent",
+          "children": [
+            {
+              "name": "Test-JSONContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpsMgrExtended",
+      "companyName": "TY Consulting Pty Ltd",
+      "children": [
+        {
+          "name": "OMManagementGroup",
+          "children": [
+            {
+              "name": "Connect-OMManagementGroup"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementPack",
+          "children": [
+            {
+              "name": "Get-OMManagementPack"
+            },
+            {
+              "name": "New-OMManagementPack"
+            },
+            {
+              "name": "Remove-OMManagementPack"
+            },
+            {
+              "name": "Copy-OMManagementPack"
+            }
+          ]
+        },
+        {
+          "name": "OM2StateEventMonitor",
+          "children": [
+            {
+              "name": "New-OM2StateEventMonitor"
+            }
+          ]
+        },
+        {
+          "name": "OMServiceMonitor",
+          "children": [
+            {
+              "name": "New-OMServiceMonitor"
+            }
+          ]
+        },
+        {
+          "name": "OM2StatePerformanceMonitor",
+          "children": [
+            {
+              "name": "New-OM2StatePerformanceMonitor"
+            }
+          ]
+        },
+        {
+          "name": "OMPerformanceCollectionRule",
+          "children": [
+            {
+              "name": "New-OMPerformanceCollectionRule"
+            }
+          ]
+        },
+        {
+          "name": "OMEventCollectionRule",
+          "children": [
+            {
+              "name": "New-OMEventCollectionRule"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementPackReference",
+          "children": [
+            {
+              "name": "New-OMManagementPackReference"
+            }
+          ]
+        },
+        {
+          "name": "OMPropertyOverride",
+          "children": [
+            {
+              "name": "New-OMPropertyOverride"
+            }
+          ]
+        },
+        {
+          "name": "OMConfigurationOverride",
+          "children": [
+            {
+              "name": "New-OMConfigurationOverride"
+            }
+          ]
+        },
+        {
+          "name": "OMOverride",
+          "children": [
+            {
+              "name": "New-OMOverride"
+            },
+            {
+              "name": "Remove-OMOverride"
+            }
+          ]
+        },
+        {
+          "name": "OMInstanceGroup",
+          "children": [
+            {
+              "name": "New-OMInstanceGroup"
+            }
+          ]
+        },
+        {
+          "name": "OMComputerGroup",
+          "children": [
+            {
+              "name": "New-OMComputerGroup"
+            }
+          ]
+        },
+        {
+          "name": "OMGroup",
+          "children": [
+            {
+              "name": "Remove-OMGroup"
+            }
+          ]
+        },
+        {
+          "name": "OMDAMembers",
+          "children": [
+            {
+              "name": "Get-OMDAMembers"
+            }
+          ]
+        },
+        {
+          "name": "OMAlertConfiguration",
+          "children": [
+            {
+              "name": "New-OMAlertConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "OMModuleConfiguration",
+          "children": [
+            {
+              "name": "New-OMModuleConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "OMRule",
+          "children": [
+            {
+              "name": "New-OMRule"
+            }
+          ]
+        },
+        {
+          "name": "OMWindowsServiceTemplateInstance",
+          "children": [
+            {
+              "name": "New-OMWindowsServiceTemplateInstance"
+            }
+          ]
+        },
+        {
+          "name": "OMComputerGroupExplicitMember",
+          "children": [
+            {
+              "name": "New-OMComputerGroupExplicitMember"
+            }
+          ]
+        },
+        {
+          "name": "OMInstanceGroupExplicitMember",
+          "children": [
+            {
+              "name": "New-OMInstanceGroupExplicitMember"
+            }
+          ]
+        },
+        {
+          "name": "OMGroupDiscovery",
+          "children": [
+            {
+              "name": "Update-OMGroupDiscovery"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementPacks",
+          "children": [
+            {
+              "name": "Backup-OMManagementPacks"
+            }
+          ]
+        },
+        {
+          "name": "OMManualAgents",
+          "children": [
+            {
+              "name": "Approve-OMManualAgents"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementGroupToAgent",
+          "children": [
+            {
+              "name": "Add-OMManagementGroupToAgent"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementGroupFromAgent",
+          "children": [
+            {
+              "name": "Remove-OMManagementGroupFromAgent"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementGroupDefaultSettings",
+          "children": [
+            {
+              "name": "Get-OMManagementGroupDefaultSettings"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementGroupDefaultSetting",
+          "children": [
+            {
+              "name": "Set-OMManagementGroupDefaultSetting"
+            }
+          ]
+        },
+        {
+          "name": "OMTCPPortCheckDataSourceModuleType",
+          "children": [
+            {
+              "name": "New-OMTCPPortCheckDataSourceModuleType"
+            }
+          ]
+        },
+        {
+          "name": "OMTCPPortCheckMonitorType",
+          "children": [
+            {
+              "name": "New-OMTCPPortCheckMonitorType"
+            }
+          ]
+        },
+        {
+          "name": "OMTCPPortMonitoring",
+          "children": [
+            {
+              "name": "New-OMTCPPortMonitoring"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMSDataInjection",
+      "companyName": "TY Consulting Pty Ltd",
+      "children": [
+        {
+          "name": "OMSDataInjection",
+          "children": [
+            {
+              "name": "New-OMSDataInjection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tfe",
+      "companyName": "TY Consulting Pty Ltd",
+      "children": [
+        {
+          "name": "TFEContent",
+          "children": [
+            {
+              "name": "Add-TFEContent"
+            }
+          ]
+        },
+        {
+          "name": "TFEWorkspace",
+          "children": [
+            {
+              "name": "Set-TFEWorkspace"
+            },
+            {
+              "name": "Get-TFEWorkspace"
+            },
+            {
+              "name": "New-TFEWorkspace"
+            },
+            {
+              "name": "Remove-TFEWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "TFEConfigVersion",
+          "children": [
+            {
+              "name": "New-TFEConfigVersion"
+            },
+            {
+              "name": "Get-TFEConfigVersion"
+            }
+          ]
+        },
+        {
+          "name": "TFEVariable",
+          "children": [
+            {
+              "name": "Add-TFEVariable"
+            },
+            {
+              "name": "Remove-TFEVariable"
+            }
+          ]
+        },
+        {
+          "name": "TFERun",
+          "children": [
+            {
+              "name": "New-TFERun"
+            },
+            {
+              "name": "Approve-TFERun"
+            },
+            {
+              "name": "Stop-TFERun"
+            }
+          ]
+        },
+        {
+          "name": "TFERunDetails",
+          "children": [
+            {
+              "name": "Get-TFERunDetails"
+            }
+          ]
+        },
+        {
+          "name": "TFEPlan",
+          "children": [
+            {
+              "name": "Get-TFEPlan"
+            }
+          ]
+        },
+        {
+          "name": "TFEPlanLog",
+          "children": [
+            {
+              "name": "Get-TFEPlanLog"
+            }
+          ]
+        },
+        {
+          "name": "TFEDestroyPlan",
+          "children": [
+            {
+              "name": "New-TFEDestroyPlan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TestJsonSchema",
+      "companyName": "TY Consulting Pty Ltd",
+      "children": [
+        {
+          "name": "JsonSchema",
+          "children": [
+            {
+              "name": "Test-JsonSchema"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

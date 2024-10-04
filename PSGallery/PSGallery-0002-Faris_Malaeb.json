@@ -1,0 +1,52 @@
+{
+  "name": "Faris Malaeb",
+  "children": [
+    {
+      "name": "EmmExDAGModule",
+      "companyName": "Faris Malaeb",
+      "children": [
+        {
+          "name": "EmmDAGEnabled",
+          "children": [
+            {
+              "name": "Start-EmmDAGEnabled"
+            },
+            {
+              "name": "Stop-EMMDAGEnabled"
+            }
+          ]
+        },
+        {
+          "name": "EMMReadiness",
+          "children": [
+            {
+              "name": "Test-EMMReadiness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Get-ActiveSession",
+      "companyName": "Faris Malaeb",
+      "children": [
+        {
+          "name": "PSCRemoteLogoff",
+          "children": [
+            {
+              "name": "Start-PSCRemoteLogoff"
+            }
+          ]
+        },
+        {
+          "name": "PSCActiveSession",
+          "children": [
+            {
+              "name": "Get-PSCActiveSession"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3986 @@
+{
+  "name": "NetApp Deutschland GmbH",
+  "children": [
+    {
+      "name": "OnCommand-Insight",
+      "companyName": "NetApp Deutschland GmbH",
+      "children": [
+        {
+          "name": "OciGenericDevice",
+          "children": [
+            {
+              "name": "Remove-OciGenericDevice"
+            },
+            {
+              "name": "Get-OciGenericDevice"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotation",
+          "children": [
+            {
+              "name": "Add-OciAnnotation"
+            },
+            {
+              "name": "Get-OciAnnotation"
+            },
+            {
+              "name": "Remove-OciAnnotation"
+            },
+            {
+              "name": "Update-OciAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OciApplication",
+          "children": [
+            {
+              "name": "Add-OciApplication"
+            },
+            {
+              "name": "Get-OciApplication"
+            },
+            {
+              "name": "Remove-OciApplication"
+            },
+            {
+              "name": "Update-OciApplication"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationByHost",
+          "children": [
+            {
+              "name": "Add-OciApplicationByHost"
+            },
+            {
+              "name": "Remove-OciApplicationByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsToAssets",
+          "children": [
+            {
+              "name": "Add-OciApplicationsToAssets"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsToInternalVolume",
+          "children": [
+            {
+              "name": "Add-OciApplicationsToInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsToVolume",
+          "children": [
+            {
+              "name": "Add-OciApplicationsToVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciBusinessEntity",
+          "children": [
+            {
+              "name": "Add-OciBusinessEntity"
+            },
+            {
+              "name": "Get-OciBusinessEntity"
+            },
+            {
+              "name": "Remove-OciBusinessEntity"
+            }
+          ]
+        },
+        {
+          "name": "OciCertificate",
+          "children": [
+            {
+              "name": "Add-OciCertificate"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasource",
+          "children": [
+            {
+              "name": "Add-OciDatasource"
+            },
+            {
+              "name": "Get-OciDatasource"
+            },
+            {
+              "name": "New-OciDatasource"
+            },
+            {
+              "name": "Poll-OciDatasource"
+            },
+            {
+              "name": "Remove-OciDatasource"
+            },
+            {
+              "name": "Resume-OciDatasource"
+            },
+            {
+              "name": "Suspend-OciDatasource"
+            },
+            {
+              "name": "Test-OciDatasource"
+            },
+            {
+              "name": "Update-OciDataSource"
+            }
+          ]
+        },
+        {
+          "name": "OciPatch",
+          "children": [
+            {
+              "name": "Add-OciPatch"
+            },
+            {
+              "name": "Approve-OciPatch"
+            },
+            {
+              "name": "Get-OciPatch"
+            },
+            {
+              "name": "Rollback-OciPatch"
+            },
+            {
+              "name": "Update-OciPatch"
+            }
+          ]
+        },
+        {
+          "name": "OciUsers",
+          "children": [
+            {
+              "name": "Add-OciUsers"
+            },
+            {
+              "name": "Get-OciUsers"
+            }
+          ]
+        },
+        {
+          "name": "OciAssignApplicationsToAsset",
+          "children": [
+            {
+              "name": "Bulk-OciAssignApplicationsToAsset"
+            }
+          ]
+        },
+        {
+          "name": "OciAssignApplicationToAssets",
+          "children": [
+            {
+              "name": "Bulk-OciAssignApplicationToAssets"
+            }
+          ]
+        },
+        {
+          "name": "OciUnAssignApplicationsFromAsset",
+          "children": [
+            {
+              "name": "Bulk-OciUnAssignApplicationsFromAsset"
+            }
+          ]
+        },
+        {
+          "name": "OciServer",
+          "children": [
+            {
+              "name": "Connect-OciServer"
+            }
+          ]
+        },
+        {
+          "name": "UnixTimestamp",
+          "children": [
+            {
+              "name": "ConvertFrom-UnixTimestamp"
+            },
+            {
+              "name": "ConvertTo-UnixTimestamp"
+            }
+          ]
+        },
+        {
+          "name": "AnnotationValues",
+          "children": [
+            {
+              "name": "ConvertTo-AnnotationValues"
+            }
+          ]
+        },
+        {
+          "name": "OciQuery",
+          "children": [
+            {
+              "name": "Delete-OciQuery"
+            },
+            {
+              "name": "Get-OciQuery"
+            }
+          ]
+        },
+        {
+          "name": "OciAcquisitionUnit",
+          "children": [
+            {
+              "name": "Get-OciAcquisitionUnit"
+            },
+            {
+              "name": "Restart-OciAcquisitionUnit"
+            }
+          ]
+        },
+        {
+          "name": "OciAcquisitionUnitByDatasource",
+          "children": [
+            {
+              "name": "Get-OciAcquisitionUnitByDatasource"
+            }
+          ]
+        },
+        {
+          "name": "OciAcquisitionUnits",
+          "children": [
+            {
+              "name": "Get-OciAcquisitionUnits"
+            }
+          ]
+        },
+        {
+          "name": "OciActivePatchByDatasource",
+          "children": [
+            {
+              "name": "Get-OciActivePatchByDatasource"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationRule",
+          "children": [
+            {
+              "name": "Get-OciAnnotationRule"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationRules",
+          "children": [
+            {
+              "name": "Get-OciAnnotationRules"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotations",
+          "children": [
+            {
+              "name": "Get-OciAnnotations"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByDatastore",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByDatastore"
+            },
+            {
+              "name": "Remove-OciAnnotationsByDatastore"
+            },
+            {
+              "name": "Update-OciAnnotationsByDatastore"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByDisk",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByDisk"
+            },
+            {
+              "name": "Remove-OciAnnotationsByDisk"
+            },
+            {
+              "name": "Update-OciAnnotationsByDisk"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByHost",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByHost"
+            },
+            {
+              "name": "Remove-OciAnnotationsByHost"
+            },
+            {
+              "name": "Update-OciAnnotationsByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByInternalVolume",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByInternalVolume"
+            },
+            {
+              "name": "Remove-OciAnnotationsByInternalVolume"
+            },
+            {
+              "name": "Update-OciAnnotationsByInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByPort",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByPort"
+            },
+            {
+              "name": "Remove-OciAnnotationsByPort"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByQtree",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByQtree"
+            },
+            {
+              "name": "Remove-OciAnnotationsByQtree"
+            },
+            {
+              "name": "Update-OciAnnotationsByQtree"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByStorage",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByStorage"
+            },
+            {
+              "name": "Remove-OciAnnotationsByStorage"
+            },
+            {
+              "name": "Update-OciAnnotationsByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByStorageNode",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByStorageNode"
+            },
+            {
+              "name": "Remove-OciAnnotationsByStorageNode"
+            },
+            {
+              "name": "Update-OciAnnotationsByStorageNode"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByStoragePool",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByStoragePool"
+            },
+            {
+              "name": "Remove-OciAnnotationsByStoragePool"
+            },
+            {
+              "name": "Update-OciAnnotationsByStoragePool"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsBySwitch",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsBySwitch"
+            },
+            {
+              "name": "Remove-OciAnnotationsBySwitch"
+            },
+            {
+              "name": "Update-OciAnnotationsBySwitch"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByVirtualMachine",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByVirtualMachine"
+            },
+            {
+              "name": "Remove-OciAnnotationsByVirtualMachine"
+            },
+            {
+              "name": "Update-OciAnnotationsByVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByVmdk",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByVmdk"
+            },
+            {
+              "name": "Remove-OciAnnotationsByVmdk"
+            },
+            {
+              "name": "Update-OciAnnotationsByVmdk"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationsByVolume",
+          "children": [
+            {
+              "name": "Get-OciAnnotationsByVolume"
+            },
+            {
+              "name": "Remove-OciAnnotationsByVolume"
+            },
+            {
+              "name": "Update-OciAnnotationsByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationValues",
+          "children": [
+            {
+              "name": "Get-OciAnnotationValues"
+            },
+            {
+              "name": "Remove-OciAnnotationValues"
+            },
+            {
+              "name": "Update-OciAnnotationValues"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationValuesByObjectType",
+          "children": [
+            {
+              "name": "Get-OciAnnotationValuesByObjectType"
+            }
+          ]
+        },
+        {
+          "name": "OciAnnotationValuesByObjectTypeAndValue",
+          "children": [
+            {
+              "name": "Get-OciAnnotationValuesByObjectTypeAndValue"
+            }
+          ]
+        },
+        {
+          "name": "OciApplications",
+          "children": [
+            {
+              "name": "Get-OciApplications"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsByHost",
+          "children": [
+            {
+              "name": "Get-OciApplicationsByHost"
+            },
+            {
+              "name": "Remove-OciApplicationsByHost"
+            },
+            {
+              "name": "Update-OciApplicationsByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsByInternalVolume",
+          "children": [
+            {
+              "name": "Get-OciApplicationsByInternalVolume"
+            },
+            {
+              "name": "Remove-OciApplicationsByInternalVolume"
+            },
+            {
+              "name": "Update-OciApplicationsByInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsBySwitch",
+          "children": [
+            {
+              "name": "Get-OciApplicationsBySwitch"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsByVirtualMachine",
+          "children": [
+            {
+              "name": "Get-OciApplicationsByVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsByVolume",
+          "children": [
+            {
+              "name": "Get-OciApplicationsByVolume"
+            },
+            {
+              "name": "Update-OciApplicationsByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciAssetsByApplication",
+          "children": [
+            {
+              "name": "Get-OciAssetsByApplication"
+            }
+          ]
+        },
+        {
+          "name": "OciAutoTierPolicyByVolume",
+          "children": [
+            {
+              "name": "Get-OciAutoTierPolicyByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciBackendVolumesByDisk",
+          "children": [
+            {
+              "name": "Get-OciBackendVolumesByDisk"
+            }
+          ]
+        },
+        {
+          "name": "OciBackup",
+          "children": [
+            {
+              "name": "Get-OciBackup"
+            },
+            {
+              "name": "Restore-OciBackup"
+            }
+          ]
+        },
+        {
+          "name": "OciBackups",
+          "children": [
+            {
+              "name": "Get-OciBackups"
+            }
+          ]
+        },
+        {
+          "name": "OciBusinessEntities",
+          "children": [
+            {
+              "name": "Get-OciBusinessEntities"
+            }
+          ]
+        },
+        {
+          "name": "OciByTypeAndId",
+          "children": [
+            {
+              "name": "Get-OciByTypeAndId"
+            },
+            {
+              "name": "Remove-OciByTypeAndId"
+            },
+            {
+              "name": "Update-OciByTypeAndId"
+            }
+          ]
+        },
+        {
+          "name": "OciCertificates",
+          "children": [
+            {
+              "name": "Get-OciCertificates"
+            }
+          ]
+        },
+        {
+          "name": "OciClusterHostsByHost",
+          "children": [
+            {
+              "name": "Get-OciClusterHostsByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciComputeResourceByFileSystem",
+          "children": [
+            {
+              "name": "Get-OciComputeResourceByFileSystem"
+            }
+          ]
+        },
+        {
+          "name": "OciComputeResourcesByApplication",
+          "children": [
+            {
+              "name": "Get-OciComputeResourcesByApplication"
+            }
+          ]
+        },
+        {
+          "name": "OciComputeResourcesByInternalVolume",
+          "children": [
+            {
+              "name": "Get-OciComputeResourcesByInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciComputeResourcesByVolume",
+          "children": [
+            {
+              "name": "Get-OciComputeResourcesByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciConnectedPortsByPort",
+          "children": [
+            {
+              "name": "Get-OciConnectedPortsByPort"
+            }
+          ]
+        },
+        {
+          "name": "OciCurrentUser",
+          "children": [
+            {
+              "name": "Get-OciCurrentUser"
+            }
+          ]
+        },
+        {
+          "name": "OciDataCenterByHost",
+          "children": [
+            {
+              "name": "Get-OciDataCenterByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourceChanges",
+          "children": [
+            {
+              "name": "Get-OciDatasourceChanges"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourceConfiguration",
+          "children": [
+            {
+              "name": "Get-OciDatasourceConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourceDevices",
+          "children": [
+            {
+              "name": "Get-OciDatasourceDevices"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourceEventDetails",
+          "children": [
+            {
+              "name": "Get-OciDatasourceEventDetails"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourceEvents",
+          "children": [
+            {
+              "name": "Get-OciDatasourceEvents"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourceNote",
+          "children": [
+            {
+              "name": "Get-OciDatasourceNote"
+            },
+            {
+              "name": "Update-OciDatasourceNote"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcePackageStatus",
+          "children": [
+            {
+              "name": "Get-OciDatasourcePackageStatus"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasources",
+          "children": [
+            {
+              "name": "Get-OciDatasources"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByAcquisitionUnit",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByAcquisitionUnit"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByDataStore",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByDataStore"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByDisk",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByDisk"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByFabric",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByFabric"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByHost",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByInternalVolume",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByPort",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByPort"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByStorage",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByStorageNode",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByStorageNode"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByStoragePool",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByStoragePool"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesBySwitch",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesBySwitch"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByVirtualMachine",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByVmdk",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByVmdk"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourcesByVolume",
+          "children": [
+            {
+              "name": "Get-OciDatasourcesByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourceType",
+          "children": [
+            {
+              "name": "Get-OciDatasourceType"
+            }
+          ]
+        },
+        {
+          "name": "OciDatasourceTypes",
+          "children": [
+            {
+              "name": "Get-OciDatasourceTypes"
+            }
+          ]
+        },
+        {
+          "name": "OciDatastore",
+          "children": [
+            {
+              "name": "Get-OciDatastore"
+            }
+          ]
+        },
+        {
+          "name": "OciDataStoreByVirtualMachine",
+          "children": [
+            {
+              "name": "Get-OciDataStoreByVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "OciDatastoreCount",
+          "children": [
+            {
+              "name": "Get-OciDatastoreCount"
+            }
+          ]
+        },
+        {
+          "name": "OciDatastorePerformance",
+          "children": [
+            {
+              "name": "Get-OciDatastorePerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciDatastores",
+          "children": [
+            {
+              "name": "Get-OciDatastores"
+            }
+          ]
+        },
+        {
+          "name": "OciDataStoresByInternalVolume",
+          "children": [
+            {
+              "name": "Get-OciDataStoresByInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciDatastoresByVolume",
+          "children": [
+            {
+              "name": "Get-OciDatastoresByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciDeviceByPort",
+          "children": [
+            {
+              "name": "Get-OciDeviceByPort"
+            }
+          ]
+        },
+        {
+          "name": "OciDisk",
+          "children": [
+            {
+              "name": "Get-OciDisk"
+            }
+          ]
+        },
+        {
+          "name": "OciDiskPerformance",
+          "children": [
+            {
+              "name": "Get-OciDiskPerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciDisksByStorage",
+          "children": [
+            {
+              "name": "Get-OciDisksByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciDisksByStoragePool",
+          "children": [
+            {
+              "name": "Get-OciDisksByStoragePool"
+            }
+          ]
+        },
+        {
+          "name": "OciFabric",
+          "children": [
+            {
+              "name": "Get-OciFabric"
+            }
+          ]
+        },
+        {
+          "name": "OciFabricBySwitch",
+          "children": [
+            {
+              "name": "Get-OciFabricBySwitch"
+            }
+          ]
+        },
+        {
+          "name": "OciFabricCount",
+          "children": [
+            {
+              "name": "Get-OciFabricCount"
+            }
+          ]
+        },
+        {
+          "name": "OciFabrics",
+          "children": [
+            {
+              "name": "Get-OciFabrics"
+            }
+          ]
+        },
+        {
+          "name": "OciFabricsByPort",
+          "children": [
+            {
+              "name": "Get-OciFabricsByPort"
+            }
+          ]
+        },
+        {
+          "name": "OciFcIdentify",
+          "children": [
+            {
+              "name": "Get-OciFcIdentify"
+            }
+          ]
+        },
+        {
+          "name": "OciFilesystem",
+          "children": [
+            {
+              "name": "Get-OciFilesystem"
+            }
+          ]
+        },
+        {
+          "name": "OciFileSystemsByHost",
+          "children": [
+            {
+              "name": "Get-OciFileSystemsByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciFileSystemsByVirtualMachine",
+          "children": [
+            {
+              "name": "Get-OciFileSystemsByVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "OciGenericDevices",
+          "children": [
+            {
+              "name": "Get-OciGenericDevices"
+            }
+          ]
+        },
+        {
+          "name": "OciGenericDeviceZones",
+          "children": [
+            {
+              "name": "Get-OciGenericDeviceZones"
+            }
+          ]
+        },
+        {
+          "name": "OciHealth",
+          "children": [
+            {
+              "name": "Get-OciHealth"
+            }
+          ]
+        },
+        {
+          "name": "OciHost",
+          "children": [
+            {
+              "name": "Get-OciHost"
+            }
+          ]
+        },
+        {
+          "name": "OciHostByVirtualMachine",
+          "children": [
+            {
+              "name": "Get-OciHostByVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "OciHostCount",
+          "children": [
+            {
+              "name": "Get-OciHostCount"
+            }
+          ]
+        },
+        {
+          "name": "OciHostPerformance",
+          "children": [
+            {
+              "name": "Get-OciHostPerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciHosts",
+          "children": [
+            {
+              "name": "Get-OciHosts"
+            }
+          ]
+        },
+        {
+          "name": "OciHostsByDatastore",
+          "children": [
+            {
+              "name": "Get-OciHostsByDatastore"
+            }
+          ]
+        },
+        {
+          "name": "OciInternalVolume",
+          "children": [
+            {
+              "name": "Get-OciInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciInternalVolumeByQtree",
+          "children": [
+            {
+              "name": "Get-OciInternalVolumeByQtree"
+            }
+          ]
+        },
+        {
+          "name": "OciInternalVolumeByVolume",
+          "children": [
+            {
+              "name": "Get-OciInternalVolumeByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciInternalVolumePerformance",
+          "children": [
+            {
+              "name": "Get-OciInternalVolumePerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciInternalVolumesByStorage",
+          "children": [
+            {
+              "name": "Get-OciInternalVolumesByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciInternalVolumesByStoragePool",
+          "children": [
+            {
+              "name": "Get-OciInternalVolumesByStoragePool"
+            }
+          ]
+        },
+        {
+          "name": "OciLdapConfiguration",
+          "children": [
+            {
+              "name": "Get-OciLdapConfiguration"
+            },
+            {
+              "name": "Test-OciLdapConfiguration"
+            },
+            {
+              "name": "Update-OciLdapConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "OciLicenses",
+          "children": [
+            {
+              "name": "Get-OciLicenses"
+            },
+            {
+              "name": "Replace-OciLicenses"
+            },
+            {
+              "name": "Update-OciLicenses"
+            }
+          ]
+        },
+        {
+          "name": "OciMetadata",
+          "children": [
+            {
+              "name": "Get-OciMetadata"
+            }
+          ]
+        },
+        {
+          "name": "OciObjectStorage",
+          "children": [
+            {
+              "name": "Get-OciObjectStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciPatchDatasourceConclusions",
+          "children": [
+            {
+              "name": "Get-OciPatchDatasourceConclusions"
+            }
+          ]
+        },
+        {
+          "name": "OciPatches",
+          "children": [
+            {
+              "name": "Get-OciPatches"
+            }
+          ]
+        },
+        {
+          "name": "OciPort",
+          "children": [
+            {
+              "name": "Get-OciPort"
+            }
+          ]
+        },
+        {
+          "name": "OciPortPerformance",
+          "children": [
+            {
+              "name": "Get-OciPortPerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciPortsByFabric",
+          "children": [
+            {
+              "name": "Get-OciPortsByFabric"
+            }
+          ]
+        },
+        {
+          "name": "OciPortsByFabricCount",
+          "children": [
+            {
+              "name": "Get-OciPortsByFabricCount"
+            }
+          ]
+        },
+        {
+          "name": "OciPortsByHost",
+          "children": [
+            {
+              "name": "Get-OciPortsByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciPortsByStorage",
+          "children": [
+            {
+              "name": "Get-OciPortsByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciPortsByStorageNode",
+          "children": [
+            {
+              "name": "Get-OciPortsByStorageNode"
+            }
+          ]
+        },
+        {
+          "name": "OciPortsBySwitch",
+          "children": [
+            {
+              "name": "Get-OciPortsBySwitch"
+            }
+          ]
+        },
+        {
+          "name": "OciPortsByVirtualMachine",
+          "children": [
+            {
+              "name": "Get-OciPortsByVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "OciPortsByVolume",
+          "children": [
+            {
+              "name": "Get-OciPortsByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciProtocolsByStorage",
+          "children": [
+            {
+              "name": "Get-OciProtocolsByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciQtree",
+          "children": [
+            {
+              "name": "Get-OciQtree"
+            }
+          ]
+        },
+        {
+          "name": "OciQtreesByInternalVolume",
+          "children": [
+            {
+              "name": "Get-OciQtreesByInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciQtreesByStorage",
+          "children": [
+            {
+              "name": "Get-OciQtreesByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciQueries",
+          "children": [
+            {
+              "name": "Get-OciQueries"
+            }
+          ]
+        },
+        {
+          "name": "OciShare",
+          "children": [
+            {
+              "name": "Get-OciShare"
+            }
+          ]
+        },
+        {
+          "name": "OciSharesByQtree",
+          "children": [
+            {
+              "name": "Get-OciSharesByQtree"
+            }
+          ]
+        },
+        {
+          "name": "OciSharesByStorage",
+          "children": [
+            {
+              "name": "Get-OciSharesByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciSourceInternalVolumesByInternalVolume",
+          "children": [
+            {
+              "name": "Get-OciSourceInternalVolumesByInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciSourceVolumesByVolume",
+          "children": [
+            {
+              "name": "Get-OciSourceVolumesByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciStorage",
+          "children": [
+            {
+              "name": "Get-OciStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageByQtree",
+          "children": [
+            {
+              "name": "Get-OciStorageByQtree"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageByShare",
+          "children": [
+            {
+              "name": "Get-OciStorageByShare"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageByStoragePool",
+          "children": [
+            {
+              "name": "Get-OciStorageByStoragePool"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageByVolume",
+          "children": [
+            {
+              "name": "Get-OciStorageByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageCount",
+          "children": [
+            {
+              "name": "Get-OciStorageCount"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageNode",
+          "children": [
+            {
+              "name": "Get-OciStorageNode"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageNodePerformance",
+          "children": [
+            {
+              "name": "Get-OciStorageNodePerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageNodesByInternalVolume",
+          "children": [
+            {
+              "name": "Get-OciStorageNodesByInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageNodesByStorage",
+          "children": [
+            {
+              "name": "Get-OciStorageNodesByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageNodesByStoragePool",
+          "children": [
+            {
+              "name": "Get-OciStorageNodesByStoragePool"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageNodesByVolume",
+          "children": [
+            {
+              "name": "Get-OciStorageNodesByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciStoragePerformance",
+          "children": [
+            {
+              "name": "Get-OciStoragePerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciStoragePool",
+          "children": [
+            {
+              "name": "Get-OciStoragePool"
+            }
+          ]
+        },
+        {
+          "name": "OciStoragePoolPerformance",
+          "children": [
+            {
+              "name": "Get-OciStoragePoolPerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciStoragePoolsByDisk",
+          "children": [
+            {
+              "name": "Get-OciStoragePoolsByDisk"
+            }
+          ]
+        },
+        {
+          "name": "OciStoragePoolsByNode",
+          "children": [
+            {
+              "name": "Get-OciStoragePoolsByNode"
+            }
+          ]
+        },
+        {
+          "name": "OciStoragePoolsByStorage",
+          "children": [
+            {
+              "name": "Get-OciStoragePoolsByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciStoragePoolsByVolume",
+          "children": [
+            {
+              "name": "Get-OciStoragePoolsByVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageResorcesByFileSystem",
+          "children": [
+            {
+              "name": "Get-OciStorageResorcesByFileSystem"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageResourcesByApplication",
+          "children": [
+            {
+              "name": "Get-OciStorageResourcesByApplication"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageResourcesByDatastore",
+          "children": [
+            {
+              "name": "Get-OciStorageResourcesByDatastore"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageResourcesByDisk",
+          "children": [
+            {
+              "name": "Get-OciStorageResourcesByDisk"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageResourcesByHost",
+          "children": [
+            {
+              "name": "Get-OciStorageResourcesByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageResourcesByStorage",
+          "children": [
+            {
+              "name": "Get-OciStorageResourcesByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageResourcesByStoragePool",
+          "children": [
+            {
+              "name": "Get-OciStorageResourcesByStoragePool"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageResourcesByVirtualMachine",
+          "children": [
+            {
+              "name": "Get-OciStorageResourcesByVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "OciStorageResourcesByVmdk",
+          "children": [
+            {
+              "name": "Get-OciStorageResourcesByVmdk"
+            }
+          ]
+        },
+        {
+          "name": "OciStorages",
+          "children": [
+            {
+              "name": "Get-OciStorages"
+            }
+          ]
+        },
+        {
+          "name": "OciSwitch",
+          "children": [
+            {
+              "name": "Get-OciSwitch"
+            }
+          ]
+        },
+        {
+          "name": "OciSwitchCount",
+          "children": [
+            {
+              "name": "Get-OciSwitchCount"
+            }
+          ]
+        },
+        {
+          "name": "OciSwitches",
+          "children": [
+            {
+              "name": "Get-OciSwitches"
+            }
+          ]
+        },
+        {
+          "name": "OciSwitchesByFabric",
+          "children": [
+            {
+              "name": "Get-OciSwitchesByFabric"
+            }
+          ]
+        },
+        {
+          "name": "OciSwitchPerformance",
+          "children": [
+            {
+              "name": "Get-OciSwitchPerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciTopologyByHost",
+          "children": [
+            {
+              "name": "Get-OciTopologyByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciTopologyByStorage",
+          "children": [
+            {
+              "name": "Get-OciTopologyByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciUser",
+          "children": [
+            {
+              "name": "Get-OciUser"
+            },
+            {
+              "name": "Remove-OciUser"
+            },
+            {
+              "name": "Update-OciUser"
+            }
+          ]
+        },
+        {
+          "name": "OciVirtualizer",
+          "children": [
+            {
+              "name": "Get-OciVirtualizer"
+            }
+          ]
+        },
+        {
+          "name": "OciVirtualMachine",
+          "children": [
+            {
+              "name": "Get-OciVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "OciVirtualMachineByVmdk",
+          "children": [
+            {
+              "name": "Get-OciVirtualMachineByVmdk"
+            }
+          ]
+        },
+        {
+          "name": "OciVirtualMachineCount",
+          "children": [
+            {
+              "name": "Get-OciVirtualMachineCount"
+            }
+          ]
+        },
+        {
+          "name": "OciVirtualMachinePerformance",
+          "children": [
+            {
+              "name": "Get-OciVirtualMachinePerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciVirtualMachines",
+          "children": [
+            {
+              "name": "Get-OciVirtualMachines"
+            }
+          ]
+        },
+        {
+          "name": "OciVirtualMachinesByHost",
+          "children": [
+            {
+              "name": "Get-OciVirtualMachinesByHost"
+            }
+          ]
+        },
+        {
+          "name": "OciVirtualStoragePools",
+          "children": [
+            {
+              "name": "Get-OciVirtualStoragePools"
+            }
+          ]
+        },
+        {
+          "name": "OciVmdk",
+          "children": [
+            {
+              "name": "Get-OciVmdk"
+            }
+          ]
+        },
+        {
+          "name": "OciVmdkPerformance",
+          "children": [
+            {
+              "name": "Get-OciVmdkPerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciVmdksByDatastore",
+          "children": [
+            {
+              "name": "Get-OciVmdksByDatastore"
+            }
+          ]
+        },
+        {
+          "name": "OciVmdksByFileSystem",
+          "children": [
+            {
+              "name": "Get-OciVmdksByFileSystem"
+            }
+          ]
+        },
+        {
+          "name": "OciVmdksByVirtualMachine",
+          "children": [
+            {
+              "name": "Get-OciVmdksByVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "OciVolume",
+          "children": [
+            {
+              "name": "Get-OciVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciVolumePerformance",
+          "children": [
+            {
+              "name": "Get-OciVolumePerformance"
+            }
+          ]
+        },
+        {
+          "name": "OciVolumesByInternalVolume",
+          "children": [
+            {
+              "name": "Get-OciVolumesByInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciVolumesByQtree",
+          "children": [
+            {
+              "name": "Get-OciVolumesByQtree"
+            }
+          ]
+        },
+        {
+          "name": "OciVolumesByStorage",
+          "children": [
+            {
+              "name": "Get-OciVolumesByStorage"
+            }
+          ]
+        },
+        {
+          "name": "OciVolumesByStoragePool",
+          "children": [
+            {
+              "name": "Get-OciVolumesByStoragePool"
+            }
+          ]
+        },
+        {
+          "name": "OciServerCertificate",
+          "children": [
+            {
+              "name": "Import-OciServerCertificate"
+            },
+            {
+              "name": "Remove-OciServerCertificate"
+            }
+          ]
+        },
+        {
+          "name": "MultipartFormDataUpload",
+          "children": [
+            {
+              "name": "Invoke-MultipartFormDataUpload"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationFromAssets",
+          "children": [
+            {
+              "name": "Remove-OciApplicationFromAssets"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsFromAssets",
+          "children": [
+            {
+              "name": "Remove-OciApplicationsFromAssets"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsFromInternalVolume",
+          "children": [
+            {
+              "name": "Remove-OciApplicationsFromInternalVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciApplicationsFromVolume",
+          "children": [
+            {
+              "name": "Remove-OciApplicationsFromVolume"
+            }
+          ]
+        },
+        {
+          "name": "OciDevices",
+          "children": [
+            {
+              "name": "Remove-OciDevices"
+            }
+          ]
+        },
+        {
+          "name": "Oci",
+          "children": [
+            {
+              "name": "Search-Oci"
+            }
+          ]
+        },
+        {
+          "name": "OciPatchNote",
+          "children": [
+            {
+              "name": "Update-OciPatchNote"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StorageGRID-Webscale",
+      "companyName": "NetApp Deutschland GmbH",
+      "children": [
+        {
+          "name": "SgwBucketMetadataNotificationRule",
+          "children": [
+            {
+              "name": "Add-SgwBucketMetadataNotificationRule"
+            },
+            {
+              "name": "Remove-SgwBucketMetadataNotificationRule"
+            },
+            {
+              "name": "Update-SgwBucketMetadataNotificationRule"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketNotificationRule",
+          "children": [
+            {
+              "name": "Add-SgwBucketNotificationRule"
+            },
+            {
+              "name": "Remove-SgwBucketNotificationRule"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketNotificationTopic",
+          "children": [
+            {
+              "name": "Add-SgwBucketNotificationTopic"
+            },
+            {
+              "name": "Remove-SgwBucketNotificationTopic"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketReplicationRule",
+          "children": [
+            {
+              "name": "Add-SgwBucketReplicationRule"
+            },
+            {
+              "name": "Remove-SgwBucketReplicationRule"
+            },
+            {
+              "name": "Update-SgwBucketReplicationRule"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerNotificationRule",
+          "children": [
+            {
+              "name": "Add-SgwContainerNotificationRule"
+            },
+            {
+              "name": "Remove-SgwContainerNotificationRule"
+            }
+          ]
+        },
+        {
+          "name": "SgwCredential",
+          "children": [
+            {
+              "name": "Add-SgwCredential"
+            },
+            {
+              "name": "Get-SgwCredential"
+            },
+            {
+              "name": "New-SgwCredential"
+            },
+            {
+              "name": "Remove-SgwCredential"
+            },
+            {
+              "name": "Set-SgwCredential"
+            },
+            {
+              "name": "Update-SgwCredential"
+            }
+          ]
+        },
+        {
+          "name": "SgwUser",
+          "children": [
+            {
+              "name": "Add-SgwUser"
+            },
+            {
+              "name": "Get-SgwUser"
+            },
+            {
+              "name": "New-SgwUser"
+            },
+            {
+              "name": "Remove-SgwUser"
+            },
+            {
+              "name": "Update-SgwUser"
+            }
+          ]
+        },
+        {
+          "name": "SgwGroup",
+          "children": [
+            {
+              "name": "Delete-SgwGroup"
+            },
+            {
+              "name": "Replace-SgwGroup"
+            },
+            {
+              "name": "Get-SgwGroup"
+            },
+            {
+              "name": "New-SgwGroup"
+            },
+            {
+              "name": "Remove-SgwGroup"
+            },
+            {
+              "name": "Set-SgwGroup"
+            },
+            {
+              "name": "Update-SgwGroup"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketLastAccessTime",
+          "children": [
+            {
+              "name": "Disable-SgwBucketLastAccessTime"
+            },
+            {
+              "name": "Enable-SgwBucketLastAccessTime"
+            },
+            {
+              "name": "Get-SgwBucketLastAccessTime"
+            }
+          ]
+        },
+        {
+          "name": "SgwAccountS3AccessKey",
+          "children": [
+            {
+              "name": "Get-SgwAccountS3AccessKey"
+            },
+            {
+              "name": "New-SgwAccountS3AccessKey"
+            },
+            {
+              "name": "Remove-SgwAccountS3AccessKey"
+            }
+          ]
+        },
+        {
+          "name": "SgwAccountS3AccessKeys",
+          "children": [
+            {
+              "name": "Get-SgwAccountS3AccessKeys"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketCompliance",
+          "children": [
+            {
+              "name": "Get-SgwBucketCompliance"
+            },
+            {
+              "name": "Update-SgwBucketCompliance"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketConsistency",
+          "children": [
+            {
+              "name": "Get-SgwBucketConsistency"
+            },
+            {
+              "name": "Update-SgwBucketConsistency"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketMetadataNotification",
+          "children": [
+            {
+              "name": "Get-SgwBucketMetadataNotification"
+            },
+            {
+              "name": "Remove-SgwBucketMetadataNotification"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketMetadataNotificationRules",
+          "children": [
+            {
+              "name": "Get-SgwBucketMetadataNotificationRules"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketNotification",
+          "children": [
+            {
+              "name": "Get-SgwBucketNotification"
+            },
+            {
+              "name": "Remove-SgwBucketNotification"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketNotificationRules",
+          "children": [
+            {
+              "name": "Get-SgwBucketNotificationRules"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketNotificationTopics",
+          "children": [
+            {
+              "name": "Get-SgwBucketNotificationTopics"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketOwner",
+          "children": [
+            {
+              "name": "Get-SgwBucketOwner"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketReplication",
+          "children": [
+            {
+              "name": "Get-SgwBucketReplication"
+            },
+            {
+              "name": "Remove-SgwBucketReplication"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucketReplicationRules",
+          "children": [
+            {
+              "name": "Get-SgwBucketReplicationRules"
+            }
+          ]
+        },
+        {
+          "name": "SgwBuckets",
+          "children": [
+            {
+              "name": "Get-SgwBuckets"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerMetadataNotificationRules",
+          "children": [
+            {
+              "name": "Get-SgwContainerMetadataNotificationRules"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerNotificationRules",
+          "children": [
+            {
+              "name": "Get-SgwContainerNotificationRules"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerNotificationTopics",
+          "children": [
+            {
+              "name": "Get-SgwContainerNotificationTopics"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerReplicationRules",
+          "children": [
+            {
+              "name": "Get-SgwContainerReplicationRules"
+            }
+          ]
+        },
+        {
+          "name": "SgwCredentials",
+          "children": [
+            {
+              "name": "Get-SgwCredentials"
+            }
+          ]
+        },
+        {
+          "name": "SgwEsEndpoint",
+          "children": [
+            {
+              "name": "Get-SgwEsEndpoint"
+            },
+            {
+              "name": "Remove-SgwEsEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "SgwLogStatus",
+          "children": [
+            {
+              "name": "Get-SgwLogStatus"
+            }
+          ]
+        },
+        {
+          "name": "SgwS3Endpoint",
+          "children": [
+            {
+              "name": "Get-SgwS3Endpoint"
+            },
+            {
+              "name": "New-SgwS3Endpoint"
+            },
+            {
+              "name": "Remove-SgwS3Endpoint"
+            },
+            {
+              "name": "Add-SgwS3Endpoint"
+            }
+          ]
+        },
+        {
+          "name": "SgwSnsEndpoint",
+          "children": [
+            {
+              "name": "Get-SgwSnsEndpoint"
+            },
+            {
+              "name": "Remove-SgwSnsEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "SgwTopology",
+          "children": [
+            {
+              "name": "Get-SgwTopology"
+            }
+          ]
+        },
+        {
+          "name": "SgwBucket",
+          "children": [
+            {
+              "name": "New-SgwBucket"
+            },
+            {
+              "name": "Copy-SgwBucket"
+            }
+          ]
+        },
+        {
+          "name": "SgwEndpoint",
+          "children": [
+            {
+              "name": "New-SgwEndpoint"
+            },
+            {
+              "name": "Add-SgwEndpoint"
+            },
+            {
+              "name": "Get-SgwEndpoint"
+            },
+            {
+              "name": "Remove-SgwEndpoint"
+            },
+            {
+              "name": "Update-SgwEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "SgwEndpointDomainNames",
+          "children": [
+            {
+              "name": "New-SgwEndpointDomainNames"
+            },
+            {
+              "name": "Replace-SgwEndpointDomainNames"
+            },
+            {
+              "name": "Get-SgwEndpointDomainNames"
+            },
+            {
+              "name": "Set-SgwEndpointDomainNames"
+            }
+          ]
+        },
+        {
+          "name": "SgwProfile",
+          "children": [
+            {
+              "name": "New-SgwProfile"
+            },
+            {
+              "name": "Set-SgwProfile"
+            },
+            {
+              "name": "Update-SgwProfile"
+            },
+            {
+              "name": "Add-SgwProfile"
+            },
+            {
+              "name": "Get-SgwProfile"
+            },
+            {
+              "name": "Remove-SgwProfile"
+            }
+          ]
+        },
+        {
+          "name": "SgwAccount",
+          "children": [
+            {
+              "name": "Replace-SgwAccount"
+            },
+            {
+              "name": "Copy-SgwAccount"
+            },
+            {
+              "name": "Get-SgwAccount"
+            },
+            {
+              "name": "New-SgwAccount"
+            },
+            {
+              "name": "Remove-SgwAccount"
+            },
+            {
+              "name": "Set-SgwAccount"
+            },
+            {
+              "name": "Update-SgwAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgwAudit",
+          "children": [
+            {
+              "name": "Replace-SgwAudit"
+            },
+            {
+              "name": "Get-SgwAudit"
+            },
+            {
+              "name": "Set-SgwAudit"
+            }
+          ]
+        },
+        {
+          "name": "SgwDnsServers",
+          "children": [
+            {
+              "name": "Replace-SgwDnsServers"
+            },
+            {
+              "name": "Get-SgwDnsServers"
+            },
+            {
+              "name": "Set-SgwDnsServers"
+            }
+          ]
+        },
+        {
+          "name": "SgwManagementCertificate",
+          "children": [
+            {
+              "name": "Replace-SgwManagementCertificate"
+            },
+            {
+              "name": "Set-SgwManagementCertificate"
+            },
+            {
+              "name": "Get-SgwManagementCertificate"
+            },
+            {
+              "name": "Update-SgwManagementCertificate"
+            }
+          ]
+        },
+        {
+          "name": "SgwObjectCertificate",
+          "children": [
+            {
+              "name": "Replace-SgwObjectCertificate"
+            },
+            {
+              "name": "Set-SgwObjectCertificate"
+            },
+            {
+              "name": "Get-SgwObjectCertificate"
+            },
+            {
+              "name": "Update-SgwObjectCertificate"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallDnsServers",
+          "children": [
+            {
+              "name": "Set-SgwInstallDnsServers"
+            },
+            {
+              "name": "Get-SgwInstallDnsServers"
+            },
+            {
+              "name": "Update-SgwInstallDnsServers"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallGridDetails",
+          "children": [
+            {
+              "name": "Set-SgwInstallGridDetails"
+            },
+            {
+              "name": "Get-SgwInstallGridDetails"
+            },
+            {
+              "name": "Update-SgwInstallGridDetails"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallGridNetworks",
+          "children": [
+            {
+              "name": "Set-SgwInstallGridNetworks"
+            },
+            {
+              "name": "Get-SgwInstallGridNetworks"
+            },
+            {
+              "name": "Update-SgwInstallGridNetworks"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallNtpServers",
+          "children": [
+            {
+              "name": "Set-SgwInstallNtpServers"
+            },
+            {
+              "name": "Get-SgwInstallNtpServers"
+            },
+            {
+              "name": "Update-SgwInstallNtpServers"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallPasswords",
+          "children": [
+            {
+              "name": "Set-SgwInstallPasswords"
+            },
+            {
+              "name": "Get-SgwInstallPasswords"
+            },
+            {
+              "name": "Update-SgwInstallPasswords"
+            }
+          ]
+        },
+        {
+          "name": "SgwUserPassword",
+          "children": [
+            {
+              "name": "Set-SgwUserPassword"
+            },
+            {
+              "name": "Update-SgwUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerMetadataNotificationRule",
+          "children": [
+            {
+              "name": "Update-SgwContainerMetadataNotificationRule"
+            },
+            {
+              "name": "Add-SgwContainerMetadataNotificationRule"
+            },
+            {
+              "name": "Remove-SgwContainerMetadataNotificationRule"
+            }
+          ]
+        },
+        {
+          "name": "SgwIdentitySource",
+          "children": [
+            {
+              "name": "Update-SgwIdentitySource"
+            },
+            {
+              "name": "Set-SgwIdentitySource"
+            }
+          ]
+        },
+        {
+          "name": "SgwPassword",
+          "children": [
+            {
+              "name": "Update-SgwPassword"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerNotificationTopic",
+          "children": [
+            {
+              "name": "Add-SgwContainerNotificationTopic"
+            },
+            {
+              "name": "Remove-SgwContainerNotificationTopic"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerReplicationRule",
+          "children": [
+            {
+              "name": "Add-SgwContainerReplicationRule"
+            },
+            {
+              "name": "Remove-SgwContainerReplicationRule"
+            }
+          ]
+        },
+        {
+          "name": "SgwEndpointDomainName",
+          "children": [
+            {
+              "name": "Add-SgwEndpointDomainName"
+            },
+            {
+              "name": "Remove-SgwEndpointDomainName"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallRecoveryPackageDownload",
+          "children": [
+            {
+              "name": "Confirm-SgwInstallRecoveryPackageDownload"
+            }
+          ]
+        },
+        {
+          "name": "SgwServer",
+          "children": [
+            {
+              "name": "Connect-SgwServer"
+            },
+            {
+              "name": "Disconnect-SgwServer"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerLastAccessTime",
+          "children": [
+            {
+              "name": "Disable-SgwContainerLastAccessTime"
+            },
+            {
+              "name": "Enable-SgwContainerLastAccessTime"
+            },
+            {
+              "name": "Get-SgwContainerLastAccessTime"
+            }
+          ]
+        },
+        {
+          "name": "SgwCompliance",
+          "children": [
+            {
+              "name": "Enable-SgwCompliance"
+            },
+            {
+              "name": "Get-SgwCompliance"
+            }
+          ]
+        },
+        {
+          "name": "SgwAccountGroups",
+          "children": [
+            {
+              "name": "Get-SgwAccountGroups"
+            }
+          ]
+        },
+        {
+          "name": "SgwAccounts",
+          "children": [
+            {
+              "name": "Get-SgwAccounts"
+            }
+          ]
+        },
+        {
+          "name": "SgwAccountUsage",
+          "children": [
+            {
+              "name": "Get-SgwAccountUsage"
+            }
+          ]
+        },
+        {
+          "name": "SgwAlarms",
+          "children": [
+            {
+              "name": "Get-SgwAlarms"
+            }
+          ]
+        },
+        {
+          "name": "SgwConfig",
+          "children": [
+            {
+              "name": "Get-SgwConfig"
+            }
+          ]
+        },
+        {
+          "name": "SgwConfigManagement",
+          "children": [
+            {
+              "name": "Get-SgwConfigManagement"
+            },
+            {
+              "name": "Update-SgwConfigManagement"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerCompliance",
+          "children": [
+            {
+              "name": "Get-SgwContainerCompliance"
+            },
+            {
+              "name": "Update-SgwContainerCompliance"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerConsistency",
+          "children": [
+            {
+              "name": "Get-SgwContainerConsistency"
+            },
+            {
+              "name": "Update-SgwContainerConsistency"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerMetadataNotification",
+          "children": [
+            {
+              "name": "Get-SgwContainerMetadataNotification"
+            },
+            {
+              "name": "Remove-SgwContainerMetadataNotification"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerNotification",
+          "children": [
+            {
+              "name": "Get-SgwContainerNotification"
+            },
+            {
+              "name": "Remove-SgwContainerNotification"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerOwner",
+          "children": [
+            {
+              "name": "Get-SgwContainerOwner"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainerReplication",
+          "children": [
+            {
+              "name": "Get-SgwContainerReplication"
+            },
+            {
+              "name": "Remove-SgwContainerReplication"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainers",
+          "children": [
+            {
+              "name": "Get-SgwContainers"
+            }
+          ]
+        },
+        {
+          "name": "SgwDeactivatedFeatures",
+          "children": [
+            {
+              "name": "Get-SgwDeactivatedFeatures"
+            },
+            {
+              "name": "Update-SgwDeactivatedFeatures"
+            }
+          ]
+        },
+        {
+          "name": "SgwDecommission",
+          "children": [
+            {
+              "name": "Get-SgwDecommission"
+            },
+            {
+              "name": "Resume-SgwDecommission"
+            },
+            {
+              "name": "Start-SgwDecommission"
+            },
+            {
+              "name": "Suspend-SgwDecommission"
+            }
+          ]
+        },
+        {
+          "name": "SgwEcProfiles",
+          "children": [
+            {
+              "name": "Get-SgwEcProfiles"
+            }
+          ]
+        },
+        {
+          "name": "SgwEcSchemes",
+          "children": [
+            {
+              "name": "Get-SgwEcSchemes"
+            }
+          ]
+        },
+        {
+          "name": "SgwEndpoints",
+          "children": [
+            {
+              "name": "Get-SgwEndpoints"
+            }
+          ]
+        },
+        {
+          "name": "SgwExpansion",
+          "children": [
+            {
+              "name": "Get-SgwExpansion"
+            },
+            {
+              "name": "Invoke-SgwExpansion"
+            },
+            {
+              "name": "Start-SgwExpansion"
+            },
+            {
+              "name": "Stop-SgwExpansion"
+            }
+          ]
+        },
+        {
+          "name": "SgwExpansionNode",
+          "children": [
+            {
+              "name": "Get-SgwExpansionNode"
+            },
+            {
+              "name": "New-SgwExpansionNode"
+            },
+            {
+              "name": "Remove-SgwExpansionNode"
+            },
+            {
+              "name": "Reset-SgwExpansionNode"
+            }
+          ]
+        },
+        {
+          "name": "SgwExpansionNodes",
+          "children": [
+            {
+              "name": "Get-SgwExpansionNodes"
+            }
+          ]
+        },
+        {
+          "name": "SgwExpansionSite",
+          "children": [
+            {
+              "name": "Get-SgwExpansionSite"
+            },
+            {
+              "name": "New-SgwExpansionSite"
+            },
+            {
+              "name": "Remove-SgwExpansionSite"
+            },
+            {
+              "name": "Update-SgwExpansionSite"
+            }
+          ]
+        },
+        {
+          "name": "SgwExpansionSites",
+          "children": [
+            {
+              "name": "Get-SgwExpansionSites"
+            }
+          ]
+        },
+        {
+          "name": "SgwFederatedGroupByShortName",
+          "children": [
+            {
+              "name": "Get-SgwFederatedGroupByShortName"
+            }
+          ]
+        },
+        {
+          "name": "SgwGridNetworks",
+          "children": [
+            {
+              "name": "Get-SgwGridNetworks"
+            },
+            {
+              "name": "Update-SgwGridNetworks"
+            }
+          ]
+        },
+        {
+          "name": "SgwGroupByShortName",
+          "children": [
+            {
+              "name": "Get-SgwGroupByShortName"
+            }
+          ]
+        },
+        {
+          "name": "SgwGroups",
+          "children": [
+            {
+              "name": "Get-SgwGroups"
+            }
+          ]
+        },
+        {
+          "name": "SgwHealth",
+          "children": [
+            {
+              "name": "Get-SgwHealth"
+            }
+          ]
+        },
+        {
+          "name": "SgwIdentitySources",
+          "children": [
+            {
+              "name": "Get-SgwIdentitySources"
+            },
+            {
+              "name": "Sync-SgwIdentitySources"
+            }
+          ]
+        },
+        {
+          "name": "SgwIlmMetadata",
+          "children": [
+            {
+              "name": "Get-SgwIlmMetadata"
+            }
+          ]
+        },
+        {
+          "name": "SgwIlmRules",
+          "children": [
+            {
+              "name": "Get-SgwIlmRules"
+            },
+            {
+              "name": "New-SgwIlmRules"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallNode",
+          "children": [
+            {
+              "name": "Get-SgwInstallNode"
+            },
+            {
+              "name": "Remove-SgwInstallNode"
+            },
+            {
+              "name": "Reset-SgwInstallNode"
+            },
+            {
+              "name": "Update-SgwInstallNode"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallNodes",
+          "children": [
+            {
+              "name": "Get-SgwInstallNodes"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallRecoveryPackage",
+          "children": [
+            {
+              "name": "Get-SgwInstallRecoveryPackage"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallRecoveryPackageDownloadStatus",
+          "children": [
+            {
+              "name": "Get-SgwInstallRecoveryPackageDownloadStatus"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallSite",
+          "children": [
+            {
+              "name": "Get-SgwInstallSite"
+            },
+            {
+              "name": "New-SgwInstallSite"
+            },
+            {
+              "name": "Remove-SgwInstallSite"
+            },
+            {
+              "name": "Update-SgwInstallSite"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallSites",
+          "children": [
+            {
+              "name": "Get-SgwInstallSites"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstallStatus",
+          "children": [
+            {
+              "name": "Get-SgwInstallStatus"
+            }
+          ]
+        },
+        {
+          "name": "SgwLicense",
+          "children": [
+            {
+              "name": "Get-SgwLicense"
+            },
+            {
+              "name": "Update-SgwLicense"
+            }
+          ]
+        },
+        {
+          "name": "SgwLogCollection",
+          "children": [
+            {
+              "name": "Get-SgwLogCollection"
+            },
+            {
+              "name": "Remove-SgwLogCollection"
+            },
+            {
+              "name": "Start-SgwLogCollection"
+            }
+          ]
+        },
+        {
+          "name": "SgwLogs",
+          "children": [
+            {
+              "name": "Get-SgwLogs"
+            }
+          ]
+        },
+        {
+          "name": "SgwMetricLabelValue",
+          "children": [
+            {
+              "name": "Get-SgwMetricLabelValue"
+            }
+          ]
+        },
+        {
+          "name": "SgwMetricNames",
+          "children": [
+            {
+              "name": "Get-SgwMetricNames"
+            }
+          ]
+        },
+        {
+          "name": "SgwMetricQuery",
+          "children": [
+            {
+              "name": "Get-SgwMetricQuery"
+            }
+          ]
+        },
+        {
+          "name": "SgwMetricQueryRange",
+          "children": [
+            {
+              "name": "Get-SgwMetricQueryRange"
+            }
+          ]
+        },
+        {
+          "name": "SgwNtpServers",
+          "children": [
+            {
+              "name": "Get-SgwNtpServers"
+            },
+            {
+              "name": "Update-SgwNtpServers"
+            }
+          ]
+        },
+        {
+          "name": "SgwObjectMetadata",
+          "children": [
+            {
+              "name": "Get-SgwObjectMetadata"
+            }
+          ]
+        },
+        {
+          "name": "SgwProductVersion",
+          "children": [
+            {
+              "name": "Get-SgwProductVersion"
+            }
+          ]
+        },
+        {
+          "name": "SgwProfiles",
+          "children": [
+            {
+              "name": "Get-SgwProfiles"
+            }
+          ]
+        },
+        {
+          "name": "SgwRecovery",
+          "children": [
+            {
+              "name": "Get-SgwRecovery"
+            },
+            {
+              "name": "Reset-SgwRecovery"
+            },
+            {
+              "name": "Start-SgwRecovery"
+            }
+          ]
+        },
+        {
+          "name": "SgwRecoveryAvailableNodes",
+          "children": [
+            {
+              "name": "Get-SgwRecoveryAvailableNodes"
+            }
+          ]
+        },
+        {
+          "name": "SgwRecoveryPackage",
+          "children": [
+            {
+              "name": "Get-SgwRecoveryPackage"
+            }
+          ]
+        },
+        {
+          "name": "SgwRegions",
+          "children": [
+            {
+              "name": "Get-SgwRegions"
+            },
+            {
+              "name": "Update-SgwRegions"
+            }
+          ]
+        },
+        {
+          "name": "SgwReport",
+          "children": [
+            {
+              "name": "Get-SgwReport"
+            }
+          ]
+        },
+        {
+          "name": "SgwS3AccessKey",
+          "children": [
+            {
+              "name": "Get-SgwS3AccessKey"
+            },
+            {
+              "name": "New-SgwS3AccessKey"
+            },
+            {
+              "name": "Remove-SgwS3AccessKey"
+            }
+          ]
+        },
+        {
+          "name": "SgwS3AccessKeys",
+          "children": [
+            {
+              "name": "Get-SgwS3AccessKeys"
+            }
+          ]
+        },
+        {
+          "name": "SgwS3Endpoints",
+          "children": [
+            {
+              "name": "Get-SgwS3Endpoints"
+            }
+          ]
+        },
+        {
+          "name": "SgwSnmp",
+          "children": [
+            {
+              "name": "Get-SgwSnmp"
+            },
+            {
+              "name": "Set-SgwSnmp"
+            }
+          ]
+        },
+        {
+          "name": "SgwTopologyHealth",
+          "children": [
+            {
+              "name": "Get-SgwTopologyHealth"
+            }
+          ]
+        },
+        {
+          "name": "SgwUsers",
+          "children": [
+            {
+              "name": "Get-SgwUsers"
+            }
+          ]
+        },
+        {
+          "name": "SgwVersion",
+          "children": [
+            {
+              "name": "Get-SgwVersion"
+            }
+          ]
+        },
+        {
+          "name": "SgwVersions",
+          "children": [
+            {
+              "name": "Get-SgwVersions"
+            }
+          ]
+        },
+        {
+          "name": "SgwIlmEvaluate",
+          "children": [
+            {
+              "name": "Invoke-SgwIlmEvaluate"
+            }
+          ]
+        },
+        {
+          "name": "SgwRequest",
+          "children": [
+            {
+              "name": "Invoke-SgwRequest"
+            }
+          ]
+        },
+        {
+          "name": "SgwServerSsoAuthentication",
+          "children": [
+            {
+              "name": "Invoke-SgwServerSsoAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "SgwGrids",
+          "children": [
+            {
+              "name": "Merge-SgwGrids"
+            }
+          ]
+        },
+        {
+          "name": "SgwContainer",
+          "children": [
+            {
+              "name": "New-SgwContainer"
+            }
+          ]
+        },
+        {
+          "name": "SgwInstall",
+          "children": [
+            {
+              "name": "Reset-SgwInstall"
+            },
+            {
+              "name": "Start-SgwInstall"
+            }
+          ]
+        },
+        {
+          "name": "SgwAccountPassword",
+          "children": [
+            {
+              "name": "Update-SgwAccountPassword"
+            }
+          ]
+        },
+        {
+          "name": "SgwSwiftAdminPassword",
+          "children": [
+            {
+              "name": "Update-SgwSwiftAdminPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S3-Client",
+      "companyName": "NetApp Deutschland GmbH",
+      "children": [
+        {
+          "name": "AwsCredential",
+          "children": [
+            {
+              "name": "Add-AwsCredential"
+            },
+            {
+              "name": "Get-AwsCredential"
+            },
+            {
+              "name": "New-AwsCredential"
+            },
+            {
+              "name": "Remove-AwsCredential"
+            },
+            {
+              "name": "Set-AwsCredential"
+            },
+            {
+              "name": "Update-AwsCredential"
+            }
+          ]
+        },
+        {
+          "name": "AwsPolicyStatement",
+          "children": [
+            {
+              "name": "Add-AwsPolicyStatement"
+            }
+          ]
+        },
+        {
+          "name": "AwsProfile",
+          "children": [
+            {
+              "name": "Add-AwsProfile"
+            },
+            {
+              "name": "Get-AwsProfile"
+            },
+            {
+              "name": "New-AwsProfile"
+            },
+            {
+              "name": "Remove-AwsProfile"
+            },
+            {
+              "name": "Set-AwsProfile"
+            },
+            {
+              "name": "Update-AwsProfile"
+            }
+          ]
+        },
+        {
+          "name": "IamPolicyStatement",
+          "children": [
+            {
+              "name": "Add-IamPolicyStatement"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketCorsConfiguration",
+          "children": [
+            {
+              "name": "Add-S3BucketCorsConfiguration"
+            },
+            {
+              "name": "Get-S3BucketCorsConfiguration"
+            },
+            {
+              "name": "Remove-S3BucketCorsConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketCorsRule",
+          "children": [
+            {
+              "name": "Add-S3BucketCorsRule"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketNotificationConfiguration",
+          "children": [
+            {
+              "name": "Add-S3BucketNotificationConfiguration"
+            },
+            {
+              "name": "Get-S3BucketNotificationConfiguration"
+            },
+            {
+              "name": "Remove-S3BucketNotificationConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketNotificationRule",
+          "children": [
+            {
+              "name": "Add-S3BucketNotificationRule"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketPolicy",
+          "children": [
+            {
+              "name": "Add-S3BucketPolicy"
+            },
+            {
+              "name": "New-S3BucketPolicy"
+            },
+            {
+              "name": "Write-S3BucketPolicy"
+            },
+            {
+              "name": "Get-S3BucketPolicy"
+            },
+            {
+              "name": "Remove-S3BucketPolicy"
+            },
+            {
+              "name": "Set-S3BucketPolicy"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketPolicyStatement",
+          "children": [
+            {
+              "name": "Add-S3BucketPolicyStatement"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketReplicationConfiguration",
+          "children": [
+            {
+              "name": "Add-S3BucketReplicationConfiguration"
+            },
+            {
+              "name": "Get-S3BucketReplicationConfiguration"
+            },
+            {
+              "name": "Remove-S3BucketReplicationConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketReplicationRule",
+          "children": [
+            {
+              "name": "Add-S3BucketReplicationRule"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketSearchConfiguration",
+          "children": [
+            {
+              "name": "Add-S3BucketSearchConfiguration"
+            },
+            {
+              "name": "Get-S3BucketSearchConfiguration"
+            },
+            {
+              "name": "Remove-S3BucketSearchConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketSearchRule",
+          "children": [
+            {
+              "name": "Add-S3BucketSearchRule"
+            }
+          ]
+        },
+        {
+          "name": "AwsCredentials",
+          "children": [
+            {
+              "name": "Get-AwsCredentials"
+            }
+          ]
+        },
+        {
+          "name": "AwsProfiles",
+          "children": [
+            {
+              "name": "Get-AwsProfiles"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketCors",
+          "children": [
+            {
+              "name": "Get-S3BucketCors"
+            },
+            {
+              "name": "Remove-S3BucketCors"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketCorsConfigurationRule",
+          "children": [
+            {
+              "name": "Get-S3BucketCorsConfigurationRule"
+            },
+            {
+              "name": "Add-S3BucketCorsConfigurationRule"
+            },
+            {
+              "name": "Remove-S3BucketCorsConfigurationRule"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketNotificationConfigurationRule",
+          "children": [
+            {
+              "name": "Get-S3BucketNotificationConfigurationRule"
+            },
+            {
+              "name": "Add-S3BucketNotificationConfigurationRule"
+            },
+            {
+              "name": "Remove-S3BucketNotificationConfigurationRule"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketRegion",
+          "children": [
+            {
+              "name": "Get-S3BucketRegion"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketReplication",
+          "children": [
+            {
+              "name": "Get-S3BucketReplication"
+            },
+            {
+              "name": "Remove-S3BucketReplication"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketReplicationConfigurationRule",
+          "children": [
+            {
+              "name": "Get-S3BucketReplicationConfigurationRule"
+            },
+            {
+              "name": "Add-S3BucketReplicationConfigurationRule"
+            },
+            {
+              "name": "Remove-S3BucketReplicationConfigurationRule"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketSearchConfigurationRule",
+          "children": [
+            {
+              "name": "Get-S3BucketSearchConfigurationRule"
+            },
+            {
+              "name": "Add-S3BucketSearchConfigurationRule"
+            },
+            {
+              "name": "Remove-S3BucketSearchConfigurationRule"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketVersions",
+          "children": [
+            {
+              "name": "Get-S3BucketVersions"
+            }
+          ]
+        },
+        {
+          "name": "S3CORSConfiguration",
+          "children": [
+            {
+              "name": "Get-S3CORSConfiguration"
+            },
+            {
+              "name": "Remove-S3CORSConfiguration"
+            },
+            {
+              "name": "Write-S3CorsConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "S3NotificationConfiguration",
+          "children": [
+            {
+              "name": "Get-S3NotificationConfiguration"
+            },
+            {
+              "name": "Remove-S3NotificationConfiguration"
+            },
+            {
+              "name": "Write-S3NotificationConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "S3Object",
+          "children": [
+            {
+              "name": "Get-S3Object"
+            },
+            {
+              "name": "Copy-S3Object"
+            },
+            {
+              "name": "Read-S3Object"
+            },
+            {
+              "name": "Remove-S3Object"
+            },
+            {
+              "name": "Test-S3Object"
+            },
+            {
+              "name": "Write-S3Object"
+            }
+          ]
+        },
+        {
+          "name": "S3ObjectVersion",
+          "children": [
+            {
+              "name": "Get-S3ObjectVersion"
+            },
+            {
+              "name": "Read-S3ObjectVersion"
+            },
+            {
+              "name": "Remove-S3ObjectVersion"
+            }
+          ]
+        },
+        {
+          "name": "S3ReplicationConfiguration",
+          "children": [
+            {
+              "name": "Get-S3ReplicationConfiguration"
+            },
+            {
+              "name": "Remove-S3ReplicationConfiguration"
+            },
+            {
+              "name": "Write-S3ReplicationConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "S3SearchConfiguration",
+          "children": [
+            {
+              "name": "Get-S3SearchConfiguration"
+            },
+            {
+              "name": "Remove-S3SearchConfiguration"
+            },
+            {
+              "name": "Write-S3SearchConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "S3MultipartUpload",
+          "children": [
+            {
+              "name": "Invoke-S3MultipartUpload"
+            },
+            {
+              "name": "Complete-S3MultipartUpload"
+            },
+            {
+              "name": "Start-S3MultipartUpload"
+            },
+            {
+              "name": "Stop-S3MultipartUpload"
+            },
+            {
+              "name": "Write-S3MultipartUpload"
+            }
+          ]
+        },
+        {
+          "name": "AwsConfig",
+          "children": [
+            {
+              "name": "New-AwsConfig"
+            },
+            {
+              "name": "Set-AwsConfig"
+            },
+            {
+              "name": "Update-AwsConfig"
+            },
+            {
+              "name": "Add-AwsConfig"
+            },
+            {
+              "name": "Get-AwsConfig"
+            },
+            {
+              "name": "Remove-AwsConfig"
+            }
+          ]
+        },
+        {
+          "name": "IamPolicy",
+          "children": [
+            {
+              "name": "New-IamPolicy"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketLastAccessTime",
+          "children": [
+            {
+              "name": "Disable-S3BucketLastAccessTime"
+            },
+            {
+              "name": "Enable-S3BucketLastAccessTime"
+            },
+            {
+              "name": "Get-S3BucketLastAccessTime"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketVersioning",
+          "children": [
+            {
+              "name": "Enable-S3BucketVersioning"
+            },
+            {
+              "name": "Get-S3BucketVersioning"
+            },
+            {
+              "name": "Suspend-S3BucketVersioning"
+            }
+          ]
+        },
+        {
+          "name": "AwsConfigs",
+          "children": [
+            {
+              "name": "Get-AwsConfigs"
+            }
+          ]
+        },
+        {
+          "name": "AwsRequest",
+          "children": [
+            {
+              "name": "Get-AwsRequest"
+            },
+            {
+              "name": "Invoke-AwsRequest"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketConsistency",
+          "children": [
+            {
+              "name": "Get-S3BucketConsistency"
+            },
+            {
+              "name": "Update-S3BucketConsistency"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketEncryption",
+          "children": [
+            {
+              "name": "Get-S3BucketEncryption"
+            },
+            {
+              "name": "Remove-S3BucketEncryption"
+            },
+            {
+              "name": "Set-S3BucketEncryption"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketLocation",
+          "children": [
+            {
+              "name": "Get-S3BucketLocation"
+            }
+          ]
+        },
+        {
+          "name": "S3Buckets",
+          "children": [
+            {
+              "name": "Get-S3Buckets"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketTagging",
+          "children": [
+            {
+              "name": "Get-S3BucketTagging"
+            },
+            {
+              "name": "Remove-S3BucketTagging"
+            },
+            {
+              "name": "Set-S3BucketTagging"
+            }
+          ]
+        },
+        {
+          "name": "S3MultipartUploads",
+          "children": [
+            {
+              "name": "Get-S3MultipartUploads"
+            }
+          ]
+        },
+        {
+          "name": "S3ObjectMetadata",
+          "children": [
+            {
+              "name": "Get-S3ObjectMetadata"
+            }
+          ]
+        },
+        {
+          "name": "S3ObjectParts",
+          "children": [
+            {
+              "name": "Get-S3ObjectParts"
+            }
+          ]
+        },
+        {
+          "name": "S3Objects",
+          "children": [
+            {
+              "name": "Get-S3Objects"
+            }
+          ]
+        },
+        {
+          "name": "S3ObjectTagging",
+          "children": [
+            {
+              "name": "Get-S3ObjectTagging"
+            },
+            {
+              "name": "Remove-S3ObjectTagging"
+            },
+            {
+              "name": "Set-S3ObjectTagging"
+            }
+          ]
+        },
+        {
+          "name": "S3ObjectVersions",
+          "children": [
+            {
+              "name": "Get-S3ObjectVersions"
+            }
+          ]
+        },
+        {
+          "name": "S3PresignedUrl",
+          "children": [
+            {
+              "name": "Get-S3PresignedUrl"
+            }
+          ]
+        },
+        {
+          "name": "S3StorageUsage",
+          "children": [
+            {
+              "name": "Get-S3StorageUsage"
+            }
+          ]
+        },
+        {
+          "name": "S3BucketMirroring",
+          "children": [
+            {
+              "name": "Invoke-S3BucketMirroring"
+            }
+          ]
+        },
+        {
+          "name": "AwsPolicy",
+          "children": [
+            {
+              "name": "New-AwsPolicy"
+            }
+          ]
+        },
+        {
+          "name": "S3Bucket",
+          "children": [
+            {
+              "name": "New-S3Bucket"
+            },
+            {
+              "name": "Remove-S3Bucket"
+            },
+            {
+              "name": "Test-S3Bucket"
+            }
+          ]
+        },
+        {
+          "name": "S3ObjectPart",
+          "children": [
+            {
+              "name": "Write-S3ObjectPart"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

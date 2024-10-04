@@ -1,0 +1,267 @@
+{
+  "name": "Brooksworks",
+  "children": [
+    {
+      "name": "ActiveDirectoryObjectPicker",
+      "companyName": "Brooksworks",
+      "children": [
+        {
+          "name": "ActiveDirectoryObjectPicker",
+          "children": [
+            {
+              "name": "New-ActiveDirectoryObjectPicker"
+            },
+            {
+              "name": "Show-ActiveDirectoryObjectPicker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BWNetworkTests",
+      "companyName": "Brooksworks",
+      "children": [
+        {
+          "name": "NetTcpPortOpen",
+          "children": [
+            {
+              "name": "Test-NetTcpPortOpen"
+            }
+          ]
+        },
+        {
+          "name": "NetDomainNameResolution",
+          "children": [
+            {
+              "name": "Test-NetDomainNameResolution"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BWDynamicParameter",
+      "companyName": "Brooksworks",
+      "children": [
+        {
+          "name": "DynamicParameter",
+          "children": [
+            {
+              "name": "New-DynamicParameter"
+            }
+          ]
+        },
+        {
+          "name": "DynamicParameterDictionary",
+          "children": [
+            {
+              "name": "New-DynamicParameterDictionary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BW.Utils.WMIPermissions",
+      "companyName": "Brooksworks",
+      "children": [
+        {
+          "name": "WmiNamespaceACL",
+          "children": [
+            {
+              "name": "Get-WmiNamespaceACL"
+            },
+            {
+              "name": "Set-WmiNamespaceACL"
+            }
+          ]
+        },
+        {
+          "name": "WmiNamespaceTrustee",
+          "children": [
+            {
+              "name": "Add-WmiNamespaceTrustee"
+            },
+            {
+              "name": "Remove-WmiNamespaceTrustee"
+            }
+          ]
+        },
+        {
+          "name": "WmiNamespaceTrusteeRights",
+          "children": [
+            {
+              "name": "Get-WmiNamespaceTrusteeRights"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BW.Utils.GroupPolicy",
+      "companyName": "Brooksworks",
+      "children": [
+        {
+          "name": "GPOIncrementVersion",
+          "children": [
+            {
+              "name": "Invoke-GPOIncrementVersion"
+            }
+          ]
+        },
+        {
+          "name": "GPLink",
+          "children": [
+            {
+              "name": "Get-GPLink"
+            }
+          ]
+        },
+        {
+          "name": "GPBackupManifest",
+          "children": [
+            {
+              "name": "Import-GPBackupManifest"
+            }
+          ]
+        },
+        {
+          "name": "GPRegistryValue",
+          "children": [
+            {
+              "name": "Find-GPRegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "GPRegistryValues",
+          "children": [
+            {
+              "name": "Search-GPRegistryValues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitwardenWrapper",
+      "companyName": "Brooksworks",
+      "children": [
+        {
+          "name": "BWCredential",
+          "children": [
+            {
+              "name": "Get-BWCredential"
+            },
+            {
+              "name": "Select-BWCredential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSReadlineHistory",
+      "companyName": "Brooksworks",
+      "children": [
+        {
+          "name": "PSReadlineHistory",
+          "children": [
+            {
+              "name": "Optimize-PSReadlineHistory"
+            },
+            {
+              "name": "Get-PSReadlineHistory"
+            },
+            {
+              "name": "Invoke-PSReadlineHistory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSmRemoteNG",
+      "companyName": "Brooksworks",
+      "children": [
+        {
+          "name": "MRNGSecureString",
+          "children": [
+            {
+              "name": "ConvertFrom-MRNGSecureString"
+            },
+            {
+              "name": "ConvertTo-MRNGSecureString"
+            }
+          ]
+        },
+        {
+          "name": "MRNGConnectionFile",
+          "children": [
+            {
+              "name": "Export-MRNGConnectionFile"
+            }
+          ]
+        },
+        {
+          "name": "MRNGRootNode",
+          "children": [
+            {
+              "name": "Import-MRNGRootNode"
+            },
+            {
+              "name": "New-MRNGRootNode"
+            }
+          ]
+        },
+        {
+          "name": "MRNGConnection",
+          "children": [
+            {
+              "name": "New-MRNGConnection"
+            }
+          ]
+        },
+        {
+          "name": "MRNGContainer",
+          "children": [
+            {
+              "name": "New-MRNGContainer"
+            }
+          ]
+        },
+        {
+          "name": "MRNGInheritanceConfiguration",
+          "children": [
+            {
+              "name": "New-MRNGInheritanceConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ScreenConnectUtils",
+      "companyName": "Brooksworks",
+      "children": [
+        {
+          "name": "SupportSession",
+          "children": [
+            {
+              "name": "Connect-SupportSession"
+            }
+          ]
+        },
+        {
+          "name": "HostClient",
+          "children": [
+            {
+              "name": "Install-HostClient"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

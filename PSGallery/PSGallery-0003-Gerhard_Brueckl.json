@@ -1,0 +1,927 @@
+{
+  "name": "Gerhard Brueckl",
+  "children": [
+    {
+      "name": "DatabricksPS",
+      "companyName": "Gerhard Brueckl",
+      "children": [
+        {
+          "name": "DatabricksClusterPolicy",
+          "children": [
+            {
+              "name": "Get-DatabricksClusterPolicy"
+            },
+            {
+              "name": "Add-DatabricksClusterPolicy"
+            },
+            {
+              "name": "Remove-DatabricksClusterPolicy"
+            },
+            {
+              "name": "Update-DatabricksClusterPolicy"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksCluster",
+          "children": [
+            {
+              "name": "Add-DatabricksCluster"
+            },
+            {
+              "name": "Update-DatabricksCluster"
+            },
+            {
+              "name": "Start-DatabricksCluster"
+            },
+            {
+              "name": "Restart-DatabricksCluster"
+            },
+            {
+              "name": "Stop-DatabricksCluster"
+            },
+            {
+              "name": "Resize-DatabricksCluster"
+            },
+            {
+              "name": "Remove-DatabricksCluster"
+            },
+            {
+              "name": "Get-DatabricksCluster"
+            },
+            {
+              "name": "Pin-DatabricksCluster"
+            },
+            {
+              "name": "Unpin-DatabricksCluster"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksClusterEvent",
+          "children": [
+            {
+              "name": "Get-DatabricksClusterEvent"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksNodeType",
+          "children": [
+            {
+              "name": "Get-DatabricksNodeType"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksZone",
+          "children": [
+            {
+              "name": "Get-DatabricksZone"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksSparkVersion",
+          "children": [
+            {
+              "name": "Get-DatabricksSparkVersion"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksCommand",
+          "children": [
+            {
+              "name": "Start-DatabricksCommand"
+            },
+            {
+              "name": "Get-DatabricksCommand"
+            },
+            {
+              "name": "Stop-DatabricksCommand"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksCommandResult",
+          "children": [
+            {
+              "name": "Get-DatabricksCommandResult"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksFSFile",
+          "children": [
+            {
+              "name": "Add-DatabricksFSFile"
+            },
+            {
+              "name": "Close-DatabricksFSFile"
+            },
+            {
+              "name": "Upload-DatabricksFSFile"
+            },
+            {
+              "name": "Download-DatabricksFSFile"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksFSFileBlock",
+          "children": [
+            {
+              "name": "Add-DatabricksFSFileBlock"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksFSItem",
+          "children": [
+            {
+              "name": "Remove-DatabricksFSItem"
+            },
+            {
+              "name": "Get-DatabricksFSItem"
+            },
+            {
+              "name": "Move-DatabricksFSItem"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksFSDirectory",
+          "children": [
+            {
+              "name": "Add-DatabricksFSDirectory"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksFSContent",
+          "children": [
+            {
+              "name": "Get-DatabricksFSContent"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksExecutionContext",
+          "children": [
+            {
+              "name": "Get-DatabricksExecutionContext"
+            },
+            {
+              "name": "Remove-DatabricksExecutionContext"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksExecutionContextStatus",
+          "children": [
+            {
+              "name": "Get-DatabricksExecutionContextStatus"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksApiRequest",
+          "children": [
+            {
+              "name": "Invoke-DatabricksApiRequest"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksEnvironment",
+          "children": [
+            {
+              "name": "Set-DatabricksEnvironment"
+            },
+            {
+              "name": "Clear-DatabricksEnvironment"
+            },
+            {
+              "name": "Test-DatabricksEnvironment"
+            },
+            {
+              "name": "Export-DatabricksEnvironment"
+            },
+            {
+              "name": "Import-DatabricksEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksCachedDynamicParameterValue",
+          "children": [
+            {
+              "name": "Clear-DatabricksCachedDynamicParameterValue"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksDynamicParameterCacheTimeout",
+          "children": [
+            {
+              "name": "Set-DatabricksDynamicParameterCacheTimeout"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksPSStatus",
+          "children": [
+            {
+              "name": "Get-DatabricksPSStatus"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksApiRootUrl",
+          "children": [
+            {
+              "name": "Get-DatabricksApiRootUrl"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksGitCredential",
+          "children": [
+            {
+              "name": "Get-DatabricksGitCredential"
+            },
+            {
+              "name": "Add-DatabricksGitCredential"
+            },
+            {
+              "name": "Update-DatabricksGitCredential"
+            },
+            {
+              "name": "Remove-DatabricksGitCredential"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksGlobalInitScript",
+          "children": [
+            {
+              "name": "Add-DatabricksGlobalInitScript"
+            },
+            {
+              "name": "Get-DatabricksGlobalInitScript"
+            },
+            {
+              "name": "Remove-DatabricksGlobalInitScript"
+            },
+            {
+              "name": "Update-DatabricksGlobalInitScript"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksGroupMember",
+          "children": [
+            {
+              "name": "Add-DatabricksGroupMember"
+            },
+            {
+              "name": "Get-DatabricksGroupMember"
+            },
+            {
+              "name": "Remove-DatabricksGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksGroup",
+          "children": [
+            {
+              "name": "Add-DatabricksGroup"
+            },
+            {
+              "name": "Get-DatabricksGroup"
+            },
+            {
+              "name": "Remove-DatabricksGroup"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksGroupMembership",
+          "children": [
+            {
+              "name": "Get-DatabricksGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksInstancePool",
+          "children": [
+            {
+              "name": "Add-DatabricksInstancePool"
+            },
+            {
+              "name": "Update-DatabricksInstancePool"
+            },
+            {
+              "name": "Remove-DatabricksInstancePool"
+            },
+            {
+              "name": "Get-DatabricksInstancePool"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksInstanceProfile",
+          "children": [
+            {
+              "name": "Add-DatabricksInstanceProfile"
+            },
+            {
+              "name": "Get-DatabricksInstanceProfile"
+            },
+            {
+              "name": "Remove-DatabricksInstanceProfile"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksIPAccessList",
+          "children": [
+            {
+              "name": "Get-DatabricksIPAccessList"
+            },
+            {
+              "name": "Add-DatabricksIPAccessList"
+            },
+            {
+              "name": "Remove-DatabricksIPAccessList"
+            },
+            {
+              "name": "Update-DatabricksIPAccessList"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksJob",
+          "children": [
+            {
+              "name": "Add-DatabricksJob"
+            },
+            {
+              "name": "Get-DatabricksJob"
+            },
+            {
+              "name": "Remove-DatabricksJob"
+            },
+            {
+              "name": "Update-DatabricksJob"
+            },
+            {
+              "name": "Start-DatabricksJob"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksJobRun",
+          "children": [
+            {
+              "name": "New-DatabricksJobRun"
+            },
+            {
+              "name": "Get-DatabricksJobRun"
+            },
+            {
+              "name": "Export-DatabricksJobRun"
+            },
+            {
+              "name": "Stop-DatabricksJobRun"
+            },
+            {
+              "name": "Remove-DatabricksJobRun"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksJobRunOutput",
+          "children": [
+            {
+              "name": "Get-DatabricksJobRunOutput"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksClusterLibraries",
+          "children": [
+            {
+              "name": "Get-DatabricksClusterLibraries"
+            },
+            {
+              "name": "Add-DatabricksClusterLibraries"
+            },
+            {
+              "name": "Remove-DatabricksClusterLibraries"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksClusterLocalLibrary",
+          "children": [
+            {
+              "name": "Add-DatabricksClusterLocalLibrary"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksPermissions",
+          "children": [
+            {
+              "name": "Get-DatabricksPermissions"
+            },
+            {
+              "name": "Set-DatabricksPermissions"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksPermissionLevels",
+          "children": [
+            {
+              "name": "Get-DatabricksPermissionLevels"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksACL",
+          "children": [
+            {
+              "name": "ConvertTo-DatabricksACL"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksProject",
+          "children": [
+            {
+              "name": "Pull-DatabricksProject"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksRepo",
+          "children": [
+            {
+              "name": "Get-DatabricksRepo"
+            },
+            {
+              "name": "Add-DatabricksRepo"
+            },
+            {
+              "name": "Update-DatabricksRepo"
+            },
+            {
+              "name": "Remove-DatabricksRepo"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksSCIMUser",
+          "children": [
+            {
+              "name": "Get-DatabricksSCIMUser"
+            },
+            {
+              "name": "Add-DatabricksSCIMUser"
+            },
+            {
+              "name": "Remove-DatabricksSCIMUser"
+            },
+            {
+              "name": "Update-DatabricksSCIMUser"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksSCIMGroup",
+          "children": [
+            {
+              "name": "Get-DatabricksSCIMGroup"
+            },
+            {
+              "name": "Add-DatabricksSCIMGroup"
+            },
+            {
+              "name": "Remove-DatabricksSCIMGroup"
+            },
+            {
+              "name": "Update-DatabricksSCIMGroup"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksSCIMServicePrincipal",
+          "children": [
+            {
+              "name": "Get-DatabricksSCIMServicePrincipal"
+            },
+            {
+              "name": "Add-DatabricksSCIMServicePrincipal"
+            },
+            {
+              "name": "Remove-DatabricksSCIMServicePrincipal"
+            },
+            {
+              "name": "Update-DatabricksSCIMServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksSecretScope",
+          "children": [
+            {
+              "name": "Add-DatabricksSecretScope"
+            },
+            {
+              "name": "Remove-DatabricksSecretScope"
+            },
+            {
+              "name": "Get-DatabricksSecretScope"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksSecret",
+          "children": [
+            {
+              "name": "Add-DatabricksSecret"
+            },
+            {
+              "name": "Remove-DatabricksSecret"
+            },
+            {
+              "name": "Get-DatabricksSecret"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksSecretScopeACL",
+          "children": [
+            {
+              "name": "Add-DatabricksSecretScopeACL"
+            },
+            {
+              "name": "Remove-DatabricksSecretScopeACL"
+            },
+            {
+              "name": "Get-DatabricksSecretScopeACL"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksSQLHistory",
+          "children": [
+            {
+              "name": "Get-DatabricksSQLHistory"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksSQLWarehouse",
+          "children": [
+            {
+              "name": "Add-DatabricksSQLWarehouse"
+            },
+            {
+              "name": "Remove-DatabricksSQLWarehouse"
+            },
+            {
+              "name": "Update-DatabricksSQLWarehouse"
+            },
+            {
+              "name": "Get-DatabricksSQLWarehouse"
+            },
+            {
+              "name": "Start-DatabricksSQLWarehouse"
+            },
+            {
+              "name": "Stop-DatabricksSQLWarehouse"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksSQLWarehouseConfig",
+          "children": [
+            {
+              "name": "Get-DatabricksSQLWarehouseConfig"
+            },
+            {
+              "name": "Update-DatabricksSQLWarehouseConfig"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksApiToken",
+          "children": [
+            {
+              "name": "Add-DatabricksApiToken"
+            },
+            {
+              "name": "Get-DatabricksApiToken"
+            },
+            {
+              "name": "Remove-DatabricksApiToken"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksWorkspaceItem",
+          "children": [
+            {
+              "name": "Remove-DatabricksWorkspaceItem"
+            },
+            {
+              "name": "Export-DatabricksWorkspaceItem"
+            },
+            {
+              "name": "Import-DatabricksWorkspaceItem"
+            },
+            {
+              "name": "Get-DatabricksWorkspaceItem"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksWorkspaceDirectory",
+          "children": [
+            {
+              "name": "Add-DatabricksWorkspaceDirectory"
+            }
+          ]
+        },
+        {
+          "name": "DatabricksWorkspaceConfig",
+          "children": [
+            {
+              "name": "Get-DatabricksWorkspaceConfig"
+            },
+            {
+              "name": "Set-DatabricksWorkspaceConfig"
+            }
+          ]
+        },
+        {
+          "name": "UnityCatalogCatalog",
+          "children": [
+            {
+              "name": "Get-UnityCatalogCatalog"
+            },
+            {
+              "name": "Add-UnityCatalogCatalog"
+            },
+            {
+              "name": "Update-UnityCatalogCatalog"
+            },
+            {
+              "name": "Remove-UnityCatalogCatalog"
+            }
+          ]
+        },
+        {
+          "name": "UnityCatalogExternalLocation",
+          "children": [
+            {
+              "name": "Get-UnityCatalogExternalLocation"
+            },
+            {
+              "name": "Add-UnityCatalogExternalLocation"
+            },
+            {
+              "name": "Update-UnityCatalogExternalLocation"
+            },
+            {
+              "name": "Remove-UnityCatalogExternalLocation"
+            }
+          ]
+        },
+        {
+          "name": "UnityCatalogSchema",
+          "children": [
+            {
+              "name": "Get-UnityCatalogSchema"
+            },
+            {
+              "name": "Add-UnityCatalogSchema"
+            },
+            {
+              "name": "Update-UnityCatalogSchema"
+            },
+            {
+              "name": "Remove-UnityCatalogSchema"
+            }
+          ]
+        },
+        {
+          "name": "UnityCatalogStorageCredential",
+          "children": [
+            {
+              "name": "Get-UnityCatalogStorageCredential"
+            },
+            {
+              "name": "Add-UnityCatalogStorageCredential"
+            },
+            {
+              "name": "Update-UnityCatalogStorageCredential"
+            },
+            {
+              "name": "Remove-UnityCatalogStorageCredential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gbrueckl.Toolbox",
+      "companyName": "Gerhard Brueckl",
+      "children": [
+        {
+          "name": "AzContext",
+          "children": [
+            {
+              "name": "Choose-AzContext"
+            }
+          ]
+        },
+        {
+          "name": "AzureAuthentication",
+          "children": [
+            {
+              "name": "Get-AzureAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "ConsentUrl",
+          "children": [
+            {
+              "name": "Get-ConsentUrl"
+            }
+          ]
+        },
+        {
+          "name": "DefaultSeparator",
+          "children": [
+            {
+              "name": "Set-DefaultSeparator"
+            }
+          ]
+        },
+        {
+          "name": "Parts",
+          "children": [
+            {
+              "name": "Join-Parts"
+            }
+          ]
+        },
+        {
+          "name": "Token",
+          "children": [
+            {
+              "name": "Get-Token"
+            }
+          ]
+        },
+        {
+          "name": "CoalesceValue",
+          "children": [
+            {
+              "name": "Get-CoalesceValue"
+            }
+          ]
+        },
+        {
+          "name": "DistinctObjects",
+          "children": [
+            {
+              "name": "Get-DistinctObjects"
+            }
+          ]
+        },
+        {
+          "name": "Property",
+          "children": [
+            {
+              "name": "Add-Property"
+            }
+          ]
+        },
+        {
+          "name": "PropertyIfNotExists",
+          "children": [
+            {
+              "name": "Add-PropertyIfNotExists"
+            }
+          ]
+        },
+        {
+          "name": "Base64",
+          "children": [
+            {
+              "name": "ConvertTo-Base64"
+            },
+            {
+              "name": "ConvertFrom-Base64"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "UtcDate",
+          "children": [
+            {
+              "name": "ConvertTo-UtcDate"
+            }
+          ]
+        },
+        {
+          "name": "CurrentScriptPath",
+          "children": [
+            {
+              "name": "Get-CurrentScriptPath"
+            }
+          ]
+        },
+        {
+          "name": "JsonFile",
+          "children": [
+            {
+              "name": "Read-JsonFile"
+            }
+          ]
+        },
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Use-Module"
+            }
+          ]
+        },
+        {
+          "name": "RegExGroups",
+          "children": [
+            {
+              "name": "Get-RegExGroups"
+            }
+          ]
+        },
+        {
+          "name": "RegExMatches",
+          "children": [
+            {
+              "name": "Get-RegExMatches"
+            }
+          ]
+        },
+        {
+          "name": "RegExReplace",
+          "children": [
+            {
+              "name": "Get-RegExReplace"
+            }
+          ]
+        },
+        {
+          "name": "RegistryValue",
+          "children": [
+            {
+              "name": "Set-RegistryValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MLFlowPS",
+      "companyName": "Gerhard Brueckl",
+      "children": [
+        {
+          "name": "World",
+          "children": [
+            {
+              "name": "Hello-World"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

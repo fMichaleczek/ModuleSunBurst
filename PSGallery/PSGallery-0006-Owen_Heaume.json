@@ -1,0 +1,188 @@
+{
+  "name": "Owen Heaume",
+  "children": [
+    {
+      "name": "psengine.shortcut.management",
+      "companyName": "Owen Heaume",
+      "children": [
+        {
+          "name": "pseDesktopShortcut",
+          "children": [
+            {
+              "name": "New-pseDesktopShortcut"
+            },
+            {
+              "name": "Remove-pseDesktopShortcut"
+            }
+          ]
+        },
+        {
+          "name": "pseStartMenuShortcut",
+          "children": [
+            {
+              "name": "New-pseStartMenuShortcut"
+            },
+            {
+              "name": "Remove-pseStartMenuShortcut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psengine.scheduledtask.management",
+      "companyName": "Owen Heaume",
+      "children": [
+        {
+          "name": "pseScheduledTask",
+          "children": [
+            {
+              "name": "Get-pseScheduledTask"
+            },
+            {
+              "name": "New-pseScheduledTask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psengine.registry.management",
+      "companyName": "Owen Heaume",
+      "children": [
+        {
+          "name": "pseRegistryValue",
+          "children": [
+            {
+              "name": "Get-pseRegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "pseRegistryKey",
+          "children": [
+            {
+              "name": "New-pseRegistryKey"
+            }
+          ]
+        },
+        {
+          "name": "pseRegistryValueName",
+          "children": [
+            {
+              "name": "Remove-pseRegistryValueName"
+            }
+          ]
+        },
+        {
+          "name": "pseRegistryValueData",
+          "children": [
+            {
+              "name": "Set-pseRegistryValueData"
+            },
+            {
+              "name": "Update-pseRegistryValueData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psengine.module.management",
+      "companyName": "Owen Heaume",
+      "children": [
+        {
+          "name": "pseModule",
+          "children": [
+            {
+              "name": "Get-pseModule"
+            },
+            {
+              "name": "Import-pseModule"
+            },
+            {
+              "name": "Install-pseModule"
+            },
+            {
+              "name": "Uninstall-pseModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psengine.file.management",
+      "companyName": "Owen Heaume",
+      "children": [
+        {
+          "name": "pseLocalFileHashToRemoteHash",
+          "children": [
+            {
+              "name": "Compare-pseLocalFileHashToRemoteHash"
+            }
+          ]
+        },
+        {
+          "name": "pseZipFile",
+          "children": [
+            {
+              "name": "Expand-pseZipFile"
+            }
+          ]
+        },
+        {
+          "name": "pseBlobFileFromURL",
+          "children": [
+            {
+              "name": "Get-pseBlobFileFromURL"
+            }
+          ]
+        },
+        {
+          "name": "pseMDFileHashBase64",
+          "children": [
+            {
+              "name": "Get-pseMDFileHashBase64"
+            }
+          ]
+        },
+        {
+          "name": "pseFolder",
+          "children": [
+            {
+              "name": "New-pseFolder"
+            }
+          ]
+        },
+        {
+          "name": "pseFolderHiddenAttribute",
+          "children": [
+            {
+              "name": "Set-pseFolderHiddenAttribute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psengine.azure.tables",
+      "companyName": "Owen Heaume",
+      "children": [
+        {
+          "name": "pseAzTableRowUsingSAS",
+          "children": [
+            {
+              "name": "Add-pseAzTableRowUsingSAS"
+            },
+            {
+              "name": "Get-pseAzTableRowUsingSAS"
+            },
+            {
+              "name": "Update-pseAzTableRowUsingSAS"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Exbabylon",
+  "children": [
+    {
+      "name": "ExTools-Supplemental",
+      "companyName": "Exbabylon",
+      "children": [
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Check-Module"
+            }
+          ]
+        },
+        {
+          "name": "PrintSpool",
+          "children": [
+            {
+              "name": "Fix-PrintSpool"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ExTools-O365Management",
+      "companyName": "Exbabylon",
+      "children": [
+        {
+          "name": "ExchangeSession",
+          "children": [
+            {
+              "name": "Connect-ExchangeSession"
+            }
+          ]
+        },
+        {
+          "name": "MailboxToShared",
+          "children": [
+            {
+              "name": "Convert-MailboxToShared"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

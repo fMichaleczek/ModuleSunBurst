@@ -1,0 +1,47 @@
+{
+  "name": "Invicti",
+  "children": [
+    {
+      "name": "ConvertTo-Hashtable",
+      "companyName": "Invicti",
+      "children": [
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CFLogger",
+      "companyName": "Invicti",
+      "children": [
+        {
+          "name": "CFLogger",
+          "children": [
+            {
+              "name": "Initialize-CFLogger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Write-LogMessage",
+      "companyName": "Invicti",
+      "children": [
+        {
+          "name": "LogMessage",
+          "children": [
+            {
+              "name": "Write-LogMessage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

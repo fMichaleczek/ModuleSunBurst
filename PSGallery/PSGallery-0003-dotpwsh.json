@@ -1,0 +1,82 @@
+{
+  "name": "dotpwsh",
+  "children": [
+    {
+      "name": "PSPasswordly",
+      "companyName": "dotpwsh",
+      "children": [
+        {
+          "name": "Passwordly",
+          "children": [
+            {
+              "name": "Invoke-Passwordly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAbuseIPDB",
+      "companyName": "dotpwsh",
+      "children": [
+        {
+          "name": "AbuseIPDBIPAddress",
+          "children": [
+            {
+              "name": "Clear-AbuseIPDBIPAddress"
+            },
+            {
+              "name": "Get-AbuseIPDBIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "AbuseIPDBBlacklist",
+          "children": [
+            {
+              "name": "Get-AbuseIPDBBlacklist"
+            }
+          ]
+        },
+        {
+          "name": "AbuseIPDBIPBlock",
+          "children": [
+            {
+              "name": "Get-AbuseIPDBIPBlock"
+            }
+          ]
+        },
+        {
+          "name": "AbuseIPDB",
+          "children": [
+            {
+              "name": "Initialize-AbuseIPDB"
+            }
+          ]
+        },
+        {
+          "name": "AbuseIPDBReport",
+          "children": [
+            {
+              "name": "Submit-AbuseIPDBReport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StretchReminder",
+      "companyName": "dotpwsh",
+      "children": [
+        {
+          "name": "StretchReminder",
+          "children": [
+            {
+              "name": "Start-StretchReminder"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

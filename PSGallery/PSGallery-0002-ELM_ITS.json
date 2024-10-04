@@ -1,0 +1,162 @@
+{
+  "name": "ELM ITS",
+  "children": [
+    {
+      "name": "ELM-WinTools",
+      "companyName": "ELM ITS",
+      "children": [
+        {
+          "name": "RebootTask",
+          "children": [
+            {
+              "name": "Add-RebootTask"
+            }
+          ]
+        },
+        {
+          "name": "Folder",
+          "children": [
+            {
+              "name": "Clear-Folder"
+            }
+          ]
+        },
+        {
+          "name": "BootImage",
+          "children": [
+            {
+              "name": "Update-BootImage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ELM-ADTools",
+      "companyName": "ELM ITS",
+      "children": [
+        {
+          "name": "RecycleBins",
+          "children": [
+            {
+              "name": "Empty-RecycleBins"
+            }
+          ]
+        },
+        {
+          "name": "Users",
+          "children": [
+            {
+              "name": "Export-Users"
+            },
+            {
+              "name": "Import-Users"
+            }
+          ]
+        },
+        {
+          "name": "UserFolderPermissions",
+          "children": [
+            {
+              "name": "Fix-UserFolderPermissions"
+            }
+          ]
+        },
+        {
+          "name": "DisplayNames",
+          "children": [
+            {
+              "name": "Format-DisplayNames"
+            }
+          ]
+        },
+        {
+          "name": "InactiveComputers",
+          "children": [
+            {
+              "name": "Get-InactiveComputers"
+            }
+          ]
+        },
+        {
+          "name": "InactiveUsers",
+          "children": [
+            {
+              "name": "Get-InactiveUsers"
+            }
+          ]
+        },
+        {
+          "name": "IntakeYears",
+          "children": [
+            {
+              "name": "Get-IntakeYears"
+            }
+          ]
+        },
+        {
+          "name": "OrphanedFolders",
+          "children": [
+            {
+              "name": "Get-OrphanedFolders"
+            }
+          ]
+        },
+        {
+          "name": "Passwords",
+          "children": [
+            {
+              "name": "Get-Passwords"
+            },
+            {
+              "name": "Reset-Passwords"
+            }
+          ]
+        },
+        {
+          "name": "Homes",
+          "children": [
+            {
+              "name": "Migrate-Homes"
+            },
+            {
+              "name": "Optimize-Homes"
+            }
+          ]
+        },
+        {
+          "name": "GPOs",
+          "children": [
+            {
+              "name": "Optimize-GPOs"
+            }
+          ]
+        },
+        {
+          "name": "DisabledUsers",
+          "children": [
+            {
+              "name": "Remove-DisabledUsers"
+            }
+          ]
+        },
+        {
+          "name": "ADOrganizationalUnit",
+          "children": [
+            {
+              "name": "Select-ADOrganizationalUnit"
+            }
+          ]
+        },
+        {
+          "name": "UPN",
+          "children": [
+            {
+              "name": "Set-UPN"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

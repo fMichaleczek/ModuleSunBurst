@@ -1,0 +1,41 @@
+{
+  "name": "My Company",
+  "children": [
+    {
+      "name": "PSItSupport",
+      "companyName": "My Company",
+      "children": [
+        {
+          "name": "PrintJobLog",
+          "children": [
+            {
+              "name": "Get-PrintJobLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDateManagement",
+      "companyName": "My Company",
+      "children": [
+        {
+          "name": "DMFirstOrLastDay",
+          "children": [
+            {
+              "name": "Find-DMFirstOrLastDay"
+            }
+          ]
+        },
+        {
+          "name": "DMDate",
+          "children": [
+            {
+              "name": "New-DMDate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

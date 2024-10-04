@@ -1,0 +1,35 @@
+{
+  "name": "PSPushover",
+  "children": [
+    {
+      "name": "PSPushover",
+      "companyName": "PSPushover",
+      "children": [
+        {
+          "name": "PushoverMessage",
+          "children": [
+            {
+              "name": "Send-PushoverMessage"
+            }
+          ]
+        },
+        {
+          "name": "PushoverAPIInformation",
+          "children": [
+            {
+              "name": "Save-PushoverAPIInformation"
+            }
+          ]
+        },
+        {
+          "name": "PushoverUserDevice",
+          "children": [
+            {
+              "name": "Get-PushoverUserDevice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

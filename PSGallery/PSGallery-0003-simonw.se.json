@@ -1,0 +1,662 @@
+{
+  "name": "simonw.se",
+  "children": [
+    {
+      "name": "BicepNet.PS",
+      "companyName": "simonw.se",
+      "children": [
+        {
+          "name": "BicepNetFile",
+          "children": [
+            {
+              "name": "Build-BicepNetFile"
+            },
+            {
+              "name": "ConvertTo-BicepNetFile"
+            },
+            {
+              "name": "Publish-BicepNetFile"
+            },
+            {
+              "name": "Restore-BicepNetFile"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetParamFile",
+          "children": [
+            {
+              "name": "Build-BicepNetParamFile"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetCredential",
+          "children": [
+            {
+              "name": "Clear-BicepNetCredential"
+            },
+            {
+              "name": "Set-BicepNetCredential"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetResourceToBicep",
+          "children": [
+            {
+              "name": "Convert-BicepNetResourceToBicep"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetResource",
+          "children": [
+            {
+              "name": "Export-BicepNetResource"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetChildResource",
+          "children": [
+            {
+              "name": "Export-BicepNetChildResource"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetModule",
+          "children": [
+            {
+              "name": "Find-BicepNetModule"
+            }
+          ]
+        },
+        {
+          "name": "BicepNet",
+          "children": [
+            {
+              "name": "Format-BicepNet"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetAccessToken",
+          "children": [
+            {
+              "name": "Get-BicepNetAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetCachePath",
+          "children": [
+            {
+              "name": "Get-BicepNetCachePath"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetConfig",
+          "children": [
+            {
+              "name": "Get-BicepNetConfig"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetVersion",
+          "children": [
+            {
+              "name": "Get-BicepNetVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSACL",
+      "companyName": "simonw.se",
+      "children": [
+        {
+          "name": "DSACLCreateChild",
+          "children": [
+            {
+              "name": "Add-DSACLCreateChild"
+            }
+          ]
+        },
+        {
+          "name": "DSACLCustom",
+          "children": [
+            {
+              "name": "Add-DSACLCustom"
+            }
+          ]
+        },
+        {
+          "name": "DSACLDeleteChild",
+          "children": [
+            {
+              "name": "Add-DSACLDeleteChild"
+            }
+          ]
+        },
+        {
+          "name": "DSACLFullControl",
+          "children": [
+            {
+              "name": "Add-DSACLFullControl"
+            }
+          ]
+        },
+        {
+          "name": "DSACLJoinDomain",
+          "children": [
+            {
+              "name": "Add-DSACLJoinDomain"
+            }
+          ]
+        },
+        {
+          "name": "DSACLLinkGPO",
+          "children": [
+            {
+              "name": "Add-DSACLLinkGPO"
+            }
+          ]
+        },
+        {
+          "name": "DSACLManageGroupMember",
+          "children": [
+            {
+              "name": "Add-DSACLManageGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "DSACLManagerCanUpdateGroupMember",
+          "children": [
+            {
+              "name": "Add-DSACLManagerCanUpdateGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "DSACLMoveObjectFrom",
+          "children": [
+            {
+              "name": "Add-DSACLMoveObjectFrom"
+            }
+          ]
+        },
+        {
+          "name": "DSACLRenameObject",
+          "children": [
+            {
+              "name": "Add-DSACLRenameObject"
+            }
+          ]
+        },
+        {
+          "name": "DSACLReplicatingDirectoryChanges",
+          "children": [
+            {
+              "name": "Add-DSACLReplicatingDirectoryChanges"
+            }
+          ]
+        },
+        {
+          "name": "DSACLResetPassword",
+          "children": [
+            {
+              "name": "Add-DSACLResetPassword"
+            }
+          ]
+        },
+        {
+          "name": "DSACLWriteAccountRestrictions",
+          "children": [
+            {
+              "name": "Add-DSACLWriteAccountRestrictions"
+            }
+          ]
+        },
+        {
+          "name": "DSACLWriteDNSHostName",
+          "children": [
+            {
+              "name": "Add-DSACLWriteDNSHostName"
+            }
+          ]
+        },
+        {
+          "name": "DSACLWriteServicePrincipalName",
+          "children": [
+            {
+              "name": "Add-DSACLWriteServicePrincipalName"
+            }
+          ]
+        },
+        {
+          "name": "DSACLInheritedObjectTypeGuid",
+          "children": [
+            {
+              "name": "ConvertFrom-DSACLInheritedObjectTypeGuid"
+            }
+          ]
+        },
+        {
+          "name": "DSACLObjectTypeGuid",
+          "children": [
+            {
+              "name": "ConvertFrom-DSACLObjectTypeGuid"
+            }
+          ]
+        },
+        {
+          "name": "DSACLDefaultContainer",
+          "children": [
+            {
+              "name": "Get-DSACLDefaultContainer"
+            },
+            {
+              "name": "Set-DSACLDefaultContainer"
+            }
+          ]
+        },
+        {
+          "name": "DSACLMachineAccountQuota",
+          "children": [
+            {
+              "name": "Get-DSACLMachineAccountQuota"
+            },
+            {
+              "name": "Set-DSACLMachineAccountQuota"
+            }
+          ]
+        },
+        {
+          "name": "DSACLAccessRule",
+          "children": [
+            {
+              "name": "New-DSACLAccessRule"
+            }
+          ]
+        },
+        {
+          "name": "DSACLAuditRule",
+          "children": [
+            {
+              "name": "New-DSACLAuditRule"
+            }
+          ]
+        },
+        {
+          "name": "DSACLRightsMapVariable",
+          "children": [
+            {
+              "name": "Register-DSACLRightsMapVariable"
+            }
+          ]
+        },
+        {
+          "name": "DSACLGuid",
+          "children": [
+            {
+              "name": "Resolve-DSACLGuid"
+            }
+          ]
+        },
+        {
+          "name": "DSACLObjectName",
+          "children": [
+            {
+              "name": "Resolve-DSACLObjectName"
+            }
+          ]
+        },
+        {
+          "name": "DSACLOwner",
+          "children": [
+            {
+              "name": "Set-DSACLOwner"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MyTesla",
+      "companyName": "simonw.se",
+      "children": [
+        {
+          "name": "TeslaChargePort",
+          "children": [
+            {
+              "name": "Close-TeslaChargePort"
+            },
+            {
+              "name": "Open-TeslaChargePort"
+            }
+          ]
+        },
+        {
+          "name": "Tesla",
+          "children": [
+            {
+              "name": "Connect-Tesla"
+            }
+          ]
+        },
+        {
+          "name": "TeslaContext",
+          "children": [
+            {
+              "name": "Export-TeslaContext"
+            },
+            {
+              "name": "Get-TeslaContext"
+            },
+            {
+              "name": "Import-TeslaContext"
+            }
+          ]
+        },
+        {
+          "name": "TeslaChargeState",
+          "children": [
+            {
+              "name": "Get-TeslaChargeState"
+            }
+          ]
+        },
+        {
+          "name": "TeslaClimateState",
+          "children": [
+            {
+              "name": "Get-TeslaClimateState"
+            }
+          ]
+        },
+        {
+          "name": "TeslaDriveState",
+          "children": [
+            {
+              "name": "Get-TeslaDriveState"
+            }
+          ]
+        },
+        {
+          "name": "TeslaGUISettings",
+          "children": [
+            {
+              "name": "Get-TeslaGUISettings"
+            }
+          ]
+        },
+        {
+          "name": "TeslaVehicle",
+          "children": [
+            {
+              "name": "Get-TeslaVehicle"
+            },
+            {
+              "name": "Resume-TeslaVehicle"
+            },
+            {
+              "name": "Select-TeslaVehicle"
+            },
+            {
+              "name": "Start-TeslaVehicle"
+            }
+          ]
+        },
+        {
+          "name": "TeslaVehicleConfig",
+          "children": [
+            {
+              "name": "Get-TeslaVehicleConfig"
+            }
+          ]
+        },
+        {
+          "name": "TeslaVehicleData",
+          "children": [
+            {
+              "name": "Get-TeslaVehicleData"
+            }
+          ]
+        },
+        {
+          "name": "TeslaVehicleState",
+          "children": [
+            {
+              "name": "Get-TeslaVehicleState"
+            }
+          ]
+        },
+        {
+          "name": "TeslaAPI",
+          "children": [
+            {
+              "name": "Invoke-TeslaAPI"
+            }
+          ]
+        },
+        {
+          "name": "TeslaHorn",
+          "children": [
+            {
+              "name": "Invoke-TeslaHorn"
+            }
+          ]
+        },
+        {
+          "name": "TeslaLightFlash",
+          "children": [
+            {
+              "name": "Invoke-TeslaLightFlash"
+            }
+          ]
+        },
+        {
+          "name": "TeslaDoor",
+          "children": [
+            {
+              "name": "Lock-TeslaDoor"
+            },
+            {
+              "name": "Unlock-TeslaDoor"
+            }
+          ]
+        },
+        {
+          "name": "TeslaSunroof",
+          "children": [
+            {
+              "name": "Move-TeslaSunroof"
+            }
+          ]
+        },
+        {
+          "name": "TeslaTrunk",
+          "children": [
+            {
+              "name": "Open-TeslaTrunk"
+            }
+          ]
+        },
+        {
+          "name": "TeslaValetModePIN",
+          "children": [
+            {
+              "name": "Reset-TeslaValetModePIN"
+            }
+          ]
+        },
+        {
+          "name": "TeslaToken",
+          "children": [
+            {
+              "name": "Revoke-TeslaToken"
+            }
+          ]
+        },
+        {
+          "name": "TeslaChargeLimit",
+          "children": [
+            {
+              "name": "Set-TeslaChargeLimit"
+            }
+          ]
+        },
+        {
+          "name": "TeslaDefrost",
+          "children": [
+            {
+              "name": "Set-TeslaDefrost"
+            },
+            {
+              "name": "Start-TeslaDefrost"
+            },
+            {
+              "name": "Stop-TeslaDefrost"
+            }
+          ]
+        },
+        {
+          "name": "TeslaMediaFavourite",
+          "children": [
+            {
+              "name": "Set-TeslaMediaFavourite"
+            }
+          ]
+        },
+        {
+          "name": "TeslaMediaTrack",
+          "children": [
+            {
+              "name": "Set-TeslaMediaTrack"
+            }
+          ]
+        },
+        {
+          "name": "TeslaMediaVolume",
+          "children": [
+            {
+              "name": "Set-TeslaMediaVolume"
+            }
+          ]
+        },
+        {
+          "name": "TeslaNavigation",
+          "children": [
+            {
+              "name": "Set-TeslaNavigation"
+            }
+          ]
+        },
+        {
+          "name": "TeslaSeatHeater",
+          "children": [
+            {
+              "name": "Set-TeslaSeatHeater"
+            }
+          ]
+        },
+        {
+          "name": "TeslaTemperature",
+          "children": [
+            {
+              "name": "Set-TeslaTemperature"
+            }
+          ]
+        },
+        {
+          "name": "TeslaCharging",
+          "children": [
+            {
+              "name": "Start-TeslaCharging"
+            },
+            {
+              "name": "Stop-TeslaCharging"
+            }
+          ]
+        },
+        {
+          "name": "TeslaClimate",
+          "children": [
+            {
+              "name": "Start-TeslaClimate"
+            },
+            {
+              "name": "Stop-TeslaClimate"
+            }
+          ]
+        },
+        {
+          "name": "TeslaSentryMode",
+          "children": [
+            {
+              "name": "Start-TeslaSentryMode"
+            },
+            {
+              "name": "Stop-TeslaSentryMode"
+            }
+          ]
+        },
+        {
+          "name": "TeslaSteeringWheelHeater",
+          "children": [
+            {
+              "name": "Start-TeslaSteeringWheelHeater"
+            },
+            {
+              "name": "Stop-TeslaSteeringWheelHeater"
+            }
+          ]
+        },
+        {
+          "name": "TeslaUpdate",
+          "children": [
+            {
+              "name": "Start-TeslaUpdate"
+            },
+            {
+              "name": "Suspend-TeslaUpdate"
+            }
+          ]
+        },
+        {
+          "name": "TeslaValetMode",
+          "children": [
+            {
+              "name": "Start-TeslaValetMode"
+            },
+            {
+              "name": "Stop-TeslaValetMode"
+            }
+          ]
+        },
+        {
+          "name": "TeslaMediaPlayback",
+          "children": [
+            {
+              "name": "Switch-TeslaMediaPlayback"
+            }
+          ]
+        },
+        {
+          "name": "TeslaUserPresent",
+          "children": [
+            {
+              "name": "Wait-TeslaUserPresent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

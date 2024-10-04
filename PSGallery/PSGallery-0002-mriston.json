@@ -1,0 +1,225 @@
+{
+  "name": "mriston",
+  "children": [
+    {
+      "name": "mwr_Zabbix",
+      "companyName": "mriston",
+      "children": [
+        {
+          "name": "ZabbixAgent",
+          "children": [
+            {
+              "name": "Get-ZabbixAgent"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixConf",
+          "children": [
+            {
+              "name": "Get-ZabbixConf"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixLog",
+          "children": [
+            {
+              "name": "Get-ZabbixLog"
+            }
+          ]
+        },
+        {
+          "name": "RemoteZabbixAgent",
+          "children": [
+            {
+              "name": "Install-RemoteZabbixAgent"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixAgentConfig",
+          "children": [
+            {
+              "name": "Update-ZabbixAgentConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mwr_tools",
+      "companyName": "mRiston",
+      "children": [
+        {
+          "name": "DFS",
+          "children": [
+            {
+              "name": "Backup-DFS"
+            }
+          ]
+        },
+        {
+          "name": "Profile",
+          "children": [
+            {
+              "name": "Backup-Profile"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeServer",
+          "children": [
+            {
+              "name": "Connect-ExchangeServer"
+            }
+          ]
+        },
+        {
+          "name": "DocToPDF",
+          "children": [
+            {
+              "name": "Convert-DocToPDF"
+            }
+          ]
+        },
+        {
+          "name": "DocxToPDF",
+          "children": [
+            {
+              "name": "Convert-DocxToPDF"
+            }
+          ]
+        },
+        {
+          "name": "MSOLServices",
+          "children": [
+            {
+              "name": "Disable-MSOLServices"
+            }
+          ]
+        },
+        {
+          "name": "ComputerHardwareReport",
+          "children": [
+            {
+              "name": "Get-ComputerHardwareReport"
+            }
+          ]
+        },
+        {
+          "name": "ConsoleWidth",
+          "children": [
+            {
+              "name": "Get-ConsoleWidth"
+            }
+          ]
+        },
+        {
+          "name": "NullThumbnailPhotoReport",
+          "children": [
+            {
+              "name": "Get-NullThumbnailPhotoReport"
+            }
+          ]
+        },
+        {
+          "name": "PacktPubFreeDailyEbook",
+          "children": [
+            {
+              "name": "Get-PacktPubFreeDailyEbook"
+            }
+          ]
+        },
+        {
+          "name": "RemoteDesktopLogons",
+          "children": [
+            {
+              "name": "Get-RemoteDesktopLogons"
+            }
+          ]
+        },
+        {
+          "name": "TeamViewerID",
+          "children": [
+            {
+              "name": "Get-TeamViewerID"
+            }
+          ]
+        },
+        {
+          "name": "WannaCryPatchStatus",
+          "children": [
+            {
+              "name": "Get-WannaCryPatchStatus"
+            }
+          ]
+        },
+        {
+          "name": "Audio",
+          "children": [
+            {
+              "name": "Invoke-Audio"
+            }
+          ]
+        },
+        {
+          "name": "RemoteForcedLogoff",
+          "children": [
+            {
+              "name": "Invoke-RemoteForcedLogoff"
+            }
+          ]
+        },
+        {
+          "name": "RemoteLogoff",
+          "children": [
+            {
+              "name": "Invoke-RemoteLogoff"
+            }
+          ]
+        },
+        {
+          "name": "ADUser",
+          "children": [
+            {
+              "name": "Lock-ADUser"
+            }
+          ]
+        },
+        {
+          "name": "RDPFile",
+          "children": [
+            {
+              "name": "New-RDPFile"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledReboot",
+          "children": [
+            {
+              "name": "Register-ScheduledReboot"
+            }
+          ]
+        },
+        {
+          "name": "ExternalEmailTester",
+          "children": [
+            {
+              "name": "Start-ExternalEmailTester"
+            }
+          ]
+        },
+        {
+          "name": "PendingReboot",
+          "children": [
+            {
+              "name": "Test-PendingReboot"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

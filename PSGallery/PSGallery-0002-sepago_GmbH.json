@@ -1,0 +1,49 @@
+{
+  "name": "sepago GmbH",
+  "children": [
+    {
+      "name": "AzureML",
+      "companyName": "sepago GmbH",
+      "children": [
+        {
+          "name": "AzureMLWebServiceConnection",
+          "children": [
+            {
+              "name": "Set-AzureMLWebServiceConnection"
+            }
+          ]
+        },
+        {
+          "name": "AzureMLPrediction",
+          "children": [
+            {
+              "name": "Get-AzureMLPrediction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Azure.EventHub",
+      "companyName": "sepago GmbH",
+      "children": [
+        {
+          "name": "AzureEHSASToken",
+          "children": [
+            {
+              "name": "Get-AzureEHSASToken"
+            }
+          ]
+        },
+        {
+          "name": "AzureEHDatagram",
+          "children": [
+            {
+              "name": "Send-AzureEHDatagram"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

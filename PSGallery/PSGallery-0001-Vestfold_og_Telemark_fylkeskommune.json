@@ -1,0 +1,33 @@
+{
+  "name": "Vestfold og Telemark fylkeskommune",
+  "children": [
+    {
+      "name": "vtfk.SkypeMaintenanceMode",
+      "companyName": "Vestfold og Telemark fylkeskommune",
+      "children": [
+        {
+          "name": "MediationMaintenance",
+          "children": [
+            {
+              "name": "Start-MediationMaintenance"
+            },
+            {
+              "name": "Stop-MediationMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "FrontEndMaintenance",
+          "children": [
+            {
+              "name": "Start-FrontEndMaintenance"
+            },
+            {
+              "name": "Stop-FrontEndMaintenance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

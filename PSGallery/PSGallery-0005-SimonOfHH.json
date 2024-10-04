@@ -1,0 +1,324 @@
+{
+  "name": "SimonOfHH",
+  "children": [
+    {
+      "name": "D365BCOnAzureHelper",
+      "companyName": "SimonOfHH",
+      "children": [
+        {
+          "name": "BusinessCentral",
+          "children": [
+            {
+              "name": "Install-BusinessCentral"
+            }
+          ]
+        },
+        {
+          "name": "AddUsers",
+          "children": [
+            {
+              "name": "Invoke-AddUsers"
+            }
+          ]
+        },
+        {
+          "name": "CreateInstances",
+          "children": [
+            {
+              "name": "Invoke-CreateInstances"
+            }
+          ]
+        },
+        {
+          "name": "CreateWebInstances",
+          "children": [
+            {
+              "name": "Invoke-CreateWebInstances"
+            }
+          ]
+        },
+        {
+          "name": "RestartServices",
+          "children": [
+            {
+              "name": "Invoke-RestartServices"
+            }
+          ]
+        },
+        {
+          "name": "SetLoadBalancerDnsRecord",
+          "children": [
+            {
+              "name": "Invoke-SetLoadBalancerDnsRecord"
+            }
+          ]
+        },
+        {
+          "name": "SetSpnForServices",
+          "children": [
+            {
+              "name": "Invoke-SetSpnForServices"
+            }
+          ]
+        },
+        {
+          "name": "SetupCertificateWebServer",
+          "children": [
+            {
+              "name": "Invoke-SetupCertificateWebServer"
+            }
+          ]
+        },
+        {
+          "name": "SetupCertificateAppServer",
+          "children": [
+            {
+              "name": "Invoke-SetupCertificateAppServer"
+            }
+          ]
+        },
+        {
+          "name": "SetupDelegation",
+          "children": [
+            {
+              "name": "Invoke-SetupDelegation"
+            }
+          ]
+        },
+        {
+          "name": "UpdateInstances",
+          "children": [
+            {
+              "name": "Invoke-UpdateInstances"
+            }
+          ]
+        },
+        {
+          "name": "UpdateLicenses",
+          "children": [
+            {
+              "name": "Invoke-UpdateLicenses"
+            }
+          ]
+        },
+        {
+          "name": "UpdateWebInstances",
+          "children": [
+            {
+              "name": "Invoke-UpdateWebInstances"
+            }
+          ]
+        },
+        {
+          "name": "AddIIS",
+          "children": [
+            {
+              "name": "Invoke-AddIIS"
+            }
+          ]
+        },
+        {
+          "name": "UpdateIIS",
+          "children": [
+            {
+              "name": "Invoke-UpdateIIS"
+            }
+          ]
+        },
+        {
+          "name": "AddAddIns",
+          "children": [
+            {
+              "name": "Invoke-AddAddIns"
+            }
+          ]
+        },
+        {
+          "name": "CustomVMUpdate",
+          "children": [
+            {
+              "name": "Start-CustomVMUpdate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D365BCOnAzureDeployment",
+      "companyName": "SimonOfHH",
+      "children": [
+        {
+          "name": "CertificatesToKeyVault",
+          "children": [
+            {
+              "name": "Add-CertificatesToKeyVault"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationGateway",
+          "children": [
+            {
+              "name": "New-ApplicationGateway"
+            }
+          ]
+        },
+        {
+          "name": "DemoSqlServer.ps1",
+          "children": [
+            {
+              "name": "New-DemoSqlServer.ps1"
+            }
+          ]
+        },
+        {
+          "name": "LoadBalancer",
+          "children": [
+            {
+              "name": "New-LoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "ScaleSet",
+          "children": [
+            {
+              "name": "New-ScaleSet"
+            }
+          ]
+        },
+        {
+          "name": "ScaleSetImage",
+          "children": [
+            {
+              "name": "New-ScaleSetImage"
+            }
+          ]
+        },
+        {
+          "name": "StorageTables",
+          "children": [
+            {
+              "name": "New-StorageTables"
+            }
+          ]
+        },
+        {
+          "name": "InfrastructureData",
+          "children": [
+            {
+              "name": "Set-InfrastructureData"
+            }
+          ]
+        },
+        {
+          "name": "LoadBalancerConfiguration",
+          "children": [
+            {
+              "name": "Set-LoadBalancerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "StandAloneServer",
+          "children": [
+            {
+              "name": "New-StandAloneServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D365BCDownloadHelper",
+      "companyName": "SimonOfHH",
+      "children": [
+        {
+          "name": "BusinessCentralDownloadURL",
+          "children": [
+            {
+              "name": "Get-BusinessCentralDownloadURL"
+            }
+          ]
+        },
+        {
+          "name": "BusinessCentralDVD",
+          "children": [
+            {
+              "name": "Receive-BusinessCentralDVD"
+            },
+            {
+              "name": "Expand-BusinessCentralDVD"
+            }
+          ]
+        },
+        {
+          "name": "ReceiveAndExpandBusinessCentralDVD",
+          "children": [
+            {
+              "name": "Get-ReceiveAndExpandBusinessCentralDVD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D365BCAppHelper",
+      "companyName": "SimonOfHH",
+      "children": [
+        {
+          "name": "AppDependencyInfo",
+          "children": [
+            {
+              "name": "Get-AppDependencyInfo"
+            }
+          ]
+        },
+        {
+          "name": "DependencyTree",
+          "children": [
+            {
+              "name": "Write-DependencyTree"
+            }
+          ]
+        },
+        {
+          "name": "D365BCApp",
+          "children": [
+            {
+              "name": "Update-D365BCApp"
+            },
+            {
+              "name": "Install-D365BCApp"
+            },
+            {
+              "name": "Uninstall-D365BCApp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SetupD365Environment",
+      "companyName": "SimonOfHH",
+      "children": [
+        {
+          "name": "ScaleSetImage",
+          "children": [
+            {
+              "name": "New-ScaleSetImage"
+            }
+          ]
+        },
+        {
+          "name": "BusinessCentralDownloadUrl",
+          "children": [
+            {
+              "name": "Get-BusinessCentralDownloadUrl"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

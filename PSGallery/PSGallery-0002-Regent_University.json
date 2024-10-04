@@ -1,0 +1,109 @@
+{
+  "name": "Regent University",
+  "children": [
+    {
+      "name": "crm-datatools",
+      "companyName": "Regent University",
+      "children": [
+        {
+          "name": "RegentExportConfig",
+          "children": [
+            {
+              "name": "Add-RegentExportConfig"
+            },
+            {
+              "name": "Get-RegentExportConfig"
+            },
+            {
+              "name": "Remove-RegentExportConfig"
+            }
+          ]
+        },
+        {
+          "name": "RegentRecordsByFind",
+          "children": [
+            {
+              "name": "Export-RegentRecordsByFind"
+            }
+          ]
+        },
+        {
+          "name": "CrmConnectionString",
+          "children": [
+            {
+              "name": "Get-CrmConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "RegentConnection",
+          "children": [
+            {
+              "name": "Get-RegentConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "crm-ci",
+      "companyName": "Regent University",
+      "children": [
+        {
+          "name": "RegentSolution",
+          "children": [
+            {
+              "name": "Export-RegentSolution"
+            },
+            {
+              "name": "Import-RegentSolution"
+            },
+            {
+              "name": "Move-RegentSolution"
+            }
+          ]
+        },
+        {
+          "name": "SolutionImportLog",
+          "children": [
+            {
+              "name": "Get-SolutionImportLog"
+            }
+          ]
+        },
+        {
+          "name": "RegentSolutionChanges",
+          "children": [
+            {
+              "name": "Push-RegentSolutionChanges"
+            }
+          ]
+        },
+        {
+          "name": "RegentConnection",
+          "children": [
+            {
+              "name": "Get-RegentConnection"
+            }
+          ]
+        },
+        {
+          "name": "ConnectionString",
+          "children": [
+            {
+              "name": "Get-ConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "StoredCredentials",
+          "children": [
+            {
+              "name": "Set-StoredCredentials"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

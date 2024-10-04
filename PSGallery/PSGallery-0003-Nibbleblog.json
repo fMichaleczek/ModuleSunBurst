@@ -1,0 +1,55 @@
+{
+  "name": "Nibbleblog",
+  "children": [
+    {
+      "name": "InvokeSomething",
+      "companyName": "Nibbleblog",
+      "children": [
+        {
+          "name": "Something",
+          "children": [
+            {
+              "name": "Invoke-Something"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShowMessageBox",
+      "companyName": "Nibbleblog",
+      "children": [
+        {
+          "name": "MessageBox",
+          "children": [
+            {
+              "name": "Show-MessageBox"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServiceBusCommander",
+      "companyName": "Nibbleblog",
+      "children": [
+        {
+          "name": "QueueMessage",
+          "children": [
+            {
+              "name": "Send-QueueMessage"
+            }
+          ]
+        },
+        {
+          "name": "QueueMessages",
+          "children": [
+            {
+              "name": "Send-QueueMessages"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

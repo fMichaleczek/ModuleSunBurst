@@ -1,0 +1,143 @@
+{
+  "name": "Scomnewbie",
+  "children": [
+    {
+      "name": "PSMSALNet",
+      "companyName": "Scomnewbie",
+      "children": [
+        {
+          "name": "Jwt",
+          "children": [
+            {
+              "name": "ConvertFrom-Jwt"
+            }
+          ]
+        },
+        {
+          "name": "X509Certificate2",
+          "children": [
+            {
+              "name": "ConvertTo-X509Certificate2"
+            }
+          ]
+        },
+        {
+          "name": "EntraToken",
+          "children": [
+            {
+              "name": "Get-EntraToken"
+            }
+          ]
+        },
+        {
+          "name": "KVCertificateWithPrivateKey",
+          "children": [
+            {
+              "name": "Get-KVCertificateWithPrivateKey"
+            }
+          ]
+        },
+        {
+          "name": "KVCertificateWithPublicKey",
+          "children": [
+            {
+              "name": "Get-KVCertificateWithPublicKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ValidateAADJwt",
+      "companyName": "Scomnewbie",
+      "children": [
+        {
+          "name": "PublicKeysToCache",
+          "children": [
+            {
+              "name": "Add-PublicKeysToCache"
+            },
+            {
+              "name": "Test-PublicKeysToCache"
+            }
+          ]
+        },
+        {
+          "name": "X509Certificate2",
+          "children": [
+            {
+              "name": "ConvertTo-X509Certificate2"
+            }
+          ]
+        },
+        {
+          "name": "AzureX5c",
+          "children": [
+            {
+              "name": "Find-AzureX5c"
+            }
+          ]
+        },
+        {
+          "name": "HomePath",
+          "children": [
+            {
+              "name": "Get-HomePath"
+            }
+          ]
+        },
+        {
+          "name": "PublicKeysFromCache",
+          "children": [
+            {
+              "name": "Get-PublicKeysFromCache"
+            }
+          ]
+        },
+        {
+          "name": "CacheFolder",
+          "children": [
+            {
+              "name": "New-CacheFolder"
+            },
+            {
+              "name": "Test-CacheFolder"
+            }
+          ]
+        },
+        {
+          "name": "CustomExceptionGenerator",
+          "children": [
+            {
+              "name": "New-CustomExceptionGenerator"
+            }
+          ]
+        },
+        {
+          "name": "PublicKeysCache",
+          "children": [
+            {
+              "name": "Clear-PublicKeysCache"
+            }
+          ]
+        },
+        {
+          "name": "Jwt",
+          "children": [
+            {
+              "name": "ConvertFrom-Jwt"
+            }
+          ]
+        },
+        {
+          "name": "AADJWTSignature",
+          "children": [
+            {
+              "name": "Test-AADJWTSignature"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

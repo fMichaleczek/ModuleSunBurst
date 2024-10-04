@@ -1,0 +1,148 @@
+{
+  "name": "pipe.how",
+  "children": [
+    {
+      "name": "AzBobbyTables",
+      "companyName": "pipe.how",
+      "children": [
+        {
+          "name": "AzDataTableEntity",
+          "children": [
+            {
+              "name": "Add-AzDataTableEntity"
+            },
+            {
+              "name": "Get-AzDataTableEntity"
+            },
+            {
+              "name": "Remove-AzDataTableEntity"
+            },
+            {
+              "name": "Update-AzDataTableEntity"
+            }
+          ]
+        },
+        {
+          "name": "AzDataTable",
+          "children": [
+            {
+              "name": "Clear-AzDataTable"
+            },
+            {
+              "name": "Remove-AzDataTable"
+            },
+            {
+              "name": "New-AzDataTable"
+            }
+          ]
+        },
+        {
+          "name": "AzDataTableContext",
+          "children": [
+            {
+              "name": "New-AzDataTableContext"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzAuth",
+      "companyName": "pipe.how",
+      "children": [
+        {
+          "name": "AzToken",
+          "children": [
+            {
+              "name": "Get-AzToken"
+            }
+          ]
+        },
+        {
+          "name": "AzTokenCache",
+          "children": [
+            {
+              "name": "Clear-AzTokenCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzAppConfig",
+      "companyName": "pipe.how",
+      "children": [
+        {
+          "name": "AzAppConfig",
+          "children": [
+            {
+              "name": "Get-AzAppConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSessionize",
+      "companyName": "pipe.how",
+      "children": [
+        {
+          "name": "SessionizeSession",
+          "children": [
+            {
+              "name": "Get-SessionizeSession"
+            }
+          ]
+        },
+        {
+          "name": "SessionizeSpeaker",
+          "children": [
+            {
+              "name": "Get-SessionizeSpeaker"
+            }
+          ]
+        },
+        {
+          "name": "SessionizeSpeakerWall",
+          "children": [
+            {
+              "name": "Get-SessionizeSpeakerWall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VeilVer",
+      "companyName": "pipe.how",
+      "children": [
+        {
+          "name": "VVVersion",
+          "children": [
+            {
+              "name": "Get-VVVersion"
+            },
+            {
+              "name": "Clear-VVVersion"
+            },
+            {
+              "name": "Import-VVVersion"
+            },
+            {
+              "name": "Push-VVVersion"
+            },
+            {
+              "name": "Remove-VVVersion"
+            },
+            {
+              "name": "Set-VVVersion"
+            },
+            {
+              "name": "Update-VVVersion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

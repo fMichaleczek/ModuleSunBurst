@@ -1,0 +1,105 @@
+{
+  "name": "ThePoShWolf",
+  "children": [
+    {
+      "name": "Curl2PS",
+      "companyName": "ThePoShWolf",
+      "children": [
+        {
+          "name": "IRM",
+          "children": [
+            {
+              "name": "ConvertTo-IRM"
+            }
+          ]
+        },
+        {
+          "name": "CurlCommand",
+          "children": [
+            {
+              "name": "Get-CurlCommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSEmby",
+      "companyName": "ThePoShWolf",
+      "children": [
+        {
+          "name": "EmbyItem",
+          "children": [
+            {
+              "name": "Get-EmbyItem"
+            },
+            {
+              "name": "Refresh-EmbyItem"
+            }
+          ]
+        },
+        {
+          "name": "EmbyUsers",
+          "children": [
+            {
+              "name": "Get-EmbyUsers"
+            }
+          ]
+        },
+        {
+          "name": "EmbyApi",
+          "children": [
+            {
+              "name": "Invoke-EmbyApi"
+            }
+          ]
+        },
+        {
+          "name": "PSEmbyConfig",
+          "children": [
+            {
+              "name": "Get-PSEmbyConfig"
+            },
+            {
+              "name": "Import-PSEmbyConfig"
+            },
+            {
+              "name": "New-PSEmbyConfig"
+            },
+            {
+              "name": "Pop-PSEmbyConfig"
+            },
+            {
+              "name": "Push-PSEmbyConfig"
+            },
+            {
+              "name": "Save-PSEmbyConfig"
+            },
+            {
+              "name": "Set-PSEmbyConfig"
+            },
+            {
+              "name": "Test-PSEmbyConfig"
+            }
+          ]
+        },
+        {
+          "name": "PSEmbyConfigPath",
+          "children": [
+            {
+              "name": "Get-PSEmbyConfigPath"
+            }
+          ]
+        },
+        {
+          "name": "PSEmbyRunningConfig",
+          "children": [
+            {
+              "name": "Set-PSEmbyRunningConfig"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

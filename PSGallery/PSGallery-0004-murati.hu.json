@@ -1,0 +1,360 @@
+{
+  "name": "murati.hu",
+  "children": [
+    {
+      "name": "CloudRemoting",
+      "companyName": "murati.hu",
+      "children": [
+        {
+          "name": "RdpSession",
+          "children": [
+            {
+              "name": "Enter-RdpSession"
+            }
+          ]
+        },
+        {
+          "name": "EC2RdpSession",
+          "children": [
+            {
+              "name": "Enter-EC2RdpSession"
+            }
+          ]
+        },
+        {
+          "name": "EC2PSSession",
+          "children": [
+            {
+              "name": "New-EC2PSSession"
+            },
+            {
+              "name": "Enter-EC2PSSession"
+            }
+          ]
+        },
+        {
+          "name": "EC2Credential",
+          "children": [
+            {
+              "name": "Get-EC2Credential"
+            }
+          ]
+        },
+        {
+          "name": "EC2InstanceAddress",
+          "children": [
+            {
+              "name": "Get-EC2InstanceAddress"
+            }
+          ]
+        },
+        {
+          "name": "DefaultEC2PemFile",
+          "children": [
+            {
+              "name": "Clear-DefaultEC2PemFile"
+            },
+            {
+              "name": "Get-DefaultEC2PemFile"
+            },
+            {
+              "name": "Set-DefaultEC2PemFile"
+            }
+          ]
+        },
+        {
+          "name": "EC2PemFile",
+          "children": [
+            {
+              "name": "Test-EC2PemFile"
+            }
+          ]
+        },
+        {
+          "name": "DefaultSSMOutput",
+          "children": [
+            {
+              "name": "Set-DefaultSSMOutput"
+            },
+            {
+              "name": "Clear-DefaultSSMOutput"
+            }
+          ]
+        },
+        {
+          "name": "SSMCommand",
+          "children": [
+            {
+              "name": "Invoke-SSMCommand"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Expand-Object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DogStatsD",
+      "companyName": "murati.hu",
+      "children": [
+        {
+          "name": "StatsD",
+          "children": [
+            {
+              "name": "Send-StatsD"
+            }
+          ]
+        },
+        {
+          "name": "DataDogEvent",
+          "children": [
+            {
+              "name": "Send-DataDogEvent"
+            }
+          ]
+        },
+        {
+          "name": "DataDogMetric",
+          "children": [
+            {
+              "name": "Send-DataDogMetric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSWebConfig",
+      "companyName": "murati.hu",
+      "children": [
+        {
+          "name": "PSWebConfig",
+          "children": [
+            {
+              "name": "Get-PSWebConfig"
+            },
+            {
+              "name": "Test-PSWebConfig"
+            },
+            {
+              "name": "Unprotect-PSWebConfig"
+            }
+          ]
+        },
+        {
+          "name": "PSAppSetting",
+          "children": [
+            {
+              "name": "Get-PSAppSetting"
+            }
+          ]
+        },
+        {
+          "name": "PSConnectionString",
+          "children": [
+            {
+              "name": "Get-PSConnectionString"
+            },
+            {
+              "name": "Test-PSConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "PSEndpoint",
+          "children": [
+            {
+              "name": "Get-PSEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "PSUri",
+          "children": [
+            {
+              "name": "Get-PSUri"
+            },
+            {
+              "name": "Test-PSUri"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsBamboo",
+      "companyName": "murati.hu",
+      "children": [
+        {
+          "name": "BambooPlanBranch",
+          "children": [
+            {
+              "name": "Add-BambooPlanBranch"
+            },
+            {
+              "name": "Disable-BambooPlanBranch"
+            },
+            {
+              "name": "Enable-BambooPlanBranch"
+            },
+            {
+              "name": "Get-BambooPlanBranch"
+            }
+          ]
+        },
+        {
+          "name": "BambooPlan",
+          "children": [
+            {
+              "name": "Copy-BambooPlan"
+            },
+            {
+              "name": "Disable-BambooPlan"
+            },
+            {
+              "name": "Enable-BambooPlan"
+            },
+            {
+              "name": "Get-BambooPlan"
+            }
+          ]
+        },
+        {
+          "name": "BambooResource",
+          "children": [
+            {
+              "name": "Expand-BambooResource"
+            }
+          ]
+        },
+        {
+          "name": "BambooArtifact",
+          "children": [
+            {
+              "name": "Get-BambooArtifact"
+            }
+          ]
+        },
+        {
+          "name": "BambooCurrentUser",
+          "children": [
+            {
+              "name": "Get-BambooCurrentUser"
+            }
+          ]
+        },
+        {
+          "name": "BambooDeployEnvironmentResult",
+          "children": [
+            {
+              "name": "Get-BambooDeployEnvironmentResult"
+            }
+          ]
+        },
+        {
+          "name": "BambooDeployProject",
+          "children": [
+            {
+              "name": "Get-BambooDeployProject"
+            }
+          ]
+        },
+        {
+          "name": "BambooDeployProjectEnvironment",
+          "children": [
+            {
+              "name": "Get-BambooDeployProjectEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "BambooInfo",
+          "children": [
+            {
+              "name": "Get-BambooInfo"
+            }
+          ]
+        },
+        {
+          "name": "BambooProject",
+          "children": [
+            {
+              "name": "Get-BambooProject"
+            }
+          ]
+        },
+        {
+          "name": "BambooQueuedBuild",
+          "children": [
+            {
+              "name": "Get-BambooQueuedBuild"
+            },
+            {
+              "name": "Stop-BambooQueuedBuild"
+            }
+          ]
+        },
+        {
+          "name": "BambooResult",
+          "children": [
+            {
+              "name": "Get-BambooResult"
+            }
+          ]
+        },
+        {
+          "name": "BambooBuildLog",
+          "children": [
+            {
+              "name": "Get-BambooBuildLog"
+            }
+          ]
+        },
+        {
+          "name": "BambooServer",
+          "children": [
+            {
+              "name": "Get-BambooServer"
+            },
+            {
+              "name": "Set-BambooServer"
+            }
+          ]
+        },
+        {
+          "name": "BambooRestMethod",
+          "children": [
+            {
+              "name": "Invoke-BambooRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "BambooBuild",
+          "children": [
+            {
+              "name": "Resume-BambooBuild"
+            },
+            {
+              "name": "Start-BambooBuild"
+            }
+          ]
+        },
+        {
+          "name": "BambooAuthentication",
+          "children": [
+            {
+              "name": "Set-BambooAuthentication"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

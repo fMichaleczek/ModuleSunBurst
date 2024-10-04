@@ -1,0 +1,468 @@
+{
+  "name": "sconstantinou.com",
+  "children": [
+    {
+      "name": "DictionaryFile",
+      "companyName": "sconstantinou.com",
+      "children": [
+        {
+          "name": "PasswordNumber",
+          "children": [
+            {
+              "name": "Get-PasswordNumber"
+            }
+          ]
+        },
+        {
+          "name": "PasswordCombination",
+          "children": [
+            {
+              "name": "Get-PasswordCombination"
+            }
+          ]
+        },
+        {
+          "name": "DictionaryFile",
+          "children": [
+            {
+              "name": "Get-DictionaryFile"
+            },
+            {
+              "name": "New-DictionaryFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SysInfo",
+      "companyName": "sconstantinou.com",
+      "children": [
+        {
+          "name": "1394Controller",
+          "children": [
+            {
+              "name": "Get-1394Controller"
+            }
+          ]
+        },
+        {
+          "name": "BaseBoard",
+          "children": [
+            {
+              "name": "Get-BaseBoard"
+            }
+          ]
+        },
+        {
+          "name": "Battery",
+          "children": [
+            {
+              "name": "Get-Battery"
+            }
+          ]
+        },
+        {
+          "name": "BIOS",
+          "children": [
+            {
+              "name": "Get-BIOS"
+            }
+          ]
+        },
+        {
+          "name": "Bus",
+          "children": [
+            {
+              "name": "Get-Bus"
+            }
+          ]
+        },
+        {
+          "name": "CacheMemory",
+          "children": [
+            {
+              "name": "Get-CacheMemory"
+            }
+          ]
+        },
+        {
+          "name": "CDROMDrive",
+          "children": [
+            {
+              "name": "Get-CDROMDrive"
+            }
+          ]
+        },
+        {
+          "name": "CompactDisc",
+          "children": [
+            {
+              "name": "Get-CompactDisc"
+            }
+          ]
+        },
+        {
+          "name": "Desktop",
+          "children": [
+            {
+              "name": "Get-Desktop"
+            }
+          ]
+        },
+        {
+          "name": "DesktopMonitor",
+          "children": [
+            {
+              "name": "Get-DesktopMonitor"
+            }
+          ]
+        },
+        {
+          "name": "DiskDrive",
+          "children": [
+            {
+              "name": "Get-DiskDrive"
+            }
+          ]
+        },
+        {
+          "name": "DiskPartition",
+          "children": [
+            {
+              "name": "Get-DiskPartition"
+            }
+          ]
+        },
+        {
+          "name": "Fan",
+          "children": [
+            {
+              "name": "Get-Fan"
+            }
+          ]
+        },
+        {
+          "name": "FloppyController",
+          "children": [
+            {
+              "name": "Get-FloppyController"
+            }
+          ]
+        },
+        {
+          "name": "FloppyDriveSysInfo",
+          "children": [
+            {
+              "name": "Get-FloppyDriveSysInfo"
+            }
+          ]
+        },
+        {
+          "name": "GlidePoint",
+          "children": [
+            {
+              "name": "Get-GlidePoint"
+            }
+          ]
+        },
+        {
+          "name": "HeatPipe",
+          "children": [
+            {
+              "name": "Get-HeatPipe"
+            }
+          ]
+        },
+        {
+          "name": "IDEController",
+          "children": [
+            {
+              "name": "Get-IDEController"
+            }
+          ]
+        },
+        {
+          "name": "InfraredDevice",
+          "children": [
+            {
+              "name": "Get-InfraredDevice"
+            }
+          ]
+        },
+        {
+          "name": "Keyboard",
+          "children": [
+            {
+              "name": "Get-Keyboard"
+            }
+          ]
+        },
+        {
+          "name": "LocalDisk",
+          "children": [
+            {
+              "name": "Get-LocalDisk"
+            }
+          ]
+        },
+        {
+          "name": "LogicalDisk",
+          "children": [
+            {
+              "name": "Get-LogicalDisk"
+            }
+          ]
+        },
+        {
+          "name": "MemoryArray",
+          "children": [
+            {
+              "name": "Get-MemoryArray"
+            }
+          ]
+        },
+        {
+          "name": "MemoryDevice",
+          "children": [
+            {
+              "name": "Get-MemoryDevice"
+            }
+          ]
+        },
+        {
+          "name": "MotherboardDevice",
+          "children": [
+            {
+              "name": "Get-MotherboardDevice"
+            }
+          ]
+        },
+        {
+          "name": "Mouse",
+          "children": [
+            {
+              "name": "Get-Mouse"
+            }
+          ]
+        },
+        {
+          "name": "NetworkAdapterSysInfo",
+          "children": [
+            {
+              "name": "Get-NetworkAdapterSysInfo"
+            }
+          ]
+        },
+        {
+          "name": "NetworkAdapterConfiguration",
+          "children": [
+            {
+              "name": "Get-NetworkAdapterConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "NetworkDrive",
+          "children": [
+            {
+              "name": "Get-NetworkDrive"
+            }
+          ]
+        },
+        {
+          "name": "OperatingSystem",
+          "children": [
+            {
+              "name": "Get-OperatingSystem"
+            }
+          ]
+        },
+        {
+          "name": "OpticalSensor",
+          "children": [
+            {
+              "name": "Get-OpticalSensor"
+            }
+          ]
+        },
+        {
+          "name": "PhysicalMemory",
+          "children": [
+            {
+              "name": "Get-PhysicalMemory"
+            }
+          ]
+        },
+        {
+          "name": "PhysicalMemoryArray",
+          "children": [
+            {
+              "name": "Get-PhysicalMemoryArray"
+            }
+          ]
+        },
+        {
+          "name": "PointingDevice",
+          "children": [
+            {
+              "name": "Get-PointingDevice"
+            }
+          ]
+        },
+        {
+          "name": "PortableBattery",
+          "children": [
+            {
+              "name": "Get-PortableBattery"
+            }
+          ]
+        },
+        {
+          "name": "PrinterSysInfo",
+          "children": [
+            {
+              "name": "Get-PrinterSysInfo"
+            }
+          ]
+        },
+        {
+          "name": "PrinterConfiguration",
+          "children": [
+            {
+              "name": "Get-PrinterConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "Processor",
+          "children": [
+            {
+              "name": "Get-Processor"
+            }
+          ]
+        },
+        {
+          "name": "RAMDisk",
+          "children": [
+            {
+              "name": "Get-RAMDisk"
+            }
+          ]
+        },
+        {
+          "name": "Refrigeration",
+          "children": [
+            {
+              "name": "Get-Refrigeration"
+            }
+          ]
+        },
+        {
+          "name": "RemovableDisk",
+          "children": [
+            {
+              "name": "Get-RemovableDisk"
+            }
+          ]
+        },
+        {
+          "name": "SCSIControllerSysInfo",
+          "children": [
+            {
+              "name": "Get-SCSIControllerSysInfo"
+            }
+          ]
+        },
+        {
+          "name": "SoundDevice",
+          "children": [
+            {
+              "name": "Get-SoundDevice"
+            }
+          ]
+        },
+        {
+          "name": "SystemEnclosure",
+          "children": [
+            {
+              "name": "Get-SystemEnclosure"
+            }
+          ]
+        },
+        {
+          "name": "TapeDrive",
+          "children": [
+            {
+              "name": "Get-TapeDrive"
+            }
+          ]
+        },
+        {
+          "name": "TemperatureProbe",
+          "children": [
+            {
+              "name": "Get-TemperatureProbe"
+            }
+          ]
+        },
+        {
+          "name": "TouchPad",
+          "children": [
+            {
+              "name": "Get-TouchPad"
+            }
+          ]
+        },
+        {
+          "name": "TouchScreen",
+          "children": [
+            {
+              "name": "Get-TouchScreen"
+            }
+          ]
+        },
+        {
+          "name": "TrackBall",
+          "children": [
+            {
+              "name": "Get-TrackBall"
+            }
+          ]
+        },
+        {
+          "name": "TrackPoint",
+          "children": [
+            {
+              "name": "Get-TrackPoint"
+            }
+          ]
+        },
+        {
+          "name": "USBController",
+          "children": [
+            {
+              "name": "Get-USBController"
+            }
+          ]
+        },
+        {
+          "name": "VideoController",
+          "children": [
+            {
+              "name": "Get-VideoController"
+            }
+          ]
+        },
+        {
+          "name": "VoltageProbe",
+          "children": [
+            {
+              "name": "Get-VoltageProbe"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

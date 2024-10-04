@@ -1,0 +1,242 @@
+{
+  "name": "stealthpuppy",
+  "children": [
+    {
+      "name": "Evergreen",
+      "companyName": "stealthpuppy",
+      "children": [
+        {
+          "name": "DotNetVersionClass",
+          "children": [
+            {
+              "name": "ConvertTo-DotNetVersionClass"
+            }
+          ]
+        },
+        {
+          "name": "EvergreenApp",
+          "children": [
+            {
+              "name": "Export-EvergreenApp"
+            },
+            {
+              "name": "Find-EvergreenApp"
+            },
+            {
+              "name": "Get-EvergreenApp"
+            },
+            {
+              "name": "Save-EvergreenApp"
+            },
+            {
+              "name": "Test-EvergreenApp"
+            }
+          ]
+        },
+        {
+          "name": "EvergreenManifest",
+          "children": [
+            {
+              "name": "Export-EvergreenManifest"
+            }
+          ]
+        },
+        {
+          "name": "EvergreenAppFromApi",
+          "children": [
+            {
+              "name": "Get-EvergreenAppFromApi"
+            }
+          ]
+        },
+        {
+          "name": "EvergreenAppFromLibrary",
+          "children": [
+            {
+              "name": "Get-EvergreenAppFromLibrary"
+            }
+          ]
+        },
+        {
+          "name": "EvergreenEndpointFromApi",
+          "children": [
+            {
+              "name": "Get-EvergreenEndpointFromApi"
+            }
+          ]
+        },
+        {
+          "name": "EvergreenLibrary",
+          "children": [
+            {
+              "name": "Get-EvergreenLibrary"
+            },
+            {
+              "name": "New-EvergreenLibrary"
+            }
+          ]
+        },
+        {
+          "name": "EvergreenLibraryUpdate",
+          "children": [
+            {
+              "name": "Start-EvergreenLibraryUpdate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LatestUpdate",
+      "companyName": "stealthpuppy",
+      "children": [
+        {
+          "name": "LatestAdobeFlashUpdate",
+          "children": [
+            {
+              "name": "Get-LatestAdobeFlashUpdate"
+            }
+          ]
+        },
+        {
+          "name": "LatestCumulativeUpdate",
+          "children": [
+            {
+              "name": "Get-LatestCumulativeUpdate"
+            }
+          ]
+        },
+        {
+          "name": "LatestMonthlyRollup",
+          "children": [
+            {
+              "name": "Get-LatestMonthlyRollup"
+            }
+          ]
+        },
+        {
+          "name": "LatestNetFrameworkUpdate",
+          "children": [
+            {
+              "name": "Get-LatestNetFrameworkUpdate"
+            }
+          ]
+        },
+        {
+          "name": "LatestServicingStackUpdate",
+          "children": [
+            {
+              "name": "Get-LatestServicingStackUpdate"
+            }
+          ]
+        },
+        {
+          "name": "LatestWindowsDefenderUpdate",
+          "children": [
+            {
+              "name": "Get-LatestWindowsDefenderUpdate"
+            }
+          ]
+        },
+        {
+          "name": "LatestUpdate",
+          "children": [
+            {
+              "name": "Save-LatestUpdate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VcRedist",
+      "companyName": "stealthpuppy",
+      "children": [
+        {
+          "name": "VcManifest",
+          "children": [
+            {
+              "name": "Export-VcManifest"
+            }
+          ]
+        },
+        {
+          "name": "InstalledVcRedist",
+          "children": [
+            {
+              "name": "Get-InstalledVcRedist"
+            }
+          ]
+        },
+        {
+          "name": "VcList",
+          "children": [
+            {
+              "name": "Get-VcList"
+            }
+          ]
+        },
+        {
+          "name": "VcConfigMgrApplication",
+          "children": [
+            {
+              "name": "Import-VcConfigMgrApplication"
+            }
+          ]
+        },
+        {
+          "name": "VcIntuneApplication",
+          "children": [
+            {
+              "name": "Import-VcIntuneApplication"
+            }
+          ]
+        },
+        {
+          "name": "VcMdtApplication",
+          "children": [
+            {
+              "name": "Import-VcMdtApplication"
+            },
+            {
+              "name": "Update-VcMdtApplication"
+            }
+          ]
+        },
+        {
+          "name": "VcRedist",
+          "children": [
+            {
+              "name": "Install-VcRedist"
+            },
+            {
+              "name": "Save-VcRedist"
+            },
+            {
+              "name": "Uninstall-VcRedist"
+            }
+          ]
+        },
+        {
+          "name": "VcMdtBundle",
+          "children": [
+            {
+              "name": "New-VcMdtBundle"
+            },
+            {
+              "name": "Update-VcMdtBundle"
+            }
+          ]
+        },
+        {
+          "name": "VcRedistUri",
+          "children": [
+            {
+              "name": "Test-VcRedistUri"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Patrick Charbonnier IT Consulting & Training",
+  "children": [
+    {
+      "name": "pcit.az.rbac",
+      "companyName": "Patrick Charbonnier IT Consulting & Training",
+      "children": [
+        {
+          "name": "pcitAzureTenant",
+          "children": [
+            {
+              "name": "Connect-pcitAzureTenant"
+            }
+          ]
+        },
+        {
+          "name": "pcitAZmanagementGroups",
+          "children": [
+            {
+              "name": "get-pcitAZmanagementGroups"
+            }
+          ]
+        },
+        {
+          "name": "pcitAZSubscriptions",
+          "children": [
+            {
+              "name": "get-pcitAZSubscriptions"
+            }
+          ]
+        },
+        {
+          "name": "PcitAZResourceGroups",
+          "children": [
+            {
+              "name": "get-PcitAZResourceGroups"
+            }
+          ]
+        },
+        {
+          "name": "PcitAZResources",
+          "children": [
+            {
+              "name": "get-PcitAZResources"
+            }
+          ]
+        },
+        {
+          "name": "pcitAZRoleDelegationReport",
+          "children": [
+            {
+              "name": "Get-pcitAZRoleDelegationReport"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

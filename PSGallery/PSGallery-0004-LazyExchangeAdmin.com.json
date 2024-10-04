@@ -1,0 +1,192 @@
+{
+  "name": "LazyExchangeAdmin.com",
+  "children": [
+    {
+      "name": "ExchangeAddressListVisibilityWatcher",
+      "companyName": "LazyExchangeAdmin.com",
+      "children": [
+        {
+          "name": "GetCurrentGroupMembers",
+          "children": [
+            {
+              "name": "GetCurrentGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "CompareGroupMembers",
+          "children": [
+            {
+              "name": "CompareGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "UnhideFromGAL",
+          "children": [
+            {
+              "name": "UnhideFromGAL"
+            }
+          ]
+        },
+        {
+          "name": "HideFromGAL",
+          "children": [
+            {
+              "name": "HideFromGAL"
+            }
+          ]
+        },
+        {
+          "name": "UpdateAddressListVisibility",
+          "children": [
+            {
+              "name": "UpdateAddressListVisibility"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LazyExchangeAdmin.SkuMon",
+      "companyName": "lazyexchangeadmin.com",
+      "children": [
+        {
+          "name": "SkuMonGet",
+          "children": [
+            {
+              "name": "SkuMonGet"
+            }
+          ]
+        },
+        {
+          "name": "SkuMonSetUp",
+          "children": [
+            {
+              "name": "SkuMonSetUp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lazyExchangeAdmin",
+      "companyName": "lazyexchangeadmin.com",
+      "children": [
+        {
+          "name": "lazyGraphAPIToken",
+          "children": [
+            {
+              "name": "New-lazyGraphAPIToken"
+            }
+          ]
+        },
+        {
+          "name": "lazyOutlookAPIToken",
+          "children": [
+            {
+              "name": "New-lazyOutlookAPIToken"
+            }
+          ]
+        },
+        {
+          "name": "lazyExchangeOnlineSession",
+          "children": [
+            {
+              "name": "New-lazyExchangeOnlineSession"
+            }
+          ]
+        },
+        {
+          "name": "lazyExchangeOnPremSession",
+          "children": [
+            {
+              "name": "New-lazyExchangeOnPremSession"
+            }
+          ]
+        },
+        {
+          "name": "lazyZipFile",
+          "children": [
+            {
+              "name": "New-lazyZipFile"
+            }
+          ]
+        },
+        {
+          "name": "lazyHousekeeping",
+          "children": [
+            {
+              "name": "Invoke-lazyHousekeeping"
+            }
+          ]
+        },
+        {
+          "name": "lazyTxnLogging",
+          "children": [
+            {
+              "name": "Stop-lazyTxnLogging"
+            },
+            {
+              "name": "Start-lazyTxnLogging"
+            }
+          ]
+        },
+        {
+          "name": "lazyScriptInfo",
+          "children": [
+            {
+              "name": "Get-lazyScriptInfo"
+            }
+          ]
+        },
+        {
+          "name": "lazyTimeZone",
+          "children": [
+            {
+              "name": "Get-lazyTimeZone"
+            }
+          ]
+        },
+        {
+          "name": "lazyWriteError",
+          "children": [
+            {
+              "name": "lazyWriteError"
+            }
+          ]
+        },
+        {
+          "name": "lazyWriteInfo",
+          "children": [
+            {
+              "name": "lazyWriteInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office365TokenGet",
+      "companyName": "lazyexchangeadmin.com",
+      "children": [
+        {
+          "name": "MSGraphAPIToken",
+          "children": [
+            {
+              "name": "New-MSGraphAPIToken"
+            }
+          ]
+        },
+        {
+          "name": "OutlookRestAPIToken",
+          "children": [
+            {
+              "name": "New-OutlookRestAPIToken"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

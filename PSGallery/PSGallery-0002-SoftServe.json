@@ -1,0 +1,425 @@
+{
+  "name": "SoftServe",
+  "children": [
+    {
+      "name": "sitecoreinstallextensions",
+      "companyName": "SoftServe",
+      "children": [
+        {
+          "name": "EnsureJRETask",
+          "children": [
+            {
+              "name": "Invoke-EnsureJRETask"
+            }
+          ]
+        },
+        {
+          "name": "EnsureMogoDbTask",
+          "children": [
+            {
+              "name": "Invoke-EnsureMogoDbTask"
+            }
+          ]
+        },
+        {
+          "name": "EnsureSolrTask",
+          "children": [
+            {
+              "name": "Invoke-EnsureSolrTask"
+            }
+          ]
+        },
+        {
+          "name": "SolrAsService",
+          "children": [
+            {
+              "name": "Install-SolrAsService"
+            }
+          ]
+        },
+        {
+          "name": "ExeTask",
+          "children": [
+            {
+              "name": "Invoke-ExeTask"
+            }
+          ]
+        },
+        {
+          "name": "SetSqlMixedModeTask",
+          "children": [
+            {
+              "name": "Invoke-SetSqlMixedModeTask"
+            }
+          ]
+        },
+        {
+          "name": "CreateSqlUserTask",
+          "children": [
+            {
+              "name": "Invoke-CreateSqlUserTask"
+            }
+          ]
+        },
+        {
+          "name": "AttachSqlDatabaseTask",
+          "children": [
+            {
+              "name": "Invoke-AttachSqlDatabaseTask"
+            }
+          ]
+        },
+        {
+          "name": "SetSqlDatabaseRolesTask",
+          "children": [
+            {
+              "name": "Invoke-SetSqlDatabaseRolesTask"
+            }
+          ]
+        },
+        {
+          "name": "SetSqlDatabasePermisionsTask",
+          "children": [
+            {
+              "name": "Invoke-SetSqlDatabasePermisionsTask"
+            }
+          ]
+        },
+        {
+          "name": "InstallChocolateyPackageTask",
+          "children": [
+            {
+              "name": "Invoke-InstallChocolateyPackageTask"
+            }
+          ]
+        },
+        {
+          "name": "BackupFileTask",
+          "children": [
+            {
+              "name": "Invoke-BackupFileTask"
+            }
+          ]
+        },
+        {
+          "name": "MongoConnectionStringConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-MongoConnectionStringConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "MoveTask",
+          "children": [
+            {
+              "name": "Invoke-MoveTask"
+            }
+          ]
+        },
+        {
+          "name": "InstallPackageTask",
+          "children": [
+            {
+              "name": "Invoke-InstallPackageTask"
+            }
+          ]
+        },
+        {
+          "name": "RemoveTask",
+          "children": [
+            {
+              "name": "Invoke-RemoveTask"
+            }
+          ]
+        },
+        {
+          "name": "DeleteSqlDatabaseTask",
+          "children": [
+            {
+              "name": "Invoke-DeleteSqlDatabaseTask"
+            }
+          ]
+        },
+        {
+          "name": "ManageAppPoolTaskEx",
+          "children": [
+            {
+              "name": "Invoke-ManageAppPoolTaskEx"
+            }
+          ]
+        },
+        {
+          "name": "ManageWebsiteTaskEx",
+          "children": [
+            {
+              "name": "Invoke-ManageWebsiteTaskEx"
+            }
+          ]
+        },
+        {
+          "name": "DeleteSqlUserTask",
+          "children": [
+            {
+              "name": "Invoke-DeleteSqlUserTask"
+            }
+          ]
+        },
+        {
+          "name": "DropMongoDatabaseTask",
+          "children": [
+            {
+              "name": "Invoke-DropMongoDatabaseTask"
+            }
+          ]
+        },
+        {
+          "name": "GetConnectionStringElementConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-GetConnectionStringElementConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "WebSite",
+          "children": [
+            {
+              "name": "Select-WebSite"
+            }
+          ]
+        },
+        {
+          "name": "EnsureSSLCertificateTask",
+          "children": [
+            {
+              "name": "Invoke-EnsureSSLCertificateTask"
+            }
+          ]
+        },
+        {
+          "name": "ConfigureSolrTask",
+          "children": [
+            {
+              "name": "Invoke-ConfigureSolrTask"
+            }
+          ]
+        },
+        {
+          "name": "EnsureNSSMTask",
+          "children": [
+            {
+              "name": "Invoke-EnsureNSSMTask"
+            }
+          ]
+        },
+        {
+          "name": "EnsureSolrServiceTask",
+          "children": [
+            {
+              "name": "Invoke-EnsureSolrServiceTask"
+            }
+          ]
+        },
+        {
+          "name": "SolrService",
+          "children": [
+            {
+              "name": "Remove-SolrService"
+            }
+          ]
+        },
+        {
+          "name": "InstallWindowsFeatureTask",
+          "children": [
+            {
+              "name": "Invoke-InstallWindowsFeatureTask"
+            }
+          ]
+        },
+        {
+          "name": "ScriptBlockTask",
+          "children": [
+            {
+              "name": "Invoke-ScriptBlockTask"
+            }
+          ]
+        },
+        {
+          "name": "ConvertToHereStringConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-ConvertToHereStringConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "GeneratePasswordConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-GeneratePasswordConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "RandomHexConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-RandomHexConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "TestPackageConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-TestPackageConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "DeployDacpacTask",
+          "children": [
+            {
+              "name": "Invoke-DeployDacpacTask"
+            }
+          ]
+        },
+        {
+          "name": "NewPatchFileTask",
+          "children": [
+            {
+              "name": "Invoke-NewPatchFileTask"
+            }
+          ]
+        },
+        {
+          "name": "AddPatchTask",
+          "children": [
+            {
+              "name": "Invoke-AddPatchTask"
+            }
+          ]
+        },
+        {
+          "name": "GetPhysicalPathConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-GetPhysicalPathConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "WindowsOptionalFeatureTask",
+          "children": [
+            {
+              "name": "Invoke-WindowsOptionalFeatureTask"
+            }
+          ]
+        },
+        {
+          "name": "GetModulePathConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-GetModulePathConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "SetSitecoreAdminPasswordTask",
+          "children": [
+            {
+              "name": "Invoke-SetSitecoreAdminPasswordTask"
+            }
+          ]
+        },
+        {
+          "name": "DownloadSitecoreFile",
+          "children": [
+            {
+              "name": "Invoke-DownloadSitecoreFile"
+            }
+          ]
+        },
+        {
+          "name": "TestXmlValueConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-TestXmlValueConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "TestXmlAttributeConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-TestXmlAttributeConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "SetSitecoreConfigFileTask",
+          "children": [
+            {
+              "name": "Invoke-SetSitecoreConfigFileTask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SitecoreInstallAzure",
+      "companyName": "SoftServe",
+      "children": [
+        {
+          "name": "AzureLoginTask",
+          "children": [
+            {
+              "name": "Invoke-AzureLoginTask"
+            }
+          ]
+        },
+        {
+          "name": "GetAzureBlobContentTask",
+          "children": [
+            {
+              "name": "Invoke-GetAzureBlobContentTask"
+            }
+          ]
+        },
+        {
+          "name": "ListAzureContainerTask",
+          "children": [
+            {
+              "name": "Invoke-ListAzureContainerTask"
+            }
+          ]
+        },
+        {
+          "name": "GetAzureSecretConfigFunction",
+          "children": [
+            {
+              "name": "Invoke-GetAzureSecretConfigFunction"
+            }
+          ]
+        },
+        {
+          "name": "SetAzureSecretTask",
+          "children": [
+            {
+              "name": "Invoke-SetAzureSecretTask"
+            }
+          ]
+        },
+        {
+          "name": "DownloadAzureBlobContentTask",
+          "children": [
+            {
+              "name": "Invoke-DownloadAzureBlobContentTask"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

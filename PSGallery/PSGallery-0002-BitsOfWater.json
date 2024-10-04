@@ -1,0 +1,33 @@
+{
+  "name": "BitsOfWater",
+  "children": [
+    {
+      "name": "InstallRemoteMSI",
+      "companyName": "BitsOfWater",
+      "children": [
+        {
+          "name": "RemoteMSI",
+          "children": [
+            {
+              "name": "Install-RemoteMSI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TestTCPConnection",
+      "companyName": "BitsofWater",
+      "children": [
+        {
+          "name": "TCPConnection",
+          "children": [
+            {
+              "name": "Test-TCPConnection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

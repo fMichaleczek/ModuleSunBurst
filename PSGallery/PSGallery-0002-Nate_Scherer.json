@@ -1,0 +1,50 @@
+{
+  "name": "Nate Scherer",
+  "children": [
+    {
+      "name": "ChangelogManagement",
+      "companyName": "Nate Scherer",
+      "children": [
+        {
+          "name": "ChangelogData",
+          "children": [
+            {
+              "name": "Add-ChangelogData"
+            },
+            {
+              "name": "Get-ChangelogData"
+            }
+          ]
+        },
+        {
+          "name": "Changelog",
+          "children": [
+            {
+              "name": "ConvertFrom-Changelog"
+            },
+            {
+              "name": "New-Changelog"
+            },
+            {
+              "name": "Update-Changelog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshEmail",
+      "companyName": "Nate Scherer",
+      "children": [
+        {
+          "name": "HtmlMailMessage",
+          "children": [
+            {
+              "name": "Send-HtmlMailMessage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

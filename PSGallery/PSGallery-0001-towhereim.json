@@ -1,0 +1,35 @@
+{
+  "name": "towhereim",
+  "children": [
+    {
+      "name": "PSOutLog",
+      "companyName": "towhereim",
+      "children": [
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Out-Log"
+            }
+          ]
+        },
+        {
+          "name": "WarnLog",
+          "children": [
+            {
+              "name": "Out-WarnLog"
+            }
+          ]
+        },
+        {
+          "name": "ErrLog",
+          "children": [
+            {
+              "name": "Out-ErrLog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

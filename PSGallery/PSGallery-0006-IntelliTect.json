@@ -1,0 +1,271 @@
+{
+  "name": "IntelliTect",
+  "children": [
+    {
+      "name": "IntelliTect.ResharperNugetSearch",
+      "companyName": "IntelliTect",
+      "children": [
+        {
+          "name": "NugetForType",
+          "children": [
+            {
+              "name": "Search-NugetForType"
+            }
+          ]
+        },
+        {
+          "name": "NugetForNamespace",
+          "children": [
+            {
+              "name": "Search-NugetForNamespace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IntelliTect.PSRestore",
+      "companyName": "IntelliTect",
+      "children": [
+        {
+          "name": "PSRestore",
+          "children": [
+            {
+              "name": "Install-PSRestore"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellHistory",
+          "children": [
+            {
+              "name": "Import-PowerShellHistory"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellLastCommand",
+          "children": [
+            {
+              "name": "Export-PowerShellLastCommand"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellISEWorkingDirectory",
+          "children": [
+            {
+              "name": "Export-PowerShellISEWorkingDirectory"
+            },
+            {
+              "name": "Import-PowerShellISEWorkingDirectory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IntelliTect.Google",
+      "companyName": "IntelliTect",
+      "children": [
+        {
+          "name": "Google",
+          "children": [
+            {
+              "name": "Search-Google"
+            }
+          ]
+        },
+        {
+          "name": "GoogleSession",
+          "children": [
+            {
+              "name": "Get-GoogleSession"
+            }
+          ]
+        },
+        {
+          "name": "GoogleLocationHistoryKmlFile",
+          "children": [
+            {
+              "name": "Get-GoogleLocationHistoryKmlFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IntelliTect.CredentialManager",
+      "companyName": "IntelliTect",
+      "children": [
+        {
+          "name": "CredentialManagerCredential",
+          "children": [
+            {
+              "name": "Set-CredentialManagerCredential"
+            },
+            {
+              "name": "Get-CredentialManagerCredential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IntelliTect.Common",
+      "companyName": "IntelliTect",
+      "children": [
+        {
+          "name": "PathToEnvironmentVariable",
+          "children": [
+            {
+              "name": "Add-PathToEnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "ShouldProcess",
+          "children": [
+            {
+              "name": "Invoke-ShouldProcess"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertFrom-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "Highlight",
+          "children": [
+            {
+              "name": "Highlight"
+            }
+          ]
+        },
+        {
+          "name": "Array",
+          "children": [
+            {
+              "name": "Initialize-Array"
+            }
+          ]
+        },
+        {
+          "name": "DisposeScript",
+          "children": [
+            {
+              "name": "Add-DisposeScript"
+            }
+          ]
+        },
+        {
+          "name": "AutoDispose",
+          "children": [
+            {
+              "name": "Register-AutoDispose"
+            }
+          ]
+        },
+        {
+          "name": "TempDirectory",
+          "children": [
+            {
+              "name": "Get-TempDirectory"
+            }
+          ]
+        },
+        {
+          "name": "TempFile",
+          "children": [
+            {
+              "name": "Get-TempFile"
+            }
+          ]
+        },
+        {
+          "name": "FileSystemTempItemPath",
+          "children": [
+            {
+              "name": "Get-FileSystemTempItemPath"
+            }
+          ]
+        },
+        {
+          "name": "Lines",
+          "children": [
+            {
+              "name": "ConvertTo-Lines"
+            }
+          ]
+        },
+        {
+          "name": "Command",
+          "children": [
+            {
+              "name": "Test-Command"
+            }
+          ]
+        },
+        {
+          "name": "Property",
+          "children": [
+            {
+              "name": "Test-Property"
+            }
+          ]
+        },
+        {
+          "name": "VariableExists",
+          "children": [
+            {
+              "name": "Test-VariableExists"
+            }
+          ]
+        },
+        {
+          "name": "IsWindowsPlatform",
+          "children": [
+            {
+              "name": "Get-IsWindowsPlatform"
+            }
+          ]
+        },
+        {
+          "name": "IsWindowsVariable",
+          "children": [
+            {
+              "name": "Set-IsWindowsVariable"
+            }
+          ]
+        },
+        {
+          "name": "ForCondition",
+          "children": [
+            {
+              "name": "Wait-ForCondition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IntelliTect.ChatGpt",
+      "companyName": "IntelliTect",
+      "children": [
+        {
+          "name": "ChatGpt",
+          "children": [
+            {
+              "name": "Invoke-ChatGpt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

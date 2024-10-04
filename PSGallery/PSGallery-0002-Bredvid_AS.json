@@ -1,0 +1,53 @@
+{
+  "name": "Bredvid AS",
+  "children": [
+    {
+      "name": "dnsimplePS",
+      "companyName": "Bredvid AS",
+      "children": [
+        {
+          "name": "ZoneRecord",
+          "children": [
+            {
+              "name": "Add-ZoneRecord"
+            },
+            {
+              "name": "Get-ZoneRecord"
+            },
+            {
+              "name": "Remove-ZoneRecord"
+            }
+          ]
+        },
+        {
+          "name": "AccessToken",
+          "children": [
+            {
+              "name": "Write-AccessToken"
+            },
+            {
+              "name": "Read-AccessToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "urlshrtPS",
+      "companyName": "Bredvid AS",
+      "children": [
+        {
+          "name": "ShortUrl",
+          "children": [
+            {
+              "name": "Add-ShortUrl"
+            },
+            {
+              "name": "Remove-ShortUrl"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Frama AG",
+  "children": [
+    {
+      "name": "Python3",
+      "companyName": "Frama AG",
+      "children": [
+        {
+          "name": "Python3",
+          "children": [
+            {
+              "name": "Invoke-Python3"
+            }
+          ]
+        },
+        {
+          "name": "Python3EXE",
+          "children": [
+            {
+              "name": "Get-Python3EXE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RemoteArchiveDSC",
+      "companyName": "Frama AG",
+      "children": [
+        {
+          "name": "RemoteArchive",
+          "children": [
+            {
+              "name": "Get-RemoteArchive"
+            },
+            {
+              "name": "Set-RemoteArchive"
+            },
+            {
+              "name": "Test-RemoteArchive"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

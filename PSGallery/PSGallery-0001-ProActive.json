@@ -1,0 +1,135 @@
+{
+  "name": "ProActive",
+  "children": [
+    {
+      "name": "ProActive.PowerShell.PackageManagement",
+      "companyName": "ProActive",
+      "children": [
+        {
+          "name": "PASourceRepository",
+          "children": [
+            {
+              "name": "Add-PASourceRepository"
+            },
+            {
+              "name": "Get-PASourceRepository"
+            },
+            {
+              "name": "Remove-PASourceRepository"
+            },
+            {
+              "name": "Set-PASourceRepository"
+            }
+          ]
+        },
+        {
+          "name": "PAPackageCache",
+          "children": [
+            {
+              "name": "Clear-PAPackageCache"
+            },
+            {
+              "name": "Get-PAPackageCache"
+            }
+          ]
+        },
+        {
+          "name": "PAPackageHistory",
+          "children": [
+            {
+              "name": "Clear-PAPackageHistory"
+            },
+            {
+              "name": "Get-PAPackageHistory"
+            }
+          ]
+        },
+        {
+          "name": "PAPackage",
+          "children": [
+            {
+              "name": "Expand-PAPackage"
+            },
+            {
+              "name": "Export-PAPackage"
+            },
+            {
+              "name": "Get-PAPackage"
+            },
+            {
+              "name": "Initialize-PAPackage"
+            },
+            {
+              "name": "Install-PAPackage"
+            },
+            {
+              "name": "Register-PAPackage"
+            },
+            {
+              "name": "Unregister-PAPackage"
+            }
+          ]
+        },
+        {
+          "name": "PAClientContext",
+          "children": [
+            {
+              "name": "Get-PAClientContext"
+            },
+            {
+              "name": "New-PAClientContext"
+            }
+          ]
+        },
+        {
+          "name": "PACurrentPackage",
+          "children": [
+            {
+              "name": "Get-PACurrentPackage"
+            }
+          ]
+        },
+        {
+          "name": "PAPackageMetadata",
+          "children": [
+            {
+              "name": "Get-PAPackageMetadata"
+            }
+          ]
+        },
+        {
+          "name": "PAPackageDependency",
+          "children": [
+            {
+              "name": "Resolve-PAPackageDependency"
+            }
+          ]
+        },
+        {
+          "name": "PAPackageFile",
+          "children": [
+            {
+              "name": "Test-PAPackageFile"
+            }
+          ]
+        },
+        {
+          "name": "PAPackagePath",
+          "children": [
+            {
+              "name": "Test-PAPackagePath"
+            }
+          ]
+        },
+        {
+          "name": "PAVersionSpec",
+          "children": [
+            {
+              "name": "Test-PAVersionSpec"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

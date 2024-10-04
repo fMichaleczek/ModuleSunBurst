@@ -1,0 +1,63 @@
+{
+  "name": "GoBright B.V.",
+  "children": [
+    {
+      "name": "BrightBookingUserAdminTools",
+      "companyName": "GoBright B.V.",
+      "children": [
+        {
+          "name": "ADUsersForBB",
+          "children": [
+            {
+              "name": "Get-ADUsersForBB"
+            },
+            {
+              "name": "Export-ADUsersForBB"
+            }
+          ]
+        },
+        {
+          "name": "ADUsersToBBUserExport",
+          "children": [
+            {
+              "name": "Convert-ADUsersToBBUserExport"
+            }
+          ]
+        },
+        {
+          "name": "ADUsersToBB",
+          "children": [
+            {
+              "name": "Push-ADUsersToBB"
+            },
+            {
+              "name": "Send-ADUsersToBB"
+            }
+          ]
+        },
+        {
+          "name": "AzureADUsersToBB",
+          "children": [
+            {
+              "name": "Push-AzureADUsersToBB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BrightBookingBookingAdminTools",
+      "companyName": "GoBright B.V.",
+      "children": [
+        {
+          "name": "BookingsIDPMSToBB",
+          "children": [
+            {
+              "name": "Push-BookingsIDPMSToBB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

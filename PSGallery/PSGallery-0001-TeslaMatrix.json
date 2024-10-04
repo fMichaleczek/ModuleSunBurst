@@ -1,0 +1,437 @@
+{
+  "name": "TeslaMatrix",
+  "children": [
+    {
+      "name": "TeslaMatrix",
+      "companyName": "TeslaMatrix",
+      "children": [
+        {
+          "name": "SpeedLimitPin",
+          "children": [
+            {
+              "name": "Clear-SpeedLimitPin"
+            }
+          ]
+        },
+        {
+          "name": "ChargePort",
+          "children": [
+            {
+              "name": "Close-ChargePort"
+            },
+            {
+              "name": "Open-ChargePort"
+            }
+          ]
+        },
+        {
+          "name": "Windows",
+          "children": [
+            {
+              "name": "Close-Windows"
+            },
+            {
+              "name": "Open-Windows"
+            }
+          ]
+        },
+        {
+          "name": "Kilometers",
+          "children": [
+            {
+              "name": "ConvertFrom-Kilometers"
+            },
+            {
+              "name": "ConvertTo-Kilometers"
+            }
+          ]
+        },
+        {
+          "name": "SentryMode",
+          "children": [
+            {
+              "name": "Disable-SentryMode"
+            },
+            {
+              "name": "Enable-SentryMode"
+            }
+          ]
+        },
+        {
+          "name": "SpeedLimit",
+          "children": [
+            {
+              "name": "Disable-SpeedLimit"
+            },
+            {
+              "name": "Enable-SpeedLimit"
+            },
+            {
+              "name": "Set-SpeedLimit"
+            }
+          ]
+        },
+        {
+          "name": "ValetMode",
+          "children": [
+            {
+              "name": "Disable-ValetMode"
+            },
+            {
+              "name": "Enable-ValetMode"
+            }
+          ]
+        },
+        {
+          "name": "AccessToken",
+          "children": [
+            {
+              "name": "Get-AccessToken"
+            },
+            {
+              "name": "Revoke-AccessToken"
+            }
+          ]
+        },
+        {
+          "name": "ChargeState",
+          "children": [
+            {
+              "name": "Get-ChargeState"
+            }
+          ]
+        },
+        {
+          "name": "ClimateState",
+          "children": [
+            {
+              "name": "Get-ClimateState"
+            }
+          ]
+        },
+        {
+          "name": "DriveState",
+          "children": [
+            {
+              "name": "Get-DriveState"
+            }
+          ]
+        },
+        {
+          "name": "FreeSuperCharging",
+          "children": [
+            {
+              "name": "Get-FreeSuperCharging"
+            }
+          ]
+        },
+        {
+          "name": "GUISettings",
+          "children": [
+            {
+              "name": "Get-GUISettings"
+            }
+          ]
+        },
+        {
+          "name": "LoginDetails",
+          "children": [
+            {
+              "name": "Get-LoginDetails"
+            }
+          ]
+        },
+        {
+          "name": "MobileEnabled",
+          "children": [
+            {
+              "name": "Get-MobileEnabled"
+            }
+          ]
+        },
+        {
+          "name": "NearByChargingSites",
+          "children": [
+            {
+              "name": "Get-NearByChargingSites"
+            }
+          ]
+        },
+        {
+          "name": "VehicleConfig",
+          "children": [
+            {
+              "name": "Get-VehicleConfig"
+            }
+          ]
+        },
+        {
+          "name": "VehicleData",
+          "children": [
+            {
+              "name": "Get-VehicleData"
+            }
+          ]
+        },
+        {
+          "name": "Vehicles",
+          "children": [
+            {
+              "name": "Get-Vehicles"
+            }
+          ]
+        },
+        {
+          "name": "Vehicle",
+          "children": [
+            {
+              "name": "Get-Vehicle"
+            },
+            {
+              "name": "Select-Vehicle"
+            }
+          ]
+        },
+        {
+          "name": "VehicleState",
+          "children": [
+            {
+              "name": "Get-VehicleState"
+            }
+          ]
+        },
+        {
+          "name": "FlashLights",
+          "children": [
+            {
+              "name": "Invoke-FlashLights"
+            }
+          ]
+        },
+        {
+          "name": "Frunk",
+          "children": [
+            {
+              "name": "Invoke-Frunk"
+            }
+          ]
+        },
+        {
+          "name": "HonkHorn",
+          "children": [
+            {
+              "name": "Invoke-HonkHorn"
+            }
+          ]
+        },
+        {
+          "name": "MyTeslaMethod",
+          "children": [
+            {
+              "name": "Invoke-MyTeslaMethod"
+            }
+          ]
+        },
+        {
+          "name": "RemoteStartDrive",
+          "children": [
+            {
+              "name": "Invoke-RemoteStartDrive"
+            }
+          ]
+        },
+        {
+          "name": "Trunk",
+          "children": [
+            {
+              "name": "Invoke-Trunk"
+            }
+          ]
+        },
+        {
+          "name": "Wakeup",
+          "children": [
+            {
+              "name": "Invoke-Wakeup"
+            }
+          ]
+        },
+        {
+          "name": "ValetPassword",
+          "children": [
+            {
+              "name": "Reset-ValetPassword"
+            }
+          ]
+        },
+        {
+          "name": "ChargeLimit",
+          "children": [
+            {
+              "name": "Set-ChargeLimit"
+            }
+          ]
+        },
+        {
+          "name": "ChargeMaxRange",
+          "children": [
+            {
+              "name": "Set-ChargeMaxRange"
+            }
+          ]
+        },
+        {
+          "name": "ChargeStandard",
+          "children": [
+            {
+              "name": "Set-ChargeStandard"
+            }
+          ]
+        },
+        {
+          "name": "MediaNextFavourite",
+          "children": [
+            {
+              "name": "Set-MediaNextFavourite"
+            }
+          ]
+        },
+        {
+          "name": "MediaNextTrack",
+          "children": [
+            {
+              "name": "Set-MediaNextTrack"
+            }
+          ]
+        },
+        {
+          "name": "MediaPlayback",
+          "children": [
+            {
+              "name": "Set-MediaPlayback"
+            }
+          ]
+        },
+        {
+          "name": "MediaPreviousTrack",
+          "children": [
+            {
+              "name": "Set-MediaPreviousTrack"
+            }
+          ]
+        },
+        {
+          "name": "MediaPrevousFavourite",
+          "children": [
+            {
+              "name": "Set-MediaPrevousFavourite"
+            }
+          ]
+        },
+        {
+          "name": "MediaVolumeDown",
+          "children": [
+            {
+              "name": "Set-MediaVolumeDown"
+            }
+          ]
+        },
+        {
+          "name": "MediaVolumeUp",
+          "children": [
+            {
+              "name": "Set-MediaVolumeUp"
+            }
+          ]
+        },
+        {
+          "name": "SeatHeaterLevel",
+          "children": [
+            {
+              "name": "Set-SeatHeaterLevel"
+            }
+          ]
+        },
+        {
+          "name": "Temperature",
+          "children": [
+            {
+              "name": "Set-Temperature"
+            }
+          ]
+        },
+        {
+          "name": "AutoConditioning",
+          "children": [
+            {
+              "name": "Start-AutoConditioning"
+            },
+            {
+              "name": "Stop-AutoConditioning"
+            }
+          ]
+        },
+        {
+          "name": "Charging",
+          "children": [
+            {
+              "name": "Start-Charging"
+            },
+            {
+              "name": "Stop-Charging"
+            }
+          ]
+        },
+        {
+          "name": "PreConditioningMaxDefrost",
+          "children": [
+            {
+              "name": "Start-PreConditioningMaxDefrost"
+            },
+            {
+              "name": "Stop-PreConditioningMaxDefrost"
+            }
+          ]
+        },
+        {
+          "name": "Share",
+          "children": [
+            {
+              "name": "Start-Share"
+            }
+          ]
+        },
+        {
+          "name": "SoftwareUpdate",
+          "children": [
+            {
+              "name": "Start-SoftwareUpdate"
+            },
+            {
+              "name": "Stop-SoftwareUpdate"
+            }
+          ]
+        },
+        {
+          "name": "SteeringWheelHeater",
+          "children": [
+            {
+              "name": "Start-SteeringWheelHeater"
+            },
+            {
+              "name": "Stop-SteeringWheelHeater"
+            }
+          ]
+        },
+        {
+          "name": "OptionCodes",
+          "children": [
+            {
+              "name": "Resolve-OptionCodes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

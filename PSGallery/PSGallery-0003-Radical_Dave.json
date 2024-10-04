@@ -1,0 +1,53 @@
+{
+  "name": "Radical Dave",
+  "children": [
+    {
+      "name": "KuduCommand",
+      "companyName": "Radical Dave",
+      "children": [
+        {
+          "name": "LocationPSScript",
+          "children": [
+            {
+              "name": "Set-LocationPSScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SharedSitecore.SitecoreDocker",
+      "companyName": "Radical Dave",
+      "children": [
+        {
+          "name": "SitecoreDocker",
+          "children": [
+            {
+              "name": "Build-SitecoreDocker"
+            },
+            {
+              "name": "Start-SitecoreDocker"
+            },
+            {
+              "name": "Stop-SitecoreDocker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SharedSitecore.Backup",
+      "companyName": "Radical Dave",
+      "children": [
+        {
+          "name": "SitecoreBackup",
+          "children": [
+            {
+              "name": "New-SitecoreBackup"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

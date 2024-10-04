@@ -1,0 +1,108 @@
+{
+  "name": "Swimlane",
+  "children": [
+    {
+      "name": "PSCVSS",
+      "companyName": "Swimlane",
+      "children": [
+        {
+          "name": "CVSSScore",
+          "children": [
+            {
+              "name": "Get-CVSSScore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAttck",
+      "companyName": "Swimlane",
+      "children": [
+        {
+          "name": "Attck",
+          "children": [
+            {
+              "name": "Get-Attck"
+            }
+          ]
+        },
+        {
+          "name": "AttckActor",
+          "children": [
+            {
+              "name": "Get-AttckActor"
+            }
+          ]
+        },
+        {
+          "name": "AttckDataFiles",
+          "children": [
+            {
+              "name": "Get-AttckDataFiles"
+            }
+          ]
+        },
+        {
+          "name": "AttckMalware",
+          "children": [
+            {
+              "name": "Get-AttckMalware"
+            }
+          ]
+        },
+        {
+          "name": "AttckMitigation",
+          "children": [
+            {
+              "name": "Get-AttckMitigation"
+            }
+          ]
+        },
+        {
+          "name": "AttckTactic",
+          "children": [
+            {
+              "name": "Get-AttckTactic"
+            }
+          ]
+        },
+        {
+          "name": "AttckTechnique",
+          "children": [
+            {
+              "name": "Get-AttckTechnique"
+            }
+          ]
+        },
+        {
+          "name": "AttckTool",
+          "children": [
+            {
+              "name": "Get-AttckTool"
+            }
+          ]
+        },
+        {
+          "name": "PSAttckConfiguration",
+          "children": [
+            {
+              "name": "Get-PSAttckConfiguration"
+            },
+            {
+              "name": "Set-PSAttckConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "AttckObject",
+          "children": [
+            {
+              "name": "New-AttckObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "SysNet",
+  "children": [
+    {
+      "name": "MCTDemoObject",
+      "companyName": "SysNet",
+      "children": [
+        {
+          "name": "MyDemoObject",
+          "children": [
+            {
+              "name": "Get-MyDemoObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSInstall",
+      "companyName": "SysNet",
+      "children": [
+        {
+          "name": "Software",
+          "children": [
+            {
+              "name": "Install-Software"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

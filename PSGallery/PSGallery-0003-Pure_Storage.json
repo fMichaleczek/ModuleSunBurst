@@ -1,0 +1,243 @@
+{
+  "name": "Pure Storage, Inc",
+  "children": [
+    {
+      "name": "PureStorage.RunCommandWrapperDebug",
+      "companyName": "Pure Storage, Inc",
+      "children": [
+        {
+          "name": "AVSScript",
+          "children": [
+            {
+              "name": "Invoke-AVSScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.RunCommandWrapper",
+      "companyName": "Pure Storage, Inc",
+      "children": [
+        {
+          "name": "AVSScript",
+          "children": [
+            {
+              "name": "Invoke-AVSScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.CBS.AVS",
+      "companyName": "Pure Storage, Inc",
+      "children": [
+        {
+          "name": "PCBSCluster",
+          "children": [
+            {
+              "name": "Build-PCBSCluster"
+            }
+          ]
+        },
+        {
+          "name": "PCBSVmfsDatastore",
+          "children": [
+            {
+              "name": "New-PCBSVmfsDatastore"
+            },
+            {
+              "name": "Restore-PCBSVmfsDatastore"
+            },
+            {
+              "name": "Remove-PCBSVmfsDatastore"
+            }
+          ]
+        },
+        {
+          "name": "PCBSVmfsCapacity",
+          "children": [
+            {
+              "name": "Set-PCBSVmfsCapacity"
+            }
+          ]
+        },
+        {
+          "name": "PCBSAVSMonitor",
+          "children": [
+            {
+              "name": "Deploy-PCBSAVSMonitor"
+            },
+            {
+              "name": "Remove-PCBSAVSMonitor"
+            },
+            {
+              "name": "Get-PCBSAVSMonitor"
+            }
+          ]
+        },
+        {
+          "name": "PCBSAVSMonitorArray",
+          "children": [
+            {
+              "name": "Add-PCBSAVSMonitorArray"
+            },
+            {
+              "name": "Remove-PCBSAVSMonitorArray"
+            },
+            {
+              "name": "Get-PCBSAVSMonitorArray"
+            }
+          ]
+        },
+        {
+          "name": "PCBSVvolDataStore",
+          "children": [
+            {
+              "name": "New-PCBSVvolDataStore"
+            },
+            {
+              "name": "Remove-PCBSVvolDataStore"
+            }
+          ]
+        },
+        {
+          "name": "PCBSVASAProvider",
+          "children": [
+            {
+              "name": "New-PCBSVASAProvider"
+            },
+            {
+              "name": "Update-PCBSVASAProvider"
+            }
+          ]
+        },
+        {
+          "name": "PCBSStoragePolicy",
+          "children": [
+            {
+              "name": "New-PCBSStoragePolicy"
+            },
+            {
+              "name": "Remove-PCBSStoragePolicy"
+            }
+          ]
+        },
+        {
+          "name": "PCBSFailover",
+          "children": [
+            {
+              "name": "Start-PCBSFailover"
+            }
+          ]
+        },
+        {
+          "name": "PCBSFailoverTest",
+          "children": [
+            {
+              "name": "Stop-PCBSFailoverTest"
+            }
+          ]
+        },
+        {
+          "name": "PCBSFailoverCleanup",
+          "children": [
+            {
+              "name": "Start-PCBSFailoverCleanup"
+            }
+          ]
+        },
+        {
+          "name": "PCBSFailoverReverse",
+          "children": [
+            {
+              "name": "Start-PCBSFailoverReverse"
+            }
+          ]
+        },
+        {
+          "name": "PCBSReplicationGroup",
+          "children": [
+            {
+              "name": "Sync-PCBSReplicationGroup"
+            }
+          ]
+        },
+        {
+          "name": "PCBSCapacityMonitor",
+          "children": [
+            {
+              "name": "Deploy-PCBSCapacityMonitor"
+            },
+            {
+              "name": "Remove-PCBSCapacityMonitor"
+            },
+            {
+              "name": "Get-PCBSCapacityMonitor"
+            }
+          ]
+        },
+        {
+          "name": "PCBSCapacityMonitorArray",
+          "children": [
+            {
+              "name": "Add-PCBSCapacityMonitorArray"
+            },
+            {
+              "name": "Remove-PCBSCapacityMonitorArray"
+            }
+          ]
+        },
+        {
+          "name": "PCBSRunCommandPackageAvailability",
+          "children": [
+            {
+              "name": "Test-PCBSRunCommandPackageAvailability"
+            }
+          ]
+        },
+        {
+          "name": "PCBSiSCSITargets",
+          "children": [
+            {
+              "name": "Clear-PCBSiSCSITargets"
+            }
+          ]
+        },
+        {
+          "name": "PCBSiSCSIConnection",
+          "children": [
+            {
+              "name": "Test-PCBSiSCSIConnection"
+            }
+          ]
+        },
+        {
+          "name": "PCBSVASAConnection",
+          "children": [
+            {
+              "name": "Test-PCBSVASAConnection"
+            }
+          ]
+        },
+        {
+          "name": "PCBSAVSConnectionFromCBS",
+          "children": [
+            {
+              "name": "Test-PCBSAVSConnectionFromCBS"
+            }
+          ]
+        },
+        {
+          "name": "PCBSClusterVMHostStorage",
+          "children": [
+            {
+              "name": "Sync-PCBSClusterVMHostStorage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

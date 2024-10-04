@@ -1,0 +1,150 @@
+{
+  "name": "Powers Hell",
+  "children": [
+    {
+      "name": "Az.ImageBuilder.Tools",
+      "companyName": "Powers Hell",
+      "children": [
+        {
+          "name": "AIBBuildStatus",
+          "children": [
+            {
+              "name": "Get-AIBBuildStatus"
+            }
+          ]
+        },
+        {
+          "name": "AzureImageBuilder",
+          "children": [
+            {
+              "name": "Initialize-AzureImageBuilder"
+            }
+          ]
+        },
+        {
+          "name": "AIBProviderCheck",
+          "children": [
+            {
+              "name": "Invoke-AIBProviderCheck"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intune.USB.Creator",
+      "companyName": "Powers Hell",
+      "children": [
+        {
+          "name": "ImageToUSB",
+          "children": [
+            {
+              "name": "Publish-ImageToUSB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intune.LogMonitor.Tools",
+      "companyName": "Powers Hell",
+      "children": [
+        {
+          "name": "IMELogLevel",
+          "children": [
+            {
+              "name": "Get-IMELogLevel"
+            },
+            {
+              "name": "Set-IMELogLevel"
+            }
+          ]
+        },
+        {
+          "name": "IMEAppMonitor",
+          "children": [
+            {
+              "name": "Start-IMEAppMonitor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intune.HV.Tools",
+      "companyName": "Powers Hell",
+      "children": [
+        {
+          "name": "ImageToConfig",
+          "children": [
+            {
+              "name": "Add-ImageToConfig"
+            }
+          ]
+        },
+        {
+          "name": "NetworkToConfig",
+          "children": [
+            {
+              "name": "Add-NetworkToConfig"
+            }
+          ]
+        },
+        {
+          "name": "TenantToConfig",
+          "children": [
+            {
+              "name": "Add-TenantToConfig"
+            }
+          ]
+        },
+        {
+          "name": "HVToolsConfig",
+          "children": [
+            {
+              "name": "Get-HVToolsConfig"
+            }
+          ]
+        },
+        {
+          "name": "HVTools",
+          "children": [
+            {
+              "name": "Initialize-HVTools"
+            }
+          ]
+        },
+        {
+          "name": "ClientVM",
+          "children": [
+            {
+              "name": "New-ClientVM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SuperSecret.Tools",
+      "companyName": "Powers Hell",
+      "children": [
+        {
+          "name": "SecureSecret",
+          "children": [
+            {
+              "name": "ConvertFrom-SecureSecret"
+            }
+          ]
+        },
+        {
+          "name": "ClientSecret",
+          "children": [
+            {
+              "name": "New-ClientSecret"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

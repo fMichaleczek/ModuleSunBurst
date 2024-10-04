@@ -1,0 +1,112 @@
+{
+  "name": "panicoenlaxbox",
+  "children": [
+    {
+      "name": "AzureSqlMaintenancePlan",
+      "companyName": "panicoenlaxbox",
+      "children": [
+        {
+          "name": "ConnectionString",
+          "children": [
+            {
+              "name": "Get-ConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "Database",
+          "children": [
+            {
+              "name": "Get-Database"
+            },
+            {
+              "name": "Set-Database"
+            },
+            {
+              "name": "Compress-Database"
+            }
+          ]
+        },
+        {
+          "name": "Index",
+          "children": [
+            {
+              "name": "Get-Index"
+            },
+            {
+              "name": "Update-Index"
+            }
+          ]
+        },
+        {
+          "name": "Statistic",
+          "children": [
+            {
+              "name": "Get-Statistic"
+            },
+            {
+              "name": "Update-Statistic"
+            }
+          ]
+        },
+        {
+          "name": "ElasticPool",
+          "children": [
+            {
+              "name": "Get-ElasticPool"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "children": [
+            {
+              "name": "Get-Table"
+            }
+          ]
+        },
+        {
+          "name": "Store",
+          "children": [
+            {
+              "name": "Register-Store"
+            },
+            {
+              "name": "Unregister-Store"
+            }
+          ]
+        },
+        {
+          "name": "Plan",
+          "children": [
+            {
+              "name": "New-Plan"
+            },
+            {
+              "name": "Set-Plan"
+            },
+            {
+              "name": "Get-Plan"
+            }
+          ]
+        },
+        {
+          "name": "PlanSetting",
+          "children": [
+            {
+              "name": "Get-PlanSetting"
+            }
+          ]
+        },
+        {
+          "name": "Schedule",
+          "children": [
+            {
+              "name": "Confirm-Schedule"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

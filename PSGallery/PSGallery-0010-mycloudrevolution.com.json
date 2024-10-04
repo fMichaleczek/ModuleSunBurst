@@ -1,0 +1,593 @@
+{
+  "name": "mycloudrevolution.com",
+  "children": [
+    {
+      "name": "PSvLIMessage",
+      "companyName": "mycloudrevolution.com",
+      "children": [
+        {
+          "name": "vLIMessage",
+          "children": [
+            {
+              "name": "Push-vLIMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS-StoreOnce",
+      "companyName": "mycloudrevolution.com",
+      "children": [
+        {
+          "name": "SOAppliance",
+          "children": [
+            {
+              "name": "Connect-SOAppliance"
+            },
+            {
+              "name": "Get-SOAppliance"
+            }
+          ]
+        },
+        {
+          "name": "SOCatClients",
+          "children": [
+            {
+              "name": "Get-SOCatClients"
+            }
+          ]
+        },
+        {
+          "name": "SOCatStoreAccess",
+          "children": [
+            {
+              "name": "Get-SOCatStoreAccess"
+            },
+            {
+              "name": "Set-SOCatStoreAccess"
+            }
+          ]
+        },
+        {
+          "name": "SOCatStores",
+          "children": [
+            {
+              "name": "Get-SOCatStores"
+            }
+          ]
+        },
+        {
+          "name": "SONasShares",
+          "children": [
+            {
+              "name": "Get-SONasShares"
+            }
+          ]
+        },
+        {
+          "name": "SOSIDs",
+          "children": [
+            {
+              "name": "Get-SOSIDs"
+            }
+          ]
+        },
+        {
+          "name": "SOCatClient",
+          "children": [
+            {
+              "name": "New-SOCatClient"
+            },
+            {
+              "name": "Remove-SOCatClient"
+            }
+          ]
+        },
+        {
+          "name": "SOCatStore",
+          "children": [
+            {
+              "name": "New-SOCatStore"
+            },
+            {
+              "name": "Remove-SOCatStore"
+            }
+          ]
+        },
+        {
+          "name": "IP",
+          "children": [
+            {
+              "name": "Test-IP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerVAO",
+      "companyName": "mycloudrevolution.com",
+      "children": [
+        {
+          "name": "VaoApiCall",
+          "children": [
+            {
+              "name": "Invoke-VaoApiCall"
+            }
+          ]
+        },
+        {
+          "name": "VaoApiConnection",
+          "children": [
+            {
+              "name": "New-VaoApiConnection"
+            }
+          ]
+        },
+        {
+          "name": "VaoSite",
+          "children": [
+            {
+              "name": "Get-VaoSite"
+            }
+          ]
+        },
+        {
+          "name": "VaoFailoverPlan",
+          "children": [
+            {
+              "name": "Get-VaoFailoverPlan"
+            },
+            {
+              "name": "Set-VaoFailoverPlan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vSphereNetAppToolkit",
+      "companyName": "mycloudrevolution.com",
+      "children": [
+        {
+          "name": "VsphereNetappVolume",
+          "children": [
+            {
+              "name": "New-VsphereNetappVolume"
+            },
+            {
+              "name": "Get-VsphereNetappVolume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vSphere-Modules",
+      "companyName": "mycloudrevolution.com",
+      "children": [
+        {
+          "name": "Hardening",
+          "children": [
+            {
+              "name": "Apply-Hardening"
+            }
+          ]
+        },
+        {
+          "name": "NewAndRemovedVMs",
+          "children": [
+            {
+              "name": "Get-NewAndRemovedVMs"
+            }
+          ]
+        },
+        {
+          "name": "NewVMs",
+          "children": [
+            {
+              "name": "Get-NewVMs"
+            }
+          ]
+        },
+        {
+          "name": "NICDetails",
+          "children": [
+            {
+              "name": "Get-NICDetails"
+            }
+          ]
+        },
+        {
+          "name": "UplinkDetails",
+          "children": [
+            {
+              "name": "Get-UplinkDetails"
+            }
+          ]
+        },
+        {
+          "name": "VMDisk",
+          "children": [
+            {
+              "name": "Get-VMDisk"
+            }
+          ]
+        },
+        {
+          "name": "VMHostUplinkDetails",
+          "children": [
+            {
+              "name": "Get-VMHostUplinkDetails"
+            }
+          ]
+        },
+        {
+          "name": "VMID",
+          "children": [
+            {
+              "name": "Get-VMID"
+            }
+          ]
+        },
+        {
+          "name": "VMmaxIOPS",
+          "children": [
+            {
+              "name": "Get-VMmaxIOPS"
+            }
+          ]
+        },
+        {
+          "name": "ESXi",
+          "children": [
+            {
+              "name": "Konfig-ESXi"
+            }
+          ]
+        },
+        {
+          "name": "vLIMessage",
+          "children": [
+            {
+              "name": "Push-vLIMessage"
+            }
+          ]
+        },
+        {
+          "name": "Sizing",
+          "children": [
+            {
+              "name": "Recommend-Sizing"
+            }
+          ]
+        },
+        {
+          "name": "CBT",
+          "children": [
+            {
+              "name": "Set-CBT"
+            }
+          ]
+        },
+        {
+          "name": "ConsolidationFix",
+          "children": [
+            {
+              "name": "Set-ConsolidationFix"
+            }
+          ]
+        },
+        {
+          "name": "IOPSLimit",
+          "children": [
+            {
+              "name": "Set-IOPSLimit"
+            }
+          ]
+        },
+        {
+          "name": "VMHostSecureNTP",
+          "children": [
+            {
+              "name": "Set-VMHostSecureNTP"
+            }
+          ]
+        },
+        {
+          "name": "UNMAP",
+          "children": [
+            {
+              "name": "Start-UNMAP"
+            }
+          ]
+        },
+        {
+          "name": "ESXiPackages",
+          "children": [
+            {
+              "name": "Validate-ESXiPackages"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware-vCD-Module",
+      "companyName": "mycloudrevolution.com",
+      "children": [
+        {
+          "name": "MyOnBoarding",
+          "children": [
+            {
+              "name": "Invoke-MyOnBoarding"
+            }
+          ]
+        },
+        {
+          "name": "MyEdgeGateway",
+          "children": [
+            {
+              "name": "New-MyEdgeGateway"
+            }
+          ]
+        },
+        {
+          "name": "MyOrg",
+          "children": [
+            {
+              "name": "New-MyOrg"
+            }
+          ]
+        },
+        {
+          "name": "MyOrgAdmin",
+          "children": [
+            {
+              "name": "New-MyOrgAdmin"
+            }
+          ]
+        },
+        {
+          "name": "MyOrgVdc",
+          "children": [
+            {
+              "name": "New-MyOrgVdc"
+            }
+          ]
+        },
+        {
+          "name": "MyOrgNetwork",
+          "children": [
+            {
+              "name": "New-MyOrgNetwork"
+            }
+          ]
+        },
+        {
+          "name": "MyExternalNetwork",
+          "children": [
+            {
+              "name": "New-MyExternalNetwork"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware-NSXvCD-Module",
+      "companyName": "mycloudrevolution.com",
+      "children": [
+        {
+          "name": "NsxVcdApiConnection",
+          "children": [
+            {
+              "name": "New-NsxVcdApiConnection"
+            }
+          ]
+        },
+        {
+          "name": "XML",
+          "children": [
+            {
+              "name": "Format-XML"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdApiCall",
+          "children": [
+            {
+              "name": "Invoke-NsxVcdApiCall"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdEdge",
+          "children": [
+            {
+              "name": "Get-NsxVcdEdge"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdEdgeDetails",
+          "children": [
+            {
+              "name": "Get-NsxVcdEdgeDetails"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdEdgeFirewallRule",
+          "children": [
+            {
+              "name": "Get-NsxVcdEdgeFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdEdgeFirewallRuleDetails",
+          "children": [
+            {
+              "name": "Get-NsxVcdEdgeFirewallRuleDetails"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdEdgeFirewallRuleStats",
+          "children": [
+            {
+              "name": "Get-NsxVcdEdgeFirewallRuleStats"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdEdgeNatRule",
+          "children": [
+            {
+              "name": "Get-NsxVcdEdgeNatRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdDfw",
+          "children": [
+            {
+              "name": "Enable-NsxVcdDfw"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdDfwRule",
+          "children": [
+            {
+              "name": "Get-NsxVcdDfwRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdDfwSecurityGroups",
+          "children": [
+            {
+              "name": "Get-NsxVcdDfwSecurityGroups"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdDfwSecurityTags",
+          "children": [
+            {
+              "name": "Get-NsxVcdDfwSecurityTags"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdDfwSecurityTagVMs",
+          "children": [
+            {
+              "name": "Get-NsxVcdDfwSecurityTagVMs"
+            }
+          ]
+        },
+        {
+          "name": "NsxVcdDfwSecurityTagVM",
+          "children": [
+            {
+              "name": "Add-NsxVcdDfwSecurityTagVM"
+            },
+            {
+              "name": "Remove-NsxVcdDfwSecurityTagVM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VeeamNetAppToolkit",
+      "companyName": "mycloudrevolution.com",
+      "children": [
+        {
+          "name": "VeeamNetappVolume",
+          "children": [
+            {
+              "name": "New-VeeamNetappVolume"
+            }
+          ]
+        },
+        {
+          "name": "NetappConnection",
+          "children": [
+            {
+              "name": "Test-NetappConnection"
+            }
+          ]
+        },
+        {
+          "name": "VeeamConnection",
+          "children": [
+            {
+              "name": "Test-VeeamConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VeeamLogParser",
+      "companyName": "mycloudrevolution.com",
+      "children": [
+        {
+          "name": "VeeamLogParser",
+          "children": [
+            {
+              "name": "Invoke-VeeamLogParser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Veeam.PowerCLI-Interactions",
+      "companyName": "mycloudrevolution.com",
+      "children": [
+        {
+          "name": "VeeamJobObject",
+          "children": [
+            {
+              "name": "Add-VeeamJobObject"
+            },
+            {
+              "name": "Remove-VeeamJobObject"
+            }
+          ]
+        },
+        {
+          "name": "VeeamProtection",
+          "children": [
+            {
+              "name": "Get-VeeamProtection"
+            }
+          ]
+        },
+        {
+          "name": "VeeamQuickBackup",
+          "children": [
+            {
+              "name": "Start-VeeamQuickBackup"
+            }
+          ]
+        },
+        {
+          "name": "VeeamRestore",
+          "children": [
+            {
+              "name": "Start-VeeamRestore"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
