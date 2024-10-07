@@ -1,0 +1,2707 @@
+{
+  "name": "Start Automating",
+  "children": [
+    {
+      "name": "Benchpress",
+      "companyName": "Start Automating",
+      "author": "James Brundage",
+      "children": [
+        {
+          "name": "Benchmark",
+          "children": [
+            {
+              "name": "Checkpoint-Benchmark"
+            },
+            {
+              "name": "Get-Benchmark"
+            },
+            {
+              "name": "Show-Benchmark"
+            },
+            {
+              "name": "Measure-Benchmark"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cFg",
+      "companyName": "Start Automating",
+      "author": "James Brundage",
+      "children": [
+        {
+          "name": "DSCData",
+          "children": [
+            {
+              "name": "Get-DSCData"
+            },
+            {
+              "name": "Clear-DSCData"
+            }
+          ]
+        },
+        {
+          "name": "DSCResource",
+          "children": [
+            {
+              "name": "Initialize-DSCResource"
+            },
+            {
+              "name": "Reset-DSCResource"
+            },
+            {
+              "name": "Write-DSCResource"
+            }
+          ]
+        },
+        {
+          "name": "DSCTrigger",
+          "children": [
+            {
+              "name": "Get-DSCTrigger"
+            },
+            {
+              "name": "Register-DSCTrigger"
+            },
+            {
+              "name": "Unregister-DSCTrigger"
+            }
+          ]
+        },
+        {
+          "name": "Config",
+          "children": [
+            {
+              "name": "Get-Config"
+            },
+            {
+              "name": "Join-Config"
+            },
+            {
+              "name": "Save-Config"
+            },
+            {
+              "name": "Out-Config"
+            },
+            {
+              "name": "Split-Config"
+            },
+            {
+              "name": "Remove-Config"
+            },
+            {
+              "name": "Use-Config"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EZOut",
+      "companyName": "Start Automating",
+      "author": "James Brundage",
+      "children": [
+        {
+          "name": "FormatData",
+          "children": [
+            {
+              "name": "Push-FormatData"
+            },
+            {
+              "name": "Clear-FormatData"
+            },
+            {
+              "name": "Out-FormatData"
+            },
+            {
+              "name": "Pop-FormatData"
+            }
+          ]
+        },
+        {
+          "name": "TypeData",
+          "children": [
+            {
+              "name": "Push-TypeData"
+            },
+            {
+              "name": "Clear-TypeData"
+            },
+            {
+              "name": "Out-TypeData"
+            },
+            {
+              "name": "Pop-TypeData"
+            }
+          ]
+        },
+        {
+          "name": "FormatFile",
+          "children": [
+            {
+              "name": "Get-FormatFile"
+            }
+          ]
+        },
+        {
+          "name": "FormatView",
+          "children": [
+            {
+              "name": "Find-FormatView"
+            },
+            {
+              "name": "Import-FormatView"
+            },
+            {
+              "name": "Write-FormatView"
+            }
+          ]
+        },
+        {
+          "name": "TypeView",
+          "children": [
+            {
+              "name": "Import-TypeView"
+            },
+            {
+              "name": "Write-TypeView"
+            }
+          ]
+        },
+        {
+          "name": "FormatControl",
+          "children": [
+            {
+              "name": "Write-FormatControl"
+            }
+          ]
+        },
+        {
+          "name": "FormatCustomView",
+          "children": [
+            {
+              "name": "Write-FormatCustomView"
+            }
+          ]
+        },
+        {
+          "name": "FormatTableView",
+          "children": [
+            {
+              "name": "Write-FormatTableView"
+            }
+          ]
+        },
+        {
+          "name": "FormatListView",
+          "children": [
+            {
+              "name": "Write-FormatListView"
+            }
+          ]
+        },
+        {
+          "name": "FormatWideView",
+          "children": [
+            {
+              "name": "Write-FormatWideView"
+            }
+          ]
+        },
+        {
+          "name": "FormatViewExpression",
+          "children": [
+            {
+              "name": "Write-FormatViewExpression"
+            }
+          ]
+        },
+        {
+          "name": "FormatTreeView",
+          "children": [
+            {
+              "name": "Write-FormatTreeView"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Format-Object"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "Format-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "Heatmap",
+          "children": [
+            {
+              "name": "Format-Heatmap"
+            }
+          ]
+        },
+        {
+          "name": "JSON",
+          "children": [
+            {
+              "name": "Format-JSON"
+            }
+          ]
+        },
+        {
+          "name": "Markdown",
+          "children": [
+            {
+              "name": "Format-Markdown"
+            }
+          ]
+        },
+        {
+          "name": "RichText",
+          "children": [
+            {
+              "name": "Format-RichText"
+            }
+          ]
+        },
+        {
+          "name": "YAML",
+          "children": [
+            {
+              "name": "Format-YAML"
+            }
+          ]
+        },
+        {
+          "name": "PropertySet",
+          "children": [
+            {
+              "name": "ConvertTo-PropertySet"
+            },
+            {
+              "name": "Write-PropertySet"
+            },
+            {
+              "name": "Get-PropertySet"
+            }
+          ]
+        },
+        {
+          "name": "EZFormatFile",
+          "children": [
+            {
+              "name": "Write-EZFormatFile"
+            }
+          ]
+        },
+        {
+          "name": "EZOutExtension",
+          "children": [
+            {
+              "name": "Get-EZOutExtension"
+            }
+          ]
+        },
+        {
+          "name": "Mermaid",
+          "children": [
+            {
+              "name": "Out-Mermaid"
+            }
+          ]
+        },
+        {
+          "name": "Gum",
+          "children": [
+            {
+              "name": "Out-Gum"
+            }
+          ]
+        },
+        {
+          "name": "Alternate",
+          "children": [
+            {
+              "name": "Out-Alternate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "obs-powershell",
+      "companyName": "Start Automating",
+      "author": "James Brundage",
+      "children": [
+        {
+          "name": "OBSScene",
+          "children": [
+            {
+              "name": "Clear-OBSScene"
+            },
+            {
+              "name": "Add-OBSScene"
+            },
+            {
+              "name": "Get-OBSScene"
+            },
+            {
+              "name": "Remove-OBSScene"
+            }
+          ]
+        },
+        {
+          "name": "OBS",
+          "children": [
+            {
+              "name": "Connect-OBS"
+            },
+            {
+              "name": "Disconnect-OBS"
+            },
+            {
+              "name": "Get-OBS"
+            },
+            {
+              "name": "Hide-OBS"
+            },
+            {
+              "name": "Receive-OBS"
+            },
+            {
+              "name": "Remove-OBS"
+            },
+            {
+              "name": "Send-OBS"
+            },
+            {
+              "name": "Show-OBS"
+            },
+            {
+              "name": "Watch-OBS"
+            }
+          ]
+        },
+        {
+          "name": "OBS3DFilter",
+          "children": [
+            {
+              "name": "Set-OBS3DFilter"
+            }
+          ]
+        },
+        {
+          "name": "OBSColorFilter",
+          "children": [
+            {
+              "name": "Set-OBSColorFilter"
+            }
+          ]
+        },
+        {
+          "name": "OBSEqualizerFilter",
+          "children": [
+            {
+              "name": "Set-OBSEqualizerFilter"
+            }
+          ]
+        },
+        {
+          "name": "OBSGainFilter",
+          "children": [
+            {
+              "name": "Set-OBSGainFilter"
+            }
+          ]
+        },
+        {
+          "name": "OBSRenderDelayFilter",
+          "children": [
+            {
+              "name": "Set-OBSRenderDelayFilter"
+            }
+          ]
+        },
+        {
+          "name": "OBSScaleFilter",
+          "children": [
+            {
+              "name": "Set-OBSScaleFilter"
+            }
+          ]
+        },
+        {
+          "name": "OBSScrollFilter",
+          "children": [
+            {
+              "name": "Set-OBSScrollFilter"
+            }
+          ]
+        },
+        {
+          "name": "OBSShaderFilter",
+          "children": [
+            {
+              "name": "Set-OBSShaderFilter"
+            }
+          ]
+        },
+        {
+          "name": "OBSSharpnessFilter",
+          "children": [
+            {
+              "name": "Set-OBSSharpnessFilter"
+            }
+          ]
+        },
+        {
+          "name": "OBSInput",
+          "children": [
+            {
+              "name": "Add-OBSInput"
+            },
+            {
+              "name": "Get-OBSInput"
+            },
+            {
+              "name": "Remove-OBSInput"
+            }
+          ]
+        },
+        {
+          "name": "OBSProfile",
+          "children": [
+            {
+              "name": "Add-OBSProfile"
+            },
+            {
+              "name": "Get-OBSProfile"
+            },
+            {
+              "name": "Remove-OBSProfile"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneCollection",
+          "children": [
+            {
+              "name": "Add-OBSSceneCollection"
+            },
+            {
+              "name": "Get-OBSSceneCollection"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneItem",
+          "children": [
+            {
+              "name": "Add-OBSSceneItem"
+            },
+            {
+              "name": "Copy-OBSSceneItem"
+            },
+            {
+              "name": "Get-OBSSceneItem"
+            },
+            {
+              "name": "Remove-OBSSceneItem"
+            }
+          ]
+        },
+        {
+          "name": "OBSSourceFilter",
+          "children": [
+            {
+              "name": "Add-OBSSourceFilter"
+            },
+            {
+              "name": "Get-OBSSourceFilter"
+            },
+            {
+              "name": "Remove-OBSSourceFilter"
+            }
+          ]
+        },
+        {
+          "name": "OBSCurrentPreviewScene",
+          "children": [
+            {
+              "name": "Get-OBSCurrentPreviewScene"
+            },
+            {
+              "name": "Set-OBSCurrentPreviewScene"
+            }
+          ]
+        },
+        {
+          "name": "OBSCurrentProgramScene",
+          "children": [
+            {
+              "name": "Get-OBSCurrentProgramScene"
+            },
+            {
+              "name": "Set-OBSCurrentProgramScene"
+            }
+          ]
+        },
+        {
+          "name": "OBSCurrentSceneTransition",
+          "children": [
+            {
+              "name": "Get-OBSCurrentSceneTransition"
+            },
+            {
+              "name": "Set-OBSCurrentSceneTransition"
+            }
+          ]
+        },
+        {
+          "name": "OBSCurrentSceneTransitionCursor",
+          "children": [
+            {
+              "name": "Get-OBSCurrentSceneTransitionCursor"
+            }
+          ]
+        },
+        {
+          "name": "OBSGroup",
+          "children": [
+            {
+              "name": "Get-OBSGroup"
+            }
+          ]
+        },
+        {
+          "name": "OBSGroupSceneItem",
+          "children": [
+            {
+              "name": "Get-OBSGroupSceneItem"
+            }
+          ]
+        },
+        {
+          "name": "OBSHotkey",
+          "children": [
+            {
+              "name": "Get-OBSHotkey"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputAudioBalance",
+          "children": [
+            {
+              "name": "Get-OBSInputAudioBalance"
+            },
+            {
+              "name": "Set-OBSInputAudioBalance"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputAudioMonitorType",
+          "children": [
+            {
+              "name": "Get-OBSInputAudioMonitorType"
+            },
+            {
+              "name": "Set-OBSInputAudioMonitorType"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputAudioSyncOffset",
+          "children": [
+            {
+              "name": "Get-OBSInputAudioSyncOffset"
+            },
+            {
+              "name": "Set-OBSInputAudioSyncOffset"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputAudioTracks",
+          "children": [
+            {
+              "name": "Get-OBSInputAudioTracks"
+            },
+            {
+              "name": "Set-OBSInputAudioTracks"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputDefaultSettings",
+          "children": [
+            {
+              "name": "Get-OBSInputDefaultSettings"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputKind",
+          "children": [
+            {
+              "name": "Get-OBSInputKind"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputMute",
+          "children": [
+            {
+              "name": "Get-OBSInputMute"
+            },
+            {
+              "name": "Set-OBSInputMute"
+            },
+            {
+              "name": "Switch-OBSInputMute"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputPropertiesListPropertyItems",
+          "children": [
+            {
+              "name": "Get-OBSInputPropertiesListPropertyItems"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputSettings",
+          "children": [
+            {
+              "name": "Get-OBSInputSettings"
+            },
+            {
+              "name": "Set-OBSInputSettings"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputVolume",
+          "children": [
+            {
+              "name": "Get-OBSInputVolume"
+            },
+            {
+              "name": "Set-OBSInputVolume"
+            }
+          ]
+        },
+        {
+          "name": "OBSLastReplayBufferReplay",
+          "children": [
+            {
+              "name": "Get-OBSLastReplayBufferReplay"
+            }
+          ]
+        },
+        {
+          "name": "OBSMediaInputStatus",
+          "children": [
+            {
+              "name": "Get-OBSMediaInputStatus"
+            }
+          ]
+        },
+        {
+          "name": "OBSMonitor",
+          "children": [
+            {
+              "name": "Get-OBSMonitor"
+            }
+          ]
+        },
+        {
+          "name": "OBSOutput",
+          "children": [
+            {
+              "name": "Get-OBSOutput"
+            },
+            {
+              "name": "Start-OBSOutput"
+            },
+            {
+              "name": "Stop-OBSOutput"
+            },
+            {
+              "name": "Switch-OBSOutput"
+            }
+          ]
+        },
+        {
+          "name": "OBSOutputSettings",
+          "children": [
+            {
+              "name": "Get-OBSOutputSettings"
+            },
+            {
+              "name": "Set-OBSOutputSettings"
+            }
+          ]
+        },
+        {
+          "name": "OBSOutputStatus",
+          "children": [
+            {
+              "name": "Get-OBSOutputStatus"
+            }
+          ]
+        },
+        {
+          "name": "OBSPersistentData",
+          "children": [
+            {
+              "name": "Get-OBSPersistentData"
+            },
+            {
+              "name": "Set-OBSPersistentData"
+            }
+          ]
+        },
+        {
+          "name": "OBSProfileParameter",
+          "children": [
+            {
+              "name": "Get-OBSProfileParameter"
+            },
+            {
+              "name": "Set-OBSProfileParameter"
+            }
+          ]
+        },
+        {
+          "name": "OBSRecordDirectory",
+          "children": [
+            {
+              "name": "Get-OBSRecordDirectory"
+            },
+            {
+              "name": "Set-OBSRecordDirectory"
+            }
+          ]
+        },
+        {
+          "name": "OBSRecordStatus",
+          "children": [
+            {
+              "name": "Get-OBSRecordStatus"
+            }
+          ]
+        },
+        {
+          "name": "OBSReplayBufferStatus",
+          "children": [
+            {
+              "name": "Get-OBSReplayBufferStatus"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneItemBlendMode",
+          "children": [
+            {
+              "name": "Get-OBSSceneItemBlendMode"
+            },
+            {
+              "name": "Set-OBSSceneItemBlendMode"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneItemEnabled",
+          "children": [
+            {
+              "name": "Get-OBSSceneItemEnabled"
+            },
+            {
+              "name": "Set-OBSSceneItemEnabled"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneItemId",
+          "children": [
+            {
+              "name": "Get-OBSSceneItemId"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneItemIndex",
+          "children": [
+            {
+              "name": "Get-OBSSceneItemIndex"
+            },
+            {
+              "name": "Set-OBSSceneItemIndex"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneItemLocked",
+          "children": [
+            {
+              "name": "Get-OBSSceneItemLocked"
+            },
+            {
+              "name": "Set-OBSSceneItemLocked"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneItemTransform",
+          "children": [
+            {
+              "name": "Get-OBSSceneItemTransform"
+            },
+            {
+              "name": "Set-OBSSceneItemTransform"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneSceneTransitionOverride",
+          "children": [
+            {
+              "name": "Get-OBSSceneSceneTransitionOverride"
+            },
+            {
+              "name": "Set-OBSSceneSceneTransitionOverride"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneTransition",
+          "children": [
+            {
+              "name": "Get-OBSSceneTransition"
+            }
+          ]
+        },
+        {
+          "name": "OBSSourceActive",
+          "children": [
+            {
+              "name": "Get-OBSSourceActive"
+            }
+          ]
+        },
+        {
+          "name": "OBSSourceFilterDefaultSettings",
+          "children": [
+            {
+              "name": "Get-OBSSourceFilterDefaultSettings"
+            }
+          ]
+        },
+        {
+          "name": "OBSSourceFilterList",
+          "children": [
+            {
+              "name": "Get-OBSSourceFilterList"
+            }
+          ]
+        },
+        {
+          "name": "OBSSourceScreenshot",
+          "children": [
+            {
+              "name": "Get-OBSSourceScreenshot"
+            },
+            {
+              "name": "Save-OBSSourceScreenshot"
+            }
+          ]
+        },
+        {
+          "name": "OBSSpecialInputs",
+          "children": [
+            {
+              "name": "Get-OBSSpecialInputs"
+            }
+          ]
+        },
+        {
+          "name": "OBSStats",
+          "children": [
+            {
+              "name": "Get-OBSStats"
+            }
+          ]
+        },
+        {
+          "name": "OBSStreamServiceSettings",
+          "children": [
+            {
+              "name": "Get-OBSStreamServiceSettings"
+            },
+            {
+              "name": "Set-OBSStreamServiceSettings"
+            }
+          ]
+        },
+        {
+          "name": "OBSStreamStatus",
+          "children": [
+            {
+              "name": "Get-OBSStreamStatus"
+            }
+          ]
+        },
+        {
+          "name": "OBSStudioModeEnabled",
+          "children": [
+            {
+              "name": "Get-OBSStudioModeEnabled"
+            },
+            {
+              "name": "Set-OBSStudioModeEnabled"
+            }
+          ]
+        },
+        {
+          "name": "OBSTransitionKind",
+          "children": [
+            {
+              "name": "Get-OBSTransitionKind"
+            }
+          ]
+        },
+        {
+          "name": "OBSVersion",
+          "children": [
+            {
+              "name": "Get-OBSVersion"
+            }
+          ]
+        },
+        {
+          "name": "OBSVideoSettings",
+          "children": [
+            {
+              "name": "Get-OBSVideoSettings"
+            },
+            {
+              "name": "Set-OBSVideoSettings"
+            }
+          ]
+        },
+        {
+          "name": "OBSVirtualCamStatus",
+          "children": [
+            {
+              "name": "Get-OBSVirtualCamStatus"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputFiltersDialog",
+          "children": [
+            {
+              "name": "Open-OBSInputFiltersDialog"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputInteractDialog",
+          "children": [
+            {
+              "name": "Open-OBSInputInteractDialog"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputPropertiesDialog",
+          "children": [
+            {
+              "name": "Open-OBSInputPropertiesDialog"
+            }
+          ]
+        },
+        {
+          "name": "OBSSourceProjector",
+          "children": [
+            {
+              "name": "Open-OBSSourceProjector"
+            }
+          ]
+        },
+        {
+          "name": "OBSVideoMixProjector",
+          "children": [
+            {
+              "name": "Open-OBSVideoMixProjector"
+            }
+          ]
+        },
+        {
+          "name": "OBSRecord",
+          "children": [
+            {
+              "name": "Resume-OBSRecord"
+            },
+            {
+              "name": "Start-OBSRecord"
+            },
+            {
+              "name": "Stop-OBSRecord"
+            },
+            {
+              "name": "Switch-OBSRecord"
+            }
+          ]
+        },
+        {
+          "name": "OBSReplayBuffer",
+          "children": [
+            {
+              "name": "Save-OBSReplayBuffer"
+            },
+            {
+              "name": "Start-OBSReplayBuffer"
+            },
+            {
+              "name": "Stop-OBSReplayBuffer"
+            },
+            {
+              "name": "Switch-OBSReplayBuffer"
+            }
+          ]
+        },
+        {
+          "name": "OBSCallVendorRequest",
+          "children": [
+            {
+              "name": "Send-OBSCallVendorRequest"
+            }
+          ]
+        },
+        {
+          "name": "OBSCustomEvent",
+          "children": [
+            {
+              "name": "Send-OBSCustomEvent"
+            }
+          ]
+        },
+        {
+          "name": "OBSOffsetMediaInputCursor",
+          "children": [
+            {
+              "name": "Send-OBSOffsetMediaInputCursor"
+            }
+          ]
+        },
+        {
+          "name": "OBSPauseRecord",
+          "children": [
+            {
+              "name": "Send-OBSPauseRecord"
+            }
+          ]
+        },
+        {
+          "name": "OBSPressInputPropertiesButton",
+          "children": [
+            {
+              "name": "Send-OBSPressInputPropertiesButton"
+            }
+          ]
+        },
+        {
+          "name": "OBSSleep",
+          "children": [
+            {
+              "name": "Send-OBSSleep"
+            }
+          ]
+        },
+        {
+          "name": "OBSStreamCaption",
+          "children": [
+            {
+              "name": "Send-OBSStreamCaption"
+            }
+          ]
+        },
+        {
+          "name": "OBSTriggerHotkeyByKeySequence",
+          "children": [
+            {
+              "name": "Send-OBSTriggerHotkeyByKeySequence"
+            }
+          ]
+        },
+        {
+          "name": "OBSTriggerHotkeyByName",
+          "children": [
+            {
+              "name": "Send-OBSTriggerHotkeyByName"
+            }
+          ]
+        },
+        {
+          "name": "OBSTriggerMediaInputAction",
+          "children": [
+            {
+              "name": "Send-OBSTriggerMediaInputAction"
+            }
+          ]
+        },
+        {
+          "name": "OBSTriggerStudioModeTransition",
+          "children": [
+            {
+              "name": "Send-OBSTriggerStudioModeTransition"
+            }
+          ]
+        },
+        {
+          "name": "OBSCurrentProfile",
+          "children": [
+            {
+              "name": "Set-OBSCurrentProfile"
+            }
+          ]
+        },
+        {
+          "name": "OBSCurrentSceneCollection",
+          "children": [
+            {
+              "name": "Set-OBSCurrentSceneCollection"
+            }
+          ]
+        },
+        {
+          "name": "OBSCurrentSceneTransitionDuration",
+          "children": [
+            {
+              "name": "Set-OBSCurrentSceneTransitionDuration"
+            }
+          ]
+        },
+        {
+          "name": "OBSCurrentSceneTransitionSettings",
+          "children": [
+            {
+              "name": "Set-OBSCurrentSceneTransitionSettings"
+            }
+          ]
+        },
+        {
+          "name": "OBSInputName",
+          "children": [
+            {
+              "name": "Set-OBSInputName"
+            }
+          ]
+        },
+        {
+          "name": "OBSMediaInputCursor",
+          "children": [
+            {
+              "name": "Set-OBSMediaInputCursor"
+            }
+          ]
+        },
+        {
+          "name": "OBSSceneName",
+          "children": [
+            {
+              "name": "Set-OBSSceneName"
+            }
+          ]
+        },
+        {
+          "name": "OBSSourceFilterEnabled",
+          "children": [
+            {
+              "name": "Set-OBSSourceFilterEnabled"
+            }
+          ]
+        },
+        {
+          "name": "OBSSourceFilterIndex",
+          "children": [
+            {
+              "name": "Set-OBSSourceFilterIndex"
+            }
+          ]
+        },
+        {
+          "name": "OBSSourceFilterName",
+          "children": [
+            {
+              "name": "Set-OBSSourceFilterName"
+            }
+          ]
+        },
+        {
+          "name": "OBSSourceFilterSettings",
+          "children": [
+            {
+              "name": "Set-OBSSourceFilterSettings"
+            }
+          ]
+        },
+        {
+          "name": "OBSTBarPosition",
+          "children": [
+            {
+              "name": "Set-OBSTBarPosition"
+            }
+          ]
+        },
+        {
+          "name": "OBSStream",
+          "children": [
+            {
+              "name": "Start-OBSStream"
+            },
+            {
+              "name": "Stop-OBSStream"
+            },
+            {
+              "name": "Switch-OBSStream"
+            }
+          ]
+        },
+        {
+          "name": "OBSVirtualCam",
+          "children": [
+            {
+              "name": "Start-OBSVirtualCam"
+            },
+            {
+              "name": "Stop-OBSVirtualCam"
+            },
+            {
+              "name": "Switch-OBSVirtualCam"
+            }
+          ]
+        },
+        {
+          "name": "OBSRecordPause",
+          "children": [
+            {
+              "name": "Switch-OBSRecordPause"
+            }
+          ]
+        },
+        {
+          "name": "OBSAudioOutputSource",
+          "children": [
+            {
+              "name": "Set-OBSAudioOutputSource"
+            }
+          ]
+        },
+        {
+          "name": "OBSBrowserSource",
+          "children": [
+            {
+              "name": "Set-OBSBrowserSource"
+            }
+          ]
+        },
+        {
+          "name": "OBSColorSource",
+          "children": [
+            {
+              "name": "Set-OBSColorSource"
+            }
+          ]
+        },
+        {
+          "name": "OBSDisplaySource",
+          "children": [
+            {
+              "name": "Set-OBSDisplaySource"
+            }
+          ]
+        },
+        {
+          "name": "OBSMediaSource",
+          "children": [
+            {
+              "name": "Set-OBSMediaSource"
+            }
+          ]
+        },
+        {
+          "name": "OBSVLCSource",
+          "children": [
+            {
+              "name": "Set-OBSVLCSource"
+            }
+          ]
+        },
+        {
+          "name": "OBSWindowSource",
+          "children": [
+            {
+              "name": "Set-OBSWindowSource"
+            }
+          ]
+        },
+        {
+          "name": "OBSEffect",
+          "children": [
+            {
+              "name": "Get-OBSEffect"
+            },
+            {
+              "name": "Import-OBSEffect"
+            },
+            {
+              "name": "Remove-OBSEffect"
+            },
+            {
+              "name": "Start-OBSEffect"
+            },
+            {
+              "name": "Stop-OBSEffect"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piecemeal",
+      "companyName": "Start Automating",
+      "author": "James Brundage",
+      "children": [
+        {
+          "name": "Extension",
+          "children": [
+            {
+              "name": "New-Extension"
+            },
+            {
+              "name": "Get-Extension"
+            }
+          ]
+        },
+        {
+          "name": "Piecemeal",
+          "children": [
+            {
+              "name": "Install-Piecemeal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PipeScript",
+      "companyName": "Start Automating",
+      "author": "James Brundage",
+      "children": [
+        {
+          "name": "Transpiler",
+          "children": [
+            {
+              "name": "Get-Transpiler"
+            }
+          ]
+        },
+        {
+          "name": "PSNode",
+          "children": [
+            {
+              "name": "Start-PSNode"
+            }
+          ]
+        },
+        {
+          "name": "PipeScript.Optimizer.ConsolidateAspects",
+          "children": [
+            {
+              "name": "PipeScript.Optimizer.ConsolidateAspects"
+            }
+          ]
+        },
+        {
+          "name": "Route.Uptime",
+          "children": [
+            {
+              "name": "Route.Uptime"
+            }
+          ]
+        },
+        {
+          "name": "Route.VersionInfo",
+          "children": [
+            {
+              "name": "Route.VersionInfo"
+            }
+          ]
+        },
+        {
+          "name": "Pipescript",
+          "children": [
+            {
+              "name": "Export-Pipescript"
+            },
+            {
+              "name": "Get-PipeScript"
+            },
+            {
+              "name": "Import-PipeScript"
+            },
+            {
+              "name": "Invoke-PipeScript"
+            },
+            {
+              "name": "Join-PipeScript"
+            },
+            {
+              "name": "New-PipeScript"
+            },
+            {
+              "name": "Search-PipeScript"
+            },
+            {
+              "name": "Update-PipeScript"
+            },
+            {
+              "name": "Use-PipeScript"
+            }
+          ]
+        },
+        {
+          "name": "ModuleMember",
+          "children": [
+            {
+              "name": "Import-ModuleMember"
+            }
+          ]
+        },
+        {
+          "name": "Json",
+          "children": [
+            {
+              "name": "Export-Json"
+            },
+            {
+              "name": "Import-Json"
+            }
+          ]
+        },
+        {
+          "name": "CliXml",
+          "children": [
+            {
+              "name": "ConvertFrom-CliXml"
+            },
+            {
+              "name": "ConvertTo-CliXml"
+            }
+          ]
+        },
+        {
+          "name": "Interpreter",
+          "children": [
+            {
+              "name": "Get-Interpreter"
+            },
+            {
+              "name": "Invoke-Interpreter"
+            }
+          ]
+        },
+        {
+          "name": "Parser",
+          "children": [
+            {
+              "name": "Out-Parser"
+            }
+          ]
+        },
+        {
+          "name": "Parse.CSharp",
+          "children": [
+            {
+              "name": "Parse.CSharp"
+            }
+          ]
+        },
+        {
+          "name": "Parse.PowerShell",
+          "children": [
+            {
+              "name": "Parse.PowerShell"
+            }
+          ]
+        },
+        {
+          "name": "Protocol.HTTP",
+          "children": [
+            {
+              "name": "Protocol.HTTP"
+            }
+          ]
+        },
+        {
+          "name": "Protocol.JSONSchema",
+          "children": [
+            {
+              "name": "Protocol.JSONSchema"
+            }
+          ]
+        },
+        {
+          "name": "Protocol.OpenAPI",
+          "children": [
+            {
+              "name": "Protocol.OpenAPI"
+            }
+          ]
+        },
+        {
+          "name": "Protocol.UDP",
+          "children": [
+            {
+              "name": "Protocol.UDP"
+            }
+          ]
+        },
+        {
+          "name": "Aspect.DynamicParameter",
+          "children": [
+            {
+              "name": "Aspect.DynamicParameter"
+            }
+          ]
+        },
+        {
+          "name": "Aspect.ModuleExtensionType",
+          "children": [
+            {
+              "name": "Aspect.ModuleExtensionType"
+            }
+          ]
+        },
+        {
+          "name": "Aspect.ModuleExtensionPattern",
+          "children": [
+            {
+              "name": "Aspect.ModuleExtensionPattern"
+            }
+          ]
+        },
+        {
+          "name": "Aspect.ModuleExtensionCommand",
+          "children": [
+            {
+              "name": "Aspect.ModuleExtensionCommand"
+            }
+          ]
+        },
+        {
+          "name": "Aspect.GroupObjectByTypeName",
+          "children": [
+            {
+              "name": "Aspect.GroupObjectByTypeName"
+            }
+          ]
+        },
+        {
+          "name": "Aspect.GroupObjectByType",
+          "children": [
+            {
+              "name": "Aspect.GroupObjectByType"
+            }
+          ]
+        },
+        {
+          "name": "Signal.Nothing",
+          "children": [
+            {
+              "name": "Signal.Nothing"
+            }
+          ]
+        },
+        {
+          "name": "Signal.Out",
+          "children": [
+            {
+              "name": "Signal.Out"
+            }
+          ]
+        },
+        {
+          "name": "PipeScript.PostProcess.InitializeAutomaticVariables",
+          "children": [
+            {
+              "name": "PipeScript.PostProcess.InitializeAutomaticVariables"
+            }
+          ]
+        },
+        {
+          "name": "PipeScript.PostProcess.PartialFunction",
+          "children": [
+            {
+              "name": "PipeScript.PostProcess.PartialFunction"
+            }
+          ]
+        },
+        {
+          "name": "HTML",
+          "children": [
+            {
+              "name": "Out-HTML"
+            }
+          ]
+        },
+        {
+          "name": "PipeScript.Automatic.Variable.IsPipedTo",
+          "children": [
+            {
+              "name": "PipeScript.Automatic.Variable.IsPipedTo"
+            }
+          ]
+        },
+        {
+          "name": "PipeScript.Automatic.Variable.IsPipedFrom",
+          "children": [
+            {
+              "name": "PipeScript.Automatic.Variable.IsPipedFrom"
+            }
+          ]
+        },
+        {
+          "name": "PipeScript.Automatic.Variable.MyCallstack",
+          "children": [
+            {
+              "name": "PipeScript.Automatic.Variable.MyCallstack"
+            }
+          ]
+        },
+        {
+          "name": "PipeScript.Automatic.Variable.MySelf",
+          "children": [
+            {
+              "name": "PipeScript.Automatic.Variable.MySelf"
+            }
+          ]
+        },
+        {
+          "name": "PipeScript.Automatic.Variable.MyParameters",
+          "children": [
+            {
+              "name": "PipeScript.Automatic.Variable.MyParameters"
+            }
+          ]
+        },
+        {
+          "name": "PipeScript.Automatic.Variable.MyCaller",
+          "children": [
+            {
+              "name": "PipeScript.Automatic.Variable.MyCaller"
+            }
+          ]
+        },
+        {
+          "name": "PipeScript.Automatic.Variable.MyCommandAst",
+          "children": [
+            {
+              "name": "PipeScript.Automatic.Variable.MyCommandAst"
+            }
+          ]
+        },
+        {
+          "name": "Compile.LanguageDefinition",
+          "children": [
+            {
+              "name": "Compile.LanguageDefinition"
+            }
+          ]
+        },
+        {
+          "name": "Language.JavaScript",
+          "children": [
+            {
+              "name": "Language.JavaScript"
+            }
+          ]
+        },
+        {
+          "name": "Template.Assignment.js",
+          "children": [
+            {
+              "name": "Template.Assignment.js"
+            }
+          ]
+        },
+        {
+          "name": "Template.Class.js",
+          "children": [
+            {
+              "name": "Template.Class.js"
+            }
+          ]
+        },
+        {
+          "name": "Template.DoLoop.js",
+          "children": [
+            {
+              "name": "Template.DoLoop.js"
+            }
+          ]
+        },
+        {
+          "name": "Template.ForEachLoop.js",
+          "children": [
+            {
+              "name": "Template.ForEachLoop.js"
+            }
+          ]
+        },
+        {
+          "name": "Template.ForLoop.js",
+          "children": [
+            {
+              "name": "Template.ForLoop.js"
+            }
+          ]
+        },
+        {
+          "name": "Template.Function.js",
+          "children": [
+            {
+              "name": "Template.Function.js"
+            }
+          ]
+        },
+        {
+          "name": "Template.HelloWorld.js",
+          "children": [
+            {
+              "name": "Template.HelloWorld.js"
+            }
+          ]
+        },
+        {
+          "name": "Template.InvokeMethod.js",
+          "children": [
+            {
+              "name": "Template.InvokeMethod.js"
+            }
+          ]
+        },
+        {
+          "name": "Template.RegexLiteral.js",
+          "children": [
+            {
+              "name": "Template.RegexLiteral.js"
+            }
+          ]
+        },
+        {
+          "name": "Template.TryCatch.js",
+          "children": [
+            {
+              "name": "Template.TryCatch.js"
+            }
+          ]
+        },
+        {
+          "name": "Template.WhileLoop.js",
+          "children": [
+            {
+              "name": "Template.WhileLoop.js"
+            }
+          ]
+        },
+        {
+          "name": "Language.Rust",
+          "children": [
+            {
+              "name": "Language.Rust"
+            }
+          ]
+        },
+        {
+          "name": "Language.Lua",
+          "children": [
+            {
+              "name": "Language.Lua"
+            }
+          ]
+        },
+        {
+          "name": "Language.FSharp",
+          "children": [
+            {
+              "name": "Language.FSharp"
+            }
+          ]
+        },
+        {
+          "name": "Language.GCode",
+          "children": [
+            {
+              "name": "Language.GCode"
+            }
+          ]
+        },
+        {
+          "name": "Language.XSD",
+          "children": [
+            {
+              "name": "Language.XSD"
+            }
+          ]
+        },
+        {
+          "name": "Language.Ruby",
+          "children": [
+            {
+              "name": "Language.Ruby"
+            }
+          ]
+        },
+        {
+          "name": "Template.HelloWorld.rb",
+          "children": [
+            {
+              "name": "Template.HelloWorld.rb"
+            }
+          ]
+        },
+        {
+          "name": "Language.Haxe",
+          "children": [
+            {
+              "name": "Language.Haxe"
+            }
+          ]
+        },
+        {
+          "name": "Language.Scala",
+          "children": [
+            {
+              "name": "Language.Scala"
+            }
+          ]
+        },
+        {
+          "name": "Language.Racket",
+          "children": [
+            {
+              "name": "Language.Racket"
+            }
+          ]
+        },
+        {
+          "name": "Language.SQL",
+          "children": [
+            {
+              "name": "Language.SQL"
+            }
+          ]
+        },
+        {
+          "name": "Language.Arduino",
+          "children": [
+            {
+              "name": "Language.Arduino"
+            }
+          ]
+        },
+        {
+          "name": "Language.PipeScript",
+          "children": [
+            {
+              "name": "Language.PipeScript"
+            }
+          ]
+        },
+        {
+          "name": "Language.Java",
+          "children": [
+            {
+              "name": "Language.Java"
+            }
+          ]
+        },
+        {
+          "name": "Language.Kotlin",
+          "children": [
+            {
+              "name": "Language.Kotlin"
+            }
+          ]
+        },
+        {
+          "name": "Language.Bicep",
+          "children": [
+            {
+              "name": "Language.Bicep"
+            }
+          ]
+        },
+        {
+          "name": "Language.Markdown",
+          "children": [
+            {
+              "name": "Language.Markdown"
+            }
+          ]
+        },
+        {
+          "name": "Language.Go",
+          "children": [
+            {
+              "name": "Language.Go"
+            }
+          ]
+        },
+        {
+          "name": "Template.HelloWorld.go",
+          "children": [
+            {
+              "name": "Template.HelloWorld.go"
+            }
+          ]
+        },
+        {
+          "name": "Language.C3",
+          "children": [
+            {
+              "name": "Language.C3"
+            }
+          ]
+        },
+        {
+          "name": "Language.XSL",
+          "children": [
+            {
+              "name": "Language.XSL"
+            }
+          ]
+        },
+        {
+          "name": "Language.GLSL",
+          "children": [
+            {
+              "name": "Language.GLSL"
+            }
+          ]
+        },
+        {
+          "name": "Language.JSON",
+          "children": [
+            {
+              "name": "Language.JSON"
+            }
+          ]
+        },
+        {
+          "name": "Language.Batch",
+          "children": [
+            {
+              "name": "Language.Batch"
+            }
+          ]
+        },
+        {
+          "name": "Language.TypeScript",
+          "children": [
+            {
+              "name": "Language.TypeScript"
+            }
+          ]
+        },
+        {
+          "name": "Template.HelloWorld.ts",
+          "children": [
+            {
+              "name": "Template.HelloWorld.ts"
+            }
+          ]
+        },
+        {
+          "name": "Language.BASIC",
+          "children": [
+            {
+              "name": "Language.BASIC"
+            }
+          ]
+        },
+        {
+          "name": "Language.XML",
+          "children": [
+            {
+              "name": "Language.XML"
+            }
+          ]
+        },
+        {
+          "name": "Language.CSS",
+          "children": [
+            {
+              "name": "Language.CSS"
+            }
+          ]
+        },
+        {
+          "name": "Language.Vue",
+          "children": [
+            {
+              "name": "Language.Vue"
+            }
+          ]
+        },
+        {
+          "name": "Language.YAML",
+          "children": [
+            {
+              "name": "Language.YAML"
+            }
+          ]
+        },
+        {
+          "name": "Language.TCL",
+          "children": [
+            {
+              "name": "Language.TCL"
+            }
+          ]
+        },
+        {
+          "name": "Language.SVG",
+          "children": [
+            {
+              "name": "Language.SVG"
+            }
+          ]
+        },
+        {
+          "name": "Language.Docker",
+          "children": [
+            {
+              "name": "Language.Docker"
+            }
+          ]
+        },
+        {
+          "name": "Language.CSharp",
+          "children": [
+            {
+              "name": "Language.CSharp"
+            }
+          ]
+        },
+        {
+          "name": "Template.Class.cs",
+          "children": [
+            {
+              "name": "Template.Class.cs"
+            }
+          ]
+        },
+        {
+          "name": "Template.HelloWorld.cs",
+          "children": [
+            {
+              "name": "Template.HelloWorld.cs"
+            }
+          ]
+        },
+        {
+          "name": "Template.Method.cs",
+          "children": [
+            {
+              "name": "Template.Method.cs"
+            }
+          ]
+        },
+        {
+          "name": "Template.Namespace.cs",
+          "children": [
+            {
+              "name": "Template.Namespace.cs"
+            }
+          ]
+        },
+        {
+          "name": "Template.Property.cs",
+          "children": [
+            {
+              "name": "Template.Property.cs"
+            }
+          ]
+        },
+        {
+          "name": "Template.TryCatch.cs",
+          "children": [
+            {
+              "name": "Template.TryCatch.cs"
+            }
+          ]
+        },
+        {
+          "name": "Language.PowerShell",
+          "children": [
+            {
+              "name": "Language.PowerShell"
+            }
+          ]
+        },
+        {
+          "name": "Language.PowerShellData",
+          "children": [
+            {
+              "name": "Language.PowerShellData"
+            }
+          ]
+        },
+        {
+          "name": "Language.PowerShellXML",
+          "children": [
+            {
+              "name": "Language.PowerShellXML"
+            }
+          ]
+        },
+        {
+          "name": "Language.Conf",
+          "children": [
+            {
+              "name": "Language.Conf"
+            }
+          ]
+        },
+        {
+          "name": "Language.Bash",
+          "children": [
+            {
+              "name": "Language.Bash"
+            }
+          ]
+        },
+        {
+          "name": "Language.HCL",
+          "children": [
+            {
+              "name": "Language.HCL"
+            }
+          ]
+        },
+        {
+          "name": "Language.Razor",
+          "children": [
+            {
+              "name": "Language.Razor"
+            }
+          ]
+        },
+        {
+          "name": "Language.OpenSCAD",
+          "children": [
+            {
+              "name": "Language.OpenSCAD"
+            }
+          ]
+        },
+        {
+          "name": "Language.RSS",
+          "children": [
+            {
+              "name": "Language.RSS"
+            }
+          ]
+        },
+        {
+          "name": "Language.ADA",
+          "children": [
+            {
+              "name": "Language.ADA"
+            }
+          ]
+        },
+        {
+          "name": "Language.XAML",
+          "children": [
+            {
+              "name": "Language.XAML"
+            }
+          ]
+        },
+        {
+          "name": "Language.R",
+          "children": [
+            {
+              "name": "Language.R"
+            }
+          ]
+        },
+        {
+          "name": "Language.Dart",
+          "children": [
+            {
+              "name": "Language.Dart"
+            }
+          ]
+        },
+        {
+          "name": "Language.Crystal",
+          "children": [
+            {
+              "name": "Language.Crystal"
+            }
+          ]
+        },
+        {
+          "name": "Template.HelloWorld.cr",
+          "children": [
+            {
+              "name": "Template.HelloWorld.cr"
+            }
+          ]
+        },
+        {
+          "name": "Language.Perl",
+          "children": [
+            {
+              "name": "Language.Perl"
+            }
+          ]
+        },
+        {
+          "name": "Language.BrightScript",
+          "children": [
+            {
+              "name": "Language.BrightScript"
+            }
+          ]
+        },
+        {
+          "name": "Language.Wren",
+          "children": [
+            {
+              "name": "Language.Wren"
+            }
+          ]
+        },
+        {
+          "name": "Template.HelloWorld.wren",
+          "children": [
+            {
+              "name": "Template.HelloWorld.wren"
+            }
+          ]
+        },
+        {
+          "name": "Language.CPlusPlus",
+          "children": [
+            {
+              "name": "Language.CPlusPlus"
+            }
+          ]
+        },
+        {
+          "name": "Template.HelloWorld.cpp",
+          "children": [
+            {
+              "name": "Template.HelloWorld.cpp"
+            }
+          ]
+        },
+        {
+          "name": "Template.Include.cpp",
+          "children": [
+            {
+              "name": "Template.Include.cpp"
+            }
+          ]
+        },
+        {
+          "name": "Language.Liquid",
+          "children": [
+            {
+              "name": "Language.Liquid"
+            }
+          ]
+        },
+        {
+          "name": "Language.Eiffel",
+          "children": [
+            {
+              "name": "Language.Eiffel"
+            }
+          ]
+        },
+        {
+          "name": "Language.Python",
+          "children": [
+            {
+              "name": "Language.Python"
+            }
+          ]
+        },
+        {
+          "name": "Template.Assignment.py",
+          "children": [
+            {
+              "name": "Template.Assignment.py"
+            }
+          ]
+        },
+        {
+          "name": "Template.DoLoop.py",
+          "children": [
+            {
+              "name": "Template.DoLoop.py"
+            }
+          ]
+        },
+        {
+          "name": "Template.HelloWorld.py",
+          "children": [
+            {
+              "name": "Template.HelloWorld.py"
+            }
+          ]
+        },
+        {
+          "name": "Template.Import.py",
+          "children": [
+            {
+              "name": "Template.Import.py"
+            }
+          ]
+        },
+        {
+          "name": "Template.UntilLoop.py",
+          "children": [
+            {
+              "name": "Template.UntilLoop.py"
+            }
+          ]
+        },
+        {
+          "name": "Template.WhileLoop.py",
+          "children": [
+            {
+              "name": "Template.WhileLoop.py"
+            }
+          ]
+        },
+        {
+          "name": "Language.WebAssembly",
+          "children": [
+            {
+              "name": "Language.WebAssembly"
+            }
+          ]
+        },
+        {
+          "name": "Language.HLSL",
+          "children": [
+            {
+              "name": "Language.HLSL"
+            }
+          ]
+        },
+        {
+          "name": "Language.PHP",
+          "children": [
+            {
+              "name": "Language.PHP"
+            }
+          ]
+        },
+        {
+          "name": "Language.Kusto",
+          "children": [
+            {
+              "name": "Language.Kusto"
+            }
+          ]
+        },
+        {
+          "name": "Language.C",
+          "children": [
+            {
+              "name": "Language.C"
+            }
+          ]
+        },
+        {
+          "name": "Template.Include.c",
+          "children": [
+            {
+              "name": "Template.Include.c"
+            }
+          ]
+        },
+        {
+          "name": "Language.TOML",
+          "children": [
+            {
+              "name": "Language.TOML"
+            }
+          ]
+        },
+        {
+          "name": "Language.HTML",
+          "children": [
+            {
+              "name": "Language.HTML"
+            }
+          ]
+        },
+        {
+          "name": "Language.LaTeX",
+          "children": [
+            {
+              "name": "Language.LaTeX"
+            }
+          ]
+        },
+        {
+          "name": "Language.ATOM",
+          "children": [
+            {
+              "name": "Language.ATOM"
+            }
+          ]
+        },
+        {
+          "name": "Language.ObjectiveC",
+          "children": [
+            {
+              "name": "Language.ObjectiveC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RoughDraft",
+      "companyName": "Start Automating",
+      "author": "James Brundage",
+      "children": [
+        {
+          "name": "Media",
+          "children": [
+            {
+              "name": "Convert-Media"
+            },
+            {
+              "name": "Edit-Media"
+            },
+            {
+              "name": "Get-Media"
+            },
+            {
+              "name": "Join-Media"
+            },
+            {
+              "name": "New-Media"
+            },
+            {
+              "name": "Receive-Media"
+            },
+            {
+              "name": "Set-Media"
+            },
+            {
+              "name": "Send-Media"
+            },
+            {
+              "name": "Show-Media"
+            },
+            {
+              "name": "Split-Media"
+            }
+          ]
+        },
+        {
+          "name": "FFMpeg",
+          "children": [
+            {
+              "name": "Get-FFMpeg"
+            },
+            {
+              "name": "Use-FFMpeg"
+            }
+          ]
+        },
+        {
+          "name": "FFPlay",
+          "children": [
+            {
+              "name": "Get-FFPlay"
+            },
+            {
+              "name": "Use-FFPlay"
+            }
+          ]
+        },
+        {
+          "name": "FFProbe",
+          "children": [
+            {
+              "name": "Get-FFProbe"
+            },
+            {
+              "name": "Use-FFProbe"
+            }
+          ]
+        },
+        {
+          "name": "RoughDraftExtension",
+          "children": [
+            {
+              "name": "Get-RoughDraftExtension"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ScriptCop",
+      "companyName": "Start Automating",
+      "author": "James Brundage",
+      "children": [
+        {
+          "name": "ScriptCopRule",
+          "children": [
+            {
+              "name": "Get-ScriptCopRule"
+            },
+            {
+              "name": "Register-ScriptCopRule"
+            },
+            {
+              "name": "Unregister-ScriptCopRule"
+            }
+          ]
+        },
+        {
+          "name": "ScriptCopFixer",
+          "children": [
+            {
+              "name": "Get-ScriptCopFixer"
+            },
+            {
+              "name": "Register-ScriptCopFixer"
+            },
+            {
+              "name": "Unregister-ScriptCopFixer"
+            }
+          ]
+        },
+        {
+          "name": "ScriptCopPatrol",
+          "children": [
+            {
+              "name": "Get-ScriptCopPatrol"
+            },
+            {
+              "name": "Register-ScriptCopPatrol"
+            },
+            {
+              "name": "Unregister-ScriptCopPatrol"
+            }
+          ]
+        },
+        {
+          "name": "Command",
+          "children": [
+            {
+              "name": "Test-Command"
+            },
+            {
+              "name": "Repair-Command"
+            }
+          ]
+        },
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Test-Module"
+            }
+          ]
+        },
+        {
+          "name": "ScriptCoverage",
+          "children": [
+            {
+              "name": "Show-ScriptCoverage"
+            }
+          ]
+        },
+        {
+          "name": "CommandCoverage",
+          "children": [
+            {
+              "name": "Enable-CommandCoverage"
+            },
+            {
+              "name": "Disable-CommandCoverage"
+            },
+            {
+              "name": "Get-CommandCoverage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Splatter",
+      "companyName": "Start Automating",
+      "author": "James Brundage",
+      "children": [
+        {
+          "name": "Splat",
+          "children": [
+            {
+              "name": "Find-Splat"
+            },
+            {
+              "name": "Get-Splat"
+            },
+            {
+              "name": "Merge-Splat"
+            },
+            {
+              "name": "Out-Splat"
+            },
+            {
+              "name": "Use-Splat"
+            }
+          ]
+        },
+        {
+          "name": "Splatter",
+          "children": [
+            {
+              "name": "Initialize-Splatter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

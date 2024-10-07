@@ -1,0 +1,217 @@
+{
+  "name": "Ove Lartelius",
+  "children": [
+    {
+      "name": "EpinovaAzureToolBucket",
+      "companyName": "Epinova AB",
+      "author": "Ove Lartelius",
+      "children": [
+        {
+          "name": "OptimizelyCmsResourceGroup",
+          "children": [
+            {
+              "name": "New-OptimizelyCmsResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "OptimizelyCmsResourceGroupBicep",
+          "children": [
+            {
+              "name": "New-OptimizelyCmsResourceGroupBicep"
+            }
+          ]
+        },
+        {
+          "name": "OptimizelyCmsConnectionStrings",
+          "children": [
+            {
+              "name": "Get-OptimizelyCmsConnectionStrings"
+            }
+          ]
+        },
+        {
+          "name": "EpiserverCmsResourceGroup",
+          "children": [
+            {
+              "name": "New-EpiserverCmsResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "EpiserverCmsConnectionStrings",
+          "children": [
+            {
+              "name": "Get-EpiserverCmsConnectionStrings"
+            }
+          ]
+        },
+        {
+          "name": "AzureDatabaseUser",
+          "children": [
+            {
+              "name": "Add-AzureDatabaseUser"
+            }
+          ]
+        },
+        {
+          "name": "Database",
+          "children": [
+            {
+              "name": "Backup-Database"
+            },
+            {
+              "name": "Copy-Database"
+            }
+          ]
+        },
+        {
+          "name": "BacpacDatabase",
+          "children": [
+            {
+              "name": "Import-BacpacDatabase"
+            }
+          ]
+        },
+        {
+          "name": "Blobs",
+          "children": [
+            {
+              "name": "Remove-Blobs"
+            },
+            {
+              "name": "Copy-Blobs"
+            }
+          ]
+        },
+        {
+          "name": "BlobsWithSas",
+          "children": [
+            {
+              "name": "Copy-BlobsWithSas"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsProject",
+          "children": [
+            {
+              "name": "New-AzureDevOpsProject"
+            }
+          ]
+        },
+        {
+          "name": "Blob",
+          "children": [
+            {
+              "name": "Send-Blob"
+            }
+          ]
+        },
+        {
+          "name": "BlobAsConnected",
+          "children": [
+            {
+              "name": "Send-BlobAsConnected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EpinovaDxpToolBucket",
+      "companyName": "Epinova AB, LOL IT AB",
+      "author": "Ove Lartelius",
+      "children": [
+        {
+          "name": "DxpBlobsDownload",
+          "children": [
+            {
+              "name": "Invoke-DxpBlobsDownload"
+            }
+          ]
+        },
+        {
+          "name": "DxpDatabaseDownload",
+          "children": [
+            {
+              "name": "Invoke-DxpDatabaseDownload"
+            }
+          ]
+        },
+        {
+          "name": "DxpStorageContainers",
+          "children": [
+            {
+              "name": "Get-DxpStorageContainers"
+            }
+          ]
+        },
+        {
+          "name": "DxpStorageContainerSasLink",
+          "children": [
+            {
+              "name": "Get-DxpStorageContainerSasLink"
+            }
+          ]
+        },
+        {
+          "name": "DxpAwaitStatus",
+          "children": [
+            {
+              "name": "Invoke-DxpAwaitStatus"
+            }
+          ]
+        },
+        {
+          "name": "DxpCompleteDeploy",
+          "children": [
+            {
+              "name": "Invoke-DxpCompleteDeploy"
+            }
+          ]
+        },
+        {
+          "name": "DxpDeployNuGetPackage",
+          "children": [
+            {
+              "name": "Invoke-DxpDeployNuGetPackage"
+            }
+          ]
+        },
+        {
+          "name": "DxpDeployTo",
+          "children": [
+            {
+              "name": "Invoke-DxpDeployTo"
+            }
+          ]
+        },
+        {
+          "name": "DxpExpectStatus",
+          "children": [
+            {
+              "name": "Invoke-DxpExpectStatus"
+            }
+          ]
+        },
+        {
+          "name": "DxpResetDeploy",
+          "children": [
+            {
+              "name": "Invoke-DxpResetDeploy"
+            }
+          ]
+        },
+        {
+          "name": "DxpSmokeTestIfFailReset",
+          "children": [
+            {
+              "name": "Invoke-DxpSmokeTestIfFailReset"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

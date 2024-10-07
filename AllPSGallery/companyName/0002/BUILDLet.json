@@ -1,0 +1,196 @@
+{
+  "name": "BUILDLet",
+  "children": [
+    {
+      "name": "BUILDLet.PowerShell.PackageMaker",
+      "companyName": "BUILDLet",
+      "author": "Daiki Sakamoto",
+      "children": [
+        {
+          "name": "WindowsKitsToolPath",
+          "children": [
+            {
+              "name": "Get-WindowsKitsToolPath"
+            }
+          ]
+        },
+        {
+          "name": "SignTool",
+          "children": [
+            {
+              "name": "Invoke-SignTool"
+            }
+          ]
+        },
+        {
+          "name": "AuthenticodeTimeStampString",
+          "children": [
+            {
+              "name": "Get-AuthenticodeTimeStampString"
+            }
+          ]
+        },
+        {
+          "name": "Inf2Cat",
+          "children": [
+            {
+              "name": "Invoke-Inf2Cat"
+            }
+          ]
+        },
+        {
+          "name": "ISOImageFile",
+          "children": [
+            {
+              "name": "New-ISOImageFile"
+            }
+          ]
+        },
+        {
+          "name": "InfStringKey",
+          "children": [
+            {
+              "name": "Expand-InfStringKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BUILDLet.PowerShell.Utilities",
+      "companyName": "BUILDLet",
+      "author": "Daiki Sakamoto",
+      "children": [
+        {
+          "name": "PrivateProfile",
+          "children": [
+            {
+              "name": "Get-PrivateProfile"
+            },
+            {
+              "name": "Set-PrivateProfile"
+            }
+          ]
+        },
+        {
+          "name": "ZipFile",
+          "children": [
+            {
+              "name": "Expand-ZipFile"
+            },
+            {
+              "name": "New-ZipFile"
+            }
+          ]
+        },
+        {
+          "name": "Process",
+          "children": [
+            {
+              "name": "Invoke-Process"
+            }
+          ]
+        },
+        {
+          "name": "HtmlContent",
+          "children": [
+            {
+              "name": "Get-HtmlContent"
+            }
+          ]
+        },
+        {
+          "name": "DateString",
+          "children": [
+            {
+              "name": "Get-DateString"
+            }
+          ]
+        },
+        {
+          "name": "AuthenticodeSignerName",
+          "children": [
+            {
+              "name": "Get-AuthenticodeSignerName"
+            }
+          ]
+        },
+        {
+          "name": "FileVersionInfo",
+          "children": [
+            {
+              "name": "Get-FileVersionInfo"
+            }
+          ]
+        },
+        {
+          "name": "FileVersion",
+          "children": [
+            {
+              "name": "Get-FileVersion"
+            }
+          ]
+        },
+        {
+          "name": "ProductVersion",
+          "children": [
+            {
+              "name": "Get-ProductVersion"
+            }
+          ]
+        },
+        {
+          "name": "ProductName",
+          "children": [
+            {
+              "name": "Get-ProductName"
+            }
+          ]
+        },
+        {
+          "name": "FileDescription",
+          "children": [
+            {
+              "name": "Get-FileDescription"
+            }
+          ]
+        },
+        {
+          "name": "WslPath",
+          "children": [
+            {
+              "name": "ConvertTo-WslPath"
+            }
+          ]
+        },
+        {
+          "name": "MagicPacket",
+          "children": [
+            {
+              "name": "Send-MagicPacket"
+            }
+          ]
+        },
+        {
+          "name": "StringReplacedBy",
+          "children": [
+            {
+              "name": "Get-StringReplacedBy"
+            },
+            {
+              "name": "Set-StringReplacedBy"
+            }
+          ]
+        },
+        {
+          "name": "TestCertificate",
+          "children": [
+            {
+              "name": "New-TestCertificate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

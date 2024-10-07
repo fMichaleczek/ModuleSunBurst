@@ -1,0 +1,75 @@
+{
+  "name": "SaggieHaim",
+  "children": [
+    {
+      "name": "AzADX",
+      "companyName": "SaggieHaim",
+      "author": "Saggie Haim",
+      "children": [
+        {
+          "name": "AzADXMgmtCommand",
+          "children": [
+            {
+              "name": "Invoke-AzADXMgmtCommand"
+            }
+          ]
+        },
+        {
+          "name": "AzADXQuery",
+          "children": [
+            {
+              "name": "Invoke-AzADXQuery"
+            }
+          ]
+        },
+        {
+          "name": "AzADXSchema",
+          "children": [
+            {
+              "name": "Get-AzADXSchema"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS.GPO.TOOLS",
+      "companyName": "Saggiehaim",
+      "author": "Saggie Haim",
+      "children": [
+        {
+          "name": "GPODisabled",
+          "children": [
+            {
+              "name": "Get-GPODisabled"
+            }
+          ]
+        },
+        {
+          "name": "GPOEmpty",
+          "children": [
+            {
+              "name": "Get-GPOEmpty"
+            }
+          ]
+        },
+        {
+          "name": "GPOMissingPermissions",
+          "children": [
+            {
+              "name": "Get-GPOMissingPermissions"
+            }
+          ]
+        },
+        {
+          "name": "GPOUnlinked",
+          "children": [
+            {
+              "name": "Get-GPOUnlinked"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

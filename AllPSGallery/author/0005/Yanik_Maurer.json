@@ -1,0 +1,578 @@
+{
+  "name": "Yanik Maurer",
+  "children": [
+    {
+      "name": "MSGraphHelper",
+      "companyName": "Unknown",
+      "author": "Yanik Maurer",
+      "children": [
+        {
+          "name": "RequiredModules",
+          "children": [
+            {
+              "name": "Get-RequiredModules"
+            }
+          ]
+        },
+        {
+          "name": "LocalSecret",
+          "children": [
+            {
+              "name": "New-LocalSecret"
+            },
+            {
+              "name": "Get-LocalSecret"
+            }
+          ]
+        },
+        {
+          "name": "Calendar",
+          "children": [
+            {
+              "name": "Read-Calendar"
+            }
+          ]
+        },
+        {
+          "name": "Email",
+          "children": [
+            {
+              "name": "Send-Email"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShellGPT",
+      "companyName": "Unknown",
+      "author": "Yanik Maurer",
+      "children": [
+        {
+          "name": "OpenAICompletion",
+          "children": [
+            {
+              "name": "Invoke-OpenAICompletion"
+            }
+          ]
+        },
+        {
+          "name": "OpenAICompletionPrompt",
+          "children": [
+            {
+              "name": "New-OpenAICompletionPrompt"
+            }
+          ]
+        },
+        {
+          "name": "OpenAICompletionCharacter",
+          "children": [
+            {
+              "name": "Set-OpenAICompletionCharacter"
+            }
+          ]
+        },
+        {
+          "name": "OpenAICompletionConversation",
+          "children": [
+            {
+              "name": "New-OpenAICompletionConversation"
+            }
+          ]
+        },
+        {
+          "name": "OpenAICompletionMessageToConversation",
+          "children": [
+            {
+              "name": "Add-OpenAICompletionMessageToConversation"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIEdit",
+          "children": [
+            {
+              "name": "New-OpenAIEdit"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIImage",
+          "children": [
+            {
+              "name": "New-OpenAIImage"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIModels",
+          "children": [
+            {
+              "name": "Get-OpenAIModels"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIModelById",
+          "children": [
+            {
+              "name": "Get-OpenAIModelById"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFiles",
+          "children": [
+            {
+              "name": "Get-OpenAIFiles"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFileById",
+          "children": [
+            {
+              "name": "Get-OpenAIFileById"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFileContent",
+          "children": [
+            {
+              "name": "Get-OpenAIFileContent"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFile",
+          "children": [
+            {
+              "name": "New-OpenAIFile"
+            },
+            {
+              "name": "Remove-OpenAIFile"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFineTuneJobs",
+          "children": [
+            {
+              "name": "Get-OpenAIFineTuneJobs"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFineTuneJobById",
+          "children": [
+            {
+              "name": "Get-OpenAIFineTuneJobById"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFineTuneEvents",
+          "children": [
+            {
+              "name": "Get-OpenAIFineTuneEvents"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFineTuneModel",
+          "children": [
+            {
+              "name": "Remove-OpenAIFineTuneModel"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFineTuneJob",
+          "children": [
+            {
+              "name": "Stop-OpenAIFineTuneJob"
+            },
+            {
+              "name": "New-OpenAIFineTuneJob"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFineTuneTrainingFile",
+          "children": [
+            {
+              "name": "New-OpenAIFineTuneTrainingFile"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIPromptFromJson",
+          "children": [
+            {
+              "name": "Import-OpenAIPromptFromJson"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIPromptToJson",
+          "children": [
+            {
+              "name": "Export-OpenAIPromptToJson"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIEmbedding",
+          "children": [
+            {
+              "name": "New-OpenAIEmbedding"
+            }
+          ]
+        },
+        {
+          "name": "PDFtoText",
+          "children": [
+            {
+              "name": "Convert-PDFtoText"
+            }
+          ]
+        },
+        {
+          "name": "ShellGPTHelpMessage",
+          "children": [
+            {
+              "name": "Get-ShellGPTHelpMessage"
+            }
+          ]
+        },
+        {
+          "name": "ShellGPT",
+          "children": [
+            {
+              "name": "Start-ShellGPT"
+            }
+          ]
+        },
+        {
+          "name": "OpenAiQuickResponse",
+          "children": [
+            {
+              "name": "Get-OpenAiQuickResponse"
+            }
+          ]
+        },
+        {
+          "name": "AzAI",
+          "children": [
+            {
+              "name": "AzAI"
+            }
+          ]
+        },
+        {
+          "name": "OpenAI",
+          "children": [
+            {
+              "name": "OpenAI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yamautomate.AI",
+      "companyName": "Unknown",
+      "author": "Yanik Maurer",
+      "children": [
+        {
+          "name": "YcOpenAiAPIKey",
+          "children": [
+            {
+              "name": "Get-YcOpenAiAPIKey"
+            }
+          ]
+        },
+        {
+          "name": "YcOpenAiResponse",
+          "children": [
+            {
+              "name": "Get-YcOpenAiResponse"
+            }
+          ]
+        },
+        {
+          "name": "YcAzAiDiStringResponse",
+          "children": [
+            {
+              "name": "Read-YcAzAiDiStringResponse"
+            }
+          ]
+        },
+        {
+          "name": "YcFileForAzAiDiAnalysis",
+          "children": [
+            {
+              "name": "Submit-YcFileForAzAiDiAnalysis"
+            }
+          ]
+        },
+        {
+          "name": "YcPatternFromAzAiDiAnalysis",
+          "children": [
+            {
+              "name": "Get-YcPatternFromAzAiDiAnalysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yamautomate.Core",
+      "companyName": "Unknown",
+      "author": "Yanik Maurer",
+      "children": [
+        {
+          "name": "YcMgAppReg",
+          "children": [
+            {
+              "name": "New-YcMgAppReg"
+            }
+          ]
+        },
+        {
+          "name": "YcMgAppRegCertificate",
+          "children": [
+            {
+              "name": "Set-YcMgAppRegCertificate"
+            }
+          ]
+        },
+        {
+          "name": "YcRequiredModules",
+          "children": [
+            {
+              "name": "Get-YcRequiredModules"
+            }
+          ]
+        },
+        {
+          "name": "YcEventLogging",
+          "children": [
+            {
+              "name": "Initialize-YcEventLogging"
+            }
+          ]
+        },
+        {
+          "name": "YcEventLog",
+          "children": [
+            {
+              "name": "Write-YcEventLog"
+            }
+          ]
+        },
+        {
+          "name": "YcSecret",
+          "children": [
+            {
+              "name": "New-YcSecret"
+            },
+            {
+              "name": "Get-YcSecret"
+            }
+          ]
+        },
+        {
+          "name": "YcJsonConfig",
+          "children": [
+            {
+              "name": "Get-YcJsonConfig"
+            }
+          ]
+        },
+        {
+          "name": "YcLogFile",
+          "children": [
+            {
+              "name": "Write-YcLogFile"
+            }
+          ]
+        },
+        {
+          "name": "YcSampleConfig",
+          "children": [
+            {
+              "name": "New-YcSampleConfig"
+            }
+          ]
+        },
+        {
+          "name": "YcSecureStringToPlainText",
+          "children": [
+            {
+              "name": "Convert-YcSecureStringToPlainText"
+            }
+          ]
+        },
+        {
+          "name": "YcMgEmail",
+          "children": [
+            {
+              "name": "Send-YcMgEmail"
+            }
+          ]
+        },
+        {
+          "name": "YcMgMailMessageBody",
+          "children": [
+            {
+              "name": "New-YcMgMailMessageBody"
+            }
+          ]
+        },
+        {
+          "name": "YcSelfSignedCertForAppReg",
+          "children": [
+            {
+              "name": "New-YcSelfSignedCertForAppReg"
+            }
+          ]
+        },
+        {
+          "name": "YcRandomPassword",
+          "children": [
+            {
+              "name": "New-YcRandomPassword"
+            }
+          ]
+        },
+        {
+          "name": "YcCertToLocalMachine",
+          "children": [
+            {
+              "name": "Import-YcCertToLocalMachine"
+            }
+          ]
+        },
+        {
+          "name": "YcGUID",
+          "children": [
+            {
+              "name": "New-YcGUID"
+            }
+          ]
+        },
+        {
+          "name": "YcCurrentUserType",
+          "children": [
+            {
+              "name": "Get-YcCurrentUserType"
+            }
+          ]
+        },
+        {
+          "name": "YcCertificateForAuth",
+          "children": [
+            {
+              "name": "Get-YcCertificateForAuth"
+            }
+          ]
+        },
+        {
+          "name": "YcLogMessage",
+          "children": [
+            {
+              "name": "Protect-YcLogMessage"
+            },
+            {
+              "name": "New-YcLogMessage"
+            },
+            {
+              "name": "Write-YcLogMessage"
+            }
+          ]
+        },
+        {
+          "name": "YcAAWebhookCall",
+          "children": [
+            {
+              "name": "Authenticate-YcAAWebhookCall"
+            }
+          ]
+        },
+        {
+          "name": "YcStrNotEmpty",
+          "children": [
+            {
+              "name": "Validate-YcStrNotEmpty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yamautomate.IAM",
+      "companyName": "Unknown",
+      "author": "Yanik Maurer",
+      "children": [
+        {
+          "name": "YcIAMAdUser",
+          "children": [
+            {
+              "name": "New-YcIAMAdUser"
+            }
+          ]
+        },
+        {
+          "name": "YcIAMTeamsPhoneNumberAssignment",
+          "children": [
+            {
+              "name": "New-YcIAMTeamsPhoneNumberAssignment"
+            }
+          ]
+        },
+        {
+          "name": "YcIAMSampleConfig",
+          "children": [
+            {
+              "name": "New-YcIAMSampleConfig"
+            }
+          ]
+        },
+        {
+          "name": "YcIAMWelcomeLetterFromTemplate",
+          "children": [
+            {
+              "name": "New-YcIAMWelcomeLetterFromTemplate"
+            }
+          ]
+        },
+        {
+          "name": "YcIAMScimRequest",
+          "children": [
+            {
+              "name": "New-YcIAMScimRequest"
+            }
+          ]
+        },
+        {
+          "name": "YcIAMCsvFromMapping",
+          "children": [
+            {
+              "name": "New-YcIAMCsvFromMapping"
+            }
+          ]
+        },
+        {
+          "name": "YcIAMRowToImportCSV",
+          "children": [
+            {
+              "name": "Add-YcIAMRowToImportCSV"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

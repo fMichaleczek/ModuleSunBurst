@@ -1,0 +1,251 @@
+{
+  "name": "dbosoft",
+  "children": [
+    {
+      "name": "Eryph.ClientRuntime.Configuration",
+      "companyName": "dbosoft",
+      "author": "dbosoft GmbH and eryph contributors",
+      "children": [
+        {
+          "name": "EryphClientConfiguration",
+          "children": [
+            {
+              "name": "Add-EryphClientConfiguration"
+            },
+            {
+              "name": "Get-EryphClientConfiguration"
+            },
+            {
+              "name": "Set-EryphClientConfiguration"
+            },
+            {
+              "name": "Remove-EryphClientConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "EryphAccessToken",
+          "children": [
+            {
+              "name": "Get-EryphAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "EryphClientCredentials",
+          "children": [
+            {
+              "name": "New-EryphClientCredentials"
+            },
+            {
+              "name": "Get-EryphClientCredentials"
+            }
+          ]
+        },
+        {
+          "name": "EryphConfigurationStore",
+          "children": [
+            {
+              "name": "Set-EryphConfigurationStore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eryph.CommonClient",
+      "companyName": "dbosoft",
+      "author": "dbosoft GmbH and eryph contributors",
+      "children": [
+        {
+          "name": "EryphOperation",
+          "children": [
+            {
+              "name": "Get-EryphOperation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eryph.ComputeClient",
+      "companyName": "dbosoft",
+      "author": "dbosoft GmbH and eryph contributors",
+      "children": [
+        {
+          "name": "Catlet",
+          "children": [
+            {
+              "name": "Get-Catlet"
+            },
+            {
+              "name": "New-Catlet"
+            },
+            {
+              "name": "Remove-Catlet"
+            },
+            {
+              "name": "Update-Catlet"
+            },
+            {
+              "name": "Start-Catlet"
+            },
+            {
+              "name": "Stop-Catlet"
+            }
+          ]
+        },
+        {
+          "name": "CatletIp",
+          "children": [
+            {
+              "name": "Get-CatletIp"
+            }
+          ]
+        },
+        {
+          "name": "CatletDisk",
+          "children": [
+            {
+              "name": "Get-CatletDisk"
+            },
+            {
+              "name": "New-CatletDisk"
+            },
+            {
+              "name": "Remove-CatletDisk"
+            }
+          ]
+        },
+        {
+          "name": "CatletGene",
+          "children": [
+            {
+              "name": "Get-CatletGene"
+            },
+            {
+              "name": "Remove-CatletGene"
+            }
+          ]
+        },
+        {
+          "name": "EryphOperation",
+          "children": [
+            {
+              "name": "Get-EryphOperation"
+            }
+          ]
+        },
+        {
+          "name": "VNetwork",
+          "children": [
+            {
+              "name": "Get-VNetwork"
+            },
+            {
+              "name": "Set-VNetwork"
+            }
+          ]
+        },
+        {
+          "name": "EryphProject",
+          "children": [
+            {
+              "name": "Get-EryphProject"
+            },
+            {
+              "name": "Set-EryphProject"
+            },
+            {
+              "name": "New-EryphProject"
+            },
+            {
+              "name": "Remove-EryphProject"
+            }
+          ]
+        },
+        {
+          "name": "EryphProjectMemberRole",
+          "children": [
+            {
+              "name": "Add-EryphProjectMemberRole"
+            },
+            {
+              "name": "Get-EryphProjectMemberRole"
+            },
+            {
+              "name": "Remove-EryphProjectMemberRole"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eryph.IdentityClient",
+      "companyName": "dbosoft",
+      "author": "dbosoft GmbH and eryph contributors",
+      "children": [
+        {
+          "name": "EryphClient",
+          "children": [
+            {
+              "name": "Get-EryphClient"
+            },
+            {
+              "name": "New-EryphClient"
+            },
+            {
+              "name": "Remove-EryphClient"
+            },
+            {
+              "name": "Set-EryphClient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haipa.ClientRuntime.Configuration",
+      "companyName": "dbosoft",
+      "author": "dbosoft GmbH and Haipa contributors",
+      "children": [
+        {
+          "name": "HaipaClientConfiguration",
+          "children": [
+            {
+              "name": "Add-HaipaClientConfiguration"
+            },
+            {
+              "name": "Get-HaipaClientConfiguration"
+            },
+            {
+              "name": "Set-HaipaClientConfiguration"
+            },
+            {
+              "name": "Remove-HaipaClientConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "HaipaClientCredentials",
+          "children": [
+            {
+              "name": "New-HaipaClientCredentials"
+            },
+            {
+              "name": "Get-HaipaClientCredentials"
+            }
+          ]
+        },
+        {
+          "name": "HaipaConfigurationStore",
+          "children": [
+            {
+              "name": "Set-HaipaConfigurationStore"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

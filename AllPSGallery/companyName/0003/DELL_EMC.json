@@ -1,0 +1,237 @@
+{
+  "name": "DELL EMC",
+  "children": [
+    {
+      "name": "ECSHell",
+      "companyName": "DELL EMC",
+      "author": "Karsten Bott",
+      "children": [
+        {
+          "name": "*ECS*",
+          "children": [
+            {
+              "name": "*ECS*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iDRAC4Redfish",
+      "companyName": "Dell EMC",
+      "author": "Karsten Bott",
+      "children": [
+        {
+          "name": "Certs",
+          "children": [
+            {
+              "name": "Unblock-Certs"
+            }
+          ]
+        },
+        {
+          "name": "iDRACSession",
+          "children": [
+            {
+              "name": "New-iDRACSession"
+            },
+            {
+              "name": "Disconnect-iDRACSession"
+            }
+          ]
+        },
+        {
+          "name": "iDRACRequest",
+          "children": [
+            {
+              "name": "Invoke-iDRACRequest"
+            }
+          ]
+        },
+        {
+          "name": "iDRAC",
+          "children": [
+            {
+              "name": "Connect-iDRAC"
+            }
+          ]
+        },
+        {
+          "name": "iDRACManagerUri",
+          "children": [
+            {
+              "name": "Get-iDRACManagerUri"
+            }
+          ]
+        },
+        {
+          "name": "iDRACSystemUri",
+          "children": [
+            {
+              "name": "Get-iDRACSystemUri"
+            }
+          ]
+        },
+        {
+          "name": "iDRACChassisUri",
+          "children": [
+            {
+              "name": "Get-iDRACChassisUri"
+            }
+          ]
+        },
+        {
+          "name": "iDRACSystemElement",
+          "children": [
+            {
+              "name": "Get-iDRACSystemElement"
+            }
+          ]
+        },
+        {
+          "name": "iDRACChassisElement",
+          "children": [
+            {
+              "name": "Get-iDRACChassisElement"
+            }
+          ]
+        },
+        {
+          "name": "iDRACManagerElement",
+          "children": [
+            {
+              "name": "Get-iDRACManagerElement"
+            }
+          ]
+        },
+        {
+          "name": "iDRACLifecycleLog",
+          "children": [
+            {
+              "name": "Get-iDRACLifecycleLog"
+            }
+          ]
+        },
+        {
+          "name": "iDRACodata",
+          "children": [
+            {
+              "name": "Get-iDRACodata"
+            }
+          ]
+        },
+        {
+          "name": "iDRACSessions",
+          "children": [
+            {
+              "name": "Get-iDRACSessions"
+            }
+          ]
+        },
+        {
+          "name": "iDRACSCP",
+          "children": [
+            {
+              "name": "Copy-iDRACSCP"
+            }
+          ]
+        },
+        {
+          "name": "iDRACAccounts",
+          "children": [
+            {
+              "name": "Get-iDRACAccounts"
+            }
+          ]
+        },
+        {
+          "name": "iDRACAccount",
+          "children": [
+            {
+              "name": "Set-iDRACAccount"
+            }
+          ]
+        },
+        {
+          "name": "iDRACWebException",
+          "children": [
+            {
+              "name": "Get-iDRACWebException"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PIVPosh",
+      "companyName": "DELL EMC",
+      "author": "Karsten Bott",
+      "children": [
+        {
+          "name": "PIVEula",
+          "children": [
+            {
+              "name": "Confirm-PIVEula"
+            }
+          ]
+        },
+        {
+          "name": "PIVaccesstoken",
+          "children": [
+            {
+              "name": "Get-PIVaccesstoken"
+            }
+          ]
+        },
+        {
+          "name": "PIVFileByReleaseObject",
+          "children": [
+            {
+              "name": "Get-PIVFileByReleaseObject"
+            }
+          ]
+        },
+        {
+          "name": "PIVFileByUri",
+          "children": [
+            {
+              "name": "Get-PIVFileByUri"
+            }
+          ]
+        },
+        {
+          "name": "PIVFileReleaseId",
+          "children": [
+            {
+              "name": "Get-PIVFileReleaseId"
+            }
+          ]
+        },
+        {
+          "name": "PIVProducts",
+          "children": [
+            {
+              "name": "Get-PIVProducts"
+            }
+          ]
+        },
+        {
+          "name": "PIVRelease",
+          "children": [
+            {
+              "name": "Get-PIVRelease"
+            }
+          ]
+        },
+        {
+          "name": "PIVSlug",
+          "children": [
+            {
+              "name": "Get-PIVSlug"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "X509Crypto.org",
+  "children": [
+    {
+      "name": "X509Crypto",
+      "companyName": "X509Crypto.org",
+      "author": "Michael Bruno",
+      "children": [
+        {
+          "name": "X509Alias",
+          "children": [
+            {
+              "name": "Export-X509Alias"
+            },
+            {
+              "name": "Import-X509Alias"
+            },
+            {
+              "name": "Mount-X509Alias"
+            },
+            {
+              "name": "Update-X509Alias"
+            },
+            {
+              "name": "New-X509Alias"
+            },
+            {
+              "name": "Remove-X509Alias"
+            },
+            {
+              "name": "Dismount-X509Alias"
+            },
+            {
+              "name": "Unprotect-X509Alias"
+            }
+          ]
+        },
+        {
+          "name": "X509CryptoCertificate",
+          "children": [
+            {
+              "name": "Export-X509CryptoCertificate"
+            },
+            {
+              "name": "Install-X509CryptoCertificate"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "Protect-File"
+            },
+            {
+              "name": "Unprotect-File"
+            }
+          ]
+        },
+        {
+          "name": "X509CryptoSecret",
+          "children": [
+            {
+              "name": "Protect-X509CryptoSecret"
+            },
+            {
+              "name": "Read-X509CryptoSecret"
+            }
+          ]
+        },
+        {
+          "name": "X509Context",
+          "children": [
+            {
+              "name": "Read-X509Context"
+            }
+          ]
+        },
+        {
+          "name": "X509CryptoFileEncryption",
+          "children": [
+            {
+              "name": "Update-X509CryptoFileEncryption"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "name": "Raimund Andree",
+  "children": [
+    {
+      "name": "Datum.InvokeCommand",
+      "companyName": "Unknown",
+      "author": "Raimund Andree",
+      "children": [
+        {
+          "name": "InvokeCommandAction",
+          "children": [
+            {
+              "name": "Invoke-InvokeCommandAction"
+            }
+          ]
+        },
+        {
+          "name": "InvokeCommandFilter",
+          "children": [
+            {
+              "name": "Test-InvokeCommandFilter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NTFSSecurity",
+      "companyName": "Raimund Andree",
+      "author": "Raimund Andree",
+      "children": [
+        {
+          "name": "NTFSAccess",
+          "children": [
+            {
+              "name": "Add-NTFSAccess"
+            },
+            {
+              "name": "Clear-NTFSAccess"
+            },
+            {
+              "name": "Get-NTFSAccess"
+            },
+            {
+              "name": "Remove-NTFSAccess"
+            }
+          ]
+        },
+        {
+          "name": "NTFSAccessInheritance",
+          "children": [
+            {
+              "name": "Disable-NTFSAccessInheritance"
+            },
+            {
+              "name": "Enable-NTFSAccessInheritance"
+            }
+          ]
+        },
+        {
+          "name": "NTFSEffectiveAccess",
+          "children": [
+            {
+              "name": "Get-NTFSEffectiveAccess"
+            }
+          ]
+        },
+        {
+          "name": "NTFSOrphanedAccess",
+          "children": [
+            {
+              "name": "Get-NTFSOrphanedAccess"
+            }
+          ]
+        },
+        {
+          "name": "NTFSSimpleAccess",
+          "children": [
+            {
+              "name": "Get-NTFSSimpleAccess"
+            },
+            {
+              "name": "Show-NTFSSimpleAccess"
+            }
+          ]
+        },
+        {
+          "name": "NTFSAudit",
+          "children": [
+            {
+              "name": "Add-NTFSAudit"
+            },
+            {
+              "name": "Clear-NTFSAudit"
+            },
+            {
+              "name": "Get-NTFSAudit"
+            },
+            {
+              "name": "Remove-NTFSAudit"
+            }
+          ]
+        },
+        {
+          "name": "NTFSAuditInheritance",
+          "children": [
+            {
+              "name": "Disable-NTFSAuditInheritance"
+            },
+            {
+              "name": "Enable-NTFSAuditInheritance"
+            }
+          ]
+        },
+        {
+          "name": "NTFSOrphanedAudit",
+          "children": [
+            {
+              "name": "Get-NTFSOrphanedAudit"
+            }
+          ]
+        },
+        {
+          "name": "NTFSInheritance",
+          "children": [
+            {
+              "name": "Get-NTFSInheritance"
+            },
+            {
+              "name": "Set-NTFSInheritance"
+            }
+          ]
+        },
+        {
+          "name": "NTFSOwner",
+          "children": [
+            {
+              "name": "Get-NTFSOwner"
+            },
+            {
+              "name": "Set-NTFSOwner"
+            }
+          ]
+        },
+        {
+          "name": "NTFSSecurityDescriptor",
+          "children": [
+            {
+              "name": "Get-NTFSSecurityDescriptor"
+            },
+            {
+              "name": "Set-NTFSSecurityDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "Privileges",
+          "children": [
+            {
+              "name": "Disable-Privileges"
+            },
+            {
+              "name": "Enable-Privileges"
+            },
+            {
+              "name": "Get-Privileges"
+            }
+          ]
+        },
+        {
+          "name": "Item2",
+          "children": [
+            {
+              "name": "Copy-Item2"
+            },
+            {
+              "name": "Get-Item2"
+            },
+            {
+              "name": "Move-Item2"
+            },
+            {
+              "name": "Remove-Item2"
+            }
+          ]
+        },
+        {
+          "name": "ChildItem2",
+          "children": [
+            {
+              "name": "Get-ChildItem2"
+            }
+          ]
+        },
+        {
+          "name": "Path2",
+          "children": [
+            {
+              "name": "Test-Path2"
+            }
+          ]
+        },
+        {
+          "name": "NTFSHardLink",
+          "children": [
+            {
+              "name": "Get-NTFSHardLink"
+            },
+            {
+              "name": "New-NTFSHardLink"
+            }
+          ]
+        },
+        {
+          "name": "NTFSSymbolicLink",
+          "children": [
+            {
+              "name": "New-NTFSSymbolicLink"
+            }
+          ]
+        },
+        {
+          "name": "DiskSpace",
+          "children": [
+            {
+              "name": "Get-DiskSpace"
+            }
+          ]
+        },
+        {
+          "name": "FileHash2",
+          "children": [
+            {
+              "name": "Get-FileHash2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SfBAutomatedLab",
+      "companyName": "Microsoft",
+      "author": "Raimund Andree",
+      "children": [
+        {
+          "name": "SfBClusterDnsRecords",
+          "children": [
+            {
+              "name": "Add-SfBClusterDnsRecords"
+            }
+          ]
+        },
+        {
+          "name": "SfBFileShares",
+          "children": [
+            {
+              "name": "Add-SfBFileShares"
+            }
+          ]
+        },
+        {
+          "name": "SfBLabRequirements",
+          "children": [
+            {
+              "name": "Get-SfBLabRequirements"
+            },
+            {
+              "name": "Install-SfBLabRequirements"
+            },
+            {
+              "name": "Set-SfBLabRequirements"
+            },
+            {
+              "name": "Test-SfBLabRequirements"
+            }
+          ]
+        },
+        {
+          "name": "SfBTopology",
+          "children": [
+            {
+              "name": "Get-SfBTopology"
+            },
+            {
+              "name": "Import-SfBTopology"
+            }
+          ]
+        },
+        {
+          "name": "SfBLabActiveDirectory",
+          "children": [
+            {
+              "name": "Install-SfBLabActiveDirectory"
+            }
+          ]
+        },
+        {
+          "name": "SfbLabSfbComponents",
+          "children": [
+            {
+              "name": "Install-SfbLabSfbComponents"
+            }
+          ]
+        },
+        {
+          "name": "SfbLabPool",
+          "children": [
+            {
+              "name": "Start-SfbLabPool"
+            }
+          ]
+        },
+        {
+          "name": "SfBLabScript",
+          "children": [
+            {
+              "name": "Invoke-SfBLabScript"
+            }
+          ]
+        },
+        {
+          "name": "SfBLab",
+          "children": [
+            {
+              "name": "New-SfBLab"
+            }
+          ]
+        },
+        {
+          "name": "SfBLabDeployment",
+          "children": [
+            {
+              "name": "Start-SfBLabDeployment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XmlContentDsc",
+      "companyName": "Microsoft",
+      "author": "Raimund Andree",
+      "children": [
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "Compare-Hashtable"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

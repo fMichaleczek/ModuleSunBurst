@@ -1,0 +1,255 @@
+{
+  "name": "Individual",
+  "children": [
+    {
+      "name": "DiscordSlashManager",
+      "companyName": "Individual",
+      "author": "Chuck",
+      "children": [
+        {
+          "name": "DiscordSlash",
+          "children": [
+            {
+              "name": "Get-DiscordSlash"
+            },
+            {
+              "name": "New-DiscordSlash"
+            },
+            {
+              "name": "Remove-DiscordSlash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ExchangeAdminToolkit",
+      "companyName": "Individual",
+      "author": "Daniel Caulfield",
+      "children": [
+        {
+          "name": "DeletedMailboxList",
+          "children": [
+            {
+              "name": "Get-DeletedMailboxList"
+            }
+          ]
+        },
+        {
+          "name": "LoopCheckMoveRequest",
+          "children": [
+            {
+              "name": "Invoke-LoopCheckMoveRequest"
+            }
+          ]
+        },
+        {
+          "name": "LoopCheckRestoreRequest",
+          "children": [
+            {
+              "name": "Invoke-LoopCheckRestoreRequest"
+            }
+          ]
+        },
+        {
+          "name": "EXPSSnapin",
+          "children": [
+            {
+              "name": "Add-EXPSSnapin"
+            }
+          ]
+        },
+        {
+          "name": "LoopCheckMailboxRepairRequest",
+          "children": [
+            {
+              "name": "Invoke-LoopCheckMailboxRepairRequest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exo.RoomsManagement",
+      "companyName": "Individual",
+      "author": "Corey Schneider",
+      "children": [
+        {
+          "name": "Services",
+          "children": [
+            {
+              "name": "Connect-Services"
+            },
+            {
+              "name": "Disconnect-Services"
+            }
+          ]
+        },
+        {
+          "name": "SimpleRoomList",
+          "children": [
+            {
+              "name": "New-SimpleRoomList"
+            }
+          ]
+        },
+        {
+          "name": "RoomsByName",
+          "children": [
+            {
+              "name": "Remove-RoomsByName"
+            }
+          ]
+        },
+        {
+          "name": "RoomReport",
+          "children": [
+            {
+              "name": "Get-RoomReport"
+            }
+          ]
+        },
+        {
+          "name": "BingMapsKey",
+          "children": [
+            {
+              "name": "Set-BingMapsKey"
+            }
+          ]
+        },
+        {
+          "name": "LabRoomList",
+          "children": [
+            {
+              "name": "New-LabRoomList"
+            }
+          ]
+        },
+        {
+          "name": "OnlineRoom",
+          "children": [
+            {
+              "name": "Get-OnlineRoom"
+            },
+            {
+              "name": "New-OnlineRoom"
+            }
+          ]
+        },
+        {
+          "name": "OnlineRoomList",
+          "children": [
+            {
+              "name": "Get-OnlineRoomList"
+            },
+            {
+              "name": "New-OnlineRoomList"
+            }
+          ]
+        },
+        {
+          "name": "OnPremRoomList",
+          "children": [
+            {
+              "name": "Get-OnPremRoomList"
+            },
+            {
+              "name": "New-OnPremRoomList"
+            }
+          ]
+        },
+        {
+          "name": "OnPremRoom",
+          "children": [
+            {
+              "name": "Get-OnPremRoom"
+            },
+            {
+              "name": "New-OnPremRoom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PassGen",
+      "companyName": "Individual",
+      "author": "Daniel Caulfield",
+      "children": [
+        {
+          "name": "Password",
+          "children": [
+            {
+              "name": "Get-Password"
+            }
+          ]
+        },
+        {
+          "name": "ComplexPassword",
+          "children": [
+            {
+              "name": "Get-ComplexPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SlackMessaging",
+      "companyName": "Individual",
+      "author": "Daniel Caulfield",
+      "children": [
+        {
+          "name": "SlackMessage",
+          "children": [
+            {
+              "name": "Send-SlackMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TreeWalkTools",
+      "companyName": "Individual",
+      "author": "Maksym Romanov  maksim.a.romanov gmail.com",
+      "children": [
+        {
+          "name": "AsXml2Xml",
+          "children": [
+            {
+              "name": "Merge-AsXml2Xml"
+            }
+          ]
+        },
+        {
+          "name": "Xml2Xml",
+          "children": [
+            {
+              "name": "Merge-Xml2Xml"
+            }
+          ]
+        },
+        {
+          "name": "Dir2Dir",
+          "children": [
+            {
+              "name": "Merge-Dir2Dir"
+            },
+            {
+              "name": "Update-Dir2Dir"
+            }
+          ]
+        },
+        {
+          "name": "Json",
+          "children": [
+            {
+              "name": "Merge-Json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "name": "HotCakeX",
+  "children": [
+    {
+      "name": "WDACConfig",
+      "companyName": "SpyNetGirl",
+      "author": "HotCakeX",
+      "children": [
+        {
+          "name": "WDACConfig",
+          "children": [
+            {
+              "name": "New-WDACConfig"
+            },
+            {
+              "name": "Remove-WDACConfig"
+            },
+            {
+              "name": "Confirm-WDACConfig"
+            },
+            {
+              "name": "Edit-WDACConfig"
+            }
+          ]
+        },
+        {
+          "name": "SignedWDACConfig",
+          "children": [
+            {
+              "name": "Deploy-SignedWDACConfig"
+            },
+            {
+              "name": "Edit-SignedWDACConfig"
+            }
+          ]
+        },
+        {
+          "name": "SupplementalWDACConfig",
+          "children": [
+            {
+              "name": "New-SupplementalWDACConfig"
+            }
+          ]
+        },
+        {
+          "name": "DenyWDACConfig",
+          "children": [
+            {
+              "name": "New-DenyWDACConfig"
+            }
+          ]
+        },
+        {
+          "name": "CommonWDACConfig",
+          "children": [
+            {
+              "name": "Set-CommonWDACConfig"
+            },
+            {
+              "name": "Get-CommonWDACConfig"
+            },
+            {
+              "name": "Remove-CommonWDACConfig"
+            }
+          ]
+        },
+        {
+          "name": "KernelModeWDACConfig",
+          "children": [
+            {
+              "name": "New-KernelModeWDACConfig"
+            }
+          ]
+        },
+        {
+          "name": "WDACSimulation",
+          "children": [
+            {
+              "name": "Invoke-WDACSimulation"
+            }
+          ]
+        },
+        {
+          "name": "WDACConfigIntegrity",
+          "children": [
+            {
+              "name": "Assert-WDACConfigIntegrity"
+            }
+          ]
+        },
+        {
+          "name": "WDACCertificate",
+          "children": [
+            {
+              "name": "Build-WDACCertificate"
+            }
+          ]
+        },
+        {
+          "name": "CiPolicy",
+          "children": [
+            {
+              "name": "Test-CiPolicy"
+            }
+          ]
+        },
+        {
+          "name": "WDACPolicy",
+          "children": [
+            {
+              "name": "ConvertTo-WDACPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CiFileHashes",
+          "children": [
+            {
+              "name": "Get-CiFileHashes"
+            }
+          ]
+        },
+        {
+          "name": "CiRuleOptions",
+          "children": [
+            {
+              "name": "Set-CiRuleOptions"
+            }
+          ]
+        },
+        {
+          "name": "CIPolicySetting",
+          "children": [
+            {
+              "name": "Get-CIPolicySetting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WinSecureDNSMgr",
+      "companyName": "SpyNetGirl",
+      "author": "HotCakeX",
+      "children": [
+        {
+          "name": "BuiltInWinSecureDNS",
+          "children": [
+            {
+              "name": "Set-BuiltInWinSecureDNS"
+            }
+          ]
+        },
+        {
+          "name": "CustomWinSecureDNS",
+          "children": [
+            {
+              "name": "Set-CustomWinSecureDNS"
+            }
+          ]
+        },
+        {
+          "name": "DynamicIPDoHServer",
+          "children": [
+            {
+              "name": "Set-DynamicIPDoHServer"
+            }
+          ]
+        },
+        {
+          "name": "DoHSettings",
+          "children": [
+            {
+              "name": "Reset-DoHSettings"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

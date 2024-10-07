@@ -1,0 +1,118 @@
+{
+  "name": "Mike Campbell",
+  "children": [
+    {
+      "name": "InstallManager",
+      "companyName": "themodulecollective",
+      "author": "Mike Campbell",
+      "children": [
+        {
+          "name": "IMDefinition",
+          "children": [
+            {
+              "name": "Export-IMDefinition"
+            },
+            {
+              "name": "Get-IMDefinition"
+            },
+            {
+              "name": "Import-IMDefinition"
+            },
+            {
+              "name": "New-IMDefinition"
+            },
+            {
+              "name": "Remove-IMDefinition"
+            },
+            {
+              "name": "Set-IMDefinition"
+            }
+          ]
+        },
+        {
+          "name": "IMChocoInstall",
+          "children": [
+            {
+              "name": "Get-IMChocoInstall"
+            }
+          ]
+        },
+        {
+          "name": "IMWinGetInstall",
+          "children": [
+            {
+              "name": "Get-IMWinGetInstall"
+            }
+          ]
+        },
+        {
+          "name": "IMPowerShellGetInstall",
+          "children": [
+            {
+              "name": "Get-IMPowerShellGetInstall"
+            }
+          ]
+        },
+        {
+          "name": "IMSystemUninstallEntry",
+          "children": [
+            {
+              "name": "Get-IMSystemUninstallEntry"
+            }
+          ]
+        },
+        {
+          "name": "IMInstall",
+          "children": [
+            {
+              "name": "Update-IMInstall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OutSpeech",
+      "companyName": "themodulecollective",
+      "author": "Mike Campbell",
+      "children": [
+        {
+          "name": "SpeechConfiguration",
+          "children": [
+            {
+              "name": "Enable-SpeechConfiguration"
+            },
+            {
+              "name": "Set-SpeechConfiguration"
+            },
+            {
+              "name": "Disable-SpeechConfiguration"
+            },
+            {
+              "name": "Get-SpeechConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "Speech",
+          "children": [
+            {
+              "name": "Out-Speech"
+            },
+            {
+              "name": "Export-Speech"
+            }
+          ]
+        },
+        {
+          "name": "SpeechVoice",
+          "children": [
+            {
+              "name": "Get-SpeechVoice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

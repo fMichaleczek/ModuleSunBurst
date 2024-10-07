@@ -1,0 +1,131 @@
+{
+  "name": "Ben Reader",
+  "children": [
+    {
+      "name": "Az.MsiGraphPermissions",
+      "companyName": "Unknown",
+      "author": "Ben Reader",
+      "children": [
+        {
+          "name": "GraphPermissionToMsi",
+          "children": [
+            {
+              "name": "Add-GraphPermissionToMsi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intune.HV.Tools",
+      "companyName": "Powers Hell",
+      "author": "Ben Reader",
+      "children": [
+        {
+          "name": "ImageToConfig",
+          "children": [
+            {
+              "name": "Add-ImageToConfig"
+            }
+          ]
+        },
+        {
+          "name": "NetworkToConfig",
+          "children": [
+            {
+              "name": "Add-NetworkToConfig"
+            }
+          ]
+        },
+        {
+          "name": "TenantToConfig",
+          "children": [
+            {
+              "name": "Add-TenantToConfig"
+            }
+          ]
+        },
+        {
+          "name": "HVToolsConfig",
+          "children": [
+            {
+              "name": "Get-HVToolsConfig"
+            }
+          ]
+        },
+        {
+          "name": "HVTools",
+          "children": [
+            {
+              "name": "Initialize-HVTools"
+            }
+          ]
+        },
+        {
+          "name": "ClientVM",
+          "children": [
+            {
+              "name": "New-ClientVM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intune.LogMonitor.Tools",
+      "companyName": "Powers Hell",
+      "author": "Ben Reader",
+      "children": [
+        {
+          "name": "IMELogLevel",
+          "children": [
+            {
+              "name": "Get-IMELogLevel"
+            },
+            {
+              "name": "Set-IMELogLevel"
+            }
+          ]
+        },
+        {
+          "name": "IMEAppMonitor",
+          "children": [
+            {
+              "name": "Start-IMEAppMonitor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intune.Reporting",
+      "companyName": "Powers Hell.com",
+      "author": "Ben Reader",
+      "children": [
+        {
+          "name": "IntuneConfigReport",
+          "children": [
+            {
+              "name": "Build-IntuneConfigReport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intune.USB.Creator",
+      "companyName": "Powers Hell",
+      "author": "Ben Reader",
+      "children": [
+        {
+          "name": "ImageToUSB",
+          "children": [
+            {
+              "name": "Publish-ImageToUSB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "name": "christianacca",
+  "children": [
+    {
+      "name": "DemoRequiredModule",
+      "companyName": "Unknown",
+      "author": "christianacca",
+      "children": [
+        {
+          "name": "Required",
+          "children": [
+            {
+              "name": "Get-Required"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DemoRequiring2LevelModule",
+      "companyName": "Unknown",
+      "author": "christianacca",
+      "children": [
+        {
+          "name": "FromRequiredModule2",
+          "children": [
+            {
+              "name": "Get-FromRequiredModule2"
+            }
+          ]
+        },
+        {
+          "name": "FromRequiringExactModule",
+          "children": [
+            {
+              "name": "Get-FromRequiringExactModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DemoRequiringExactModule",
+      "companyName": "Unknown",
+      "author": "christianacca",
+      "children": [
+        {
+          "name": "FromRequiredModule",
+          "children": [
+            {
+              "name": "Get-FromRequiredModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DemoRequiringModule",
+      "companyName": "Unknown",
+      "author": "christianacca",
+      "children": [
+        {
+          "name": "FromRequiredModule",
+          "children": [
+            {
+              "name": "Get-FromRequiredModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DockerHelpers",
+      "companyName": "Unknown",
+      "author": "christianacca",
+      "children": [
+        {
+          "name": "DockerContainer",
+          "children": [
+            {
+              "name": "Get-DockerContainer"
+            }
+          ]
+        },
+        {
+          "name": "DockerContainerIP",
+          "children": [
+            {
+              "name": "Get-DockerContainerIP"
+            }
+          ]
+        },
+        {
+          "name": "DockerContainerStatus",
+          "children": [
+            {
+              "name": "Get-DockerContainerStatus"
+            },
+            {
+              "name": "Wait-DockerContainerStatus"
+            }
+          ]
+        },
+        {
+          "name": "DockerVolume",
+          "children": [
+            {
+              "name": "Get-DockerVolume"
+            }
+          ]
+        },
+        {
+          "name": "DockerContainerGridView",
+          "children": [
+            {
+              "name": "Show-DockerContainerGridView"
+            }
+          ]
+        },
+        {
+          "name": "DockerContainerVolumeGridView",
+          "children": [
+            {
+              "name": "Show-DockerContainerVolumeGridView"
+            }
+          ]
+        },
+        {
+          "name": "DockerVolumeDirectory",
+          "children": [
+            {
+              "name": "Show-DockerVolumeDirectory"
+            }
+          ]
+        },
+        {
+          "name": "DockerVolumeGridView",
+          "children": [
+            {
+              "name": "Show-DockerVolumeGridView"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IISConfigUnlock",
+      "companyName": "Unknown",
+      "author": "christianacca",
+      "children": [
+        {
+          "name": "IISAnonymousAuth",
+          "children": [
+            {
+              "name": "Unlock-IISAnonymousAuth"
+            }
+          ]
+        },
+        {
+          "name": "IISConfigSection",
+          "children": [
+            {
+              "name": "Unlock-IISConfigSection"
+            }
+          ]
+        },
+        {
+          "name": "IISWindowsAuth",
+          "children": [
+            {
+              "name": "Unlock-IISWindowsAuth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IISSecurity",
+      "companyName": "Unknown",
+      "author": "christianacca",
+      "children": [
+        {
+          "name": "IISSiteDesiredAcl",
+          "children": [
+            {
+              "name": "Get-IISSiteDesiredAcl"
+            }
+          ]
+        },
+        {
+          "name": "TempAspNetFilesPath",
+          "children": [
+            {
+              "name": "Get-TempAspNetFilesPath"
+            }
+          ]
+        },
+        {
+          "name": "IISSiteAcl",
+          "children": [
+            {
+              "name": "Remove-IISSiteAcl"
+            },
+            {
+              "name": "Set-IISSiteAcl"
+            }
+          ]
+        },
+        {
+          "name": "UserFromAcl",
+          "children": [
+            {
+              "name": "Remove-UserFromAcl"
+            }
+          ]
+        },
+        {
+          "name": "WebHardenedAcl",
+          "children": [
+            {
+              "name": "Set-WebHardenedAcl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IISSiteInstall",
+      "companyName": "Unknown",
+      "author": "christianacca",
+      "children": [
+        {
+          "name": "IISSitePort",
+          "children": [
+            {
+              "name": "Add-IISSitePort"
+            }
+          ]
+        },
+        {
+          "name": "IISAppPoolUsername",
+          "children": [
+            {
+              "name": "Get-IISAppPoolUsername"
+            }
+          ]
+        },
+        {
+          "name": "IISSiteAclPath",
+          "children": [
+            {
+              "name": "Get-IISSiteAclPath"
+            }
+          ]
+        },
+        {
+          "name": "IISSiteBackConnection",
+          "children": [
+            {
+              "name": "Get-IISSiteBackConnection"
+            },
+            {
+              "name": "Remove-IISSiteBackConnection"
+            }
+          ]
+        },
+        {
+          "name": "IISSiteHierarchyInfo",
+          "children": [
+            {
+              "name": "Get-IISSiteHierarchyInfo"
+            }
+          ]
+        },
+        {
+          "name": "IISSiteHostsFileEntry",
+          "children": [
+            {
+              "name": "Get-IISSiteHostsFileEntry"
+            },
+            {
+              "name": "Remove-IISSiteHostsFileEntry"
+            }
+          ]
+        },
+        {
+          "name": "IISAppPool",
+          "children": [
+            {
+              "name": "New-IISAppPool"
+            },
+            {
+              "name": "Remove-IISAppPool"
+            },
+            {
+              "name": "Restart-IISAppPool"
+            }
+          ]
+        },
+        {
+          "name": "IISWebApp",
+          "children": [
+            {
+              "name": "New-IISWebApp"
+            },
+            {
+              "name": "Remove-IISWebApp"
+            }
+          ]
+        },
+        {
+          "name": "IISWebsite",
+          "children": [
+            {
+              "name": "New-IISWebsite"
+            },
+            {
+              "name": "Remove-IISWebsite"
+            }
+          ]
+        },
+        {
+          "name": "IISSiteAppPool",
+          "children": [
+            {
+              "name": "Restart-IISSiteAppPool"
+            }
+          ]
+        },
+        {
+          "name": "IISAppPoolUser",
+          "children": [
+            {
+              "name": "Set-IISAppPoolUser"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

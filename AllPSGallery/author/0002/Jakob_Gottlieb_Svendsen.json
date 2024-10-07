@@ -1,0 +1,109 @@
+{
+  "name": "Jakob Gottlieb Svendsen",
+  "children": [
+    {
+      "name": "CTGlobal.PimAdmin",
+      "companyName": "CTGlobal A S",
+      "author": "Jakob Gottlieb Svendsen",
+      "children": [
+        {
+          "name": "PimAzureResource",
+          "children": [
+            {
+              "name": "Get-PimAzureResource"
+            }
+          ]
+        },
+        {
+          "name": "PimAzureResourceRoleDefinition",
+          "children": [
+            {
+              "name": "Get-PimAzureResourceRoleDefinition"
+            }
+          ]
+        },
+        {
+          "name": "PimAzureResourceRoleSetting",
+          "children": [
+            {
+              "name": "Get-PimAzureResourceRoleSetting"
+            },
+            {
+              "name": "Set-PimAzureResourceRoleSetting"
+            }
+          ]
+        },
+        {
+          "name": "PimAzureResourceRoleAssignment",
+          "children": [
+            {
+              "name": "New-PimAzureResourceRoleAssignment"
+            },
+            {
+              "name": "Get-PimAzureResourceRoleAssignment"
+            },
+            {
+              "name": "Remove-PimAzureResourceRoleAssignment"
+            }
+          ]
+        },
+        {
+          "name": "PimAzureResourceRoleAssignmentRequest",
+          "children": [
+            {
+              "name": "Get-PimAzureResourceRoleAssignmentRequest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MicrosoftGraphAPI",
+      "companyName": "CTGlobal",
+      "author": "Jakob Gottlieb Svendsen",
+      "children": [
+        {
+          "name": "GraphAuthToken",
+          "children": [
+            {
+              "name": "Get-GraphAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "GraphRequest",
+          "children": [
+            {
+              "name": "Invoke-GraphRequest"
+            }
+          ]
+        },
+        {
+          "name": "GraphGet",
+          "children": [
+            {
+              "name": "Invoke-GraphGet"
+            }
+          ]
+        },
+        {
+          "name": "GraphSubscription",
+          "children": [
+            {
+              "name": "Get-GraphSubscription"
+            },
+            {
+              "name": "New-GraphSubscription"
+            },
+            {
+              "name": "Remove-GraphSubscription"
+            },
+            {
+              "name": "Update-GraphSubscription"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

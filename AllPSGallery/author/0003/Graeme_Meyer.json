@@ -1,0 +1,209 @@
+{
+  "name": "Graeme Meyer",
+  "children": [
+    {
+      "name": "BUP-Extractor",
+      "companyName": "A PowerShell module to extract files that have been quarantined by McAfee Anti Virus from their .bup containers.",
+      "author": "Graeme Meyer",
+      "children": [
+        {
+          "name": "BUPFile",
+          "children": [
+            {
+              "name": "Expand-BUPFile"
+            },
+            {
+              "name": "Protect-BupFile"
+            }
+          ]
+        },
+        {
+          "name": "Bytes",
+          "children": [
+            {
+              "name": "Protect-Bytes"
+            }
+          ]
+        },
+        {
+          "name": "BUPFileInfo",
+          "children": [
+            {
+              "name": "Get-BUPFileInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power-Cbr",
+      "companyName": "Unknown",
+      "author": "Graeme Meyer",
+      "children": [
+        {
+          "name": "Alert",
+          "children": [
+            {
+              "name": "Get-Alert"
+            },
+            {
+              "name": "Update-Alert"
+            }
+          ]
+        },
+        {
+          "name": "Instance",
+          "children": [
+            {
+              "name": "Get-Instance"
+            },
+            {
+              "name": "New-Instance"
+            }
+          ]
+        },
+        {
+          "name": "CurrentInstance",
+          "children": [
+            {
+              "name": "Get-CurrentInstance"
+            },
+            {
+              "name": "Set-CurrentInstance"
+            }
+          ]
+        },
+        {
+          "name": "ProcessEventDetail",
+          "children": [
+            {
+              "name": "Get-ProcessEventDetail"
+            }
+          ]
+        },
+        {
+          "name": "ProcessPreview",
+          "children": [
+            {
+              "name": "Get-ProcessPreview"
+            }
+          ]
+        },
+        {
+          "name": "ProcessSegment",
+          "children": [
+            {
+              "name": "Get-ProcessSegment"
+            }
+          ]
+        },
+        {
+          "name": "ProcessSummary",
+          "children": [
+            {
+              "name": "Get-ProcessSummary"
+            }
+          ]
+        },
+        {
+          "name": "Process",
+          "children": [
+            {
+              "name": "Search-Process"
+            }
+          ]
+        },
+        {
+          "name": "EncodedSearchQuery",
+          "children": [
+            {
+              "name": "ConvertFrom-EncodedSearchQuery"
+            },
+            {
+              "name": "ConvertTo-EncodedSearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "DateTime",
+          "children": [
+            {
+              "name": "ConvertTo-DateTime"
+            }
+          ]
+        },
+        {
+          "name": "Api",
+          "children": [
+            {
+              "name": "Invoke-Api"
+            }
+          ]
+        },
+        {
+          "name": "SelfSignedCertificateAsIgnored",
+          "children": [
+            {
+              "name": "Set-SelfSignedCertificateAsIgnored"
+            }
+          ]
+        },
+        {
+          "name": "Watchlist",
+          "children": [
+            {
+              "name": "Backup-Watchlist"
+            },
+            {
+              "name": "Edit-Watchlist"
+            },
+            {
+              "name": "Get-Watchlist"
+            },
+            {
+              "name": "New-Watchlist"
+            },
+            {
+              "name": "Remove-Watchlist"
+            },
+            {
+              "name": "Restore-Watchlist"
+            },
+            {
+              "name": "Test-Watchlist"
+            }
+          ]
+        },
+        {
+          "name": "WatchlistAction",
+          "children": [
+            {
+              "name": "Get-WatchlistAction"
+            },
+            {
+              "name": "Set-WatchlistAction"
+            },
+            {
+              "name": "Test-WatchlistAction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS.CredentialManager",
+      "companyName": "Unknown",
+      "author": "Graeme Meyer",
+      "children": [
+        {
+          "name": "StoredCredential",
+          "children": [
+            {
+              "name": "Get-StoredCredential"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

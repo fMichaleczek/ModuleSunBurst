@@ -1,0 +1,403 @@
+{
+  "name": "Markus Scholtes",
+  "children": [
+    {
+      "name": "CredentialLocker",
+      "companyName": "Unknown",
+      "author": "Markus Scholtes",
+      "children": [
+        {
+          "name": "VaultCredential",
+          "children": [
+            {
+              "name": "Get-VaultCredential"
+            },
+            {
+              "name": "Add-VaultCredential"
+            },
+            {
+              "name": "Remove-VaultCredential"
+            },
+            {
+              "name": "ConvertTo-VaultCredential"
+            },
+            {
+              "name": "ConvertFrom-VaultCredential"
+            }
+          ]
+        },
+        {
+          "name": "VaultCredentials",
+          "children": [
+            {
+              "name": "Show-VaultCredentials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Firewall-Manager",
+      "companyName": "Unknown",
+      "author": "Markus Scholtes",
+      "children": [
+        {
+          "name": "FirewallRules",
+          "children": [
+            {
+              "name": "Export-FirewallRules"
+            },
+            {
+              "name": "Import-FirewallRules"
+            },
+            {
+              "name": "Remove-FirewallRules"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ps2exe",
+      "companyName": "Unknown",
+      "author": "Markus Scholtes",
+      "children": [
+        {
+          "name": "PS2EXE",
+          "children": [
+            {
+              "name": "Invoke-PS2EXE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SysAdminsFriends",
+      "companyName": "Unknown",
+      "author": "Markus Scholtes",
+      "children": [
+        {
+          "name": "LogDirectory",
+          "children": [
+            {
+              "name": "Compress-LogDirectory"
+            }
+          ]
+        },
+        {
+          "name": "Batch",
+          "children": [
+            {
+              "name": "ConvertTo-Batch"
+            }
+          ]
+        },
+        {
+          "name": "FirewallRules",
+          "children": [
+            {
+              "name": "Export-FirewallRules"
+            },
+            {
+              "name": "Import-FirewallRules"
+            },
+            {
+              "name": "Remove-FirewallRules"
+            }
+          ]
+        },
+        {
+          "name": "RebootTime",
+          "children": [
+            {
+              "name": "Get-RebootTime"
+            }
+          ]
+        },
+        {
+          "name": "Sessions",
+          "children": [
+            {
+              "name": "Get-Sessions"
+            }
+          ]
+        },
+        {
+          "name": "InFile",
+          "children": [
+            {
+              "name": "Replace-InFile"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "Split-File"
+            },
+            {
+              "name": "Join-File"
+            }
+          ]
+        },
+        {
+          "name": "FileSegment",
+          "children": [
+            {
+              "name": "Export-FileSegment"
+            },
+            {
+              "name": "Import-FileSegment"
+            }
+          ]
+        },
+        {
+          "name": "AdminExplorer",
+          "children": [
+            {
+              "name": "Invoke-AdminExplorer"
+            }
+          ]
+        },
+        {
+          "name": "Admin",
+          "children": [
+            {
+              "name": "Test-Admin"
+            }
+          ]
+        },
+        {
+          "name": "FileDialog",
+          "children": [
+            {
+              "name": "Select-FileDialog"
+            }
+          ]
+        },
+        {
+          "name": "Webserver",
+          "children": [
+            {
+              "name": "Start-Webserver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VirtualDesktop",
+      "companyName": "Unknown",
+      "author": "Markus Scholtes",
+      "children": [
+        {
+          "name": "DesktopCount",
+          "children": [
+            {
+              "name": "Get-DesktopCount"
+            }
+          ]
+        },
+        {
+          "name": "DesktopList",
+          "children": [
+            {
+              "name": "Get-DesktopList"
+            }
+          ]
+        },
+        {
+          "name": "Desktop",
+          "children": [
+            {
+              "name": "New-Desktop"
+            },
+            {
+              "name": "Switch-Desktop"
+            },
+            {
+              "name": "Remove-Desktop"
+            },
+            {
+              "name": "Get-Desktop"
+            },
+            {
+              "name": "Move-Desktop"
+            }
+          ]
+        },
+        {
+          "name": "AllDesktops",
+          "children": [
+            {
+              "name": "Remove-AllDesktops"
+            }
+          ]
+        },
+        {
+          "name": "CurrentDesktop",
+          "children": [
+            {
+              "name": "Get-CurrentDesktop"
+            },
+            {
+              "name": "Test-CurrentDesktop"
+            }
+          ]
+        },
+        {
+          "name": "DesktopIndex",
+          "children": [
+            {
+              "name": "Get-DesktopIndex"
+            }
+          ]
+        },
+        {
+          "name": "DesktopName",
+          "children": [
+            {
+              "name": "Get-DesktopName"
+            },
+            {
+              "name": "Set-DesktopName"
+            }
+          ]
+        },
+        {
+          "name": "DesktopWallpaper",
+          "children": [
+            {
+              "name": "Set-DesktopWallpaper"
+            }
+          ]
+        },
+        {
+          "name": "AllDesktopWallpapers",
+          "children": [
+            {
+              "name": "Set-AllDesktopWallpapers"
+            }
+          ]
+        },
+        {
+          "name": "DesktopFromWindow",
+          "children": [
+            {
+              "name": "Get-DesktopFromWindow"
+            }
+          ]
+        },
+        {
+          "name": "LeftDesktop",
+          "children": [
+            {
+              "name": "Get-LeftDesktop"
+            }
+          ]
+        },
+        {
+          "name": "RightDesktop",
+          "children": [
+            {
+              "name": "Get-RightDesktop"
+            }
+          ]
+        },
+        {
+          "name": "Window",
+          "children": [
+            {
+              "name": "Move-Window"
+            },
+            {
+              "name": "Test-Window"
+            },
+            {
+              "name": "Pin-Window"
+            },
+            {
+              "name": "Unpin-Window"
+            }
+          ]
+        },
+        {
+          "name": "ActiveWindow",
+          "children": [
+            {
+              "name": "Move-ActiveWindow"
+            }
+          ]
+        },
+        {
+          "name": "WindowPinned",
+          "children": [
+            {
+              "name": "Test-WindowPinned"
+            }
+          ]
+        },
+        {
+          "name": "Application",
+          "children": [
+            {
+              "name": "Pin-Application"
+            },
+            {
+              "name": "Unpin-Application"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationPinned",
+          "children": [
+            {
+              "name": "Test-ApplicationPinned"
+            }
+          ]
+        },
+        {
+          "name": "ConsoleHandle",
+          "children": [
+            {
+              "name": "Get-ConsoleHandle"
+            }
+          ]
+        },
+        {
+          "name": "ActiveWindowHandle",
+          "children": [
+            {
+              "name": "Get-ActiveWindowHandle"
+            }
+          ]
+        },
+        {
+          "name": "WindowHandle",
+          "children": [
+            {
+              "name": "Find-WindowHandle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WebServer",
+      "companyName": "Unknown",
+      "author": "Markus Scholtes",
+      "children": [
+        {
+          "name": "Webserver",
+          "children": [
+            {
+              "name": "Start-Webserver"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

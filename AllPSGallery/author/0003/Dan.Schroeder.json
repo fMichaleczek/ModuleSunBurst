@@ -1,0 +1,72 @@
+{
+  "name": "Dan.Schroeder",
+  "children": [
+    {
+      "name": "AzureArtifactsPowerShellModuleHelper",
+      "companyName": "Unknown",
+      "author": "Dan.Schroeder",
+      "children": [
+        {
+          "name": "AzureArtifactsModule",
+          "children": [
+            {
+              "name": "Find-AzureArtifactsModule"
+            },
+            {
+              "name": "Install-AzureArtifactsModule"
+            },
+            {
+              "name": "Update-AzureArtifactsModule"
+            }
+          ]
+        },
+        {
+          "name": "AndUpdateAzureArtifactsModule",
+          "children": [
+            {
+              "name": "Install-AndUpdateAzureArtifactsModule"
+            }
+          ]
+        },
+        {
+          "name": "AzureArtifactsPSRepository",
+          "children": [
+            {
+              "name": "Register-AzureArtifactsPSRepository"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Invoke-MsBuild",
+      "companyName": "Unknown",
+      "author": "Dan.Schroeder",
+      "children": [
+        {
+          "name": "MsBuild",
+          "children": [
+            {
+              "name": "Invoke-MsBuild"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New-GitHubRelease",
+      "companyName": "Unknown",
+      "author": "Dan.Schroeder",
+      "children": [
+        {
+          "name": "GitHubRelease",
+          "children": [
+            {
+              "name": "New-GitHubRelease"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

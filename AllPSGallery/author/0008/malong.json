@@ -1,0 +1,1302 @@
+{
+  "name": "malong",
+  "children": [
+    {
+      "name": "Piraeus.Module.Core",
+      "companyName": "SkunkLab",
+      "author": "malong",
+      "children": [
+        {
+          "name": "PiraeusManagementToken",
+          "children": [
+            {
+              "name": "Get-PiraeusManagementToken"
+            }
+          ]
+        },
+        {
+          "name": "CaplPolicy",
+          "children": [
+            {
+              "name": "Add-CaplPolicy"
+            },
+            {
+              "name": "Get-CaplPolicy"
+            },
+            {
+              "name": "Remove-CaplPolicy"
+            },
+            {
+              "name": "New-CaplPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CaplRule",
+          "children": [
+            {
+              "name": "New-CaplRule"
+            }
+          ]
+        },
+        {
+          "name": "CaplOperation",
+          "children": [
+            {
+              "name": "New-CaplOperation"
+            }
+          ]
+        },
+        {
+          "name": "CaplMatch",
+          "children": [
+            {
+              "name": "New-CaplMatch"
+            }
+          ]
+        },
+        {
+          "name": "CaplLogicalAnd",
+          "children": [
+            {
+              "name": "New-CaplLogicalAnd"
+            }
+          ]
+        },
+        {
+          "name": "CaplLogicalOr",
+          "children": [
+            {
+              "name": "New-CaplLogicalOr"
+            }
+          ]
+        },
+        {
+          "name": "CaplTransform",
+          "children": [
+            {
+              "name": "New-CaplTransform"
+            }
+          ]
+        },
+        {
+          "name": "CaplLiteralClaim",
+          "children": [
+            {
+              "name": "New-CaplLiteralClaim"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusEventMetadata",
+          "children": [
+            {
+              "name": "Add-PiraeusEventMetadata"
+            },
+            {
+              "name": "Get-PiraeusEventMetadata"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusSigmaAlgebra",
+          "children": [
+            {
+              "name": "Get-PiraeusSigmaAlgebra"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusEvent",
+          "children": [
+            {
+              "name": "Remove-PiraeusEvent"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusSubscriptionMetadata",
+          "children": [
+            {
+              "name": "Add-PiraeusSubscriptionMetadata"
+            },
+            {
+              "name": "Get-PiraeusSubscriptionMetadata"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusSubscription",
+          "children": [
+            {
+              "name": "Remove-PiraeusSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusBlobStorageSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusBlobStorageSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusCosmosDbSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusCosmosDbSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusEventGridSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusEventGridSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusEventHubSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusEventHubSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusIotHubCommandSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusIotHubCommandSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusIotHubDeviceSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusIotHubDeviceSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusIotHubDirectMethodSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusIotHubDirectMethodSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusQueueStorageSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusQueueStorageSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusServiceBusSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusServiceBusSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusWebServiceSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusWebServiceSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusRedisCacheSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusRedisCacheSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusSubscriptionList",
+          "children": [
+            {
+              "name": "Get-PiraeusSubscriptionList"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusSubscriberSubscriptions",
+          "children": [
+            {
+              "name": "Get-PiraeusSubscriberSubscriptions"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusEventMetrics",
+          "children": [
+            {
+              "name": "Get-PiraeusEventMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusSubscriptionMetrics",
+          "children": [
+            {
+              "name": "Get-PiraeusSubscriptionMetrics"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusServiceIdentityClaims",
+          "children": [
+            {
+              "name": "Add-PiraeusServiceIdentityClaims"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusServiceIdentityCertificate",
+          "children": [
+            {
+              "name": "Add-PiraeusServiceIdentityCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusPskSecret",
+          "children": [
+            {
+              "name": "Add-PiraeusPskSecret"
+            },
+            {
+              "name": "Get-PiraeusPskSecret"
+            },
+            {
+              "name": "Remove-PiraeusPskSecret"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusPskKeys",
+          "children": [
+            {
+              "name": "Get-PiraeusPskKeys"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusMLSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusMLSubscription"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusWebHookSubscription",
+          "children": [
+            {
+              "name": "Add-PiraeusWebHookSubscription"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PiraeusDebug",
+      "companyName": "Unknown",
+      "author": "malong",
+      "children": [
+        {
+          "name": "PiraeusDeployment",
+          "children": [
+            {
+              "name": "New-PiraeusDeployment"
+            }
+          ]
+        },
+        {
+          "name": "KubeApply",
+          "children": [
+            {
+              "name": "Set-KubeApply"
+            }
+          ]
+        },
+        {
+          "name": "InstallNGINX",
+          "children": [
+            {
+              "name": "New-InstallNGINX"
+            }
+          ]
+        },
+        {
+          "name": "WaitForApiServices",
+          "children": [
+            {
+              "name": "New-WaitForApiServices"
+            }
+          ]
+        },
+        {
+          "name": "AksCredentials",
+          "children": [
+            {
+              "name": "Get-AksCredentials"
+            }
+          ]
+        },
+        {
+          "name": "ExternalIP",
+          "children": [
+            {
+              "name": "Get-ExternalIP"
+            }
+          ]
+        },
+        {
+          "name": "NodeLabel",
+          "children": [
+            {
+              "name": "Set-NodeLabel"
+            }
+          ]
+        },
+        {
+          "name": "ApplyYaml",
+          "children": [
+            {
+              "name": "Set-ApplyYaml"
+            }
+          ]
+        },
+        {
+          "name": "Yaml",
+          "children": [
+            {
+              "name": "Update-Yaml"
+            }
+          ]
+        },
+        {
+          "name": "CleanUpK8Deployment",
+          "children": [
+            {
+              "name": "New-CleanUpK8Deployment"
+            }
+          ]
+        },
+        {
+          "name": "RandomKey",
+          "children": [
+            {
+              "name": "New-RandomKey"
+            }
+          ]
+        },
+        {
+          "name": "RandomStorageAcctName",
+          "children": [
+            {
+              "name": "New-RandomStorageAcctName"
+            }
+          ]
+        },
+        {
+          "name": "InstrumentationKey",
+          "children": [
+            {
+              "name": "Get-InstrumentationKey"
+            }
+          ]
+        },
+        {
+          "name": "SampleConfig",
+          "children": [
+            {
+              "name": "New-SampleConfig"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusCleanup",
+          "children": [
+            {
+              "name": "New-PiraeusCleanup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkunkLabAks",
+      "companyName": "SkunkLab",
+      "author": "malong",
+      "children": [
+        {
+          "name": "CertManager",
+          "children": [
+            {
+              "name": "Add-CertManager"
+            }
+          ]
+        },
+        {
+          "name": "Issuer",
+          "children": [
+            {
+              "name": "Add-Issuer"
+            }
+          ]
+        },
+        {
+          "name": "NGINX",
+          "children": [
+            {
+              "name": "Add-NGINX"
+            }
+          ]
+        },
+        {
+          "name": "NodePool",
+          "children": [
+            {
+              "name": "Add-NodePool"
+            }
+          ]
+        },
+        {
+          "name": "AksClusterExists",
+          "children": [
+            {
+              "name": "Get-AksClusterExists"
+            }
+          ]
+        },
+        {
+          "name": "AksCredentials",
+          "children": [
+            {
+              "name": "Get-AksCredentials"
+            }
+          ]
+        },
+        {
+          "name": "ExternalIP",
+          "children": [
+            {
+              "name": "Get-ExternalIP"
+            }
+          ]
+        },
+        {
+          "name": "AksCluster",
+          "children": [
+            {
+              "name": "New-AksCluster"
+            },
+            {
+              "name": "Remove-AksCluster"
+            }
+          ]
+        },
+        {
+          "name": "KubectlApply",
+          "children": [
+            {
+              "name": "New-KubectlApply"
+            }
+          ]
+        },
+        {
+          "name": "KubectlClusterCleanup",
+          "children": [
+            {
+              "name": "New-KubectlClusterCleanup"
+            }
+          ]
+        },
+        {
+          "name": "ApplyYaml",
+          "children": [
+            {
+              "name": "Set-ApplyYaml"
+            }
+          ]
+        },
+        {
+          "name": "Certificate",
+          "children": [
+            {
+              "name": "Set-Certificate"
+            }
+          ]
+        },
+        {
+          "name": "Ingress",
+          "children": [
+            {
+              "name": "Set-Ingress"
+            }
+          ]
+        },
+        {
+          "name": "NodeLabel",
+          "children": [
+            {
+              "name": "Set-NodeLabel"
+            }
+          ]
+        },
+        {
+          "name": "Timer",
+          "children": [
+            {
+              "name": "Set-Timer"
+            }
+          ]
+        },
+        {
+          "name": "WaitForApiServices",
+          "children": [
+            {
+              "name": "Set-WaitForApiServices"
+            }
+          ]
+        },
+        {
+          "name": "PublicIP",
+          "children": [
+            {
+              "name": "Update-PublicIP"
+            }
+          ]
+        },
+        {
+          "name": "Step",
+          "children": [
+            {
+              "name": "Update-Step"
+            }
+          ]
+        },
+        {
+          "name": "Yaml",
+          "children": [
+            {
+              "name": "Update-Yaml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkunkLabAzure",
+      "companyName": "SkunkLab",
+      "author": "malong",
+      "children": [
+        {
+          "name": "Subscription",
+          "children": [
+            {
+              "name": "Set-Subscription"
+            }
+          ]
+        },
+        {
+          "name": "ResourceGroup",
+          "children": [
+            {
+              "name": "Set-ResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipal",
+          "children": [
+            {
+              "name": "Get-ServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "InstrumentationKey",
+          "children": [
+            {
+              "name": "Get-InstrumentationKey"
+            }
+          ]
+        },
+        {
+          "name": "IoTHubConnectionString",
+          "children": [
+            {
+              "name": "Get-IoTHubConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "StorageAccountNameAvailable",
+          "children": [
+            {
+              "name": "Get-StorageAccountNameAvailable"
+            }
+          ]
+        },
+        {
+          "name": "StorageAccountConnectionString",
+          "children": [
+            {
+              "name": "Get-StorageAccountConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "TenantId",
+          "children": [
+            {
+              "name": "Get-TenantId"
+            }
+          ]
+        },
+        {
+          "name": "RandomKey",
+          "children": [
+            {
+              "name": "New-RandomKey"
+            }
+          ]
+        },
+        {
+          "name": "RandomStorageAcctName",
+          "children": [
+            {
+              "name": "New-RandomStorageAcctName"
+            }
+          ]
+        },
+        {
+          "name": "RegisterApp",
+          "children": [
+            {
+              "name": "New-RegisterApp"
+            }
+          ]
+        },
+        {
+          "name": "StorageAccount",
+          "children": [
+            {
+              "name": "New-StorageAccount"
+            }
+          ]
+        },
+        {
+          "name": "AppInsightsExtension",
+          "children": [
+            {
+              "name": "Set-AppInsightsExtension"
+            }
+          ]
+        },
+        {
+          "name": "IoTHubExtension",
+          "children": [
+            {
+              "name": "Set-IoTHubExtension"
+            }
+          ]
+        },
+        {
+          "name": "CleanOrleansStorageAccount",
+          "children": [
+            {
+              "name": "Set-CleanOrleansStorageAccount"
+            }
+          ]
+        },
+        {
+          "name": "LogAnalyticsWorkspace",
+          "children": [
+            {
+              "name": "Create-LogAnalyticsWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "RandomLogAnalyticsWorkspaceName",
+          "children": [
+            {
+              "name": "New-RandomLogAnalyticsWorkspaceName"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkunkLabPiraeus",
+      "companyName": "SkunkLab",
+      "author": "malong",
+      "children": [
+        {
+          "name": "PiraeusDemo",
+          "children": [
+            {
+              "name": "New-PiraeusDemo"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusDeployment",
+          "children": [
+            {
+              "name": "New-PiraeusDeployment"
+            }
+          ]
+        },
+        {
+          "name": "SampleConfig",
+          "children": [
+            {
+              "name": "New-SampleConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkunkLabVirtualRtu",
+      "companyName": "SkunkLab",
+      "author": "malong",
+      "children": [
+        {
+          "name": "FullVrtuDeploy",
+          "children": [
+            {
+              "name": "New-FullVrtuDeploy"
+            }
+          ]
+        },
+        {
+          "name": "VrtuVnetDeploy",
+          "children": [
+            {
+              "name": "New-VrtuVnetDeploy"
+            },
+            {
+              "name": "Add-VrtuVnetDeploy"
+            }
+          ]
+        },
+        {
+          "name": "WebMonitorDeploy",
+          "children": [
+            {
+              "name": "New-WebMonitorDeploy"
+            }
+          ]
+        },
+        {
+          "name": "DeviceDeploy",
+          "children": [
+            {
+              "name": "New-DeviceDeploy"
+            }
+          ]
+        },
+        {
+          "name": "DeployFunctions",
+          "children": [
+            {
+              "name": "New-DeployFunctions"
+            }
+          ]
+        },
+        {
+          "name": "WedMonitorDeploy",
+          "children": [
+            {
+              "name": "Add-WedMonitorDeploy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkunkLabVrtuFunctions",
+      "companyName": "SkunkLab",
+      "author": "malong",
+      "children": [
+        {
+          "name": "FunctionApp",
+          "children": [
+            {
+              "name": "New-FunctionApp"
+            },
+            {
+              "name": "Remove-FunctionApp"
+            }
+          ]
+        },
+        {
+          "name": "FunctionCreds",
+          "children": [
+            {
+              "name": "Get-FunctionCreds"
+            }
+          ]
+        },
+        {
+          "name": "FunctionCode",
+          "children": [
+            {
+              "name": "Get-FunctionCode"
+            }
+          ]
+        },
+        {
+          "name": "ConfigurationFunctionApp",
+          "children": [
+            {
+              "name": "New-ConfigurationFunctionApp"
+            }
+          ]
+        },
+        {
+          "name": "DeploymentFunctionApp",
+          "children": [
+            {
+              "name": "New-DeploymentFunctionApp"
+            }
+          ]
+        },
+        {
+          "name": "ConfigSecrets",
+          "children": [
+            {
+              "name": "Update-ConfigSecrets"
+            }
+          ]
+        },
+        {
+          "name": "DeploySecrets",
+          "children": [
+            {
+              "name": "Update-DeploySecrets"
+            }
+          ]
+        },
+        {
+          "name": "FileToBase64",
+          "children": [
+            {
+              "name": "New-FileToBase64"
+            }
+          ]
+        },
+        {
+          "name": "FunctionAppExists",
+          "children": [
+            {
+              "name": "Get-FunctionAppExists"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VrtuModule",
+      "companyName": "Unknown",
+      "author": "malong",
+      "children": [
+        {
+          "name": "Deploy",
+          "children": [
+            {
+              "name": "New-Deploy"
+            }
+          ]
+        },
+        {
+          "name": "PiraeusDeploy",
+          "children": [
+            {
+              "name": "New-PiraeusDeploy"
+            }
+          ]
+        },
+        {
+          "name": "VrtuVnetDeploy",
+          "children": [
+            {
+              "name": "New-VrtuVnetDeploy"
+            }
+          ]
+        },
+        {
+          "name": "WebMonitorDeploy",
+          "children": [
+            {
+              "name": "New-WebMonitorDeploy"
+            }
+          ]
+        },
+        {
+          "name": "CertManager",
+          "children": [
+            {
+              "name": "Add-CertManager"
+            }
+          ]
+        },
+        {
+          "name": "CertManager2",
+          "children": [
+            {
+              "name": "Add-CertManager2"
+            }
+          ]
+        },
+        {
+          "name": "Issuer",
+          "children": [
+            {
+              "name": "Add-Issuer"
+            }
+          ]
+        },
+        {
+          "name": "NGINX",
+          "children": [
+            {
+              "name": "Add-NGINX"
+            }
+          ]
+        },
+        {
+          "name": "NodePool",
+          "children": [
+            {
+              "name": "Add-NodePool"
+            }
+          ]
+        },
+        {
+          "name": "VrtuToIngressController",
+          "children": [
+            {
+              "name": "Add-VrtuToIngressController"
+            }
+          ]
+        },
+        {
+          "name": "WebMonitor",
+          "children": [
+            {
+              "name": "Add-WebMonitor"
+            }
+          ]
+        },
+        {
+          "name": "AksClusterExists",
+          "children": [
+            {
+              "name": "Get-AksClusterExists"
+            }
+          ]
+        },
+        {
+          "name": "AksCredentials",
+          "children": [
+            {
+              "name": "Get-AksCredentials"
+            }
+          ]
+        },
+        {
+          "name": "ApiServicesOnline",
+          "children": [
+            {
+              "name": "Get-ApiServicesOnline"
+            }
+          ]
+        },
+        {
+          "name": "ExternalIPForService",
+          "children": [
+            {
+              "name": "Get-ExternalIPForService"
+            }
+          ]
+        },
+        {
+          "name": "ExternalIP",
+          "children": [
+            {
+              "name": "Get-ExternalIP"
+            }
+          ]
+        },
+        {
+          "name": "InstrumentationKey",
+          "children": [
+            {
+              "name": "Get-InstrumentationKey"
+            }
+          ]
+        },
+        {
+          "name": "IoTHubConnectionString",
+          "children": [
+            {
+              "name": "Get-IoTHubConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipal",
+          "children": [
+            {
+              "name": "Get-ServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "StorageAccountConnectionString",
+          "children": [
+            {
+              "name": "Get-StorageAccountConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "StorageAccountNameAvailable",
+          "children": [
+            {
+              "name": "Get-StorageAccountNameAvailable"
+            }
+          ]
+        },
+        {
+          "name": "TenantId",
+          "children": [
+            {
+              "name": "Get-TenantId"
+            }
+          ]
+        },
+        {
+          "name": "AksCluster",
+          "children": [
+            {
+              "name": "New-AksCluster"
+            },
+            {
+              "name": "Remove-AksCluster"
+            }
+          ]
+        },
+        {
+          "name": "KubectlApply",
+          "children": [
+            {
+              "name": "New-KubectlApply"
+            }
+          ]
+        },
+        {
+          "name": "KubectlClusterCleanup",
+          "children": [
+            {
+              "name": "New-KubectlClusterCleanup"
+            }
+          ]
+        },
+        {
+          "name": "RandomKey",
+          "children": [
+            {
+              "name": "New-RandomKey"
+            }
+          ]
+        },
+        {
+          "name": "RandomStorageAcctName",
+          "children": [
+            {
+              "name": "New-RandomStorageAcctName"
+            }
+          ]
+        },
+        {
+          "name": "RegisterApp",
+          "children": [
+            {
+              "name": "New-RegisterApp"
+            }
+          ]
+        },
+        {
+          "name": "SampleConfig",
+          "children": [
+            {
+              "name": "New-SampleConfig"
+            }
+          ]
+        },
+        {
+          "name": "StorageAccount",
+          "children": [
+            {
+              "name": "New-StorageAccount"
+            }
+          ]
+        },
+        {
+          "name": "AppInsightsExtension",
+          "children": [
+            {
+              "name": "Set-AppInsightsExtension"
+            }
+          ]
+        },
+        {
+          "name": "ApplyYaml",
+          "children": [
+            {
+              "name": "Set-ApplyYaml"
+            }
+          ]
+        },
+        {
+          "name": "Certificate",
+          "children": [
+            {
+              "name": "Set-Certificate"
+            }
+          ]
+        },
+        {
+          "name": "CleanOrleansStorageAccount",
+          "children": [
+            {
+              "name": "Set-CleanOrleansStorageAccount"
+            }
+          ]
+        },
+        {
+          "name": "Ingress",
+          "children": [
+            {
+              "name": "Set-Ingress"
+            }
+          ]
+        },
+        {
+          "name": "IoTHubExtension",
+          "children": [
+            {
+              "name": "Set-IoTHubExtension"
+            }
+          ]
+        },
+        {
+          "name": "NodeLabel",
+          "children": [
+            {
+              "name": "Set-NodeLabel"
+            }
+          ]
+        },
+        {
+          "name": "ResourceGroup",
+          "children": [
+            {
+              "name": "Set-ResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "Subscription",
+          "children": [
+            {
+              "name": "Set-Subscription"
+            }
+          ]
+        },
+        {
+          "name": "Timer",
+          "children": [
+            {
+              "name": "Set-Timer"
+            }
+          ]
+        },
+        {
+          "name": "WaitForApiServices",
+          "children": [
+            {
+              "name": "Set-WaitForApiServices"
+            }
+          ]
+        },
+        {
+          "name": "MonitorIngressController",
+          "children": [
+            {
+              "name": "Update-MonitorIngressController"
+            }
+          ]
+        },
+        {
+          "name": "MonitorIngressDns",
+          "children": [
+            {
+              "name": "Update-MonitorIngressDns"
+            }
+          ]
+        },
+        {
+          "name": "PublicIP",
+          "children": [
+            {
+              "name": "Update-PublicIP"
+            }
+          ]
+        },
+        {
+          "name": "Step",
+          "children": [
+            {
+              "name": "Update-Step"
+            }
+          ]
+        },
+        {
+          "name": "Yaml",
+          "children": [
+            {
+              "name": "Update-Yaml"
+            }
+          ]
+        },
+        {
+          "name": "DeviceDeploy",
+          "children": [
+            {
+              "name": "New-DeviceDeploy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

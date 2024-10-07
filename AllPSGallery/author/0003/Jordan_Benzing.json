@@ -1,0 +1,109 @@
+{
+  "name": "Jordan Benzing",
+  "children": [
+    {
+      "name": "CMOperations",
+      "companyName": "Unknown",
+      "author": "Jordan Benzing",
+      "children": [
+        {
+          "name": "SoftwareUpdateScan",
+          "children": [
+            {
+              "name": "Start-SoftwareUpdateScan"
+            }
+          ]
+        },
+        {
+          "name": "HardwareInventoryScan",
+          "children": [
+            {
+              "name": "Start-HardwareInventoryScan"
+            }
+          ]
+        },
+        {
+          "name": "LastHardwareScan",
+          "children": [
+            {
+              "name": "Get-LastHardwareScan"
+            }
+          ]
+        },
+        {
+          "name": "UpdatesInSoftwareCenter",
+          "children": [
+            {
+              "name": "Get-UpdatesInSoftwareCenter"
+            },
+            {
+              "name": "Install-UpdatesInSoftwareCenter"
+            }
+          ]
+        },
+        {
+          "name": "NextAvailableMW",
+          "children": [
+            {
+              "name": "Get-NextAvailableMW"
+            }
+          ]
+        },
+        {
+          "name": "LastSoftwareUpdateScan",
+          "children": [
+            {
+              "name": "Get-LastSoftwareUpdateScan"
+            }
+          ]
+        },
+        {
+          "name": "CMOCollectionPath",
+          "children": [
+            {
+              "name": "Get-CMOCollectionPath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TrueSecInfra",
+      "companyName": "Unknown",
+      "author": "Jordan Benzing",
+      "children": [
+        {
+          "name": "TSxExperts",
+          "children": [
+            {
+              "name": "Get-TSxExperts"
+            }
+          ]
+        },
+        {
+          "name": "TSxCompetency",
+          "children": [
+            {
+              "name": "Get-TSxCompetency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TSxLogging",
+      "companyName": "Unknown",
+      "author": "Jordan Benzing",
+      "children": [
+        {
+          "name": "TsxLog",
+          "children": [
+            {
+              "name": "Write-TsxLog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

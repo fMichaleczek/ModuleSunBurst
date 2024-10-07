@@ -1,0 +1,189 @@
+{
+  "name": "nmbell",
+  "children": [
+    {
+      "name": "powdrgit",
+      "companyName": "Unknown",
+      "author": "nmbell",
+      "children": [
+        {
+          "name": "PowdrgitPath",
+          "children": [
+            {
+              "name": "Add-PowdrgitPath"
+            },
+            {
+              "name": "Remove-PowdrgitPath"
+            },
+            {
+              "name": "Test-PowdrgitPath"
+            }
+          ]
+        },
+        {
+          "name": "GitRepo",
+          "children": [
+            {
+              "name": "Find-GitRepo"
+            },
+            {
+              "name": "Get-GitRepo"
+            },
+            {
+              "name": "New-GitRepo"
+            },
+            {
+              "name": "Remove-GitRepo"
+            },
+            {
+              "name": "Set-GitRepo"
+            }
+          ]
+        },
+        {
+          "name": "GitDiff",
+          "children": [
+            {
+              "name": "Format-GitDiff"
+            },
+            {
+              "name": "Get-GitDiff"
+            }
+          ]
+        },
+        {
+          "name": "GitBranch",
+          "children": [
+            {
+              "name": "Get-GitBranch"
+            },
+            {
+              "name": "Set-GitBranch"
+            }
+          ]
+        },
+        {
+          "name": "GitCommit",
+          "children": [
+            {
+              "name": "Get-GitCommit"
+            }
+          ]
+        },
+        {
+          "name": "GitCommitFile",
+          "children": [
+            {
+              "name": "Get-GitCommitFile"
+            }
+          ]
+        },
+        {
+          "name": "GitConfigFile",
+          "children": [
+            {
+              "name": "Get-GitConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "GitFileHistory",
+          "children": [
+            {
+              "name": "Get-GitFileHistory"
+            }
+          ]
+        },
+        {
+          "name": "GitLog",
+          "children": [
+            {
+              "name": "Get-GitLog"
+            }
+          ]
+        },
+        {
+          "name": "GitTag",
+          "children": [
+            {
+              "name": "Get-GitTag"
+            }
+          ]
+        },
+        {
+          "name": "GitClone",
+          "children": [
+            {
+              "name": "Invoke-GitClone"
+            }
+          ]
+        },
+        {
+          "name": "GitExpression",
+          "children": [
+            {
+              "name": "Invoke-GitExpression"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSExpandLine",
+      "companyName": "Unknown",
+      "author": "nmbell",
+      "children": [
+        {
+          "name": "CustomHotlist",
+          "children": [
+            {
+              "name": "Edit-CustomHotlist"
+            }
+          ]
+        },
+        {
+          "name": "CustomHotstring",
+          "children": [
+            {
+              "name": "Edit-CustomHotstring"
+            }
+          ]
+        },
+        {
+          "name": "AliasAsHotstring",
+          "children": [
+            {
+              "name": "Save-AliasAsHotstring"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSReadExif",
+      "companyName": "Unknown",
+      "author": "nmbell",
+      "children": [
+        {
+          "name": "ExifData",
+          "children": [
+            {
+              "name": "Add-ExifData"
+            },
+            {
+              "name": "Get-ExifData"
+            }
+          ]
+        },
+        {
+          "name": "ExifTag",
+          "children": [
+            {
+              "name": "Get-ExifTag"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

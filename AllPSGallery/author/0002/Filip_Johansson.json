@@ -1,0 +1,51 @@
+{
+  "name": "Filip Johansson",
+  "children": [
+    {
+      "name": "AHSPSUtil",
+      "companyName": "Unknown",
+      "author": "Filip Johansson",
+      "children": [
+        {
+          "name": "AHSCloudUnattendAuditMode",
+          "children": [
+            {
+              "name": "Set-AHSCloudUnattendAuditMode"
+            }
+          ]
+        },
+        {
+          "name": "AHSSpecialize",
+          "children": [
+            {
+              "name": "Invoke-AHSSpecialize"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AHSUtil",
+      "companyName": "Unknown",
+      "author": "Filip Johansson",
+      "children": [
+        {
+          "name": "AHSSpecialize",
+          "children": [
+            {
+              "name": "Invoke-AHSSpecialize"
+            }
+          ]
+        },
+        {
+          "name": "AHSCloudUnattendedAuditMode",
+          "children": [
+            {
+              "name": "Set-AHSCloudUnattendedAuditMode"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

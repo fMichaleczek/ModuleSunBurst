@@ -1,0 +1,86 @@
+{
+  "name": "Mike Kletz",
+  "children": [
+    {
+      "name": "UofICDB",
+      "companyName": "The University of Illinois",
+      "author": "Mike Kletz",
+      "children": [
+        {
+          "name": "CDBItem",
+          "children": [
+            {
+              "name": "Get-CDBItem"
+            }
+          ]
+        },
+        {
+          "name": "CDBItemPermission",
+          "children": [
+            {
+              "name": "Get-CDBItemPermission"
+            }
+          ]
+        },
+        {
+          "name": "CDBSubclassSchema",
+          "children": [
+            {
+              "name": "Get-CDBSubclassSchema"
+            }
+          ]
+        },
+        {
+          "name": "CDBRestCall",
+          "children": [
+            {
+              "name": "Invoke-CDBRestCall"
+            }
+          ]
+        },
+        {
+          "name": "CDBConnection",
+          "children": [
+            {
+              "name": "New-CDBConnection"
+            },
+            {
+              "name": "Remove-CDBConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UofIDMI",
+      "companyName": "The University of Illinois",
+      "author": "Mike Kletz",
+      "children": [
+        {
+          "name": "DMIDepartment",
+          "children": [
+            {
+              "name": "Get-DMIDepartment"
+            }
+          ]
+        },
+        {
+          "name": "DMICache",
+          "children": [
+            {
+              "name": "Update-DMICache"
+            }
+          ]
+        },
+        {
+          "name": "DMISQLiteDB",
+          "children": [
+            {
+              "name": "New-DMISQLiteDB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

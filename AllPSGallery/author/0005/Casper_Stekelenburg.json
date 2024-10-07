@@ -1,0 +1,825 @@
+{
+  "name": "Casper Stekelenburg",
+  "children": [
+    {
+      "name": "HPWriteManager",
+      "companyName": "Unknown",
+      "author": "Casper Stekelenburg",
+      "children": [
+        {
+          "name": "HPRFExclusion",
+          "children": [
+            {
+              "name": "Add-HPRFExclusion"
+            },
+            {
+              "name": "Remove-HPRFExclusion"
+            },
+            {
+              "name": "Update-HPRFExclusion"
+            }
+          ]
+        },
+        {
+          "name": "HPWFExclusion",
+          "children": [
+            {
+              "name": "Add-HPWFExclusion"
+            },
+            {
+              "name": "Remove-HPWFExclusion"
+            }
+          ]
+        },
+        {
+          "name": "HPDCDiskCaching",
+          "children": [
+            {
+              "name": "Disable-HPDCDiskCaching"
+            },
+            {
+              "name": "Enable-HPDCDiskCaching"
+            }
+          ]
+        },
+        {
+          "name": "HPRFGlobalBypass",
+          "children": [
+            {
+              "name": "Disable-HPRFGlobalBypass"
+            },
+            {
+              "name": "Enable-HPRFGlobalBypass"
+            },
+            {
+              "name": "Update-HPRFGlobalBypass"
+            }
+          ]
+        },
+        {
+          "name": "HPWF",
+          "children": [
+            {
+              "name": "Disable-HPWF"
+            },
+            {
+              "name": "Enable-HPWF"
+            }
+          ]
+        },
+        {
+          "name": "HPWriteFilter",
+          "children": [
+            {
+              "name": "Disable-HPWriteFilter"
+            },
+            {
+              "name": "Enable-HPWriteFilter"
+            }
+          ]
+        },
+        {
+          "name": "HPCacheDiskInformation",
+          "children": [
+            {
+              "name": "Get-HPCacheDiskInformation"
+            }
+          ]
+        },
+        {
+          "name": "HPCacheSystemStatistic",
+          "children": [
+            {
+              "name": "Get-HPCacheSystemStatistic"
+            }
+          ]
+        },
+        {
+          "name": "HPWFCacheUsage",
+          "children": [
+            {
+              "name": "Get-HPWFCacheUsage"
+            }
+          ]
+        },
+        {
+          "name": "HPWFNextSession",
+          "children": [
+            {
+              "name": "Invoke-HPWFNextSession"
+            }
+          ]
+        },
+        {
+          "name": "HPWFVolume",
+          "children": [
+            {
+              "name": "Protect-HPWFVolume"
+            },
+            {
+              "name": "Unprotect-HPWFVolume"
+            }
+          ]
+        },
+        {
+          "name": "HPDCAllocationPolicy",
+          "children": [
+            {
+              "name": "Set-HPDCAllocationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "HPDCCacheSize",
+          "children": [
+            {
+              "name": "Set-HPDCCacheSize"
+            }
+          ]
+        },
+        {
+          "name": "HPDCFlushCount",
+          "children": [
+            {
+              "name": "Set-HPDCFlushCount"
+            }
+          ]
+        },
+        {
+          "name": "HPDCFlushTimeInterval",
+          "children": [
+            {
+              "name": "Set-HPDCFlushTimeInterval"
+            }
+          ]
+        },
+        {
+          "name": "HPWFAlertMarker",
+          "children": [
+            {
+              "name": "Set-HPWFAlertMarker"
+            }
+          ]
+        },
+        {
+          "name": "HPWFCacheSize",
+          "children": [
+            {
+              "name": "Set-HPWFCacheSize"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JBOADS",
+      "companyName": "Unknown",
+      "author": "Casper Stekelenburg",
+      "children": [
+        {
+          "name": "HomeDirectory",
+          "children": [
+            {
+              "name": "Get-HomeDirectory"
+            }
+          ]
+        },
+        {
+          "name": "UPN",
+          "children": [
+            {
+              "name": "Edit-UPN"
+            }
+          ]
+        },
+        {
+          "name": "DisabledAccount",
+          "children": [
+            {
+              "name": "Find-DisabledAccount"
+            }
+          ]
+        },
+        {
+          "name": "LockedAccount",
+          "children": [
+            {
+              "name": "Find-LockedAccount"
+            }
+          ]
+        },
+        {
+          "name": "AdminsAfterChange",
+          "children": [
+            {
+              "name": "Get-AdminsAfterChange"
+            }
+          ]
+        },
+        {
+          "name": "AdminsBeforeChange",
+          "children": [
+            {
+              "name": "Get-AdminsBeforeChange"
+            }
+          ]
+        },
+        {
+          "name": "DomainAndForestMode",
+          "children": [
+            {
+              "name": "Get-DomainAndForestMode"
+            }
+          ]
+        },
+        {
+          "name": "ExpiringAccount",
+          "children": [
+            {
+              "name": "Get-ExpiringAccount"
+            }
+          ]
+        },
+        {
+          "name": "InactiveUser",
+          "children": [
+            {
+              "name": "Get-InactiveUser"
+            }
+          ]
+        },
+        {
+          "name": "LastLogon",
+          "children": [
+            {
+              "name": "Get-LastLogon"
+            }
+          ]
+        },
+        {
+          "name": "NonExpiringPassword",
+          "children": [
+            {
+              "name": "Get-NonExpiringPassword"
+            }
+          ]
+        },
+        {
+          "name": "LastCreated",
+          "children": [
+            {
+              "name": "Get-LastCreated"
+            }
+          ]
+        },
+        {
+          "name": "DNSFromCSV",
+          "children": [
+            {
+              "name": "Import-DNSFromCSV"
+            }
+          ]
+        },
+        {
+          "name": "Password",
+          "children": [
+            {
+              "name": "Reset-Password"
+            }
+          ]
+        },
+        {
+          "name": "RemovedDC",
+          "children": [
+            {
+              "name": "Search-RemovedDC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JBOCTXS",
+      "companyName": "Unknown",
+      "author": "Casper Stekelenburg",
+      "children": [
+        {
+          "name": "MaintenanceMode",
+          "children": [
+            {
+              "name": "Disable-MaintenanceMode"
+            },
+            {
+              "name": "Enable-MaintenanceMode"
+            },
+            {
+              "name": "Get-MaintenanceMode"
+            }
+          ]
+        },
+        {
+          "name": "UnregisterdVM",
+          "children": [
+            {
+              "name": "Find-UnregisterdVM"
+            }
+          ]
+        },
+        {
+          "name": "StuckUser",
+          "children": [
+            {
+              "name": "Hide-StuckUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SWMSPBackup",
+      "companyName": "Unknown",
+      "author": "Casper Stekelenburg",
+      "children": [
+        {
+          "name": "MSPBackupArchivingRule",
+          "children": [
+            {
+              "name": "Add-MSPBackupArchivingRule"
+            },
+            {
+              "name": "Get-MSPBackupArchivingRule"
+            },
+            {
+              "name": "Remove-MSPBackupArchivingRule"
+            },
+            {
+              "name": "Set-MSPBackupArchivingRule"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupMySQLEntry",
+          "children": [
+            {
+              "name": "Add-MSPBackupMySQLEntry"
+            },
+            {
+              "name": "Get-MSPBackupMySQLEntry"
+            },
+            {
+              "name": "Remove-MSPBackupMySQLEntry"
+            },
+            {
+              "name": "Set-MSPBackupMySQLEntry"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupNetworkShare",
+          "children": [
+            {
+              "name": "Add-MSPBackupNetworkShare"
+            },
+            {
+              "name": "Get-MSPBackupNetworkShare"
+            },
+            {
+              "name": "Remove-MSPBackupNetworkShare"
+            },
+            {
+              "name": "Set-MSPBackupNetworkShare"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupOracleDBEntry",
+          "children": [
+            {
+              "name": "Add-MSPBackupOracleDBEntry"
+            },
+            {
+              "name": "Get-MSPBackupOracleDBEntry"
+            },
+            {
+              "name": "Remove-MSPBackupOracleDBEntry"
+            },
+            {
+              "name": "Set-MSPBackupOracleDBEntry"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupSchedule",
+          "children": [
+            {
+              "name": "Add-MSPBackupSchedule"
+            },
+            {
+              "name": "Get-MSPBackupSchedule"
+            },
+            {
+              "name": "Remove-MSPBackupSchedule"
+            },
+            {
+              "name": "Set-MSPBackupSchedule"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupScript",
+          "children": [
+            {
+              "name": "Add-MSPBackupScript"
+            },
+            {
+              "name": "Get-MSPBackupScript"
+            },
+            {
+              "name": "Remove-MSPBackupScript"
+            },
+            {
+              "name": "Set-MSPBackupScript"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupSelection",
+          "children": [
+            {
+              "name": "Clear-MSPBackupSelection"
+            },
+            {
+              "name": "Get-MSPBackupSelection"
+            },
+            {
+              "name": "Set-MSPBackupSelection"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupProcess",
+          "children": [
+            {
+              "name": "Connect-MSPBackupProcess"
+            }
+          ]
+        },
+        {
+          "name": "MSBackupSessionNode",
+          "children": [
+            {
+              "name": "Export-MSBackupSessionNode"
+            }
+          ]
+        },
+        {
+          "name": "MSPLastBackupStatus",
+          "children": [
+            {
+              "name": "Get-MSPLastBackupStatus"
+            }
+          ]
+        },
+        {
+          "name": "MSBackupSessionNodeList",
+          "children": [
+            {
+              "name": "Get-MSBackupSessionNodeList"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupAppInitError",
+          "children": [
+            {
+              "name": "Get-MSPBackupAppInitError"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupAppStatus",
+          "children": [
+            {
+              "name": "Get-MSPBackupAppStatus"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupFilterList",
+          "children": [
+            {
+              "name": "Get-MSPBackupFilterList"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupProfile",
+          "children": [
+            {
+              "name": "Get-MSPBackupProfile"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupSessionErrorList",
+          "children": [
+            {
+              "name": "Get-MSPBackupSessionErrorList"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupSessionList",
+          "children": [
+            {
+              "name": "Get-MSPBackupSessionList"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupSetting",
+          "children": [
+            {
+              "name": "Get-MSPBackupSetting"
+            },
+            {
+              "name": "Set-MSPBackupSetting"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupStatus",
+          "children": [
+            {
+              "name": "Get-MSPBackupStatus"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupClientTool",
+          "children": [
+            {
+              "name": "Invoke-MSPBackupClientTool"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupFilter",
+          "children": [
+            {
+              "name": "Set-MSPBackupFilter"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackup",
+          "children": [
+            {
+              "name": "Start-MSPBackup"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupRestore",
+          "children": [
+            {
+              "name": "Start-MSPBackupRestore"
+            }
+          ]
+        },
+        {
+          "name": "MSBackupSession",
+          "children": [
+            {
+              "name": "Stop-MSBackupSession"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupDashboard",
+          "children": [
+            {
+              "name": "Unregister-MSPBackupDashboard"
+            }
+          ]
+        },
+        {
+          "name": "MSPBackupFPLocalState",
+          "children": [
+            {
+              "name": "Update-MSPBackupFPLocalState"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UWFModule",
+      "companyName": "Unknown",
+      "author": "Casper Stekelenburg",
+      "children": [
+        {
+          "name": "UWFRegistryExclusion",
+          "children": [
+            {
+              "name": "Add-UWFRegistryExclusion"
+            },
+            {
+              "name": "Get-UWFRegistryExclusion"
+            },
+            {
+              "name": "Remove-UWFRegistryExclusion"
+            },
+            {
+              "name": "Search-UWFRegistryExclusion"
+            }
+          ]
+        },
+        {
+          "name": "UWFVolumeExclusion",
+          "children": [
+            {
+              "name": "Add-UWFVolumeExclusion"
+            },
+            {
+              "name": "Get-UWFVolumeExclusion"
+            },
+            {
+              "name": "Remove-UWFVolumeExclusion"
+            }
+          ]
+        },
+        {
+          "name": "UWF",
+          "children": [
+            {
+              "name": "Disable-UWF"
+            },
+            {
+              "name": "Enable-UWF"
+            }
+          ]
+        },
+        {
+          "name": "UWFServicing",
+          "children": [
+            {
+              "name": "Disable-UWFServicing"
+            },
+            {
+              "name": "Enable-UWFServicing"
+            }
+          ]
+        },
+        {
+          "name": "UWFFeature",
+          "children": [
+            {
+              "name": "Enable-UWFFeature"
+            }
+          ]
+        },
+        {
+          "name": "UWFAllVolumeExclusion",
+          "children": [
+            {
+              "name": "Get-UWFAllVolumeExclusion"
+            }
+          ]
+        },
+        {
+          "name": "UWFOverlayFiles",
+          "children": [
+            {
+              "name": "Get-UWFOverlayFiles"
+            }
+          ]
+        },
+        {
+          "name": "UWFOverlayInformation",
+          "children": [
+            {
+              "name": "Get-UWFOverlayInformation"
+            }
+          ]
+        },
+        {
+          "name": "UWFOverlayType",
+          "children": [
+            {
+              "name": "Get-UWFOverlayType"
+            },
+            {
+              "name": "Set-UWFOverlayType"
+            }
+          ]
+        },
+        {
+          "name": "UWFStatus",
+          "children": [
+            {
+              "name": "Get-UWFStatus"
+            }
+          ]
+        },
+        {
+          "name": "UWFWindowsUpdate",
+          "children": [
+            {
+              "name": "Get-UWFWindowsUpdate"
+            }
+          ]
+        },
+        {
+          "name": "UWFFile",
+          "children": [
+            {
+              "name": "Publish-UWFFile"
+            },
+            {
+              "name": "Unpublish-UWFFile"
+            }
+          ]
+        },
+        {
+          "name": "UWFAllVolumeExclusions",
+          "children": [
+            {
+              "name": "Remove-UWFAllVolumeExclusions"
+            }
+          ]
+        },
+        {
+          "name": "UWFRegistryValue",
+          "children": [
+            {
+              "name": "Remove-UWFRegistryValue"
+            },
+            {
+              "name": "Set-UWFRegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "UWFSettings",
+          "children": [
+            {
+              "name": "Reset-UWFSettings"
+            }
+          ]
+        },
+        {
+          "name": "UWFSystem",
+          "children": [
+            {
+              "name": "Restart-UWFSystem"
+            },
+            {
+              "name": "Stop-UWFSystem"
+            }
+          ]
+        },
+        {
+          "name": "UWFBindByDriveLetter",
+          "children": [
+            {
+              "name": "Set-UWFBindByDriveLetter"
+            }
+          ]
+        },
+        {
+          "name": "UWFOverlayCriticalThreshold",
+          "children": [
+            {
+              "name": "Set-UWFOverlayCriticalThreshold"
+            }
+          ]
+        },
+        {
+          "name": "UWFOverlaySize",
+          "children": [
+            {
+              "name": "Set-UWFOverlaySize"
+            }
+          ]
+        },
+        {
+          "name": "UWFOverlayWarningThreshold",
+          "children": [
+            {
+              "name": "Set-UWFOverlayWarningThreshold"
+            }
+          ]
+        },
+        {
+          "name": "UWFProtectVolume",
+          "children": [
+            {
+              "name": "Set-UWFProtectVolume"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

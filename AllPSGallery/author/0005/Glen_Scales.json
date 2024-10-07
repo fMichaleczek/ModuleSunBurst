@@ -1,0 +1,2080 @@
+{
+  "name": "Glen Scales",
+  "children": [
+    {
+      "name": "EWS-FAI",
+      "companyName": "Unknown",
+      "author": "Glen Scales",
+      "children": [
+        {
+          "name": "FAIExchange",
+          "children": [
+            {
+              "name": "Connect-FAIExchange"
+            }
+          ]
+        },
+        {
+          "name": "FAIItem",
+          "children": [
+            {
+              "name": "Get-FAIItem"
+            }
+          ]
+        },
+        {
+          "name": "ListFAIItems",
+          "children": [
+            {
+              "name": "Invoke-ListFAIItems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exch-Rest",
+      "companyName": "MSGDevelop",
+      "author": "Glen Scales",
+      "children": [
+        {
+          "name": "EXRMailbox",
+          "children": [
+            {
+              "name": "Connect-EXRMailbox"
+            }
+          ]
+        },
+        {
+          "name": "EXRManagementAPI",
+          "children": [
+            {
+              "name": "Connect-EXRManagementAPI"
+            }
+          ]
+        },
+        {
+          "name": "EXRSK4B",
+          "children": [
+            {
+              "name": "Connect-EXRSK4B"
+            }
+          ]
+        },
+        {
+          "name": "EXRMessage",
+          "children": [
+            {
+              "name": "Copy-EXRMessage"
+            },
+            {
+              "name": "Move-EXRMessage"
+            },
+            {
+              "name": "Send-EXRMessage"
+            },
+            {
+              "name": "Search-EXRMessage"
+            },
+            {
+              "name": "Update-EXRMessage"
+            }
+          ]
+        },
+        {
+          "name": "EXROneDriveItem",
+          "children": [
+            {
+              "name": "Copy-EXROneDriveItem"
+            },
+            {
+              "name": "Get-EXROneDriveItem"
+            }
+          ]
+        },
+        {
+          "name": "EXRContactFolderToCSV",
+          "children": [
+            {
+              "name": "Export-EXRContactFolderToCSV"
+            }
+          ]
+        },
+        {
+          "name": "EXRContactToVcard",
+          "children": [
+            {
+              "name": "Export-EXRContactToVcard"
+            }
+          ]
+        },
+        {
+          "name": "EXRDirectoryContactToVcard",
+          "children": [
+            {
+              "name": "Export-EXRDirectoryContactToVcard"
+            }
+          ]
+        },
+        {
+          "name": "EXRUserToVcard",
+          "children": [
+            {
+              "name": "Export-EXRUserToVcard"
+            }
+          ]
+        },
+        {
+          "name": "EXRUserToCSV",
+          "children": [
+            {
+              "name": "Export-EXRUserToCSV"
+            }
+          ]
+        },
+        {
+          "name": "EXRMeetingTimes",
+          "children": [
+            {
+              "name": "Find-EXRMeetingTimes"
+            }
+          ]
+        },
+        {
+          "name": "EXRRooms",
+          "children": [
+            {
+              "name": "Find-EXRRooms"
+            }
+          ]
+        },
+        {
+          "name": "EXRMessageFromMessageId",
+          "children": [
+            {
+              "name": "Find-EXRMessageFromMessageId"
+            }
+          ]
+        },
+        {
+          "name": "EXRAccessToken",
+          "children": [
+            {
+              "name": "Get-EXRAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "EXRAccessTokenUserAndPass",
+          "children": [
+            {
+              "name": "Get-EXRAccessTokenUserAndPass"
+            }
+          ]
+        },
+        {
+          "name": "EXRAllCalendarFolders",
+          "children": [
+            {
+              "name": "Get-EXRAllCalendarFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRAllChildFolders",
+          "children": [
+            {
+              "name": "Get-EXRAllChildFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRAllContactFolders",
+          "children": [
+            {
+              "name": "Get-EXRAllContactFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRContactGroups",
+          "children": [
+            {
+              "name": "Get-EXRContactGroups"
+            }
+          ]
+        },
+        {
+          "name": "EXRAllMailboxItems",
+          "children": [
+            {
+              "name": "Get-EXRAllMailboxItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRAllMailFolders",
+          "children": [
+            {
+              "name": "Get-EXRAllMailFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRAllTaskfolders",
+          "children": [
+            {
+              "name": "Get-EXRAllTaskfolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRAppOnlyToken",
+          "children": [
+            {
+              "name": "Get-EXRAppOnlyToken"
+            }
+          ]
+        },
+        {
+          "name": "EXRArchiveFolder",
+          "children": [
+            {
+              "name": "Get-EXRArchiveFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRAttachments",
+          "children": [
+            {
+              "name": "Get-EXRAttachments"
+            }
+          ]
+        },
+        {
+          "name": "EXRAutomaticRepliesSettings",
+          "children": [
+            {
+              "name": "Get-EXRAutomaticRepliesSettings"
+            }
+          ]
+        },
+        {
+          "name": "EXRCalendarFolder",
+          "children": [
+            {
+              "name": "Get-EXRCalendarFolder"
+            },
+            {
+              "name": "New-EXRCalendarFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRCalendarFolders",
+          "children": [
+            {
+              "name": "Get-EXRCalendarFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRCalendarGroups",
+          "children": [
+            {
+              "name": "Get-EXRCalendarGroups"
+            }
+          ]
+        },
+        {
+          "name": "EXRCalendarView",
+          "children": [
+            {
+              "name": "Get-EXRCalendarView"
+            }
+          ]
+        },
+        {
+          "name": "EXRChannelInformation",
+          "children": [
+            {
+              "name": "Get-EXRChannelInformation"
+            }
+          ]
+        },
+        {
+          "name": "EXRContacts",
+          "children": [
+            {
+              "name": "Get-EXRContacts"
+            },
+            {
+              "name": "Search-EXRContacts"
+            }
+          ]
+        },
+        {
+          "name": "EXRContactsFolder",
+          "children": [
+            {
+              "name": "Get-EXRContactsFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRContactFolders",
+          "children": [
+            {
+              "name": "Get-EXRContactFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRChildContactFolders",
+          "children": [
+            {
+              "name": "Get-EXRChildContactFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRContact",
+          "children": [
+            {
+              "name": "Get-EXRContact"
+            },
+            {
+              "name": "New-EXRContact"
+            },
+            {
+              "name": "Set-EXRContact"
+            }
+          ]
+        },
+        {
+          "name": "EXRContactPhoto",
+          "children": [
+            {
+              "name": "Get-EXRContactPhoto"
+            },
+            {
+              "name": "Set-EXRContactPhoto"
+            }
+          ]
+        },
+        {
+          "name": "EXRDefaultCalendarFolder",
+          "children": [
+            {
+              "name": "Get-EXRDefaultCalendarFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRDefaultContactsFolder",
+          "children": [
+            {
+              "name": "Get-EXRDefaultContactsFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRDefaultOneDrive",
+          "children": [
+            {
+              "name": "Get-EXRDefaultOneDrive"
+            }
+          ]
+        },
+        {
+          "name": "EXRDefaultOneDriveRootItems",
+          "children": [
+            {
+              "name": "Get-EXRDefaultOneDriveRootItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRDirectoryContact",
+          "children": [
+            {
+              "name": "Get-EXRDirectoryContact"
+            }
+          ]
+        },
+        {
+          "name": "EXREmail",
+          "children": [
+            {
+              "name": "Get-EXREmail"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailActivityUserCounts",
+          "children": [
+            {
+              "name": "Get-EXREmailActivityUserCounts"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailHeaders",
+          "children": [
+            {
+              "name": "Get-EXREmailHeaders"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailAppUsageUserDetail",
+          "children": [
+            {
+              "name": "Get-EXREmailAppUsageUserDetail"
+            }
+          ]
+        },
+        {
+          "name": "EXRDefaultAppRegistration",
+          "children": [
+            {
+              "name": "Get-EXRDefaultAppRegistration"
+            },
+            {
+              "name": "New-EXRDefaultAppRegistration"
+            },
+            {
+              "name": "Remove-EXRDefaultAppRegistration"
+            }
+          ]
+        },
+        {
+          "name": "EXRExtendedPropList",
+          "children": [
+            {
+              "name": "Get-EXRExtendedPropList"
+            }
+          ]
+        },
+        {
+          "name": "EXRFocusedInboxItems",
+          "children": [
+            {
+              "name": "Get-EXRFocusedInboxItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRFolderClass",
+          "children": [
+            {
+              "name": "Get-EXRFolderClass"
+            },
+            {
+              "name": "Update-EXRFolderClass"
+            }
+          ]
+        },
+        {
+          "name": "EXRFolderFromPath",
+          "children": [
+            {
+              "name": "Get-EXRFolderFromPath"
+            }
+          ]
+        },
+        {
+          "name": "EXRFolderItems",
+          "children": [
+            {
+              "name": "Get-EXRFolderItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRFolderPath",
+          "children": [
+            {
+              "name": "Get-EXRFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "EXRFolderFromId",
+          "children": [
+            {
+              "name": "Get-EXRFolderFromId"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroupChannels",
+          "children": [
+            {
+              "name": "Get-EXRGroupChannels"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroupConversations",
+          "children": [
+            {
+              "name": "Get-EXRGroupConversations"
+            }
+          ]
+        },
+        {
+          "name": "EXRInbox",
+          "children": [
+            {
+              "name": "Get-EXRInbox"
+            }
+          ]
+        },
+        {
+          "name": "EXRInboxItems",
+          "children": [
+            {
+              "name": "Get-EXRInboxItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRInboxRule",
+          "children": [
+            {
+              "name": "Get-EXRInboxRule"
+            },
+            {
+              "name": "New-EXRInboxRule"
+            },
+            {
+              "name": "Remove-EXRInboxRule"
+            },
+            {
+              "name": "Set-EXRInboxRule"
+            }
+          ]
+        },
+        {
+          "name": "EXRItemProp",
+          "children": [
+            {
+              "name": "Get-EXRItemProp"
+            }
+          ]
+        },
+        {
+          "name": "EXRItemRetentionTags",
+          "children": [
+            {
+              "name": "Get-EXRItemRetentionTags"
+            }
+          ]
+        },
+        {
+          "name": "EXRItemSize",
+          "children": [
+            {
+              "name": "Get-EXRItemSize"
+            }
+          ]
+        },
+        {
+          "name": "EXRLastInboxEmail",
+          "children": [
+            {
+              "name": "Get-EXRLastInboxEmail"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailAppProps",
+          "children": [
+            {
+              "name": "Get-EXRMailAppProps"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailboxSettings",
+          "children": [
+            {
+              "name": "Get-EXRMailboxSettings"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailboxSettingsReport",
+          "children": [
+            {
+              "name": "Get-EXRMailboxSettingsReport"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailboxTimeZone",
+          "children": [
+            {
+              "name": "Get-EXRMailboxTimeZone"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailboxUsage",
+          "children": [
+            {
+              "name": "Get-EXRMailboxUsage"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailboxUser",
+          "children": [
+            {
+              "name": "Get-EXRMailboxUser"
+            }
+          ]
+        },
+        {
+          "name": "EXRModernGroups",
+          "children": [
+            {
+              "name": "Get-EXRModernGroups"
+            }
+          ]
+        },
+        {
+          "name": "EXRNamedProperty",
+          "children": [
+            {
+              "name": "Get-EXRNamedProperty"
+            }
+          ]
+        },
+        {
+          "name": "EXRObjectCollectionProp",
+          "children": [
+            {
+              "name": "Get-EXRObjectCollectionProp"
+            }
+          ]
+        },
+        {
+          "name": "EXRObjectProp",
+          "children": [
+            {
+              "name": "Get-EXRObjectProp"
+            }
+          ]
+        },
+        {
+          "name": "EXROffice365ActiveUsers",
+          "children": [
+            {
+              "name": "Get-EXROffice365ActiveUsers"
+            }
+          ]
+        },
+        {
+          "name": "EXROneDriveChildren",
+          "children": [
+            {
+              "name": "Get-EXROneDriveChildren"
+            }
+          ]
+        },
+        {
+          "name": "EXROneDriveItemFromPath",
+          "children": [
+            {
+              "name": "Get-EXROneDriveItemFromPath"
+            }
+          ]
+        },
+        {
+          "name": "EXROneDriveItemAsPDF",
+          "children": [
+            {
+              "name": "Get-EXROneDriveItemAsPDF"
+            }
+          ]
+        },
+        {
+          "name": "EXRDirectoryContacts",
+          "children": [
+            {
+              "name": "Get-EXRDirectoryContacts"
+            }
+          ]
+        },
+        {
+          "name": "EXRPeople",
+          "children": [
+            {
+              "name": "Get-EXRPeople"
+            }
+          ]
+        },
+        {
+          "name": "EXRPinnedEmailProperty",
+          "children": [
+            {
+              "name": "Get-EXRPinnedEmailProperty"
+            }
+          ]
+        },
+        {
+          "name": "EXRRecoverableItemsFolders",
+          "children": [
+            {
+              "name": "Get-EXRRecoverableItemsFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRRecurrence",
+          "children": [
+            {
+              "name": "Get-EXRRecurrence"
+            }
+          ]
+        },
+        {
+          "name": "EXRRetainedPurgesFolderItems",
+          "children": [
+            {
+              "name": "Get-EXRRetainedPurgesFolderItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRRootMailFolder",
+          "children": [
+            {
+              "name": "Get-EXRRootMailFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRStandardProperty",
+          "children": [
+            {
+              "name": "Get-EXRStandardProperty"
+            }
+          ]
+        },
+        {
+          "name": "EXRTaggedProperty",
+          "children": [
+            {
+              "name": "Get-EXRTaggedProperty"
+            }
+          ]
+        },
+        {
+          "name": "EXRTestAccessToken",
+          "children": [
+            {
+              "name": "Get-EXRTestAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "EXRTestAppToken",
+          "children": [
+            {
+              "name": "Get-EXRTestAppToken"
+            }
+          ]
+        },
+        {
+          "name": "EXRTransportHeader",
+          "children": [
+            {
+              "name": "Get-EXRTransportHeader"
+            }
+          ]
+        },
+        {
+          "name": "EXRUserPhoto",
+          "children": [
+            {
+              "name": "Get-EXRUserPhoto"
+            }
+          ]
+        },
+        {
+          "name": "EXRUserPhotoMetaData",
+          "children": [
+            {
+              "name": "Get-EXRUserPhotoMetaData"
+            }
+          ]
+        },
+        {
+          "name": "EXRUsers",
+          "children": [
+            {
+              "name": "Get-EXRUsers"
+            }
+          ]
+        },
+        {
+          "name": "EXRUser",
+          "children": [
+            {
+              "name": "Get-EXRUser"
+            },
+            {
+              "name": "Find-ExrUser"
+            }
+          ]
+        },
+        {
+          "name": "EXRWellKnownFolder",
+          "children": [
+            {
+              "name": "Get-EXRWellKnownFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRWellKnownFolderItems",
+          "children": [
+            {
+              "name": "Get-EXRWellKnownFolderItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRWellKnownFolderList",
+          "children": [
+            {
+              "name": "Get-EXRWellKnownFolderList"
+            }
+          ]
+        },
+        {
+          "name": "EXRPinnedItemsInFolder",
+          "children": [
+            {
+              "name": "Get-EXRPinnedItemsInFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRMasterCategories",
+          "children": [
+            {
+              "name": "Get-EXRMasterCategories"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailActivityUserDetail",
+          "children": [
+            {
+              "name": "Get-EXREmailActivityUserDetail"
+            }
+          ]
+        },
+        {
+          "name": "EXRInferenceClassificationResult",
+          "children": [
+            {
+              "name": "Get-EXRInferenceClassificationResult"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailboxUsageStorage",
+          "children": [
+            {
+              "name": "Get-EXRMailboxUsageStorage"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailboxUsageMailboxCounts",
+          "children": [
+            {
+              "name": "Get-EXRMailboxUsageMailboxCounts"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailboxUsageQuotaStatusMailboxCounts",
+          "children": [
+            {
+              "name": "Get-EXRMailboxUsageQuotaStatusMailboxCounts"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailAppUsageVersionsUserCounts",
+          "children": [
+            {
+              "name": "Get-EXREmailAppUsageVersionsUserCounts"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailAppUsageUserCounts",
+          "children": [
+            {
+              "name": "Get-EXREmailAppUsageUserCounts"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailAppUsageAppsUserCounts",
+          "children": [
+            {
+              "name": "Get-EXREmailAppUsageAppsUserCounts"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailActivityCounts",
+          "children": [
+            {
+              "name": "Get-EXREmailActivityCounts"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailLinkReport",
+          "children": [
+            {
+              "name": "Get-EXREmailLinkReport"
+            }
+          ]
+        },
+        {
+          "name": "EXRNonIPMSubTreeRootFolder",
+          "children": [
+            {
+              "name": "Get-EXRNonIPMSubTreeRootFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRChildFolders",
+          "children": [
+            {
+              "name": "Get-EXRChildFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRSearchFolders",
+          "children": [
+            {
+              "name": "Get-EXRSearchFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRCalendarID",
+          "children": [
+            {
+              "name": "Get-EXRCalendarID"
+            }
+          ]
+        },
+        {
+          "name": "EXRNamedCalendarView",
+          "children": [
+            {
+              "name": "Get-EXRNamedCalendarView"
+            }
+          ]
+        },
+        {
+          "name": "EXRExcelRange",
+          "children": [
+            {
+              "name": "Get-EXRExcelRange"
+            },
+            {
+              "name": "Update-EXRExcelRange"
+            }
+          ]
+        },
+        {
+          "name": "EXRBatchItems",
+          "children": [
+            {
+              "name": "Get-EXRBatchItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRKnownProperty",
+          "children": [
+            {
+              "name": "Get-EXRKnownProperty"
+            }
+          ]
+        },
+        {
+          "name": "EXRDigestEmailBody",
+          "children": [
+            {
+              "name": "Get-EXRDigestEmailBody"
+            }
+          ]
+        },
+        {
+          "name": "EXRMessageTrace",
+          "children": [
+            {
+              "name": "Get-EXRMessageTrace"
+            }
+          ]
+        },
+        {
+          "name": "EXRMessageTraceDetail",
+          "children": [
+            {
+              "name": "Get-EXRMessageTraceDetail"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailBodyLinks",
+          "children": [
+            {
+              "name": "Get-EXREmailBodyLinks"
+            }
+          ]
+        },
+        {
+          "name": "EXRMSubscriptions",
+          "children": [
+            {
+              "name": "Get-EXRMSubscriptions"
+            }
+          ]
+        },
+        {
+          "name": "EXRMSubscriptionContent",
+          "children": [
+            {
+              "name": "Get-EXRMSubscriptionContent"
+            }
+          ]
+        },
+        {
+          "name": "EXRMSubscriptionContentBlob",
+          "children": [
+            {
+              "name": "Get-EXRMSubscriptionContentBlob"
+            }
+          ]
+        },
+        {
+          "name": "EXRMDlpSensitiveTypes",
+          "children": [
+            {
+              "name": "Get-EXRMDlpSensitiveTypes"
+            }
+          ]
+        },
+        {
+          "name": "EXRTenantId",
+          "children": [
+            {
+              "name": "Get-EXRTenantId"
+            }
+          ]
+        },
+        {
+          "name": "EXRMCurrentStatus",
+          "children": [
+            {
+              "name": "Get-EXRMCurrentStatus"
+            }
+          ]
+        },
+        {
+          "name": "EXRMHistoricalStatus",
+          "children": [
+            {
+              "name": "Get-EXRMHistoricalStatus"
+            }
+          ]
+        },
+        {
+          "name": "EXRMServiceMessages",
+          "children": [
+            {
+              "name": "Get-EXRMServiceMessages"
+            }
+          ]
+        },
+        {
+          "name": "EXRMServices",
+          "children": [
+            {
+              "name": "Get-EXRMServices"
+            }
+          ]
+        },
+        {
+          "name": "EXRAllChildFoldersBatch",
+          "children": [
+            {
+              "name": "Get-EXRAllChildFoldersBatch"
+            }
+          ]
+        },
+        {
+          "name": "EXRAuditLogsSignIns",
+          "children": [
+            {
+              "name": "Get-EXRAuditLogsSignIns"
+            }
+          ]
+        },
+        {
+          "name": "EXRAuditLogsDirectoryAudits",
+          "children": [
+            {
+              "name": "Get-EXRAuditLogsDirectoryAudits"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailTips",
+          "children": [
+            {
+              "name": "Get-EXRMailTips"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroupMembers",
+          "children": [
+            {
+              "name": "Get-EXRGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "EXRTeamsToken",
+          "children": [
+            {
+              "name": "Get-EXRTeamsToken"
+            }
+          ]
+        },
+        {
+          "name": "EXRSchedule",
+          "children": [
+            {
+              "name": "Get-EXRSchedule"
+            }
+          ]
+        },
+        {
+          "name": "EXRRetainedDeletedFolderItems",
+          "children": [
+            {
+              "name": "Get-EXRRetainedDeletedFolderItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRDeletedItems",
+          "children": [
+            {
+              "name": "Get-EXRDeletedItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRInsights",
+          "children": [
+            {
+              "name": "Get-EXRInsights"
+            }
+          ]
+        },
+        {
+          "name": "EXRSK4BPresence",
+          "children": [
+            {
+              "name": "Get-EXRSK4BPresence"
+            },
+            {
+              "name": "Set-EXRSK4BPresence"
+            }
+          ]
+        },
+        {
+          "name": "EXRUnifedGroups",
+          "children": [
+            {
+              "name": "Get-EXRUnifedGroups"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroupConversationThreads",
+          "children": [
+            {
+              "name": "Get-EXRGroupConversationThreads"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroupThreads",
+          "children": [
+            {
+              "name": "Get-EXRGroupThreads"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroupThreadPosts",
+          "children": [
+            {
+              "name": "Get-EXRGroupThreadPosts"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroupThreadPost",
+          "children": [
+            {
+              "name": "Get-EXRGroupThreadPost"
+            }
+          ]
+        },
+        {
+          "name": "EXRSubscriptions",
+          "children": [
+            {
+              "name": "Get-EXRSubscriptions"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroupThread",
+          "children": [
+            {
+              "name": "Get-EXRGroupThread"
+            }
+          ]
+        },
+        {
+          "name": "EXRCredentialType",
+          "children": [
+            {
+              "name": "Get-EXRCredentialType"
+            }
+          ]
+        },
+        {
+          "name": "EXRMe",
+          "children": [
+            {
+              "name": "Get-EXRMe"
+            }
+          ]
+        },
+        {
+          "name": "EXRMemberOf",
+          "children": [
+            {
+              "name": "Get-EXRMemberOf"
+            }
+          ]
+        },
+        {
+          "name": "EXRGuestUsers",
+          "children": [
+            {
+              "name": "Get-EXRGuestUsers"
+            }
+          ]
+        },
+        {
+          "name": "EXRUserInfo",
+          "children": [
+            {
+              "name": "Get-EXRUserInfo"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroupFiles",
+          "children": [
+            {
+              "name": "Get-EXRGroupFiles"
+            }
+          ]
+        },
+        {
+          "name": "EXRCalendarEvent",
+          "children": [
+            {
+              "name": "New-EXRCalendarEvent"
+            },
+            {
+              "name": "Set-EXRCalendarEvent"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroupCalendar",
+          "children": [
+            {
+              "name": "Get-EXRGroupCalendar"
+            }
+          ]
+        },
+        {
+          "name": "EXRReminders",
+          "children": [
+            {
+              "name": "Get-EXRReminders"
+            }
+          ]
+        },
+        {
+          "name": "EXRAccessTokenADAL",
+          "children": [
+            {
+              "name": "Get-EXRAccessTokenADAL"
+            }
+          ]
+        },
+        {
+          "name": "EXRZapStatistics",
+          "children": [
+            {
+              "name": "Get-EXRZapStatistics"
+            }
+          ]
+        },
+        {
+          "name": "EXRDeliveryReport",
+          "children": [
+            {
+              "name": "Get-EXRDeliveryReport"
+            }
+          ]
+        },
+        {
+          "name": "EXRTeamsPrivateChatMessages",
+          "children": [
+            {
+              "name": "Get-EXRTeamsPrivateChatMessages"
+            }
+          ]
+        },
+        {
+          "name": "EXRGroups",
+          "children": [
+            {
+              "name": "Get-EXRGroups"
+            }
+          ]
+        },
+        {
+          "name": "EXRConvertId",
+          "children": [
+            {
+              "name": "Invoke-EXRConvertId"
+            }
+          ]
+        },
+        {
+          "name": "EXRCreateSelfSignedCert",
+          "children": [
+            {
+              "name": "Invoke-EXRCreateSelfSignedCert"
+            }
+          ]
+        },
+        {
+          "name": "EXRDecodeToken",
+          "children": [
+            {
+              "name": "Invoke-EXRDecodeToken"
+            }
+          ]
+        },
+        {
+          "name": "EXRDeleteFolder",
+          "children": [
+            {
+              "name": "Invoke-EXRDeleteFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRDeleteItem",
+          "children": [
+            {
+              "name": "Invoke-EXRDeleteItem"
+            }
+          ]
+        },
+        {
+          "name": "EXRDeleteContact",
+          "children": [
+            {
+              "name": "Invoke-EXRDeleteContact"
+            }
+          ]
+        },
+        {
+          "name": "EXRDownloadAttachment",
+          "children": [
+            {
+              "name": "Invoke-EXRDownloadAttachment"
+            }
+          ]
+        },
+        {
+          "name": "EXREnumCalendarGroups",
+          "children": [
+            {
+              "name": "Invoke-EXREnumCalendarGroups"
+            }
+          ]
+        },
+        {
+          "name": "EXREnumChildFolders",
+          "children": [
+            {
+              "name": "Invoke-EXREnumChildFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXREnumOneDriveFolders",
+          "children": [
+            {
+              "name": "Invoke-EXREnumOneDriveFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXRFolderPicker",
+          "children": [
+            {
+              "name": "Invoke-EXRFolderPicker"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailFolderPicker",
+          "children": [
+            {
+              "name": "Invoke-EXRMailFolderPicker"
+            }
+          ]
+        },
+        {
+          "name": "EXRNewMessagesForm",
+          "children": [
+            {
+              "name": "Invoke-EXRNewMessagesForm"
+            }
+          ]
+        },
+        {
+          "name": "EXROneDriveFolderPicker",
+          "children": [
+            {
+              "name": "Invoke-EXROneDriveFolderPicker"
+            }
+          ]
+        },
+        {
+          "name": "EXRReadEmail",
+          "children": [
+            {
+              "name": "Invoke-EXRReadEmail"
+            }
+          ]
+        },
+        {
+          "name": "EXREnumOneDriveItems",
+          "children": [
+            {
+              "name": "Invoke-EXREnumOneDriveItems"
+            }
+          ]
+        },
+        {
+          "name": "EXRUploadOneDriveItemToPath",
+          "children": [
+            {
+              "name": "Invoke-EXRUploadOneDriveItemToPath"
+            }
+          ]
+        },
+        {
+          "name": "EXRFillMailboxFolder",
+          "children": [
+            {
+              "name": "Invoke-EXRFillMailboxFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRProcessSentiment",
+          "children": [
+            {
+              "name": "Invoke-EXRProcessSentiment"
+            }
+          ]
+        },
+        {
+          "name": "EXRProcessAntiSPAMHeaders",
+          "children": [
+            {
+              "name": "Invoke-EXRProcessAntiSPAMHeaders"
+            }
+          ]
+        },
+        {
+          "name": "EXRParseEmailBody",
+          "children": [
+            {
+              "name": "Invoke-EXRParseEmailBody"
+            }
+          ]
+        },
+        {
+          "name": "EXRParseEmailBodyLinks",
+          "children": [
+            {
+              "name": "Invoke-EXRParseEmailBodyLinks"
+            }
+          ]
+        },
+        {
+          "name": "EXRMStopSubscription",
+          "children": [
+            {
+              "name": "Invoke-EXRMStopSubscription"
+            }
+          ]
+        },
+        {
+          "name": "EXRGetUCWAEvents",
+          "children": [
+            {
+              "name": "Invoke-EXRGetUCWAEvents"
+            }
+          ]
+        },
+        {
+          "name": "EXRSK4BReportMyActivity",
+          "children": [
+            {
+              "name": "Invoke-EXRSK4BReportMyActivity"
+            }
+          ]
+        },
+        {
+          "name": "EXRCreateAppTokenCertificate",
+          "children": [
+            {
+              "name": "Invoke-EXRCreateAppTokenCertificate"
+            }
+          ]
+        },
+        {
+          "name": "EXRPostExtension",
+          "children": [
+            {
+              "name": "Invoke-EXRPostExtension"
+            }
+          ]
+        },
+        {
+          "name": "EXRDeleteSubscription",
+          "children": [
+            {
+              "name": "Invoke-EXRDeleteSubscription"
+            }
+          ]
+        },
+        {
+          "name": "EXRMarkEmailAsRead",
+          "children": [
+            {
+              "name": "Invoke-EXRMarkEmailAsRead"
+            }
+          ]
+        },
+        {
+          "name": "EXRTranslateExchangeIds",
+          "children": [
+            {
+              "name": "Invoke-EXRTranslateExchangeIds"
+            }
+          ]
+        },
+        {
+          "name": "EXRUnsubscribeEmail",
+          "children": [
+            {
+              "name": "Invoke-EXRUnsubscribeEmail"
+            }
+          ]
+        },
+        {
+          "name": "EXRAttendee",
+          "children": [
+            {
+              "name": "New-EXRAttendee"
+            }
+          ]
+        },
+        {
+          "name": "EXRCalendarEventREST",
+          "children": [
+            {
+              "name": "New-EXRCalendarEventREST"
+            }
+          ]
+        },
+        {
+          "name": "EXRContactFolder",
+          "children": [
+            {
+              "name": "New-EXRContactFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXREmailAddress",
+          "children": [
+            {
+              "name": "New-EXREmailAddress"
+            }
+          ]
+        },
+        {
+          "name": "EXRFolder",
+          "children": [
+            {
+              "name": "New-EXRFolder"
+            },
+            {
+              "name": "Rename-EXRFolder"
+            },
+            {
+              "name": "Update-EXRFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXRHolidayEvent",
+          "children": [
+            {
+              "name": "New-EXRHolidayEvent"
+            }
+          ]
+        },
+        {
+          "name": "EXRJWTToken",
+          "children": [
+            {
+              "name": "New-EXRJWTToken"
+            }
+          ]
+        },
+        {
+          "name": "EXRReferanceAttachment",
+          "children": [
+            {
+              "name": "New-EXRReferanceAttachment"
+            }
+          ]
+        },
+        {
+          "name": "EXRSentEmailMessage",
+          "children": [
+            {
+              "name": "New-EXRSentEmailMessage"
+            }
+          ]
+        },
+        {
+          "name": "EXRExcelWorkBookSession",
+          "children": [
+            {
+              "name": "New-EXRExcelWorkBookSession"
+            }
+          ]
+        },
+        {
+          "name": "EXRExcelWorkSheet",
+          "children": [
+            {
+              "name": "New-EXRExcelWorkSheet"
+            }
+          ]
+        },
+        {
+          "name": "EXRMSubscription",
+          "children": [
+            {
+              "name": "New-EXRMSubscription"
+            }
+          ]
+        },
+        {
+          "name": "EXRAdaptiveCard",
+          "children": [
+            {
+              "name": "New-EXRAdaptiveCard"
+            },
+            {
+              "name": "Send-EXRAdaptiveCard"
+            }
+          ]
+        },
+        {
+          "name": "EXRMessageCard",
+          "children": [
+            {
+              "name": "New-EXRMessageCard"
+            }
+          ]
+        },
+        {
+          "name": "EXRSubscription",
+          "children": [
+            {
+              "name": "New-EXRSubscription"
+            }
+          ]
+        },
+        {
+          "name": "EXRMessageREST",
+          "children": [
+            {
+              "name": "Send-EXRMessageREST"
+            }
+          ]
+        },
+        {
+          "name": "EXRSimpleMeetingRequest",
+          "children": [
+            {
+              "name": "Send-EXRSimpleMeetingRequest"
+            }
+          ]
+        },
+        {
+          "name": "EXRVoteEmail",
+          "children": [
+            {
+              "name": "Send-EXRVoteEmail"
+            }
+          ]
+        },
+        {
+          "name": "EXRSK4BMessage",
+          "children": [
+            {
+              "name": "Send-EXRSK4BMessage"
+            }
+          ]
+        },
+        {
+          "name": "EXRVoiceMail",
+          "children": [
+            {
+              "name": "Send-EXRVoiceMail"
+            }
+          ]
+        },
+        {
+          "name": "EXRSK4BPeople",
+          "children": [
+            {
+              "name": "Search-EXRSK4BPeople"
+            }
+          ]
+        },
+        {
+          "name": "EXRFolderRetentionTag",
+          "children": [
+            {
+              "name": "Set-EXRFolderRetentionTag"
+            }
+          ]
+        },
+        {
+          "name": "EXRPinEmail",
+          "children": [
+            {
+              "name": "Set-EXRPinEmail"
+            }
+          ]
+        },
+        {
+          "name": "EXRUnPinEmail",
+          "children": [
+            {
+              "name": "Set-EXRUnPinEmail"
+            }
+          ]
+        },
+        {
+          "name": "EXRReadFlag",
+          "children": [
+            {
+              "name": "Set-EXRReadFlag"
+            }
+          ]
+        },
+        {
+          "name": "EXRTracing",
+          "children": [
+            {
+              "name": "Set-EXRTracing"
+            }
+          ]
+        },
+        {
+          "name": "EXRItemCategory",
+          "children": [
+            {
+              "name": "Set-EXRItemCategory"
+            }
+          ]
+        },
+        {
+          "name": "EXRMailClient",
+          "children": [
+            {
+              "name": "Start-EXRMailClient"
+            }
+          ]
+        },
+        {
+          "name": "EXRItem",
+          "children": [
+            {
+              "name": "Update-EXRItem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ExchangeContacts",
+      "companyName": "Unknown",
+      "author": "Glen Scales",
+      "children": [
+        {
+          "name": "EXCExchange",
+          "children": [
+            {
+              "name": "Connect-EXCExchange"
+            }
+          ]
+        },
+        {
+          "name": "EXCContactGalToMailbox",
+          "children": [
+            {
+              "name": "Copy-EXCContactGalToMailbox"
+            }
+          ]
+        },
+        {
+          "name": "EXCContact",
+          "children": [
+            {
+              "name": "Export-EXCContact"
+            },
+            {
+              "name": "Get-EXCContact"
+            },
+            {
+              "name": "New-EXCContact"
+            },
+            {
+              "name": "Remove-EXCContact"
+            },
+            {
+              "name": "Set-EXCContact"
+            }
+          ]
+        },
+        {
+          "name": "EXCContacts",
+          "children": [
+            {
+              "name": "Export-EXCContacts"
+            },
+            {
+              "name": "Get-EXCContacts"
+            }
+          ]
+        },
+        {
+          "name": "EXCRootContacts",
+          "children": [
+            {
+              "name": "Export-EXCRootContacts"
+            }
+          ]
+        },
+        {
+          "name": "EXCContactFolder",
+          "children": [
+            {
+              "name": "Export-EXCContactFolder"
+            },
+            {
+              "name": "Get-EXCContactFolder"
+            }
+          ]
+        },
+        {
+          "name": "EXCGALContact",
+          "children": [
+            {
+              "name": "Export-EXCGALContact"
+            }
+          ]
+        },
+        {
+          "name": "EXCDumpsterContacts",
+          "children": [
+            {
+              "name": "Export-EXCDumpsterContacts"
+            },
+            {
+              "name": "Get-EXCDumpsterContacts"
+            }
+          ]
+        },
+        {
+          "name": "EXCContactGroup",
+          "children": [
+            {
+              "name": "Get-EXCContactGroup"
+            },
+            {
+              "name": "New-EXCContactGroup"
+            }
+          ]
+        },
+        {
+          "name": "EXCAllContactFolders",
+          "children": [
+            {
+              "name": "Get-EXCAllContactFolders"
+            },
+            {
+              "name": "Search-EXCAllContactFolders"
+            }
+          ]
+        },
+        {
+          "name": "EXCContactGroups",
+          "children": [
+            {
+              "name": "Get-EXCContactGroups"
+            }
+          ]
+        },
+        {
+          "name": "EXCBatchContact",
+          "children": [
+            {
+              "name": "New-EXCBatchContact"
+            }
+          ]
+        },
+        {
+          "name": "EXCPrivacyReport",
+          "children": [
+            {
+              "name": "Get-EXCPrivacyReport"
+            }
+          ]
+        },
+        {
+          "name": "EXCContactsForCCNumbers",
+          "children": [
+            {
+              "name": "Search-EXCContactsForCCNumbers"
+            }
+          ]
+        },
+        {
+          "name": "EXCAllContactGroups",
+          "children": [
+            {
+              "name": "Search-EXCAllContactGroups"
+            }
+          ]
+        },
+        {
+          "name": "ContactToCSVEntry",
+          "children": [
+            {
+              "name": "Invoke-ContactToCSVEntry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MSGraph-ExportCalendar",
+      "companyName": "Unknown",
+      "author": "Glen Scales",
+      "children": [
+        {
+          "name": "GCECalendarToCSV",
+          "children": [
+            {
+              "name": "Export-GCECalendarToCSV"
+            }
+          ]
+        },
+        {
+          "name": "GCECalendar",
+          "children": [
+            {
+              "name": "Export-GCECalendar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MSGraph-ExportCalendar_op",
+      "companyName": "Unknown",
+      "author": "Glen Scales",
+      "children": [
+        {
+          "name": "GCECalendar",
+          "children": [
+            {
+              "name": "Export-GCECalendar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

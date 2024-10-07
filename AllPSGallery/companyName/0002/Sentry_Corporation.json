@@ -1,0 +1,35 @@
+{
+  "name": "Sentry Corporation",
+  "children": [
+    {
+      "name": "PwshPDBSniffer",
+      "companyName": "Sentry Corporation",
+      "author": "Kento Oki",
+      "children": [
+        {
+          "name": "PDBInfo",
+          "children": [
+            {
+              "name": "Get-PDBInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PwshPEChecker",
+      "companyName": "Sentry Corporation",
+      "author": "Kento Oki",
+      "children": [
+        {
+          "name": "ImageCorrectness",
+          "children": [
+            {
+              "name": "Confirm-ImageCorrectness"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

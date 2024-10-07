@@ -1,0 +1,701 @@
+{
+  "name": "SCOrchDev",
+  "children": [
+    {
+      "name": "SCOrchDev-AzureAutomationIntegration",
+      "companyName": "SCOrchDev",
+      "author": "Ryan Andorfer",
+      "children": [
+        {
+          "name": "AzureAutomationRunbookChange",
+          "children": [
+            {
+              "name": "Publish-AzureAutomationRunbookChange"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationPowerShellModule",
+          "children": [
+            {
+              "name": "Publish-AzureAutomationPowerShellModule"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationDSCChange",
+          "children": [
+            {
+              "name": "Publish-AzureAutomationDSCChange"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationSettingsFileChange",
+          "children": [
+            {
+              "name": "Publish-AzureAutomationSettingsFileChange"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationOrphanAsset",
+          "children": [
+            {
+              "name": "Remove-AzureAutomationOrphanAsset"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationOrphanRunbook",
+          "children": [
+            {
+              "name": "Remove-AzureAutomationOrphanRunbook"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationOrphanDSC",
+          "children": [
+            {
+              "name": "Remove-AzureAutomationOrphanDSC"
+            }
+          ]
+        },
+        {
+          "name": "LocalDevelopment",
+          "children": [
+            {
+              "name": "Test-LocalDevelopment"
+            }
+          ]
+        },
+        {
+          "name": "BatchAutomationVariable",
+          "children": [
+            {
+              "name": "Get-BatchAutomationVariable"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationHybridRunbookWorker",
+          "children": [
+            {
+              "name": "Get-AzureAutomationHybridRunbookWorker"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoryToAzureAutomation",
+          "children": [
+            {
+              "name": "Sync-GitRepositoryToAzureAutomation"
+            }
+          ]
+        },
+        {
+          "name": "IndividualGitRepositoryToAzureAutomation",
+          "children": [
+            {
+              "name": "Sync-IndividualGitRepositoryToAzureAutomation"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationDSCConfigurationExist",
+          "children": [
+            {
+              "name": "Test-AzureAutomationDSCConfigurationExist"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationRunbookExist",
+          "children": [
+            {
+              "name": "Test-AzureAutomationRunbookExist"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationModuleExist",
+          "children": [
+            {
+              "name": "Test-AzureAutomationModuleExist"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationGlobalExist",
+          "children": [
+            {
+              "name": "Test-AzureAutomationGlobalExist"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationDSCInformation",
+          "children": [
+            {
+              "name": "Get-AzureAutomationDSCInformation"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationRunbookInformation",
+          "children": [
+            {
+              "name": "Get-AzureAutomationRunbookInformation"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationGlobalInformation",
+          "children": [
+            {
+              "name": "Get-AzureAutomationGlobalInformation"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmAccount",
+          "children": [
+            {
+              "name": "Connect-AzureRmAccount"
+            }
+          ]
+        },
+        {
+          "name": "AzureRMConnection",
+          "children": [
+            {
+              "name": "Test-AzureRMConnection"
+            }
+          ]
+        },
+        {
+          "name": "AzureAutomationIntegrationTag",
+          "children": [
+            {
+              "name": "Set-AzureAutomationIntegrationTag"
+            }
+          ]
+        },
+        {
+          "name": "AutomationDescriptionTagLine",
+          "children": [
+            {
+              "name": "ConvertFrom-AutomationDescriptionTagLine"
+            },
+            {
+              "name": "ConvertTo-AutomationDescriptionTagLine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-Exception",
+      "companyName": "SCOrchDev",
+      "author": "Ryan Andorfer",
+      "children": [
+        {
+          "name": "ExceptionToString",
+          "children": [
+            {
+              "name": "Convert-ExceptionToString"
+            }
+          ]
+        },
+        {
+          "name": "ExceptionInfo",
+          "children": [
+            {
+              "name": "Get-ExceptionInfo"
+            }
+          ]
+        },
+        {
+          "name": "Exception",
+          "children": [
+            {
+              "name": "New-Exception"
+            },
+            {
+              "name": "Throw-Exception"
+            },
+            {
+              "name": "Write-Exception"
+            }
+          ]
+        },
+        {
+          "name": "CustomException",
+          "children": [
+            {
+              "name": "Select-CustomException"
+            }
+          ]
+        },
+        {
+          "name": "RelevantException",
+          "children": [
+            {
+              "name": "Select-RelevantException"
+            }
+          ]
+        },
+        {
+          "name": "ThrownException",
+          "children": [
+            {
+              "name": "New-ThrownException"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-File",
+      "companyName": "SCOrchDev",
+      "author": "RyanAndorfer",
+      "children": [
+        {
+          "name": "ZipFile",
+          "children": [
+            {
+              "name": "New-ZipFile"
+            }
+          ]
+        },
+        {
+          "name": "TempDirectory",
+          "children": [
+            {
+              "name": "New-TempDirectory"
+            }
+          ]
+        },
+        {
+          "name": "FileEncoding",
+          "children": [
+            {
+              "name": "Get-FileEncoding"
+            }
+          ]
+        },
+        {
+          "name": "UTF8",
+          "children": [
+            {
+              "name": "ConvertTo-UTF8"
+            }
+          ]
+        },
+        {
+          "name": "FileItemContainer",
+          "children": [
+            {
+              "name": "New-FileItemContainer"
+            }
+          ]
+        },
+        {
+          "name": "UncPath",
+          "children": [
+            {
+              "name": "Test-UncPath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-GitIntegration",
+      "companyName": "SCOrchDev",
+      "author": "Ryan Andorfer",
+      "children": [
+        {
+          "name": "ChangesetTagLine",
+          "children": [
+            {
+              "name": "New-ChangesetTagLine"
+            }
+          ]
+        },
+        {
+          "name": "GlobalFromFile",
+          "children": [
+            {
+              "name": "Get-GlobalFromFile"
+            }
+          ]
+        },
+        {
+          "name": "RepositoryInformationCommitVersion",
+          "children": [
+            {
+              "name": "Update-RepositoryInformationCommitVersion"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoryRunbookName",
+          "children": [
+            {
+              "name": "Get-GitRepositoryRunbookName"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoryVariableName",
+          "children": [
+            {
+              "name": "Get-GitRepositoryVariableName"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoryAssetName",
+          "children": [
+            {
+              "name": "Get-GitRepositoryAssetName"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoryDSCInformation",
+          "children": [
+            {
+              "name": "Get-GitRepositoryDSCInformation"
+            }
+          ]
+        },
+        {
+          "name": "RepositoryFile",
+          "children": [
+            {
+              "name": "Group-RepositoryFile"
+            }
+          ]
+        },
+        {
+          "name": "AutomationAssetByTaggedRepository",
+          "children": [
+            {
+              "name": "Group-AutomationAssetByTaggedRepository"
+            }
+          ]
+        },
+        {
+          "name": "AutomationAssetByDescriptionRepository",
+          "children": [
+            {
+              "name": "Group-AutomationAssetByDescriptionRepository"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoryChange",
+          "children": [
+            {
+              "name": "Find-GitRepositoryChange"
+            }
+          ]
+        },
+        {
+          "name": "GitModifiedFile",
+          "children": [
+            {
+              "name": "Get-GitModifiedFile"
+            }
+          ]
+        },
+        {
+          "name": "GitCurrentCommit",
+          "children": [
+            {
+              "name": "Get-GitCurrentCommit"
+            }
+          ]
+        },
+        {
+          "name": "GitInitialCommit",
+          "children": [
+            {
+              "name": "Get-GitInitialCommit"
+            }
+          ]
+        },
+        {
+          "name": "GitSumboduleFileChange",
+          "children": [
+            {
+              "name": "Get-GitSumboduleFileChange"
+            }
+          ]
+        },
+        {
+          "name": "GitRepository",
+          "children": [
+            {
+              "name": "Update-GitRepository"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-LogAnalytics",
+      "companyName": "ScorchDev",
+      "author": "Ryan Andorfer",
+      "children": [
+        {
+          "name": "LogAnalyticsLogEntry",
+          "children": [
+            {
+              "name": "Write-LogAnalyticsLogEntry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-Networking",
+      "companyName": "SCOrchDev",
+      "author": "RyanAndorfer",
+      "children": [
+        {
+          "name": "IPAddressFromDNS",
+          "children": [
+            {
+              "name": "Get-IPAddressFromDNS"
+            }
+          ]
+        },
+        {
+          "name": "NameFromDNS",
+          "children": [
+            {
+              "name": "Get-NameFromDNS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-PasswordVault",
+      "companyName": "SCOrchDev",
+      "author": "Ryan Andorfer",
+      "children": [
+        {
+          "name": "PasswordVaultCredential",
+          "children": [
+            {
+              "name": "Get-PasswordVaultCredential"
+            },
+            {
+              "name": "Set-PasswordVaultCredential"
+            },
+            {
+              "name": "Remove-PasswordVaultCredential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-SQL",
+      "companyName": "ScorchDev",
+      "author": "RyanAndorfer",
+      "children": [
+        {
+          "name": "SqlQuery",
+          "children": [
+            {
+              "name": "Invoke-SqlQuery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-StoredCredential",
+      "companyName": "ScorchDev",
+      "author": "Ryan Andorfer",
+      "children": [
+        {
+          "name": "StoredCredential",
+          "children": [
+            {
+              "name": "Get-StoredCredential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-Utility",
+      "companyName": "SCOrchDev",
+      "author": "Ryan Andorfer",
+      "children": [
+        {
+          "name": "ObjectDump",
+          "children": [
+            {
+              "name": "Format-ObjectDump"
+            }
+          ]
+        },
+        {
+          "name": "Boolean",
+          "children": [
+            {
+              "name": "ConvertTo-Boolean"
+            }
+          ]
+        },
+        {
+          "name": "FirstValid",
+          "children": [
+            {
+              "name": "Select-FirstValid"
+            }
+          ]
+        },
+        {
+          "name": "DeclaredCommand",
+          "children": [
+            {
+              "name": "Find-DeclaredCommand"
+            }
+          ]
+        },
+        {
+          "name": "IsNullOrWhiteSpace",
+          "children": [
+            {
+              "name": "Test-IsNullOrWhiteSpace"
+            }
+          ]
+        },
+        {
+          "name": "IsNullOrEmpty",
+          "children": [
+            {
+              "name": "Test-IsNullOrEmpty"
+            }
+          ]
+        },
+        {
+          "name": "PSCustomObject",
+          "children": [
+            {
+              "name": "ConvertFrom-PSCustomObject"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            },
+            {
+              "name": "Select-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "PSEnvironmentPathLocation",
+          "children": [
+            {
+              "name": "Add-PSEnvironmentPathLocation"
+            }
+          ]
+        },
+        {
+          "name": "WorkflowNameFromFile",
+          "children": [
+            {
+              "name": "Get-WorkflowNameFromFile"
+            }
+          ]
+        },
+        {
+          "name": "FileIsWorkflow",
+          "children": [
+            {
+              "name": "Test-FileIsWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "ScriptNameFromFileName",
+          "children": [
+            {
+              "name": "Get-ScriptNameFromFileName"
+            }
+          ]
+        },
+        {
+          "name": "DSCConfigurationName",
+          "children": [
+            {
+              "name": "Get-DSCConfigurationName"
+            }
+          ]
+        },
+        {
+          "name": "DSCNodeName",
+          "children": [
+            {
+              "name": "Get-DSCNodeName"
+            }
+          ]
+        },
+        {
+          "name": "CompletedMessage",
+          "children": [
+            {
+              "name": "Write-CompletedMessage"
+            }
+          ]
+        },
+        {
+          "name": "StartingMessage",
+          "children": [
+            {
+              "name": "Write-StartingMessage"
+            }
+          ]
+        },
+        {
+          "name": "SleepUntil",
+          "children": [
+            {
+              "name": "Start-SleepUntil"
+            }
+          ]
+        },
+        {
+          "name": "RandomString",
+          "children": [
+            {
+              "name": "New-RandomString"
+            }
+          ]
+        },
+        {
+          "name": "Automation",
+          "children": [
+            {
+              "name": "Write-Automation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

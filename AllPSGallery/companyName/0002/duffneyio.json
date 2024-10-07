@@ -1,0 +1,57 @@
+{
+  "name": "duffneyio",
+  "children": [
+    {
+      "name": "InvokeBuildExample",
+      "companyName": "duffneyio",
+      "author": "Josh Duffney",
+      "children": [
+        {
+          "name": "PublicFunction",
+          "children": [
+            {
+              "name": "Get-PublicFunction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InvokeDSC",
+      "companyName": "duffneyio",
+      "author": "Josh Duffney",
+      "children": [
+        {
+          "name": "DSC",
+          "children": [
+            {
+              "name": "ConvertTo-DSC"
+            },
+            {
+              "name": "Invoke-Dsc"
+            }
+          ]
+        },
+        {
+          "name": "ModuleFromConfiguration",
+          "children": [
+            {
+              "name": "Get-ModuleFromConfiguration"
+            },
+            {
+              "name": "Install-ModuleFromConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DscConfiguration",
+          "children": [
+            {
+              "name": "Invoke-DscConfiguration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

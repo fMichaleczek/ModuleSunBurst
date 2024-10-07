@@ -1,0 +1,75 @@
+{
+  "name": "EW",
+  "children": [
+    {
+      "name": "PSAdaptiveCard",
+      "companyName": "Unknown",
+      "author": "EW",
+      "children": [
+        {
+          "name": "AdaptiveCard",
+          "children": [
+            {
+              "name": "New-AdaptiveCard"
+            }
+          ]
+        },
+        {
+          "name": "TextBlock",
+          "children": [
+            {
+              "name": "New-TextBlock"
+            }
+          ]
+        },
+        {
+          "name": "FactSet",
+          "children": [
+            {
+              "name": "New-FactSet"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "children": [
+            {
+              "name": "New-Table"
+            }
+          ]
+        },
+        {
+          "name": "Image",
+          "children": [
+            {
+              "name": "New-Image"
+            }
+          ]
+        },
+        {
+          "name": "JsonToTeamsWebhook",
+          "children": [
+            {
+              "name": "Send-JsonToTeamsWebhook"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSStringToQRCode",
+      "companyName": "Unknown",
+      "author": "EW",
+      "children": [
+        {
+          "name": "StringToQR",
+          "children": [
+            {
+              "name": "Convert-StringToQR"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

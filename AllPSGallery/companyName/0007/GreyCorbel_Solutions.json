@@ -1,0 +1,393 @@
+{
+  "name": "GreyCorbel Solutions",
+  "children": [
+    {
+      "name": "AadAuthenticationFactory",
+      "companyName": "GreyCorbel Solutions",
+      "author": "Jiri Formacek",
+      "children": [
+        {
+          "name": "AadAuthenticationFactory",
+          "children": [
+            {
+              "name": "New-AadAuthenticationFactory"
+            },
+            {
+              "name": "Get-AadAuthenticationFactory"
+            }
+          ]
+        },
+        {
+          "name": "AadToken",
+          "children": [
+            {
+              "name": "Get-AadToken"
+            },
+            {
+              "name": "Test-AadToken"
+            }
+          ]
+        },
+        {
+          "name": "AadAccount",
+          "children": [
+            {
+              "name": "Get-AadAccount"
+            }
+          ]
+        },
+        {
+          "name": "AadDefaultClientId",
+          "children": [
+            {
+              "name": "Get-AadDefaultClientId"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AiLogging",
+      "companyName": "GreyCorbel Solutions",
+      "author": "Jiri Formacek",
+      "children": [
+        {
+          "name": "AiLogger",
+          "children": [
+            {
+              "name": "Initialize-AiLogger"
+            }
+          ]
+        },
+        {
+          "name": "AiMetadata",
+          "children": [
+            {
+              "name": "Add-AiMetadata"
+            },
+            {
+              "name": "Remove-AiMetadata"
+            },
+            {
+              "name": "Reset-AiMetadata"
+            },
+            {
+              "name": "New-AiMetadata"
+            }
+          ]
+        },
+        {
+          "name": "AiTrace",
+          "children": [
+            {
+              "name": "Write-AiTrace"
+            }
+          ]
+        },
+        {
+          "name": "AiException",
+          "children": [
+            {
+              "name": "Write-AiException"
+            }
+          ]
+        },
+        {
+          "name": "AiEvent",
+          "children": [
+            {
+              "name": "Write-AiEvent"
+            }
+          ]
+        },
+        {
+          "name": "AiMetric",
+          "children": [
+            {
+              "name": "Write-AiMetric"
+            },
+            {
+              "name": "New-AiMetric"
+            }
+          ]
+        },
+        {
+          "name": "AiDependency",
+          "children": [
+            {
+              "name": "Write-AiDependency"
+            }
+          ]
+        },
+        {
+          "name": "AiOperationContext",
+          "children": [
+            {
+              "name": "Set-AiOperationContext"
+            }
+          ]
+        },
+        {
+          "name": "AiUserContext",
+          "children": [
+            {
+              "name": "Set-AiUserContext"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CosmosLite",
+      "companyName": "GreyCorbel Solutions",
+      "author": "Jiri Formacek",
+      "children": [
+        {
+          "name": "CosmosStoredProcedure",
+          "children": [
+            {
+              "name": "Invoke-CosmosStoredProcedure"
+            }
+          ]
+        },
+        {
+          "name": "CosmosQuery",
+          "children": [
+            {
+              "name": "Invoke-CosmosQuery"
+            }
+          ]
+        },
+        {
+          "name": "CosmosDocumentUpdate",
+          "children": [
+            {
+              "name": "New-CosmosDocumentUpdate"
+            }
+          ]
+        },
+        {
+          "name": "CosmosUpdateOperation",
+          "children": [
+            {
+              "name": "New-CosmosUpdateOperation"
+            }
+          ]
+        },
+        {
+          "name": "CosmosDocument",
+          "children": [
+            {
+              "name": "Update-CosmosDocument"
+            },
+            {
+              "name": "Set-CosmosDocument"
+            },
+            {
+              "name": "Remove-CosmosDocument"
+            },
+            {
+              "name": "New-CosmosDocument"
+            },
+            {
+              "name": "Get-CosmosDocument"
+            }
+          ]
+        },
+        {
+          "name": "Cosmos",
+          "children": [
+            {
+              "name": "Connect-Cosmos"
+            }
+          ]
+        },
+        {
+          "name": "CosmosAccessToken",
+          "children": [
+            {
+              "name": "Get-CosmosAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "CosmosConnection",
+          "children": [
+            {
+              "name": "Get-CosmosConnection"
+            }
+          ]
+        },
+        {
+          "name": "CosmosRetryCount",
+          "children": [
+            {
+              "name": "Set-CosmosRetryCount"
+            }
+          ]
+        },
+        {
+          "name": "CosmosCollectionPartitionKeyRanges",
+          "children": [
+            {
+              "name": "Get-CosmosCollectionPartitionKeyRanges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ExoHelper",
+      "companyName": "GreyCorbel Solutions",
+      "author": "Jiri Formacek",
+      "children": [
+        {
+          "name": "ExoConnection",
+          "children": [
+            {
+              "name": "New-ExoConnection"
+            }
+          ]
+        },
+        {
+          "name": "ExoDefaultClientId",
+          "children": [
+            {
+              "name": "Get-ExoDefaultClientId"
+            }
+          ]
+        },
+        {
+          "name": "ExoCommand",
+          "children": [
+            {
+              "name": "Invoke-ExoCommand"
+            }
+          ]
+        },
+        {
+          "name": "ExoToken",
+          "children": [
+            {
+              "name": "Get-ExoToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GetLicenseInfo",
+      "companyName": "GreyCorbel Solutions",
+      "author": "Jiri Formacek",
+      "children": [
+        {
+          "name": "Info",
+          "children": [
+            {
+              "name": "Get-Info"
+            }
+          ]
+        },
+        {
+          "name": "Tenant",
+          "children": [
+            {
+              "name": "Connect-Tenant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "S.DS.P",
+      "companyName": "GreyCorbel Solutions",
+      "author": "Jiri Formacek",
+      "children": [
+        {
+          "name": "LdapObject",
+          "children": [
+            {
+              "name": "Find-LdapObject"
+            },
+            {
+              "name": "Edit-LdapObject"
+            },
+            {
+              "name": "Add-LdapObject"
+            },
+            {
+              "name": "Remove-LdapObject"
+            },
+            {
+              "name": "Rename-LdapObject"
+            }
+          ]
+        },
+        {
+          "name": "RootDSE",
+          "children": [
+            {
+              "name": "Get-RootDSE"
+            }
+          ]
+        },
+        {
+          "name": "LdapConnection",
+          "children": [
+            {
+              "name": "Get-LdapConnection"
+            }
+          ]
+        },
+        {
+          "name": "LdapAttributeTransform",
+          "children": [
+            {
+              "name": "Register-LdapAttributeTransform"
+            },
+            {
+              "name": "Unregister-LdapAttributeTransform"
+            },
+            {
+              "name": "Get-LdapAttributeTransform"
+            }
+          ]
+        },
+        {
+          "name": "LdapAttributeTransformDefinition",
+          "children": [
+            {
+              "name": "New-LdapAttributeTransformDefinition"
+            }
+          ]
+        },
+        {
+          "name": "LdapDirSyncCookie",
+          "children": [
+            {
+              "name": "Get-LdapDirSyncCookie"
+            },
+            {
+              "name": "Set-LdapDirSyncCookie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SidCloner",
+      "companyName": "GreyCorbel Solutions",
+      "author": "JiriFormacek",
+      "children": [
+        {
+          "name": "Sid",
+          "children": [
+            {
+              "name": "Copy-Sid"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

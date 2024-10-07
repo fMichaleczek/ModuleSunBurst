@@ -1,0 +1,809 @@
+{
+  "name": "Shane Hoey",
+  "children": [
+    {
+      "name": "ipphone",
+      "companyName": "Unknown",
+      "author": "Shane Hoey",
+      "children": [
+        {
+          "name": "ipphoneTrustAllCertPolicy",
+          "children": [
+            {
+              "name": "Set-ipphoneTrustAllCertPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneICMP",
+          "children": [
+            {
+              "name": "Test-ipphoneICMP"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneWeb",
+          "children": [
+            {
+              "name": "Test-ipphoneWeb"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneTrustCertPolicy",
+          "children": [
+            {
+              "name": "Test-ipphoneTrustCertPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneWebSession",
+          "children": [
+            {
+              "name": "Get-ipphoneWebSession"
+            },
+            {
+              "name": "new-ipphonewebsession"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneConnection",
+          "children": [
+            {
+              "name": "Test-ipphoneConnection"
+            }
+          ]
+        },
+        {
+          "name": "ipphone",
+          "children": [
+            {
+              "name": "Connect-ipphone"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneReboot",
+          "children": [
+            {
+              "name": "Invoke-ipphoneReboot"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneReset",
+          "children": [
+            {
+              "name": "Invoke-ipphoneReset"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneMacAddress",
+          "children": [
+            {
+              "name": "Get-ipphoneMacAddress"
+            },
+            {
+              "name": "Test-ipphoneMacAddress"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneLoginUser",
+          "children": [
+            {
+              "name": "Invoke-ipphoneLoginUser"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneStatus",
+          "children": [
+            {
+              "name": "Get-ipphoneStatus"
+            }
+          ]
+        },
+        {
+          "name": "ipphoneHookStatus",
+          "children": [
+            {
+              "name": "Get-ipphoneHookStatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mediant",
+      "companyName": "Unknown",
+      "author": "Shane Hoey",
+      "children": [
+        {
+          "name": "MediantDevice",
+          "children": [
+            {
+              "name": "Get-MediantDevice"
+            },
+            {
+              "name": "Restart-MediantDevice"
+            },
+            {
+              "name": "Save-MediantDevice"
+            },
+            {
+              "name": "Test-MediantDevice"
+            }
+          ]
+        },
+        {
+          "name": "MediantDeviceAlarm",
+          "children": [
+            {
+              "name": "Get-MediantDeviceAlarm"
+            }
+          ]
+        },
+        {
+          "name": "MediantDeviceFileCliScript",
+          "children": [
+            {
+              "name": "Get-MediantDeviceFileCliScript"
+            }
+          ]
+        },
+        {
+          "name": "MediantDeviceFileIni",
+          "children": [
+            {
+              "name": "Get-MediantDeviceFileIni"
+            }
+          ]
+        },
+        {
+          "name": "MediantDeviceLicense",
+          "children": [
+            {
+              "name": "Get-MediantDeviceLicense"
+            }
+          ]
+        },
+        {
+          "name": "MediantDevicePerformanceMonitoring",
+          "children": [
+            {
+              "name": "Get-MediantDevicePerformanceMonitoring"
+            }
+          ]
+        },
+        {
+          "name": "MediantDeviceStatus",
+          "children": [
+            {
+              "name": "Get-MediantDeviceStatus"
+            }
+          ]
+        },
+        {
+          "name": "MediantTrustAllCertPolicy",
+          "children": [
+            {
+              "name": "Set-MediantTrustAllCertPolicy"
+            }
+          ]
+        },
+        {
+          "name": "MediantWebGui",
+          "children": [
+            {
+              "name": "start-MediantWebGui"
+            }
+          ]
+        },
+        {
+          "name": "mediantTrustCertPolicy",
+          "children": [
+            {
+              "name": "Test-mediantTrustCertPolicy"
+            }
+          ]
+        },
+        {
+          "name": "MediantWebRequest",
+          "children": [
+            {
+              "name": "Invoke-MediantWebRequest"
+            }
+          ]
+        },
+        {
+          "name": "MediantCurlRequest",
+          "children": [
+            {
+              "name": "Invoke-MediantCurlRequest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TeamsTools",
+      "companyName": "Unknown",
+      "author": "Shane Hoey",
+      "children": [
+        {
+          "name": "TeamsVirtualTopology",
+          "children": [
+            {
+              "name": "Get-TeamsVirtualTopology"
+            },
+            {
+              "name": "New-TeamsVirtualTopology"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualNetworkRegion",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualNetworkRegion"
+            },
+            {
+              "name": "Set-TeamsVirtualNetworkRegion"
+            },
+            {
+              "name": "Get-TeamsVirtualNetworkRegion"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualNetworkSite",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualNetworkSite"
+            },
+            {
+              "name": "Set-TeamsVirtualNetworkSite"
+            },
+            {
+              "name": "Get-TeamsVirtualNetworkSite"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualNetworkSubnet",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualNetworkSubnet"
+            },
+            {
+              "name": "Set-TeamsVirtualNetworkSubnet"
+            },
+            {
+              "name": "Get-TeamsVirtualNetworkSubnet"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualTrustedIPAddress",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualTrustedIPAddress"
+            },
+            {
+              "name": "Set-TeamsVirtualTrustedIPAddress"
+            },
+            {
+              "name": "Get-TeamsVirtualTrustedIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualPSTNGateway",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualPSTNGateway"
+            },
+            {
+              "name": "Set-TeamsVirtualPSTNGateway"
+            },
+            {
+              "name": "Get-TeamsVirtualPSTNGateway"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualPstnUsage",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualPstnUsage"
+            },
+            {
+              "name": "Set-TeamsVirtualPstnUsage"
+            },
+            {
+              "name": "Get-TeamsVirtualPstnUsage"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualVoiceRoute",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualVoiceRoute"
+            },
+            {
+              "name": "Set-teamsVirtualVoiceRoute"
+            },
+            {
+              "name": "Get-TeamsVirtualVoiceRoute"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualVoiceRoutingPolicy",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualVoiceRoutingPolicy"
+            },
+            {
+              "name": "set-teamsvirtualVoiceRoutingPolicy"
+            },
+            {
+              "name": "Get-TeamsVirtualVoiceRoutingPolicy"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualDialPlan",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualDialPlan"
+            },
+            {
+              "name": "Set-TeamsVirtualDialPlan"
+            },
+            {
+              "name": "Get-TeamsVirtualDialPlan"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualVoiceNormalisation",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualVoiceNormalisation"
+            },
+            {
+              "name": "Set-TeamsVirtualVoiceNormalisation"
+            },
+            {
+              "name": "Get-TeamsVirtualVoiceNormalisation"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualPhonePolicy",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualPhonePolicy"
+            },
+            {
+              "name": "Set-TeamsVirtualPhonePolicy"
+            },
+            {
+              "name": "Get-TeamsVirtualPhonePolicy"
+            }
+          ]
+        },
+        {
+          "name": "TeamsCallingIdPolicy",
+          "children": [
+            {
+              "name": "Add-TeamsCallingIdPolicy"
+            },
+            {
+              "name": "Set-TeamsCallingIdPolicy"
+            },
+            {
+              "name": "Get-TeamsCallingIdPolicy"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualEmergencyCallingPolicy",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualEmergencyCallingPolicy"
+            },
+            {
+              "name": "Set-teamsVirtualEmergencyCallingPolicy"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualSurvivableBranchAppliancePolicy",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualSurvivableBranchAppliancePolicy"
+            },
+            {
+              "name": "Set-TeamsVirtualSurvivableBranchAppliancePolicy"
+            },
+            {
+              "name": "Get-TeamsVirtualSurvivableBranchAppliancePolicy"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualSurvivableBranchAppliance",
+          "children": [
+            {
+              "name": "Add-TeamsVirtualSurvivableBranchAppliance"
+            },
+            {
+              "name": "Set-TeamsVirtualSurvivableBranchAppliance"
+            },
+            {
+              "name": "Get-TeamsVirtualSurvivableBranchAppliance"
+            }
+          ]
+        },
+        {
+          "name": "teamsVirtualUser",
+          "children": [
+            {
+              "name": "Add-teamsVirtualUser"
+            },
+            {
+              "name": "Set-teamsVirtualUser"
+            },
+            {
+              "name": "Get-TeamsVirtualUser"
+            }
+          ]
+        },
+        {
+          "name": "TeamsNetworkRegion",
+          "children": [
+            {
+              "name": "Invoke-TeamsNetworkRegion"
+            }
+          ]
+        },
+        {
+          "name": "TeamsNetworkSite",
+          "children": [
+            {
+              "name": "Invoke-TeamsNetworkSite"
+            }
+          ]
+        },
+        {
+          "name": "TeamsNetworkSubnet",
+          "children": [
+            {
+              "name": "Invoke-TeamsNetworkSubnet"
+            }
+          ]
+        },
+        {
+          "name": "TeamsTrustedIPAddress",
+          "children": [
+            {
+              "name": "Invoke-TeamsTrustedIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "TeamsPstnGateway",
+          "children": [
+            {
+              "name": "Invoke-TeamsPstnGateway"
+            }
+          ]
+        },
+        {
+          "name": "TeamsPstnUsage",
+          "children": [
+            {
+              "name": "Invoke-TeamsPstnUsage"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVoiceRoute",
+          "children": [
+            {
+              "name": "Invoke-TeamsVoiceRoute"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVoiceRoutingPolicy",
+          "children": [
+            {
+              "name": "Invoke-TeamsVoiceRoutingPolicy"
+            }
+          ]
+        },
+        {
+          "name": "TeamsDialPlan",
+          "children": [
+            {
+              "name": "Invoke-TeamsDialPlan"
+            }
+          ]
+        },
+        {
+          "name": "TeamsPhonePolicy",
+          "children": [
+            {
+              "name": "Invoke-TeamsPhonePolicy"
+            }
+          ]
+        },
+        {
+          "name": "TeamsSurvivableBranchAppliance",
+          "children": [
+            {
+              "name": "Invoke-TeamsSurvivableBranchAppliance"
+            }
+          ]
+        },
+        {
+          "name": "TeamsSurvivableBranchAppliancePolicy",
+          "children": [
+            {
+              "name": "Invoke-TeamsSurvivableBranchAppliancePolicy"
+            }
+          ]
+        },
+        {
+          "name": "TeamsUser",
+          "children": [
+            {
+              "name": "Invoke-TeamsUser"
+            }
+          ]
+        },
+        {
+          "name": "TeamsVirtualTopologyOverride",
+          "children": [
+            {
+              "name": "Set-TeamsVirtualTopologyOverride"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TeamsToolsReset",
+      "companyName": "Unknown",
+      "author": "Shane Hoey",
+      "children": [
+        {
+          "name": "teamstoolsconfig",
+          "children": [
+            {
+              "name": "remove-teamstoolsconfig"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsusers",
+          "children": [
+            {
+              "name": "remove-teamstoolsusers"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsOnlineVoiceRoutingPolicy",
+          "children": [
+            {
+              "name": "remove-teamstoolsOnlineVoiceRoutingPolicy"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsOnlineVoiceRoute",
+          "children": [
+            {
+              "name": "remove-teamstoolsOnlineVoiceRoute"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsOnlinePSTNGateway",
+          "children": [
+            {
+              "name": "remove-teamstoolsOnlinePSTNGateway"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsOnlinePstnUsage",
+          "children": [
+            {
+              "name": "remove-teamstoolsOnlinePstnUsage"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsTenantTrustedIPAddress",
+          "children": [
+            {
+              "name": "remove-teamstoolsTenantTrustedIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsTenantNetworkSubnet",
+          "children": [
+            {
+              "name": "remove-teamstoolsTenantNetworkSubnet"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsTenantNetworkSite",
+          "children": [
+            {
+              "name": "remove-teamstoolsTenantNetworkSite"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsTenantNetworkRegion",
+          "children": [
+            {
+              "name": "remove-teamstoolsTenantNetworkRegion"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsTenantDialPlan",
+          "children": [
+            {
+              "name": "remove-teamstoolsTenantDialPlan"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsSurvivableBranchAppliancePolicy",
+          "children": [
+            {
+              "name": "remove-teamstoolsSurvivableBranchAppliancePolicy"
+            }
+          ]
+        },
+        {
+          "name": "teamstoolsSurvivableBranchAppliance",
+          "children": [
+            {
+              "name": "remove-teamstoolsSurvivableBranchAppliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WordDoc",
+      "companyName": "Unknown",
+      "author": "Shane Hoey",
+      "children": [
+        {
+          "name": "WordBreak",
+          "children": [
+            {
+              "name": "Add-WordBreak"
+            }
+          ]
+        },
+        {
+          "name": "WordCoverPage",
+          "children": [
+            {
+              "name": "Add-WordCoverPage"
+            }
+          ]
+        },
+        {
+          "name": "WordTable",
+          "children": [
+            {
+              "name": "Add-WordTable"
+            }
+          ]
+        },
+        {
+          "name": "WordTemplate",
+          "children": [
+            {
+              "name": "Add-WordTemplate"
+            }
+          ]
+        },
+        {
+          "name": "WordText",
+          "children": [
+            {
+              "name": "Add-WordText"
+            }
+          ]
+        },
+        {
+          "name": "WordTOC",
+          "children": [
+            {
+              "name": "Add-WordTOC"
+            },
+            {
+              "name": "Update-WordTOC"
+            }
+          ]
+        },
+        {
+          "name": "WordShape",
+          "children": [
+            {
+              "name": "Add-WordShape"
+            }
+          ]
+        },
+        {
+          "name": "WordDocument",
+          "children": [
+            {
+              "name": "Close-WordDocument"
+            },
+            {
+              "name": "Get-WordDocument"
+            },
+            {
+              "name": "New-WordDocument"
+            },
+            {
+              "name": "Save-WordDocument"
+            }
+          ]
+        },
+        {
+          "name": "WordInstance",
+          "children": [
+            {
+              "name": "Close-WordInstance"
+            },
+            {
+              "name": "Get-WordInstance"
+            },
+            {
+              "name": "New-WordInstance"
+            }
+          ]
+        },
+        {
+          "name": "WordBuiltInProperty",
+          "children": [
+            {
+              "name": "Set-WordBuiltInProperty"
+            }
+          ]
+        },
+        {
+          "name": "WordOrientation",
+          "children": [
+            {
+              "name": "Set-WordOrientation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1357 @@
+{
+  "name": "PSModule",
+  "children": [
+    {
+      "name": "Admin",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "Admin",
+          "children": [
+            {
+              "name": "Test-Admin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AST",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "PSModuleTemplate",
+          "children": [
+            {
+              "name": "Test-PSModuleTemplate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DynamicParams",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "DynamicParam",
+          "children": [
+            {
+              "name": "New-DynamicParam"
+            }
+          ]
+        },
+        {
+          "name": "DynamicParamDictionary",
+          "children": [
+            {
+              "name": "New-DynamicParamDictionary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fonts",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "Font",
+          "children": [
+            {
+              "name": "Get-Font"
+            },
+            {
+              "name": "Install-Font"
+            },
+            {
+              "name": "Uninstall-Font"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GitHub",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "GitHubWorkflow",
+          "children": [
+            {
+              "name": "Disable-GitHubWorkflow"
+            },
+            {
+              "name": "Enable-GitHubWorkflow"
+            },
+            {
+              "name": "Get-GitHubWorkflow"
+            },
+            {
+              "name": "Start-GitHubWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "GitHubWorkflowRun",
+          "children": [
+            {
+              "name": "Get-GitHubWorkflowRun"
+            },
+            {
+              "name": "Remove-GitHubWorkflowRun"
+            },
+            {
+              "name": "Stop-GitHubWorkflowRun"
+            }
+          ]
+        },
+        {
+          "name": "GitHubWorkflowUsage",
+          "children": [
+            {
+              "name": "Get-GitHubWorkflowUsage"
+            }
+          ]
+        },
+        {
+          "name": "GitHubWorkflowReRun",
+          "children": [
+            {
+              "name": "Start-GitHubWorkflowReRun"
+            }
+          ]
+        },
+        {
+          "name": "GitHubAPI",
+          "children": [
+            {
+              "name": "Invoke-GitHubAPI"
+            }
+          ]
+        },
+        {
+          "name": "GitHubAccount",
+          "children": [
+            {
+              "name": "Connect-GitHubAccount"
+            },
+            {
+              "name": "Disconnect-GitHubAccount"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepoBranch",
+          "children": [
+            {
+              "name": "Get-GitHubRepoBranch"
+            }
+          ]
+        },
+        {
+          "name": "Mask",
+          "children": [
+            {
+              "name": "Add-Mask"
+            }
+          ]
+        },
+        {
+          "name": "GitHubEnvironmentVariable",
+          "children": [
+            {
+              "name": "Set-GitHubEnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "GitHubOutput",
+          "children": [
+            {
+              "name": "Set-GitHubOutput"
+            }
+          ]
+        },
+        {
+          "name": "LogGroup",
+          "children": [
+            {
+              "name": "Set-LogGroup"
+            },
+            {
+              "name": "Start-LogGroup"
+            },
+            {
+              "name": "Stop-LogGroup"
+            }
+          ]
+        },
+        {
+          "name": "GitHubConfig",
+          "children": [
+            {
+              "name": "Get-GitHubConfig"
+            },
+            {
+              "name": "Set-GitHubConfig"
+            }
+          ]
+        },
+        {
+          "name": "GitHubEmoji",
+          "children": [
+            {
+              "name": "Get-GitHubEmoji"
+            }
+          ]
+        },
+        {
+          "name": "GitHubGitignore",
+          "children": [
+            {
+              "name": "Get-GitHubGitignore"
+            }
+          ]
+        },
+        {
+          "name": "GitHubLicense",
+          "children": [
+            {
+              "name": "Get-GitHubLicense"
+            }
+          ]
+        },
+        {
+          "name": "GitHubMarkdown",
+          "children": [
+            {
+              "name": "Get-GitHubMarkdown"
+            }
+          ]
+        },
+        {
+          "name": "GitHubMarkdownRaw",
+          "children": [
+            {
+              "name": "Get-GitHubMarkdownRaw"
+            }
+          ]
+        },
+        {
+          "name": "GitHubApiVersion",
+          "children": [
+            {
+              "name": "Get-GitHubApiVersion"
+            }
+          ]
+        },
+        {
+          "name": "GitHubMeta",
+          "children": [
+            {
+              "name": "Get-GitHubMeta"
+            }
+          ]
+        },
+        {
+          "name": "GitHubOctocat",
+          "children": [
+            {
+              "name": "Get-GitHubOctocat"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRoot",
+          "children": [
+            {
+              "name": "Get-GitHubRoot"
+            }
+          ]
+        },
+        {
+          "name": "GitHubZen",
+          "children": [
+            {
+              "name": "Get-GitHubZen"
+            }
+          ]
+        },
+        {
+          "name": "GitHubOrganization",
+          "children": [
+            {
+              "name": "Get-GitHubOrganization"
+            },
+            {
+              "name": "Remove-GitHubOrganization"
+            },
+            {
+              "name": "Set-GitHubOrganization"
+            }
+          ]
+        },
+        {
+          "name": "GitHubOrganizationAppInstallation",
+          "children": [
+            {
+              "name": "Get-GitHubOrganizationAppInstallation"
+            }
+          ]
+        },
+        {
+          "name": "GitHubOrganizationSecurityFeature",
+          "children": [
+            {
+              "name": "Set-GitHubOrganizationSecurityFeature"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRateLimit",
+          "children": [
+            {
+              "name": "Get-GitHubRateLimit"
+            }
+          ]
+        },
+        {
+          "name": "GitHubReleaseAsset",
+          "children": [
+            {
+              "name": "Add-GitHubReleaseAsset"
+            },
+            {
+              "name": "Get-GitHubReleaseAsset"
+            },
+            {
+              "name": "Remove-GitHubReleaseAsset"
+            },
+            {
+              "name": "Set-GitHubReleaseAsset"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRelease",
+          "children": [
+            {
+              "name": "Get-GitHubRelease"
+            },
+            {
+              "name": "New-GitHubRelease"
+            },
+            {
+              "name": "Remove-GitHubRelease"
+            },
+            {
+              "name": "Set-GitHubRelease"
+            }
+          ]
+        },
+        {
+          "name": "GitHubReleaseNote",
+          "children": [
+            {
+              "name": "New-GitHubReleaseNote"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryAutolink",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryAutolink"
+            },
+            {
+              "name": "New-GitHubRepositoryAutolink"
+            },
+            {
+              "name": "Remove-GitHubRepositoryAutolink"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryCustomProperty",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryCustomProperty"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryPrivateVulnerabilityReporting",
+          "children": [
+            {
+              "name": "Disable-GitHubRepositoryPrivateVulnerabilityReporting"
+            },
+            {
+              "name": "Enable-GitHubRepositoryPrivateVulnerabilityReporting"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositorySecurityFix",
+          "children": [
+            {
+              "name": "Disable-GitHubRepositorySecurityFix"
+            },
+            {
+              "name": "Enable-GitHubRepositorySecurityFix"
+            },
+            {
+              "name": "Get-GitHubRepositorySecurityFix"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryVulnerabilityAlert",
+          "children": [
+            {
+              "name": "Disable-GitHubRepositoryVulnerabilityAlert"
+            },
+            {
+              "name": "Enable-GitHubRepositoryVulnerabilityAlert"
+            },
+            {
+              "name": "Test-GitHubRepositoryVulnerabilityAlert"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepository",
+          "children": [
+            {
+              "name": "Get-GitHubRepository"
+            },
+            {
+              "name": "Move-GitHubRepository"
+            },
+            {
+              "name": "New-GitHubRepository"
+            },
+            {
+              "name": "Remove-GitHubRepository"
+            },
+            {
+              "name": "Update-GitHubRepository"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryActivity",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryActivity"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryCodeownersError",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryCodeownersError"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryContributor",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryContributor"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryFork",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryFork"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryLanguage",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryLanguage"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryTag",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryTag"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryTeam",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryTeam"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryTopic",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryTopic"
+            },
+            {
+              "name": "Set-GitHubRepositoryTopic"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryEvent",
+          "children": [
+            {
+              "name": "Start-GitHubRepositoryEvent"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryRuleSuite",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryRuleSuite"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryRuleSuiteById",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryRuleSuiteById"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryRuleSuiteList",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryRuleSuiteList"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepositoryTagProtection",
+          "children": [
+            {
+              "name": "Get-GitHubRepositoryTagProtection"
+            },
+            {
+              "name": "New-GitHubRepositoryTagProtection"
+            },
+            {
+              "name": "Remove-GitHubRepositoryTagProtection"
+            }
+          ]
+        },
+        {
+          "name": "GitHubScheduledMaintenance",
+          "children": [
+            {
+              "name": "Get-GitHubScheduledMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "GitHubStatus",
+          "children": [
+            {
+              "name": "Get-GitHubStatus"
+            }
+          ]
+        },
+        {
+          "name": "GitHubStatusComponent",
+          "children": [
+            {
+              "name": "Get-GitHubStatusComponent"
+            }
+          ]
+        },
+        {
+          "name": "GitHubStatusIncident",
+          "children": [
+            {
+              "name": "Get-GitHubStatusIncident"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepoTeam",
+          "children": [
+            {
+              "name": "Get-GitHubRepoTeam"
+            }
+          ]
+        },
+        {
+          "name": "GitHubUser",
+          "children": [
+            {
+              "name": "Block-GitHubUser"
+            },
+            {
+              "name": "Unblock-GitHubUser"
+            },
+            {
+              "name": "Get-GitHubUser"
+            },
+            {
+              "name": "Set-GitHubUser"
+            }
+          ]
+        },
+        {
+          "name": "GitHubBlockedUser",
+          "children": [
+            {
+              "name": "Get-GitHubBlockedUser"
+            },
+            {
+              "name": "Test-GitHubBlockedUser"
+            }
+          ]
+        },
+        {
+          "name": "GitHubUserEmail",
+          "children": [
+            {
+              "name": "Add-GitHubUserEmail"
+            },
+            {
+              "name": "Get-GitHubUserEmail"
+            },
+            {
+              "name": "Remove-GitHubUserEmail"
+            }
+          ]
+        },
+        {
+          "name": "GitHubUserEmailVisibility",
+          "children": [
+            {
+              "name": "Set-GitHubUserEmailVisibility"
+            }
+          ]
+        },
+        {
+          "name": "GitHubUserFollowing",
+          "children": [
+            {
+              "name": "Add-GitHubUserFollowing"
+            },
+            {
+              "name": "Get-GitHubUserFollowing"
+            },
+            {
+              "name": "Remove-GitHubUserFollowing"
+            },
+            {
+              "name": "Test-GitHubUserFollowing"
+            }
+          ]
+        },
+        {
+          "name": "GitHubUserFollower",
+          "children": [
+            {
+              "name": "Get-GitHubUserFollower"
+            }
+          ]
+        },
+        {
+          "name": "GitHubUserGpgKey",
+          "children": [
+            {
+              "name": "Add-GitHubUserGpgKey"
+            },
+            {
+              "name": "Get-GitHubUserGpgKey"
+            },
+            {
+              "name": "Remove-GitHubUserGpgKey"
+            }
+          ]
+        },
+        {
+          "name": "GitHubUserKey",
+          "children": [
+            {
+              "name": "Add-GitHubUserKey"
+            },
+            {
+              "name": "Get-GitHubUserKey"
+            },
+            {
+              "name": "Remove-GitHubUserKey"
+            }
+          ]
+        },
+        {
+          "name": "GitHubUserSocial",
+          "children": [
+            {
+              "name": "Add-GitHubUserSocial"
+            },
+            {
+              "name": "Remove-GitHubUserSocial"
+            }
+          ]
+        },
+        {
+          "name": "GitHubUserSigningKey",
+          "children": [
+            {
+              "name": "Add-GitHubUserSigningKey"
+            },
+            {
+              "name": "Get-GitHubUserSigningKey"
+            },
+            {
+              "name": "Remove-GitHubUserSigningKey"
+            }
+          ]
+        },
+        {
+          "name": "GitHubUserCard",
+          "children": [
+            {
+              "name": "Get-GitHubUserCard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GoogleFonts",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "PSModule",
+          "children": [
+            {
+              "name": "Get-PSModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "PSModule",
+          "children": [
+            {
+              "name": "Get-PSModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IPv4",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "PSModuleTemplate",
+          "children": [
+            {
+              "name": "Test-PSModuleTemplate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NerdFonts",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "NerdFont",
+          "children": [
+            {
+              "name": "Get-NerdFont"
+            },
+            {
+              "name": "Install-NerdFont"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "PSModuleTemplate",
+          "children": [
+            {
+              "name": "Test-PSModuleTemplate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PATH",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "EnvironmentPath",
+          "children": [
+            {
+              "name": "Add-EnvironmentPath"
+            },
+            {
+              "name": "Get-EnvironmentPath"
+            },
+            {
+              "name": "Remove-EnvironmentPath"
+            },
+            {
+              "name": "Repair-EnvironmentPath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellGallery",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "PSGalleryAPI",
+          "children": [
+            {
+              "name": "Get-PSGalleryAPI"
+            }
+          ]
+        },
+        {
+          "name": "PSGalleryResource",
+          "children": [
+            {
+              "name": "Get-PSGalleryResource"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellGalleryItem",
+          "children": [
+            {
+              "name": "Hide-PowerShellGalleryItem"
+            },
+            {
+              "name": "Show-PowerShellGalleryItem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSemVer",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "PSSemVer",
+          "children": [
+            {
+              "name": "ConvertTo-PSSemVer"
+            },
+            {
+              "name": "New-PSSemVer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PublicIP",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "PublicIP",
+          "children": [
+            {
+              "name": "Get-PublicIP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sodium",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "PSModuleTemplate",
+          "children": [
+            {
+              "name": "Get-PSModuleTemplate"
+            },
+            {
+              "name": "New-PSModuleTemplate"
+            },
+            {
+              "name": "Set-PSModuleTemplate"
+            },
+            {
+              "name": "Test-PSModuleTemplate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Store",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "StoreConfig",
+          "children": [
+            {
+              "name": "Get-StoreConfig"
+            },
+            {
+              "name": "Set-StoreConfig"
+            }
+          ]
+        },
+        {
+          "name": "Store",
+          "children": [
+            {
+              "name": "Initialize-Store"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Utilities",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "Base64String",
+          "children": [
+            {
+              "name": "ConvertFrom-Base64String"
+            },
+            {
+              "name": "ConvertTo-Base64String"
+            }
+          ]
+        },
+        {
+          "name": "Boolean",
+          "children": [
+            {
+              "name": "ConvertTo-Boolean"
+            }
+          ]
+        },
+        {
+          "name": "FileInfo",
+          "children": [
+            {
+              "name": "Get-FileInfo"
+            }
+          ]
+        },
+        {
+          "name": "EmptyFolder",
+          "children": [
+            {
+              "name": "Remove-EmptyFolder"
+            }
+          ]
+        },
+        {
+          "name": "FileContent",
+          "children": [
+            {
+              "name": "Show-FileContent"
+            }
+          ]
+        },
+        {
+          "name": "GitRepo",
+          "children": [
+            {
+              "name": "Clear-GitRepo"
+            },
+            {
+              "name": "Reset-GitRepo"
+            },
+            {
+              "name": "Restore-GitRepo"
+            },
+            {
+              "name": "Sync-GitRepo"
+            }
+          ]
+        },
+        {
+          "name": "GitSquash",
+          "children": [
+            {
+              "name": "Invoke-GitSquash"
+            }
+          ]
+        },
+        {
+          "name": "SquashBranch",
+          "children": [
+            {
+              "name": "Invoke-SquashBranch"
+            }
+          ]
+        },
+        {
+          "name": "Repo",
+          "children": [
+            {
+              "name": "Sync-Repo"
+            }
+          ]
+        },
+        {
+          "name": "Variable",
+          "children": [
+            {
+              "name": "Import-Variable"
+            }
+          ]
+        },
+        {
+          "name": "GitHubEnvironmentVariable",
+          "children": [
+            {
+              "name": "Set-GitHubEnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "LogGroup",
+          "children": [
+            {
+              "name": "Start-LogGroup"
+            },
+            {
+              "name": "Stop-LogGroup"
+            }
+          ]
+        },
+        {
+          "name": "GUID",
+          "children": [
+            {
+              "name": "Search-GUID"
+            }
+          ]
+        },
+        {
+          "name": "IsGUID",
+          "children": [
+            {
+              "name": "Test-IsGUID"
+            }
+          ]
+        },
+        {
+          "name": "HashtableToString",
+          "children": [
+            {
+              "name": "Convert-HashtableToString"
+            }
+          ]
+        },
+        {
+          "name": "HashTable",
+          "children": [
+            {
+              "name": "ConvertTo-HashTable"
+            },
+            {
+              "name": "Merge-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "ModuleManifestData",
+          "children": [
+            {
+              "name": "Add-ModuleManifestData"
+            }
+          ]
+        },
+        {
+          "name": "PSModulePath",
+          "children": [
+            {
+              "name": "Add-PSModulePath"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellDataFile",
+          "children": [
+            {
+              "name": "Export-PowerShellDataFile"
+            }
+          ]
+        },
+        {
+          "name": "ModuleManifest",
+          "children": [
+            {
+              "name": "Format-ModuleManifest"
+            },
+            {
+              "name": "Get-ModuleManifest"
+            },
+            {
+              "name": "Set-ModuleManifest"
+            }
+          ]
+        },
+        {
+          "name": "PruneModule",
+          "children": [
+            {
+              "name": "Invoke-PruneModule"
+            }
+          ]
+        },
+        {
+          "name": "ReinstallModule",
+          "children": [
+            {
+              "name": "Invoke-ReinstallModule"
+            }
+          ]
+        },
+        {
+          "name": "Pester",
+          "children": [
+            {
+              "name": "Uninstall-Pester"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Copy-Object"
+            }
+          ]
+        },
+        {
+          "name": "PSCredential",
+          "children": [
+            {
+              "name": "New-PSCredential"
+            },
+            {
+              "name": "Restore-PSCredential"
+            },
+            {
+              "name": "Save-PSCredential"
+            }
+          ]
+        },
+        {
+          "name": "StringCasingStyle",
+          "children": [
+            {
+              "name": "Convert-StringCasingStyle"
+            },
+            {
+              "name": "Get-StringCasingStyle"
+            }
+          ]
+        },
+        {
+          "name": "StringByCasingStyle",
+          "children": [
+            {
+              "name": "Split-StringByCasingStyle"
+            }
+          ]
+        },
+        {
+          "name": "IsNotNullOrEmpty",
+          "children": [
+            {
+              "name": "Test-IsNotNullOrEmpty"
+            }
+          ]
+        },
+        {
+          "name": "IsNullOrEmpty",
+          "children": [
+            {
+              "name": "Test-IsNullOrEmpty"
+            }
+          ]
+        },
+        {
+          "name": "TLSConfig",
+          "children": [
+            {
+              "name": "Get-TLSConfig"
+            },
+            {
+              "name": "Set-TLSConfig"
+            }
+          ]
+        },
+        {
+          "name": "QueryString",
+          "children": [
+            {
+              "name": "ConvertTo-QueryString"
+            }
+          ]
+        },
+        {
+          "name": "Uri",
+          "children": [
+            {
+              "name": "Join-Uri"
+            }
+          ]
+        },
+        {
+          "name": "WindowsSetting",
+          "children": [
+            {
+              "name": "Set-WindowsSetting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WoW",
+      "companyName": "PSModule",
+      "author": "PSModule",
+      "children": [
+        {
+          "name": "WoWAccount",
+          "children": [
+            {
+              "name": "Get-WoWAccount"
+            },
+            {
+              "name": "Set-WoWAccount"
+            },
+            {
+              "name": "Show-WoWAccount"
+            }
+          ]
+        },
+        {
+          "name": "WoWAddon",
+          "children": [
+            {
+              "name": "Get-WoWAddon"
+            },
+            {
+              "name": "Select-WoWAddon"
+            },
+            {
+              "name": "Show-WoWAddon"
+            }
+          ]
+        },
+        {
+          "name": "BNetAPIRegion",
+          "children": [
+            {
+              "name": "Get-BNetAPIRegion"
+            },
+            {
+              "name": "Set-BNetAPIRegion"
+            }
+          ]
+        },
+        {
+          "name": "WoWPowerType",
+          "children": [
+            {
+              "name": "Get-WoWPowerType"
+            }
+          ]
+        },
+        {
+          "name": "WoWCharacter",
+          "children": [
+            {
+              "name": "Get-WoWCharacter"
+            },
+            {
+              "name": "Set-WoWCharacter"
+            }
+          ]
+        },
+        {
+          "name": "WoWFolder",
+          "children": [
+            {
+              "name": "Get-WoWFolder"
+            }
+          ]
+        },
+        {
+          "name": "WoWManager",
+          "children": [
+            {
+              "name": "Invoke-WoWManager"
+            }
+          ]
+        },
+        {
+          "name": "WoWRealm",
+          "children": [
+            {
+              "name": "Get-WoWRealm"
+            },
+            {
+              "name": "Update-WoWRealm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Grey0ut",
+  "children": [
+    {
+      "name": "NetworkProfile",
+      "companyName": "Grey0ut",
+      "author": "Courtney Bodett",
+      "children": [
+        {
+          "name": "NetworkProfile",
+          "children": [
+            {
+              "name": "Get-NetworkProfile"
+            },
+            {
+              "name": "Remove-NetworkProfile"
+            },
+            {
+              "name": "Set-NetworkProfile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProtectStrings",
+      "companyName": "Grey0ut",
+      "author": "Courtney Bodett",
+      "children": [
+        {
+          "name": "MasterPassword",
+          "children": [
+            {
+              "name": "Export-MasterPassword"
+            },
+            {
+              "name": "Get-MasterPassword"
+            },
+            {
+              "name": "Import-MasterPassword"
+            },
+            {
+              "name": "Remove-MasterPassword"
+            },
+            {
+              "name": "Set-MasterPassword"
+            }
+          ]
+        },
+        {
+          "name": "AESKeyConfig",
+          "children": [
+            {
+              "name": "Get-AESKeyConfig"
+            },
+            {
+              "name": "Set-AESKeyConfig"
+            }
+          ]
+        },
+        {
+          "name": "String",
+          "children": [
+            {
+              "name": "Protect-String"
+            },
+            {
+              "name": "Unprotect-String"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

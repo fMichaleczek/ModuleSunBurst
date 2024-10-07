@@ -1,0 +1,2743 @@
+{
+  "name": "petrsnd",
+  "children": [
+    {
+      "name": "safeguard-devops",
+      "companyName": "One Identity LLC",
+      "author": "petrsnd",
+      "children": [
+        {
+          "name": "SgDevOpsApplianceStatus",
+          "children": [
+            {
+              "name": "Get-SgDevOpsApplianceStatus"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsAppliance",
+          "children": [
+            {
+              "name": "Initialize-SgDevOpsAppliance"
+            },
+            {
+              "name": "Clear-SgDevOpsAppliance"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsTlsValidation",
+          "children": [
+            {
+              "name": "Get-SgDevOpsTlsValidation"
+            },
+            {
+              "name": "Enable-SgDevOpsTlsValidation"
+            },
+            {
+              "name": "Disable-SgDevOpsTlsValidation"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOps",
+          "children": [
+            {
+              "name": "Connect-SgDevOps"
+            },
+            {
+              "name": "Disconnect-SgDevOps"
+            },
+            {
+              "name": "Restart-SgDevOps"
+            },
+            {
+              "name": "Initialize-SgDevOps"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsLog",
+          "children": [
+            {
+              "name": "Get-SgDevOpsLog"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsBackup",
+          "children": [
+            {
+              "name": "Get-SgDevOpsBackup"
+            },
+            {
+              "name": "Restore-SgDevOpsBackup"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsMethod",
+          "children": [
+            {
+              "name": "Invoke-SgDevOpsMethod"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsCommand",
+          "children": [
+            {
+              "name": "Get-SgDevOpsCommand"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsStatus",
+          "children": [
+            {
+              "name": "Get-SgDevOpsStatus"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsRegisteredAccountSetup",
+          "children": [
+            {
+              "name": "Invoke-SgDevOpsRegisteredAccountSetup"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsSslCertificate",
+          "children": [
+            {
+              "name": "Get-SgDevOpsSslCertificate"
+            },
+            {
+              "name": "Install-SgDevOpsSslCertificate"
+            },
+            {
+              "name": "Clear-SgDevOpsSslCertificate"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsClientCertificate",
+          "children": [
+            {
+              "name": "Get-SgDevOpsClientCertificate"
+            },
+            {
+              "name": "Install-SgDevOpsClientCertificate"
+            },
+            {
+              "name": "Clear-SgDevOpsClientCertificate"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsCsr",
+          "children": [
+            {
+              "name": "New-SgDevOpsCsr"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsTrustedCertificate",
+          "children": [
+            {
+              "name": "Get-SgDevOpsTrustedCertificate"
+            },
+            {
+              "name": "Install-SgDevOpsTrustedCertificate"
+            },
+            {
+              "name": "Remove-SgDevOpsTrustedCertificate"
+            },
+            {
+              "name": "Sync-SgDevOpsTrustedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsConfiguration",
+          "children": [
+            {
+              "name": "Get-SgDevOpsConfiguration"
+            },
+            {
+              "name": "Initialize-SgDevOpsConfiguration"
+            },
+            {
+              "name": "Clear-SgDevOpsConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsAvailableAssetAccount",
+          "children": [
+            {
+              "name": "Get-SgDevOpsAvailableAssetAccount"
+            },
+            {
+              "name": "Find-SgDevOpsAvailableAssetAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsRegisteredAssetAccount",
+          "children": [
+            {
+              "name": "Get-SgDevOpsRegisteredAssetAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsAssetAccount",
+          "children": [
+            {
+              "name": "Register-SgDevOpsAssetAccount"
+            },
+            {
+              "name": "Unregister-SgDevOpsAssetAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsPlugin",
+          "children": [
+            {
+              "name": "Get-SgDevOpsPlugin"
+            },
+            {
+              "name": "Install-SgDevOpsPlugin"
+            },
+            {
+              "name": "Remove-SgDevOpsPlugin"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsPluginVaultAccount",
+          "children": [
+            {
+              "name": "Get-SgDevOpsPluginVaultAccount"
+            },
+            {
+              "name": "Set-SgDevOpsPluginVaultAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsPluginSetting",
+          "children": [
+            {
+              "name": "Get-SgDevOpsPluginSetting"
+            },
+            {
+              "name": "Set-SgDevOpsPluginSetting"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsMappedAssetAccount",
+          "children": [
+            {
+              "name": "Get-SgDevOpsMappedAssetAccount"
+            },
+            {
+              "name": "Add-SgDevOpsMappedAssetAccount"
+            },
+            {
+              "name": "Remove-SgDevOpsMappedAssetAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsPluginInstances",
+          "children": [
+            {
+              "name": "Get-SgDevOpsPluginInstances"
+            },
+            {
+              "name": "Add-SgDevOpsPluginInstances"
+            },
+            {
+              "name": "Remove-SgDevOpsPluginInstances"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsAddon",
+          "children": [
+            {
+              "name": "Get-SgDevOpsAddon"
+            },
+            {
+              "name": "Install-SgDevOpsAddon"
+            },
+            {
+              "name": "Remove-SgDevOpsAddon"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsMonitor",
+          "children": [
+            {
+              "name": "Get-SgDevOpsMonitor"
+            },
+            {
+              "name": "Enable-SgDevOpsMonitor"
+            },
+            {
+              "name": "Disable-SgDevOpsMonitor"
+            },
+            {
+              "name": "Set-SgDevOpsMonitor"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsReverseFlowMonitor",
+          "children": [
+            {
+              "name": "Get-SgDevOpsReverseFlowMonitor"
+            },
+            {
+              "name": "Set-SgDevOpsReverseFlowMonitor"
+            }
+          ]
+        },
+        {
+          "name": "SgDevOpsReverseFlowPollNow",
+          "children": [
+            {
+              "name": "Invoke-SgDevOpsReverseFlowPollNow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "safeguard-discovery",
+      "companyName": "One Identity LLC",
+      "author": "petrsnd",
+      "children": [
+        {
+          "name": "SgDiscConnectionCredential",
+          "children": [
+            {
+              "name": "Get-SgDiscConnectionCredential"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscDiscoveredAccount",
+          "children": [
+            {
+              "name": "Import-SgDiscDiscoveredAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscDiscoveredAsset",
+          "children": [
+            {
+              "name": "Import-SgDiscDiscoveredAsset"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscDependencies",
+          "children": [
+            {
+              "name": "Install-SgDiscDependencies"
+            },
+            {
+              "name": "Uninstall-SgDiscDependencies"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscSqlServerAccount",
+          "children": [
+            {
+              "name": "Get-SgDiscSqlServerAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscMysqlAccount",
+          "children": [
+            {
+              "name": "Get-SgDiscMysqlAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscPostgresAccount",
+          "children": [
+            {
+              "name": "Get-SgDiscPostgresAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscOracleAccount",
+          "children": [
+            {
+              "name": "Get-SgDiscOracleAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscIDracAccount",
+          "children": [
+            {
+              "name": "Get-SgDiscIDracAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscHpIloAccount",
+          "children": [
+            {
+              "name": "Get-SgDiscHpIloAccount"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscEsxAsset",
+          "children": [
+            {
+              "name": "Get-SgDiscEsxAsset"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscServiceNowAsset",
+          "children": [
+            {
+              "name": "Get-SgDiscServiceNowAsset"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscAzureAsset",
+          "children": [
+            {
+              "name": "Get-SgDiscAzureAsset"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscHypervAsset",
+          "children": [
+            {
+              "name": "Get-SgDiscHypervAsset"
+            }
+          ]
+        },
+        {
+          "name": "SgDiscAwsAsset",
+          "children": [
+            {
+              "name": "Get-SgDiscAwsAsset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "safeguard-ps",
+      "companyName": "One Identity LLC",
+      "author": "petrsnd",
+      "children": [
+        {
+          "name": "Safeguard",
+          "children": [
+            {
+              "name": "Connect-Safeguard"
+            },
+            {
+              "name": "Disconnect-Safeguard"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardMethod",
+          "children": [
+            {
+              "name": "Invoke-SafeguardMethod"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessTokenStatus",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessTokenStatus"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessToken",
+          "children": [
+            {
+              "name": "Update-SafeguardAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardLoggedInUser",
+          "children": [
+            {
+              "name": "Get-SafeguardLoggedInUser"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardStaAcceptance",
+          "children": [
+            {
+              "name": "Confirm-SafeguardStaAcceptance"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardConnectionVersion",
+          "children": [
+            {
+              "name": "Switch-SafeguardConnectionVersion"
+            }
+          ]
+        },
+        {
+          "name": "CsvInExcel",
+          "children": [
+            {
+              "name": "Open-CsvInExcel"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardIdentityProviderType",
+          "children": [
+            {
+              "name": "Get-SafeguardIdentityProviderType"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardPlatform",
+          "children": [
+            {
+              "name": "Get-SafeguardPlatform"
+            },
+            {
+              "name": "Find-SafeguardPlatform"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardTimeZone",
+          "children": [
+            {
+              "name": "Get-SafeguardTimeZone"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardTransferProtocol",
+          "children": [
+            {
+              "name": "Get-SafeguardTransferProtocol"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardLicense",
+          "children": [
+            {
+              "name": "Install-SafeguardLicense"
+            },
+            {
+              "name": "Uninstall-SafeguardLicense"
+            },
+            {
+              "name": "Get-SafeguardLicense"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardTrustedCertificate",
+          "children": [
+            {
+              "name": "Install-SafeguardTrustedCertificate"
+            },
+            {
+              "name": "Uninstall-SafeguardTrustedCertificate"
+            },
+            {
+              "name": "Get-SafeguardTrustedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAuditLogSigningCertificate",
+          "children": [
+            {
+              "name": "Install-SafeguardAuditLogSigningCertificate"
+            },
+            {
+              "name": "Uninstall-SafeguardAuditLogSigningCertificate"
+            },
+            {
+              "name": "Get-SafeguardAuditLogSigningCertificate"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSslCertificate",
+          "children": [
+            {
+              "name": "Install-SafeguardSslCertificate"
+            },
+            {
+              "name": "Uninstall-SafeguardSslCertificate"
+            },
+            {
+              "name": "Get-SafeguardSslCertificate"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSslCertificateForAppliance",
+          "children": [
+            {
+              "name": "Set-SafeguardSslCertificateForAppliance"
+            },
+            {
+              "name": "Clear-SafeguardSslCertificateForAppliance"
+            },
+            {
+              "name": "Get-SafeguardSslCertificateForAppliance"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardCertificateSigningRequest",
+          "children": [
+            {
+              "name": "Get-SafeguardCertificateSigningRequest"
+            },
+            {
+              "name": "New-SafeguardCertificateSigningRequest"
+            },
+            {
+              "name": "Remove-SafeguardCertificateSigningRequest"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardTestCertificatePki",
+          "children": [
+            {
+              "name": "New-SafeguardTestCertificatePki"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardNetworkInterface",
+          "children": [
+            {
+              "name": "Get-SafeguardNetworkInterface"
+            },
+            {
+              "name": "Set-SafeguardNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDnsSuffix",
+          "children": [
+            {
+              "name": "Get-SafeguardDnsSuffix"
+            },
+            {
+              "name": "Set-SafeguardDnsSuffix"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardStatus",
+          "children": [
+            {
+              "name": "Get-SafeguardStatus"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceAvailability",
+          "children": [
+            {
+              "name": "Get-SafeguardApplianceAvailability"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceState",
+          "children": [
+            {
+              "name": "Get-SafeguardApplianceState"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceStateOnline",
+          "children": [
+            {
+              "name": "Wait-SafeguardApplianceStateOnline"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardVersion",
+          "children": [
+            {
+              "name": "Get-SafeguardVersion"
+            },
+            {
+              "name": "Test-SafeguardVersion"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceVerification",
+          "children": [
+            {
+              "name": "Get-SafeguardApplianceVerification"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardTime",
+          "children": [
+            {
+              "name": "Get-SafeguardTime"
+            },
+            {
+              "name": "Set-SafeguardTime"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceUptime",
+          "children": [
+            {
+              "name": "Get-SafeguardApplianceUptime"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardHealth",
+          "children": [
+            {
+              "name": "Get-SafeguardHealth"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceName",
+          "children": [
+            {
+              "name": "Get-SafeguardApplianceName"
+            },
+            {
+              "name": "Set-SafeguardApplianceName"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceDnsSuffix",
+          "children": [
+            {
+              "name": "Get-SafeguardApplianceDnsSuffix"
+            },
+            {
+              "name": "Set-SafeguardApplianceDnsSuffix"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceDnsName",
+          "children": [
+            {
+              "name": "Get-SafeguardApplianceDnsName"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceShutdown",
+          "children": [
+            {
+              "name": "Invoke-SafeguardApplianceShutdown"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceReboot",
+          "children": [
+            {
+              "name": "Invoke-SafeguardApplianceReboot"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceFactoryReset",
+          "children": [
+            {
+              "name": "Invoke-SafeguardApplianceFactoryReset"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSupportBundle",
+          "children": [
+            {
+              "name": "Get-SafeguardSupportBundle"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSupportBundleQuickGlance",
+          "children": [
+            {
+              "name": "Get-SafeguardSupportBundleQuickGlance"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardPatch",
+          "children": [
+            {
+              "name": "Get-SafeguardPatch"
+            },
+            {
+              "name": "Clear-SafeguardPatch"
+            },
+            {
+              "name": "Install-SafeguardPatch"
+            },
+            {
+              "name": "Set-SafeguardPatch"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardBackup",
+          "children": [
+            {
+              "name": "New-SafeguardBackup"
+            },
+            {
+              "name": "Remove-SafeguardBackup"
+            },
+            {
+              "name": "Export-SafeguardBackup"
+            },
+            {
+              "name": "Import-SafeguardBackup"
+            },
+            {
+              "name": "Restore-SafeguardBackup"
+            },
+            {
+              "name": "Get-SafeguardBackup"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardBackupToArchive",
+          "children": [
+            {
+              "name": "Save-SafeguardBackupToArchive"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardBmcConfiguration",
+          "children": [
+            {
+              "name": "Get-SafeguardBmcConfiguration"
+            },
+            {
+              "name": "Enable-SafeguardBmcConfiguration"
+            },
+            {
+              "name": "Disable-SafeguardBmcConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardBmcAdminPassword",
+          "children": [
+            {
+              "name": "Set-SafeguardBmcAdminPassword"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardTls12Only",
+          "children": [
+            {
+              "name": "Enable-SafeguardTls12Only"
+            },
+            {
+              "name": "Disable-SafeguardTls12Only"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardTls12OnlyStatus",
+          "children": [
+            {
+              "name": "Get-SafeguardTls12OnlyStatus"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAuditLogArchive",
+          "children": [
+            {
+              "name": "Test-SafeguardAuditLogArchive"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardPing",
+          "children": [
+            {
+              "name": "Invoke-SafeguardPing"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardTelnet",
+          "children": [
+            {
+              "name": "Invoke-SafeguardTelnet"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDiagnosticPackage",
+          "children": [
+            {
+              "name": "Get-SafeguardDiagnosticPackage"
+            },
+            {
+              "name": "Set-SafeguardDiagnosticPackage"
+            },
+            {
+              "name": "Clear-SafeguardDiagnosticPackage"
+            },
+            {
+              "name": "Invoke-SafeguardDiagnosticPackage"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDiagnosticPackageStatus",
+          "children": [
+            {
+              "name": "Get-SafeguardDiagnosticPackageStatus"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDiagnosticPackageLog",
+          "children": [
+            {
+              "name": "Get-SafeguardDiagnosticPackageLog"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardMemberThroughput",
+          "children": [
+            {
+              "name": "Invoke-SafeguardMemberThroughput"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardClusterThroughput",
+          "children": [
+            {
+              "name": "Invoke-SafeguardClusterThroughput"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardMemberPing",
+          "children": [
+            {
+              "name": "Invoke-SafeguardMemberPing"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardClusterPing",
+          "children": [
+            {
+              "name": "Invoke-SafeguardClusterPing"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSessionCluster",
+          "children": [
+            {
+              "name": "Get-SafeguardSessionCluster"
+            },
+            {
+              "name": "Set-SafeguardSessionCluster"
+            },
+            {
+              "name": "Join-SafeguardSessionCluster"
+            },
+            {
+              "name": "Split-SafeguardSessionCluster"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSessionSplitCluster",
+          "children": [
+            {
+              "name": "Get-SafeguardSessionSplitCluster"
+            },
+            {
+              "name": "Remove-SafeguardSessionSplitCluster"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSessionClusterAccessRequestBroker",
+          "children": [
+            {
+              "name": "Enable-SafeguardSessionClusterAccessRequestBroker"
+            },
+            {
+              "name": "Disable-SafeguardSessionClusterAccessRequestBroker"
+            },
+            {
+              "name": "Get-SafeguardSessionClusterAccessRequestBroker"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSessionClusterAuditStream",
+          "children": [
+            {
+              "name": "Enable-SafeguardSessionClusterAuditStream"
+            },
+            {
+              "name": "Disable-SafeguardSessionClusterAuditStream"
+            },
+            {
+              "name": "Get-SafeguardSessionClusterAuditStream"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsWelcomeWizardStatus",
+          "children": [
+            {
+              "name": "Get-SafeguardSpsWelcomeWizardStatus"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsWelcomeWizard",
+          "children": [
+            {
+              "name": "Complete-SafeguardSpsWelcomeWizard"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSps",
+          "children": [
+            {
+              "name": "Connect-SafeguardSps"
+            },
+            {
+              "name": "Disconnect-SafeguardSps"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsMethod",
+          "children": [
+            {
+              "name": "Invoke-SafeguardSpsMethod"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsTransaction",
+          "children": [
+            {
+              "name": "Open-SafeguardSpsTransaction"
+            },
+            {
+              "name": "Close-SafeguardSpsTransaction"
+            },
+            {
+              "name": "Get-SafeguardSpsTransaction"
+            },
+            {
+              "name": "Clear-SafeguardSpsTransaction"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsTransactionChange",
+          "children": [
+            {
+              "name": "Show-SafeguardSpsTransactionChange"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsEndpoint",
+          "children": [
+            {
+              "name": "Show-SafeguardSpsEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsStarlingJoinBrowser",
+          "children": [
+            {
+              "name": "Invoke-SafeguardSpsStarlingJoinBrowser"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsStarlingJoin",
+          "children": [
+            {
+              "name": "Remove-SafeguardSpsStarlingJoin"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsRemoteAccess",
+          "children": [
+            {
+              "name": "Enable-SafeguardSpsRemoteAccess"
+            },
+            {
+              "name": "Disable-SafeguardSpsRemoteAccess"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsFirmwareSlot",
+          "children": [
+            {
+              "name": "Get-SafeguardSpsFirmwareSlot"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsFirmware",
+          "children": [
+            {
+              "name": "Import-SafeguardSpsFirmware"
+            },
+            {
+              "name": "Test-SafeguardSpsFirmware"
+            },
+            {
+              "name": "Install-SafeguardSpsFirmware"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsUpgrade",
+          "children": [
+            {
+              "name": "Install-SafeguardSpsUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsInfo",
+          "children": [
+            {
+              "name": "Get-SafeguardSpsInfo"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsVersion",
+          "children": [
+            {
+              "name": "Get-SafeguardSpsVersion"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSpsSupportBundle",
+          "children": [
+            {
+              "name": "Get-SafeguardSpsSupportBundle"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardArchiveServer",
+          "children": [
+            {
+              "name": "Get-SafeguardArchiveServer"
+            },
+            {
+              "name": "New-SafeguardArchiveServer"
+            },
+            {
+              "name": "Test-SafeguardArchiveServer"
+            },
+            {
+              "name": "Remove-SafeguardArchiveServer"
+            },
+            {
+              "name": "Edit-SafeguardArchiveServer"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequest",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessRequest"
+            },
+            {
+              "name": "Find-SafeguardAccessRequest"
+            },
+            {
+              "name": "New-SafeguardAccessRequest"
+            },
+            {
+              "name": "Edit-SafeguardAccessRequest"
+            },
+            {
+              "name": "Close-SafeguardAccessRequest"
+            },
+            {
+              "name": "Approve-SafeguardAccessRequest"
+            },
+            {
+              "name": "Deny-SafeguardAccessRequest"
+            },
+            {
+              "name": "Assert-SafeguardAccessRequest"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardActionableRequest",
+          "children": [
+            {
+              "name": "Get-SafeguardActionableRequest"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardRequestableAccount",
+          "children": [
+            {
+              "name": "Get-SafeguardRequestableAccount"
+            },
+            {
+              "name": "Find-SafeguardRequestableAccount"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardMyRequest",
+          "children": [
+            {
+              "name": "Get-SafeguardMyRequest"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardMyApproval",
+          "children": [
+            {
+              "name": "Get-SafeguardMyApproval"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardMyReview",
+          "children": [
+            {
+              "name": "Get-SafeguardMyReview"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequestPassword",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessRequestPassword"
+            },
+            {
+              "name": "Copy-SafeguardAccessRequestPassword"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequestSshKey",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessRequestSshKey"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequestApiKey",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessRequestApiKey"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequestSshHostKey",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessRequestSshHostKey"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequestRdpFile",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessRequestRdpFile"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequestSshUrl",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessRequestSshUrl"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequestRdpUrl",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessRequestRdpUrl"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequestSession",
+          "children": [
+            {
+              "name": "Start-SafeguardAccessRequestSession"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequestWebSession",
+          "children": [
+            {
+              "name": "Start-SafeguardAccessRequestWebSession"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessRequestActionLog",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessRequestActionLog"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardIdentityProvider",
+          "children": [
+            {
+              "name": "Get-SafeguardIdentityProvider"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAuthenticationProvider",
+          "children": [
+            {
+              "name": "Get-SafeguardAuthenticationProvider"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAuthenticationProviderAsDefault",
+          "children": [
+            {
+              "name": "Set-SafeguardAuthenticationProviderAsDefault"
+            },
+            {
+              "name": "Clear-SafeguardAuthenticationProviderAsDefault"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardUser",
+          "children": [
+            {
+              "name": "Get-SafeguardUser"
+            },
+            {
+              "name": "Find-SafeguardUser"
+            },
+            {
+              "name": "New-SafeguardUser"
+            },
+            {
+              "name": "Remove-SafeguardUser"
+            },
+            {
+              "name": "Edit-SafeguardUser"
+            },
+            {
+              "name": "Enable-SafeguardUser"
+            },
+            {
+              "name": "Disable-SafeguardUser"
+            },
+            {
+              "name": "Rename-SafeguardUser"
+            },
+            {
+              "name": "Import-SafeguardUser"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardUserPassword",
+          "children": [
+            {
+              "name": "Set-SafeguardUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardUserPreference",
+          "children": [
+            {
+              "name": "Get-SafeguardUserPreference"
+            },
+            {
+              "name": "Set-SafeguardUserPreference"
+            },
+            {
+              "name": "Remove-SafeguardUserPreference"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardUserImportTemplate",
+          "children": [
+            {
+              "name": "New-SafeguardUserImportTemplate"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAsset",
+          "children": [
+            {
+              "name": "Get-SafeguardAsset"
+            },
+            {
+              "name": "Find-SafeguardAsset"
+            },
+            {
+              "name": "New-SafeguardAsset"
+            },
+            {
+              "name": "Test-SafeguardAsset"
+            },
+            {
+              "name": "Remove-SafeguardAsset"
+            },
+            {
+              "name": "Edit-SafeguardAsset"
+            },
+            {
+              "name": "Import-SafeguardAsset"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDirectoryAsset",
+          "children": [
+            {
+              "name": "Sync-SafeguardDirectoryAsset"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetAccount",
+          "children": [
+            {
+              "name": "Get-SafeguardAssetAccount"
+            },
+            {
+              "name": "Find-SafeguardAssetAccount"
+            },
+            {
+              "name": "New-SafeguardAssetAccount"
+            },
+            {
+              "name": "Edit-SafeguardAssetAccount"
+            },
+            {
+              "name": "Remove-SafeguardAssetAccount"
+            },
+            {
+              "name": "Import-SafeguardAssetAccount"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetAccountPassword",
+          "children": [
+            {
+              "name": "Set-SafeguardAssetAccountPassword"
+            },
+            {
+              "name": "Test-SafeguardAssetAccountPassword"
+            },
+            {
+              "name": "Import-SafeguardAssetAccountPassword"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetAccountSshKey",
+          "children": [
+            {
+              "name": "Set-SafeguardAssetAccountSshKey"
+            },
+            {
+              "name": "Test-SafeguardAssetAccountSshKey"
+            },
+            {
+              "name": "Import-SafeguardAssetAccountSshKey"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetAccountRandomPassword",
+          "children": [
+            {
+              "name": "New-SafeguardAssetAccountRandomPassword"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetAccountPasswordChange",
+          "children": [
+            {
+              "name": "Invoke-SafeguardAssetAccountPasswordChange"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetAccountSshKeyChange",
+          "children": [
+            {
+              "name": "Invoke-SafeguardAssetAccountSshKeyChange"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetSshHostKeyDiscovery",
+          "children": [
+            {
+              "name": "Invoke-SafeguardAssetSshHostKeyDiscovery"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetImportTemplate",
+          "children": [
+            {
+              "name": "New-SafeguardAssetImportTemplate"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetAccountImportTemplate",
+          "children": [
+            {
+              "name": "New-SafeguardAssetAccountImportTemplate"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetAccountPasswordImportTemplate",
+          "children": [
+            {
+              "name": "New-SafeguardAssetAccountPasswordImportTemplate"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetAccountSshKeyImportTemplate",
+          "children": [
+            {
+              "name": "New-SafeguardAssetAccountSshKeyImportTemplate"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetPartition",
+          "children": [
+            {
+              "name": "Get-SafeguardAssetPartition"
+            },
+            {
+              "name": "New-SafeguardAssetPartition"
+            },
+            {
+              "name": "Remove-SafeguardAssetPartition"
+            },
+            {
+              "name": "Edit-SafeguardAssetPartition"
+            },
+            {
+              "name": "Enter-SafeguardAssetPartition"
+            },
+            {
+              "name": "Exit-SafeguardAssetPartition"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetPartitionOwner",
+          "children": [
+            {
+              "name": "Get-SafeguardAssetPartitionOwner"
+            },
+            {
+              "name": "Add-SafeguardAssetPartitionOwner"
+            },
+            {
+              "name": "Remove-SafeguardAssetPartitionOwner"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardCurrentAssetPartition",
+          "children": [
+            {
+              "name": "Get-SafeguardCurrentAssetPartition"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSchedule",
+          "children": [
+            {
+              "name": "New-SafeguardSchedule"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardScheduleMonthlyByDayOfWeek",
+          "children": [
+            {
+              "name": "New-SafeguardScheduleMonthlyByDayOfWeek"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardScheduleMonthlyByDay",
+          "children": [
+            {
+              "name": "New-SafeguardScheduleMonthlyByDay"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardScheduleWeekly",
+          "children": [
+            {
+              "name": "New-SafeguardScheduleWeekly"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardScheduleDaily",
+          "children": [
+            {
+              "name": "New-SafeguardScheduleDaily"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccountPasswordRule",
+          "children": [
+            {
+              "name": "Get-SafeguardAccountPasswordRule"
+            },
+            {
+              "name": "New-SafeguardAccountPasswordRule"
+            },
+            {
+              "name": "Remove-SafeguardAccountPasswordRule"
+            },
+            {
+              "name": "Rename-SafeguardAccountPasswordRule"
+            },
+            {
+              "name": "Copy-SafeguardAccountPasswordRule"
+            },
+            {
+              "name": "Edit-SafeguardAccountPasswordRule"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardPasswordCheckSchedule",
+          "children": [
+            {
+              "name": "Get-SafeguardPasswordCheckSchedule"
+            },
+            {
+              "name": "New-SafeguardPasswordCheckSchedule"
+            },
+            {
+              "name": "Remove-SafeguardPasswordCheckSchedule"
+            },
+            {
+              "name": "Rename-SafeguardPasswordCheckSchedule"
+            },
+            {
+              "name": "Copy-SafeguardPasswordCheckSchedule"
+            },
+            {
+              "name": "Edit-SafeguardPasswordCheckSchedule"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardPasswordChangeSchedule",
+          "children": [
+            {
+              "name": "Get-SafeguardPasswordChangeSchedule"
+            },
+            {
+              "name": "New-SafeguardPasswordChangeSchedule"
+            },
+            {
+              "name": "Remove-SafeguardPasswordChangeSchedule"
+            },
+            {
+              "name": "Rename-SafeguardPasswordChangeSchedule"
+            },
+            {
+              "name": "Copy-SafeguardPasswordChangeSchedule"
+            },
+            {
+              "name": "Edit-SafeguardPasswordChangeSchedule"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardPasswordProfile",
+          "children": [
+            {
+              "name": "Get-SafeguardPasswordProfile"
+            },
+            {
+              "name": "New-SafeguardPasswordProfile"
+            },
+            {
+              "name": "Remove-SafeguardPasswordProfile"
+            },
+            {
+              "name": "Rename-SafeguardPasswordProfile"
+            },
+            {
+              "name": "Copy-SafeguardPasswordProfile"
+            },
+            {
+              "name": "Edit-SafeguardPasswordProfile"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDirectoryIdentityProvider",
+          "children": [
+            {
+              "name": "Get-SafeguardDirectoryIdentityProvider"
+            },
+            {
+              "name": "New-SafeguardDirectoryIdentityProvider"
+            },
+            {
+              "name": "Remove-SafeguardDirectoryIdentityProvider"
+            },
+            {
+              "name": "Edit-SafeguardDirectoryIdentityProvider"
+            },
+            {
+              "name": "Sync-SafeguardDirectoryIdentityProvider"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDirectoryIdentityProviderDomain",
+          "children": [
+            {
+              "name": "Get-SafeguardDirectoryIdentityProviderDomain"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDirectoryIdentityProviderSchemaMapping",
+          "children": [
+            {
+              "name": "Get-SafeguardDirectoryIdentityProviderSchemaMapping"
+            },
+            {
+              "name": "Set-SafeguardDirectoryIdentityProviderSchemaMapping"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDirectory",
+          "children": [
+            {
+              "name": "Get-SafeguardDirectory"
+            },
+            {
+              "name": "New-SafeguardDirectory"
+            },
+            {
+              "name": "Test-SafeguardDirectory"
+            },
+            {
+              "name": "Remove-SafeguardDirectory"
+            },
+            {
+              "name": "Edit-SafeguardDirectory"
+            },
+            {
+              "name": "Sync-SafeguardDirectory"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDirectoryAccount",
+          "children": [
+            {
+              "name": "Get-SafeguardDirectoryAccount"
+            },
+            {
+              "name": "Find-SafeguardDirectoryAccount"
+            },
+            {
+              "name": "New-SafeguardDirectoryAccount"
+            },
+            {
+              "name": "Edit-SafeguardDirectoryAccount"
+            },
+            {
+              "name": "Remove-SafeguardDirectoryAccount"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDirectoryAccountPassword",
+          "children": [
+            {
+              "name": "Set-SafeguardDirectoryAccountPassword"
+            },
+            {
+              "name": "Test-SafeguardDirectoryAccountPassword"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDirectoryAccountRandomPassword",
+          "children": [
+            {
+              "name": "New-SafeguardDirectoryAccountRandomPassword"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDirectoryAccountPasswordChange",
+          "children": [
+            {
+              "name": "Invoke-SafeguardDirectoryAccountPasswordChange"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDirectoryMigrationData",
+          "children": [
+            {
+              "name": "Get-SafeguardDirectoryMigrationData"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardUserGroup",
+          "children": [
+            {
+              "name": "Get-SafeguardUserGroup"
+            },
+            {
+              "name": "New-SafeguardUserGroup"
+            },
+            {
+              "name": "Remove-SafeguardUserGroup"
+            },
+            {
+              "name": "Edit-SafeguardUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardUserGroupMember",
+          "children": [
+            {
+              "name": "Get-SafeguardUserGroupMember"
+            },
+            {
+              "name": "Add-SafeguardUserGroupMember"
+            },
+            {
+              "name": "Remove-SafeguardUserGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetGroup",
+          "children": [
+            {
+              "name": "Get-SafeguardAssetGroup"
+            },
+            {
+              "name": "New-SafeguardAssetGroup"
+            },
+            {
+              "name": "Remove-SafeguardAssetGroup"
+            },
+            {
+              "name": "Edit-SafeguardAssetGroup"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAssetGroupMember",
+          "children": [
+            {
+              "name": "Get-SafeguardAssetGroupMember"
+            },
+            {
+              "name": "Add-SafeguardAssetGroupMember"
+            },
+            {
+              "name": "Remove-SafeguardAssetGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccountGroup",
+          "children": [
+            {
+              "name": "Get-SafeguardAccountGroup"
+            },
+            {
+              "name": "New-SafeguardAccountGroup"
+            },
+            {
+              "name": "Remove-SafeguardAccountGroup"
+            },
+            {
+              "name": "Edit-SafeguardAccountGroup"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccountGroupMember",
+          "children": [
+            {
+              "name": "Get-SafeguardAccountGroupMember"
+            },
+            {
+              "name": "Add-SafeguardAccountGroupMember"
+            },
+            {
+              "name": "Remove-SafeguardAccountGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardUserGroupAuthenticationProvider",
+          "children": [
+            {
+              "name": "Sync-SafeguardUserGroupAuthenticationProvider"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDynamicAccountGroup",
+          "children": [
+            {
+              "name": "Get-SafeguardDynamicAccountGroup"
+            },
+            {
+              "name": "New-SafeguardDynamicAccountGroup"
+            },
+            {
+              "name": "Edit-SafeguardDynamicAccountGroup"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDynamicAssetGroup",
+          "children": [
+            {
+              "name": "Get-SafeguardDynamicAssetGroup"
+            },
+            {
+              "name": "New-SafeguardDynamicAssetGroup"
+            },
+            {
+              "name": "Edit-SafeguardDynamicAssetGroup"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardPolicyAsset",
+          "children": [
+            {
+              "name": "Get-SafeguardPolicyAsset"
+            },
+            {
+              "name": "Find-SafeguardPolicyAsset"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardPolicyAccount",
+          "children": [
+            {
+              "name": "Get-SafeguardPolicyAccount"
+            },
+            {
+              "name": "Find-SafeguardPolicyAccount"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessPolicy",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessPolicy"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessPolicyScopeItem",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessPolicyScopeItem"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessPolicyAccessRequestProperty",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessPolicyAccessRequestProperty"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAccessPolicySessionProperty",
+          "children": [
+            {
+              "name": "Get-SafeguardAccessPolicySessionProperty"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardUserLinkedAccount",
+          "children": [
+            {
+              "name": "Get-SafeguardUserLinkedAccount"
+            },
+            {
+              "name": "Add-SafeguardUserLinkedAccount"
+            },
+            {
+              "name": "Remove-SafeguardUserLinkedAccount"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardEvent",
+          "children": [
+            {
+              "name": "Get-SafeguardEvent"
+            },
+            {
+              "name": "Find-SafeguardEvent"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardEventCategory",
+          "children": [
+            {
+              "name": "Get-SafeguardEventCategory"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardEventName",
+          "children": [
+            {
+              "name": "Get-SafeguardEventName"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardEventProperty",
+          "children": [
+            {
+              "name": "Get-SafeguardEventProperty"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardEventSubscription",
+          "children": [
+            {
+              "name": "Get-SafeguardEventSubscription"
+            },
+            {
+              "name": "Find-SafeguardEventSubscription"
+            },
+            {
+              "name": "New-SafeguardEventSubscription"
+            },
+            {
+              "name": "Remove-SafeguardEventSubscription"
+            },
+            {
+              "name": "Edit-SafeguardEventSubscription"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardClusterMember",
+          "children": [
+            {
+              "name": "Get-SafeguardClusterMember"
+            },
+            {
+              "name": "Add-SafeguardClusterMember"
+            },
+            {
+              "name": "Remove-SafeguardClusterMember"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardClusterHealth",
+          "children": [
+            {
+              "name": "Get-SafeguardClusterHealth"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardClusterOperationStatus",
+          "children": [
+            {
+              "name": "Get-SafeguardClusterOperationStatus"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardClusterPrimary",
+          "children": [
+            {
+              "name": "Get-SafeguardClusterPrimary"
+            },
+            {
+              "name": "Set-SafeguardClusterPrimary"
+            },
+            {
+              "name": "Enable-SafeguardClusterPrimary"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardCluster",
+          "children": [
+            {
+              "name": "Unlock-SafeguardCluster"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardClusterSummary",
+          "children": [
+            {
+              "name": "Get-SafeguardClusterSummary"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardClusterPlatformTaskLoadStatus",
+          "children": [
+            {
+              "name": "Get-SafeguardClusterPlatformTaskLoadStatus"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardClusterPlatformTaskQueueStatus",
+          "children": [
+            {
+              "name": "Get-SafeguardClusterPlatformTaskQueueStatus"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardClusterVpnIpv6Address",
+          "children": [
+            {
+              "name": "Get-SafeguardClusterVpnIpv6Address"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aServiceStatus",
+          "children": [
+            {
+              "name": "Get-SafeguardA2aServiceStatus"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aService",
+          "children": [
+            {
+              "name": "Enable-SafeguardA2aService"
+            },
+            {
+              "name": "Disable-SafeguardA2aService"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2a",
+          "children": [
+            {
+              "name": "Get-SafeguardA2a"
+            },
+            {
+              "name": "New-SafeguardA2a"
+            },
+            {
+              "name": "Remove-SafeguardA2a"
+            },
+            {
+              "name": "Edit-SafeguardA2a"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aCredentialRetrieval",
+          "children": [
+            {
+              "name": "Get-SafeguardA2aCredentialRetrieval"
+            },
+            {
+              "name": "Add-SafeguardA2aCredentialRetrieval"
+            },
+            {
+              "name": "Remove-SafeguardA2aCredentialRetrieval"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aCredentialRetrievalIpRestriction",
+          "children": [
+            {
+              "name": "Get-SafeguardA2aCredentialRetrievalIpRestriction"
+            },
+            {
+              "name": "Set-SafeguardA2aCredentialRetrievalIpRestriction"
+            },
+            {
+              "name": "Clear-SafeguardA2aCredentialRetrievalIpRestriction"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aCredentialRetrievalApiKey",
+          "children": [
+            {
+              "name": "Reset-SafeguardA2aCredentialRetrievalApiKey"
+            },
+            {
+              "name": "Get-SafeguardA2aCredentialRetrievalApiKey"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aCredentialRetrievalInformation",
+          "children": [
+            {
+              "name": "Get-SafeguardA2aCredentialRetrievalInformation"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aAccessRequestBroker",
+          "children": [
+            {
+              "name": "Get-SafeguardA2aAccessRequestBroker"
+            },
+            {
+              "name": "Set-SafeguardA2aAccessRequestBroker"
+            },
+            {
+              "name": "Clear-SafeguardA2aAccessRequestBroker"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aAccessRequestBrokerIpRestriction",
+          "children": [
+            {
+              "name": "Get-SafeguardA2aAccessRequestBrokerIpRestriction"
+            },
+            {
+              "name": "Set-SafeguardA2aAccessRequestBrokerIpRestriction"
+            },
+            {
+              "name": "Clear-SafeguardA2aAccessRequestBrokerIpRestriction"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aAccessRequestBrokerApiKey",
+          "children": [
+            {
+              "name": "Reset-SafeguardA2aAccessRequestBrokerApiKey"
+            },
+            {
+              "name": "Get-SafeguardA2aAccessRequestBrokerApiKey"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aRetrievableAccount",
+          "children": [
+            {
+              "name": "Get-SafeguardA2aRetrievableAccount"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aPassword",
+          "children": [
+            {
+              "name": "Get-SafeguardA2aPassword"
+            },
+            {
+              "name": "Set-SafeguardA2aPassword"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aPrivateKey",
+          "children": [
+            {
+              "name": "Get-SafeguardA2aPrivateKey"
+            },
+            {
+              "name": "Set-SafeguardA2aPrivateKey"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aApiKeySecret",
+          "children": [
+            {
+              "name": "Get-SafeguardA2aApiKeySecret"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardA2aAccessRequest",
+          "children": [
+            {
+              "name": "New-SafeguardA2aAccessRequest"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardStarlingSubscription",
+          "children": [
+            {
+              "name": "Get-SafeguardStarlingSubscription"
+            },
+            {
+              "name": "New-SafeguardStarlingSubscription"
+            },
+            {
+              "name": "Remove-SafeguardStarlingSubscription"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardStarlingJoinUrl",
+          "children": [
+            {
+              "name": "Get-SafeguardStarlingJoinUrl"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardStarlingJoin",
+          "children": [
+            {
+              "name": "Invoke-SafeguardStarlingJoin"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardStarlingJoinBrowser",
+          "children": [
+            {
+              "name": "Invoke-SafeguardStarlingJoinBrowser"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardStarlingSetting",
+          "children": [
+            {
+              "name": "Get-SafeguardStarlingSetting"
+            },
+            {
+              "name": "Set-SafeguardStarlingSetting"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardStarlingJoinInstance",
+          "children": [
+            {
+              "name": "Get-SafeguardStarlingJoinInstance"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardCommand",
+          "children": [
+            {
+              "name": "Get-SafeguardCommand"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardBanner",
+          "children": [
+            {
+              "name": "Get-SafeguardBanner"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardEntitlement",
+          "children": [
+            {
+              "name": "New-SafeguardEntitlement"
+            },
+            {
+              "name": "Get-SafeguardEntitlement"
+            },
+            {
+              "name": "Remove-SafeguardEntitlement"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportAccountWithoutPassword",
+          "children": [
+            {
+              "name": "Get-SafeguardReportAccountWithoutPassword"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportDailyAccessRequest",
+          "children": [
+            {
+              "name": "Get-SafeguardReportDailyAccessRequest"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportDailyPasswordCheckFail",
+          "children": [
+            {
+              "name": "Get-SafeguardReportDailyPasswordCheckFail"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportDailyPasswordCheckSuccess",
+          "children": [
+            {
+              "name": "Get-SafeguardReportDailyPasswordCheckSuccess"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportDailyPasswordChangeFail",
+          "children": [
+            {
+              "name": "Get-SafeguardReportDailyPasswordChangeFail"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportDailyPasswordChangeSuccess",
+          "children": [
+            {
+              "name": "Get-SafeguardReportDailyPasswordChangeSuccess"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportUserEntitlement",
+          "children": [
+            {
+              "name": "Get-SafeguardReportUserEntitlement"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportUserGroupMembership",
+          "children": [
+            {
+              "name": "Get-SafeguardReportUserGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportAssetGroupMembership",
+          "children": [
+            {
+              "name": "Get-SafeguardReportAssetGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportAccountGroupMembership",
+          "children": [
+            {
+              "name": "Get-SafeguardReportAccountGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportAssetManagementConfiguration",
+          "children": [
+            {
+              "name": "Get-SafeguardReportAssetManagementConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportA2aEntitlement",
+          "children": [
+            {
+              "name": "Get-SafeguardReportA2aEntitlement"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportPasswordLastChanged",
+          "children": [
+            {
+              "name": "Get-SafeguardReportPasswordLastChanged"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardReportAssetAccountPasswordHistory",
+          "children": [
+            {
+              "name": "Get-SafeguardReportAssetAccountPasswordHistory"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardApplianceSetting",
+          "children": [
+            {
+              "name": "Get-SafeguardApplianceSetting"
+            },
+            {
+              "name": "Set-SafeguardApplianceSetting"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardCoreSetting",
+          "children": [
+            {
+              "name": "Get-SafeguardCoreSetting"
+            },
+            {
+              "name": "Set-SafeguardCoreSetting"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDeletedAsset",
+          "children": [
+            {
+              "name": "Get-SafeguardDeletedAsset"
+            },
+            {
+              "name": "Remove-SafeguardDeletedAsset"
+            },
+            {
+              "name": "Restore-SafeguardDeletedAsset"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDeletedAssetAccount",
+          "children": [
+            {
+              "name": "Get-SafeguardDeletedAssetAccount"
+            },
+            {
+              "name": "Remove-SafeguardDeletedAssetAccount"
+            },
+            {
+              "name": "Restore-SafeguardDeletedAssetAccount"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDeletedUser",
+          "children": [
+            {
+              "name": "Get-SafeguardDeletedUser"
+            },
+            {
+              "name": "Remove-SafeguardDeletedUser"
+            },
+            {
+              "name": "Restore-SafeguardDeletedUser"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardPurgeSettings",
+          "children": [
+            {
+              "name": "Get-SafeguardPurgeSettings"
+            },
+            {
+              "name": "Update-SafeguardPurgeSettings"
+            },
+            {
+              "name": "Reset-SafeguardPurgeSettings"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardDebugSettings",
+          "children": [
+            {
+              "name": "Get-SafeguardDebugSettings"
+            },
+            {
+              "name": "Set-SafeguardDebugSettings"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardTlsLogging",
+          "children": [
+            {
+              "name": "Enable-SafeguardTlsLogging"
+            },
+            {
+              "name": "Disable-SafeguardTlsLogging"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardSyslogServer",
+          "children": [
+            {
+              "name": "Get-SafeguardSyslogServer"
+            },
+            {
+              "name": "New-SafeguardSyslogServer"
+            },
+            {
+              "name": "Remove-SafeguardSyslogServer"
+            },
+            {
+              "name": "Edit-SafeguardSyslogServer"
+            }
+          ]
+        },
+        {
+          "name": "SafeguardAuditLog",
+          "children": [
+            {
+              "name": "Get-SafeguardAuditLog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

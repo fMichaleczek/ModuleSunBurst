@@ -1,0 +1,123 @@
+{
+  "name": "Simpler Software",
+  "children": [
+    {
+      "name": "IBM.IAM.AWS.SecurityToken",
+      "companyName": "Simpler Software",
+      "author": "John W Carew",
+      "children": [
+        {
+          "name": "AwsIbmSamlCredentials",
+          "children": [
+            {
+              "name": "Set-AwsIbmSamlCredentials"
+            }
+          ]
+        },
+        {
+          "name": "AwsIbmSamlRoles",
+          "children": [
+            {
+              "name": "Get-AwsIbmSamlRoles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SS.CliMenu",
+      "companyName": "Simpler Software",
+      "author": "John W Carew",
+      "children": [
+        {
+          "name": "CliMenu",
+          "children": [
+            {
+              "name": "New-CliMenu"
+            },
+            {
+              "name": "Show-CliMenu"
+            }
+          ]
+        },
+        {
+          "name": "CliMenuItem",
+          "children": [
+            {
+              "name": "New-CliMenuItem"
+            }
+          ]
+        },
+        {
+          "name": "CliMenuOption",
+          "children": [
+            {
+              "name": "Set-CliMenuOption"
+            },
+            {
+              "name": "Get-CliMenuOption"
+            }
+          ]
+        },
+        {
+          "name": "CliMenuLine",
+          "children": [
+            {
+              "name": "Write-CliMenuLine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SS.PowerShell",
+      "companyName": "Simpler Software",
+      "author": "John W Carew",
+      "children": [
+        {
+          "name": "JsonSchema",
+          "children": [
+            {
+              "name": "Test-JsonSchema"
+            }
+          ]
+        },
+        {
+          "name": "XmlSchema",
+          "children": [
+            {
+              "name": "Test-XmlSchema"
+            }
+          ]
+        },
+        {
+          "name": "OutlookEmail",
+          "children": [
+            {
+              "name": "New-OutlookEmail"
+            },
+            {
+              "name": "Save-OutlookEmail"
+            }
+          ]
+        },
+        {
+          "name": "OutlookEmailAttachment",
+          "children": [
+            {
+              "name": "Add-OutlookEmailAttachment"
+            }
+          ]
+        },
+        {
+          "name": "OutlookRecipient",
+          "children": [
+            {
+              "name": "Add-OutlookRecipient"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

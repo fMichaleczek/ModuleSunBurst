@@ -1,0 +1,87 @@
+{
+  "name": "Dominique Clijsters",
+  "children": [
+    {
+      "name": "posh-maven",
+      "companyName": "Xylo IT",
+      "author": "Dominique Clijsters",
+      "children": [
+        {
+          "name": "MavenProject",
+          "children": [
+            {
+              "name": "Get-MavenProject"
+            },
+            {
+              "name": "Write-MavenProject"
+            }
+          ]
+        },
+        {
+          "name": "MavenProjectVersion",
+          "children": [
+            {
+              "name": "Get-MavenProjectVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSToggl",
+      "companyName": "Xylo IT",
+      "author": "Dominique Clijsters",
+      "children": [
+        {
+          "name": "TogglClient",
+          "children": [
+            {
+              "name": "Get-TogglClient"
+            }
+          ]
+        },
+        {
+          "name": "TogglEntry",
+          "children": [
+            {
+              "name": "Get-TogglEntry"
+            },
+            {
+              "name": "Start-TogglEntry"
+            },
+            {
+              "name": "Stop-TogglEntry"
+            }
+          ]
+        },
+        {
+          "name": "TogglProject",
+          "children": [
+            {
+              "name": "Get-TogglProject"
+            },
+            {
+              "name": "New-TogglProject"
+            }
+          ]
+        },
+        {
+          "name": "TogglTag",
+          "children": [
+            {
+              "name": "Get-TogglTag"
+            }
+          ]
+        },
+        {
+          "name": "RunningTogglEntry",
+          "children": [
+            {
+              "name": "Write-RunningTogglEntry"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

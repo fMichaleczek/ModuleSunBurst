@@ -1,0 +1,866 @@
+{
+  "name": "Song",
+  "children": [
+    {
+      "name": "ArxmlAutomation-Basic",
+      "companyName": "Song",
+      "author": "LeanMeatFloss",
+      "children": [
+        {
+          "name": "ArxmlObj",
+          "children": [
+            {
+              "name": "Get-ArxmlObj"
+            }
+          ]
+        },
+        {
+          "name": "AutosarObj",
+          "children": [
+            {
+              "name": "New-AutosarObj"
+            }
+          ]
+        },
+        {
+          "name": "AutosarItem",
+          "children": [
+            {
+              "name": "New-AutosarItem"
+            }
+          ]
+        },
+        {
+          "name": "ReferenceProperty",
+          "children": [
+            {
+              "name": "New-ReferenceProperty"
+            }
+          ]
+        },
+        {
+          "name": "PropertyFactory",
+          "children": [
+            {
+              "name": "Get-PropertyFactory"
+            },
+            {
+              "name": "New-PropertyFactory"
+            }
+          ]
+        },
+        {
+          "name": "StringToProperty",
+          "children": [
+            {
+              "name": "Set-StringToProperty"
+            }
+          ]
+        },
+        {
+          "name": "ShortName",
+          "children": [
+            {
+              "name": "Set-ShortName"
+            }
+          ]
+        },
+        {
+          "name": "ReferrableSubItem",
+          "children": [
+            {
+              "name": "New-ReferrableSubItem"
+            }
+          ]
+        },
+        {
+          "name": "DirectReferrableItem",
+          "children": [
+            {
+              "name": "Find-DirectReferrableItem"
+            }
+          ]
+        },
+        {
+          "name": "NestedReferrableItem",
+          "children": [
+            {
+              "name": "Find-NestedReferrableItem"
+            }
+          ]
+        },
+        {
+          "name": "ArrayReferrableItem",
+          "children": [
+            {
+              "name": "Find-ArrayReferrableItem"
+            }
+          ]
+        },
+        {
+          "name": "NextReferrableItemProperty",
+          "children": [
+            {
+              "name": "Find-NextReferrableItemProperty"
+            }
+          ]
+        },
+        {
+          "name": "ReferrableItemToCollection",
+          "children": [
+            {
+              "name": "Update-ReferrableItemToCollection"
+            }
+          ]
+        },
+        {
+          "name": "ReferrableSubItemsToCollection",
+          "children": [
+            {
+              "name": "New-ReferrableSubItemsToCollection"
+            }
+          ]
+        },
+        {
+          "name": "IdentifiableItem",
+          "children": [
+            {
+              "name": "New-IdentifiableItem"
+            }
+          ]
+        },
+        {
+          "name": "Action",
+          "children": [
+            {
+              "name": "Add-Action"
+            }
+          ]
+        },
+        {
+          "name": "AUTOSARCollection",
+          "children": [
+            {
+              "name": "Get-AUTOSARCollection"
+            },
+            {
+              "name": "Use-AutoSarCollection"
+            }
+          ]
+        },
+        {
+          "name": "CurrentAutoSarCollection",
+          "children": [
+            {
+              "name": "Get-CurrentAutoSarCollection"
+            }
+          ]
+        },
+        {
+          "name": "ArxmlFile",
+          "children": [
+            {
+              "name": "Use-ArxmlFile"
+            }
+          ]
+        },
+        {
+          "name": "AllItemsByType",
+          "children": [
+            {
+              "name": "Find-AllItemsByType"
+            }
+          ]
+        },
+        {
+          "name": "ArElementRef",
+          "children": [
+            {
+              "name": "Get-ArElementRef"
+            }
+          ]
+        },
+        {
+          "name": "ArElementFromRef",
+          "children": [
+            {
+              "name": "Find-ArElementFromRef"
+            }
+          ]
+        },
+        {
+          "name": "AllEvents",
+          "children": [
+            {
+              "name": "Get-AllEvents"
+            }
+          ]
+        },
+        {
+          "name": "ArProperty",
+          "children": [
+            {
+              "name": "Select-ArProperty"
+            }
+          ]
+        },
+        {
+          "name": "FunctionInfos",
+          "children": [
+            {
+              "name": "Write-FunctionInfos"
+            }
+          ]
+        },
+        {
+          "name": "ConfigCommand",
+          "children": [
+            {
+              "name": "Invoke-ConfigCommand"
+            }
+          ]
+        },
+        {
+          "name": "SameArObjContainer",
+          "children": [
+            {
+              "name": "Confirm-SameArObjContainer"
+            }
+          ]
+        },
+        {
+          "name": "ArObjType",
+          "children": [
+            {
+              "name": "Assert-ArObjType"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ArxmlAutomation-Basic-Validation",
+      "companyName": "Song",
+      "author": "LeanMeatFloss",
+      "children": [
+        {
+          "name": "SameArObjContainer",
+          "children": [
+            {
+              "name": "Confirm-SameArObjContainer"
+            }
+          ]
+        },
+        {
+          "name": "ArObjType",
+          "children": [
+            {
+              "name": "Assert-ArObjType"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ArxmlAutomation-Swc",
+      "companyName": "Song",
+      "author": "Hansong Li",
+      "children": [
+        {
+          "name": "AssemblySWConnector",
+          "children": [
+            {
+              "name": "New-AssemblySWConnector"
+            },
+            {
+              "name": "Confirm-AssemblySWConnector"
+            }
+          ]
+        },
+        {
+          "name": "AssemblySWConnectorRulesInterfaceShallMatch",
+          "children": [
+            {
+              "name": "Confirm-AssemblySWConnectorRulesInterfaceShallMatch"
+            }
+          ]
+        },
+        {
+          "name": "ArxmlObj",
+          "children": [
+            {
+              "name": "Get-ArxmlObj"
+            }
+          ]
+        },
+        {
+          "name": "AutosarObj",
+          "children": [
+            {
+              "name": "New-AutosarObj"
+            }
+          ]
+        },
+        {
+          "name": "AutosarItem",
+          "children": [
+            {
+              "name": "New-AutosarItem"
+            }
+          ]
+        },
+        {
+          "name": "ReferenceProperty",
+          "children": [
+            {
+              "name": "New-ReferenceProperty"
+            }
+          ]
+        },
+        {
+          "name": "PropertyFactory",
+          "children": [
+            {
+              "name": "Get-PropertyFactory"
+            },
+            {
+              "name": "New-PropertyFactory"
+            }
+          ]
+        },
+        {
+          "name": "StringToProperty",
+          "children": [
+            {
+              "name": "Set-StringToProperty"
+            }
+          ]
+        },
+        {
+          "name": "ShortName",
+          "children": [
+            {
+              "name": "Set-ShortName"
+            }
+          ]
+        },
+        {
+          "name": "ReferrableSubItem",
+          "children": [
+            {
+              "name": "New-ReferrableSubItem"
+            }
+          ]
+        },
+        {
+          "name": "DirectReferrableItem",
+          "children": [
+            {
+              "name": "Find-DirectReferrableItem"
+            }
+          ]
+        },
+        {
+          "name": "NestedReferrableItem",
+          "children": [
+            {
+              "name": "Find-NestedReferrableItem"
+            }
+          ]
+        },
+        {
+          "name": "ArrayReferrableItem",
+          "children": [
+            {
+              "name": "Find-ArrayReferrableItem"
+            }
+          ]
+        },
+        {
+          "name": "NextReferrableItemProperty",
+          "children": [
+            {
+              "name": "Find-NextReferrableItemProperty"
+            }
+          ]
+        },
+        {
+          "name": "ReferrableItemToCollection",
+          "children": [
+            {
+              "name": "Update-ReferrableItemToCollection"
+            }
+          ]
+        },
+        {
+          "name": "ReferrableSubItemsToCollection",
+          "children": [
+            {
+              "name": "New-ReferrableSubItemsToCollection"
+            }
+          ]
+        },
+        {
+          "name": "IdentifiableItem",
+          "children": [
+            {
+              "name": "New-IdentifiableItem"
+            }
+          ]
+        },
+        {
+          "name": "Action",
+          "children": [
+            {
+              "name": "Add-Action"
+            }
+          ]
+        },
+        {
+          "name": "AUTOSARCollection",
+          "children": [
+            {
+              "name": "Get-AUTOSARCollection"
+            },
+            {
+              "name": "Use-AutoSarCollection"
+            }
+          ]
+        },
+        {
+          "name": "CurrentAutoSarCollection",
+          "children": [
+            {
+              "name": "Get-CurrentAutoSarCollection"
+            }
+          ]
+        },
+        {
+          "name": "ArxmlFile",
+          "children": [
+            {
+              "name": "Use-ArxmlFile"
+            }
+          ]
+        },
+        {
+          "name": "AllItemsByType",
+          "children": [
+            {
+              "name": "Find-AllItemsByType"
+            }
+          ]
+        },
+        {
+          "name": "ArElementRef",
+          "children": [
+            {
+              "name": "Get-ArElementRef"
+            }
+          ]
+        },
+        {
+          "name": "ArElementFromRef",
+          "children": [
+            {
+              "name": "Find-ArElementFromRef"
+            }
+          ]
+        },
+        {
+          "name": "AllEvents",
+          "children": [
+            {
+              "name": "Get-AllEvents"
+            }
+          ]
+        },
+        {
+          "name": "ArProperty",
+          "children": [
+            {
+              "name": "Select-ArProperty"
+            }
+          ]
+        },
+        {
+          "name": "FunctionInfos",
+          "children": [
+            {
+              "name": "Write-FunctionInfos"
+            }
+          ]
+        },
+        {
+          "name": "ConfigCommand",
+          "children": [
+            {
+              "name": "Invoke-ConfigCommand"
+            }
+          ]
+        },
+        {
+          "name": "SameArObjContainer",
+          "children": [
+            {
+              "name": "Confirm-SameArObjContainer"
+            }
+          ]
+        },
+        {
+          "name": "ArObjType",
+          "children": [
+            {
+              "name": "Assert-ArObjType"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ArxmlAutomation-Swc-Advance",
+      "companyName": "Song",
+      "author": "LeanMeatFloss",
+      "children": [
+        {
+          "name": "AllConnectors",
+          "children": [
+            {
+              "name": "Get-AllConnectors"
+            }
+          ]
+        },
+        {
+          "name": "ConnectionsInfo",
+          "children": [
+            {
+              "name": "Show-ConnectionsInfo"
+            }
+          ]
+        },
+        {
+          "name": "UnConnectedRPort",
+          "children": [
+            {
+              "name": "Get-UnConnectedRPort"
+            }
+          ]
+        },
+        {
+          "name": "UnConnectedPort",
+          "children": [
+            {
+              "name": "Get-UnConnectedPort"
+            }
+          ]
+        },
+        {
+          "name": "PortAutomation",
+          "children": [
+            {
+              "name": "Connect-PortAutomation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ArxmlAutomation-Utils",
+      "companyName": "Song",
+      "author": "LeanMeatFloss",
+      "children": [
+        {
+          "name": "FunctionInfos",
+          "children": [
+            {
+              "name": "Write-FunctionInfos"
+            }
+          ]
+        },
+        {
+          "name": "ConfigCommand",
+          "children": [
+            {
+              "name": "Invoke-ConfigCommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PwshImproveCmd-Basic",
+      "companyName": "Song",
+      "author": "LeanMeatFloss",
+      "children": [
+        {
+          "name": "PathImproved",
+          "children": [
+            {
+              "name": "Join-PathImproved"
+            },
+            {
+              "name": "Resolve-PathImproved"
+            }
+          ]
+        },
+        {
+          "name": "ItemToBak",
+          "children": [
+            {
+              "name": "Rename-ItemToBak"
+            }
+          ]
+        },
+        {
+          "name": "ArrayItems",
+          "children": [
+            {
+              "name": "Compare-ArrayItems"
+            }
+          ]
+        },
+        {
+          "name": "ObjectImproved",
+          "children": [
+            {
+              "name": "Select-ObjectImproved"
+            }
+          ]
+        },
+        {
+          "name": "PSModuleDependenctForPester",
+          "children": [
+            {
+              "name": "Resolve-PSModuleDependenctForPester"
+            }
+          ]
+        },
+        {
+          "name": "ModuleFromGallery",
+          "children": [
+            {
+              "name": "Import-ModuleFromGallery"
+            }
+          ]
+        },
+        {
+          "name": "RelativePath",
+          "children": [
+            {
+              "name": "Get-RelativePath"
+            }
+          ]
+        },
+        {
+          "name": "String",
+          "children": [
+            {
+              "name": "Split-String"
+            }
+          ]
+        },
+        {
+          "name": "FileNameFromPath",
+          "children": [
+            {
+              "name": "Get-FileNameFromPath"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentVariable",
+          "children": [
+            {
+              "name": "Get-EnvironmentVariable"
+            },
+            {
+              "name": "Set-EnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "ModulePathToEnv",
+          "children": [
+            {
+              "name": "Add-ModulePathToEnv"
+            },
+            {
+              "name": "Remove-ModulePathToEnv"
+            }
+          ]
+        },
+        {
+          "name": "ChildItemImprove",
+          "children": [
+            {
+              "name": "Get-ChildItemImprove"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PwshSQLiteCmd-Basic",
+      "companyName": "Song",
+      "author": "LeanMeatFloss",
+      "children": [
+        {
+          "name": "SQLiteDataBase",
+          "children": [
+            {
+              "name": "Disconnect-SQLiteDataBase"
+            },
+            {
+              "name": "Resolve-SQLiteDataBase"
+            }
+          ]
+        },
+        {
+          "name": "ToSQLiteDataBase",
+          "children": [
+            {
+              "name": "Connect-ToSQLiteDataBase"
+            }
+          ]
+        },
+        {
+          "name": "QueueCommand",
+          "children": [
+            {
+              "name": "Invoke-QueueCommand"
+            }
+          ]
+        },
+        {
+          "name": "CurrentSQLiteConnection",
+          "children": [
+            {
+              "name": "Get-CurrentSQLiteConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RelativeWorkspaceManager-Advance",
+      "companyName": "Song",
+      "author": "LeanMeatFloss",
+      "children": [
+        {
+          "name": "WorkspaceItemLock",
+          "children": [
+            {
+              "name": "Use-WorkspaceItemLock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RelativeWorkspaceManager-Basic",
+      "companyName": "Song",
+      "author": "LeanMeatFloss",
+      "children": [
+        {
+          "name": "Workspace",
+          "children": [
+            {
+              "name": "Use-Workspace"
+            }
+          ]
+        },
+        {
+          "name": "RelativeLocation",
+          "children": [
+            {
+              "name": "Use-RelativeLocation"
+            }
+          ]
+        },
+        {
+          "name": "CurrentWorkspace",
+          "children": [
+            {
+              "name": "Get-CurrentWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "FullPathFromRelativePathToWorkspace",
+          "children": [
+            {
+              "name": "Get-FullPathFromRelativePathToWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "RelativePath",
+          "children": [
+            {
+              "name": "Test-RelativePath"
+            }
+          ]
+        },
+        {
+          "name": "AllChildInRelativePath",
+          "children": [
+            {
+              "name": "Get-AllChildInRelativePath"
+            }
+          ]
+        },
+        {
+          "name": "RelativePathToWorkspace",
+          "children": [
+            {
+              "name": "Get-RelativePathToWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "FileInfoFromRelativePath",
+          "children": [
+            {
+              "name": "Get-FileInfoFromRelativePath"
+            }
+          ]
+        },
+        {
+          "name": "ItemFromRelativePath",
+          "children": [
+            {
+              "name": "Remove-ItemFromRelativePath"
+            }
+          ]
+        },
+        {
+          "name": "FileToRelativePath",
+          "children": [
+            {
+              "name": "New-FileToRelativePath"
+            },
+            {
+              "name": "Out-FileToRelativePath"
+            }
+          ]
+        },
+        {
+          "name": "ContentFromRelativePath",
+          "children": [
+            {
+              "name": "Get-ContentFromRelativePath"
+            }
+          ]
+        },
+        {
+          "name": "DirWithRelativePath",
+          "children": [
+            {
+              "name": "Resolve-DirWithRelativePath"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "name": "Sitecore contrib",
+  "children": [
+    {
+      "name": "SitecoreCecSearchModule",
+      "companyName": "Sitecore contrib",
+      "author": "Jesper Balle",
+      "children": [
+        {
+          "name": "CecAccessToken",
+          "children": [
+            {
+              "name": "Set-CecAccessToken"
+            },
+            {
+              "name": "New-CecAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "CecRefreshToken",
+          "children": [
+            {
+              "name": "Set-CecRefreshToken"
+            },
+            {
+              "name": "Get-CecRefreshToken"
+            }
+          ]
+        },
+        {
+          "name": "RefreshAccessToken",
+          "children": [
+            {
+              "name": "Invoke-RefreshAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "CecLogin",
+          "children": [
+            {
+              "name": "Invoke-CecLogin"
+            }
+          ]
+        },
+        {
+          "name": "CecDomainContext",
+          "children": [
+            {
+              "name": "Set-CecDomainContext"
+            },
+            {
+              "name": "Get-CecDomainContext"
+            }
+          ]
+        },
+        {
+          "name": "CecGlobalMethod",
+          "children": [
+            {
+              "name": "Invoke-CecGlobalMethod"
+            }
+          ]
+        },
+        {
+          "name": "CecDomainMethod",
+          "children": [
+            {
+              "name": "Invoke-CecDomainMethod"
+            }
+          ]
+        },
+        {
+          "name": "CecDomain",
+          "children": [
+            {
+              "name": "Get-CecDomain"
+            }
+          ]
+        },
+        {
+          "name": "CecDomainContextBy",
+          "children": [
+            {
+              "name": "Set-CecDomainContextBy"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorInfo",
+          "children": [
+            {
+              "name": "Get-CecConnectorInfo"
+            }
+          ]
+        },
+        {
+          "name": "CecConnector",
+          "children": [
+            {
+              "name": "Get-CecConnector"
+            },
+            {
+              "name": "Set-CecConnector"
+            },
+            {
+              "name": "Write-CecConnector"
+            },
+            {
+              "name": "Read-CecConnector"
+            },
+            {
+              "name": "Publish-CecConnector"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorPrefix",
+          "children": [
+            {
+              "name": "Add-CecConnectorPrefix"
+            },
+            {
+              "name": "Remove-CecConnectorPrefix"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorModelWithId",
+          "children": [
+            {
+              "name": "Update-CecConnectorModelWithId"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorVersion",
+          "children": [
+            {
+              "name": "Update-CecConnectorVersion"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorCrawlerSchedule",
+          "children": [
+            {
+              "name": "Set-CecConnectorCrawlerSchedule"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorRescan",
+          "children": [
+            {
+              "name": "Start-CecConnectorRescan"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorJobStatus",
+          "children": [
+            {
+              "name": "Get-CecConnectorJobStatus"
+            }
+          ]
+        },
+        {
+          "name": "CecJobStatus",
+          "children": [
+            {
+              "name": "Get-CecJobStatus"
+            }
+          ]
+        },
+        {
+          "name": "CecJobError",
+          "children": [
+            {
+              "name": "Get-CecJobError"
+            }
+          ]
+        },
+        {
+          "name": "CecAttribute",
+          "children": [
+            {
+              "name": "Get-CecAttribute"
+            },
+            {
+              "name": "Set-CecAttribute"
+            },
+            {
+              "name": "Write-CecAttribute"
+            },
+            {
+              "name": "Read-CecAttribute"
+            }
+          ]
+        },
+        {
+          "name": "CecFeatureConfig",
+          "children": [
+            {
+              "name": "Get-CecFeatureConfig"
+            },
+            {
+              "name": "Write-CecFeatureConfig"
+            }
+          ]
+        },
+        {
+          "name": "CecWidgetInfo",
+          "children": [
+            {
+              "name": "Get-CecWidgetInfo"
+            }
+          ]
+        },
+        {
+          "name": "CecWidget",
+          "children": [
+            {
+              "name": "Get-CecWidget"
+            },
+            {
+              "name": "Write-CecWidget"
+            }
+          ]
+        },
+        {
+          "name": "CecDomainConfig",
+          "children": [
+            {
+              "name": "Get-CecDomainConfig"
+            }
+          ]
+        },
+        {
+          "name": "CecCustomerKey",
+          "children": [
+            {
+              "name": "Get-CecCustomerKey"
+            }
+          ]
+        },
+        {
+          "name": "CecDnsEntry",
+          "children": [
+            {
+              "name": "Get-CecDnsEntry"
+            }
+          ]
+        },
+        {
+          "name": "CecEndpoint",
+          "children": [
+            {
+              "name": "Get-CecEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "CecApiKeys",
+          "children": [
+            {
+              "name": "Get-CecApiKeys"
+            }
+          ]
+        },
+        {
+          "name": "GetAndWriteAllCecConfiguration",
+          "children": [
+            {
+              "name": "Invoke-GetAndWriteAllCecConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "HttpJsonToGraph",
+          "children": [
+            {
+              "name": "Convert-HttpJsonToGraph"
+            }
+          ]
+        },
+        {
+          "name": "HttpGraphToJson",
+          "children": [
+            {
+              "name": "Convert-HttpGraphToJson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

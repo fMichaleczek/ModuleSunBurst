@@ -1,0 +1,739 @@
+{
+  "name": "Jesse Reichman",
+  "children": [
+    {
+      "name": "AutomationUtils",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "ForType",
+          "children": [
+            {
+              "name": "Select-ForType"
+            }
+          ]
+        },
+        {
+          "name": "LogFile",
+          "children": [
+            {
+              "name": "Reset-LogFile"
+            }
+          ]
+        },
+        {
+          "name": "AsLog",
+          "children": [
+            {
+              "name": "Format-AsLog"
+            }
+          ]
+        },
+        {
+          "name": "ScriptRepeat",
+          "children": [
+            {
+              "name": "Invoke-ScriptRepeat"
+            }
+          ]
+        },
+        {
+          "name": "Capture",
+          "children": [
+            {
+              "name": "New-Capture"
+            }
+          ]
+        },
+        {
+          "name": "ToCapture",
+          "children": [
+            {
+              "name": "Copy-ToCapture"
+            }
+          ]
+        },
+        {
+          "name": "CaptureScript",
+          "children": [
+            {
+              "name": "Invoke-CaptureScript"
+            }
+          ]
+        },
+        {
+          "name": "Notification",
+          "children": [
+            {
+              "name": "New-Notification"
+            }
+          ]
+        },
+        {
+          "name": "Notifications",
+          "children": [
+            {
+              "name": "Send-Notifications"
+            }
+          ]
+        },
+        {
+          "name": "Notifier",
+          "children": [
+            {
+              "name": "Register-Notifier"
+            }
+          ]
+        },
+        {
+          "name": "Automation",
+          "children": [
+            {
+              "name": "Register-Automation"
+            },
+            {
+              "name": "Invoke-Automation"
+            }
+          ]
+        },
+        {
+          "name": "StringLength",
+          "children": [
+            {
+              "name": "Split-StringLength"
+            },
+            {
+              "name": "Limit-StringLength"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzAutoTools",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "ScriptVarSource",
+          "children": [
+            {
+              "name": "Set-ScriptVarSource"
+            }
+          ]
+        },
+        {
+          "name": "ScriptVar",
+          "children": [
+            {
+              "name": "Get-ScriptVar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CertCheck",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "EndpointCertificate",
+          "children": [
+            {
+              "name": "Test-EndpointCertificate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CertCheckStor",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "CertCheckStorCertificate",
+          "children": [
+            {
+              "name": "Add-CertCheckStorCertificate"
+            },
+            {
+              "name": "Get-CertCheckStorCertificate"
+            }
+          ]
+        },
+        {
+          "name": "CertCheckStorEndpoint",
+          "children": [
+            {
+              "name": "Add-CertCheckStorEndpoint"
+            },
+            {
+              "name": "Get-CertCheckStorEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "CertCheckStorUsage",
+          "children": [
+            {
+              "name": "Add-CertCheckStorUsage"
+            },
+            {
+              "name": "Get-CertCheckStorUsage"
+            }
+          ]
+        },
+        {
+          "name": "CertCheckStorSessionId",
+          "children": [
+            {
+              "name": "Reset-CertCheckStorSessionId"
+            },
+            {
+              "name": "Get-CertCheckStorSessionId"
+            }
+          ]
+        },
+        {
+          "name": "CertCheckStorSessionName",
+          "children": [
+            {
+              "name": "Get-CertCheckStorSessionName"
+            },
+            {
+              "name": "Set-CertCheckStorSessionName"
+            }
+          ]
+        },
+        {
+          "name": "CertCheckStorStaleUsage",
+          "children": [
+            {
+              "name": "Remove-CertCheckStorStaleUsage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CITools",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "EnvVar",
+          "children": [
+            {
+              "name": "Use-EnvVar"
+            }
+          ]
+        },
+        {
+          "name": "SuccessExitCode",
+          "children": [
+            {
+              "name": "Assert-SuccessExitCode"
+            }
+          ]
+        },
+        {
+          "name": "CIProfile",
+          "children": [
+            {
+              "name": "Invoke-CIProfile"
+            }
+          ]
+        },
+        {
+          "name": "TemplateFile",
+          "children": [
+            {
+              "name": "Format-TemplateFile"
+            }
+          ]
+        },
+        {
+          "name": "TemplateString",
+          "children": [
+            {
+              "name": "Format-TemplateString"
+            }
+          ]
+        },
+        {
+          "name": "BuildDirectories",
+          "children": [
+            {
+              "name": "Use-BuildDirectories"
+            },
+            {
+              "name": "Clear-BuildDirectories"
+            },
+            {
+              "name": "Get-BuildDirectories"
+            }
+          ]
+        },
+        {
+          "name": "BuildDirectory",
+          "children": [
+            {
+              "name": "Use-BuildDirectory"
+            },
+            {
+              "name": "Clear-BuildDirectory"
+            }
+          ]
+        },
+        {
+          "name": "Native",
+          "children": [
+            {
+              "name": "Invoke-Native"
+            }
+          ]
+        },
+        {
+          "name": "DeploymentPlaybook",
+          "children": [
+            {
+              "name": "Invoke-DeploymentPlaybook"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentPlaybook",
+          "children": [
+            {
+              "name": "Invoke-EnvironmentPlaybook"
+            }
+          ]
+        },
+        {
+          "name": "AZDEnvironmentPromotePR",
+          "children": [
+            {
+              "name": "Add-AZDEnvironmentPromotePR"
+            }
+          ]
+        },
+        {
+          "name": "RecordAsString",
+          "children": [
+            {
+              "name": "Format-RecordAsString"
+            }
+          ]
+        },
+        {
+          "name": "LogFileState",
+          "children": [
+            {
+              "name": "Reset-LogFileState"
+            }
+          ]
+        },
+        {
+          "name": "BuildNumber",
+          "children": [
+            {
+              "name": "Get-BuildNumber"
+            }
+          ]
+        },
+        {
+          "name": "ValidVersions",
+          "children": [
+            {
+              "name": "Select-ValidVersions"
+            }
+          ]
+        },
+        {
+          "name": "Base64ToString",
+          "children": [
+            {
+              "name": "Convert-Base64ToString"
+            }
+          ]
+        },
+        {
+          "name": "StringToBase64",
+          "children": [
+            {
+              "name": "Convert-StringToBase64"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GitHubApiTools",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "GithubApi",
+          "children": [
+            {
+              "name": "Invoke-GithubApi"
+            }
+          ]
+        },
+        {
+          "name": "GithubReleaseAsset",
+          "children": [
+            {
+              "name": "Add-GithubReleaseAsset"
+            }
+          ]
+        },
+        {
+          "name": "GithubRelease",
+          "children": [
+            {
+              "name": "New-GithubRelease"
+            },
+            {
+              "name": "Get-GithubRelease"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ModuleMgmt",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "PSModuleWithSpec",
+          "children": [
+            {
+              "name": "Install-PSModuleWithSpec"
+            }
+          ]
+        },
+        {
+          "name": "PSModuleFromManifest",
+          "children": [
+            {
+              "name": "Install-PSModuleFromManifest"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellGallery",
+          "children": [
+            {
+              "name": "Use-PowerShellGallery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NetScan",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "NetScanCollection",
+          "children": [
+            {
+              "name": "New-NetScanCollection"
+            }
+          ]
+        },
+        {
+          "name": "NetScanRanges",
+          "children": [
+            {
+              "name": "Get-NetScanRanges"
+            }
+          ]
+        },
+        {
+          "name": "NetScanRange",
+          "children": [
+            {
+              "name": "Add-NetScanRange"
+            }
+          ]
+        },
+        {
+          "name": "NetScanSystems",
+          "children": [
+            {
+              "name": "Select-NetScanSystems"
+            }
+          ]
+        },
+        {
+          "name": "NetScanAddress",
+          "children": [
+            {
+              "name": "Add-NetScanAddress"
+            }
+          ]
+        },
+        {
+          "name": "NetScanPingCheck",
+          "children": [
+            {
+              "name": "Add-NetScanPingCheck"
+            }
+          ]
+        },
+        {
+          "name": "NetScanTcpCheck",
+          "children": [
+            {
+              "name": "Add-NetScanTcpCheck"
+            }
+          ]
+        },
+        {
+          "name": "NetScanReverseLookup",
+          "children": [
+            {
+              "name": "Add-NetScanReverseLookup"
+            }
+          ]
+        },
+        {
+          "name": "NetScanConnectivityInfo",
+          "children": [
+            {
+              "name": "Update-NetScanConnectivityInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ReportRunner",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "ReportRunnerContext",
+          "children": [
+            {
+              "name": "New-ReportRunnerContext"
+            },
+            {
+              "name": "Invoke-ReportRunnerContext"
+            }
+          ]
+        },
+        {
+          "name": "ReportRunnerSection",
+          "children": [
+            {
+              "name": "New-ReportRunnerSection"
+            }
+          ]
+        },
+        {
+          "name": "ReportRunnerBlock",
+          "children": [
+            {
+              "name": "New-ReportRunnerBlock"
+            }
+          ]
+        },
+        {
+          "name": "ReportRunnerNotice",
+          "children": [
+            {
+              "name": "New-ReportRunnerNotice"
+            }
+          ]
+        },
+        {
+          "name": "ReportRunnerFormatTable",
+          "children": [
+            {
+              "name": "ConvertTo-ReportRunnerFormatTable"
+            }
+          ]
+        },
+        {
+          "name": "ReportRunnerLibraryBlock",
+          "children": [
+            {
+              "name": "Add-ReportRunnerLibraryBlock"
+            }
+          ]
+        },
+        {
+          "name": "ReportRunnerContextAsHtml",
+          "children": [
+            {
+              "name": "Format-ReportRunnerContextAsHtml"
+            }
+          ]
+        },
+        {
+          "name": "ReportRunnerBlockData",
+          "children": [
+            {
+              "name": "Update-ReportRunnerBlockData"
+            }
+          ]
+        },
+        {
+          "name": "ReportRunnerDataProperty",
+          "children": [
+            {
+              "name": "Get-ReportRunnerDataProperty"
+            }
+          ]
+        },
+        {
+          "name": "ReportRunnerBlockSetting",
+          "children": [
+            {
+              "name": "Set-ReportRunnerBlockSetting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SvcProc",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "ServiceRun",
+          "children": [
+            {
+              "name": "Invoke-ServiceRun"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TrelloApiTools",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "TrelloSession",
+          "children": [
+            {
+              "name": "New-TrelloSession"
+            },
+            {
+              "name": "Import-TrelloSession"
+            },
+            {
+              "name": "Export-TrelloSession"
+            }
+          ]
+        },
+        {
+          "name": "TrelloValidSession",
+          "children": [
+            {
+              "name": "Test-TrelloValidSession"
+            }
+          ]
+        },
+        {
+          "name": "TrelloApiTools",
+          "children": [
+            {
+              "name": "Invoke-TrelloApiTools"
+            }
+          ]
+        },
+        {
+          "name": "TrelloMemberBoards",
+          "children": [
+            {
+              "name": "Get-TrelloMemberBoards"
+            }
+          ]
+        },
+        {
+          "name": "TrelloListCards",
+          "children": [
+            {
+              "name": "Get-TrelloListCards"
+            }
+          ]
+        },
+        {
+          "name": "TrelloBoardCards",
+          "children": [
+            {
+              "name": "Get-TrelloBoardCards"
+            }
+          ]
+        },
+        {
+          "name": "TrelloLists",
+          "children": [
+            {
+              "name": "Get-TrelloLists"
+            }
+          ]
+        },
+        {
+          "name": "TrelloList",
+          "children": [
+            {
+              "name": "Add-TrelloList"
+            }
+          ]
+        },
+        {
+          "name": "TrelloListCard",
+          "children": [
+            {
+              "name": "Add-TrelloListCard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TrelloTaskMgmt",
+      "companyName": "ArchMachina",
+      "author": "Jesse Reichman",
+      "children": [
+        {
+          "name": "TrelloTasksFromConfig",
+          "children": [
+            {
+              "name": "Update-TrelloTasksFromConfig"
+            }
+          ]
+        },
+        {
+          "name": "TrelloTasksFromTemplate",
+          "children": [
+            {
+              "name": "Update-TrelloTasksFromTemplate"
+            }
+          ]
+        },
+        {
+          "name": "TrelloTaskUpdateService",
+          "children": [
+            {
+              "name": "Invoke-TrelloTaskUpdateService"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

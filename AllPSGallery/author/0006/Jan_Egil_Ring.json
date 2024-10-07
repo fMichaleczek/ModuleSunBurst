@@ -1,0 +1,245 @@
+{
+  "name": "Jan Egil Ring",
+  "children": [
+    {
+      "name": "AzureFileSyncDsc",
+      "companyName": "PSCommunity",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "*.TargetResource",
+          "children": [
+            {
+              "name": "*.TargetResource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DataProtectionManagerCX",
+      "companyName": "Community",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "DPMCXAgent",
+          "children": [
+            {
+              "name": "Get-DPMCXAgent"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXAgentOwner",
+          "children": [
+            {
+              "name": "Get-DPMCXAgentOwner"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXAlert",
+          "children": [
+            {
+              "name": "Get-DPMCXAlert"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXMARSAgent",
+          "children": [
+            {
+              "name": "Get-DPMCXMARSAgent"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXMARSVersion",
+          "children": [
+            {
+              "name": "Get-DPMCXMARSVersion"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXRecoveryPointStatus",
+          "children": [
+            {
+              "name": "Get-DPMCXRecoveryPointStatus"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXServerConfiguration",
+          "children": [
+            {
+              "name": "Get-DPMCXServerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXSizingBaseline",
+          "children": [
+            {
+              "name": "Get-DPMCXSizingBaseline"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXVersion",
+          "children": [
+            {
+              "name": "Get-DPMCXVersion"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXMARSAgentReport",
+          "children": [
+            {
+              "name": "New-DPMCXMARSAgentReport"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXRecoveryPointStatusReport",
+          "children": [
+            {
+              "name": "New-DPMCXRecoveryPointStatusReport"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXServerConfigurationReport",
+          "children": [
+            {
+              "name": "New-DPMCXServerConfigurationReport"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXComputer",
+          "children": [
+            {
+              "name": "Test-DPMCXComputer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MSGraphIntuneManagement",
+      "companyName": "Community",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "MSGraphAuthenticationToken",
+          "children": [
+            {
+              "name": "Get-MSGraphAuthenticationToken"
+            }
+          ]
+        },
+        {
+          "name": "MSGraphAzureADUser",
+          "children": [
+            {
+              "name": "Get-MSGraphAzureADUser"
+            }
+          ]
+        },
+        {
+          "name": "MSGraphIntuneUserDevice",
+          "children": [
+            {
+              "name": "Get-MSGraphIntuneUserDevice"
+            }
+          ]
+        },
+        {
+          "name": "MSGraphIntuneDeviceAction",
+          "children": [
+            {
+              "name": "Invoke-MSGraphIntuneDeviceAction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PIMTools",
+      "companyName": "PSCommunity",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "AzureADPIMRequest",
+          "children": [
+            {
+              "name": "New-AzureADPIMRequest"
+            }
+          ]
+        },
+        {
+          "name": "AzurePIMRequest",
+          "children": [
+            {
+              "name": "New-AzurePIMRequest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSVersion",
+      "companyName": "Community",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "PSVersion",
+          "children": [
+            {
+              "name": "Get-PSVersion"
+            }
+          ]
+        },
+        {
+          "name": "PSVersionData",
+          "children": [
+            {
+              "name": "Update-PSVersionData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSVersionCompare",
+      "companyName": "Community",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "PSVersionCommand",
+          "children": [
+            {
+              "name": "Compare-PSVersionCommand"
+            },
+            {
+              "name": "Get-PSVersionCommand"
+            }
+          ]
+        },
+        {
+          "name": "PSVersionVariable",
+          "children": [
+            {
+              "name": "Compare-PSVersionVariable"
+            },
+            {
+              "name": "Get-PSVersionVariable"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

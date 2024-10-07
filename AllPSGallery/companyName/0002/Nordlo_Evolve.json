@@ -1,0 +1,134 @@
+{
+  "name": "Nordlo Evolve",
+  "children": [
+    {
+      "name": "DeployLibNorEvo",
+      "companyName": "Nordlo Evolve",
+      "author": "Mikael Karlsson",
+      "children": [
+        {
+          "name": "NEDeploySession",
+          "children": [
+            {
+              "name": "Start-NEDeploySession"
+            }
+          ]
+        },
+        {
+          "name": "NELog",
+          "children": [
+            {
+              "name": "Write-NELog"
+            }
+          ]
+        },
+        {
+          "name": "NELogonMaintenanceMessage",
+          "children": [
+            {
+              "name": "Set-NELogonMaintenanceMessage"
+            }
+          ]
+        },
+        {
+          "name": "NEFileTransfer",
+          "children": [
+            {
+              "name": "Invoke-NEFileTransfer"
+            }
+          ]
+        },
+        {
+          "name": "NEWIMoperations",
+          "children": [
+            {
+              "name": "Invoke-NEWIMoperations"
+            }
+          ]
+        },
+        {
+          "name": "NEWingetApplication",
+          "children": [
+            {
+              "name": "Install-NEWingetApplication"
+            },
+            {
+              "name": "Uninstall-NEWingetApplication"
+            }
+          ]
+        },
+        {
+          "name": "NEWingetInstallOrUpdate",
+          "children": [
+            {
+              "name": "Invoke-NEWingetInstallOrUpdate"
+            }
+          ]
+        },
+        {
+          "name": "NERemovePublicDesktopShortcuts",
+          "children": [
+            {
+              "name": "Invoke-NERemovePublicDesktopShortcuts"
+            }
+          ]
+        },
+        {
+          "name": "NEIniFileContent",
+          "children": [
+            {
+              "name": "Edit-NEIniFileContent"
+            }
+          ]
+        },
+        {
+          "name": "NEExitCode",
+          "children": [
+            {
+              "name": "Add-NEExitCode"
+            }
+          ]
+        },
+        {
+          "name": "NEInstallResult",
+          "children": [
+            {
+              "name": "Invoke-NEInstallResult"
+            }
+          ]
+        },
+        {
+          "name": "NEResetDeployEnvironment",
+          "children": [
+            {
+              "name": "Invoke-NEResetDeployEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "NEFinalAction",
+          "children": [
+            {
+              "name": "Invoke-NEFinalAction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NE.Dep.Module",
+      "companyName": "Nordlo Evolve",
+      "author": "Nordlo Evolve",
+      "children": [
+        {
+          "name": "NE",
+          "children": [
+            {
+              "name": "Invoke-NE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

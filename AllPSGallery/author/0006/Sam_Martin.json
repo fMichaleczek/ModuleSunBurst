@@ -1,0 +1,481 @@
+{
+  "name": "Sam Martin",
+  "children": [
+    {
+      "name": "AWSTestHelper",
+      "companyName": "N A",
+      "author": "Sam Martin",
+      "children": [
+        {
+          "name": "AWSTestEnvironmentStackOutputs",
+          "children": [
+            {
+              "name": "Get-AWSTestEnvironmentStackOutputs"
+            }
+          ]
+        },
+        {
+          "name": "AWSTestEnvironmentStack",
+          "children": [
+            {
+              "name": "New-AWSTestEnvironmentStack"
+            },
+            {
+              "name": "Remove-AWSTestEnvironmentStack"
+            }
+          ]
+        },
+        {
+          "name": "AWSTestEnvironmentStackCreation",
+          "children": [
+            {
+              "name": "Wait-AWSTestEnvironmentStackCreation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AWSWindowsHelpers",
+      "companyName": "N A",
+      "author": "Sam Martin",
+      "children": [
+        {
+          "name": "AWSWindowsHelperCFNParameter",
+          "children": [
+            {
+              "name": "ConvertTo-AWSWindowsHelperCFNParameter"
+            }
+          ]
+        },
+        {
+          "name": "AWSTestAMI",
+          "children": [
+            {
+              "name": "New-AWSTestAMI"
+            }
+          ]
+        },
+        {
+          "name": "AWSTestSnapshots",
+          "children": [
+            {
+              "name": "New-AWSTestSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelpersReplacementInstance",
+          "children": [
+            {
+              "name": "New-AWSWindowsHelpersReplacementInstance"
+            }
+          ]
+        },
+        {
+          "name": "AWSTestWindowsInstanceFromSnapshot",
+          "children": [
+            {
+              "name": "Restore-AWSTestWindowsInstanceFromSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "AWSHelperAMIUpdate",
+          "children": [
+            {
+              "name": "Start-AWSHelperAMIUpdate"
+            }
+          ]
+        },
+        {
+          "name": "AWSHelperInstanceInLoadBalancers",
+          "children": [
+            {
+              "name": "Switch-AWSHelperInstanceInLoadBalancers"
+            }
+          ]
+        },
+        {
+          "name": "AWSHelperInstanceSecurityGroups",
+          "children": [
+            {
+              "name": "Switch-AWSHelperInstanceSecurityGroups"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelperAMI",
+          "children": [
+            {
+              "name": "Update-AWSWindowsHelperAMI"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelperInstanceToAMI",
+          "children": [
+            {
+              "name": "Update-AWSWindowsHelperInstanceToAMI"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelperAMIToComplete",
+          "children": [
+            {
+              "name": "Wait-AWSWindowsHelperAMIToComplete"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelperInstanceReady",
+          "children": [
+            {
+              "name": "Wait-AWSWindowsHelperInstanceReady"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelperInstanceToStop",
+          "children": [
+            {
+              "name": "Wait-AWSWindowsHelperInstanceToStop"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelperDecryptKMSPlaintext",
+          "children": [
+            {
+              "name": "Invoke-AWSWindowsHelperDecryptKMSPlaintext"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelperEncryptKMSPlaintext",
+          "children": [
+            {
+              "name": "Invoke-AWSWindowsHelperEncryptKMSPlaintext"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelperALBTraffic",
+          "children": [
+            {
+              "name": "Get-AWSWindowsHelperALBTraffic"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelpersCertDetailFromArn",
+          "children": [
+            {
+              "name": "Get-AWSWindowsHelpersCertDetailFromArn"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelpersLBDetailFromLBArn",
+          "children": [
+            {
+              "name": "Get-AWSWindowsHelpersLBDetailFromLBArn"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelpersALBCertificates",
+          "children": [
+            {
+              "name": "Set-AWSWindowsHelpersALBCertificates"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelpersELBCertificates",
+          "children": [
+            {
+              "name": "Set-AWSWindowsHelpersELBCertificates"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelpersCertificateValid",
+          "children": [
+            {
+              "name": "Test-AWSWindowsHelpersCertificateValid"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelpersLoadBalancerCertificate",
+          "children": [
+            {
+              "name": "Update-AWSWindowsHelpersLoadBalancerCertificate"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelperAuroraStorage",
+          "children": [
+            {
+              "name": "Get-AWSWindowsHelperAuroraStorage"
+            }
+          ]
+        },
+        {
+          "name": "AWSWindowsHelpersR53RecordSet",
+          "children": [
+            {
+              "name": "Set-AWSWindowsHelpersR53RecordSet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chefhelpers",
+      "companyName": "N A",
+      "author": "Sam Martin",
+      "children": [
+        {
+          "name": "CHEncryptedDatabag",
+          "children": [
+            {
+              "name": "Get-CHEncryptedDatabag"
+            }
+          ]
+        },
+        {
+          "name": "CHKnifeFile",
+          "children": [
+            {
+              "name": "New-CHKnifeFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nusync",
+      "companyName": "N A",
+      "author": "Sam Martin",
+      "children": [
+        {
+          "name": "NSAllModuleVersion",
+          "children": [
+            {
+              "name": "Find-NSAllModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "NSModule",
+          "children": [
+            {
+              "name": "Publish-NSModule"
+            },
+            {
+              "name": "Save-NSModule"
+            },
+            {
+              "name": "Sync-NSModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSLeanKit",
+      "companyName": "Unknown",
+      "author": "Sam Martin",
+      "children": [
+        {
+          "name": "LeanKitAuthIsSet",
+          "children": [
+            {
+              "name": "Test-LeanKitAuthIsSet"
+            }
+          ]
+        },
+        {
+          "name": "LeanKitDateFormat",
+          "children": [
+            {
+              "name": "Get-LeanKitDateFormat"
+            }
+          ]
+        },
+        {
+          "name": "LeanKitProfile",
+          "children": [
+            {
+              "name": "Add-LeanKitProfile"
+            },
+            {
+              "name": "Remove-LeanKitProfile"
+            },
+            {
+              "name": "Get-LeanKitProfile"
+            }
+          ]
+        },
+        {
+          "name": "LeanKitProfileDataWithExplicitParams",
+          "children": [
+            {
+              "name": "Merge-LeanKitProfileDataWithExplicitParams"
+            }
+          ]
+        },
+        {
+          "name": "LeanKitBoard",
+          "children": [
+            {
+              "name": "Get-LeanKitBoard"
+            },
+            {
+              "name": "Find-LeanKitBoard"
+            }
+          ]
+        },
+        {
+          "name": "LeanKitCardsInBoard",
+          "children": [
+            {
+              "name": "Get-LeanKitCardsInBoard"
+            }
+          ]
+        },
+        {
+          "name": "LeanKitCard",
+          "children": [
+            {
+              "name": "New-LeanKitCard"
+            },
+            {
+              "name": "Add-LeanKitCard"
+            },
+            {
+              "name": "Get-LeanKitCard"
+            },
+            {
+              "name": "Update-LeanKitCard"
+            },
+            {
+              "name": "Remove-LeanKitCard"
+            }
+          ]
+        },
+        {
+          "name": "LeanKitCards",
+          "children": [
+            {
+              "name": "Add-LeanKitCards"
+            },
+            {
+              "name": "Update-LeanKitCards"
+            },
+            {
+              "name": "Remove-LeanKitCards"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psprtg",
+      "companyName": "Unknown",
+      "author": "Sam Martin",
+      "children": [
+        {
+          "name": "PRTGObject",
+          "children": [
+            {
+              "name": "Copy-PRTGObject"
+            },
+            {
+              "name": "Remove-PRTGObject"
+            }
+          ]
+        },
+        {
+          "name": "PRTGDeviceByHostname",
+          "children": [
+            {
+              "name": "Get-PRTGDeviceByHostname"
+            }
+          ]
+        },
+        {
+          "name": "PRTGDevices",
+          "children": [
+            {
+              "name": "Get-PRTGDevices"
+            }
+          ]
+        },
+        {
+          "name": "PRTGGroups",
+          "children": [
+            {
+              "name": "Get-PRTGGroups"
+            }
+          ]
+        },
+        {
+          "name": "PRTGObjectProperty",
+          "children": [
+            {
+              "name": "Get-PRTGObjectProperty"
+            },
+            {
+              "name": "Set-PRTGObjectProperty"
+            }
+          ]
+        },
+        {
+          "name": "PRTGObjectStatus",
+          "children": [
+            {
+              "name": "Get-PRTGObjectStatus"
+            }
+          ]
+        },
+        {
+          "name": "PRTGTable",
+          "children": [
+            {
+              "name": "Get-PRTGTable"
+            }
+          ]
+        },
+        {
+          "name": "PRTGCredentials",
+          "children": [
+            {
+              "name": "Set-PRTGCredentials"
+            }
+          ]
+        },
+        {
+          "name": "PRTGObjectPaused",
+          "children": [
+            {
+              "name": "Set-PRTGObjectPaused"
+            }
+          ]
+        },
+        {
+          "name": "PRTGObjectUnpaused",
+          "children": [
+            {
+              "name": "Set-PRTGObjectUnpaused"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

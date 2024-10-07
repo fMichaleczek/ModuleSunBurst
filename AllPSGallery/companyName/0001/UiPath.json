@@ -1,0 +1,1066 @@
+{
+  "name": "UiPath",
+  "children": [
+    {
+      "name": "UiPathOrch",
+      "companyName": "UiPath",
+      "author": "Yoshifumi Tsuda",
+      "children": [
+        {
+          "name": "OrchLibrary",
+          "children": [
+            {
+              "name": "Get-OrchLibrary"
+            },
+            {
+              "name": "Remove-OrchLibrary"
+            },
+            {
+              "name": "Import-OrchLibrary"
+            },
+            {
+              "name": "Export-OrchLibrary"
+            },
+            {
+              "name": "Copy-OrchLibrary"
+            }
+          ]
+        },
+        {
+          "name": "OrchLibraryVersion",
+          "children": [
+            {
+              "name": "Get-OrchLibraryVersion"
+            }
+          ]
+        },
+        {
+          "name": "OrchPackage",
+          "children": [
+            {
+              "name": "Get-OrchPackage"
+            },
+            {
+              "name": "Copy-OrchPackage"
+            },
+            {
+              "name": "Remove-OrchPackage"
+            },
+            {
+              "name": "Import-OrchPackage"
+            },
+            {
+              "name": "Export-OrchPackage"
+            }
+          ]
+        },
+        {
+          "name": "OrchPackageVersion",
+          "children": [
+            {
+              "name": "Get-OrchPackageVersion"
+            }
+          ]
+        },
+        {
+          "name": "OrchJob",
+          "children": [
+            {
+              "name": "Get-OrchJob"
+            },
+            {
+              "name": "Start-OrchJob"
+            },
+            {
+              "name": "Stop-OrchJob"
+            },
+            {
+              "name": "Open-OrchJob"
+            }
+          ]
+        },
+        {
+          "name": "OrchLog",
+          "children": [
+            {
+              "name": "Get-OrchLog"
+            }
+          ]
+        },
+        {
+          "name": "OrchAuditLog",
+          "children": [
+            {
+              "name": "Get-OrchAuditLog"
+            }
+          ]
+        },
+        {
+          "name": "OrchJobMedia",
+          "children": [
+            {
+              "name": "Get-OrchJobMedia"
+            },
+            {
+              "name": "Export-OrchJobMedia"
+            },
+            {
+              "name": "Remove-OrchJobMedia"
+            }
+          ]
+        },
+        {
+          "name": "OrchProcess",
+          "children": [
+            {
+              "name": "Get-OrchProcess"
+            },
+            {
+              "name": "Add-OrchProcess"
+            },
+            {
+              "name": "Update-OrchProcess"
+            },
+            {
+              "name": "Copy-OrchProcess"
+            },
+            {
+              "name": "Remove-OrchProcess"
+            },
+            {
+              "name": "Edit-OrchProcess"
+            }
+          ]
+        },
+        {
+          "name": "OrchProcessVersion",
+          "children": [
+            {
+              "name": "Update-OrchProcessVersion"
+            },
+            {
+              "name": "Reset-OrchProcessVersion"
+            }
+          ]
+        },
+        {
+          "name": "OrchRobot",
+          "children": [
+            {
+              "name": "Get-OrchRobot"
+            }
+          ]
+        },
+        {
+          "name": "OrchUser",
+          "children": [
+            {
+              "name": "Get-OrchUser"
+            },
+            {
+              "name": "Add-OrchUser"
+            },
+            {
+              "name": "Update-OrchUser"
+            },
+            {
+              "name": "Copy-OrchUser"
+            },
+            {
+              "name": "Remove-OrchUser"
+            }
+          ]
+        },
+        {
+          "name": "OrchRoleFromUser",
+          "children": [
+            {
+              "name": "Remove-OrchRoleFromUser"
+            }
+          ]
+        },
+        {
+          "name": "OrchCurrentUser",
+          "children": [
+            {
+              "name": "Get-OrchCurrentUser"
+            }
+          ]
+        },
+        {
+          "name": "OrchCurrentUserURPassword",
+          "children": [
+            {
+              "name": "Update-OrchCurrentUserURPassword"
+            }
+          ]
+        },
+        {
+          "name": "OrchLicenseNamedUser",
+          "children": [
+            {
+              "name": "Get-OrchLicenseNamedUser"
+            }
+          ]
+        },
+        {
+          "name": "OrchLicenseRuntime",
+          "children": [
+            {
+              "name": "Get-OrchLicenseRuntime"
+            },
+            {
+              "name": "Enable-OrchLicenseRuntime"
+            },
+            {
+              "name": "Disable-OrchLicenseRuntime"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmLicensedUser",
+          "children": [
+            {
+              "name": "Get-OrchPmLicensedUser"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmLicensedGroup",
+          "children": [
+            {
+              "name": "Get-OrchPmLicensedGroup"
+            },
+            {
+              "name": "Remove-OrchPmLicensedGroup"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmLicenseToPmLicensedGroup",
+          "children": [
+            {
+              "name": "Add-OrchPmLicenseToPmLicensedGroup"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmAllocationFromPmLicensedGroup",
+          "children": [
+            {
+              "name": "Remove-OrchPmAllocationFromPmLicensedGroup"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmLicenseFromPmLicensedGroup",
+          "children": [
+            {
+              "name": "Remove-OrchPmLicenseFromPmLicensedGroup"
+            }
+          ]
+        },
+        {
+          "name": "OrchClassicRobot",
+          "children": [
+            {
+              "name": "Get-OrchClassicRobot"
+            }
+          ]
+        },
+        {
+          "name": "OrchClassicEnvironment",
+          "children": [
+            {
+              "name": "Get-OrchClassicEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "OrchUserSession",
+          "children": [
+            {
+              "name": "Get-OrchUserSession"
+            }
+          ]
+        },
+        {
+          "name": "OrchMachineSession",
+          "children": [
+            {
+              "name": "Get-OrchMachineSession"
+            }
+          ]
+        },
+        {
+          "name": "OrchUnattendedSession",
+          "children": [
+            {
+              "name": "Get-OrchUnattendedSession"
+            }
+          ]
+        },
+        {
+          "name": "OrchMaintenanceMode",
+          "children": [
+            {
+              "name": "Enable-OrchMaintenanceMode"
+            },
+            {
+              "name": "Disable-OrchMaintenanceMode"
+            }
+          ]
+        },
+        {
+          "name": "OrchJobStats",
+          "children": [
+            {
+              "name": "Get-OrchJobStats"
+            }
+          ]
+        },
+        {
+          "name": "OrchLicenseStats",
+          "children": [
+            {
+              "name": "Get-OrchLicenseStats"
+            }
+          ]
+        },
+        {
+          "name": "OrchRole",
+          "children": [
+            {
+              "name": "Get-OrchRole"
+            },
+            {
+              "name": "Remove-OrchRole"
+            },
+            {
+              "name": "Copy-OrchRole"
+            }
+          ]
+        },
+        {
+          "name": "OrchCalendar",
+          "children": [
+            {
+              "name": "Get-OrchCalendar"
+            },
+            {
+              "name": "Remove-OrchCalendar"
+            },
+            {
+              "name": "Copy-OrchCalendar"
+            }
+          ]
+        },
+        {
+          "name": "OrchCalendarDate",
+          "children": [
+            {
+              "name": "Add-OrchCalendarDate"
+            },
+            {
+              "name": "Remove-OrchCalendarDate"
+            }
+          ]
+        },
+        {
+          "name": "OrchPersonalWorkspace",
+          "children": [
+            {
+              "name": "Get-OrchPersonalWorkspace"
+            },
+            {
+              "name": "Remove-OrchPersonalWorkspace"
+            },
+            {
+              "name": "Enable-OrchPersonalWorkspace"
+            },
+            {
+              "name": "Disable-OrchPersonalWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "OrchFolderUsage",
+          "children": [
+            {
+              "name": "Get-OrchFolderUsage"
+            }
+          ]
+        },
+        {
+          "name": "OrchFolderUser",
+          "children": [
+            {
+              "name": "Get-OrchFolderUser"
+            },
+            {
+              "name": "Add-OrchFolderUser"
+            },
+            {
+              "name": "Copy-OrchFolderUser"
+            },
+            {
+              "name": "Remove-OrchFolderUser"
+            }
+          ]
+        },
+        {
+          "name": "OrchRoleToFolderUser",
+          "children": [
+            {
+              "name": "Add-OrchRoleToFolderUser"
+            }
+          ]
+        },
+        {
+          "name": "OrchRoleFromFolderUser",
+          "children": [
+            {
+              "name": "Remove-OrchRoleFromFolderUser"
+            }
+          ]
+        },
+        {
+          "name": "OrchMachine",
+          "children": [
+            {
+              "name": "Get-OrchMachine"
+            },
+            {
+              "name": "Update-OrchMachine"
+            },
+            {
+              "name": "Add-OrchMachine"
+            },
+            {
+              "name": "Remove-OrchMachine"
+            },
+            {
+              "name": "Copy-OrchMachine"
+            }
+          ]
+        },
+        {
+          "name": "OrchFolderMachine",
+          "children": [
+            {
+              "name": "Get-OrchFolderMachine"
+            },
+            {
+              "name": "Add-OrchFolderMachine"
+            },
+            {
+              "name": "Copy-OrchFolderMachine"
+            },
+            {
+              "name": "Remove-OrchFolderMachine"
+            }
+          ]
+        },
+        {
+          "name": "OrchAsset",
+          "children": [
+            {
+              "name": "Get-OrchAsset"
+            },
+            {
+              "name": "Set-OrchAsset"
+            },
+            {
+              "name": "Copy-OrchAsset"
+            },
+            {
+              "name": "Remove-OrchAsset"
+            }
+          ]
+        },
+        {
+          "name": "OrchCredentialAsset",
+          "children": [
+            {
+              "name": "Set-OrchCredentialAsset"
+            }
+          ]
+        },
+        {
+          "name": "OrchCredentialStore",
+          "children": [
+            {
+              "name": "Get-OrchCredentialStore"
+            },
+            {
+              "name": "Copy-OrchCredentialStore"
+            },
+            {
+              "name": "Remove-OrchCredentialStore"
+            }
+          ]
+        },
+        {
+          "name": "OrchAssetLink",
+          "children": [
+            {
+              "name": "Get-OrchAssetLink"
+            },
+            {
+              "name": "Add-OrchAssetLink"
+            }
+          ]
+        },
+        {
+          "name": "OrchTrigger",
+          "children": [
+            {
+              "name": "Get-OrchTrigger"
+            },
+            {
+              "name": "Add-OrchTrigger"
+            },
+            {
+              "name": "Update-OrchTrigger"
+            },
+            {
+              "name": "Remove-OrchTrigger"
+            },
+            {
+              "name": "Copy-OrchTrigger"
+            },
+            {
+              "name": "Enable-OrchTrigger"
+            },
+            {
+              "name": "Disable-OrchTrigger"
+            }
+          ]
+        },
+        {
+          "name": "OrchApiTrigger",
+          "children": [
+            {
+              "name": "Get-OrchApiTrigger"
+            },
+            {
+              "name": "Remove-OrchApiTrigger"
+            },
+            {
+              "name": "Copy-OrchApiTrigger"
+            },
+            {
+              "name": "Enable-OrchApiTrigger"
+            },
+            {
+              "name": "Disable-OrchApiTrigger"
+            }
+          ]
+        },
+        {
+          "name": "OrchQueue",
+          "children": [
+            {
+              "name": "Get-OrchQueue"
+            },
+            {
+              "name": "Add-OrchQueue"
+            },
+            {
+              "name": "Update-OrchQueue"
+            },
+            {
+              "name": "Copy-OrchQueue"
+            },
+            {
+              "name": "Remove-OrchQueue"
+            }
+          ]
+        },
+        {
+          "name": "OrchQueueItem",
+          "children": [
+            {
+              "name": "Get-OrchQueueItem"
+            },
+            {
+              "name": "Import-OrchQueueItem"
+            }
+          ]
+        },
+        {
+          "name": "OrchTestSet",
+          "children": [
+            {
+              "name": "Get-OrchTestSet"
+            },
+            {
+              "name": "Copy-OrchTestSet"
+            },
+            {
+              "name": "Remove-OrchTestSet"
+            },
+            {
+              "name": "Start-OrchTestSet"
+            }
+          ]
+        },
+        {
+          "name": "OrchTestCase",
+          "children": [
+            {
+              "name": "Get-OrchTestCase"
+            },
+            {
+              "name": "Remove-OrchTestCase"
+            }
+          ]
+        },
+        {
+          "name": "OrchTestCaseExecution",
+          "children": [
+            {
+              "name": "Get-OrchTestCaseExecution"
+            }
+          ]
+        },
+        {
+          "name": "OrchTestSetExecution",
+          "children": [
+            {
+              "name": "Get-OrchTestSetExecution"
+            },
+            {
+              "name": "Stop-OrchTestSetExecution"
+            }
+          ]
+        },
+        {
+          "name": "OrchTestSetSchedule",
+          "children": [
+            {
+              "name": "Get-OrchTestSetSchedule"
+            },
+            {
+              "name": "Copy-OrchTestSetSchedule"
+            },
+            {
+              "name": "Remove-OrchTestSetSchedule"
+            },
+            {
+              "name": "Enable-OrchTestSetSchedule"
+            },
+            {
+              "name": "Disable-OrchTestSetSchedule"
+            }
+          ]
+        },
+        {
+          "name": "OrchTestDataQueue",
+          "children": [
+            {
+              "name": "Get-OrchTestDataQueue"
+            },
+            {
+              "name": "Copy-OrchTestDataQueue"
+            },
+            {
+              "name": "Remove-OrchTestDataQueue"
+            }
+          ]
+        },
+        {
+          "name": "OrchTestDataQueueItem",
+          "children": [
+            {
+              "name": "Get-OrchTestDataQueueItem"
+            },
+            {
+              "name": "Reset-OrchTestDataQueueItem"
+            }
+          ]
+        },
+        {
+          "name": "OrchAlert",
+          "children": [
+            {
+              "name": "Get-OrchAlert"
+            }
+          ]
+        },
+        {
+          "name": "OrchBucket",
+          "children": [
+            {
+              "name": "Get-OrchBucket"
+            },
+            {
+              "name": "Add-OrchBucket"
+            },
+            {
+              "name": "Copy-OrchBucket"
+            },
+            {
+              "name": "Remove-OrchBucket"
+            }
+          ]
+        },
+        {
+          "name": "OrchBucketItem",
+          "children": [
+            {
+              "name": "Get-OrchBucketItem"
+            }
+          ]
+        },
+        {
+          "name": "OrchWebhook",
+          "children": [
+            {
+              "name": "Get-OrchWebhook"
+            },
+            {
+              "name": "Copy-OrchWebhook"
+            },
+            {
+              "name": "Remove-OrchWebhook"
+            },
+            {
+              "name": "Enable-OrchWebhook"
+            },
+            {
+              "name": "Disable-OrchWebhook"
+            }
+          ]
+        },
+        {
+          "name": "OrchSetting",
+          "children": [
+            {
+              "name": "Get-OrchSetting"
+            }
+          ]
+        },
+        {
+          "name": "OrchExecutionSetting",
+          "children": [
+            {
+              "name": "Get-OrchExecutionSetting"
+            }
+          ]
+        },
+        {
+          "name": "OrchWebSetting",
+          "children": [
+            {
+              "name": "Get-OrchWebSetting"
+            }
+          ]
+        },
+        {
+          "name": "OrchAuthenticationSetting",
+          "children": [
+            {
+              "name": "Get-OrchAuthenticationSetting"
+            }
+          ]
+        },
+        {
+          "name": "OrchActivitySetting",
+          "children": [
+            {
+              "name": "Get-OrchActivitySetting"
+            }
+          ]
+        },
+        {
+          "name": "OrchConnectionString",
+          "children": [
+            {
+              "name": "Get-OrchConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "OrchLicense",
+          "children": [
+            {
+              "name": "Get-OrchLicense"
+            }
+          ]
+        },
+        {
+          "name": "OrchUpdateSetting",
+          "children": [
+            {
+              "name": "Get-OrchUpdateSetting"
+            }
+          ]
+        },
+        {
+          "name": "OrchActionCatalog",
+          "children": [
+            {
+              "name": "Get-OrchActionCatalog"
+            },
+            {
+              "name": "Copy-OrchActionCatalog"
+            },
+            {
+              "name": "Remove-OrchActionCatalog"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmUser",
+          "children": [
+            {
+              "name": "Get-OrchPmUser"
+            },
+            {
+              "name": "Update-OrchPmUser"
+            },
+            {
+              "name": "Remove-OrchPmUser"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmUserBulk",
+          "children": [
+            {
+              "name": "Add-OrchPmUserBulk"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmRobotAccount",
+          "children": [
+            {
+              "name": "Get-OrchPmRobotAccount"
+            },
+            {
+              "name": "Set-OrchPmRobotAccount"
+            },
+            {
+              "name": "Copy-OrchPmRobotAccount"
+            },
+            {
+              "name": "Remove-OrchPmRobotAccount"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmGroup",
+          "children": [
+            {
+              "name": "Get-OrchPmGroup"
+            },
+            {
+              "name": "Add-OrchPmGroup"
+            },
+            {
+              "name": "Remove-OrchPmGroup"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmMemberToPmGroup",
+          "children": [
+            {
+              "name": "Add-OrchPmMemberToPmGroup"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmMemberFromPmGroup",
+          "children": [
+            {
+              "name": "Remove-OrchPmMemberFromPmGroup"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmExternalApiResource",
+          "children": [
+            {
+              "name": "Get-OrchPmExternalApiResource"
+            }
+          ]
+        },
+        {
+          "name": "OrchPmExternalApplication",
+          "children": [
+            {
+              "name": "Get-OrchPmExternalApplication"
+            }
+          ]
+        },
+        {
+          "name": "DuDocumentType",
+          "children": [
+            {
+              "name": "Get-DuDocumentType"
+            }
+          ]
+        },
+        {
+          "name": "DuClassifier",
+          "children": [
+            {
+              "name": "Get-DuClassifier"
+            }
+          ]
+        },
+        {
+          "name": "DuExtractor",
+          "children": [
+            {
+              "name": "Get-DuExtractor"
+            }
+          ]
+        },
+        {
+          "name": "TmConfiguration",
+          "children": [
+            {
+              "name": "Get-TmConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "TmProjectSetting",
+          "children": [
+            {
+              "name": "Get-TmProjectSetting"
+            }
+          ]
+        },
+        {
+          "name": "TmProjectPermission",
+          "children": [
+            {
+              "name": "Get-TmProjectPermission"
+            }
+          ]
+        },
+        {
+          "name": "TmServerInfo",
+          "children": [
+            {
+              "name": "Get-TmServerInfo"
+            }
+          ]
+        },
+        {
+          "name": "TmRequirement",
+          "children": [
+            {
+              "name": "Get-TmRequirement"
+            },
+            {
+              "name": "Remove-TmRequirement"
+            }
+          ]
+        },
+        {
+          "name": "TmTestCase",
+          "children": [
+            {
+              "name": "Get-TmTestCase"
+            },
+            {
+              "name": "Remove-TmTestCase"
+            }
+          ]
+        },
+        {
+          "name": "TmTestSet",
+          "children": [
+            {
+              "name": "Get-TmTestSet"
+            },
+            {
+              "name": "Remove-TmTestSet"
+            }
+          ]
+        },
+        {
+          "name": "OrchCache",
+          "children": [
+            {
+              "name": "Clear-OrchCache"
+            }
+          ]
+        },
+        {
+          "name": "OrchConfig",
+          "children": [
+            {
+              "name": "Edit-OrchConfig"
+            }
+          ]
+        },
+        {
+          "name": "OrchPSDrive",
+          "children": [
+            {
+              "name": "Get-OrchPSDrive"
+            }
+          ]
+        },
+        {
+          "name": "OrchLocation",
+          "children": [
+            {
+              "name": "Set-OrchLocation"
+            }
+          ]
+        },
+        {
+          "name": "OrchTestDataQueueItemTable",
+          "children": [
+            {
+              "name": "Get-OrchTestDataQueueItemTable"
+            }
+          ]
+        },
+        {
+          "name": "OrchUserAttended",
+          "children": [
+            {
+              "name": "Enable-OrchUserAttended"
+            },
+            {
+              "name": "Disable-OrchUserAttended"
+            }
+          ]
+        },
+        {
+          "name": "OrchFolderNoUserAssigned",
+          "children": [
+            {
+              "name": "Find-OrchFolderNoUserAssigned"
+            }
+          ]
+        },
+        {
+          "name": "OrchFolderWithoutEntity",
+          "children": [
+            {
+              "name": "Copy-OrchFolderWithoutEntity"
+            }
+          ]
+        },
+        {
+          "name": "OrchJobVideo",
+          "children": [
+            {
+              "name": "Get-OrchJobVideo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

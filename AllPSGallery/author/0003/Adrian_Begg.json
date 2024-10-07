@@ -1,0 +1,887 @@
+{
+  "name": "Adrian Begg",
+  "children": [
+    {
+      "name": "VMware.CDS.Community",
+      "companyName": "Unknown",
+      "author": "Adrian Begg",
+      "children": [
+        {
+          "name": "VCDSIssues",
+          "children": [
+            {
+              "name": "Get-VCDSIssues"
+            }
+          ]
+        },
+        {
+          "name": "VCDSTasks",
+          "children": [
+            {
+              "name": "Get-VCDSTasks"
+            }
+          ]
+        },
+        {
+          "name": "VCDSTaskCompleted",
+          "children": [
+            {
+              "name": "Watch-VCDSTaskCompleted"
+            }
+          ]
+        },
+        {
+          "name": "VCDSEnvironments",
+          "children": [
+            {
+              "name": "Get-VCDSEnvironments"
+            }
+          ]
+        },
+        {
+          "name": "VCDSInstances",
+          "children": [
+            {
+              "name": "Get-VCDSInstances"
+            }
+          ]
+        },
+        {
+          "name": "VCDSUpgradeTracks",
+          "children": [
+            {
+              "name": "Get-VCDSUpgradeTracks"
+            }
+          ]
+        },
+        {
+          "name": "VCDSInstance",
+          "children": [
+            {
+              "name": "New-VCDSInstance"
+            },
+            {
+              "name": "Remove-VCDSInstance"
+            }
+          ]
+        },
+        {
+          "name": "VCDSInstanceMaintenance",
+          "children": [
+            {
+              "name": "Get-VCDSInstanceMaintenance"
+            },
+            {
+              "name": "Set-VCDSInstanceMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "VCDSSupportBundle",
+          "children": [
+            {
+              "name": "New-VCDSSupportBundle"
+            }
+          ]
+        },
+        {
+          "name": "VCDSSDDC",
+          "children": [
+            {
+              "name": "Register-VCDSSDDC"
+            }
+          ]
+        },
+        {
+          "name": "VCDSDomain",
+          "children": [
+            {
+              "name": "Set-VCDSDomain"
+            }
+          ]
+        },
+        {
+          "name": "VCDSIdPSettings",
+          "children": [
+            {
+              "name": "Set-VCDSIdPSettings"
+            }
+          ]
+        },
+        {
+          "name": "VCDSProviderAdminPassword",
+          "children": [
+            {
+              "name": "Set-VCDSProviderAdminPassword"
+            }
+          ]
+        },
+        {
+          "name": "VCDService",
+          "children": [
+            {
+              "name": "Connect-VCDService"
+            },
+            {
+              "name": "Disconnect-VCDService"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.Cloud.Director.Community",
+      "companyName": "Unknown",
+      "author": "Adrian Begg",
+      "children": [
+        {
+          "name": "CIRights",
+          "children": [
+            {
+              "name": "Get-CIRights"
+            }
+          ]
+        },
+        {
+          "name": "CIRightsBundle",
+          "children": [
+            {
+              "name": "Get-CIRightsBundle"
+            },
+            {
+              "name": "New-CIRightsBundle"
+            }
+          ]
+        },
+        {
+          "name": "CIRightsCategory",
+          "children": [
+            {
+              "name": "Get-CIRightsCategory"
+            }
+          ]
+        },
+        {
+          "name": "CIRolev2",
+          "children": [
+            {
+              "name": "Get-CIRolev2"
+            }
+          ]
+        },
+        {
+          "name": "CIRole",
+          "children": [
+            {
+              "name": "New-CIRole"
+            },
+            {
+              "name": "Remove-CIRole"
+            }
+          ]
+        },
+        {
+          "name": "CISAMLGroup",
+          "children": [
+            {
+              "name": "New-CISAMLGroup"
+            }
+          ]
+        },
+        {
+          "name": "CIUser",
+          "children": [
+            {
+              "name": "New-CIUser"
+            }
+          ]
+        },
+        {
+          "name": "CIRightsBundleRights",
+          "children": [
+            {
+              "name": "Set-CIRightsBundleRights"
+            }
+          ]
+        },
+        {
+          "name": "CIRoleRights",
+          "children": [
+            {
+              "name": "Set-CIRoleRights"
+            }
+          ]
+        },
+        {
+          "name": "CIAuditTrail",
+          "children": [
+            {
+              "name": "Get-CIAuditTrail"
+            }
+          ]
+        },
+        {
+          "name": "CIEmailSettings",
+          "children": [
+            {
+              "name": "Set-CIEmailSettings"
+            }
+          ]
+        },
+        {
+          "name": "CIPasswordPolicy",
+          "children": [
+            {
+              "name": "Set-CIPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CISystemSettings",
+          "children": [
+            {
+              "name": "Set-CISystemSettings"
+            }
+          ]
+        },
+        {
+          "name": "CIBrandingIcon",
+          "children": [
+            {
+              "name": "Get-CIBrandingIcon"
+            },
+            {
+              "name": "Publish-CIBrandingIcon"
+            }
+          ]
+        },
+        {
+          "name": "CIBrandingPolicy",
+          "children": [
+            {
+              "name": "Get-CIBrandingPolicy"
+            },
+            {
+              "name": "Set-CIBrandingPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CIBrandingThemes",
+          "children": [
+            {
+              "name": "Get-CIBrandingThemes"
+            }
+          ]
+        },
+        {
+          "name": "CIBrandingTheme",
+          "children": [
+            {
+              "name": "New-CIBrandingTheme"
+            },
+            {
+              "name": "Remove-CIBrandingTheme"
+            },
+            {
+              "name": "Set-CIBrandingTheme"
+            }
+          ]
+        },
+        {
+          "name": "CIBrandingLogo",
+          "children": [
+            {
+              "name": "Publish-CIBrandingLogo"
+            }
+          ]
+        },
+        {
+          "name": "CIPVDCComputePolicy",
+          "children": [
+            {
+              "name": "Get-CIPVDCComputePolicy"
+            },
+            {
+              "name": "New-CIPVDCComputePolicy"
+            },
+            {
+              "name": "Remove-CIPVDCComputePolicy"
+            }
+          ]
+        },
+        {
+          "name": "CIVDCComputePolicy",
+          "children": [
+            {
+              "name": "Get-CIVDCComputePolicy"
+            }
+          ]
+        },
+        {
+          "name": "CIVMGroups",
+          "children": [
+            {
+              "name": "Get-CIVMGroups"
+            }
+          ]
+        },
+        {
+          "name": "CIVMSizingPolicy",
+          "children": [
+            {
+              "name": "New-CIVMSizingPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CIExternalNetwork",
+          "children": [
+            {
+              "name": "Get-CIExternalNetwork"
+            },
+            {
+              "name": "Set-CIExternalNetwork"
+            }
+          ]
+        },
+        {
+          "name": "CIExternalNetworkSpecification",
+          "children": [
+            {
+              "name": "New-CIExternalNetworkSpecification"
+            },
+            {
+              "name": "Remove-CIExternalNetworkSpecification"
+            }
+          ]
+        },
+        {
+          "name": "CILogicalVMGroup",
+          "children": [
+            {
+              "name": "Get-CILogicalVMGroup"
+            },
+            {
+              "name": "New-CILogicalVMGroup"
+            }
+          ]
+        },
+        {
+          "name": "CINSXTManager",
+          "children": [
+            {
+              "name": "Get-CINSXTManager"
+            }
+          ]
+        },
+        {
+          "name": "CINSXTNetworkPools",
+          "children": [
+            {
+              "name": "Get-CINSXTNetworkPools"
+            }
+          ]
+        },
+        {
+          "name": "CIProviderVC",
+          "children": [
+            {
+              "name": "Get-CIProviderVC"
+            }
+          ]
+        },
+        {
+          "name": "CIPVDC",
+          "children": [
+            {
+              "name": "Get-CIPVDC"
+            },
+            {
+              "name": "New-CIPVDC"
+            }
+          ]
+        },
+        {
+          "name": "CIProvicerVCVM",
+          "children": [
+            {
+              "name": "Import-CIProvicerVCVM"
+            }
+          ]
+        },
+        {
+          "name": "CISite",
+          "children": [
+            {
+              "name": "Get-CISite"
+            },
+            {
+              "name": "Set-CISite"
+            }
+          ]
+        },
+        {
+          "name": "HashTable",
+          "children": [
+            {
+              "name": "ConvertTo-HashTable"
+            }
+          ]
+        },
+        {
+          "name": "FIQL",
+          "children": [
+            {
+              "name": "Format-FIQL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.vCAV.Community",
+      "companyName": "Unknown",
+      "author": "Adrian Begg",
+      "children": [
+        {
+          "name": "vCAVApplianceConfiguraion",
+          "children": [
+            {
+              "name": "Get-vCAVApplianceConfiguraion"
+            }
+          ]
+        },
+        {
+          "name": "vCAVApplianceHealth",
+          "children": [
+            {
+              "name": "Get-vCAVApplianceHealth"
+            }
+          ]
+        },
+        {
+          "name": "vCAVApplianceLogLevels",
+          "children": [
+            {
+              "name": "Get-vCAVApplianceLogLevels"
+            },
+            {
+              "name": "Set-vCAVApplianceLogLevels"
+            }
+          ]
+        },
+        {
+          "name": "vCAVApplianceNetwork",
+          "children": [
+            {
+              "name": "Get-vCAVApplianceNetwork"
+            },
+            {
+              "name": "Set-vCAVApplianceNetwork"
+            }
+          ]
+        },
+        {
+          "name": "vCAVApplianceUpdateRepository",
+          "children": [
+            {
+              "name": "Get-vCAVApplianceUpdateRepository"
+            },
+            {
+              "name": "Set-vCAVApplianceUpdateRepository"
+            }
+          ]
+        },
+        {
+          "name": "vCAVCertificate",
+          "children": [
+            {
+              "name": "Get-vCAVCertificate"
+            },
+            {
+              "name": "Install-vCAVCertificate"
+            }
+          ]
+        },
+        {
+          "name": "vCAVSupportBundle",
+          "children": [
+            {
+              "name": "Get-vCAVSupportBundle"
+            },
+            {
+              "name": "New-vCAVSupportBundle"
+            },
+            {
+              "name": "Remove-vCAVSupportBundle"
+            }
+          ]
+        },
+        {
+          "name": "vCAVApplianceReboot",
+          "children": [
+            {
+              "name": "Invoke-vCAVApplianceReboot"
+            }
+          ]
+        },
+        {
+          "name": "vCAVServicesReboot",
+          "children": [
+            {
+              "name": "Invoke-vCAVServicesReboot"
+            }
+          ]
+        },
+        {
+          "name": "vCAVAdminAPIAccess",
+          "children": [
+            {
+              "name": "Set-vCAVAdminAPIAccess"
+            }
+          ]
+        },
+        {
+          "name": "vCAVApplianceHostname",
+          "children": [
+            {
+              "name": "Set-vCAVApplianceHostname"
+            }
+          ]
+        },
+        {
+          "name": "vCAVApplianceNTP",
+          "children": [
+            {
+              "name": "Set-vCAVApplianceNTP"
+            }
+          ]
+        },
+        {
+          "name": "VCAVApplianceRootPassword",
+          "children": [
+            {
+              "name": "Set-VCAVApplianceRootPassword"
+            }
+          ]
+        },
+        {
+          "name": "vCAVApplianceSSHAccess",
+          "children": [
+            {
+              "name": "Set-vCAVApplianceSSHAccess"
+            }
+          ]
+        },
+        {
+          "name": "vCAVLicenceKey",
+          "children": [
+            {
+              "name": "Set-vCAVLicenceKey"
+            }
+          ]
+        },
+        {
+          "name": "vCAVParticipateCEIP",
+          "children": [
+            {
+              "name": "Set-vCAVParticipateCEIP"
+            }
+          ]
+        },
+        {
+          "name": "vCAVResourcevCenterLookupService",
+          "children": [
+            {
+              "name": "Set-vCAVResourcevCenterLookupService"
+            }
+          ]
+        },
+        {
+          "name": "vCAVDatastores",
+          "children": [
+            {
+              "name": "Get-vCAVDatastores"
+            }
+          ]
+        },
+        {
+          "name": "vCAVOrgVDC",
+          "children": [
+            {
+              "name": "Get-vCAVOrgVDC"
+            }
+          ]
+        },
+        {
+          "name": "vCAVOrgVDCNetwork",
+          "children": [
+            {
+              "name": "Get-vCAVOrgVDCNetwork"
+            }
+          ]
+        },
+        {
+          "name": "vCAVProviderVDCs",
+          "children": [
+            {
+              "name": "Get-vCAVProviderVDCs"
+            }
+          ]
+        },
+        {
+          "name": "vCAVStorageProfile",
+          "children": [
+            {
+              "name": "Get-vCAVStorageProfile"
+            }
+          ]
+        },
+        {
+          "name": "vCAVTenantOrg",
+          "children": [
+            {
+              "name": "Get-vCAVTenantOrg"
+            }
+          ]
+        },
+        {
+          "name": "vCAVWorkloads",
+          "children": [
+            {
+              "name": "Get-vCAVWorkloads"
+            }
+          ]
+        },
+        {
+          "name": "vCAVManager",
+          "children": [
+            {
+              "name": "Deploy-vCAVManager"
+            }
+          ]
+        },
+        {
+          "name": "vCAVReplicator",
+          "children": [
+            {
+              "name": "Deploy-vCAVReplicator"
+            },
+            {
+              "name": "Register-vCAVReplicator"
+            }
+          ]
+        },
+        {
+          "name": "vCAVTunnel",
+          "children": [
+            {
+              "name": "Deploy-vCAVTunnel"
+            },
+            {
+              "name": "Register-vCAVTunnel"
+            }
+          ]
+        },
+        {
+          "name": "vCAVApplianceUpdate",
+          "children": [
+            {
+              "name": "Invoke-vCAVApplianceUpdate"
+            }
+          ]
+        },
+        {
+          "name": "vCAVAppliance",
+          "children": [
+            {
+              "name": "New-vCAVAppliance"
+            }
+          ]
+        },
+        {
+          "name": "vCAVTenantPolicy",
+          "children": [
+            {
+              "name": "Get-vCAVTenantPolicy"
+            },
+            {
+              "name": "New-vCAVTenantPolicy"
+            },
+            {
+              "name": "Remove-vCAVTenantPolicy"
+            },
+            {
+              "name": "Set-vCAVTenantPolicy"
+            }
+          ]
+        },
+        {
+          "name": "vCAVTenantOrgPolicy",
+          "children": [
+            {
+              "name": "Set-vCAVTenantOrgPolicy"
+            }
+          ]
+        },
+        {
+          "name": "vCAVReplicationNetworkSettings",
+          "children": [
+            {
+              "name": "Get-vCAVReplicationNetworkSettings"
+            }
+          ]
+        },
+        {
+          "name": "vCAVReplications",
+          "children": [
+            {
+              "name": "Get-vCAVReplications"
+            }
+          ]
+        },
+        {
+          "name": "vCAVReplicationOperation",
+          "children": [
+            {
+              "name": "Invoke-vCAVReplicationOperation"
+            }
+          ]
+        },
+        {
+          "name": "vCAVReplication",
+          "children": [
+            {
+              "name": "Remove-vCAVReplication"
+            },
+            {
+              "name": "Set-vCAVReplication"
+            }
+          ]
+        },
+        {
+          "name": "vCAVTrafficReport",
+          "children": [
+            {
+              "name": "Get-vCAVTrafficReport"
+            }
+          ]
+        },
+        {
+          "name": "vCAVService",
+          "children": [
+            {
+              "name": "Connect-vCAVService"
+            },
+            {
+              "name": "Disconnect-vCAVService"
+            }
+          ]
+        },
+        {
+          "name": "vCAVSite",
+          "children": [
+            {
+              "name": "Add-vCAVSite"
+            }
+          ]
+        },
+        {
+          "name": "vCAVCustomerSites",
+          "children": [
+            {
+              "name": "Get-vCAVCustomerSites"
+            }
+          ]
+        },
+        {
+          "name": "vCAVProviderVDCFilters",
+          "children": [
+            {
+              "name": "Get-vCAVProviderVDCFilters"
+            },
+            {
+              "name": "Set-vCAVProviderVDCFilters"
+            }
+          ]
+        },
+        {
+          "name": "vCAVReplicators",
+          "children": [
+            {
+              "name": "Get-vCAVReplicators"
+            }
+          ]
+        },
+        {
+          "name": "vCAVSites",
+          "children": [
+            {
+              "name": "Get-vCAVSites"
+            }
+          ]
+        },
+        {
+          "name": "vCAVReplicatorRepair",
+          "children": [
+            {
+              "name": "Invoke-vCAVReplicatorRepair"
+            }
+          ]
+        },
+        {
+          "name": "vCAVCustomerSite",
+          "children": [
+            {
+              "name": "Remove-vCAVCustomerSite"
+            }
+          ]
+        },
+        {
+          "name": "vCAVReplicationManagerCred",
+          "children": [
+            {
+              "name": "Set-vCAVReplicationManagerCred"
+            }
+          ]
+        },
+        {
+          "name": "vCAVSitePublicEndpoint",
+          "children": [
+            {
+              "name": "Set-vCAVSitePublicEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "vCAVSitevCloud",
+          "children": [
+            {
+              "name": "Set-vCAVSitevCloud"
+            }
+          ]
+        },
+        {
+          "name": "vCAVTasks",
+          "children": [
+            {
+              "name": "Get-vCAVTasks"
+            }
+          ]
+        },
+        {
+          "name": "vCAVTunnelEndpoint",
+          "children": [
+            {
+              "name": "Get-vCAVTunnelEndpoint"
+            },
+            {
+              "name": "Set-vCAVTunnelEndpoint"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Sincronica",
+  "children": [
+    {
+      "name": "PSBicepApiManagement",
+      "companyName": "Sincronica",
+      "author": "Daniele Francioni",
+      "children": [
+        {
+          "name": "PSBicepApiManagementApiWithGUI",
+          "children": [
+            {
+              "name": "Copy-PSBicepApiManagementApiWithGUI"
+            }
+          ]
+        },
+        {
+          "name": "PSBicepApiManagementApiVersionSet",
+          "children": [
+            {
+              "name": "Export-PSBicepApiManagementApiVersionSet"
+            }
+          ]
+        },
+        {
+          "name": "PSBicepApiManagementApi",
+          "children": [
+            {
+              "name": "Export-PSBicepApiManagementApi"
+            },
+            {
+              "name": "Import-PSBicepApiManagementApi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSBicepParser",
+      "companyName": "Sincronica",
+      "author": "Daniele Francioni",
+      "children": [
+        {
+          "name": "PSBicepDocument",
+          "children": [
+            {
+              "name": "New-PSBicepDocument"
+            },
+            {
+              "name": "ConvertFrom-PSBicepDocument"
+            },
+            {
+              "name": "ConvertTo-PSBicepDocument"
+            }
+          ]
+        },
+        {
+          "name": "PSBicepModule",
+          "children": [
+            {
+              "name": "New-PSBicepModule"
+            }
+          ]
+        },
+        {
+          "name": "PSBicepOutput",
+          "children": [
+            {
+              "name": "New-PSBicepOutput"
+            }
+          ]
+        },
+        {
+          "name": "PSBicepParam",
+          "children": [
+            {
+              "name": "New-PSBicepParam"
+            }
+          ]
+        },
+        {
+          "name": "PSBicepResource",
+          "children": [
+            {
+              "name": "New-PSBicepResource"
+            }
+          ]
+        },
+        {
+          "name": "PSBicepTargetScope",
+          "children": [
+            {
+              "name": "New-PSBicepTargetScope"
+            }
+          ]
+        },
+        {
+          "name": "PSBicepReference",
+          "children": [
+            {
+              "name": "Get-PSBicepReference"
+            },
+            {
+              "name": "Resolve-PSBicepReference"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "onyx online",
+  "children": [
+    {
+      "name": "Q3Rcon",
+      "companyName": "Unknown",
+      "author": "onyx online",
+      "children": [
+        {
+          "name": "Rcon",
+          "children": [
+            {
+              "name": "Connect-Rcon"
+            },
+            {
+              "name": "Disconnect-Rcon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Voicemeeter",
+      "companyName": "Unknown",
+      "author": "onyx online",
+      "children": [
+        {
+          "name": "RemoteBasic",
+          "children": [
+            {
+              "name": "Get-RemoteBasic"
+            }
+          ]
+        },
+        {
+          "name": "RemoteBanana",
+          "children": [
+            {
+              "name": "Get-RemoteBanana"
+            }
+          ]
+        },
+        {
+          "name": "RemotePotato",
+          "children": [
+            {
+              "name": "Get-RemotePotato"
+            }
+          ]
+        },
+        {
+          "name": "Voicemeeter",
+          "children": [
+            {
+              "name": "Connect-Voicemeeter"
+            },
+            {
+              "name": "Disconnect-Voicemeeter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

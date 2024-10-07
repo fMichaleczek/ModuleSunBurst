@@ -1,0 +1,118 @@
+{
+  "name": "Wortell",
+  "children": [
+    {
+      "name": "AzSentinel",
+      "companyName": "Wortell",
+      "author": "Pouyan Khabazi",
+      "children": [
+        {
+          "name": "AzSentinelIncidentComment",
+          "children": [
+            {
+              "name": "Add-AzSentinelIncidentComment"
+            }
+          ]
+        },
+        {
+          "name": "AzSentinelAlertRule",
+          "children": [
+            {
+              "name": "Disable-AzSentinelAlertRule"
+            },
+            {
+              "name": "Enable-AzSentinelAlertRule"
+            },
+            {
+              "name": "Get-AzSentinelAlertRule"
+            },
+            {
+              "name": "Import-AzSentinelAlertRule"
+            },
+            {
+              "name": "New-AzSentinelAlertRule"
+            },
+            {
+              "name": "Remove-AzSentinelAlertRule"
+            },
+            {
+              "name": "Rename-AzSentinelAlertRule"
+            }
+          ]
+        },
+        {
+          "name": "AzSentinel",
+          "children": [
+            {
+              "name": "Export-AzSentinel"
+            },
+            {
+              "name": "Set-AzSentinel"
+            }
+          ]
+        },
+        {
+          "name": "AzSentinelAlertRuleAction",
+          "children": [
+            {
+              "name": "Get-AzSentinelAlertRuleAction"
+            },
+            {
+              "name": "New-AzSentinelAlertRuleAction"
+            },
+            {
+              "name": "Remove-AzSentinelAlertRuleAction"
+            }
+          ]
+        },
+        {
+          "name": "AzSentinelAlertRuleTemplates",
+          "children": [
+            {
+              "name": "Get-AzSentinelAlertRuleTemplates"
+            }
+          ]
+        },
+        {
+          "name": "AzSentinelDataConnector",
+          "children": [
+            {
+              "name": "Get-AzSentinelDataConnector"
+            },
+            {
+              "name": "Import-AzSentinelDataConnector"
+            }
+          ]
+        },
+        {
+          "name": "AzSentinelHuntingRule",
+          "children": [
+            {
+              "name": "Get-AzSentinelHuntingRule"
+            },
+            {
+              "name": "Import-AzSentinelHuntingRule"
+            },
+            {
+              "name": "New-AzSentinelHuntingRule"
+            },
+            {
+              "name": "Remove-AzSentinelHuntingRule"
+            }
+          ]
+        },
+        {
+          "name": "AzSentinelIncident",
+          "children": [
+            {
+              "name": "Get-AzSentinelIncident"
+            },
+            {
+              "name": "Update-AzSentinelIncident"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

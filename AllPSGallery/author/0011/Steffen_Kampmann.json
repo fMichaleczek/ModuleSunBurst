@@ -1,0 +1,536 @@
+{
+  "name": "Steffen Kampmann",
+  "children": [
+    {
+      "name": "AssemblyChecker",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "Assembly",
+          "children": [
+            {
+              "name": "Find-Assembly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsBuildTasks",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "Task",
+          "children": [
+            {
+              "name": "Install-Task"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsCosmos",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "Instance",
+          "children": [
+            {
+              "name": "Connect-Instance"
+            },
+            {
+              "name": "Disconnect-Instance"
+            }
+          ]
+        },
+        {
+          "name": "Query",
+          "children": [
+            {
+              "name": "Invoke-Query"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsDac",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "Service",
+          "children": [
+            {
+              "name": "Connect-Service"
+            },
+            {
+              "name": "Disconnect-Service"
+            }
+          ]
+        },
+        {
+          "name": "Column",
+          "children": [
+            {
+              "name": "Get-Column"
+            }
+          ]
+        },
+        {
+          "name": "DataType",
+          "children": [
+            {
+              "name": "Get-DataType"
+            }
+          ]
+        },
+        {
+          "name": "ForeignKey",
+          "children": [
+            {
+              "name": "Get-ForeignKey"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Get-Object"
+            }
+          ]
+        },
+        {
+          "name": "PartitionFunction",
+          "children": [
+            {
+              "name": "Get-PartitionFunction"
+            }
+          ]
+        },
+        {
+          "name": "PartitionScheme",
+          "children": [
+            {
+              "name": "Get-PartitionScheme"
+            }
+          ]
+        },
+        {
+          "name": "Procedure",
+          "children": [
+            {
+              "name": "Get-Procedure"
+            }
+          ]
+        },
+        {
+          "name": "Role",
+          "children": [
+            {
+              "name": "Get-Role"
+            }
+          ]
+        },
+        {
+          "name": "ScalarFunction",
+          "children": [
+            {
+              "name": "Get-ScalarFunction"
+            }
+          ]
+        },
+        {
+          "name": "Schema",
+          "children": [
+            {
+              "name": "Get-Schema"
+            },
+            {
+              "name": "Remove-Schema"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "children": [
+            {
+              "name": "Get-Table"
+            }
+          ]
+        },
+        {
+          "name": "TableValuedFunction",
+          "children": [
+            {
+              "name": "Get-TableValuedFunction"
+            }
+          ]
+        },
+        {
+          "name": "View",
+          "children": [
+            {
+              "name": "Get-View"
+            }
+          ]
+        },
+        {
+          "name": "Model",
+          "children": [
+            {
+              "name": "Import-Model"
+            },
+            {
+              "name": "Test-Model"
+            },
+            {
+              "name": "Export-Model"
+            }
+          ]
+        },
+        {
+          "name": "Package",
+          "children": [
+            {
+              "name": "Import-Package"
+            },
+            {
+              "name": "Install-Package"
+            },
+            {
+              "name": "Set-Package"
+            }
+          ]
+        },
+        {
+          "name": "CreateScript",
+          "children": [
+            {
+              "name": "New-CreateScript"
+            }
+          ]
+        },
+        {
+          "name": "SchemaComparison",
+          "children": [
+            {
+              "name": "New-SchemaComparison"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDependHelper",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "DependencyFile",
+          "children": [
+            {
+              "name": "Build-DependencyFile"
+            },
+            {
+              "name": "Export-DependencyFile"
+            }
+          ]
+        },
+        {
+          "name": "OutdatedDependency",
+          "children": [
+            {
+              "name": "Find-OutdatedDependency"
+            }
+          ]
+        },
+        {
+          "name": "Dependency",
+          "children": [
+            {
+              "name": "Group-Dependency"
+            },
+            {
+              "name": "Import-Dependency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsPowerBi",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "Service",
+          "children": [
+            {
+              "name": "Connect-Service"
+            },
+            {
+              "name": "Disconnect-Service"
+            }
+          ]
+        },
+        {
+          "name": "Capacity",
+          "children": [
+            {
+              "name": "Get-Capacity"
+            }
+          ]
+        },
+        {
+          "name": "Dataset",
+          "children": [
+            {
+              "name": "Get-Dataset"
+            },
+            {
+              "name": "Register-Dataset"
+            },
+            {
+              "name": "Remove-Dataset"
+            },
+            {
+              "name": "Set-Dataset"
+            },
+            {
+              "name": "Sync-Dataset"
+            }
+          ]
+        },
+        {
+          "name": "Datasource",
+          "children": [
+            {
+              "name": "Get-Datasource"
+            },
+            {
+              "name": "New-Datasource"
+            },
+            {
+              "name": "Remove-Datasource"
+            },
+            {
+              "name": "Set-Datasource"
+            }
+          ]
+        },
+        {
+          "name": "Gateway",
+          "children": [
+            {
+              "name": "Get-Gateway"
+            }
+          ]
+        },
+        {
+          "name": "Report",
+          "children": [
+            {
+              "name": "Get-Report"
+            },
+            {
+              "name": "New-Report"
+            },
+            {
+              "name": "Remove-Report"
+            }
+          ]
+        },
+        {
+          "name": "Workspace",
+          "children": [
+            {
+              "name": "Get-Workspace"
+            },
+            {
+              "name": "Move-Workspace"
+            },
+            {
+              "name": "Remove-Workspace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsSmo",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "Instance",
+          "children": [
+            {
+              "name": "Connect-Instance"
+            },
+            {
+              "name": "Disconnect-Instance"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "children": [
+            {
+              "name": "Get-Table"
+            }
+          ]
+        },
+        {
+          "name": "Command",
+          "children": [
+            {
+              "name": "Invoke-Command"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsSqlClient",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "Instance",
+          "children": [
+            {
+              "name": "Connect-Instance"
+            },
+            {
+              "name": "Disconnect-Instance"
+            }
+          ]
+        },
+        {
+          "name": "Value",
+          "children": [
+            {
+              "name": "Get-Value"
+            }
+          ]
+        },
+        {
+          "name": "Command",
+          "children": [
+            {
+              "name": "Invoke-Command"
+            }
+          ]
+        },
+        {
+          "name": "Procedure",
+          "children": [
+            {
+              "name": "Invoke-Procedure"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "children": [
+            {
+              "name": "Export-Table"
+            }
+          ]
+        },
+        {
+          "name": "Connection",
+          "children": [
+            {
+              "name": "Test-Connection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsSqlLegacy",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "SqlCmd",
+          "children": [
+            {
+              "name": "Initialize-SqlCmd"
+            },
+            {
+              "name": "Invoke-SqlCmd"
+            }
+          ]
+        },
+        {
+          "name": "SqlPackage",
+          "children": [
+            {
+              "name": "Initialize-SqlPackage"
+            },
+            {
+              "name": "Invoke-SqlPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsVsSolution",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "Project",
+          "children": [
+            {
+              "name": "Import-Project"
+            }
+          ]
+        },
+        {
+          "name": "ProjectDependency",
+          "children": [
+            {
+              "name": "Import-ProjectDependency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsXmla",
+      "companyName": "Unknown",
+      "author": "Steffen Kampmann",
+      "children": [
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Connect-Server"
+            },
+            {
+              "name": "Disconnect-Server"
+            }
+          ]
+        },
+        {
+          "name": "Command",
+          "children": [
+            {
+              "name": "Invoke-Command"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Maxence Grymonprez",
+  "children": [
+    {
+      "name": "MyJavaManager",
+      "companyName": "Unknown",
+      "author": "Maxence Grymonprez",
+      "children": [
+        {
+          "name": "JavaEntry",
+          "children": [
+            {
+              "name": "Add-JavaEntry"
+            },
+            {
+              "name": "Get-JavaEntry"
+            },
+            {
+              "name": "Remove-JavaEntry"
+            }
+          ]
+        },
+        {
+          "name": "DownloadJavaPackage",
+          "children": [
+            {
+              "name": "Invoke-DownloadJavaPackage"
+            }
+          ]
+        },
+        {
+          "name": "JavaVersion",
+          "children": [
+            {
+              "name": "Switch-JavaVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MyRemoteManager",
+      "companyName": "Unknown",
+      "author": "Maxence Grymonprez",
+      "children": [
+        {
+          "name": "MyRMClient",
+          "children": [
+            {
+              "name": "Add-MyRMClient"
+            },
+            {
+              "name": "Get-MyRMClient"
+            },
+            {
+              "name": "Remove-MyRMClient"
+            }
+          ]
+        },
+        {
+          "name": "MyRMConnection",
+          "children": [
+            {
+              "name": "Add-MyRMConnection"
+            },
+            {
+              "name": "Get-MyRMConnection"
+            },
+            {
+              "name": "Invoke-MyRMConnection"
+            },
+            {
+              "name": "Remove-MyRMConnection"
+            },
+            {
+              "name": "Test-MyRMConnection"
+            }
+          ]
+        },
+        {
+          "name": "MyRMInventoryInfo",
+          "children": [
+            {
+              "name": "Get-MyRMInventoryInfo"
+            }
+          ]
+        },
+        {
+          "name": "MyRMInventory",
+          "children": [
+            {
+              "name": "New-MyRMInventory"
+            }
+          ]
+        },
+        {
+          "name": "MyRMInventoryPath",
+          "children": [
+            {
+              "name": "Set-MyRMInventoryPath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PomoShell",
+      "companyName": "Unknown",
+      "author": "Maxence Grymonprez",
+      "children": [
+        {
+          "name": "Pomodoro",
+          "children": [
+            {
+              "name": "Invoke-Pomodoro"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

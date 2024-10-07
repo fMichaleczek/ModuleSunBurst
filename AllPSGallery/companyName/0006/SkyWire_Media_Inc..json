@@ -1,0 +1,202 @@
+{
+  "name": "SkyWire Media Inc.",
+  "children": [
+    {
+      "name": "SkyWire-PSDatabase",
+      "companyName": "SkyWire Media Inc.",
+      "author": "Erick Adam",
+      "children": [
+        {
+          "name": "SWDatabase",
+          "children": [
+            {
+              "name": "New-SWDatabase"
+            },
+            {
+              "name": "Remove-SWDatabase"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkyWire-PSGateway",
+      "companyName": "SkyWire Media Inc.",
+      "author": "Erick Adam",
+      "children": [
+        {
+          "name": "SWGateway",
+          "children": [
+            {
+              "name": "New-SWGateway"
+            },
+            {
+              "name": "Remove-SWGateway"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkyWire-PSInstaller",
+      "companyName": "SkyWire Media Inc.",
+      "author": "Erick Adam",
+      "children": [
+        {
+          "name": "SWDatabase",
+          "children": [
+            {
+              "name": "New-SWDatabase"
+            },
+            {
+              "name": "Remove-SWDatabase"
+            }
+          ]
+        },
+        {
+          "name": "SWPOS",
+          "children": [
+            {
+              "name": "New-SWPOS"
+            },
+            {
+              "name": "Remove-SWPOS"
+            }
+          ]
+        },
+        {
+          "name": "SWWebConfig",
+          "children": [
+            {
+              "name": "New-SWWebConfig"
+            },
+            {
+              "name": "Remove-SWWebConfig"
+            }
+          ]
+        },
+        {
+          "name": "SWGateway",
+          "children": [
+            {
+              "name": "New-SWGateway"
+            },
+            {
+              "name": "Remove-SWGateway"
+            }
+          ]
+        },
+        {
+          "name": "SWTag",
+          "children": [
+            {
+              "name": "ConvertFrom-SWTag"
+            }
+          ]
+        },
+        {
+          "name": "SWCache",
+          "children": [
+            {
+              "name": "Remove-SWCache"
+            }
+          ]
+        },
+        {
+          "name": "SWApp",
+          "children": [
+            {
+              "name": "Remove-SWApp"
+            },
+            {
+              "name": "New-SWApp"
+            }
+          ]
+        },
+        {
+          "name": "SWInstallPackage",
+          "children": [
+            {
+              "name": "Get-SWInstallPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkyWire-PSInstallerHelpers",
+      "companyName": "SkyWire Media Inc.",
+      "author": "Erick Adam",
+      "children": [
+        {
+          "name": "SWTag",
+          "children": [
+            {
+              "name": "ConvertFrom-SWTag"
+            }
+          ]
+        },
+        {
+          "name": "SWCache",
+          "children": [
+            {
+              "name": "Remove-SWCache"
+            }
+          ]
+        },
+        {
+          "name": "SWApp",
+          "children": [
+            {
+              "name": "Remove-SWApp"
+            }
+          ]
+        },
+        {
+          "name": "SWInstallPackage",
+          "children": [
+            {
+              "name": "Get-SWInstallPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkyWire-PSPOS",
+      "companyName": "SkyWire Media Inc.",
+      "author": "Erick Adam",
+      "children": [
+        {
+          "name": "SWPOS",
+          "children": [
+            {
+              "name": "New-SWPOS"
+            },
+            {
+              "name": "Remove-SWPOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkyWire-PSWebConfig",
+      "companyName": "SkyWire Media Inc.",
+      "author": "Erick Adam",
+      "children": [
+        {
+          "name": "SWWebConfig",
+          "children": [
+            {
+              "name": "New-SWWebConfig"
+            },
+            {
+              "name": "Remove-SWWebConfig"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

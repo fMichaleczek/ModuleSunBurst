@@ -1,0 +1,1284 @@
+{
+  "name": "Pure Storage",
+  "children": [
+    {
+      "name": "PureStorage.CBS.AVS",
+      "companyName": "Pure Storage, Inc",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "PCBSCluster",
+          "children": [
+            {
+              "name": "Build-PCBSCluster"
+            }
+          ]
+        },
+        {
+          "name": "PCBSVmfsDatastore",
+          "children": [
+            {
+              "name": "New-PCBSVmfsDatastore"
+            },
+            {
+              "name": "Restore-PCBSVmfsDatastore"
+            },
+            {
+              "name": "Remove-PCBSVmfsDatastore"
+            }
+          ]
+        },
+        {
+          "name": "PCBSVmfsCapacity",
+          "children": [
+            {
+              "name": "Set-PCBSVmfsCapacity"
+            }
+          ]
+        },
+        {
+          "name": "PCBSAVSMonitor",
+          "children": [
+            {
+              "name": "Deploy-PCBSAVSMonitor"
+            },
+            {
+              "name": "Remove-PCBSAVSMonitor"
+            },
+            {
+              "name": "Get-PCBSAVSMonitor"
+            }
+          ]
+        },
+        {
+          "name": "PCBSAVSMonitorArray",
+          "children": [
+            {
+              "name": "Add-PCBSAVSMonitorArray"
+            },
+            {
+              "name": "Remove-PCBSAVSMonitorArray"
+            },
+            {
+              "name": "Get-PCBSAVSMonitorArray"
+            }
+          ]
+        },
+        {
+          "name": "PCBSVvolDataStore",
+          "children": [
+            {
+              "name": "New-PCBSVvolDataStore"
+            },
+            {
+              "name": "Remove-PCBSVvolDataStore"
+            }
+          ]
+        },
+        {
+          "name": "PCBSVASAProvider",
+          "children": [
+            {
+              "name": "New-PCBSVASAProvider"
+            },
+            {
+              "name": "Update-PCBSVASAProvider"
+            }
+          ]
+        },
+        {
+          "name": "PCBSStoragePolicy",
+          "children": [
+            {
+              "name": "New-PCBSStoragePolicy"
+            },
+            {
+              "name": "Remove-PCBSStoragePolicy"
+            }
+          ]
+        },
+        {
+          "name": "PCBSFailover",
+          "children": [
+            {
+              "name": "Start-PCBSFailover"
+            }
+          ]
+        },
+        {
+          "name": "PCBSFailoverTest",
+          "children": [
+            {
+              "name": "Stop-PCBSFailoverTest"
+            }
+          ]
+        },
+        {
+          "name": "PCBSFailoverCleanup",
+          "children": [
+            {
+              "name": "Start-PCBSFailoverCleanup"
+            }
+          ]
+        },
+        {
+          "name": "PCBSFailoverReverse",
+          "children": [
+            {
+              "name": "Start-PCBSFailoverReverse"
+            }
+          ]
+        },
+        {
+          "name": "PCBSReplicationGroup",
+          "children": [
+            {
+              "name": "Sync-PCBSReplicationGroup"
+            }
+          ]
+        },
+        {
+          "name": "PCBSCapacityMonitor",
+          "children": [
+            {
+              "name": "Deploy-PCBSCapacityMonitor"
+            },
+            {
+              "name": "Remove-PCBSCapacityMonitor"
+            },
+            {
+              "name": "Get-PCBSCapacityMonitor"
+            }
+          ]
+        },
+        {
+          "name": "PCBSCapacityMonitorArray",
+          "children": [
+            {
+              "name": "Add-PCBSCapacityMonitorArray"
+            },
+            {
+              "name": "Remove-PCBSCapacityMonitorArray"
+            }
+          ]
+        },
+        {
+          "name": "PCBSRunCommandPackageAvailability",
+          "children": [
+            {
+              "name": "Test-PCBSRunCommandPackageAvailability"
+            }
+          ]
+        },
+        {
+          "name": "PCBSiSCSITargets",
+          "children": [
+            {
+              "name": "Clear-PCBSiSCSITargets"
+            }
+          ]
+        },
+        {
+          "name": "PCBSiSCSIConnection",
+          "children": [
+            {
+              "name": "Test-PCBSiSCSIConnection"
+            }
+          ]
+        },
+        {
+          "name": "PCBSVASAConnection",
+          "children": [
+            {
+              "name": "Test-PCBSVASAConnection"
+            }
+          ]
+        },
+        {
+          "name": "PCBSAVSConnectionFromCBS",
+          "children": [
+            {
+              "name": "Test-PCBSAVSConnectionFromCBS"
+            }
+          ]
+        },
+        {
+          "name": "PCBSClusterVMHostStorage",
+          "children": [
+            {
+              "name": "Sync-PCBSClusterVMHostStorage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.Configuration",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "PfaRestOperation",
+          "children": [
+            {
+              "name": "New-PfaRestOperation"
+            }
+          ]
+        },
+        {
+          "name": "PfaConnection",
+          "children": [
+            {
+              "name": "New-PfaConnection"
+            }
+          ]
+        },
+        {
+          "name": "PfaDatastore",
+          "children": [
+            {
+              "name": "Get-PfaDatastore"
+            }
+          ]
+        },
+        {
+          "name": "PfaConnectionOfDatastore",
+          "children": [
+            {
+              "name": "Get-PfaConnectionOfDatastore"
+            }
+          ]
+        },
+        {
+          "name": "PfaRestSession",
+          "children": [
+            {
+              "name": "New-PfaRestSession"
+            },
+            {
+              "name": "Remove-PfaRestSession"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostFromVmHost",
+          "children": [
+            {
+              "name": "New-PfaHostFromVmHost"
+            },
+            {
+              "name": "Get-PfaHostFromVmHost"
+            }
+          ]
+        },
+        {
+          "name": "PfaHostGroupfromVcCluster",
+          "children": [
+            {
+              "name": "Get-PfaHostGroupfromVcCluster"
+            },
+            {
+              "name": "New-PfaHostGroupfromVcCluster"
+            }
+          ]
+        },
+        {
+          "name": "VmHostPfaiSCSI",
+          "children": [
+            {
+              "name": "Set-VmHostPfaiSCSI"
+            }
+          ]
+        },
+        {
+          "name": "ClusterPfaiSCSI",
+          "children": [
+            {
+              "name": "Set-ClusterPfaiSCSI"
+            }
+          ]
+        },
+        {
+          "name": "PfaConnectionFromArrayId",
+          "children": [
+            {
+              "name": "get-PfaConnectionFromArrayId"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.Pure1",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "pfaConnectionsWithPureOne",
+          "children": [
+            {
+              "name": "new-pfaConnectionsWithPureOne"
+            }
+          ]
+        },
+        {
+          "name": "leastBusyPfaConnection",
+          "children": [
+            {
+              "name": "get-leastBusyPfaConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.RDM",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "PfaRdmToVvol",
+          "children": [
+            {
+              "name": "Convert-PfaRdmToVvol"
+            }
+          ]
+        },
+        {
+          "name": "PfaRdm",
+          "children": [
+            {
+              "name": "Remove-PfaRdm"
+            },
+            {
+              "name": "New-PfaRdm"
+            }
+          ]
+        },
+        {
+          "name": "PfaRdmCapacity",
+          "children": [
+            {
+              "name": "Set-PfaRdmCapacity"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotToRdm",
+          "children": [
+            {
+              "name": "Copy-PfaSnapshotToRdm"
+            }
+          ]
+        },
+        {
+          "name": "PfaRdmSnapshot",
+          "children": [
+            {
+              "name": "Get-PfaRdmSnapshot"
+            },
+            {
+              "name": "New-PfaRdmSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PfaConnectionFromRdm",
+          "children": [
+            {
+              "name": "Get-PfaConnectionFromRdm"
+            }
+          ]
+        },
+        {
+          "name": "PfaRdmVol",
+          "children": [
+            {
+              "name": "Get-PfaRdmVol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.Software",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "PfaVspherePlugin",
+          "children": [
+            {
+              "name": "Install-PfaVspherePlugin"
+            },
+            {
+              "name": "Get-PfaVspherePlugin"
+            },
+            {
+              "name": "Uninstall-PfaVspherePlugin"
+            }
+          ]
+        },
+        {
+          "name": "PfaAppliance",
+          "children": [
+            {
+              "name": "Deploy-PfaAppliance"
+            },
+            {
+              "name": "Get-PfaAppliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.VCF",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "PfaVcfWorkloadDomain",
+          "children": [
+            {
+              "name": "Initialize-PfaVcfWorkloadDomain"
+            }
+          ]
+        },
+        {
+          "name": "PfaVcfVasaProvider",
+          "children": [
+            {
+              "name": "Get-PfaVcfVasaProvider"
+            },
+            {
+              "name": "New-PfaVcfVasaProvider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.VMFS",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "PfaVmfsVol",
+          "children": [
+            {
+              "name": "Get-PfaVmfsVol"
+            }
+          ]
+        },
+        {
+          "name": "PfaVmfs",
+          "children": [
+            {
+              "name": "New-PfaVmfs"
+            }
+          ]
+        },
+        {
+          "name": "PfaVmfsToCluster",
+          "children": [
+            {
+              "name": "Add-PfaVmfsToCluster"
+            }
+          ]
+        },
+        {
+          "name": "PfaVmfsCapacity",
+          "children": [
+            {
+              "name": "Set-PfaVmfsCapacity"
+            }
+          ]
+        },
+        {
+          "name": "PfaVmfsSnapshot",
+          "children": [
+            {
+              "name": "Get-PfaVmfsSnapshot"
+            },
+            {
+              "name": "New-PfaVmfsSnapshot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.VVol",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "PfaVvolVol",
+          "children": [
+            {
+              "name": "Get-PfaVvolVol"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolVmVolumeGroup",
+          "children": [
+            {
+              "name": "Update-PfaVvolVmVolumeGroup"
+            }
+          ]
+        },
+        {
+          "name": "VvolUuidFromVmdk",
+          "children": [
+            {
+              "name": "Get-VvolUuidFromVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaVolumeNameFromVvolUuid",
+          "children": [
+            {
+              "name": "Get-PfaVolumeNameFromVvolUuid"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotFromVvolVmdk",
+          "children": [
+            {
+              "name": "Get-PfaSnapshotFromVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolVmdkToNewVvolVmdk",
+          "children": [
+            {
+              "name": "Copy-PfaVvolVmdkToNewVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotToExistingVvolVmdk",
+          "children": [
+            {
+              "name": "Copy-PfaSnapshotToExistingVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotToNewVvolVmdk",
+          "children": [
+            {
+              "name": "Copy-PfaSnapshotToNewVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolVmdkToExistingVvolVmdk",
+          "children": [
+            {
+              "name": "Copy-PfaVvolVmdkToExistingVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "PfaSnapshotOfVvolVmdk",
+          "children": [
+            {
+              "name": "New-PfaSnapshotOfVvolVmdk"
+            }
+          ]
+        },
+        {
+          "name": "VmdkFromWindowsDisk",
+          "children": [
+            {
+              "name": "Get-VmdkFromWindowsDisk"
+            }
+          ]
+        },
+        {
+          "name": "PfaVasaProvider",
+          "children": [
+            {
+              "name": "New-PfaVasaProvider"
+            },
+            {
+              "name": "Get-PfaVasaProvider"
+            },
+            {
+              "name": "Remove-PfaVasaProvider"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolDatastore",
+          "children": [
+            {
+              "name": "Mount-PfaVvolDatastore"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolStorageArray",
+          "children": [
+            {
+              "name": "Get-PfaVvolStorageArray"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.VVol.Replication",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "PfavVolReplicationGroup",
+          "children": [
+            {
+              "name": "Get-PfavVolReplicationGroup"
+            }
+          ]
+        },
+        {
+          "name": "PfavVolReplicationGroupPartner",
+          "children": [
+            {
+              "name": "Get-PfavVolReplicationGroupPartner"
+            }
+          ]
+        },
+        {
+          "name": "PfavVolFaultDomain",
+          "children": [
+            {
+              "name": "Get-PfavVolFaultDomain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.FlashArray.VMware.VVol.SPBM",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "PfavVolStoragePolicy",
+          "children": [
+            {
+              "name": "Get-PfavVolStoragePolicy"
+            },
+            {
+              "name": "New-PfavVolStoragePolicy"
+            },
+            {
+              "name": "Edit-PfavVolStoragePolicy"
+            }
+          ]
+        },
+        {
+          "name": "PfavVolStoragePolicyConfig",
+          "children": [
+            {
+              "name": "Build-PfavVolStoragePolicyConfig"
+            }
+          ]
+        },
+        {
+          "name": "PfaVvolVmStoragePolicy",
+          "children": [
+            {
+              "name": "Set-PfaVvolVmStoragePolicy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.Pure1",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "PureOneConnection",
+          "children": [
+            {
+              "name": "New-PureOneConnection"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArray",
+          "children": [
+            {
+              "name": "Get-PureOneArray"
+            }
+          ]
+        },
+        {
+          "name": "PureOneOperation",
+          "children": [
+            {
+              "name": "New-PureOneOperation"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArrayTag",
+          "children": [
+            {
+              "name": "Get-PureOneArrayTag"
+            },
+            {
+              "name": "Set-PureOneArrayTag"
+            },
+            {
+              "name": "Remove-PureOneArrayTag"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArrayNetworking",
+          "children": [
+            {
+              "name": "Get-PureOneArrayNetworking"
+            }
+          ]
+        },
+        {
+          "name": "PureOneMetricDetail",
+          "children": [
+            {
+              "name": "Get-PureOneMetricDetail"
+            }
+          ]
+        },
+        {
+          "name": "PureOneMetric",
+          "children": [
+            {
+              "name": "Get-PureOneMetric"
+            }
+          ]
+        },
+        {
+          "name": "PureOneVolume",
+          "children": [
+            {
+              "name": "Get-PureOneVolume"
+            }
+          ]
+        },
+        {
+          "name": "PureOnePod",
+          "children": [
+            {
+              "name": "Get-PureOnePod"
+            }
+          ]
+        },
+        {
+          "name": "PureOneVolumeSnapshot",
+          "children": [
+            {
+              "name": "Get-PureOneVolumeSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PureOneFileSystem",
+          "children": [
+            {
+              "name": "Get-PureOneFileSystem"
+            }
+          ]
+        },
+        {
+          "name": "PureOneFileSystemSnapshot",
+          "children": [
+            {
+              "name": "Get-PureOneFileSystemSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PureOneArrayLoadMeter",
+          "children": [
+            {
+              "name": "Get-PureOneArrayLoadMeter"
+            }
+          ]
+        },
+        {
+          "name": "PureOneCertificate",
+          "children": [
+            {
+              "name": "New-PureOneCertificate"
+            },
+            {
+              "name": "Get-PureOneCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PureOnePublicKey",
+          "children": [
+            {
+              "name": "Get-PureOnePublicKey"
+            }
+          ]
+        },
+        {
+          "name": "PureOneJwt",
+          "children": [
+            {
+              "name": "New-PureOneJwt"
+            }
+          ]
+        },
+        {
+          "name": "PureOneAlert",
+          "children": [
+            {
+              "name": "Get-PureOneAlert"
+            }
+          ]
+        },
+        {
+          "name": "PureOneSupportContract",
+          "children": [
+            {
+              "name": "Get-PureOneSupportContract"
+            }
+          ]
+        },
+        {
+          "name": "PureOneDefaultCertificate",
+          "children": [
+            {
+              "name": "Set-PureOneDefaultCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PureOneLicense",
+          "children": [
+            {
+              "name": "Get-PureOneLicense"
+            }
+          ]
+        },
+        {
+          "name": "PureOneSubscription",
+          "children": [
+            {
+              "name": "Get-PureOneSubscription"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.RunCommandWrapper",
+      "companyName": "Pure Storage, Inc",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "AVSScript",
+          "children": [
+            {
+              "name": "Invoke-AVSScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStorage.RunCommandWrapperDebug",
+      "companyName": "Pure Storage, Inc",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "AVSScript",
+          "children": [
+            {
+              "name": "Invoke-AVSScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStoragePowerShellToolkit.DatabaseTools",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "Pfa2DynamicDataMasking",
+          "children": [
+            {
+              "name": "Invoke-Pfa2DynamicDataMasking"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2StaticDataMasking",
+          "children": [
+            {
+              "name": "Invoke-Pfa2StaticDataMasking"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DbSnapshot",
+          "children": [
+            {
+              "name": "New-Pfa2DbSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DbRefresh",
+          "children": [
+            {
+              "name": "Invoke-Pfa2DbRefresh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStoragePowerShellToolkit.Exchange",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "Pfa2ExchangeBackup",
+          "children": [
+            {
+              "name": "Get-Pfa2ExchangeBackup"
+            },
+            {
+              "name": "New-Pfa2ExchangeBackup"
+            },
+            {
+              "name": "Remove-Pfa2ExchangeBackup"
+            },
+            {
+              "name": "Restore-Pfa2ExchangeBackup"
+            },
+            {
+              "name": "Mount-Pfa2ExchangeBackup"
+            },
+            {
+              "name": "Dismount-Pfa2ExchangeBackup"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ExchangeBackupExposeSession",
+          "children": [
+            {
+              "name": "Enter-Pfa2ExchangeBackupExposeSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStoragePowerShellToolkit.FlashArray",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "Pfa2AllHostVolumeInfo",
+          "children": [
+            {
+              "name": "Get-Pfa2AllHostVolumeInfo"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DisconnectedVolumes",
+          "children": [
+            {
+              "name": "Get-Pfa2DisconnectedVolumes"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Space",
+          "children": [
+            {
+              "name": "Get-Pfa2Space"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2StaleSnapshots",
+          "children": [
+            {
+              "name": "Get-Pfa2StaleSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PgroupsConfig",
+          "children": [
+            {
+              "name": "Get-Pfa2PgroupsConfig"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Config",
+          "children": [
+            {
+              "name": "Get-Pfa2Config"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Hierarchy",
+          "children": [
+            {
+              "name": "Get-Pfa2Hierarchy"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2QuickCapacityStats",
+          "children": [
+            {
+              "name": "Get-Pfa2QuickCapacityStats"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2RASession",
+          "children": [
+            {
+              "name": "Get-Pfa2RASession"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeGrowth",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeGrowth"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ConnectDetails",
+          "children": [
+            {
+              "name": "Get-Pfa2ConnectDetails"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PendingDeletes",
+          "children": [
+            {
+              "name": "Remove-Pfa2PendingDeletes"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PGroupVolumeSnapshots",
+          "children": [
+            {
+              "name": "Restore-Pfa2PGroupVolumeSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Hosts",
+          "children": [
+            {
+              "name": "Sync-Pfa2Hosts"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2PGroupVolumes",
+          "children": [
+            {
+              "name": "New-Pfa2PGroupVolumes"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2CapacityReport",
+          "children": [
+            {
+              "name": "New-Pfa2CapacityReport"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Excel",
+          "children": [
+            {
+              "name": "Export-Pfa2Excel"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2ExcelReport",
+          "children": [
+            {
+              "name": "New-Pfa2ExcelReport"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2Credential",
+          "children": [
+            {
+              "name": "Get-Pfa2Credential"
+            },
+            {
+              "name": "Set-Pfa2Credential"
+            },
+            {
+              "name": "Clear-Pfa2Credential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PureStoragePowerShellToolkit.WindowsAdministration",
+      "companyName": "Pure Storage, Inc.",
+      "author": "Pure Storage",
+      "children": [
+        {
+          "name": "Pfa2HostBusAdapter",
+          "children": [
+            {
+              "name": "Get-Pfa2HostBusAdapter"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SerialNumbers",
+          "children": [
+            {
+              "name": "Get-Pfa2SerialNumbers"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2QuickFixEngineering",
+          "children": [
+            {
+              "name": "Get-Pfa2QuickFixEngineering"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2VolumeShadowCopy",
+          "children": [
+            {
+              "name": "Get-Pfa2VolumeShadowCopy"
+            },
+            {
+              "name": "New-Pfa2VolumeShadowCopy"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2WindowsDiagnosticInfo",
+          "children": [
+            {
+              "name": "Get-Pfa2WindowsDiagnosticInfo"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2MPIODiskLBPolicy",
+          "children": [
+            {
+              "name": "Get-Pfa2MPIODiskLBPolicy"
+            },
+            {
+              "name": "Set-Pfa2MPIODiskLBPolicy"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2TlsVersions",
+          "children": [
+            {
+              "name": "Set-Pfa2TlsVersions"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2WindowsPowerScheme",
+          "children": [
+            {
+              "name": "Set-Pfa2WindowsPowerScheme"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2SecureChannelProtocol",
+          "children": [
+            {
+              "name": "Enable-Pfa2SecureChannelProtocol"
+            },
+            {
+              "name": "Disable-Pfa2SecureChannelProtocol"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HostVolumes",
+          "children": [
+            {
+              "name": "Mount-Pfa2HostVolumes"
+            },
+            {
+              "name": "Dismount-Pfa2HostVolumes"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2DriveInformation",
+          "children": [
+            {
+              "name": "Update-Pfa2DriveInformation"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2WindowsBestPractices",
+          "children": [
+            {
+              "name": "Test-Pfa2WindowsBestPractices"
+            }
+          ]
+        },
+        {
+          "name": "Pfa2HypervClusterVolumeReport",
+          "children": [
+            {
+              "name": "New-Pfa2HypervClusterVolumeReport"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

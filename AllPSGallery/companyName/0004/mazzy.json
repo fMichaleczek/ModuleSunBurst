@@ -1,0 +1,88 @@
+{
+  "name": "mazzy",
+  "children": [
+    {
+      "name": "Powershell.Chunks",
+      "companyName": "mazzy",
+      "author": "Sergey Mazurkin  mazzy mazzy.ru",
+      "children": [
+        {
+          "name": "Chunk",
+          "children": [
+            {
+              "name": "Get-Chunk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Update-Lbi",
+      "companyName": "mazzy",
+      "author": "Sergey Mazurkin  mazzy mazzy.ru",
+      "children": [
+        {
+          "name": "Lbi",
+          "children": [
+            {
+              "name": "Update-Lbi"
+            },
+            {
+              "name": "Read-Lbi"
+            }
+          ]
+        },
+        {
+          "name": "LbiCache",
+          "children": [
+            {
+              "name": "Reset-LbiCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Write-ProgressEx",
+      "companyName": "mazzy",
+      "author": "Sergey Mazurkin  mazzy mazzy.ru",
+      "children": [
+        {
+          "name": "ProgressEx",
+          "children": [
+            {
+              "name": "Write-ProgressEx"
+            },
+            {
+              "name": "Get-ProgressEx"
+            },
+            {
+              "name": "Set-ProgressEx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "xpoTools",
+      "companyName": "mazzy",
+      "author": "Sergey Mazurkin  mazzy mazzy.ru",
+      "children": [
+        {
+          "name": "Xpo",
+          "children": [
+            {
+              "name": "Import-Xpo"
+            },
+            {
+              "name": "Merge-Xpo"
+            },
+            {
+              "name": "Split-Xpo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

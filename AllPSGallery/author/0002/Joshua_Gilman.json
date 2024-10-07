@@ -1,0 +1,251 @@
+{
+  "name": "Joshua Gilman",
+  "children": [
+    {
+      "name": "ChocolateyPackageCreator",
+      "companyName": "Unknown",
+      "author": "Joshua Gilman",
+      "children": [
+        {
+          "name": "ChocolateyPackage",
+          "children": [
+            {
+              "name": "New-ChocolateyPackage"
+            },
+            {
+              "name": "Build-ChocolateyPackage"
+            },
+            {
+              "name": "Publish-ChocolateyPackage"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyISOPackage",
+          "children": [
+            {
+              "name": "New-ChocolateyISOPackage"
+            },
+            {
+              "name": "Build-ChocolateyISOPackage"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyPackageConfig",
+          "children": [
+            {
+              "name": "New-ChocolateyPackageConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "posh-proget",
+      "companyName": "Unknown",
+      "author": "Joshua Gilman",
+      "children": [
+        {
+          "name": "AssetObject",
+          "children": [
+            {
+              "name": "New-AssetObject"
+            }
+          ]
+        },
+        {
+          "name": "Assets",
+          "children": [
+            {
+              "name": "Get-Assets"
+            }
+          ]
+        },
+        {
+          "name": "Asset",
+          "children": [
+            {
+              "name": "Get-Asset"
+            },
+            {
+              "name": "New-Asset"
+            },
+            {
+              "name": "Set-Asset"
+            },
+            {
+              "name": "Remove-Asset"
+            }
+          ]
+        },
+        {
+          "name": "AssetDirectory",
+          "children": [
+            {
+              "name": "New-AssetDirectory"
+            },
+            {
+              "name": "Export-AssetDirectory"
+            },
+            {
+              "name": "Import-AssetDirectory"
+            }
+          ]
+        },
+        {
+          "name": "FeedObject",
+          "children": [
+            {
+              "name": "New-FeedObject"
+            }
+          ]
+        },
+        {
+          "name": "ConnectorObject",
+          "children": [
+            {
+              "name": "New-ConnectorObject"
+            }
+          ]
+        },
+        {
+          "name": "RetentionRuleObject",
+          "children": [
+            {
+              "name": "New-RetentionRuleObject"
+            }
+          ]
+        },
+        {
+          "name": "ReplicationDataObject",
+          "children": [
+            {
+              "name": "New-ReplicationDataObject"
+            }
+          ]
+        },
+        {
+          "name": "LicenseDataObject",
+          "children": [
+            {
+              "name": "New-LicenseDataObject"
+            }
+          ]
+        },
+        {
+          "name": "Feeds",
+          "children": [
+            {
+              "name": "Get-Feeds"
+            }
+          ]
+        },
+        {
+          "name": "Connectors",
+          "children": [
+            {
+              "name": "Get-Connectors"
+            }
+          ]
+        },
+        {
+          "name": "ConnectorsHealth",
+          "children": [
+            {
+              "name": "Get-ConnectorsHealth"
+            }
+          ]
+        },
+        {
+          "name": "Licenses",
+          "children": [
+            {
+              "name": "Get-Licenses"
+            }
+          ]
+        },
+        {
+          "name": "Feed",
+          "children": [
+            {
+              "name": "Get-Feed"
+            },
+            {
+              "name": "New-Feed"
+            },
+            {
+              "name": "Set-Feed"
+            },
+            {
+              "name": "Remove-Feed"
+            }
+          ]
+        },
+        {
+          "name": "FeedUrl",
+          "children": [
+            {
+              "name": "Get-FeedUrl"
+            }
+          ]
+        },
+        {
+          "name": "Connector",
+          "children": [
+            {
+              "name": "Get-Connector"
+            },
+            {
+              "name": "New-Connector"
+            },
+            {
+              "name": "Remove-Connector"
+            }
+          ]
+        },
+        {
+          "name": "ConnectorHealth",
+          "children": [
+            {
+              "name": "Get-ConnectorHealth"
+            }
+          ]
+        },
+        {
+          "name": "License",
+          "children": [
+            {
+              "name": "Get-License"
+            },
+            {
+              "name": "New-License"
+            },
+            {
+              "name": "Set-License"
+            },
+            {
+              "name": "Remove-License"
+            }
+          ]
+        },
+        {
+          "name": "ServerHealth",
+          "children": [
+            {
+              "name": "Get-ServerHealth"
+            }
+          ]
+        },
+        {
+          "name": "Session",
+          "children": [
+            {
+              "name": "New-Session"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "name": "SDL",
+  "children": [
+    {
+      "name": "Tridion-ContentDelivery",
+      "companyName": "SDL",
+      "author": "Peter Kjaer",
+      "children": [
+        {
+          "name": "TridionContentDeliverySettings",
+          "children": [
+            {
+              "name": "Get-TridionContentDeliverySettings"
+            },
+            {
+              "name": "Reset-TridionContentDeliverySettings"
+            },
+            {
+              "name": "Set-TridionContentDeliverySettings"
+            }
+          ]
+        },
+        {
+          "name": "TridionContentDeliveryToken",
+          "children": [
+            {
+              "name": "Get-TridionContentDeliveryToken"
+            }
+          ]
+        },
+        {
+          "name": "TridionContentDeliveryServices",
+          "children": [
+            {
+              "name": "Test-TridionContentDeliveryServices"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tridion-CoreService",
+      "companyName": "SDL",
+      "author": "Peter Kjaer",
+      "children": [
+        {
+          "name": "TridionApplicationData",
+          "children": [
+            {
+              "name": "Convert-TridionApplicationData"
+            },
+            {
+              "name": "Get-TridionApplicationData"
+            },
+            {
+              "name": "Set-TridionApplicationData"
+            },
+            {
+              "name": "Remove-TridionApplicationData"
+            }
+          ]
+        },
+        {
+          "name": "GetCoreServiceBinding",
+          "children": [
+            {
+              "name": "GetCoreServiceBinding"
+            }
+          ]
+        },
+        {
+          "name": "NewAssemblyInstance",
+          "children": [
+            {
+              "name": "NewAssemblyInstance"
+            }
+          ]
+        },
+        {
+          "name": "GetClientCredentialType",
+          "children": [
+            {
+              "name": "GetClientCredentialType"
+            }
+          ]
+        },
+        {
+          "name": "SetCredential",
+          "children": [
+            {
+              "name": "SetCredential"
+            }
+          ]
+        },
+        {
+          "name": "SetImpersonateUser",
+          "children": [
+            {
+              "name": "SetImpersonateUser"
+            }
+          ]
+        },
+        {
+          "name": "GetChannelFactory",
+          "children": [
+            {
+              "name": "GetChannelFactory"
+            }
+          ]
+        },
+        {
+          "name": "GetAdfsToken",
+          "children": [
+            {
+              "name": "GetAdfsToken"
+            }
+          ]
+        },
+        {
+          "name": "TridionCoreServiceClient",
+          "children": [
+            {
+              "name": "Get-TridionCoreServiceClient"
+            },
+            {
+              "name": "Close-TridionCoreServiceClient"
+            }
+          ]
+        },
+        {
+          "name": "GetPublicationTargets",
+          "children": [
+            {
+              "name": "GetPublicationTargets"
+            }
+          ]
+        },
+        {
+          "name": "TridionItem",
+          "children": [
+            {
+              "name": "Get-TridionItem"
+            },
+            {
+              "name": "New-TridionItem"
+            },
+            {
+              "name": "Remove-TridionItem"
+            },
+            {
+              "name": "Test-TridionItem"
+            },
+            {
+              "name": "Publish-TridionItem"
+            },
+            {
+              "name": "Unpublish-TridionItem"
+            }
+          ]
+        },
+        {
+          "name": "TridionPublication",
+          "children": [
+            {
+              "name": "Get-TridionPublication"
+            },
+            {
+              "name": "New-TridionPublication"
+            }
+          ]
+        },
+        {
+          "name": "TridionPublicationTarget",
+          "children": [
+            {
+              "name": "Get-TridionPublicationTarget"
+            }
+          ]
+        },
+        {
+          "name": "TridionPublishTransaction",
+          "children": [
+            {
+              "name": "Get-TridionPublishTransaction"
+            },
+            {
+              "name": "Remove-TridionPublishTransaction"
+            }
+          ]
+        },
+        {
+          "name": "AddSettingIfMissing",
+          "children": [
+            {
+              "name": "AddSettingIfMissing"
+            }
+          ]
+        },
+        {
+          "name": "RemoveSettingIfPresent",
+          "children": [
+            {
+              "name": "RemoveSettingIfPresent"
+            }
+          ]
+        },
+        {
+          "name": "GetDefaultSettings",
+          "children": [
+            {
+              "name": "GetDefaultSettings"
+            }
+          ]
+        },
+        {
+          "name": "GetSettings",
+          "children": [
+            {
+              "name": "GetSettings"
+            }
+          ]
+        },
+        {
+          "name": "GetModuleVersion",
+          "children": [
+            {
+              "name": "GetModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "ConvertOldSettings",
+          "children": [
+            {
+              "name": "ConvertOldSettings"
+            }
+          ]
+        },
+        {
+          "name": "RestoreSettings",
+          "children": [
+            {
+              "name": "RestoreSettings"
+            }
+          ]
+        },
+        {
+          "name": "PersistSettings",
+          "children": [
+            {
+              "name": "PersistSettings"
+            }
+          ]
+        },
+        {
+          "name": "GetHostWithoutPort",
+          "children": [
+            {
+              "name": "GetHostWithoutPort"
+            }
+          ]
+        },
+        {
+          "name": "ValidateTimeoutSetting",
+          "children": [
+            {
+              "name": "ValidateTimeoutSetting"
+            }
+          ]
+        },
+        {
+          "name": "TridionCoreServiceSettings",
+          "children": [
+            {
+              "name": "Get-TridionCoreServiceSettings"
+            },
+            {
+              "name": "Set-TridionCoreServiceSettings"
+            },
+            {
+              "name": "Clear-TridionCoreServiceSettings"
+            }
+          ]
+        },
+        {
+          "name": "GetCurrentUser",
+          "children": [
+            {
+              "name": "GetCurrentUser"
+            }
+          ]
+        },
+        {
+          "name": "GetTridionUsers",
+          "children": [
+            {
+              "name": "GetTridionUsers"
+            }
+          ]
+        },
+        {
+          "name": "GetTridionGroups",
+          "children": [
+            {
+              "name": "GetTridionGroups"
+            }
+          ]
+        },
+        {
+          "name": "AddPublicationScope",
+          "children": [
+            {
+              "name": "AddPublicationScope"
+            }
+          ]
+        },
+        {
+          "name": "AddGroupMembership",
+          "children": [
+            {
+              "name": "AddGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "TridionUser",
+          "children": [
+            {
+              "name": "Get-TridionUser"
+            },
+            {
+              "name": "New-TridionUser"
+            },
+            {
+              "name": "Disable-TridionUser"
+            },
+            {
+              "name": "Enable-TridionUser"
+            }
+          ]
+        },
+        {
+          "name": "TridionGroup",
+          "children": [
+            {
+              "name": "Get-TridionGroup"
+            },
+            {
+              "name": "New-TridionGroup"
+            }
+          ]
+        },
+        {
+          "name": "GetProcessFilter",
+          "children": [
+            {
+              "name": "GetProcessFilter"
+            }
+          ]
+        },
+        {
+          "name": "FilterByAssignee",
+          "children": [
+            {
+              "name": "FilterByAssignee"
+            }
+          ]
+        },
+        {
+          "name": "TridionWorkflowItem",
+          "children": [
+            {
+              "name": "Get-TridionWorkflowItem"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

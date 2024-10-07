@@ -1,0 +1,472 @@
+{
+  "name": "Sabin.IO",
+  "children": [
+    {
+      "name": "Pipeline.Config",
+      "companyName": "Sabin.IO",
+      "author": "Sabin.IO",
+      "children": [
+        {
+          "name": "String",
+          "children": [
+            {
+              "name": "Expand-String"
+            }
+          ]
+        },
+        {
+          "name": "KeyVaultSecret",
+          "children": [
+            {
+              "name": "Get-KeyVaultSecret"
+            }
+          ]
+        },
+        {
+          "name": "KeyVaultSecrets",
+          "children": [
+            {
+              "name": "Get-KeyVaultSecrets"
+            }
+          ]
+        },
+        {
+          "name": "MyIP",
+          "children": [
+            {
+              "name": "Get-MyIP"
+            }
+          ]
+        },
+        {
+          "name": "ProjectSettings",
+          "children": [
+            {
+              "name": "Get-ProjectSettings"
+            }
+          ]
+        },
+        {
+          "name": "SecureSetting",
+          "children": [
+            {
+              "name": "Get-SecureSetting"
+            },
+            {
+              "name": "Set-SecureSetting"
+            }
+          ]
+        },
+        {
+          "name": "Setting",
+          "children": [
+            {
+              "name": "Get-Setting"
+            },
+            {
+              "name": "Set-Setting"
+            }
+          ]
+        },
+        {
+          "name": "Settings",
+          "children": [
+            {
+              "name": "Get-Settings"
+            },
+            {
+              "name": "Initialize-Settings"
+            }
+          ]
+        },
+        {
+          "name": "SettingsFromFile",
+          "children": [
+            {
+              "name": "Import-SettingsFromFile"
+            }
+          ]
+        },
+        {
+          "name": "SettingEvaluation",
+          "children": [
+            {
+              "name": "Invoke-SettingEvaluation"
+            }
+          ]
+        },
+        {
+          "name": "SettingsValue",
+          "children": [
+            {
+              "name": "Set-SettingsValue"
+            }
+          ]
+        },
+        {
+          "name": "JsonCustom",
+          "children": [
+            {
+              "name": "Test-JsonCustom"
+            }
+          ]
+        },
+        {
+          "name": "Banner",
+          "children": [
+            {
+              "name": "Write-Banner"
+            }
+          ]
+        },
+        {
+          "name": "BannerBuild",
+          "children": [
+            {
+              "name": "Write-BannerBuild"
+            }
+          ]
+        },
+        {
+          "name": "BannerBuildSSIS",
+          "children": [
+            {
+              "name": "Write-BannerBuildSSIS"
+            }
+          ]
+        },
+        {
+          "name": "BannerDeploy",
+          "children": [
+            {
+              "name": "Write-BannerDeploy"
+            }
+          ]
+        },
+        {
+          "name": "BannerDeployData",
+          "children": [
+            {
+              "name": "Write-BannerDeployData"
+            }
+          ]
+        },
+        {
+          "name": "BannerDeployInfra",
+          "children": [
+            {
+              "name": "Write-BannerDeployInfra"
+            }
+          ]
+        },
+        {
+          "name": "BannerDeploySSIS",
+          "children": [
+            {
+              "name": "Write-BannerDeploySSIS"
+            }
+          ]
+        },
+        {
+          "name": "BannerInstall",
+          "children": [
+            {
+              "name": "Write-BannerInstall"
+            }
+          ]
+        },
+        {
+          "name": "BannerPackage",
+          "children": [
+            {
+              "name": "Write-BannerPackage"
+            }
+          ]
+        },
+        {
+          "name": "BannerPackageSSIS",
+          "children": [
+            {
+              "name": "Write-BannerPackageSSIS"
+            }
+          ]
+        },
+        {
+          "name": "BannerTest",
+          "children": [
+            {
+              "name": "Write-BannerTest"
+            }
+          ]
+        },
+        {
+          "name": "BannerTestModules",
+          "children": [
+            {
+              "name": "Write-BannerTestModules"
+            }
+          ]
+        },
+        {
+          "name": "BannerTestSSIS",
+          "children": [
+            {
+              "name": "Write-BannerTestSSIS"
+            }
+          ]
+        },
+        {
+          "name": "BannerTidy",
+          "children": [
+            {
+              "name": "Write-BannerTidy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pipeline.Sql.Deploy",
+      "companyName": "Sabin.IO",
+      "author": "Sabin.IO",
+      "children": [
+        {
+          "name": "DacPacHash",
+          "children": [
+            {
+              "name": "Get-DacPacHash"
+            }
+          ]
+        },
+        {
+          "name": "DatabaseDacpacDeploy",
+          "children": [
+            {
+              "name": "Invoke-DatabaseDacpacDeploy"
+            }
+          ]
+        },
+        {
+          "name": "DbSettingsToFile",
+          "children": [
+            {
+              "name": "Save-DbSettingsToFile"
+            }
+          ]
+        },
+        {
+          "name": "HaveDeploySettingsChangedSinceLastDeploy",
+          "children": [
+            {
+              "name": "Test-HaveDeploySettingsChangedSinceLastDeploy"
+            }
+          ]
+        },
+        {
+          "name": "IsPreviousDeploySettingsFileMissing",
+          "children": [
+            {
+              "name": "Test-IsPreviousDeploySettingsFileMissing"
+            }
+          ]
+        },
+        {
+          "name": "ShouldDeployDacpac",
+          "children": [
+            {
+              "name": "Test-ShouldDeployDacpac"
+            }
+          ]
+        },
+        {
+          "name": "DbDeployParameterLog",
+          "children": [
+            {
+              "name": "Write-DbDeployParameterLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pipeline.Tools",
+      "companyName": "Sabin.IO",
+      "author": "Sabin.IO",
+      "children": [
+        {
+          "name": "AzDoArtifactsCredProvider",
+          "children": [
+            {
+              "name": "Install-AzDoArtifactsCredProvider"
+            }
+          ]
+        },
+        {
+          "name": "ExeFromUrl",
+          "children": [
+            {
+              "name": "Install-ExeFromUrl"
+            }
+          ]
+        },
+        {
+          "name": "Nuget",
+          "children": [
+            {
+              "name": "Install-Nuget"
+            }
+          ]
+        },
+        {
+          "name": "PsModuleFast",
+          "children": [
+            {
+              "name": "Install-PsModuleFast"
+            }
+          ]
+        },
+        {
+          "name": "ToolFromUrl",
+          "children": [
+            {
+              "name": "Install-ToolFromUrl"
+            }
+          ]
+        },
+        {
+          "name": "ToolsPackageFromNuget",
+          "children": [
+            {
+              "name": "Install-ToolsPackageFromNuget"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SentryOne.Configure",
+      "companyName": "Sabin.io",
+      "author": "Sabin.io",
+      "children": [
+        {
+          "name": "S1Connection",
+          "children": [
+            {
+              "name": "Add-S1Connection"
+            },
+            {
+              "name": "Get-S1Connection"
+            }
+          ]
+        },
+        {
+          "name": "S1Target",
+          "children": [
+            {
+              "name": "Add-S1Target"
+            }
+          ]
+        },
+        {
+          "name": "S1User",
+          "children": [
+            {
+              "name": "Add-S1User"
+            }
+          ]
+        },
+        {
+          "name": "S1ConnectionList",
+          "children": [
+            {
+              "name": "ConvertFrom-S1ConnectionList"
+            }
+          ]
+        },
+        {
+          "name": "S1ConnectionPackageList",
+          "children": [
+            {
+              "name": "ConvertFrom-S1ConnectionPackageList"
+            }
+          ]
+        },
+        {
+          "name": "S1ConfigureAppPath",
+          "children": [
+            {
+              "name": "Get-S1ConfigureAppPath"
+            }
+          ]
+        },
+        {
+          "name": "S1ConnectionPackages",
+          "children": [
+            {
+              "name": "Get-S1ConnectionPackages"
+            }
+          ]
+        },
+        {
+          "name": "S1DB",
+          "children": [
+            {
+              "name": "Install-S1DB"
+            }
+          ]
+        },
+        {
+          "name": "S1EPI",
+          "children": [
+            {
+              "name": "Install-S1EPI"
+            }
+          ]
+        },
+        {
+          "name": "S1MonitoringService",
+          "children": [
+            {
+              "name": "Install-S1MonitoringService"
+            }
+          ]
+        },
+        {
+          "name": "S1Portal",
+          "children": [
+            {
+              "name": "Install-S1Portal"
+            }
+          ]
+        },
+        {
+          "name": "S1Upgrade",
+          "children": [
+            {
+              "name": "Invoke-S1Upgrade"
+            }
+          ]
+        },
+        {
+          "name": "SoExe",
+          "children": [
+            {
+              "name": "Invoke-SoExe"
+            }
+          ]
+        },
+        {
+          "name": "S1CurrentPackage",
+          "children": [
+            {
+              "name": "Register-S1CurrentPackage"
+            },
+            {
+              "name": "Save-S1CurrentPackage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

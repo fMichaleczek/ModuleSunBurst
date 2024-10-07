@@ -1,0 +1,42 @@
+{
+  "name": "Xadozuk",
+  "children": [
+    {
+      "name": "terramorph",
+      "companyName": "Xadozuk",
+      "author": "Xadozuk",
+      "children": [
+        {
+          "name": "TerraformVersion",
+          "children": [
+            {
+              "name": "Get-TerraformVersion"
+            },
+            {
+              "name": "Install-TerraformVersion"
+            },
+            {
+              "name": "Set-TerraformVersion"
+            }
+          ]
+        },
+        {
+          "name": "Terramorph",
+          "children": [
+            {
+              "name": "Install-Terramorph"
+            }
+          ]
+        },
+        {
+          "name": "TerraformShim",
+          "children": [
+            {
+              "name": "Sync-TerraformShim"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

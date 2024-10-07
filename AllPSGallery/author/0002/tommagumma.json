@@ -1,0 +1,106 @@
+{
+  "name": "tommagumma",
+  "children": [
+    {
+      "name": "PSDurableFunctions",
+      "companyName": "tommagumma",
+      "author": "tommagumma",
+      "children": [
+        {
+          "name": "DFOrchestration",
+          "children": [
+            {
+              "name": "Expand-DFOrchestration"
+            },
+            {
+              "name": "Get-DFOrchestration"
+            }
+          ]
+        },
+        {
+          "name": "DFTaskHubs",
+          "children": [
+            {
+              "name": "Get-DFTaskHubs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSServiceBus",
+      "companyName": "Unknown",
+      "author": "tommagumma",
+      "children": [
+        {
+          "name": "SbQueue",
+          "children": [
+            {
+              "name": "Clear-SbQueue"
+            },
+            {
+              "name": "Get-SbQueue"
+            }
+          ]
+        },
+        {
+          "name": "SbTopic",
+          "children": [
+            {
+              "name": "Get-SbTopic"
+            }
+          ]
+        },
+        {
+          "name": "SbSubscription",
+          "children": [
+            {
+              "name": "Get-SbSubscription"
+            }
+          ]
+        },
+        {
+          "name": "SbMessage",
+          "children": [
+            {
+              "name": "Send-SbMessage"
+            },
+            {
+              "name": "Receive-SbMessage"
+            }
+          ]
+        },
+        {
+          "name": "SbMessagesInBatch",
+          "children": [
+            {
+              "name": "Send-SbMessagesInBatch"
+            },
+            {
+              "name": "Receive-SbMessagesInBatch"
+            }
+          ]
+        },
+        {
+          "name": "SbMessageBatchSize",
+          "children": [
+            {
+              "name": "Test-SbMessageBatchSize"
+            }
+          ]
+        },
+        {
+          "name": "SbConnectionString",
+          "children": [
+            {
+              "name": "Test-SbConnectionString"
+            },
+            {
+              "name": "Save-SbConnectionString"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

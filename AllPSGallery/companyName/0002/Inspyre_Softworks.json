@@ -1,0 +1,71 @@
+{
+  "name": "Inspyre Softworks",
+  "children": [
+    {
+      "name": "PSDirectoryStack",
+      "companyName": "Inspyre Softworks",
+      "author": "T. Blackstone",
+      "children": [
+        {
+          "name": "Location",
+          "children": [
+            {
+              "name": "Push-Location"
+            },
+            {
+              "name": "Pop-Location"
+            },
+            {
+              "name": "Switch-Location"
+            }
+          ]
+        },
+        {
+          "name": "LocationEnhanced",
+          "children": [
+            {
+              "name": "Set-LocationEnhanced"
+            }
+          ]
+        },
+        {
+          "name": "UserProfileForPSDirectoryStackModule",
+          "children": [
+            {
+              "name": "Update-UserProfileForPSDirectoryStackModule"
+            }
+          ]
+        },
+        {
+          "name": "PSDirectoryStackVersion",
+          "children": [
+            {
+              "name": "Get-PSDirectoryStackVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSISDevToolkit",
+      "companyName": "Inspyre Softworks",
+      "author": "T. Blackstone",
+      "children": [
+        {
+          "name": "DebugMode",
+          "children": [
+            {
+              "name": "Enable-DebugMode"
+            },
+            {
+              "name": "Disable-DebugMode"
+            },
+            {
+              "name": "Get-DebugMode"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

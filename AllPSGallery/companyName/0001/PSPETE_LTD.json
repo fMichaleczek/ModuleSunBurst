@@ -1,0 +1,590 @@
+{
+  "name": "PSPETE LTD",
+  "children": [
+    {
+      "name": "PoShPACLI",
+      "companyName": "PSPETE LTD",
+      "author": "Pete Maan",
+      "children": [
+        {
+          "name": "PVConfiguration",
+          "children": [
+            {
+              "name": "Get-PVConfiguration"
+            },
+            {
+              "name": "Set-PVConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "PVPacli",
+          "children": [
+            {
+              "name": "Start-PVPacli"
+            },
+            {
+              "name": "Stop-PVPacli"
+            }
+          ]
+        },
+        {
+          "name": "PVVaultDefinition",
+          "children": [
+            {
+              "name": "New-PVVaultDefinition"
+            },
+            {
+              "name": "Import-PVVaultDefinition"
+            }
+          ]
+        },
+        {
+          "name": "PVVault",
+          "children": [
+            {
+              "name": "Connect-PVVault"
+            },
+            {
+              "name": "Disconnect-PVVault"
+            }
+          ]
+        },
+        {
+          "name": "PVLogonFile",
+          "children": [
+            {
+              "name": "New-PVLogonFile"
+            }
+          ]
+        },
+        {
+          "name": "PVUserPassword",
+          "children": [
+            {
+              "name": "Set-PVUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "PVUser",
+          "children": [
+            {
+              "name": "Lock-PVUser"
+            },
+            {
+              "name": "Unlock-PVUser"
+            },
+            {
+              "name": "New-PVUser"
+            },
+            {
+              "name": "Set-PVUser"
+            },
+            {
+              "name": "Rename-PVUser"
+            },
+            {
+              "name": "Remove-PVUser"
+            },
+            {
+              "name": "Get-PVUser"
+            }
+          ]
+        },
+        {
+          "name": "PVExternalUser",
+          "children": [
+            {
+              "name": "Add-PVExternalUser"
+            }
+          ]
+        },
+        {
+          "name": "PVUserList",
+          "children": [
+            {
+              "name": "Get-PVUserList"
+            }
+          ]
+        },
+        {
+          "name": "PVUserActivity",
+          "children": [
+            {
+              "name": "Get-PVUserActivity"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeLog",
+          "children": [
+            {
+              "name": "Get-PVSafeLog"
+            }
+          ]
+        },
+        {
+          "name": "PVUserHistory",
+          "children": [
+            {
+              "name": "Clear-PVUserHistory"
+            }
+          ]
+        },
+        {
+          "name": "PVUserPhoto",
+          "children": [
+            {
+              "name": "Set-PVUserPhoto"
+            },
+            {
+              "name": "Get-PVUserPhoto"
+            }
+          ]
+        },
+        {
+          "name": "PVMailMessage",
+          "children": [
+            {
+              "name": "Send-PVMailMessage"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeGWAccount",
+          "children": [
+            {
+              "name": "Add-PVSafeGWAccount"
+            },
+            {
+              "name": "Remove-PVSafeGWAccount"
+            }
+          ]
+        },
+        {
+          "name": "PVGroup",
+          "children": [
+            {
+              "name": "New-PVGroup"
+            },
+            {
+              "name": "Set-PVGroup"
+            },
+            {
+              "name": "Remove-PVGroup"
+            },
+            {
+              "name": "Get-PVGroup"
+            }
+          ]
+        },
+        {
+          "name": "PVGroupMember",
+          "children": [
+            {
+              "name": "Add-PVGroupMember"
+            },
+            {
+              "name": "Remove-PVGroupMember"
+            },
+            {
+              "name": "Get-PVGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "PVLocation",
+          "children": [
+            {
+              "name": "New-PVLocation"
+            },
+            {
+              "name": "Set-PVLocation"
+            },
+            {
+              "name": "Rename-PVLocation"
+            },
+            {
+              "name": "Remove-PVLocation"
+            },
+            {
+              "name": "Get-PVLocation"
+            }
+          ]
+        },
+        {
+          "name": "PVLDAPBranch",
+          "children": [
+            {
+              "name": "New-PVLDAPBranch"
+            },
+            {
+              "name": "Set-PVLDAPBranch"
+            },
+            {
+              "name": "Remove-PVLDAPBranch"
+            },
+            {
+              "name": "Get-PVLDAPBranch"
+            }
+          ]
+        },
+        {
+          "name": "PVNetworkArea",
+          "children": [
+            {
+              "name": "New-PVNetworkArea"
+            },
+            {
+              "name": "Remove-PVNetworkArea"
+            },
+            {
+              "name": "Move-PVNetworkArea"
+            },
+            {
+              "name": "Rename-PVNetworkArea"
+            },
+            {
+              "name": "Get-PVNetworkArea"
+            }
+          ]
+        },
+        {
+          "name": "PVNetworkAreaAddress",
+          "children": [
+            {
+              "name": "New-PVNetworkAreaAddress"
+            },
+            {
+              "name": "Remove-PVNetworkAreaAddress"
+            }
+          ]
+        },
+        {
+          "name": "PVTrustedNetworkArea",
+          "children": [
+            {
+              "name": "Add-PVTrustedNetworkArea"
+            },
+            {
+              "name": "Remove-PVTrustedNetworkArea"
+            },
+            {
+              "name": "Get-PVTrustedNetworkArea"
+            },
+            {
+              "name": "Enable-PVTrustedNetworkArea"
+            },
+            {
+              "name": "Disable-PVTrustedNetworkArea"
+            }
+          ]
+        },
+        {
+          "name": "PVSafe",
+          "children": [
+            {
+              "name": "Open-PVSafe"
+            },
+            {
+              "name": "Close-PVSafe"
+            },
+            {
+              "name": "New-PVSafe"
+            },
+            {
+              "name": "Set-PVSafe"
+            },
+            {
+              "name": "Rename-PVSafe"
+            },
+            {
+              "name": "Remove-PVSafe"
+            },
+            {
+              "name": "Get-PVSafe"
+            },
+            {
+              "name": "Reset-PVSafe"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeOwner",
+          "children": [
+            {
+              "name": "Add-PVSafeOwner"
+            },
+            {
+              "name": "Set-PVSafeOwner"
+            },
+            {
+              "name": "Remove-PVSafeOwner"
+            },
+            {
+              "name": "Get-PVSafeOwner"
+            }
+          ]
+        },
+        {
+          "name": "PVUserSafeList",
+          "children": [
+            {
+              "name": "Get-PVUserSafeList"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeList",
+          "children": [
+            {
+              "name": "Get-PVSafeList"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeActivity",
+          "children": [
+            {
+              "name": "Get-PVSafeActivity"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeFileCategory",
+          "children": [
+            {
+              "name": "New-PVSafeFileCategory"
+            },
+            {
+              "name": "Set-PVSafeFileCategory"
+            },
+            {
+              "name": "Remove-PVSafeFileCategory"
+            },
+            {
+              "name": "Get-PVSafeFileCategory"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeEvent",
+          "children": [
+            {
+              "name": "Write-PVSafeEvent"
+            },
+            {
+              "name": "Get-PVSafeEvent"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeNote",
+          "children": [
+            {
+              "name": "Set-PVSafeNote"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeHistory",
+          "children": [
+            {
+              "name": "Clear-PVSafeHistory"
+            }
+          ]
+        },
+        {
+          "name": "PVFolder",
+          "children": [
+            {
+              "name": "New-PVFolder"
+            },
+            {
+              "name": "Remove-PVFolder"
+            },
+            {
+              "name": "Restore-PVFolder"
+            },
+            {
+              "name": "Move-PVFolder"
+            },
+            {
+              "name": "Get-PVFolder"
+            }
+          ]
+        },
+        {
+          "name": "PVPreferredFolder",
+          "children": [
+            {
+              "name": "Add-PVPreferredFolder"
+            },
+            {
+              "name": "Remove-PVPreferredFolder"
+            }
+          ]
+        },
+        {
+          "name": "PVFile",
+          "children": [
+            {
+              "name": "Add-PVFile"
+            },
+            {
+              "name": "Get-PVFile"
+            },
+            {
+              "name": "Remove-PVFile"
+            },
+            {
+              "name": "Restore-PVFile"
+            },
+            {
+              "name": "Lock-PVFile"
+            },
+            {
+              "name": "Unlock-PVFile"
+            },
+            {
+              "name": "Move-PVFile"
+            },
+            {
+              "name": "Find-PVFile"
+            },
+            {
+              "name": "Reset-PVFile"
+            }
+          ]
+        },
+        {
+          "name": "PVPasswordObject",
+          "children": [
+            {
+              "name": "Add-PVPasswordObject"
+            },
+            {
+              "name": "Get-PVPasswordObject"
+            }
+          ]
+        },
+        {
+          "name": "PVFileList",
+          "children": [
+            {
+              "name": "Get-PVFileList"
+            }
+          ]
+        },
+        {
+          "name": "PVFileVersionList",
+          "children": [
+            {
+              "name": "Get-PVFileVersionList"
+            }
+          ]
+        },
+        {
+          "name": "PVFileActivity",
+          "children": [
+            {
+              "name": "Get-PVFileActivity"
+            }
+          ]
+        },
+        {
+          "name": "PVFileCategory",
+          "children": [
+            {
+              "name": "Add-PVFileCategory"
+            },
+            {
+              "name": "Set-PVFileCategory"
+            },
+            {
+              "name": "Remove-PVFileCategory"
+            },
+            {
+              "name": "Get-PVFileCategory"
+            }
+          ]
+        },
+        {
+          "name": "PVObjectValidation",
+          "children": [
+            {
+              "name": "Set-PVObjectValidation"
+            }
+          ]
+        },
+        {
+          "name": "PVRule",
+          "children": [
+            {
+              "name": "Add-PVRule"
+            },
+            {
+              "name": "Remove-PVRule"
+            },
+            {
+              "name": "Get-PVRule"
+            }
+          ]
+        },
+        {
+          "name": "PVRequest",
+          "children": [
+            {
+              "name": "Get-PVRequest"
+            },
+            {
+              "name": "Remove-PVRequest"
+            }
+          ]
+        },
+        {
+          "name": "PVRequestStatus",
+          "children": [
+            {
+              "name": "Set-PVRequestStatus"
+            },
+            {
+              "name": "Get-PVRequestStatus"
+            }
+          ]
+        },
+        {
+          "name": "PVPassword",
+          "children": [
+            {
+              "name": "New-PVPassword"
+            }
+          ]
+        },
+        {
+          "name": "PVCTL",
+          "children": [
+            {
+              "name": "Get-PVCTL"
+            }
+          ]
+        },
+        {
+          "name": "PVCTLCertificate",
+          "children": [
+            {
+              "name": "Add-PVCTLCertificate"
+            },
+            {
+              "name": "Remove-PVCTLCertificate"
+            },
+            {
+              "name": "Get-PVCTLCertificate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

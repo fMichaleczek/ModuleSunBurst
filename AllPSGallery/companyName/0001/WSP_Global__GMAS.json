@@ -1,0 +1,120 @@
+{
+  "name": "WSP Global  GMAS",
+  "children": [
+    {
+      "name": "MAD",
+      "companyName": "WSP Global  GMAS",
+      "author": "Martin Thomas",
+      "children": [
+        {
+          "name": "MADDEviceLastJob",
+          "children": [
+            {
+              "name": "Get-MADDEviceLastJob"
+            }
+          ]
+        },
+        {
+          "name": "MADDisplayedDevices",
+          "children": [
+            {
+              "name": "Get-MADDisplayedDevices"
+            }
+          ]
+        },
+        {
+          "name": "MADWaves",
+          "children": [
+            {
+              "name": "Get-MADWaves"
+            }
+          ]
+        },
+        {
+          "name": "MADActions",
+          "children": [
+            {
+              "name": "Get-MADActions"
+            }
+          ]
+        },
+        {
+          "name": "MADActionsDetails",
+          "children": [
+            {
+              "name": "Get-MADActionsDetails"
+            }
+          ]
+        },
+        {
+          "name": "MADDeviceHeaders",
+          "children": [
+            {
+              "name": "Get-MADDeviceHeaders"
+            }
+          ]
+        },
+        {
+          "name": "MAD",
+          "children": [
+            {
+              "name": "Connect-MAD"
+            },
+            {
+              "name": "Disconnect-MAD"
+            }
+          ]
+        },
+        {
+          "name": "MADClient",
+          "children": [
+            {
+              "name": "Select-MADClient"
+            }
+          ]
+        },
+        {
+          "name": "MADDeviceInfo",
+          "children": [
+            {
+              "name": "Get-MADDeviceInfo"
+            }
+          ]
+        },
+        {
+          "name": "MADDeviceAction",
+          "children": [
+            {
+              "name": "Initialize-MADDeviceAction"
+            }
+          ]
+        },
+        {
+          "name": "MADDevice",
+          "children": [
+            {
+              "name": "Search-MADDevice"
+            },
+            {
+              "name": "Select-MADDevice"
+            }
+          ]
+        },
+        {
+          "name": "MADAction",
+          "children": [
+            {
+              "name": "Select-MADAction"
+            },
+            {
+              "name": "Enter-MADAction"
+            },
+            {
+              "name": "Set-MADAction"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

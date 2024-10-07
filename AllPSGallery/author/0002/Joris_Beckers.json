@@ -1,0 +1,91 @@
+{
+  "name": "Joris Beckers",
+  "children": [
+    {
+      "name": "PrometheusExporter",
+      "companyName": "Unknown",
+      "author": "Joris Beckers",
+      "children": [
+        {
+          "name": "MetricDescriptor",
+          "children": [
+            {
+              "name": "New-MetricDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "PrometheusExporter",
+          "children": [
+            {
+              "name": "New-PrometheusExporter"
+            }
+          ]
+        },
+        {
+          "name": "Collector",
+          "children": [
+            {
+              "name": "Register-Collector"
+            }
+          ]
+        },
+        {
+          "name": "Metric",
+          "children": [
+            {
+              "name": "New-Metric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PrometheusExporter_Fork",
+      "companyName": "Unknown",
+      "author": "Joris Beckers",
+      "children": [
+        {
+          "name": "LogMessage",
+          "children": [
+            {
+              "name": "New-LogMessage"
+            }
+          ]
+        },
+        {
+          "name": "MetricDescriptor",
+          "children": [
+            {
+              "name": "New-MetricDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "PrometheusExporter",
+          "children": [
+            {
+              "name": "New-PrometheusExporter"
+            }
+          ]
+        },
+        {
+          "name": "Collector",
+          "children": [
+            {
+              "name": "Register-Collector"
+            }
+          ]
+        },
+        {
+          "name": "Metric",
+          "children": [
+            {
+              "name": "New-Metric"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

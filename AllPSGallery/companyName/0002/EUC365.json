@@ -1,0 +1,147 @@
+{
+  "name": "EUC365",
+  "children": [
+    {
+      "name": "Connect-AzAD_Token",
+      "companyName": "EUC365",
+      "author": "David Brook",
+      "children": [
+        {
+          "name": "AzAD",
+          "children": [
+            {
+              "name": "Connect-AzAD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Driver.Firmware.Servicing",
+      "companyName": "EUC365",
+      "author": "David Brook",
+      "children": [
+        {
+          "name": "DeploymentAudienceMember",
+          "children": [
+            {
+              "name": "Add-DeploymentAudienceMember"
+            },
+            {
+              "name": "Get-DeploymentAudienceMember"
+            },
+            {
+              "name": "Remove-DeploymentAudienceMember"
+            }
+          ]
+        },
+        {
+          "name": "DriverUpdateApproval",
+          "children": [
+            {
+              "name": "Add-DriverUpdateApproval"
+            },
+            {
+              "name": "Revoke-DriverUpdateApproval"
+            }
+          ]
+        },
+        {
+          "name": "DeploymentAudience",
+          "children": [
+            {
+              "name": "Get-DeploymentAudience"
+            },
+            {
+              "name": "New-DeploymentAudience"
+            },
+            {
+              "name": "Remove-DeploymentAudience"
+            }
+          ]
+        },
+        {
+          "name": "DriverUpdatePolicy",
+          "children": [
+            {
+              "name": "Get-DriverUpdatePolicy"
+            },
+            {
+              "name": "New-DriverUpdatePolicy"
+            },
+            {
+              "name": "Remove-DriverUpdatePolicy"
+            }
+          ]
+        },
+        {
+          "name": "DriverUpdatePolicyApplicableContent",
+          "children": [
+            {
+              "name": "Get-DriverUpdatePolicyApplicableContent"
+            }
+          ]
+        },
+        {
+          "name": "DriverUpdatePolicyComplianceChange",
+          "children": [
+            {
+              "name": "Get-DriverUpdatePolicyComplianceChange"
+            }
+          ]
+        },
+        {
+          "name": "IntuneDriverUpdatePolicy",
+          "children": [
+            {
+              "name": "Get-IntuneDriverUpdatePolicy"
+            },
+            {
+              "name": "New-IntuneDriverUpdatePolicy"
+            }
+          ]
+        },
+        {
+          "name": "IntuneDriverUpdatePolicyAssignments",
+          "children": [
+            {
+              "name": "Get-IntuneDriverUpdatePolicyAssignments"
+            }
+          ]
+        },
+        {
+          "name": "UpdatableAsset",
+          "children": [
+            {
+              "name": "Get-UpdatableAsset"
+            }
+          ]
+        },
+        {
+          "name": "IntuneDriverUpdatePolicyAssignment",
+          "children": [
+            {
+              "name": "New-IntuneDriverUpdatePolicyAssignment"
+            }
+          ]
+        },
+        {
+          "name": "EnrollUpdatableAsset",
+          "children": [
+            {
+              "name": "Push-EnrollUpdatableAsset"
+            }
+          ]
+        },
+        {
+          "name": "DriverUpdatePatchDeferral",
+          "children": [
+            {
+              "name": "Update-DriverUpdatePatchDeferral"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

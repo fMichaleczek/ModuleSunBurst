@@ -1,0 +1,107 @@
+{
+  "name": "Trent Willingham",
+  "children": [
+    {
+      "name": "cmlogger",
+      "companyName": "Unknown",
+      "author": "Trent Willingham",
+      "children": [
+        {
+          "name": "CMLogFile",
+          "children": [
+            {
+              "name": "Write-CMLogFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServerManagement",
+      "companyName": "Unknown",
+      "author": "Trent Willingham",
+      "children": [
+        {
+          "name": "SChannelFeature",
+          "children": [
+            {
+              "name": "Disable-SChannelFeature"
+            }
+          ]
+        },
+        {
+          "name": "ComputerDetail",
+          "children": [
+            {
+              "name": "Get-ComputerDetail"
+            }
+          ]
+        },
+        {
+          "name": "ComputerSerialNumber",
+          "children": [
+            {
+              "name": "Get-ComputerSerialNumber"
+            }
+          ]
+        },
+        {
+          "name": "DfsrBacklogStatus",
+          "children": [
+            {
+              "name": "Get-DfsrBacklogStatus"
+            }
+          ]
+        },
+        {
+          "name": "IISLogPath",
+          "children": [
+            {
+              "name": "Get-IISLogPath"
+            }
+          ]
+        },
+        {
+          "name": "LinuxCdpInfo",
+          "children": [
+            {
+              "name": "Get-LinuxCdpInfo"
+            }
+          ]
+        },
+        {
+          "name": "RDSession",
+          "children": [
+            {
+              "name": "Get-RDSession"
+            }
+          ]
+        },
+        {
+          "name": "DiskCleanupTool",
+          "children": [
+            {
+              "name": "Install-DiskCleanupTool"
+            }
+          ]
+        },
+        {
+          "name": "LogRotation",
+          "children": [
+            {
+              "name": "Invoke-LogRotation"
+            }
+          ]
+        },
+        {
+          "name": "LogRotationTask",
+          "children": [
+            {
+              "name": "Register-LogRotationTask"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

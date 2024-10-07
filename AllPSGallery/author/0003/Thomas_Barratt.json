@@ -1,0 +1,89 @@
+{
+  "name": "Thomas Barratt",
+  "children": [
+    {
+      "name": "PSBackup",
+      "companyName": "Unknown",
+      "author": "Thomas Barratt",
+      "children": [
+        {
+          "name": "PSBackup",
+          "children": [
+            {
+              "name": "Get-PSBackup"
+            },
+            {
+              "name": "Invoke-PSBackup"
+            }
+          ]
+        },
+        {
+          "name": "PSBackupFile",
+          "children": [
+            {
+              "name": "Test-PSBackupFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSLocalGallery",
+      "companyName": "Unknown",
+      "author": "Thomas Barratt",
+      "children": [
+        {
+          "name": "PSLocalGallery",
+          "children": [
+            {
+              "name": "Get-PSLocalGallery"
+            },
+            {
+              "name": "New-PSLocalGallery"
+            },
+            {
+              "name": "Register-PSLocalGallery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSNavigation",
+      "companyName": "Unknown",
+      "author": "Thomas Barratt",
+      "children": [
+        {
+          "name": "NavLocation",
+          "children": [
+            {
+              "name": "Add-NavLocation"
+            },
+            {
+              "name": "Get-NavLocation"
+            },
+            {
+              "name": "Remove-NavLocation"
+            }
+          ]
+        },
+        {
+          "name": "GoLocation",
+          "children": [
+            {
+              "name": "Invoke-GoLocation"
+            }
+          ]
+        },
+        {
+          "name": "OpenLocation",
+          "children": [
+            {
+              "name": "Invoke-OpenLocation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1956 @@
+{
+  "name": "horker",
+  "children": [
+    {
+      "name": "HorkerDataQuery",
+      "companyName": "Unknown",
+      "author": "horker",
+      "children": [
+        {
+          "name": "DataQuery",
+          "children": [
+            {
+              "name": "Invoke-DataQuery"
+            }
+          ]
+        },
+        {
+          "name": "DataQueryResult",
+          "children": [
+            {
+              "name": "Get-DataQueryResult"
+            }
+          ]
+        },
+        {
+          "name": "DataTable",
+          "children": [
+            {
+              "name": "Export-DataTable"
+            }
+          ]
+        },
+        {
+          "name": "DataConnection",
+          "children": [
+            {
+              "name": "New-DataConnection"
+            },
+            {
+              "name": "Close-DataConnection"
+            }
+          ]
+        },
+        {
+          "name": "DataConnectionHistory",
+          "children": [
+            {
+              "name": "Get-DataConnectionHistory"
+            }
+          ]
+        },
+        {
+          "name": "DataConnectionString",
+          "children": [
+            {
+              "name": "Register-DataConnectionString"
+            },
+            {
+              "name": "Unregister-DataConnectionString"
+            },
+            {
+              "name": "Get-DataConnectionString"
+            },
+            {
+              "name": "New-DataConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "DbProviderFactory",
+          "children": [
+            {
+              "name": "Register-DbProviderFactory"
+            },
+            {
+              "name": "Unregister-DbProviderFactory"
+            },
+            {
+              "name": "Get-DbProviderFactory"
+            }
+          ]
+        },
+        {
+          "name": "DataConfiguration",
+          "children": [
+            {
+              "name": "Register-DataConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DataSchema",
+          "children": [
+            {
+              "name": "Get-DataSchema"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HorkerTemplateEngine",
+      "companyName": "Unknown",
+      "author": "horker",
+      "children": [
+        {
+          "name": "TemplateEngine",
+          "children": [
+            {
+              "name": "Invoke-TemplateEngine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "import-csv2",
+      "companyName": "horker",
+      "author": "horker",
+      "children": [
+        {
+          "name": "Csv2",
+          "children": [
+            {
+              "name": "Import-Csv2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oxyplotcli",
+      "companyName": "horker",
+      "author": "horker",
+      "children": [
+        {
+          "name": "OxyAxisShare",
+          "children": [
+            {
+              "name": "Add-OxyAxisShare"
+            }
+          ]
+        },
+        {
+          "name": "OxyStyle",
+          "children": [
+            {
+              "name": "Add-OxyStyle"
+            },
+            {
+              "name": "Get-OxyStyle"
+            },
+            {
+              "name": "Remove-OxyStyle"
+            }
+          ]
+        },
+        {
+          "name": "OxyColorScheme",
+          "children": [
+            {
+              "name": "Get-OxyColorScheme"
+            }
+          ]
+        },
+        {
+          "name": "OxyDefaultStyle",
+          "children": [
+            {
+              "name": "Get-OxyDefaultStyle"
+            },
+            {
+              "name": "Set-OxyDefaultStyle"
+            }
+          ]
+        },
+        {
+          "name": "OxyPalette",
+          "children": [
+            {
+              "name": "Get-OxyPalette"
+            }
+          ]
+        },
+        {
+          "name": "OxyAngleAxis",
+          "children": [
+            {
+              "name": "New-OxyAngleAxis"
+            }
+          ]
+        },
+        {
+          "name": "OxyAreaSeries",
+          "children": [
+            {
+              "name": "New-OxyAreaSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyArrowAnnotation",
+          "children": [
+            {
+              "name": "New-OxyArrowAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OxyBarSeries",
+          "children": [
+            {
+              "name": "New-OxyBarSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyBoxPlotSeries",
+          "children": [
+            {
+              "name": "New-OxyBoxPlotSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyCandleStickAndVolumeSeries",
+          "children": [
+            {
+              "name": "New-OxyCandleStickAndVolumeSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyCandleStickSeries",
+          "children": [
+            {
+              "name": "New-OxyCandleStickSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyCategoryAxis",
+          "children": [
+            {
+              "name": "New-OxyCategoryAxis"
+            }
+          ]
+        },
+        {
+          "name": "OxyCategoryColorAxis",
+          "children": [
+            {
+              "name": "New-OxyCategoryColorAxis"
+            }
+          ]
+        },
+        {
+          "name": "OxyColumnSeries",
+          "children": [
+            {
+              "name": "New-OxyColumnSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyContourSeries",
+          "children": [
+            {
+              "name": "New-OxyContourSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyDateTimeAxis",
+          "children": [
+            {
+              "name": "New-OxyDateTimeAxis"
+            }
+          ]
+        },
+        {
+          "name": "OxyEllipseAnnotation",
+          "children": [
+            {
+              "name": "New-OxyEllipseAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OxyErrorColumnSeries",
+          "children": [
+            {
+              "name": "New-OxyErrorColumnSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyFunctionAnnotation",
+          "children": [
+            {
+              "name": "New-OxyFunctionAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OxyFunctionSeries",
+          "children": [
+            {
+              "name": "New-OxyFunctionSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyGridView",
+          "children": [
+            {
+              "name": "New-OxyGridView"
+            }
+          ]
+        },
+        {
+          "name": "OxyHeatMapSeries",
+          "children": [
+            {
+              "name": "New-OxyHeatMapSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyHighLowSeries",
+          "children": [
+            {
+              "name": "New-OxyHighLowSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyHistogramSeries",
+          "children": [
+            {
+              "name": "New-OxyHistogramSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyHistogramSeries2",
+          "children": [
+            {
+              "name": "New-OxyHistogramSeries2"
+            }
+          ]
+        },
+        {
+          "name": "OxyImageAnnotation",
+          "children": [
+            {
+              "name": "New-OxyImageAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OxyIntervalBarSeries",
+          "children": [
+            {
+              "name": "New-OxyIntervalBarSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyLineAnnotation",
+          "children": [
+            {
+              "name": "New-OxyLineAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OxyLinearAxis",
+          "children": [
+            {
+              "name": "New-OxyLinearAxis"
+            }
+          ]
+        },
+        {
+          "name": "OxyLinearBarSeries",
+          "children": [
+            {
+              "name": "New-OxyLinearBarSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyLinearColorAxis",
+          "children": [
+            {
+              "name": "New-OxyLinearColorAxis"
+            }
+          ]
+        },
+        {
+          "name": "OxyLineSeries",
+          "children": [
+            {
+              "name": "New-OxyLineSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyLogarithmicAxis",
+          "children": [
+            {
+              "name": "New-OxyLogarithmicAxis"
+            }
+          ]
+        },
+        {
+          "name": "OxyMagnitudeAxis",
+          "children": [
+            {
+              "name": "New-OxyMagnitudeAxis"
+            }
+          ]
+        },
+        {
+          "name": "OxyPieSeries",
+          "children": [
+            {
+              "name": "New-OxyPieSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyPlotModel",
+          "children": [
+            {
+              "name": "New-OxyPlotModel"
+            }
+          ]
+        },
+        {
+          "name": "OxyPointAnnotation",
+          "children": [
+            {
+              "name": "New-OxyPointAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OxyPolygonAnnotation",
+          "children": [
+            {
+              "name": "New-OxyPolygonAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OxyPolylineAnnotation",
+          "children": [
+            {
+              "name": "New-OxyPolylineAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OxyRangeColorAxis",
+          "children": [
+            {
+              "name": "New-OxyRangeColorAxis"
+            }
+          ]
+        },
+        {
+          "name": "OxyRectangleAnnotation",
+          "children": [
+            {
+              "name": "New-OxyRectangleAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OxyRectangleBarSeries",
+          "children": [
+            {
+              "name": "New-OxyRectangleBarSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyRectangleSeries",
+          "children": [
+            {
+              "name": "New-OxyRectangleSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyScatterErrorSeries",
+          "children": [
+            {
+              "name": "New-OxyScatterErrorSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyScatterSeries",
+          "children": [
+            {
+              "name": "New-OxyScatterSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyStairStepSeries",
+          "children": [
+            {
+              "name": "New-OxyStairStepSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyStemSeries",
+          "children": [
+            {
+              "name": "New-OxyStemSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyTextAnnotation",
+          "children": [
+            {
+              "name": "New-OxyTextAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "OxyThreeColorLineSeries",
+          "children": [
+            {
+              "name": "New-OxyThreeColorLineSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyTimeSpanAxis",
+          "children": [
+            {
+              "name": "New-OxyTimeSpanAxis"
+            }
+          ]
+        },
+        {
+          "name": "OxyTornadoBarSeries",
+          "children": [
+            {
+              "name": "New-OxyTornadoBarSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyTwoColorAreaSeries",
+          "children": [
+            {
+              "name": "New-OxyTwoColorAreaSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyTwoColorLineSeries",
+          "children": [
+            {
+              "name": "New-OxyTwoColorLineSeries"
+            }
+          ]
+        },
+        {
+          "name": "OxyVolumeSeries",
+          "children": [
+            {
+              "name": "New-OxyVolumeSeries"
+            }
+          ]
+        },
+        {
+          "name": "WpfWindow",
+          "children": [
+            {
+              "name": "Close-WpfWindow"
+            },
+            {
+              "name": "New-WpfWindow"
+            }
+          ]
+        },
+        {
+          "name": "WpfWindowList",
+          "children": [
+            {
+              "name": "Get-WpfWindowList"
+            }
+          ]
+        },
+        {
+          "name": "WpfWindowAction",
+          "children": [
+            {
+              "name": "Invoke-WpfWindowAction"
+            }
+          ]
+        },
+        {
+          "name": "WpfWindowClosed",
+          "children": [
+            {
+              "name": "Test-WpfWindowClosed"
+            }
+          ]
+        },
+        {
+          "name": "OxyPlotViewDispatcher",
+          "children": [
+            {
+              "name": "Get-OxyPlotViewDispatcher"
+            },
+            {
+              "name": "Set-OxyPlotViewDispatcher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProxyCommand",
+      "companyName": "Unknown",
+      "author": "horker",
+      "children": [
+        {
+          "name": "ProxyCommand",
+          "children": [
+            {
+              "name": "New-ProxyCommand"
+            },
+            {
+              "name": "Show-ProxyCommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psmath",
+      "companyName": "Unknown",
+      "author": "horker",
+      "children": [
+        {
+          "name": "Math.Slice",
+          "children": [
+            {
+              "name": "Get-Math.Slice"
+            }
+          ]
+        },
+        {
+          "name": "Math.Matrix",
+          "children": [
+            {
+              "name": "New-Math.Matrix"
+            }
+          ]
+        },
+        {
+          "name": "Math.Double",
+          "children": [
+            {
+              "name": "ConvertTo-Math.Double"
+            }
+          ]
+        },
+        {
+          "name": "Math.DateTime",
+          "children": [
+            {
+              "name": "ConvertTo-Math.DateTime"
+            }
+          ]
+        },
+        {
+          "name": "Math.DateTimeOffset",
+          "children": [
+            {
+              "name": "ConvertTo-Math.DateTimeOffset"
+            }
+          ]
+        },
+        {
+          "name": "Math.UnixTime",
+          "children": [
+            {
+              "name": "ConvertTo-Math.UnixTime"
+            },
+            {
+              "name": "ConvertFrom-Math.UnixTime"
+            }
+          ]
+        },
+        {
+          "name": "BernoulliDistribution",
+          "children": [
+            {
+              "name": "New-BernoulliDistribution"
+            }
+          ]
+        },
+        {
+          "name": "BetaDistribution",
+          "children": [
+            {
+              "name": "New-BetaDistribution"
+            }
+          ]
+        },
+        {
+          "name": "BinomialDistribution",
+          "children": [
+            {
+              "name": "New-BinomialDistribution"
+            }
+          ]
+        },
+        {
+          "name": "CauchyDistribution",
+          "children": [
+            {
+              "name": "New-CauchyDistribution"
+            }
+          ]
+        },
+        {
+          "name": "ChiSquareDistribution",
+          "children": [
+            {
+              "name": "New-ChiSquareDistribution"
+            }
+          ]
+        },
+        {
+          "name": "EmpiricalDistribution",
+          "children": [
+            {
+              "name": "New-EmpiricalDistribution"
+            }
+          ]
+        },
+        {
+          "name": "ExponentialDistribution",
+          "children": [
+            {
+              "name": "New-ExponentialDistribution"
+            }
+          ]
+        },
+        {
+          "name": "FDistribution",
+          "children": [
+            {
+              "name": "New-FDistribution"
+            }
+          ]
+        },
+        {
+          "name": "GammaDistribution",
+          "children": [
+            {
+              "name": "New-GammaDistribution"
+            }
+          ]
+        },
+        {
+          "name": "GeometricDistribution",
+          "children": [
+            {
+              "name": "New-GeometricDistribution"
+            }
+          ]
+        },
+        {
+          "name": "HypergeometricDistribution",
+          "children": [
+            {
+              "name": "New-HypergeometricDistribution"
+            }
+          ]
+        },
+        {
+          "name": "LogisticDistribution",
+          "children": [
+            {
+              "name": "New-LogisticDistribution"
+            }
+          ]
+        },
+        {
+          "name": "LognormalDistribution",
+          "children": [
+            {
+              "name": "New-LognormalDistribution"
+            }
+          ]
+        },
+        {
+          "name": "NegativeBinomialDistribution",
+          "children": [
+            {
+              "name": "New-NegativeBinomialDistribution"
+            }
+          ]
+        },
+        {
+          "name": "NormalDistribution",
+          "children": [
+            {
+              "name": "New-NormalDistribution"
+            }
+          ]
+        },
+        {
+          "name": "PoisonDistribution",
+          "children": [
+            {
+              "name": "New-PoisonDistribution"
+            }
+          ]
+        },
+        {
+          "name": "TDistribution",
+          "children": [
+            {
+              "name": "New-TDistribution"
+            }
+          ]
+        },
+        {
+          "name": "UniformContinuousDistribution",
+          "children": [
+            {
+              "name": "New-UniformContinuousDistribution"
+            }
+          ]
+        },
+        {
+          "name": "UniformDiscreteDistribution",
+          "children": [
+            {
+              "name": "New-UniformDiscreteDistribution"
+            }
+          ]
+        },
+        {
+          "name": "WeibullDistribution",
+          "children": [
+            {
+              "name": "New-WeibullDistribution"
+            }
+          ]
+        },
+        {
+          "name": "DescriptiveAnalysis",
+          "children": [
+            {
+              "name": "Invoke-DescriptiveAnalysis"
+            }
+          ]
+        },
+        {
+          "name": "Matrix.Identity",
+          "children": [
+            {
+              "name": "New-Matrix.Identity"
+            }
+          ]
+        },
+        {
+          "name": "Matrix.Magic",
+          "children": [
+            {
+              "name": "New-Matrix.Magic"
+            }
+          ]
+        },
+        {
+          "name": "Matrix.Mesh",
+          "children": [
+            {
+              "name": "New-Matrix.Mesh"
+            }
+          ]
+        },
+        {
+          "name": "Matrix.MeshGrid",
+          "children": [
+            {
+              "name": "New-Matrix.MeshGrid"
+            }
+          ]
+        },
+        {
+          "name": "Matrix.OneHot",
+          "children": [
+            {
+              "name": "New-Matrix.OneHot"
+            }
+          ]
+        },
+        {
+          "name": "Matrix.Diagonal",
+          "children": [
+            {
+              "name": "New-Matrix.Diagonal"
+            }
+          ]
+        },
+        {
+          "name": "Matrix.Zeros",
+          "children": [
+            {
+              "name": "New-Matrix.Zeros"
+            }
+          ]
+        },
+        {
+          "name": "Matrix.TruthTable",
+          "children": [
+            {
+              "name": "New-Matrix.TruthTable"
+            }
+          ]
+        },
+        {
+          "name": "Matrix.Object",
+          "children": [
+            {
+              "name": "ConvertFrom-Matrix.Object"
+            }
+          ]
+        },
+        {
+          "name": "Math.RandomSeed",
+          "children": [
+            {
+              "name": "Get-Math.RandomSeed"
+            },
+            {
+              "name": "Set-Math.RandomSeed"
+            }
+          ]
+        },
+        {
+          "name": "Math.Random",
+          "children": [
+            {
+              "name": "Get-Math.Random"
+            }
+          ]
+        },
+        {
+          "name": "Math.Abs",
+          "children": [
+            {
+              "name": "Get-Math.Abs"
+            }
+          ]
+        },
+        {
+          "name": "Math.Acos",
+          "children": [
+            {
+              "name": "Get-Math.Acos"
+            }
+          ]
+        },
+        {
+          "name": "Math.Asin",
+          "children": [
+            {
+              "name": "Get-Math.Asin"
+            }
+          ]
+        },
+        {
+          "name": "Math.Atan",
+          "children": [
+            {
+              "name": "Get-Math.Atan"
+            }
+          ]
+        },
+        {
+          "name": "Math.Atan2",
+          "children": [
+            {
+              "name": "Get-Math.Atan2"
+            }
+          ]
+        },
+        {
+          "name": "Math.Cos",
+          "children": [
+            {
+              "name": "Get-Math.Cos"
+            }
+          ]
+        },
+        {
+          "name": "Math.Cosh",
+          "children": [
+            {
+              "name": "Get-Math.Cosh"
+            }
+          ]
+        },
+        {
+          "name": "Math.Ceiling",
+          "children": [
+            {
+              "name": "Get-Math.Ceiling"
+            }
+          ]
+        },
+        {
+          "name": "Math.DivRem",
+          "children": [
+            {
+              "name": "Get-Math.DivRem"
+            }
+          ]
+        },
+        {
+          "name": "Math.Exp",
+          "children": [
+            {
+              "name": "Get-Math.Exp"
+            }
+          ]
+        },
+        {
+          "name": "Math.Floor",
+          "children": [
+            {
+              "name": "Get-Math.Floor"
+            }
+          ]
+        },
+        {
+          "name": "Math.IEEERemainder",
+          "children": [
+            {
+              "name": "Get-Math.IEEERemainder"
+            }
+          ]
+        },
+        {
+          "name": "Math.Log",
+          "children": [
+            {
+              "name": "Get-Math.Log"
+            }
+          ]
+        },
+        {
+          "name": "Math.Log10",
+          "children": [
+            {
+              "name": "Get-Math.Log10"
+            }
+          ]
+        },
+        {
+          "name": "Math.Pow",
+          "children": [
+            {
+              "name": "Get-Math.Pow"
+            }
+          ]
+        },
+        {
+          "name": "Math.Round",
+          "children": [
+            {
+              "name": "Get-Math.Round"
+            }
+          ]
+        },
+        {
+          "name": "Math.Sigmoid",
+          "children": [
+            {
+              "name": "Get-Math.Sigmoid"
+            }
+          ]
+        },
+        {
+          "name": "Math.Sign",
+          "children": [
+            {
+              "name": "Get-Math.Sign"
+            }
+          ]
+        },
+        {
+          "name": "Math.Sin",
+          "children": [
+            {
+              "name": "Get-Math.Sin"
+            }
+          ]
+        },
+        {
+          "name": "Math.Sinh",
+          "children": [
+            {
+              "name": "Get-Math.Sinh"
+            }
+          ]
+        },
+        {
+          "name": "Math.Sqrt",
+          "children": [
+            {
+              "name": "Get-Math.Sqrt"
+            }
+          ]
+        },
+        {
+          "name": "Math.Tan",
+          "children": [
+            {
+              "name": "Get-Math.Tan"
+            }
+          ]
+        },
+        {
+          "name": "Math.Tanh",
+          "children": [
+            {
+              "name": "Get-Math.Tanh"
+            }
+          ]
+        },
+        {
+          "name": "Math.Truncate",
+          "children": [
+            {
+              "name": "Get-Math.Truncate"
+            }
+          ]
+        },
+        {
+          "name": "Math.E",
+          "children": [
+            {
+              "name": "Get-Math.E"
+            }
+          ]
+        },
+        {
+          "name": "Math.PI",
+          "children": [
+            {
+              "name": "Get-Math.PI"
+            }
+          ]
+        },
+        {
+          "name": "Math.Binomial",
+          "children": [
+            {
+              "name": "Get-Math.Binomial"
+            }
+          ]
+        },
+        {
+          "name": "Math.Factorial",
+          "children": [
+            {
+              "name": "Get-Math.Factorial"
+            }
+          ]
+        },
+        {
+          "name": "Math.Softmax",
+          "children": [
+            {
+              "name": "Get-Math.Softmax"
+            }
+          ]
+        },
+        {
+          "name": "Math.ContraHarmonicMean",
+          "children": [
+            {
+              "name": "Get-Math.ContraHarmonicMean"
+            }
+          ]
+        },
+        {
+          "name": "Math.CumulativeSum",
+          "children": [
+            {
+              "name": "Get-Math.CumulativeSum"
+            }
+          ]
+        },
+        {
+          "name": "Math.Entropy",
+          "children": [
+            {
+              "name": "Get-Math.Entropy"
+            }
+          ]
+        },
+        {
+          "name": "Math.ExponetialWeightedMean",
+          "children": [
+            {
+              "name": "Get-Math.ExponetialWeightedMean"
+            }
+          ]
+        },
+        {
+          "name": "Math.ExponetialWeightedVariance",
+          "children": [
+            {
+              "name": "Get-Math.ExponetialWeightedVariance"
+            }
+          ]
+        },
+        {
+          "name": "Math.Difference",
+          "children": [
+            {
+              "name": "Get-Math.Difference"
+            }
+          ]
+        },
+        {
+          "name": "Math.Histogram",
+          "children": [
+            {
+              "name": "Get-Math.Histogram"
+            }
+          ]
+        },
+        {
+          "name": "Math.GeometricMean",
+          "children": [
+            {
+              "name": "Get-Math.GeometricMean"
+            }
+          ]
+        },
+        {
+          "name": "Math.Kurtosis",
+          "children": [
+            {
+              "name": "Get-Math.Kurtosis"
+            }
+          ]
+        },
+        {
+          "name": "Math.LogGeometricMean",
+          "children": [
+            {
+              "name": "Get-Math.LogGeometricMean"
+            }
+          ]
+        },
+        {
+          "name": "Math.LowerQuartile",
+          "children": [
+            {
+              "name": "Get-Math.LowerQuartile"
+            }
+          ]
+        },
+        {
+          "name": "Math.Max",
+          "children": [
+            {
+              "name": "Get-Math.Max"
+            }
+          ]
+        },
+        {
+          "name": "Math.Mean",
+          "children": [
+            {
+              "name": "Get-Math.Mean"
+            }
+          ]
+        },
+        {
+          "name": "Math.Median",
+          "children": [
+            {
+              "name": "Get-Math.Median"
+            }
+          ]
+        },
+        {
+          "name": "Math.Min",
+          "children": [
+            {
+              "name": "Get-Math.Min"
+            }
+          ]
+        },
+        {
+          "name": "Math.Mode",
+          "children": [
+            {
+              "name": "Get-Math.Mode"
+            }
+          ]
+        },
+        {
+          "name": "Math.MovingMax",
+          "children": [
+            {
+              "name": "Get-Math.MovingMax"
+            }
+          ]
+        },
+        {
+          "name": "Math.MovingMean",
+          "children": [
+            {
+              "name": "Get-Math.MovingMean"
+            }
+          ]
+        },
+        {
+          "name": "Math.MovingMin",
+          "children": [
+            {
+              "name": "Get-Math.MovingMin"
+            }
+          ]
+        },
+        {
+          "name": "Math.MovingStandardDeviation",
+          "children": [
+            {
+              "name": "Get-Math.MovingStandardDeviation"
+            }
+          ]
+        },
+        {
+          "name": "Math.MovingSum",
+          "children": [
+            {
+              "name": "Get-Math.MovingSum"
+            }
+          ]
+        },
+        {
+          "name": "Math.MovingVariance",
+          "children": [
+            {
+              "name": "Get-Math.MovingVariance"
+            }
+          ]
+        },
+        {
+          "name": "Math.Quantile",
+          "children": [
+            {
+              "name": "Get-Math.Quantile"
+            }
+          ]
+        },
+        {
+          "name": "Math.Scale",
+          "children": [
+            {
+              "name": "Get-Math.Scale"
+            }
+          ]
+        },
+        {
+          "name": "Math.Skewness",
+          "children": [
+            {
+              "name": "Get-Math.Skewness"
+            }
+          ]
+        },
+        {
+          "name": "Math.StandardDeviation",
+          "children": [
+            {
+              "name": "Get-Math.StandardDeviation"
+            }
+          ]
+        },
+        {
+          "name": "Math.StandardError",
+          "children": [
+            {
+              "name": "Get-Math.StandardError"
+            }
+          ]
+        },
+        {
+          "name": "Math.Sum",
+          "children": [
+            {
+              "name": "Get-Math.Sum"
+            }
+          ]
+        },
+        {
+          "name": "Math.Summary",
+          "children": [
+            {
+              "name": "Get-Math.Summary"
+            }
+          ]
+        },
+        {
+          "name": "Math.TruncatedMean",
+          "children": [
+            {
+              "name": "Get-Math.TruncatedMean"
+            }
+          ]
+        },
+        {
+          "name": "Math.UpperQuartile",
+          "children": [
+            {
+              "name": "Get-Math.UpperQuartile"
+            }
+          ]
+        },
+        {
+          "name": "Math.Variance",
+          "children": [
+            {
+              "name": "Get-Math.Variance"
+            }
+          ]
+        },
+        {
+          "name": "Math.ArgMax",
+          "children": [
+            {
+              "name": "Get-Math.ArgMax"
+            }
+          ]
+        },
+        {
+          "name": "Math.ArgMin",
+          "children": [
+            {
+              "name": "Get-Math.ArgMin"
+            }
+          ]
+        },
+        {
+          "name": "Math.ArgSort",
+          "children": [
+            {
+              "name": "Get-Math.ArgSort"
+            }
+          ]
+        },
+        {
+          "name": "Math.Distinct",
+          "children": [
+            {
+              "name": "Get-Math.Distinct"
+            }
+          ]
+        },
+        {
+          "name": "Math.DistinctCount",
+          "children": [
+            {
+              "name": "Get-Math.DistinctCount"
+            }
+          ]
+        },
+        {
+          "name": "Math.Sorted",
+          "children": [
+            {
+              "name": "Test-Math.Sorted"
+            }
+          ]
+        },
+        {
+          "name": "Math.Normalize",
+          "children": [
+            {
+              "name": "Get-Math.Normalize"
+            }
+          ]
+        },
+        {
+          "name": "Math.Reverse",
+          "children": [
+            {
+              "name": "Get-Math.Reverse"
+            }
+          ]
+        },
+        {
+          "name": "Math.Center",
+          "children": [
+            {
+              "name": "Get-Math.Center"
+            }
+          ]
+        },
+        {
+          "name": "Math.Rank",
+          "children": [
+            {
+              "name": "Get-Math.Rank"
+            }
+          ]
+        },
+        {
+          "name": "Math.Standardize",
+          "children": [
+            {
+              "name": "Get-Math.Standardize"
+            }
+          ]
+        },
+        {
+          "name": "Math.Ties",
+          "children": [
+            {
+              "name": "Get-Math.Ties"
+            }
+          ]
+        },
+        {
+          "name": "Math.ZScore",
+          "children": [
+            {
+              "name": "Get-Math.ZScore"
+            }
+          ]
+        },
+        {
+          "name": "Math.KalmanFilter2D",
+          "children": [
+            {
+              "name": "Get-Math.KalmanFilter2D"
+            }
+          ]
+        },
+        {
+          "name": "GeneralizedLinearRegression",
+          "children": [
+            {
+              "name": "Invoke-GeneralizedLinearRegression"
+            }
+          ]
+        },
+        {
+          "name": "LinearRegression",
+          "children": [
+            {
+              "name": "Invoke-LinearRegression"
+            }
+          ]
+        },
+        {
+          "name": "Math.Sequence",
+          "children": [
+            {
+              "name": "New-Math.Sequence"
+            }
+          ]
+        },
+        {
+          "name": "Math.SequenceInLinearSpace",
+          "children": [
+            {
+              "name": "New-Math.SequenceInLinearSpace"
+            }
+          ]
+        },
+        {
+          "name": "Math.SequenceWithValues",
+          "children": [
+            {
+              "name": "New-Math.SequenceWithValues"
+            }
+          ]
+        },
+        {
+          "name": "Math.ZeroSequence",
+          "children": [
+            {
+              "name": "New-Math.ZeroSequence"
+            }
+          ]
+        },
+        {
+          "name": "LogisticRegression",
+          "children": [
+            {
+              "name": "Invoke-LogisticRegression"
+            }
+          ]
+        },
+        {
+          "name": "StepwiseLogisticRegression",
+          "children": [
+            {
+              "name": "Invoke-StepwiseLogisticRegression"
+            }
+          ]
+        },
+        {
+          "name": "BinomialTest",
+          "children": [
+            {
+              "name": "Invoke-BinomialTest"
+            }
+          ]
+        },
+        {
+          "name": "ChiSquareTest",
+          "children": [
+            {
+              "name": "Invoke-ChiSquareTest"
+            }
+          ]
+        },
+        {
+          "name": "FisherExactTest",
+          "children": [
+            {
+              "name": "Invoke-FisherExactTest"
+            }
+          ]
+        },
+        {
+          "name": "KolmogorovSmirnovTest",
+          "children": [
+            {
+              "name": "Invoke-KolmogorovSmirnovTest"
+            }
+          ]
+        },
+        {
+          "name": "LeveneTest",
+          "children": [
+            {
+              "name": "Invoke-LeveneTest"
+            }
+          ]
+        },
+        {
+          "name": "MannWhitneyWilcoxonTest",
+          "children": [
+            {
+              "name": "Invoke-MannWhitneyWilcoxonTest"
+            }
+          ]
+        },
+        {
+          "name": "OneWayAnova",
+          "children": [
+            {
+              "name": "Invoke-OneWayAnova"
+            }
+          ]
+        },
+        {
+          "name": "ShapiroWilkTest",
+          "children": [
+            {
+              "name": "Invoke-ShapiroWilkTest"
+            }
+          ]
+        },
+        {
+          "name": "SignTest",
+          "children": [
+            {
+              "name": "Invoke-SignTest"
+            }
+          ]
+        },
+        {
+          "name": "TTest",
+          "children": [
+            {
+              "name": "Invoke-TTest"
+            }
+          ]
+        },
+        {
+          "name": "TwoSampleKolmogorovSmirnovTest",
+          "children": [
+            {
+              "name": "Invoke-TwoSampleKolmogorovSmirnovTest"
+            }
+          ]
+        },
+        {
+          "name": "TwoSampleSignTest",
+          "children": [
+            {
+              "name": "Invoke-TwoSampleSignTest"
+            }
+          ]
+        },
+        {
+          "name": "TwoSampleTTest",
+          "children": [
+            {
+              "name": "Invoke-TwoSampleTTest"
+            }
+          ]
+        },
+        {
+          "name": "TwoWayAnova",
+          "children": [
+            {
+              "name": "Invoke-TwoWayAnova"
+            }
+          ]
+        },
+        {
+          "name": "WilcoxonSignedRankTest",
+          "children": [
+            {
+              "name": "Invoke-WilcoxonSignedRankTest"
+            }
+          ]
+        },
+        {
+          "name": "PairedTTest",
+          "children": [
+            {
+              "name": "Invoke-PairedTTest"
+            }
+          ]
+        },
+        {
+          "name": "TwoSampleWilcoxonSignedRankTest",
+          "children": [
+            {
+              "name": "Invoke-TwoSampleWilcoxonSignedRankTest"
+            }
+          ]
+        },
+        {
+          "name": "FTest",
+          "children": [
+            {
+              "name": "Invoke-FTest"
+            }
+          ]
+        },
+        {
+          "name": "PSObject.TruthTable",
+          "children": [
+            {
+              "name": "Get-PSObject.TruthTable"
+            }
+          ]
+        },
+        {
+          "name": "PSObject.TypeInformation",
+          "children": [
+            {
+              "name": "Get-PSObject.TypeInformation"
+            }
+          ]
+        },
+        {
+          "name": "PSObject.Sample",
+          "children": [
+            {
+              "name": "Get-PSObject.Sample"
+            }
+          ]
+        },
+        {
+          "name": "PSObject.Shuffle",
+          "children": [
+            {
+              "name": "Get-PSObject.Shuffle"
+            }
+          ]
+        },
+        {
+          "name": "PSObject.Split",
+          "children": [
+            {
+              "name": "Get-PSObject.Split"
+            }
+          ]
+        },
+        {
+          "name": "PSObject.Summary",
+          "children": [
+            {
+              "name": "Get-PSObject.Summary"
+            }
+          ]
+        },
+        {
+          "name": "PSObject.OneHot",
+          "children": [
+            {
+              "name": "New-PSObject.OneHot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psnotebook",
+      "companyName": "horker",
+      "author": "horker",
+      "children": [
+        {
+          "name": "NotebookWindowDispatcher",
+          "children": [
+            {
+              "name": "Get-NotebookWindowDispatcher"
+            }
+          ]
+        },
+        {
+          "name": "WpfAction",
+          "children": [
+            {
+              "name": "Invoke-WpfAction"
+            }
+          ]
+        },
+        {
+          "name": "WpfGrid",
+          "children": [
+            {
+              "name": "New-WpfGrid"
+            }
+          ]
+        },
+        {
+          "name": "WpfImage",
+          "children": [
+            {
+              "name": "New-WpfImage"
+            }
+          ]
+        },
+        {
+          "name": "NotebookInternal",
+          "children": [
+            {
+              "name": "Out-NotebookInternal"
+            }
+          ]
+        },
+        {
+          "name": "Notebook",
+          "children": [
+            {
+              "name": "Start-Notebook"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psstan",
+      "companyName": "Unknown",
+      "author": "horker",
+      "children": [
+        {
+          "name": "StanData",
+          "children": [
+            {
+              "name": "New-StanData"
+            },
+            {
+              "name": "ConvertTo-StanData"
+            }
+          ]
+        },
+        {
+          "name": "StanExecutable",
+          "children": [
+            {
+              "name": "New-StanExecutable"
+            }
+          ]
+        },
+        {
+          "name": "StanSampling",
+          "children": [
+            {
+              "name": "Start-StanSampling"
+            }
+          ]
+        },
+        {
+          "name": "StanSummary",
+          "children": [
+            {
+              "name": "Get-StanSummary"
+            },
+            {
+              "name": "Show-StanSummary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pswinsearch",
+      "companyName": "Unknown",
+      "author": "horker",
+      "children": [
+        {
+          "name": "WindowsSearchProperty",
+          "children": [
+            {
+              "name": "Get-WindowsSearchProperty"
+            }
+          ]
+        },
+        {
+          "name": "WindowsSearch",
+          "children": [
+            {
+              "name": "Invoke-WindowsSearch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

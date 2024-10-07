@@ -1,0 +1,105 @@
+{
+  "name": "github.com smokedlinq",
+  "children": [
+    {
+      "name": "powershell-az",
+      "companyName": "Unknown",
+      "author": "github.com smokedlinq",
+      "children": [
+        {
+          "name": "AzCommand",
+          "children": [
+            {
+              "name": "Invoke-AzCommand"
+            }
+          ]
+        },
+        {
+          "name": "AzJson",
+          "children": [
+            {
+              "name": "ConvertTo-AzJson"
+            }
+          ]
+        },
+        {
+          "name": "AzUniqueString",
+          "children": [
+            {
+              "name": "Get-AzUniqueString"
+            }
+          ]
+        },
+        {
+          "name": "AzJsonFile",
+          "children": [
+            {
+              "name": "Out-AzJsonFile"
+            }
+          ]
+        },
+        {
+          "name": "AzDeploymentParameters",
+          "children": [
+            {
+              "name": "Out-AzDeploymentParameters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "powershell-devops",
+      "companyName": "Unknown",
+      "author": "github.com smokedlinq",
+      "children": [
+        {
+          "name": "AdoPipeline",
+          "children": [
+            {
+              "name": "Test-AdoPipeline"
+            }
+          ]
+        },
+        {
+          "name": "GitHubWorkflow",
+          "children": [
+            {
+              "name": "Test-GitHubWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentVariable",
+          "children": [
+            {
+              "name": "Set-EnvironmentVariable"
+            },
+            {
+              "name": "Get-EnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "Group",
+          "children": [
+            {
+              "name": "Enter-Group"
+            },
+            {
+              "name": "Exit-Group"
+            }
+          ]
+        },
+        {
+          "name": "Path",
+          "children": [
+            {
+              "name": "Add-Path"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

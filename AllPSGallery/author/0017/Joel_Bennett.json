@@ -1,0 +1,1825 @@
+{
+  "name": "Joel Bennett",
+  "children": [
+    {
+      "name": "Authenticode",
+      "companyName": "Unknown",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "AuthenticodeSignature",
+          "children": [
+            {
+              "name": "Set-AuthenticodeSignature"
+            },
+            {
+              "name": "Get-AuthenticodeSignature"
+            },
+            {
+              "name": "Test-AuthenticodeSignature"
+            }
+          ]
+        },
+        {
+          "name": "AuthenticodeSigned",
+          "children": [
+            {
+              "name": "Select-AuthenticodeSigned"
+            }
+          ]
+        },
+        {
+          "name": "AutoSign",
+          "children": [
+            {
+              "name": "Start-AutoSign"
+            }
+          ]
+        },
+        {
+          "name": "AuthenticodeCertificate",
+          "children": [
+            {
+              "name": "Get-AuthenticodeCertificate"
+            }
+          ]
+        },
+        {
+          "name": "UserCertificate",
+          "children": [
+            {
+              "name": "Get-UserCertificate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autoload",
+      "companyName": "Unknown",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "AutoloadHelp",
+          "children": [
+            {
+              "name": "Get-AutoloadHelp"
+            }
+          ]
+        },
+        {
+          "name": "Autoloaded",
+          "children": [
+            {
+              "name": "Invoke-Autoloaded"
+            },
+            {
+              "name": "Resolve-Autoloaded"
+            }
+          ]
+        },
+        {
+          "name": "Autoload",
+          "children": [
+            {
+              "name": "New-Autoload"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BetterCredentials",
+      "companyName": "HuddledMasses.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Credential",
+          "children": [
+            {
+              "name": "Get-Credential"
+            },
+            {
+              "name": "Find-Credential"
+            },
+            {
+              "name": "Set-Credential"
+            },
+            {
+              "name": "Remove-Credential"
+            },
+            {
+              "name": "Test-Credential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChoVersion",
+      "companyName": "PoshCode.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "ToolPath",
+          "children": [
+            {
+              "name": "Add-ToolPath"
+            }
+          ]
+        },
+        {
+          "name": "ChoVersion",
+          "children": [
+            {
+              "name": "Get-ChoVersion"
+            },
+            {
+              "name": "Set-ChoVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Configuration",
+      "companyName": "HuddledMasses.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Configuration",
+          "children": [
+            {
+              "name": "Export-Configuration"
+            },
+            {
+              "name": "Import-Configuration"
+            }
+          ]
+        },
+        {
+          "name": "ConfigurationPath",
+          "children": [
+            {
+              "name": "Get-ConfigurationPath"
+            }
+          ]
+        },
+        {
+          "name": "ParameterValue",
+          "children": [
+            {
+              "name": "Get-ParameterValue"
+            }
+          ]
+        },
+        {
+          "name": "ParameterConfiguration",
+          "children": [
+            {
+              "name": "Import-ParameterConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DefaultParameter",
+      "companyName": "PoshCode.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "DefaultParameter",
+          "children": [
+            {
+              "name": "Set-DefaultParameter"
+            },
+            {
+              "name": "Get-DefaultParameter"
+            },
+            {
+              "name": "Remove-DefaultParameter"
+            },
+            {
+              "name": "Import-DefaultParameter"
+            },
+            {
+              "name": "Export-DefaultParameter"
+            },
+            {
+              "name": "Enable-DefaultParameter"
+            },
+            {
+              "name": "Disable-DefaultParameter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Environment",
+      "companyName": "HuddledMasses.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Path",
+          "children": [
+            {
+              "name": "Add-Path"
+            }
+          ]
+        },
+        {
+          "name": "SpecialFolder",
+          "children": [
+            {
+              "name": "Get-SpecialFolder"
+            }
+          ]
+        },
+        {
+          "name": "UniquePath",
+          "children": [
+            {
+              "name": "Select-UniquePath"
+            }
+          ]
+        },
+        {
+          "name": "AliasToFirst",
+          "children": [
+            {
+              "name": "Set-AliasToFirst"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentVariable",
+          "children": [
+            {
+              "name": "Set-EnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "Message",
+          "children": [
+            {
+              "name": "Trace-Message"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ErrorView",
+      "companyName": "PoshCode",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Error",
+          "children": [
+            {
+              "name": "Format-Error"
+            }
+          ]
+        },
+        {
+          "name": "ErrorView",
+          "children": [
+            {
+              "name": "Set-ErrorView"
+            }
+          ]
+        },
+        {
+          "name": "NativeCommandError",
+          "children": [
+            {
+              "name": "Write-NativeCommandError"
+            }
+          ]
+        },
+        {
+          "name": "CategoryErrorView",
+          "children": [
+            {
+              "name": "ConvertTo-CategoryErrorView"
+            }
+          ]
+        },
+        {
+          "name": "NormalErrorView",
+          "children": [
+            {
+              "name": "ConvertTo-NormalErrorView"
+            }
+          ]
+        },
+        {
+          "name": "SimpleErrorView",
+          "children": [
+            {
+              "name": "ConvertTo-SimpleErrorView"
+            }
+          ]
+        },
+        {
+          "name": "FullErrorView",
+          "children": [
+            {
+              "name": "ConvertTo-FullErrorView"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Math",
+      "companyName": "HuddledMasses.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "MathEvaluator",
+          "children": [
+            {
+              "name": "Invoke-MathEvaluator"
+            }
+          ]
+        },
+        {
+          "name": "MathVariable",
+          "children": [
+            {
+              "name": "Set-MathVariable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Metadata",
+      "companyName": "HuddledMasses.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "MetadataConverter",
+          "children": [
+            {
+              "name": "Add-MetadataConverter"
+            }
+          ]
+        },
+        {
+          "name": "Metadata",
+          "children": [
+            {
+              "name": "ConvertFrom-Metadata"
+            },
+            {
+              "name": "ConvertTo-Metadata"
+            },
+            {
+              "name": "Export-Metadata"
+            },
+            {
+              "name": "Get-Metadata"
+            },
+            {
+              "name": "Import-Metadata"
+            },
+            {
+              "name": "Update-Metadata"
+            }
+          ]
+        },
+        {
+          "name": "PSVersion",
+          "children": [
+            {
+              "name": "Test-PSVersion"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Update-Object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ModuleBuilder",
+      "companyName": "PoshCode",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Build-Module"
+            }
+          ]
+        },
+        {
+          "name": "Breakpoint",
+          "children": [
+            {
+              "name": "Convert-Breakpoint"
+            }
+          ]
+        },
+        {
+          "name": "CodeCoverage",
+          "children": [
+            {
+              "name": "Convert-CodeCoverage"
+            }
+          ]
+        },
+        {
+          "name": "SourceLineNumber",
+          "children": [
+            {
+              "name": "ConvertFrom-SourceLineNumber"
+            },
+            {
+              "name": "ConvertTo-SourceLineNumber"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pansies",
+      "companyName": "HuddledMasses.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Text",
+          "children": [
+            {
+              "name": "New-Text"
+            }
+          ]
+        },
+        {
+          "name": "Hyperlink",
+          "children": [
+            {
+              "name": "New-Hyperlink"
+            }
+          ]
+        },
+        {
+          "name": "Host",
+          "children": [
+            {
+              "name": "Write-Host"
+            }
+          ]
+        },
+        {
+          "name": "Gradient",
+          "children": [
+            {
+              "name": "Get-Gradient"
+            }
+          ]
+        },
+        {
+          "name": "Complement",
+          "children": [
+            {
+              "name": "Get-Complement"
+            }
+          ]
+        },
+        {
+          "name": "ColorWheel",
+          "children": [
+            {
+              "name": "Get-ColorWheel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerLine",
+      "companyName": "HuddledMasses.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "PowerLineBlock",
+          "children": [
+            {
+              "name": "Add-PowerLineBlock"
+            },
+            {
+              "name": "Remove-PowerLineBlock"
+            }
+          ]
+        },
+        {
+          "name": "PowerLinePrompt",
+          "children": [
+            {
+              "name": "Export-PowerLinePrompt"
+            },
+            {
+              "name": "Set-PowerLinePrompt"
+            },
+            {
+              "name": "Write-PowerlinePrompt"
+            }
+          ]
+        },
+        {
+          "name": "Elapsed",
+          "children": [
+            {
+              "name": "Get-Elapsed"
+            }
+          ]
+        },
+        {
+          "name": "ErrorCount",
+          "children": [
+            {
+              "name": "Get-ErrorCount"
+            }
+          ]
+        },
+        {
+          "name": "PowerLineTheme",
+          "children": [
+            {
+              "name": "Get-PowerLineTheme"
+            }
+          ]
+        },
+        {
+          "name": "SegmentedPath",
+          "children": [
+            {
+              "name": "Get-SegmentedPath"
+            }
+          ]
+        },
+        {
+          "name": "ShortenedPath",
+          "children": [
+            {
+              "name": "Get-ShortenedPath"
+            }
+          ]
+        },
+        {
+          "name": "PromptText",
+          "children": [
+            {
+              "name": "New-PromptText"
+            }
+          ]
+        },
+        {
+          "name": "Elevation",
+          "children": [
+            {
+              "name": "Test-Elevation"
+            }
+          ]
+        },
+        {
+          "name": "Success",
+          "children": [
+            {
+              "name": "Test-Success"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reflection",
+      "companyName": "Unknown",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Accelerator",
+          "children": [
+            {
+              "name": "Add-Accelerator"
+            },
+            {
+              "name": "Get-Accelerator"
+            },
+            {
+              "name": "Remove-Accelerator"
+            }
+          ]
+        },
+        {
+          "name": "Assembly",
+          "children": [
+            {
+              "name": "Add-Assembly"
+            },
+            {
+              "name": "Get-Assembly"
+            }
+          ]
+        },
+        {
+          "name": "ConstructorFunction",
+          "children": [
+            {
+              "name": "Add-ConstructorFunction"
+            }
+          ]
+        },
+        {
+          "name": "Struct",
+          "children": [
+            {
+              "name": "Add-Struct"
+            }
+          ]
+        },
+        {
+          "name": "Enum",
+          "children": [
+            {
+              "name": "Add-Enum"
+            }
+          ]
+        },
+        {
+          "name": "Argument",
+          "children": [
+            {
+              "name": "Get-Argument"
+            }
+          ]
+        },
+        {
+          "name": "Constructor",
+          "children": [
+            {
+              "name": "Get-Constructor"
+            }
+          ]
+        },
+        {
+          "name": "ExtensionMethod",
+          "children": [
+            {
+              "name": "Get-ExtensionMethod"
+            }
+          ]
+        },
+        {
+          "name": "MemberSignature",
+          "children": [
+            {
+              "name": "Get-MemberSignature"
+            }
+          ]
+        },
+        {
+          "name": "Method",
+          "children": [
+            {
+              "name": "Get-Method"
+            }
+          ]
+        },
+        {
+          "name": "ReflectionModule",
+          "children": [
+            {
+              "name": "Get-ReflectionModule"
+            }
+          ]
+        },
+        {
+          "name": "Type",
+          "children": [
+            {
+              "name": "Get-Type"
+            }
+          ]
+        },
+        {
+          "name": "ConstructorFunctions",
+          "children": [
+            {
+              "name": "Import-ConstructorFunctions"
+            }
+          ]
+        },
+        {
+          "name": "Namespace",
+          "children": [
+            {
+              "name": "Import-Namespace"
+            }
+          ]
+        },
+        {
+          "name": "Generic",
+          "children": [
+            {
+              "name": "Invoke-Generic"
+            }
+          ]
+        },
+        {
+          "name": "Member",
+          "children": [
+            {
+              "name": "Invoke-Member"
+            }
+          ]
+        },
+        {
+          "name": "ModuleManifestFromSnapin",
+          "children": [
+            {
+              "name": "New-ModuleManifestFromSnapin"
+            }
+          ]
+        },
+        {
+          "name": "Choice",
+          "children": [
+            {
+              "name": "Read-Choice"
+            }
+          ]
+        },
+        {
+          "name": "DependencyProperty",
+          "children": [
+            {
+              "name": "Set-DependencyProperty"
+            }
+          ]
+        },
+        {
+          "name": "ObjectProperties",
+          "children": [
+            {
+              "name": "Set-ObjectProperties"
+            }
+          ]
+        },
+        {
+          "name": "Property",
+          "children": [
+            {
+              "name": "Set-Property"
+            }
+          ]
+        },
+        {
+          "name": "AssignableToGeneric",
+          "children": [
+            {
+              "name": "Test-AssignableToGeneric"
+            }
+          ]
+        },
+        {
+          "name": "PSBoundParameters",
+          "children": [
+            {
+              "name": "Update-PSBoundParameters"
+            }
+          ]
+        },
+        {
+          "name": "RestrictedLanguage",
+          "children": [
+            {
+              "name": "Test-RestrictedLanguage"
+            }
+          ]
+        },
+        {
+          "name": "ParseResults",
+          "children": [
+            {
+              "name": "Get-ParseResults"
+            }
+          ]
+        },
+        {
+          "name": "Token",
+          "children": [
+            {
+              "name": "Find-Token"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TerminalBlocks",
+      "companyName": "HuddledMasses.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Prompt",
+          "children": [
+            {
+              "name": "Exit-Prompt"
+            },
+            {
+              "name": "Initialize-Prompt"
+            }
+          ]
+        },
+        {
+          "name": "TerminalBlock",
+          "children": [
+            {
+              "name": "New-TerminalBlock"
+            }
+          ]
+        },
+        {
+          "name": "AzureContext",
+          "children": [
+            {
+              "name": "Show-AzureContext"
+            }
+          ]
+        },
+        {
+          "name": "Date",
+          "children": [
+            {
+              "name": "Show-Date"
+            }
+          ]
+        },
+        {
+          "name": "DockerContext",
+          "children": [
+            {
+              "name": "Show-DockerContext"
+            }
+          ]
+        },
+        {
+          "name": "ElapsedTime",
+          "children": [
+            {
+              "name": "Show-ElapsedTime"
+            }
+          ]
+        },
+        {
+          "name": "ErrorCount",
+          "children": [
+            {
+              "name": "Show-ErrorCount"
+            }
+          ]
+        },
+        {
+          "name": "HistoryId",
+          "children": [
+            {
+              "name": "Show-HistoryId"
+            }
+          ]
+        },
+        {
+          "name": "KubeContext",
+          "children": [
+            {
+              "name": "Show-KubeContext"
+            }
+          ]
+        },
+        {
+          "name": "LastExitCode",
+          "children": [
+            {
+              "name": "Show-LastExitCode"
+            }
+          ]
+        },
+        {
+          "name": "Path",
+          "children": [
+            {
+              "name": "Show-Path"
+            }
+          ]
+        },
+        {
+          "name": "PoshGitStatus",
+          "children": [
+            {
+              "name": "Show-PoshGitStatus"
+            }
+          ]
+        },
+        {
+          "name": "Elevation",
+          "children": [
+            {
+              "name": "Test-Elevation"
+            }
+          ]
+        },
+        {
+          "name": "Success",
+          "children": [
+            {
+              "name": "Test-Success"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wasp",
+      "companyName": "HuddledMasses.org",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Input",
+          "children": [
+            {
+              "name": "Send-Input"
+            },
+            {
+              "name": "Add-Input"
+            }
+          ]
+        },
+        {
+          "name": "DockPattern",
+          "children": [
+            {
+              "name": "ConvertTo-DockPattern"
+            }
+          ]
+        },
+        {
+          "name": "ExpandCollapsePattern",
+          "children": [
+            {
+              "name": "ConvertTo-ExpandCollapsePattern"
+            }
+          ]
+        },
+        {
+          "name": "GridItemPattern",
+          "children": [
+            {
+              "name": "ConvertTo-GridItemPattern"
+            }
+          ]
+        },
+        {
+          "name": "GridPattern",
+          "children": [
+            {
+              "name": "ConvertTo-GridPattern"
+            }
+          ]
+        },
+        {
+          "name": "InvokePattern",
+          "children": [
+            {
+              "name": "ConvertTo-InvokePattern"
+            }
+          ]
+        },
+        {
+          "name": "ItemContainerPattern",
+          "children": [
+            {
+              "name": "ConvertTo-ItemContainerPattern"
+            }
+          ]
+        },
+        {
+          "name": "MultipleViewPattern",
+          "children": [
+            {
+              "name": "ConvertTo-MultipleViewPattern"
+            }
+          ]
+        },
+        {
+          "name": "RangeValuePattern",
+          "children": [
+            {
+              "name": "ConvertTo-RangeValuePattern"
+            }
+          ]
+        },
+        {
+          "name": "ScrollItemPattern",
+          "children": [
+            {
+              "name": "ConvertTo-ScrollItemPattern"
+            }
+          ]
+        },
+        {
+          "name": "ScrollPattern",
+          "children": [
+            {
+              "name": "ConvertTo-ScrollPattern"
+            }
+          ]
+        },
+        {
+          "name": "SelectionItemPattern",
+          "children": [
+            {
+              "name": "ConvertTo-SelectionItemPattern"
+            }
+          ]
+        },
+        {
+          "name": "SelectionPattern",
+          "children": [
+            {
+              "name": "ConvertTo-SelectionPattern"
+            }
+          ]
+        },
+        {
+          "name": "SynchronizedInputPattern",
+          "children": [
+            {
+              "name": "ConvertTo-SynchronizedInputPattern"
+            }
+          ]
+        },
+        {
+          "name": "TextPattern",
+          "children": [
+            {
+              "name": "ConvertTo-TextPattern"
+            }
+          ]
+        },
+        {
+          "name": "TogglePattern",
+          "children": [
+            {
+              "name": "ConvertTo-TogglePattern"
+            }
+          ]
+        },
+        {
+          "name": "TransformPattern",
+          "children": [
+            {
+              "name": "ConvertTo-TransformPattern"
+            }
+          ]
+        },
+        {
+          "name": "ValuePattern",
+          "children": [
+            {
+              "name": "ConvertTo-ValuePattern"
+            }
+          ]
+        },
+        {
+          "name": "VirtualizedItemPattern",
+          "children": [
+            {
+              "name": "ConvertTo-VirtualizedItemPattern"
+            }
+          ]
+        },
+        {
+          "name": "WindowPattern",
+          "children": [
+            {
+              "name": "ConvertTo-WindowPattern"
+            }
+          ]
+        },
+        {
+          "name": "formatter",
+          "children": [
+            {
+              "name": "formatter"
+            }
+          ]
+        },
+        {
+          "name": "ClickablePoint",
+          "children": [
+            {
+              "name": "Get-ClickablePoint"
+            }
+          ]
+        },
+        {
+          "name": "Text.DocumentRange",
+          "children": [
+            {
+              "name": "Get-Text.DocumentRange"
+            }
+          ]
+        },
+        {
+          "name": "Text.SupportedTextSelection",
+          "children": [
+            {
+              "name": "Get-Text.SupportedTextSelection"
+            }
+          ]
+        },
+        {
+          "name": "TextAnimationStyle",
+          "children": [
+            {
+              "name": "Get-TextAnimationStyle"
+            }
+          ]
+        },
+        {
+          "name": "TextBackgroundColor",
+          "children": [
+            {
+              "name": "Get-TextBackgroundColor"
+            }
+          ]
+        },
+        {
+          "name": "TextBulletStyle",
+          "children": [
+            {
+              "name": "Get-TextBulletStyle"
+            }
+          ]
+        },
+        {
+          "name": "TextCapStyle",
+          "children": [
+            {
+              "name": "Get-TextCapStyle"
+            }
+          ]
+        },
+        {
+          "name": "TextCulture",
+          "children": [
+            {
+              "name": "Get-TextCulture"
+            }
+          ]
+        },
+        {
+          "name": "TextFontName",
+          "children": [
+            {
+              "name": "Get-TextFontName"
+            }
+          ]
+        },
+        {
+          "name": "TextFontSize",
+          "children": [
+            {
+              "name": "Get-TextFontSize"
+            }
+          ]
+        },
+        {
+          "name": "TextFontWeight",
+          "children": [
+            {
+              "name": "Get-TextFontWeight"
+            }
+          ]
+        },
+        {
+          "name": "TextForegroundColor",
+          "children": [
+            {
+              "name": "Get-TextForegroundColor"
+            }
+          ]
+        },
+        {
+          "name": "TextHorizontalTextAlignment",
+          "children": [
+            {
+              "name": "Get-TextHorizontalTextAlignment"
+            }
+          ]
+        },
+        {
+          "name": "TextIndentationFirstLine",
+          "children": [
+            {
+              "name": "Get-TextIndentationFirstLine"
+            }
+          ]
+        },
+        {
+          "name": "TextIndentationLeading",
+          "children": [
+            {
+              "name": "Get-TextIndentationLeading"
+            }
+          ]
+        },
+        {
+          "name": "TextIndentationTrailing",
+          "children": [
+            {
+              "name": "Get-TextIndentationTrailing"
+            }
+          ]
+        },
+        {
+          "name": "TextIsHidden",
+          "children": [
+            {
+              "name": "Get-TextIsHidden"
+            }
+          ]
+        },
+        {
+          "name": "TextIsItalic",
+          "children": [
+            {
+              "name": "Get-TextIsItalic"
+            }
+          ]
+        },
+        {
+          "name": "TextIsReadOnly",
+          "children": [
+            {
+              "name": "Get-TextIsReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "TextIsSubscript",
+          "children": [
+            {
+              "name": "Get-TextIsSubscript"
+            }
+          ]
+        },
+        {
+          "name": "TextIsSuperscript",
+          "children": [
+            {
+              "name": "Get-TextIsSuperscript"
+            }
+          ]
+        },
+        {
+          "name": "TextMarginBottom",
+          "children": [
+            {
+              "name": "Get-TextMarginBottom"
+            }
+          ]
+        },
+        {
+          "name": "TextMarginLeading",
+          "children": [
+            {
+              "name": "Get-TextMarginLeading"
+            }
+          ]
+        },
+        {
+          "name": "TextMarginTop",
+          "children": [
+            {
+              "name": "Get-TextMarginTop"
+            }
+          ]
+        },
+        {
+          "name": "TextMarginTrailing",
+          "children": [
+            {
+              "name": "Get-TextMarginTrailing"
+            }
+          ]
+        },
+        {
+          "name": "TextOutlineStyles",
+          "children": [
+            {
+              "name": "Get-TextOutlineStyles"
+            }
+          ]
+        },
+        {
+          "name": "TextOverlineColor",
+          "children": [
+            {
+              "name": "Get-TextOverlineColor"
+            }
+          ]
+        },
+        {
+          "name": "TextOverlineStyle",
+          "children": [
+            {
+              "name": "Get-TextOverlineStyle"
+            }
+          ]
+        },
+        {
+          "name": "TextStrikethroughColor",
+          "children": [
+            {
+              "name": "Get-TextStrikethroughColor"
+            }
+          ]
+        },
+        {
+          "name": "TextStrikethroughStyle",
+          "children": [
+            {
+              "name": "Get-TextStrikethroughStyle"
+            }
+          ]
+        },
+        {
+          "name": "TextTabs",
+          "children": [
+            {
+              "name": "Get-TextTabs"
+            }
+          ]
+        },
+        {
+          "name": "TextTextFlowDirections",
+          "children": [
+            {
+              "name": "Get-TextTextFlowDirections"
+            }
+          ]
+        },
+        {
+          "name": "TextUnderlineColor",
+          "children": [
+            {
+              "name": "Get-TextUnderlineColor"
+            }
+          ]
+        },
+        {
+          "name": "TextUnderlineStyle",
+          "children": [
+            {
+              "name": "Get-TextUnderlineStyle"
+            }
+          ]
+        },
+        {
+          "name": "Dock.SetDockPosition",
+          "children": [
+            {
+              "name": "Invoke-Dock.SetDockPosition"
+            }
+          ]
+        },
+        {
+          "name": "ExpandCollapse.Collapse",
+          "children": [
+            {
+              "name": "Invoke-ExpandCollapse.Collapse"
+            }
+          ]
+        },
+        {
+          "name": "ExpandCollapse.Expand",
+          "children": [
+            {
+              "name": "Invoke-ExpandCollapse.Expand"
+            }
+          ]
+        },
+        {
+          "name": "Grid.GetItem",
+          "children": [
+            {
+              "name": "Invoke-Grid.GetItem"
+            }
+          ]
+        },
+        {
+          "name": "Invoke.Invoke",
+          "children": [
+            {
+              "name": "Invoke-Invoke.Invoke"
+            }
+          ]
+        },
+        {
+          "name": "ItemContainer.FindItemByProperty",
+          "children": [
+            {
+              "name": "Invoke-ItemContainer.FindItemByProperty"
+            }
+          ]
+        },
+        {
+          "name": "MultipleView.GetViewName",
+          "children": [
+            {
+              "name": "Invoke-MultipleView.GetViewName"
+            }
+          ]
+        },
+        {
+          "name": "MultipleView.SetCurrentView",
+          "children": [
+            {
+              "name": "Invoke-MultipleView.SetCurrentView"
+            }
+          ]
+        },
+        {
+          "name": "RangeValue.SetValue",
+          "children": [
+            {
+              "name": "Invoke-RangeValue.SetValue"
+            }
+          ]
+        },
+        {
+          "name": "Scroll.Scroll",
+          "children": [
+            {
+              "name": "Invoke-Scroll.Scroll"
+            }
+          ]
+        },
+        {
+          "name": "Scroll.ScrollHorizontal",
+          "children": [
+            {
+              "name": "Invoke-Scroll.ScrollHorizontal"
+            }
+          ]
+        },
+        {
+          "name": "Scroll.ScrollVertical",
+          "children": [
+            {
+              "name": "Invoke-Scroll.ScrollVertical"
+            }
+          ]
+        },
+        {
+          "name": "Scroll.SetScrollPercent",
+          "children": [
+            {
+              "name": "Invoke-Scroll.SetScrollPercent"
+            }
+          ]
+        },
+        {
+          "name": "ScrollItem.ScrollIntoView",
+          "children": [
+            {
+              "name": "Invoke-ScrollItem.ScrollIntoView"
+            }
+          ]
+        },
+        {
+          "name": "SelectionItem.AddToSelection",
+          "children": [
+            {
+              "name": "Invoke-SelectionItem.AddToSelection"
+            }
+          ]
+        },
+        {
+          "name": "SelectionItem.RemoveFromSelection",
+          "children": [
+            {
+              "name": "Invoke-SelectionItem.RemoveFromSelection"
+            }
+          ]
+        },
+        {
+          "name": "SelectionItem.Select",
+          "children": [
+            {
+              "name": "Invoke-SelectionItem.Select"
+            }
+          ]
+        },
+        {
+          "name": "SynchronizedInput.Cancel",
+          "children": [
+            {
+              "name": "Invoke-SynchronizedInput.Cancel"
+            }
+          ]
+        },
+        {
+          "name": "SynchronizedInput.StartListening",
+          "children": [
+            {
+              "name": "Invoke-SynchronizedInput.StartListening"
+            }
+          ]
+        },
+        {
+          "name": "Text.GetSelection",
+          "children": [
+            {
+              "name": "Invoke-Text.GetSelection"
+            }
+          ]
+        },
+        {
+          "name": "Text.GetVisibleRanges",
+          "children": [
+            {
+              "name": "Invoke-Text.GetVisibleRanges"
+            }
+          ]
+        },
+        {
+          "name": "Text.RangeFromChild",
+          "children": [
+            {
+              "name": "Invoke-Text.RangeFromChild"
+            }
+          ]
+        },
+        {
+          "name": "Text.RangeFromPoint",
+          "children": [
+            {
+              "name": "Invoke-Text.RangeFromPoint"
+            }
+          ]
+        },
+        {
+          "name": "Toggle.Toggle",
+          "children": [
+            {
+              "name": "Invoke-Toggle.Toggle"
+            }
+          ]
+        },
+        {
+          "name": "Transform.Move",
+          "children": [
+            {
+              "name": "Invoke-Transform.Move"
+            }
+          ]
+        },
+        {
+          "name": "Transform.Resize",
+          "children": [
+            {
+              "name": "Invoke-Transform.Resize"
+            }
+          ]
+        },
+        {
+          "name": "Transform.Rotate",
+          "children": [
+            {
+              "name": "Invoke-Transform.Rotate"
+            }
+          ]
+        },
+        {
+          "name": "Value.SetValue",
+          "children": [
+            {
+              "name": "Invoke-Value.SetValue"
+            }
+          ]
+        },
+        {
+          "name": "VirtualizedItem.Realize",
+          "children": [
+            {
+              "name": "Invoke-VirtualizedItem.Realize"
+            }
+          ]
+        },
+        {
+          "name": "Window.Close",
+          "children": [
+            {
+              "name": "Invoke-Window.Close"
+            }
+          ]
+        },
+        {
+          "name": "Window.SetWindowVisualState",
+          "children": [
+            {
+              "name": "Invoke-Window.SetWindowVisualState"
+            }
+          ]
+        },
+        {
+          "name": "Window.WaitForInputIdle",
+          "children": [
+            {
+              "name": "Invoke-Window.WaitForInputIdle"
+            }
+          ]
+        },
+        {
+          "name": "InvokeInvoked",
+          "children": [
+            {
+              "name": "Register-InvokeInvoked"
+            }
+          ]
+        },
+        {
+          "name": "SelectionInvalidated",
+          "children": [
+            {
+              "name": "Register-SelectionInvalidated"
+            }
+          ]
+        },
+        {
+          "name": "SelectionItemElementAddedToSelection",
+          "children": [
+            {
+              "name": "Register-SelectionItemElementAddedToSelection"
+            }
+          ]
+        },
+        {
+          "name": "SelectionItemElementRemovedFromSelection",
+          "children": [
+            {
+              "name": "Register-SelectionItemElementRemovedFromSelection"
+            }
+          ]
+        },
+        {
+          "name": "SelectionItemElementSelected",
+          "children": [
+            {
+              "name": "Register-SelectionItemElementSelected"
+            }
+          ]
+        },
+        {
+          "name": "SynchronizedInputInputDiscarded",
+          "children": [
+            {
+              "name": "Register-SynchronizedInputInputDiscarded"
+            }
+          ]
+        },
+        {
+          "name": "SynchronizedInputInputReachedOtherElement",
+          "children": [
+            {
+              "name": "Register-SynchronizedInputInputReachedOtherElement"
+            }
+          ]
+        },
+        {
+          "name": "SynchronizedInputInputReachedTarget",
+          "children": [
+            {
+              "name": "Register-SynchronizedInputInputReachedTarget"
+            }
+          ]
+        },
+        {
+          "name": "TextTextChanged",
+          "children": [
+            {
+              "name": "Register-TextTextChanged"
+            }
+          ]
+        },
+        {
+          "name": "TextTextSelectionChanged",
+          "children": [
+            {
+              "name": "Register-TextTextSelectionChanged"
+            }
+          ]
+        },
+        {
+          "name": "WindowWindowClosed",
+          "children": [
+            {
+              "name": "Register-WindowWindowClosed"
+            }
+          ]
+        },
+        {
+          "name": "WindowWindowOpened",
+          "children": [
+            {
+              "name": "Register-WindowWindowOpened"
+            }
+          ]
+        },
+        {
+          "name": "UIElement",
+          "children": [
+            {
+              "name": "Select-UIElement"
+            }
+          ]
+        },
+        {
+          "name": "UIKeys",
+          "children": [
+            {
+              "name": "Send-UIKeys"
+            }
+          ]
+        },
+        {
+          "name": "UIFocus",
+          "children": [
+            {
+              "name": "Set-UIFocus"
+            }
+          ]
+        },
+        {
+          "name": "UIText",
+          "children": [
+            {
+              "name": "Set-UIText"
+            }
+          ]
+        },
+        {
+          "name": "Window",
+          "children": [
+            {
+              "name": "Show-Window"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WindowsConsoleFonts",
+      "companyName": "PoshCode",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "ConsoleFont",
+          "children": [
+            {
+              "name": "Set-ConsoleFont"
+            },
+            {
+              "name": "Get-ConsoleFont"
+            }
+          ]
+        },
+        {
+          "name": "Font",
+          "children": [
+            {
+              "name": "Add-Font"
+            },
+            {
+              "name": "Remove-Font"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

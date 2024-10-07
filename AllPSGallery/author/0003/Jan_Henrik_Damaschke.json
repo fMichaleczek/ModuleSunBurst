@@ -1,0 +1,496 @@
+{
+  "name": "Jan Henrik Damaschke",
+  "children": [
+    {
+      "name": "ADCSTemplateParser",
+      "companyName": "Unknown",
+      "author": "Jan Henrik Damaschke",
+      "children": [
+        {
+          "name": "ATPTemplate",
+          "children": [
+            {
+              "name": "Get-ATPTemplate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureApiUtils",
+      "companyName": "Visorian GmbH",
+      "author": "Jan Henrik Damaschke",
+      "children": [
+        {
+          "name": "AppPermission",
+          "children": [
+            {
+              "name": "Add-AppPermission"
+            },
+            {
+              "name": "Get-AppPermission"
+            },
+            {
+              "name": "Remove-AppPermission"
+            }
+          ]
+        },
+        {
+          "name": "AzureRequest",
+          "children": [
+            {
+              "name": "Invoke-AzureRequest"
+            }
+          ]
+        },
+        {
+          "name": "GraphApiRequest",
+          "children": [
+            {
+              "name": "Invoke-GraphApiRequest"
+            }
+          ]
+        },
+        {
+          "name": "GraphApiRetryRequest",
+          "children": [
+            {
+              "name": "Invoke-GraphApiRetryRequest"
+            }
+          ]
+        },
+        {
+          "name": "RetryRequest",
+          "children": [
+            {
+              "name": "Invoke-RetryRequest"
+            }
+          ]
+        },
+        {
+          "name": "AuthorizationHeader",
+          "children": [
+            {
+              "name": "New-AuthorizationHeader"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSMDE",
+      "companyName": "Visorian GmbH",
+      "author": "Jan Henrik Damaschke",
+      "children": [
+        {
+          "name": "MdeMachineTag",
+          "children": [
+            {
+              "name": "Add-MdeMachineTag"
+            },
+            {
+              "name": "Remove-MdeMachineTag"
+            }
+          ]
+        },
+        {
+          "name": "MdeAuthorizationInfo",
+          "children": [
+            {
+              "name": "Clear-MdeAuthorizationInfo"
+            },
+            {
+              "name": "Get-MdeAuthorizationInfo"
+            },
+            {
+              "name": "Set-MdeAuthorizationInfo"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineCodeExecutionRestriction",
+          "children": [
+            {
+              "name": "Disable-MdeMachineCodeExecutionRestriction"
+            },
+            {
+              "name": "Enable-MdeMachineCodeExecutionRestriction"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineIsolation",
+          "children": [
+            {
+              "name": "Disable-MdeMachineIsolation"
+            },
+            {
+              "name": "Enable-MdeMachineIsolation"
+            }
+          ]
+        },
+        {
+          "name": "MdeBaselineComplianceAssessmentByMachine",
+          "children": [
+            {
+              "name": "Get-MdeBaselineComplianceAssessmentByMachine"
+            }
+          ]
+        },
+        {
+          "name": "MdeBaselineComplianceAssessmentExport",
+          "children": [
+            {
+              "name": "Get-MdeBaselineComplianceAssessmentExport"
+            }
+          ]
+        },
+        {
+          "name": "MdeBaselineConfiguration",
+          "children": [
+            {
+              "name": "Get-MdeBaselineConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "MdeBaselineProfile",
+          "children": [
+            {
+              "name": "Get-MdeBaselineProfile"
+            }
+          ]
+        },
+        {
+          "name": "MdeConfigurationScore",
+          "children": [
+            {
+              "name": "Get-MdeConfigurationScore"
+            }
+          ]
+        },
+        {
+          "name": "MdeExposureScore",
+          "children": [
+            {
+              "name": "Get-MdeExposureScore"
+            }
+          ]
+        },
+        {
+          "name": "MdeExposureScoreByMachineGroups",
+          "children": [
+            {
+              "name": "Get-MdeExposureScoreByMachineGroups"
+            }
+          ]
+        },
+        {
+          "name": "MdeLibraryFiles",
+          "children": [
+            {
+              "name": "Get-MdeLibraryFiles"
+            }
+          ]
+        },
+        {
+          "name": "MdeLiveResponseResult",
+          "children": [
+            {
+              "name": "Get-MdeLiveResponseResult"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachine",
+          "children": [
+            {
+              "name": "Get-MdeMachine"
+            },
+            {
+              "name": "Remove-MdeMachine"
+            },
+            {
+              "name": "Update-MdeMachine"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineAction",
+          "children": [
+            {
+              "name": "Get-MdeMachineAction"
+            },
+            {
+              "name": "Stop-MdeMachineAction"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineAlerts",
+          "children": [
+            {
+              "name": "Get-MdeMachineAlerts"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineByFilter",
+          "children": [
+            {
+              "name": "Get-MdeMachineByFilter"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineByIp",
+          "children": [
+            {
+              "name": "Get-MdeMachineByIp"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineByTag",
+          "children": [
+            {
+              "name": "Get-MdeMachineByTag"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineInvestigationPackage",
+          "children": [
+            {
+              "name": "Get-MdeMachineInvestigationPackage"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineInvestigationPackageUri",
+          "children": [
+            {
+              "name": "Get-MdeMachineInvestigationPackageUri"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineLogonUsers",
+          "children": [
+            {
+              "name": "Get-MdeMachineLogonUsers"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineMissingKbs",
+          "children": [
+            {
+              "name": "Get-MdeMachineMissingKbs"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineRecommendations",
+          "children": [
+            {
+              "name": "Get-MdeMachineRecommendations"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineSoftware",
+          "children": [
+            {
+              "name": "Get-MdeMachineSoftware"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineVulnerabilities",
+          "children": [
+            {
+              "name": "Get-MdeMachineVulnerabilities"
+            }
+          ]
+        },
+        {
+          "name": "MdeRecommendation",
+          "children": [
+            {
+              "name": "Get-MdeRecommendation"
+            }
+          ]
+        },
+        {
+          "name": "MdeRecommendationMachines",
+          "children": [
+            {
+              "name": "Get-MdeRecommendationMachines"
+            }
+          ]
+        },
+        {
+          "name": "MdeRecommendationSoftware",
+          "children": [
+            {
+              "name": "Get-MdeRecommendationSoftware"
+            }
+          ]
+        },
+        {
+          "name": "MdeRecommendationVulnerabilities",
+          "children": [
+            {
+              "name": "Get-MdeRecommendationVulnerabilities"
+            }
+          ]
+        },
+        {
+          "name": "MdeRemediationTask",
+          "children": [
+            {
+              "name": "Get-MdeRemediationTask"
+            }
+          ]
+        },
+        {
+          "name": "MdeRemediationTaskMachines",
+          "children": [
+            {
+              "name": "Get-MdeRemediationTaskMachines"
+            }
+          ]
+        },
+        {
+          "name": "MdeRoles",
+          "children": [
+            {
+              "name": "Get-MdeRoles"
+            }
+          ]
+        },
+        {
+          "name": "MdeSoftware",
+          "children": [
+            {
+              "name": "Get-MdeSoftware"
+            }
+          ]
+        },
+        {
+          "name": "MdeSoftwareByFilter",
+          "children": [
+            {
+              "name": "Get-MdeSoftwareByFilter"
+            }
+          ]
+        },
+        {
+          "name": "MdeSoftwareDistribution",
+          "children": [
+            {
+              "name": "Get-MdeSoftwareDistribution"
+            }
+          ]
+        },
+        {
+          "name": "MdeSoftwareMachineReferences",
+          "children": [
+            {
+              "name": "Get-MdeSoftwareMachineReferences"
+            }
+          ]
+        },
+        {
+          "name": "MdeSoftwareMissingKbs",
+          "children": [
+            {
+              "name": "Get-MdeSoftwareMissingKbs"
+            }
+          ]
+        },
+        {
+          "name": "MdeSoftwareVulnerability",
+          "children": [
+            {
+              "name": "Get-MdeSoftwareVulnerability"
+            }
+          ]
+        },
+        {
+          "name": "MdeUserAlerts",
+          "children": [
+            {
+              "name": "Get-MdeUserAlerts"
+            }
+          ]
+        },
+        {
+          "name": "MdeUserMachines",
+          "children": [
+            {
+              "name": "Get-MdeUserMachines"
+            }
+          ]
+        },
+        {
+          "name": "MdeVulnerability",
+          "children": [
+            {
+              "name": "Get-MdeVulnerability"
+            }
+          ]
+        },
+        {
+          "name": "MdeVulnerabilityByMachine",
+          "children": [
+            {
+              "name": "Get-MdeVulnerabilityByMachine"
+            }
+          ]
+        },
+        {
+          "name": "MdeVulnerabilityMachinesByVulnerability",
+          "children": [
+            {
+              "name": "Get-MdeVulnerabilityMachinesByVulnerability"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineAntivirusScan",
+          "children": [
+            {
+              "name": "Invoke-MdeMachineAntivirusScan"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineLiveResponse",
+          "children": [
+            {
+              "name": "Invoke-MdeMachineLiveResponse"
+            }
+          ]
+        },
+        {
+          "name": "MdeServicePrincipal",
+          "children": [
+            {
+              "name": "New-MdeServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "MdeMachineFileExecution",
+          "children": [
+            {
+              "name": "Stop-MdeMachineFileExecution"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

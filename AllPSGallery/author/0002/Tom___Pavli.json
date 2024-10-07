@@ -1,0 +1,89 @@
+{
+  "name": "Tom   Pavli",
+  "children": [
+    {
+      "name": "Fitek",
+      "companyName": "Topdev",
+      "author": "Tom   Pavli",
+      "children": [
+        {
+          "name": "FitekDimension",
+          "children": [
+            {
+              "name": "Import-FitekDimension"
+            }
+          ]
+        },
+        {
+          "name": "FitekVatCode",
+          "children": [
+            {
+              "name": "Import-FitekVatCode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PeopleHR",
+      "companyName": "Topdev",
+      "author": "Tom   Pavli",
+      "children": [
+        {
+          "name": "PhrEmployee",
+          "children": [
+            {
+              "name": "Get-PhrEmployee"
+            },
+            {
+              "name": "Update-PhrEmployee"
+            }
+          ]
+        },
+        {
+          "name": "PhrQuery",
+          "children": [
+            {
+              "name": "Get-PhrQuery"
+            }
+          ]
+        },
+        {
+          "name": "PhrConfigServer",
+          "children": [
+            {
+              "name": "Set-PhrConfigServer"
+            }
+          ]
+        },
+        {
+          "name": "PhrEmployeeId",
+          "children": [
+            {
+              "name": "Update-PhrEmployeeId"
+            }
+          ]
+        },
+        {
+          "name": "Authentication",
+          "children": [
+            {
+              "name": "Test-Authentication"
+            }
+          ]
+        },
+        {
+          "name": "PhrOtherEvent",
+          "children": [
+            {
+              "name": "New-PhrOtherEvent"
+            },
+            {
+              "name": "Get-PhrOtherEvent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

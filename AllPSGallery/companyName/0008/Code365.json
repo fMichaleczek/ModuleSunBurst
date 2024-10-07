@@ -1,0 +1,232 @@
+{
+  "name": "Code365",
+  "children": [
+    {
+      "name": "code365scripts.core",
+      "companyName": "Code365",
+      "author": "code365",
+      "children": [
+        {
+          "name": "Powershell",
+          "children": [
+            {
+              "name": "Update-Powershell"
+            }
+          ]
+        },
+        {
+          "name": "Machine",
+          "children": [
+            {
+              "name": "Install-Machine"
+            }
+          ]
+        },
+        {
+          "name": "OfficeDefaultFont",
+          "children": [
+            {
+              "name": "Set-OfficeDefaultFont"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "code365scripts.openai",
+      "companyName": "Code365",
+      "author": "chenxizhang",
+      "children": [
+        {
+          "name": "ChatGPTConversation",
+          "children": [
+            {
+              "name": "New-ChatGPTConversation"
+            }
+          ]
+        },
+        {
+          "name": "ImageGeneration",
+          "children": [
+            {
+              "name": "New-ImageGeneration"
+            }
+          ]
+        },
+        {
+          "name": "ChatCompletions",
+          "children": [
+            {
+              "name": "New-ChatCompletions"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIClient",
+          "children": [
+            {
+              "name": "Get-OpenAIClient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "code365scripts.sandbox",
+      "companyName": "Code365",
+      "author": "chenxizhang",
+      "children": [
+        {
+          "name": "WindowsSandbox",
+          "children": [
+            {
+              "name": "Start-WindowsSandbox"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "code365scripts.teams",
+      "companyName": "Code365",
+      "author": "chenxizhang code365",
+      "children": [
+        {
+          "name": "TeamsVideoMeetingBackgrounds",
+          "children": [
+            {
+              "name": "Get-TeamsVideoMeetingBackgrounds"
+            }
+          ]
+        },
+        {
+          "name": "TeamsClientCache",
+          "children": [
+            {
+              "name": "Remove-TeamsClientCache"
+            }
+          ]
+        },
+        {
+          "name": "TeamUser",
+          "children": [
+            {
+              "name": "Import-TeamUser"
+            }
+          ]
+        },
+        {
+          "name": "TeamsUserFromGroup",
+          "children": [
+            {
+              "name": "Import-TeamsUserFromGroup"
+            }
+          ]
+        },
+        {
+          "name": "LocalDevCertificate",
+          "children": [
+            {
+              "name": "Set-LocalDevCertificate"
+            }
+          ]
+        },
+        {
+          "name": "TeamsSSOAppliction",
+          "children": [
+            {
+              "name": "New-TeamsSSOAppliction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "code365scripts.weixin",
+      "companyName": "Code365",
+      "author": "code365",
+      "children": [
+        {
+          "name": "WeixinNews",
+          "children": [
+            {
+              "name": "Save-WeixinNews"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "microsoft.copilot.toolkit",
+      "companyName": "Code365",
+      "author": "chenxizhang",
+      "children": [
+        {
+          "name": "DeclarativeCopilot",
+          "children": [
+            {
+              "name": "New-DeclarativeCopilot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "microsoft.security.toolkit",
+      "companyName": "Code365",
+      "author": "chenxizhang",
+      "children": [
+        {
+          "name": "SecurityScan",
+          "children": [
+            {
+              "name": "New-SecurityScan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "powershellextension",
+      "companyName": "Code365",
+      "author": "chenxizhang",
+      "children": [
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "Merge-Hashtable"
+            },
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "DependencyModule",
+          "children": [
+            {
+              "name": "Confirm-DependencyModule"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Merge-Object"
+            }
+          ]
+        },
+        {
+          "name": "AppInsightsTrace",
+          "children": [
+            {
+              "name": "Send-AppInsightsTrace"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

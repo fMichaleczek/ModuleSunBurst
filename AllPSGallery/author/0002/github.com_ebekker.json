@@ -1,0 +1,381 @@
+{
+  "name": "github.com ebekker",
+  "children": [
+    {
+      "name": "ACMESharp",
+      "companyName": "github.com ebekker ACMESharp",
+      "author": "github.com ebekker",
+      "children": [
+        {
+          "name": "Certificate",
+          "children": [
+            {
+              "name": "Get-Certificate"
+            },
+            {
+              "name": "Install-Certificate"
+            },
+            {
+              "name": "New-Certificate"
+            },
+            {
+              "name": "Submit-Certificate"
+            },
+            {
+              "name": "Update-Certificate"
+            }
+          ]
+        },
+        {
+          "name": "ChallengeHandlerProfile",
+          "children": [
+            {
+              "name": "Get-ChallengeHandlerProfile"
+            },
+            {
+              "name": "Set-ChallengeHandlerProfile"
+            }
+          ]
+        },
+        {
+          "name": "Identifier",
+          "children": [
+            {
+              "name": "Get-Identifier"
+            },
+            {
+              "name": "New-Identifier"
+            },
+            {
+              "name": "Update-Identifier"
+            }
+          ]
+        },
+        {
+          "name": "Challenge",
+          "children": [
+            {
+              "name": "Complete-Challenge"
+            },
+            {
+              "name": "Submit-Challenge"
+            }
+          ]
+        },
+        {
+          "name": "InstallerProfile",
+          "children": [
+            {
+              "name": "Get-InstallerProfile"
+            },
+            {
+              "name": "Set-InstallerProfile"
+            }
+          ]
+        },
+        {
+          "name": "IssuerCertificate",
+          "children": [
+            {
+              "name": "Get-IssuerCertificate"
+            }
+          ]
+        },
+        {
+          "name": "Vault",
+          "children": [
+            {
+              "name": "Get-Vault"
+            },
+            {
+              "name": "Set-Vault"
+            },
+            {
+              "name": "Initialize-Vault"
+            }
+          ]
+        },
+        {
+          "name": "VaultProfile",
+          "children": [
+            {
+              "name": "Get-VaultProfile"
+            },
+            {
+              "name": "Set-VaultProfile"
+            }
+          ]
+        },
+        {
+          "name": "Proxy",
+          "children": [
+            {
+              "name": "Set-Proxy"
+            }
+          ]
+        },
+        {
+          "name": "ServerDirectory",
+          "children": [
+            {
+              "name": "Set-ServerDirectory"
+            }
+          ]
+        },
+        {
+          "name": "Registration",
+          "children": [
+            {
+              "name": "Get-Registration"
+            },
+            {
+              "name": "New-Registration"
+            },
+            {
+              "name": "Update-Registration"
+            }
+          ]
+        },
+        {
+          "name": "ExtensionModule",
+          "children": [
+            {
+              "name": "Resolve-ExtensionModule"
+            },
+            {
+              "name": "Get-ExtensionModule"
+            },
+            {
+              "name": "Enable-ExtensionModule"
+            },
+            {
+              "name": "Disable-ExtensionModule"
+            }
+          ]
+        },
+        {
+          "name": "ExtensionAsMarkdown",
+          "children": [
+            {
+              "name": "Export-ExtensionAsMarkdown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zyborg.Vault",
+      "companyName": "github.com zyborg",
+      "author": "github.com ebekker",
+      "children": [
+        {
+          "name": "SecretProvider",
+          "children": [
+            {
+              "name": "Dismount-SecretProvider"
+            },
+            {
+              "name": "Mount-SecretProvider"
+            }
+          ]
+        },
+        {
+          "name": "AuthProvider",
+          "children": [
+            {
+              "name": "Dismount-AuthProvider"
+            },
+            {
+              "name": "Enable-AuthProvider"
+            }
+          ]
+        },
+        {
+          "name": "AuditProvider",
+          "children": [
+            {
+              "name": "Dismount-AuditProvider"
+            },
+            {
+              "name": "Enable-AuditProvider"
+            }
+          ]
+        },
+        {
+          "name": "AuthToken",
+          "children": [
+            {
+              "name": "Get-AuthToken"
+            },
+            {
+              "name": "New-AuthToken"
+            },
+            {
+              "name": "Update-AuthToken"
+            },
+            {
+              "name": "Revoke-AuthToken"
+            }
+          ]
+        },
+        {
+          "name": "Instance",
+          "children": [
+            {
+              "name": "Test-Instance"
+            },
+            {
+              "name": "Initialize-Instance"
+            }
+          ]
+        },
+        {
+          "name": "AuthMounts",
+          "children": [
+            {
+              "name": "Get-AuthMounts"
+            }
+          ]
+        },
+        {
+          "name": "AuditMounts",
+          "children": [
+            {
+              "name": "Get-AuditMounts"
+            }
+          ]
+        },
+        {
+          "name": "KeyStatus",
+          "children": [
+            {
+              "name": "Get-KeyStatus"
+            }
+          ]
+        },
+        {
+          "name": "TokenCapabilities",
+          "children": [
+            {
+              "name": "Get-TokenCapabilities"
+            }
+          ]
+        },
+        {
+          "name": "Policy",
+          "children": [
+            {
+              "name": "Get-Policy"
+            },
+            {
+              "name": "Remove-Policy"
+            },
+            {
+              "name": "Set-Policy"
+            }
+          ]
+        },
+        {
+          "name": "SecretMounts",
+          "children": [
+            {
+              "name": "Get-SecretMounts"
+            }
+          ]
+        },
+        {
+          "name": "Secret",
+          "children": [
+            {
+              "name": "Revoke-Secret"
+            }
+          ]
+        },
+        {
+          "name": "SecretLease",
+          "children": [
+            {
+              "name": "Update-SecretLease"
+            }
+          ]
+        },
+        {
+          "name": "SecretMountOptions",
+          "children": [
+            {
+              "name": "Set-SecretMountOptions"
+            }
+          ]
+        },
+        {
+          "name": "Auth",
+          "children": [
+            {
+              "name": "New-Auth"
+            }
+          ]
+        },
+        {
+          "name": "Data",
+          "children": [
+            {
+              "name": "Remove-Data"
+            },
+            {
+              "name": "Read-Data"
+            },
+            {
+              "name": "Write-Data"
+            }
+          ]
+        },
+        {
+          "name": "PathHelp",
+          "children": [
+            {
+              "name": "Get-PathHelp"
+            }
+          ]
+        },
+        {
+          "name": "DataList",
+          "children": [
+            {
+              "name": "Get-DataList"
+            }
+          ]
+        },
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Lock-Server"
+            },
+            {
+              "name": "Unlock-Server"
+            }
+          ]
+        },
+        {
+          "name": "Profile",
+          "children": [
+            {
+              "name": "Get-Profile"
+            },
+            {
+              "name": "Set-Profile"
+            }
+          ]
+        },
+        {
+          "name": "Status",
+          "children": [
+            {
+              "name": "Get-Status"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

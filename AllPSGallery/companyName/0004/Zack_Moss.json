@@ -1,0 +1,590 @@
+{
+  "name": "Zack Moss",
+  "children": [
+    {
+      "name": "PoshSophos",
+      "companyName": "Zack Moss",
+      "author": "Zack Moss",
+      "children": [
+        {
+          "name": "SophosCentralCredential",
+          "children": [
+            {
+              "name": "Get-SophosCentralCredential"
+            }
+          ]
+        },
+        {
+          "name": "SophosCentral",
+          "children": [
+            {
+              "name": "Connect-SophosCentral"
+            }
+          ]
+        },
+        {
+          "name": "SophosCentralHeaders",
+          "children": [
+            {
+              "name": "New-SophosCentralHeaders"
+            }
+          ]
+        },
+        {
+          "name": "SophosCentralWebRequest",
+          "children": [
+            {
+              "name": "Invoke-SophosCentralWebRequest"
+            }
+          ]
+        },
+        {
+          "name": "UriBuilder",
+          "children": [
+            {
+              "name": "Invoke-UriBuilder"
+            }
+          ]
+        },
+        {
+          "name": "Secret",
+          "children": [
+            {
+              "name": "Unprotect-Secret"
+            }
+          ]
+        },
+        {
+          "name": "SophosCentralEndpoint",
+          "children": [
+            {
+              "name": "Get-SophosCentralEndpoint"
+            },
+            {
+              "name": "Remove-SophosCentralEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "SophosCentralEndpointDetail",
+          "children": [
+            {
+              "name": "Get-SophosCentralEndpointDetail"
+            }
+          ]
+        },
+        {
+          "name": "SophosCentralSiemEvents",
+          "children": [
+            {
+              "name": "Get-SophosCentralSiemEvents"
+            }
+          ]
+        },
+        {
+          "name": "SophosCentralSiemAlerts",
+          "children": [
+            {
+              "name": "Get-SophosCentralSiemAlerts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshUnifi",
+      "companyName": "Zack Moss",
+      "author": "Zack Moss",
+      "children": [
+        {
+          "name": "UnifiController",
+          "children": [
+            {
+              "name": "Connect-UnifiController"
+            }
+          ]
+        },
+        {
+          "name": "UnifiControllerBackup",
+          "children": [
+            {
+              "name": "Invoke-UnifiControllerBackup"
+            }
+          ]
+        },
+        {
+          "name": "UnifiSite",
+          "children": [
+            {
+              "name": "Get-UnifiSite"
+            }
+          ]
+        },
+        {
+          "name": "UnifiSiteDevice",
+          "children": [
+            {
+              "name": "Get-UnifiSiteDevice"
+            }
+          ]
+        },
+        {
+          "name": "UnifiSiteClient",
+          "children": [
+            {
+              "name": "Get-UnifiSiteClient"
+            }
+          ]
+        },
+        {
+          "name": "UnifiDeviceByMAC",
+          "children": [
+            {
+              "name": "Get-UnifiDeviceByMAC"
+            }
+          ]
+        },
+        {
+          "name": "RebootUnifiDevice",
+          "children": [
+            {
+              "name": "Invoke-RebootUnifiDevice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshWUG",
+      "companyName": "Zack Moss",
+      "author": "Zack Moss",
+      "children": [
+        {
+          "name": "WUGToken",
+          "children": [
+            {
+              "name": "Get-WUGToken"
+            }
+          ]
+        },
+        {
+          "name": "WUGRefreshToken",
+          "children": [
+            {
+              "name": "Request-WUGRefreshToken"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        },
+        {
+          "name": "WUGDevice",
+          "children": [
+            {
+              "name": "Get-WUGDevice"
+            }
+          ]
+        },
+        {
+          "name": "WUGDeviceGroupAssignment",
+          "children": [
+            {
+              "name": "Get-WUGDeviceGroupAssignment"
+            }
+          ]
+        },
+        {
+          "name": "WUGDeviceAttribute",
+          "children": [
+            {
+              "name": "Get-WUGDeviceAttribute"
+            }
+          ]
+        },
+        {
+          "name": "WUGActiveMonitorToDevice",
+          "children": [
+            {
+              "name": "Add-WUGActiveMonitorToDevice"
+            }
+          ]
+        },
+        {
+          "name": "WUGMonitoredDevice",
+          "children": [
+            {
+              "name": "Add-WUGMonitoredDevice"
+            }
+          ]
+        },
+        {
+          "name": "WUGDeviceProperty",
+          "children": [
+            {
+              "name": "Update-WUGDeviceProperty"
+            }
+          ]
+        },
+        {
+          "name": "WUGDeviceRole",
+          "children": [
+            {
+              "name": "Get-WUGDeviceRole"
+            }
+          ]
+        },
+        {
+          "name": "WUGDeviceGroup",
+          "children": [
+            {
+              "name": "Add-WUGDeviceGroup"
+            },
+            {
+              "name": "Get-WUGDeviceGroup"
+            }
+          ]
+        },
+        {
+          "name": "WUGDeviceMaintenanceMode",
+          "children": [
+            {
+              "name": "Invoke-WUGDeviceMaintenanceMode"
+            }
+          ]
+        },
+        {
+          "name": "WUGDeviceGroupsSummary",
+          "children": [
+            {
+              "name": "Get-WUGDeviceGroupsSummary"
+            }
+          ]
+        },
+        {
+          "name": "WUGDeviceGroupRefresh",
+          "children": [
+            {
+              "name": "Invoke-WUGDeviceGroupRefresh"
+            }
+          ]
+        },
+        {
+          "name": "WUGMonitor",
+          "children": [
+            {
+              "name": "Add-WUGMonitor"
+            },
+            {
+              "name": "Get-WUGMonitor"
+            }
+          ]
+        },
+        {
+          "name": "WUGDeviceGroupUptime",
+          "children": [
+            {
+              "name": "Get-WUGDeviceGroupUptime"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshZoom",
+      "companyName": "Zack Moss",
+      "author": "Zack Moss",
+      "children": [
+        {
+          "name": "ZoomOAuthCredentials",
+          "children": [
+            {
+              "name": "Get-ZoomOAuthCredentials"
+            }
+          ]
+        },
+        {
+          "name": "ZoomOAuthToken",
+          "children": [
+            {
+              "name": "New-ZoomOAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "ZoomHeaders",
+          "children": [
+            {
+              "name": "New-ZoomHeaders"
+            }
+          ]
+        },
+        {
+          "name": "ZoomRestMethod",
+          "children": [
+            {
+              "name": "Invoke-ZoomRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "AvailableNumbers",
+          "children": [
+            {
+              "name": "Get-AvailableNumbers"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        },
+        {
+          "name": "ZoomUserSummary",
+          "children": [
+            {
+              "name": "Get-ZoomUserSummary"
+            }
+          ]
+        },
+        {
+          "name": "ZoomUserInfo",
+          "children": [
+            {
+              "name": "Get-ZoomUserInfo"
+            }
+          ]
+        },
+        {
+          "name": "ZoomUser",
+          "children": [
+            {
+              "name": "Get-ZoomUser"
+            },
+            {
+              "name": "Remove-ZoomUser"
+            }
+          ]
+        },
+        {
+          "name": "ZoomUserDelegate",
+          "children": [
+            {
+              "name": "Get-ZoomUserDelegate"
+            }
+          ]
+        },
+        {
+          "name": "RevokeZoomSSOToken",
+          "children": [
+            {
+              "name": "Invoke-RevokeZoomSSOToken"
+            }
+          ]
+        },
+        {
+          "name": "ZoomDeskPhoneDevice",
+          "children": [
+            {
+              "name": "Add-ZoomDeskPhoneDevice"
+            },
+            {
+              "name": "Get-ZoomDeskPhoneDevice"
+            },
+            {
+              "name": "Update-ZoomDeskPhoneDevice"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneBlockedNumber",
+          "children": [
+            {
+              "name": "Add-ZoomPhoneBlockedNumber"
+            },
+            {
+              "name": "Remove-ZoomPhoneBlockedNumber"
+            }
+          ]
+        },
+        {
+          "name": "ZoomCallLogs",
+          "children": [
+            {
+              "name": "Get-ZoomCallLogs"
+            }
+          ]
+        },
+        {
+          "name": "ZoomCommonArea",
+          "children": [
+            {
+              "name": "Get-ZoomCommonArea"
+            }
+          ]
+        },
+        {
+          "name": "ZoomCommonAreaSettings",
+          "children": [
+            {
+              "name": "Get-ZoomCommonAreaSettings"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneHotDeskingStatus",
+          "children": [
+            {
+              "name": "Get-ZoomPhoneHotDeskingStatus"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneNumber",
+          "children": [
+            {
+              "name": "Get-ZoomPhoneNumber"
+            }
+          ]
+        },
+        {
+          "name": "ZoomDeskPhoneProvisionTemplate",
+          "children": [
+            {
+              "name": "Get-ZoomDeskPhoneProvisionTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneSharedLineGroup",
+          "children": [
+            {
+              "name": "Get-ZoomPhoneSharedLineGroup"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneSharedLineGroupSettings",
+          "children": [
+            {
+              "name": "Get-ZoomPhoneSharedLineGroupSettings"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneUser",
+          "children": [
+            {
+              "name": "Get-ZoomPhoneUser"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneUserProfile",
+          "children": [
+            {
+              "name": "Get-ZoomPhoneUserProfile"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneUserProfileSettings",
+          "children": [
+            {
+              "name": "Get-ZoomPhoneUserProfileSettings"
+            }
+          ]
+        },
+        {
+          "name": "ZoomDeskPhoneIPInfo",
+          "children": [
+            {
+              "name": "Get-ZoomDeskPhoneIPInfo"
+            }
+          ]
+        },
+        {
+          "name": "ZoomDeskPhoneSettings",
+          "children": [
+            {
+              "name": "Get-ZoomDeskPhoneSettings"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneQueue",
+          "children": [
+            {
+              "name": "Get-ZoomPhoneQueue"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneQueueMembers",
+          "children": [
+            {
+              "name": "Get-ZoomPhoneQueueMembers"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneQueueSettings",
+          "children": [
+            {
+              "name": "Get-ZoomPhoneQueueSettings"
+            }
+          ]
+        },
+        {
+          "name": "ZoomAutoReceptionistNumber",
+          "children": [
+            {
+              "name": "Set-ZoomAutoReceptionistNumber"
+            }
+          ]
+        },
+        {
+          "name": "ZoomCommonAreaHotDeskStatus",
+          "children": [
+            {
+              "name": "Set-ZoomCommonAreaHotDeskStatus"
+            }
+          ]
+        },
+        {
+          "name": "ZoomPhoneUserHotDeskStatus",
+          "children": [
+            {
+              "name": "Set-ZoomPhoneUserHotDeskStatus"
+            }
+          ]
+        },
+        {
+          "name": "ZoomRoom",
+          "children": [
+            {
+              "name": "Get-ZoomRoom"
+            }
+          ]
+        },
+        {
+          "name": "ZoomRoomDevice",
+          "children": [
+            {
+              "name": "Get-ZoomRoomDevice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

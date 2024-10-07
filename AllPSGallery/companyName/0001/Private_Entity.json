@@ -1,0 +1,39 @@
+{
+  "name": "Private Entity",
+  "children": [
+    {
+      "name": "PSRule.Rules.AzureDevOps",
+      "companyName": "Private Entity",
+      "author": "Roderick Bant",
+      "children": [
+        {
+          "name": "AzDevOpsRuleData",
+          "children": [
+            {
+              "name": "Export-AzDevOpsRuleData"
+            }
+          ]
+        },
+        {
+          "name": "AzDevOpsOrganizationRuleData",
+          "children": [
+            {
+              "name": "Export-AzDevOpsOrganizationRuleData"
+            }
+          ]
+        },
+        {
+          "name": "AzDevOps",
+          "children": [
+            {
+              "name": "Connect-AzDevOps"
+            },
+            {
+              "name": "Disconnect-AzDevOps"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

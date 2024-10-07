@@ -1,0 +1,92 @@
+{
+  "name": "sawamura",
+  "children": [
+    {
+      "name": "pwsh-dotenv",
+      "companyName": "Unknown",
+      "author": "sawamura",
+      "children": [
+        {
+          "name": "Dotenv",
+          "children": [
+            {
+              "name": "ConvertFrom-Dotenv"
+            },
+            {
+              "name": "Import-Dotenv"
+            },
+            {
+              "name": "Read-Dotenv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pwsh-environment",
+      "companyName": "Unknown",
+      "author": "sawamura",
+      "children": [
+        {
+          "name": "EnvironmentStack",
+          "children": [
+            {
+              "name": "Get-EnvironmentStack"
+            },
+            {
+              "name": "Pop-EnvironmentStack"
+            },
+            {
+              "name": "Push-EnvironmentStack"
+            },
+            {
+              "name": "Remove-EnvironmentStack"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentVariable",
+          "children": [
+            {
+              "name": "Get-EnvironmentVariable"
+            },
+            {
+              "name": "Remove-EnvironmentVariable"
+            },
+            {
+              "name": "Set-EnvironmentVariable"
+            },
+            {
+              "name": "Test-EnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentDefaultStack",
+          "children": [
+            {
+              "name": "Switch-EnvironmentDefaultStack"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentPath",
+          "children": [
+            {
+              "name": "Add-EnvironmentPath"
+            },
+            {
+              "name": "Get-EnvironmentPath"
+            },
+            {
+              "name": "Remove-EnvironmentPath"
+            },
+            {
+              "name": "Test-EnvironmentPath"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

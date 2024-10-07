@@ -1,0 +1,212 @@
+{
+  "name": "Sameer Zeidat",
+  "children": [
+    {
+      "name": "OpenSSL",
+      "companyName": "Unknown",
+      "author": "Sameer Zeidat",
+      "children": [
+        {
+          "name": "PrivateKey",
+          "children": [
+            {
+              "name": "New-PrivateKey"
+            },
+            {
+              "name": "Get-PrivateKey"
+            },
+            {
+              "name": "Convert-PrivateKey"
+            },
+            {
+              "name": "Export-PrivateKey"
+            }
+          ]
+        },
+        {
+          "name": "PublicKey",
+          "children": [
+            {
+              "name": "Export-PublicKey"
+            },
+            {
+              "name": "Get-PublicKey"
+            },
+            {
+              "name": "Convert-PublicKey"
+            }
+          ]
+        },
+        {
+          "name": "SelfSignedCertificate",
+          "children": [
+            {
+              "name": "New-SelfSignedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "Certificate",
+          "children": [
+            {
+              "name": "Get-Certificate"
+            },
+            {
+              "name": "Convert-Certificate"
+            }
+          ]
+        },
+        {
+          "name": "CertificateRequest",
+          "children": [
+            {
+              "name": "New-CertificateRequest"
+            },
+            {
+              "name": "Get-CertificateRequest"
+            },
+            {
+              "name": "Convert-CertificateRequest"
+            }
+          ]
+        },
+        {
+          "name": "SignCertificateRequest",
+          "children": [
+            {
+              "name": "Invoke-SignCertificateRequest"
+            }
+          ]
+        },
+        {
+          "name": "CertificateStore",
+          "children": [
+            {
+              "name": "New-CertificateStore"
+            }
+          ]
+        },
+        {
+          "name": "ClientCertificate",
+          "children": [
+            {
+              "name": "Export-ClientCertificate"
+            }
+          ]
+        },
+        {
+          "name": "AuthorityCertificate",
+          "children": [
+            {
+              "name": "Export-AuthorityCertificate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPPCmdlets",
+      "companyName": "Unknown",
+      "author": "Sameer Zeidat",
+      "children": [
+        {
+          "name": "SPPBundle",
+          "children": [
+            {
+              "name": "Add-SPPBundle"
+            },
+            {
+              "name": "Get-SPPBundle"
+            },
+            {
+              "name": "Remove-SPPBundle"
+            }
+          ]
+        },
+        {
+          "name": "SPPBundleCsv",
+          "children": [
+            {
+              "name": "ConvertTo-SPPBundleCsv"
+            }
+          ]
+        },
+        {
+          "name": "SPPBundleHtml",
+          "children": [
+            {
+              "name": "ConvertTo-SPPBundleHtml"
+            }
+          ]
+        },
+        {
+          "name": "SPPCategory",
+          "children": [
+            {
+              "name": "Get-SPPCategory"
+            }
+          ]
+        },
+        {
+          "name": "SPPDevice",
+          "children": [
+            {
+              "name": "Get-SPPDevice"
+            }
+          ]
+        },
+        {
+          "name": "SPPOperatingSystem",
+          "children": [
+            {
+              "name": "Get-SPPOperatingSystem"
+            }
+          ]
+        },
+        {
+          "name": "SPPSystem",
+          "children": [
+            {
+              "name": "Get-SPPSystem"
+            }
+          ]
+        },
+        {
+          "name": "SPPType",
+          "children": [
+            {
+              "name": "Get-SPPType"
+            }
+          ]
+        },
+        {
+          "name": "SPPComponent",
+          "children": [
+            {
+              "name": "Get-SPPComponent"
+            },
+            {
+              "name": "Copy-SPPComponent"
+            }
+          ]
+        },
+        {
+          "name": "SPPComponentCsv",
+          "children": [
+            {
+              "name": "ConvertTo-SPPComponentCsv"
+            }
+          ]
+        },
+        {
+          "name": "SPPComponentHtml",
+          "children": [
+            {
+              "name": "ConvertTo-SPPComponentHtml"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "name": "loanDepot",
+  "children": [
+    {
+      "name": "DependsOn",
+      "companyName": "loanDepot",
+      "author": "Kevin Marquette",
+      "children": [
+        {
+          "name": "DependencyOrder",
+          "children": [
+            {
+              "name": "Resolve-DependencyOrder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NpmPS",
+      "companyName": "loanDepot",
+      "author": "loanDepot",
+      "children": [
+        {
+          "name": "NpmPackageInfo",
+          "children": [
+            {
+              "name": "Get-NpmPackageInfo"
+            }
+          ]
+        },
+        {
+          "name": "NpmPackage",
+          "children": [
+            {
+              "name": "Publish-NpmPackage"
+            },
+            {
+              "name": "Test-NpmPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SnowSQL",
+      "companyName": "loanDepot",
+      "author": "Kevin Marquette",
+      "children": [
+        {
+          "name": "SnowSqlRoleMember",
+          "children": [
+            {
+              "name": "Add-SnowSqlRoleMember"
+            },
+            {
+              "name": "Get-SnowSqlRoleMember"
+            },
+            {
+              "name": "Remove-SnowSqlRoleMember"
+            }
+          ]
+        },
+        {
+          "name": "SnowSqlUser",
+          "children": [
+            {
+              "name": "Disable-SnowSqlUser"
+            },
+            {
+              "name": "Enable-SnowSqlUser"
+            },
+            {
+              "name": "Get-SnowSqlUser"
+            },
+            {
+              "name": "New-SnowSqlUser"
+            }
+          ]
+        },
+        {
+          "name": "SnowSqlConnection",
+          "children": [
+            {
+              "name": "Get-SnowSqlConnection"
+            },
+            {
+              "name": "Open-SnowSqlConnection"
+            }
+          ]
+        },
+        {
+          "name": "SnowSqlRole",
+          "children": [
+            {
+              "name": "Get-SnowSqlRole"
+            },
+            {
+              "name": "New-SnowSqlRole"
+            }
+          ]
+        },
+        {
+          "name": "SnowSql",
+          "children": [
+            {
+              "name": "Invoke-SnowSql"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TFVC",
+      "companyName": "loanDepot",
+      "author": "loanDepot",
+      "children": [
+        {
+          "name": "TFVCItem",
+          "children": [
+            {
+              "name": "Add-TFVCItem"
+            }
+          ]
+        },
+        {
+          "name": "TFVCWorkspaceMapping",
+          "children": [
+            {
+              "name": "Add-TFVCWorkspaceMapping"
+            },
+            {
+              "name": "Get-TFVCWorkspaceMapping"
+            },
+            {
+              "name": "Remove-TFVCWorkspaceMapping"
+            }
+          ]
+        },
+        {
+          "name": "TFVCActiveWorkspace",
+          "children": [
+            {
+              "name": "Get-TFVCActiveWorkspace"
+            },
+            {
+              "name": "Remove-TFVCActiveWorkspace"
+            },
+            {
+              "name": "Set-TFVCActiveWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "TFVCChangeset",
+          "children": [
+            {
+              "name": "Get-TFVCChangeset"
+            },
+            {
+              "name": "Merge-TFVCChangeset"
+            }
+          ]
+        },
+        {
+          "name": "TFVCFile",
+          "children": [
+            {
+              "name": "Get-TFVCFile"
+            }
+          ]
+        },
+        {
+          "name": "TFVCHistory",
+          "children": [
+            {
+              "name": "Get-TFVCHistory"
+            }
+          ]
+        },
+        {
+          "name": "TFVCLatest",
+          "children": [
+            {
+              "name": "Get-TFVCLatest"
+            }
+          ]
+        },
+        {
+          "name": "TFVCMergeCandidate",
+          "children": [
+            {
+              "name": "Get-TFVCMergeCandidate"
+            }
+          ]
+        },
+        {
+          "name": "TFVCPendingChange",
+          "children": [
+            {
+              "name": "Get-TFVCPendingChange"
+            },
+            {
+              "name": "Remove-TFVCPendingChange"
+            },
+            {
+              "name": "Save-TFVCPendingChange"
+            }
+          ]
+        },
+        {
+          "name": "TFVCSession",
+          "children": [
+            {
+              "name": "Get-TFVCSession"
+            },
+            {
+              "name": "New-TFVCSession"
+            },
+            {
+              "name": "Remove-TFVCSession"
+            }
+          ]
+        },
+        {
+          "name": "TFVCWorkspace",
+          "children": [
+            {
+              "name": "Get-TFVCWorkspace"
+            },
+            {
+              "name": "New-TFVCWorkspace"
+            },
+            {
+              "name": "Remove-TFVCWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "TFVCShelveset",
+          "children": [
+            {
+              "name": "New-TFVCShelveset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VsoLoggingCommands",
+      "companyName": "loanDepot",
+      "author": "loanDepot",
+      "children": [
+        {
+          "name": "VsoArtifactFile",
+          "children": [
+            {
+              "name": "Add-VsoArtifactFile"
+            }
+          ]
+        },
+        {
+          "name": "VsoArtifactLink",
+          "children": [
+            {
+              "name": "Add-VsoArtifactLink"
+            }
+          ]
+        },
+        {
+          "name": "VsoAttachment",
+          "children": [
+            {
+              "name": "Add-VsoAttachment"
+            }
+          ]
+        },
+        {
+          "name": "VsoFile",
+          "children": [
+            {
+              "name": "Add-VsoFile"
+            }
+          ]
+        },
+        {
+          "name": "VsoLogFile",
+          "children": [
+            {
+              "name": "Add-VsoLogFile"
+            }
+          ]
+        },
+        {
+          "name": "VsoPath",
+          "children": [
+            {
+              "name": "Add-VsoPath"
+            }
+          ]
+        },
+        {
+          "name": "VsoSummary",
+          "children": [
+            {
+              "name": "Add-VsoSummary"
+            }
+          ]
+        },
+        {
+          "name": "VsoTag",
+          "children": [
+            {
+              "name": "Add-VsoTag"
+            }
+          ]
+        },
+        {
+          "name": "VsoBuildNumber",
+          "children": [
+            {
+              "name": "Set-VsoBuildNumber"
+            }
+          ]
+        },
+        {
+          "name": "VsoCompleteStatus",
+          "children": [
+            {
+              "name": "Set-VsoCompleteStatus"
+            }
+          ]
+        },
+        {
+          "name": "VsoEndpoint",
+          "children": [
+            {
+              "name": "Set-VsoEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "VsoProgress",
+          "children": [
+            {
+              "name": "Set-VsoProgress"
+            }
+          ]
+        },
+        {
+          "name": "VsoReleaseName",
+          "children": [
+            {
+              "name": "Set-VsoReleaseName"
+            }
+          ]
+        },
+        {
+          "name": "VsoVariable",
+          "children": [
+            {
+              "name": "Set-VsoVariable"
+            }
+          ]
+        },
+        {
+          "name": "VsoError",
+          "children": [
+            {
+              "name": "Write-VsoError"
+            }
+          ]
+        },
+        {
+          "name": "VsoLogDetail",
+          "children": [
+            {
+              "name": "Write-VsoLogDetail"
+            }
+          ]
+        },
+        {
+          "name": "VsoWarning",
+          "children": [
+            {
+              "name": "Write-VsoWarning"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

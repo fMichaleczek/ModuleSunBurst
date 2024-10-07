@@ -1,0 +1,28 @@
+{
+  "name": "OSCO IT",
+  "children": [
+    {
+      "name": "BouncyPowershellPGP",
+      "companyName": "OSCO IT",
+      "author": "Christopher Logan",
+      "children": [
+        {
+          "name": "EncryptedPGPFile",
+          "children": [
+            {
+              "name": "ConvertFrom-EncryptedPGPFile"
+            }
+          ]
+        },
+        {
+          "name": "EncryptedPGPFolder",
+          "children": [
+            {
+              "name": "Decrypt-EncryptedPGPFolder"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

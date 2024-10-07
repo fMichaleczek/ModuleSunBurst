@@ -1,0 +1,431 @@
+{
+  "name": "Easit AB",
+  "children": [
+    {
+      "name": "Easit.GO.Webservice",
+      "companyName": "Easit AB",
+      "author": "Anders Thyrsson",
+      "children": [
+        {
+          "name": "EasitGODatasource",
+          "children": [
+            {
+              "name": "Get-EasitGODatasource"
+            }
+          ]
+        },
+        {
+          "name": "EasitGOImportClientConfiguration",
+          "children": [
+            {
+              "name": "Get-EasitGOImportClientConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "EasitGOItem",
+          "children": [
+            {
+              "name": "Get-EasitGOItem"
+            }
+          ]
+        },
+        {
+          "name": "ColumnFilter",
+          "children": [
+            {
+              "name": "New-ColumnFilter"
+            }
+          ]
+        },
+        {
+          "name": "EasitGOItemToImport",
+          "children": [
+            {
+              "name": "New-EasitGOItemToImport"
+            }
+          ]
+        },
+        {
+          "name": "SortColumn",
+          "children": [
+            {
+              "name": "New-SortColumn"
+            }
+          ]
+        },
+        {
+          "name": "ToEasitGO",
+          "children": [
+            {
+              "name": "Send-ToEasitGO"
+            }
+          ]
+        },
+        {
+          "name": "EasitGOConnection",
+          "children": [
+            {
+              "name": "Test-EasitGOConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Easit.ProcessRunner.GlobalFunctions",
+      "companyName": "Easit AB",
+      "author": "Anders Thyrsson",
+      "children": [
+        {
+          "name": "EasitGOExportString",
+          "children": [
+            {
+              "name": "Convert-EasitGOExportString"
+            }
+          ]
+        },
+        {
+          "name": "OUString",
+          "children": [
+            {
+              "name": "Convert-OUString"
+            }
+          ]
+        },
+        {
+          "name": "Base64",
+          "children": [
+            {
+              "name": "ConvertFrom-Base64"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "SettingsFromFile",
+          "children": [
+            {
+              "name": "Get-SettingsFromFile"
+            }
+          ]
+        },
+        {
+          "name": "EPRInstallation",
+          "children": [
+            {
+              "name": "New-EPRInstallation"
+            }
+          ]
+        },
+        {
+          "name": "FlatReturnObject",
+          "children": [
+            {
+              "name": "New-FlatReturnObject"
+            }
+          ]
+        },
+        {
+          "name": "StringAsUTF8",
+          "children": [
+            {
+              "name": "Read-StringAsUTF8"
+            }
+          ]
+        },
+        {
+          "name": "EPRDirectoryPermission",
+          "children": [
+            {
+              "name": "Set-EPRDirectoryPermission"
+            }
+          ]
+        },
+        {
+          "name": "EPREnvironment",
+          "children": [
+            {
+              "name": "Set-EPREnvironment"
+            }
+          ]
+        },
+        {
+          "name": "CustomLog",
+          "children": [
+            {
+              "name": "Write-CustomLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EasitGoWebservice",
+      "companyName": "Easit AB",
+      "author": "Anders Thyrsson",
+      "children": [
+        {
+          "name": "GOItems",
+          "children": [
+            {
+              "name": "Get-GOItems"
+            }
+          ]
+        },
+        {
+          "name": "GOAssetItem",
+          "children": [
+            {
+              "name": "Import-GOAssetItem"
+            }
+          ]
+        },
+        {
+          "name": "GOContactItem",
+          "children": [
+            {
+              "name": "Import-GOContactItem"
+            }
+          ]
+        },
+        {
+          "name": "GOCustomItem",
+          "children": [
+            {
+              "name": "Import-GOCustomItem"
+            }
+          ]
+        },
+        {
+          "name": "GOOrganizationItem",
+          "children": [
+            {
+              "name": "Import-GOOrganizationItem"
+            }
+          ]
+        },
+        {
+          "name": "GORequestItem",
+          "children": [
+            {
+              "name": "Import-GORequestItem"
+            }
+          ]
+        },
+        {
+          "name": "GOWebService",
+          "children": [
+            {
+              "name": "Ping-GOWebService"
+            }
+          ]
+        },
+        {
+          "name": "GOWsEndpoint",
+          "children": [
+            {
+              "name": "Test-GOWsEndpoint"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EasitManagementFramework",
+      "companyName": "Easit AB",
+      "author": "Anders Thyrsson",
+      "children": [
+        {
+          "name": "CertificateToEasitTrustStore",
+          "children": [
+            {
+              "name": "Add-CertificateToEasitTrustStore"
+            }
+          ]
+        },
+        {
+          "name": "EasitScheduledTask",
+          "children": [
+            {
+              "name": "Disable-EasitScheduledTask"
+            },
+            {
+              "name": "Enable-EasitScheduledTask"
+            },
+            {
+              "name": "Get-EasitScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "EasitEmailRequestMailbox",
+          "children": [
+            {
+              "name": "Get-EasitEmailRequestMailbox"
+            }
+          ]
+        },
+        {
+          "name": "EasitLog",
+          "children": [
+            {
+              "name": "Get-EasitLog"
+            }
+          ]
+        },
+        {
+          "name": "EasitTrustStoreCertificate",
+          "children": [
+            {
+              "name": "Get-EasitTrustStoreCertificate"
+            }
+          ]
+        },
+        {
+          "name": "EMFConfig",
+          "children": [
+            {
+              "name": "Get-EMFConfig"
+            },
+            {
+              "name": "New-EMFConfig"
+            },
+            {
+              "name": "Set-EMFConfig"
+            }
+          ]
+        },
+        {
+          "name": "EasitManagementFramework",
+          "children": [
+            {
+              "name": "Initialize-EasitManagementFramework"
+            }
+          ]
+        },
+        {
+          "name": "EasitGOHealthCheck",
+          "children": [
+            {
+              "name": "Invoke-EasitGOHealthCheck"
+            }
+          ]
+        },
+        {
+          "name": "EasitGOUpdate",
+          "children": [
+            {
+              "name": "Invoke-EasitGOUpdate"
+            }
+          ]
+        },
+        {
+          "name": "Email2GOUpdate",
+          "children": [
+            {
+              "name": "Invoke-Email2GOUpdate"
+            }
+          ]
+        },
+        {
+          "name": "CertificateFromEasitTrustStore",
+          "children": [
+            {
+              "name": "Remove-CertificateFromEasitTrustStore"
+            }
+          ]
+        },
+        {
+          "name": "EasitEmailRequestMailboxSetting",
+          "children": [
+            {
+              "name": "Set-EasitEmailRequestMailboxSetting"
+            }
+          ]
+        },
+        {
+          "name": "EasitGOApplication",
+          "children": [
+            {
+              "name": "Start-EasitGOApplication"
+            },
+            {
+              "name": "Stop-EasitGOApplication"
+            }
+          ]
+        },
+        {
+          "name": "EMFXMLData",
+          "children": [
+            {
+              "name": "Test-EMFXMLData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EPR.GlobalFunctions",
+      "companyName": "Easit AB",
+      "author": "Anders Thyrsson",
+      "children": [
+        {
+          "name": "OUString",
+          "children": [
+            {
+              "name": "Convert-OUString"
+            }
+          ]
+        },
+        {
+          "name": "SettingsFromFile",
+          "children": [
+            {
+              "name": "Get-SettingsFromFile"
+            }
+          ]
+        },
+        {
+          "name": "EPRInstallation",
+          "children": [
+            {
+              "name": "New-EPRInstallation"
+            }
+          ]
+        },
+        {
+          "name": "CustomLog",
+          "children": [
+            {
+              "name": "Write-CustomLog"
+            }
+          ]
+        },
+        {
+          "name": "PostBody",
+          "children": [
+            {
+              "name": "New-PostBody"
+            }
+          ]
+        },
+        {
+          "name": "EPRInstallLog",
+          "children": [
+            {
+              "name": "Write-EPRInstallLog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

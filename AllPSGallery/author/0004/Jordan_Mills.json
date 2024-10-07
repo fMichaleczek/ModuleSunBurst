@@ -1,0 +1,82 @@
+{
+  "name": "Jordan Mills",
+  "children": [
+    {
+      "name": "CreateExoPsSession",
+      "companyName": "Unknown",
+      "author": "Jordan Mills",
+      "children": [
+        {
+          "name": "ExoPSSession",
+          "children": [
+            {
+              "name": "New-ExoPSSession"
+            },
+            {
+              "name": "Connect-EXOPSSession"
+            }
+          ]
+        },
+        {
+          "name": "IPPSSession",
+          "children": [
+            {
+              "name": "Connect-IPPSSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FileAclTools",
+      "companyName": "Jordan Mills",
+      "author": "Jordan Mills",
+      "children": [
+        {
+          "name": "FolderAcl",
+          "children": [
+            {
+              "name": "Add-FolderAcl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft.Exchange.Management.ExoPowershellModule",
+      "companyName": "Unknown",
+      "author": "Jordan Mills",
+      "children": [
+        {
+          "name": "ExoPSSession",
+          "children": [
+            {
+              "name": "New-ExoPSSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vaultcredential",
+      "companyName": "Unknown",
+      "author": "Jordan Mills",
+      "children": [
+        {
+          "name": "VaultCredential",
+          "children": [
+            {
+              "name": "Get-VaultCredential"
+            },
+            {
+              "name": "Add-VaultCredential"
+            },
+            {
+              "name": "Remove-VaultCredential"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

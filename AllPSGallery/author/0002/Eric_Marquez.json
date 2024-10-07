@@ -1,0 +1,83 @@
+{
+  "name": "Eric Marquez",
+  "children": [
+    {
+      "name": "Microsoft.AzureStack.Util.ConvertNetwork",
+      "companyName": "Microsoft Corporation",
+      "author": "Eric Marquez",
+      "children": [
+        {
+          "name": "BroadcastAddressFromIP",
+          "children": [
+            {
+              "name": "Get-BroadcastAddressFromIP"
+            }
+          ]
+        },
+        {
+          "name": "CidrFromSubnetMask",
+          "children": [
+            {
+              "name": "Get-CidrFromSubnetMask"
+            }
+          ]
+        },
+        {
+          "name": "IPHostMaskFromSubnetMask",
+          "children": [
+            {
+              "name": "Get-IPHostMaskFromSubnetMask"
+            }
+          ]
+        },
+        {
+          "name": "NetworkAddressFromIP",
+          "children": [
+            {
+              "name": "Get-NetworkAddressFromIP"
+            }
+          ]
+        },
+        {
+          "name": "SubnetMaskFromCidr",
+          "children": [
+            {
+              "name": "Get-SubnetMaskFromCidr"
+            }
+          ]
+        },
+        {
+          "name": "MicrosoftAzureStackUtilConvertNetwork",
+          "children": [
+            {
+              "name": "New-MicrosoftAzureStackUtilConvertNetwork"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "posh-syslogger",
+      "companyName": "Eric Marquez",
+      "author": "Eric Marquez",
+      "children": [
+        {
+          "name": "Syslog",
+          "children": [
+            {
+              "name": "New-Syslog"
+            }
+          ]
+        },
+        {
+          "name": "SyslogMessage",
+          "children": [
+            {
+              "name": "Send-SyslogMessage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

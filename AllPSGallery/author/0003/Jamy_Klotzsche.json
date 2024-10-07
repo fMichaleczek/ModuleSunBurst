@@ -1,0 +1,225 @@
+{
+  "name": "Jamy Klotzsche",
+  "children": [
+    {
+      "name": "ExchangeOnlineArchiveTransfer",
+      "companyName": "Unknown",
+      "author": "Jamy Klotzsche",
+      "children": [
+        {
+          "name": "EOATExchangeWebService",
+          "children": [
+            {
+              "name": "Connect-EOATExchangeWebService"
+            },
+            {
+              "name": "Disconnect-EOATExchangeWebService"
+            }
+          ]
+        },
+        {
+          "name": "EOATMailFolder",
+          "children": [
+            {
+              "name": "Get-EOATMailFolder"
+            }
+          ]
+        },
+        {
+          "name": "EOATMailItem",
+          "children": [
+            {
+              "name": "Get-EOATMailItem"
+            }
+          ]
+        },
+        {
+          "name": "EOATMailItemToOtherMailbox",
+          "children": [
+            {
+              "name": "Move-EOATMailItemToOtherMailbox"
+            },
+            {
+              "name": "Copy-EOATMailItemToOtherMailbox"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS.MTA-STS",
+      "companyName": "Unknown",
+      "author": "Jamy Klotzsche",
+      "children": [
+        {
+          "name": "PSMTASTSDomainsFromExo",
+          "children": [
+            {
+              "name": "Export-PSMTASTSDomainsFromExo"
+            }
+          ]
+        },
+        {
+          "name": "PSMTASTSFunctionAppDeployment",
+          "children": [
+            {
+              "name": "New-PSMTASTSFunctionAppDeployment"
+            }
+          ]
+        },
+        {
+          "name": "PSMTASTSFunctionAppFile",
+          "children": [
+            {
+              "name": "Update-PSMTASTSFunctionAppFile"
+            }
+          ]
+        },
+        {
+          "name": "PSMTASTSCustomDomain",
+          "children": [
+            {
+              "name": "Add-PSMTASTSCustomDomain"
+            },
+            {
+              "name": "Get-PSMTASTSCustomDomain"
+            },
+            {
+              "name": "Remove-PSMTASTSCustomDomain"
+            }
+          ]
+        },
+        {
+          "name": "PSMTASTSConfiguration",
+          "children": [
+            {
+              "name": "Test-PSMTASTSConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TeamsPhoneNumberManagement",
+      "companyName": "Unknown",
+      "author": "Jamy Klotzsche",
+      "children": [
+        {
+          "name": "TPNMAllocation",
+          "children": [
+            {
+              "name": "Add-TPNMAllocation"
+            },
+            {
+              "name": "Get-TPNMAllocation"
+            },
+            {
+              "name": "Remove-TPNMAllocation"
+            },
+            {
+              "name": "Request-TPNMAllocation"
+            },
+            {
+              "name": "Set-TPNMAllocation"
+            }
+          ]
+        },
+        {
+          "name": "TPNMCountry",
+          "children": [
+            {
+              "name": "Add-TPNMCountry"
+            },
+            {
+              "name": "Get-TPNMCountry"
+            },
+            {
+              "name": "Remove-TPNMCountry"
+            },
+            {
+              "name": "Set-TPNMCountry"
+            }
+          ]
+        },
+        {
+          "name": "TPNMDatabase",
+          "children": [
+            {
+              "name": "Connect-TPNMDatabase"
+            },
+            {
+              "name": "Disconnect-TPNMDatabase"
+            }
+          ]
+        },
+        {
+          "name": "TPNMDatabaseConnection",
+          "children": [
+            {
+              "name": "Get-TPNMDatabaseConnection"
+            }
+          ]
+        },
+        {
+          "name": "TPNMDepartment",
+          "children": [
+            {
+              "name": "Add-TPNMDepartment"
+            },
+            {
+              "name": "Get-TPNMDepartment"
+            },
+            {
+              "name": "Remove-TPNMDepartment"
+            },
+            {
+              "name": "Set-TPNMDepartment"
+            }
+          ]
+        },
+        {
+          "name": "TPNMExtensionInUse",
+          "children": [
+            {
+              "name": "Get-TPNMExtensionInUse"
+            }
+          ]
+        },
+        {
+          "name": "TPNMExtRange",
+          "children": [
+            {
+              "name": "Add-TPNMExtRange"
+            },
+            {
+              "name": "Get-TPNMExtRange"
+            },
+            {
+              "name": "Remove-TPNMExtRange"
+            },
+            {
+              "name": "Set-TPNMExtRange"
+            }
+          ]
+        },
+        {
+          "name": "TPNMForbidden",
+          "children": [
+            {
+              "name": "Add-TPNMForbidden"
+            },
+            {
+              "name": "Get-TPNMForbidden"
+            },
+            {
+              "name": "Remove-TPNMForbidden"
+            },
+            {
+              "name": "Set-TPNMForbidden"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

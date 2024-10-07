@@ -1,0 +1,28 @@
+{
+  "name": "X plat",
+  "children": [
+    {
+      "name": "appveyorartifacts",
+      "companyName": "X plat",
+      "author": "Arthur Tagirov",
+      "children": [
+        {
+          "name": "AppveyorBuildArtifacts",
+          "children": [
+            {
+              "name": "Get-AppveyorBuildArtifacts"
+            }
+          ]
+        },
+        {
+          "name": "AppveyorBranchArtifacts",
+          "children": [
+            {
+              "name": "Get-AppveyorBranchArtifacts"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

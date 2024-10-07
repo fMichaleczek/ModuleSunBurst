@@ -1,0 +1,1161 @@
+{
+  "name": "Dimension Data",
+  "children": [
+    {
+      "name": "CaaS",
+      "companyName": "Dimension Data",
+      "author": "Dimension Data Cloud",
+      "children": [
+        {
+          "name": "CaasServerBackup",
+          "children": [
+            {
+              "name": "Remove-CaasServerBackup"
+            }
+          ]
+        },
+        {
+          "name": "CaasToServerFarm",
+          "children": [
+            {
+              "name": "Add-CaasToServerFarm"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerScsiController",
+          "children": [
+            {
+              "name": "Add-CaasServerScsiController"
+            }
+          ]
+        },
+        {
+          "name": "CaasBackupClient",
+          "children": [
+            {
+              "name": "Add-CaasBackupClient"
+            },
+            {
+              "name": "Set-CaasBackupClient"
+            },
+            {
+              "name": "Remove-CaasBackupClient"
+            }
+          ]
+        },
+        {
+          "name": "CaasConnection",
+          "children": [
+            {
+              "name": "Get-CaasConnection"
+            },
+            {
+              "name": "Remove-CaasConnection"
+            },
+            {
+              "name": "New-CaasConnection"
+            }
+          ]
+        },
+        {
+          "name": "CaasCustomerImageExportHistory",
+          "children": [
+            {
+              "name": "Get-CaasCustomerImageExportHistory"
+            }
+          ]
+        },
+        {
+          "name": "CaasCustomerImageExports",
+          "children": [
+            {
+              "name": "Get-CaasCustomerImageExports"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerFromSnapshot",
+          "children": [
+            {
+              "name": "New-CaasServerFromSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerSnapshot",
+          "children": [
+            {
+              "name": "Remove-CaasServerSnapshot"
+            },
+            {
+              "name": "Enable-CaasServerSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerFlpFile",
+          "children": [
+            {
+              "name": "Remove-CaasServerFlpFile"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerIsoFile",
+          "children": [
+            {
+              "name": "Remove-CaasServerIsoFile"
+            }
+          ]
+        },
+        {
+          "name": "CaasServer",
+          "children": [
+            {
+              "name": "Restart-CaasServer"
+            },
+            {
+              "name": "Start-CaasServer"
+            },
+            {
+              "name": "Stop-CaasServer"
+            },
+            {
+              "name": "Remove-CaasServer"
+            },
+            {
+              "name": "Set-CaasServer"
+            },
+            {
+              "name": "New-CaasServer"
+            },
+            {
+              "name": "Find-CaasServer"
+            },
+            {
+              "name": "Get-CaasServer"
+            }
+          ]
+        },
+        {
+          "name": "CaasUser",
+          "children": [
+            {
+              "name": "Get-CaasUser"
+            }
+          ]
+        },
+        {
+          "name": "CaasBackupRestoreJob",
+          "children": [
+            {
+              "name": "New-CaasBackupRestoreJob"
+            }
+          ]
+        },
+        {
+          "name": "CaasCustomerServerImage",
+          "children": [
+            {
+              "name": "Copy-CaasCustomerServerImage"
+            }
+          ]
+        },
+        {
+          "name": "CaasExportCustomerImage",
+          "children": [
+            {
+              "name": "New-CaasExportCustomerImage"
+            }
+          ]
+        },
+        {
+          "name": "CaasUploadCustomerImage",
+          "children": [
+            {
+              "name": "New-CaasUploadCustomerImage"
+            }
+          ]
+        },
+        {
+          "name": "CaasCompatibility",
+          "children": [
+            {
+              "name": "Test-CaasCompatibility"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerOperation",
+          "children": [
+            {
+              "name": "Wait-CaasServerOperation"
+            }
+          ]
+        },
+        {
+          "name": "CaasAccounts",
+          "children": [
+            {
+              "name": "Get-CaasAccounts"
+            }
+          ]
+        },
+        {
+          "name": "CaasMultiGeoRegions",
+          "children": [
+            {
+              "name": "Get-CaasMultiGeoRegions"
+            }
+          ]
+        },
+        {
+          "name": "CaasPersistenceProfile",
+          "children": [
+            {
+              "name": "Get-CaasPersistenceProfile"
+            },
+            {
+              "name": "New-CaasPersistenceProfile"
+            },
+            {
+              "name": "Remove-CaasPersistenceProfile"
+            }
+          ]
+        },
+        {
+          "name": "CaasVip",
+          "children": [
+            {
+              "name": "Get-CaasVip"
+            },
+            {
+              "name": "New-CaasVip"
+            },
+            {
+              "name": "Remove-CaasVip"
+            },
+            {
+              "name": "Set-CaasVip"
+            }
+          ]
+        },
+        {
+          "name": "CaasAccount",
+          "children": [
+            {
+              "name": "New-CaasAccount"
+            },
+            {
+              "name": "Remove-CaasAccount"
+            },
+            {
+              "name": "Set-CaasAccount"
+            }
+          ]
+        },
+        {
+          "name": "CaasAccountRoles",
+          "children": [
+            {
+              "name": "New-CaasAccountRoles"
+            }
+          ]
+        },
+        {
+          "name": "CaasAclRule",
+          "children": [
+            {
+              "name": "New-CaasAclRule"
+            },
+            {
+              "name": "Remove-CaasAclRule"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerDisk",
+          "children": [
+            {
+              "name": "Add-CaasServerDisk"
+            },
+            {
+              "name": "Remove-CaasServerDisk"
+            },
+            {
+              "name": "Resize-CaasServerDisk"
+            }
+          ]
+        },
+        {
+          "name": "CaasNetworkConfiguration",
+          "children": [
+            {
+              "name": "Get-CaasNetworkConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "CaasProbe",
+          "children": [
+            {
+              "name": "Get-CaasProbe"
+            },
+            {
+              "name": "New-CaasProbe"
+            },
+            {
+              "name": "Remove-CaasProbe"
+            },
+            {
+              "name": "Set-CaasProbe"
+            }
+          ]
+        },
+        {
+          "name": "CaasRealServer",
+          "children": [
+            {
+              "name": "Get-CaasRealServer"
+            },
+            {
+              "name": "New-CaasRealServer"
+            },
+            {
+              "name": "Remove-CaasRealServer"
+            },
+            {
+              "name": "Set-CaasRealServer"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerAntiAffinityRule",
+          "children": [
+            {
+              "name": "Get-CaasServerAntiAffinityRule"
+            },
+            {
+              "name": "New-CaasServerAntiAffinityRule"
+            },
+            {
+              "name": "Remove-CaasServerAntiAffinityRule"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerFarmDetails",
+          "children": [
+            {
+              "name": "Get-CaasServerFarmDetails"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerFarm",
+          "children": [
+            {
+              "name": "Get-CaasServerFarm"
+            },
+            {
+              "name": "New-CaasServerFarm"
+            },
+            {
+              "name": "Remove-CaasServerFarm"
+            },
+            {
+              "name": "Set-CaasServerFarm"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerCloneToCustomerImage",
+          "children": [
+            {
+              "name": "New-CaasServerCloneToCustomerImage"
+            }
+          ]
+        },
+        {
+          "name": "CaasCustomerImage",
+          "children": [
+            {
+              "name": "Remove-CaasCustomerImage"
+            },
+            {
+              "name": "Get-CaasCustomerImage"
+            }
+          ]
+        },
+        {
+          "name": "CaasFromServerFarm",
+          "children": [
+            {
+              "name": "Remove-CaasFromServerFarm"
+            }
+          ]
+        },
+        {
+          "name": "CaasAccountPassword",
+          "children": [
+            {
+              "name": "Reset-CaasAccountPassword"
+            }
+          ]
+        },
+        {
+          "name": "CaasAccountPrimaryAdministrator",
+          "children": [
+            {
+              "name": "Set-CaasAccountPrimaryAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "CaasActiveConnection",
+          "children": [
+            {
+              "name": "Set-CaasActiveConnection"
+            }
+          ]
+        },
+        {
+          "name": "CaasNetwork",
+          "children": [
+            {
+              "name": "Set-CaasNetwork"
+            },
+            {
+              "name": "Remove-CaasNetwork"
+            },
+            {
+              "name": "New-CaasNetwork"
+            },
+            {
+              "name": "Get-CaasNetwork"
+            }
+          ]
+        },
+        {
+          "name": "CaasNetworkPublicIpBlock",
+          "children": [
+            {
+              "name": "Set-CaasNetworkPublicIpBlock"
+            },
+            {
+              "name": "Get-CaasNetworkPublicIpBlock"
+            },
+            {
+              "name": "New-CaasNetworkPublicIpBlock"
+            },
+            {
+              "name": "Remove-CaasNetworkPublicIpBlock"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerVMwareTools",
+          "children": [
+            {
+              "name": "Update-CaasServerVMwareTools"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerDiskDetails",
+          "children": [
+            {
+              "name": "Set-CaasServerDiskDetails"
+            }
+          ]
+        },
+        {
+          "name": "CaasBackupJob",
+          "children": [
+            {
+              "name": "Remove-CaasBackupJob"
+            },
+            {
+              "name": "New-CaasBackupJob"
+            }
+          ]
+        },
+        {
+          "name": "CaasAclRules",
+          "children": [
+            {
+              "name": "Get-CaasAclRules"
+            }
+          ]
+        },
+        {
+          "name": "CaasCustomerImageImports",
+          "children": [
+            {
+              "name": "Get-CaasCustomerImageImports"
+            }
+          ]
+        },
+        {
+          "name": "CaasImportCustomerImage",
+          "children": [
+            {
+              "name": "New-CaasImportCustomerImage"
+            }
+          ]
+        },
+        {
+          "name": "CaasOvfPackages",
+          "children": [
+            {
+              "name": "Get-CaasOvfPackages"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerDiskSpeed",
+          "children": [
+            {
+              "name": "Set-CaasServerDiskSpeed"
+            }
+          ]
+        },
+        {
+          "name": "CaasBackupClients",
+          "children": [
+            {
+              "name": "Get-CaasBackupClients"
+            }
+          ]
+        },
+        {
+          "name": "CaasBackupSchedulePolicies",
+          "children": [
+            {
+              "name": "Get-CaasBackupSchedulePolicies"
+            }
+          ]
+        },
+        {
+          "name": "CaasBackupStoragePolicies",
+          "children": [
+            {
+              "name": "Get-CaasBackupStoragePolicies"
+            }
+          ]
+        },
+        {
+          "name": "CaasBackupClientTypes",
+          "children": [
+            {
+              "name": "Get-CaasBackupClientTypes"
+            }
+          ]
+        },
+        {
+          "name": "CaasBackupPlan",
+          "children": [
+            {
+              "name": "Set-CaasBackupPlan"
+            }
+          ]
+        },
+        {
+          "name": "CaasProvisionBackup",
+          "children": [
+            {
+              "name": "Set-CaasProvisionBackup"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerDetails",
+          "children": [
+            {
+              "name": "New-CaasServerDetails"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerState",
+          "children": [
+            {
+              "name": "Set-CaasServerState"
+            }
+          ]
+        },
+        {
+          "name": "CaasDeployedServer",
+          "children": [
+            {
+              "name": "Get-CaasDeployedServer"
+            }
+          ]
+        },
+        {
+          "name": "CaasGeoRegions",
+          "children": [
+            {
+              "name": "Get-CaasGeoRegions"
+            }
+          ]
+        },
+        {
+          "name": "CaasReservedPublicIpAddress",
+          "children": [
+            {
+              "name": "Get-CaasReservedPublicIpAddress"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerNicConnection",
+          "children": [
+            {
+              "name": "Set-CaasServerNicConnection"
+            }
+          ]
+        },
+        {
+          "name": "CaasSnapshotWindows",
+          "children": [
+            {
+              "name": "Get-CaasSnapshotWindows"
+            }
+          ]
+        },
+        {
+          "name": "CaasNetworkDomain",
+          "children": [
+            {
+              "name": "New-CaasNetworkDomain"
+            },
+            {
+              "name": "Get-CaasNetworkDomain"
+            },
+            {
+              "name": "Remove-CaasNetworkDomain"
+            }
+          ]
+        },
+        {
+          "name": "CaasAdminReport",
+          "children": [
+            {
+              "name": "Get-CaasAdminReport"
+            }
+          ]
+        },
+        {
+          "name": "CaasDrsUsageReport",
+          "children": [
+            {
+              "name": "Get-CaasDrsUsageReport"
+            }
+          ]
+        },
+        {
+          "name": "CaasBackupUsageReport",
+          "children": [
+            {
+              "name": "Get-CaasBackupUsageReport"
+            }
+          ]
+        },
+        {
+          "name": "CaasSummaryUsageReport",
+          "children": [
+            {
+              "name": "Get-CaasSummaryUsageReport"
+            }
+          ]
+        },
+        {
+          "name": "CaasSoftwareReport",
+          "children": [
+            {
+              "name": "Get-CaasSoftwareReport"
+            }
+          ]
+        },
+        {
+          "name": "CaasDetailedUsageReport",
+          "children": [
+            {
+              "name": "Get-CaasDetailedUsageReport"
+            }
+          ]
+        },
+        {
+          "name": "CaasNic",
+          "children": [
+            {
+              "name": "Get-CaasNic"
+            }
+          ]
+        },
+        {
+          "name": "CaasPortList",
+          "children": [
+            {
+              "name": "Get-CaasPortList"
+            },
+            {
+              "name": "New-CaasPortList"
+            },
+            {
+              "name": "Remove-CaasPortList"
+            },
+            {
+              "name": "Update-CaasPortList"
+            }
+          ]
+        },
+        {
+          "name": "CaasReservePrivateIpv4Address",
+          "children": [
+            {
+              "name": "Get-CaasReservePrivateIpv4Address"
+            },
+            {
+              "name": "Remove-CaasReservePrivateIpv4Address"
+            },
+            {
+              "name": "Set-CaasReservePrivateIpv4Address"
+            }
+          ]
+        },
+        {
+          "name": "CaasIpAddressList",
+          "children": [
+            {
+              "name": "Get-CaasIpAddressList"
+            },
+            {
+              "name": "Remove-CaasIpAddressList"
+            },
+            {
+              "name": "Update-CaasIpAddressList"
+            },
+            {
+              "name": "New-CaasIpAddressList"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerMonitoring",
+          "children": [
+            {
+              "name": "Disable-CaasServerMonitoring"
+            },
+            {
+              "name": "Enable-CaasServerMonitoring"
+            }
+          ]
+        },
+        {
+          "name": "CaasOperatingSystem",
+          "children": [
+            {
+              "name": "Get-CaasOperatingSystem"
+            }
+          ]
+        },
+        {
+          "name": "CaasOsImage",
+          "children": [
+            {
+              "name": "Get-CaasOsImage"
+            }
+          ]
+        },
+        {
+          "name": "CaasDefaultIRules",
+          "children": [
+            {
+              "name": "Get-CaasDefaultIRules"
+            }
+          ]
+        },
+        {
+          "name": "CaasDefaultPresistenceProfiles",
+          "children": [
+            {
+              "name": "Get-CaasDefaultPresistenceProfiles"
+            }
+          ]
+        },
+        {
+          "name": "CaasDefaultHealthMonitors",
+          "children": [
+            {
+              "name": "Get-CaasDefaultHealthMonitors"
+            }
+          ]
+        },
+        {
+          "name": "CaasAntiAffinityRules",
+          "children": [
+            {
+              "name": "Get-CaasAntiAffinityRules"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerMonitoringUsageReport",
+          "children": [
+            {
+              "name": "Get-CaasServerMonitoringUsageReport"
+            }
+          ]
+        },
+        {
+          "name": "CaasSeverSnapshots",
+          "children": [
+            {
+              "name": "Get-CaasSeverSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerSnapshotMigrate",
+          "children": [
+            {
+              "name": "Set-CaasServerSnapshotMigrate"
+            }
+          ]
+        },
+        {
+          "name": "CaasTag",
+          "children": [
+            {
+              "name": "Get-CaasTag"
+            },
+            {
+              "name": "Remove-CaasTag"
+            },
+            {
+              "name": "Set-CaasTag"
+            }
+          ]
+        },
+        {
+          "name": "CaasIpAndPortType",
+          "children": [
+            {
+              "name": "New-CaasIpAndPortType"
+            }
+          ]
+        },
+        {
+          "name": "CaasPortRangeType",
+          "children": [
+            {
+              "name": "New-CaasPortRangeType"
+            }
+          ]
+        },
+        {
+          "name": "CaasIpAddressRangeType",
+          "children": [
+            {
+              "name": "New-CaasIpAddressRangeType"
+            }
+          ]
+        },
+        {
+          "name": "CaasReserveIPv6Address",
+          "children": [
+            {
+              "name": "Remove-CaasReserveIPv6Address"
+            },
+            {
+              "name": "Get-CaasReserveIPv6Address"
+            },
+            {
+              "name": "Set-CaasReserveIPv6Address"
+            }
+          ]
+        },
+        {
+          "name": "CaasVipPoolMember",
+          "children": [
+            {
+              "name": "Get-CaasVipPoolMember"
+            },
+            {
+              "name": "New-CaasVipPoolMember"
+            },
+            {
+              "name": "Remove-CaasVipPoolMember"
+            },
+            {
+              "name": "Set-CaasVipPoolMember"
+            }
+          ]
+        },
+        {
+          "name": "CaasVipPool",
+          "children": [
+            {
+              "name": "Get-CaasVipPool"
+            },
+            {
+              "name": "New-CaasVipPool"
+            },
+            {
+              "name": "Remove-CaasVipPool"
+            },
+            {
+              "name": "Set-CaasVipPool"
+            }
+          ]
+        },
+        {
+          "name": "CaasNatRule",
+          "children": [
+            {
+              "name": "Get-CaasNatRule"
+            },
+            {
+              "name": "New-CaasNatRule"
+            },
+            {
+              "name": "Remove-CaasNatRule"
+            }
+          ]
+        },
+        {
+          "name": "CaasFirewallRule",
+          "children": [
+            {
+              "name": "Get-CaasFirewallRule"
+            },
+            {
+              "name": "New-CaasFirewallRule"
+            },
+            {
+              "name": "Remove-CaasFirewallRule"
+            },
+            {
+              "name": "Set-CaasFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "CaasVipNode",
+          "children": [
+            {
+              "name": "Get-CaasVipNode"
+            },
+            {
+              "name": "New-CaasVipNode"
+            },
+            {
+              "name": "Remove-CaasVipNode"
+            },
+            {
+              "name": "Set-CaasVipNode"
+            }
+          ]
+        },
+        {
+          "name": "CaasVIPVirtualListener",
+          "children": [
+            {
+              "name": "Get-CaasVIPVirtualListener"
+            },
+            {
+              "name": "New-CaasVIPVirtualListener"
+            },
+            {
+              "name": "Remove-CaasVIPVirtualListener"
+            },
+            {
+              "name": "Set-CaasVIPVirtualListener"
+            }
+          ]
+        },
+        {
+          "name": "CaasVlan",
+          "children": [
+            {
+              "name": "Get-CaasVlan"
+            },
+            {
+              "name": "New-CaasVlan"
+            },
+            {
+              "name": "Remove-CaasVlan"
+            },
+            {
+              "name": "Resize-CaasVlan"
+            },
+            {
+              "name": "Set-CaasVlan"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerOnNetworkDomain",
+          "children": [
+            {
+              "name": "New-CaasServerOnNetworkDomain"
+            }
+          ]
+        },
+        {
+          "name": "CaasTagKey",
+          "children": [
+            {
+              "name": "Get-CaasTagKey"
+            },
+            {
+              "name": "Remove-CaasTagKey"
+            },
+            {
+              "name": "Update-CaasTagKey"
+            },
+            {
+              "name": "New-CaasTagKey"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerNic",
+          "children": [
+            {
+              "name": "New-CaasServerNic"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerMonitoringPlan",
+          "children": [
+            {
+              "name": "Set-CaasServerMonitoringPlan"
+            }
+          ]
+        },
+        {
+          "name": "CaasCustomerImageMetadata",
+          "children": [
+            {
+              "name": "Update-CaasCustomerImageMetadata"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerVirtualHardware",
+          "children": [
+            {
+              "name": "Update-CaasServerVirtualHardware"
+            }
+          ]
+        },
+        {
+          "name": "CaasServerSpec",
+          "children": [
+            {
+              "name": "Set-CaasServerSpec"
+            }
+          ]
+        },
+        {
+          "name": "CaasDataCentre",
+          "children": [
+            {
+              "name": "Get-CaasDataCentre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "St2.Client",
+      "companyName": "Dimension Data",
+      "author": "AnthonyShaw",
+      "children": [
+        {
+          "name": "St2Pack",
+          "children": [
+            {
+              "name": "Install-St2Pack"
+            }
+          ]
+        },
+        {
+          "name": "St2Action",
+          "children": [
+            {
+              "name": "New-St2Action"
+            },
+            {
+              "name": "Invoke-St2Action"
+            },
+            {
+              "name": "Remove-St2Action"
+            }
+          ]
+        },
+        {
+          "name": "St2Rules",
+          "children": [
+            {
+              "name": "Get-St2Rules"
+            }
+          ]
+        },
+        {
+          "name": "St2ActionParameter",
+          "children": [
+            {
+              "name": "New-St2ActionParameter"
+            }
+          ]
+        },
+        {
+          "name": "St2Rule",
+          "children": [
+            {
+              "name": "Remove-St2Rule"
+            }
+          ]
+        },
+        {
+          "name": "St2Executions",
+          "children": [
+            {
+              "name": "Get-St2Executions"
+            }
+          ]
+        },
+        {
+          "name": "St2Actions",
+          "children": [
+            {
+              "name": "Get-St2Actions"
+            }
+          ]
+        },
+        {
+          "name": "St2Packs",
+          "children": [
+            {
+              "name": "Get-St2Packs"
+            }
+          ]
+        },
+        {
+          "name": "St2ClientConnection",
+          "children": [
+            {
+              "name": "New-St2ClientConnection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

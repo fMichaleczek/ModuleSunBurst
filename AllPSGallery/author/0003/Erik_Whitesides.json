@@ -1,0 +1,77 @@
+{
+  "name": "Erik Whitesides",
+  "children": [
+    {
+      "name": "EsxiInventoryTools",
+      "companyName": "Unknown",
+      "author": "Erik Whitesides",
+      "children": [
+        {
+          "name": "EsxiInventory",
+          "children": [
+            {
+              "name": "Publish-EsxiInventory"
+            }
+          ]
+        },
+        {
+          "name": "EsxiInventoryToken",
+          "children": [
+            {
+              "name": "Install-EsxiInventoryToken"
+            }
+          ]
+        },
+        {
+          "name": "EsxiInventoryTask",
+          "children": [
+            {
+              "name": "Register-EsxiInventoryTask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EventLogTools",
+      "companyName": "Unknown",
+      "author": "Erik Whitesides",
+      "children": [
+        {
+          "name": "StreamToEventLog",
+          "children": [
+            {
+              "name": "Write-StreamToEventLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VaultTools",
+      "companyName": "Unknown",
+      "author": "Erik Whitesides",
+      "children": [
+        {
+          "name": "VaultToken",
+          "children": [
+            {
+              "name": "New-VaultToken"
+            },
+            {
+              "name": "Save-VaultToken"
+            }
+          ]
+        },
+        {
+          "name": "VaultValue",
+          "children": [
+            {
+              "name": "Get-VaultValue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

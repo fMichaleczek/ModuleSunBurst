@@ -1,0 +1,178 @@
+{
+  "name": "daoradmin",
+  "children": [
+    {
+      "name": "Az.RuntimeEnvironment",
+      "companyName": "daoradmin",
+      "author": "daoradmin",
+      "children": [
+        {
+          "name": "AzRuntimeEnvironment",
+          "children": [
+            {
+              "name": "Get-AzRuntimeEnvironment"
+            },
+            {
+              "name": "New-AzRuntimeEnvironment"
+            },
+            {
+              "name": "Remove-AzRuntimeEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "AzRuntimeEnvironmentPackage",
+          "children": [
+            {
+              "name": "Get-AzRuntimeEnvironmentPackage"
+            },
+            {
+              "name": "Remove-AzRuntimeEnvironmentPackage"
+            },
+            {
+              "name": "Set-AzRuntimeEnvironmentPackage"
+            }
+          ]
+        },
+        {
+          "name": "AzRuntimeEnvironmentPackages",
+          "children": [
+            {
+              "name": "Get-AzRuntimeEnvironmentPackages"
+            }
+          ]
+        },
+        {
+          "name": "AzRuntimeEnvironments",
+          "children": [
+            {
+              "name": "Get-AzRuntimeEnvironments"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OuraRing",
+      "companyName": "daoradmin",
+      "author": "daoradmin",
+      "children": [
+        {
+          "name": "DailyActivity",
+          "children": [
+            {
+              "name": "Get-DailyActivity"
+            }
+          ]
+        },
+        {
+          "name": "DailyReadiness",
+          "children": [
+            {
+              "name": "Get-DailyReadiness"
+            }
+          ]
+        },
+        {
+          "name": "DailySleep",
+          "children": [
+            {
+              "name": "Get-DailySleep"
+            }
+          ]
+        },
+        {
+          "name": "DailySpo2",
+          "children": [
+            {
+              "name": "Get-DailySpo2"
+            }
+          ]
+        },
+        {
+          "name": "HeartRate",
+          "children": [
+            {
+              "name": "Get-HeartRate"
+            }
+          ]
+        },
+        {
+          "name": "PersonalInfo",
+          "children": [
+            {
+              "name": "Get-PersonalInfo"
+            }
+          ]
+        },
+        {
+          "name": "RestModePeriod",
+          "children": [
+            {
+              "name": "Get-RestModePeriod"
+            }
+          ]
+        },
+        {
+          "name": "RingConfiguration",
+          "children": [
+            {
+              "name": "Get-RingConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "Sessions",
+          "children": [
+            {
+              "name": "Get-Sessions"
+            }
+          ]
+        },
+        {
+          "name": "Sleep",
+          "children": [
+            {
+              "name": "Get-Sleep"
+            }
+          ]
+        },
+        {
+          "name": "SleepTime",
+          "children": [
+            {
+              "name": "Get-SleepTime"
+            }
+          ]
+        },
+        {
+          "name": "Tag",
+          "children": [
+            {
+              "name": "Get-Tag"
+            }
+          ]
+        },
+        {
+          "name": "Workout",
+          "children": [
+            {
+              "name": "Get-Workout"
+            }
+          ]
+        },
+        {
+          "name": "Ring",
+          "children": [
+            {
+              "name": "Connect-Ring"
+            },
+            {
+              "name": "Disconnect-Ring"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

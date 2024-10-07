@@ -1,0 +1,45 @@
+{
+  "name": "TylerLeonhardt",
+  "children": [
+    {
+      "name": "SecretManagement.LastPass",
+      "companyName": "TylerLeonhardt",
+      "author": "TylerLeonhardt",
+      "children": [
+        {
+          "name": "LastPass",
+          "children": [
+            {
+              "name": "Connect-LastPass"
+            },
+            {
+              "name": "Disconnect-Lastpass"
+            }
+          ]
+        },
+        {
+          "name": "LastPassVault",
+          "children": [
+            {
+              "name": "Register-LastPassVault"
+            },
+            {
+              "name": "Unregister-LastPassVault"
+            },
+            {
+              "name": "Sync-LastPassVault"
+            }
+          ]
+        },
+        {
+          "name": "LastPassGridView",
+          "children": [
+            {
+              "name": "Show-LastPassGridView"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

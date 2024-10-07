@@ -1,0 +1,110 @@
+{
+  "name": "Independent",
+  "children": [
+    {
+      "name": "Microsoft.PowerPlatform.DevOps",
+      "companyName": "Independent",
+      "author": "Dylan Haskins and Eugene Van Staden",
+      "children": [
+        {
+          "name": "PowerPlatformDevOps",
+          "children": [
+            {
+              "name": "Invoke-PowerPlatformDevOps"
+            }
+          ]
+        },
+        {
+          "name": "DeploySolution",
+          "children": [
+            {
+              "name": "Start-DeploySolution"
+            }
+          ]
+        },
+        {
+          "name": "IsGuid",
+          "children": [
+            {
+              "name": "Test-IsGuid"
+            }
+          ]
+        },
+        {
+          "name": "SolutionChecker",
+          "children": [
+            {
+              "name": "Start-SolutionChecker"
+            }
+          ]
+        },
+        {
+          "name": "PPDODocker",
+          "children": [
+            {
+              "name": "Start-PPDODocker"
+            }
+          ]
+        },
+        {
+          "name": "ExportSolution",
+          "children": [
+            {
+              "name": "Invoke-ExportSolution"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft.Xrm.DevOps.Data.PowerShell",
+      "companyName": "Independent",
+      "author": "Andrew Vogel",
+      "children": [
+        {
+          "name": "CrmDataPackage",
+          "children": [
+            {
+              "name": "Remove-CrmDataPackage"
+            },
+            {
+              "name": "Import-CrmDataPackage"
+            },
+            {
+              "name": "Merge-CrmDataPackage"
+            },
+            {
+              "name": "Export-CrmDataPackage"
+            },
+            {
+              "name": "Get-CrmDataPackage"
+            }
+          ]
+        },
+        {
+          "name": "FetchesToCrmDataPackage",
+          "children": [
+            {
+              "name": "Add-FetchesToCrmDataPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft.Xrm.DevOps.Solutions.PowerShell",
+      "companyName": "Independent",
+      "author": "Andrew Vogel",
+      "children": [
+        {
+          "name": "CrmEarlyBoundCode",
+          "children": [
+            {
+              "name": "Get-CrmEarlyBoundCode"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

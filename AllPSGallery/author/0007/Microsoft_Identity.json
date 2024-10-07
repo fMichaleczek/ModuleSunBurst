@@ -1,0 +1,799 @@
+{
+  "name": "Microsoft Identity",
+  "children": [
+    {
+      "name": "AzureADAssessment",
+      "companyName": "Microsoft Corporation",
+      "author": "Microsoft Identity",
+      "children": [
+        {
+          "name": "AADAssessmentReports",
+          "children": [
+            {
+              "name": "Complete-AADAssessmentReports"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessment",
+          "children": [
+            {
+              "name": "Connect-AADAssessment"
+            },
+            {
+              "name": "Disconnect-AADAssessment"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessAADConnectConfig",
+          "children": [
+            {
+              "name": "Expand-AADAssessAADConnectConfig"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessmentPortableModule",
+          "children": [
+            {
+              "name": "Export-AADAssessmentPortableModule"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessAppAssignmentReport",
+          "children": [
+            {
+              "name": "Get-AADAssessAppAssignmentReport"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessAppCredentialExpirationReport",
+          "children": [
+            {
+              "name": "Get-AADAssessAppCredentialExpirationReport"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessConditionalAccessData",
+          "children": [
+            {
+              "name": "Export-AADAssessConditionalAccessData"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessConsentGrantReport",
+          "children": [
+            {
+              "name": "Get-AADAssessConsentGrantReport"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessNotificationEmailsReport",
+          "children": [
+            {
+              "name": "Get-AADAssessNotificationEmailsReport"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessRoleAssignmentReport",
+          "children": [
+            {
+              "name": "Get-AADAssessRoleAssignmentReport"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessUserReport",
+          "children": [
+            {
+              "name": "Get-AADAssessUserReport"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessmentDataCollection",
+          "children": [
+            {
+              "name": "Invoke-AADAssessmentDataCollection"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessmentHybridDataCollection",
+          "children": [
+            {
+              "name": "Invoke-AADAssessmentHybridDataCollection"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessADFSEndpoints",
+          "children": [
+            {
+              "name": "Get-AADAssessADFSEndpoints"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessADFSAdminLog",
+          "children": [
+            {
+              "name": "Export-AADAssessADFSAdminLog"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessADFSConfiguration",
+          "children": [
+            {
+              "name": "Export-AADAssessADFSConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessAppProxyConnectorLog",
+          "children": [
+            {
+              "name": "Get-AADAssessAppProxyConnectorLog"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessPasswordWritebackAgentLog",
+          "children": [
+            {
+              "name": "Get-AADAssessPasswordWritebackAgentLog"
+            }
+          ]
+        },
+        {
+          "name": "MsGraphResults",
+          "children": [
+            {
+              "name": "Get-MsGraphResults"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessmentRecommendations",
+          "children": [
+            {
+              "name": "New-AADAssessmentRecommendations"
+            },
+            {
+              "name": "Export-AADAssessmentRecommendations"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessmentEmailOtp",
+          "children": [
+            {
+              "name": "Test-AADAssessmentEmailOtp"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessmentReportData",
+          "children": [
+            {
+              "name": "Export-AADAssessmentReportData"
+            }
+          ]
+        },
+        {
+          "name": "AADAssessmentPackage",
+          "children": [
+            {
+              "name": "Test-AADAssessmentPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureADAuthMethods",
+      "companyName": "Microsoft",
+      "author": "Microsoft Identity",
+      "children": [
+        {
+          "name": "AzureADUserAuthenticationMethod",
+          "children": [
+            {
+              "name": "Connect-AzureADUserAuthenticationMethod"
+            },
+            {
+              "name": "Get-AzureADUserAuthenticationMethod"
+            },
+            {
+              "name": "New-AzureADUserAuthenticationMethod"
+            },
+            {
+              "name": "Remove-AzureADUserAuthenticationMethod"
+            },
+            {
+              "name": "Update-AzureADUserAuthenticationMethod"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureADExporter",
+      "companyName": "Microsoft Corporation",
+      "author": "Microsoft Identity",
+      "children": [
+        {
+          "name": "AzureADExporter",
+          "children": [
+            {
+              "name": "Connect-AzureADExporter"
+            }
+          ]
+        },
+        {
+          "name": "AzureAD",
+          "children": [
+            {
+              "name": "Export-AzureAD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureAdGovernanceAssessment",
+      "companyName": "Microsoft Corporation",
+      "author": "Microsoft Identity",
+      "children": [
+        {
+          "name": "MSGovernanceWorkshop",
+          "children": [
+            {
+              "name": "Initialize-MSGovernanceWorkshop"
+            }
+          ]
+        },
+        {
+          "name": "MSGovernanceDataCollection",
+          "children": [
+            {
+              "name": "Invoke-MSGovernanceDataCollection"
+            }
+          ]
+        },
+        {
+          "name": "MsGraphResult",
+          "children": [
+            {
+              "name": "Get-MsGraphResult"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureADToolkit",
+      "companyName": "Microsoft Corporation",
+      "author": "Microsoft Identity",
+      "children": [
+        {
+          "name": "AADToolkit",
+          "children": [
+            {
+              "name": "Connect-AADToolkit"
+            },
+            {
+              "name": "Disconnect-AADToolkit"
+            }
+          ]
+        },
+        {
+          "name": "AADToolkitApplicationCredentials",
+          "children": [
+            {
+              "name": "Get-AADToolkitApplicationCredentials"
+            },
+            {
+              "name": "Update-AADToolkitApplicationCredentials"
+            }
+          ]
+        },
+        {
+          "name": "AADToolkitAppConsentGrantReport",
+          "children": [
+            {
+              "name": "Build-AADToolkitAppConsentGrantReport"
+            }
+          ]
+        },
+        {
+          "name": "AADToolkitUnprotectedUsersWithAdminRoles",
+          "children": [
+            {
+              "name": "Find-AADToolkitUnprotectedUsersWithAdminRoles"
+            }
+          ]
+        },
+        {
+          "name": "AADToolKitCrossTenantAccessActivity.ps1",
+          "children": [
+            {
+              "name": "Get-AADToolKitCrossTenantAccessActivity.ps1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EntraExporter",
+      "companyName": "Microsoft Corporation",
+      "author": "Microsoft Identity",
+      "children": [
+        {
+          "name": "EntraExporter",
+          "children": [
+            {
+              "name": "Connect-EntraExporter"
+            }
+          ]
+        },
+        {
+          "name": "Entra",
+          "children": [
+            {
+              "name": "Export-Entra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MSIdentityTools",
+      "companyName": "Microsoft Corporation",
+      "author": "Microsoft Identity",
+      "children": [
+        {
+          "name": "MsIdServicePrincipal",
+          "children": [
+            {
+              "name": "Add-MsIdServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "MsIdJwtTokenSignature",
+          "children": [
+            {
+              "name": "Confirm-MsIdJwtTokenSignature"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAadcAadConnectorSpaceDn",
+          "children": [
+            {
+              "name": "ConvertFrom-MsIdAadcAadConnectorSpaceDn"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAadcSourceAnchor",
+          "children": [
+            {
+              "name": "ConvertFrom-MsIdAadcSourceAnchor"
+            }
+          ]
+        },
+        {
+          "name": "MsIdUniqueTokenIdentifier",
+          "children": [
+            {
+              "name": "ConvertFrom-MsIdUniqueTokenIdentifier"
+            }
+          ]
+        },
+        {
+          "name": "MsIdJwtToken",
+          "children": [
+            {
+              "name": "ConvertFrom-MsIdJwtToken"
+            },
+            {
+              "name": "Show-MsIdJwtToken"
+            }
+          ]
+        },
+        {
+          "name": "MsIdSamlMessage",
+          "children": [
+            {
+              "name": "ConvertFrom-MsIdSamlMessage"
+            }
+          ]
+        },
+        {
+          "name": "MsIdJwtTokenPayload",
+          "children": [
+            {
+              "name": "Expand-MsIdJwtTokenPayload"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAppConsentGrantReport",
+          "children": [
+            {
+              "name": "Export-MsIdAppConsentGrantReport"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAzureMfaReport",
+          "children": [
+            {
+              "name": "Export-MsIdAzureMfaReport"
+            }
+          ]
+        },
+        {
+          "name": "MsIdUnprotectedUsersWithAdminRoles",
+          "children": [
+            {
+              "name": "Find-MsIdUnprotectedUsersWithAdminRoles"
+            }
+          ]
+        },
+        {
+          "name": "MsIdProvisioningLogStatistics",
+          "children": [
+            {
+              "name": "Get-MsIdProvisioningLogStatistics"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAdfsSamlToken",
+          "children": [
+            {
+              "name": "Get-MsIdAdfsSamlToken"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAdfsWsFedToken",
+          "children": [
+            {
+              "name": "Get-MsIdAdfsWsFedToken"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAdfsWsTrustToken",
+          "children": [
+            {
+              "name": "Get-MsIdAdfsWsTrustToken"
+            }
+          ]
+        },
+        {
+          "name": "MsIdApplicationIdByAppId",
+          "children": [
+            {
+              "name": "Get-MsIdApplicationIdByAppId"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAuthorityUri",
+          "children": [
+            {
+              "name": "Get-MsIdAuthorityUri"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAzureIpRange",
+          "children": [
+            {
+              "name": "Get-MsIdAzureIpRange"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAzureUsers",
+          "children": [
+            {
+              "name": "Get-MsIdAzureUsers"
+            }
+          ]
+        },
+        {
+          "name": "MsIdCrossTenantAccessActivity",
+          "children": [
+            {
+              "name": "Get-MsIdCrossTenantAccessActivity"
+            }
+          ]
+        },
+        {
+          "name": "MsIdGroupWithExpiration",
+          "children": [
+            {
+              "name": "Get-MsIdGroupWithExpiration"
+            }
+          ]
+        },
+        {
+          "name": "MsIdMsftIdentityAssociation",
+          "children": [
+            {
+              "name": "Get-MsIdMsftIdentityAssociation"
+            }
+          ]
+        },
+        {
+          "name": "MsIdO365Endpoints",
+          "children": [
+            {
+              "name": "Get-MsIdO365Endpoints"
+            }
+          ]
+        },
+        {
+          "name": "MsIdOpenIdProviderConfiguration",
+          "children": [
+            {
+              "name": "Get-MsIdOpenIdProviderConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "MsIdSamlFederationMetadata",
+          "children": [
+            {
+              "name": "Get-MsIdSamlFederationMetadata"
+            }
+          ]
+        },
+        {
+          "name": "MsIdServicePrincipalIdByAppId",
+          "children": [
+            {
+              "name": "Get-MsIdServicePrincipalIdByAppId"
+            }
+          ]
+        },
+        {
+          "name": "MsIdUnmanagedExternalUser",
+          "children": [
+            {
+              "name": "Get-MsIdUnmanagedExternalUser"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAzureAdSamlRequest",
+          "children": [
+            {
+              "name": "Invoke-MsIdAzureAdSamlRequest"
+            }
+          ]
+        },
+        {
+          "name": "MsIdWsTrustRequest",
+          "children": [
+            {
+              "name": "New-MsIdWsTrustRequest"
+            }
+          ]
+        },
+        {
+          "name": "MsIdClientSecret",
+          "children": [
+            {
+              "name": "New-MsIdClientSecret"
+            }
+          ]
+        },
+        {
+          "name": "MsIdSamlRequest",
+          "children": [
+            {
+              "name": "New-MsIdSamlRequest"
+            }
+          ]
+        },
+        {
+          "name": "MsIdTemporaryUserPassword",
+          "children": [
+            {
+              "name": "New-MsIdTemporaryUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "MsIdUserAuthenticationMethod",
+          "children": [
+            {
+              "name": "Remove-MsIdUserAuthenticationMethod"
+            }
+          ]
+        },
+        {
+          "name": "MsIdExternalUser",
+          "children": [
+            {
+              "name": "Reset-MsIdExternalUser"
+            }
+          ]
+        },
+        {
+          "name": "MsIdTenant",
+          "children": [
+            {
+              "name": "Resolve-MsIdTenant"
+            }
+          ]
+        },
+        {
+          "name": "MsIdServicePrincipalConsent",
+          "children": [
+            {
+              "name": "Revoke-MsIdServicePrincipalConsent"
+            }
+          ]
+        },
+        {
+          "name": "MsIdWindowsTlsSettings",
+          "children": [
+            {
+              "name": "Set-MsIdWindowsTlsSettings"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAzureIpAddress",
+          "children": [
+            {
+              "name": "Resolve-MsIdAzureIpAddress"
+            }
+          ]
+        },
+        {
+          "name": "MsIdSamlToken",
+          "children": [
+            {
+              "name": "Show-MsIdSamlToken"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAzureAdDeviceRegConnectivity",
+          "children": [
+            {
+              "name": "Test-MsIdAzureAdDeviceRegConnectivity"
+            }
+          ]
+        },
+        {
+          "name": "MsIdCBATrustStoreConfiguration",
+          "children": [
+            {
+              "name": "Test-MsIdCBATrustStoreConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "MsIdSigningKeyThumbprint",
+          "children": [
+            {
+              "name": "Get-MsIdSigningKeyThumbprint"
+            }
+          ]
+        },
+        {
+          "name": "MsIdApplicationSigningKeyThumbprint",
+          "children": [
+            {
+              "name": "Update-MsIdApplicationSigningKeyThumbprint"
+            }
+          ]
+        },
+        {
+          "name": "MsIdIsViralUser",
+          "children": [
+            {
+              "name": "Get-MsIdIsViralUser"
+            }
+          ]
+        },
+        {
+          "name": "MsIdHasMicrosoftAccount",
+          "children": [
+            {
+              "name": "Get-MsIdHasMicrosoftAccount"
+            }
+          ]
+        },
+        {
+          "name": "MsIdGroupWritebackConfiguration",
+          "children": [
+            {
+              "name": "Get-MsIdGroupWritebackConfiguration"
+            },
+            {
+              "name": "Update-MsIdGroupWritebackConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "MsIdUnredeemedInvitedUser",
+          "children": [
+            {
+              "name": "Get-MsIdUnredeemedInvitedUser"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAdfsSampleApp",
+          "children": [
+            {
+              "name": "Get-MsIdAdfsSampleApp"
+            },
+            {
+              "name": "Import-MsIdAdfsSampleApp"
+            }
+          ]
+        },
+        {
+          "name": "MsIdAdfsSamplePolicy",
+          "children": [
+            {
+              "name": "Import-MsIdAdfsSamplePolicy"
+            }
+          ]
+        },
+        {
+          "name": "MsIdInactiveSignInUser",
+          "children": [
+            {
+              "name": "Get-MsIdInactiveSignInUser"
+            }
+          ]
+        },
+        {
+          "name": "MsIdServicePrincipalVisibleInMyApps",
+          "children": [
+            {
+              "name": "Set-MsIdServicePrincipalVisibleInMyApps"
+            }
+          ]
+        },
+        {
+          "name": "MsIdEntitlementManagementConnectedOrganization",
+          "children": [
+            {
+              "name": "Split-MsIdEntitlementManagementConnectedOrganization"
+            }
+          ]
+        },
+        {
+          "name": "MsIdInvitedUserSponsorsFromInvitedBy",
+          "children": [
+            {
+              "name": "Update-MsIdInvitedUserSponsorsFromInvitedBy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "name": "Citrix",
+  "children": [
+    {
+      "name": "Citrix.Image.Uploader",
+      "companyName": "Citrix",
+      "author": "Citrix Provisioning",
+      "children": [
+        {
+          "name": "ToAzDisk",
+          "children": [
+            {
+              "name": "Copy-ToAzDisk"
+            }
+          ]
+        },
+        {
+          "name": "ToAwsDisk",
+          "children": [
+            {
+              "name": "Copy-ToAwsDisk"
+            }
+          ]
+        },
+        {
+          "name": "VhdSize",
+          "children": [
+            {
+              "name": "Get-VhdSize"
+            }
+          ]
+        },
+        {
+          "name": "VhdContentHash",
+          "children": [
+            {
+              "name": "Get-VhdContentHash"
+            }
+          ]
+        },
+        {
+          "name": "ToGcpDisk",
+          "children": [
+            {
+              "name": "Copy-ToGcpDisk"
+            }
+          ]
+        },
+        {
+          "name": "Disk",
+          "children": [
+            {
+              "name": "Copy-Disk"
+            }
+          ]
+        },
+        {
+          "name": "DiskToAHV",
+          "children": [
+            {
+              "name": "Copy-DiskToAHV"
+            }
+          ]
+        },
+        {
+          "name": "DiskToAWS",
+          "children": [
+            {
+              "name": "Copy-DiskToAWS"
+            }
+          ]
+        },
+        {
+          "name": "DiskToAzure",
+          "children": [
+            {
+              "name": "Copy-DiskToAzure"
+            }
+          ]
+        },
+        {
+          "name": "DiskToGCP",
+          "children": [
+            {
+              "name": "Copy-DiskToGCP"
+            }
+          ]
+        },
+        {
+          "name": "DiskToXen",
+          "children": [
+            {
+              "name": "Copy-DiskToXen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Citrix.Workloads.Portability",
+      "companyName": "Citrix",
+      "author": "Citrix Image Portability Engineering",
+      "children": [
+        {
+          "name": "IpsAwsExportJob",
+          "children": [
+            {
+              "name": "Start-IpsAwsExportJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAwsPrepareJob",
+          "children": [
+            {
+              "name": "Start-IpsAwsPrepareJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAwsDiagnosticsJob",
+          "children": [
+            {
+              "name": "Start-IpsAwsDiagnosticsJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAwsImage",
+          "children": [
+            {
+              "name": "New-IpsAwsImage"
+            }
+          ]
+        },
+        {
+          "name": "IpsVsphereExportJob",
+          "children": [
+            {
+              "name": "Start-IpsVsphereExportJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsVspherePrepareJob",
+          "children": [
+            {
+              "name": "Start-IpsVspherePrepareJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsVsphereReverseImageJob",
+          "children": [
+            {
+              "name": "Start-IpsVsphereReverseImageJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsVsphereUpgradePvsJob",
+          "children": [
+            {
+              "name": "Start-IpsVsphereUpgradePvsJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsVsphereConvertToUefiJob",
+          "children": [
+            {
+              "name": "Start-IpsVsphereConvertToUefiJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsVsphereDiagnosticsJob",
+          "children": [
+            {
+              "name": "Start-IpsVsphereDiagnosticsJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAhvExportJob",
+          "children": [
+            {
+              "name": "Start-IpsAhvExportJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAhvPrepareJob",
+          "children": [
+            {
+              "name": "Start-IpsAhvPrepareJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAhvDiagnosticsJob",
+          "children": [
+            {
+              "name": "Start-IpsAhvDiagnosticsJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAzureExportJob",
+          "children": [
+            {
+              "name": "Start-IpsAzureExportJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAzurePrepareJob",
+          "children": [
+            {
+              "name": "Start-IpsAzurePrepareJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAzurePrepareAndPublishJob",
+          "children": [
+            {
+              "name": "Start-IpsAzurePrepareAndPublishJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAzureConvertToUefiJob",
+          "children": [
+            {
+              "name": "Start-IpsAzureConvertToUefiJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsAzureDiagnosticsJob",
+          "children": [
+            {
+              "name": "Start-IpsAzureDiagnosticsJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsGcpExportJob",
+          "children": [
+            {
+              "name": "Start-IpsGcpExportJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsGcpPrepareJob",
+          "children": [
+            {
+              "name": "Start-IpsGcpPrepareJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsGcpConvertToUefiJob",
+          "children": [
+            {
+              "name": "Start-IpsGcpConvertToUefiJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsGcpPrepareAndPublishJob",
+          "children": [
+            {
+              "name": "Start-IpsGcpPrepareAndPublishJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsGcpDiagnosticsJob",
+          "children": [
+            {
+              "name": "Start-IpsGcpDiagnosticsJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsXenExportJob",
+          "children": [
+            {
+              "name": "Start-IpsXenExportJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsXenPrepareJob",
+          "children": [
+            {
+              "name": "Start-IpsXenPrepareJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsXenConvertToUefiJob",
+          "children": [
+            {
+              "name": "Start-IpsXenConvertToUefiJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsXenDiagnosticsJob",
+          "children": [
+            {
+              "name": "Start-IpsXenDiagnosticsJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsJob",
+          "children": [
+            {
+              "name": "Get-IpsJob"
+            },
+            {
+              "name": "Wait-IpsJob"
+            }
+          ]
+        },
+        {
+          "name": "IpsCredentials",
+          "children": [
+            {
+              "name": "Get-IpsCredentials"
+            },
+            {
+              "name": "New-IpsCredentials"
+            },
+            {
+              "name": "Set-IpsCredentials"
+            },
+            {
+              "name": "Remove-IpsCredentials"
+            }
+          ]
+        },
+        {
+          "name": "CCRestMethod",
+          "children": [
+            {
+              "name": "Invoke-CCRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "AuthToCitrixCloud",
+          "children": [
+            {
+              "name": "AuthToCitrixCloud"
+            }
+          ]
+        },
+        {
+          "name": "LogInit",
+          "children": [
+            {
+              "name": "LogInit"
+            }
+          ]
+        },
+        {
+          "name": "LogIt",
+          "children": [
+            {
+              "name": "LogIt"
+            }
+          ]
+        },
+        {
+          "name": "LogFatal",
+          "children": [
+            {
+              "name": "LogFatal"
+            }
+          ]
+        },
+        {
+          "name": "ObjectToString",
+          "children": [
+            {
+              "name": "Convert-ObjectToString"
+            }
+          ]
+        },
+        {
+          "name": "HashToString",
+          "children": [
+            {
+              "name": "Convert-HashToString"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

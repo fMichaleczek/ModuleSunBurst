@@ -1,0 +1,337 @@
+{
+  "name": "Carlos Perez carlos perez darkoperator.com",
+  "children": [
+    {
+      "name": "OctoPS",
+      "companyName": "Unknown",
+      "author": "Carlos Perez carlos perez darkoperator.com",
+      "children": [
+        {
+          "name": "OctoPSHost",
+          "children": [
+            {
+              "name": "Set-OctoPSHost"
+            },
+            {
+              "name": "Get-OctoPSHost"
+            },
+            {
+              "name": "Remove-OctoPSHost"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSVersion",
+          "children": [
+            {
+              "name": "Get-OctoPSVersion"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSPrinterProfile",
+          "children": [
+            {
+              "name": "Get-OctoPSPrinterProfile"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSFile",
+          "children": [
+            {
+              "name": "Get-OctoPSFile"
+            },
+            {
+              "name": "Publish-OctoPSFile"
+            },
+            {
+              "name": "Select-OctoPSFile"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSFolder",
+          "children": [
+            {
+              "name": "Get-OctoPSFolder"
+            },
+            {
+              "name": "New-OctoPSFolder"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSJob",
+          "children": [
+            {
+              "name": "Get-OctoPSJob"
+            },
+            {
+              "name": "Start-OctoPSJob"
+            },
+            {
+              "name": "Restart-OctoPSJob"
+            },
+            {
+              "name": "Stop-OctoPSJob"
+            },
+            {
+              "name": "Suspend-OctoPSJob"
+            },
+            {
+              "name": "Resume-OctoPSJob"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSPrinterConnection",
+          "children": [
+            {
+              "name": "Get-OctoPSPrinterConnection"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSPrinterConnect",
+          "children": [
+            {
+              "name": "Invoke-OctoPSPrinterConnect"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSPrinterDisconnect",
+          "children": [
+            {
+              "name": "Invoke-OctoPSPrinterDisconnect"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSPrinterState",
+          "children": [
+            {
+              "name": "Get-OctoPSPrinterState"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSItem",
+          "children": [
+            {
+              "name": "Remove-OctoPSItem"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSTool",
+          "children": [
+            {
+              "name": "Get-OctoPSTool"
+            },
+            {
+              "name": "Set-OctoPSTool"
+            },
+            {
+              "name": "Select-OctoPSTool"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSBed",
+          "children": [
+            {
+              "name": "Get-OctoPSBed"
+            },
+            {
+              "name": "Set-OctoPSBed"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSToolExtrude",
+          "children": [
+            {
+              "name": "Invoke-OctoPSToolExtrude"
+            }
+          ]
+        },
+        {
+          "name": "OctoPSHomeAxis",
+          "children": [
+            {
+              "name": "Invoke-OctoPSHomeAxis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Posh-Sysmon",
+      "companyName": "Darkoperator.com",
+      "author": "Carlos Perez carlos Perez darkoperator.com",
+      "children": [
+        {
+          "name": "SysmonHashingAlgorithm",
+          "children": [
+            {
+              "name": "Get-SysmonHashingAlgorithm"
+            },
+            {
+              "name": "Set-SysmonHashingAlgorithm"
+            }
+          ]
+        },
+        {
+          "name": "SysmonRule",
+          "children": [
+            {
+              "name": "Get-SysmonRule"
+            },
+            {
+              "name": "Remove-SysmonRule"
+            },
+            {
+              "name": "Set-SysmonRule"
+            }
+          ]
+        },
+        {
+          "name": "SysmonConfiguration",
+          "children": [
+            {
+              "name": "New-SysmonConfiguration"
+            },
+            {
+              "name": "Get-SysmonConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SysmonDriverLoadFilter",
+          "children": [
+            {
+              "name": "New-SysmonDriverLoadFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonFileCreateFilter",
+          "children": [
+            {
+              "name": "New-SysmonFileCreateFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonImageLoadFilter",
+          "children": [
+            {
+              "name": "New-SysmonImageLoadFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonNetworkConnectFilter",
+          "children": [
+            {
+              "name": "New-SysmonNetworkConnectFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonProcessCreateFilter",
+          "children": [
+            {
+              "name": "New-SysmonProcessCreateFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonProcessTerminateFilter",
+          "children": [
+            {
+              "name": "New-SysmonProcessTerminateFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonRuleFilter",
+          "children": [
+            {
+              "name": "Remove-SysmonRuleFilter"
+            },
+            {
+              "name": "Get-SysmonRuleFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonEventData",
+          "children": [
+            {
+              "name": "Get-SysmonEventData"
+            }
+          ]
+        },
+        {
+          "name": "SysmonProcessAccessFilter",
+          "children": [
+            {
+              "name": "New-SysmonProcessAccessFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonFileCreateStreamHashFilter",
+          "children": [
+            {
+              "name": "New-SysmonFileCreateStreamHashFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonRegistryFilter",
+          "children": [
+            {
+              "name": "New-SysmonRegistryFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonPipeFIlter",
+          "children": [
+            {
+              "name": "New-SysmonPipeFIlter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonWmiFilter",
+          "children": [
+            {
+              "name": "New-SysmonWmiFilter"
+            }
+          ]
+        },
+        {
+          "name": "SysmonBinaryConfiguration",
+          "children": [
+            {
+              "name": "ConvertFrom-SysmonBinaryConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SysmonXMLConfiguration",
+          "children": [
+            {
+              "name": "ConvertTo-SysmonXMLConfiguration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

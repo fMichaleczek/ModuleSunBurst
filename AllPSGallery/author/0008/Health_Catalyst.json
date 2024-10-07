@@ -1,0 +1,2069 @@
+{
+  "name": "Health Catalyst",
+  "children": [
+    {
+      "name": "dos-install-common-azure",
+      "companyName": "Health Catalyst",
+      "author": "Health Catalyst",
+      "children": [
+        {
+          "name": "LoginToAzure",
+          "children": [
+            {
+              "name": "LoginToAzure"
+            }
+          ]
+        },
+        {
+          "name": "AllModules",
+          "children": [
+            {
+              "name": "Uninstall-AllModules"
+            }
+          ]
+        },
+        {
+          "name": "AssignPermissionsToServicePrincipal",
+          "children": [
+            {
+              "name": "AssignPermissionsToServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "BuildSubnetId",
+          "children": [
+            {
+              "name": "BuildSubnetId"
+            }
+          ]
+        },
+        {
+          "name": "CreateServicePrincipal",
+          "children": [
+            {
+              "name": "CreateServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "CleanResourceGroup",
+          "children": [
+            {
+              "name": "CleanResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "DeployTemplate",
+          "children": [
+            {
+              "name": "DeployTemplate"
+            }
+          ]
+        },
+        {
+          "name": "GetConfigHashtable",
+          "children": [
+            {
+              "name": "GetConfigHashtable"
+            }
+          ]
+        },
+        {
+          "name": "GetConfigObjectFromFile",
+          "children": [
+            {
+              "name": "GetConfigObjectFromFile"
+            }
+          ]
+        },
+        {
+          "name": "GetKeyVaultSecretValue",
+          "children": [
+            {
+              "name": "GetKeyVaultSecretValue"
+            }
+          ]
+        },
+        {
+          "name": "StripJsonComments",
+          "children": [
+            {
+              "name": "StripJsonComments"
+            }
+          ]
+        },
+        {
+          "name": "SetCurrentAzureSubscription",
+          "children": [
+            {
+              "name": "SetCurrentAzureSubscription"
+            }
+          ]
+        },
+        {
+          "name": "GetResourceGroup",
+          "children": [
+            {
+              "name": "GetResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "GetCurrentAzureSubscription",
+          "children": [
+            {
+              "name": "GetCurrentAzureSubscription"
+            }
+          ]
+        },
+        {
+          "name": "GetStorageAccountName",
+          "children": [
+            {
+              "name": "GetStorageAccountName"
+            }
+          ]
+        },
+        {
+          "name": "SetStorageAccountNameIntoSecret",
+          "children": [
+            {
+              "name": "SetStorageAccountNameIntoSecret"
+            }
+          ]
+        },
+        {
+          "name": "CreateShare",
+          "children": [
+            {
+              "name": "CreateShare"
+            }
+          ]
+        },
+        {
+          "name": "CreateShareInStorageAccount",
+          "children": [
+            {
+              "name": "CreateShareInStorageAccount"
+            }
+          ]
+        },
+        {
+          "name": "DeleteShare",
+          "children": [
+            {
+              "name": "DeleteShare"
+            }
+          ]
+        },
+        {
+          "name": "CreateAzureStorage",
+          "children": [
+            {
+              "name": "CreateAzureStorage"
+            }
+          ]
+        },
+        {
+          "name": "SetupLoadBalancer",
+          "children": [
+            {
+              "name": "SetupLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "TestAzureLoadBalancer",
+          "children": [
+            {
+              "name": "TestAzureLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "GetUrlAndIPForLoadBalancer",
+          "children": [
+            {
+              "name": "GetUrlAndIPForLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "MovePortsToLoadBalancer",
+          "children": [
+            {
+              "name": "MovePortsToLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "MovePortsToLoadBalancerForNamespace",
+          "children": [
+            {
+              "name": "MovePortsToLoadBalancerForNamespace"
+            }
+          ]
+        },
+        {
+          "name": "SetupNetworkSecurity",
+          "children": [
+            {
+              "name": "SetupNetworkSecurity"
+            }
+          ]
+        },
+        {
+          "name": "InstallStackInAzure",
+          "children": [
+            {
+              "name": "InstallStackInAzure"
+            }
+          ]
+        },
+        {
+          "name": "CreateSecretsForStack",
+          "children": [
+            {
+              "name": "CreateSecretsForStack"
+            }
+          ]
+        },
+        {
+          "name": "InstallProductInAzure",
+          "children": [
+            {
+              "name": "InstallProductInAzure"
+            }
+          ]
+        },
+        {
+          "name": "DeleteNamespaceAndData",
+          "children": [
+            {
+              "name": "DeleteNamespaceAndData"
+            }
+          ]
+        },
+        {
+          "name": "RunRealtimeTester",
+          "children": [
+            {
+              "name": "RunRealtimeTester"
+            }
+          ]
+        },
+        {
+          "name": "CopyKubernetesSecretsToKeyVault",
+          "children": [
+            {
+              "name": "CopyKubernetesSecretsToKeyVault"
+            }
+          ]
+        },
+        {
+          "name": "SaveKeyInVault",
+          "children": [
+            {
+              "name": "SaveKeyInVault"
+            }
+          ]
+        },
+        {
+          "name": "CreateKeyVault",
+          "children": [
+            {
+              "name": "CreateKeyVault"
+            }
+          ]
+        },
+        {
+          "name": "KeyVaultName",
+          "children": [
+            {
+              "name": "Get-KeyVaultName"
+            }
+          ]
+        },
+        {
+          "name": "CopyKeyVaultSecretsToKubernetes",
+          "children": [
+            {
+              "name": "CopyKeyVaultSecretsToKubernetes"
+            }
+          ]
+        },
+        {
+          "name": "GetListOfSecretsInVault",
+          "children": [
+            {
+              "name": "GetListOfSecretsInVault"
+            }
+          ]
+        },
+        {
+          "name": "GetKeyInVault",
+          "children": [
+            {
+              "name": "GetKeyInVault"
+            }
+          ]
+        },
+        {
+          "name": "ShowMainMenu",
+          "children": [
+            {
+              "name": "ShowMainMenu"
+            }
+          ]
+        },
+        {
+          "name": "ShowProductMenu",
+          "children": [
+            {
+              "name": "ShowProductMenu"
+            }
+          ]
+        },
+        {
+          "name": "ShowTroubleshootingMenu",
+          "children": [
+            {
+              "name": "ShowTroubleshootingMenu"
+            }
+          ]
+        },
+        {
+          "name": "StartVMsInResourceGroup",
+          "children": [
+            {
+              "name": "StartVMsInResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "StopVMsInResourceGroup",
+          "children": [
+            {
+              "name": "StopVMsInResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "ShowSSHCommandsToVMs",
+          "children": [
+            {
+              "name": "ShowSSHCommandsToVMs"
+            }
+          ]
+        },
+        {
+          "name": "RestartVMsInResourceGroup",
+          "children": [
+            {
+              "name": "RestartVMsInResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "GetPublicNameofMasterVM",
+          "children": [
+            {
+              "name": "GetPublicNameofMasterVM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dos-install-common-kube",
+      "companyName": "Health Catalyst",
+      "author": "Health Catalyst",
+      "children": [
+        {
+          "name": "ShowStatusOfCluster",
+          "children": [
+            {
+              "name": "ShowStatusOfCluster"
+            }
+          ]
+        },
+        {
+          "name": "GenerateKubeConfigFile",
+          "children": [
+            {
+              "name": "GenerateKubeConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "CleanOutNamespace",
+          "children": [
+            {
+              "name": "CleanOutNamespace"
+            }
+          ]
+        },
+        {
+          "name": "CreateNamespaceIfNotExists",
+          "children": [
+            {
+              "name": "CreateNamespaceIfNotExists"
+            }
+          ]
+        },
+        {
+          "name": "CreateSecretWithMultipleValues",
+          "children": [
+            {
+              "name": "CreateSecretWithMultipleValues"
+            }
+          ]
+        },
+        {
+          "name": "DeleteSecret",
+          "children": [
+            {
+              "name": "DeleteSecret"
+            }
+          ]
+        },
+        {
+          "name": "ReadSecretData",
+          "children": [
+            {
+              "name": "ReadSecretData"
+            }
+          ]
+        },
+        {
+          "name": "ReadSecretValue",
+          "children": [
+            {
+              "name": "ReadSecretValue"
+            }
+          ]
+        },
+        {
+          "name": "SaveSecretValue",
+          "children": [
+            {
+              "name": "SaveSecretValue"
+            }
+          ]
+        },
+        {
+          "name": "SaveSecretPassword",
+          "children": [
+            {
+              "name": "SaveSecretPassword"
+            }
+          ]
+        },
+        {
+          "name": "DeleteAllSecretsInNamespace",
+          "children": [
+            {
+              "name": "DeleteAllSecretsInNamespace"
+            }
+          ]
+        },
+        {
+          "name": "ReadAllSecretsAsHashTable",
+          "children": [
+            {
+              "name": "ReadAllSecretsAsHashTable"
+            }
+          ]
+        },
+        {
+          "name": "GenerateSecretPassword",
+          "children": [
+            {
+              "name": "GenerateSecretPassword"
+            }
+          ]
+        },
+        {
+          "name": "ReadSecretPassword",
+          "children": [
+            {
+              "name": "ReadSecretPassword"
+            }
+          ]
+        },
+        {
+          "name": "WriteSecretPasswordToOutput",
+          "children": [
+            {
+              "name": "WriteSecretPasswordToOutput"
+            }
+          ]
+        },
+        {
+          "name": "WriteSecretValueToOutput",
+          "children": [
+            {
+              "name": "WriteSecretValueToOutput"
+            }
+          ]
+        },
+        {
+          "name": "WaitForPodsInNamespace",
+          "children": [
+            {
+              "name": "WaitForPodsInNamespace"
+            }
+          ]
+        },
+        {
+          "name": "GetLoadBalancerIPs",
+          "children": [
+            {
+              "name": "GetLoadBalancerIPs"
+            }
+          ]
+        },
+        {
+          "name": "ShowStatusOfAllPodsInNameSpace",
+          "children": [
+            {
+              "name": "ShowStatusOfAllPodsInNameSpace"
+            }
+          ]
+        },
+        {
+          "name": "ShowLogsOfAllPodsInNameSpace",
+          "children": [
+            {
+              "name": "ShowLogsOfAllPodsInNameSpace"
+            }
+          ]
+        },
+        {
+          "name": "ShowSSHCommandsToContainers",
+          "children": [
+            {
+              "name": "ShowSSHCommandsToContainers"
+            }
+          ]
+        },
+        {
+          "name": "TroubleshootIngress",
+          "children": [
+            {
+              "name": "TroubleshootIngress"
+            }
+          ]
+        },
+        {
+          "name": "RestartDNSPodsIfNeeded",
+          "children": [
+            {
+              "name": "RestartDNSPodsIfNeeded"
+            }
+          ]
+        },
+        {
+          "name": "InitHelm",
+          "children": [
+            {
+              "name": "InitHelm"
+            }
+          ]
+        },
+        {
+          "name": "InstallHelmPackage",
+          "children": [
+            {
+              "name": "InstallHelmPackage"
+            }
+          ]
+        },
+        {
+          "name": "InstallLoadBalancerHelmPackage",
+          "children": [
+            {
+              "name": "InstallLoadBalancerHelmPackage"
+            }
+          ]
+        },
+        {
+          "name": "Tokens",
+          "children": [
+            {
+              "name": "Merge-Tokens"
+            }
+          ]
+        },
+        {
+          "name": "ReadYamlAndReplaceTokens",
+          "children": [
+            {
+              "name": "ReadYamlAndReplaceTokens"
+            }
+          ]
+        },
+        {
+          "name": "DeployYamlFile",
+          "children": [
+            {
+              "name": "DeployYamlFile"
+            }
+          ]
+        },
+        {
+          "name": "DeployYamlFiles",
+          "children": [
+            {
+              "name": "DeployYamlFiles"
+            }
+          ]
+        },
+        {
+          "name": "InstallStackInKubernetes",
+          "children": [
+            {
+              "name": "InstallStackInKubernetes"
+            }
+          ]
+        },
+        {
+          "name": "LoadLoadBalancerStack",
+          "children": [
+            {
+              "name": "LoadLoadBalancerStack"
+            }
+          ]
+        },
+        {
+          "name": "HasProperty",
+          "children": [
+            {
+              "name": "HasProperty"
+            }
+          ]
+        },
+        {
+          "name": "CommandExists",
+          "children": [
+            {
+              "name": "Test-CommandExists"
+            }
+          ]
+        },
+        {
+          "name": "AssertStringIsNotNull",
+          "children": [
+            {
+              "name": "AssertStringIsNotNull"
+            }
+          ]
+        },
+        {
+          "name": "AssertStringIsNotNullOrEmpty",
+          "children": [
+            {
+              "name": "AssertStringIsNotNullOrEmpty"
+            }
+          ]
+        },
+        {
+          "name": "OpenPort",
+          "children": [
+            {
+              "name": "Find-OpenPort"
+            }
+          ]
+        },
+        {
+          "name": "IsPortFree",
+          "children": [
+            {
+              "name": "Get-IsPortFree"
+            }
+          ]
+        },
+        {
+          "name": "GeneratePassword",
+          "children": [
+            {
+              "name": "GeneratePassword"
+            }
+          ]
+        },
+        {
+          "name": "GetConfigFile",
+          "children": [
+            {
+              "name": "GetConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "ReadConfigFile",
+          "children": [
+            {
+              "name": "ReadConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "LaunchKubernetesDashboard",
+          "children": [
+            {
+              "name": "LaunchKubernetesDashboard"
+            }
+          ]
+        },
+        {
+          "name": "LaunchTraefikDashboard",
+          "children": [
+            {
+              "name": "LaunchTraefikDashboard"
+            }
+          ]
+        },
+        {
+          "name": "TokenForDashboardUser",
+          "children": [
+            {
+              "name": "Get-TokenForDashboardUser"
+            }
+          ]
+        },
+        {
+          "name": "SecretNameForDashboardUser",
+          "children": [
+            {
+              "name": "Get-SecretNameForDashboardUser"
+            }
+          ]
+        },
+        {
+          "name": "UserForDashboard",
+          "children": [
+            {
+              "name": "Get-UserForDashboard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DosInstallUtilities.Azure",
+      "companyName": "Health Catalyst",
+      "author": "Health Catalyst",
+      "children": [
+        {
+          "name": "GlobalsDummy",
+          "children": [
+            {
+              "name": "GlobalsDummy"
+            }
+          ]
+        },
+        {
+          "name": "LoginToAzure",
+          "children": [
+            {
+              "name": "LoginToAzure"
+            }
+          ]
+        },
+        {
+          "name": "InitKubernetes",
+          "children": [
+            {
+              "name": "InitKubernetes"
+            }
+          ]
+        },
+        {
+          "name": "GetClusterCredentials",
+          "children": [
+            {
+              "name": "GetClusterCredentials"
+            }
+          ]
+        },
+        {
+          "name": "GetClusterAdminCredentials",
+          "children": [
+            {
+              "name": "GetClusterAdminCredentials"
+            }
+          ]
+        },
+        {
+          "name": "GetClusterName",
+          "children": [
+            {
+              "name": "GetClusterName"
+            }
+          ]
+        },
+        {
+          "name": "AddPermissionForUser",
+          "children": [
+            {
+              "name": "AddPermissionForUser"
+            }
+          ]
+        },
+        {
+          "name": "LoginAsServiceAccount",
+          "children": [
+            {
+              "name": "LoginAsServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "GetServicePrincipalFromKeyVault",
+          "children": [
+            {
+              "name": "GetServicePrincipalFromKeyVault"
+            }
+          ]
+        },
+        {
+          "name": "InstallKubectl",
+          "children": [
+            {
+              "name": "InstallKubectl"
+            }
+          ]
+        },
+        {
+          "name": "AllModules",
+          "children": [
+            {
+              "name": "Uninstall-AllModules"
+            }
+          ]
+        },
+        {
+          "name": "CheckUserIsKubernetesAdministrator",
+          "children": [
+            {
+              "name": "CheckUserIsKubernetesAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "AssignPermissionsToServicePrincipal",
+          "children": [
+            {
+              "name": "AssignPermissionsToServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "BuildSubnetId",
+          "children": [
+            {
+              "name": "BuildSubnetId"
+            }
+          ]
+        },
+        {
+          "name": "CleanResourceGroup",
+          "children": [
+            {
+              "name": "CleanResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "GetConfigHashtable",
+          "children": [
+            {
+              "name": "GetConfigHashtable"
+            }
+          ]
+        },
+        {
+          "name": "GetConfigObjectFromFile",
+          "children": [
+            {
+              "name": "GetConfigObjectFromFile"
+            }
+          ]
+        },
+        {
+          "name": "GetKeyVaultSecretValue",
+          "children": [
+            {
+              "name": "GetKeyVaultSecretValue"
+            }
+          ]
+        },
+        {
+          "name": "StripJsonComments",
+          "children": [
+            {
+              "name": "StripJsonComments"
+            }
+          ]
+        },
+        {
+          "name": "DownloadCredentialsForAks",
+          "children": [
+            {
+              "name": "DownloadCredentialsForAks"
+            }
+          ]
+        },
+        {
+          "name": "LaunchAksDashboard",
+          "children": [
+            {
+              "name": "LaunchAksDashboard"
+            }
+          ]
+        },
+        {
+          "name": "SetCurrentAzureSubscription",
+          "children": [
+            {
+              "name": "SetCurrentAzureSubscription"
+            }
+          ]
+        },
+        {
+          "name": "GetResourceGroup",
+          "children": [
+            {
+              "name": "GetResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "GetCurrentAzureSubscription",
+          "children": [
+            {
+              "name": "GetCurrentAzureSubscription"
+            }
+          ]
+        },
+        {
+          "name": "ChooseFromSubscriptionList",
+          "children": [
+            {
+              "name": "ChooseFromSubscriptionList"
+            }
+          ]
+        },
+        {
+          "name": "GetStorageAccountName",
+          "children": [
+            {
+              "name": "GetStorageAccountName"
+            }
+          ]
+        },
+        {
+          "name": "SetStorageAccountNameIntoSecret",
+          "children": [
+            {
+              "name": "SetStorageAccountNameIntoSecret"
+            }
+          ]
+        },
+        {
+          "name": "CreateShare",
+          "children": [
+            {
+              "name": "CreateShare"
+            }
+          ]
+        },
+        {
+          "name": "CreateShareInStorageAccount",
+          "children": [
+            {
+              "name": "CreateShareInStorageAccount"
+            }
+          ]
+        },
+        {
+          "name": "DeleteShare",
+          "children": [
+            {
+              "name": "DeleteShare"
+            }
+          ]
+        },
+        {
+          "name": "CreateAzureStorage",
+          "children": [
+            {
+              "name": "CreateAzureStorage"
+            }
+          ]
+        },
+        {
+          "name": "DeleteAzureStorage",
+          "children": [
+            {
+              "name": "DeleteAzureStorage"
+            }
+          ]
+        },
+        {
+          "name": "GetResourceGroupFromSecret",
+          "children": [
+            {
+              "name": "GetResourceGroupFromSecret"
+            }
+          ]
+        },
+        {
+          "name": "SetupLoadBalancer",
+          "children": [
+            {
+              "name": "SetupLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "TestAzureLoadBalancer",
+          "children": [
+            {
+              "name": "TestAzureLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "GetUrlAndIPForLoadBalancer",
+          "children": [
+            {
+              "name": "GetUrlAndIPForLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "MovePortsToLoadBalancer",
+          "children": [
+            {
+              "name": "MovePortsToLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "MovePortsToLoadBalancerForNamespace",
+          "children": [
+            {
+              "name": "MovePortsToLoadBalancerForNamespace"
+            }
+          ]
+        },
+        {
+          "name": "WriteDNSCommands",
+          "children": [
+            {
+              "name": "WriteDNSCommands"
+            }
+          ]
+        },
+        {
+          "name": "GetDNSCommands",
+          "children": [
+            {
+              "name": "GetDNSCommands"
+            }
+          ]
+        },
+        {
+          "name": "DeleteNamespaceAndData",
+          "children": [
+            {
+              "name": "DeleteNamespaceAndData"
+            }
+          ]
+        },
+        {
+          "name": "RunRealtimeTester",
+          "children": [
+            {
+              "name": "RunRealtimeTester"
+            }
+          ]
+        },
+        {
+          "name": "CopyKubernetesSecretsToKeyVault",
+          "children": [
+            {
+              "name": "CopyKubernetesSecretsToKeyVault"
+            }
+          ]
+        },
+        {
+          "name": "SaveKeyInVault",
+          "children": [
+            {
+              "name": "SaveKeyInVault"
+            }
+          ]
+        },
+        {
+          "name": "CreateKeyVault",
+          "children": [
+            {
+              "name": "CreateKeyVault"
+            }
+          ]
+        },
+        {
+          "name": "KeyVaultName",
+          "children": [
+            {
+              "name": "Get-KeyVaultName"
+            }
+          ]
+        },
+        {
+          "name": "CopyKeyVaultSecretsToKubernetes",
+          "children": [
+            {
+              "name": "CopyKeyVaultSecretsToKubernetes"
+            }
+          ]
+        },
+        {
+          "name": "GetListOfSecretsInVault",
+          "children": [
+            {
+              "name": "GetListOfSecretsInVault"
+            }
+          ]
+        },
+        {
+          "name": "GetKeyInVault",
+          "children": [
+            {
+              "name": "GetKeyInVault"
+            }
+          ]
+        },
+        {
+          "name": "KeyVaultSecretsDummy",
+          "children": [
+            {
+              "name": "KeyVaultSecretsDummy"
+            }
+          ]
+        },
+        {
+          "name": "StartVMsInResourceGroup",
+          "children": [
+            {
+              "name": "StartVMsInResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "StopVMsInResourceGroup",
+          "children": [
+            {
+              "name": "StopVMsInResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "ShowSSHCommandsToVMs",
+          "children": [
+            {
+              "name": "ShowSSHCommandsToVMs"
+            }
+          ]
+        },
+        {
+          "name": "RestartVMsInResourceGroup",
+          "children": [
+            {
+              "name": "RestartVMsInResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "GetPublicNameofMasterVM",
+          "children": [
+            {
+              "name": "GetPublicNameofMasterVM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DosInstallUtilities.Kube",
+      "companyName": "Health Catalyst",
+      "author": "Health Catalyst",
+      "children": [
+        {
+          "name": "ServiceDummy",
+          "children": [
+            {
+              "name": "ServiceDummy"
+            }
+          ]
+        },
+        {
+          "name": "KubeGlobals",
+          "children": [
+            {
+              "name": "KubeGlobals"
+            }
+          ]
+        },
+        {
+          "name": "ShowStatusOfCluster",
+          "children": [
+            {
+              "name": "ShowStatusOfCluster"
+            }
+          ]
+        },
+        {
+          "name": "GenerateKubeConfigFile",
+          "children": [
+            {
+              "name": "GenerateKubeConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "CleanOutNamespace",
+          "children": [
+            {
+              "name": "CleanOutNamespace"
+            }
+          ]
+        },
+        {
+          "name": "CreateNamespaceIfNotExists",
+          "children": [
+            {
+              "name": "CreateNamespaceIfNotExists"
+            }
+          ]
+        },
+        {
+          "name": "CreateSecretWithMultipleValues",
+          "children": [
+            {
+              "name": "CreateSecretWithMultipleValues"
+            }
+          ]
+        },
+        {
+          "name": "DeleteSecret",
+          "children": [
+            {
+              "name": "DeleteSecret"
+            }
+          ]
+        },
+        {
+          "name": "ReadSecretData",
+          "children": [
+            {
+              "name": "ReadSecretData"
+            }
+          ]
+        },
+        {
+          "name": "ReadSecretValue",
+          "children": [
+            {
+              "name": "ReadSecretValue"
+            }
+          ]
+        },
+        {
+          "name": "SaveSecretValue",
+          "children": [
+            {
+              "name": "SaveSecretValue"
+            }
+          ]
+        },
+        {
+          "name": "SaveSecretPassword",
+          "children": [
+            {
+              "name": "SaveSecretPassword"
+            }
+          ]
+        },
+        {
+          "name": "DeleteAllSecretsInNamespace",
+          "children": [
+            {
+              "name": "DeleteAllSecretsInNamespace"
+            }
+          ]
+        },
+        {
+          "name": "ReadAllSecretsAsHashTable",
+          "children": [
+            {
+              "name": "ReadAllSecretsAsHashTable"
+            }
+          ]
+        },
+        {
+          "name": "GenerateSecretPassword",
+          "children": [
+            {
+              "name": "GenerateSecretPassword"
+            }
+          ]
+        },
+        {
+          "name": "ReadSecretPassword",
+          "children": [
+            {
+              "name": "ReadSecretPassword"
+            }
+          ]
+        },
+        {
+          "name": "WriteSecretPasswordToOutput",
+          "children": [
+            {
+              "name": "WriteSecretPasswordToOutput"
+            }
+          ]
+        },
+        {
+          "name": "WriteSecretValueToOutput",
+          "children": [
+            {
+              "name": "WriteSecretValueToOutput"
+            }
+          ]
+        },
+        {
+          "name": "AskForSecretValue",
+          "children": [
+            {
+              "name": "AskForSecretValue"
+            }
+          ]
+        },
+        {
+          "name": "AskForPasswordAnyCharacters",
+          "children": [
+            {
+              "name": "AskForPasswordAnyCharacters"
+            }
+          ]
+        },
+        {
+          "name": "WaitForPodsInNamespace",
+          "children": [
+            {
+              "name": "WaitForPodsInNamespace"
+            }
+          ]
+        },
+        {
+          "name": "GetLoadBalancerIPs",
+          "children": [
+            {
+              "name": "GetLoadBalancerIPs"
+            }
+          ]
+        },
+        {
+          "name": "ShowStatusOfAllPodsInNameSpace",
+          "children": [
+            {
+              "name": "ShowStatusOfAllPodsInNameSpace"
+            }
+          ]
+        },
+        {
+          "name": "ShowLogsOfAllPodsInNameSpace",
+          "children": [
+            {
+              "name": "ShowLogsOfAllPodsInNameSpace"
+            }
+          ]
+        },
+        {
+          "name": "ShowSSHCommandsToContainers",
+          "children": [
+            {
+              "name": "ShowSSHCommandsToContainers"
+            }
+          ]
+        },
+        {
+          "name": "WaitForLoadBalancerIPByLabel",
+          "children": [
+            {
+              "name": "WaitForLoadBalancerIPByLabel"
+            }
+          ]
+        },
+        {
+          "name": "TroubleshootIngress",
+          "children": [
+            {
+              "name": "TroubleshootIngress"
+            }
+          ]
+        },
+        {
+          "name": "RestartDNSPodsIfNeeded",
+          "children": [
+            {
+              "name": "RestartDNSPodsIfNeeded"
+            }
+          ]
+        },
+        {
+          "name": "GetTcpServices",
+          "children": [
+            {
+              "name": "GetTcpServices"
+            }
+          ]
+        },
+        {
+          "name": "InitHelm",
+          "children": [
+            {
+              "name": "InitHelm"
+            }
+          ]
+        },
+        {
+          "name": "InstallHelmPackage",
+          "children": [
+            {
+              "name": "InstallHelmPackage"
+            }
+          ]
+        },
+        {
+          "name": "InstallLoadBalancerHelmPackage",
+          "children": [
+            {
+              "name": "InstallLoadBalancerHelmPackage"
+            }
+          ]
+        },
+        {
+          "name": "DeleteHelmPackage",
+          "children": [
+            {
+              "name": "DeleteHelmPackage"
+            }
+          ]
+        },
+        {
+          "name": "InstallHelmClient",
+          "children": [
+            {
+              "name": "InstallHelmClient"
+            }
+          ]
+        },
+        {
+          "name": "ListHelmPackages",
+          "children": [
+            {
+              "name": "ListHelmPackages"
+            }
+          ]
+        },
+        {
+          "name": "Tokens",
+          "children": [
+            {
+              "name": "Merge-Tokens"
+            }
+          ]
+        },
+        {
+          "name": "SetTcpPortsForStack",
+          "children": [
+            {
+              "name": "SetTcpPortsForStack"
+            }
+          ]
+        },
+        {
+          "name": "HasProperty",
+          "children": [
+            {
+              "name": "HasProperty"
+            }
+          ]
+        },
+        {
+          "name": "CommandExists",
+          "children": [
+            {
+              "name": "Test-CommandExists"
+            }
+          ]
+        },
+        {
+          "name": "AssertStringIsNotNull",
+          "children": [
+            {
+              "name": "AssertStringIsNotNull"
+            }
+          ]
+        },
+        {
+          "name": "AssertStringIsNotNullOrEmpty",
+          "children": [
+            {
+              "name": "AssertStringIsNotNullOrEmpty"
+            }
+          ]
+        },
+        {
+          "name": "OpenPort",
+          "children": [
+            {
+              "name": "Find-OpenPort"
+            }
+          ]
+        },
+        {
+          "name": "IsPortFree",
+          "children": [
+            {
+              "name": "Get-IsPortFree"
+            }
+          ]
+        },
+        {
+          "name": "GeneratePassword",
+          "children": [
+            {
+              "name": "GeneratePassword"
+            }
+          ]
+        },
+        {
+          "name": "Script",
+          "children": [
+            {
+              "name": "Test-Script"
+            }
+          ]
+        },
+        {
+          "name": "DownloadFile",
+          "children": [
+            {
+              "name": "DownloadFile"
+            }
+          ]
+        },
+        {
+          "name": "GenerateCertificates",
+          "children": [
+            {
+              "name": "GenerateCertificates"
+            }
+          ]
+        },
+        {
+          "name": "AddFolderToPath",
+          "children": [
+            {
+              "name": "AddFolderToPath"
+            }
+          ]
+        },
+        {
+          "name": "GetConfigFile",
+          "children": [
+            {
+              "name": "GetConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "ReadConfigFile",
+          "children": [
+            {
+              "name": "ReadConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "LaunchKubernetesDashboard",
+          "children": [
+            {
+              "name": "LaunchKubernetesDashboard"
+            }
+          ]
+        },
+        {
+          "name": "LaunchTraefikDashboard",
+          "children": [
+            {
+              "name": "LaunchTraefikDashboard"
+            }
+          ]
+        },
+        {
+          "name": "TokenForDashboardUser",
+          "children": [
+            {
+              "name": "Get-TokenForDashboardUser"
+            }
+          ]
+        },
+        {
+          "name": "SecretNameForDashboardUser",
+          "children": [
+            {
+              "name": "Get-SecretNameForDashboardUser"
+            }
+          ]
+        },
+        {
+          "name": "UserForDashboard",
+          "children": [
+            {
+              "name": "Get-UserForDashboard"
+            }
+          ]
+        },
+        {
+          "name": "InstallGrafana",
+          "children": [
+            {
+              "name": "InstallGrafana"
+            }
+          ]
+        },
+        {
+          "name": "LaunchGrafana",
+          "children": [
+            {
+              "name": "LaunchGrafana"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DosInstallUtilities.Menu",
+      "companyName": "Health Catalyst",
+      "author": "Health Catalyst",
+      "children": [
+        {
+          "name": "ShowMainMenu",
+          "children": [
+            {
+              "name": "ShowMainMenu"
+            }
+          ]
+        },
+        {
+          "name": "ShowTroubleshootingMenu",
+          "children": [
+            {
+              "name": "ShowTroubleshootingMenu"
+            }
+          ]
+        },
+        {
+          "name": "RunGuidedSetup",
+          "children": [
+            {
+              "name": "RunGuidedSetup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DosInstallUtilities.Nlp",
+      "companyName": "Health Catalyst",
+      "author": "Health Catalyst",
+      "children": [
+        {
+          "name": "ShowNlpMenu",
+          "children": [
+            {
+              "name": "ShowNlpMenu"
+            }
+          ]
+        },
+        {
+          "name": "CreateSecretsForNlp",
+          "children": [
+            {
+              "name": "CreateSecretsForNlp"
+            }
+          ]
+        },
+        {
+          "name": "InstallNlp",
+          "children": [
+            {
+              "name": "InstallNlp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DosInstallUtilities.OnPrem",
+      "companyName": "Health Catalyst",
+      "author": "Health Catalyst",
+      "children": [
+        {
+          "name": "GlobalsDummy",
+          "children": [
+            {
+              "name": "GlobalsDummy"
+            }
+          ]
+        },
+        {
+          "name": "WriteToConsole",
+          "children": [
+            {
+              "name": "WriteToConsole"
+            }
+          ]
+        },
+        {
+          "name": "ShowCommandToJoinCluster",
+          "children": [
+            {
+              "name": "ShowCommandToJoinCluster"
+            }
+          ]
+        },
+        {
+          "name": "ShowKubernetesServiceStatus",
+          "children": [
+            {
+              "name": "ShowKubernetesServiceStatus"
+            }
+          ]
+        },
+        {
+          "name": "OpenKubernetesDashboard",
+          "children": [
+            {
+              "name": "OpenKubernetesDashboard"
+            }
+          ]
+        },
+        {
+          "name": "mountAzureFile",
+          "children": [
+            {
+              "name": "mountAzureFile"
+            }
+          ]
+        },
+        {
+          "name": "MountFolderFromSecrets",
+          "children": [
+            {
+              "name": "MountFolderFromSecrets"
+            }
+          ]
+        },
+        {
+          "name": "mountSharedFolder",
+          "children": [
+            {
+              "name": "mountSharedFolder"
+            }
+          ]
+        },
+        {
+          "name": "mountSMB",
+          "children": [
+            {
+              "name": "mountSMB"
+            }
+          ]
+        },
+        {
+          "name": "mountSMBWithParams",
+          "children": [
+            {
+              "name": "mountSMBWithParams"
+            }
+          ]
+        },
+        {
+          "name": "ShowContentsOfSharedFolder",
+          "children": [
+            {
+              "name": "ShowContentsOfSharedFolder"
+            }
+          ]
+        },
+        {
+          "name": "CreateOnPremStorage",
+          "children": [
+            {
+              "name": "CreateOnPremStorage"
+            }
+          ]
+        },
+        {
+          "name": "DeleteOnPremStorage",
+          "children": [
+            {
+              "name": "DeleteOnPremStorage"
+            }
+          ]
+        },
+        {
+          "name": "ConfigureFirewall",
+          "children": [
+            {
+              "name": "ConfigureFirewall"
+            }
+          ]
+        },
+        {
+          "name": "OpenPortOnPrem",
+          "children": [
+            {
+              "name": "OpenPortOnPrem"
+            }
+          ]
+        },
+        {
+          "name": "AddFirewallPort",
+          "children": [
+            {
+              "name": "AddFirewallPort"
+            }
+          ]
+        },
+        {
+          "name": "OptimizeCentosForHyperv",
+          "children": [
+            {
+              "name": "OptimizeCentosForHyperv"
+            }
+          ]
+        },
+        {
+          "name": "TestDNS",
+          "children": [
+            {
+              "name": "TestDNS"
+            }
+          ]
+        },
+        {
+          "name": "TroubleshootNetworking",
+          "children": [
+            {
+              "name": "TroubleshootNetworking"
+            }
+          ]
+        },
+        {
+          "name": "lockPackageVersion",
+          "children": [
+            {
+              "name": "lockPackageVersion"
+            }
+          ]
+        },
+        {
+          "name": "unlockPackageVersion",
+          "children": [
+            {
+              "name": "unlockPackageVersion"
+            }
+          ]
+        },
+        {
+          "name": "SetupOnPremLoadBalancer",
+          "children": [
+            {
+              "name": "SetupOnPremLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "SetupNewMasterNode",
+          "children": [
+            {
+              "name": "SetupNewMasterNode"
+            }
+          ]
+        },
+        {
+          "name": "SetupNewNode",
+          "children": [
+            {
+              "name": "SetupNewNode"
+            }
+          ]
+        },
+        {
+          "name": "UninstallDockerAndKubernetes",
+          "children": [
+            {
+              "name": "UninstallDockerAndKubernetes"
+            }
+          ]
+        },
+        {
+          "name": "InstallDashboard",
+          "children": [
+            {
+              "name": "InstallDashboard"
+            }
+          ]
+        },
+        {
+          "name": "ChangeSslCertificate",
+          "children": [
+            {
+              "name": "ChangeSslCertificate"
+            }
+          ]
+        },
+        {
+          "name": "InstallHelmOnPrem",
+          "children": [
+            {
+              "name": "InstallHelmOnPrem"
+            }
+          ]
+        },
+        {
+          "name": "showTroubleshootingMenu",
+          "children": [
+            {
+              "name": "showTroubleshootingMenu"
+            }
+          ]
+        },
+        {
+          "name": "ShowOnPremMenu",
+          "children": [
+            {
+              "name": "ShowOnPremMenu"
+            }
+          ]
+        },
+        {
+          "name": "SetupMaster",
+          "children": [
+            {
+              "name": "SetupMaster"
+            }
+          ]
+        },
+        {
+          "name": "SetupWorker",
+          "children": [
+            {
+              "name": "SetupWorker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DosInstallUtilities.Realtime",
+      "companyName": "Health Catalyst",
+      "author": "Health Catalyst",
+      "children": [
+        {
+          "name": "ShowRealtimeMenu",
+          "children": [
+            {
+              "name": "ShowRealtimeMenu"
+            }
+          ]
+        },
+        {
+          "name": "CreateSecretsForRealtime",
+          "children": [
+            {
+              "name": "CreateSecretsForRealtime"
+            }
+          ]
+        },
+        {
+          "name": "ShowUrlsAndPasswordsForRealtime",
+          "children": [
+            {
+              "name": "ShowUrlsAndPasswordsForRealtime"
+            }
+          ]
+        },
+        {
+          "name": "TcpPort",
+          "children": [
+            {
+              "name": "Test-TcpPort"
+            }
+          ]
+        },
+        {
+          "name": "SendingHL7",
+          "children": [
+            {
+              "name": "Test-SendingHL7"
+            }
+          ]
+        },
+        {
+          "name": "DownloadCertificate",
+          "children": [
+            {
+              "name": "Test-DownloadCertificate"
+            }
+          ]
+        },
+        {
+          "name": "Certificate",
+          "children": [
+            {
+              "name": "Install-Certificate"
+            }
+          ]
+        },
+        {
+          "name": "RabbitMq",
+          "children": [
+            {
+              "name": "Test-RabbitMq"
+            }
+          ]
+        },
+        {
+          "name": "InstallRealtime",
+          "children": [
+            {
+              "name": "InstallRealtime"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

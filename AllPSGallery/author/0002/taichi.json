@@ -1,0 +1,66 @@
+{
+  "name": "taichi",
+  "children": [
+    {
+      "name": "FwdCompatEventLog",
+      "companyName": "taichi",
+      "author": "taichi",
+      "children": [
+        {
+          "name": "EventLog",
+          "children": [
+            {
+              "name": "New-EventLog"
+            },
+            {
+              "name": "Remove-EventLog"
+            },
+            {
+              "name": "Limit-EventLog"
+            },
+            {
+              "name": "Write-EventLog"
+            },
+            {
+              "name": "Show-EventLog"
+            },
+            {
+              "name": "Clear-EventLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UnixLike",
+      "companyName": "taichi",
+      "author": "taichi",
+      "children": [
+        {
+          "name": "CommandSource",
+          "children": [
+            {
+              "name": "Get-CommandSource"
+            }
+          ]
+        },
+        {
+          "name": "PipedString",
+          "children": [
+            {
+              "name": "Select-PipedString"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "New-File"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

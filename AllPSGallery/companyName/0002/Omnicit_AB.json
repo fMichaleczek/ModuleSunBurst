@@ -1,0 +1,134 @@
+{
+  "name": "Omnicit AB",
+  "children": [
+    {
+      "name": "DistributionGroupMigration",
+      "companyName": "Omnicit AB",
+      "author": "Philip Haglund",
+      "children": [
+        {
+          "name": "OnPremDSTGroupToCloud",
+          "children": [
+            {
+              "name": "Complete-OnPremDSTGroupToCloud"
+            },
+            {
+              "name": "Initialize-OnPremDSTGroupToCloud"
+            }
+          ]
+        },
+        {
+          "name": "OnPremDSTGroup",
+          "children": [
+            {
+              "name": "Remove-OnPremDSTGroup"
+            }
+          ]
+        },
+        {
+          "name": "NoAADSyncOnPremDSTGroup",
+          "children": [
+            {
+              "name": "Set-NoAADSyncOnPremDSTGroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Omnicit",
+      "companyName": "Omnicit AB",
+      "author": "Omnicit",
+      "children": [
+        {
+          "name": "ObjectProperty",
+          "children": [
+            {
+              "name": "Compare-ObjectProperty"
+            }
+          ]
+        },
+        {
+          "name": "CanonicalName",
+          "children": [
+            {
+              "name": "ConvertFrom-CanonicalName"
+            }
+          ]
+        },
+        {
+          "name": "DistinguishedName",
+          "children": [
+            {
+              "name": "ConvertFrom-DistinguishedName"
+            }
+          ]
+        },
+        {
+          "name": "MailNormalization",
+          "children": [
+            {
+              "name": "ConvertTo-MailNormalization"
+            }
+          ]
+        },
+        {
+          "name": "TitleCase",
+          "children": [
+            {
+              "name": "ConvertTo-TitleCase"
+            }
+          ]
+        },
+        {
+          "name": "ClipboardArray",
+          "children": [
+            {
+              "name": "Get-ClipboardArray"
+            }
+          ]
+        },
+        {
+          "name": "FolderSize",
+          "children": [
+            {
+              "name": "Get-FolderSize"
+            }
+          ]
+        },
+        {
+          "name": "Parameter",
+          "children": [
+            {
+              "name": "Get-Parameter"
+            }
+          ]
+        },
+        {
+          "name": "WanIPAddress",
+          "children": [
+            {
+              "name": "Get-WanIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "ModuleUpdate",
+          "children": [
+            {
+              "name": "Invoke-ModuleUpdate"
+            }
+          ]
+        },
+        {
+          "name": "Mstsc",
+          "children": [
+            {
+              "name": "Start-Mstsc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

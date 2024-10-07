@@ -1,0 +1,214 @@
+{
+  "name": "Netz Weise",
+  "children": [
+    {
+      "name": "GroupPolicyHelper",
+      "companyName": "Netz Weise",
+      "author": "Holger Voges",
+      "children": [
+        {
+          "name": "GphGpoDefaultPermissions",
+          "children": [
+            {
+              "name": "Add-GphGpoDefaultPermissions"
+            }
+          ]
+        },
+        {
+          "name": "GphGpVersion",
+          "children": [
+            {
+              "name": "ConvertFrom-GphGpVersion"
+            }
+          ]
+        },
+        {
+          "name": "GphAGPMEncryptedMail",
+          "children": [
+            {
+              "name": "Enable-GphAGPMEncryptedMail"
+            }
+          ]
+        },
+        {
+          "name": "GphGlobalStore",
+          "children": [
+            {
+              "name": "Enable-GphGlobalStore"
+            }
+          ]
+        },
+        {
+          "name": "GphLocalStore",
+          "children": [
+            {
+              "name": "Enable-GphLocalStore"
+            }
+          ]
+        },
+        {
+          "name": "GphDfslog",
+          "children": [
+            {
+              "name": "Get-GphDfslog"
+            }
+          ]
+        },
+        {
+          "name": "GphEmptyGPO",
+          "children": [
+            {
+              "name": "Get-GphEmptyGPO"
+            }
+          ]
+        },
+        {
+          "name": "GphEmptyGPOReport",
+          "children": [
+            {
+              "name": "Get-GphEmptyGPOReport"
+            }
+          ]
+        },
+        {
+          "name": "GphGpDebugLog",
+          "children": [
+            {
+              "name": "Get-GphGpDebugLog"
+            }
+          ]
+        },
+        {
+          "name": "GphGpExtensions",
+          "children": [
+            {
+              "name": "Get-GphGpExtensions"
+            }
+          ]
+        },
+        {
+          "name": "GphGpHistory",
+          "children": [
+            {
+              "name": "Get-GphGpHistory"
+            }
+          ]
+        },
+        {
+          "name": "GphGpProcessLog",
+          "children": [
+            {
+              "name": "Get-GphGpProcessLog"
+            }
+          ]
+        },
+        {
+          "name": "GphGppTraceLog",
+          "children": [
+            {
+              "name": "Get-GphGppTraceLog"
+            }
+          ]
+        },
+        {
+          "name": "GphPrefRunOnceKey",
+          "children": [
+            {
+              "name": "Get-GphPrefRunOnceKey"
+            },
+            {
+              "name": "Remove-GphPrefRunOnceKey"
+            }
+          ]
+        },
+        {
+          "name": "GphTaskSchedulerLog",
+          "children": [
+            {
+              "name": "Get-GphTaskSchedulerLog"
+            }
+          ]
+        },
+        {
+          "name": "GphUnlinkedGPOs",
+          "children": [
+            {
+              "name": "Get-GphUnlinkedGPOs"
+            }
+          ]
+        },
+        {
+          "name": "GPOBackupInfoFromXml",
+          "children": [
+            {
+              "name": "Get-GPOBackupInfoFromXml"
+            }
+          ]
+        },
+        {
+          "name": "OsVersion",
+          "children": [
+            {
+              "name": "Get-OsVersion"
+            }
+          ]
+        },
+        {
+          "name": "GphGpFromBackup",
+          "children": [
+            {
+              "name": "Import-GphGpFromBackup"
+            }
+          ]
+        },
+        {
+          "name": "GphGpDebugLogging",
+          "children": [
+            {
+              "name": "Set-GphGpDebugLogging"
+            }
+          ]
+        },
+        {
+          "name": "GphGPO",
+          "children": [
+            {
+              "name": "Show-GphGPO"
+            }
+          ]
+        },
+        {
+          "name": "GphDfsReplicationMode",
+          "children": [
+            {
+              "name": "Test-GphDfsReplicationMode"
+            }
+          ]
+        },
+        {
+          "name": "GphSchemaCache",
+          "children": [
+            {
+              "name": "Update-GphSchemaCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WindowsImageConverter",
+      "companyName": "Netz Weise",
+      "author": "Holger Voges",
+      "children": [
+        {
+          "name": "VhdFromWim",
+          "children": [
+            {
+              "name": "New-VhdFromWim"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

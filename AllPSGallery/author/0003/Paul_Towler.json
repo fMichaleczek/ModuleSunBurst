@@ -1,0 +1,270 @@
+{
+  "name": "Paul Towler",
+  "children": [
+    {
+      "name": "AdobeUM.AzureAD",
+      "companyName": "Unknown",
+      "author": "Paul Towler",
+      "children": [
+        {
+          "name": "PFXCert",
+          "children": [
+            {
+              "name": "Import-PFXCert"
+            }
+          ]
+        },
+        {
+          "name": "Base64URL",
+          "children": [
+            {
+              "name": "ConvertTo-Base64URL"
+            },
+            {
+              "name": "ConvertFrom-Base64URL"
+            }
+          ]
+        },
+        {
+          "name": "Base64URLToBase64",
+          "children": [
+            {
+              "name": "ConvertFrom-Base64URLToBase64"
+            }
+          ]
+        },
+        {
+          "name": "JavaTime",
+          "children": [
+            {
+              "name": "ConvertTo-JavaTime"
+            }
+          ]
+        },
+        {
+          "name": "ClientInformation",
+          "children": [
+            {
+              "name": "New-ClientInformation"
+            }
+          ]
+        },
+        {
+          "name": "AdobeAuthToken",
+          "children": [
+            {
+              "name": "Get-AdobeAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "AdobeUsers",
+          "children": [
+            {
+              "name": "Get-AdobeUsers"
+            }
+          ]
+        },
+        {
+          "name": "AdobeGroups",
+          "children": [
+            {
+              "name": "Get-AdobeGroups"
+            }
+          ]
+        },
+        {
+          "name": "AdobeGroupMembers",
+          "children": [
+            {
+              "name": "Get-AdobeGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "AdobeGroupAdmins",
+          "children": [
+            {
+              "name": "Get-AdobeGroupAdmins"
+            }
+          ]
+        },
+        {
+          "name": "CreateUserRequest",
+          "children": [
+            {
+              "name": "New-CreateUserRequest"
+            }
+          ]
+        },
+        {
+          "name": "RemoveUserRequest",
+          "children": [
+            {
+              "name": "New-RemoveUserRequest"
+            }
+          ]
+        },
+        {
+          "name": "UpdateUserRequest",
+          "children": [
+            {
+              "name": "New-UpdateUserRequest"
+            }
+          ]
+        },
+        {
+          "name": "RemoveUserFromGroupRequest",
+          "children": [
+            {
+              "name": "New-RemoveUserFromGroupRequest"
+            }
+          ]
+        },
+        {
+          "name": "GroupUserAddAction",
+          "children": [
+            {
+              "name": "New-GroupUserAddAction"
+            }
+          ]
+        },
+        {
+          "name": "GroupUserRemoveAction",
+          "children": [
+            {
+              "name": "New-GroupUserRemoveAction"
+            }
+          ]
+        },
+        {
+          "name": "AddToGroupRequest",
+          "children": [
+            {
+              "name": "New-AddToGroupRequest"
+            }
+          ]
+        },
+        {
+          "name": "RemoveFromGroupRequest",
+          "children": [
+            {
+              "name": "New-RemoveFromGroupRequest"
+            }
+          ]
+        },
+        {
+          "name": "JWTInformation",
+          "children": [
+            {
+              "name": "Expand-JWTInformation"
+            }
+          ]
+        },
+        {
+          "name": "UserManagementRequest",
+          "children": [
+            {
+              "name": "Send-UserManagementRequest"
+            }
+          ]
+        },
+        {
+          "name": "SyncADGroupRequest",
+          "children": [
+            {
+              "name": "New-SyncADGroupRequest"
+            }
+          ]
+        },
+        {
+          "name": "RemoveUnusedAbobeUsersRequest",
+          "children": [
+            {
+              "name": "New-RemoveUnusedAbobeUsersRequest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Az.DevOps.Blueprint",
+      "companyName": "Unknown",
+      "author": "Paul Towler",
+      "children": [
+        {
+          "name": "AzDevOpsBlueprintParameters",
+          "children": [
+            {
+              "name": "Get-AzDevOpsBlueprintParameters"
+            },
+            {
+              "name": "Find-AzDevOpsBlueprintParameters"
+            }
+          ]
+        },
+        {
+          "name": "AzDevOpsBlueprintVariableGroups",
+          "children": [
+            {
+              "name": "Get-AzDevOpsBlueprintVariableGroups"
+            }
+          ]
+        },
+        {
+          "name": "AzDevOpsBlueprintAssignment",
+          "children": [
+            {
+              "name": "New-AzDevOpsBlueprintAssignment"
+            },
+            {
+              "name": "Remove-AzDevOpsBlueprintAssignment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bitbucket.v2",
+      "companyName": "Unknown",
+      "author": "Paul Towler",
+      "children": [
+        {
+          "name": "Base64String",
+          "children": [
+            {
+              "name": "ConvertTo-Base64String"
+            }
+          ]
+        },
+        {
+          "name": "Bitbucket",
+          "children": [
+            {
+              "name": "Connect-Bitbucket"
+            }
+          ]
+        },
+        {
+          "name": "BitbucketKey",
+          "children": [
+            {
+              "name": "Get-BitbucketKey"
+            }
+          ]
+        },
+        {
+          "name": "BitbucketToken",
+          "children": [
+            {
+              "name": "New-BitbucketToken"
+            },
+            {
+              "name": "Update-BitbucketToken"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

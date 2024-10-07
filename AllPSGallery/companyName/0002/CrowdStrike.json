@@ -1,0 +1,2591 @@
+{
+  "name": "CrowdStrike",
+  "children": [
+    {
+      "name": "crwd-hbfw",
+      "companyName": "CrowdStrike",
+      "author": "Scott MacGregor",
+      "children": [
+        {
+          "name": "CrwdHbfw",
+          "children": [
+            {
+              "name": "Get-CrwdHbfw"
+            },
+            {
+              "name": "Format-CrwdHbfw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSFalcon",
+      "companyName": "CrowdStrike",
+      "author": "Brendan Kremian",
+      "children": [
+        {
+          "name": "FalconAlert",
+          "children": [
+            {
+              "name": "Get-FalconAlert"
+            }
+          ]
+        },
+        {
+          "name": "FalconAlertAction",
+          "children": [
+            {
+              "name": "Invoke-FalconAlertAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconSampleArchive",
+          "children": [
+            {
+              "name": "Expand-FalconSampleArchive"
+            },
+            {
+              "name": "Get-FalconSampleArchive"
+            },
+            {
+              "name": "Remove-FalconSampleArchive"
+            },
+            {
+              "name": "Send-FalconSampleArchive"
+            }
+          ]
+        },
+        {
+          "name": "FalconSampleExtraction",
+          "children": [
+            {
+              "name": "Get-FalconSampleExtraction"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudAwsAccount",
+          "children": [
+            {
+              "name": "Edit-FalconCloudAwsAccount"
+            },
+            {
+              "name": "Get-FalconCloudAwsAccount"
+            },
+            {
+              "name": "New-FalconCloudAwsAccount"
+            },
+            {
+              "name": "Remove-FalconCloudAwsAccount"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudAwsLink",
+          "children": [
+            {
+              "name": "Get-FalconCloudAwsLink"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudAwsScript",
+          "children": [
+            {
+              "name": "Receive-FalconCloudAwsScript"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudAzureAccount",
+          "children": [
+            {
+              "name": "Edit-FalconCloudAzureAccount"
+            },
+            {
+              "name": "Get-FalconCloudAzureAccount"
+            },
+            {
+              "name": "New-FalconCloudAzureAccount"
+            },
+            {
+              "name": "Remove-FalconCloudAzureAccount"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudAzureCertificate",
+          "children": [
+            {
+              "name": "Get-FalconCloudAzureCertificate"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudAzureGroup",
+          "children": [
+            {
+              "name": "Get-FalconCloudAzureGroup"
+            },
+            {
+              "name": "New-FalconCloudAzureGroup"
+            },
+            {
+              "name": "Remove-FalconCloudAzureGroup"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudAzureScript",
+          "children": [
+            {
+              "name": "Receive-FalconCloudAzureScript"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudGcpAccount",
+          "children": [
+            {
+              "name": "Edit-FalconCloudGcpAccount"
+            },
+            {
+              "name": "Get-FalconCloudGcpAccount"
+            },
+            {
+              "name": "New-FalconCloudGcpAccount"
+            },
+            {
+              "name": "Remove-FalconCloudGcpAccount"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudGcpServiceAccount",
+          "children": [
+            {
+              "name": "Edit-FalconCloudGcpServiceAccount"
+            },
+            {
+              "name": "Get-FalconCloudGcpServiceAccount"
+            },
+            {
+              "name": "Test-FalconCloudGcpServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudGcpHealthCheck",
+          "children": [
+            {
+              "name": "Invoke-FalconCloudGcpHealthCheck"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudGcpScript",
+          "children": [
+            {
+              "name": "Receive-FalconCloudGcpScript"
+            }
+          ]
+        },
+        {
+          "name": "FalconConfigAssessment",
+          "children": [
+            {
+              "name": "Get-FalconConfigAssessment"
+            }
+          ]
+        },
+        {
+          "name": "FalconConfigAssessmentLogic",
+          "children": [
+            {
+              "name": "Get-FalconConfigAssessmentLogic"
+            }
+          ]
+        },
+        {
+          "name": "FalconConfigAssessmentRule",
+          "children": [
+            {
+              "name": "Get-FalconConfigAssessmentRule"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerPolicy",
+          "children": [
+            {
+              "name": "Edit-FalconContainerPolicy"
+            },
+            {
+              "name": "Get-FalconContainerPolicy"
+            },
+            {
+              "name": "New-FalconContainerPolicy"
+            },
+            {
+              "name": "Remove-FalconContainerPolicy"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerPolicyGroup",
+          "children": [
+            {
+              "name": "Edit-FalconContainerPolicyGroup"
+            },
+            {
+              "name": "Get-FalconContainerPolicyGroup"
+            },
+            {
+              "name": "New-FalconContainerPolicyGroup"
+            },
+            {
+              "name": "Remove-FalconContainerPolicyGroup"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerRegistry",
+          "children": [
+            {
+              "name": "Edit-FalconContainerRegistry"
+            },
+            {
+              "name": "Get-FalconContainerRegistry"
+            },
+            {
+              "name": "New-FalconContainerRegistry"
+            },
+            {
+              "name": "Remove-FalconContainerRegistry"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainer",
+          "children": [
+            {
+              "name": "Get-FalconContainer"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerAlert",
+          "children": [
+            {
+              "name": "Get-FalconContainerAlert"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerAssessment",
+          "children": [
+            {
+              "name": "Get-FalconContainerAssessment"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerDeployment",
+          "children": [
+            {
+              "name": "Get-FalconContainerDeployment"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerDetection",
+          "children": [
+            {
+              "name": "Get-FalconContainerDetection"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerCluster",
+          "children": [
+            {
+              "name": "Get-FalconContainerCluster"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerCount",
+          "children": [
+            {
+              "name": "Get-FalconContainerCount"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerDriftIndicator",
+          "children": [
+            {
+              "name": "Get-FalconContainerDriftIndicator"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerImage",
+          "children": [
+            {
+              "name": "Get-FalconContainerImage"
+            },
+            {
+              "name": "New-FalconContainerImage"
+            },
+            {
+              "name": "Remove-FalconContainerImage"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerIom",
+          "children": [
+            {
+              "name": "Get-FalconContainerIom"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerNode",
+          "children": [
+            {
+              "name": "Get-FalconContainerNode"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerPackage",
+          "children": [
+            {
+              "name": "Get-FalconContainerPackage"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerPod",
+          "children": [
+            {
+              "name": "Get-FalconContainerPod"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerPolicyExclusion",
+          "children": [
+            {
+              "name": "Get-FalconContainerPolicyExclusion"
+            },
+            {
+              "name": "New-FalconContainerPolicyExclusion"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerSensor",
+          "children": [
+            {
+              "name": "Get-FalconContainerSensor"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerVulnerability",
+          "children": [
+            {
+              "name": "Get-FalconContainerVulnerability"
+            }
+          ]
+        },
+        {
+          "name": "FalconRegistryCredential",
+          "children": [
+            {
+              "name": "Remove-FalconRegistryCredential"
+            },
+            {
+              "name": "Request-FalconRegistryCredential"
+            },
+            {
+              "name": "Show-FalconRegistryCredential"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerPolicyPrecedence",
+          "children": [
+            {
+              "name": "Set-FalconContainerPolicyPrecedence"
+            }
+          ]
+        },
+        {
+          "name": "FalconChannelControl",
+          "children": [
+            {
+              "name": "Get-FalconChannelControl"
+            },
+            {
+              "name": "Set-FalconChannelControl"
+            }
+          ]
+        },
+        {
+          "name": "FalconDetection",
+          "children": [
+            {
+              "name": "Edit-FalconDetection"
+            },
+            {
+              "name": "Get-FalconDetection"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudIoa",
+          "children": [
+            {
+              "name": "Get-FalconCloudIoa"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudIom",
+          "children": [
+            {
+              "name": "Get-FalconCloudIom"
+            }
+          ]
+        },
+        {
+          "name": "FalconGroupingTag",
+          "children": [
+            {
+              "name": "Add-FalconGroupingTag"
+            },
+            {
+              "name": "Remove-FalconGroupingTag"
+            }
+          ]
+        },
+        {
+          "name": "FalconHostGroup",
+          "children": [
+            {
+              "name": "Edit-FalconHostGroup"
+            },
+            {
+              "name": "Get-FalconHostGroup"
+            },
+            {
+              "name": "New-FalconHostGroup"
+            },
+            {
+              "name": "Remove-FalconHostGroup"
+            }
+          ]
+        },
+        {
+          "name": "FalconHost",
+          "children": [
+            {
+              "name": "Get-FalconHost"
+            }
+          ]
+        },
+        {
+          "name": "FalconHostGroupMember",
+          "children": [
+            {
+              "name": "Get-FalconHostGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "FalconHostAction",
+          "children": [
+            {
+              "name": "Invoke-FalconHostAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconHostGroupAction",
+          "children": [
+            {
+              "name": "Invoke-FalconHostGroupAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconAsset",
+          "children": [
+            {
+              "name": "Get-FalconAsset"
+            },
+            {
+              "name": "Edit-FalconAsset"
+            }
+          ]
+        },
+        {
+          "name": "FalconMobileAction",
+          "children": [
+            {
+              "name": "Invoke-FalconMobileAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconCertificateExclusion",
+          "children": [
+            {
+              "name": "Edit-FalconCertificateExclusion"
+            },
+            {
+              "name": "Get-FalconCertificateExclusion"
+            },
+            {
+              "name": "New-FalconCertificateExclusion"
+            },
+            {
+              "name": "Remove-FalconCertificateExclusion"
+            }
+          ]
+        },
+        {
+          "name": "FalconCertificate",
+          "children": [
+            {
+              "name": "Get-FalconCertificate"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteAlert",
+          "children": [
+            {
+              "name": "Get-FalconCompleteAlert"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteAllowlist",
+          "children": [
+            {
+              "name": "Get-FalconCompleteAllowlist"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteBlocklist",
+          "children": [
+            {
+              "name": "Get-FalconCompleteBlocklist"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteCollection",
+          "children": [
+            {
+              "name": "Get-FalconCompleteCollection"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteDetection",
+          "children": [
+            {
+              "name": "Get-FalconCompleteDetection"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteEscalation",
+          "children": [
+            {
+              "name": "Get-FalconCompleteEscalation"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteIncident",
+          "children": [
+            {
+              "name": "Get-FalconCompleteIncident"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteRemediation",
+          "children": [
+            {
+              "name": "Get-FalconCompleteRemediation"
+            }
+          ]
+        },
+        {
+          "name": "FalconReport",
+          "children": [
+            {
+              "name": "Get-FalconReport"
+            },
+            {
+              "name": "Remove-FalconReport"
+            },
+            {
+              "name": "Export-FalconReport"
+            }
+          ]
+        },
+        {
+          "name": "FalconSubmission",
+          "children": [
+            {
+              "name": "Get-FalconSubmission"
+            },
+            {
+              "name": "New-FalconSubmission"
+            }
+          ]
+        },
+        {
+          "name": "FalconSubmissionQuota",
+          "children": [
+            {
+              "name": "Get-FalconSubmissionQuota"
+            }
+          ]
+        },
+        {
+          "name": "FalconArtifact",
+          "children": [
+            {
+              "name": "Receive-FalconArtifact"
+            }
+          ]
+        },
+        {
+          "name": "FalconMemoryDump",
+          "children": [
+            {
+              "name": "Receive-FalconMemoryDump"
+            }
+          ]
+        },
+        {
+          "name": "FalconReplicatorEvent",
+          "children": [
+            {
+              "name": "Get-FalconReplicatorEvent"
+            }
+          ]
+        },
+        {
+          "name": "FalconReplicatorField",
+          "children": [
+            {
+              "name": "Get-FalconReplicatorField"
+            }
+          ]
+        },
+        {
+          "name": "FalconReplicatorSchema",
+          "children": [
+            {
+              "name": "Get-FalconReplicatorSchema"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantageHostGroup",
+          "children": [
+            {
+              "name": "Add-FalconFileVantageHostGroup"
+            },
+            {
+              "name": "Remove-FalconFileVantageHostGroup"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantageRuleGroup",
+          "children": [
+            {
+              "name": "Add-FalconFileVantageRuleGroup"
+            },
+            {
+              "name": "Edit-FalconFileVantageRuleGroup"
+            },
+            {
+              "name": "Get-FalconFileVantageRuleGroup"
+            },
+            {
+              "name": "New-FalconFileVantageRuleGroup"
+            },
+            {
+              "name": "Remove-FalconFileVantageRuleGroup"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantageExclusion",
+          "children": [
+            {
+              "name": "Edit-FalconFileVantageExclusion"
+            },
+            {
+              "name": "Get-FalconFileVantageExclusion"
+            },
+            {
+              "name": "New-FalconFileVantageExclusion"
+            },
+            {
+              "name": "Remove-FalconFileVantageExclusion"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantagePolicy",
+          "children": [
+            {
+              "name": "Edit-FalconFileVantagePolicy"
+            },
+            {
+              "name": "Get-FalconFileVantagePolicy"
+            },
+            {
+              "name": "New-FalconFileVantagePolicy"
+            },
+            {
+              "name": "Remove-FalconFileVantagePolicy"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantageRule",
+          "children": [
+            {
+              "name": "Edit-FalconFileVantageRule"
+            },
+            {
+              "name": "Get-FalconFileVantageRule"
+            },
+            {
+              "name": "New-FalconFileVantageRule"
+            },
+            {
+              "name": "Remove-FalconFileVantageRule"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantageAction",
+          "children": [
+            {
+              "name": "Get-FalconFileVantageAction"
+            },
+            {
+              "name": "Invoke-FalconFileVantageAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantageChange",
+          "children": [
+            {
+              "name": "Get-FalconFileVantageChange"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantageContent",
+          "children": [
+            {
+              "name": "Get-FalconFileVantageContent"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantageWorkflow",
+          "children": [
+            {
+              "name": "Invoke-FalconFileVantageWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantagePrecedence",
+          "children": [
+            {
+              "name": "Set-FalconFileVantagePrecedence"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantageRulePrecedence",
+          "children": [
+            {
+              "name": "Set-FalconFileVantageRulePrecedence"
+            }
+          ]
+        },
+        {
+          "name": "FalconFileVantageRuleGroupPrecedence",
+          "children": [
+            {
+              "name": "Set-FalconFileVantageRuleGroupPrecedence"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallGroup",
+          "children": [
+            {
+              "name": "Edit-FalconFirewallGroup"
+            },
+            {
+              "name": "Get-FalconFirewallGroup"
+            },
+            {
+              "name": "New-FalconFirewallGroup"
+            },
+            {
+              "name": "Remove-FalconFirewallGroup"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallLocation",
+          "children": [
+            {
+              "name": "Edit-FalconFirewallLocation"
+            },
+            {
+              "name": "Get-FalconFirewallLocation"
+            },
+            {
+              "name": "New-FalconFirewallLocation"
+            },
+            {
+              "name": "Remove-FalconFirewallLocation"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallLocationSetting",
+          "children": [
+            {
+              "name": "Edit-FalconFirewallLocationSetting"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallSetting",
+          "children": [
+            {
+              "name": "Edit-FalconFirewallSetting"
+            },
+            {
+              "name": "Get-FalconFirewallSetting"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallEvent",
+          "children": [
+            {
+              "name": "Get-FalconFirewallEvent"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallField",
+          "children": [
+            {
+              "name": "Get-FalconFirewallField"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallPlatform",
+          "children": [
+            {
+              "name": "Get-FalconFirewallPlatform"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallRule",
+          "children": [
+            {
+              "name": "Get-FalconFirewallRule"
+            },
+            {
+              "name": "ConvertTo-FalconFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallLocationPrecedence",
+          "children": [
+            {
+              "name": "Set-FalconFirewallLocationPrecedence"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallPath",
+          "children": [
+            {
+              "name": "Test-FalconFirewallPath"
+            }
+          ]
+        },
+        {
+          "name": "FalconMigration",
+          "children": [
+            {
+              "name": "Get-FalconMigration"
+            },
+            {
+              "name": "New-FalconMigration"
+            },
+            {
+              "name": "Start-FalconMigration"
+            },
+            {
+              "name": "Stop-FalconMigration"
+            },
+            {
+              "name": "Rename-FalconMigration"
+            },
+            {
+              "name": "Remove-FalconMigration"
+            }
+          ]
+        },
+        {
+          "name": "FalconMigrationCid",
+          "children": [
+            {
+              "name": "Get-FalconMigrationCid"
+            }
+          ]
+        },
+        {
+          "name": "FalconMigrationHost",
+          "children": [
+            {
+              "name": "Get-FalconMigrationHost"
+            }
+          ]
+        },
+        {
+          "name": "FalconMigrationAction",
+          "children": [
+            {
+              "name": "Invoke-FalconMigrationAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconIdentityGraph",
+          "children": [
+            {
+              "name": "Invoke-FalconIdentityGraph"
+            }
+          ]
+        },
+        {
+          "name": "FalconIdentityHost",
+          "children": [
+            {
+              "name": "Get-FalconIdentityHost"
+            }
+          ]
+        },
+        {
+          "name": "FalconBehavior",
+          "children": [
+            {
+              "name": "Get-FalconBehavior"
+            }
+          ]
+        },
+        {
+          "name": "FalconIncident",
+          "children": [
+            {
+              "name": "Get-FalconIncident"
+            }
+          ]
+        },
+        {
+          "name": "FalconScore",
+          "children": [
+            {
+              "name": "Get-FalconScore"
+            }
+          ]
+        },
+        {
+          "name": "FalconIncidentAction",
+          "children": [
+            {
+              "name": "Invoke-FalconIncidentAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconIocHost",
+          "children": [
+            {
+              "name": "Get-FalconIocHost"
+            }
+          ]
+        },
+        {
+          "name": "FalconIocProcess",
+          "children": [
+            {
+              "name": "Get-FalconIocProcess"
+            }
+          ]
+        },
+        {
+          "name": "FalconActor",
+          "children": [
+            {
+              "name": "Get-FalconActor"
+            }
+          ]
+        },
+        {
+          "name": "FalconAttck",
+          "children": [
+            {
+              "name": "Get-FalconAttck"
+            },
+            {
+              "name": "Receive-FalconAttck"
+            }
+          ]
+        },
+        {
+          "name": "FalconCve",
+          "children": [
+            {
+              "name": "Get-FalconCve"
+            }
+          ]
+        },
+        {
+          "name": "FalconIndicator",
+          "children": [
+            {
+              "name": "Get-FalconIndicator"
+            }
+          ]
+        },
+        {
+          "name": "FalconIntel",
+          "children": [
+            {
+              "name": "Get-FalconIntel"
+            },
+            {
+              "name": "Receive-FalconIntel"
+            }
+          ]
+        },
+        {
+          "name": "FalconMalwareFamily",
+          "children": [
+            {
+              "name": "Get-FalconMalwareFamily"
+            }
+          ]
+        },
+        {
+          "name": "FalconRule",
+          "children": [
+            {
+              "name": "Get-FalconRule"
+            },
+            {
+              "name": "Receive-FalconRule"
+            }
+          ]
+        },
+        {
+          "name": "FalconInstallToken",
+          "children": [
+            {
+              "name": "Edit-FalconInstallToken"
+            },
+            {
+              "name": "Get-FalconInstallToken"
+            },
+            {
+              "name": "New-FalconInstallToken"
+            },
+            {
+              "name": "Remove-FalconInstallToken"
+            }
+          ]
+        },
+        {
+          "name": "FalconInstallTokenSetting",
+          "children": [
+            {
+              "name": "Edit-FalconInstallTokenSetting"
+            },
+            {
+              "name": "Get-FalconInstallTokenSetting"
+            }
+          ]
+        },
+        {
+          "name": "FalconInstallTokenEvent",
+          "children": [
+            {
+              "name": "Get-FalconInstallTokenEvent"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudIoaEvent",
+          "children": [
+            {
+              "name": "Get-FalconCloudIoaEvent"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudIoaUser",
+          "children": [
+            {
+              "name": "Get-FalconCloudIoaUser"
+            }
+          ]
+        },
+        {
+          "name": "FalconIoaGroup",
+          "children": [
+            {
+              "name": "Edit-FalconIoaGroup"
+            },
+            {
+              "name": "Get-FalconIoaGroup"
+            },
+            {
+              "name": "New-FalconIoaGroup"
+            },
+            {
+              "name": "Remove-FalconIoaGroup"
+            }
+          ]
+        },
+        {
+          "name": "FalconIoaRule",
+          "children": [
+            {
+              "name": "Edit-FalconIoaRule"
+            },
+            {
+              "name": "Get-FalconIoaRule"
+            },
+            {
+              "name": "New-FalconIoaRule"
+            },
+            {
+              "name": "Remove-FalconIoaRule"
+            },
+            {
+              "name": "Test-FalconIoaRule"
+            }
+          ]
+        },
+        {
+          "name": "FalconIoaPlatform",
+          "children": [
+            {
+              "name": "Get-FalconIoaPlatform"
+            }
+          ]
+        },
+        {
+          "name": "FalconIoaSeverity",
+          "children": [
+            {
+              "name": "Get-FalconIoaSeverity"
+            }
+          ]
+        },
+        {
+          "name": "FalconIoaType",
+          "children": [
+            {
+              "name": "Get-FalconIoaType"
+            }
+          ]
+        },
+        {
+          "name": "FalconIoc",
+          "children": [
+            {
+              "name": "Edit-FalconIoc"
+            },
+            {
+              "name": "Get-FalconIoc"
+            },
+            {
+              "name": "New-FalconIoc"
+            },
+            {
+              "name": "Remove-FalconIoc"
+            }
+          ]
+        },
+        {
+          "name": "FalconIocAction",
+          "children": [
+            {
+              "name": "Get-FalconIocAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconIocPlatform",
+          "children": [
+            {
+              "name": "Get-FalconIocPlatform"
+            }
+          ]
+        },
+        {
+          "name": "FalconIocSeverity",
+          "children": [
+            {
+              "name": "Get-FalconIocSeverity"
+            }
+          ]
+        },
+        {
+          "name": "FalconIocType",
+          "children": [
+            {
+              "name": "Get-FalconIocType"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerAwsAccount",
+          "children": [
+            {
+              "name": "Edit-FalconContainerAwsAccount"
+            },
+            {
+              "name": "Get-FalconContainerAwsAccount"
+            },
+            {
+              "name": "New-FalconContainerAwsAccount"
+            },
+            {
+              "name": "Remove-FalconContainerAwsAccount"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerAzureAccount",
+          "children": [
+            {
+              "name": "Edit-FalconContainerAzureAccount"
+            },
+            {
+              "name": "Get-FalconContainerAzureAccount"
+            },
+            {
+              "name": "New-FalconContainerAzureAccount"
+            },
+            {
+              "name": "Remove-FalconContainerAzureAccount"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerAccount",
+          "children": [
+            {
+              "name": "Get-FalconContainerAccount"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerAzureConfig",
+          "children": [
+            {
+              "name": "Get-FalconContainerAzureConfig"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerAzureScript",
+          "children": [
+            {
+              "name": "Get-FalconContainerAzureScript"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerAzureTenant",
+          "children": [
+            {
+              "name": "Get-FalconContainerAzureTenant"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerCloud",
+          "children": [
+            {
+              "name": "Get-FalconContainerCloud"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerScript",
+          "children": [
+            {
+              "name": "Get-FalconContainerScript"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerScan",
+          "children": [
+            {
+              "name": "Invoke-FalconContainerScan"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerKey",
+          "children": [
+            {
+              "name": "New-FalconContainerKey"
+            }
+          ]
+        },
+        {
+          "name": "FalconContainerYaml",
+          "children": [
+            {
+              "name": "Receive-FalconContainerYaml"
+            }
+          ]
+        },
+        {
+          "name": "FalconFoundryRepository",
+          "children": [
+            {
+              "name": "Get-FalconFoundryRepository"
+            }
+          ]
+        },
+        {
+          "name": "FalconFoundrySearch",
+          "children": [
+            {
+              "name": "Get-FalconFoundrySearch"
+            }
+          ]
+        },
+        {
+          "name": "FalconFoundryView",
+          "children": [
+            {
+              "name": "Get-FalconFoundryView"
+            }
+          ]
+        },
+        {
+          "name": "FalconMalQuery",
+          "children": [
+            {
+              "name": "Get-FalconMalQuery"
+            },
+            {
+              "name": "Invoke-FalconMalQuery"
+            }
+          ]
+        },
+        {
+          "name": "FalconMalQueryQuota",
+          "children": [
+            {
+              "name": "Get-FalconMalQueryQuota"
+            }
+          ]
+        },
+        {
+          "name": "FalconMalQuerySample",
+          "children": [
+            {
+              "name": "Get-FalconMalQuerySample"
+            },
+            {
+              "name": "Group-FalconMalQuerySample"
+            },
+            {
+              "name": "Receive-FalconMalQuerySample"
+            }
+          ]
+        },
+        {
+          "name": "FalconMalQueryHash",
+          "children": [
+            {
+              "name": "Search-FalconMalQueryHash"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteActivity",
+          "children": [
+            {
+              "name": "Add-FalconCompleteActivity"
+            },
+            {
+              "name": "Get-FalconCompleteActivity"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteCase",
+          "children": [
+            {
+              "name": "Edit-FalconCompleteCase"
+            },
+            {
+              "name": "New-FalconCompleteCase"
+            },
+            {
+              "name": "Get-FalconCompleteCase"
+            }
+          ]
+        },
+        {
+          "name": "FalconCompleteAttachment",
+          "children": [
+            {
+              "name": "Receive-FalconCompleteAttachment"
+            },
+            {
+              "name": "Send-FalconCompleteAttachment"
+            }
+          ]
+        },
+        {
+          "name": "FalconCidGroupMember",
+          "children": [
+            {
+              "name": "Add-FalconCidGroupMember"
+            },
+            {
+              "name": "Get-FalconCidGroupMember"
+            },
+            {
+              "name": "Remove-FalconCidGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "FalconGroupRole",
+          "children": [
+            {
+              "name": "Add-FalconGroupRole"
+            },
+            {
+              "name": "Get-FalconGroupRole"
+            },
+            {
+              "name": "Remove-FalconGroupRole"
+            }
+          ]
+        },
+        {
+          "name": "FalconUserGroupMember",
+          "children": [
+            {
+              "name": "Add-FalconUserGroupMember"
+            },
+            {
+              "name": "Get-FalconUserGroupMember"
+            },
+            {
+              "name": "Remove-FalconUserGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "FalconCidGroup",
+          "children": [
+            {
+              "name": "Edit-FalconCidGroup"
+            },
+            {
+              "name": "Get-FalconCidGroup"
+            },
+            {
+              "name": "New-FalconCidGroup"
+            },
+            {
+              "name": "Remove-FalconCidGroup"
+            }
+          ]
+        },
+        {
+          "name": "FalconUserGroup",
+          "children": [
+            {
+              "name": "Edit-FalconUserGroup"
+            },
+            {
+              "name": "Get-FalconUserGroup"
+            },
+            {
+              "name": "New-FalconUserGroup"
+            },
+            {
+              "name": "Remove-FalconUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "FalconMemberCid",
+          "children": [
+            {
+              "name": "Get-FalconMemberCid"
+            }
+          ]
+        },
+        {
+          "name": "FalconToken",
+          "children": [
+            {
+              "name": "Request-FalconToken"
+            },
+            {
+              "name": "Revoke-FalconToken"
+            },
+            {
+              "name": "Test-FalconToken"
+            }
+          ]
+        },
+        {
+          "name": "FalconScan",
+          "children": [
+            {
+              "name": "Get-FalconScan"
+            },
+            {
+              "name": "Start-FalconScan"
+            },
+            {
+              "name": "Stop-FalconScan"
+            }
+          ]
+        },
+        {
+          "name": "FalconScanFile",
+          "children": [
+            {
+              "name": "Get-FalconScanFile"
+            }
+          ]
+        },
+        {
+          "name": "FalconScanHost",
+          "children": [
+            {
+              "name": "Get-FalconScanHost"
+            }
+          ]
+        },
+        {
+          "name": "FalconScheduledScan",
+          "children": [
+            {
+              "name": "Get-FalconScheduledScan"
+            },
+            {
+              "name": "New-FalconScheduledScan"
+            },
+            {
+              "name": "Remove-FalconScheduledScan"
+            }
+          ]
+        },
+        {
+          "name": "FalconOverWatchEvent",
+          "children": [
+            {
+              "name": "Get-FalconOverWatchEvent"
+            }
+          ]
+        },
+        {
+          "name": "FalconOverWatchDetection",
+          "children": [
+            {
+              "name": "Get-FalconOverWatchDetection"
+            }
+          ]
+        },
+        {
+          "name": "FalconOverWatchIncident",
+          "children": [
+            {
+              "name": "Get-FalconOverWatchIncident"
+            }
+          ]
+        },
+        {
+          "name": "FalconWorkflowIntegration",
+          "children": [
+            {
+              "name": "Get-FalconWorkflowIntegration"
+            }
+          ]
+        },
+        {
+          "name": "FalconDeviceControlPolicy",
+          "children": [
+            {
+              "name": "Edit-FalconDeviceControlPolicy"
+            },
+            {
+              "name": "Get-FalconDeviceControlPolicy"
+            },
+            {
+              "name": "New-FalconDeviceControlPolicy"
+            },
+            {
+              "name": "Remove-FalconDeviceControlPolicy"
+            },
+            {
+              "name": "Copy-FalconDeviceControlPolicy"
+            }
+          ]
+        },
+        {
+          "name": "FalconDeviceControlPolicyMember",
+          "children": [
+            {
+              "name": "Get-FalconDeviceControlPolicyMember"
+            }
+          ]
+        },
+        {
+          "name": "FalconDeviceControlPolicyAction",
+          "children": [
+            {
+              "name": "Invoke-FalconDeviceControlPolicyAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconDeviceControlPrecedence",
+          "children": [
+            {
+              "name": "Set-FalconDeviceControlPrecedence"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallPolicy",
+          "children": [
+            {
+              "name": "Edit-FalconFirewallPolicy"
+            },
+            {
+              "name": "Get-FalconFirewallPolicy"
+            },
+            {
+              "name": "New-FalconFirewallPolicy"
+            },
+            {
+              "name": "Remove-FalconFirewallPolicy"
+            },
+            {
+              "name": "Copy-FalconFirewallPolicy"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallPolicyMember",
+          "children": [
+            {
+              "name": "Get-FalconFirewallPolicyMember"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallPolicyAction",
+          "children": [
+            {
+              "name": "Invoke-FalconFirewallPolicyAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconFirewallPrecedence",
+          "children": [
+            {
+              "name": "Set-FalconFirewallPrecedence"
+            }
+          ]
+        },
+        {
+          "name": "FalconIoaExclusion",
+          "children": [
+            {
+              "name": "ConvertTo-FalconIoaExclusion"
+            },
+            {
+              "name": "Edit-FalconIoaExclusion"
+            },
+            {
+              "name": "Get-FalconIoaExclusion"
+            },
+            {
+              "name": "New-FalconIoaExclusion"
+            },
+            {
+              "name": "Remove-FalconIoaExclusion"
+            }
+          ]
+        },
+        {
+          "name": "FalconMlExclusion",
+          "children": [
+            {
+              "name": "ConvertTo-FalconMlExclusion"
+            },
+            {
+              "name": "Edit-FalconMlExclusion"
+            },
+            {
+              "name": "Get-FalconMlExclusion"
+            },
+            {
+              "name": "New-FalconMlExclusion"
+            },
+            {
+              "name": "Remove-FalconMlExclusion"
+            }
+          ]
+        },
+        {
+          "name": "FalconPreventionPolicy",
+          "children": [
+            {
+              "name": "Edit-FalconPreventionPolicy"
+            },
+            {
+              "name": "Get-FalconPreventionPolicy"
+            },
+            {
+              "name": "New-FalconPreventionPolicy"
+            },
+            {
+              "name": "Remove-FalconPreventionPolicy"
+            },
+            {
+              "name": "Copy-FalconPreventionPolicy"
+            }
+          ]
+        },
+        {
+          "name": "FalconPreventionPolicyMember",
+          "children": [
+            {
+              "name": "Get-FalconPreventionPolicyMember"
+            }
+          ]
+        },
+        {
+          "name": "FalconPreventionPolicyAction",
+          "children": [
+            {
+              "name": "Invoke-FalconPreventionPolicyAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconPreventionPrecedence",
+          "children": [
+            {
+              "name": "Set-FalconPreventionPrecedence"
+            }
+          ]
+        },
+        {
+          "name": "FalconResponsePolicy",
+          "children": [
+            {
+              "name": "Edit-FalconResponsePolicy"
+            },
+            {
+              "name": "Get-FalconResponsePolicy"
+            },
+            {
+              "name": "New-FalconResponsePolicy"
+            },
+            {
+              "name": "Remove-FalconResponsePolicy"
+            },
+            {
+              "name": "Copy-FalconResponsePolicy"
+            }
+          ]
+        },
+        {
+          "name": "FalconResponsePolicyMember",
+          "children": [
+            {
+              "name": "Get-FalconResponsePolicyMember"
+            }
+          ]
+        },
+        {
+          "name": "FalconResponsePolicyAction",
+          "children": [
+            {
+              "name": "Invoke-FalconResponsePolicyAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconResponsePrecedence",
+          "children": [
+            {
+              "name": "Set-FalconResponsePrecedence"
+            }
+          ]
+        },
+        {
+          "name": "FalconSensorUpdatePolicy",
+          "children": [
+            {
+              "name": "Edit-FalconSensorUpdatePolicy"
+            },
+            {
+              "name": "Get-FalconSensorUpdatePolicy"
+            },
+            {
+              "name": "New-FalconSensorUpdatePolicy"
+            },
+            {
+              "name": "Remove-FalconSensorUpdatePolicy"
+            },
+            {
+              "name": "Copy-FalconSensorUpdatePolicy"
+            }
+          ]
+        },
+        {
+          "name": "FalconBuild",
+          "children": [
+            {
+              "name": "Get-FalconBuild"
+            }
+          ]
+        },
+        {
+          "name": "FalconKernel",
+          "children": [
+            {
+              "name": "Get-FalconKernel"
+            }
+          ]
+        },
+        {
+          "name": "FalconSensorUpdatePolicyMember",
+          "children": [
+            {
+              "name": "Get-FalconSensorUpdatePolicyMember"
+            }
+          ]
+        },
+        {
+          "name": "FalconUninstallToken",
+          "children": [
+            {
+              "name": "Get-FalconUninstallToken"
+            }
+          ]
+        },
+        {
+          "name": "FalconSensorUpdatePolicyAction",
+          "children": [
+            {
+              "name": "Invoke-FalconSensorUpdatePolicyAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconSensorUpdatePrecedence",
+          "children": [
+            {
+              "name": "Set-FalconSensorUpdatePrecedence"
+            }
+          ]
+        },
+        {
+          "name": "FalconSvExclusion",
+          "children": [
+            {
+              "name": "Edit-FalconSvExclusion"
+            },
+            {
+              "name": "Get-FalconSvExclusion"
+            },
+            {
+              "name": "New-FalconSvExclusion"
+            },
+            {
+              "name": "Remove-FalconSvExclusion"
+            }
+          ]
+        },
+        {
+          "name": "FalconConfig",
+          "children": [
+            {
+              "name": "Export-FalconConfig"
+            },
+            {
+              "name": "Import-FalconConfig"
+            }
+          ]
+        },
+        {
+          "name": "FalconDuplicate",
+          "children": [
+            {
+              "name": "Find-FalconDuplicate"
+            }
+          ]
+        },
+        {
+          "name": "FalconHostname",
+          "children": [
+            {
+              "name": "Find-FalconHostname"
+            }
+          ]
+        },
+        {
+          "name": "FalconEventCollector",
+          "children": [
+            {
+              "name": "Register-FalconEventCollector"
+            },
+            {
+              "name": "Show-FalconEventCollector"
+            },
+            {
+              "name": "Unregister-FalconEventCollector"
+            }
+          ]
+        },
+        {
+          "name": "FalconEvent",
+          "children": [
+            {
+              "name": "Send-FalconEvent"
+            }
+          ]
+        },
+        {
+          "name": "FalconWebhook",
+          "children": [
+            {
+              "name": "Send-FalconWebhook"
+            }
+          ]
+        },
+        {
+          "name": "FalconMap",
+          "children": [
+            {
+              "name": "Show-FalconMap"
+            }
+          ]
+        },
+        {
+          "name": "FalconModule",
+          "children": [
+            {
+              "name": "Show-FalconModule"
+            }
+          ]
+        },
+        {
+          "name": "FalconSensorTag",
+          "children": [
+            {
+              "name": "Add-FalconSensorTag"
+            },
+            {
+              "name": "Get-FalconSensorTag"
+            },
+            {
+              "name": "Remove-FalconSensorTag"
+            },
+            {
+              "name": "Set-FalconSensorTag"
+            }
+          ]
+        },
+        {
+          "name": "FalconSensor",
+          "children": [
+            {
+              "name": "Uninstall-FalconSensor"
+            }
+          ]
+        },
+        {
+          "name": "FalconQueue",
+          "children": [
+            {
+              "name": "Get-FalconQueue"
+            }
+          ]
+        },
+        {
+          "name": "FalconDeploy",
+          "children": [
+            {
+              "name": "Invoke-FalconDeploy"
+            }
+          ]
+        },
+        {
+          "name": "FalconRtr",
+          "children": [
+            {
+              "name": "Invoke-FalconRtr"
+            }
+          ]
+        },
+        {
+          "name": "FalconQuarantine",
+          "children": [
+            {
+              "name": "Get-FalconQuarantine"
+            }
+          ]
+        },
+        {
+          "name": "FalconQuarantineAction",
+          "children": [
+            {
+              "name": "Invoke-FalconQuarantineAction"
+            },
+            {
+              "name": "Test-FalconQuarantineAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconAdminCommand",
+          "children": [
+            {
+              "name": "Confirm-FalconAdminCommand"
+            },
+            {
+              "name": "Invoke-FalconAdminCommand"
+            }
+          ]
+        },
+        {
+          "name": "FalconCommand",
+          "children": [
+            {
+              "name": "Confirm-FalconCommand"
+            },
+            {
+              "name": "Invoke-FalconCommand"
+            },
+            {
+              "name": "Remove-FalconCommand"
+            }
+          ]
+        },
+        {
+          "name": "FalconGetFile",
+          "children": [
+            {
+              "name": "Confirm-FalconGetFile"
+            },
+            {
+              "name": "Receive-FalconGetFile"
+            },
+            {
+              "name": "Remove-FalconGetFile"
+            }
+          ]
+        },
+        {
+          "name": "FalconResponderCommand",
+          "children": [
+            {
+              "name": "Confirm-FalconResponderCommand"
+            },
+            {
+              "name": "Invoke-FalconResponderCommand"
+            }
+          ]
+        },
+        {
+          "name": "FalconScript",
+          "children": [
+            {
+              "name": "Edit-FalconScript"
+            },
+            {
+              "name": "Get-FalconScript"
+            },
+            {
+              "name": "Remove-FalconScript"
+            },
+            {
+              "name": "Send-FalconScript"
+            }
+          ]
+        },
+        {
+          "name": "FalconLibraryScript",
+          "children": [
+            {
+              "name": "Get-FalconLibraryScript"
+            }
+          ]
+        },
+        {
+          "name": "FalconPutFile",
+          "children": [
+            {
+              "name": "Get-FalconPutFile"
+            },
+            {
+              "name": "Remove-FalconPutFile"
+            },
+            {
+              "name": "Send-FalconPutFile"
+            }
+          ]
+        },
+        {
+          "name": "FalconSession",
+          "children": [
+            {
+              "name": "Get-FalconSession"
+            },
+            {
+              "name": "Remove-FalconSession"
+            },
+            {
+              "name": "Start-FalconSession"
+            },
+            {
+              "name": "Update-FalconSession"
+            }
+          ]
+        },
+        {
+          "name": "FalconBatchGet",
+          "children": [
+            {
+              "name": "Invoke-FalconBatchGet"
+            }
+          ]
+        },
+        {
+          "name": "FalconReconAction",
+          "children": [
+            {
+              "name": "Edit-FalconReconAction"
+            },
+            {
+              "name": "Get-FalconReconAction"
+            },
+            {
+              "name": "New-FalconReconAction"
+            },
+            {
+              "name": "Remove-FalconReconAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconReconNotification",
+          "children": [
+            {
+              "name": "Edit-FalconReconNotification"
+            },
+            {
+              "name": "Get-FalconReconNotification"
+            },
+            {
+              "name": "Remove-FalconReconNotification"
+            }
+          ]
+        },
+        {
+          "name": "FalconReconRule",
+          "children": [
+            {
+              "name": "Edit-FalconReconRule"
+            },
+            {
+              "name": "Get-FalconReconRule"
+            },
+            {
+              "name": "New-FalconReconRule"
+            },
+            {
+              "name": "Remove-FalconReconRule"
+            }
+          ]
+        },
+        {
+          "name": "FalconReconExport",
+          "children": [
+            {
+              "name": "Get-FalconReconExport"
+            },
+            {
+              "name": "Invoke-FalconReconExport"
+            },
+            {
+              "name": "Receive-FalconReconExport"
+            },
+            {
+              "name": "Remove-FalconReconExport"
+            }
+          ]
+        },
+        {
+          "name": "FalconReconRecord",
+          "children": [
+            {
+              "name": "Get-FalconReconRecord"
+            }
+          ]
+        },
+        {
+          "name": "FalconReconRulePreview",
+          "children": [
+            {
+              "name": "Get-FalconReconRulePreview"
+            }
+          ]
+        },
+        {
+          "name": "FalconScheduledReport",
+          "children": [
+            {
+              "name": "Get-FalconScheduledReport"
+            },
+            {
+              "name": "Invoke-FalconScheduledReport"
+            },
+            {
+              "name": "Receive-FalconScheduledReport"
+            },
+            {
+              "name": "Redo-FalconScheduledReport"
+            }
+          ]
+        },
+        {
+          "name": "FalconSample",
+          "children": [
+            {
+              "name": "Get-FalconSample"
+            },
+            {
+              "name": "Send-FalconSample"
+            },
+            {
+              "name": "Receive-FalconSample"
+            },
+            {
+              "name": "Remove-FalconSample"
+            }
+          ]
+        },
+        {
+          "name": "FalconQuickScan",
+          "children": [
+            {
+              "name": "Get-FalconQuickScan"
+            },
+            {
+              "name": "New-FalconQuickScan"
+            }
+          ]
+        },
+        {
+          "name": "FalconQuickScanQuota",
+          "children": [
+            {
+              "name": "Get-FalconQuickScanQuota"
+            }
+          ]
+        },
+        {
+          "name": "FalconCcid",
+          "children": [
+            {
+              "name": "Get-FalconCcid"
+            }
+          ]
+        },
+        {
+          "name": "FalconInstaller",
+          "children": [
+            {
+              "name": "Get-FalconInstaller"
+            },
+            {
+              "name": "Receive-FalconInstaller"
+            }
+          ]
+        },
+        {
+          "name": "FalconStream",
+          "children": [
+            {
+              "name": "Get-FalconStream"
+            },
+            {
+              "name": "Update-FalconStream"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudPolicy",
+          "children": [
+            {
+              "name": "Edit-FalconCloudPolicy"
+            },
+            {
+              "name": "Get-FalconCloudPolicy"
+            }
+          ]
+        },
+        {
+          "name": "FalconCloudSchedule",
+          "children": [
+            {
+              "name": "Edit-FalconCloudSchedule"
+            },
+            {
+              "name": "Get-FalconCloudSchedule"
+            }
+          ]
+        },
+        {
+          "name": "FalconSnapshot",
+          "children": [
+            {
+              "name": "Get-FalconSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "FalconSnapshotScan",
+          "children": [
+            {
+              "name": "Get-FalconSnapshotScan"
+            },
+            {
+              "name": "New-FalconSnapshotScan"
+            }
+          ]
+        },
+        {
+          "name": "FalconRemediation",
+          "children": [
+            {
+              "name": "Get-FalconRemediation"
+            }
+          ]
+        },
+        {
+          "name": "FalconVulnerability",
+          "children": [
+            {
+              "name": "Get-FalconVulnerability"
+            }
+          ]
+        },
+        {
+          "name": "FalconVulnerabilityLogic",
+          "children": [
+            {
+              "name": "Get-FalconVulnerabilityLogic"
+            }
+          ]
+        },
+        {
+          "name": "FalconThreatGraphEdge",
+          "children": [
+            {
+              "name": "Get-FalconThreatGraphEdge"
+            }
+          ]
+        },
+        {
+          "name": "FalconThreatGraphIndicator",
+          "children": [
+            {
+              "name": "Get-FalconThreatGraphIndicator"
+            }
+          ]
+        },
+        {
+          "name": "FalconThreatGraphVertex",
+          "children": [
+            {
+              "name": "Get-FalconThreatGraphVertex"
+            }
+          ]
+        },
+        {
+          "name": "FalconTailoredEvent",
+          "children": [
+            {
+              "name": "Get-FalconTailoredEvent"
+            }
+          ]
+        },
+        {
+          "name": "FalconTailoredRule",
+          "children": [
+            {
+              "name": "Get-FalconTailoredRule"
+            }
+          ]
+        },
+        {
+          "name": "FalconRole",
+          "children": [
+            {
+              "name": "Add-FalconRole"
+            },
+            {
+              "name": "Get-FalconRole"
+            },
+            {
+              "name": "Remove-FalconRole"
+            }
+          ]
+        },
+        {
+          "name": "FalconUser",
+          "children": [
+            {
+              "name": "Edit-FalconUser"
+            },
+            {
+              "name": "Get-FalconUser"
+            },
+            {
+              "name": "New-FalconUser"
+            },
+            {
+              "name": "Remove-FalconUser"
+            }
+          ]
+        },
+        {
+          "name": "FalconUserAction",
+          "children": [
+            {
+              "name": "Invoke-FalconUserAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconWorkflow",
+          "children": [
+            {
+              "name": "Export-FalconWorkflow"
+            },
+            {
+              "name": "Get-FalconWorkflow"
+            },
+            {
+              "name": "Import-FalconWorkflow"
+            },
+            {
+              "name": "Invoke-FalconWorkflow"
+            },
+            {
+              "name": "Redo-FalconWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "FalconWorkflowAction",
+          "children": [
+            {
+              "name": "Get-FalconWorkflowAction"
+            }
+          ]
+        },
+        {
+          "name": "FalconWorkflowInput",
+          "children": [
+            {
+              "name": "Get-FalconWorkflowInput"
+            }
+          ]
+        },
+        {
+          "name": "FalconWorkflowTrigger",
+          "children": [
+            {
+              "name": "Get-FalconWorkflowTrigger"
+            }
+          ]
+        },
+        {
+          "name": "FalconZta",
+          "children": [
+            {
+              "name": "Get-FalconZta"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

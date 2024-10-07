@@ -1,0 +1,140 @@
+{
+  "name": "Roderick Bant",
+  "children": [
+    {
+      "name": "PSCO2Signal",
+      "companyName": "Unknown",
+      "author": "Roderick Bant",
+      "children": [
+        {
+          "name": "CO2SignalForAzureRegion",
+          "children": [
+            {
+              "name": "Get-CO2SignalForAzureRegion"
+            }
+          ]
+        },
+        {
+          "name": "CO2SignalBestAzureRegion",
+          "children": [
+            {
+              "name": "Get-CO2SignalBestAzureRegion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSElectricityMaps",
+      "companyName": "Unknown",
+      "author": "Roderick Bant",
+      "children": [
+        {
+          "name": "ElectricityMapsForAzureRegion",
+          "children": [
+            {
+              "name": "Get-ElectricityMapsForAzureRegion"
+            }
+          ]
+        },
+        {
+          "name": "ElectricityMapsBestAzureRegion",
+          "children": [
+            {
+              "name": "Get-ElectricityMapsBestAzureRegion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSRule.Rules.AzureDevOps",
+      "companyName": "Private Entity",
+      "author": "Roderick Bant",
+      "children": [
+        {
+          "name": "AzDevOpsRuleData",
+          "children": [
+            {
+              "name": "Export-AzDevOpsRuleData"
+            }
+          ]
+        },
+        {
+          "name": "AzDevOpsOrganizationRuleData",
+          "children": [
+            {
+              "name": "Export-AzDevOpsOrganizationRuleData"
+            }
+          ]
+        },
+        {
+          "name": "AzDevOps",
+          "children": [
+            {
+              "name": "Connect-AzDevOps"
+            },
+            {
+              "name": "Disconnect-AzDevOps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSWattTime",
+      "companyName": "Unknown",
+      "author": "Roderick Bant",
+      "children": [
+        {
+          "name": "WattTime",
+          "children": [
+            {
+              "name": "Get-WattTime"
+            }
+          ]
+        },
+        {
+          "name": "WattTimeAuthToken",
+          "children": [
+            {
+              "name": "Get-WattTimeAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "AzureRegion",
+          "children": [
+            {
+              "name": "ConvertFrom-AzureRegion"
+            }
+          ]
+        },
+        {
+          "name": "WattTimeForAzureRegion",
+          "children": [
+            {
+              "name": "Get-WattTimeForAzureRegion"
+            }
+          ]
+        },
+        {
+          "name": "AzureRegionWithLowestWattTime",
+          "children": [
+            {
+              "name": "Get-AzureRegionWithLowestWattTime"
+            }
+          ]
+        },
+        {
+          "name": "WattTimeAccount",
+          "children": [
+            {
+              "name": "New-WattTimeAccount"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

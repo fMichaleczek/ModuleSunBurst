@@ -1,0 +1,62 @@
+{
+  "name": "nohwnd",
+  "children": [
+    {
+      "name": "ImportTestScript",
+      "companyName": "nohwnd",
+      "author": "nohwnd",
+      "children": [
+        {
+          "name": "Script",
+          "children": [
+            {
+              "name": "Import-Script"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Profiler",
+      "companyName": "nohwnd",
+      "author": "nohwnd",
+      "children": [
+        {
+          "name": "Script",
+          "children": [
+            {
+              "name": "Invoke-Script"
+            },
+            {
+              "name": "Trace-Script"
+            }
+          ]
+        },
+        {
+          "name": "LatestTrace",
+          "children": [
+            {
+              "name": "Get-LatestTrace"
+            }
+          ]
+        },
+        {
+          "name": "ScriptExecution",
+          "children": [
+            {
+              "name": "Show-ScriptExecution"
+            }
+          ]
+        },
+        {
+          "name": "CallStack",
+          "children": [
+            {
+              "name": "Get-CallStack"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

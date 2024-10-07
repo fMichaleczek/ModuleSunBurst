@@ -1,0 +1,71 @@
+{
+  "name": "Visa Spendclarity Enterprise",
+  "children": [
+    {
+      "name": "PPM-Package-Tools",
+      "companyName": "Visa Spendclarity Enterprise",
+      "author": "Miguel Juan",
+      "children": [
+        {
+          "name": "CdnMap",
+          "children": [
+            {
+              "name": "Get-CdnMap"
+            }
+          ]
+        },
+        {
+          "name": "CdnPackage",
+          "children": [
+            {
+              "name": "New-CdnPackage"
+            }
+          ]
+        },
+        {
+          "name": "MobilePackage",
+          "children": [
+            {
+              "name": "New-MobilePackage"
+            }
+          ]
+        },
+        {
+          "name": "NodePackage",
+          "children": [
+            {
+              "name": "New-NodePackage"
+            }
+          ]
+        },
+        {
+          "name": "OctopusRelease",
+          "children": [
+            {
+              "name": "New-OctopusRelease"
+            }
+          ]
+        },
+        {
+          "name": "PpmPackage",
+          "children": [
+            {
+              "name": "New-PpmPackage"
+            },
+            {
+              "name": "Push-PpmPackage"
+            }
+          ]
+        },
+        {
+          "name": "SFTPPackage",
+          "children": [
+            {
+              "name": "Push-SFTPPackage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

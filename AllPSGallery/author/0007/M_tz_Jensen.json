@@ -1,0 +1,839 @@
+{
+  "name": "M tz Jensen",
+  "children": [
+    {
+      "name": "ax2012.tools",
+      "companyName": "Essence Solutions",
+      "author": "M tz Jensen",
+      "children": [
+        {
+          "name": "AxActiveEnvironmentConfig",
+          "children": [
+            {
+              "name": "Clear-AxActiveEnvironmentConfig"
+            },
+            {
+              "name": "Get-AxActiveEnvironmentConfig"
+            },
+            {
+              "name": "Set-AxActiveEnvironmentConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxClientCacheObjects",
+          "children": [
+            {
+              "name": "Clear-AxClientCacheObjects"
+            }
+          ]
+        },
+        {
+          "name": "AxInstanceGlobalGuid",
+          "children": [
+            {
+              "name": "Clear-AxInstanceGlobalGuid"
+            }
+          ]
+        },
+        {
+          "name": "AxServerCacheObjects",
+          "children": [
+            {
+              "name": "Clear-AxServerCacheObjects"
+            }
+          ]
+        },
+        {
+          "name": "AxEnvironmentConfig",
+          "children": [
+            {
+              "name": "Add-AxEnvironmentConfig"
+            },
+            {
+              "name": "Get-AxEnvironmentConfig"
+            },
+            {
+              "name": "Remove-AxEnvironmentConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxModelV2",
+          "children": [
+            {
+              "name": "Export-AxModelV2"
+            },
+            {
+              "name": "Import-AxModelV2"
+            }
+          ]
+        },
+        {
+          "name": "AxModelStoreV2",
+          "children": [
+            {
+              "name": "Export-AxModelStoreV2"
+            },
+            {
+              "name": "Initialize-AXModelStoreV2"
+            },
+            {
+              "name": "Import-AXModelStoreV2"
+            }
+          ]
+        },
+        {
+          "name": "AxActiveAosConfig",
+          "children": [
+            {
+              "name": "Get-AxActiveAosConfig"
+            },
+            {
+              "name": "Set-AxActiveAosConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxAosInstance",
+          "children": [
+            {
+              "name": "Get-AxAosInstance"
+            }
+          ]
+        },
+        {
+          "name": "AxAosServerFromDB",
+          "children": [
+            {
+              "name": "Get-AxAosServerFromDB"
+            }
+          ]
+        },
+        {
+          "name": "AxAutoRunXml",
+          "children": [
+            {
+              "name": "Get-AxAutoRunXml"
+            }
+          ]
+        },
+        {
+          "name": "AxClientBuild",
+          "children": [
+            {
+              "name": "Get-AxClientBuild"
+            }
+          ]
+        },
+        {
+          "name": "AxClientConfig",
+          "children": [
+            {
+              "name": "Get-AxClientConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxLogicAppConfig",
+          "children": [
+            {
+              "name": "Get-AxLogicAppConfig"
+            },
+            {
+              "name": "Set-AxLogicAppConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxMr2012Instance",
+          "children": [
+            {
+              "name": "Get-AxMr2012Instance"
+            }
+          ]
+        },
+        {
+          "name": "AxParameterSniffingSetting",
+          "children": [
+            {
+              "name": "Get-AxParameterSniffingSetting"
+            },
+            {
+              "name": "Set-AxParameterSniffingSetting"
+            }
+          ]
+        },
+        {
+          "name": "AxServerXppILHash",
+          "children": [
+            {
+              "name": "Get-AxServerXppILHash"
+            }
+          ]
+        },
+        {
+          "name": "AxService",
+          "children": [
+            {
+              "name": "Get-AxService"
+            },
+            {
+              "name": "Start-AxService"
+            },
+            {
+              "name": "Stop-AxService"
+            }
+          ]
+        },
+        {
+          "name": "AxSsrsConfig",
+          "children": [
+            {
+              "name": "Get-AxSsrsConfig"
+            }
+          ]
+        },
+        {
+          "name": "AxWMDPDetails",
+          "children": [
+            {
+              "name": "Get-AxWMDPDetails"
+            }
+          ]
+        },
+        {
+          "name": "AxBuild",
+          "children": [
+            {
+              "name": "Invoke-AxBuild"
+            }
+          ]
+        },
+        {
+          "name": "AxLogicApp",
+          "children": [
+            {
+              "name": "Invoke-AxLogicApp"
+            }
+          ]
+        },
+        {
+          "name": "AxStartAutoRun",
+          "children": [
+            {
+              "name": "Invoke-AxStartAutoRun"
+            }
+          ]
+        },
+        {
+          "name": "AxTableFieldIDs",
+          "children": [
+            {
+              "name": "Resolve-AxTableFieldIDs"
+            }
+          ]
+        },
+        {
+          "name": "AxAdmin",
+          "children": [
+            {
+              "name": "Set-AxAdmin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureRm.Extensions",
+      "companyName": "Essence Solutions",
+      "author": "M tz Jensen",
+      "children": [
+        {
+          "name": "AzureRmTagToResource",
+          "children": [
+            {
+              "name": "Add-AzureRmTagToResource"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmTagToResourceGroup",
+          "children": [
+            {
+              "name": "Add-AzureRmTagToResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmResourceExt",
+          "children": [
+            {
+              "name": "Get-AzureRmResourceExt"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmResourceGroupExt",
+          "children": [
+            {
+              "name": "Get-AzureRmResourceGroupExt"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmSubscriptionExt",
+          "children": [
+            {
+              "name": "Get-AzureRmSubscriptionExt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d365bap.tools",
+      "companyName": "Essence Solutions",
+      "author": "M tz Jensen",
+      "children": [
+        {
+          "name": "BapEnvironmentD365App",
+          "children": [
+            {
+              "name": "Compare-BapEnvironmentD365App"
+            },
+            {
+              "name": "Get-BapEnvironmentD365App"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentUser",
+          "children": [
+            {
+              "name": "Compare-BapEnvironmentUser"
+            },
+            {
+              "name": "Get-BapEnvironmentUser"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentVirtualEntity",
+          "children": [
+            {
+              "name": "Compare-BapEnvironmentVirtualEntity"
+            },
+            {
+              "name": "Get-BapEnvironmentVirtualEntity"
+            },
+            {
+              "name": "Set-BapEnvironmentVirtualEntity"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentIntegration",
+          "children": [
+            {
+              "name": "Confirm-BapEnvironmentIntegration"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentSolution",
+          "children": [
+            {
+              "name": "Export-BapEnvironmentSolution"
+            },
+            {
+              "name": "Get-BapEnvironmentSolution"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironment",
+          "children": [
+            {
+              "name": "Get-BapEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentApplicationUser",
+          "children": [
+            {
+              "name": "Get-BapEnvironmentApplicationUser"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentLinkEnterprisePolicy",
+          "children": [
+            {
+              "name": "Get-BapEnvironmentLinkEnterprisePolicy"
+            },
+            {
+              "name": "Set-BapEnvironmentLinkEnterprisePolicy"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentSecurityRole",
+          "children": [
+            {
+              "name": "Get-BapEnvironmentSecurityRole"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentInstallD365App",
+          "children": [
+            {
+              "name": "Invoke-BapEnvironmentInstallD365App"
+            }
+          ]
+        },
+        {
+          "name": "BapEnvironmentVirtualEntityMetadata",
+          "children": [
+            {
+              "name": "Update-BapEnvironmentVirtualEntityMetadata"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "d365ce.integrations",
+      "companyName": "Essence Solutions",
+      "author": "M tz Jensen",
+      "children": [
+        {
+          "name": "D365CeODataConfig",
+          "children": [
+            {
+              "name": "Add-D365CeODataConfig"
+            },
+            {
+              "name": "Get-D365CeODataConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365CeException",
+          "children": [
+            {
+              "name": "Enable-D365CeException"
+            }
+          ]
+        },
+        {
+          "name": "D365CeActiveODataConfig",
+          "children": [
+            {
+              "name": "Get-D365CeActiveODataConfig"
+            },
+            {
+              "name": "Set-D365CeActiveODataConfig"
+            }
+          ]
+        },
+        {
+          "name": "D365CeODataEntityData",
+          "children": [
+            {
+              "name": "Get-D365CeODataEntityData"
+            }
+          ]
+        },
+        {
+          "name": "D365CeODataEntityDataByKey",
+          "children": [
+            {
+              "name": "Get-D365CeODataEntityDataByKey"
+            }
+          ]
+        },
+        {
+          "name": "D365CeODataEntity",
+          "children": [
+            {
+              "name": "Import-D365CeODataEntity"
+            },
+            {
+              "name": "Remove-D365CeODataEntity"
+            },
+            {
+              "name": "Update-D365CeODataEntity"
+            }
+          ]
+        },
+        {
+          "name": "D365CeODataEntityBatchMode",
+          "children": [
+            {
+              "name": "Import-D365CeODataEntityBatchMode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PsLogicAppExtractor",
+      "companyName": "Essence Solutions",
+      "author": "M tz Jensen",
+      "children": [
+        {
+          "name": "PsLaArmParameter",
+          "children": [
+            {
+              "name": "Get-PsLaArmParameter"
+            }
+          ]
+        },
+        {
+          "name": "PsLaManagedApiConnection",
+          "children": [
+            {
+              "name": "Get-PsLaManagedApiConnection"
+            }
+          ]
+        },
+        {
+          "name": "PsLaManagedApiConnection.Status.ViaGraph.AzAccount",
+          "children": [
+            {
+              "name": "Get-PsLaManagedApiConnection.Status.ViaGraph.AzAccount"
+            }
+          ]
+        },
+        {
+          "name": "PsLaManagedApiConnection.ViaGraph.AzAccount",
+          "children": [
+            {
+              "name": "Get-PsLaManagedApiConnection.ViaGraph.AzAccount"
+            }
+          ]
+        },
+        {
+          "name": "PsLaManagedApiConnectionByUsage",
+          "children": [
+            {
+              "name": "Get-PsLaManagedApiConnectionByUsage"
+            }
+          ]
+        },
+        {
+          "name": "PsLaTask",
+          "children": [
+            {
+              "name": "Get-PsLaTask"
+            }
+          ]
+        },
+        {
+          "name": "PsLaTaskByFile",
+          "children": [
+            {
+              "name": "Get-PsLaTaskByFile"
+            }
+          ]
+        },
+        {
+          "name": "PsLaTaskByPath",
+          "children": [
+            {
+              "name": "Get-PsLaTaskByPath"
+            }
+          ]
+        },
+        {
+          "name": "PsLaTaskOrderByFile",
+          "children": [
+            {
+              "name": "Get-PsLaTaskOrderByFile"
+            }
+          ]
+        },
+        {
+          "name": "PsLaTaskTemplate",
+          "children": [
+            {
+              "name": "Get-PsLaTaskTemplate"
+            }
+          ]
+        },
+        {
+          "name": "PsLaConsent.AzAccount",
+          "children": [
+            {
+              "name": "Invoke-PsLaConsent.AzAccount"
+            }
+          ]
+        },
+        {
+          "name": "PsLaConsent.AzCli",
+          "children": [
+            {
+              "name": "Invoke-PsLaConsent.AzCli"
+            }
+          ]
+        },
+        {
+          "name": "PsLaExtractor",
+          "children": [
+            {
+              "name": "Invoke-PsLaExtractor"
+            }
+          ]
+        },
+        {
+          "name": "PsLaRunbookByPath",
+          "children": [
+            {
+              "name": "New-PsLaRunbookByPath"
+            }
+          ]
+        },
+        {
+          "name": "PsLaRunbookByTask",
+          "children": [
+            {
+              "name": "New-PsLaRunbookByTask"
+            }
+          ]
+        },
+        {
+          "name": "ArmParameter",
+          "children": [
+            {
+              "name": "Add-ArmParameter"
+            },
+            {
+              "name": "Remove-ArmParameter"
+            }
+          ]
+        },
+        {
+          "name": "ArmVariable",
+          "children": [
+            {
+              "name": "Add-ArmVariable"
+            },
+            {
+              "name": "Remove-ArmVariable"
+            }
+          ]
+        },
+        {
+          "name": "LogicAppParm",
+          "children": [
+            {
+              "name": "Add-LogicAppParm"
+            },
+            {
+              "name": "Remove-LogicAppParm"
+            }
+          ]
+        },
+        {
+          "name": "ArmParameterValue",
+          "children": [
+            {
+              "name": "Get-ArmParameterValue"
+            }
+          ]
+        },
+        {
+          "name": "ExtractOutput",
+          "children": [
+            {
+              "name": "Get-ExtractOutput"
+            }
+          ]
+        },
+        {
+          "name": "ActionsByType",
+          "children": [
+            {
+              "name": "Get-ActionsByType"
+            }
+          ]
+        },
+        {
+          "name": "TaskWorkObject",
+          "children": [
+            {
+              "name": "Get-TaskWorkObject"
+            }
+          ]
+        },
+        {
+          "name": "TaskWorkRaw",
+          "children": [
+            {
+              "name": "Get-TaskWorkRaw"
+            }
+          ]
+        },
+        {
+          "name": "TaskFile",
+          "children": [
+            {
+              "name": "Out-TaskFile"
+            }
+          ]
+        },
+        {
+          "name": "TaskFileArm",
+          "children": [
+            {
+              "name": "Out-TaskFileArm"
+            }
+          ]
+        },
+        {
+          "name": "TaskFileLogicApp",
+          "children": [
+            {
+              "name": "Out-TaskFileLogicApp"
+            }
+          ]
+        },
+        {
+          "name": "Name",
+          "children": [
+            {
+              "name": "Format-Name"
+            }
+          ]
+        },
+        {
+          "name": "TaskWorkDirectory",
+          "children": [
+            {
+              "name": "Set-TaskWorkDirectory"
+            }
+          ]
+        },
+        {
+          "name": "PsLaArmTemplate",
+          "children": [
+            {
+              "name": "Split-PsLaArmTemplate"
+            },
+            {
+              "name": "Update-PsLaArmTemplate"
+            }
+          ]
+        },
+        {
+          "name": "PsLaArmParameterFile",
+          "children": [
+            {
+              "name": "Update-PsLaArmParameterFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psnotification",
+      "companyName": "Essence Solutions",
+      "author": "M tz Jensen",
+      "children": [
+        {
+          "name": "PSNUrl",
+          "children": [
+            {
+              "name": "Get-PSNUrl"
+            },
+            {
+              "name": "Set-PSNUrl"
+            }
+          ]
+        },
+        {
+          "name": "PSNHttpEndpoint",
+          "children": [
+            {
+              "name": "Invoke-PSNHttpEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "PSNMessage",
+          "children": [
+            {
+              "name": "Invoke-PSNMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSOAuthHelper",
+      "companyName": "Unknown",
+      "author": "M tz Jensen",
+      "children": [
+        {
+          "name": "BearerToken",
+          "children": [
+            {
+              "name": "Get-BearerToken"
+            }
+          ]
+        },
+        {
+          "name": "RemainingMinutes",
+          "children": [
+            {
+              "name": "Get-RemainingMinutes"
+            }
+          ]
+        },
+        {
+          "name": "AzureResourceManagementGrant",
+          "children": [
+            {
+              "name": "Invoke-AzureResourceManagementGrant"
+            }
+          ]
+        },
+        {
+          "name": "ClientCredentialsGrant",
+          "children": [
+            {
+              "name": "Invoke-ClientCredentialsGrant"
+            }
+          ]
+        },
+        {
+          "name": "PasswordGrant",
+          "children": [
+            {
+              "name": "Invoke-PasswordGrant"
+            }
+          ]
+        },
+        {
+          "name": "RefreshToken",
+          "children": [
+            {
+              "name": "Invoke-RefreshToken"
+            }
+          ]
+        },
+        {
+          "name": "AuthorizationHeaderBearerToken",
+          "children": [
+            {
+              "name": "New-AuthorizationHeaderBearerToken"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

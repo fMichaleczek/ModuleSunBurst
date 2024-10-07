@@ -1,0 +1,2130 @@
+{
+  "name": "Celerium",
+  "children": [
+    {
+      "name": "AuvikAPI",
+      "companyName": "Celerium",
+      "author": "David Schulte",
+      "children": [
+        {
+          "name": "AuvikQueryString",
+          "children": [
+            {
+              "name": "ConvertTo-AuvikQueryString"
+            }
+          ]
+        },
+        {
+          "name": "AuvikMetaData",
+          "children": [
+            {
+              "name": "Get-AuvikMetaData"
+            }
+          ]
+        },
+        {
+          "name": "AuvikRequest",
+          "children": [
+            {
+              "name": "Invoke-AuvikRequest"
+            }
+          ]
+        },
+        {
+          "name": "AuvikAPIKey",
+          "children": [
+            {
+              "name": "Add-AuvikAPIKey"
+            },
+            {
+              "name": "Get-AuvikAPIKey"
+            },
+            {
+              "name": "Remove-AuvikAPIKey"
+            }
+          ]
+        },
+        {
+          "name": "AuvikBaseURI",
+          "children": [
+            {
+              "name": "Add-AuvikBaseURI"
+            },
+            {
+              "name": "Get-AuvikBaseURI"
+            },
+            {
+              "name": "Remove-AuvikBaseURI"
+            }
+          ]
+        },
+        {
+          "name": "AuvikModuleSettings",
+          "children": [
+            {
+              "name": "Export-AuvikModuleSettings"
+            },
+            {
+              "name": "Get-AuvikModuleSettings"
+            },
+            {
+              "name": "Import-AuvikModuleSettings"
+            },
+            {
+              "name": "Initialize-AuvikModuleSettings"
+            },
+            {
+              "name": "Remove-AuvikModuleSettings"
+            }
+          ]
+        },
+        {
+          "name": "AuvikAlert",
+          "children": [
+            {
+              "name": "Clear-AuvikAlert"
+            },
+            {
+              "name": "Get-AuvikAlert"
+            }
+          ]
+        },
+        {
+          "name": "AuvikBilling",
+          "children": [
+            {
+              "name": "Get-AuvikBilling"
+            }
+          ]
+        },
+        {
+          "name": "AuvikTenant",
+          "children": [
+            {
+              "name": "Get-AuvikTenant"
+            }
+          ]
+        },
+        {
+          "name": "AuvikComponent",
+          "children": [
+            {
+              "name": "Get-AuvikComponent"
+            }
+          ]
+        },
+        {
+          "name": "AuvikConfiguration",
+          "children": [
+            {
+              "name": "Get-AuvikConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "AuvikDevice",
+          "children": [
+            {
+              "name": "Get-AuvikDevice"
+            }
+          ]
+        },
+        {
+          "name": "AuvikDeviceLifecycle",
+          "children": [
+            {
+              "name": "Get-AuvikDeviceLifecycle"
+            }
+          ]
+        },
+        {
+          "name": "AuvikDeviceWarranty",
+          "children": [
+            {
+              "name": "Get-AuvikDeviceWarranty"
+            }
+          ]
+        },
+        {
+          "name": "AuvikEntity",
+          "children": [
+            {
+              "name": "Get-AuvikEntity"
+            }
+          ]
+        },
+        {
+          "name": "AuvikInterface",
+          "children": [
+            {
+              "name": "Get-AuvikInterface"
+            }
+          ]
+        },
+        {
+          "name": "AuvikNetwork",
+          "children": [
+            {
+              "name": "Get-AuvikNetwork"
+            }
+          ]
+        },
+        {
+          "name": "AuvikCredential",
+          "children": [
+            {
+              "name": "Get-AuvikCredential"
+            }
+          ]
+        },
+        {
+          "name": "AuvikSNMPPollerDevice",
+          "children": [
+            {
+              "name": "Get-AuvikSNMPPollerDevice"
+            }
+          ]
+        },
+        {
+          "name": "AuvikSNMPPollerSetting",
+          "children": [
+            {
+              "name": "Get-AuvikSNMPPollerSetting"
+            }
+          ]
+        },
+        {
+          "name": "AuvikSNMPPolllerHistory",
+          "children": [
+            {
+              "name": "Get-AuvikSNMPPolllerHistory"
+            }
+          ]
+        },
+        {
+          "name": "AuvikComponentStatistics",
+          "children": [
+            {
+              "name": "Get-AuvikComponentStatistics"
+            }
+          ]
+        },
+        {
+          "name": "AuvikDeviceAvailabilityStatistics",
+          "children": [
+            {
+              "name": "Get-AuvikDeviceAvailabilityStatistics"
+            }
+          ]
+        },
+        {
+          "name": "AuvikDeviceStatistics",
+          "children": [
+            {
+              "name": "Get-AuvikDeviceStatistics"
+            }
+          ]
+        },
+        {
+          "name": "AuvikInterfaceStatistics",
+          "children": [
+            {
+              "name": "Get-AuvikInterfaceStatistics"
+            }
+          ]
+        },
+        {
+          "name": "AuvikOIDStatistics",
+          "children": [
+            {
+              "name": "Get-AuvikOIDStatistics"
+            }
+          ]
+        },
+        {
+          "name": "AuvikServiceStatistics",
+          "children": [
+            {
+              "name": "Get-AuvikServiceStatistics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DattoAPI",
+      "companyName": "Celerium",
+      "author": "David Schulte",
+      "children": [
+        {
+          "name": "DattoQueryString",
+          "children": [
+            {
+              "name": "ConvertTo-DattoQueryString"
+            }
+          ]
+        },
+        {
+          "name": "DattoMetaData",
+          "children": [
+            {
+              "name": "Get-DattoMetaData"
+            }
+          ]
+        },
+        {
+          "name": "DattoRequest",
+          "children": [
+            {
+              "name": "Invoke-DattoRequest"
+            }
+          ]
+        },
+        {
+          "name": "DattoAPIKey",
+          "children": [
+            {
+              "name": "Add-DattoAPIKey"
+            },
+            {
+              "name": "Get-DattoAPIKey"
+            },
+            {
+              "name": "Remove-DattoAPIKey"
+            },
+            {
+              "name": "Test-DattoAPIKey"
+            }
+          ]
+        },
+        {
+          "name": "DattoBaseURI",
+          "children": [
+            {
+              "name": "Add-DattoBaseURI"
+            },
+            {
+              "name": "Get-DattoBaseURI"
+            },
+            {
+              "name": "Remove-DattoBaseURI"
+            }
+          ]
+        },
+        {
+          "name": "DattoModuleSettings",
+          "children": [
+            {
+              "name": "Export-DattoModuleSettings"
+            },
+            {
+              "name": "Get-DattoModuleSettings"
+            },
+            {
+              "name": "Import-DattoModuleSettings"
+            },
+            {
+              "name": "Initialize-DattoModuleSettings"
+            },
+            {
+              "name": "Remove-DattoModuleSettings"
+            }
+          ]
+        },
+        {
+          "name": "DattoAgent",
+          "children": [
+            {
+              "name": "Get-DattoAgent"
+            }
+          ]
+        },
+        {
+          "name": "DattoAlert",
+          "children": [
+            {
+              "name": "Get-DattoAlert"
+            }
+          ]
+        },
+        {
+          "name": "DattoAsset",
+          "children": [
+            {
+              "name": "Get-DattoAsset"
+            }
+          ]
+        },
+        {
+          "name": "DattoBCDR",
+          "children": [
+            {
+              "name": "Get-DattoBCDR"
+            }
+          ]
+        },
+        {
+          "name": "DattoDevice",
+          "children": [
+            {
+              "name": "Get-DattoDevice"
+            }
+          ]
+        },
+        {
+          "name": "DattoShare",
+          "children": [
+            {
+              "name": "Get-DattoShare"
+            }
+          ]
+        },
+        {
+          "name": "DattoVMRestore",
+          "children": [
+            {
+              "name": "Get-DattoVMRestore"
+            }
+          ]
+        },
+        {
+          "name": "DattoVolume",
+          "children": [
+            {
+              "name": "Get-DattoVolume"
+            }
+          ]
+        },
+        {
+          "name": "DattoActivityLog",
+          "children": [
+            {
+              "name": "Get-DattoActivityLog"
+            }
+          ]
+        },
+        {
+          "name": "DattoApplication",
+          "children": [
+            {
+              "name": "Get-DattoApplication"
+            }
+          ]
+        },
+        {
+          "name": "DattoDomain",
+          "children": [
+            {
+              "name": "Get-DattoDomain"
+            }
+          ]
+        },
+        {
+          "name": "DattoSaaS",
+          "children": [
+            {
+              "name": "Get-DattoSaaS"
+            }
+          ]
+        },
+        {
+          "name": "DattoSeat",
+          "children": [
+            {
+              "name": "Get-DattoSeat"
+            }
+          ]
+        },
+        {
+          "name": "DattoBulkSeatChange",
+          "children": [
+            {
+              "name": "Set-DattoBulkSeatChange"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FanartTvAPI",
+      "companyName": "Celerium",
+      "author": "David Schulte",
+      "children": [
+        {
+          "name": "FanartTvAPIKey",
+          "children": [
+            {
+              "name": "Add-FanartTvAPIKey"
+            },
+            {
+              "name": "Get-FanartTvAPIKey"
+            },
+            {
+              "name": "Remove-FanartTvAPIKey"
+            },
+            {
+              "name": "Test-FanartTvAPIKey"
+            }
+          ]
+        },
+        {
+          "name": "FanartTvBaseURI",
+          "children": [
+            {
+              "name": "Add-FanartTvBaseURI"
+            },
+            {
+              "name": "Get-FanartTvBaseURI"
+            },
+            {
+              "name": "Remove-FanartTvBaseURI"
+            }
+          ]
+        },
+        {
+          "name": "FanartTvModuleSettings",
+          "children": [
+            {
+              "name": "Export-FanartTvModuleSettings"
+            },
+            {
+              "name": "Import-FanartTvModuleSettings"
+            },
+            {
+              "name": "Remove-FanartTvModuleSettings"
+            }
+          ]
+        },
+        {
+          "name": "FanartTv",
+          "children": [
+            {
+              "name": "Get-FanartTv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MyITProcessAPI",
+      "companyName": "Celerium",
+      "author": "David Schulte",
+      "children": [
+        {
+          "name": "MyITProcessQueryString",
+          "children": [
+            {
+              "name": "ConvertTo-MyITProcessQueryString"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessRequest",
+          "children": [
+            {
+              "name": "Invoke-MyITProcessRequest"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessAPIKey",
+          "children": [
+            {
+              "name": "Add-MyITProcessAPIKey"
+            },
+            {
+              "name": "Get-MyITProcessAPIKey"
+            },
+            {
+              "name": "Remove-MyITProcessAPIKey"
+            },
+            {
+              "name": "Test-MyITProcessAPIKey"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessBaseURI",
+          "children": [
+            {
+              "name": "Add-MyITProcessBaseURI"
+            },
+            {
+              "name": "Get-MyITProcessBaseURI"
+            },
+            {
+              "name": "Remove-MyITProcessBaseURI"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessModuleSettings",
+          "children": [
+            {
+              "name": "Export-MyITProcessModuleSettings"
+            },
+            {
+              "name": "Get-MyITProcessModuleSettings"
+            },
+            {
+              "name": "Import-MyITProcessModuleSettings"
+            },
+            {
+              "name": "Initialize-MyITProcessModuleSettings"
+            },
+            {
+              "name": "Remove-MyITProcessModuleSettings"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessClients",
+          "children": [
+            {
+              "name": "Get-MyITProcessClients"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessFindings",
+          "children": [
+            {
+              "name": "Get-MyITProcessFindings"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessInitiatives",
+          "children": [
+            {
+              "name": "Get-MyITProcessInitiatives"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessMeetings",
+          "children": [
+            {
+              "name": "Get-MyITProcessMeetings"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessRecommendations",
+          "children": [
+            {
+              "name": "Get-MyITProcessRecommendations"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessReviews",
+          "children": [
+            {
+              "name": "Get-MyITProcessReviews"
+            }
+          ]
+        },
+        {
+          "name": "MyITProcessUsers",
+          "children": [
+            {
+              "name": "Get-MyITProcessUsers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PokeAPI",
+      "companyName": "Celerium",
+      "author": "David Schulte",
+      "children": [
+        {
+          "name": "PokeQueryString",
+          "children": [
+            {
+              "name": "ConvertTo-PokeQueryString"
+            }
+          ]
+        },
+        {
+          "name": "PokeCachedData",
+          "children": [
+            {
+              "name": "Get-PokeCachedData"
+            },
+            {
+              "name": "Set-PokeCachedData"
+            }
+          ]
+        },
+        {
+          "name": "PokeMetaData",
+          "children": [
+            {
+              "name": "Get-PokeMetaData"
+            }
+          ]
+        },
+        {
+          "name": "PokeRequest",
+          "children": [
+            {
+              "name": "Invoke-PokeRequest"
+            }
+          ]
+        },
+        {
+          "name": "PokeBaseURI",
+          "children": [
+            {
+              "name": "Add-PokeBaseURI"
+            },
+            {
+              "name": "Get-PokeBaseURI"
+            },
+            {
+              "name": "Remove-PokeBaseURI"
+            }
+          ]
+        },
+        {
+          "name": "PokeModuleSettings",
+          "children": [
+            {
+              "name": "Export-PokeModuleSettings"
+            },
+            {
+              "name": "Get-PokeModuleSettings"
+            },
+            {
+              "name": "Import-PokeModuleSettings"
+            },
+            {
+              "name": "Initialize-PokeModuleSettings"
+            },
+            {
+              "name": "Remove-PokeModuleSettings"
+            }
+          ]
+        },
+        {
+          "name": "PokeBerry",
+          "children": [
+            {
+              "name": "Get-PokeBerry"
+            }
+          ]
+        },
+        {
+          "name": "PokeBerryFirmness",
+          "children": [
+            {
+              "name": "Get-PokeBerryFirmness"
+            }
+          ]
+        },
+        {
+          "name": "PokeBerryFlavor",
+          "children": [
+            {
+              "name": "Get-PokeBerryFlavor"
+            }
+          ]
+        },
+        {
+          "name": "PokeContestEffect",
+          "children": [
+            {
+              "name": "Get-PokeContestEffect"
+            }
+          ]
+        },
+        {
+          "name": "PokeContestSuperEffect",
+          "children": [
+            {
+              "name": "Get-PokeContestSuperEffect"
+            }
+          ]
+        },
+        {
+          "name": "PokeContestType",
+          "children": [
+            {
+              "name": "Get-PokeContestType"
+            }
+          ]
+        },
+        {
+          "name": "PokeEncounterCondition",
+          "children": [
+            {
+              "name": "Get-PokeEncounterCondition"
+            }
+          ]
+        },
+        {
+          "name": "PokeEncounterConditionValue",
+          "children": [
+            {
+              "name": "Get-PokeEncounterConditionValue"
+            }
+          ]
+        },
+        {
+          "name": "PokeEncounterMethod",
+          "children": [
+            {
+              "name": "Get-PokeEncounterMethod"
+            }
+          ]
+        },
+        {
+          "name": "PokeEvolutionChain",
+          "children": [
+            {
+              "name": "Get-PokeEvolutionChain"
+            }
+          ]
+        },
+        {
+          "name": "PokeEvolutionTrigger",
+          "children": [
+            {
+              "name": "Get-PokeEvolutionTrigger"
+            }
+          ]
+        },
+        {
+          "name": "PokeGameGeneration",
+          "children": [
+            {
+              "name": "Get-PokeGameGeneration"
+            }
+          ]
+        },
+        {
+          "name": "PokeGamePokedex",
+          "children": [
+            {
+              "name": "Get-PokeGamePokedex"
+            }
+          ]
+        },
+        {
+          "name": "PokeGameVersion",
+          "children": [
+            {
+              "name": "Get-PokeGameVersion"
+            }
+          ]
+        },
+        {
+          "name": "PokeGameVersionGroup",
+          "children": [
+            {
+              "name": "Get-PokeGameVersionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PokeItem",
+          "children": [
+            {
+              "name": "Get-PokeItem"
+            }
+          ]
+        },
+        {
+          "name": "PokeItemAttribute",
+          "children": [
+            {
+              "name": "Get-PokeItemAttribute"
+            }
+          ]
+        },
+        {
+          "name": "PokeItemCategory",
+          "children": [
+            {
+              "name": "Get-PokeItemCategory"
+            }
+          ]
+        },
+        {
+          "name": "PokeItemFlingEffect",
+          "children": [
+            {
+              "name": "Get-PokeItemFlingEffect"
+            }
+          ]
+        },
+        {
+          "name": "PokeItemPocket",
+          "children": [
+            {
+              "name": "Get-PokeItemPocket"
+            }
+          ]
+        },
+        {
+          "name": "PokeLocation",
+          "children": [
+            {
+              "name": "Get-PokeLocation"
+            }
+          ]
+        },
+        {
+          "name": "PokeLocationArea",
+          "children": [
+            {
+              "name": "Get-PokeLocationArea"
+            }
+          ]
+        },
+        {
+          "name": "PokeLocationPalParkArea",
+          "children": [
+            {
+              "name": "Get-PokeLocationPalParkArea"
+            }
+          ]
+        },
+        {
+          "name": "PokeLocationRegion",
+          "children": [
+            {
+              "name": "Get-PokeLocationRegion"
+            }
+          ]
+        },
+        {
+          "name": "PokeMachine",
+          "children": [
+            {
+              "name": "Get-PokeMachine"
+            }
+          ]
+        },
+        {
+          "name": "PokeMove",
+          "children": [
+            {
+              "name": "Get-PokeMove"
+            }
+          ]
+        },
+        {
+          "name": "PokeMoveAilment",
+          "children": [
+            {
+              "name": "Get-PokeMoveAilment"
+            }
+          ]
+        },
+        {
+          "name": "PokeMoveBattleStyle",
+          "children": [
+            {
+              "name": "Get-PokeMoveBattleStyle"
+            }
+          ]
+        },
+        {
+          "name": "PokeMoveCategory",
+          "children": [
+            {
+              "name": "Get-PokeMoveCategory"
+            }
+          ]
+        },
+        {
+          "name": "PokeMoveDamageClass",
+          "children": [
+            {
+              "name": "Get-PokeMoveDamageClass"
+            }
+          ]
+        },
+        {
+          "name": "PokeMoveLearnMethod",
+          "children": [
+            {
+              "name": "Get-PokeMoveLearnMethod"
+            }
+          ]
+        },
+        {
+          "name": "PokeMoveTarget",
+          "children": [
+            {
+              "name": "Get-PokeMoveTarget"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemon",
+          "children": [
+            {
+              "name": "Get-PokePokemon"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonAbility",
+          "children": [
+            {
+              "name": "Get-PokePokemonAbility"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonCharacteristic",
+          "children": [
+            {
+              "name": "Get-PokePokemonCharacteristic"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonColor",
+          "children": [
+            {
+              "name": "Get-PokePokemonColor"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonEggGroup",
+          "children": [
+            {
+              "name": "Get-PokePokemonEggGroup"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonEncounter",
+          "children": [
+            {
+              "name": "Get-PokePokemonEncounter"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonForm",
+          "children": [
+            {
+              "name": "Get-PokePokemonForm"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonGender",
+          "children": [
+            {
+              "name": "Get-PokePokemonGender"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonGrowthRate",
+          "children": [
+            {
+              "name": "Get-PokePokemonGrowthRate"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonHabitat",
+          "children": [
+            {
+              "name": "Get-PokePokemonHabitat"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonNature",
+          "children": [
+            {
+              "name": "Get-PokePokemonNature"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonPokeathlonStat",
+          "children": [
+            {
+              "name": "Get-PokePokemonPokeathlonStat"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonShape",
+          "children": [
+            {
+              "name": "Get-PokePokemonShape"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonSpecies",
+          "children": [
+            {
+              "name": "Get-PokePokemonSpecies"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonStat",
+          "children": [
+            {
+              "name": "Get-PokePokemonStat"
+            }
+          ]
+        },
+        {
+          "name": "PokePokemonType",
+          "children": [
+            {
+              "name": "Get-PokePokemonType"
+            }
+          ]
+        },
+        {
+          "name": "PokeEndpoint",
+          "children": [
+            {
+              "name": "Get-PokeEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "PokeLanguage",
+          "children": [
+            {
+              "name": "Get-PokeLanguage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PokeDexAPI",
+      "companyName": "Celerium",
+      "author": "David Schulte",
+      "children": [
+        {
+          "name": "PokeDexBaseURI",
+          "children": [
+            {
+              "name": "Add-PokeDexBaseURI"
+            },
+            {
+              "name": "Get-PokeDexBaseURI"
+            },
+            {
+              "name": "Remove-PokeDexBaseURI"
+            }
+          ]
+        },
+        {
+          "name": "PokeDexModuleSettings",
+          "children": [
+            {
+              "name": "Export-PokeDexModuleSettings"
+            },
+            {
+              "name": "Import-PokeDexModuleSettings"
+            },
+            {
+              "name": "Remove-PokeDexModuleSettings"
+            }
+          ]
+        },
+        {
+          "name": "PokeDexCategories",
+          "children": [
+            {
+              "name": "Get-PokeDexCategories"
+            }
+          ]
+        },
+        {
+          "name": "PokeDexEggGroups",
+          "children": [
+            {
+              "name": "Get-PokeDexEggGroups"
+            }
+          ]
+        },
+        {
+          "name": "PokeDexEvolutionStones",
+          "children": [
+            {
+              "name": "Get-PokeDexEvolutionStones"
+            }
+          ]
+        },
+        {
+          "name": "PokeDexLeagues",
+          "children": [
+            {
+              "name": "Get-PokeDexLeagues"
+            }
+          ]
+        },
+        {
+          "name": "PokeDexMeta",
+          "children": [
+            {
+              "name": "Get-PokeDexMeta"
+            }
+          ]
+        },
+        {
+          "name": "PokeDex",
+          "children": [
+            {
+              "name": "Get-PokeDex"
+            }
+          ]
+        },
+        {
+          "name": "PokeDexPokemon",
+          "children": [
+            {
+              "name": "Get-PokeDexPokemon"
+            }
+          ]
+        },
+        {
+          "name": "PokeDexTypes",
+          "children": [
+            {
+              "name": "Get-PokeDexTypes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RocketCyberAPI",
+      "companyName": "Celerium",
+      "author": "David Schulte",
+      "children": [
+        {
+          "name": "RocketCyberQueryString",
+          "children": [
+            {
+              "name": "ConvertTo-RocketCyberQueryString"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberRequest",
+          "children": [
+            {
+              "name": "Invoke-RocketCyberRequest"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberAPIKey",
+          "children": [
+            {
+              "name": "Add-RocketCyberAPIKey"
+            },
+            {
+              "name": "Get-RocketCyberAPIKey"
+            },
+            {
+              "name": "Remove-RocketCyberAPIKey"
+            },
+            {
+              "name": "Test-RocketCyberAPIKey"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberBaseURI",
+          "children": [
+            {
+              "name": "Add-RocketCyberBaseURI"
+            },
+            {
+              "name": "Get-RocketCyberBaseURI"
+            },
+            {
+              "name": "Remove-RocketCyberBaseURI"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberModuleSettings",
+          "children": [
+            {
+              "name": "Export-RocketCyberModuleSettings"
+            },
+            {
+              "name": "Get-RocketCyberModuleSettings"
+            },
+            {
+              "name": "Import-RocketCyberModuleSettings"
+            },
+            {
+              "name": "Initialize-RocketCyberModuleSettings"
+            },
+            {
+              "name": "Remove-RocketCyberModuleSettings"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberAccounts",
+          "children": [
+            {
+              "name": "Get-RocketCyberAccounts"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberAgents",
+          "children": [
+            {
+              "name": "Get-RocketCyberAgents"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberApps",
+          "children": [
+            {
+              "name": "Get-RocketCyberApps"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberDefender",
+          "children": [
+            {
+              "name": "Get-RocketCyberDefender"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberEvents",
+          "children": [
+            {
+              "name": "Get-RocketCyberEvents"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberFirewalls",
+          "children": [
+            {
+              "name": "Get-RocketCyberFirewalls"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberIncidents",
+          "children": [
+            {
+              "name": "Get-RocketCyberIncidents"
+            }
+          ]
+        },
+        {
+          "name": "RocketCyberOffice",
+          "children": [
+            {
+              "name": "Get-RocketCyberOffice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SentinelOneAPI",
+      "companyName": "Celerium",
+      "author": "David Schulte",
+      "children": [
+        {
+          "name": "S1APIKey",
+          "children": [
+            {
+              "name": "Add-S1APIKey"
+            },
+            {
+              "name": "Get-S1APIKey"
+            },
+            {
+              "name": "Remove-S1APIKey"
+            },
+            {
+              "name": "Test-S1APIKey"
+            }
+          ]
+        },
+        {
+          "name": "S1BaseURI",
+          "children": [
+            {
+              "name": "Add-S1BaseURI"
+            },
+            {
+              "name": "Get-S1BaseURI"
+            },
+            {
+              "name": "Remove-S1BaseURI"
+            }
+          ]
+        },
+        {
+          "name": "S1ModuleSettings",
+          "children": [
+            {
+              "name": "Export-S1ModuleSettings"
+            },
+            {
+              "name": "Import-S1ModuleSettings"
+            },
+            {
+              "name": "Remove-S1ModuleSettings"
+            }
+          ]
+        },
+        {
+          "name": "S1Accounts",
+          "children": [
+            {
+              "name": "Export-S1Accounts"
+            },
+            {
+              "name": "Get-S1Accounts"
+            }
+          ]
+        },
+        {
+          "name": "S1AccountsUninstallPassword",
+          "children": [
+            {
+              "name": "Get-S1AccountsUninstallPassword"
+            }
+          ]
+        },
+        {
+          "name": "S1Activities",
+          "children": [
+            {
+              "name": "Export-S1Activities"
+            },
+            {
+              "name": "Get-S1Activities"
+            }
+          ]
+        },
+        {
+          "name": "S1ActivitiesAsSyslog",
+          "children": [
+            {
+              "name": "Get-S1ActivitiesAsSyslog"
+            }
+          ]
+        },
+        {
+          "name": "S1AgentContentUpdates",
+          "children": [
+            {
+              "name": "Get-S1AgentContentUpdates"
+            }
+          ]
+        },
+        {
+          "name": "S1AgentLogs",
+          "children": [
+            {
+              "name": "Export-S1AgentLogs"
+            }
+          ]
+        },
+        {
+          "name": "S1Agents",
+          "children": [
+            {
+              "name": "Export-S1Agents"
+            },
+            {
+              "name": "Get-S1Agents"
+            }
+          ]
+        },
+        {
+          "name": "S1AgentApplications",
+          "children": [
+            {
+              "name": "Get-S1AgentApplications"
+            }
+          ]
+        },
+        {
+          "name": "S1AgentPassphrases",
+          "children": [
+            {
+              "name": "Get-S1AgentPassphrases"
+            }
+          ]
+        },
+        {
+          "name": "S1AgentTags",
+          "children": [
+            {
+              "name": "Get-S1AgentTags"
+            }
+          ]
+        },
+        {
+          "name": "S1Alerts",
+          "children": [
+            {
+              "name": "Get-S1Alerts"
+            }
+          ]
+        },
+        {
+          "name": "S1Applications",
+          "children": [
+            {
+              "name": "Export-S1Applications"
+            },
+            {
+              "name": "Get-S1Applications"
+            }
+          ]
+        },
+        {
+          "name": "S1ApplicationCVEs",
+          "children": [
+            {
+              "name": "Get-S1ApplicationCVEs"
+            }
+          ]
+        },
+        {
+          "name": "S1AutoUpgradePolicy",
+          "children": [
+            {
+              "name": "Get-S1AutoUpgradePolicy"
+            }
+          ]
+        },
+        {
+          "name": "S1ConfigOverrides",
+          "children": [
+            {
+              "name": "Get-S1ConfigOverrides"
+            }
+          ]
+        },
+        {
+          "name": "S1CustomDetectionRules",
+          "children": [
+            {
+              "name": "Get-S1CustomDetectionRules"
+            }
+          ]
+        },
+        {
+          "name": "S1DeepVisibilityProcessFile",
+          "children": [
+            {
+              "name": "Export-S1DeepVisibilityProcessFile"
+            }
+          ]
+        },
+        {
+          "name": "S1DeepVisibilityEvents",
+          "children": [
+            {
+              "name": "Get-S1DeepVisibilityEvents"
+            }
+          ]
+        },
+        {
+          "name": "S1DeepVisibilityPowerQueryPing",
+          "children": [
+            {
+              "name": "Get-S1DeepVisibilityPowerQueryPing"
+            }
+          ]
+        },
+        {
+          "name": "S1DeepVisibilityProcessState",
+          "children": [
+            {
+              "name": "Get-S1DeepVisibilityProcessState"
+            }
+          ]
+        },
+        {
+          "name": "S1DeepVisibilityQueryStatus",
+          "children": [
+            {
+              "name": "Get-S1DeepVisibilityQueryStatus"
+            }
+          ]
+        },
+        {
+          "name": "S1DeviceControlRules",
+          "children": [
+            {
+              "name": "Export-S1DeviceControlRules"
+            },
+            {
+              "name": "Get-S1DeviceControlRules"
+            }
+          ]
+        },
+        {
+          "name": "S1DeviceControlConfiguration",
+          "children": [
+            {
+              "name": "Get-S1DeviceControlConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "S1DeviceControlEvents",
+          "children": [
+            {
+              "name": "Get-S1DeviceControlEvents"
+            }
+          ]
+        },
+        {
+          "name": "S1Blacklists",
+          "children": [
+            {
+              "name": "Export-S1Blacklists"
+            },
+            {
+              "name": "Get-S1Blacklists"
+            }
+          ]
+        },
+        {
+          "name": "S1Exclusions",
+          "children": [
+            {
+              "name": "Export-S1Exclusions"
+            },
+            {
+              "name": "Get-S1Exclusions"
+            }
+          ]
+        },
+        {
+          "name": "S1Filters",
+          "children": [
+            {
+              "name": "Get-S1Filters"
+            }
+          ]
+        },
+        {
+          "name": "S1FirewallRules",
+          "children": [
+            {
+              "name": "Export-S1FirewallRules"
+            },
+            {
+              "name": "Get-S1FirewallRules"
+            }
+          ]
+        },
+        {
+          "name": "S1FirewallConfig",
+          "children": [
+            {
+              "name": "Get-S1FirewallConfig"
+            }
+          ]
+        },
+        {
+          "name": "S1FirewallProtocols",
+          "children": [
+            {
+              "name": "Get-S1FirewallProtocols"
+            }
+          ]
+        },
+        {
+          "name": "S1FirewallRulesByTag",
+          "children": [
+            {
+              "name": "Get-S1FirewallRulesByTag"
+            }
+          ]
+        },
+        {
+          "name": "S1Gateways",
+          "children": [
+            {
+              "name": "Get-S1Gateways"
+            }
+          ]
+        },
+        {
+          "name": "S1Groups",
+          "children": [
+            {
+              "name": "Get-S1Groups"
+            }
+          ]
+        },
+        {
+          "name": "S1HashReputation",
+          "children": [
+            {
+              "name": "Get-S1HashReputation"
+            }
+          ]
+        },
+        {
+          "name": "S1Locations",
+          "children": [
+            {
+              "name": "Get-S1Locations"
+            }
+          ]
+        },
+        {
+          "name": "S1MarketplaceAppCatalog",
+          "children": [
+            {
+              "name": "Get-S1MarketplaceAppCatalog"
+            }
+          ]
+        },
+        {
+          "name": "S1MarketplaceAppConfigFields",
+          "children": [
+            {
+              "name": "Get-S1MarketplaceAppConfigFields"
+            }
+          ]
+        },
+        {
+          "name": "S1MarketplaceAppConfigSchema",
+          "children": [
+            {
+              "name": "Get-S1MarketplaceAppConfigSchema"
+            }
+          ]
+        },
+        {
+          "name": "S1MarketplaceAppInstalls",
+          "children": [
+            {
+              "name": "Get-S1MarketplaceAppInstalls"
+            }
+          ]
+        },
+        {
+          "name": "S1FirewallCategoryRules",
+          "children": [
+            {
+              "name": "Export-S1FirewallCategoryRules"
+            },
+            {
+              "name": "Get-S1FirewallCategoryRules"
+            }
+          ]
+        },
+        {
+          "name": "S1FirewallCategoryConfig",
+          "children": [
+            {
+              "name": "Get-S1FirewallCategoryConfig"
+            }
+          ]
+        },
+        {
+          "name": "S1FirewallCategoryProtocols",
+          "children": [
+            {
+              "name": "Get-S1FirewallCategoryProtocols"
+            }
+          ]
+        },
+        {
+          "name": "S1Policies",
+          "children": [
+            {
+              "name": "Get-S1Policies"
+            }
+          ]
+        },
+        {
+          "name": "S1RangerDeployCredGroups",
+          "children": [
+            {
+              "name": "Get-S1RangerDeployCredGroups"
+            }
+          ]
+        },
+        {
+          "name": "S1RangerEnablementDefaults",
+          "children": [
+            {
+              "name": "Get-S1RangerEnablementDefaults"
+            }
+          ]
+        },
+        {
+          "name": "S1RangerEnablements",
+          "children": [
+            {
+              "name": "Get-S1RangerEnablements"
+            }
+          ]
+        },
+        {
+          "name": "S1Rangers",
+          "children": [
+            {
+              "name": "Export-S1Rangers"
+            },
+            {
+              "name": "Get-S1Rangers"
+            }
+          ]
+        },
+        {
+          "name": "S1RangerSettings",
+          "children": [
+            {
+              "name": "Get-S1RangerSettings"
+            }
+          ]
+        },
+        {
+          "name": "S1RangerTables",
+          "children": [
+            {
+              "name": "Get-S1RangerTables"
+            }
+          ]
+        },
+        {
+          "name": "S1RBACRoles",
+          "children": [
+            {
+              "name": "Get-S1RBACRoles"
+            }
+          ]
+        },
+        {
+          "name": "S1RBACRoleTemplate",
+          "children": [
+            {
+              "name": "Get-S1RBACRoleTemplate"
+            }
+          ]
+        },
+        {
+          "name": "S1RemoteScripts",
+          "children": [
+            {
+              "name": "Get-S1RemoteScripts"
+            }
+          ]
+        },
+        {
+          "name": "S1RemoteScriptStatus",
+          "children": [
+            {
+              "name": "Get-S1RemoteScriptStatus"
+            }
+          ]
+        },
+        {
+          "name": "S1Reports",
+          "children": [
+            {
+              "name": "Export-S1Reports"
+            },
+            {
+              "name": "Get-S1Reports"
+            }
+          ]
+        },
+        {
+          "name": "S1ReportInsights",
+          "children": [
+            {
+              "name": "Get-S1ReportInsights"
+            }
+          ]
+        },
+        {
+          "name": "S1ReportTasks",
+          "children": [
+            {
+              "name": "Get-S1ReportTasks"
+            }
+          ]
+        },
+        {
+          "name": "S1RSSFeeds",
+          "children": [
+            {
+              "name": "Get-S1RSSFeeds"
+            }
+          ]
+        },
+        {
+          "name": "S1Rogues",
+          "children": [
+            {
+              "name": "Export-S1Rogues"
+            }
+          ]
+        },
+        {
+          "name": "S1RogueSettings",
+          "children": [
+            {
+              "name": "Get-S1RogueSettings"
+            }
+          ]
+        },
+        {
+          "name": "S1RogueTables",
+          "children": [
+            {
+              "name": "Get-S1RogueTables"
+            }
+          ]
+        },
+        {
+          "name": "S1SettingEmailRecipients",
+          "children": [
+            {
+              "name": "Get-S1SettingEmailRecipients"
+            }
+          ]
+        },
+        {
+          "name": "S1Settings",
+          "children": [
+            {
+              "name": "Get-S1Settings"
+            }
+          ]
+        },
+        {
+          "name": "S1Sites",
+          "children": [
+            {
+              "name": "Export-S1Sites"
+            },
+            {
+              "name": "Get-S1Sites"
+            }
+          ]
+        },
+        {
+          "name": "S1Systems",
+          "children": [
+            {
+              "name": "Get-S1Systems"
+            }
+          ]
+        },
+        {
+          "name": "S1SystemsOverview",
+          "children": [
+            {
+              "name": "Get-S1SystemsOverview"
+            }
+          ]
+        },
+        {
+          "name": "S1Tags",
+          "children": [
+            {
+              "name": "Get-S1Tags"
+            }
+          ]
+        },
+        {
+          "name": "S1TaskChildScopeConfigurations",
+          "children": [
+            {
+              "name": "Get-S1TaskChildScopeConfigurations"
+            }
+          ]
+        },
+        {
+          "name": "S1TaskConfigurations",
+          "children": [
+            {
+              "name": "Get-S1TaskConfigurations"
+            }
+          ]
+        },
+        {
+          "name": "S1TaskHasChildScopes",
+          "children": [
+            {
+              "name": "Get-S1TaskHasChildScopes"
+            }
+          ]
+        },
+        {
+          "name": "S1ThreatIntelligence",
+          "children": [
+            {
+              "name": "Get-S1ThreatIntelligence"
+            }
+          ]
+        },
+        {
+          "name": "S1ThreatNotes",
+          "children": [
+            {
+              "name": "Get-S1ThreatNotes"
+            }
+          ]
+        },
+        {
+          "name": "S1ThreatEvents",
+          "children": [
+            {
+              "name": "Export-S1ThreatEvents"
+            },
+            {
+              "name": "Get-S1ThreatEvents"
+            }
+          ]
+        },
+        {
+          "name": "S1ThreatFiles",
+          "children": [
+            {
+              "name": "Export-S1ThreatFiles"
+            }
+          ]
+        },
+        {
+          "name": "S1ThreatMitigations",
+          "children": [
+            {
+              "name": "Export-S1ThreatMitigations"
+            }
+          ]
+        },
+        {
+          "name": "S1Threats",
+          "children": [
+            {
+              "name": "Export-S1Threats"
+            },
+            {
+              "name": "Get-S1Threats"
+            }
+          ]
+        },
+        {
+          "name": "S1ThreatTimelines",
+          "children": [
+            {
+              "name": "Export-S1ThreatTimelines"
+            },
+            {
+              "name": "Get-S1ThreatTimelines"
+            }
+          ]
+        },
+        {
+          "name": "S1ThreatExclusionTypes",
+          "children": [
+            {
+              "name": "Get-S1ThreatExclusionTypes"
+            }
+          ]
+        },
+        {
+          "name": "S1UpdatePackages",
+          "children": [
+            {
+              "name": "Export-S1UpdatePackages"
+            },
+            {
+              "name": "Get-S1UpdatePackages"
+            }
+          ]
+        },
+        {
+          "name": "S1UserBySSO",
+          "children": [
+            {
+              "name": "Connect-S1UserBySSO"
+            }
+          ]
+        },
+        {
+          "name": "S1UserByToken",
+          "children": [
+            {
+              "name": "Connect-S1UserByToken"
+            },
+            {
+              "name": "Get-S1UserByToken"
+            }
+          ]
+        },
+        {
+          "name": "S1Users",
+          "children": [
+            {
+              "name": "Export-S1Users"
+            },
+            {
+              "name": "Get-S1Users"
+            }
+          ]
+        },
+        {
+          "name": "S1UserAccess",
+          "children": [
+            {
+              "name": "Get-S1UserAccess"
+            }
+          ]
+        },
+        {
+          "name": "S1UserApiToken",
+          "children": [
+            {
+              "name": "Get-S1UserApiToken"
+            }
+          ]
+        },
+        {
+          "name": "S1UserTokenVerification",
+          "children": [
+            {
+              "name": "Get-S1UserTokenVerification"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

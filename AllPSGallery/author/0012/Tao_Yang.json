@@ -1,0 +1,811 @@
+{
+  "name": "Tao Yang",
+  "children": [
+    {
+      "name": "AzPolicyTest",
+      "companyName": "TY Consulting Pty Ltd",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "AzPolicyDefinition",
+          "children": [
+            {
+              "name": "Test-AzPolicyDefinition"
+            }
+          ]
+        },
+        {
+          "name": "AzPolicySetDefinition",
+          "children": [
+            {
+              "name": "Test-AzPolicySetDefinition"
+            }
+          ]
+        },
+        {
+          "name": "JSONContent",
+          "children": [
+            {
+              "name": "Test-JSONContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureKeyVaultPasswordRepo",
+      "companyName": "TY Consulting Pty Ltd",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "AzureKeyVaultPasswordRepository",
+          "children": [
+            {
+              "name": "Invoke-AzureKeyVaultPasswordRepository"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureServicePrincipalAccount",
+      "companyName": "TY Consulting Pty Ltd",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "AzServicePrincipalAccount",
+          "children": [
+            {
+              "name": "Add-AzServicePrincipalAccount"
+            }
+          ]
+        },
+        {
+          "name": "AzureADToken",
+          "children": [
+            {
+              "name": "Get-AzureADToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureTableEntity",
+      "companyName": "TY Consulting Pty Ltd",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "AzureTable*",
+          "children": [
+            {
+              "name": "*-AzureTable*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CloudNaming",
+      "companyName": "TY Consulting Pty. Ltd",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "GetCloudResourceName",
+          "children": [
+            {
+              "name": "GetCloudResourceName"
+            }
+          ]
+        },
+        {
+          "name": "GetCloudNamingSupportedTypes",
+          "children": [
+            {
+              "name": "GetCloudNamingSupportedTypes"
+            }
+          ]
+        },
+        {
+          "name": "NewCloudNamingConfigFile",
+          "children": [
+            {
+              "name": "NewCloudNamingConfigFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HybridWorkerToolkit",
+      "companyName": "TY Consulting Pty Ltd.",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "HybridWorkerConfiguration",
+          "children": [
+            {
+              "name": "Get-HybridWorkerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "HybridWorkerJobRuntimeInfo",
+          "children": [
+            {
+              "name": "Get-HybridWorkerJobRuntimeInfo"
+            }
+          ]
+        },
+        {
+          "name": "HybridWorkerRunbookLogEntry",
+          "children": [
+            {
+              "name": "New-HybridWorkerRunbookLogEntry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMSDataInjection",
+      "companyName": "TY Consulting Pty Ltd",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "OMSDataInjection",
+          "children": [
+            {
+              "name": "New-OMSDataInjection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpsMgrExtended",
+      "companyName": "TY Consulting Pty Ltd",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "OMManagementGroup",
+          "children": [
+            {
+              "name": "Connect-OMManagementGroup"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementPack",
+          "children": [
+            {
+              "name": "Get-OMManagementPack"
+            },
+            {
+              "name": "New-OMManagementPack"
+            },
+            {
+              "name": "Remove-OMManagementPack"
+            },
+            {
+              "name": "Copy-OMManagementPack"
+            }
+          ]
+        },
+        {
+          "name": "OM2StateEventMonitor",
+          "children": [
+            {
+              "name": "New-OM2StateEventMonitor"
+            }
+          ]
+        },
+        {
+          "name": "OMServiceMonitor",
+          "children": [
+            {
+              "name": "New-OMServiceMonitor"
+            }
+          ]
+        },
+        {
+          "name": "OM2StatePerformanceMonitor",
+          "children": [
+            {
+              "name": "New-OM2StatePerformanceMonitor"
+            }
+          ]
+        },
+        {
+          "name": "OMPerformanceCollectionRule",
+          "children": [
+            {
+              "name": "New-OMPerformanceCollectionRule"
+            }
+          ]
+        },
+        {
+          "name": "OMEventCollectionRule",
+          "children": [
+            {
+              "name": "New-OMEventCollectionRule"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementPackReference",
+          "children": [
+            {
+              "name": "New-OMManagementPackReference"
+            }
+          ]
+        },
+        {
+          "name": "OMPropertyOverride",
+          "children": [
+            {
+              "name": "New-OMPropertyOverride"
+            }
+          ]
+        },
+        {
+          "name": "OMConfigurationOverride",
+          "children": [
+            {
+              "name": "New-OMConfigurationOverride"
+            }
+          ]
+        },
+        {
+          "name": "OMOverride",
+          "children": [
+            {
+              "name": "New-OMOverride"
+            },
+            {
+              "name": "Remove-OMOverride"
+            }
+          ]
+        },
+        {
+          "name": "OMInstanceGroup",
+          "children": [
+            {
+              "name": "New-OMInstanceGroup"
+            }
+          ]
+        },
+        {
+          "name": "OMComputerGroup",
+          "children": [
+            {
+              "name": "New-OMComputerGroup"
+            }
+          ]
+        },
+        {
+          "name": "OMGroup",
+          "children": [
+            {
+              "name": "Remove-OMGroup"
+            }
+          ]
+        },
+        {
+          "name": "OMDAMembers",
+          "children": [
+            {
+              "name": "Get-OMDAMembers"
+            }
+          ]
+        },
+        {
+          "name": "OMAlertConfiguration",
+          "children": [
+            {
+              "name": "New-OMAlertConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "OMModuleConfiguration",
+          "children": [
+            {
+              "name": "New-OMModuleConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "OMRule",
+          "children": [
+            {
+              "name": "New-OMRule"
+            }
+          ]
+        },
+        {
+          "name": "OMWindowsServiceTemplateInstance",
+          "children": [
+            {
+              "name": "New-OMWindowsServiceTemplateInstance"
+            }
+          ]
+        },
+        {
+          "name": "OMComputerGroupExplicitMember",
+          "children": [
+            {
+              "name": "New-OMComputerGroupExplicitMember"
+            }
+          ]
+        },
+        {
+          "name": "OMInstanceGroupExplicitMember",
+          "children": [
+            {
+              "name": "New-OMInstanceGroupExplicitMember"
+            }
+          ]
+        },
+        {
+          "name": "OMGroupDiscovery",
+          "children": [
+            {
+              "name": "Update-OMGroupDiscovery"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementPacks",
+          "children": [
+            {
+              "name": "Backup-OMManagementPacks"
+            }
+          ]
+        },
+        {
+          "name": "OMManualAgents",
+          "children": [
+            {
+              "name": "Approve-OMManualAgents"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementGroupToAgent",
+          "children": [
+            {
+              "name": "Add-OMManagementGroupToAgent"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementGroupFromAgent",
+          "children": [
+            {
+              "name": "Remove-OMManagementGroupFromAgent"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementGroupDefaultSettings",
+          "children": [
+            {
+              "name": "Get-OMManagementGroupDefaultSettings"
+            }
+          ]
+        },
+        {
+          "name": "OMManagementGroupDefaultSetting",
+          "children": [
+            {
+              "name": "Set-OMManagementGroupDefaultSetting"
+            }
+          ]
+        },
+        {
+          "name": "OMTCPPortCheckDataSourceModuleType",
+          "children": [
+            {
+              "name": "New-OMTCPPortCheckDataSourceModuleType"
+            }
+          ]
+        },
+        {
+          "name": "OMTCPPortCheckMonitorType",
+          "children": [
+            {
+              "name": "New-OMTCPPortCheckMonitorType"
+            }
+          ]
+        },
+        {
+          "name": "OMTCPPortMonitoring",
+          "children": [
+            {
+              "name": "New-OMTCPPortMonitoring"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SendEmail",
+      "companyName": "Unknown",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "Email",
+          "children": [
+            {
+              "name": "Send-Email"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SharePointSDK",
+      "companyName": "TY Consulting Pty Ltd.",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "SPCredential",
+          "children": [
+            {
+              "name": "New-SPCredential"
+            }
+          ]
+        },
+        {
+          "name": "SPServerVersion",
+          "children": [
+            {
+              "name": "Get-SPServerVersion"
+            }
+          ]
+        },
+        {
+          "name": "SPListFields",
+          "children": [
+            {
+              "name": "Get-SPListFields"
+            }
+          ]
+        },
+        {
+          "name": "SPListItem",
+          "children": [
+            {
+              "name": "Add-SPListItem"
+            },
+            {
+              "name": "Get-SPListItem"
+            },
+            {
+              "name": "Remove-SPListItem"
+            },
+            {
+              "name": "Update-SPListItem"
+            }
+          ]
+        },
+        {
+          "name": "SPListItemAttachments",
+          "children": [
+            {
+              "name": "Get-SPListItemAttachments"
+            }
+          ]
+        },
+        {
+          "name": "SPListItemAttachment",
+          "children": [
+            {
+              "name": "Add-SPListItemAttachment"
+            },
+            {
+              "name": "Remove-SPListItemAttachment"
+            }
+          ]
+        },
+        {
+          "name": "SPList",
+          "children": [
+            {
+              "name": "New-SPList"
+            },
+            {
+              "name": "Remove-SPList"
+            },
+            {
+              "name": "Get-SPList"
+            }
+          ]
+        },
+        {
+          "name": "SPListLookupField",
+          "children": [
+            {
+              "name": "New-SPListLookupField"
+            }
+          ]
+        },
+        {
+          "name": "SPListCheckboxField",
+          "children": [
+            {
+              "name": "New-SPListCheckboxField"
+            }
+          ]
+        },
+        {
+          "name": "SPListSingleLineTextField",
+          "children": [
+            {
+              "name": "New-SPListSingleLineTextField"
+            }
+          ]
+        },
+        {
+          "name": "SPListMultiLineTextField",
+          "children": [
+            {
+              "name": "New-SPListMultiLineTextField"
+            }
+          ]
+        },
+        {
+          "name": "SPListNumberField",
+          "children": [
+            {
+              "name": "New-SPListNumberField"
+            }
+          ]
+        },
+        {
+          "name": "SPListChoiceField",
+          "children": [
+            {
+              "name": "New-SPListChoiceField"
+            }
+          ]
+        },
+        {
+          "name": "SPListDateTimeField",
+          "children": [
+            {
+              "name": "New-SPListDateTimeField"
+            }
+          ]
+        },
+        {
+          "name": "SPListHyperLinkField",
+          "children": [
+            {
+              "name": "New-SPListHyperLinkField"
+            }
+          ]
+        },
+        {
+          "name": "SPListPersonField",
+          "children": [
+            {
+              "name": "New-SPListPersonField"
+            }
+          ]
+        },
+        {
+          "name": "SPListField",
+          "children": [
+            {
+              "name": "Remove-SPListField"
+            },
+            {
+              "name": "Update-SPListField"
+            }
+          ]
+        },
+        {
+          "name": "SPListFieldVisibility",
+          "children": [
+            {
+              "name": "Set-SPListFieldVisibility"
+            }
+          ]
+        },
+        {
+          "name": "SPUser",
+          "children": [
+            {
+              "name": "New-SPUser"
+            }
+          ]
+        },
+        {
+          "name": "SPGroup",
+          "children": [
+            {
+              "name": "Get-SPGroup"
+            },
+            {
+              "name": "New-SPGroup"
+            }
+          ]
+        },
+        {
+          "name": "SPGroupMember",
+          "children": [
+            {
+              "name": "New-SPGroupMember"
+            },
+            {
+              "name": "Remove-SPGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "SPSiteRecycleBin",
+          "children": [
+            {
+              "name": "Clear-SPSiteRecycleBin"
+            }
+          ]
+        },
+        {
+          "name": "SPSiteTemplate",
+          "children": [
+            {
+              "name": "Get-SPSiteTemplate"
+            }
+          ]
+        },
+        {
+          "name": "SPSubSite",
+          "children": [
+            {
+              "name": "New-SPSubSite"
+            },
+            {
+              "name": "Get-SPSubSite"
+            },
+            {
+              "name": "Remove-SPSubSite"
+            }
+          ]
+        },
+        {
+          "name": "SPListFieldToDefaultView",
+          "children": [
+            {
+              "name": "Add-SPListFieldToDefaultView"
+            }
+          ]
+        },
+        {
+          "name": "SPListFieldFromDefaultView",
+          "children": [
+            {
+              "name": "Remove-SPListFieldFromDefaultView"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TestJsonSchema",
+      "companyName": "TY Consulting Pty Ltd",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "JsonSchema",
+          "children": [
+            {
+              "name": "Test-JsonSchema"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tfe",
+      "companyName": "TY Consulting Pty Ltd",
+      "author": "Tao Yang",
+      "children": [
+        {
+          "name": "TFEContent",
+          "children": [
+            {
+              "name": "Add-TFEContent"
+            }
+          ]
+        },
+        {
+          "name": "TFEWorkspace",
+          "children": [
+            {
+              "name": "Set-TFEWorkspace"
+            },
+            {
+              "name": "Get-TFEWorkspace"
+            },
+            {
+              "name": "New-TFEWorkspace"
+            },
+            {
+              "name": "Remove-TFEWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "TFEConfigVersion",
+          "children": [
+            {
+              "name": "New-TFEConfigVersion"
+            },
+            {
+              "name": "Get-TFEConfigVersion"
+            }
+          ]
+        },
+        {
+          "name": "TFEVariable",
+          "children": [
+            {
+              "name": "Add-TFEVariable"
+            },
+            {
+              "name": "Remove-TFEVariable"
+            }
+          ]
+        },
+        {
+          "name": "TFERun",
+          "children": [
+            {
+              "name": "New-TFERun"
+            },
+            {
+              "name": "Approve-TFERun"
+            },
+            {
+              "name": "Stop-TFERun"
+            }
+          ]
+        },
+        {
+          "name": "TFERunDetails",
+          "children": [
+            {
+              "name": "Get-TFERunDetails"
+            }
+          ]
+        },
+        {
+          "name": "TFEPlan",
+          "children": [
+            {
+              "name": "Get-TFEPlan"
+            }
+          ]
+        },
+        {
+          "name": "TFEPlanLog",
+          "children": [
+            {
+              "name": "Get-TFEPlanLog"
+            }
+          ]
+        },
+        {
+          "name": "TFEDestroyPlan",
+          "children": [
+            {
+              "name": "New-TFEDestroyPlan"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

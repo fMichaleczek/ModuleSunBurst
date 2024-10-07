@@ -1,0 +1,320 @@
+{
+  "name": "Travis Sobeck",
+  "children": [
+    {
+      "name": "UMN-Grouper",
+      "companyName": "University of Minnesota",
+      "author": "Travis Sobeck",
+      "children": [
+        {
+          "name": "GrouperHeader",
+          "children": [
+            {
+              "name": "New-GrouperHeader"
+            }
+          ]
+        },
+        {
+          "name": "GrouperGroup",
+          "children": [
+            {
+              "name": "Get-GrouperGroup"
+            },
+            {
+              "name": "New-GrouperGroup"
+            },
+            {
+              "name": "Remove-GrouperGroup"
+            }
+          ]
+        },
+        {
+          "name": "GrouperGroupMembers",
+          "children": [
+            {
+              "name": "Get-GrouperGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "GrouperGroupsForMember",
+          "children": [
+            {
+              "name": "Get-GrouperGroupsForMember"
+            }
+          ]
+        },
+        {
+          "name": "GrouperPrivileges",
+          "children": [
+            {
+              "name": "Get-GrouperPrivileges"
+            },
+            {
+              "name": "Set-GrouperPrivileges"
+            }
+          ]
+        },
+        {
+          "name": "GrouperStem",
+          "children": [
+            {
+              "name": "Get-GrouperStem"
+            },
+            {
+              "name": "New-GrouperStem"
+            },
+            {
+              "name": "Remove-GrouperStem"
+            }
+          ]
+        },
+        {
+          "name": "GrouperStemByParent",
+          "children": [
+            {
+              "name": "Get-GrouperStemByParent"
+            }
+          ]
+        },
+        {
+          "name": "GrouperStemByUUID",
+          "children": [
+            {
+              "name": "Get-GrouperStemByUUID"
+            }
+          ]
+        },
+        {
+          "name": "GrouperGroupMember",
+          "children": [
+            {
+              "name": "New-GrouperGroupMember"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UMN-SplunkRA",
+      "companyName": "University of Minnesota",
+      "author": "Travis Sobeck",
+      "children": [
+        {
+          "name": "Splunk",
+          "children": [
+            {
+              "name": "Connect-Splunk"
+            }
+          ]
+        },
+        {
+          "name": "SplunkBase",
+          "children": [
+            {
+              "name": "Invoke-SplunkBase"
+            }
+          ]
+        },
+        {
+          "name": "SplunkSearchExport",
+          "children": [
+            {
+              "name": "Get-SplunkSearchExport"
+            }
+          ]
+        },
+        {
+          "name": "SplunkListSavedSearches",
+          "children": [
+            {
+              "name": "Get-SplunkListSavedSearches"
+            }
+          ]
+        },
+        {
+          "name": "SplunkSearchJobs",
+          "children": [
+            {
+              "name": "Get-SplunkSearchJobs"
+            }
+          ]
+        },
+        {
+          "name": "SplunkSearchJobsResults",
+          "children": [
+            {
+              "name": "Get-SplunkSearchJobsResults"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UMN-VMWareRA",
+      "companyName": "University of Minnesota",
+      "author": "Travis Sobeck",
+      "children": [
+        {
+          "name": "VMWareRASession",
+          "children": [
+            {
+              "name": "Connect-VMWareRASession"
+            },
+            {
+              "name": "Disconnect-VMWareRASession"
+            },
+            {
+              "name": "Test-VMWareRASession"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRACluster",
+          "children": [
+            {
+              "name": "Get-VMWareRACluster"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRADatastore",
+          "children": [
+            {
+              "name": "Get-VMWareRADatastore"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRAHost",
+          "children": [
+            {
+              "name": "Get-VMWareRAHost"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRANetworks",
+          "children": [
+            {
+              "name": "Get-VMWareRANetworks"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRAOpen",
+          "children": [
+            {
+              "name": "Get-VMWareRAOpen"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRAVM",
+          "children": [
+            {
+              "name": "Get-VMWareRAVM"
+            },
+            {
+              "name": "New-VMWareRAVM"
+            },
+            {
+              "name": "Remove-VMWareRAVM"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRAVMID",
+          "children": [
+            {
+              "name": "Get-VMWareRAVMID"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRAVMMac",
+          "children": [
+            {
+              "name": "Get-VMWareRAVMMac"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRAVMpower",
+          "children": [
+            {
+              "name": "Get-VMWareRAVMpower"
+            },
+            {
+              "name": "Set-VMWareRAVMpower"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRATag",
+          "children": [
+            {
+              "name": "Get-VMWareRATag"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRATagCategory",
+          "children": [
+            {
+              "name": "Get-VMWareRATagCategory"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRATagByID",
+          "children": [
+            {
+              "name": "Get-VMWareRATagByID"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRATagCategoryByID",
+          "children": [
+            {
+              "name": "Get-VMWareRATagCategoryByID"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRAVMTagsAttachedToObject",
+          "children": [
+            {
+              "name": "Get-VMWareRAVMTagsAttachedToObject"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRAVMTagAttachList",
+          "children": [
+            {
+              "name": "Get-VMWareRAVMTagAttachList"
+            }
+          ]
+        },
+        {
+          "name": "VMWareISO",
+          "children": [
+            {
+              "name": "Remove-VMWareISO"
+            }
+          ]
+        },
+        {
+          "name": "VMWareRAVMTagAttachedToObject",
+          "children": [
+            {
+              "name": "Set-VMWareRAVMTagAttachedToObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

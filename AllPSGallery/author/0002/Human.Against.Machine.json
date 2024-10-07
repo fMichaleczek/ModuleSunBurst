@@ -1,0 +1,122 @@
+{
+  "name": "Human.Against.Machine",
+  "children": [
+    {
+      "name": "LocalModules",
+      "companyName": "Unknown",
+      "author": "Human.Against.Machine",
+      "children": [
+        {
+          "name": "LocalModule",
+          "children": [
+            {
+              "name": "Install-LocalModule"
+            },
+            {
+              "name": "Uninstall-LocalModule"
+            }
+          ]
+        },
+        {
+          "name": "LocalInstalledModule",
+          "children": [
+            {
+              "name": "Get-LocalInstalledModule"
+            }
+          ]
+        },
+        {
+          "name": "LocalRepo",
+          "children": [
+            {
+              "name": "Set-LocalRepo"
+            },
+            {
+              "name": "Remove-LocalRepo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WindowsLab",
+      "companyName": "Unknown",
+      "author": "Human.Against.Machine",
+      "children": [
+        {
+          "name": "LabPc",
+          "children": [
+            {
+              "name": "Stop-LabPc"
+            },
+            {
+              "name": "Start-LabPc"
+            }
+          ]
+        },
+        {
+          "name": "LabPcName",
+          "children": [
+            {
+              "name": "Set-LabPcName"
+            }
+          ]
+        },
+        {
+          "name": "LabPcDate",
+          "children": [
+            {
+              "name": "Sync-LabPcDate"
+            }
+          ]
+        },
+        {
+          "name": "LabPcPrompt",
+          "children": [
+            {
+              "name": "Test-LabPcPrompt"
+            }
+          ]
+        },
+        {
+          "name": "User",
+          "children": [
+            {
+              "name": "Disconnect-User"
+            }
+          ]
+        },
+        {
+          "name": "LabUser",
+          "children": [
+            {
+              "name": "New-LabUser"
+            },
+            {
+              "name": "Remove-LabUser"
+            },
+            {
+              "name": "Set-LabUser"
+            }
+          ]
+        },
+        {
+          "name": "Item",
+          "children": [
+            {
+              "name": "Deploy-Item"
+            }
+          ]
+        },
+        {
+          "name": "LabPcMac",
+          "children": [
+            {
+              "name": "Show-LabPcMac"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

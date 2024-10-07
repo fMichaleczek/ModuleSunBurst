@@ -1,0 +1,42 @@
+{
+  "name": "tommymaynard",
+  "children": [
+    {
+      "name": "SinkProfile",
+      "companyName": "tommymaynard",
+      "author": "tommymaynard",
+      "children": [
+        {
+          "name": "SinkProfileFixture",
+          "children": [
+            {
+              "name": "New-SinkProfileFixture"
+            }
+          ]
+        },
+        {
+          "name": "SinkProfilePartner",
+          "children": [
+            {
+              "name": "Add-SinkProfilePartner"
+            },
+            {
+              "name": "Get-SinkProfilePartner"
+            },
+            {
+              "name": "Complete-SinkProfilePartner"
+            }
+          ]
+        },
+        {
+          "name": "SinkProfileSync",
+          "children": [
+            {
+              "name": "Invoke-SinkProfileSync"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

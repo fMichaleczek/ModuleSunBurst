@@ -1,0 +1,924 @@
+{
+  "name": "William Lam",
+  "children": [
+    {
+      "name": "VMware.Community.AppTransformer",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "AppTransformer",
+          "children": [
+            {
+              "name": "Connect-AppTransformer"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerVCenter",
+          "children": [
+            {
+              "name": "New-AppTransformerVCenter"
+            },
+            {
+              "name": "Get-AppTransformerVCenter"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerNetworkInsight",
+          "children": [
+            {
+              "name": "Get-AppTransformerNetworkInsight"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerNetworkInsightCloud",
+          "children": [
+            {
+              "name": "New-AppTransformerNetworkInsightCloud"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerCredential",
+          "children": [
+            {
+              "name": "Get-AppTransformerCredential"
+            },
+            {
+              "name": "New-AppTransformerCredential"
+            },
+            {
+              "name": "Remove-AppTransformerCredential"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerVM",
+          "children": [
+            {
+              "name": "Get-AppTransformerVM"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerCredentialAssociation",
+          "children": [
+            {
+              "name": "New-AppTransformerCredentialAssociation"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerIntrospection",
+          "children": [
+            {
+              "name": "Start-AppTransformerIntrospection"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerApplication",
+          "children": [
+            {
+              "name": "Get-AppTransformerApplication"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerComponent",
+          "children": [
+            {
+              "name": "Get-AppTransformerComponent"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerComponentSignature",
+          "children": [
+            {
+              "name": "Get-AppTransformerComponentSignature"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.Community.Datasets",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "VMDataset",
+          "children": [
+            {
+              "name": "New-VMDataset"
+            },
+            {
+              "name": "Get-VMDataset"
+            },
+            {
+              "name": "Remove-VMDataset"
+            }
+          ]
+        },
+        {
+          "name": "VMDatasetEntry",
+          "children": [
+            {
+              "name": "New-VMDatasetEntry"
+            },
+            {
+              "name": "Get-VMDatasetEntry"
+            },
+            {
+              "name": "Remove-VMDatasetEntry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.Community.VPlus",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "VPlus",
+          "children": [
+            {
+              "name": "Connect-VPlus"
+            }
+          ]
+        },
+        {
+          "name": "VPlusDeployments",
+          "children": [
+            {
+              "name": "Get-VPlusDeployments"
+            }
+          ]
+        },
+        {
+          "name": "VPlusSubscription",
+          "children": [
+            {
+              "name": "Get-VPlusSubscription"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.Community.VSANDP",
+      "companyName": "Broadcom",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "VSANDataProtection",
+          "children": [
+            {
+              "name": "Connect-VSANDataProtection"
+            }
+          ]
+        },
+        {
+          "name": "VSANDataProtectionVersion",
+          "children": [
+            {
+              "name": "Get-VSANDataProtectionVersion"
+            }
+          ]
+        },
+        {
+          "name": "VSANDataProtectionGroup",
+          "children": [
+            {
+              "name": "Get-VSANDataProtectionGroup"
+            },
+            {
+              "name": "New-VSANDataProtectionGroup"
+            },
+            {
+              "name": "Remove-VSANDataProtectionGroup"
+            }
+          ]
+        },
+        {
+          "name": "VSANDataProtectionGroupSnapshot",
+          "children": [
+            {
+              "name": "Get-VSANDataProtectionGroupSnapshot"
+            },
+            {
+              "name": "New-VSANDataProtectionGroupSnapshot"
+            },
+            {
+              "name": "Remove-VSANDataProtectionGroupSnapshot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.CSP",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "CSPAccessToken",
+          "children": [
+            {
+              "name": "Get-CSPAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "CSPServices",
+          "children": [
+            {
+              "name": "Get-CSPServices"
+            }
+          ]
+        },
+        {
+          "name": "CSPRefreshTokenExpiry",
+          "children": [
+            {
+              "name": "Get-CSPRefreshTokenExpiry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.DRaaS",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "DRaas",
+          "children": [
+            {
+              "name": "Connect-DRaas"
+            },
+            {
+              "name": "Get-DRaas"
+            },
+            {
+              "name": "Set-DRaas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.HCX",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "HcxServer",
+          "children": [
+            {
+              "name": "Connect-HcxServer"
+            }
+          ]
+        },
+        {
+          "name": "HcxCloudConfig",
+          "children": [
+            {
+              "name": "Get-HcxCloudConfig"
+            }
+          ]
+        },
+        {
+          "name": "HcxEndpoint",
+          "children": [
+            {
+              "name": "Get-HcxEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "HcxMigration",
+          "children": [
+            {
+              "name": "New-HcxMigration"
+            },
+            {
+              "name": "Get-HcxMigration"
+            }
+          ]
+        },
+        {
+          "name": "HcxVAMI",
+          "children": [
+            {
+              "name": "Connect-HcxVAMI"
+            }
+          ]
+        },
+        {
+          "name": "HcxVCConfig",
+          "children": [
+            {
+              "name": "Get-HcxVCConfig"
+            },
+            {
+              "name": "Set-HcxVCConfig"
+            }
+          ]
+        },
+        {
+          "name": "HcxLicense",
+          "children": [
+            {
+              "name": "Get-HcxLicense"
+            },
+            {
+              "name": "Set-HcxLicense"
+            }
+          ]
+        },
+        {
+          "name": "HcxNSXConfig",
+          "children": [
+            {
+              "name": "Get-HcxNSXConfig"
+            },
+            {
+              "name": "Set-HcxNSXConfig"
+            }
+          ]
+        },
+        {
+          "name": "HcxCity",
+          "children": [
+            {
+              "name": "Get-HcxCity"
+            }
+          ]
+        },
+        {
+          "name": "HcxLocation",
+          "children": [
+            {
+              "name": "Get-HcxLocation"
+            },
+            {
+              "name": "Set-HcxLocation"
+            }
+          ]
+        },
+        {
+          "name": "HcxRoleMapping",
+          "children": [
+            {
+              "name": "Get-HcxRoleMapping"
+            },
+            {
+              "name": "Set-HcxRoleMapping"
+            }
+          ]
+        },
+        {
+          "name": "HcxProxy",
+          "children": [
+            {
+              "name": "Get-HcxProxy"
+            },
+            {
+              "name": "Set-HcxProxy"
+            },
+            {
+              "name": "Remove-HcxProxy"
+            }
+          ]
+        },
+        {
+          "name": "HcxCloudServer",
+          "children": [
+            {
+              "name": "Connect-HcxCloudServer"
+            }
+          ]
+        },
+        {
+          "name": "HCXCloudActivationKey",
+          "children": [
+            {
+              "name": "Get-HCXCloudActivationKey"
+            },
+            {
+              "name": "New-HCXCloudActivationKey"
+            }
+          ]
+        },
+        {
+          "name": "HCXCloudSubscription",
+          "children": [
+            {
+              "name": "Get-HCXCloudSubscription"
+            }
+          ]
+        },
+        {
+          "name": "HCXCloud",
+          "children": [
+            {
+              "name": "Get-HCXCloud"
+            },
+            {
+              "name": "Set-HCXCloud"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.VMC.Notification",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "VmcNotification",
+          "children": [
+            {
+              "name": "Connect-VmcNotification"
+            }
+          ]
+        },
+        {
+          "name": "VmcNotificationEvent",
+          "children": [
+            {
+              "name": "Get-VmcNotificationEvent"
+            }
+          ]
+        },
+        {
+          "name": "VmcNotificationWebhook",
+          "children": [
+            {
+              "name": "Get-VmcNotificationWebhook"
+            },
+            {
+              "name": "New-VmcNotificationWebhook"
+            },
+            {
+              "name": "Remove-VmcNotificationWebhook"
+            },
+            {
+              "name": "Test-VmcNotificationWebhook"
+            }
+          ]
+        },
+        {
+          "name": "VmcNotificationType",
+          "children": [
+            {
+              "name": "Get-VmcNotificationType"
+            }
+          ]
+        },
+        {
+          "name": "VmcNotificationCategory",
+          "children": [
+            {
+              "name": "Get-VmcNotificationCategory"
+            }
+          ]
+        },
+        {
+          "name": "JWTtoken",
+          "children": [
+            {
+              "name": "Get-JWTtoken"
+            }
+          ]
+        },
+        {
+          "name": "VmcNotificationPreference",
+          "children": [
+            {
+              "name": "Get-VmcNotificationPreference"
+            },
+            {
+              "name": "Set-VmcNotificationPreference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.VMC.NSXT",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "NSXTProxy",
+          "children": [
+            {
+              "name": "Connect-NSXTProxy"
+            }
+          ]
+        },
+        {
+          "name": "NSXTSegment",
+          "children": [
+            {
+              "name": "Get-NSXTSegment"
+            },
+            {
+              "name": "New-NSXTSegment"
+            },
+            {
+              "name": "Set-NSXTSegment"
+            },
+            {
+              "name": "Remove-NSXTSegment"
+            }
+          ]
+        },
+        {
+          "name": "NSXTFirewall",
+          "children": [
+            {
+              "name": "Get-NSXTFirewall"
+            },
+            {
+              "name": "New-NSXTFirewall"
+            },
+            {
+              "name": "Remove-NSXTFirewall"
+            }
+          ]
+        },
+        {
+          "name": "NSXTGroup",
+          "children": [
+            {
+              "name": "Get-NSXTGroup"
+            },
+            {
+              "name": "New-NSXTGroup"
+            },
+            {
+              "name": "Remove-NSXTGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSXTServiceDefinition",
+          "children": [
+            {
+              "name": "Get-NSXTServiceDefinition"
+            },
+            {
+              "name": "Remove-NSXTServiceDefinition"
+            },
+            {
+              "name": "New-NSXTServiceDefinition"
+            }
+          ]
+        },
+        {
+          "name": "NSXTDistFirewallSection",
+          "children": [
+            {
+              "name": "New-NSXTDistFirewallSection"
+            },
+            {
+              "name": "Get-NSXTDistFirewallSection"
+            },
+            {
+              "name": "Remove-NSXTDistFirewallSection"
+            }
+          ]
+        },
+        {
+          "name": "NSXTDistFirewall",
+          "children": [
+            {
+              "name": "Get-NSXTDistFirewall"
+            },
+            {
+              "name": "New-NSXTDistFirewall"
+            },
+            {
+              "name": "Remove-NSXTDistFirewall"
+            }
+          ]
+        },
+        {
+          "name": "NSXTRouteTable",
+          "children": [
+            {
+              "name": "Get-NSXTRouteTable"
+            }
+          ]
+        },
+        {
+          "name": "NSXTOverviewInfo",
+          "children": [
+            {
+              "name": "Get-NSXTOverviewInfo"
+            }
+          ]
+        },
+        {
+          "name": "NSXTInfraScope",
+          "children": [
+            {
+              "name": "Get-NSXTInfraScope"
+            }
+          ]
+        },
+        {
+          "name": "NSXTInfraGroup",
+          "children": [
+            {
+              "name": "Get-NSXTInfraGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSXTRouteBasedVPN",
+          "children": [
+            {
+              "name": "New-NSXTRouteBasedVPN"
+            },
+            {
+              "name": "Get-NSXTRouteBasedVPN"
+            },
+            {
+              "name": "Remove-NSXTRouteBasedVPN"
+            }
+          ]
+        },
+        {
+          "name": "NSXTPolicyBasedVPN",
+          "children": [
+            {
+              "name": "New-NSXTPolicyBasedVPN"
+            },
+            {
+              "name": "Get-NSXTPolicyBasedVPN"
+            },
+            {
+              "name": "Remove-NSXTPolicyBasedVPN"
+            }
+          ]
+        },
+        {
+          "name": "NSXTDNS",
+          "children": [
+            {
+              "name": "Get-NSXTDNS"
+            },
+            {
+              "name": "Set-NSXTDNS"
+            }
+          ]
+        },
+        {
+          "name": "NSXTPublicIP",
+          "children": [
+            {
+              "name": "Get-NSXTPublicIP"
+            },
+            {
+              "name": "New-NSXTPublicIP"
+            },
+            {
+              "name": "Remove-NSXTPublicIP"
+            }
+          ]
+        },
+        {
+          "name": "NSXTNatRule",
+          "children": [
+            {
+              "name": "Get-NSXTNatRule"
+            },
+            {
+              "name": "New-NSXTNatRule"
+            },
+            {
+              "name": "Remove-NSXTNatRule"
+            }
+          ]
+        },
+        {
+          "name": "NSXTT0Stats",
+          "children": [
+            {
+              "name": "Get-NSXTT0Stats"
+            }
+          ]
+        },
+        {
+          "name": "NSXTLinkedVpc",
+          "children": [
+            {
+              "name": "Get-NSXTLinkedVpc"
+            }
+          ]
+        },
+        {
+          "name": "NSXTL2VPN",
+          "children": [
+            {
+              "name": "Get-NSXTL2VPN"
+            }
+          ]
+        },
+        {
+          "name": "NSXTPortMirror",
+          "children": [
+            {
+              "name": "Get-NSXTPortMirror"
+            }
+          ]
+        },
+        {
+          "name": "NSXTIPFIXCollector",
+          "children": [
+            {
+              "name": "Get-NSXTIPFIXCollector"
+            }
+          ]
+        },
+        {
+          "name": "NSXTDirectConnectVIF",
+          "children": [
+            {
+              "name": "Get-NSXTDirectConnectVIF"
+            }
+          ]
+        },
+        {
+          "name": "NSXTVifPerHost",
+          "children": [
+            {
+              "name": "Get-NSXTVifPerHost"
+            }
+          ]
+        },
+        {
+          "name": "NSXTVM",
+          "children": [
+            {
+              "name": "Get-NSXTVM"
+            }
+          ]
+        },
+        {
+          "name": "NSXTSegmentPort",
+          "children": [
+            {
+              "name": "Get-NSXTSegmentPort"
+            }
+          ]
+        },
+        {
+          "name": "NSXTGroupMember",
+          "children": [
+            {
+              "name": "Get-NSXTGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "NSXTSegmentStatsbyT1",
+          "children": [
+            {
+              "name": "Get-NSXTSegmentStatsbyT1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.WorkloadManagement",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "WorkloadManagement4",
+          "children": [
+            {
+              "name": "New-WorkloadManagement4"
+            }
+          ]
+        },
+        {
+          "name": "WorkloadManagement3",
+          "children": [
+            {
+              "name": "New-WorkloadManagement3"
+            }
+          ]
+        },
+        {
+          "name": "WorkloadManagement2",
+          "children": [
+            {
+              "name": "New-WorkloadManagement2"
+            }
+          ]
+        },
+        {
+          "name": "WorkloadManagement",
+          "children": [
+            {
+              "name": "New-WorkloadManagement"
+            },
+            {
+              "name": "Get-WorkloadManagement"
+            },
+            {
+              "name": "Remove-WorkloadManagement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.WorkspaceOneAccess",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "WorkspaceOneAccess",
+          "children": [
+            {
+              "name": "Connect-WorkspaceOneAccess"
+            }
+          ]
+        },
+        {
+          "name": "WSDirectory",
+          "children": [
+            {
+              "name": "Get-WSDirectory"
+            },
+            {
+              "name": "Remove-WSDirectory"
+            }
+          ]
+        },
+        {
+          "name": "WSIdentityProvider",
+          "children": [
+            {
+              "name": "Get-WSIdentityProvider"
+            }
+          ]
+        },
+        {
+          "name": "WSOrgNetwork",
+          "children": [
+            {
+              "name": "Get-WSOrgNetwork"
+            }
+          ]
+        },
+        {
+          "name": "WS3rdPartyIdentityProvider",
+          "children": [
+            {
+              "name": "New-WS3rdPartyIdentityProvider"
+            },
+            {
+              "name": "Remove-WS3rdPartyIdentityProvider"
+            }
+          ]
+        },
+        {
+          "name": "WSJitDirectory",
+          "children": [
+            {
+              "name": "New-WSJitDirectory"
+            }
+          ]
+        },
+        {
+          "name": "UEMConfig",
+          "children": [
+            {
+              "name": "Get-UEMConfig"
+            },
+            {
+              "name": "Remove-UEMConfig"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

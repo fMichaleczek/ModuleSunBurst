@@ -1,0 +1,107 @@
+{
+  "name": "Steve Lee",
+  "children": [
+    {
+      "name": "HttpListener",
+      "companyName": "Microsoft",
+      "author": "Steve Lee",
+      "children": [
+        {
+          "name": "HttpListener",
+          "children": [
+            {
+              "name": "Start-HttpListener"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NativeCommand",
+      "companyName": "Microsoft",
+      "author": "Steve Lee",
+      "children": [
+        {
+          "name": "NativeCommand",
+          "children": [
+            {
+              "name": "Invoke-NativeCommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGitHubStats",
+      "companyName": "Microsoft",
+      "author": "Steve Lee",
+      "children": [
+        {
+          "name": "PSDownloadStats",
+          "children": [
+            {
+              "name": "Get-PSDownloadStats"
+            }
+          ]
+        },
+        {
+          "name": "PSGitHubReport",
+          "children": [
+            {
+              "name": "Get-PSGitHubReport"
+            }
+          ]
+        },
+        {
+          "name": "PSGitHubStats",
+          "children": [
+            {
+              "name": "Get-PSGitHubStats"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecretManagement.KeyChain",
+      "companyName": "Microsoft Corporation",
+      "author": "Steve Lee",
+      "children": [
+        {
+          "name": "KeyChain",
+          "children": [
+            {
+              "name": "Unlock-KeyChain"
+            }
+          ]
+        },
+        {
+          "name": "KeyChainConfiguration",
+          "children": [
+            {
+              "name": "Set-KeyChainConfiguration"
+            },
+            {
+              "name": "Get-KeyChainConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WindowsPSModulePath",
+      "companyName": "Microsoft Corp",
+      "author": "Steve Lee",
+      "children": [
+        {
+          "name": "WindowsPSModulePath",
+          "children": [
+            {
+              "name": "Add-WindowsPSModulePath"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

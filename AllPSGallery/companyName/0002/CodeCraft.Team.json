@@ -1,0 +1,51 @@
+{
+  "name": "CodeCraft.Team",
+  "children": [
+    {
+      "name": "PSDT.Location",
+      "companyName": "codecraft.team",
+      "author": "codecraft.team",
+      "children": [
+        {
+          "name": "Location",
+          "children": [
+            {
+              "name": "Enter-Location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSST.Wsp",
+      "companyName": "CodeCraft.Team",
+      "author": "CodeCraft.Team",
+      "children": [
+        {
+          "name": "WspUnpackage",
+          "children": [
+            {
+              "name": "Invoke-WspUnpackage"
+            }
+          ]
+        },
+        {
+          "name": "WspFeature",
+          "children": [
+            {
+              "name": "Remove-WspFeature"
+            }
+          ]
+        },
+        {
+          "name": "WspPackage",
+          "children": [
+            {
+              "name": "Invoke-WspPackage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

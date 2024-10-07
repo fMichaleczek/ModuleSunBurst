@@ -1,0 +1,96 @@
+{
+  "name": "matthewjdegarmo.com",
+  "children": [
+    {
+      "name": "PSChickfilA",
+      "companyName": "matthewjdegarmo.com",
+      "author": "Matthew J. DeGarmo",
+      "children": [
+        {
+          "name": "PSChickfilAOrder",
+          "children": [
+            {
+              "name": "Get-PSChickfilAOrder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSIISHelper",
+      "companyName": "matthewjdegarmo.com",
+      "author": "Matthew J. DeGarmo",
+      "children": [
+        {
+          "name": "PSIISPool",
+          "children": [
+            {
+              "name": "Get-PSIISPool"
+            },
+            {
+              "name": "Restart-PSIISPool"
+            },
+            {
+              "name": "Start-PSIISPool"
+            },
+            {
+              "name": "Stop-PSIISPool"
+            }
+          ]
+        },
+        {
+          "name": "PSIISPoolWPRequests",
+          "children": [
+            {
+              "name": "Get-PSIISPoolWPRequests"
+            }
+          ]
+        },
+        {
+          "name": "PSIISBinding",
+          "children": [
+            {
+              "name": "Get-PSIISBinding"
+            },
+            {
+              "name": "New-PSIISBinding"
+            }
+          ]
+        },
+        {
+          "name": "PSIISSite",
+          "children": [
+            {
+              "name": "Get-PSIISSite"
+            },
+            {
+              "name": "Restart-PSIISSite"
+            },
+            {
+              "name": "Start-PSIISSite"
+            }
+          ]
+        },
+        {
+          "name": "PSIISNicIPAddress",
+          "children": [
+            {
+              "name": "New-PSIISNicIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "PSIISSession",
+          "children": [
+            {
+              "name": "New-PSIISSession"
+            },
+            {
+              "name": "Remove-PSIISSession"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

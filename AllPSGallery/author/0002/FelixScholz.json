@@ -1,0 +1,54 @@
+{
+  "name": "FelixScholz",
+  "children": [
+    {
+      "name": "FS255.AutoHotkey",
+      "companyName": "Unknown",
+      "author": "FelixScholz",
+      "children": [
+        {
+          "name": "AutoHotkey",
+          "children": [
+            {
+              "name": "Invoke-AutoHotkey"
+            }
+          ]
+        },
+        {
+          "name": "AutoHotkeyCompiler",
+          "children": [
+            {
+              "name": "Invoke-AutoHotkeyCompiler"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FS255.BitWarden",
+      "companyName": "Unknown",
+      "author": "FelixScholz",
+      "children": [
+        {
+          "name": "BitWardenServe",
+          "children": [
+            {
+              "name": "Start-BitWardenServe"
+            }
+          ]
+        },
+        {
+          "name": "BitWarden",
+          "children": [
+            {
+              "name": "Unlock-BitWarden"
+            },
+            {
+              "name": "Connect-BitWarden"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

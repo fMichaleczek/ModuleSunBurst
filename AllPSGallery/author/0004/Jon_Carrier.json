@@ -1,0 +1,162 @@
+{
+  "name": "Jon Carrier",
+  "children": [
+    {
+      "name": "HelpParser",
+      "companyName": "Unknown",
+      "author": "Jon Carrier",
+      "children": [
+        {
+          "name": "ParsedHelpParam",
+          "children": [
+            {
+              "name": "Get-ParsedHelpParam"
+            }
+          ]
+        },
+        {
+          "name": "ParsedHelpFlag",
+          "children": [
+            {
+              "name": "Get-ParsedHelpFlag"
+            }
+          ]
+        },
+        {
+          "name": "ParsedHelpOption",
+          "children": [
+            {
+              "name": "Get-ParsedHelpOption"
+            }
+          ]
+        },
+        {
+          "name": "ParsedHelpParamValue",
+          "children": [
+            {
+              "name": "Get-ParsedHelpParamValue"
+            }
+          ]
+        },
+        {
+          "name": "ParsedHelpParamCompletionResult",
+          "children": [
+            {
+              "name": "New-ParsedHelpParamCompletionResult"
+            }
+          ]
+        },
+        {
+          "name": "ParsedHelpValueCompletionResult",
+          "children": [
+            {
+              "name": "New-ParsedHelpValueCompletionResult"
+            }
+          ]
+        },
+        {
+          "name": "HelpParserTabCompleter",
+          "children": [
+            {
+              "name": "New-HelpParserTabCompleter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TableUI",
+      "companyName": "Unknown",
+      "author": "Jon Carrier",
+      "children": [
+        {
+          "name": "TableUI",
+          "children": [
+            {
+              "name": "Show-TableUI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TextTable",
+      "companyName": "Unknown",
+      "author": "Jon Carrier",
+      "children": [
+        {
+          "name": "TextTableInfo",
+          "children": [
+            {
+              "name": "Get-TextTableInfo"
+            }
+          ]
+        },
+        {
+          "name": "TextTable",
+          "children": [
+            {
+              "name": "ConvertFrom-TextTable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WinGet-Essentials",
+      "companyName": "Unknown",
+      "author": "Jon Carrier",
+      "children": [
+        {
+          "name": "WinGetEssentials",
+          "children": [
+            {
+              "name": "Update-WinGetEssentials"
+            }
+          ]
+        },
+        {
+          "name": "WinGetSoftware",
+          "children": [
+            {
+              "name": "Update-WinGetSoftware"
+            },
+            {
+              "name": "Checkpoint-WinGetSoftware"
+            },
+            {
+              "name": "Restore-WinGetSoftware"
+            }
+          ]
+        },
+        {
+          "name": "WinGetSoftwareUpgrade",
+          "children": [
+            {
+              "name": "Get-WinGetSoftwareUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "WinGetIgnore",
+          "children": [
+            {
+              "name": "Initialize-WinGetIgnore"
+            }
+          ]
+        },
+        {
+          "name": "WinGetRestore",
+          "children": [
+            {
+              "name": "Initialize-WinGetRestore"
+            },
+            {
+              "name": "Merge-WinGetRestore"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

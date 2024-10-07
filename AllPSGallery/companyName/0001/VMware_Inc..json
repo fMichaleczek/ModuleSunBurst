@@ -1,0 +1,328 @@
+{
+  "name": "VMware Inc.",
+  "children": [
+    {
+      "name": "VCFInstanceRecovery",
+      "companyName": "VMware Inc.",
+      "author": "VMware",
+      "children": [
+        {
+          "name": "catchWriter",
+          "children": [
+            {
+              "name": "catchWriter"
+            }
+          ]
+        },
+        {
+          "name": "InstalledSoftware",
+          "children": [
+            {
+              "name": "Get-InstalledSoftware"
+            }
+          ]
+        },
+        {
+          "name": "LogMessage",
+          "children": [
+            {
+              "name": "LogMessage"
+            }
+          ]
+        },
+        {
+          "name": "VCFIRCreateHeader",
+          "children": [
+            {
+              "name": "VCFIRCreateHeader"
+            }
+          ]
+        },
+        {
+          "name": "VMKernel",
+          "children": [
+            {
+              "name": "Move-VMKernel"
+            }
+          ]
+        },
+        {
+          "name": "VCFInstanceRecoveryPreReqs",
+          "children": [
+            {
+              "name": "Confirm-VCFInstanceRecoveryPreReqs"
+            }
+          ]
+        },
+        {
+          "name": "ExtractDataFromSDDCBackup",
+          "children": [
+            {
+              "name": "New-ExtractDataFromSDDCBackup"
+            }
+          ]
+        },
+        {
+          "name": "PrepareforPartialBringup",
+          "children": [
+            {
+              "name": "New-PrepareforPartialBringup"
+            }
+          ]
+        },
+        {
+          "name": "ReconstructedPartialBringupJsonSpec",
+          "children": [
+            {
+              "name": "New-ReconstructedPartialBringupJsonSpec"
+            }
+          ]
+        },
+        {
+          "name": "NSXManagerOvaDeployment",
+          "children": [
+            {
+              "name": "New-NSXManagerOvaDeployment"
+            }
+          ]
+        },
+        {
+          "name": "vCenterOvaDeployment",
+          "children": [
+            {
+              "name": "New-vCenterOvaDeployment"
+            }
+          ]
+        },
+        {
+          "name": "SDDCManagerOvaDeployment",
+          "children": [
+            {
+              "name": "New-SDDCManagerOvaDeployment"
+            }
+          ]
+        },
+        {
+          "name": "UploadAndModifySDDCManagerBackup",
+          "children": [
+            {
+              "name": "New-UploadAndModifySDDCManagerBackup"
+            }
+          ]
+        },
+        {
+          "name": "SDDCManagerRestore",
+          "children": [
+            {
+              "name": "Invoke-SDDCManagerRestore"
+            }
+          ]
+        },
+        {
+          "name": "PhysicalHostServiceAccounts",
+          "children": [
+            {
+              "name": "Resolve-PhysicalHostServiceAccounts"
+            }
+          ]
+        },
+        {
+          "name": "vCenterRestore",
+          "children": [
+            {
+              "name": "Invoke-vCenterRestore"
+            }
+          ]
+        },
+        {
+          "name": "ClusterHostsToRestoredVcenter",
+          "children": [
+            {
+              "name": "Move-ClusterHostsToRestoredVcenter"
+            }
+          ]
+        },
+        {
+          "name": "ClusterHostsFromVds",
+          "children": [
+            {
+              "name": "Remove-ClusterHostsFromVds"
+            }
+          ]
+        },
+        {
+          "name": "MgmtVmsToTempPg",
+          "children": [
+            {
+              "name": "Move-MgmtVmsToTempPg"
+            }
+          ]
+        },
+        {
+          "name": "ClusterHostNetworkingTovSS",
+          "children": [
+            {
+              "name": "Move-ClusterHostNetworkingTovSS"
+            }
+          ]
+        },
+        {
+          "name": "ClusterVmnicTovSwitch",
+          "children": [
+            {
+              "name": "Move-ClusterVmnicTovSwitch"
+            }
+          ]
+        },
+        {
+          "name": "ClusterHostsvSanIgnoreClusterMemberList",
+          "children": [
+            {
+              "name": "Set-ClusterHostsvSanIgnoreClusterMemberList"
+            }
+          ]
+        },
+        {
+          "name": "ClusterDRSLevel",
+          "children": [
+            {
+              "name": "Set-ClusterDRSLevel"
+            }
+          ]
+        },
+        {
+          "name": "NonResponsiveHosts",
+          "children": [
+            {
+              "name": "Remove-NonResponsiveHosts"
+            }
+          ]
+        },
+        {
+          "name": "HostsToCluster",
+          "children": [
+            {
+              "name": "Add-HostsToCluster"
+            }
+          ]
+        },
+        {
+          "name": "VMKernelsToHost",
+          "children": [
+            {
+              "name": "Add-VMKernelsToHost"
+            }
+          ]
+        },
+        {
+          "name": "RebuiltVsanDatastore",
+          "children": [
+            {
+              "name": "New-RebuiltVsanDatastore"
+            }
+          ]
+        },
+        {
+          "name": "RebuiltVdsConfiguration",
+          "children": [
+            {
+              "name": "New-RebuiltVdsConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ClusterVMOverrides",
+          "children": [
+            {
+              "name": "Backup-ClusterVMOverrides"
+            },
+            {
+              "name": "Restore-ClusterVMOverrides"
+            }
+          ]
+        },
+        {
+          "name": "ClusterVMLocations",
+          "children": [
+            {
+              "name": "Backup-ClusterVMLocations"
+            },
+            {
+              "name": "Restore-ClusterVMLocations"
+            }
+          ]
+        },
+        {
+          "name": "ClusterDRSGroupsAndRules",
+          "children": [
+            {
+              "name": "Backup-ClusterDRSGroupsAndRules"
+            },
+            {
+              "name": "Restore-ClusterDRSGroupsAndRules"
+            }
+          ]
+        },
+        {
+          "name": "ClusterVMTags",
+          "children": [
+            {
+              "name": "Backup-ClusterVMTags"
+            },
+            {
+              "name": "Restore-ClusterVMTags"
+            }
+          ]
+        },
+        {
+          "name": "NSXManagerRestore",
+          "children": [
+            {
+              "name": "Invoke-NSXManagerRestore"
+            }
+          ]
+        },
+        {
+          "name": "NSXEdgeClusterRecovery",
+          "children": [
+            {
+              "name": "Invoke-NSXEdgeClusterRecovery"
+            }
+          ]
+        },
+        {
+          "name": "AdditionalNSXManagers",
+          "children": [
+            {
+              "name": "Add-AdditionalNSXManagers"
+            }
+          ]
+        },
+        {
+          "name": "PhysicalHostTransportNodes",
+          "children": [
+            {
+              "name": "Resolve-PhysicalHostTransportNodes"
+            }
+          ]
+        },
+        {
+          "name": "ClusterVMsToFirstHost",
+          "children": [
+            {
+              "name": "Move-ClusterVMsToFirstHost"
+            }
+          ]
+        },
+        {
+          "name": "StandardSwitch",
+          "children": [
+            {
+              "name": "Remove-StandardSwitch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

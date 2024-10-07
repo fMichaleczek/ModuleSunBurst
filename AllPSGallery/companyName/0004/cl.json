@@ -1,0 +1,307 @@
+{
+  "name": "cl",
+  "children": [
+    {
+      "name": "AIToolkit",
+      "companyName": "cl",
+      "author": "Chrissy LeMaire",
+      "children": [
+        {
+          "name": "AITModel",
+          "children": [
+            {
+              "name": "Dismount-AITModel"
+            },
+            {
+              "name": "Get-AITModel"
+            },
+            {
+              "name": "Mount-AITModel"
+            }
+          ]
+        },
+        {
+          "name": "AITMountedModel",
+          "children": [
+            {
+              "name": "Get-AITMountedModel"
+            }
+          ]
+        },
+        {
+          "name": "AITServer",
+          "children": [
+            {
+              "name": "Get-AITServer"
+            }
+          ]
+        },
+        {
+          "name": "AITChatCompletion",
+          "children": [
+            {
+              "name": "Request-AITChatCompletion"
+            }
+          ]
+        },
+        {
+          "name": "AITConfig",
+          "children": [
+            {
+              "name": "Set-AITConfig"
+            }
+          ]
+        },
+        {
+          "name": "AITServerStatus",
+          "children": [
+            {
+              "name": "Test-AITServerStatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dbatools.ai",
+      "companyName": "cl",
+      "author": "Chrissy LeMaire",
+      "children": [
+        {
+          "name": "DbaiInstruction",
+          "children": [
+            {
+              "name": "ConvertTo-DbaiInstruction"
+            }
+          ]
+        },
+        {
+          "name": "DbaiMarkdown",
+          "children": [
+            {
+              "name": "ConvertTo-DbaiMarkdown"
+            }
+          ]
+        },
+        {
+          "name": "DbaiStructuredObject",
+          "children": [
+            {
+              "name": "ConvertTo-DbaiStructuredObject"
+            }
+          ]
+        },
+        {
+          "name": "DbaiDatabase",
+          "children": [
+            {
+              "name": "Enter-DbaiDatabase"
+            }
+          ]
+        },
+        {
+          "name": "DbaiFile",
+          "children": [
+            {
+              "name": "Import-DbaiFile"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsAI",
+          "children": [
+            {
+              "name": "Invoke-DbatoolsAI"
+            }
+          ]
+        },
+        {
+          "name": "DbaiQuery",
+          "children": [
+            {
+              "name": "Invoke-DbaiQuery"
+            }
+          ]
+        },
+        {
+          "name": "DbaiAssistant",
+          "children": [
+            {
+              "name": "New-DbaiAssistant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pastel",
+      "companyName": "cl",
+      "author": "Chrissy LeMaire",
+      "children": [
+        {
+          "name": "PastelLightness",
+          "children": [
+            {
+              "name": "Add-PastelLightness"
+            },
+            {
+              "name": "Remove-PastelLightness"
+            }
+          ]
+        },
+        {
+          "name": "PastelSaturation",
+          "children": [
+            {
+              "name": "Add-PastelSaturation"
+            },
+            {
+              "name": "Remove-PastelSaturation"
+            }
+          ]
+        },
+        {
+          "name": "PastelColorBlind",
+          "children": [
+            {
+              "name": "ConvertTo-PastelColorBlind"
+            }
+          ]
+        },
+        {
+          "name": "PastelGrayTone",
+          "children": [
+            {
+              "name": "ConvertTo-PastelGrayTone"
+            },
+            {
+              "name": "New-PastelGrayTone"
+            }
+          ]
+        },
+        {
+          "name": "PastelColorProperty",
+          "children": [
+            {
+              "name": "Edit-PastelColorProperty"
+            }
+          ]
+        },
+        {
+          "name": "PastelColor",
+          "children": [
+            {
+              "name": "Format-PastelColor"
+            },
+            {
+              "name": "Get-PastelColor"
+            }
+          ]
+        },
+        {
+          "name": "PastelColorList",
+          "children": [
+            {
+              "name": "Get-PastelColorList"
+            }
+          ]
+        },
+        {
+          "name": "PastelComplementColor",
+          "children": [
+            {
+              "name": "Get-PastelComplementColor"
+            }
+          ]
+        },
+        {
+          "name": "PastelDistinctColor",
+          "children": [
+            {
+              "name": "Get-PastelDistinctColor"
+            }
+          ]
+        },
+        {
+          "name": "PastelTextColor",
+          "children": [
+            {
+              "name": "Get-PastelTextColor"
+            }
+          ]
+        },
+        {
+          "name": "PastelColorMix",
+          "children": [
+            {
+              "name": "Invoke-PastelColorMix"
+            }
+          ]
+        },
+        {
+          "name": "PastelColorSort",
+          "children": [
+            {
+              "name": "Invoke-PastelColorSort"
+            }
+          ]
+        },
+        {
+          "name": "PastelRotateColor",
+          "children": [
+            {
+              "name": "Invoke-PastelRotateColor"
+            }
+          ]
+        },
+        {
+          "name": "PastelRandomColor",
+          "children": [
+            {
+              "name": "New-PastelRandomColor"
+            }
+          ]
+        },
+        {
+          "name": "PastelGradient",
+          "children": [
+            {
+              "name": "Show-PastelGradient"
+            }
+          ]
+        },
+        {
+          "name": "PastelColoredText",
+          "children": [
+            {
+              "name": "Write-PastelColoredText"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSPostgres",
+      "companyName": "cl",
+      "author": "cl",
+      "children": [
+        {
+          "name": "Postgres",
+          "children": [
+            {
+              "name": "Connect-Postgres"
+            }
+          ]
+        },
+        {
+          "name": "PostgresQuery",
+          "children": [
+            {
+              "name": "Invoke-PostgresQuery"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Xi ErDe",
+  "children": [
+    {
+      "name": "Poshbot.VMware",
+      "companyName": "Community",
+      "author": "Xi ErDe",
+      "children": [
+        {
+          "name": "PowerCLI",
+          "children": [
+            {
+              "name": "Invoke-PowerCLI"
+            }
+          ]
+        },
+        {
+          "name": "SnapshotPoshbot",
+          "children": [
+            {
+              "name": "New-SnapshotPoshbot"
+            },
+            {
+              "name": "Get-SnapshotPoshbot"
+            },
+            {
+              "name": "Remove-SnapshotPoshbot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMwareBaselineCheck",
+      "companyName": "Unknown",
+      "author": "Xi ErDe",
+      "children": [
+        {
+          "name": "VesterOutput",
+          "children": [
+            {
+              "name": "Compare-VesterOutput"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

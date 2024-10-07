@@ -1,0 +1,148 @@
+{
+  "name": "Fergal O Donnell",
+  "children": [
+    {
+      "name": "CredentialStore",
+      "companyName": "fodonnel",
+      "author": "Fergal O Donnell",
+      "children": [
+        {
+          "name": "CsStore",
+          "children": [
+            {
+              "name": "Initialize-CsStore"
+            }
+          ]
+        },
+        {
+          "name": "CsEntry",
+          "children": [
+            {
+              "name": "Get-CsEntry"
+            },
+            {
+              "name": "Set-CsEntry"
+            }
+          ]
+        },
+        {
+          "name": "CsCredential",
+          "children": [
+            {
+              "name": "Get-CsCredential"
+            }
+          ]
+        },
+        {
+          "name": "CsPassword",
+          "children": [
+            {
+              "name": "Get-CsPassword"
+            }
+          ]
+        },
+        {
+          "name": "CsDefaultStore",
+          "children": [
+            {
+              "name": "Get-CsDefaultStore"
+            },
+            {
+              "name": "Set-CsDefaultStore"
+            }
+          ]
+        },
+        {
+          "name": "CsEntryName",
+          "children": [
+            {
+              "name": "Test-CsEntryName"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CredentialStore.AzureKeyVault",
+      "companyName": "fodonnel",
+      "author": "Fergal O Donnell",
+      "children": [
+        {
+          "name": "CsKeyVaultEntry",
+          "children": [
+            {
+              "name": "Get-CsKeyVaultEntry"
+            },
+            {
+              "name": "Set-CsKeyVaultEntry"
+            }
+          ]
+        },
+        {
+          "name": "CsKeyVaultStore",
+          "children": [
+            {
+              "name": "Import-CsKeyVaultStore"
+            },
+            {
+              "name": "Export-CsKeyVaultStore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NubusTech.CredentialStore",
+      "companyName": "NubusTech",
+      "author": "Fergal O Donnell",
+      "children": [
+        {
+          "name": "CsStore",
+          "children": [
+            {
+              "name": "Initialize-CsStore"
+            }
+          ]
+        },
+        {
+          "name": "CsEntry",
+          "children": [
+            {
+              "name": "Get-CsEntry"
+            },
+            {
+              "name": "Set-CsEntry"
+            }
+          ]
+        },
+        {
+          "name": "CsCredential",
+          "children": [
+            {
+              "name": "Get-CsCredential"
+            }
+          ]
+        },
+        {
+          "name": "CsPassword",
+          "children": [
+            {
+              "name": "Get-CsPassword"
+            }
+          ]
+        },
+        {
+          "name": "CsDefaultStore",
+          "children": [
+            {
+              "name": "Get-CsDefaultStore"
+            },
+            {
+              "name": "Set-CsDefaultStore"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

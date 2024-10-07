@@ -1,0 +1,848 @@
+{
+  "name": "labbuildr",
+  "children": [
+    {
+      "name": "Homematic-CCU2",
+      "companyName": "labbuildr",
+      "author": "Karsten Bott",
+      "children": [
+        {
+          "name": "CCU2Version",
+          "children": [
+            {
+              "name": "Get-CCU2Version"
+            }
+          ]
+        },
+        {
+          "name": "CCU2SSHDaemon",
+          "children": [
+            {
+              "name": "Restart-CCU2SSHDaemon"
+            }
+          ]
+        },
+        {
+          "name": "CCU2SSHState",
+          "children": [
+            {
+              "name": "Get-CCU2SSHState"
+            }
+          ]
+        },
+        {
+          "name": "CCU2StickyUnreachState",
+          "children": [
+            {
+              "name": "Get-CCU2StickyUnreachState"
+            }
+          ]
+        },
+        {
+          "name": "CCU2Serialnumber",
+          "children": [
+            {
+              "name": "Get-CCU2Serialnumber"
+            }
+          ]
+        },
+        {
+          "name": "CCU2DeviceDetails",
+          "children": [
+            {
+              "name": "Get-CCU2DeviceDetails"
+            }
+          ]
+        },
+        {
+          "name": "CCU2Interfaces",
+          "children": [
+            {
+              "name": "Get-CCU2Interfaces"
+            }
+          ]
+        },
+        {
+          "name": "CCU2Device",
+          "children": [
+            {
+              "name": "Get-CCU2Device"
+            }
+          ]
+        },
+        {
+          "name": "CCU2ConfiguredDevices",
+          "children": [
+            {
+              "name": "Get-CCU2ConfiguredDevices"
+            }
+          ]
+        },
+        {
+          "name": "CCU2DeviceDescription",
+          "children": [
+            {
+              "name": "Get-CCU2DeviceDescription"
+            }
+          ]
+        },
+        {
+          "name": "CCU2Devices",
+          "children": [
+            {
+              "name": "Get-CCU2Devices"
+            }
+          ]
+        },
+        {
+          "name": "CCU2DeviceFirmwareState",
+          "children": [
+            {
+              "name": "Get-CCU2DeviceFirmwareState"
+            }
+          ]
+        },
+        {
+          "name": "CCU2HmIPInstallMode",
+          "children": [
+            {
+              "name": "Get-CCU2HmIPInstallMode"
+            },
+            {
+              "name": "Set-CCU2HmIPInstallMode"
+            }
+          ]
+        },
+        {
+          "name": "CCU2DeployedDeviceFirmwareList",
+          "children": [
+            {
+              "name": "Update-CCU2DeployedDeviceFirmwareList"
+            }
+          ]
+        },
+        {
+          "name": "CCU2DeviceFirmware",
+          "children": [
+            {
+              "name": "Update-CCU2DeviceFirmware"
+            }
+          ]
+        },
+        {
+          "name": "CCU2",
+          "children": [
+            {
+              "name": "Connect-CCU2"
+            },
+            {
+              "name": "Disconnect-CCU2"
+            }
+          ]
+        },
+        {
+          "name": "CCU2Session",
+          "children": [
+            {
+              "name": "Update-CCU2Session"
+            }
+          ]
+        },
+        {
+          "name": "CCU2method",
+          "children": [
+            {
+              "name": "Invoke-CCU2method"
+            }
+          ]
+        },
+        {
+          "name": "CCU2NewDevicesCount",
+          "children": [
+            {
+              "name": "Get-CCU2NewDevicesCount"
+            }
+          ]
+        },
+        {
+          "name": "CCU2Methods",
+          "children": [
+            {
+              "name": "Get-CCU2Methods"
+            }
+          ]
+        },
+        {
+          "name": "CCU2methodHelp",
+          "children": [
+            {
+              "name": "Get-CCU2methodHelp"
+            }
+          ]
+        },
+        {
+          "name": "CCU2Api",
+          "children": [
+            {
+              "name": "Get-CCU2Api"
+            }
+          ]
+        },
+        {
+          "name": "CCU2AllSubsections",
+          "children": [
+            {
+              "name": "Get-CCU2AllSubsections"
+            }
+          ]
+        },
+        {
+          "name": "CCU2AllSubsectionsDetail",
+          "children": [
+            {
+              "name": "Get-CCU2AllSubsectionsDetail"
+            }
+          ]
+        },
+        {
+          "name": "CCU2Subsection",
+          "children": [
+            {
+              "name": "Get-CCU2Subsection"
+            }
+          ]
+        },
+        {
+          "name": "CCU2AllSysVars",
+          "children": [
+            {
+              "name": "Get-CCU2AllSysVars"
+            }
+          ]
+        },
+        {
+          "name": "CCU2SysVar",
+          "children": [
+            {
+              "name": "Get-CCU2SysVar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vmxtoolkit",
+      "companyName": "labbuildr",
+      "author": "Karsten Bott",
+      "children": [
+        {
+          "name": "yesno",
+          "children": [
+            {
+              "name": "Get-yesno"
+            }
+          ]
+        },
+        {
+          "name": "VMwareVersion",
+          "children": [
+            {
+              "name": "Get-VMwareVersion"
+            }
+          ]
+        },
+        {
+          "name": "yesnoabort",
+          "children": [
+            {
+              "name": "Get-yesnoabort"
+            }
+          ]
+        },
+        {
+          "name": "VMXProcessesInGuest",
+          "children": [
+            {
+              "name": "Get-VMXProcessesInGuest"
+            }
+          ]
+        },
+        {
+          "name": "VMXHWVersion",
+          "children": [
+            {
+              "name": "Get-VMXHWVersion"
+            },
+            {
+              "name": "Set-VMXHWversion"
+            }
+          ]
+        },
+        {
+          "name": "VMXDisconnectIDE",
+          "children": [
+            {
+              "name": "Set-VMXDisconnectIDE"
+            }
+          ]
+        },
+        {
+          "name": "VMXIDECDrom",
+          "children": [
+            {
+              "name": "Set-VMXIDECDrom"
+            }
+          ]
+        },
+        {
+          "name": "VMXAnnotation",
+          "children": [
+            {
+              "name": "Set-VMXAnnotation"
+            },
+            {
+              "name": "Get-VMXAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "VMXToolsState",
+          "children": [
+            {
+              "name": "Get-VMXToolsState"
+            }
+          ]
+        },
+        {
+          "name": "VMXConfigVersion",
+          "children": [
+            {
+              "name": "Get-VMXConfigVersion"
+            }
+          ]
+        },
+        {
+          "name": "VMXDiskfile",
+          "children": [
+            {
+              "name": "Expand-VMXDiskfile"
+            },
+            {
+              "name": "Resize-VMXDiskfile"
+            }
+          ]
+        },
+        {
+          "name": "VMXDisk",
+          "children": [
+            {
+              "name": "Optimize-VMXDisk"
+            },
+            {
+              "name": "Repair-VMXDisk"
+            }
+          ]
+        },
+        {
+          "name": "VMXOVATemplate",
+          "children": [
+            {
+              "name": "Import-VMXOVATemplate"
+            }
+          ]
+        },
+        {
+          "name": "VMXInfo",
+          "children": [
+            {
+              "name": "Get-VMXInfo"
+            }
+          ]
+        },
+        {
+          "name": "VMXmemory",
+          "children": [
+            {
+              "name": "Get-VMXmemory"
+            },
+            {
+              "name": "Set-VMXmemory"
+            }
+          ]
+        },
+        {
+          "name": "VMXProcessor",
+          "children": [
+            {
+              "name": "Get-VMXProcessor"
+            },
+            {
+              "name": "Set-VMXprocessor"
+            }
+          ]
+        },
+        {
+          "name": "VMXScsiDisk",
+          "children": [
+            {
+              "name": "Get-VMXScsiDisk"
+            },
+            {
+              "name": "New-VMXScsiDisk"
+            },
+            {
+              "name": "Remove-VMXScsiDisk"
+            },
+            {
+              "name": "Add-VMXScsiDisk"
+            }
+          ]
+        },
+        {
+          "name": "VMXsharedFolder",
+          "children": [
+            {
+              "name": "Get-VMXsharedFolder"
+            },
+            {
+              "name": "Set-VMXSharedFolder"
+            }
+          ]
+        },
+        {
+          "name": "VMXScsiController",
+          "children": [
+            {
+              "name": "Get-VMXScsiController"
+            },
+            {
+              "name": "Set-VMXScsiController"
+            }
+          ]
+        },
+        {
+          "name": "VMXIdeDisk",
+          "children": [
+            {
+              "name": "Get-VMXIdeDisk"
+            }
+          ]
+        },
+        {
+          "name": "VMXPattern",
+          "children": [
+            {
+              "name": "Search-VMXPattern"
+            }
+          ]
+        },
+        {
+          "name": "VMXConfig",
+          "children": [
+            {
+              "name": "Get-VMXConfig"
+            }
+          ]
+        },
+        {
+          "name": "VMXNetworkAdapter",
+          "children": [
+            {
+              "name": "Get-VMXNetworkAdapter"
+            },
+            {
+              "name": "Set-VMXNetworkAdapter"
+            },
+            {
+              "name": "Connect-VMXNetworkAdapter"
+            },
+            {
+              "name": "Disconnect-VMXNetworkAdapter"
+            }
+          ]
+        },
+        {
+          "name": "VMXNetworkAddress",
+          "children": [
+            {
+              "name": "Get-VMXNetworkAddress"
+            }
+          ]
+        },
+        {
+          "name": "VMXNetwork",
+          "children": [
+            {
+              "name": "Get-VMXNetwork"
+            }
+          ]
+        },
+        {
+          "name": "VMXNetworkConnection",
+          "children": [
+            {
+              "name": "Get-VMXNetworkConnection"
+            }
+          ]
+        },
+        {
+          "name": "VMXGuestOS",
+          "children": [
+            {
+              "name": "Get-VMXGuestOS"
+            },
+            {
+              "name": "Set-VMXGuestOS"
+            }
+          ]
+        },
+        {
+          "name": "VMXVTBit",
+          "children": [
+            {
+              "name": "Get-VMXVTBit"
+            },
+            {
+              "name": "Set-VMXVTBit"
+            }
+          ]
+        },
+        {
+          "name": "VMXDisplayName",
+          "children": [
+            {
+              "name": "Get-VMXDisplayName"
+            },
+            {
+              "name": "Set-VMXDisplayName"
+            }
+          ]
+        },
+        {
+          "name": "VMXNetworkAdapterDisplayName",
+          "children": [
+            {
+              "name": "Get-VMXNetworkAdapterDisplayName"
+            }
+          ]
+        },
+        {
+          "name": "VMXIPAddress",
+          "children": [
+            {
+              "name": "Get-VMXIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "VMXVariable",
+          "children": [
+            {
+              "name": "Get-VMXVariable"
+            }
+          ]
+        },
+        {
+          "name": "VMXnestedHVEnabled",
+          "children": [
+            {
+              "name": "Set-VMXnestedHVEnabled"
+            }
+          ]
+        },
+        {
+          "name": "VMXUUID",
+          "children": [
+            {
+              "name": "Set-VMXUUID"
+            },
+            {
+              "name": "Get-VMXUUID"
+            }
+          ]
+        },
+        {
+          "name": "VMXSharedFolderState",
+          "children": [
+            {
+              "name": "Set-VMXSharedFolderState"
+            }
+          ]
+        },
+        {
+          "name": "VMXRun",
+          "children": [
+            {
+              "name": "Get-VMXRun"
+            }
+          ]
+        },
+        {
+          "name": "VMX",
+          "children": [
+            {
+              "name": "Get-VMX"
+            },
+            {
+              "name": "Start-VMX"
+            },
+            {
+              "name": "Stop-VMX"
+            },
+            {
+              "name": "Suspend-VMX"
+            },
+            {
+              "name": "Remove-vmx"
+            },
+            {
+              "name": "New-VMX"
+            }
+          ]
+        },
+        {
+          "name": "VMXSnapshot",
+          "children": [
+            {
+              "name": "New-VMXSnapshot"
+            },
+            {
+              "name": "Restore-VMXSnapshot"
+            },
+            {
+              "name": "Get-VMXSnapshot"
+            },
+            {
+              "name": "Remove-VMXSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "VMXLinkedClone",
+          "children": [
+            {
+              "name": "New-VMXLinkedClone"
+            }
+          ]
+        },
+        {
+          "name": "VMXClone",
+          "children": [
+            {
+              "name": "New-VMXClone"
+            }
+          ]
+        },
+        {
+          "name": "VMXTemplate",
+          "children": [
+            {
+              "name": "Set-VMXTemplate"
+            },
+            {
+              "name": "Get-VMXTemplate"
+            }
+          ]
+        },
+        {
+          "name": "VMXcdromImage",
+          "children": [
+            {
+              "name": "Connect-VMXcdromImage"
+            }
+          ]
+        },
+        {
+          "name": "VMXVnet",
+          "children": [
+            {
+              "name": "Set-VMXVnet"
+            }
+          ]
+        },
+        {
+          "name": "VMXserial",
+          "children": [
+            {
+              "name": "Remove-VMXserial"
+            }
+          ]
+        },
+        {
+          "name": "VMXserialPipe",
+          "children": [
+            {
+              "name": "Set-VMXserialPipe"
+            }
+          ]
+        },
+        {
+          "name": "VMXScenario",
+          "children": [
+            {
+              "name": "Set-VMXScenario"
+            },
+            {
+              "name": "Get-VMXscenario"
+            }
+          ]
+        },
+        {
+          "name": "VMXActivationPreference",
+          "children": [
+            {
+              "name": "Set-VMXActivationPreference"
+            },
+            {
+              "name": "Get-VMXActivationPreference"
+            }
+          ]
+        },
+        {
+          "name": "VMXPowerShell",
+          "children": [
+            {
+              "name": "Invoke-VMXPowerShell"
+            }
+          ]
+        },
+        {
+          "name": "VMXBash",
+          "children": [
+            {
+              "name": "Invoke-VMXBash"
+            }
+          ]
+        },
+        {
+          "name": "VMXScript",
+          "children": [
+            {
+              "name": "Invoke-VMXScript"
+            }
+          ]
+        },
+        {
+          "name": "VMXexpect",
+          "children": [
+            {
+              "name": "Invoke-VMXexpect"
+            }
+          ]
+        },
+        {
+          "name": "VMXSnapshotconfig",
+          "children": [
+            {
+              "name": "Get-VMXSnapshotconfig"
+            }
+          ]
+        },
+        {
+          "name": "VMXMainMemory",
+          "children": [
+            {
+              "name": "Set-VMXMainMemory"
+            }
+          ]
+        },
+        {
+          "name": "VMXToolsReminder",
+          "children": [
+            {
+              "name": "Set-VMXToolsReminder"
+            }
+          ]
+        },
+        {
+          "name": "VMXSize",
+          "children": [
+            {
+              "name": "Set-VMXSize"
+            }
+          ]
+        },
+        {
+          "name": "VMXDisplayScaling",
+          "children": [
+            {
+              "name": "Set-VMXDisplayScaling"
+            }
+          ]
+        },
+        {
+          "name": "VMXdos2unix",
+          "children": [
+            {
+              "name": "Convert-VMXdos2unix"
+            }
+          ]
+        },
+        {
+          "name": "VMXFile2Guest",
+          "children": [
+            {
+              "name": "Copy-VMXFile2Guest"
+            }
+          ]
+        },
+        {
+          "name": "VMXFile2Host",
+          "children": [
+            {
+              "name": "Copy-VMXFile2Host"
+            }
+          ]
+        },
+        {
+          "name": "VMXDirHost2Guest",
+          "children": [
+            {
+              "name": "Copy-VMXDirHost2Guest"
+            }
+          ]
+        },
+        {
+          "name": "VMXGuestPath",
+          "children": [
+            {
+              "name": "New-VMXGuestPath"
+            }
+          ]
+        },
+        {
+          "name": "VMXLinuxNetwork",
+          "children": [
+            {
+              "name": "Set-VMXLinuxNetwork"
+            }
+          ]
+        },
+        {
+          "name": "VMXLinuxDNS",
+          "children": [
+            {
+              "name": "Set-VMXLinuxDNS"
+            }
+          ]
+        },
+        {
+          "name": "VMXFileInGuest",
+          "children": [
+            {
+              "name": "Test-VMXFileInGuest"
+            }
+          ]
+        },
+        {
+          "name": "VMXuserloggedIn",
+          "children": [
+            {
+              "name": "Wait-VMXuserloggedIn"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

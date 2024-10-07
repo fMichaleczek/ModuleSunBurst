@@ -1,0 +1,167 @@
+{
+  "name": "Robin Stolpe",
+  "children": [
+    {
+      "name": "ConvertSID",
+      "companyName": "Stolpe.io",
+      "author": "Robin Stolpe",
+      "children": [
+        {
+          "name": "SID",
+          "children": [
+            {
+              "name": "Convert-SID"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DeleteUserProfile",
+      "companyName": "Robin Stolpe",
+      "author": "Robin Stolpe",
+      "children": [
+        {
+          "name": "RSUserProfile",
+          "children": [
+            {
+              "name": "Get-RSUserProfile"
+            },
+            {
+              "name": "Remove-RSUserProfile"
+            }
+          ]
+        },
+        {
+          "name": "RSProfile",
+          "children": [
+            {
+              "name": "Confirm-RSProfile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GenerateRandomPassword",
+      "companyName": "Stolpe.io",
+      "author": "Robin Stolpe",
+      "children": [
+        {
+          "name": "RSRandomPassword",
+          "children": [
+            {
+              "name": "New-RSRandomPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MaintainModule",
+      "companyName": "Stolpe.io",
+      "author": "Robin Stolpe",
+      "children": [
+        {
+          "name": "RSModule",
+          "children": [
+            {
+              "name": "Uninstall-RSModule"
+            },
+            {
+              "name": "Update-RSModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MonitorInformation",
+      "companyName": "Stolpe.io",
+      "author": "Robin Stolpe",
+      "children": [
+        {
+          "name": "RSMonitorInformation",
+          "children": [
+            {
+              "name": "Get-RSMonitorInformation"
+            }
+          ]
+        },
+        {
+          "name": "MonitorManufacturer",
+          "children": [
+            {
+              "name": "Convert-MonitorManufacturer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rsServiceModule",
+      "companyName": "Stolpe.io",
+      "author": "Robin Stolpe",
+      "children": [
+        {
+          "name": "ReturnMessageTemplate",
+          "children": [
+            {
+              "name": "Get-ReturnMessageTemplate"
+            }
+          ]
+        },
+        {
+          "name": "WhiteSpaceToDot",
+          "children": [
+            {
+              "name": "Convert-WhiteSpaceToDot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WinSoftwareUpdate",
+      "companyName": "Stolpe.io",
+      "author": "Robin Stolpe",
+      "children": [
+        {
+          "name": "RSWinSoftware",
+          "children": [
+            {
+              "name": "Update-RSWinSoftware"
+            }
+          ]
+        },
+        {
+          "name": "RSWinGet",
+          "children": [
+            {
+              "name": "Confirm-RSWinGet"
+            },
+            {
+              "name": "Start-RSWinGet"
+            }
+          ]
+        },
+        {
+          "name": "RSInstallInfo",
+          "children": [
+            {
+              "name": "Get-RSInstallInfo"
+            }
+          ]
+        },
+        {
+          "name": "RSVCLib",
+          "children": [
+            {
+              "name": "Install-RSVCLib"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Trackyon",
+  "children": [
+    {
+      "name": "Trackyon.GoDaddy",
+      "companyName": "Trackyon",
+      "author": "DonovanBrown",
+      "children": [
+        {
+          "name": "GDDomain",
+          "children": [
+            {
+              "name": "Get-GDDomain"
+            }
+          ]
+        },
+        {
+          "name": "GDDomainRecord",
+          "children": [
+            {
+              "name": "Get-GDDomainRecord"
+            },
+            {
+              "name": "Set-GDDomainRecord"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "trackyon.nuget",
+      "companyName": "Trackyon",
+      "author": "DonovanBrown",
+      "children": [
+        {
+          "name": "NuSpec",
+          "children": [
+            {
+              "name": "ConvertTo-NuSpec"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

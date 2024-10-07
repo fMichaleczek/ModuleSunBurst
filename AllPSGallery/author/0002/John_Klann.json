@@ -1,0 +1,144 @@
+{
+  "name": "John Klann",
+  "children": [
+    {
+      "name": "PoShKeePass",
+      "companyName": "Unknown",
+      "author": "John Klann",
+      "children": [
+        {
+          "name": "KeePassEntry",
+          "children": [
+            {
+              "name": "New-KeePassEntry"
+            },
+            {
+              "name": "Get-KeePassEntry"
+            },
+            {
+              "name": "Update-KeePassEntry"
+            },
+            {
+              "name": "Remove-KeePassEntry"
+            }
+          ]
+        },
+        {
+          "name": "KeePassGroup",
+          "children": [
+            {
+              "name": "New-KeePassGroup"
+            },
+            {
+              "name": "Get-KeePassGroup"
+            },
+            {
+              "name": "Update-KeePassGroup"
+            },
+            {
+              "name": "Remove-KeePassGroup"
+            }
+          ]
+        },
+        {
+          "name": "KeePassPassword",
+          "children": [
+            {
+              "name": "New-KeePassPassword"
+            }
+          ]
+        },
+        {
+          "name": "KeePassDatabaseConfiguration",
+          "children": [
+            {
+              "name": "New-KeePassDatabaseConfiguration"
+            },
+            {
+              "name": "Get-KeePassDatabaseConfiguration"
+            },
+            {
+              "name": "Remove-KeePassDatabaseConfiguration"
+            },
+            {
+              "name": "Update-KeePassDatabaseConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "KPPSObject",
+          "children": [
+            {
+              "name": "ConvertTo-KPPSObject"
+            }
+          ]
+        },
+        {
+          "name": "KeePassDatabase",
+          "children": [
+            {
+              "name": "New-KeePassDatabase"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoShSQLLocalDB",
+      "companyName": "Unknown",
+      "author": "John Klann",
+      "children": [
+        {
+          "name": "SQLLocalDBInstance",
+          "children": [
+            {
+              "name": "New-SQLLocalDBInstance"
+            },
+            {
+              "name": "Remove-SQLLocalDBInstance"
+            },
+            {
+              "name": "Start-SQLLocalDBInstance"
+            },
+            {
+              "name": "Stop-SQLLocalDBInstance"
+            },
+            {
+              "name": "Get-SQLLocalDBInstance"
+            }
+          ]
+        },
+        {
+          "name": "SQLLocalDBTraceAPI",
+          "children": [
+            {
+              "name": "Start-SQLLocalDBTraceAPI"
+            },
+            {
+              "name": "Stop-SQLLocalDBTraceAPI"
+            }
+          ]
+        },
+        {
+          "name": "SQLLocalDBVersions",
+          "children": [
+            {
+              "name": "Get-SQLLocalDBVersions"
+            }
+          ]
+        },
+        {
+          "name": "SQLLocalDBSharedInstance",
+          "children": [
+            {
+              "name": "Add-SQLLocalDBSharedInstance"
+            },
+            {
+              "name": "Remove-SQLLocalDBSharedInstance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

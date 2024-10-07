@@ -1,0 +1,355 @@
+{
+  "name": "June Castillote",
+  "children": [
+    {
+      "name": "ExchangeAddressListVisibilityWatcher",
+      "companyName": "LazyExchangeAdmin.com",
+      "author": "June Castillote",
+      "children": [
+        {
+          "name": "GetCurrentGroupMembers",
+          "children": [
+            {
+              "name": "GetCurrentGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "CompareGroupMembers",
+          "children": [
+            {
+              "name": "CompareGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "UnhideFromGAL",
+          "children": [
+            {
+              "name": "UnhideFromGAL"
+            }
+          ]
+        },
+        {
+          "name": "HideFromGAL",
+          "children": [
+            {
+              "name": "HideFromGAL"
+            }
+          ]
+        },
+        {
+          "name": "UpdateAddressListVisibility",
+          "children": [
+            {
+              "name": "UpdateAddressListVisibility"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ExchangeInboxRuleChangeMonitor",
+      "companyName": "june.castillote gmail.com",
+      "author": "June Castillote",
+      "children": [
+        {
+          "name": "InboxRuleChange",
+          "children": [
+            {
+              "name": "Get-InboxRuleChange"
+            }
+          ]
+        },
+        {
+          "name": "InboxRuleChangeHTMLReport",
+          "children": [
+            {
+              "name": "Write-InboxRuleChangeHTMLReport"
+            }
+          ]
+        },
+        {
+          "name": "InboxRuleList",
+          "children": [
+            {
+              "name": "Get-InboxRuleList"
+            }
+          ]
+        },
+        {
+          "name": "InboxRuleListHTMLReport",
+          "children": [
+            {
+              "name": "Write-InboxRuleListHTMLReport"
+            }
+          ]
+        },
+        {
+          "name": "InboxRule",
+          "children": [
+            {
+              "name": "Compare-InboxRule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ExCmdReport",
+      "companyName": "June Castillote",
+      "author": "June Castillote",
+      "children": [
+        {
+          "name": "ExCmdLog",
+          "children": [
+            {
+              "name": "Get-ExCmdLog"
+            }
+          ]
+        },
+        {
+          "name": "ExCmdReport",
+          "children": [
+            {
+              "name": "Write-ExCmdReport"
+            }
+          ]
+        },
+        {
+          "name": "ExOL",
+          "children": [
+            {
+              "name": "Connect-ExOL"
+            }
+          ]
+        },
+        {
+          "name": "ExOP",
+          "children": [
+            {
+              "name": "Connect-ExOP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lazyExchangeAdmin",
+      "companyName": "lazyexchangeadmin.com",
+      "author": "June Castillote",
+      "children": [
+        {
+          "name": "lazyGraphAPIToken",
+          "children": [
+            {
+              "name": "New-lazyGraphAPIToken"
+            }
+          ]
+        },
+        {
+          "name": "lazyOutlookAPIToken",
+          "children": [
+            {
+              "name": "New-lazyOutlookAPIToken"
+            }
+          ]
+        },
+        {
+          "name": "lazyExchangeOnlineSession",
+          "children": [
+            {
+              "name": "New-lazyExchangeOnlineSession"
+            }
+          ]
+        },
+        {
+          "name": "lazyExchangeOnPremSession",
+          "children": [
+            {
+              "name": "New-lazyExchangeOnPremSession"
+            }
+          ]
+        },
+        {
+          "name": "lazyZipFile",
+          "children": [
+            {
+              "name": "New-lazyZipFile"
+            }
+          ]
+        },
+        {
+          "name": "lazyHousekeeping",
+          "children": [
+            {
+              "name": "Invoke-lazyHousekeeping"
+            }
+          ]
+        },
+        {
+          "name": "lazyTxnLogging",
+          "children": [
+            {
+              "name": "Stop-lazyTxnLogging"
+            },
+            {
+              "name": "Start-lazyTxnLogging"
+            }
+          ]
+        },
+        {
+          "name": "lazyScriptInfo",
+          "children": [
+            {
+              "name": "Get-lazyScriptInfo"
+            }
+          ]
+        },
+        {
+          "name": "lazyTimeZone",
+          "children": [
+            {
+              "name": "Get-lazyTimeZone"
+            }
+          ]
+        },
+        {
+          "name": "lazyWriteError",
+          "children": [
+            {
+              "name": "lazyWriteError"
+            }
+          ]
+        },
+        {
+          "name": "lazyWriteInfo",
+          "children": [
+            {
+              "name": "lazyWriteInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LazyExchangeAdmin.AdExpNotify",
+      "companyName": "June Castillote",
+      "author": "June Castillote",
+      "children": [
+        {
+          "name": "AdExpUser",
+          "children": [
+            {
+              "name": "Get-AdExpUser"
+            }
+          ]
+        },
+        {
+          "name": "AdExpAlert",
+          "children": [
+            {
+              "name": "Send-AdExpAlert"
+            }
+          ]
+        },
+        {
+          "name": "AdExpLog",
+          "children": [
+            {
+              "name": "Start-AdExpLog"
+            },
+            {
+              "name": "Stop-AdExpLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LazyExchangeAdmin.SkuMon",
+      "companyName": "lazyexchangeadmin.com",
+      "author": "June Castillote",
+      "children": [
+        {
+          "name": "SkuMonGet",
+          "children": [
+            {
+              "name": "SkuMonGet"
+            }
+          ]
+        },
+        {
+          "name": "SkuMonSetUp",
+          "children": [
+            {
+              "name": "SkuMonSetUp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MS365HealthReport",
+      "companyName": "June Castillote",
+      "author": "June Castillote",
+      "children": [
+        {
+          "name": "MS365IncidentReport",
+          "children": [
+            {
+              "name": "New-MS365IncidentReport"
+            }
+          ]
+        },
+        {
+          "name": "MS365Messages",
+          "children": [
+            {
+              "name": "Get-MS365Messages"
+            }
+          ]
+        },
+        {
+          "name": "MS365HealthOverview",
+          "children": [
+            {
+              "name": "Get-MS365HealthOverview"
+            }
+          ]
+        },
+        {
+          "name": "MS365CurrentStatus",
+          "children": [
+            {
+              "name": "Get-MS365CurrentStatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office365TokenGet",
+      "companyName": "lazyexchangeadmin.com",
+      "author": "June Castillote",
+      "children": [
+        {
+          "name": "MSGraphAPIToken",
+          "children": [
+            {
+              "name": "New-MSGraphAPIToken"
+            }
+          ]
+        },
+        {
+          "name": "OutlookRestAPIToken",
+          "children": [
+            {
+              "name": "New-OutlookRestAPIToken"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

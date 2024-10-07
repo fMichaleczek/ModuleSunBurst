@@ -1,0 +1,1015 @@
+{
+  "name": "d fens GmbH",
+  "children": [
+    {
+      "name": "biz.dfch.PS.Activiti.Client",
+      "companyName": "d fens GmbH",
+      "author": "d fens GmbH",
+      "children": [
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Enter-Server"
+            }
+          ]
+        },
+        {
+          "name": "WorkflowDefinition",
+          "children": [
+            {
+              "name": "Get-WorkflowDefinition"
+            }
+          ]
+        },
+        {
+          "name": "WorkflowDeployment",
+          "children": [
+            {
+              "name": "Get-WorkflowDeployment"
+            },
+            {
+              "name": "Remove-WorkflowDeployment"
+            },
+            {
+              "name": "Import-WorkflowDeployment"
+            }
+          ]
+        },
+        {
+          "name": "WorkflowInstance",
+          "children": [
+            {
+              "name": "Start-WorkflowInstance"
+            },
+            {
+              "name": "Suspend-WorkflowInstance"
+            },
+            {
+              "name": "Resume-WorkflowInstance"
+            },
+            {
+              "name": "Get-WorkflowInstance"
+            },
+            {
+              "name": "Stop-WorkflowInstance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "biz.dfch.PS.Appclusive.Client",
+      "companyName": "d fens GmbH",
+      "author": "Ronald Rink",
+      "children": [
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Enter-Server"
+            }
+          ]
+        },
+        {
+          "name": "KeyNameValue",
+          "children": [
+            {
+              "name": "New-KeyNameValue"
+            },
+            {
+              "name": "Get-KeyNameValue"
+            },
+            {
+              "name": "Set-KeyNameValue"
+            },
+            {
+              "name": "Remove-KeyNameValue"
+            }
+          ]
+        },
+        {
+          "name": "ManagementCredential",
+          "children": [
+            {
+              "name": "New-ManagementCredential"
+            },
+            {
+              "name": "Get-ManagementCredential"
+            },
+            {
+              "name": "Set-ManagementCredential"
+            },
+            {
+              "name": "Remove-ManagementCredential"
+            }
+          ]
+        },
+        {
+          "name": "Entity",
+          "children": [
+            {
+              "name": "Remove-Entity"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVariable",
+          "children": [
+            {
+              "name": "Get-ModuleVariable"
+            }
+          ]
+        },
+        {
+          "name": "Time",
+          "children": [
+            {
+              "name": "Get-Time"
+            }
+          ]
+        },
+        {
+          "name": "Status",
+          "children": [
+            {
+              "name": "Test-Status"
+            }
+          ]
+        },
+        {
+          "name": "Job",
+          "children": [
+            {
+              "name": "Get-Job"
+            },
+            {
+              "name": "Set-Job"
+            }
+          ]
+        },
+        {
+          "name": "ChangeTracker",
+          "children": [
+            {
+              "name": "Pop-ChangeTracker"
+            },
+            {
+              "name": "Push-ChangeTracker"
+            }
+          ]
+        },
+        {
+          "name": "User",
+          "children": [
+            {
+              "name": "New-User"
+            },
+            {
+              "name": "Get-User"
+            },
+            {
+              "name": "Set-User"
+            }
+          ]
+        },
+        {
+          "name": "ManagementUri",
+          "children": [
+            {
+              "name": "Get-ManagementUri"
+            },
+            {
+              "name": "Set-ManagementUri"
+            },
+            {
+              "name": "New-ManagementUri"
+            }
+          ]
+        },
+        {
+          "name": "EntityKind",
+          "children": [
+            {
+              "name": "Get-EntityKind"
+            }
+          ]
+        },
+        {
+          "name": "ResultAs",
+          "children": [
+            {
+              "name": "Format-ResultAs"
+            }
+          ]
+        },
+        {
+          "name": "Node",
+          "children": [
+            {
+              "name": "Get-Node"
+            },
+            {
+              "name": "New-Node"
+            },
+            {
+              "name": "Set-Node"
+            },
+            {
+              "name": "Remove-Node"
+            }
+          ]
+        },
+        {
+          "name": "NodeAction",
+          "children": [
+            {
+              "name": "Invoke-NodeAction"
+            }
+          ]
+        },
+        {
+          "name": "EntityAction",
+          "children": [
+            {
+              "name": "Invoke-EntityAction"
+            }
+          ]
+        },
+        {
+          "name": "ExternalNode",
+          "children": [
+            {
+              "name": "Get-ExternalNode"
+            },
+            {
+              "name": "New-ExternalNode"
+            },
+            {
+              "name": "Set-ExternalNode"
+            }
+          ]
+        },
+        {
+          "name": "CimiTarget",
+          "children": [
+            {
+              "name": "Get-CimiTarget"
+            }
+          ]
+        },
+        {
+          "name": "Product",
+          "children": [
+            {
+              "name": "Get-Product"
+            },
+            {
+              "name": "Import-Product"
+            }
+          ]
+        },
+        {
+          "name": "CatalogueItem",
+          "children": [
+            {
+              "name": "Get-CatalogueItem"
+            }
+          ]
+        },
+        {
+          "name": "Tenant",
+          "children": [
+            {
+              "name": "Get-Tenant"
+            },
+            {
+              "name": "Set-Tenant"
+            }
+          ]
+        },
+        {
+          "name": "SessionTenant",
+          "children": [
+            {
+              "name": "Set-SessionTenant"
+            },
+            {
+              "name": "Get-SessionTenant"
+            }
+          ]
+        },
+        {
+          "name": "Version",
+          "children": [
+            {
+              "name": "Get-Version"
+            }
+          ]
+        },
+        {
+          "name": "Exception",
+          "children": [
+            {
+              "name": "Format-Exception"
+            }
+          ]
+        },
+        {
+          "name": "Connector",
+          "children": [
+            {
+              "name": "New-Connector"
+            },
+            {
+              "name": "Set-Connector"
+            },
+            {
+              "name": "Get-Connector"
+            },
+            {
+              "name": "Remove-Connector"
+            }
+          ]
+        },
+        {
+          "name": "Interface",
+          "children": [
+            {
+              "name": "New-Interface"
+            },
+            {
+              "name": "Set-Interface"
+            },
+            {
+              "name": "Get-Interface"
+            },
+            {
+              "name": "Remove-Interface"
+            }
+          ]
+        },
+        {
+          "name": "Connect",
+          "children": [
+            {
+              "name": "Test-Connect"
+            }
+          ]
+        },
+        {
+          "name": "EntityBag",
+          "children": [
+            {
+              "name": "Set-EntityBag"
+            },
+            {
+              "name": "New-EntityBag"
+            },
+            {
+              "name": "Get-EntityBag"
+            }
+          ]
+        },
+        {
+          "name": "DataType",
+          "children": [
+            {
+              "name": "Import-DataType"
+            }
+          ]
+        },
+        {
+          "name": "Folder",
+          "children": [
+            {
+              "name": "Set-Folder"
+            },
+            {
+              "name": "New-Folder"
+            },
+            {
+              "name": "Get-Folder"
+            }
+          ]
+        },
+        {
+          "name": "Role",
+          "children": [
+            {
+              "name": "Get-Role"
+            },
+            {
+              "name": "Set-Role"
+            },
+            {
+              "name": "New-Role"
+            }
+          ]
+        },
+        {
+          "name": "Customer",
+          "children": [
+            {
+              "name": "Set-Customer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "biz.dfch.PS.Azure.ServiceBus.Client",
+      "companyName": "d fens GmbH",
+      "author": "d fens GmbH",
+      "children": [
+        {
+          "name": "GenericMethod",
+          "children": [
+            {
+              "name": "Invoke-GenericMethod"
+            }
+          ]
+        },
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Enter-Server"
+            }
+          ]
+        },
+        {
+          "name": "Message",
+          "children": [
+            {
+              "name": "Get-Message"
+            },
+            {
+              "name": "New-Message"
+            }
+          ]
+        },
+        {
+          "name": "MessageBody",
+          "children": [
+            {
+              "name": "Get-MessageBody"
+            }
+          ]
+        },
+        {
+          "name": "MessageReceiver",
+          "children": [
+            {
+              "name": "Get-MessageReceiver"
+            }
+          ]
+        },
+        {
+          "name": "MessageSender",
+          "children": [
+            {
+              "name": "Get-MessageSender"
+            }
+          ]
+        },
+        {
+          "name": "MessageFacility",
+          "children": [
+            {
+              "name": "New-MessageFacility"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "biz.dfch.PS.Azure.ServiceBus.Management",
+      "companyName": "d fens GmbH",
+      "author": "d fens GmbH",
+      "children": [
+        {
+          "name": "NotifcationHub",
+          "children": [
+            {
+              "name": "New-NotifcationHub"
+            }
+          ]
+        },
+        {
+          "name": "Queue",
+          "children": [
+            {
+              "name": "New-Queue"
+            },
+            {
+              "name": "Get-Queue"
+            },
+            {
+              "name": "Remove-Queue"
+            }
+          ]
+        },
+        {
+          "name": "Subscription",
+          "children": [
+            {
+              "name": "New-Subscription"
+            },
+            {
+              "name": "Get-Subscription"
+            },
+            {
+              "name": "Remove-Subscription"
+            }
+          ]
+        },
+        {
+          "name": "Topic",
+          "children": [
+            {
+              "name": "New-Topic"
+            },
+            {
+              "name": "Get-Topic"
+            },
+            {
+              "name": "Remove-Topic"
+            }
+          ]
+        },
+        {
+          "name": "Queues",
+          "children": [
+            {
+              "name": "Get-Queues"
+            }
+          ]
+        },
+        {
+          "name": "Topics",
+          "children": [
+            {
+              "name": "Get-Topics"
+            }
+          ]
+        },
+        {
+          "name": "Subscriptions",
+          "children": [
+            {
+              "name": "Get-Subscriptions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "biz.dfch.PS.Cimi.Client",
+      "companyName": "d fens GmbH",
+      "author": "Ronald Rink",
+      "children": [
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Enter-Server"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVariable",
+          "children": [
+            {
+              "name": "Get-ModuleVariable"
+            }
+          ]
+        },
+        {
+          "name": "Machine",
+          "children": [
+            {
+              "name": "Stop-Machine"
+            },
+            {
+              "name": "Start-Machine"
+            },
+            {
+              "name": "Restart-Machine"
+            },
+            {
+              "name": "Get-Machine"
+            },
+            {
+              "name": "Update-Machine"
+            }
+          ]
+        },
+        {
+          "name": "System",
+          "children": [
+            {
+              "name": "Get-System"
+            }
+          ]
+        },
+        {
+          "name": "Job",
+          "children": [
+            {
+              "name": "Get-Job"
+            }
+          ]
+        },
+        {
+          "name": "Snapshot",
+          "children": [
+            {
+              "name": "Get-Snapshot"
+            },
+            {
+              "name": "New-Snapshot"
+            }
+          ]
+        },
+        {
+          "name": "SnapshotTemplate",
+          "children": [
+            {
+              "name": "Get-SnapshotTemplate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "biz.dfch.PS.Redmine.Client",
+      "companyName": "d fens GmbH",
+      "author": "Ronald Rink",
+      "children": [
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Enter-Server"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "biz.dfch.PS.System.Logging",
+      "companyName": "d fens GmbH",
+      "author": "Ronald Rink",
+      "children": [
+        {
+          "name": "Message",
+          "children": [
+            {
+              "name": "Out-Message"
+            }
+          ]
+        },
+        {
+          "name": "MessageEmergency",
+          "children": [
+            {
+              "name": "Out-MessageEmergency"
+            }
+          ]
+        },
+        {
+          "name": "MessageCritical",
+          "children": [
+            {
+              "name": "Out-MessageCritical"
+            }
+          ]
+        },
+        {
+          "name": "MessageAlert",
+          "children": [
+            {
+              "name": "Out-MessageAlert"
+            }
+          ]
+        },
+        {
+          "name": "MessageError",
+          "children": [
+            {
+              "name": "Out-MessageError"
+            }
+          ]
+        },
+        {
+          "name": "MessageWarning",
+          "children": [
+            {
+              "name": "Out-MessageWarning"
+            }
+          ]
+        },
+        {
+          "name": "MessageNotice",
+          "children": [
+            {
+              "name": "Out-MessageNotice"
+            }
+          ]
+        },
+        {
+          "name": "MessageInformational",
+          "children": [
+            {
+              "name": "Out-MessageInformational"
+            }
+          ]
+        },
+        {
+          "name": "MessageDebug",
+          "children": [
+            {
+              "name": "Out-MessageDebug"
+            }
+          ]
+        },
+        {
+          "name": "MessageException",
+          "children": [
+            {
+              "name": "Out-MessageException"
+            }
+          ]
+        },
+        {
+          "name": "IsTrue",
+          "children": [
+            {
+              "name": "Assert-IsTrue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "biz.dfch.PS.System.Utilities",
+      "companyName": "d fens GmbH",
+      "author": "Ronald Rink",
+      "children": [
+        {
+          "name": "CustomErrorRecord",
+          "children": [
+            {
+              "name": "New-CustomErrorRecord"
+            }
+          ]
+        },
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "Format-Xml"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeEncoding",
+          "children": [
+            {
+              "name": "ConvertFrom-ExchangeEncoding"
+            }
+          ]
+        },
+        {
+          "name": "SecureStringDF",
+          "children": [
+            {
+              "name": "ConvertFrom-SecureStringDF"
+            }
+          ]
+        },
+        {
+          "name": "SecurePassword",
+          "children": [
+            {
+              "name": "New-SecurePassword"
+            }
+          ]
+        },
+        {
+          "name": "UrlEncoded",
+          "children": [
+            {
+              "name": "ConvertTo-UrlEncoded"
+            },
+            {
+              "name": "ConvertFrom-UrlEncoded"
+            }
+          ]
+        },
+        {
+          "name": "Base64",
+          "children": [
+            {
+              "name": "ConvertTo-Base64"
+            },
+            {
+              "name": "ConvertFrom-Base64"
+            }
+          ]
+        },
+        {
+          "name": "ComObjectType",
+          "children": [
+            {
+              "name": "Get-ComObjectType"
+            }
+          ]
+        },
+        {
+          "name": "StringPattern",
+          "children": [
+            {
+              "name": "Test-StringPattern"
+            }
+          ]
+        },
+        {
+          "name": "Credential",
+          "children": [
+            {
+              "name": "Import-Credential"
+            },
+            {
+              "name": "Export-Credential"
+            }
+          ]
+        },
+        {
+          "name": "Constructor",
+          "children": [
+            {
+              "name": "Get-Constructor"
+            }
+          ]
+        },
+        {
+          "name": "SslSecurityPolicy",
+          "children": [
+            {
+              "name": "Set-SslSecurityPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ActivityProgress",
+          "children": [
+            {
+              "name": "New-ActivityProgress"
+            },
+            {
+              "name": "Set-ActivityProgress"
+            },
+            {
+              "name": "Remove-ActivityProgress"
+            }
+          ]
+        },
+        {
+          "name": "CmdletHelp",
+          "children": [
+            {
+              "name": "ConvertFrom-CmdletHelp"
+            }
+          ]
+        },
+        {
+          "name": "CompressedItem",
+          "children": [
+            {
+              "name": "Expand-CompressedItem"
+            }
+          ]
+        },
+        {
+          "name": "IPAddress",
+          "children": [
+            {
+              "name": "Format-IPAddress"
+            }
+          ]
+        },
+        {
+          "name": "PSCustomObject",
+          "children": [
+            {
+              "name": "ConvertFrom-PSCustomObject"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertFrom-Hashtable"
+            },
+            {
+              "name": "Merge-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "CmdletDocumentation",
+          "children": [
+            {
+              "name": "Test-CmdletDocumentation"
+            },
+            {
+              "name": "Assert-CmdletDocumentation"
+            }
+          ]
+        },
+        {
+          "name": "ShortMessage",
+          "children": [
+            {
+              "name": "Send-ShortMessage"
+            }
+          ]
+        },
+        {
+          "name": "Signature",
+          "children": [
+            {
+              "name": "Update-Signature"
+            }
+          ]
+        },
+        {
+          "name": "WithRetry",
+          "children": [
+            {
+              "name": "Invoke-WithRetry"
+            }
+          ]
+        },
+        {
+          "name": "GenericMethod",
+          "children": [
+            {
+              "name": "Invoke-GenericMethod"
+            }
+          ]
+        },
+        {
+          "name": "DataType",
+          "children": [
+            {
+              "name": "Get-DataType"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net.Appclusive.PS.Client",
+      "companyName": "d fens GmbH",
+      "author": "d fens GmbH",
+      "children": [
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Enter-Server"
+            }
+          ]
+        },
+        {
+          "name": "Tenant",
+          "children": [
+            {
+              "name": "Get-Tenant"
+            }
+          ]
+        },
+        {
+          "name": "Configuration",
+          "children": [
+            {
+              "name": "Import-Configuration"
+            }
+          ]
+        },
+        {
+          "name": "Acl",
+          "children": [
+            {
+              "name": "New-Acl"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

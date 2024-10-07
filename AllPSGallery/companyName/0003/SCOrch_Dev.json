@@ -1,0 +1,177 @@
+{
+  "name": "SCOrch Dev",
+  "children": [
+    {
+      "name": "EWSMail",
+      "companyName": "SCOrch Dev",
+      "author": "SCOrchDev",
+      "children": [
+        {
+          "name": "EWSEmail",
+          "children": [
+            {
+              "name": "Read-EWSEmail"
+            },
+            {
+              "name": "Send-EWSEmail"
+            }
+          ]
+        },
+        {
+          "name": "EWSMailboxConnection",
+          "children": [
+            {
+              "name": "New-EWSMailboxConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-F5",
+      "companyName": "SCOrch Dev",
+      "author": "RyanAndorfer",
+      "children": [
+        {
+          "name": "F5ServerNode",
+          "children": [
+            {
+              "name": "Set-F5ServerNode"
+            }
+          ]
+        },
+        {
+          "name": "F5ServerNodeStatus",
+          "children": [
+            {
+              "name": "Get-F5ServerNodeStatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCOrchDev-SharePoint",
+      "companyName": "SCOrch Dev",
+      "author": "RyanAndorfer",
+      "children": [
+        {
+          "name": "SPUri",
+          "children": [
+            {
+              "name": "Format-SPUri"
+            }
+          ]
+        },
+        {
+          "name": "SPList",
+          "children": [
+            {
+              "name": "Get-SPList"
+            }
+          ]
+        },
+        {
+          "name": "SPListItem",
+          "children": [
+            {
+              "name": "Get-SPListItem"
+            },
+            {
+              "name": "Update-SPListItem"
+            },
+            {
+              "name": "Add-SPListItem"
+            },
+            {
+              "name": "Remove-SPListItem"
+            }
+          ]
+        },
+        {
+          "name": "SPListItemImmutable",
+          "children": [
+            {
+              "name": "Get-SPListItemImmutable"
+            }
+          ]
+        },
+        {
+          "name": "SPListItemObject",
+          "children": [
+            {
+              "name": "New-SPListItemObject"
+            }
+          ]
+        },
+        {
+          "name": "SPListItemAttachment",
+          "children": [
+            {
+              "name": "Get-SPListItemAttachment"
+            },
+            {
+              "name": "Add-SPListItemAttachment"
+            }
+          ]
+        },
+        {
+          "name": "RawSPItem",
+          "children": [
+            {
+              "name": "ConvertFrom-RawSPItem"
+            }
+          ]
+        },
+        {
+          "name": "SharePointPersonEmail",
+          "children": [
+            {
+              "name": "Get-SharePointPersonEmail"
+            }
+          ]
+        },
+        {
+          "name": "SPListItemStartTime",
+          "children": [
+            {
+              "name": "Test-SPListItemStartTime"
+            }
+          ]
+        },
+        {
+          "name": "SharepointASMXWebserviceProxy",
+          "children": [
+            {
+              "name": "New-SharepointASMXWebserviceProxy"
+            }
+          ]
+        },
+        {
+          "name": "ASMXListItem",
+          "children": [
+            {
+              "name": "Get-ASMXListItem"
+            }
+          ]
+        },
+        {
+          "name": "SPListASMXPath",
+          "children": [
+            {
+              "name": "Format-SPListASMXPath"
+            }
+          ]
+        },
+        {
+          "name": "SPListItemId",
+          "children": [
+            {
+              "name": "Split-SPListItemId"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

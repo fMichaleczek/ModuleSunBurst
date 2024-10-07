@@ -1,0 +1,629 @@
+{
+  "name": "Aur lien BOUMANNE",
+  "children": [
+    {
+      "name": "PSSymantecCloud",
+      "companyName": "Unknown",
+      "author": "Aur lien BOUMANNE",
+      "children": [
+        {
+          "name": "SepCloudFile",
+          "children": [
+            {
+              "name": "Block-SepCloudFile"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudAuthentication",
+          "children": [
+            {
+              "name": "Clear-SepCloudAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudAllowListPolicyToExcel",
+          "children": [
+            {
+              "name": "Export-SepCloudAllowListPolicyToExcel"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudDenyListPolicyToExcel",
+          "children": [
+            {
+              "name": "Export-SepCloudDenyListPolicyToExcel"
+            }
+          ]
+        },
+        {
+          "name": "EDRDumps",
+          "children": [
+            {
+              "name": "Get-EDRDumps"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudCommands",
+          "children": [
+            {
+              "name": "Get-SepCloudCommands"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudDeviceDetails",
+          "children": [
+            {
+              "name": "Get-SepCloudDeviceDetails"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudDevices",
+          "children": [
+            {
+              "name": "Get-SepCloudDevices"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudEvents",
+          "children": [
+            {
+              "name": "Get-SepCloudEvents"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudFeatureList",
+          "children": [
+            {
+              "name": "Get-SepCloudFeatureList"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudFilesInfo",
+          "children": [
+            {
+              "name": "Get-SepCloudFilesInfo"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudIncidentDetails",
+          "children": [
+            {
+              "name": "Get-SepCloudIncidentDetails"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudIncidents",
+          "children": [
+            {
+              "name": "Get-SepCloudIncidents"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudPolices",
+          "children": [
+            {
+              "name": "Get-SepCloudPolices"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudPolicyDetails",
+          "children": [
+            {
+              "name": "Get-SepCloudPolicyDetails"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudTargetRules",
+          "children": [
+            {
+              "name": "Get-SepCloudTargetRules"
+            }
+          ]
+        },
+        {
+          "name": "SepThreatIntelCveProtection",
+          "children": [
+            {
+              "name": "Get-SepThreatIntelCveProtection"
+            }
+          ]
+        },
+        {
+          "name": "SepThreatIntelFileInsight",
+          "children": [
+            {
+              "name": "Get-SepThreatIntelFileInsight"
+            }
+          ]
+        },
+        {
+          "name": "SepThreatIntelFileProcessChain",
+          "children": [
+            {
+              "name": "Get-SepThreatIntelFileProcessChain"
+            }
+          ]
+        },
+        {
+          "name": "SepThreatIntelFileProtection",
+          "children": [
+            {
+              "name": "Get-SepThreatIntelFileProtection"
+            }
+          ]
+        },
+        {
+          "name": "SepThreatIntelFileRelated",
+          "children": [
+            {
+              "name": "Get-SepThreatIntelFileRelated"
+            }
+          ]
+        },
+        {
+          "name": "SepThreatIntelNetworkInsight",
+          "children": [
+            {
+              "name": "Get-SepThreatIntelNetworkInsight"
+            }
+          ]
+        },
+        {
+          "name": "SepThreatIntelNetworkProtection",
+          "children": [
+            {
+              "name": "Get-SepThreatIntelNetworkProtection"
+            }
+          ]
+        },
+        {
+          "name": "EDRFullDump",
+          "children": [
+            {
+              "name": "New-EDRFullDump"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudDefinitionUpdate",
+          "children": [
+            {
+              "name": "Start-SepCloudDefinitionUpdate"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudFullScan",
+          "children": [
+            {
+              "name": "Start-SepCloudFullScan"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudQuickScan",
+          "children": [
+            {
+              "name": "Start-SepCloudQuickScan"
+            }
+          ]
+        },
+        {
+          "name": "SepCloudConnectivity",
+          "children": [
+            {
+              "name": "Test-SepCloudConnectivity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSymantecSEPM",
+      "companyName": "Unknown",
+      "author": "Aur lien BOUMANNE",
+      "children": [
+        {
+          "name": "SEPMFileFingerprintList",
+          "children": [
+            {
+              "name": "Add-SEPMFileFingerprintList"
+            },
+            {
+              "name": "Get-SEPMFileFingerprintList"
+            },
+            {
+              "name": "Remove-SEPMFileFingerprintList"
+            },
+            {
+              "name": "Update-SEPMFileFingerprintList"
+            }
+          ]
+        },
+        {
+          "name": "SEPMGroup",
+          "children": [
+            {
+              "name": "Add-SEPMGroup"
+            },
+            {
+              "name": "Remove-SEPMGroup"
+            }
+          ]
+        },
+        {
+          "name": "SEPMMacFileException",
+          "children": [
+            {
+              "name": "Add-SEPMMacFileException"
+            }
+          ]
+        },
+        {
+          "name": "SEPMWindowsExtensionException",
+          "children": [
+            {
+              "name": "Add-SEPMWindowsExtensionException"
+            },
+            {
+              "name": "Remove-SEPMWindowsExtensionException"
+            }
+          ]
+        },
+        {
+          "name": "SEPMWindowsFileException",
+          "children": [
+            {
+              "name": "Add-SEPMWindowsFileException"
+            },
+            {
+              "name": "Remove-SEPMWindowsFileException"
+            }
+          ]
+        },
+        {
+          "name": "SEPMWindowsFolderException",
+          "children": [
+            {
+              "name": "Add-SEPMWindowsFolderException"
+            },
+            {
+              "name": "Remove-SEPMWindowsFolderException"
+            }
+          ]
+        },
+        {
+          "name": "SEPMWindowsTamperProtectionException",
+          "children": [
+            {
+              "name": "Add-SEPMWindowsTamperProtectionException"
+            }
+          ]
+        },
+        {
+          "name": "SEPMAuthentication",
+          "children": [
+            {
+              "name": "Backup-SEPMAuthentication"
+            },
+            {
+              "name": "Clear-SepmAuthentication"
+            },
+            {
+              "name": "Restore-SEPMAuthentication"
+            },
+            {
+              "name": "Set-SepmAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "SEPMConfiguration",
+          "children": [
+            {
+              "name": "Backup-SEPMConfiguration"
+            },
+            {
+              "name": "Reset-SepmConfiguration"
+            },
+            {
+              "name": "Restore-SEPMConfiguration"
+            },
+            {
+              "name": "Set-SepmConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SEPMEventInfo",
+          "children": [
+            {
+              "name": "Confirm-SEPMEventInfo"
+            },
+            {
+              "name": "Get-SEPMEventInfo"
+            }
+          ]
+        },
+        {
+          "name": "FlatObject",
+          "children": [
+            {
+              "name": "ConvertTo-FlatObject"
+            }
+          ]
+        },
+        {
+          "name": "SEPMExceptionPolicyToExcel",
+          "children": [
+            {
+              "name": "Export-SEPMExceptionPolicyToExcel"
+            }
+          ]
+        },
+        {
+          "name": "SEPClientDefVersions",
+          "children": [
+            {
+              "name": "Get-SEPClientDefVersions"
+            }
+          ]
+        },
+        {
+          "name": "SEPClientInfectedStatus",
+          "children": [
+            {
+              "name": "Get-SEPClientInfectedStatus"
+            }
+          ]
+        },
+        {
+          "name": "SEPClientStatus",
+          "children": [
+            {
+              "name": "Get-SEPClientStatus"
+            }
+          ]
+        },
+        {
+          "name": "SEPClientVersion",
+          "children": [
+            {
+              "name": "Get-SEPClientVersion"
+            }
+          ]
+        },
+        {
+          "name": "SEPComputers",
+          "children": [
+            {
+              "name": "Get-SEPComputers"
+            }
+          ]
+        },
+        {
+          "name": "SEPFileDetails",
+          "children": [
+            {
+              "name": "Get-SEPFileDetails"
+            }
+          ]
+        },
+        {
+          "name": "SEPGUPList",
+          "children": [
+            {
+              "name": "Get-SEPGUPList"
+            }
+          ]
+        },
+        {
+          "name": "SEPMAccessToken",
+          "children": [
+            {
+              "name": "Get-SEPMAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "SEPMAdmins",
+          "children": [
+            {
+              "name": "Get-SEPMAdmins"
+            }
+          ]
+        },
+        {
+          "name": "SEPMCommandStatus",
+          "children": [
+            {
+              "name": "Get-SEPMCommandStatus"
+            }
+          ]
+        },
+        {
+          "name": "SEPMDatabaseInfo",
+          "children": [
+            {
+              "name": "Get-SEPMDatabaseInfo"
+            }
+          ]
+        },
+        {
+          "name": "SEPMDomain",
+          "children": [
+            {
+              "name": "Get-SEPMDomain"
+            }
+          ]
+        },
+        {
+          "name": "SEPMExceptionPolicy",
+          "children": [
+            {
+              "name": "Get-SEPMExceptionPolicy"
+            }
+          ]
+        },
+        {
+          "name": "SEPMFirewallPolicy",
+          "children": [
+            {
+              "name": "Get-SEPMFirewallPolicy"
+            }
+          ]
+        },
+        {
+          "name": "SEPMGroups",
+          "children": [
+            {
+              "name": "Get-SEPMGroups"
+            }
+          ]
+        },
+        {
+          "name": "SEPMIpsPolicy",
+          "children": [
+            {
+              "name": "Get-SEPMIpsPolicy"
+            }
+          ]
+        },
+        {
+          "name": "SEPMLatestDefinition",
+          "children": [
+            {
+              "name": "Get-SEPMLatestDefinition"
+            }
+          ]
+        },
+        {
+          "name": "SEPMLicense",
+          "children": [
+            {
+              "name": "Get-SEPMLicense"
+            }
+          ]
+        },
+        {
+          "name": "SEPMPoliciesSummary",
+          "children": [
+            {
+              "name": "Get-SEPMPoliciesSummary"
+            }
+          ]
+        },
+        {
+          "name": "SEPMReplicationStatus",
+          "children": [
+            {
+              "name": "Get-SEPMReplicationStatus"
+            }
+          ]
+        },
+        {
+          "name": "SEPMThreatStats",
+          "children": [
+            {
+              "name": "Get-SEPMThreatStats"
+            }
+          ]
+        },
+        {
+          "name": "SEPMVersion",
+          "children": [
+            {
+              "name": "Get-SEPMVersion"
+            }
+          ]
+        },
+        {
+          "name": "SEPClientGroup",
+          "children": [
+            {
+              "name": "Move-SEPClientGroup"
+            }
+          ]
+        },
+        {
+          "name": "SEPMCommandActiveScan",
+          "children": [
+            {
+              "name": "Send-SEPMCommandActiveScan"
+            }
+          ]
+        },
+        {
+          "name": "SEPMCommandClearIronCache",
+          "children": [
+            {
+              "name": "Send-SEPMCommandClearIronCache"
+            }
+          ]
+        },
+        {
+          "name": "SEPMCommandFullScan",
+          "children": [
+            {
+              "name": "Send-SEPMCommandFullScan"
+            }
+          ]
+        },
+        {
+          "name": "SEPMCommandGetFile",
+          "children": [
+            {
+              "name": "Send-SEPMCommandGetFile"
+            }
+          ]
+        },
+        {
+          "name": "SEPMCommandQuarantine",
+          "children": [
+            {
+              "name": "Send-SEPMCommandQuarantine"
+            }
+          ]
+        },
+        {
+          "name": "SEPMReplication",
+          "children": [
+            {
+              "name": "Start-SEPMReplication"
+            }
+          ]
+        },
+        {
+          "name": "SEPScan",
+          "children": [
+            {
+              "name": "Start-SEPScan"
+            }
+          ]
+        },
+        {
+          "name": "SEPClientDefinitions",
+          "children": [
+            {
+              "name": "Update-SEPClientDefinitions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

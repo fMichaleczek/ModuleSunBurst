@@ -1,0 +1,4848 @@
+{
+  "name": "Lord Hepipud",
+  "children": [
+    {
+      "name": "icinga-powershell-framework",
+      "companyName": "Icinga GmbH",
+      "author": "Lord Hepipud",
+      "children": [
+        {
+          "name": "Icinga",
+          "children": [
+            {
+              "name": "Use-Icinga"
+            },
+            {
+              "name": "Install-Icinga"
+            },
+            {
+              "name": "Show-Icinga"
+            },
+            {
+              "name": "Update-Icinga"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkCodeCacheFile",
+          "children": [
+            {
+              "name": "Get-IcingaFrameworkCodeCacheFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaLib",
+          "children": [
+            {
+              "name": "Import-IcingaLib"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkCodeCache",
+          "children": [
+            {
+              "name": "Write-IcingaFrameworkCodeCache"
+            }
+          ]
+        },
+        {
+          "name": "IcingaEventLogDocumentation",
+          "children": [
+            {
+              "name": "Publish-IcingaEventLogDocumentation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginDir",
+          "children": [
+            {
+              "name": "Get-IcingaPluginDir"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCustomPluginDir",
+          "children": [
+            {
+              "name": "Get-IcingaCustomPluginDir"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCacheDir",
+          "children": [
+            {
+              "name": "Get-IcingaCacheDir"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPowerShellConfigDir",
+          "children": [
+            {
+              "name": "Get-IcingaPowerShellConfigDir"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkRootPath",
+          "children": [
+            {
+              "name": "Get-IcingaFrameworkRootPath"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsRootPath",
+          "children": [
+            {
+              "name": "Get-IcingaForWindowsRootPath"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPowerShellModuleFile",
+          "children": [
+            {
+              "name": "Get-IcingaPowerShellModuleFile"
+            },
+            {
+              "name": "Read-IcingaPowerShellModuleFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCommand",
+          "children": [
+            {
+              "name": "Invoke-IcingaCommand"
+            }
+          ]
+        },
+        {
+          "name": "IcingaShellAsUser",
+          "children": [
+            {
+              "name": "Start-IcingaShellAsUser"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectorSelfServiceConfig",
+          "children": [
+            {
+              "name": "Get-IcingaDirectorSelfServiceConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectorSelfServiceTicket",
+          "children": [
+            {
+              "name": "Get-IcingaDirectorSelfServiceTicket"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectorSelfServiceHost",
+          "children": [
+            {
+              "name": "Register-IcingaDirectorSelfServiceHost"
+            }
+          ]
+        },
+        {
+          "name": "IcingaConfigTreeCount",
+          "children": [
+            {
+              "name": "Get-IcingaConfigTreeCount"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPowerShellConfig",
+          "children": [
+            {
+              "name": "Get-IcingaPowerShellConfig"
+            },
+            {
+              "name": "Read-IcingaPowerShellConfig"
+            },
+            {
+              "name": "Remove-IcingaPowerShellConfig"
+            },
+            {
+              "name": "Set-IcingaPowerShellConfig"
+            },
+            {
+              "name": "Write-IcingaPowerShellConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPowerShellConfigItem",
+          "children": [
+            {
+              "name": "New-IcingaPowerShellConfigItem"
+            },
+            {
+              "name": "Test-IcingaPowerShellConfigItem"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCacheData",
+          "children": [
+            {
+              "name": "Get-IcingaCacheData"
+            },
+            {
+              "name": "Set-IcingaCacheData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsComponent",
+          "children": [
+            {
+              "name": "New-IcingaForWindowsComponent"
+            },
+            {
+              "name": "Publish-IcingaForWindowsComponent"
+            },
+            {
+              "name": "Test-IcingaForWindowsComponent"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsComponentInEditor",
+          "children": [
+            {
+              "name": "Open-IcingaForWindowsComponentInEditor"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsComponentManifest",
+          "children": [
+            {
+              "name": "Write-IcingaForWindowsComponentManifest"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckSchedulerCheckData",
+          "children": [
+            {
+              "name": "Clear-IcingaCheckSchedulerCheckData"
+            },
+            {
+              "name": "Get-IcingaCheckSchedulerCheckData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckSchedulerEnvironment",
+          "children": [
+            {
+              "name": "Clear-IcingaCheckSchedulerEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "ItemSecure",
+          "children": [
+            {
+              "name": "Copy-ItemSecure"
+            },
+            {
+              "name": "Remove-ItemSecure"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkApiChecks",
+          "children": [
+            {
+              "name": "Disable-IcingaFrameworkApiChecks"
+            },
+            {
+              "name": "Enable-IcingaFrameworkApiChecks"
+            },
+            {
+              "name": "Get-IcingaFrameworkApiChecks"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkConsoleOutput",
+          "children": [
+            {
+              "name": "Disable-IcingaFrameworkConsoleOutput"
+            },
+            {
+              "name": "Enable-IcingaFrameworkConsoleOutput"
+            },
+            {
+              "name": "Test-IcingaFrameworkConsoleOutput"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkDebugMode",
+          "children": [
+            {
+              "name": "Disable-IcingaFrameworkDebugMode"
+            },
+            {
+              "name": "Enable-IcingaFrameworkDebugMode"
+            },
+            {
+              "name": "Get-IcingaFrameworkDebugMode"
+            }
+          ]
+        },
+        {
+          "name": "IcingaZipArchive",
+          "children": [
+            {
+              "name": "Expand-IcingaZipArchive"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckSchedulerPerfData",
+          "children": [
+            {
+              "name": "Get-IcingaCheckSchedulerPerfData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckSchedulerPluginOutput",
+          "children": [
+            {
+              "name": "Get-IcingaCheckSchedulerPluginOutput"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkServiceBinary",
+          "children": [
+            {
+              "name": "Get-IcingaFrameworkServiceBinary"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPowerShellModuleArchive",
+          "children": [
+            {
+              "name": "Get-IcingaPowerShellModuleArchive"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPowerShellModuleVersion",
+          "children": [
+            {
+              "name": "Get-IcingaPowerShellModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPrivateEnvironmentVariable",
+          "children": [
+            {
+              "name": "Get-IcingaPrivateEnvironmentVariable"
+            },
+            {
+              "name": "Set-IcingaPrivateEnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTimer",
+          "children": [
+            {
+              "name": "Get-IcingaTimer"
+            },
+            {
+              "name": "Show-IcingaTimer"
+            },
+            {
+              "name": "Start-IcingaTimer"
+            },
+            {
+              "name": "Stop-IcingaTimer"
+            },
+            {
+              "name": "Test-IcingaTimer"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsService",
+          "children": [
+            {
+              "name": "Install-IcingaForWindowsService"
+            },
+            {
+              "name": "Test-IcingaForWindowsService"
+            },
+            {
+              "name": "Uninstall-IcingaForWindowsService"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkComponent",
+          "children": [
+            {
+              "name": "Install-IcingaFrameworkComponent"
+            },
+            {
+              "name": "Uninstall-IcingaFrameworkComponent"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkPlugins",
+          "children": [
+            {
+              "name": "Install-IcingaFrameworkPlugins"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkUpdate",
+          "children": [
+            {
+              "name": "Install-IcingaFrameworkUpdate"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsMigration",
+          "children": [
+            {
+              "name": "Invoke-IcingaForWindowsMigration"
+            },
+            {
+              "name": "Set-IcingaForWindowsMigration"
+            },
+            {
+              "name": "Test-IcingaForWindowsMigration"
+            }
+          ]
+        },
+        {
+          "name": "IcingaInternalServiceCall",
+          "children": [
+            {
+              "name": "Invoke-IcingaInternalServiceCall"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNamespaceCmdlets",
+          "children": [
+            {
+              "name": "Invoke-IcingaNamespaceCmdlets"
+            }
+          ]
+        },
+        {
+          "name": "IcingaEnvironmentVariable",
+          "children": [
+            {
+              "name": "New-IcingaEnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginConfiguration",
+          "children": [
+            {
+              "name": "Publish-IcingaPluginConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginDocumentation",
+          "children": [
+            {
+              "name": "Publish-IcingaPluginDocumentation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsLog",
+          "children": [
+            {
+              "name": "Read-IcingaForWindowsLog"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsEventLog",
+          "children": [
+            {
+              "name": "Read-IcingaWindowsEventLog"
+            }
+          ]
+        },
+        {
+          "name": "IcingaService",
+          "children": [
+            {
+              "name": "Restart-IcingaService"
+            },
+            {
+              "name": "Start-IcingaService"
+            },
+            {
+              "name": "Stop-IcingaService"
+            },
+            {
+              "name": "Repair-IcingaService"
+            }
+          ]
+        },
+        {
+          "name": "IcingaZipBinaryChecksum",
+          "children": [
+            {
+              "name": "Test-IcingaZipBinaryChecksum"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPowerShellFiles",
+          "children": [
+            {
+              "name": "Unblock-IcingaPowerShellFiles"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindows",
+          "children": [
+            {
+              "name": "Uninstall-IcingaForWindows"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentObjects",
+          "children": [
+            {
+              "name": "Find-IcingaAgentObjects"
+            },
+            {
+              "name": "Show-IcingaAgentObjects"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFirewall",
+          "children": [
+            {
+              "name": "Disable-IcingaFirewall"
+            },
+            {
+              "name": "Enable-IcingaFirewall"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFirewallConfig",
+          "children": [
+            {
+              "name": "Get-IcingaFirewallConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentArchitecture",
+          "children": [
+            {
+              "name": "Get-IcingaAgentArchitecture"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentBinary",
+          "children": [
+            {
+              "name": "Get-IcingaAgentBinary"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentConfigDirectory",
+          "children": [
+            {
+              "name": "Get-IcingaAgentConfigDirectory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentFeatures",
+          "children": [
+            {
+              "name": "Get-IcingaAgentFeatures"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentHostCertificate",
+          "children": [
+            {
+              "name": "Get-IcingaAgentHostCertificate"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentInstallation",
+          "children": [
+            {
+              "name": "Get-IcingaAgentInstallation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentInstallerAnswerInput",
+          "children": [
+            {
+              "name": "Get-IcingaAgentInstallerAnswerInput"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentLogDirectory",
+          "children": [
+            {
+              "name": "Get-IcingaAgentLogDirectory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentMSIPackage",
+          "children": [
+            {
+              "name": "Get-IcingaAgentMSIPackage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentObjectList",
+          "children": [
+            {
+              "name": "Get-IcingaAgentObjectList"
+            },
+            {
+              "name": "Write-IcingaAgentObjectList"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentRootDirectory",
+          "children": [
+            {
+              "name": "Get-IcingaAgentRootDirectory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentServicePermission",
+          "children": [
+            {
+              "name": "Get-IcingaAgentServicePermission"
+            },
+            {
+              "name": "Set-IcingaAgentServicePermission"
+            },
+            {
+              "name": "Test-IcingaAgentServicePermission"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentVersion",
+          "children": [
+            {
+              "name": "Get-IcingaAgentVersion"
+            }
+          ]
+        },
+        {
+          "name": "IcingaHostname",
+          "children": [
+            {
+              "name": "Get-IcingaHostname"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNetbiosName",
+          "children": [
+            {
+              "name": "Get-IcingaNetbiosName"
+            }
+          ]
+        },
+        {
+          "name": "IcingaServiceUser",
+          "children": [
+            {
+              "name": "Get-IcingaServiceUser"
+            },
+            {
+              "name": "Set-IcingaServiceUser"
+            },
+            {
+              "name": "Install-IcingaServiceUser"
+            },
+            {
+              "name": "Uninstall-IcingaServiceUser"
+            },
+            {
+              "name": "Update-IcingaServiceUser"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgent",
+          "children": [
+            {
+              "name": "Install-IcingaAgent"
+            },
+            {
+              "name": "Uninstall-IcingaAgent"
+            },
+            {
+              "name": "Test-IcingaAgent"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentBaseFeatures",
+          "children": [
+            {
+              "name": "Install-IcingaAgentBaseFeatures"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentCertificates",
+          "children": [
+            {
+              "name": "Install-IcingaAgentCertificates"
+            },
+            {
+              "name": "Move-IcingaAgentCertificates"
+            },
+            {
+              "name": "Test-IcingaAgentCertificates"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentCertificateProcess",
+          "children": [
+            {
+              "name": "Start-IcingaAgentCertificateProcess"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentCACertificate",
+          "children": [
+            {
+              "name": "Copy-IcingaAgentCACertificate"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentApiDirectory",
+          "children": [
+            {
+              "name": "Clear-IcingaAgentApiDirectory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaVersions",
+          "children": [
+            {
+              "name": "Compare-IcingaVersions"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectorSelfServiceArguments",
+          "children": [
+            {
+              "name": "Convert-IcingaDirectorSelfServiceArguments"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentFeature",
+          "children": [
+            {
+              "name": "Disable-IcingaAgentFeature"
+            },
+            {
+              "name": "Enable-IcingaAgentFeature"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentDefaultConfig",
+          "children": [
+            {
+              "name": "Move-IcingaAgentDefaultConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentConfigFile",
+          "children": [
+            {
+              "name": "Reset-IcingaAgentConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaVersion",
+          "children": [
+            {
+              "name": "Split-IcingaVersion"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentDirectorWizard",
+          "children": [
+            {
+              "name": "Start-IcingaAgentDirectorWizard"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectorAPIArgumentOverride",
+          "children": [
+            {
+              "name": "Start-IcingaDirectorAPIArgumentOverride"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentInstallWizard",
+          "children": [
+            {
+              "name": "Start-IcingaAgentInstallWizard"
+            }
+          ]
+        },
+        {
+          "name": "InstallerArgument",
+          "children": [
+            {
+              "name": "Add-InstallerArgument"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWizardArgument",
+          "children": [
+            {
+              "name": "Test-IcingaWizardArgument"
+            },
+            {
+              "name": "Set-IcingaWizardArgument"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentInstallCommand",
+          "children": [
+            {
+              "name": "Get-IcingaAgentInstallCommand"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentDebugLogFile",
+          "children": [
+            {
+              "name": "Read-IcingaAgentDebugLogFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentLogFile",
+          "children": [
+            {
+              "name": "Read-IcingaAgentLogFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAcl",
+          "children": [
+            {
+              "name": "Set-IcingaAcl"
+            },
+            {
+              "name": "Test-IcingaAcl"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentNodeName",
+          "children": [
+            {
+              "name": "Set-IcingaAgentNodeName"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUserPermissions",
+          "children": [
+            {
+              "name": "Set-IcingaUserPermissions"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentConfig",
+          "children": [
+            {
+              "name": "Test-IcingaAgentConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentFeatureEnabled",
+          "children": [
+            {
+              "name": "Test-IcingaAgentFeatureEnabled"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentNETFrameworkDependency",
+          "children": [
+            {
+              "name": "Test-IcingaAgentNETFrameworkDependency"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentApiConfig",
+          "children": [
+            {
+              "name": "Write-IcingaAgentApiConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAgentZonesConfig",
+          "children": [
+            {
+              "name": "Write-IcingaAgentZonesConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTestOutput",
+          "children": [
+            {
+              "name": "Write-IcingaTestOutput"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallation",
+          "children": [
+            {
+              "name": "Start-IcingaForWindowsInstallation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationAdvancedEntries",
+          "children": [
+            {
+              "name": "Add-IcingaForWindowsInstallationAdvancedEntries"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationMenuEnterIcingaAgentDirectory",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallationMenuEnterIcingaAgentDirectory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationMenuEnterIcingaAgentServicePassword",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallationMenuEnterIcingaAgentServicePassword"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationMenuEnterIcingaAgentUser",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallationMenuEnterIcingaAgentUser"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationMenuEnterIcingaAgentVersion",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallationMenuEnterIcingaAgentVersion"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectInstallIcingaAgent",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectInstallIcingaAgent"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuEnterIcingaCAFile",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuEnterIcingaCAFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuEnterIcingaTicket",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuEnterIcingaTicket"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectCertificate",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectCertificate"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleInstallationDirectorTemplate",
+          "children": [
+            {
+              "name": "Resolve-IcingaForWindowsManagementConsoleInstallationDirectorTemplate"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleInstallationEnterDirectorUrl",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleInstallationEnterDirectorUrl"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleInstallationDirectorRegisterHost",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleInstallationDirectorRegisterHost"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleInstallationEnterDirectorSelfServiceKey",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleInstallationEnterDirectorSelfServiceKey"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectOpenWindowsFirewall",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectOpenWindowsFirewall"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationMenuStableRepository",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallationMenuStableRepository"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectInstallApiChecks",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectInstallApiChecks"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectInstallJEAProfile",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectInstallJEAProfile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerConfigurationSummary",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerConfigurationSummary"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuContinueConfiguration",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuContinueConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuFinishInstaller",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuFinishInstaller"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleInstallationAnswerFile",
+          "children": [
+            {
+              "name": "Export-IcingaForWindowsManagementConsoleInstallationAnswerFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleInstallationConfigString",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleInstallationConfigString"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleInstallationFileExport",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleInstallationFileExport"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuInstallWindows",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuInstallWindows"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuNewConfiguration",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuNewConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuEnterIcingaParentAddresses",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuEnterIcingaParentAddresses"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuEnterIcingaParentNodes",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuEnterIcingaParentNodes"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuEnterIcingaParentZone",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuEnterIcingaParentZone"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectForceCertificateGeneration",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectForceCertificateGeneration"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationMenuEnterIcingaCAServer",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallationMenuEnterIcingaCAServer"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationMenuEnterIcingaPort",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallationMenuEnterIcingaPort"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectConnection",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectConnection"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectHostname",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectHostname"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuEnterWindowsServicePackageSource",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuEnterWindowsServicePackageSource"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectInstallIcingaForWindowsService",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectInstallIcingaForWindowsService"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationMenuEnterWindowsServiceDirectory",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallationMenuEnterWindowsServiceDirectory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuEnterPluginsPackageSource",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuEnterPluginsPackageSource"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectInstallIcingaPlugins",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectInstallIcingaPlugins"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationMenuEnterCustomGlobalZones",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallationMenuEnterCustomGlobalZones"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenuSelectGlobalZones",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenuSelectGlobalZones"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsMenuManageIcingaAgent",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsMenuManageIcingaAgent"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsMenuManageIcingaAgentFeatures",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsMenuManageIcingaAgentFeatures"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleReconfigureAgent",
+          "children": [
+            {
+              "name": "Invoke-IcingaForWindowsManagementConsoleReconfigureAgent"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleFrameworkExperimental",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleFrameworkExperimental"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleManageFramework",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleManageFramework"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleToggleFrameworkApiChecks",
+          "children": [
+            {
+              "name": "Invoke-IcingaForWindowsManagementConsoleToggleFrameworkApiChecks"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleToggleFrameworkDebug",
+          "children": [
+            {
+              "name": "Invoke-IcingaForWindowsManagementConsoleToggleFrameworkDebug"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleManageBackgroundDaemons",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleManageBackgroundDaemons"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleRegisterBackgroundDaemons",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleRegisterBackgroundDaemons"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleUnregisterBackgroundDaemons",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleUnregisterBackgroundDaemons"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleManageJEA",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleManageJEA"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleDisableIcingaRepository",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleDisableIcingaRepository"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleEnableIcingaRepository",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleEnableIcingaRepository"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleManageIcingaRepositories",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleManageIcingaRepositories"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsolePopIcingaRepository",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsolePopIcingaRepository"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsolePushIcingaRepository",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsolePushIcingaRepository"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleRemoveIcingaRepository",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleRemoveIcingaRepository"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleSetIcingaSnapshotRepositories",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleSetIcingaSnapshotRepositories"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleSetIcingaStableRepositories",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleSetIcingaStableRepositories"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleIcingaRepositoriesList",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsManagementConsoleIcingaRepositoriesList"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsMenuInstallComponents",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsMenuInstallComponents"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsMenuListEnvironment",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsMenuListEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsMenuManage",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsMenuManage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsMenuRemoveComponents",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsMenuRemoveComponents"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsMenuUpdateComponents",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsMenuUpdateComponents"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerParentEndpoints",
+          "children": [
+            {
+              "name": "Test-IcingaForWindowsInstallerParentEndpoints"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerConfigEntry",
+          "children": [
+            {
+              "name": "Add-IcingaForWindowsInstallerConfigEntry"
+            },
+            {
+              "name": "Remove-IcingaForWindowsInstallerConfigEntry"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerDisabledEntry",
+          "children": [
+            {
+              "name": "Add-IcingaForWindowsInstallerDisabledEntry"
+            },
+            {
+              "name": "Get-IcingaForWindowsInstallerDisabledEntry"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleAlias",
+          "children": [
+            {
+              "name": "Get-IcingaForWindowsManagementConsoleAlias"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerValuesFromStep",
+          "children": [
+            {
+              "name": "Clear-IcingaForWindowsInstallerValuesFromStep"
+            },
+            {
+              "name": "Get-IcingaForWindowsInstallerValuesFromStep"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleConfigurationString",
+          "children": [
+            {
+              "name": "Get-IcingaForWindowsManagementConsoleConfigurationString"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleLastParent",
+          "children": [
+            {
+              "name": "Add-IcingaForWindowsManagementConsoleLastParent"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleCustomConfig",
+          "children": [
+            {
+              "name": "Invoke-IcingaForWindowsManagementConsoleCustomConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleInstallationDirectorConfigModifyState",
+          "children": [
+            {
+              "name": "Reset-IcingaForWindowsManagementConsoleInstallationDirectorConfigModifyState"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerLastParent",
+          "children": [
+            {
+              "name": "Get-IcingaForWindowsInstallerLastParent"
+            },
+            {
+              "name": "Remove-IcingaForWindowsInstallerLastParent"
+            }
+          ]
+        },
+        {
+          "name": "IcingaInternalPowerShellServicePassword",
+          "children": [
+            {
+              "name": "Get-IcingaInternalPowerShellServicePassword"
+            },
+            {
+              "name": "Set-IcingaInternalPowerShellServicePassword"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForwindowsManagementConsoleJSONConfig",
+          "children": [
+            {
+              "name": "Convert-IcingaForwindowsManagementConsoleJSONConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleMenu",
+          "children": [
+            {
+              "name": "Get-IcingaForWindowsManagementConsoleMenu"
+            },
+            {
+              "name": "Set-IcingaForWindowsManagementConsoleMenu"
+            },
+            {
+              "name": "Test-IcingaForWindowsManagementConsoleMenu"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsolePaginationCache",
+          "children": [
+            {
+              "name": "Clear-IcingaForWindowsManagementConsolePaginationCache"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerMenu",
+          "children": [
+            {
+              "name": "Show-IcingaForWindowsInstallerMenu"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallerStepSelection",
+          "children": [
+            {
+              "name": "Get-IcingaForWindowsInstallerStepSelection"
+            }
+          ]
+        },
+        {
+          "name": "IcingaManagementConsoleCommand",
+          "children": [
+            {
+              "name": "Write-IcingaManagementConsoleCommand"
+            }
+          ]
+        },
+        {
+          "name": "IcingaforWindowsManagementConsoleConfigSwap",
+          "children": [
+            {
+              "name": "Write-IcingaforWindowsManagementConsoleConfigSwap"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleContinue",
+          "children": [
+            {
+              "name": "Test-IcingaForWindowsManagementConsoleContinue"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleDelete",
+          "children": [
+            {
+              "name": "Test-IcingaForWindowsManagementConsoleDelete"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleExit",
+          "children": [
+            {
+              "name": "Test-IcingaForWindowsManagementConsoleExit"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleHelp",
+          "children": [
+            {
+              "name": "Test-IcingaForWindowsManagementConsoleHelp"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsolePrevious",
+          "children": [
+            {
+              "name": "Test-IcingaForWindowsManagementConsolePrevious"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsManagementConsoleLastInput",
+          "children": [
+            {
+              "name": "Get-IcingaForWindowsManagementConsoleLastInput"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsManagementConsoleYesNoDialog",
+          "children": [
+            {
+              "name": "Show-IcingaWindowsManagementConsoleYesNoDialog"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationHeaderPrint",
+          "children": [
+            {
+              "name": "Disable-IcingaForWindowsInstallationHeaderPrint"
+            },
+            {
+              "name": "Enable-IcingaForWindowsInstallationHeaderPrint"
+            },
+            {
+              "name": "Test-IcingaForWindowsInstallationHeaderPrint"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationJumpToSummary",
+          "children": [
+            {
+              "name": "Disable-IcingaForWindowsInstallationJumpToSummary"
+            },
+            {
+              "name": "Enable-IcingaForWindowsInstallationJumpToSummary"
+            },
+            {
+              "name": "Test-IcingaForWindowsInstallationJumpToSummary"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsInstallationHeaderSelection",
+          "children": [
+            {
+              "name": "Get-IcingaForWindowsInstallationHeaderSelection"
+            },
+            {
+              "name": "Set-IcingaForWindowsInstallationHeaderSelection"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCommandDependency",
+          "children": [
+            {
+              "name": "Get-IcingaCommandDependency"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkDependency",
+          "children": [
+            {
+              "name": "Get-IcingaFrameworkDependency"
+            }
+          ]
+        },
+        {
+          "name": "IcingaJEAConfiguration",
+          "children": [
+            {
+              "name": "Get-IcingaJEAConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "IcingaJEAContext",
+          "children": [
+            {
+              "name": "Get-IcingaJEAContext"
+            }
+          ]
+        },
+        {
+          "name": "IcingaJEAServicePid",
+          "children": [
+            {
+              "name": "Get-IcingaJEAServicePid"
+            }
+          ]
+        },
+        {
+          "name": "IcingaJEASessionFile",
+          "children": [
+            {
+              "name": "Get-IcingaJEASessionFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaJEAProfile",
+          "children": [
+            {
+              "name": "Install-IcingaJEAProfile"
+            },
+            {
+              "name": "Register-IcingaJEAProfile"
+            },
+            {
+              "name": "Uninstall-IcingaJEAProfile"
+            },
+            {
+              "name": "Write-IcingaJEAProfile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkDependencyFile",
+          "children": [
+            {
+              "name": "Remove-IcingaFrameworkDependencyFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaJEAServiceRunning",
+          "children": [
+            {
+              "name": "Test-IcingaJEAServiceRunning"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPowerShellCommandInCode",
+          "children": [
+            {
+              "name": "Test-IcingaPowerShellCommandInCode"
+            }
+          ]
+        },
+        {
+          "name": "IcingaExceptionString",
+          "children": [
+            {
+              "name": "Get-IcingaExceptionString"
+            }
+          ]
+        },
+        {
+          "name": "IcingaEventLog",
+          "children": [
+            {
+              "name": "Register-IcingaEventLog"
+            },
+            {
+              "name": "Unregister-IcingaEventLog"
+            }
+          ]
+        },
+        {
+          "name": "IcingaConsoleDebug",
+          "children": [
+            {
+              "name": "Write-IcingaConsoleDebug"
+            }
+          ]
+        },
+        {
+          "name": "IcingaConsoleError",
+          "children": [
+            {
+              "name": "Write-IcingaConsoleError"
+            }
+          ]
+        },
+        {
+          "name": "IcingaConsoleNotice",
+          "children": [
+            {
+              "name": "Write-IcingaConsoleNotice"
+            }
+          ]
+        },
+        {
+          "name": "IcingaConsoleOutput",
+          "children": [
+            {
+              "name": "Write-IcingaConsoleOutput"
+            }
+          ]
+        },
+        {
+          "name": "IcingaConsolePlain",
+          "children": [
+            {
+              "name": "Write-IcingaConsolePlain"
+            }
+          ]
+        },
+        {
+          "name": "IcingaConsoleWarning",
+          "children": [
+            {
+              "name": "Write-IcingaConsoleWarning"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDebugMessage",
+          "children": [
+            {
+              "name": "Write-IcingaDebugMessage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDeprecated",
+          "children": [
+            {
+              "name": "Write-IcingaDeprecated"
+            }
+          ]
+        },
+        {
+          "name": "IcingaErrorMessage",
+          "children": [
+            {
+              "name": "Write-IcingaErrorMessage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaEventMessage",
+          "children": [
+            {
+              "name": "Write-IcingaEventMessage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterCache",
+          "children": [
+            {
+              "name": "Add-IcingaPerformanceCounterCache"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterCacheItem",
+          "children": [
+            {
+              "name": "Get-IcingaPerformanceCounterCacheItem"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounter",
+          "children": [
+            {
+              "name": "New-IcingaPerformanceCounter"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterArray",
+          "children": [
+            {
+              "name": "New-IcingaPerformanceCounterArray"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterNullObject",
+          "children": [
+            {
+              "name": "New-IcingaPerformanceCounterNullObject"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterObject",
+          "children": [
+            {
+              "name": "New-IcingaPerformanceCounterObject"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterResult",
+          "children": [
+            {
+              "name": "New-IcingaPerformanceCounterResult"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterStructure",
+          "children": [
+            {
+              "name": "New-IcingaPerformanceCounterStructure"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterCategories",
+          "children": [
+            {
+              "name": "Show-IcingaPerformanceCounterCategories"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterHelp",
+          "children": [
+            {
+              "name": "Show-IcingaPerformanceCounterHelp"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterInstances",
+          "children": [
+            {
+              "name": "Show-IcingaPerformanceCounterInstances"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounters",
+          "children": [
+            {
+              "name": "Show-IcingaPerformanceCounters"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceCounterCategory",
+          "children": [
+            {
+              "name": "Test-IcingaPerformanceCounterCategory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaProgressStatus",
+          "children": [
+            {
+              "name": "Complete-IcingaProgressStatus"
+            },
+            {
+              "name": "New-IcingaProgressStatus"
+            },
+            {
+              "name": "Write-IcingaProgressStatus"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRepository",
+          "children": [
+            {
+              "name": "Add-IcingaRepository"
+            },
+            {
+              "name": "Disable-IcingaRepository"
+            },
+            {
+              "name": "Enable-IcingaRepository"
+            },
+            {
+              "name": "New-IcingaRepository"
+            },
+            {
+              "name": "Pop-IcingaRepository"
+            },
+            {
+              "name": "Push-IcingaRepository"
+            },
+            {
+              "name": "Remove-IcingaRepository"
+            },
+            {
+              "name": "Search-IcingaRepository"
+            },
+            {
+              "name": "Show-IcingaRepository"
+            },
+            {
+              "name": "Sync-IcingaRepository"
+            },
+            {
+              "name": "Update-IcingaRepository"
+            }
+          ]
+        },
+        {
+          "name": "IcingaComponentList",
+          "children": [
+            {
+              "name": "Get-IcingaComponentList"
+            }
+          ]
+        },
+        {
+          "name": "IcingaComponentLock",
+          "children": [
+            {
+              "name": "Get-IcingaComponentLock"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsServiceData",
+          "children": [
+            {
+              "name": "Get-IcingaForWindowsServiceData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaInstallation",
+          "children": [
+            {
+              "name": "Get-IcingaInstallation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRepositories",
+          "children": [
+            {
+              "name": "Get-IcingaRepositories"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRepositoryHash",
+          "children": [
+            {
+              "name": "Get-IcingaRepositoryHash"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRepositoryPackage",
+          "children": [
+            {
+              "name": "Get-IcingaRepositoryPackage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaComponent",
+          "children": [
+            {
+              "name": "Install-IcingaComponent"
+            },
+            {
+              "name": "Lock-IcingaComponent"
+            },
+            {
+              "name": "Uninstall-IcingaComponent"
+            },
+            {
+              "name": "Unlock-IcingaComponent"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRepositoryFile",
+          "children": [
+            {
+              "name": "New-IcingaRepositoryFile"
+            },
+            {
+              "name": "Read-IcingaRepositoryFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMSIMetadata",
+          "children": [
+            {
+              "name": "Read-IcingaMSIMetadata"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPackageManifest",
+          "children": [
+            {
+              "name": "Read-IcingaPackageManifest"
+            }
+          ]
+        },
+        {
+          "name": "IcingaServicePackage",
+          "children": [
+            {
+              "name": "Read-IcingaServicePackage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaValidJSON",
+          "children": [
+            {
+              "name": "Test-IcingaValidJSON"
+            }
+          ]
+        },
+        {
+          "name": "IcingaThreadPool",
+          "children": [
+            {
+              "name": "Add-IcingaThreadPool"
+            },
+            {
+              "name": "Get-IcingaThreadPool"
+            },
+            {
+              "name": "New-IcingaThreadPool"
+            }
+          ]
+        },
+        {
+          "name": "IcingaThreadHash",
+          "children": [
+            {
+              "name": "New-IcingaThreadHash"
+            }
+          ]
+        },
+        {
+          "name": "IcingaThreadInstance",
+          "children": [
+            {
+              "name": "New-IcingaThreadInstance"
+            }
+          ]
+        },
+        {
+          "name": "IcingaThread",
+          "children": [
+            {
+              "name": "Remove-IcingaThread"
+            },
+            {
+              "name": "Restart-IcingaThread"
+            },
+            {
+              "name": "Start-IcingaThread"
+            },
+            {
+              "name": "Stop-IcingaThread"
+            },
+            {
+              "name": "Test-IcingaThread"
+            }
+          ]
+        },
+        {
+          "name": "IcingaEnvironmentGlobal",
+          "children": [
+            {
+              "name": "Set-IcingaEnvironmentGlobal"
+            }
+          ]
+        },
+        {
+          "name": "IcingaArrayListItem",
+          "children": [
+            {
+              "name": "Add-IcingaArrayListItem"
+            },
+            {
+              "name": "Pop-IcingaArrayListItem"
+            }
+          ]
+        },
+        {
+          "name": "IcingaHashtableItem",
+          "children": [
+            {
+              "name": "Add-IcingaHashtableItem"
+            },
+            {
+              "name": "Get-IcingaHashtableItem"
+            },
+            {
+              "name": "Remove-IcingaHashtableItem"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWhiteSpaceToString",
+          "children": [
+            {
+              "name": "Add-IcingaWhiteSpaceToString"
+            }
+          ]
+        },
+        {
+          "name": "PSCustomObjectMember",
+          "children": [
+            {
+              "name": "Add-PSCustomObjectMember"
+            },
+            {
+              "name": "Test-PSCustomObjectMember"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUnixTimeWithDateTime",
+          "children": [
+            {
+              "name": "Compare-IcingaUnixTimeWithDateTime"
+            }
+          ]
+        },
+        {
+          "name": "Bytes",
+          "children": [
+            {
+              "name": "Convert-Bytes"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckArgumentToPSObject",
+          "children": [
+            {
+              "name": "Convert-IcingaCheckArgumentToPSObject"
+            }
+          ]
+        },
+        {
+          "name": "IcingaEndpointsToIPv4",
+          "children": [
+            {
+              "name": "Convert-IcingaEndpointsToIPv4"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginThresholds",
+          "children": [
+            {
+              "name": "Convert-IcingaPluginThresholds"
+            },
+            {
+              "name": "Compare-IcingaPluginThresholds"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginValueToString",
+          "children": [
+            {
+              "name": "Convert-IcingaPluginValueToString"
+            }
+          ]
+        },
+        {
+          "name": "IcingaArrayToString",
+          "children": [
+            {
+              "name": "ConvertFrom-IcingaArrayToString"
+            }
+          ]
+        },
+        {
+          "name": "IcingaSecureString",
+          "children": [
+            {
+              "name": "ConvertFrom-IcingaSecureString"
+            },
+            {
+              "name": "ConvertTo-IcingaSecureString"
+            }
+          ]
+        },
+        {
+          "name": "JsonUTF8",
+          "children": [
+            {
+              "name": "ConvertFrom-JsonUTF8"
+            }
+          ]
+        },
+        {
+          "name": "Percent",
+          "children": [
+            {
+              "name": "ConvertFrom-Percent"
+            }
+          ]
+        },
+        {
+          "name": "TimeSpan",
+          "children": [
+            {
+              "name": "ConvertFrom-TimeSpan"
+            }
+          ]
+        },
+        {
+          "name": "BytesNextUnit",
+          "children": [
+            {
+              "name": "ConvertTo-BytesNextUnit"
+            }
+          ]
+        },
+        {
+          "name": "ByteIEC",
+          "children": [
+            {
+              "name": "ConvertTo-ByteIEC"
+            }
+          ]
+        },
+        {
+          "name": "Kibibyte",
+          "children": [
+            {
+              "name": "ConvertTo-Kibibyte"
+            }
+          ]
+        },
+        {
+          "name": "Mebibyte",
+          "children": [
+            {
+              "name": "ConvertTo-Mebibyte"
+            }
+          ]
+        },
+        {
+          "name": "Gibibyte",
+          "children": [
+            {
+              "name": "ConvertTo-Gibibyte"
+            }
+          ]
+        },
+        {
+          "name": "Tebibyte",
+          "children": [
+            {
+              "name": "ConvertTo-Tebibyte"
+            }
+          ]
+        },
+        {
+          "name": "Pebibyte",
+          "children": [
+            {
+              "name": "ConvertTo-Pebibyte"
+            }
+          ]
+        },
+        {
+          "name": "ByteSI",
+          "children": [
+            {
+              "name": "ConvertTo-ByteSI"
+            }
+          ]
+        },
+        {
+          "name": "Kilobyte",
+          "children": [
+            {
+              "name": "ConvertTo-Kilobyte"
+            }
+          ]
+        },
+        {
+          "name": "Megabyte",
+          "children": [
+            {
+              "name": "ConvertTo-Megabyte"
+            }
+          ]
+        },
+        {
+          "name": "Gigabyte",
+          "children": [
+            {
+              "name": "ConvertTo-Gigabyte"
+            }
+          ]
+        },
+        {
+          "name": "Terabyte",
+          "children": [
+            {
+              "name": "ConvertTo-Terabyte"
+            }
+          ]
+        },
+        {
+          "name": "Petabyte",
+          "children": [
+            {
+              "name": "ConvertTo-Petabyte"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCommandArgumentString",
+          "children": [
+            {
+              "name": "ConvertTo-IcingaCommandArgumentString"
+            }
+          ]
+        },
+        {
+          "name": "IcingaIPBinaryString",
+          "children": [
+            {
+              "name": "ConvertTo-IcingaIPBinaryString"
+            }
+          ]
+        },
+        {
+          "name": "IcingaIPv4BinaryString",
+          "children": [
+            {
+              "name": "ConvertTo-IcingaIPv4BinaryString"
+            }
+          ]
+        },
+        {
+          "name": "IcingaIPv6BinaryString",
+          "children": [
+            {
+              "name": "ConvertTo-IcingaIPv6BinaryString"
+            }
+          ]
+        },
+        {
+          "name": "IcingaSecureSortedArray",
+          "children": [
+            {
+              "name": "ConvertTo-IcingaSecureSortedArray"
+            }
+          ]
+        },
+        {
+          "name": "Integer",
+          "children": [
+            {
+              "name": "ConvertTo-Integer"
+            }
+          ]
+        },
+        {
+          "name": "JsonUTF8Bytes",
+          "children": [
+            {
+              "name": "ConvertTo-JsonUTF8Bytes"
+            }
+          ]
+        },
+        {
+          "name": "Seconds",
+          "children": [
+            {
+              "name": "ConvertTo-Seconds"
+            }
+          ]
+        },
+        {
+          "name": "SecondsFromIcingaThresholds",
+          "children": [
+            {
+              "name": "ConvertTo-SecondsFromIcingaThresholds"
+            }
+          ]
+        },
+        {
+          "name": "IcingaThresholdsAsSeconds",
+          "children": [
+            {
+              "name": "Get-IcingaThresholdsAsSeconds"
+            }
+          ]
+        },
+        {
+          "name": "IcingaIPv6String",
+          "children": [
+            {
+              "name": "Expand-IcingaIPv6String"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDigitCount",
+          "children": [
+            {
+              "name": "Format-IcingaDigitCount"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerfDataLabel",
+          "children": [
+            {
+              "name": "Format-IcingaPerfDataLabel"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerfDataValue",
+          "children": [
+            {
+              "name": "Format-IcingaPerfDataValue"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckCommandConfig",
+          "children": [
+            {
+              "name": "Get-IcingaCheckCommandConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPlainConfigurationFiles",
+          "children": [
+            {
+              "name": "Write-IcingaPlainConfigurationFiles"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellDataList",
+          "children": [
+            {
+              "name": "Add-PowerShellDataList"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFileHash",
+          "children": [
+            {
+              "name": "Get-IcingaFileHash"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMaxTextLength",
+          "children": [
+            {
+              "name": "Get-IcingaMaxTextLength"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNetworkInterface",
+          "children": [
+            {
+              "name": "Get-IcingaNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNetworkInterfaceUnits",
+          "children": [
+            {
+              "name": "Get-IcingaNetworkInterfaceUnits"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNetworkRoute",
+          "children": [
+            {
+              "name": "Get-IcingaNetworkRoute"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNextUnitIteration",
+          "children": [
+            {
+              "name": "Get-IcingaNextUnitIteration"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPSObjectProperties",
+          "children": [
+            {
+              "name": "Get-IcingaPSObjectProperties"
+            }
+          ]
+        },
+        {
+          "name": "IcingaServices",
+          "children": [
+            {
+              "name": "Get-IcingaServices"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUnixTime",
+          "children": [
+            {
+              "name": "Get-IcingaUnixTime"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUsernameFromSID",
+          "children": [
+            {
+              "name": "Get-IcingaUsernameFromSID"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUserSID",
+          "children": [
+            {
+              "name": "Get-IcingaUserSID"
+            }
+          ]
+        },
+        {
+          "name": "IcingaValue",
+          "children": [
+            {
+              "name": "Get-IcingaValue"
+            }
+          ]
+        },
+        {
+          "name": "IPConfigFromString",
+          "children": [
+            {
+              "name": "Get-IPConfigFromString"
+            }
+          ]
+        },
+        {
+          "name": "StringSha1",
+          "children": [
+            {
+              "name": "Get-StringSha1"
+            }
+          ]
+        },
+        {
+          "name": "UnitPrefixIEC",
+          "children": [
+            {
+              "name": "Get-UnitPrefixIEC"
+            }
+          ]
+        },
+        {
+          "name": "UnitPrefixSI",
+          "children": [
+            {
+              "name": "Get-UnitPrefixSI"
+            }
+          ]
+        },
+        {
+          "name": "WebPath",
+          "children": [
+            {
+              "name": "Join-WebPath"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBasicAuthHeader",
+          "children": [
+            {
+              "name": "New-IcingaBasicAuthHeader"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckCommand",
+          "children": [
+            {
+              "name": "New-IcingaCheckCommand"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNewLine",
+          "children": [
+            {
+              "name": "New-IcingaNewLine"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTemporaryDirectory",
+          "children": [
+            {
+              "name": "New-IcingaTemporaryDirectory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTemporaryFile",
+          "children": [
+            {
+              "name": "New-IcingaTemporaryFile"
+            }
+          ]
+        },
+        {
+          "name": "IcingaVersionObject",
+          "children": [
+            {
+              "name": "New-IcingaVersionObject"
+            }
+          ]
+        },
+        {
+          "name": "StringTree",
+          "children": [
+            {
+              "name": "New-StringTree"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsMemory",
+          "children": [
+            {
+              "name": "Optimize-IcingaForWindowsMemory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFileSecure",
+          "children": [
+            {
+              "name": "Read-IcingaFileSecure"
+            },
+            {
+              "name": "Write-IcingaFileSecure"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectorSelfServiceKey",
+          "children": [
+            {
+              "name": "Remove-IcingaDirectorSelfServiceKey"
+            }
+          ]
+        },
+        {
+          "name": "NumericNegative",
+          "children": [
+            {
+              "name": "Set-NumericNegative"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirecorSelfServiceKey",
+          "children": [
+            {
+              "name": "Show-IcingaDirecorSelfServiceKey"
+            }
+          ]
+        },
+        {
+          "name": "IcingaEventLogAnalysis",
+          "children": [
+            {
+              "name": "Show-IcingaEventLogAnalysis"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckCommandArgs",
+          "children": [
+            {
+              "name": "Split-IcingaCheckCommandArgs"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUserDomain",
+          "children": [
+            {
+              "name": "Split-IcingaUserDomain"
+            }
+          ]
+        },
+        {
+          "name": "IcingaProcess",
+          "children": [
+            {
+              "name": "Start-IcingaProcess"
+            }
+          ]
+        },
+        {
+          "name": "AdministrativeShell",
+          "children": [
+            {
+              "name": "Test-AdministrativeShell"
+            }
+          ]
+        },
+        {
+          "name": "IcingaAddTypeExist",
+          "children": [
+            {
+              "name": "Test-IcingaAddTypeExist"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBinaryOperator",
+          "children": [
+            {
+              "name": "Test-IcingaBinaryOperator"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDecimal",
+          "children": [
+            {
+              "name": "Test-IcingaDecimal"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFunction",
+          "children": [
+            {
+              "name": "Test-IcingaFunction"
+            }
+          ]
+        },
+        {
+          "name": "Numeric",
+          "children": [
+            {
+              "name": "Test-Numeric"
+            }
+          ]
+        },
+        {
+          "name": "IcingaConsoleHeader",
+          "children": [
+            {
+              "name": "Write-IcingaConsoleHeader"
+            }
+          ]
+        },
+        {
+          "name": "IcingaConsoleTextColorSplit",
+          "children": [
+            {
+              "name": "Write-IcingaConsoleTextColorSplit"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsUserPassword",
+          "children": [
+            {
+              "name": "Clear-IcingaWindowsUserPassword"
+            },
+            {
+              "name": "New-IcingaWindowsUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRandomChars",
+          "children": [
+            {
+              "name": "Get-IcingaRandomChars"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsUserConfig",
+          "children": [
+            {
+              "name": "Get-IcingaWindowsUserConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsUserMetadata",
+          "children": [
+            {
+              "name": "Get-IcingaWindowsUserMetadata"
+            }
+          ]
+        },
+        {
+          "name": "IcingaSecurity",
+          "children": [
+            {
+              "name": "Install-IcingaSecurity"
+            },
+            {
+              "name": "Uninstall-IcingaSecurity"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsUser",
+          "children": [
+            {
+              "name": "New-IcingaWindowsUser"
+            },
+            {
+              "name": "Remove-IcingaWindowsUser"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsService",
+          "children": [
+            {
+              "name": "Restart-IcingaWindowsService"
+            },
+            {
+              "name": "Stop-IcingaWindowsService"
+            }
+          ]
+        },
+        {
+          "name": "IcingaManagedUser",
+          "children": [
+            {
+              "name": "Test-IcingaManagedUser"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsUserPermission",
+          "children": [
+            {
+              "name": "Update-IcingaWindowsUserPermission"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsDaemon",
+          "children": [
+            {
+              "name": "Add-IcingaForWindowsDaemon"
+            },
+            {
+              "name": "Start-IcingaForWindowsDaemon"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBackgroundDaemons",
+          "children": [
+            {
+              "name": "Get-IcingaBackgroundDaemons"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBackgroundDaemon",
+          "children": [
+            {
+              "name": "Register-IcingaBackgroundDaemon"
+            },
+            {
+              "name": "Unregister-IcingaBackgroundDaemon"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRegisteredBackgroundDaemons",
+          "children": [
+            {
+              "name": "Show-IcingaRegisteredBackgroundDaemons"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPowerShellDaemon",
+          "children": [
+            {
+              "name": "Start-IcingaPowerShellDaemon"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTAPIEndpointAPIChecks",
+          "children": [
+            {
+              "name": "Register-IcingaRESTAPIEndpointAPIChecks"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTApiCommandAliasesApiChecks",
+          "children": [
+            {
+              "name": "Register-IcingaRESTApiCommandAliasesApiChecks"
+            }
+          ]
+        },
+        {
+          "name": "IcingaApiChecksRESTCall",
+          "children": [
+            {
+              "name": "Invoke-IcingaApiChecksRESTCall"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTClientBlacklistCount",
+          "children": [
+            {
+              "name": "Add-IcingaRESTClientBlacklistCount"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTAPIv1Calls",
+          "children": [
+            {
+              "name": "Invoke-IcingaRESTAPIv1Calls"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTClientBlacklist",
+          "children": [
+            {
+              "name": "Remove-IcingaRESTClientBlacklist"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTClientBlacklisted",
+          "children": [
+            {
+              "name": "Test-IcingaRESTClientBlacklisted"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTClientConnection",
+          "children": [
+            {
+              "name": "Test-IcingaRESTClientConnection"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsRESTApi",
+          "children": [
+            {
+              "name": "New-IcingaForWindowsRESTApi"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsRESTApi",
+          "children": [
+            {
+              "name": "Start-IcingaWindowsRESTApi"
+            }
+          ]
+        },
+        {
+          "name": "IcingaEventLogMessagesRESTApi",
+          "children": [
+            {
+              "name": "Register-IcingaEventLogMessagesRESTApi"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNextRESTApiThreadId",
+          "children": [
+            {
+              "name": "Get-IcingaNextRESTApiThreadId"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsRESTThread",
+          "children": [
+            {
+              "name": "New-IcingaForWindowsRESTThread"
+            },
+            {
+              "name": "Start-IcingaForWindowsRESTThread"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTApiCommand",
+          "children": [
+            {
+              "name": "Add-IcingaRESTApiCommand"
+            },
+            {
+              "name": "Remove-IcingaRESTApiCommand"
+            },
+            {
+              "name": "Test-IcingaRESTApiCommand"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsRESTEnvironment",
+          "children": [
+            {
+              "name": "New-IcingaForWindowsRESTEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTApiCommands",
+          "children": [
+            {
+              "name": "Show-IcingaRESTApiCommands"
+            }
+          ]
+        },
+        {
+          "name": "IcingaServiceCheckDaemon",
+          "children": [
+            {
+              "name": "Add-IcingaServiceCheckDaemon"
+            },
+            {
+              "name": "Start-IcingaServiceCheckDaemon"
+            }
+          ]
+        },
+        {
+          "name": "IcingaServiceCheckTask",
+          "children": [
+            {
+              "name": "Add-IcingaServiceCheckTask"
+            },
+            {
+              "name": "Start-IcingaServiceCheckTask"
+            }
+          ]
+        },
+        {
+          "name": "IcingaServiceCheckDaemonEnvironment",
+          "children": [
+            {
+              "name": "Clear-IcingaServiceCheckDaemonEnvironment"
+            },
+            {
+              "name": "New-IcingaServiceCheckDaemonEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRegisteredServiceChecks",
+          "children": [
+            {
+              "name": "Get-IcingaRegisteredServiceChecks"
+            },
+            {
+              "name": "Show-IcingaRegisteredServiceChecks"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckResultStore",
+          "children": [
+            {
+              "name": "Read-IcingaCheckResultStore"
+            }
+          ]
+        },
+        {
+          "name": "IcingaServiceCheck",
+          "children": [
+            {
+              "name": "Register-IcingaServiceCheck"
+            },
+            {
+              "name": "Unregister-IcingaServiceCheck"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRegisteredServiceCheckConfig",
+          "children": [
+            {
+              "name": "Set-IcingaRegisteredServiceCheckConfig"
+            }
+          ]
+        },
+        {
+          "name": "IcingaHelpThresholds",
+          "children": [
+            {
+              "name": "Get-IcingaHelpThresholds"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginNotInstalled",
+          "children": [
+            {
+              "name": "Exit-IcingaPluginNotInstalled"
+            }
+          ]
+        },
+        {
+          "name": "IcingaThrowCritical",
+          "children": [
+            {
+              "name": "Exit-IcingaThrowCritical"
+            }
+          ]
+        },
+        {
+          "name": "IcingaThrowException",
+          "children": [
+            {
+              "name": "Exit-IcingaThrowException"
+            }
+          ]
+        },
+        {
+          "name": "IcingaLastExceptionId",
+          "children": [
+            {
+              "name": "Get-IcingaLastExceptionId"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginOutputTranslation",
+          "children": [
+            {
+              "name": "ConvertTo-IcingaPluginOutputTranslation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaExecutePlugin",
+          "children": [
+            {
+              "name": "Exit-IcingaExecutePlugin"
+            }
+          ]
+        },
+        {
+          "name": "IcingaInternalPluginExitCode",
+          "children": [
+            {
+              "name": "Get-IcingaInternalPluginExitCode"
+            },
+            {
+              "name": "Set-IcingaInternalPluginExitCode"
+            }
+          ]
+        },
+        {
+          "name": "IcingaInternalPluginOutput",
+          "children": [
+            {
+              "name": "Get-IcingaInternalPluginOutput"
+            }
+          ]
+        },
+        {
+          "name": "IcingaThresholdCache",
+          "children": [
+            {
+              "name": "Get-IcingaThresholdCache"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheck",
+          "children": [
+            {
+              "name": "New-IcingaCheck"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckBaseObject",
+          "children": [
+            {
+              "name": "New-IcingaCheckBaseObject"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckPackage",
+          "children": [
+            {
+              "name": "New-IcingaCheckPackage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckResult",
+          "children": [
+            {
+              "name": "New-IcingaCheckResult"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPerformanceDataEntry",
+          "children": [
+            {
+              "name": "New-IcingaPerformanceDataEntry"
+            }
+          ]
+        },
+        {
+          "name": "IcingaInternalPluginException",
+          "children": [
+            {
+              "name": "Set-IcingaInternalPluginException"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginOutput",
+          "children": [
+            {
+              "name": "Write-IcingaPluginOutput"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginPerfData",
+          "children": [
+            {
+              "name": "Write-IcingaPluginPerfData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginPerfDataContent",
+          "children": [
+            {
+              "name": "Get-IcingaPluginPerfDataContent"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPluginResult",
+          "children": [
+            {
+              "name": "Write-IcingaPluginResult"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMSSQLConnection",
+          "children": [
+            {
+              "name": "Close-IcingaMSSQLConnection"
+            },
+            {
+              "name": "Open-IcingaMSSQLConnection"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMSSQLInstanceName",
+          "children": [
+            {
+              "name": "Get-IcingaMSSQLInstanceName"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMSSQLCommand",
+          "children": [
+            {
+              "name": "New-IcingaMSSQLCommand"
+            },
+            {
+              "name": "Send-IcingaMSSQLCommand"
+            }
+          ]
+        },
+        {
+          "name": "IcingaProgressPreference",
+          "children": [
+            {
+              "name": "Disable-IcingaProgressPreference"
+            }
+          ]
+        },
+        {
+          "name": "IcingaFrameworkProxyServer",
+          "children": [
+            {
+              "name": "Get-IcingaFrameworkProxyServer"
+            },
+            {
+              "name": "Set-IcingaFrameworkProxyServer"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWebRequest",
+          "children": [
+            {
+              "name": "Invoke-IcingaWebRequest"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTLSVersion",
+          "children": [
+            {
+              "name": "Set-IcingaTLSVersion"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTCPConnection",
+          "children": [
+            {
+              "name": "Close-IcingaTCPConnection"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTCPSocket",
+          "children": [
+            {
+              "name": "Close-IcingaTCPSocket"
+            },
+            {
+              "name": "New-IcingaTCPSocket"
+            }
+          ]
+        },
+        {
+          "name": "Base64ToCredentials",
+          "children": [
+            {
+              "name": "Convert-Base64ToCredentials"
+            }
+          ]
+        },
+        {
+          "name": "IcingaX509Certificate",
+          "children": [
+            {
+              "name": "ConvertTo-IcingaX509Certificate"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUntrustedCertificateValidation",
+          "children": [
+            {
+              "name": "Disable-IcingaUntrustedCertificateValidation"
+            },
+            {
+              "name": "Enable-IcingaUntrustedCertificateValidation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsCertificate",
+          "children": [
+            {
+              "name": "Get-IcingaForWindowsCertificate"
+            },
+            {
+              "name": "Install-IcingaForWindowsCertificate"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTHeaderValue",
+          "children": [
+            {
+              "name": "Get-IcingaRESTHeaderValue"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTPathElement",
+          "children": [
+            {
+              "name": "Get-IcingaRESTPathElement"
+            }
+          ]
+        },
+        {
+          "name": "IcingaSSLCertForSocket",
+          "children": [
+            {
+              "name": "Get-IcingaSSLCertForSocket"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTCPClientRemoteEndpoint",
+          "children": [
+            {
+              "name": "Get-IcingaTCPClientRemoteEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "IcingaSSLStream",
+          "children": [
+            {
+              "name": "New-IcingaSSLStream"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTCPClient",
+          "children": [
+            {
+              "name": "New-IcingaTCPClient"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTCPClientRESTMessage",
+          "children": [
+            {
+              "name": "New-IcingaTCPClientRESTMessage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTCPClientConnection",
+          "children": [
+            {
+              "name": "Open-IcingaTCPClientConnection"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTMessage",
+          "children": [
+            {
+              "name": "Read-IcingaRESTMessage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTCPStream",
+          "children": [
+            {
+              "name": "Read-IcingaTCPStream"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTCPClientMessage",
+          "children": [
+            {
+              "name": "Send-IcingaTCPClientMessage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWebAuthMessage",
+          "children": [
+            {
+              "name": "Send-IcingaWebAuthMessage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTCredentials",
+          "children": [
+            {
+              "name": "Test-IcingaRESTCredentials"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWmiPermissions",
+          "children": [
+            {
+              "name": "Add-IcingaWmiPermissions"
+            },
+            {
+              "name": "Remove-IcingaWmiPermissions"
+            },
+            {
+              "name": "Test-IcingaWmiPermissions"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsInformation",
+          "children": [
+            {
+              "name": "Get-IcingaWindowsInformation"
+            },
+            {
+              "name": "Test-IcingaWindowsInformation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWmiSecurityData",
+          "children": [
+            {
+              "name": "Get-IcingaWmiSecurityData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWmiPermissionMask",
+          "children": [
+            {
+              "name": "New-IcingaWmiPermissionMask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "icinga-powershell-plugins",
+      "companyName": "Icinga GmbH",
+      "author": "Lord Hepipud",
+      "children": [
+        {
+          "name": "IcingaPlugins",
+          "children": [
+            {
+              "name": "Use-IcingaPlugins"
+            },
+            {
+              "name": "Import-IcingaPlugins"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckBiosSerial",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckBiosSerial"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckCertificate",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckCertificate"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckCheckSum",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckCheckSum"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckCPU",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckCPU"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckDirectory",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckDirectory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckDiskHealth",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckDiskHealth"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckEventlog",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckEventlog"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckFirewall",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckFirewall"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckHTTPStatus",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckHTTPStatus"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckICMP",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckICMP"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckMemory",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckMemory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckMPIO",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckMPIO"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckNetworkInterface",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckNLA",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckNLA"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckPerfCounter",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckPerfCounter"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckProcess",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckProcess"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckProcessCount",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckProcessCount"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckScheduledTask",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckService",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckService"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckStoragePool",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckStoragePool"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckTCP",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckTCP"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckTimeSync",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckTimeSync"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckUNCPath",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckUNCPath"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckUpdates",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckUpdates"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckUptime",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckUptime"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckPartitionSpace",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckPartitionSpace"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckUsedPartitionSpace",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckUsedPartitionSpace"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckUsers",
+          "children": [
+            {
+              "name": "Invoke-IcingaCheckUsers"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBios",
+          "children": [
+            {
+              "name": "Get-IcingaBios"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosCharacteristics",
+          "children": [
+            {
+              "name": "Get-IcingaBiosCharacteristics"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosSerialNumber",
+          "children": [
+            {
+              "name": "Get-IcingaBiosSerialNumber"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosVersion",
+          "children": [
+            {
+              "name": "Get-IcingaBiosVersion"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosManufacturer",
+          "children": [
+            {
+              "name": "Get-IcingaBiosManufacturer"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosPrimaryBios",
+          "children": [
+            {
+              "name": "Get-IcingaBiosPrimaryBios"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosName",
+          "children": [
+            {
+              "name": "Get-IcingaBiosName"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosStatus",
+          "children": [
+            {
+              "name": "Get-IcingaBiosStatus"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosCaption",
+          "children": [
+            {
+              "name": "Get-IcingaBiosCaption"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosSMBIOSBIOSVersion",
+          "children": [
+            {
+              "name": "Get-IcingaBiosSMBIOSBIOSVersion"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosSoftwareElementID",
+          "children": [
+            {
+              "name": "Get-IcingaBiosSoftwareElementID"
+            }
+          ]
+        },
+        {
+          "name": "IcingaBiosData",
+          "children": [
+            {
+              "name": "Show-IcingaBiosData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCertificateData",
+          "children": [
+            {
+              "name": "Get-IcingaCertificateData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCertStoreCertificates",
+          "children": [
+            {
+              "name": "Get-IcingaCertStoreCertificates"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCertificateExcludePattern",
+          "children": [
+            {
+              "name": "Test-IcingaCertificateExcludePattern"
+            }
+          ]
+        },
+        {
+          "name": "IcingaICMPConnection",
+          "children": [
+            {
+              "name": "Test-IcingaICMPConnection"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUs",
+          "children": [
+            {
+              "name": "Get-IcingaCPUs"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUInformation",
+          "children": [
+            {
+              "name": "Get-IcingaCPUInformation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUInformationWithEnums",
+          "children": [
+            {
+              "name": "Get-IcingaCPUInformationWithEnums"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUErrors",
+          "children": [
+            {
+              "name": "Get-IcingaCPUErrors"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUArchitecture",
+          "children": [
+            {
+              "name": "Get-IcingaCPUArchitecture"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUProcessorType",
+          "children": [
+            {
+              "name": "Get-IcingaCPUProcessorType"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUStatusInfo",
+          "children": [
+            {
+              "name": "Get-IcingaCPUStatusInfo"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUFamily",
+          "children": [
+            {
+              "name": "Get-IcingaCPUFamily"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUConfigManagerErrorCode",
+          "children": [
+            {
+              "name": "Get-IcingaCPUConfigManagerErrorCode"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUAvailability",
+          "children": [
+            {
+              "name": "Get-IcingaCPUAvailability"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUPowerManagementCapabilities",
+          "children": [
+            {
+              "name": "Get-IcingaCPUPowerManagementCapabilities"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPULoadPercentage",
+          "children": [
+            {
+              "name": "Get-IcingaCPULoadPercentage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUCurrentVoltage",
+          "children": [
+            {
+              "name": "Get-IcingaCPUCurrentVoltage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUThreadCount",
+          "children": [
+            {
+              "name": "Get-IcingaCPUThreadCount"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUL3CacheSize",
+          "children": [
+            {
+              "name": "Get-IcingaCPUL3CacheSize"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUL2CacheSize",
+          "children": [
+            {
+              "name": "Get-IcingaCPUL2CacheSize"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUL2CacheSpeed",
+          "children": [
+            {
+              "name": "Get-IcingaCPUL2CacheSpeed"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUVoltageCaps",
+          "children": [
+            {
+              "name": "Get-IcingaCPUVoltageCaps"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUCurrentClockSpeed",
+          "children": [
+            {
+              "name": "Get-IcingaCPUCurrentClockSpeed"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUNumberOfLogicalProcessors",
+          "children": [
+            {
+              "name": "Get-IcingaCPUNumberOfLogicalProcessors"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUCount",
+          "children": [
+            {
+              "name": "Get-IcingaCPUCount"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCPUData",
+          "children": [
+            {
+              "name": "Show-IcingaCPUData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectoryAll",
+          "children": [
+            {
+              "name": "Get-IcingaDirectoryAll"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectory",
+          "children": [
+            {
+              "name": "Get-IcingaDirectory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectoryRecurse",
+          "children": [
+            {
+              "name": "Get-IcingaDirectoryRecurse"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectorySizeGreaterThan",
+          "children": [
+            {
+              "name": "Get-IcingaDirectorySizeGreaterThan"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectorySizeSmallerThan",
+          "children": [
+            {
+              "name": "Get-IcingaDirectorySizeSmallerThan"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectoryChangeOlderThan",
+          "children": [
+            {
+              "name": "Get-IcingaDirectoryChangeOlderThan"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectoryChangeYoungerThan",
+          "children": [
+            {
+              "name": "Get-IcingaDirectoryChangeYoungerThan"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectoryChangeTimeEqual",
+          "children": [
+            {
+              "name": "Get-IcingaDirectoryChangeTimeEqual"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectoryCreationYoungerThan",
+          "children": [
+            {
+              "name": "Get-IcingaDirectoryCreationYoungerThan"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectoryCreationOlderThan",
+          "children": [
+            {
+              "name": "Get-IcingaDirectoryCreationOlderThan"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDirectoryCreationTimeEqual",
+          "children": [
+            {
+              "name": "Get-IcingaDirectoryCreationTimeEqual"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskAttributes",
+          "children": [
+            {
+              "name": "Get-IcingaDiskAttributes"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskPartitionAssignment",
+          "children": [
+            {
+              "name": "Get-IcingaDiskPartitionAssignment"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPartitionSpace",
+          "children": [
+            {
+              "name": "Get-IcingaPartitionSpace"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPhysicalDiskInfo",
+          "children": [
+            {
+              "name": "Get-IcingaPhysicalDiskInfo"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUNCPathSize",
+          "children": [
+            {
+              "name": "Get-IcingaUNCPathSize"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskInformation",
+          "children": [
+            {
+              "name": "Get-IcingaDiskInformation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskPartitions",
+          "children": [
+            {
+              "name": "Get-IcingaDiskPartitions"
+            }
+          ]
+        },
+        {
+          "name": "IcingaPhysicalDiskDataPerfCounter",
+          "children": [
+            {
+              "name": "Join-IcingaPhysicalDiskDataPerfCounter"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskCapabilities",
+          "children": [
+            {
+              "name": "Get-IcingaDiskCapabilities"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskSize",
+          "children": [
+            {
+              "name": "Get-IcingaDiskSize"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskCaption",
+          "children": [
+            {
+              "name": "Get-IcingaDiskCaption"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskModel",
+          "children": [
+            {
+              "name": "Get-IcingaDiskModel"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskManufacturer",
+          "children": [
+            {
+              "name": "Get-IcingaDiskManufacturer"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskTotalCylinders",
+          "children": [
+            {
+              "name": "Get-IcingaDiskTotalCylinders"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskTotalSectors",
+          "children": [
+            {
+              "name": "Get-IcingaDiskTotalSectors"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDisks",
+          "children": [
+            {
+              "name": "Get-IcingaDisks"
+            }
+          ]
+        },
+        {
+          "name": "IcingaDiskData",
+          "children": [
+            {
+              "name": "Show-IcingaDiskData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaEventLog",
+          "children": [
+            {
+              "name": "Get-IcingaEventLog"
+            }
+          ]
+        },
+        {
+          "name": "IcingaCheckHTTPQuery",
+          "children": [
+            {
+              "name": "Get-IcingaCheckHTTPQuery"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryPerformanceCounter",
+          "children": [
+            {
+              "name": "Get-IcingaMemoryPerformanceCounter"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryUsage",
+          "children": [
+            {
+              "name": "Get-IcingaMemoryUsage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemory",
+          "children": [
+            {
+              "name": "Get-IcingaMemory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryInformation",
+          "children": [
+            {
+              "name": "Get-IcingaMemoryInformation"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryMaxVoltage",
+          "children": [
+            {
+              "name": "Get-IcingaMemoryMaxVoltage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryMinVoltage",
+          "children": [
+            {
+              "name": "Get-IcingaMemoryMinVoltage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryConfiguredVoltage",
+          "children": [
+            {
+              "name": "Get-IcingaMemoryConfiguredVoltage"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryConfiguredClockSpeed",
+          "children": [
+            {
+              "name": "Get-IcingaMemoryConfiguredClockSpeed"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryTotalWidth",
+          "children": [
+            {
+              "name": "Get-IcingaMemoryTotalWidth"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryDataWidth",
+          "children": [
+            {
+              "name": "Get-IcingaMemoryDataWidth"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemorySpeed",
+          "children": [
+            {
+              "name": "Get-IcingaMemorySpeed"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryCapacity",
+          "children": [
+            {
+              "name": "Get-IcingaMemoryCapacity"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMemoryData",
+          "children": [
+            {
+              "name": "Show-IcingaMemoryData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMPIOData",
+          "children": [
+            {
+              "name": "Get-IcingaMPIOData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaMPIOInstalled",
+          "children": [
+            {
+              "name": "Test-IcingaMPIOInstalled"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNetworkDeviceInfo",
+          "children": [
+            {
+              "name": "Get-IcingaNetworkDeviceInfo"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNetworkInterfaceTeamInfo",
+          "children": [
+            {
+              "name": "Get-IcingaNetworkInterfaceTeamInfo"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNetworkSpeedChecks",
+          "children": [
+            {
+              "name": "Get-IcingaNetworkSpeedChecks"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNetworkDeviceDataPerfCounter",
+          "children": [
+            {
+              "name": "Join-IcingaNetworkDeviceDataPerfCounter"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNtpData",
+          "children": [
+            {
+              "name": "Get-IcingaNtpData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaProcessPerfData",
+          "children": [
+            {
+              "name": "Add-IcingaProcessPerfData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaProcessData",
+          "children": [
+            {
+              "name": "Get-IcingaProcessData"
+            }
+          ]
+        },
+        {
+          "name": "IcingaServiceSummary",
+          "children": [
+            {
+              "name": "Add-IcingaServiceSummary"
+            }
+          ]
+        },
+        {
+          "name": "ServiceStatusCode",
+          "children": [
+            {
+              "name": "ConvertTo-ServiceStatusCode"
+            }
+          ]
+        },
+        {
+          "name": "IcingaServiceCheckName",
+          "children": [
+            {
+              "name": "Get-IcingaServiceCheckName"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsServiceCheckObject",
+          "children": [
+            {
+              "name": "New-IcingaWindowsServiceCheckObject"
+            }
+          ]
+        },
+        {
+          "name": "IcingaConvertToGigaByte",
+          "children": [
+            {
+              "name": "Get-IcingaConvertToGigaByte"
+            }
+          ]
+        },
+        {
+          "name": "IcingaStoragePoolInfo",
+          "children": [
+            {
+              "name": "Get-IcingaStoragePoolInfo"
+            }
+          ]
+        },
+        {
+          "name": "IcingaScheduledTask",
+          "children": [
+            {
+              "name": "Get-IcingaScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTaskObject",
+          "children": [
+            {
+              "name": "New-IcingaTaskObject"
+            }
+          ]
+        },
+        {
+          "name": "IcingaTCPConnection",
+          "children": [
+            {
+              "name": "Measure-IcingaTCPConnection"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUpdatesHotfix",
+          "children": [
+            {
+              "name": "Get-IcingaUpdatesHotfix"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUpdatesInstalled",
+          "children": [
+            {
+              "name": "Get-IcingaUpdatesInstalled"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsUpdatesPending",
+          "children": [
+            {
+              "name": "Get-IcingaWindowsUpdatesPending"
+            }
+          ]
+        },
+        {
+          "name": "IcingaLoggedOnUsers",
+          "children": [
+            {
+              "name": "Get-IcingaLoggedOnUsers"
+            }
+          ]
+        },
+        {
+          "name": "IcingaUsers",
+          "children": [
+            {
+              "name": "Get-IcingaUsers"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindows",
+          "children": [
+            {
+              "name": "Get-IcingaWindows"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsData",
+          "children": [
+            {
+              "name": "Show-IcingaWindowsData"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

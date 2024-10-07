@@ -1,0 +1,91 @@
+{
+  "name": "PowerCLIGoodies",
+  "children": [
+    {
+      "name": "DRSRule",
+      "companyName": "PowerCLIGoodies",
+      "author": "Luc Dekens   LucD22  Matt Boren   mtboren",
+      "children": [
+        {
+          "name": "DrsVMGroup",
+          "children": [
+            {
+              "name": "Get-DrsVMGroup"
+            },
+            {
+              "name": "New-DrsVMGroup"
+            },
+            {
+              "name": "Remove-DrsVMGroup"
+            },
+            {
+              "name": "Set-DrsVMGroup"
+            }
+          ]
+        },
+        {
+          "name": "DrsVMHostGroup",
+          "children": [
+            {
+              "name": "Get-DrsVMHostGroup"
+            },
+            {
+              "name": "New-DrsVMHostGroup"
+            },
+            {
+              "name": "Remove-DrsVMHostGroup"
+            },
+            {
+              "name": "Set-DrsVMHostGroup"
+            }
+          ]
+        },
+        {
+          "name": "DrsVMToVMHostRule",
+          "children": [
+            {
+              "name": "Get-DrsVMToVMHostRule"
+            },
+            {
+              "name": "New-DrsVMToVMHostRule"
+            },
+            {
+              "name": "Remove-DrsVMToVMHostRule"
+            },
+            {
+              "name": "Set-DrsVMToVMHostRule"
+            }
+          ]
+        },
+        {
+          "name": "DrsVMToVMRule",
+          "children": [
+            {
+              "name": "Get-DrsVMToVMRule"
+            },
+            {
+              "name": "New-DrsVMToVMRule"
+            },
+            {
+              "name": "Remove-DrsVMToVMRule"
+            },
+            {
+              "name": "Set-DrsVMToVMRule"
+            }
+          ]
+        },
+        {
+          "name": "DrsRule",
+          "children": [
+            {
+              "name": "Import-DrsRule"
+            },
+            {
+              "name": "Export-DrsRule"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

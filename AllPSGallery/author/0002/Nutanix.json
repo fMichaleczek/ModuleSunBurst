@@ -1,0 +1,121 @@
+{
+  "name": "Nutanix",
+  "children": [
+    {
+      "name": "Nutanix.Prism.Common",
+      "companyName": "Nutanix",
+      "author": "Nutanix",
+      "children": [
+        {
+          "name": "PrismCentral",
+          "children": [
+            {
+              "name": "Connect-PrismCentral"
+            },
+            {
+              "name": "Disconnect-PrismCentral"
+            }
+          ]
+        },
+        {
+          "name": "NutanixObject",
+          "children": [
+            {
+              "name": "New-NutanixObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nutanix.Prism.PS.Cmds",
+      "companyName": "Nutanix",
+      "author": "Nutanix",
+      "children": [
+        {
+          "name": "VM",
+          "children": [
+            {
+              "name": "Get-VM"
+            },
+            {
+              "name": "New-VM"
+            },
+            {
+              "name": "Set-VM"
+            },
+            {
+              "name": "Remove-VM"
+            },
+            {
+              "name": "Start-VM"
+            },
+            {
+              "name": "Stop-VM"
+            }
+          ]
+        },
+        {
+          "name": "Cluster",
+          "children": [
+            {
+              "name": "Get-Cluster"
+            }
+          ]
+        },
+        {
+          "name": "Image",
+          "children": [
+            {
+              "name": "Get-Image"
+            },
+            {
+              "name": "Set-Image"
+            },
+            {
+              "name": "New-Image"
+            },
+            {
+              "name": "Remove-Image"
+            }
+          ]
+        },
+        {
+          "name": "Metric",
+          "children": [
+            {
+              "name": "Get-Metric"
+            }
+          ]
+        },
+        {
+          "name": "Task",
+          "children": [
+            {
+              "name": "Get-Task"
+            },
+            {
+              "name": "Wait-Task"
+            }
+          ]
+        },
+        {
+          "name": "Network",
+          "children": [
+            {
+              "name": "Get-Network"
+            }
+          ]
+        },
+        {
+          "name": "StorageContainer",
+          "children": [
+            {
+              "name": "Get-StorageContainer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

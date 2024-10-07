@@ -1,0 +1,120 @@
+{
+  "name": "KubaP",
+  "children": [
+    {
+      "name": "FactorioProfiles",
+      "companyName": "Unknown",
+      "author": "KubaP",
+      "children": [
+        {
+          "name": "FactorioProfile",
+          "children": [
+            {
+              "name": "New-FactorioProfile"
+            },
+            {
+              "name": "Get-FactorioProfile"
+            },
+            {
+              "name": "Remove-FactorioProfile"
+            },
+            {
+              "name": "Switch-FactorioProfile"
+            }
+          ]
+        },
+        {
+          "name": "FactorioProfileSettings",
+          "children": [
+            {
+              "name": "Get-FactorioProfileSettings"
+            }
+          ]
+        },
+        {
+          "name": "FactorioProfileOption",
+          "children": [
+            {
+              "name": "Set-FactorioProfileOption"
+            }
+          ]
+        },
+        {
+          "name": "FactorioProfiles",
+          "children": [
+            {
+              "name": "Sync-FactorioProfiles"
+            }
+          ]
+        },
+        {
+          "name": "FactorioProfileFolder",
+          "children": [
+            {
+              "name": "Open-FactorioProfileFolder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Symlink",
+      "companyName": "Unknown",
+      "author": "KubaP",
+      "children": [
+        {
+          "name": "Symlink",
+          "children": [
+            {
+              "name": "New-Symlink"
+            },
+            {
+              "name": "Get-Symlink"
+            },
+            {
+              "name": "Set-Symlink"
+            },
+            {
+              "name": "Remove-Symlink"
+            },
+            {
+              "name": "Build-Symlink"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ytdlWrapper",
+      "companyName": "Unknown",
+      "author": "KubaP",
+      "children": [
+        {
+          "name": "YoutubeDlItem",
+          "children": [
+            {
+              "name": "New-YoutubeDlItem"
+            },
+            {
+              "name": "Get-YoutubeDlItem"
+            },
+            {
+              "name": "Set-YoutubeDlItem"
+            },
+            {
+              "name": "Remove-YoutubeDlItem"
+            }
+          ]
+        },
+        {
+          "name": "YoutubeDl",
+          "children": [
+            {
+              "name": "Invoke-YoutubeDl"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

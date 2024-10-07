@@ -1,0 +1,302 @@
+{
+  "name": "Raimund Andree Per Pedersen",
+  "children": [
+    {
+      "name": "AutomatedLabUnattended",
+      "companyName": "AutomatedLab Team",
+      "author": "Raimund Andree Per Pedersen",
+      "children": [
+        {
+          "name": "UnattendedNetworkAdapter",
+          "children": [
+            {
+              "name": "Add-UnattendedNetworkAdapter"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedRenameNetworkAdapters",
+          "children": [
+            {
+              "name": "Add-UnattendedRenameNetworkAdapters"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedSynchronousCommand",
+          "children": [
+            {
+              "name": "Add-UnattendedSynchronousCommand"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedFile",
+          "children": [
+            {
+              "name": "Export-UnattendedFile"
+            },
+            {
+              "name": "Import-UnattendedFile"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedContent",
+          "children": [
+            {
+              "name": "Get-UnattendedContent"
+            },
+            {
+              "name": "Import-UnattendedContent"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedAdministratorName",
+          "children": [
+            {
+              "name": "Set-UnattendedAdministratorName"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedAdministratorPassword",
+          "children": [
+            {
+              "name": "Set-UnattendedAdministratorPassword"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedAntiMalware",
+          "children": [
+            {
+              "name": "Set-UnattendedAntiMalware"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedAutoLogon",
+          "children": [
+            {
+              "name": "Set-UnattendedAutoLogon"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedComputerName",
+          "children": [
+            {
+              "name": "Set-UnattendedComputerName"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedDomain",
+          "children": [
+            {
+              "name": "Set-UnattendedDomain"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedFirewallState",
+          "children": [
+            {
+              "name": "Set-UnattendedFirewallState"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedIpSettings",
+          "children": [
+            {
+              "name": "Set-UnattendedIpSettings"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedLocalIntranetSites",
+          "children": [
+            {
+              "name": "Set-UnattendedLocalIntranetSites"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedPackage",
+          "children": [
+            {
+              "name": "Set-UnattendedPackage"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedProductKey",
+          "children": [
+            {
+              "name": "Set-UnattendedProductKey"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedTimeZone",
+          "children": [
+            {
+              "name": "Set-UnattendedTimeZone"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedUserLocale",
+          "children": [
+            {
+              "name": "Set-UnattendedUserLocale"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedWorkgroup",
+          "children": [
+            {
+              "name": "Set-UnattendedWorkgroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HostsFile",
+      "companyName": "AutomatedLab Team",
+      "author": "Raimund Andree Per Pedersen",
+      "children": [
+        {
+          "name": "HostEntry",
+          "children": [
+            {
+              "name": "Add-HostEntry"
+            },
+            {
+              "name": "Get-HostEntry"
+            },
+            {
+              "name": "Remove-HostEntry"
+            }
+          ]
+        },
+        {
+          "name": "HostFile",
+          "children": [
+            {
+              "name": "Clear-HostFile"
+            },
+            {
+              "name": "Get-HostFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSFileTransfer",
+      "companyName": "AutomatedLab Team",
+      "author": "Raimund Andree Per Pedersen",
+      "children": [
+        {
+          "name": "Directory",
+          "children": [
+            {
+              "name": "Send-Directory"
+            },
+            {
+              "name": "Receive-Directory"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "Send-File"
+            },
+            {
+              "name": "Receive-File"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSLog",
+      "companyName": "AutomatedLab Team",
+      "author": "Raimund Andree Per Pedersen",
+      "children": [
+        {
+          "name": "CallerPreference",
+          "children": [
+            {
+              "name": "Get-CallerPreference"
+            }
+          ]
+        },
+        {
+          "name": "LogError",
+          "children": [
+            {
+              "name": "Write-LogError"
+            }
+          ]
+        },
+        {
+          "name": "LogFunctionEntry",
+          "children": [
+            {
+              "name": "Write-LogFunctionEntry"
+            }
+          ]
+        },
+        {
+          "name": "LogFunctionExit",
+          "children": [
+            {
+              "name": "Write-LogFunctionExit"
+            }
+          ]
+        },
+        {
+          "name": "LogFunctionExitWithError",
+          "children": [
+            {
+              "name": "Write-LogFunctionExitWithError"
+            }
+          ]
+        },
+        {
+          "name": "ProgressIndicator",
+          "children": [
+            {
+              "name": "Write-ProgressIndicator"
+            }
+          ]
+        },
+        {
+          "name": "ProgressIndicatorEnd",
+          "children": [
+            {
+              "name": "Write-ProgressIndicatorEnd"
+            }
+          ]
+        },
+        {
+          "name": "ScreenInfo",
+          "children": [
+            {
+              "name": "Write-ScreenInfo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "name": "RISE Data Platform",
+  "children": [
+    {
+      "name": "RTDP.CLI.AdminCmdlets",
+      "companyName": "Microsoft",
+      "author": "RISE Data Platform",
+      "children": [
+        {
+          "name": "AdminSession",
+          "children": [
+            {
+              "name": "Initialize-AdminSession"
+            }
+          ]
+        },
+        {
+          "name": "AvailableDatastores",
+          "children": [
+            {
+              "name": "Get-AvailableDatastores"
+            }
+          ]
+        },
+        {
+          "name": "DatastoreTables",
+          "children": [
+            {
+              "name": "Get-DatastoreTables"
+            }
+          ]
+        },
+        {
+          "name": "DatastoreInformation",
+          "children": [
+            {
+              "name": "Get-DatastoreInformation"
+            }
+          ]
+        },
+        {
+          "name": "PartnerApps",
+          "children": [
+            {
+              "name": "Get-PartnerApps"
+            }
+          ]
+        },
+        {
+          "name": "PartnerApp",
+          "children": [
+            {
+              "name": "Register-PartnerApp"
+            },
+            {
+              "name": "Remove-PartnerApp"
+            },
+            {
+              "name": "Update-PartnerApp"
+            }
+          ]
+        },
+        {
+          "name": "Datastore",
+          "children": [
+            {
+              "name": "Delete-Datastore"
+            },
+            {
+              "name": "Register-Datastore"
+            },
+            {
+              "name": "Update-Datastore"
+            }
+          ]
+        },
+        {
+          "name": "DatastoreConnectionString",
+          "children": [
+            {
+              "name": "Get-DatastoreConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "DatastoreEndpoints",
+          "children": [
+            {
+              "name": "Get-DatastoreEndpoints"
+            }
+          ]
+        },
+        {
+          "name": "DatastoreVersion",
+          "children": [
+            {
+              "name": "Update-DatastoreVersion"
+            }
+          ]
+        },
+        {
+          "name": "ResourceStorage",
+          "children": [
+            {
+              "name": "Promote-ResourceStorage"
+            }
+          ]
+        },
+        {
+          "name": "DatasetContent",
+          "children": [
+            {
+              "name": "Get-DatasetContent"
+            }
+          ]
+        },
+        {
+          "name": "DatasetSchema",
+          "children": [
+            {
+              "name": "Get-DatasetSchema"
+            }
+          ]
+        },
+        {
+          "name": "DatasetRecord",
+          "children": [
+            {
+              "name": "Add-DatasetRecord"
+            }
+          ]
+        },
+        {
+          "name": "Dataset",
+          "children": [
+            {
+              "name": "Delete-Dataset"
+            },
+            {
+              "name": "Promote-Dataset"
+            },
+            {
+              "name": "Register-Dataset"
+            }
+          ]
+        },
+        {
+          "name": "AvailableDatasets",
+          "children": [
+            {
+              "name": "Get-AvailableDatasets"
+            }
+          ]
+        },
+        {
+          "name": "DatasetColumns",
+          "children": [
+            {
+              "name": "Get-DatasetColumns"
+            }
+          ]
+        },
+        {
+          "name": "DatasetConnectionDetails",
+          "children": [
+            {
+              "name": "Get-DatasetConnectionDetails"
+            }
+          ]
+        },
+        {
+          "name": "DatasetEnvironments",
+          "children": [
+            {
+              "name": "Get-DatasetEnvironments"
+            }
+          ]
+        },
+        {
+          "name": "DatasetInformation",
+          "children": [
+            {
+              "name": "Get-DatasetInformation"
+            },
+            {
+              "name": "Update-DatasetInformation"
+            }
+          ]
+        },
+        {
+          "name": "DatasetPromotion",
+          "children": [
+            {
+              "name": "Revoke-DatasetPromotion"
+            }
+          ]
+        },
+        {
+          "name": "QueuedIngestionsByDatasetId",
+          "children": [
+            {
+              "name": "Get-QueuedIngestionsByDatasetId"
+            }
+          ]
+        },
+        {
+          "name": "QueuedIngestionsByDatasetIdAndSourceId",
+          "children": [
+            {
+              "name": "Get-QueuedIngestionsByDatasetIdAndSourceId"
+            }
+          ]
+        },
+        {
+          "name": "RequesterQueuedIngestions",
+          "children": [
+            {
+              "name": "Get-RequesterQueuedIngestions"
+            }
+          ]
+        },
+        {
+          "name": "QueuedIngestion",
+          "children": [
+            {
+              "name": "Register-QueuedIngestion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RTDP.CLI.PartnerCmdlets",
+      "companyName": "Microsoft",
+      "author": "RISE Data Platform",
+      "children": [
+        {
+          "name": "PartnerSession",
+          "children": [
+            {
+              "name": "Initialize-PartnerSession"
+            }
+          ]
+        },
+        {
+          "name": "AvailableDatastores",
+          "children": [
+            {
+              "name": "Get-AvailableDatastores"
+            }
+          ]
+        },
+        {
+          "name": "DatastoreTables",
+          "children": [
+            {
+              "name": "Get-DatastoreTables"
+            }
+          ]
+        },
+        {
+          "name": "DatastoreInformation",
+          "children": [
+            {
+              "name": "Get-DatastoreInformation"
+            }
+          ]
+        },
+        {
+          "name": "ResourceStorage",
+          "children": [
+            {
+              "name": "Promote-ResourceStorage"
+            }
+          ]
+        },
+        {
+          "name": "DatasetContent",
+          "children": [
+            {
+              "name": "Get-DatasetContent"
+            }
+          ]
+        },
+        {
+          "name": "DatasetSchema",
+          "children": [
+            {
+              "name": "Get-DatasetSchema"
+            }
+          ]
+        },
+        {
+          "name": "DatasetRecord",
+          "children": [
+            {
+              "name": "Add-DatasetRecord"
+            }
+          ]
+        },
+        {
+          "name": "PartnerDataset",
+          "children": [
+            {
+              "name": "Delete-PartnerDataset"
+            },
+            {
+              "name": "Promote-PartnerDataset"
+            },
+            {
+              "name": "Register-PartnerDataset"
+            }
+          ]
+        },
+        {
+          "name": "AvailableDatasets",
+          "children": [
+            {
+              "name": "Get-AvailableDatasets"
+            }
+          ]
+        },
+        {
+          "name": "DatasetColumns",
+          "children": [
+            {
+              "name": "Get-DatasetColumns"
+            }
+          ]
+        },
+        {
+          "name": "DatasetEnvironments",
+          "children": [
+            {
+              "name": "Get-DatasetEnvironments"
+            }
+          ]
+        },
+        {
+          "name": "DatasetInformation",
+          "children": [
+            {
+              "name": "Get-DatasetInformation"
+            },
+            {
+              "name": "Update-DatasetInformation"
+            }
+          ]
+        },
+        {
+          "name": "DatasetPromotion",
+          "children": [
+            {
+              "name": "Revoke-DatasetPromotion"
+            }
+          ]
+        },
+        {
+          "name": "EntityEdge",
+          "children": [
+            {
+              "name": "Add-EntityEdge"
+            },
+            {
+              "name": "Remove-EntityEdge"
+            }
+          ]
+        },
+        {
+          "name": "EntityEdges",
+          "children": [
+            {
+              "name": "Get-EntityEdges"
+            }
+          ]
+        },
+        {
+          "name": "PossibleEntities",
+          "children": [
+            {
+              "name": "Find-PossibleEntities"
+            }
+          ]
+        },
+        {
+          "name": "EntityEdgesConnectedToVertex",
+          "children": [
+            {
+              "name": "Get-EntityEdgesConnectedToVertex"
+            }
+          ]
+        },
+        {
+          "name": "EntitySubgraph",
+          "children": [
+            {
+              "name": "Get-EntitySubgraph"
+            }
+          ]
+        },
+        {
+          "name": "ShortestPathFromVertexToVertex",
+          "children": [
+            {
+              "name": "Get-ShortestPathFromVertexToVertex"
+            }
+          ]
+        },
+        {
+          "name": "EntityVertex",
+          "children": [
+            {
+              "name": "Add-EntityVertex"
+            },
+            {
+              "name": "Remove-EntityVertex"
+            },
+            {
+              "name": "Update-EntityVertex"
+            }
+          ]
+        },
+        {
+          "name": "EntityVertexById",
+          "children": [
+            {
+              "name": "Get-EntityVertexById"
+            }
+          ]
+        },
+        {
+          "name": "EntityVertices",
+          "children": [
+            {
+              "name": "Get-EntityVertices"
+            }
+          ]
+        },
+        {
+          "name": "QueuedIngestionsByDatasetId",
+          "children": [
+            {
+              "name": "Get-QueuedIngestionsByDatasetId"
+            }
+          ]
+        },
+        {
+          "name": "QueuedIngestionsByDatasetIdAndSourceId",
+          "children": [
+            {
+              "name": "Get-QueuedIngestionsByDatasetIdAndSourceId"
+            }
+          ]
+        },
+        {
+          "name": "RequesterQueuedIngestions",
+          "children": [
+            {
+              "name": "Get-RequesterQueuedIngestions"
+            }
+          ]
+        },
+        {
+          "name": "QueuedIngestion",
+          "children": [
+            {
+              "name": "Register-QueuedIngestion"
+            }
+          ]
+        },
+        {
+          "name": "PartnerKustoConnectorPipeline",
+          "children": [
+            {
+              "name": "Add-PartnerKustoConnectorPipeline"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "name": "lum",
+  "children": [
+    {
+      "name": "LUM.AudioCodes",
+      "companyName": "Unknown",
+      "author": "lum",
+      "children": [
+        {
+          "name": "AcManipulation",
+          "children": [
+            {
+              "name": "New-AcManipulation"
+            },
+            {
+              "name": "Get-AcManipulation"
+            },
+            {
+              "name": "Remove-AcManipulation"
+            }
+          ]
+        },
+        {
+          "name": "AcManipulationCsv",
+          "children": [
+            {
+              "name": "New-AcManipulationCsv"
+            }
+          ]
+        },
+        {
+          "name": "AudioCodes",
+          "children": [
+            {
+              "name": "Backup-AudioCodes"
+            }
+          ]
+        },
+        {
+          "name": "AssignedNumbers",
+          "children": [
+            {
+              "name": "Export-AssignedNumbers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LUM.HelloWorld",
+      "companyName": "Unknown",
+      "author": "lum",
+      "children": [
+        {
+          "name": "HelloWorld",
+          "children": [
+            {
+              "name": "Get-HelloWorld"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LUM.PasswordTool",
+      "companyName": "Unknown",
+      "author": "lum",
+      "children": [
+        {
+          "name": "Password",
+          "children": [
+            {
+              "name": "Get-Password"
+            }
+          ]
+        },
+        {
+          "name": "Passwords",
+          "children": [
+            {
+              "name": "Configure-Passwords"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LUM.SfB",
+      "companyName": "Unknown",
+      "author": "lum",
+      "children": [
+        {
+          "name": "RgsWorkflow",
+          "children": [
+            {
+              "name": "Get-RgsWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "SfbAssignedNumbers",
+          "children": [
+            {
+              "name": "Get-SfbAssignedNumbers"
+            }
+          ]
+        },
+        {
+          "name": "ExtSfbDns",
+          "children": [
+            {
+              "name": "Get-ExtSfbDns"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

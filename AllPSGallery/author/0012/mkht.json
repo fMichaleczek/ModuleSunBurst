@@ -1,0 +1,645 @@
+{
+  "name": "mkht",
+  "children": [
+    {
+      "name": "DHCPClient-PS",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "DhcpDiscover",
+          "children": [
+            {
+              "name": "Invoke-DhcpDiscover"
+            }
+          ]
+        },
+        {
+          "name": "DhcpInform",
+          "children": [
+            {
+              "name": "Invoke-DhcpInform"
+            }
+          ]
+        },
+        {
+          "name": "DhcpRequest",
+          "children": [
+            {
+              "name": "Invoke-DhcpRequest"
+            }
+          ]
+        },
+        {
+          "name": "DhcpRelease",
+          "children": [
+            {
+              "name": "Invoke-DhcpRelease"
+            }
+          ]
+        },
+        {
+          "name": "DhcpCustomMessage",
+          "children": [
+            {
+              "name": "Invoke-DhcpCustomMessage"
+            }
+          ]
+        },
+        {
+          "name": "DhcpPacket",
+          "children": [
+            {
+              "name": "New-DhcpPacket"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSCR_AutoLogon",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "AutoLogon",
+          "children": [
+            {
+              "name": "Set-AutoLogon"
+            },
+            {
+              "name": "Disable-AutoLogon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSCR_FileContent",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "IniFile",
+          "children": [
+            {
+              "name": "Get-IniFile"
+            }
+          ]
+        },
+        {
+          "name": "IniString",
+          "children": [
+            {
+              "name": "ConvertTo-IniString"
+            }
+          ]
+        },
+        {
+          "name": "IniKey",
+          "children": [
+            {
+              "name": "Set-IniKey"
+            },
+            {
+              "name": "Remove-IniKey"
+            }
+          ]
+        },
+        {
+          "name": "NewLine",
+          "children": [
+            {
+              "name": "Convert-NewLine"
+            }
+          ]
+        },
+        {
+          "name": "NewContent",
+          "children": [
+            {
+              "name": "Set-NewContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSCR_IniFIle",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "IniFile",
+          "children": [
+            {
+              "name": "Get-IniFile"
+            }
+          ]
+        },
+        {
+          "name": "IniString",
+          "children": [
+            {
+              "name": "ConvertTo-IniString"
+            }
+          ]
+        },
+        {
+          "name": "IniKey",
+          "children": [
+            {
+              "name": "Set-IniKey"
+            },
+            {
+              "name": "Remove-IniKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSCR_KeyboardLayout",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "KeyboardLayout",
+          "children": [
+            {
+              "name": "Get-KeyboardLayout"
+            },
+            {
+              "name": "Set-KeyboardLayout"
+            }
+          ]
+        },
+        {
+          "name": "DefaultKeyboardLayout",
+          "children": [
+            {
+              "name": "Get-DefaultKeyboardLayout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSCR_PowerPlan",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "PowerPlan",
+          "children": [
+            {
+              "name": "Get-PowerPlan"
+            }
+          ]
+        },
+        {
+          "name": "PowerPlanSetting",
+          "children": [
+            {
+              "name": "Get-PowerPlanSetting"
+            },
+            {
+              "name": "Set-PowerPlanSetting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DSCR_Shortcut",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "Shortcut",
+          "children": [
+            {
+              "name": "Get-Shortcut"
+            },
+            {
+              "name": "New-Shortcut"
+            },
+            {
+              "name": "Update-Shortcut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KanaUtils",
+      "companyName": "mkht",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "KanaToRomaji",
+          "children": [
+            {
+              "name": "Convert-KanaToRomaji"
+            }
+          ]
+        },
+        {
+          "name": "HiraganaToKatakana",
+          "children": [
+            {
+              "name": "Convert-HiraganaToKatakana"
+            }
+          ]
+        },
+        {
+          "name": "KatakanaToHiragana",
+          "children": [
+            {
+              "name": "Convert-KatakanaToHiragana"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAdvancedJsonCmdlet",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "AdvancedJson",
+          "children": [
+            {
+              "name": "ConvertFrom-AdvancedJson"
+            },
+            {
+              "name": "ConvertTo-AdvancedJson"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSOpenAI",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "Token",
+          "children": [
+            {
+              "name": "ConvertFrom-Token"
+            },
+            {
+              "name": "ConvertTo-Token"
+            }
+          ]
+        },
+        {
+          "name": "CosineSimilarity",
+          "children": [
+            {
+              "name": "Get-CosineSimilarity"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIContext",
+          "children": [
+            {
+              "name": "Get-OpenAIContext"
+            },
+            {
+              "name": "Clear-OpenAIContext"
+            },
+            {
+              "name": "Set-OpenAIContext"
+            }
+          ]
+        },
+        {
+          "name": "Assistant",
+          "children": [
+            {
+              "name": "Get-Assistant"
+            },
+            {
+              "name": "New-Assistant"
+            },
+            {
+              "name": "Remove-Assistant"
+            },
+            {
+              "name": "Set-Assistant"
+            }
+          ]
+        },
+        {
+          "name": "Thread",
+          "children": [
+            {
+              "name": "Get-Thread"
+            },
+            {
+              "name": "New-Thread"
+            },
+            {
+              "name": "Remove-Thread"
+            },
+            {
+              "name": "Set-Thread"
+            }
+          ]
+        },
+        {
+          "name": "ThreadMessage",
+          "children": [
+            {
+              "name": "Add-ThreadMessage"
+            },
+            {
+              "name": "Get-ThreadMessage"
+            },
+            {
+              "name": "Remove-ThreadMessage"
+            }
+          ]
+        },
+        {
+          "name": "ThreadRun",
+          "children": [
+            {
+              "name": "Start-ThreadRun"
+            },
+            {
+              "name": "Stop-ThreadRun"
+            },
+            {
+              "name": "Get-ThreadRun"
+            },
+            {
+              "name": "Wait-ThreadRun"
+            },
+            {
+              "name": "Receive-ThreadRun"
+            }
+          ]
+        },
+        {
+          "name": "ToolOutput",
+          "children": [
+            {
+              "name": "Submit-ToolOutput"
+            }
+          ]
+        },
+        {
+          "name": "ThreadRunStep",
+          "children": [
+            {
+              "name": "Get-ThreadRunStep"
+            }
+          ]
+        },
+        {
+          "name": "ChatCompletionFunction",
+          "children": [
+            {
+              "name": "New-ChatCompletionFunction"
+            }
+          ]
+        },
+        {
+          "name": "ChatGPT",
+          "children": [
+            {
+              "name": "Enter-ChatGPT"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIModels",
+          "children": [
+            {
+              "name": "Get-OpenAIModels"
+            }
+          ]
+        },
+        {
+          "name": "AudioSpeech",
+          "children": [
+            {
+              "name": "Request-AudioSpeech"
+            }
+          ]
+        },
+        {
+          "name": "AudioTranscription",
+          "children": [
+            {
+              "name": "Request-AudioTranscription"
+            }
+          ]
+        },
+        {
+          "name": "AudioTranslation",
+          "children": [
+            {
+              "name": "Request-AudioTranslation"
+            }
+          ]
+        },
+        {
+          "name": "ChatCompletion",
+          "children": [
+            {
+              "name": "Request-ChatCompletion"
+            }
+          ]
+        },
+        {
+          "name": "Embeddings",
+          "children": [
+            {
+              "name": "Request-Embeddings"
+            }
+          ]
+        },
+        {
+          "name": "ImageEdit",
+          "children": [
+            {
+              "name": "Request-ImageEdit"
+            }
+          ]
+        },
+        {
+          "name": "ImageGeneration",
+          "children": [
+            {
+              "name": "Request-ImageGeneration"
+            }
+          ]
+        },
+        {
+          "name": "ImageVariation",
+          "children": [
+            {
+              "name": "Request-ImageVariation"
+            }
+          ]
+        },
+        {
+          "name": "Moderation",
+          "children": [
+            {
+              "name": "Request-Moderation"
+            }
+          ]
+        },
+        {
+          "name": "TextCompletion",
+          "children": [
+            {
+              "name": "Request-TextCompletion"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFile",
+          "children": [
+            {
+              "name": "Add-OpenAIFile"
+            },
+            {
+              "name": "Remove-OpenAIFile"
+            },
+            {
+              "name": "Get-OpenAIFile"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFileContent",
+          "children": [
+            {
+              "name": "Get-OpenAIFileContent"
+            }
+          ]
+        },
+        {
+          "name": "Batch",
+          "children": [
+            {
+              "name": "Start-Batch"
+            },
+            {
+              "name": "Get-Batch"
+            },
+            {
+              "name": "Wait-Batch"
+            },
+            {
+              "name": "Stop-Batch"
+            }
+          ]
+        },
+        {
+          "name": "BatchOutput",
+          "children": [
+            {
+              "name": "Get-BatchOutput"
+            }
+          ]
+        },
+        {
+          "name": "VectorStore",
+          "children": [
+            {
+              "name": "New-VectorStore"
+            },
+            {
+              "name": "Get-VectorStore"
+            },
+            {
+              "name": "Set-VectorStore"
+            },
+            {
+              "name": "Remove-VectorStore"
+            }
+          ]
+        },
+        {
+          "name": "VectorStoreFile",
+          "children": [
+            {
+              "name": "Add-VectorStoreFile"
+            },
+            {
+              "name": "Get-VectorStoreFile"
+            },
+            {
+              "name": "Remove-VectorStoreFile"
+            }
+          ]
+        },
+        {
+          "name": "VectorStoreFileBatch",
+          "children": [
+            {
+              "name": "Get-VectorStoreFileBatch"
+            },
+            {
+              "name": "Start-VectorStoreFileBatch"
+            },
+            {
+              "name": "Stop-VectorStoreFileBatch"
+            },
+            {
+              "name": "Wait-VectorStoreFileBatch"
+            }
+          ]
+        },
+        {
+          "name": "VectorStoreFileInBatch",
+          "children": [
+            {
+              "name": "Get-VectorStoreFileInBatch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pspm",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "pspm",
+          "children": [
+            {
+              "name": "pspm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TemplateMatching",
+      "companyName": "Unknown",
+      "author": "mkht",
+      "children": [
+        {
+          "name": "TemplateMatching",
+          "children": [
+            {
+              "name": "Invoke-TemplateMatching"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

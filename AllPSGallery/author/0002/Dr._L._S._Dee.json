@@ -1,0 +1,43 @@
+{
+  "name": "Dr. L. S. Dee",
+  "children": [
+    {
+      "name": "Read-DHCPLogFiles",
+      "companyName": "Unknown",
+      "author": "Dr. L. S. Dee",
+      "children": [
+        {
+          "name": "DHCPLogFiles",
+          "children": [
+            {
+              "name": "Read-DHCPLogFiles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RedirectConsoleAppOutput",
+      "companyName": "Unknown",
+      "author": "Dr. L. S. Dee",
+      "children": [
+        {
+          "name": "ConsoleAppStartupParameters",
+          "children": [
+            {
+              "name": "Set-ConsoleAppStartupParameters"
+            }
+          ]
+        },
+        {
+          "name": "ConsoleAppRedirectOutput",
+          "children": [
+            {
+              "name": "Start-ConsoleAppRedirectOutput"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

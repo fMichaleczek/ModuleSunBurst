@@ -1,0 +1,306 @@
+{
+  "name": "Compex",
+  "children": [
+    {
+      "name": "Compex.NewRelic",
+      "companyName": "Compex",
+      "author": "Mark Studer and Shaun Titus",
+      "children": [
+        {
+          "name": "NRNotificationChannelToAlertPolicy",
+          "children": [
+            {
+              "name": "Add-NRNotificationChannelToAlertPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NRDashboard",
+          "children": [
+            {
+              "name": "Copy-NRDashboard"
+            },
+            {
+              "name": "Get-NRDashboard"
+            },
+            {
+              "name": "New-NRDashboard"
+            },
+            {
+              "name": "Remove-NRDashboard"
+            },
+            {
+              "name": "Restore-NRDashboard"
+            },
+            {
+              "name": "Update-NRDashboard"
+            }
+          ]
+        },
+        {
+          "name": "NRAlertPolicy",
+          "children": [
+            {
+              "name": "Get-NRAlertPolicy"
+            },
+            {
+              "name": "New-NRAlertPolicy"
+            },
+            {
+              "name": "Remove-NRAlertPolicy"
+            },
+            {
+              "name": "Update-NRAlertPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NRAPMEntity",
+          "children": [
+            {
+              "name": "Get-NRAPMEntity"
+            }
+          ]
+        },
+        {
+          "name": "NRApplication",
+          "children": [
+            {
+              "name": "Get-NRApplication"
+            }
+          ]
+        },
+        {
+          "name": "NRDashboardList",
+          "children": [
+            {
+              "name": "Get-NRDashboardList"
+            }
+          ]
+        },
+        {
+          "name": "NRHostName",
+          "children": [
+            {
+              "name": "Get-NRHostName"
+            }
+          ]
+        },
+        {
+          "name": "NRInsightsQuery",
+          "children": [
+            {
+              "name": "Get-NRInsightsQuery"
+            }
+          ]
+        },
+        {
+          "name": "NRNormalizationRule",
+          "children": [
+            {
+              "name": "Get-NRNormalizationRule"
+            },
+            {
+              "name": "New-NRNormalizationRule"
+            },
+            {
+              "name": "Update-NRNormalizationRule"
+            }
+          ]
+        },
+        {
+          "name": "NRNotificationChannel",
+          "children": [
+            {
+              "name": "Get-NRNotificationChannel"
+            },
+            {
+              "name": "New-NRNotificationChannel"
+            },
+            {
+              "name": "Remove-NRNotificationChannel"
+            }
+          ]
+        },
+        {
+          "name": "NRQLCondition",
+          "children": [
+            {
+              "name": "Get-NRQLCondition"
+            },
+            {
+              "name": "New-NRQLCondition"
+            },
+            {
+              "name": "Update-NRQLCondition"
+            }
+          ]
+        },
+        {
+          "name": "NRSyntheticLocationCondition",
+          "children": [
+            {
+              "name": "Get-NRSyntheticLocationCondition"
+            },
+            {
+              "name": "New-NRSyntheticLocationCondition"
+            },
+            {
+              "name": "Remove-NRSyntheticLocationCondition"
+            },
+            {
+              "name": "Update-NRSyntheticLocationCondition"
+            }
+          ]
+        },
+        {
+          "name": "NRSyntheticLocationList",
+          "children": [
+            {
+              "name": "Get-NRSyntheticLocationList"
+            }
+          ]
+        },
+        {
+          "name": "NRSyntheticMonitor",
+          "children": [
+            {
+              "name": "Get-NRSyntheticMonitor"
+            },
+            {
+              "name": "New-NRSyntheticMonitor"
+            },
+            {
+              "name": "Remove-NRSyntheticMonitor"
+            },
+            {
+              "name": "Update-NRSyntheticMonitor"
+            }
+          ]
+        },
+        {
+          "name": "NRSyntheticMonitorScript",
+          "children": [
+            {
+              "name": "Get-NRSyntheticMonitorScript"
+            },
+            {
+              "name": "Update-NRSyntheticMonitorScript"
+            }
+          ]
+        },
+        {
+          "name": "NRSyntheticSecureCredential",
+          "children": [
+            {
+              "name": "Get-NRSyntheticSecureCredential"
+            },
+            {
+              "name": "New-NRSyntheticSecureCredential"
+            },
+            {
+              "name": "Remove-NRSyntheticSecureCredential"
+            },
+            {
+              "name": "Update-NRSyntheticSecureCredential"
+            }
+          ]
+        },
+        {
+          "name": "NRQLQuery",
+          "children": [
+            {
+              "name": "Invoke-NRQLQuery"
+            }
+          ]
+        },
+        {
+          "name": "NRMutingRule",
+          "children": [
+            {
+              "name": "New-NRMutingRule"
+            }
+          ]
+        },
+        {
+          "name": "NRResourceTag",
+          "children": [
+            {
+              "name": "New-NRResourceTag"
+            }
+          ]
+        },
+        {
+          "name": "NRCondition",
+          "children": [
+            {
+              "name": "Remove-NRCondition"
+            }
+          ]
+        },
+        {
+          "name": "NRNotificationChannelFromAlertPolicy",
+          "children": [
+            {
+              "name": "Remove-NRNotificationChannelFromAlertPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NRConfiguration",
+          "children": [
+            {
+              "name": "Update-NRConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Compex.NewRelic.Agents",
+      "companyName": "Compex",
+      "author": "Mark Studer",
+      "children": [
+        {
+          "name": "NRDotNetAgent",
+          "children": [
+            {
+              "name": "Get-NRDotNetAgent"
+            },
+            {
+              "name": "Install-NRDotNetAgent"
+            },
+            {
+              "name": "Update-NRDotNetAgent"
+            }
+          ]
+        },
+        {
+          "name": "NRInfraAgent",
+          "children": [
+            {
+              "name": "Get-NRInfraAgent"
+            },
+            {
+              "name": "Install-NRInfraAgent"
+            },
+            {
+              "name": "Update-NRInfraAgent"
+            }
+          ]
+        },
+        {
+          "name": "NRInfraAgentSetting",
+          "children": [
+            {
+              "name": "Get-NRInfraAgentSetting"
+            },
+            {
+              "name": "Set-NRInfraAgentSetting"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Erwin Rijss",
+  "children": [
+    {
+      "name": "JsonMenu",
+      "companyName": "Unknown",
+      "author": "Erwin Rijss",
+      "children": [
+        {
+          "name": "JsonMenu",
+          "children": [
+            {
+              "name": "Invoke-JsonMenu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSIM",
+      "companyName": "Unknown",
+      "author": "Erwin Rijss",
+      "children": [
+        {
+          "name": "PSSIM",
+          "children": [
+            {
+              "name": "Invoke-PSSIM"
+            }
+          ]
+        },
+        {
+          "name": "FromPSSIMParameters",
+          "children": [
+            {
+              "name": "Install-FromPSSIMParameters"
+            }
+          ]
+        },
+        {
+          "name": "PSSIMParametersFile",
+          "children": [
+            {
+              "name": "Get-PSSIMParametersFile"
+            }
+          ]
+        },
+        {
+          "name": "PSSIMParameters",
+          "children": [
+            {
+              "name": "Get-PSSIMParameters"
+            },
+            {
+              "name": "Set-PSSIMParameters"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

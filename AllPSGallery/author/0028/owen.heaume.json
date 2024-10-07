@@ -1,0 +1,1273 @@
+{
+  "name": "owen.heaume",
+  "children": [
+    {
+      "name": "spec.appx.management",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specAppxProvisionedPackageRetention",
+          "children": [
+            {
+              "name": "Update-specAppxProvisionedPackageRetention"
+            }
+          ]
+        },
+        {
+          "name": "specAppxProvisionedPackage",
+          "children": [
+            {
+              "name": "Remove-specAppxProvisionedPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.azure.tables",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecAzTable",
+          "children": [
+            {
+              "name": "Get-SpecAzTable"
+            }
+          ]
+        },
+        {
+          "name": "SpecAzTableByFilter",
+          "children": [
+            {
+              "name": "Get-SpecAzTableByFilter"
+            }
+          ]
+        },
+        {
+          "name": "SpecAzTableRow",
+          "children": [
+            {
+              "name": "Get-SpecAzTableRow"
+            },
+            {
+              "name": "Add-SpecAztableRow"
+            },
+            {
+              "name": "Update-SpecAzTableRow"
+            }
+          ]
+        },
+        {
+          "name": "SpecAzTableRowUsingSAS",
+          "children": [
+            {
+              "name": "Get-SpecAzTableRowUsingSAS"
+            },
+            {
+              "name": "Update-SpecAzTableRowUsingSAS"
+            },
+            {
+              "name": "Add-SpecAzTableRowUsingSAS"
+            }
+          ]
+        },
+        {
+          "name": "specAzTableErrorMessage",
+          "children": [
+            {
+              "name": "Get-specAzTableErrorMessage"
+            }
+          ]
+        },
+        {
+          "name": "specFilteredTableData",
+          "children": [
+            {
+              "name": "Get-specFilteredTableData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.base.utilities",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecShortcut",
+          "children": [
+            {
+              "name": "New-SpecShortcut"
+            },
+            {
+              "name": "Remove-SpecShortcut"
+            },
+            {
+              "name": "Set-SpecShortcut"
+            }
+          ]
+        },
+        {
+          "name": "SpecRegistryKey",
+          "children": [
+            {
+              "name": "New-SpecRegistryKey"
+            },
+            {
+              "name": "Remove-SpecRegistryKey"
+            },
+            {
+              "name": "Set-SpecRegistryKey"
+            },
+            {
+              "name": "Replace-SpecRegistryKey"
+            }
+          ]
+        },
+        {
+          "name": "SpecScheduledTask",
+          "children": [
+            {
+              "name": "New-SpecScheduledTask"
+            },
+            {
+              "name": "Remove-SpecScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "SpecSectionBreak",
+          "children": [
+            {
+              "name": "Add-SpecSectionBreak"
+            }
+          ]
+        },
+        {
+          "name": "SpecWindowsOptionalFeature",
+          "children": [
+            {
+              "name": "Enable-SpecWindowsOptionalFeature"
+            }
+          ]
+        },
+        {
+          "name": "specRegistryValue",
+          "children": [
+            {
+              "name": "Get-specRegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "specLogMessage",
+          "children": [
+            {
+              "name": "Write-specLogMessage"
+            }
+          ]
+        },
+        {
+          "name": "specApplication",
+          "children": [
+            {
+              "name": "Install-specApplication"
+            }
+          ]
+        },
+        {
+          "name": "specTwiceDailyScheduledTask",
+          "children": [
+            {
+              "name": "New-specTwiceDailyScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "specInstalledProgram",
+          "children": [
+            {
+              "name": "Find-specInstalledProgram"
+            }
+          ]
+        },
+        {
+          "name": "SpecCameraInfo",
+          "children": [
+            {
+              "name": "Get-SpecCameraInfo"
+            }
+          ]
+        },
+        {
+          "name": "specStatusMessage",
+          "children": [
+            {
+              "name": "Set-specStatusMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.comport.management",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecDeviceToCOMPort",
+          "children": [
+            {
+              "name": "Set-SpecDeviceToCOMPort"
+            }
+          ]
+        },
+        {
+          "name": "SpecComPort",
+          "children": [
+            {
+              "name": "Get-SpecComPort"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.file.utilities",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecBlobFileFromURL",
+          "children": [
+            {
+              "name": "Get-SpecBlobFileFromURL"
+            }
+          ]
+        },
+        {
+          "name": "SpecMDFileHashBase64",
+          "children": [
+            {
+              "name": "Get-SpecMDFileHashBase64"
+            }
+          ]
+        },
+        {
+          "name": "SpecLocalFileHashToRemoteHash",
+          "children": [
+            {
+              "name": "Compare-SpecLocalFileHashToRemoteHash"
+            }
+          ]
+        },
+        {
+          "name": "SpecPathWithEnvironmentVariable",
+          "children": [
+            {
+              "name": "Join-SpecPathWithEnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "SpecFolderHiddenAttribute",
+          "children": [
+            {
+              "name": "Set-SpecFolderHiddenAttribute"
+            }
+          ]
+        },
+        {
+          "name": "SpecFolder",
+          "children": [
+            {
+              "name": "New-SpecFolder"
+            }
+          ]
+        },
+        {
+          "name": "SpecItem",
+          "children": [
+            {
+              "name": "Process-SpecItem"
+            }
+          ]
+        },
+        {
+          "name": "specOldFiles",
+          "children": [
+            {
+              "name": "Get-specOldFiles"
+            },
+            {
+              "name": "Remove-specOldFiles"
+            }
+          ]
+        },
+        {
+          "name": "specZipFile",
+          "children": [
+            {
+              "name": "Expand-specZipFile"
+            }
+          ]
+        },
+        {
+          "name": "specFileLine",
+          "children": [
+            {
+              "name": "Update-specFileLine"
+            }
+          ]
+        },
+        {
+          "name": "SpecTextInFile",
+          "children": [
+            {
+              "name": "Get-SpecTextInFile"
+            }
+          ]
+        },
+        {
+          "name": "LogFilesByPatternAndRetention",
+          "children": [
+            {
+              "name": "Get-LogFilesByPatternAndRetention"
+            }
+          ]
+        },
+        {
+          "name": "specStringInFile",
+          "children": [
+            {
+              "name": "Find-specStringInFile"
+            }
+          ]
+        },
+        {
+          "name": "specFileHashAndDownload",
+          "children": [
+            {
+              "name": "Get-specFileHashAndDownload"
+            }
+          ]
+        },
+        {
+          "name": "specFile",
+          "children": [
+            {
+              "name": "Backup-specFile"
+            }
+          ]
+        },
+        {
+          "name": "specToHostsFile",
+          "children": [
+            {
+              "name": "Add-specToHostsFile"
+            }
+          ]
+        },
+        {
+          "name": "specFromHostsFile",
+          "children": [
+            {
+              "name": "Remove-specFromHostsFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.function.setup",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specFunction",
+          "children": [
+            {
+              "name": "New-specFunction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.graphapi.utilities",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specEntraIDDeviceGroup",
+          "children": [
+            {
+              "name": "Get-specEntraIDDeviceGroup"
+            }
+          ]
+        },
+        {
+          "name": "specEntraIdUser",
+          "children": [
+            {
+              "name": "Get-specEntraIdUser"
+            }
+          ]
+        },
+        {
+          "name": "specEntraIDUserGroup",
+          "children": [
+            {
+              "name": "Get-specEntraIDUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "specEntraIDUserManagedDevice",
+          "children": [
+            {
+              "name": "Get-specEntraIDUserManagedDevice"
+            }
+          ]
+        },
+        {
+          "name": "specGraphAPIToken",
+          "children": [
+            {
+              "name": "Get-specGraphAPIToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.microsoft.authentication",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecAzAccountUsingClientIDAndSecret",
+          "children": [
+            {
+              "name": "Connect-SpecAzAccountUsingClientIDAndSecret"
+            }
+          ]
+        },
+        {
+          "name": "SpecMgGraphUsingClientIDAndSecret",
+          "children": [
+            {
+              "name": "Connect-SpecMgGraphUsingClientIDAndSecret"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.module.creator",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecModule",
+          "children": [
+            {
+              "name": "New-SpecModule"
+            }
+          ]
+        },
+        {
+          "name": "SpecFileTree",
+          "children": [
+            {
+              "name": "Get-SpecFileTree"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.module.loader",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecPowerShellModule",
+          "children": [
+            {
+              "name": "Install-SpecPowerShellModule"
+            },
+            {
+              "name": "Remove-SpecPowerShellModule"
+            },
+            {
+              "name": "Uninstall-SpecPowerShellModule"
+            }
+          ]
+        },
+        {
+          "name": "SpecNuGetVersion",
+          "children": [
+            {
+              "name": "Install-SpecNuGetVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.module.management",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specModule",
+          "children": [
+            {
+              "name": "Get-specModule"
+            },
+            {
+              "name": "Install-specModule"
+            },
+            {
+              "name": "Import-specModule"
+            },
+            {
+              "name": "Uninstall-specModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.module.setup",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specModule",
+          "children": [
+            {
+              "name": "New-specModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.printer.management",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specInstalledIPPrinters",
+          "children": [
+            {
+              "name": "Get-specInstalledIPPrinters"
+            }
+          ]
+        },
+        {
+          "name": "specPrinterObject",
+          "children": [
+            {
+              "name": "New-specPrinterObject"
+            }
+          ]
+        },
+        {
+          "name": "specPrinterFilterContentTag",
+          "children": [
+            {
+              "name": "Get-specPrinterFilterContentTag"
+            }
+          ]
+        },
+        {
+          "name": "specIPPrintersNotInFilter",
+          "children": [
+            {
+              "name": "Get-specIPPrintersNotInFilter"
+            }
+          ]
+        },
+        {
+          "name": "specPrintersToInstall",
+          "children": [
+            {
+              "name": "Get-specPrintersToInstall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.psengine",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specRequiredModule",
+          "children": [
+            {
+              "name": "Invoke-specRequiredModule"
+            }
+          ]
+        },
+        {
+          "name": "specFilteredData",
+          "children": [
+            {
+              "name": "Get-specFilteredData"
+            }
+          ]
+        },
+        {
+          "name": "specInternetConnectivity",
+          "children": [
+            {
+              "name": "Test-specInternetConnectivity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.registry.management",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specRegistryValueData",
+          "children": [
+            {
+              "name": "Test-specRegistryValueData"
+            }
+          ]
+        },
+        {
+          "name": "SpecRegistryValue",
+          "children": [
+            {
+              "name": "Remove-SpecRegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "SpecRegistryKeyAndValue",
+          "children": [
+            {
+              "name": "New-SpecRegistryKeyAndValue"
+            },
+            {
+              "name": "Set-SpecRegistryKeyAndValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.shortcut.management",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specDesktopShortcut",
+          "children": [
+            {
+              "name": "New-specDesktopShortcut"
+            },
+            {
+              "name": "Remove-specDesktopShortcut"
+            }
+          ]
+        },
+        {
+          "name": "specStartMenuShortcut",
+          "children": [
+            {
+              "name": "New-specStartMenuShortcut"
+            },
+            {
+              "name": "Remove-specStartMenuShortcut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.teamviewer.utilities",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specComputerNamePrefix",
+          "children": [
+            {
+              "name": "Get-specComputerNamePrefix"
+            }
+          ]
+        },
+        {
+          "name": "specRequiredTVGroups",
+          "children": [
+            {
+              "name": "Get-specRequiredTVGroups"
+            }
+          ]
+        },
+        {
+          "name": "specCurrentGroups",
+          "children": [
+            {
+              "name": "Get-specCurrentGroups"
+            }
+          ]
+        },
+        {
+          "name": "specMissingGroups",
+          "children": [
+            {
+              "name": "Get-specMissingGroups"
+            }
+          ]
+        },
+        {
+          "name": "specAllTVGroups",
+          "children": [
+            {
+              "name": "Get-specAllTVGroups"
+            }
+          ]
+        },
+        {
+          "name": "specDeviceToTVGroups",
+          "children": [
+            {
+              "name": "Add-specDeviceToTVGroups"
+            }
+          ]
+        },
+        {
+          "name": "specRegistryWithGroups",
+          "children": [
+            {
+              "name": "Update-specRegistryWithGroups"
+            }
+          ]
+        },
+        {
+          "name": "specTVDeviceAlias",
+          "children": [
+            {
+              "name": "Get-specTVDeviceAlias"
+            },
+            {
+              "name": "Set-specTVDeviceAlias"
+            }
+          ]
+        },
+        {
+          "name": "specDeviceFromTVGroup",
+          "children": [
+            {
+              "name": "Remove-specDeviceFromTVGroup"
+            }
+          ]
+        },
+        {
+          "name": "SpecTVRegistryPath",
+          "children": [
+            {
+              "name": "Get-SpecTVRegistryPath"
+            }
+          ]
+        },
+        {
+          "name": "TeamViewerDevice",
+          "children": [
+            {
+              "name": "Remove-TeamViewerDevice"
+            }
+          ]
+        },
+        {
+          "name": "specTVPolicyGUIDFromName",
+          "children": [
+            {
+              "name": "Get-specTVPolicyGUIDFromName"
+            }
+          ]
+        },
+        {
+          "name": "specTVPolicyByGUID",
+          "children": [
+            {
+              "name": "Set-specTVPolicyByGUID"
+            }
+          ]
+        },
+        {
+          "name": "TeamViewerManagedDeviceId",
+          "children": [
+            {
+              "name": "Resolve-TeamViewerManagedDeviceId"
+            }
+          ]
+        },
+        {
+          "name": "TeamViewerPolicyId",
+          "children": [
+            {
+              "name": "Resolve-TeamViewerPolicyId"
+            }
+          ]
+        },
+        {
+          "name": "TeamViewerManagedGroupId",
+          "children": [
+            {
+              "name": "Resolve-TeamViewerManagedGroupId"
+            }
+          ]
+        },
+        {
+          "name": "ErrorRecord",
+          "children": [
+            {
+              "name": "ConvertTo-ErrorRecord"
+            }
+          ]
+        },
+        {
+          "name": "TeamViewerRestMethod",
+          "children": [
+            {
+              "name": "Invoke-TeamViewerRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "TeamViewerRestError",
+          "children": [
+            {
+              "name": "ConvertTo-TeamViewerRestError"
+            }
+          ]
+        },
+        {
+          "name": "TeamViewerApiUri",
+          "children": [
+            {
+              "name": "Get-TeamViewerApiUri"
+            }
+          ]
+        },
+        {
+          "name": "TeamViewerManagedDevice",
+          "children": [
+            {
+              "name": "Set-TeamViewerManagedDevice"
+            }
+          ]
+        },
+        {
+          "name": "SpecTVNamingConvention",
+          "children": [
+            {
+              "name": "Get-SpecTVNamingConvention"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.tonoref.management",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "specTonorefUrl",
+          "children": [
+            {
+              "name": "Get-specTonorefUrl"
+            }
+          ]
+        },
+        {
+          "name": "specTonorefIconName",
+          "children": [
+            {
+              "name": "Get-specTonorefIconName"
+            }
+          ]
+        },
+        {
+          "name": "specTonorefIcons",
+          "children": [
+            {
+              "name": "Get-specTonorefIcons"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "spec.visualfields.management",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecDeviceInfoFromRegistry",
+          "children": [
+            {
+              "name": "Get-SpecDeviceInfoFromRegistry"
+            }
+          ]
+        },
+        {
+          "name": "specAzureTableForErrors",
+          "children": [
+            {
+              "name": "Test-specAzureTableForErrors"
+            }
+          ]
+        },
+        {
+          "name": "specVisualFieldsShortcutURL",
+          "children": [
+            {
+              "name": "Get-specVisualFieldsShortcutURL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpecAzTables",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecAzTable",
+          "children": [
+            {
+              "name": "Get-SpecAzTable"
+            }
+          ]
+        },
+        {
+          "name": "SpecAzTableByFilter",
+          "children": [
+            {
+              "name": "Get-SpecAzTableByFilter"
+            }
+          ]
+        },
+        {
+          "name": "SpecAzTableRow",
+          "children": [
+            {
+              "name": "Get-SpecAzTableRow"
+            },
+            {
+              "name": "Add-SpecAztableRow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpecAzTableStorageTools",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecAzTableDataUsingSAS",
+          "children": [
+            {
+              "name": "Get-SpecAzTableDataUsingSAS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpecBaseModule",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecShortcut",
+          "children": [
+            {
+              "name": "New-SpecShortcut"
+            },
+            {
+              "name": "Remove-SpecShortcut"
+            },
+            {
+              "name": "Set-SpecShortcut"
+            }
+          ]
+        },
+        {
+          "name": "SpecRegistryKey",
+          "children": [
+            {
+              "name": "New-SpecRegistryKey"
+            },
+            {
+              "name": "Remove-SpecRegistryKey"
+            },
+            {
+              "name": "Set-SpecRegistryKey"
+            }
+          ]
+        },
+        {
+          "name": "SpecScheduledTask",
+          "children": [
+            {
+              "name": "New-SpecScheduledTask"
+            },
+            {
+              "name": "Remove-SpecScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "SpecSectionBreak",
+          "children": [
+            {
+              "name": "Add-SpecSectionBreak"
+            }
+          ]
+        },
+        {
+          "name": "SpecWindowsOptionalFeature",
+          "children": [
+            {
+              "name": "Enable-SpecWindowsOptionalFeature"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpecComPortManager",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecDeviceToComPort",
+          "children": [
+            {
+              "name": "Set-SpecDeviceToComPort"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpecCreateModule",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecModule",
+          "children": [
+            {
+              "name": "New-SpecModule"
+            }
+          ]
+        },
+        {
+          "name": "SpecFileTree",
+          "children": [
+            {
+              "name": "Get-SpecFileTree"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpecIRLHelper",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecFullPath",
+          "children": [
+            {
+              "name": "Get-SpecFullPath"
+            }
+          ]
+        },
+        {
+          "name": "SpecRunAsLevel",
+          "children": [
+            {
+              "name": "Get-SpecRunAsLevel"
+            }
+          ]
+        },
+        {
+          "name": "SpecPrivilegeLevelSwitch",
+          "children": [
+            {
+              "name": "Get-SpecPrivilegeLevelSwitch"
+            }
+          ]
+        },
+        {
+          "name": "SpecTestPathSwitch",
+          "children": [
+            {
+              "name": "Get-SpecTestPathSwitch"
+            }
+          ]
+        },
+        {
+          "name": "specPOSPrinterAndDrawerIni",
+          "children": [
+            {
+              "name": "Set-specPOSPrinterAndDrawerIni"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpecModuleImporter",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecPowerShellModule",
+          "children": [
+            {
+              "name": "Import-SpecPowerShellModule"
+            },
+            {
+              "name": "Install-SpecPowerShellModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpecPrinters",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "SpecPrinter",
+          "children": [
+            {
+              "name": "Add-SpecPrinter"
+            },
+            {
+              "name": "Remove-SpecPrinter"
+            }
+          ]
+        },
+        {
+          "name": "SpecPrinterDriver",
+          "children": [
+            {
+              "name": "Add-SpecPrinterDriver"
+            },
+            {
+              "name": "Get-SpecPrinterDriver"
+            }
+          ]
+        },
+        {
+          "name": "SpecPrinterPermission",
+          "children": [
+            {
+              "name": "Add-SpecPrinterPermission"
+            },
+            {
+              "name": "Remove-SpecPrinterPermission"
+            },
+            {
+              "name": "Get-SpecPrinterPermission"
+            }
+          ]
+        },
+        {
+          "name": "SpecPrinterPort",
+          "children": [
+            {
+              "name": "Add-SpecPrinterPort"
+            },
+            {
+              "name": "Remove-SpecPrinterPort"
+            }
+          ]
+        },
+        {
+          "name": "SpecDefaultDellOrOKIPrinter",
+          "children": [
+            {
+              "name": "Set-SpecDefaultDellOrOKIPrinter"
+            }
+          ]
+        },
+        {
+          "name": "SpecPrinterSettings",
+          "children": [
+            {
+              "name": "Set-SpecPrinterSettings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpecTeamViewerLegacy",
+      "companyName": "Specsavers",
+      "author": "owen.heaume",
+      "children": [
+        {
+          "name": "TVInfo",
+          "children": [
+            {
+              "name": "Get-TVInfo"
+            }
+          ]
+        },
+        {
+          "name": "TVDeviceInfoFromAlias",
+          "children": [
+            {
+              "name": "Get-TVDeviceInfoFromAlias"
+            }
+          ]
+        },
+        {
+          "name": "TVDeviceIdFromAlias",
+          "children": [
+            {
+              "name": "Get-TVDeviceIdFromAlias"
+            }
+          ]
+        },
+        {
+          "name": "TVGroupAssignement",
+          "children": [
+            {
+              "name": "Set-TVGroupAssignement"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

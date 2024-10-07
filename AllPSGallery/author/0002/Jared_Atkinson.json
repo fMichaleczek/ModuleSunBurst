@@ -1,0 +1,737 @@
+{
+  "name": "Jared Atkinson",
+  "children": [
+    {
+      "name": "PowerForensics",
+      "companyName": "Invoke IR",
+      "author": "Jared Atkinson",
+      "children": [
+        {
+          "name": "BinaryData",
+          "children": [
+            {
+              "name": "ConvertFrom-BinaryData"
+            }
+          ]
+        },
+        {
+          "name": "ForensicTimeline",
+          "children": [
+            {
+              "name": "ConvertTo-ForensicTimeline"
+            },
+            {
+              "name": "Get-ForensicTimeline"
+            }
+          ]
+        },
+        {
+          "name": "ForensicFile",
+          "children": [
+            {
+              "name": "Copy-ForensicFile"
+            }
+          ]
+        },
+        {
+          "name": "ForensicAlternateDataStream",
+          "children": [
+            {
+              "name": "Get-ForensicAlternateDataStream"
+            }
+          ]
+        },
+        {
+          "name": "ForensicAmcache",
+          "children": [
+            {
+              "name": "Get-ForensicAmcache"
+            }
+          ]
+        },
+        {
+          "name": "ForensicAttrDef",
+          "children": [
+            {
+              "name": "Get-ForensicAttrDef"
+            }
+          ]
+        },
+        {
+          "name": "ForensicBitmap",
+          "children": [
+            {
+              "name": "Get-ForensicBitmap"
+            }
+          ]
+        },
+        {
+          "name": "ForensicBootSector",
+          "children": [
+            {
+              "name": "Get-ForensicBootSector"
+            }
+          ]
+        },
+        {
+          "name": "ForensicChildItem",
+          "children": [
+            {
+              "name": "Get-ForensicChildItem"
+            }
+          ]
+        },
+        {
+          "name": "ForensicContent",
+          "children": [
+            {
+              "name": "Get-ForensicContent"
+            }
+          ]
+        },
+        {
+          "name": "ForensicEventLog",
+          "children": [
+            {
+              "name": "Get-ForensicEventLog"
+            }
+          ]
+        },
+        {
+          "name": "ForensicExplorerTypedPath",
+          "children": [
+            {
+              "name": "Get-ForensicExplorerTypedPath"
+            }
+          ]
+        },
+        {
+          "name": "ForensicFileRecord",
+          "children": [
+            {
+              "name": "Get-ForensicFileRecord"
+            }
+          ]
+        },
+        {
+          "name": "ForensicFileRecordIndex",
+          "children": [
+            {
+              "name": "Get-ForensicFileRecordIndex"
+            }
+          ]
+        },
+        {
+          "name": "ForensicFileSlack",
+          "children": [
+            {
+              "name": "Get-ForensicFileSlack"
+            }
+          ]
+        },
+        {
+          "name": "ForensicGuidPartitionTable",
+          "children": [
+            {
+              "name": "Get-ForensicGuidPartitionTable"
+            }
+          ]
+        },
+        {
+          "name": "ForensicMasterBootRecord",
+          "children": [
+            {
+              "name": "Get-ForensicMasterBootRecord"
+            }
+          ]
+        },
+        {
+          "name": "ForensicMftSlack",
+          "children": [
+            {
+              "name": "Get-ForensicMftSlack"
+            }
+          ]
+        },
+        {
+          "name": "ForensicNetworkList",
+          "children": [
+            {
+              "name": "Get-ForensicNetworkList"
+            }
+          ]
+        },
+        {
+          "name": "ForensicOfficeFileMru",
+          "children": [
+            {
+              "name": "Get-ForensicOfficeFileMru"
+            }
+          ]
+        },
+        {
+          "name": "ForensicOfficeOutlookCatalog",
+          "children": [
+            {
+              "name": "Get-ForensicOfficeOutlookCatalog"
+            }
+          ]
+        },
+        {
+          "name": "ForensicOfficePlaceMru",
+          "children": [
+            {
+              "name": "Get-ForensicOfficePlaceMru"
+            }
+          ]
+        },
+        {
+          "name": "ForensicOfficeTrustRecord",
+          "children": [
+            {
+              "name": "Get-ForensicOfficeTrustRecord"
+            }
+          ]
+        },
+        {
+          "name": "ForensicPartitionTable",
+          "children": [
+            {
+              "name": "Get-ForensicPartitionTable"
+            }
+          ]
+        },
+        {
+          "name": "ForensicPrefetch",
+          "children": [
+            {
+              "name": "Get-ForensicPrefetch"
+            }
+          ]
+        },
+        {
+          "name": "ForensicRecentFileCache",
+          "children": [
+            {
+              "name": "Get-ForensicRecentFileCache"
+            }
+          ]
+        },
+        {
+          "name": "ForensicRegistryKey",
+          "children": [
+            {
+              "name": "Get-ForensicRegistryKey"
+            }
+          ]
+        },
+        {
+          "name": "ForensicRegistryValue",
+          "children": [
+            {
+              "name": "Get-ForensicRegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "ForensicRunKey",
+          "children": [
+            {
+              "name": "Get-ForensicRunKey"
+            }
+          ]
+        },
+        {
+          "name": "ForensicRunMru",
+          "children": [
+            {
+              "name": "Get-ForensicRunMru"
+            }
+          ]
+        },
+        {
+          "name": "ForensicScheduledJob",
+          "children": [
+            {
+              "name": "Get-ForensicScheduledJob"
+            }
+          ]
+        },
+        {
+          "name": "ForensicShellLink",
+          "children": [
+            {
+              "name": "Get-ForensicShellLink"
+            }
+          ]
+        },
+        {
+          "name": "ForensicShimcache",
+          "children": [
+            {
+              "name": "Get-ForensicShimcache"
+            }
+          ]
+        },
+        {
+          "name": "ForensicSid",
+          "children": [
+            {
+              "name": "Get-ForensicSid"
+            }
+          ]
+        },
+        {
+          "name": "ForensicTimezone",
+          "children": [
+            {
+              "name": "Get-ForensicTimezone"
+            }
+          ]
+        },
+        {
+          "name": "ForensicTypedUrl",
+          "children": [
+            {
+              "name": "Get-ForensicTypedUrl"
+            }
+          ]
+        },
+        {
+          "name": "ForensicUnallocatedSpace",
+          "children": [
+            {
+              "name": "Get-ForensicUnallocatedSpace"
+            }
+          ]
+        },
+        {
+          "name": "ForensicUserAssist",
+          "children": [
+            {
+              "name": "Get-ForensicUserAssist"
+            }
+          ]
+        },
+        {
+          "name": "ForensicUsnJrnl",
+          "children": [
+            {
+              "name": "Get-ForensicUsnJrnl"
+            }
+          ]
+        },
+        {
+          "name": "ForensicUsnJrnlInformation",
+          "children": [
+            {
+              "name": "Get-ForensicUsnJrnlInformation"
+            }
+          ]
+        },
+        {
+          "name": "ForensicVolumeBootRecord",
+          "children": [
+            {
+              "name": "Get-ForensicVolumeBootRecord"
+            }
+          ]
+        },
+        {
+          "name": "ForensicVolumeInformation",
+          "children": [
+            {
+              "name": "Get-ForensicVolumeInformation"
+            }
+          ]
+        },
+        {
+          "name": "ForensicVolumeName",
+          "children": [
+            {
+              "name": "Get-ForensicVolumeName"
+            }
+          ]
+        },
+        {
+          "name": "ForensicWindowsSearchHistory",
+          "children": [
+            {
+              "name": "Get-ForensicWindowsSearchHistory"
+            }
+          ]
+        },
+        {
+          "name": "ForensicDD",
+          "children": [
+            {
+              "name": "Invoke-ForensicDD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerForensicsv2",
+      "companyName": "Invoke IR",
+      "author": "Jared Atkinson",
+      "children": [
+        {
+          "name": "ForensicTimeline",
+          "children": [
+            {
+              "name": "ConvertTo-ForensicTimeline"
+            },
+            {
+              "name": "Get-ForensicTimeline"
+            }
+          ]
+        },
+        {
+          "name": "ForensicFile",
+          "children": [
+            {
+              "name": "Copy-ForensicFile"
+            }
+          ]
+        },
+        {
+          "name": "ForensicAlternateDataStream",
+          "children": [
+            {
+              "name": "Get-ForensicAlternateDataStream"
+            }
+          ]
+        },
+        {
+          "name": "ForensicAmcache",
+          "children": [
+            {
+              "name": "Get-ForensicAmcache"
+            }
+          ]
+        },
+        {
+          "name": "ForensicAttrDef",
+          "children": [
+            {
+              "name": "Get-ForensicAttrDef"
+            }
+          ]
+        },
+        {
+          "name": "ForensicBitmap",
+          "children": [
+            {
+              "name": "Get-ForensicBitmap"
+            }
+          ]
+        },
+        {
+          "name": "ForensicBootSector",
+          "children": [
+            {
+              "name": "Get-ForensicBootSector"
+            }
+          ]
+        },
+        {
+          "name": "ForensicChildItem",
+          "children": [
+            {
+              "name": "Get-ForensicChildItem"
+            }
+          ]
+        },
+        {
+          "name": "ForensicContent",
+          "children": [
+            {
+              "name": "Get-ForensicContent"
+            }
+          ]
+        },
+        {
+          "name": "ForensicEventLog",
+          "children": [
+            {
+              "name": "Get-ForensicEventLog"
+            }
+          ]
+        },
+        {
+          "name": "ForensicExplorerTypedPath",
+          "children": [
+            {
+              "name": "Get-ForensicExplorerTypedPath"
+            }
+          ]
+        },
+        {
+          "name": "ForensicFileRecord",
+          "children": [
+            {
+              "name": "Get-ForensicFileRecord"
+            }
+          ]
+        },
+        {
+          "name": "ForensicFileRecordIndex",
+          "children": [
+            {
+              "name": "Get-ForensicFileRecordIndex"
+            }
+          ]
+        },
+        {
+          "name": "ForensicFileSlack",
+          "children": [
+            {
+              "name": "Get-ForensicFileSlack"
+            }
+          ]
+        },
+        {
+          "name": "ForensicGuidPartitionTable",
+          "children": [
+            {
+              "name": "Get-ForensicGuidPartitionTable"
+            }
+          ]
+        },
+        {
+          "name": "ForensicMasterBootRecord",
+          "children": [
+            {
+              "name": "Get-ForensicMasterBootRecord"
+            }
+          ]
+        },
+        {
+          "name": "ForensicMftSlack",
+          "children": [
+            {
+              "name": "Get-ForensicMftSlack"
+            }
+          ]
+        },
+        {
+          "name": "ForensicNetworkList",
+          "children": [
+            {
+              "name": "Get-ForensicNetworkList"
+            }
+          ]
+        },
+        {
+          "name": "ForensicOfficeFileMru",
+          "children": [
+            {
+              "name": "Get-ForensicOfficeFileMru"
+            }
+          ]
+        },
+        {
+          "name": "ForensicOfficeOutlookCatalog",
+          "children": [
+            {
+              "name": "Get-ForensicOfficeOutlookCatalog"
+            }
+          ]
+        },
+        {
+          "name": "ForensicOfficePlaceMru",
+          "children": [
+            {
+              "name": "Get-ForensicOfficePlaceMru"
+            }
+          ]
+        },
+        {
+          "name": "ForensicOfficeTrustRecord",
+          "children": [
+            {
+              "name": "Get-ForensicOfficeTrustRecord"
+            }
+          ]
+        },
+        {
+          "name": "ForensicPartitionTable",
+          "children": [
+            {
+              "name": "Get-ForensicPartitionTable"
+            }
+          ]
+        },
+        {
+          "name": "ForensicPrefetch",
+          "children": [
+            {
+              "name": "Get-ForensicPrefetch"
+            }
+          ]
+        },
+        {
+          "name": "ForensicRecentFileCache",
+          "children": [
+            {
+              "name": "Get-ForensicRecentFileCache"
+            }
+          ]
+        },
+        {
+          "name": "ForensicRegistryKey",
+          "children": [
+            {
+              "name": "Get-ForensicRegistryKey"
+            }
+          ]
+        },
+        {
+          "name": "ForensicRegistryValue",
+          "children": [
+            {
+              "name": "Get-ForensicRegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "ForensicRunKey",
+          "children": [
+            {
+              "name": "Get-ForensicRunKey"
+            }
+          ]
+        },
+        {
+          "name": "ForensicRunMru",
+          "children": [
+            {
+              "name": "Get-ForensicRunMru"
+            }
+          ]
+        },
+        {
+          "name": "ForensicScheduledJob",
+          "children": [
+            {
+              "name": "Get-ForensicScheduledJob"
+            }
+          ]
+        },
+        {
+          "name": "ForensicShellLink",
+          "children": [
+            {
+              "name": "Get-ForensicShellLink"
+            }
+          ]
+        },
+        {
+          "name": "ForensicShimcache",
+          "children": [
+            {
+              "name": "Get-ForensicShimcache"
+            }
+          ]
+        },
+        {
+          "name": "ForensicSid",
+          "children": [
+            {
+              "name": "Get-ForensicSid"
+            }
+          ]
+        },
+        {
+          "name": "ForensicTimezone",
+          "children": [
+            {
+              "name": "Get-ForensicTimezone"
+            }
+          ]
+        },
+        {
+          "name": "ForensicTypedUrl",
+          "children": [
+            {
+              "name": "Get-ForensicTypedUrl"
+            }
+          ]
+        },
+        {
+          "name": "ForensicUnallocatedSpace",
+          "children": [
+            {
+              "name": "Get-ForensicUnallocatedSpace"
+            }
+          ]
+        },
+        {
+          "name": "ForensicUserAssist",
+          "children": [
+            {
+              "name": "Get-ForensicUserAssist"
+            }
+          ]
+        },
+        {
+          "name": "ForensicUsnJrnl",
+          "children": [
+            {
+              "name": "Get-ForensicUsnJrnl"
+            }
+          ]
+        },
+        {
+          "name": "ForensicUsnJrnlInformation",
+          "children": [
+            {
+              "name": "Get-ForensicUsnJrnlInformation"
+            }
+          ]
+        },
+        {
+          "name": "ForensicVolumeBootRecord",
+          "children": [
+            {
+              "name": "Get-ForensicVolumeBootRecord"
+            }
+          ]
+        },
+        {
+          "name": "ForensicVolumeInformation",
+          "children": [
+            {
+              "name": "Get-ForensicVolumeInformation"
+            }
+          ]
+        },
+        {
+          "name": "ForensicVolumeName",
+          "children": [
+            {
+              "name": "Get-ForensicVolumeName"
+            }
+          ]
+        },
+        {
+          "name": "ForensicWindowsSearchHistory",
+          "children": [
+            {
+              "name": "Get-ForensicWindowsSearchHistory"
+            }
+          ]
+        },
+        {
+          "name": "ForensicDD",
+          "children": [
+            {
+              "name": "Invoke-ForensicDD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

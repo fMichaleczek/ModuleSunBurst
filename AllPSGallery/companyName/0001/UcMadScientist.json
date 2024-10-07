@@ -1,0 +1,104 @@
+{
+  "name": "UcMadScientist",
+  "children": [
+    {
+      "name": "BounShell",
+      "companyName": "UcMadScientist",
+      "author": "James Arber",
+      "children": [
+        {
+          "name": "BsConfigFile",
+          "children": [
+            {
+              "name": "Read-BsConfigFile"
+            },
+            {
+              "name": "Write-BsConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "BsDefaultConfig",
+          "children": [
+            {
+              "name": "Import-BsDefaultConfig"
+            }
+          ]
+        },
+        {
+          "name": "BsNewTenantTab",
+          "children": [
+            {
+              "name": "Invoke-BsNewTenantTab"
+            }
+          ]
+        },
+        {
+          "name": "BsO365Tenant",
+          "children": [
+            {
+              "name": "Connect-BsO365Tenant"
+            }
+          ]
+        },
+        {
+          "name": "BsAddonMenu",
+          "children": [
+            {
+              "name": "Update-BsAddonMenu"
+            }
+          ]
+        },
+        {
+          "name": "BsGuiElements",
+          "children": [
+            {
+              "name": "Import-BsGuiElements"
+            },
+            {
+              "name": "Show-BsGuiElements"
+            },
+            {
+              "name": "Hide-BsGuiElements"
+            }
+          ]
+        },
+        {
+          "name": "BsGuiFunctions",
+          "children": [
+            {
+              "name": "Import-BsGuiFunctions"
+            }
+          ]
+        },
+        {
+          "name": "BounShell",
+          "children": [
+            {
+              "name": "Start-BounShell"
+            }
+          ]
+        },
+        {
+          "name": "BsCredentials",
+          "children": [
+            {
+              "name": "Watch-BsCredentials"
+            }
+          ]
+        },
+        {
+          "name": "BsInstalledModules",
+          "children": [
+            {
+              "name": "Test-BsInstalledModules"
+            },
+            {
+              "name": "Repair-BsInstalledModules"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

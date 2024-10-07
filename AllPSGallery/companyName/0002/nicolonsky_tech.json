@@ -1,0 +1,76 @@
+{
+  "name": "nicolonsky tech",
+  "children": [
+    {
+      "name": "AzureADLicensing",
+      "companyName": "nicolonsky tech",
+      "author": "Nicola Suter",
+      "children": [
+        {
+          "name": "AADGroupLicenseAssignment",
+          "children": [
+            {
+              "name": "Add-AADGroupLicenseAssignment"
+            },
+            {
+              "name": "Get-AADGroupLicenseAssignment"
+            },
+            {
+              "name": "Remove-AADGroupLicenseAssignment"
+            },
+            {
+              "name": "Update-AADGroupLicenseAssignment"
+            }
+          ]
+        },
+        {
+          "name": "AADLicenseSku",
+          "children": [
+            {
+              "name": "Get-AADLicenseSku"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft365ServiceStatus",
+      "companyName": "nicolonsky tech",
+      "author": "Nicola Suter",
+      "children": [
+        {
+          "name": "M365ServiceHistoricalStatus",
+          "children": [
+            {
+              "name": "Get-M365ServiceHistoricalStatus"
+            }
+          ]
+        },
+        {
+          "name": "M365ServiceMessage",
+          "children": [
+            {
+              "name": "Get-M365ServiceMessage"
+            }
+          ]
+        },
+        {
+          "name": "M365ServiceStatus",
+          "children": [
+            {
+              "name": "Get-M365ServiceStatus"
+            }
+          ]
+        },
+        {
+          "name": "MsalToken",
+          "children": [
+            {
+              "name": "Set-MsalToken"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

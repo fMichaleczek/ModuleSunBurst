@@ -1,0 +1,1355 @@
+{
+  "name": "Rubrik",
+  "children": [
+    {
+      "name": "AsBuiltReport.Rubrik.CDM",
+      "companyName": "Rubrik",
+      "author": "Mike Preston",
+      "children": [
+        {
+          "name": "AsBuiltReport.Rubrik.CDM",
+          "children": [
+            {
+              "name": "Invoke-AsBuiltReport.Rubrik.CDM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rubrik",
+      "companyName": "Rubrik",
+      "author": "Rubrik",
+      "children": [
+        {
+          "name": "Rubrik",
+          "children": [
+            {
+              "name": "Connect-Rubrik"
+            },
+            {
+              "name": "Disconnect-Rubrik"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDatabase",
+          "children": [
+            {
+              "name": "Export-RubrikDatabase"
+            },
+            {
+              "name": "Get-RubrikDatabase"
+            },
+            {
+              "name": "Protect-RubrikDatabase"
+            },
+            {
+              "name": "Restore-RubrikDatabase"
+            },
+            {
+              "name": "Set-RubrikDatabase"
+            }
+          ]
+        },
+        {
+          "name": "RubrikReport",
+          "children": [
+            {
+              "name": "Export-RubrikReport"
+            },
+            {
+              "name": "Get-RubrikReport"
+            },
+            {
+              "name": "New-RubrikReport"
+            },
+            {
+              "name": "Remove-RubrikReport"
+            },
+            {
+              "name": "Set-RubrikReport"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVApp",
+          "children": [
+            {
+              "name": "Export-RubrikVApp"
+            },
+            {
+              "name": "Get-RubrikVApp"
+            },
+            {
+              "name": "Protect-RubrikVApp"
+            },
+            {
+              "name": "Restore-RubrikVApp"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVCDTemplate",
+          "children": [
+            {
+              "name": "Export-RubrikVCDTemplate"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVM",
+          "children": [
+            {
+              "name": "Export-RubrikVM"
+            },
+            {
+              "name": "Get-RubrikVM"
+            },
+            {
+              "name": "Protect-RubrikVM"
+            },
+            {
+              "name": "Set-RubrikVM"
+            }
+          ]
+        },
+        {
+          "name": "RubrikFile",
+          "children": [
+            {
+              "name": "Find-RubrikFile"
+            }
+          ]
+        },
+        {
+          "name": "RubrikAPIToken",
+          "children": [
+            {
+              "name": "Get-RubrikAPIToken"
+            },
+            {
+              "name": "New-RubrikAPIToken"
+            },
+            {
+              "name": "Remove-RubrikAPIToken"
+            }
+          ]
+        },
+        {
+          "name": "RubrikAPIVersion",
+          "children": [
+            {
+              "name": "Get-RubrikAPIVersion"
+            }
+          ]
+        },
+        {
+          "name": "RubrikArchive",
+          "children": [
+            {
+              "name": "Get-RubrikArchive"
+            }
+          ]
+        },
+        {
+          "name": "RubrikAvailabilityGroup",
+          "children": [
+            {
+              "name": "Get-RubrikAvailabilityGroup"
+            },
+            {
+              "name": "Set-RubrikAvailabilityGroup"
+            }
+          ]
+        },
+        {
+          "name": "RubrikBlackout",
+          "children": [
+            {
+              "name": "Get-RubrikBlackout"
+            },
+            {
+              "name": "Set-RubrikBlackout"
+            }
+          ]
+        },
+        {
+          "name": "RubrikBackupServiceDeployment",
+          "children": [
+            {
+              "name": "Get-RubrikBackupServiceDeployment"
+            }
+          ]
+        },
+        {
+          "name": "RubrikBootStrap",
+          "children": [
+            {
+              "name": "Get-RubrikBootStrap"
+            },
+            {
+              "name": "New-RubrikBootStrap"
+            }
+          ]
+        },
+        {
+          "name": "RubrikClusterInfo",
+          "children": [
+            {
+              "name": "Get-RubrikClusterInfo"
+            }
+          ]
+        },
+        {
+          "name": "RubrikClusterNetworkInterface",
+          "children": [
+            {
+              "name": "Get-RubrikClusterNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "RubrikClusterStorage",
+          "children": [
+            {
+              "name": "Get-RubrikClusterStorage"
+            }
+          ]
+        },
+        {
+          "name": "RubrikClusterUpgradeHistory",
+          "children": [
+            {
+              "name": "Get-RubrikClusterUpgradeHistory"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDatabaseFiles",
+          "children": [
+            {
+              "name": "Get-RubrikDatabaseFiles"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDatabaseMount",
+          "children": [
+            {
+              "name": "Get-RubrikDatabaseMount"
+            },
+            {
+              "name": "New-RubrikDatabaseMount"
+            },
+            {
+              "name": "Remove-RubrikDatabaseMount"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDatabaseRecoverableRange",
+          "children": [
+            {
+              "name": "Get-RubrikDatabaseRecoverableRange"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDatabaseRecoveryPoint",
+          "children": [
+            {
+              "name": "Get-RubrikDatabaseRecoveryPoint"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDatabaseDownloadLink",
+          "children": [
+            {
+              "name": "Get-RubrikDatabaseDownloadLink"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDebugInfo",
+          "children": [
+            {
+              "name": "Get-RubrikDebugInfo"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDNSSetting",
+          "children": [
+            {
+              "name": "Get-RubrikDNSSetting"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDownloadLink",
+          "children": [
+            {
+              "name": "Get-RubrikDownloadLink"
+            }
+          ]
+        },
+        {
+          "name": "RubrikEmailSetting",
+          "children": [
+            {
+              "name": "Get-RubrikEmailSetting"
+            }
+          ]
+        },
+        {
+          "name": "RubrikEvent",
+          "children": [
+            {
+              "name": "Get-RubrikEvent"
+            }
+          ]
+        },
+        {
+          "name": "RubrikEventSeries",
+          "children": [
+            {
+              "name": "Get-RubrikEventSeries"
+            }
+          ]
+        },
+        {
+          "name": "RubrikFileset",
+          "children": [
+            {
+              "name": "Get-RubrikFileset"
+            },
+            {
+              "name": "New-RubrikFileset"
+            },
+            {
+              "name": "Protect-RubrikFileset"
+            },
+            {
+              "name": "Remove-RubrikFileset"
+            }
+          ]
+        },
+        {
+          "name": "RubrikFilesetTemplate",
+          "children": [
+            {
+              "name": "Get-RubrikFilesetTemplate"
+            },
+            {
+              "name": "New-RubrikFilesetTemplate"
+            },
+            {
+              "name": "Remove-RubrikFilesetTemplate"
+            }
+          ]
+        },
+        {
+          "name": "RubrikGuestOSCredential",
+          "children": [
+            {
+              "name": "Get-RubrikGuestOSCredential"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHost",
+          "children": [
+            {
+              "name": "Get-RubrikHost"
+            },
+            {
+              "name": "New-RubrikHost"
+            },
+            {
+              "name": "Remove-RubrikHost"
+            },
+            {
+              "name": "Update-RubrikHost"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHostVolume",
+          "children": [
+            {
+              "name": "Get-RubrikHostVolume"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHvmFormatAutoUpgrade",
+          "children": [
+            {
+              "name": "Get-RubrikHvmFormatAutoUpgrade"
+            },
+            {
+              "name": "Set-RubrikHvmFormatAutoUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHvmFormatClusterStorage",
+          "children": [
+            {
+              "name": "Get-RubrikHvmFormatClusterStorage"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHvmFormatReport",
+          "children": [
+            {
+              "name": "Get-RubrikHvmFormatReport"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHvmFormatUpgradeReport",
+          "children": [
+            {
+              "name": "Get-RubrikHvmFormatUpgradeReport"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHyperVHost",
+          "children": [
+            {
+              "name": "Get-RubrikHyperVHost"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHyperVMount",
+          "children": [
+            {
+              "name": "Get-RubrikHyperVMount"
+            },
+            {
+              "name": "Remove-RubrikHyperVMount"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHyperVVM",
+          "children": [
+            {
+              "name": "Get-RubrikHyperVVM"
+            },
+            {
+              "name": "Protect-RubrikHyperVVM"
+            },
+            {
+              "name": "Set-RubrikHyperVVM"
+            }
+          ]
+        },
+        {
+          "name": "RubrikIPMI",
+          "children": [
+            {
+              "name": "Get-RubrikIPMI"
+            }
+          ]
+        },
+        {
+          "name": "RubrikLDAP",
+          "children": [
+            {
+              "name": "Get-RubrikLDAP"
+            },
+            {
+              "name": "New-RubrikLDAP"
+            }
+          ]
+        },
+        {
+          "name": "RubrikLoginBanner",
+          "children": [
+            {
+              "name": "Get-RubrikLoginBanner"
+            }
+          ]
+        },
+        {
+          "name": "RubrikLogShipping",
+          "children": [
+            {
+              "name": "Get-RubrikLogShipping"
+            },
+            {
+              "name": "New-RubrikLogShipping"
+            },
+            {
+              "name": "Remove-RubrikLogShipping"
+            },
+            {
+              "name": "Reset-RubrikLogShipping"
+            },
+            {
+              "name": "Set-RubrikLogShipping"
+            }
+          ]
+        },
+        {
+          "name": "RubrikManagedVolume",
+          "children": [
+            {
+              "name": "Get-RubrikManagedVolume"
+            },
+            {
+              "name": "New-RubrikManagedVolume"
+            },
+            {
+              "name": "Remove-RubrikManagedVolume"
+            },
+            {
+              "name": "Set-RubrikManagedVolume"
+            }
+          ]
+        },
+        {
+          "name": "RubrikManagedVolumeExport",
+          "children": [
+            {
+              "name": "Get-RubrikManagedVolumeExport"
+            },
+            {
+              "name": "New-RubrikManagedVolumeExport"
+            },
+            {
+              "name": "Remove-RubrikManagedVolumeExport"
+            }
+          ]
+        },
+        {
+          "name": "RubrikModuleOption",
+          "children": [
+            {
+              "name": "Get-RubrikModuleOption"
+            },
+            {
+              "name": "Set-RubrikModuleOption"
+            }
+          ]
+        },
+        {
+          "name": "RubrikModuleDefaultParameter",
+          "children": [
+            {
+              "name": "Get-RubrikModuleDefaultParameter"
+            },
+            {
+              "name": "Remove-RubrikModuleDefaultParameter"
+            },
+            {
+              "name": "Set-RubrikModuleDefaultParameter"
+            }
+          ]
+        },
+        {
+          "name": "RubrikMount",
+          "children": [
+            {
+              "name": "Get-RubrikMount"
+            },
+            {
+              "name": "New-RubrikMount"
+            },
+            {
+              "name": "Remove-RubrikMount"
+            },
+            {
+              "name": "Set-RubrikMount"
+            }
+          ]
+        },
+        {
+          "name": "RubrikNASShare",
+          "children": [
+            {
+              "name": "Get-RubrikNASShare"
+            },
+            {
+              "name": "New-RubrikNASShare"
+            },
+            {
+              "name": "Remove-RubrikNASShare"
+            },
+            {
+              "name": "Set-RubrikNASShare"
+            }
+          ]
+        },
+        {
+          "name": "RubrikNetworkThrottle",
+          "children": [
+            {
+              "name": "Get-RubrikNetworkThrottle"
+            }
+          ]
+        },
+        {
+          "name": "RubrikNfsArchive",
+          "children": [
+            {
+              "name": "Get-RubrikNfsArchive"
+            }
+          ]
+        },
+        {
+          "name": "RubrikNode",
+          "children": [
+            {
+              "name": "Get-RubrikNode"
+            }
+          ]
+        },
+        {
+          "name": "RubrikNotificationSetting",
+          "children": [
+            {
+              "name": "Get-RubrikNotificationSetting"
+            }
+          ]
+        },
+        {
+          "name": "RubrikNTPServer",
+          "children": [
+            {
+              "name": "Get-RubrikNTPServer"
+            }
+          ]
+        },
+        {
+          "name": "RubrikNutanixCluster",
+          "children": [
+            {
+              "name": "Get-RubrikNutanixCluster"
+            },
+            {
+              "name": "Update-RubrikNutanixCluster"
+            }
+          ]
+        },
+        {
+          "name": "RubrikNutanixVM",
+          "children": [
+            {
+              "name": "Get-RubrikNutanixVM"
+            },
+            {
+              "name": "Protect-RubrikNutanixVM"
+            },
+            {
+              "name": "Set-RubrikNutanixVM"
+            }
+          ]
+        },
+        {
+          "name": "RubrikObject",
+          "children": [
+            {
+              "name": "Get-RubrikObject"
+            }
+          ]
+        },
+        {
+          "name": "RubrikObjectStoreArchive",
+          "children": [
+            {
+              "name": "Get-RubrikObjectStoreArchive"
+            }
+          ]
+        },
+        {
+          "name": "RubrikOracleDB",
+          "children": [
+            {
+              "name": "Get-RubrikOracleDB"
+            }
+          ]
+        },
+        {
+          "name": "RubrikOrganization",
+          "children": [
+            {
+              "name": "Get-RubrikOrganization"
+            },
+            {
+              "name": "New-RubrikOrganization"
+            },
+            {
+              "name": "Remove-RubrikOrganization"
+            }
+          ]
+        },
+        {
+          "name": "RubrikOrgAuthorization",
+          "children": [
+            {
+              "name": "Get-RubrikOrgAuthorization"
+            },
+            {
+              "name": "Remove-RubrikOrgAuthorization"
+            },
+            {
+              "name": "Set-RubrikOrgAuthorization"
+            }
+          ]
+        },
+        {
+          "name": "RubrikQstarArchive",
+          "children": [
+            {
+              "name": "Get-RubrikQstarArchive"
+            }
+          ]
+        },
+        {
+          "name": "RubrikProxySetting",
+          "children": [
+            {
+              "name": "Get-RubrikProxySetting"
+            },
+            {
+              "name": "Remove-RubrikProxySetting"
+            },
+            {
+              "name": "Set-RubrikProxySetting"
+            }
+          ]
+        },
+        {
+          "name": "RubrikReplicationSource",
+          "children": [
+            {
+              "name": "Get-RubrikReplicationSource"
+            }
+          ]
+        },
+        {
+          "name": "RubrikReplicationTarget",
+          "children": [
+            {
+              "name": "Get-RubrikReplicationTarget"
+            }
+          ]
+        },
+        {
+          "name": "RubrikReportData",
+          "children": [
+            {
+              "name": "Get-RubrikReportData"
+            }
+          ]
+        },
+        {
+          "name": "RubrikRequest",
+          "children": [
+            {
+              "name": "Get-RubrikRequest"
+            }
+          ]
+        },
+        {
+          "name": "RubrikScvmm",
+          "children": [
+            {
+              "name": "Get-RubrikScvmm"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSecurityClassification",
+          "children": [
+            {
+              "name": "Get-RubrikSecurityClassification"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSetting",
+          "children": [
+            {
+              "name": "Get-RubrikSetting"
+            },
+            {
+              "name": "Set-RubrikSetting"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSLA",
+          "children": [
+            {
+              "name": "Get-RubrikSLA"
+            },
+            {
+              "name": "New-RubrikSLA"
+            },
+            {
+              "name": "Suspend-RubrikSLA"
+            },
+            {
+              "name": "Remove-RubrikSLA"
+            },
+            {
+              "name": "Resume-RubrikSLA"
+            },
+            {
+              "name": "Set-RubrikSLA"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSmbDomain",
+          "children": [
+            {
+              "name": "Get-RubrikSmbDomain"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSmbSecurity",
+          "children": [
+            {
+              "name": "Get-RubrikSmbSecurity"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSnapshot",
+          "children": [
+            {
+              "name": "Get-RubrikSnapshot"
+            },
+            {
+              "name": "New-RubrikSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSNMPSetting",
+          "children": [
+            {
+              "name": "Get-RubrikSNMPSetting"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSoftwareVersion",
+          "children": [
+            {
+              "name": "Get-RubrikSoftwareVersion"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSQLInstance",
+          "children": [
+            {
+              "name": "Get-RubrikSQLInstance"
+            },
+            {
+              "name": "Set-RubrikSQLInstance"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSupportTunnel",
+          "children": [
+            {
+              "name": "Get-RubrikSupportTunnel"
+            },
+            {
+              "name": "Set-RubrikSupportTunnel"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSyslogServer",
+          "children": [
+            {
+              "name": "Get-RubrikSyslogServer"
+            }
+          ]
+        },
+        {
+          "name": "RubrikUnmanagedObject",
+          "children": [
+            {
+              "name": "Get-RubrikUnmanagedObject"
+            },
+            {
+              "name": "Remove-RubrikUnmanagedObject"
+            }
+          ]
+        },
+        {
+          "name": "RubrikUser",
+          "children": [
+            {
+              "name": "Get-RubrikUser"
+            },
+            {
+              "name": "New-RubrikUser"
+            },
+            {
+              "name": "Remove-RubrikUser"
+            },
+            {
+              "name": "Set-RubrikUser"
+            }
+          ]
+        },
+        {
+          "name": "RubrikUserRole",
+          "children": [
+            {
+              "name": "Get-RubrikUserRole"
+            },
+            {
+              "name": "Set-RubrikUserRole"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVAppExportOption",
+          "children": [
+            {
+              "name": "Get-RubrikVAppExportOption"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVAppRecoverOption",
+          "children": [
+            {
+              "name": "Get-RubrikVAppRecoverOption"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVAppSnapshot",
+          "children": [
+            {
+              "name": "Get-RubrikVAppSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVCD",
+          "children": [
+            {
+              "name": "Get-RubrikVCD"
+            },
+            {
+              "name": "Set-RubrikVCD"
+            },
+            {
+              "name": "Update-RubrikVCD"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVCDTemplateExportOption",
+          "children": [
+            {
+              "name": "Get-RubrikVCDTemplateExportOption"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVCenter",
+          "children": [
+            {
+              "name": "Get-RubrikVCenter"
+            },
+            {
+              "name": "New-RubrikVCenter"
+            },
+            {
+              "name": "Remove-RubrikVCenter"
+            },
+            {
+              "name": "Set-RubrikVCenter"
+            },
+            {
+              "name": "Update-RubrikVCenter"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVersion",
+          "children": [
+            {
+              "name": "Get-RubrikVersion"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVMDownloadLink",
+          "children": [
+            {
+              "name": "Get-RubrikVMDownloadLink"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVMSnapshot",
+          "children": [
+            {
+              "name": "Get-RubrikVMSnapshot"
+            },
+            {
+              "name": "Remove-RubrikVMSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVMwareCluster",
+          "children": [
+            {
+              "name": "Get-RubrikVMwareCluster"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVMwareDatacenter",
+          "children": [
+            {
+              "name": "Get-RubrikVMwareDatacenter"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVMwareDatastore",
+          "children": [
+            {
+              "name": "Get-RubrikVMwareDatastore"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVMwareHost",
+          "children": [
+            {
+              "name": "Get-RubrikVMwareHost"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVgfAutoUpgrade",
+          "children": [
+            {
+              "name": "Get-RubrikVgfAutoUpgrade"
+            },
+            {
+              "name": "Set-RubrikVgfAutoUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVgfClusterStorage",
+          "children": [
+            {
+              "name": "Get-RubrikVgfClusterStorage"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVgfReport",
+          "children": [
+            {
+              "name": "Get-RubrikVgfReport"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVgfUpgradeReport",
+          "children": [
+            {
+              "name": "Get-RubrikVgfUpgradeReport"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVolumeGroup",
+          "children": [
+            {
+              "name": "Get-RubrikVolumeGroup"
+            },
+            {
+              "name": "Protect-RubrikVolumeGroup"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVolumeGroupMount",
+          "children": [
+            {
+              "name": "Get-RubrikVolumeGroupMount"
+            },
+            {
+              "name": "New-RubrikVolumeGroupMount"
+            },
+            {
+              "name": "Remove-RubrikVolumeGroupMount"
+            }
+          ]
+        },
+        {
+          "name": "RubrikRESTCall",
+          "children": [
+            {
+              "name": "Invoke-RubrikRESTCall"
+            }
+          ]
+        },
+        {
+          "name": "RubrikGraphQLCall",
+          "children": [
+            {
+              "name": "Invoke-RubrikGraphQLCall"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHvmFormatUpgrade",
+          "children": [
+            {
+              "name": "Invoke-RubrikHvmFormatUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVgfUpgrade",
+          "children": [
+            {
+              "name": "Invoke-RubrikVgfUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "RubrikMountVMDK",
+          "children": [
+            {
+              "name": "Move-RubrikMountVMDK"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHyperVVMMount",
+          "children": [
+            {
+              "name": "New-RubrikHyperVVMMount"
+            }
+          ]
+        },
+        {
+          "name": "RubrikLogBackup",
+          "children": [
+            {
+              "name": "New-RubrikLogBackup"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVMDKMount",
+          "children": [
+            {
+              "name": "New-RubrikVMDKMount"
+            }
+          ]
+        },
+        {
+          "name": "RubrikTag",
+          "children": [
+            {
+              "name": "Protect-RubrikTag"
+            },
+            {
+              "name": "Sync-RubrikTag"
+            }
+          ]
+        },
+        {
+          "name": "RubrikBackupService",
+          "children": [
+            {
+              "name": "Register-RubrikBackupService"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDatabaseSnapshots",
+          "children": [
+            {
+              "name": "Remove-RubrikDatabaseSnapshots"
+            }
+          ]
+        },
+        {
+          "name": "RubrikFilesetSnapshot",
+          "children": [
+            {
+              "name": "Remove-RubrikFilesetSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "RubrikHyperVSnapshot",
+          "children": [
+            {
+              "name": "Remove-RubrikHyperVSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "RubrikManagedVolumeSnapshot",
+          "children": [
+            {
+              "name": "Remove-RubrikManagedVolumeSnapshot"
+            },
+            {
+              "name": "Start-RubrikManagedVolumeSnapshot"
+            },
+            {
+              "name": "Stop-RubrikManagedVolumeSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "RubrikNutanixVMSnapshot",
+          "children": [
+            {
+              "name": "Remove-RubrikNutanixVMSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVolumeGroupSnapshot",
+          "children": [
+            {
+              "name": "Remove-RubrikVolumeGroupSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVolumeFilterDriver",
+          "children": [
+            {
+              "name": "Set-RubrikVolumeFilterDriver"
+            }
+          ]
+        },
+        {
+          "name": "RubrikDownload",
+          "children": [
+            {
+              "name": "Start-RubrikDownload"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVMDownload",
+          "children": [
+            {
+              "name": "Start-RubrikVMDownload"
+            }
+          ]
+        },
+        {
+          "name": "RubrikAnnotation",
+          "children": [
+            {
+              "name": "Sync-RubrikAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "RubrikSnapshotVerification",
+          "children": [
+            {
+              "name": "Test-RubrikSnapshotVerification"
+            }
+          ]
+        },
+        {
+          "name": "RubrikVMwareVM",
+          "children": [
+            {
+              "name": "Update-RubrikVMwareVM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RubrikBackupValidation",
+      "companyName": "Rubrik",
+      "author": "Jaap Brasser",
+      "children": [
+        {
+          "name": "BuildConfiguration",
+          "children": [
+            {
+              "name": "New-BuildConfiguration"
+            },
+            {
+              "name": "Test-BuildConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ConfigJson",
+          "children": [
+            {
+              "name": "New-ConfigJson"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentJson",
+          "children": [
+            {
+              "name": "New-EnvironmentJson"
+            }
+          ]
+        },
+        {
+          "name": "SecureCredential",
+          "children": [
+            {
+              "name": "New-SecureCredential"
+            }
+          ]
+        },
+        {
+          "name": "FolderStructure",
+          "children": [
+            {
+              "name": "Test-FolderStructure"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellDependency",
+          "children": [
+            {
+              "name": "Test-PowerShellDependency"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

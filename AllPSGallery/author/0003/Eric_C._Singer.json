@@ -1,0 +1,112 @@
+{
+  "name": "Eric C. Singer",
+  "children": [
+    {
+      "name": "ECS.LocalGPO",
+      "companyName": "ForFree",
+      "author": "Eric C. Singer",
+      "children": [
+        {
+          "name": "ECSSIDToAccount",
+          "children": [
+            {
+              "name": "Convert-ECSSIDToAccount"
+            }
+          ]
+        },
+        {
+          "name": "ECSAccountToSID",
+          "children": [
+            {
+              "name": "Convert-ECSAccountToSID"
+            }
+          ]
+        },
+        {
+          "name": "ECSLocalGPOUserRightAssignment",
+          "children": [
+            {
+              "name": "Get-ECSLocalGPOUserRightAssignment"
+            },
+            {
+              "name": "Add-ECSLocalGPOUserRightAssignment"
+            },
+            {
+              "name": "Remove-ECSLocalGPOUserRightAssignment"
+            }
+          ]
+        },
+        {
+          "name": "ECSLocalGPOAvailableUserRightAssignments",
+          "children": [
+            {
+              "name": "Show-ECSLocalGPOAvailableUserRightAssignments"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ECS.Tools",
+      "companyName": "Unknown",
+      "author": "Eric C. Singer",
+      "children": [
+        {
+          "name": "RandomArrayList",
+          "children": [
+            {
+              "name": "ConvertTo-RandomArrayList"
+            }
+          ]
+        },
+        {
+          "name": "ArrayIndexRange",
+          "children": [
+            {
+              "name": "Get-ArrayIndexRange"
+            }
+          ]
+        },
+        {
+          "name": "RandomNumber",
+          "children": [
+            {
+              "name": "New-RandomNumber"
+            }
+          ]
+        },
+        {
+          "name": "RandomString",
+          "children": [
+            {
+              "name": "New-RandomString"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ECS.WindowsGeneric",
+      "companyName": "ForFree",
+      "author": "Eric C. Singer",
+      "children": [
+        {
+          "name": "ECSSIDToAccount",
+          "children": [
+            {
+              "name": "Convert-ECSSIDToAccount"
+            }
+          ]
+        },
+        {
+          "name": "ECSAccountToSID",
+          "children": [
+            {
+              "name": "Convert-ECSAccountToSID"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

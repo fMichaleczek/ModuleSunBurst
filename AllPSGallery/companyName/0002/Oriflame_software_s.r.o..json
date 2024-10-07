@@ -1,0 +1,153 @@
+{
+  "name": "Oriflame software s.r.o.",
+  "children": [
+    {
+      "name": "OriAzBopBoostrapOriPsgallery",
+      "companyName": "Oriflame software s.r.o.",
+      "author": "Petr Jezek",
+      "children": [
+        {
+          "name": "OriAzBopKeyVaultSecret",
+          "children": [
+            {
+              "name": "Get-OriAzBopKeyVaultSecret"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopFolderHash",
+          "children": [
+            {
+              "name": "Get-OriAzBopFolderHash"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopModuleMd5FromTag",
+          "children": [
+            {
+              "name": "Get-OriAzBopModuleMd5FromTag"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopModuleComplete",
+          "children": [
+            {
+              "name": "Test-OriAzBopModuleComplete"
+            },
+            {
+              "name": "Wait-OriAzBopModuleComplete"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopPsModule",
+          "children": [
+            {
+              "name": "Import-OriAzBopPsModule"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopPsd",
+          "children": [
+            {
+              "name": "Import-OriAzBopPsd"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopPrerequisity",
+          "children": [
+            {
+              "name": "Install-OriAzBopPrerequisity"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopUseAzCredential",
+          "children": [
+            {
+              "name": "Invoke-OriAzBopUseAzCredential"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopRepository",
+          "children": [
+            {
+              "name": "Register-OriAzBopRepository"
+            },
+            {
+              "name": "Unregister-OriAzBopRepository"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopDownloadPackage",
+          "children": [
+            {
+              "name": "Invoke-OriAzBopDownloadPackage"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopPrerequisityForce",
+          "children": [
+            {
+              "name": "Install-OriAzBopPrerequisityForce"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopPrerequisiteForce",
+          "children": [
+            {
+              "name": "Install-OriAzBopPrerequisiteForce"
+            }
+          ]
+        },
+        {
+          "name": "OriAzBopPrerequisite",
+          "children": [
+            {
+              "name": "Install-OriAzBopPrerequisite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OriPsRepositoryBootstrap",
+      "companyName": "Oriflame software s.r.o.",
+      "author": "Oriflame software s.r.o.",
+      "children": [
+        {
+          "name": "OriPsModule",
+          "children": [
+            {
+              "name": "Import-OriPsModule"
+            }
+          ]
+        },
+        {
+          "name": "GetModule",
+          "children": [
+            {
+              "name": "Test-GetModule"
+            }
+          ]
+        },
+        {
+          "name": "RegisterOriflameFeeds",
+          "children": [
+            {
+              "name": "Invoke-RegisterOriflameFeeds"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

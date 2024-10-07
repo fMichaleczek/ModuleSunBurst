@@ -1,0 +1,156 @@
+{
+  "name": "SAGSA",
+  "children": [
+    {
+      "name": "DbBackupControl",
+      "companyName": "Unknown",
+      "author": "SAGSA",
+      "children": [
+        {
+          "name": "DbBackup",
+          "children": [
+            {
+              "name": "Remove-DbBackup"
+            }
+          ]
+        },
+        {
+          "name": "FakeBackup",
+          "children": [
+            {
+              "name": "New-FakeBackup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PostgresCmdlets",
+      "companyName": "Unknown",
+      "author": "SAGSA",
+      "children": [
+        {
+          "name": "PgDatabase",
+          "children": [
+            {
+              "name": "Get-PgDatabase"
+            },
+            {
+              "name": "New-PgDatabase"
+            },
+            {
+              "name": "Remove-PgDatabase"
+            },
+            {
+              "name": "Restore-PgDatabase"
+            },
+            {
+              "name": "Backup-PgDatabase"
+            },
+            {
+              "name": "Rename-PgDatabase"
+            }
+          ]
+        },
+        {
+          "name": "PgDatabaseConnections",
+          "children": [
+            {
+              "name": "Disable-PgDatabaseConnections"
+            },
+            {
+              "name": "Enable-PgDatabaseConnections"
+            }
+          ]
+        },
+        {
+          "name": "PgCredential",
+          "children": [
+            {
+              "name": "New-PgCredential"
+            },
+            {
+              "name": "Remove-PgCredential"
+            },
+            {
+              "name": "Get-PgCredential"
+            }
+          ]
+        },
+        {
+          "name": "PgQuery",
+          "children": [
+            {
+              "name": "Invoke-PgQuery"
+            }
+          ]
+        },
+        {
+          "name": "Vacuum",
+          "children": [
+            {
+              "name": "Start-Vacuum"
+            }
+          ]
+        },
+        {
+          "name": "PgServerInfo",
+          "children": [
+            {
+              "name": "Get-PgServerInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Systeminfo",
+      "companyName": "Unknown",
+      "author": "SAGSa",
+      "children": [
+        {
+          "name": "SystemInfo",
+          "children": [
+            {
+              "name": "Get-SystemInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WecEventlog",
+      "companyName": "Unknown",
+      "author": "SAGSa",
+      "children": [
+        {
+          "name": "EventLogProvider",
+          "children": [
+            {
+              "name": "New-EventLogProvider"
+            },
+            {
+              "name": "Remove-EventLogProvider"
+            }
+          ]
+        },
+        {
+          "name": "EventlogManifest",
+          "children": [
+            {
+              "name": "New-EventlogManifest"
+            }
+          ]
+        },
+        {
+          "name": "InvokeExe",
+          "children": [
+            {
+              "name": "InvokeExe"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Sascha Stumpler",
+  "children": [
+    {
+      "name": "PSHVTag",
+      "companyName": "Unknown",
+      "author": "Sascha Stumpler",
+      "children": [
+        {
+          "name": "VMTopology",
+          "children": [
+            {
+              "name": "Get-VMTopology"
+            }
+          ]
+        },
+        {
+          "name": "VMTopologyGraph",
+          "children": [
+            {
+              "name": "Get-VMTopologyGraph"
+            }
+          ]
+        },
+        {
+          "name": "VMTag",
+          "children": [
+            {
+              "name": "Set-VMTag"
+            }
+          ]
+        },
+        {
+          "name": "VMService",
+          "children": [
+            {
+              "name": "Start-VMService"
+            },
+            {
+              "name": "Stop-VMService"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "uninstall-modulessuperseded",
+      "companyName": "Unknown",
+      "author": "Sascha Stumpler",
+      "children": [
+        {
+          "name": "ModulesSuperseded",
+          "children": [
+            {
+              "name": "Uninstall-ModulesSuperseded"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

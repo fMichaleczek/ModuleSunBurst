@@ -1,0 +1,1073 @@
+{
+  "name": "AutomatePS",
+  "children": [
+    {
+      "name": "AutoMatePS",
+      "companyName": "Unknown",
+      "author": "AutomatePS",
+      "children": [
+        {
+          "name": "AMAgentGroupMember",
+          "children": [
+            {
+              "name": "Add-AMAgentGroupMember"
+            },
+            {
+              "name": "Remove-AMAgentGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "AMConstant",
+          "children": [
+            {
+              "name": "Add-AMConstant"
+            },
+            {
+              "name": "Remove-AMConstant"
+            },
+            {
+              "name": "Set-AMConstant"
+            }
+          ]
+        },
+        {
+          "name": "AMEmailConditionFilter",
+          "children": [
+            {
+              "name": "Add-AMEmailConditionFilter"
+            },
+            {
+              "name": "Remove-AMEmailConditionFilter"
+            },
+            {
+              "name": "Set-AMEmailConditionFilter"
+            }
+          ]
+        },
+        {
+          "name": "AMScheduleConditionCustomDate",
+          "children": [
+            {
+              "name": "Add-AMScheduleConditionCustomDate"
+            }
+          ]
+        },
+        {
+          "name": "AMScheduleConditionHoliday",
+          "children": [
+            {
+              "name": "Add-AMScheduleConditionHoliday"
+            },
+            {
+              "name": "Remove-AMScheduleConditionHoliday"
+            }
+          ]
+        },
+        {
+          "name": "AMSnmpConditionCredential",
+          "children": [
+            {
+              "name": "Add-AMSnmpConditionCredential"
+            },
+            {
+              "name": "Remove-AMSnmpConditionCredential"
+            },
+            {
+              "name": "Set-AMSnmpConditionCredential"
+            }
+          ]
+        },
+        {
+          "name": "AMUserGroupMember",
+          "children": [
+            {
+              "name": "Add-AMUserGroupMember"
+            },
+            {
+              "name": "Remove-AMUserGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "AMWindowConditionControl",
+          "children": [
+            {
+              "name": "Add-AMWindowConditionControl"
+            },
+            {
+              "name": "Remove-AMWindowConditionControl"
+            },
+            {
+              "name": "Set-AMWindowConditionControl"
+            }
+          ]
+        },
+        {
+          "name": "AMWorkflowItem",
+          "children": [
+            {
+              "name": "Add-AMWorkflowItem"
+            },
+            {
+              "name": "Get-AMWorkflowItem"
+            },
+            {
+              "name": "Remove-AMWorkflowItem"
+            },
+            {
+              "name": "Set-AMWorkflowItem"
+            },
+            {
+              "name": "Switch-AMWorkflowItem"
+            }
+          ]
+        },
+        {
+          "name": "AMWorkflowLink",
+          "children": [
+            {
+              "name": "Add-AMWorkflowLink"
+            },
+            {
+              "name": "Get-AMWorkflowLink"
+            },
+            {
+              "name": "Remove-AMWorkflowLink"
+            },
+            {
+              "name": "Set-AMWorkflowLink"
+            }
+          ]
+        },
+        {
+          "name": "AMWorkflowVariable",
+          "children": [
+            {
+              "name": "Add-AMWorkflowVariable"
+            },
+            {
+              "name": "Get-AMWorkflowVariable"
+            },
+            {
+              "name": "Remove-AMWorkflowVariable"
+            },
+            {
+              "name": "Set-AMWorkflowVariable"
+            }
+          ]
+        },
+        {
+          "name": "AMCondition",
+          "children": [
+            {
+              "name": "Compare-AMCondition"
+            },
+            {
+              "name": "Copy-AMCondition"
+            },
+            {
+              "name": "Get-AMCondition"
+            },
+            {
+              "name": "Set-AMCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMProcess",
+          "children": [
+            {
+              "name": "Compare-AMProcess"
+            },
+            {
+              "name": "Copy-AMProcess"
+            },
+            {
+              "name": "Get-AMProcess"
+            },
+            {
+              "name": "New-AMProcess"
+            },
+            {
+              "name": "Set-AMProcess"
+            },
+            {
+              "name": "Start-AMProcess"
+            }
+          ]
+        },
+        {
+          "name": "AMTask",
+          "children": [
+            {
+              "name": "Compare-AMTask"
+            },
+            {
+              "name": "Copy-AMTask"
+            },
+            {
+              "name": "Get-AMTask"
+            },
+            {
+              "name": "New-AMTask"
+            },
+            {
+              "name": "Set-AMTask"
+            },
+            {
+              "name": "Start-AMTask"
+            }
+          ]
+        },
+        {
+          "name": "AMWorkflow",
+          "children": [
+            {
+              "name": "Compare-AMWorkflow"
+            },
+            {
+              "name": "Copy-AMWorkflow"
+            },
+            {
+              "name": "Get-AMWorkflow"
+            },
+            {
+              "name": "New-AMWorkflow"
+            },
+            {
+              "name": "Resume-AMWorkflow"
+            },
+            {
+              "name": "Set-AMWorkflow"
+            },
+            {
+              "name": "Start-AMWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "AMServer",
+          "children": [
+            {
+              "name": "Connect-AMServer"
+            },
+            {
+              "name": "Disconnect-AMServer"
+            },
+            {
+              "name": "Get-AMServer"
+            }
+          ]
+        },
+        {
+          "name": "AMJson",
+          "children": [
+            {
+              "name": "ConvertTo-AMJson"
+            }
+          ]
+        },
+        {
+          "name": "AMObject",
+          "children": [
+            {
+              "name": "Disable-AMObject"
+            },
+            {
+              "name": "Enable-AMObject"
+            },
+            {
+              "name": "Find-AMObject"
+            },
+            {
+              "name": "Get-AMObject"
+            },
+            {
+              "name": "Lock-AMObject"
+            },
+            {
+              "name": "Move-AMObject"
+            },
+            {
+              "name": "New-AMObject"
+            },
+            {
+              "name": "Remove-AMObject"
+            },
+            {
+              "name": "Rename-AMObject"
+            },
+            {
+              "name": "Set-AMObject"
+            },
+            {
+              "name": "Unlock-AMObject"
+            }
+          ]
+        },
+        {
+          "name": "AMAgent",
+          "children": [
+            {
+              "name": "Get-AMAgent"
+            },
+            {
+              "name": "New-AMAgent"
+            },
+            {
+              "name": "Set-AMAgent"
+            },
+            {
+              "name": "Wait-AMAgent"
+            }
+          ]
+        },
+        {
+          "name": "AMAgentGroup",
+          "children": [
+            {
+              "name": "Get-AMAgentGroup"
+            },
+            {
+              "name": "New-AMAgentGroup"
+            },
+            {
+              "name": "Set-AMAgentGroup"
+            }
+          ]
+        },
+        {
+          "name": "AMAuditEvent",
+          "children": [
+            {
+              "name": "Get-AMAuditEvent"
+            }
+          ]
+        },
+        {
+          "name": "AMCalendar",
+          "children": [
+            {
+              "name": "Get-AMCalendar"
+            }
+          ]
+        },
+        {
+          "name": "AMConnection",
+          "children": [
+            {
+              "name": "Get-AMConnection"
+            }
+          ]
+        },
+        {
+          "name": "AMConnectionStoreItem",
+          "children": [
+            {
+              "name": "Get-AMConnectionStoreItem"
+            },
+            {
+              "name": "New-AMConnectionStoreItem"
+            },
+            {
+              "name": "Remove-AMConnectionStoreItem"
+            }
+          ]
+        },
+        {
+          "name": "AMConsoleOutput",
+          "children": [
+            {
+              "name": "Get-AMConsoleOutput"
+            }
+          ]
+        },
+        {
+          "name": "AMExecutionEvent",
+          "children": [
+            {
+              "name": "Get-AMExecutionEvent"
+            }
+          ]
+        },
+        {
+          "name": "AMFolder",
+          "children": [
+            {
+              "name": "Get-AMFolder"
+            },
+            {
+              "name": "New-AMFolder"
+            },
+            {
+              "name": "Set-AMFolder"
+            }
+          ]
+        },
+        {
+          "name": "AMFolderRoot",
+          "children": [
+            {
+              "name": "Get-AMFolderRoot"
+            }
+          ]
+        },
+        {
+          "name": "AMInstance",
+          "children": [
+            {
+              "name": "Get-AMInstance"
+            },
+            {
+              "name": "Resume-AMInstance"
+            },
+            {
+              "name": "Stop-AMInstance"
+            },
+            {
+              "name": "Suspend-AMInstance"
+            },
+            {
+              "name": "Wait-AMInstance"
+            }
+          ]
+        },
+        {
+          "name": "AMMetric",
+          "children": [
+            {
+              "name": "Get-AMMetric"
+            }
+          ]
+        },
+        {
+          "name": "AMObjectProperty",
+          "children": [
+            {
+              "name": "Get-AMObjectProperty"
+            }
+          ]
+        },
+        {
+          "name": "AMPermission",
+          "children": [
+            {
+              "name": "Get-AMPermission"
+            },
+            {
+              "name": "New-AMPermission"
+            },
+            {
+              "name": "Remove-AMPermission"
+            }
+          ]
+        },
+        {
+          "name": "AMRepositoryMap",
+          "children": [
+            {
+              "name": "Get-AMRepositoryMap"
+            },
+            {
+              "name": "New-AMRepositoryMap"
+            }
+          ]
+        },
+        {
+          "name": "AMRepositoryMapDetail",
+          "children": [
+            {
+              "name": "Get-AMRepositoryMapDetail"
+            }
+          ]
+        },
+        {
+          "name": "AMSession",
+          "children": [
+            {
+              "name": "Get-AMSession"
+            }
+          ]
+        },
+        {
+          "name": "AMSystemAgent",
+          "children": [
+            {
+              "name": "Get-AMSystemAgent"
+            }
+          ]
+        },
+        {
+          "name": "AMSystemPermission",
+          "children": [
+            {
+              "name": "Get-AMSystemPermission"
+            },
+            {
+              "name": "New-AMSystemPermission"
+            },
+            {
+              "name": "Remove-AMSystemPermission"
+            }
+          ]
+        },
+        {
+          "name": "AMUser",
+          "children": [
+            {
+              "name": "Get-AMUser"
+            },
+            {
+              "name": "New-AMUser"
+            },
+            {
+              "name": "Set-AMUser"
+            }
+          ]
+        },
+        {
+          "name": "AMUserGroup",
+          "children": [
+            {
+              "name": "Get-AMUserGroup"
+            },
+            {
+              "name": "New-AMUserGroup"
+            },
+            {
+              "name": "Set-AMUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "AMHoliday",
+          "children": [
+            {
+              "name": "Import-AMHoliday"
+            }
+          ]
+        },
+        {
+          "name": "AMRestMethod",
+          "children": [
+            {
+              "name": "Invoke-AMRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "AMDatabaseCondition",
+          "children": [
+            {
+              "name": "New-AMDatabaseCondition"
+            },
+            {
+              "name": "Set-AMDatabaseCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMEmailCondition",
+          "children": [
+            {
+              "name": "New-AMEmailCondition"
+            },
+            {
+              "name": "Set-AMEmailCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMEventLogCondition",
+          "children": [
+            {
+              "name": "New-AMEventLogCondition"
+            },
+            {
+              "name": "Set-AMEventLogCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMFileSystemCondition",
+          "children": [
+            {
+              "name": "New-AMFileSystemCondition"
+            },
+            {
+              "name": "Set-AMFileSystemCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMIdleCondition",
+          "children": [
+            {
+              "name": "New-AMIdleCondition"
+            },
+            {
+              "name": "Set-AMIdleCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMKeyboardCondition",
+          "children": [
+            {
+              "name": "New-AMKeyboardCondition"
+            },
+            {
+              "name": "Set-AMKeyboardCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMLogonCondition",
+          "children": [
+            {
+              "name": "New-AMLogonCondition"
+            },
+            {
+              "name": "Set-AMLogonCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMPerformanceCondition",
+          "children": [
+            {
+              "name": "New-AMPerformanceCondition"
+            },
+            {
+              "name": "Set-AMPerformanceCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMProcessCondition",
+          "children": [
+            {
+              "name": "New-AMProcessCondition"
+            },
+            {
+              "name": "Set-AMProcessCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMScheduleCondition",
+          "children": [
+            {
+              "name": "New-AMScheduleCondition"
+            },
+            {
+              "name": "Set-AMScheduleCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMServiceCondition",
+          "children": [
+            {
+              "name": "New-AMServiceCondition"
+            },
+            {
+              "name": "Set-AMServiceCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMSharePointCondition",
+          "children": [
+            {
+              "name": "New-AMSharePointCondition"
+            },
+            {
+              "name": "Set-AMSharePointCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMSnmpCondition",
+          "children": [
+            {
+              "name": "New-AMSnmpCondition"
+            },
+            {
+              "name": "Set-AMSnmpCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMWindowCondition",
+          "children": [
+            {
+              "name": "New-AMWindowCondition"
+            },
+            {
+              "name": "Set-AMWindowCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMWmiCondition",
+          "children": [
+            {
+              "name": "New-AMWmiCondition"
+            },
+            {
+              "name": "Set-AMWmiCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMWorkflowDesigner",
+          "children": [
+            {
+              "name": "Open-AMWorkflowDesigner"
+            }
+          ]
+        },
+        {
+          "name": "AMAgentProperty",
+          "children": [
+            {
+              "name": "Set-AMAgentProperty"
+            }
+          ]
+        },
+        {
+          "name": "AMTaskProperty",
+          "children": [
+            {
+              "name": "Set-AMTaskProperty"
+            }
+          ]
+        },
+        {
+          "name": "AMWorkflowProperty",
+          "children": [
+            {
+              "name": "Set-AMWorkflowProperty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AutomatePS.Health",
+      "companyName": "Unknown",
+      "author": "AutomatePS",
+      "children": [
+        {
+          "name": "AMHCDisabledAgentGroup",
+          "children": [
+            {
+              "name": "Get-AMHCDisabledAgentGroup"
+            }
+          ]
+        },
+        {
+          "name": "AMHCEmptyAgentGroup",
+          "children": [
+            {
+              "name": "Get-AMHCEmptyAgentGroup"
+            }
+          ]
+        },
+        {
+          "name": "AMHCUnusedAgentGroup",
+          "children": [
+            {
+              "name": "Get-AMHCUnusedAgentGroup"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDisabledAgent",
+          "children": [
+            {
+              "name": "Get-AMHCDisabledAgent"
+            }
+          ]
+        },
+        {
+          "name": "AMHCOfflineAgent",
+          "children": [
+            {
+              "name": "Get-AMHCOfflineAgent"
+            }
+          ]
+        },
+        {
+          "name": "AMHCUnusedAgent",
+          "children": [
+            {
+              "name": "Get-AMHCUnusedAgent"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDisabledCondition",
+          "children": [
+            {
+              "name": "Get-AMHCDisabledCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMHCScheduleInvalidLaunchDate",
+          "children": [
+            {
+              "name": "Get-AMHCScheduleInvalidLaunchDate"
+            }
+          ]
+        },
+        {
+          "name": "AMHCUnusedCondition",
+          "children": [
+            {
+              "name": "Get-AMHCUnusedCondition"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDisabledProcess",
+          "children": [
+            {
+              "name": "Get-AMHCDisabledProcess"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDuplicateProcess",
+          "children": [
+            {
+              "name": "Get-AMHCDuplicateProcess"
+            }
+          ]
+        },
+        {
+          "name": "AMHCUnusedProcess",
+          "children": [
+            {
+              "name": "Get-AMHCUnusedProcess"
+            }
+          ]
+        },
+        {
+          "name": "AMHCServerInformation",
+          "children": [
+            {
+              "name": "Get-AMHCServerInformation"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDisabledTask",
+          "children": [
+            {
+              "name": "Get-AMHCDisabledTask"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDuplicateTask",
+          "children": [
+            {
+              "name": "Get-AMHCDuplicateTask"
+            }
+          ]
+        },
+        {
+          "name": "AMHCEmptyTask",
+          "children": [
+            {
+              "name": "Get-AMHCEmptyTask"
+            }
+          ]
+        },
+        {
+          "name": "AMHCTaskAmlNotXml",
+          "children": [
+            {
+              "name": "Get-AMHCTaskAmlNotXml"
+            }
+          ]
+        },
+        {
+          "name": "AMHCTaskVersionOld",
+          "children": [
+            {
+              "name": "Get-AMHCTaskVersionOld"
+            }
+          ]
+        },
+        {
+          "name": "AMHCUnusedTask",
+          "children": [
+            {
+              "name": "Get-AMHCUnusedTask"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDisabledUserGroup",
+          "children": [
+            {
+              "name": "Get-AMHCDisabledUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "AMHCEmptyUserGroup",
+          "children": [
+            {
+              "name": "Get-AMHCEmptyUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "AMHCUsersNoAccess",
+          "children": [
+            {
+              "name": "Get-AMHCUsersNoAccess"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDisabledWorkflow",
+          "children": [
+            {
+              "name": "Get-AMHCDisabledWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDisabledWorkflowItem",
+          "children": [
+            {
+              "name": "Get-AMHCDisabledWorkflowItem"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDisconnectedWorkflowItem",
+          "children": [
+            {
+              "name": "Get-AMHCDisconnectedWorkflowItem"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDisconnectedWorkflowLink",
+          "children": [
+            {
+              "name": "Get-AMHCDisconnectedWorkflowLink"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDuplicateWorkflowLink",
+          "children": [
+            {
+              "name": "Get-AMHCDuplicateWorkflowLink"
+            }
+          ]
+        },
+        {
+          "name": "AMHCDuplicateWorkflowVariable",
+          "children": [
+            {
+              "name": "Get-AMHCDuplicateWorkflowVariable"
+            }
+          ]
+        },
+        {
+          "name": "AMHCEmptyWorkflow",
+          "children": [
+            {
+              "name": "Get-AMHCEmptyWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "AMHCInvalidWorkflowAgent",
+          "children": [
+            {
+              "name": "Get-AMHCInvalidWorkflowAgent"
+            }
+          ]
+        },
+        {
+          "name": "AMHCRecursiveWorkflow",
+          "children": [
+            {
+              "name": "Get-AMHCRecursiveWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "AMHCUnbuiltWorkflowItem",
+          "children": [
+            {
+              "name": "Get-AMHCUnbuiltWorkflowItem"
+            }
+          ]
+        },
+        {
+          "name": "AMHCWorkflowEvaluationObjectNonResultLink",
+          "children": [
+            {
+              "name": "Get-AMHCWorkflowEvaluationObjectNonResultLink"
+            }
+          ]
+        },
+        {
+          "name": "AMHCWorkflowNoFailureLink",
+          "children": [
+            {
+              "name": "Get-AMHCWorkflowNoFailureLink"
+            }
+          ]
+        },
+        {
+          "name": "AMHCWorkflowNoTrigger",
+          "children": [
+            {
+              "name": "Get-AMHCWorkflowNoTrigger"
+            }
+          ]
+        },
+        {
+          "name": "AMHCWorkflowVariableNewLine",
+          "children": [
+            {
+              "name": "Get-AMHCWorkflowVariableNewLine"
+            }
+          ]
+        },
+        {
+          "name": "AMHealthCheck",
+          "children": [
+            {
+              "name": "Export-AMHealthCheck"
+            },
+            {
+              "name": "Invoke-AMHealthCheck"
+            }
+          ]
+        },
+        {
+          "name": "AMHealthCheckConfiguration",
+          "children": [
+            {
+              "name": "Get-AMHealthCheckConfiguration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

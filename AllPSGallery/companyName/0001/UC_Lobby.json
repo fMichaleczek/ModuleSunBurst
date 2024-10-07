@@ -1,0 +1,141 @@
+{
+  "name": "UC Lobby",
+  "children": [
+    {
+      "name": "UcLobbyTeams",
+      "companyName": "UC Lobby",
+      "author": "David Paulino",
+      "children": [
+        {
+          "name": "UcM365LicenseAssignment",
+          "children": [
+            {
+              "name": "Export-UcM365LicenseAssignment"
+            },
+            {
+              "name": "Get-UcM365LicenseAssignment"
+            }
+          ]
+        },
+        {
+          "name": "UcOneDriveWithMultiplePermissions",
+          "children": [
+            {
+              "name": "Export-UcOneDriveWithMultiplePermissions"
+            },
+            {
+              "name": "Get-UcOneDriveWithMultiplePermissions"
+            }
+          ]
+        },
+        {
+          "name": "UcArch",
+          "children": [
+            {
+              "name": "Get-UcArch"
+            }
+          ]
+        },
+        {
+          "name": "UcM365Domains",
+          "children": [
+            {
+              "name": "Get-UcM365Domains"
+            }
+          ]
+        },
+        {
+          "name": "UcM365TenantId",
+          "children": [
+            {
+              "name": "Get-UcM365TenantId"
+            }
+          ]
+        },
+        {
+          "name": "UcTeamsDevice",
+          "children": [
+            {
+              "name": "Get-UcTeamsDevice"
+            },
+            {
+              "name": "Update-UcTeamsDevice"
+            }
+          ]
+        },
+        {
+          "name": "UcTeamsVersion",
+          "children": [
+            {
+              "name": "Get-UcTeamsVersion"
+            }
+          ]
+        },
+        {
+          "name": "UcTeamsVersionBatch",
+          "children": [
+            {
+              "name": "Get-UcTeamsVersionBatch"
+            }
+          ]
+        },
+        {
+          "name": "UcTeamsWithSingleOwner",
+          "children": [
+            {
+              "name": "Get-UcTeamsWithSingleOwner"
+            }
+          ]
+        },
+        {
+          "name": "UcTeamUsersEmail",
+          "children": [
+            {
+              "name": "Get-UcTeamUsersEmail"
+            }
+          ]
+        },
+        {
+          "name": "UcPowerShellModule",
+          "children": [
+            {
+              "name": "Test-UcPowerShellModule"
+            }
+          ]
+        },
+        {
+          "name": "UcTeamsDevicesCompliancePolicy",
+          "children": [
+            {
+              "name": "Test-UcTeamsDevicesCompliancePolicy"
+            }
+          ]
+        },
+        {
+          "name": "UcTeamsDevicesConditionalAccessPolicy",
+          "children": [
+            {
+              "name": "Test-UcTeamsDevicesConditionalAccessPolicy"
+            }
+          ]
+        },
+        {
+          "name": "UcTeamsDevicesEnrollmentPolicy",
+          "children": [
+            {
+              "name": "Test-UcTeamsDevicesEnrollmentPolicy"
+            }
+          ]
+        },
+        {
+          "name": "UcTeamsOnlyDNSRequirements",
+          "children": [
+            {
+              "name": "Test-UcTeamsOnlyDNSRequirements"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

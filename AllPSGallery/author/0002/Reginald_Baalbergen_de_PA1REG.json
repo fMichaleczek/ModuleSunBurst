@@ -1,0 +1,206 @@
+{
+  "name": "Reginald Baalbergen de PA1REG",
+  "children": [
+    {
+      "name": "HamRadioLibrary",
+      "companyName": "Spanning Software",
+      "author": "Reginald Baalbergen de PA1REG",
+      "children": [
+        {
+          "name": "HrdDatabase",
+          "children": [
+            {
+              "name": "Connect-HrdDatabase"
+            },
+            {
+              "name": "Disconnect-HrdDatabase"
+            }
+          ]
+        },
+        {
+          "name": "CsvToAdif",
+          "children": [
+            {
+              "name": "Convert-CsvToAdif"
+            }
+          ]
+        },
+        {
+          "name": "AdiReadFile",
+          "children": [
+            {
+              "name": "Get-AdiReadFile"
+            }
+          ]
+        },
+        {
+          "name": "HrdDatabaseInfo",
+          "children": [
+            {
+              "name": "Get-HrdDatabaseInfo"
+            }
+          ]
+        },
+        {
+          "name": "HrdIndexStatistics",
+          "children": [
+            {
+              "name": "Get-HrdIndexStatistics"
+            }
+          ]
+        },
+        {
+          "name": "HrdReportBand",
+          "children": [
+            {
+              "name": "Get-HrdReportBand"
+            }
+          ]
+        },
+        {
+          "name": "HrdReportBandMode",
+          "children": [
+            {
+              "name": "Get-HrdReportBandMode"
+            }
+          ]
+        },
+        {
+          "name": "HrdReportMode",
+          "children": [
+            {
+              "name": "Get-HrdReportMode"
+            }
+          ]
+        },
+        {
+          "name": "HrdReportQso",
+          "children": [
+            {
+              "name": "Get-HrdReportQso"
+            }
+          ]
+        },
+        {
+          "name": "HrdReportQsoYear",
+          "children": [
+            {
+              "name": "Get-HrdReportQsoYear"
+            }
+          ]
+        },
+        {
+          "name": "HrdReportQsoYearMode",
+          "children": [
+            {
+              "name": "Get-HrdReportQsoYearMode"
+            }
+          ]
+        },
+        {
+          "name": "HrdReportYearBandMode",
+          "children": [
+            {
+              "name": "Get-HrdReportYearBandMode"
+            }
+          ]
+        },
+        {
+          "name": "HrdSearch",
+          "children": [
+            {
+              "name": "Get-HrdSearch"
+            }
+          ]
+        },
+        {
+          "name": "HrdTableAnalyze",
+          "children": [
+            {
+              "name": "Start-HrdTableAnalyze"
+            }
+          ]
+        },
+        {
+          "name": "HrdTableOptimize",
+          "children": [
+            {
+              "name": "Start-HrdTableOptimize"
+            }
+          ]
+        },
+        {
+          "name": "HrdOperator",
+          "children": [
+            {
+              "name": "Update-HrdOperator"
+            }
+          ]
+        },
+        {
+          "name": "HrdQso",
+          "children": [
+            {
+              "name": "Update-HrdQso"
+            }
+          ]
+        },
+        {
+          "name": "HrdQsoCallBandMode",
+          "children": [
+            {
+              "name": "Start-HrdQsoCallBandMode"
+            }
+          ]
+        },
+        {
+          "name": "XlsReportQsoYearMode",
+          "children": [
+            {
+              "name": "Get-XlsReportQsoYearMode"
+            }
+          ]
+        },
+        {
+          "name": "HrdSwlContacts",
+          "children": [
+            {
+              "name": "Start-HrdSwlContacts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDxExpeditions",
+      "companyName": "PA1REG.NL",
+      "author": "Reginald Baalbergen de PA1REG",
+      "children": [
+        {
+          "name": "DxHrdAlarmFile",
+          "children": [
+            {
+              "name": "Update-DxHrdAlarmFile"
+            }
+          ]
+        },
+        {
+          "name": "DxVe7ccAlarmFile",
+          "children": [
+            {
+              "name": "Update-DxVe7ccAlarmFile"
+            }
+          ]
+        },
+        {
+          "name": "DxCheckApplicationRunning",
+          "children": [
+            {
+              "name": "Get-DxCheckApplicationRunning"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "name": "HT",
+  "children": [
+    {
+      "name": "PowerShell.AzureDevOps",
+      "companyName": "HT",
+      "author": "HT",
+      "children": [
+        {
+          "name": "AzureDevOpsWorkItem",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsWorkItem"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsBranch",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsBranch"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsBranchCommits",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsBranchCommits"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsPullRequestProperties",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsPullRequestProperties"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsPullRequestResourceReferences",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsPullRequestResourceReferences"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsPullRequestReviewers",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsPullRequestReviewers"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsPullRequestUrl",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsPullRequestUrl"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsRepositories",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsRepositories"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsRepository",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsRepository"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsPullRequest",
+          "children": [
+            {
+              "name": "New-AzureDevOpsPullRequest"
+            },
+            {
+              "name": "Get-AzureDevOpsPullRequest"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsPullRequests",
+          "children": [
+            {
+              "name": "Search-AzureDevOpsPullRequests"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsAllUsers",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsAllUsers"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsTeams",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsTeams"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsUsers",
+          "children": [
+            {
+              "name": "Get-AzureDevOpsUsers"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsPullRequestLink",
+          "children": [
+            {
+              "name": "New-AzureDevOpsPullRequestLink"
+            }
+          ]
+        },
+        {
+          "name": "AzureDevOpsBranches",
+          "children": [
+            {
+              "name": "Search-AzureDevOpsBranches"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.DynamicBatch",
+      "companyName": "HT",
+      "author": "HT",
+      "children": [
+        {
+          "name": "DynamicBatch",
+          "children": [
+            {
+              "name": "New-DynamicBatch"
+            }
+          ]
+        },
+        {
+          "name": "DynamicAzureBatch",
+          "children": [
+            {
+              "name": "New-DynamicAzureBatch"
+            }
+          ]
+        },
+        {
+          "name": "DynamicAzureSasBatch",
+          "children": [
+            {
+              "name": "New-DynamicAzureSasBatch"
+            }
+          ]
+        },
+        {
+          "name": "DynamicWebBatch",
+          "children": [
+            {
+              "name": "New-DynamicWebBatch"
+            }
+          ]
+        },
+        {
+          "name": "DynamicTextBatch",
+          "children": [
+            {
+              "name": "New-DynamicTextBatch"
+            }
+          ]
+        },
+        {
+          "name": "WebPowerShellScript",
+          "children": [
+            {
+              "name": "Invoke-WebPowerShellScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.FileTransformations",
+      "companyName": "HT",
+      "author": "HT",
+      "children": [
+        {
+          "name": "DataFile",
+          "children": [
+            {
+              "name": "Convert-DataFile"
+            }
+          ]
+        },
+        {
+          "name": "FixedFieldDataFile",
+          "children": [
+            {
+              "name": "Convert-FixedFieldDataFile"
+            }
+          ]
+        },
+        {
+          "name": "CsvDataFile",
+          "children": [
+            {
+              "name": "Convert-CsvDataFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.SqlServer",
+      "companyName": "HT",
+      "author": "HT",
+      "children": [
+        {
+          "name": "SqlServerConnectionString",
+          "children": [
+            {
+              "name": "New-SqlServerConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "SqlServerConnection",
+          "children": [
+            {
+              "name": "New-SqlServerConnection"
+            }
+          ]
+        },
+        {
+          "name": "SqlServerDataSet",
+          "children": [
+            {
+              "name": "Invoke-SqlServerDataSet"
+            }
+          ]
+        },
+        {
+          "name": "SqlServerDataReader",
+          "children": [
+            {
+              "name": "Invoke-SqlServerDataReader"
+            }
+          ]
+        },
+        {
+          "name": "SqlServerScalar",
+          "children": [
+            {
+              "name": "Invoke-SqlServerScalar"
+            }
+          ]
+        },
+        {
+          "name": "SqlServerNonQuery",
+          "children": [
+            {
+              "name": "Invoke-SqlServerNonQuery"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

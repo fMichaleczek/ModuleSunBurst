@@ -1,0 +1,82 @@
+{
+  "name": "Microsoft Support",
+  "children": [
+    {
+      "name": "ExoDiagnose",
+      "companyName": "Microsoft Support",
+      "author": "DingMingyu",
+      "children": [
+        {
+          "name": "AbqSettings",
+          "children": [
+            {
+              "name": "Get-AbqSettings"
+            }
+          ]
+        },
+        {
+          "name": "ExoWithBasicAuth",
+          "children": [
+            {
+              "name": "Connect-ExoWithBasicAuth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PopImap",
+      "companyName": "Microsoft Support",
+      "author": "DingMingyu",
+      "children": [
+        {
+          "name": "ImapClient",
+          "children": [
+            {
+              "name": "Get-ImapClient"
+            }
+          ]
+        },
+        {
+          "name": "Pop3Client",
+          "children": [
+            {
+              "name": "Get-Pop3Client"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SmtpClientDiag",
+      "companyName": "Microsoft Support",
+      "author": "Richard Fajardo",
+      "children": [
+        {
+          "name": "SmtpClientSubmission",
+          "children": [
+            {
+              "name": "Test-SmtpClientSubmission"
+            }
+          ]
+        },
+        {
+          "name": "SmtpClientCertificate",
+          "children": [
+            {
+              "name": "Test-SmtpClientCertificate"
+            }
+          ]
+        },
+        {
+          "name": "SmtpSaslAuthBlob",
+          "children": [
+            {
+              "name": "Test-SmtpSaslAuthBlob"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

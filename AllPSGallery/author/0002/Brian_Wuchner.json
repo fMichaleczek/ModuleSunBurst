@@ -1,0 +1,184 @@
+{
+  "name": "Brian Wuchner",
+  "children": [
+    {
+      "name": "SaltStackConfig",
+      "companyName": "VMware",
+      "author": "Brian Wuchner",
+      "children": [
+        {
+          "name": "SscServer",
+          "children": [
+            {
+              "name": "Connect-SscServer"
+            },
+            {
+              "name": "Disconnect-SscServer"
+            }
+          ]
+        },
+        {
+          "name": "SscActivity",
+          "children": [
+            {
+              "name": "Get-SscActivity"
+            }
+          ]
+        },
+        {
+          "name": "SscData",
+          "children": [
+            {
+              "name": "Get-SscData"
+            }
+          ]
+        },
+        {
+          "name": "SscJob",
+          "children": [
+            {
+              "name": "Get-SscJob"
+            }
+          ]
+        },
+        {
+          "name": "SscMaster",
+          "children": [
+            {
+              "name": "Get-SscMaster"
+            }
+          ]
+        },
+        {
+          "name": "SscMinionCache",
+          "children": [
+            {
+              "name": "Get-SscMinionCache"
+            }
+          ]
+        },
+        {
+          "name": "SscReturn",
+          "children": [
+            {
+              "name": "Get-SscReturn"
+            }
+          ]
+        },
+        {
+          "name": "SscSchedule",
+          "children": [
+            {
+              "name": "Get-SscSchedule"
+            }
+          ]
+        },
+        {
+          "name": "SscFile",
+          "children": [
+            {
+              "name": "Get-SscFile"
+            },
+            {
+              "name": "Set-SscFile"
+            },
+            {
+              "name": "New-SscFile"
+            },
+            {
+              "name": "Remove-SscFile"
+            }
+          ]
+        },
+        {
+          "name": "SscLicense",
+          "children": [
+            {
+              "name": "Get-SscLicense"
+            }
+          ]
+        },
+        {
+          "name": "SscvRALicense",
+          "children": [
+            {
+              "name": "Get-SscvRALicense"
+            }
+          ]
+        },
+        {
+          "name": "SscMinionKey",
+          "children": [
+            {
+              "name": "Get-SscMinionKey"
+            },
+            {
+              "name": "Set-SscMinionKey"
+            },
+            {
+              "name": "Remove-SscMinionKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.Skyline.InsightsApi",
+      "companyName": "VMware",
+      "author": "Brian Wuchner",
+      "children": [
+        {
+          "name": "SkylineInsights",
+          "children": [
+            {
+              "name": "Connect-SkylineInsights"
+            },
+            {
+              "name": "Disconnect-SkylineInsights"
+            }
+          ]
+        },
+        {
+          "name": "SkylineInsightsApi",
+          "children": [
+            {
+              "name": "Invoke-SkylineInsightsApi"
+            }
+          ]
+        },
+        {
+          "name": "SkylineFinding",
+          "children": [
+            {
+              "name": "Get-SkylineFinding"
+            }
+          ]
+        },
+        {
+          "name": "SkylineAffectedObject",
+          "children": [
+            {
+              "name": "Get-SkylineAffectedObject"
+            }
+          ]
+        },
+        {
+          "name": "SkylineResult",
+          "children": [
+            {
+              "name": "Format-SkylineResult"
+            }
+          ]
+        },
+        {
+          "name": "SkylineInsightsApiExplorer",
+          "children": [
+            {
+              "name": "Start-SkylineInsightsApiExplorer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

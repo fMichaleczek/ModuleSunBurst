@@ -1,0 +1,82 @@
+{
+  "name": "EPRSBuildTeam",
+  "children": [
+    {
+      "name": "cEPRSDBFeatures",
+      "companyName": "Microsoft",
+      "author": "EPRSBuildTeam",
+      "children": [
+        {
+          "name": "CreateDB",
+          "children": [
+            {
+              "name": "CreateDB"
+            }
+          ]
+        },
+        {
+          "name": "RestoreDB",
+          "children": [
+            {
+              "name": "RestoreDB"
+            }
+          ]
+        },
+        {
+          "name": "SQLdatabase",
+          "children": [
+            {
+              "name": "Restore-SQLdatabase"
+            }
+          ]
+        },
+        {
+          "name": "ValidateUserCredentials",
+          "children": [
+            {
+              "name": "ValidateUserCredentials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cEPRSInstallTFS2015",
+      "companyName": "Microsoft",
+      "author": "EPRSBuildTeam",
+      "children": [
+        {
+          "name": "Install",
+          "children": [
+            {
+              "name": "Install"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cEPRSSharepoint",
+      "companyName": "Microsoft",
+      "author": "EPRSBuildTeam",
+      "children": [
+        {
+          "name": "CreateDBConnectionLibrary",
+          "children": [
+            {
+              "name": "CreateDBConnectionLibrary"
+            }
+          ]
+        },
+        {
+          "name": "UploadRSDSFile",
+          "children": [
+            {
+              "name": "UploadRSDSFile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

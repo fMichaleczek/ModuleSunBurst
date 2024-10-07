@@ -1,0 +1,278 @@
+{
+  "name": "Kirill Nikolaev",
+  "children": [
+    {
+      "name": "AutomaticMaintenance",
+      "companyName": "Fozzy Inc.",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "ComputerMaintenanceConfiguration",
+          "children": [
+            {
+              "name": "Get-ComputerMaintenanceConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ComputerMaintenance",
+          "children": [
+            {
+              "name": "Invoke-ComputerMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "InfrastructureMaintenance",
+          "children": [
+            {
+              "name": "Invoke-InfrastructureMaintenance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HVVMReliableMigration",
+      "companyName": "Fozzy Inc.",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "VMReliably",
+          "children": [
+            {
+              "name": "Move-VMReliably"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGPPreferences",
+      "companyName": "Unknown",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "GPPGroup",
+          "children": [
+            {
+              "name": "Add-GPPGroup"
+            },
+            {
+              "name": "Get-GPPGroup"
+            },
+            {
+              "name": "New-GPPGroup"
+            },
+            {
+              "name": "Remove-GPPGroup"
+            },
+            {
+              "name": "Set-GPPGroup"
+            }
+          ]
+        },
+        {
+          "name": "GPPGroupMember",
+          "children": [
+            {
+              "name": "Add-GPPGroupMember"
+            },
+            {
+              "name": "Get-GPPGroupMember"
+            },
+            {
+              "name": "New-GPPGroupMember"
+            },
+            {
+              "name": "Remove-GPPGroupMember"
+            },
+            {
+              "name": "Set-GPPGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "GPPUser",
+          "children": [
+            {
+              "name": "Add-GPPUser"
+            },
+            {
+              "name": "Get-GPPUser"
+            },
+            {
+              "name": "New-GPPUser"
+            },
+            {
+              "name": "Set-GPPUser"
+            },
+            {
+              "name": "Remove-GPPUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ResourceLocker",
+      "companyName": "Fozzy Inc.",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "ResourceDependence",
+          "children": [
+            {
+              "name": "Get-ResourceDependence"
+            }
+          ]
+        },
+        {
+          "name": "ResourceLockId",
+          "children": [
+            {
+              "name": "Get-ResourceLockId"
+            }
+          ]
+        },
+        {
+          "name": "FileResource",
+          "children": [
+            {
+              "name": "Lock-FileResource"
+            }
+          ]
+        },
+        {
+          "name": "HostResource",
+          "children": [
+            {
+              "name": "Lock-HostResource"
+            }
+          ]
+        },
+        {
+          "name": "Resource",
+          "children": [
+            {
+              "name": "Lock-Resource"
+            },
+            {
+              "name": "Unlock-Resource"
+            }
+          ]
+        },
+        {
+          "name": "HostResourceLock",
+          "children": [
+            {
+              "name": "Test-HostResourceLock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCVMReliableMigration",
+      "companyName": "Fozzy Inc.",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "SCPoweredDownVirtualMachine",
+          "children": [
+            {
+              "name": "Move-SCPoweredDownVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "SCVirtualMachineReliably",
+          "children": [
+            {
+              "name": "Move-SCVirtualMachineReliably"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SimpleTextLogger",
+      "companyName": "Fozzy Inc.",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SlackWeb",
+      "companyName": "Unknown",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "SlackWebConfiguration",
+          "children": [
+            {
+              "name": "Clear-SlackWebConfiguration"
+            },
+            {
+              "name": "Get-SlackWebConfiguration"
+            },
+            {
+              "name": "Set-SlackWebConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SlackWebChannelHistory",
+          "children": [
+            {
+              "name": "Export-SlackWebChannelHistory"
+            }
+          ]
+        },
+        {
+          "name": "SlackWebPeople",
+          "children": [
+            {
+              "name": "Export-SlackWebPeople"
+            },
+            {
+              "name": "Get-SlackWebPeople"
+            }
+          ]
+        },
+        {
+          "name": "SlackWebChannelMessages",
+          "children": [
+            {
+              "name": "Get-SlackWebChannelMessages"
+            }
+          ]
+        },
+        {
+          "name": "SlackWebChannel",
+          "children": [
+            {
+              "name": "Get-SlackWebChannel"
+            }
+          ]
+        },
+        {
+          "name": "SlackWebMessage",
+          "children": [
+            {
+              "name": "Send-SlackWebMessage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

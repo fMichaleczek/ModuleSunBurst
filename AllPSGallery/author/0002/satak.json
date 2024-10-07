@@ -1,0 +1,54 @@
+{
+  "name": "satak",
+  "children": [
+    {
+      "name": "ps-vmware-az-assessment",
+      "companyName": "Fujitsu",
+      "author": "satak",
+      "children": [
+        {
+          "name": "AzMigrate",
+          "children": [
+            {
+              "name": "ConvertTo-AzMigrate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TerraformSetup",
+      "companyName": "Fujitsu",
+      "author": "Satak",
+      "children": [
+        {
+          "name": "TerraformVersion",
+          "children": [
+            {
+              "name": "Get-TerraformVersion"
+            }
+          ]
+        },
+        {
+          "name": "Terraform",
+          "children": [
+            {
+              "name": "Install-Terraform"
+            },
+            {
+              "name": "Uninstall-Terraform"
+            }
+          ]
+        },
+        {
+          "name": "TerraformFolders",
+          "children": [
+            {
+              "name": "New-TerraformFolders"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

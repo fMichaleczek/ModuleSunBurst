@@ -1,0 +1,92 @@
+{
+  "name": "TsekNet",
+  "children": [
+    {
+      "name": "TsekProfile",
+      "companyName": "TsekNet",
+      "author": "Dan Tsekhanskiy",
+      "children": [
+        {
+          "name": "LastCommand",
+          "children": [
+            {
+              "name": "Copy-LastCommand"
+            }
+          ]
+        },
+        {
+          "name": "Profile",
+          "children": [
+            {
+              "name": "Edit-Profile"
+            },
+            {
+              "name": "Install-Profile"
+            },
+            {
+              "name": "Invoke-Profile"
+            }
+          ]
+        },
+        {
+          "name": "ExportedFunction",
+          "children": [
+            {
+              "name": "Get-ExportedFunction"
+            }
+          ]
+        },
+        {
+          "name": "FileHash256",
+          "children": [
+            {
+              "name": "Get-FileHash256"
+            }
+          ]
+        },
+        {
+          "name": "HistoryFile",
+          "children": [
+            {
+              "name": "Open-HistoryFile"
+            }
+          ]
+        },
+        {
+          "name": "CustomPrompt",
+          "children": [
+            {
+              "name": "Set-CustomPrompt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WinTZ",
+      "companyName": "TsekNet",
+      "author": "Dan Tsekhanskiy",
+      "children": [
+        {
+          "name": "WindowsTimeZone",
+          "children": [
+            {
+              "name": "ConvertTo-WindowsTimeZone"
+            },
+            {
+              "name": "Set-WindowsTimeZone"
+            }
+          ]
+        },
+        {
+          "name": "IANATimeZone",
+          "children": [
+            {
+              "name": "Get-IANATimeZone"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

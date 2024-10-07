@@ -1,0 +1,158 @@
+{
+  "name": "WorkplaceNinjas",
+  "children": [
+    {
+      "name": "IntuneDocumentation",
+      "companyName": "WorkplaceNinjas",
+      "author": "Thomas Kurth",
+      "children": [
+        {
+          "name": "ConditionalAccessDocumentation",
+          "children": [
+            {
+              "name": "Invoke-ConditionalAccessDocumentation"
+            }
+          ]
+        },
+        {
+          "name": "IntuneDocumentation",
+          "children": [
+            {
+              "name": "Invoke-IntuneDocumentation"
+            }
+          ]
+        },
+        {
+          "name": "IntuneDocumentationAppRegistration",
+          "children": [
+            {
+              "name": "New-IntuneDocumentationAppRegistration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M365Documentation",
+      "companyName": "WorkplaceNinjas",
+      "author": "Thomas Kurth",
+      "children": [
+        {
+          "name": "M365Doc",
+          "children": [
+            {
+              "name": "Connect-M365Doc"
+            },
+            {
+              "name": "Get-M365Doc"
+            },
+            {
+              "name": "Optimize-M365Doc"
+            }
+          ]
+        },
+        {
+          "name": "M365DocTranslationUI",
+          "children": [
+            {
+              "name": "Invoke-M365DocTranslationUI"
+            }
+          ]
+        },
+        {
+          "name": "M365DocAppRegistration",
+          "children": [
+            {
+              "name": "New-M365DocAppRegistration"
+            }
+          ]
+        },
+        {
+          "name": "M365DocCsv",
+          "children": [
+            {
+              "name": "Write-M365DocCsv"
+            }
+          ]
+        },
+        {
+          "name": "M365DocJson",
+          "children": [
+            {
+              "name": "Write-M365DocJson"
+            }
+          ]
+        },
+        {
+          "name": "M365DocMD",
+          "children": [
+            {
+              "name": "Write-M365DocMD"
+            }
+          ]
+        },
+        {
+          "name": "M365DocWord",
+          "children": [
+            {
+              "name": "Write-M365DocWord"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WPNinjas.AADDeviceAuthentication",
+      "companyName": "WorkplaceNinjas",
+      "author": "Thomas Kurth",
+      "children": [
+        {
+          "name": "AADDeviceToken",
+          "children": [
+            {
+              "name": "Get-AADDeviceToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WPNinjas.Dsregcmd",
+      "companyName": "WorkplaceNinjas",
+      "author": "Thomas Kurth",
+      "children": [
+        {
+          "name": "Dsregcmd",
+          "children": [
+            {
+              "name": "Get-Dsregcmd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WPNinjas.PasswordGeneration",
+      "companyName": "WorkplaceNinjas",
+      "author": "Thomas Kurth",
+      "children": [
+        {
+          "name": "PasswordGeneration",
+          "children": [
+            {
+              "name": "Invoke-PasswordGeneration"
+            }
+          ]
+        },
+        {
+          "name": "SecurePasswordGeneration",
+          "children": [
+            {
+              "name": "Invoke-SecurePasswordGeneration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

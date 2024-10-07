@@ -1,0 +1,115 @@
+{
+  "name": "Bartek Bielawski",
+  "children": [
+    {
+      "name": "EWS",
+      "companyName": "PRESSCOM",
+      "author": "Bartek Bielawski",
+      "children": [
+        {
+          "name": "EWSAppointment",
+          "children": [
+            {
+              "name": "New-EWSAppointment"
+            }
+          ]
+        },
+        {
+          "name": "EWSAttachment",
+          "children": [
+            {
+              "name": "Get-EWSAttachment"
+            },
+            {
+              "name": "Save-EWSAttachment"
+            }
+          ]
+        },
+        {
+          "name": "EWSContact",
+          "children": [
+            {
+              "name": "New-EWSContact"
+            }
+          ]
+        },
+        {
+          "name": "EWSFolder",
+          "children": [
+            {
+              "name": "Clear-EWSFolder"
+            },
+            {
+              "name": "Get-EWSFolder"
+            },
+            {
+              "name": "Move-EWSFolder"
+            },
+            {
+              "name": "New-EWSFolder"
+            },
+            {
+              "name": "Remove-EWSFolder"
+            }
+          ]
+        },
+        {
+          "name": "EWSItem",
+          "children": [
+            {
+              "name": "Get-EWSItem"
+            },
+            {
+              "name": "Move-EWSItem"
+            },
+            {
+              "name": "Remove-EWSItem"
+            }
+          ]
+        },
+        {
+          "name": "EWSMessage",
+          "children": [
+            {
+              "name": "New-EWSMessage"
+            }
+          ]
+        },
+        {
+          "name": "EWSService",
+          "children": [
+            {
+              "name": "Connect-EWSService"
+            },
+            {
+              "name": "Get-EWSService"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ISEPester",
+      "companyName": "Optiver",
+      "author": "Bartek Bielawski",
+      "children": [
+        {
+          "name": "ISECurrentTest",
+          "children": [
+            {
+              "name": "Invoke-ISECurrentTest"
+            }
+          ]
+        },
+        {
+          "name": "ISEPesterConfiguration",
+          "children": [
+            {
+              "name": "Set-ISEPesterConfiguration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "name": "jpsider",
+  "children": [
+    {
+      "name": "jpsider",
+      "companyName": "Invoke Automation",
+      "author": "jpsider",
+      "children": [
+        {
+          "name": "AsciiArt",
+          "children": [
+            {
+              "name": "ConvertTo-AsciiArt"
+            }
+          ]
+        },
+        {
+          "name": "ConsoleWindow",
+          "children": [
+            {
+              "name": "Open-ConsoleWindow"
+            }
+          ]
+        },
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Reset-Module"
+            }
+          ]
+        },
+        {
+          "name": "ConsoleTitle",
+          "children": [
+            {
+              "name": "Update-ConsoleTitle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psboot",
+      "companyName": "Unknown",
+      "author": "jpsider",
+      "children": [
+        {
+          "name": "SSLValidation",
+          "children": [
+            {
+              "name": "Disable-SSLValidation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xester",
+      "companyName": "Invoke Automation",
+      "author": "jpsider",
+      "children": [
+        {
+          "name": "CancelledTestSet",
+          "children": [
+            {
+              "name": "Complete-CancelledTestSet"
+            }
+          ]
+        },
+        {
+          "name": "XSqmanData",
+          "children": [
+            {
+              "name": "Get-XSqmanData"
+            },
+            {
+              "name": "Update-XSqmanData"
+            }
+          ]
+        },
+        {
+          "name": "AssignQueuedTestSet",
+          "children": [
+            {
+              "name": "Invoke-AssignQueuedTestSet"
+            }
+          ]
+        },
+        {
+          "name": "XesterRestCall",
+          "children": [
+            {
+              "name": "Invoke-XesterRestCall"
+            }
+          ]
+        },
+        {
+          "name": "QueuedTestSet",
+          "children": [
+            {
+              "name": "Reset-QueuedTestSet"
+            }
+          ]
+        },
+        {
+          "name": "SubmittedTestSet",
+          "children": [
+            {
+              "name": "Update-SubmittedTestSet"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "name": "AutomatizIT",
+  "children": [
+    {
+      "name": "PSBhdCE",
+      "companyName": "AutomatizIT",
+      "author": "Brice Crunchant",
+      "children": [
+        {
+          "name": "BhdCeRequest",
+          "children": [
+            {
+              "name": "Invoke-BhdCeRequest"
+            }
+          ]
+        },
+        {
+          "name": "BhdCE",
+          "children": [
+            {
+              "name": "Connect-BhdCE"
+            }
+          ]
+        },
+        {
+          "name": "FileToBhdCE",
+          "children": [
+            {
+              "name": "Send-FileToBhdCE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSCiscoSMA",
+      "companyName": "AutomatizIT",
+      "author": "Brice Crunchant",
+      "children": [
+        {
+          "name": "SMAApi",
+          "children": [
+            {
+              "name": "Connect-SMAApi"
+            }
+          ]
+        },
+        {
+          "name": "SMAMessageDetails",
+          "children": [
+            {
+              "name": "Get-SMAMessageDetails"
+            }
+          ]
+        },
+        {
+          "name": "SMAQuarantines",
+          "children": [
+            {
+              "name": "Get-SMAQuarantines"
+            },
+            {
+              "name": "Search-SMAQuarantines"
+            }
+          ]
+        },
+        {
+          "name": "SMAMessage",
+          "children": [
+            {
+              "name": "Move-SMAMessage"
+            },
+            {
+              "name": "Unlock-SMAMessage"
+            }
+          ]
+        },
+        {
+          "name": "SMAMessageAttachments",
+          "children": [
+            {
+              "name": "Save-SMAMessageAttachments"
+            }
+          ]
+        },
+        {
+          "name": "SMATracking",
+          "children": [
+            {
+              "name": "Search-SMATracking"
+            }
+          ]
+        },
+        {
+          "name": "SMAMessageTrackingDetails",
+          "children": [
+            {
+              "name": "Get-SMAMessageTrackingDetails"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDarktraceMail",
+      "companyName": "AutomatizIT",
+      "author": "Brice Crunchant",
+      "children": [
+        {
+          "name": "DarktraceMailApiRequest",
+          "children": [
+            {
+              "name": "Send-DarktraceMailApiRequest"
+            }
+          ]
+        },
+        {
+          "name": "DarktraceMail",
+          "children": [
+            {
+              "name": "Block-DarktraceMail"
+            },
+            {
+              "name": "Connect-DarktraceMail"
+            },
+            {
+              "name": "Get-DarktraceMail"
+            },
+            {
+              "name": "Save-DarktraceMail"
+            },
+            {
+              "name": "Search-DarktraceMail"
+            },
+            {
+              "name": "Unblock-DarktraceMail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGlimpsMalware",
+      "companyName": "AutomatizIT",
+      "author": "Brice Crunchant",
+      "children": [
+        {
+          "name": "FileToGlimpsMalware",
+          "children": [
+            {
+              "name": "Send-FileToGlimpsMalware"
+            }
+          ]
+        },
+        {
+          "name": "GlimpsMalwareReport",
+          "children": [
+            {
+              "name": "Get-GlimpsMalwareReport"
+            }
+          ]
+        },
+        {
+          "name": "GlimpsMalware",
+          "children": [
+            {
+              "name": "Connect-GlimpsMalware"
+            }
+          ]
+        },
+        {
+          "name": "GlimpsMalwareConnection",
+          "children": [
+            {
+              "name": "Test-GlimpsMalwareConnection"
+            }
+          ]
+        },
+        {
+          "name": "GlimpsMalwareApiRequest",
+          "children": [
+            {
+              "name": "Send-GlimpsMalwareApiRequest"
+            }
+          ]
+        },
+        {
+          "name": "GlimpsMalwareBody",
+          "children": [
+            {
+              "name": "ConvertTo-GlimpsMalwareBody"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSWildFire",
+      "companyName": "AutomatizIT",
+      "author": "Brice Crunchant",
+      "children": [
+        {
+          "name": "Wildfire",
+          "children": [
+            {
+              "name": "Connect-Wildfire"
+            }
+          ]
+        },
+        {
+          "name": "WildfireBody",
+          "children": [
+            {
+              "name": "ConvertTo-WildfireBody"
+            }
+          ]
+        },
+        {
+          "name": "WildfireReport",
+          "children": [
+            {
+              "name": "Get-WildfireReport"
+            }
+          ]
+        },
+        {
+          "name": "FileToWildFire",
+          "children": [
+            {
+              "name": "Send-FileToWildFire"
+            }
+          ]
+        },
+        {
+          "name": "WildfireConnection",
+          "children": [
+            {
+              "name": "Test-WildfireConnection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Thomas Nieto",
+  "children": [
+    {
+      "name": "AnyPackage",
+      "companyName": "Unknown",
+      "author": "Thomas Nieto",
+      "children": [
+        {
+          "name": "Package",
+          "children": [
+            {
+              "name": "Find-Package"
+            },
+            {
+              "name": "Get-Package"
+            },
+            {
+              "name": "Install-Package"
+            },
+            {
+              "name": "Publish-Package"
+            },
+            {
+              "name": "Save-Package"
+            },
+            {
+              "name": "Uninstall-Package"
+            },
+            {
+              "name": "Update-Package"
+            }
+          ]
+        },
+        {
+          "name": "PackageProvider",
+          "children": [
+            {
+              "name": "Get-PackageProvider"
+            }
+          ]
+        },
+        {
+          "name": "PackageSource",
+          "children": [
+            {
+              "name": "Get-PackageSource"
+            },
+            {
+              "name": "Register-PackageSource"
+            },
+            {
+              "name": "Set-PackageSource"
+            },
+            {
+              "name": "Unregister-PackageSource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LockFile",
+      "companyName": "Unknown",
+      "author": "Thomas Nieto",
+      "children": [
+        {
+          "name": "LockFile",
+          "children": [
+            {
+              "name": "Get-LockFile"
+            },
+            {
+              "name": "Set-LockFile"
+            },
+            {
+              "name": "Test-LockFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scoop",
+      "companyName": "Unknown",
+      "author": "Thomas Nieto",
+      "children": [
+        {
+          "name": "ScoopApp",
+          "children": [
+            {
+              "name": "Find-ScoopApp"
+            },
+            {
+              "name": "Get-ScoopApp"
+            },
+            {
+              "name": "Install-ScoopApp"
+            },
+            {
+              "name": "Update-ScoopApp"
+            },
+            {
+              "name": "Uninstall-ScoopApp"
+            }
+          ]
+        },
+        {
+          "name": "ScoopBucket",
+          "children": [
+            {
+              "name": "Get-ScoopBucket"
+            },
+            {
+              "name": "Register-ScoopBucket"
+            },
+            {
+              "name": "Unregister-ScoopBucket"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

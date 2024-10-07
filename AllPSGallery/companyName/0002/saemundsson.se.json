@@ -1,0 +1,114 @@
+{
+  "name": "saemundsson.se",
+  "children": [
+    {
+      "name": "AzureFwGitOps",
+      "companyName": "saemundsson.se",
+      "author": "Vikingur Saemundsson",
+      "children": [
+        {
+          "name": "ArmFw",
+          "children": [
+            {
+              "name": "ConvertTo-ArmFw"
+            },
+            {
+              "name": "ConvertFrom-ArmFw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerApsis",
+      "companyName": "Saemundsson.se",
+      "author": "Vikingur Saemundsson",
+      "children": [
+        {
+          "name": "ApsisAPI",
+          "children": [
+            {
+              "name": "Invoke-ApsisAPI"
+            }
+          ]
+        },
+        {
+          "name": "ApsisSubscribers",
+          "children": [
+            {
+              "name": "Get-ApsisSubscribers"
+            }
+          ]
+        },
+        {
+          "name": "ApsisSubscriber",
+          "children": [
+            {
+              "name": "Set-ApsisSubscriber"
+            },
+            {
+              "name": "Remove-ApsisSubscriber"
+            }
+          ]
+        },
+        {
+          "name": "ApsisMailinglists",
+          "children": [
+            {
+              "name": "Get-ApsisMailinglists"
+            },
+            {
+              "name": "New-ApsisMailingLists"
+            },
+            {
+              "name": "Remove-ApsisMailingLists"
+            }
+          ]
+        },
+        {
+          "name": "ApsisEvents",
+          "children": [
+            {
+              "name": "Get-ApsisEvents"
+            }
+          ]
+        },
+        {
+          "name": "ApsisEventAttendees",
+          "children": [
+            {
+              "name": "Get-ApsisEventAttendees"
+            }
+          ]
+        },
+        {
+          "name": "ApsisEventOptions",
+          "children": [
+            {
+              "name": "Get-ApsisEventOptions"
+            }
+          ]
+        },
+        {
+          "name": "ApsisEventAttendee",
+          "children": [
+            {
+              "name": "Add-ApsisEventAttendee"
+            },
+            {
+              "name": "Register-ApsisEventAttendee"
+            }
+          ]
+        },
+        {
+          "name": "ApsisEventAttendeeStatus",
+          "children": [
+            {
+              "name": "Set-ApsisEventAttendeeStatus"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6971 @@
+{
+  "name": "James Forshaw",
+  "children": [
+    {
+      "name": "NtObjectManager",
+      "companyName": "Google LLC.",
+      "author": "James Forshaw",
+      "children": [
+        {
+          "name": "NtKeyHive",
+          "children": [
+            {
+              "name": "Add-NtKeyHive"
+            },
+            {
+              "name": "Remove-NtKeyHive"
+            },
+            {
+              "name": "Get-NtKeyHive"
+            }
+          ]
+        },
+        {
+          "name": "NtDirectory",
+          "children": [
+            {
+              "name": "Get-NtDirectory"
+            },
+            {
+              "name": "New-NtDirectory"
+            }
+          ]
+        },
+        {
+          "name": "NtEvent",
+          "children": [
+            {
+              "name": "Get-NtEvent"
+            },
+            {
+              "name": "New-NtEvent"
+            }
+          ]
+        },
+        {
+          "name": "NtFile",
+          "children": [
+            {
+              "name": "Get-NtFile"
+            },
+            {
+              "name": "New-NtFile"
+            },
+            {
+              "name": "Remove-NtFile"
+            },
+            {
+              "name": "Rename-NtFile"
+            },
+            {
+              "name": "Read-NtFile"
+            },
+            {
+              "name": "Write-NtFile"
+            },
+            {
+              "name": "Lock-NtFile"
+            },
+            {
+              "name": "Unlock-NtFile"
+            }
+          ]
+        },
+        {
+          "name": "NtFileReparsePoint",
+          "children": [
+            {
+              "name": "Get-NtFileReparsePoint"
+            },
+            {
+              "name": "Remove-NtFileReparsePoint"
+            },
+            {
+              "name": "Set-NtFileReparsePoint"
+            }
+          ]
+        },
+        {
+          "name": "NtHandle",
+          "children": [
+            {
+              "name": "Get-NtHandle"
+            }
+          ]
+        },
+        {
+          "name": "NtKey",
+          "children": [
+            {
+              "name": "Get-NtKey"
+            },
+            {
+              "name": "New-NtKey"
+            },
+            {
+              "name": "Remove-NtKey"
+            },
+            {
+              "name": "Backup-NtKey"
+            },
+            {
+              "name": "Restore-NtKey"
+            }
+          ]
+        },
+        {
+          "name": "NtMutant",
+          "children": [
+            {
+              "name": "Get-NtMutant"
+            },
+            {
+              "name": "New-NtMutant"
+            }
+          ]
+        },
+        {
+          "name": "NtNamedPipeFile",
+          "children": [
+            {
+              "name": "Get-NtNamedPipeFile"
+            },
+            {
+              "name": "New-NtNamedPipeFile"
+            }
+          ]
+        },
+        {
+          "name": "NtObject",
+          "children": [
+            {
+              "name": "Get-NtObject"
+            },
+            {
+              "name": "Use-NtObject"
+            },
+            {
+              "name": "Copy-NtObject"
+            },
+            {
+              "name": "Import-NtObject"
+            },
+            {
+              "name": "Export-NtObject"
+            },
+            {
+              "name": "Close-NtObject"
+            },
+            {
+              "name": "Compare-NtObject"
+            },
+            {
+              "name": "Test-NtObject"
+            }
+          ]
+        },
+        {
+          "name": "NtProcess",
+          "children": [
+            {
+              "name": "Get-NtProcess"
+            },
+            {
+              "name": "New-NtProcess"
+            },
+            {
+              "name": "Suspend-NtProcess"
+            },
+            {
+              "name": "Resume-NtProcess"
+            },
+            {
+              "name": "Stop-NtProcess"
+            },
+            {
+              "name": "Test-NtProcess"
+            }
+          ]
+        },
+        {
+          "name": "NtSemaphore",
+          "children": [
+            {
+              "name": "Get-NtSemaphore"
+            },
+            {
+              "name": "New-NtSemaphore"
+            }
+          ]
+        },
+        {
+          "name": "NtStatus",
+          "children": [
+            {
+              "name": "Get-NtStatus"
+            }
+          ]
+        },
+        {
+          "name": "NtSymbolicLink",
+          "children": [
+            {
+              "name": "Get-NtSymbolicLink"
+            },
+            {
+              "name": "New-NtSymbolicLink"
+            }
+          ]
+        },
+        {
+          "name": "NtSymbolicLinkTarget",
+          "children": [
+            {
+              "name": "Get-NtSymbolicLinkTarget"
+            }
+          ]
+        },
+        {
+          "name": "NtThread",
+          "children": [
+            {
+              "name": "Get-NtThread"
+            },
+            {
+              "name": "New-NtThread"
+            },
+            {
+              "name": "Suspend-NtThread"
+            },
+            {
+              "name": "Resume-NtThread"
+            },
+            {
+              "name": "Stop-NtThread"
+            }
+          ]
+        },
+        {
+          "name": "NtToken",
+          "children": [
+            {
+              "name": "Get-NtToken"
+            },
+            {
+              "name": "New-NtToken"
+            },
+            {
+              "name": "Invoke-NtToken"
+            },
+            {
+              "name": "Set-NtToken"
+            },
+            {
+              "name": "Show-NtToken"
+            },
+            {
+              "name": "Copy-NtToken"
+            },
+            {
+              "name": "Format-NtToken"
+            }
+          ]
+        },
+        {
+          "name": "NtType",
+          "children": [
+            {
+              "name": "Get-NtType"
+            },
+            {
+              "name": "New-NtType"
+            }
+          ]
+        },
+        {
+          "name": "NtMailslotFile",
+          "children": [
+            {
+              "name": "New-NtMailslotFile"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptor",
+          "children": [
+            {
+              "name": "New-NtSecurityDescriptor"
+            },
+            {
+              "name": "ConvertTo-NtSecurityDescriptor"
+            },
+            {
+              "name": "Compare-NtSecurityDescriptor"
+            },
+            {
+              "name": "Show-NtSecurityDescriptor"
+            },
+            {
+              "name": "Get-NtSecurityDescriptor"
+            },
+            {
+              "name": "Set-NtSecurityDescriptor"
+            },
+            {
+              "name": "Format-NtSecurityDescriptor"
+            },
+            {
+              "name": "Edit-NtSecurityDescriptor"
+            },
+            {
+              "name": "ConvertFrom-NtSecurityDescriptor"
+            },
+            {
+              "name": "Copy-NtSecurityDescriptor"
+            },
+            {
+              "name": "Test-NtSecurityDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "NtWait",
+          "children": [
+            {
+              "name": "Start-NtWait"
+            }
+          ]
+        },
+        {
+          "name": "NtSid",
+          "children": [
+            {
+              "name": "Get-NtSid"
+            },
+            {
+              "name": "Compare-NtSid"
+            },
+            {
+              "name": "ConvertFrom-NtSid"
+            },
+            {
+              "name": "Test-NtSid"
+            }
+          ]
+        },
+        {
+          "name": "NtSection",
+          "children": [
+            {
+              "name": "Get-NtSection"
+            },
+            {
+              "name": "New-NtSection"
+            },
+            {
+              "name": "Show-NtSection"
+            },
+            {
+              "name": "Add-NtSection"
+            },
+            {
+              "name": "Remove-NtSection"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleAlpcPort",
+          "children": [
+            {
+              "name": "Get-AccessibleAlpcPort"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleKey",
+          "children": [
+            {
+              "name": "Get-AccessibleKey"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleProcess",
+          "children": [
+            {
+              "name": "Get-AccessibleProcess"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleFile",
+          "children": [
+            {
+              "name": "Get-AccessibleFile"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleObject",
+          "children": [
+            {
+              "name": "Get-AccessibleObject"
+            }
+          ]
+        },
+        {
+          "name": "NtAccessMask",
+          "children": [
+            {
+              "name": "Get-NtAccessMask"
+            },
+            {
+              "name": "Test-NtAccessMask"
+            },
+            {
+              "name": "Grant-NtAccessMask"
+            },
+            {
+              "name": "Revoke-NtAccessMask"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleDevice",
+          "children": [
+            {
+              "name": "Get-AccessibleDevice"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleNamedPipe",
+          "children": [
+            {
+              "name": "Get-AccessibleNamedPipe"
+            }
+          ]
+        },
+        {
+          "name": "NtGrantedAccess",
+          "children": [
+            {
+              "name": "Get-NtGrantedAccess"
+            }
+          ]
+        },
+        {
+          "name": "NtJob",
+          "children": [
+            {
+              "name": "Get-NtJob"
+            },
+            {
+              "name": "New-NtJob"
+            },
+            {
+              "name": "Format-NtJob"
+            },
+            {
+              "name": "Stop-NtJob"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleService",
+          "children": [
+            {
+              "name": "Get-AccessibleService"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleHandle",
+          "children": [
+            {
+              "name": "Get-AccessibleHandle"
+            }
+          ]
+        },
+        {
+          "name": "NtDirectoryChild",
+          "children": [
+            {
+              "name": "Get-NtDirectoryChild"
+            }
+          ]
+        },
+        {
+          "name": "NtKeyChild",
+          "children": [
+            {
+              "name": "Get-NtKeyChild"
+            }
+          ]
+        },
+        {
+          "name": "DosDevice",
+          "children": [
+            {
+              "name": "Add-DosDevice"
+            },
+            {
+              "name": "Remove-DosDevice"
+            }
+          ]
+        },
+        {
+          "name": "NtFileChild",
+          "children": [
+            {
+              "name": "Get-NtFileChild"
+            }
+          ]
+        },
+        {
+          "name": "NtPartition",
+          "children": [
+            {
+              "name": "Get-NtPartition"
+            },
+            {
+              "name": "New-NtPartition"
+            }
+          ]
+        },
+        {
+          "name": "NtWaitTimeout",
+          "children": [
+            {
+              "name": "Get-NtWaitTimeout"
+            }
+          ]
+        },
+        {
+          "name": "NtTransaction",
+          "children": [
+            {
+              "name": "New-NtTransaction"
+            },
+            {
+              "name": "Get-NtTransaction"
+            }
+          ]
+        },
+        {
+          "name": "NtTransactionManager",
+          "children": [
+            {
+              "name": "New-NtTransactionManager"
+            },
+            {
+              "name": "Get-NtTransactionManager"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcClient",
+          "children": [
+            {
+              "name": "Connect-NtAlpcClient"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcServer",
+          "children": [
+            {
+              "name": "New-NtAlpcServer"
+            },
+            {
+              "name": "Connect-NtAlpcServer"
+            },
+            {
+              "name": "Get-NtAlpcServer"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcPortAttributes",
+          "children": [
+            {
+              "name": "New-NtAlpcPortAttributes"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcMessage",
+          "children": [
+            {
+              "name": "New-NtAlpcMessage"
+            },
+            {
+              "name": "Send-NtAlpcMessage"
+            },
+            {
+              "name": "Receive-NtAlpcMessage"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcReceiveAttributes",
+          "children": [
+            {
+              "name": "New-NtAlpcReceiveAttributes"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcSendAttributes",
+          "children": [
+            {
+              "name": "New-NtAlpcSendAttributes"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcPortSection",
+          "children": [
+            {
+              "name": "New-NtAlpcPortSection"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcDataView",
+          "children": [
+            {
+              "name": "New-NtAlpcDataView"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcSecurityContext",
+          "children": [
+            {
+              "name": "New-NtAlpcSecurityContext"
+            }
+          ]
+        },
+        {
+          "name": "NtDebug",
+          "children": [
+            {
+              "name": "New-NtDebug"
+            },
+            {
+              "name": "Get-NtDebug"
+            }
+          ]
+        },
+        {
+          "name": "NtDebugWait",
+          "children": [
+            {
+              "name": "Start-NtDebugWait"
+            }
+          ]
+        },
+        {
+          "name": "NtDebugProcess",
+          "children": [
+            {
+              "name": "Add-NtDebugProcess"
+            },
+            {
+              "name": "Remove-NtDebugProcess"
+            }
+          ]
+        },
+        {
+          "name": "NtResourceManager",
+          "children": [
+            {
+              "name": "New-NtResourceManager"
+            },
+            {
+              "name": "Get-NtResourceManager"
+            }
+          ]
+        },
+        {
+          "name": "NtTransactionGuid",
+          "children": [
+            {
+              "name": "Get-NtTransactionGuid"
+            }
+          ]
+        },
+        {
+          "name": "NtEnlistment",
+          "children": [
+            {
+              "name": "Get-NtEnlistment"
+            },
+            {
+              "name": "New-NtEnlistment"
+            }
+          ]
+        },
+        {
+          "name": "RpcServerName",
+          "children": [
+            {
+              "name": "Get-RpcServerName"
+            },
+            {
+              "name": "Set-RpcServerName"
+            }
+          ]
+        },
+        {
+          "name": "NtFileHardlink",
+          "children": [
+            {
+              "name": "New-NtFileHardlink"
+            }
+          ]
+        },
+        {
+          "name": "NetworkAccess",
+          "children": [
+            {
+              "name": "Test-NetworkAccess"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleScheduledTask",
+          "children": [
+            {
+              "name": "Get-AccessibleScheduledTask"
+            },
+            {
+              "name": "Start-AccessibleScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "RpcServer",
+          "children": [
+            {
+              "name": "Compare-RpcServer"
+            },
+            {
+              "name": "Select-RpcServer"
+            },
+            {
+              "name": "Get-RpcServer"
+            },
+            {
+              "name": "Format-RpcServer"
+            },
+            {
+              "name": "Set-RpcServer"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenSecurityAttribute",
+          "children": [
+            {
+              "name": "Add-NtTokenSecurityAttribute"
+            },
+            {
+              "name": "Remove-NtTokenSecurityAttribute"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleEventTrace",
+          "children": [
+            {
+              "name": "Get-AccessibleEventTrace"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenImpersonation",
+          "children": [
+            {
+              "name": "Test-NtTokenImpersonation"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleToken",
+          "children": [
+            {
+              "name": "Get-AccessibleToken"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessJob",
+          "children": [
+            {
+              "name": "Set-NtProcessJob"
+            },
+            {
+              "name": "Get-NtProcessJob"
+            },
+            {
+              "name": "Test-NtProcessJob"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleWnf",
+          "children": [
+            {
+              "name": "Get-AccessibleWnf"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleWindowStation",
+          "children": [
+            {
+              "name": "Get-AccessibleWindowStation"
+            }
+          ]
+        },
+        {
+          "name": "NtWindowStation",
+          "children": [
+            {
+              "name": "Get-NtWindowStation"
+            },
+            {
+              "name": "New-NtWindowStation"
+            }
+          ]
+        },
+        {
+          "name": "NtDesktop",
+          "children": [
+            {
+              "name": "Get-NtDesktop"
+            },
+            {
+              "name": "New-NtDesktop"
+            }
+          ]
+        },
+        {
+          "name": "Win32Error",
+          "children": [
+            {
+              "name": "Get-Win32Error"
+            }
+          ]
+        },
+        {
+          "name": "NtKeyValue",
+          "children": [
+            {
+              "name": "Set-NtKeyValue"
+            },
+            {
+              "name": "Get-NtKeyValue"
+            },
+            {
+              "name": "Remove-NtKeyValue"
+            }
+          ]
+        },
+        {
+          "name": "NtObjectInformation",
+          "children": [
+            {
+              "name": "Get-NtObjectInformation"
+            },
+            {
+              "name": "Set-NtObjectInformation"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenPrivilege",
+          "children": [
+            {
+              "name": "Test-NtTokenPrivilege"
+            },
+            {
+              "name": "Set-NtTokenPrivilege"
+            },
+            {
+              "name": "Remove-NtTokenPrivilege"
+            },
+            {
+              "name": "Get-NtTokenPrivilege"
+            },
+            {
+              "name": "Enable-NtTokenPrivilege"
+            },
+            {
+              "name": "Disable-NtTokenPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorAce",
+          "children": [
+            {
+              "name": "Add-NtSecurityDescriptorAce"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorAce"
+            },
+            {
+              "name": "Select-NtSecurityDescriptorAce"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityAttribute",
+          "children": [
+            {
+              "name": "New-NtSecurityAttribute"
+            }
+          ]
+        },
+        {
+          "name": "Win32SecurityDescriptor",
+          "children": [
+            {
+              "name": "Set-Win32SecurityDescriptor"
+            },
+            {
+              "name": "Reset-Win32SecurityDescriptor"
+            },
+            {
+              "name": "Search-Win32SecurityDescriptor"
+            },
+            {
+              "name": "Get-Win32SecurityDescriptor"
+            },
+            {
+              "name": "Format-Win32SecurityDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "NtAceCondition",
+          "children": [
+            {
+              "name": "Test-NtAceCondition"
+            },
+            {
+              "name": "ConvertFrom-NtAceCondition"
+            },
+            {
+              "name": "ConvertTo-NtAceCondition"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenGroup",
+          "children": [
+            {
+              "name": "Test-NtTokenGroup"
+            },
+            {
+              "name": "Get-NtTokenGroup"
+            },
+            {
+              "name": "Set-NtTokenGroup"
+            },
+            {
+              "name": "Reset-NtTokenGroup"
+            },
+            {
+              "name": "Enable-NtTokenGroup"
+            },
+            {
+              "name": "Disable-NtTokenGroup"
+            }
+          ]
+        },
+        {
+          "name": "NtAudit",
+          "children": [
+            {
+              "name": "Write-NtAudit"
+            }
+          ]
+        },
+        {
+          "name": "AuthZResourceManager",
+          "children": [
+            {
+              "name": "New-AuthZResourceManager"
+            }
+          ]
+        },
+        {
+          "name": "AuthZContext",
+          "children": [
+            {
+              "name": "New-AuthZContext"
+            }
+          ]
+        },
+        {
+          "name": "AuthZGrantedAccess",
+          "children": [
+            {
+              "name": "Get-AuthZGrantedAccess"
+            }
+          ]
+        },
+        {
+          "name": "AuthZSid",
+          "children": [
+            {
+              "name": "Add-AuthZSid"
+            },
+            {
+              "name": "Remove-AuthZSid"
+            },
+            {
+              "name": "Clear-AuthZSid"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenDefaultDacl",
+          "children": [
+            {
+              "name": "Get-NtTokenDefaultDacl"
+            },
+            {
+              "name": "Set-NtTokenDefaultDacl"
+            }
+          ]
+        },
+        {
+          "name": "NtKeySymbolicLinkTarget",
+          "children": [
+            {
+              "name": "Get-NtKeySymbolicLinkTarget"
+            }
+          ]
+        },
+        {
+          "name": "NtKeySymbolicLink",
+          "children": [
+            {
+              "name": "New-NtKeySymbolicLink"
+            }
+          ]
+        },
+        {
+          "name": "NtFileVolumeInformation",
+          "children": [
+            {
+              "name": "Get-NtFileVolumeInformation"
+            },
+            {
+              "name": "Set-NtFileVolumeInformation"
+            }
+          ]
+        },
+        {
+          "name": "NtFileControl",
+          "children": [
+            {
+              "name": "Send-NtFileControl"
+            }
+          ]
+        },
+        {
+          "name": "NtFileAttribute",
+          "children": [
+            {
+              "name": "Get-NtFileAttribute"
+            },
+            {
+              "name": "Set-NtFileAttribute"
+            }
+          ]
+        },
+        {
+          "name": "NtFileShareProcess",
+          "children": [
+            {
+              "name": "Get-NtFileShareProcess"
+            }
+          ]
+        },
+        {
+          "name": "NtFileCompression",
+          "children": [
+            {
+              "name": "Get-NtFileCompression"
+            },
+            {
+              "name": "Set-NtFileCompression"
+            }
+          ]
+        },
+        {
+          "name": "NtFileLink",
+          "children": [
+            {
+              "name": "Get-NtFileLink"
+            }
+          ]
+        },
+        {
+          "name": "NtFileStream",
+          "children": [
+            {
+              "name": "Get-NtFileStream"
+            }
+          ]
+        },
+        {
+          "name": "NtFileObjectId",
+          "children": [
+            {
+              "name": "Get-NtFileObjectId"
+            },
+            {
+              "name": "Set-NtFileObjectId"
+            },
+            {
+              "name": "Remove-NtFileObjectId"
+            }
+          ]
+        },
+        {
+          "name": "NtFileId",
+          "children": [
+            {
+              "name": "Get-NtFileId"
+            }
+          ]
+        },
+        {
+          "name": "NtFileFinalPath",
+          "children": [
+            {
+              "name": "Get-NtFileFinalPath"
+            }
+          ]
+        },
+        {
+          "name": "NtThreadApc",
+          "children": [
+            {
+              "name": "Add-NtThreadApc"
+            }
+          ]
+        },
+        {
+          "name": "NtEnclave",
+          "children": [
+            {
+              "name": "New-NtEnclave"
+            },
+            {
+              "name": "Invoke-NtEnclave"
+            }
+          ]
+        },
+        {
+          "name": "RandomByte",
+          "children": [
+            {
+              "name": "Get-RandomByte"
+            }
+          ]
+        },
+        {
+          "name": "RunningScheduledTask",
+          "children": [
+            {
+              "name": "Get-RunningScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "Win32ServiceConfig",
+          "children": [
+            {
+              "name": "Set-Win32ServiceConfig"
+            },
+            {
+              "name": "Get-Win32ServiceConfig"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleDsObject",
+          "children": [
+            {
+              "name": "Get-AccessibleDsObject"
+            }
+          ]
+        },
+        {
+          "name": "Win32GrantedAccess",
+          "children": [
+            {
+              "name": "Get-Win32GrantedAccess"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleFwObject",
+          "children": [
+            {
+              "name": "Get-AccessibleFwObject"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcProxy",
+          "children": [
+            {
+              "name": "New-KerberosKdcProxy"
+            }
+          ]
+        },
+        {
+          "name": "RpcProcess",
+          "children": [
+            {
+              "name": "Get-RpcProcess"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenIntegrityLevel",
+          "children": [
+            {
+              "name": "Set-NtTokenIntegrityLevel"
+            },
+            {
+              "name": "Get-NtTokenIntegrityLevel"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessMitigations",
+          "children": [
+            {
+              "name": "Get-NtProcessMitigations"
+            }
+          ]
+        },
+        {
+          "name": "NtKernelCrashDump",
+          "children": [
+            {
+              "name": "New-NtKernelCrashDump"
+            }
+          ]
+        },
+        {
+          "name": "NtObjectAttributes",
+          "children": [
+            {
+              "name": "New-NtObjectAttributes"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityQualityOfService",
+          "children": [
+            {
+              "name": "New-NtSecurityQualityOfService"
+            }
+          ]
+        },
+        {
+          "name": "NtLicenseValue",
+          "children": [
+            {
+              "name": "Get-NtLicenseValue"
+            }
+          ]
+        },
+        {
+          "name": "NtSystemEnvironmentValue",
+          "children": [
+            {
+              "name": "Get-NtSystemEnvironmentValue"
+            }
+          ]
+        },
+        {
+          "name": "Win32Process",
+          "children": [
+            {
+              "name": "New-Win32Process"
+            }
+          ]
+        },
+        {
+          "name": "NtEaBuffer",
+          "children": [
+            {
+              "name": "New-NtEaBuffer"
+            },
+            {
+              "name": "Add-NtEaBuffer"
+            }
+          ]
+        },
+        {
+          "name": "NtSectionImage",
+          "children": [
+            {
+              "name": "New-NtSectionImage"
+            }
+          ]
+        },
+        {
+          "name": "Win32ProcessConfig",
+          "children": [
+            {
+              "name": "New-Win32ProcessConfig"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenFromProcess",
+          "children": [
+            {
+              "name": "Get-NtTokenFromProcess"
+            }
+          ]
+        },
+        {
+          "name": "Win32ModuleManifest",
+          "children": [
+            {
+              "name": "Get-Win32ModuleManifest"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessConfig",
+          "children": [
+            {
+              "name": "New-NtProcessConfig"
+            }
+          ]
+        },
+        {
+          "name": "NtFilePath",
+          "children": [
+            {
+              "name": "Get-NtFilePath"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenEffective",
+          "children": [
+            {
+              "name": "Show-NtTokenEffective"
+            }
+          ]
+        },
+        {
+          "name": "NtIoControlCode",
+          "children": [
+            {
+              "name": "Get-NtIoControlCode"
+            }
+          ]
+        },
+        {
+          "name": "ExecutionAlias",
+          "children": [
+            {
+              "name": "Get-ExecutionAlias"
+            },
+            {
+              "name": "Set-ExecutionAlias"
+            }
+          ]
+        },
+        {
+          "name": "NtObjectAddress",
+          "children": [
+            {
+              "name": "Resolve-NtObjectAddress"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorIntegrityLevel",
+          "children": [
+            {
+              "name": "Get-NtSecurityDescriptorIntegrityLevel"
+            },
+            {
+              "name": "Set-NtSecurityDescriptorIntegrityLevel"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorIntegrityLevel"
+            }
+          ]
+        },
+        {
+          "name": "NtVirtualMemory",
+          "children": [
+            {
+              "name": "Add-NtVirtualMemory"
+            },
+            {
+              "name": "Get-NtVirtualMemory"
+            },
+            {
+              "name": "Remove-NtVirtualMemory"
+            },
+            {
+              "name": "Set-NtVirtualMemory"
+            },
+            {
+              "name": "Read-NtVirtualMemory"
+            },
+            {
+              "name": "Write-NtVirtualMemory"
+            }
+          ]
+        },
+        {
+          "name": "EmbeddedAuthenticodeSignature",
+          "children": [
+            {
+              "name": "Get-EmbeddedAuthenticodeSignature"
+            }
+          ]
+        },
+        {
+          "name": "NtSidName",
+          "children": [
+            {
+              "name": "Get-NtSidName"
+            },
+            {
+              "name": "Clear-NtSidName"
+            },
+            {
+              "name": "Add-NtSidName"
+            },
+            {
+              "name": "Remove-NtSidName"
+            }
+          ]
+        },
+        {
+          "name": "SymbolResolver",
+          "children": [
+            {
+              "name": "New-SymbolResolver"
+            }
+          ]
+        },
+        {
+          "name": "NdrParser",
+          "children": [
+            {
+              "name": "New-NdrParser"
+            }
+          ]
+        },
+        {
+          "name": "NdrComplexType",
+          "children": [
+            {
+              "name": "Format-NdrComplexType"
+            },
+            {
+              "name": "Get-NdrComplexType"
+            }
+          ]
+        },
+        {
+          "name": "NdrProcedure",
+          "children": [
+            {
+              "name": "Format-NdrProcedure"
+            }
+          ]
+        },
+        {
+          "name": "NdrComProxy",
+          "children": [
+            {
+              "name": "Format-NdrComProxy"
+            },
+            {
+              "name": "Get-NdrComProxy"
+            }
+          ]
+        },
+        {
+          "name": "NdrRpcServerInterface",
+          "children": [
+            {
+              "name": "Get-NdrRpcServerInterface"
+            },
+            {
+              "name": "Format-NdrRpcServerInterface"
+            }
+          ]
+        },
+        {
+          "name": "NtWnf",
+          "children": [
+            {
+              "name": "Get-NtWnf"
+            }
+          ]
+        },
+        {
+          "name": "NtCachedSigningLevel",
+          "children": [
+            {
+              "name": "Get-NtCachedSigningLevel"
+            },
+            {
+              "name": "Set-NtCachedSigningLevel"
+            }
+          ]
+        },
+        {
+          "name": "NtFilePathType",
+          "children": [
+            {
+              "name": "Get-NtFilePathType"
+            }
+          ]
+        },
+        {
+          "name": "RpcEndpoint",
+          "children": [
+            {
+              "name": "Get-RpcEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "GlobalSymbolResolver",
+          "children": [
+            {
+              "name": "Set-GlobalSymbolResolver"
+            }
+          ]
+        },
+        {
+          "name": "RpcAlpcServer",
+          "children": [
+            {
+              "name": "Get-RpcAlpcServer"
+            }
+          ]
+        },
+        {
+          "name": "NtObjectFromHandle",
+          "children": [
+            {
+              "name": "Get-NtObjectFromHandle"
+            }
+          ]
+        },
+        {
+          "name": "Win32ChildProcess",
+          "children": [
+            {
+              "name": "Start-Win32ChildProcess"
+            }
+          ]
+        },
+        {
+          "name": "NtFileOplock",
+          "children": [
+            {
+              "name": "Start-NtFileOplock"
+            },
+            {
+              "name": "Confirm-NtFileOplock"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessMitigationPolicy",
+          "children": [
+            {
+              "name": "Get-NtProcessMitigationPolicy"
+            },
+            {
+              "name": "Set-NtProcessMitigationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppContainerProfile",
+          "children": [
+            {
+              "name": "Get-AppContainerProfile"
+            },
+            {
+              "name": "New-AppContainerProfile"
+            },
+            {
+              "name": "Remove-AppContainerProfile"
+            }
+          ]
+        },
+        {
+          "name": "RpcClient",
+          "children": [
+            {
+              "name": "Get-RpcClient"
+            },
+            {
+              "name": "Format-RpcClient"
+            },
+            {
+              "name": "Connect-RpcClient"
+            },
+            {
+              "name": "Disconnect-RpcClient"
+            }
+          ]
+        },
+        {
+          "name": "RpcContextHandle",
+          "children": [
+            {
+              "name": "New-RpcContextHandle"
+            }
+          ]
+        },
+        {
+          "name": "RpcComplexType",
+          "children": [
+            {
+              "name": "Format-RpcComplexType"
+            }
+          ]
+        },
+        {
+          "name": "Win32File",
+          "children": [
+            {
+              "name": "Get-Win32File"
+            }
+          ]
+        },
+        {
+          "name": "NtFileEa",
+          "children": [
+            {
+              "name": "Get-NtFileEa"
+            },
+            {
+              "name": "Set-NtFileEa"
+            },
+            {
+              "name": "Remove-NtFileEa"
+            }
+          ]
+        },
+        {
+          "name": "NtLocallyUniqueId",
+          "children": [
+            {
+              "name": "Get-NtLocallyUniqueId"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenSid",
+          "children": [
+            {
+              "name": "Get-NtTokenSid"
+            },
+            {
+              "name": "Set-NtTokenSid"
+            }
+          ]
+        },
+        {
+          "name": "NtDesktopName",
+          "children": [
+            {
+              "name": "Get-NtDesktopName"
+            }
+          ]
+        },
+        {
+          "name": "NtWindowStationName",
+          "children": [
+            {
+              "name": "Get-NtWindowStationName"
+            }
+          ]
+        },
+        {
+          "name": "NtWindow",
+          "children": [
+            {
+              "name": "Get-NtWindow"
+            }
+          ]
+        },
+        {
+          "name": "HexDump",
+          "children": [
+            {
+              "name": "Format-HexDump"
+            },
+            {
+              "name": "ConvertFrom-HexDump"
+            }
+          ]
+        },
+        {
+          "name": "NtTypeAccess",
+          "children": [
+            {
+              "name": "Get-NtTypeAccess"
+            }
+          ]
+        },
+        {
+          "name": "NtAtom",
+          "children": [
+            {
+              "name": "Get-NtAtom"
+            },
+            {
+              "name": "Add-NtAtom"
+            },
+            {
+              "name": "Remove-NtAtom"
+            }
+          ]
+        },
+        {
+          "name": "Win32Module",
+          "children": [
+            {
+              "name": "Import-Win32Module"
+            },
+            {
+              "name": "Get-Win32Module"
+            }
+          ]
+        },
+        {
+          "name": "Win32ModuleExport",
+          "children": [
+            {
+              "name": "Get-Win32ModuleExport"
+            }
+          ]
+        },
+        {
+          "name": "Win32ModuleImport",
+          "children": [
+            {
+              "name": "Get-Win32ModuleImport"
+            }
+          ]
+        },
+        {
+          "name": "NtDirectoryEntry",
+          "children": [
+            {
+              "name": "Get-NtDirectoryEntry"
+            }
+          ]
+        },
+        {
+          "name": "LsaCredential",
+          "children": [
+            {
+              "name": "Read-LsaCredential"
+            },
+            {
+              "name": "Get-LsaCredential"
+            }
+          ]
+        },
+        {
+          "name": "LsaPackage",
+          "children": [
+            {
+              "name": "Get-LsaPackage"
+            }
+          ]
+        },
+        {
+          "name": "LsaCredentialHandle",
+          "children": [
+            {
+              "name": "New-LsaCredentialHandle"
+            }
+          ]
+        },
+        {
+          "name": "LsaServerContext",
+          "children": [
+            {
+              "name": "New-LsaServerContext"
+            },
+            {
+              "name": "Update-LsaServerContext"
+            }
+          ]
+        },
+        {
+          "name": "LsaClientContext",
+          "children": [
+            {
+              "name": "New-LsaClientContext"
+            },
+            {
+              "name": "Update-LsaClientContext"
+            }
+          ]
+        },
+        {
+          "name": "LsaAccessToken",
+          "children": [
+            {
+              "name": "Get-LsaAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "NtKernelModule",
+          "children": [
+            {
+              "name": "Get-NtKernelModule"
+            }
+          ]
+        },
+        {
+          "name": "NtObjectInformationClass",
+          "children": [
+            {
+              "name": "Get-NtObjectInformationClass"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorOwner",
+          "children": [
+            {
+              "name": "Set-NtSecurityDescriptorOwner"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorOwner"
+            },
+            {
+              "name": "Get-NtSecurityDescriptorOwner"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorGroup",
+          "children": [
+            {
+              "name": "Set-NtSecurityDescriptorGroup"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorGroup"
+            },
+            {
+              "name": "Get-NtSecurityDescriptorGroup"
+            }
+          ]
+        },
+        {
+          "name": "NtUserGroup",
+          "children": [
+            {
+              "name": "New-NtUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "NtAcl",
+          "children": [
+            {
+              "name": "New-NtAcl"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorDacl",
+          "children": [
+            {
+              "name": "Set-NtSecurityDescriptorDacl"
+            },
+            {
+              "name": "Get-NtSecurityDescriptorDacl"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorDacl"
+            },
+            {
+              "name": "Clear-NtSecurityDescriptorDacl"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorSacl",
+          "children": [
+            {
+              "name": "Set-NtSecurityDescriptorSacl"
+            },
+            {
+              "name": "Get-NtSecurityDescriptorSacl"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorSacl"
+            },
+            {
+              "name": "Clear-NtSecurityDescriptorSacl"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorControl",
+          "children": [
+            {
+              "name": "Set-NtSecurityDescriptorControl"
+            },
+            {
+              "name": "Get-NtSecurityDescriptorControl"
+            },
+            {
+              "name": "Add-NtSecurityDescriptorControl"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorControl"
+            }
+          ]
+        },
+        {
+          "name": "ObjectTypeTree",
+          "children": [
+            {
+              "name": "New-ObjectTypeTree"
+            },
+            {
+              "name": "Add-ObjectTypeTree"
+            },
+            {
+              "name": "Remove-ObjectTypeTree"
+            },
+            {
+              "name": "Select-ObjectTypeTree"
+            },
+            {
+              "name": "ConvertTo-ObjectTypeTree"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenMandatoryPolicy",
+          "children": [
+            {
+              "name": "Get-NtTokenMandatoryPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CentralAccessPolicy",
+          "children": [
+            {
+              "name": "Get-CentralAccessPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ObjectTypeTreeAccess",
+          "children": [
+            {
+              "name": "Set-ObjectTypeTreeAccess"
+            },
+            {
+              "name": "Revoke-ObjectTypeTreeAccess"
+            }
+          ]
+        },
+        {
+          "name": "NtAuditPolicy",
+          "children": [
+            {
+              "name": "Get-NtAuditPolicy"
+            },
+            {
+              "name": "Set-NtAuditPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NtAuditSecurity",
+          "children": [
+            {
+              "name": "Get-NtAuditSecurity"
+            },
+            {
+              "name": "Set-NtAuditSecurity"
+            }
+          ]
+        },
+        {
+          "name": "LsaAuthToken",
+          "children": [
+            {
+              "name": "Format-LsaAuthToken"
+            },
+            {
+              "name": "Get-LsaAuthToken"
+            },
+            {
+              "name": "Export-LsaAuthToken"
+            },
+            {
+              "name": "Import-LsaAuthToken"
+            },
+            {
+              "name": "Unprotect-LsaAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "LsaContext",
+          "children": [
+            {
+              "name": "Test-LsaContext"
+            }
+          ]
+        },
+        {
+          "name": "NtLogonSession",
+          "children": [
+            {
+              "name": "Get-NtLogonSession"
+            }
+          ]
+        },
+        {
+          "name": "NtAccountRight",
+          "children": [
+            {
+              "name": "Get-NtAccountRight"
+            },
+            {
+              "name": "Add-NtAccountRight"
+            },
+            {
+              "name": "Remove-NtAccountRight"
+            }
+          ]
+        },
+        {
+          "name": "NtAccountRightSid",
+          "children": [
+            {
+              "name": "Get-NtAccountRightSid"
+            }
+          ]
+        },
+        {
+          "name": "NtConsoleSession",
+          "children": [
+            {
+              "name": "Get-NtConsoleSession"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipalName",
+          "children": [
+            {
+              "name": "Get-ServicePrincipalName"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenId",
+          "children": [
+            {
+              "name": "Get-NtTokenId"
+            }
+          ]
+        },
+        {
+          "name": "MD4Hash",
+          "children": [
+            {
+              "name": "Get-MD4Hash"
+            }
+          ]
+        },
+        {
+          "name": "ASN1DER",
+          "children": [
+            {
+              "name": "Format-ASN1DER"
+            },
+            {
+              "name": "Get-ASN1DER"
+            },
+            {
+              "name": "New-ASN1DER"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKeyTab",
+          "children": [
+            {
+              "name": "Import-KerberosKeyTab"
+            },
+            {
+              "name": "Export-KerberosKeyTab"
+            },
+            {
+              "name": "New-KerberosKeyTab"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKey",
+          "children": [
+            {
+              "name": "New-KerberosKey"
+            },
+            {
+              "name": "Get-KerberosKey"
+            }
+          ]
+        },
+        {
+          "name": "KerberosTicket",
+          "children": [
+            {
+              "name": "Get-KerberosTicket"
+            },
+            {
+              "name": "Format-KerberosTicket"
+            },
+            {
+              "name": "New-KerberosTicket"
+            },
+            {
+              "name": "Add-KerberosTicket"
+            },
+            {
+              "name": "Remove-KerberosTicket"
+            },
+            {
+              "name": "Rename-KerberosTicket"
+            },
+            {
+              "name": "Export-KerberosTicket"
+            },
+            {
+              "name": "Import-KerberosTicket"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessUser",
+          "children": [
+            {
+              "name": "Get-NtProcessUser"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessEnvironment",
+          "children": [
+            {
+              "name": "Get-NtProcessEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "Win32CommandLine",
+          "children": [
+            {
+              "name": "Split-Win32CommandLine"
+            }
+          ]
+        },
+        {
+          "name": "NtWindowMessage",
+          "children": [
+            {
+              "name": "Send-NtWindowMessage"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenVirtualization",
+          "children": [
+            {
+              "name": "Enable-NtTokenVirtualization"
+            },
+            {
+              "name": "Disable-NtTokenVirtualization"
+            }
+          ]
+        },
+        {
+          "name": "FilterConnectionPort",
+          "children": [
+            {
+              "name": "Get-FilterConnectionPort"
+            },
+            {
+              "name": "Send-FilterConnectionPort"
+            }
+          ]
+        },
+        {
+          "name": "FilterDriver",
+          "children": [
+            {
+              "name": "Get-FilterDriver"
+            }
+          ]
+        },
+        {
+          "name": "FilterDriverInstance",
+          "children": [
+            {
+              "name": "Get-FilterDriverInstance"
+            }
+          ]
+        },
+        {
+          "name": "FilterDriverVolume",
+          "children": [
+            {
+              "name": "Get-FilterDriverVolume"
+            }
+          ]
+        },
+        {
+          "name": "FilterDriverVolumeInstance",
+          "children": [
+            {
+              "name": "Get-FilterDriverVolumeInstance"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceSetupClass",
+          "children": [
+            {
+              "name": "Get-NtDeviceSetupClass"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceNode",
+          "children": [
+            {
+              "name": "Get-NtDeviceNode"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceInterfaceClass",
+          "children": [
+            {
+              "name": "Get-NtDeviceInterfaceClass"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceProperty",
+          "children": [
+            {
+              "name": "Get-NtDeviceProperty"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceNodeChild",
+          "children": [
+            {
+              "name": "Get-NtDeviceNodeChild"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceInterfaceInstance",
+          "children": [
+            {
+              "name": "Get-NtDeviceInterfaceInstance"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceNodeParent",
+          "children": [
+            {
+              "name": "Get-NtDeviceNodeParent"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceNodeStack",
+          "children": [
+            {
+              "name": "Get-NtDeviceNodeStack"
+            }
+          ]
+        },
+        {
+          "name": "NtFileItem",
+          "children": [
+            {
+              "name": "Get-NtFileItem"
+            }
+          ]
+        },
+        {
+          "name": "NtFileChange",
+          "children": [
+            {
+              "name": "Get-NtFileChange"
+            }
+          ]
+        },
+        {
+          "name": "NtFileDisposition",
+          "children": [
+            {
+              "name": "Get-NtFileDisposition"
+            },
+            {
+              "name": "Set-NtFileDisposition"
+            }
+          ]
+        },
+        {
+          "name": "AsyncTaskResult",
+          "children": [
+            {
+              "name": "Wait-AsyncTaskResult"
+            }
+          ]
+        },
+        {
+          "name": "NtFile8dot3Name",
+          "children": [
+            {
+              "name": "Get-NtFile8dot3Name"
+            }
+          ]
+        },
+        {
+          "name": "NtFileDriverPath",
+          "children": [
+            {
+              "name": "Test-NtFileDriverPath"
+            }
+          ]
+        },
+        {
+          "name": "NtMountPoint",
+          "children": [
+            {
+              "name": "Get-NtMountPoint"
+            }
+          ]
+        },
+        {
+          "name": "NtFileReparseBuffer",
+          "children": [
+            {
+              "name": "New-NtFileReparseBuffer"
+            }
+          ]
+        },
+        {
+          "name": "NtFileQuota",
+          "children": [
+            {
+              "name": "Get-NtFileQuota"
+            },
+            {
+              "name": "Set-NtFileQuota"
+            }
+          ]
+        },
+        {
+          "name": "NtFileUsnJournal",
+          "children": [
+            {
+              "name": "Read-NtFileUsnJournal"
+            }
+          ]
+        },
+        {
+          "name": "AppModelApplication",
+          "children": [
+            {
+              "name": "Start-AppModelApplication"
+            }
+          ]
+        },
+        {
+          "name": "NtThreadContext",
+          "children": [
+            {
+              "name": "Get-NtThreadContext"
+            },
+            {
+              "name": "Set-NtThreadContext"
+            }
+          ]
+        },
+        {
+          "name": "AppModelApplicationPolicy",
+          "children": [
+            {
+              "name": "Get-AppModelApplicationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppxDesktopBridge",
+          "children": [
+            {
+              "name": "Get-AppxDesktopBridge"
+            }
+          ]
+        },
+        {
+          "name": "NtThreadWorkOnBehalfTicket",
+          "children": [
+            {
+              "name": "Get-NtThreadWorkOnBehalfTicket"
+            },
+            {
+              "name": "Set-NtThreadWorkOnBehalfTicket"
+            },
+            {
+              "name": "Clear-NtThreadWorkOnBehalfTicket"
+            }
+          ]
+        },
+        {
+          "name": "NtThreadContainerId",
+          "children": [
+            {
+              "name": "Get-NtThreadContainerId"
+            }
+          ]
+        },
+        {
+          "name": "NtThreadContainer",
+          "children": [
+            {
+              "name": "Set-NtThreadContainer"
+            }
+          ]
+        },
+        {
+          "name": "NtSigningLevel",
+          "children": [
+            {
+              "name": "Compare-NtSigningLevel"
+            },
+            {
+              "name": "Get-NtSigningLevel"
+            }
+          ]
+        },
+        {
+          "name": "NtSystemInformation",
+          "children": [
+            {
+              "name": "Get-NtSystemInformation"
+            }
+          ]
+        },
+        {
+          "name": "X509Certificate",
+          "children": [
+            {
+              "name": "Get-X509Certificate"
+            }
+          ]
+        },
+        {
+          "name": "Win32DebugConsole",
+          "children": [
+            {
+              "name": "Start-Win32DebugConsole"
+            },
+            {
+              "name": "New-Win32DebugConsole"
+            },
+            {
+              "name": "Read-Win32DebugConsole"
+            }
+          ]
+        },
+        {
+          "name": "Win32Service",
+          "children": [
+            {
+              "name": "Get-Win32Service"
+            },
+            {
+              "name": "New-Win32Service"
+            },
+            {
+              "name": "Remove-Win32Service"
+            },
+            {
+              "name": "Start-Win32Service"
+            },
+            {
+              "name": "Wait-Win32Service"
+            },
+            {
+              "name": "Send-Win32Service"
+            },
+            {
+              "name": "Restart-Win32Service"
+            },
+            {
+              "name": "Test-Win32Service"
+            }
+          ]
+        },
+        {
+          "name": "NtApiSet",
+          "children": [
+            {
+              "name": "Get-NtApiSet"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenCapability",
+          "children": [
+            {
+              "name": "Test-NtTokenCapability"
+            }
+          ]
+        },
+        {
+          "name": "Win32ServiceSecurityDescriptor",
+          "children": [
+            {
+              "name": "Get-Win32ServiceSecurityDescriptor"
+            },
+            {
+              "name": "Set-Win32ServiceSecurityDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "Win32ModuleSymbolFile",
+          "children": [
+            {
+              "name": "Get-Win32ModuleSymbolFile"
+            }
+          ]
+        },
+        {
+          "name": "RpcStringBinding",
+          "children": [
+            {
+              "name": "Get-RpcStringBinding"
+            }
+          ]
+        },
+        {
+          "name": "LsaContextSignature",
+          "children": [
+            {
+              "name": "Get-LsaContextSignature"
+            },
+            {
+              "name": "Test-LsaContextSignature"
+            }
+          ]
+        },
+        {
+          "name": "LsaContextMessage",
+          "children": [
+            {
+              "name": "Protect-LsaContextMessage"
+            },
+            {
+              "name": "Unprotect-LsaContextMessage"
+            }
+          ]
+        },
+        {
+          "name": "LsaSecurityBuffer",
+          "children": [
+            {
+              "name": "New-LsaSecurityBuffer"
+            },
+            {
+              "name": "ConvertFrom-LsaSecurityBuffer"
+            }
+          ]
+        },
+        {
+          "name": "LsaSchannelCredential",
+          "children": [
+            {
+              "name": "Get-LsaSchannelCredential"
+            }
+          ]
+        },
+        {
+          "name": "LsaCredSSPCredential",
+          "children": [
+            {
+              "name": "Get-LsaCredSSPCredential"
+            }
+          ]
+        },
+        {
+          "name": "AppModelLoopbackException",
+          "children": [
+            {
+              "name": "Get-AppModelLoopbackException"
+            },
+            {
+              "name": "Add-AppModelLoopbackException"
+            },
+            {
+              "name": "Remove-AppModelLoopbackException"
+            }
+          ]
+        },
+        {
+          "name": "NtSDKName",
+          "children": [
+            {
+              "name": "Get-NtSDKName"
+            }
+          ]
+        },
+        {
+          "name": "Win32ServiceTrigger",
+          "children": [
+            {
+              "name": "Get-Win32ServiceTrigger"
+            }
+          ]
+        },
+        {
+          "name": "Win32ModuleResource",
+          "children": [
+            {
+              "name": "Get-Win32ModuleResource"
+            }
+          ]
+        },
+        {
+          "name": "LsaPolicy",
+          "children": [
+            {
+              "name": "Get-LsaPolicy"
+            }
+          ]
+        },
+        {
+          "name": "SamServer",
+          "children": [
+            {
+              "name": "Connect-SamServer"
+            }
+          ]
+        },
+        {
+          "name": "SamDomain",
+          "children": [
+            {
+              "name": "Get-SamDomain"
+            }
+          ]
+        },
+        {
+          "name": "SamUser",
+          "children": [
+            {
+              "name": "Get-SamUser"
+            },
+            {
+              "name": "New-SamUser"
+            }
+          ]
+        },
+        {
+          "name": "SamAlias",
+          "children": [
+            {
+              "name": "Get-SamAlias"
+            }
+          ]
+        },
+        {
+          "name": "SamGroup",
+          "children": [
+            {
+              "name": "Get-SamGroup"
+            }
+          ]
+        },
+        {
+          "name": "LsaPrivateData",
+          "children": [
+            {
+              "name": "Get-LsaPrivateData"
+            },
+            {
+              "name": "Set-LsaPrivateData"
+            }
+          ]
+        },
+        {
+          "name": "LsaAccount",
+          "children": [
+            {
+              "name": "Get-LsaAccount"
+            }
+          ]
+        },
+        {
+          "name": "LsaTrustedDomain",
+          "children": [
+            {
+              "name": "Get-LsaTrustedDomain"
+            }
+          ]
+        },
+        {
+          "name": "LsaSecret",
+          "children": [
+            {
+              "name": "Get-LsaSecret"
+            }
+          ]
+        },
+        {
+          "name": "SamAliasMember",
+          "children": [
+            {
+              "name": "Get-SamAliasMember"
+            }
+          ]
+        },
+        {
+          "name": "SamGroupMember",
+          "children": [
+            {
+              "name": "Get-SamGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "DsExtendedRight",
+          "children": [
+            {
+              "name": "Get-DsExtendedRight"
+            }
+          ]
+        },
+        {
+          "name": "DsSchemaClass",
+          "children": [
+            {
+              "name": "Get-DsSchemaClass"
+            }
+          ]
+        },
+        {
+          "name": "LsaName",
+          "children": [
+            {
+              "name": "Get-LsaName"
+            }
+          ]
+        },
+        {
+          "name": "LsaSid",
+          "children": [
+            {
+              "name": "Get-LsaSid"
+            }
+          ]
+        },
+        {
+          "name": "RC4",
+          "children": [
+            {
+              "name": "Protect-RC4"
+            }
+          ]
+        },
+        {
+          "name": "DsObjectSid",
+          "children": [
+            {
+              "name": "Get-DsObjectSid"
+            },
+            {
+              "name": "Search-DsObjectSid"
+            }
+          ]
+        },
+        {
+          "name": "DsObjectSchemaClass",
+          "children": [
+            {
+              "name": "Get-DsObjectSchemaClass"
+            }
+          ]
+        },
+        {
+          "name": "DsSchemaAttribute",
+          "children": [
+            {
+              "name": "Get-DsSchemaAttribute"
+            }
+          ]
+        },
+        {
+          "name": "DsHeuristics",
+          "children": [
+            {
+              "name": "Get-DsHeuristics"
+            }
+          ]
+        },
+        {
+          "name": "DsSDRightsEffective",
+          "children": [
+            {
+              "name": "Get-DsSDRightsEffective"
+            }
+          ]
+        },
+        {
+          "name": "Win32Credential",
+          "children": [
+            {
+              "name": "Get-Win32Credential"
+            },
+            {
+              "name": "Backup-Win32Credential"
+            },
+            {
+              "name": "Remove-Win32Credential"
+            },
+            {
+              "name": "Set-Win32Credential"
+            },
+            {
+              "name": "Protect-Win32Credential"
+            },
+            {
+              "name": "Unprotect-Win32Credential"
+            }
+          ]
+        },
+        {
+          "name": "BinaryString",
+          "children": [
+            {
+              "name": "Select-BinaryString"
+            }
+          ]
+        },
+        {
+          "name": "FwEngine",
+          "children": [
+            {
+              "name": "Get-FwEngine"
+            }
+          ]
+        },
+        {
+          "name": "FwLayer",
+          "children": [
+            {
+              "name": "Get-FwLayer"
+            }
+          ]
+        },
+        {
+          "name": "FwFilter",
+          "children": [
+            {
+              "name": "Get-FwFilter"
+            },
+            {
+              "name": "Remove-FwFilter"
+            },
+            {
+              "name": "Format-FwFilter"
+            },
+            {
+              "name": "Add-FwFilter"
+            }
+          ]
+        },
+        {
+          "name": "FwSubLayer",
+          "children": [
+            {
+              "name": "Get-FwSubLayer"
+            }
+          ]
+        },
+        {
+          "name": "FwConditionBuilder",
+          "children": [
+            {
+              "name": "New-FwConditionBuilder"
+            }
+          ]
+        },
+        {
+          "name": "FwGuid",
+          "children": [
+            {
+              "name": "Get-FwGuid"
+            }
+          ]
+        },
+        {
+          "name": "FwFilterTemplate",
+          "children": [
+            {
+              "name": "New-FwFilterTemplate"
+            }
+          ]
+        },
+        {
+          "name": "FwAleEndpoint",
+          "children": [
+            {
+              "name": "Get-FwAleEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "FwToken",
+          "children": [
+            {
+              "name": "Get-FwToken"
+            }
+          ]
+        },
+        {
+          "name": "SocketSecurity",
+          "children": [
+            {
+              "name": "Get-SocketSecurity"
+            },
+            {
+              "name": "Set-SocketSecurity"
+            }
+          ]
+        },
+        {
+          "name": "SocketPeerTargetName",
+          "children": [
+            {
+              "name": "Set-SocketPeerTargetName"
+            }
+          ]
+        },
+        {
+          "name": "IkeSecurityAssociation",
+          "children": [
+            {
+              "name": "Get-IkeSecurityAssociation"
+            }
+          ]
+        },
+        {
+          "name": "FwSession",
+          "children": [
+            {
+              "name": "Get-FwSession"
+            }
+          ]
+        },
+        {
+          "name": "FwNetEvent",
+          "children": [
+            {
+              "name": "Get-FwNetEvent"
+            },
+            {
+              "name": "Read-FwNetEvent"
+            }
+          ]
+        },
+        {
+          "name": "FwNetEventListener",
+          "children": [
+            {
+              "name": "New-FwNetEventListener"
+            },
+            {
+              "name": "Start-FwNetEventListener"
+            }
+          ]
+        },
+        {
+          "name": "IPsecSaContext",
+          "children": [
+            {
+              "name": "Get-IPsecSaContext"
+            }
+          ]
+        },
+        {
+          "name": "FwEngineOption",
+          "children": [
+            {
+              "name": "Get-FwEngineOption"
+            },
+            {
+              "name": "Set-FwEngineOption"
+            }
+          ]
+        },
+        {
+          "name": "FwNetEventTemplate",
+          "children": [
+            {
+              "name": "New-FwNetEventTemplate"
+            }
+          ]
+        },
+        {
+          "name": "FwCondition",
+          "children": [
+            {
+              "name": "Add-FwCondition"
+            }
+          ]
+        },
+        {
+          "name": "FwCallout",
+          "children": [
+            {
+              "name": "Get-FwCallout"
+            }
+          ]
+        },
+        {
+          "name": "RpcClientSecurityContext",
+          "children": [
+            {
+              "name": "Add-RpcClientSecurityContext"
+            },
+            {
+              "name": "Set-RpcClientSecurityContext"
+            },
+            {
+              "name": "Get-RpcClientSecurityContext"
+            }
+          ]
+        },
+        {
+          "name": "RpcServicePrincipalName",
+          "children": [
+            {
+              "name": "Get-RpcServicePrincipalName"
+            }
+          ]
+        },
+        {
+          "name": "FwProvider",
+          "children": [
+            {
+              "name": "Get-FwProvider"
+            }
+          ]
+        },
+        {
+          "name": "Win32Environment",
+          "children": [
+            {
+              "name": "Update-Win32Environment"
+            }
+          ]
+        },
+        {
+          "name": "KerberosChecksum",
+          "children": [
+            {
+              "name": "New-KerberosChecksum"
+            }
+          ]
+        },
+        {
+          "name": "KerberosPrincipalName",
+          "children": [
+            {
+              "name": "New-KerberosPrincipalName"
+            }
+          ]
+        },
+        {
+          "name": "KerberosAuthenticator",
+          "children": [
+            {
+              "name": "New-KerberosAuthenticator"
+            }
+          ]
+        },
+        {
+          "name": "KerberosApRequest",
+          "children": [
+            {
+              "name": "New-KerberosApRequest"
+            }
+          ]
+        },
+        {
+          "name": "KerberosTicketCache",
+          "children": [
+            {
+              "name": "New-KerberosTicketCache"
+            },
+            {
+              "name": "Export-KerberosTicketCache"
+            },
+            {
+              "name": "Import-KerberosTicketCache"
+            }
+          ]
+        },
+        {
+          "name": "KerberosError",
+          "children": [
+            {
+              "name": "New-KerberosError"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcPin",
+          "children": [
+            {
+              "name": "Add-KerberosKdcPin"
+            },
+            {
+              "name": "Clear-KerberosKdcPin"
+            }
+          ]
+        },
+        {
+          "name": "KerberosTgsRequest",
+          "children": [
+            {
+              "name": "New-KerberosTgsRequest"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcRequest",
+          "children": [
+            {
+              "name": "Send-KerberosKdcRequest"
+            }
+          ]
+        },
+        {
+          "name": "KerberosAsRequest",
+          "children": [
+            {
+              "name": "New-KerberosAsRequest"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcServer",
+          "children": [
+            {
+              "name": "New-KerberosKdcServer"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcServerUser",
+          "children": [
+            {
+              "name": "New-KerberosKdcServerUser"
+            }
+          ]
+        },
+        {
+          "name": "KerberosAuthorizationData",
+          "children": [
+            {
+              "name": "New-KerberosAuthorizationData"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcAddress",
+          "children": [
+            {
+              "name": "Resolve-KerberosKdcAddress"
+            }
+          ]
+        },
+        {
+          "name": "Win32MemoryBuffer",
+          "children": [
+            {
+              "name": "New-Win32MemoryBuffer"
+            }
+          ]
+        },
+        {
+          "name": "HyperVSocketTable",
+          "children": [
+            {
+              "name": "Get-HyperVSocketTable"
+            }
+          ]
+        },
+        {
+          "name": "RpcTransportSecurity",
+          "children": [
+            {
+              "name": "New-RpcTransportSecurity"
+            }
+          ]
+        },
+        {
+          "name": "RpcInterface",
+          "children": [
+            {
+              "name": "Get-RpcInterface"
+            }
+          ]
+        },
+        {
+          "name": "RpcClientTransportConfig",
+          "children": [
+            {
+              "name": "New-RpcClientTransportConfig"
+            }
+          ]
+        },
+        {
+          "name": "HyperVSocketAddress",
+          "children": [
+            {
+              "name": "Get-HyperVSocketAddress"
+            }
+          ]
+        },
+        {
+          "name": "RpcClientAssociationGroupId",
+          "children": [
+            {
+              "name": "Get-RpcClientAssociationGroupId"
+            }
+          ]
+        },
+        {
+          "name": "ComProxyFile",
+          "children": [
+            {
+              "name": "Get-ComProxyFile"
+            },
+            {
+              "name": "Format-ComProxyFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OleViewDotNet",
+      "companyName": "Unknown",
+      "author": "James Forshaw",
+      "children": [
+        {
+          "name": "ComDatabase",
+          "children": [
+            {
+              "name": "Get-ComDatabase"
+            },
+            {
+              "name": "Set-ComDatabase"
+            },
+            {
+              "name": "Compare-ComDatabase"
+            },
+            {
+              "name": "Show-ComDatabase"
+            },
+            {
+              "name": "Clear-ComDatabase"
+            }
+          ]
+        },
+        {
+          "name": "ComClass",
+          "children": [
+            {
+              "name": "Get-ComClass"
+            }
+          ]
+        },
+        {
+          "name": "ComProcess",
+          "children": [
+            {
+              "name": "Get-ComProcess"
+            }
+          ]
+        },
+        {
+          "name": "ComActivationLog",
+          "children": [
+            {
+              "name": "Start-ComActivationLog"
+            },
+            {
+              "name": "Stop-ComActivationLog"
+            }
+          ]
+        },
+        {
+          "name": "ComAppId",
+          "children": [
+            {
+              "name": "Get-ComAppId"
+            }
+          ]
+        },
+        {
+          "name": "ComClassInterface",
+          "children": [
+            {
+              "name": "Get-ComClassInterface"
+            },
+            {
+              "name": "Select-ComClassInterface"
+            }
+          ]
+        },
+        {
+          "name": "ComRuntimeClass",
+          "children": [
+            {
+              "name": "Get-ComRuntimeClass"
+            }
+          ]
+        },
+        {
+          "name": "ComInterface",
+          "children": [
+            {
+              "name": "Get-ComInterface"
+            },
+            {
+              "name": "Test-ComInterface"
+            }
+          ]
+        },
+        {
+          "name": "ComAccess",
+          "children": [
+            {
+              "name": "Select-ComAccess"
+            },
+            {
+              "name": "Test-ComAccess"
+            },
+            {
+              "name": "Get-ComAccess"
+            }
+          ]
+        },
+        {
+          "name": "ComObjRef",
+          "children": [
+            {
+              "name": "Get-ComObjRef"
+            }
+          ]
+        },
+        {
+          "name": "ComSecurityDescriptor",
+          "children": [
+            {
+              "name": "Show-ComSecurityDescriptor"
+            },
+            {
+              "name": "Format-ComSecurityDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "ComObject",
+          "children": [
+            {
+              "name": "New-ComObject"
+            }
+          ]
+        },
+        {
+          "name": "ComObjectFactory",
+          "children": [
+            {
+              "name": "New-ComObjectFactory"
+            }
+          ]
+        },
+        {
+          "name": "ComMoniker",
+          "children": [
+            {
+              "name": "Get-ComMoniker"
+            }
+          ]
+        },
+        {
+          "name": "ComMonikerDisplayName",
+          "children": [
+            {
+              "name": "Get-ComMonikerDisplayName"
+            }
+          ]
+        },
+        {
+          "name": "ComProxy",
+          "children": [
+            {
+              "name": "Get-ComProxy"
+            },
+            {
+              "name": "Format-ComProxy"
+            }
+          ]
+        },
+        {
+          "name": "ComObjectIpid",
+          "children": [
+            {
+              "name": "Get-ComObjectIpid"
+            }
+          ]
+        },
+        {
+          "name": "ComSymbolResolver",
+          "children": [
+            {
+              "name": "Set-ComSymbolResolver"
+            },
+            {
+              "name": "Get-ComSymbolResolver"
+            },
+            {
+              "name": "Reset-ComSymbolResolver"
+            }
+          ]
+        },
+        {
+          "name": "CurrentComDatabase",
+          "children": [
+            {
+              "name": "Get-CurrentComDatabase"
+            },
+            {
+              "name": "Set-CurrentComDatabase"
+            }
+          ]
+        },
+        {
+          "name": "ComRegisteredClass",
+          "children": [
+            {
+              "name": "Get-ComRegisteredClass"
+            }
+          ]
+        },
+        {
+          "name": "ComTypeLib",
+          "children": [
+            {
+              "name": "Get-ComTypeLib"
+            },
+            {
+              "name": "Format-ComTypeLib"
+            }
+          ]
+        },
+        {
+          "name": "ComTypeLibAssembly",
+          "children": [
+            {
+              "name": "Get-ComTypeLibAssembly"
+            }
+          ]
+        },
+        {
+          "name": "ComGuid",
+          "children": [
+            {
+              "name": "Format-ComGuid"
+            },
+            {
+              "name": "Get-ComGuid"
+            }
+          ]
+        },
+        {
+          "name": "ComSymbolCache",
+          "children": [
+            {
+              "name": "Set-ComSymbolCache"
+            }
+          ]
+        },
+        {
+          "name": "ComStorageObject",
+          "children": [
+            {
+              "name": "New-ComStorageObject"
+            },
+            {
+              "name": "Get-ComStorageObject"
+            }
+          ]
+        },
+        {
+          "name": "ComRuntimeInterface",
+          "children": [
+            {
+              "name": "Get-ComRuntimeInterface"
+            }
+          ]
+        },
+        {
+          "name": "ComRuntimeServer",
+          "children": [
+            {
+              "name": "Get-ComRuntimeServer"
+            }
+          ]
+        },
+        {
+          "name": "ComProcessClient",
+          "children": [
+            {
+              "name": "Format-ComProcessClient"
+            }
+          ]
+        },
+        {
+          "name": "ComCategory",
+          "children": [
+            {
+              "name": "Get-ComCategory"
+            }
+          ]
+        },
+        {
+          "name": "ComRuntimeExtension",
+          "children": [
+            {
+              "name": "Get-ComRuntimeExtension"
+            },
+            {
+              "name": "Start-ComRuntimeExtension"
+            }
+          ]
+        },
+        {
+          "name": "ComMimeType",
+          "children": [
+            {
+              "name": "Get-ComMimeType"
+            }
+          ]
+        },
+        {
+          "name": "ComProgId",
+          "children": [
+            {
+              "name": "Get-ComProgId"
+            }
+          ]
+        },
+        {
+          "name": "ComObjectInterface",
+          "children": [
+            {
+              "name": "Get-ComObjectInterface"
+            }
+          ]
+        },
+        {
+          "name": "ComAssembly",
+          "children": [
+            {
+              "name": "ConvertTo-ComAssembly"
+            }
+          ]
+        },
+        {
+          "name": "ComInterfaceNameCache",
+          "children": [
+            {
+              "name": "Export-ComInterfaceNameCache"
+            }
+          ]
+        },
+        {
+          "name": "ComAccessToken",
+          "children": [
+            {
+              "name": "Get-ComAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "ComSourceCode",
+          "children": [
+            {
+              "name": "ConvertTo-ComSourceCode"
+            }
+          ]
+        },
+        {
+          "name": "ComCredential",
+          "children": [
+            {
+              "name": "Get-ComCredential"
+            }
+          ]
+        },
+        {
+          "name": "ComAuthInfo",
+          "children": [
+            {
+              "name": "Get-ComAuthInfo"
+            }
+          ]
+        },
+        {
+          "name": "ComRpcClient",
+          "children": [
+            {
+              "name": "Get-ComRpcClient"
+            }
+          ]
+        },
+        {
+          "name": "ComStandardActivator",
+          "children": [
+            {
+              "name": "New-ComStandardActivator"
+            }
+          ]
+        },
+        {
+          "name": "ComActivator",
+          "children": [
+            {
+              "name": "New-ComActivator"
+            }
+          ]
+        },
+        {
+          "name": "ComActivationProperties",
+          "children": [
+            {
+              "name": "New-ComActivationProperties"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ZNtObjectManager",
+      "companyName": "Zero Networks Inc.",
+      "author": "James Forshaw",
+      "children": [
+        {
+          "name": "NtKeyHive",
+          "children": [
+            {
+              "name": "Add-NtKeyHive"
+            },
+            {
+              "name": "Remove-NtKeyHive"
+            },
+            {
+              "name": "Get-NtKeyHive"
+            }
+          ]
+        },
+        {
+          "name": "NtDirectory",
+          "children": [
+            {
+              "name": "Get-NtDirectory"
+            },
+            {
+              "name": "New-NtDirectory"
+            }
+          ]
+        },
+        {
+          "name": "NtEvent",
+          "children": [
+            {
+              "name": "Get-NtEvent"
+            },
+            {
+              "name": "New-NtEvent"
+            }
+          ]
+        },
+        {
+          "name": "NtFile",
+          "children": [
+            {
+              "name": "Get-NtFile"
+            },
+            {
+              "name": "New-NtFile"
+            },
+            {
+              "name": "Remove-NtFile"
+            },
+            {
+              "name": "Rename-NtFile"
+            },
+            {
+              "name": "Read-NtFile"
+            },
+            {
+              "name": "Write-NtFile"
+            },
+            {
+              "name": "Lock-NtFile"
+            },
+            {
+              "name": "Unlock-NtFile"
+            }
+          ]
+        },
+        {
+          "name": "NtFileReparsePoint",
+          "children": [
+            {
+              "name": "Get-NtFileReparsePoint"
+            },
+            {
+              "name": "Remove-NtFileReparsePoint"
+            },
+            {
+              "name": "Set-NtFileReparsePoint"
+            }
+          ]
+        },
+        {
+          "name": "NtHandle",
+          "children": [
+            {
+              "name": "Get-NtHandle"
+            }
+          ]
+        },
+        {
+          "name": "NtKey",
+          "children": [
+            {
+              "name": "Get-NtKey"
+            },
+            {
+              "name": "New-NtKey"
+            },
+            {
+              "name": "Remove-NtKey"
+            },
+            {
+              "name": "Backup-NtKey"
+            },
+            {
+              "name": "Restore-NtKey"
+            }
+          ]
+        },
+        {
+          "name": "NtMutant",
+          "children": [
+            {
+              "name": "Get-NtMutant"
+            },
+            {
+              "name": "New-NtMutant"
+            }
+          ]
+        },
+        {
+          "name": "NtNamedPipeFile",
+          "children": [
+            {
+              "name": "Get-NtNamedPipeFile"
+            },
+            {
+              "name": "New-NtNamedPipeFile"
+            }
+          ]
+        },
+        {
+          "name": "NtObject",
+          "children": [
+            {
+              "name": "Get-NtObject"
+            },
+            {
+              "name": "Use-NtObject"
+            },
+            {
+              "name": "Copy-NtObject"
+            },
+            {
+              "name": "Import-NtObject"
+            },
+            {
+              "name": "Export-NtObject"
+            },
+            {
+              "name": "Close-NtObject"
+            },
+            {
+              "name": "Compare-NtObject"
+            },
+            {
+              "name": "Test-NtObject"
+            }
+          ]
+        },
+        {
+          "name": "NtProcess",
+          "children": [
+            {
+              "name": "Get-NtProcess"
+            },
+            {
+              "name": "New-NtProcess"
+            },
+            {
+              "name": "Suspend-NtProcess"
+            },
+            {
+              "name": "Resume-NtProcess"
+            },
+            {
+              "name": "Stop-NtProcess"
+            },
+            {
+              "name": "Test-NtProcess"
+            }
+          ]
+        },
+        {
+          "name": "NtSemaphore",
+          "children": [
+            {
+              "name": "Get-NtSemaphore"
+            },
+            {
+              "name": "New-NtSemaphore"
+            }
+          ]
+        },
+        {
+          "name": "NtStatus",
+          "children": [
+            {
+              "name": "Get-NtStatus"
+            }
+          ]
+        },
+        {
+          "name": "NtSymbolicLink",
+          "children": [
+            {
+              "name": "Get-NtSymbolicLink"
+            },
+            {
+              "name": "New-NtSymbolicLink"
+            }
+          ]
+        },
+        {
+          "name": "NtSymbolicLinkTarget",
+          "children": [
+            {
+              "name": "Get-NtSymbolicLinkTarget"
+            }
+          ]
+        },
+        {
+          "name": "NtThread",
+          "children": [
+            {
+              "name": "Get-NtThread"
+            },
+            {
+              "name": "New-NtThread"
+            },
+            {
+              "name": "Suspend-NtThread"
+            },
+            {
+              "name": "Resume-NtThread"
+            },
+            {
+              "name": "Stop-NtThread"
+            }
+          ]
+        },
+        {
+          "name": "NtToken",
+          "children": [
+            {
+              "name": "Get-NtToken"
+            },
+            {
+              "name": "New-NtToken"
+            },
+            {
+              "name": "Invoke-NtToken"
+            },
+            {
+              "name": "Set-NtToken"
+            },
+            {
+              "name": "Show-NtToken"
+            },
+            {
+              "name": "Copy-NtToken"
+            },
+            {
+              "name": "Format-NtToken"
+            }
+          ]
+        },
+        {
+          "name": "NtType",
+          "children": [
+            {
+              "name": "Get-NtType"
+            },
+            {
+              "name": "New-NtType"
+            }
+          ]
+        },
+        {
+          "name": "NtMailslotFile",
+          "children": [
+            {
+              "name": "New-NtMailslotFile"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptor",
+          "children": [
+            {
+              "name": "New-NtSecurityDescriptor"
+            },
+            {
+              "name": "ConvertTo-NtSecurityDescriptor"
+            },
+            {
+              "name": "Compare-NtSecurityDescriptor"
+            },
+            {
+              "name": "Show-NtSecurityDescriptor"
+            },
+            {
+              "name": "Get-NtSecurityDescriptor"
+            },
+            {
+              "name": "Set-NtSecurityDescriptor"
+            },
+            {
+              "name": "Format-NtSecurityDescriptor"
+            },
+            {
+              "name": "Edit-NtSecurityDescriptor"
+            },
+            {
+              "name": "ConvertFrom-NtSecurityDescriptor"
+            },
+            {
+              "name": "Copy-NtSecurityDescriptor"
+            },
+            {
+              "name": "Test-NtSecurityDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "NtWait",
+          "children": [
+            {
+              "name": "Start-NtWait"
+            }
+          ]
+        },
+        {
+          "name": "NtSid",
+          "children": [
+            {
+              "name": "Get-NtSid"
+            },
+            {
+              "name": "Compare-NtSid"
+            },
+            {
+              "name": "ConvertFrom-NtSid"
+            },
+            {
+              "name": "Test-NtSid"
+            }
+          ]
+        },
+        {
+          "name": "NtSection",
+          "children": [
+            {
+              "name": "Get-NtSection"
+            },
+            {
+              "name": "New-NtSection"
+            },
+            {
+              "name": "Show-NtSection"
+            },
+            {
+              "name": "Add-NtSection"
+            },
+            {
+              "name": "Remove-NtSection"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleAlpcPort",
+          "children": [
+            {
+              "name": "Get-AccessibleAlpcPort"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleKey",
+          "children": [
+            {
+              "name": "Get-AccessibleKey"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleProcess",
+          "children": [
+            {
+              "name": "Get-AccessibleProcess"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleFile",
+          "children": [
+            {
+              "name": "Get-AccessibleFile"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleObject",
+          "children": [
+            {
+              "name": "Get-AccessibleObject"
+            }
+          ]
+        },
+        {
+          "name": "NtAccessMask",
+          "children": [
+            {
+              "name": "Get-NtAccessMask"
+            },
+            {
+              "name": "Test-NtAccessMask"
+            },
+            {
+              "name": "Grant-NtAccessMask"
+            },
+            {
+              "name": "Revoke-NtAccessMask"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleDevice",
+          "children": [
+            {
+              "name": "Get-AccessibleDevice"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleNamedPipe",
+          "children": [
+            {
+              "name": "Get-AccessibleNamedPipe"
+            }
+          ]
+        },
+        {
+          "name": "NtGrantedAccess",
+          "children": [
+            {
+              "name": "Get-NtGrantedAccess"
+            }
+          ]
+        },
+        {
+          "name": "NtJob",
+          "children": [
+            {
+              "name": "Get-NtJob"
+            },
+            {
+              "name": "New-NtJob"
+            },
+            {
+              "name": "Format-NtJob"
+            },
+            {
+              "name": "Stop-NtJob"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleService",
+          "children": [
+            {
+              "name": "Get-AccessibleService"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleHandle",
+          "children": [
+            {
+              "name": "Get-AccessibleHandle"
+            }
+          ]
+        },
+        {
+          "name": "NtDirectoryChild",
+          "children": [
+            {
+              "name": "Get-NtDirectoryChild"
+            }
+          ]
+        },
+        {
+          "name": "NtKeyChild",
+          "children": [
+            {
+              "name": "Get-NtKeyChild"
+            }
+          ]
+        },
+        {
+          "name": "DosDevice",
+          "children": [
+            {
+              "name": "Add-DosDevice"
+            },
+            {
+              "name": "Remove-DosDevice"
+            }
+          ]
+        },
+        {
+          "name": "NtFileChild",
+          "children": [
+            {
+              "name": "Get-NtFileChild"
+            }
+          ]
+        },
+        {
+          "name": "NtPartition",
+          "children": [
+            {
+              "name": "Get-NtPartition"
+            },
+            {
+              "name": "New-NtPartition"
+            }
+          ]
+        },
+        {
+          "name": "NtWaitTimeout",
+          "children": [
+            {
+              "name": "Get-NtWaitTimeout"
+            }
+          ]
+        },
+        {
+          "name": "NtTransaction",
+          "children": [
+            {
+              "name": "New-NtTransaction"
+            },
+            {
+              "name": "Get-NtTransaction"
+            }
+          ]
+        },
+        {
+          "name": "NtTransactionManager",
+          "children": [
+            {
+              "name": "New-NtTransactionManager"
+            },
+            {
+              "name": "Get-NtTransactionManager"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcClient",
+          "children": [
+            {
+              "name": "Connect-NtAlpcClient"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcServer",
+          "children": [
+            {
+              "name": "New-NtAlpcServer"
+            },
+            {
+              "name": "Connect-NtAlpcServer"
+            },
+            {
+              "name": "Get-NtAlpcServer"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcPortAttributes",
+          "children": [
+            {
+              "name": "New-NtAlpcPortAttributes"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcMessage",
+          "children": [
+            {
+              "name": "New-NtAlpcMessage"
+            },
+            {
+              "name": "Send-NtAlpcMessage"
+            },
+            {
+              "name": "Receive-NtAlpcMessage"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcReceiveAttributes",
+          "children": [
+            {
+              "name": "New-NtAlpcReceiveAttributes"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcSendAttributes",
+          "children": [
+            {
+              "name": "New-NtAlpcSendAttributes"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcPortSection",
+          "children": [
+            {
+              "name": "New-NtAlpcPortSection"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcDataView",
+          "children": [
+            {
+              "name": "New-NtAlpcDataView"
+            }
+          ]
+        },
+        {
+          "name": "NtAlpcSecurityContext",
+          "children": [
+            {
+              "name": "New-NtAlpcSecurityContext"
+            }
+          ]
+        },
+        {
+          "name": "NtDebug",
+          "children": [
+            {
+              "name": "New-NtDebug"
+            },
+            {
+              "name": "Get-NtDebug"
+            }
+          ]
+        },
+        {
+          "name": "NtDebugWait",
+          "children": [
+            {
+              "name": "Start-NtDebugWait"
+            }
+          ]
+        },
+        {
+          "name": "NtDebugProcess",
+          "children": [
+            {
+              "name": "Add-NtDebugProcess"
+            },
+            {
+              "name": "Remove-NtDebugProcess"
+            }
+          ]
+        },
+        {
+          "name": "NtResourceManager",
+          "children": [
+            {
+              "name": "New-NtResourceManager"
+            },
+            {
+              "name": "Get-NtResourceManager"
+            }
+          ]
+        },
+        {
+          "name": "NtTransactionGuid",
+          "children": [
+            {
+              "name": "Get-NtTransactionGuid"
+            }
+          ]
+        },
+        {
+          "name": "NtEnlistment",
+          "children": [
+            {
+              "name": "Get-NtEnlistment"
+            },
+            {
+              "name": "New-NtEnlistment"
+            }
+          ]
+        },
+        {
+          "name": "RpcServerName",
+          "children": [
+            {
+              "name": "Get-RpcServerName"
+            },
+            {
+              "name": "Set-RpcServerName"
+            }
+          ]
+        },
+        {
+          "name": "NtFileHardlink",
+          "children": [
+            {
+              "name": "New-NtFileHardlink"
+            }
+          ]
+        },
+        {
+          "name": "NetworkAccess",
+          "children": [
+            {
+              "name": "Test-NetworkAccess"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleScheduledTask",
+          "children": [
+            {
+              "name": "Get-AccessibleScheduledTask"
+            },
+            {
+              "name": "Start-AccessibleScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "RpcServer",
+          "children": [
+            {
+              "name": "Compare-RpcServer"
+            },
+            {
+              "name": "Select-RpcServer"
+            },
+            {
+              "name": "Get-RpcServer"
+            },
+            {
+              "name": "Format-RpcServer"
+            },
+            {
+              "name": "Set-RpcServer"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenSecurityAttribute",
+          "children": [
+            {
+              "name": "Add-NtTokenSecurityAttribute"
+            },
+            {
+              "name": "Remove-NtTokenSecurityAttribute"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleEventTrace",
+          "children": [
+            {
+              "name": "Get-AccessibleEventTrace"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenImpersonation",
+          "children": [
+            {
+              "name": "Test-NtTokenImpersonation"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleToken",
+          "children": [
+            {
+              "name": "Get-AccessibleToken"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessJob",
+          "children": [
+            {
+              "name": "Set-NtProcessJob"
+            },
+            {
+              "name": "Get-NtProcessJob"
+            },
+            {
+              "name": "Test-NtProcessJob"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleWnf",
+          "children": [
+            {
+              "name": "Get-AccessibleWnf"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleWindowStation",
+          "children": [
+            {
+              "name": "Get-AccessibleWindowStation"
+            }
+          ]
+        },
+        {
+          "name": "NtWindowStation",
+          "children": [
+            {
+              "name": "Get-NtWindowStation"
+            },
+            {
+              "name": "New-NtWindowStation"
+            }
+          ]
+        },
+        {
+          "name": "NtDesktop",
+          "children": [
+            {
+              "name": "Get-NtDesktop"
+            },
+            {
+              "name": "New-NtDesktop"
+            }
+          ]
+        },
+        {
+          "name": "Win32Error",
+          "children": [
+            {
+              "name": "Get-Win32Error"
+            }
+          ]
+        },
+        {
+          "name": "NtKeyValue",
+          "children": [
+            {
+              "name": "Set-NtKeyValue"
+            },
+            {
+              "name": "Get-NtKeyValue"
+            },
+            {
+              "name": "Remove-NtKeyValue"
+            }
+          ]
+        },
+        {
+          "name": "NtObjectInformation",
+          "children": [
+            {
+              "name": "Get-NtObjectInformation"
+            },
+            {
+              "name": "Set-NtObjectInformation"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenPrivilege",
+          "children": [
+            {
+              "name": "Test-NtTokenPrivilege"
+            },
+            {
+              "name": "Set-NtTokenPrivilege"
+            },
+            {
+              "name": "Remove-NtTokenPrivilege"
+            },
+            {
+              "name": "Get-NtTokenPrivilege"
+            },
+            {
+              "name": "Enable-NtTokenPrivilege"
+            },
+            {
+              "name": "Disable-NtTokenPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorAce",
+          "children": [
+            {
+              "name": "Add-NtSecurityDescriptorAce"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorAce"
+            },
+            {
+              "name": "Select-NtSecurityDescriptorAce"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityAttribute",
+          "children": [
+            {
+              "name": "New-NtSecurityAttribute"
+            }
+          ]
+        },
+        {
+          "name": "Win32SecurityDescriptor",
+          "children": [
+            {
+              "name": "Set-Win32SecurityDescriptor"
+            },
+            {
+              "name": "Reset-Win32SecurityDescriptor"
+            },
+            {
+              "name": "Search-Win32SecurityDescriptor"
+            },
+            {
+              "name": "Get-Win32SecurityDescriptor"
+            },
+            {
+              "name": "Format-Win32SecurityDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "NtAceCondition",
+          "children": [
+            {
+              "name": "Test-NtAceCondition"
+            },
+            {
+              "name": "ConvertFrom-NtAceCondition"
+            },
+            {
+              "name": "ConvertTo-NtAceCondition"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenGroup",
+          "children": [
+            {
+              "name": "Test-NtTokenGroup"
+            },
+            {
+              "name": "Get-NtTokenGroup"
+            },
+            {
+              "name": "Set-NtTokenGroup"
+            },
+            {
+              "name": "Reset-NtTokenGroup"
+            },
+            {
+              "name": "Enable-NtTokenGroup"
+            },
+            {
+              "name": "Disable-NtTokenGroup"
+            }
+          ]
+        },
+        {
+          "name": "NtAudit",
+          "children": [
+            {
+              "name": "Write-NtAudit"
+            }
+          ]
+        },
+        {
+          "name": "AuthZResourceManager",
+          "children": [
+            {
+              "name": "New-AuthZResourceManager"
+            }
+          ]
+        },
+        {
+          "name": "AuthZContext",
+          "children": [
+            {
+              "name": "New-AuthZContext"
+            }
+          ]
+        },
+        {
+          "name": "AuthZGrantedAccess",
+          "children": [
+            {
+              "name": "Get-AuthZGrantedAccess"
+            }
+          ]
+        },
+        {
+          "name": "AuthZSid",
+          "children": [
+            {
+              "name": "Add-AuthZSid"
+            },
+            {
+              "name": "Remove-AuthZSid"
+            },
+            {
+              "name": "Clear-AuthZSid"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenDefaultDacl",
+          "children": [
+            {
+              "name": "Get-NtTokenDefaultDacl"
+            },
+            {
+              "name": "Set-NtTokenDefaultDacl"
+            }
+          ]
+        },
+        {
+          "name": "NtKeySymbolicLinkTarget",
+          "children": [
+            {
+              "name": "Get-NtKeySymbolicLinkTarget"
+            }
+          ]
+        },
+        {
+          "name": "NtKeySymbolicLink",
+          "children": [
+            {
+              "name": "New-NtKeySymbolicLink"
+            }
+          ]
+        },
+        {
+          "name": "NtFileVolumeInformation",
+          "children": [
+            {
+              "name": "Get-NtFileVolumeInformation"
+            },
+            {
+              "name": "Set-NtFileVolumeInformation"
+            }
+          ]
+        },
+        {
+          "name": "NtFileControl",
+          "children": [
+            {
+              "name": "Send-NtFileControl"
+            }
+          ]
+        },
+        {
+          "name": "NtFileAttribute",
+          "children": [
+            {
+              "name": "Get-NtFileAttribute"
+            },
+            {
+              "name": "Set-NtFileAttribute"
+            }
+          ]
+        },
+        {
+          "name": "NtFileShareProcess",
+          "children": [
+            {
+              "name": "Get-NtFileShareProcess"
+            }
+          ]
+        },
+        {
+          "name": "NtFileCompression",
+          "children": [
+            {
+              "name": "Get-NtFileCompression"
+            },
+            {
+              "name": "Set-NtFileCompression"
+            }
+          ]
+        },
+        {
+          "name": "NtFileLink",
+          "children": [
+            {
+              "name": "Get-NtFileLink"
+            }
+          ]
+        },
+        {
+          "name": "NtFileStream",
+          "children": [
+            {
+              "name": "Get-NtFileStream"
+            }
+          ]
+        },
+        {
+          "name": "NtFileObjectId",
+          "children": [
+            {
+              "name": "Get-NtFileObjectId"
+            },
+            {
+              "name": "Set-NtFileObjectId"
+            },
+            {
+              "name": "Remove-NtFileObjectId"
+            }
+          ]
+        },
+        {
+          "name": "NtFileId",
+          "children": [
+            {
+              "name": "Get-NtFileId"
+            }
+          ]
+        },
+        {
+          "name": "NtFileFinalPath",
+          "children": [
+            {
+              "name": "Get-NtFileFinalPath"
+            }
+          ]
+        },
+        {
+          "name": "NtThreadApc",
+          "children": [
+            {
+              "name": "Add-NtThreadApc"
+            }
+          ]
+        },
+        {
+          "name": "NtEnclave",
+          "children": [
+            {
+              "name": "New-NtEnclave"
+            },
+            {
+              "name": "Invoke-NtEnclave"
+            }
+          ]
+        },
+        {
+          "name": "RandomByte",
+          "children": [
+            {
+              "name": "Get-RandomByte"
+            }
+          ]
+        },
+        {
+          "name": "RunningScheduledTask",
+          "children": [
+            {
+              "name": "Get-RunningScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "Win32ServiceConfig",
+          "children": [
+            {
+              "name": "Set-Win32ServiceConfig"
+            },
+            {
+              "name": "Get-Win32ServiceConfig"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleDsObject",
+          "children": [
+            {
+              "name": "Get-AccessibleDsObject"
+            }
+          ]
+        },
+        {
+          "name": "Win32GrantedAccess",
+          "children": [
+            {
+              "name": "Get-Win32GrantedAccess"
+            }
+          ]
+        },
+        {
+          "name": "AccessibleFwObject",
+          "children": [
+            {
+              "name": "Get-AccessibleFwObject"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcProxy",
+          "children": [
+            {
+              "name": "New-KerberosKdcProxy"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenIntegrityLevel",
+          "children": [
+            {
+              "name": "Set-NtTokenIntegrityLevel"
+            },
+            {
+              "name": "Get-NtTokenIntegrityLevel"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessMitigations",
+          "children": [
+            {
+              "name": "Get-NtProcessMitigations"
+            }
+          ]
+        },
+        {
+          "name": "NtKernelCrashDump",
+          "children": [
+            {
+              "name": "New-NtKernelCrashDump"
+            }
+          ]
+        },
+        {
+          "name": "NtObjectAttributes",
+          "children": [
+            {
+              "name": "New-NtObjectAttributes"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityQualityOfService",
+          "children": [
+            {
+              "name": "New-NtSecurityQualityOfService"
+            }
+          ]
+        },
+        {
+          "name": "NtLicenseValue",
+          "children": [
+            {
+              "name": "Get-NtLicenseValue"
+            }
+          ]
+        },
+        {
+          "name": "NtSystemEnvironmentValue",
+          "children": [
+            {
+              "name": "Get-NtSystemEnvironmentValue"
+            }
+          ]
+        },
+        {
+          "name": "Win32Process",
+          "children": [
+            {
+              "name": "New-Win32Process"
+            }
+          ]
+        },
+        {
+          "name": "NtEaBuffer",
+          "children": [
+            {
+              "name": "New-NtEaBuffer"
+            },
+            {
+              "name": "Add-NtEaBuffer"
+            }
+          ]
+        },
+        {
+          "name": "NtSectionImage",
+          "children": [
+            {
+              "name": "New-NtSectionImage"
+            }
+          ]
+        },
+        {
+          "name": "Win32ProcessConfig",
+          "children": [
+            {
+              "name": "New-Win32ProcessConfig"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenFromProcess",
+          "children": [
+            {
+              "name": "Get-NtTokenFromProcess"
+            }
+          ]
+        },
+        {
+          "name": "ExecutableManifest",
+          "children": [
+            {
+              "name": "Get-ExecutableManifest"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessConfig",
+          "children": [
+            {
+              "name": "New-NtProcessConfig"
+            }
+          ]
+        },
+        {
+          "name": "NtFilePath",
+          "children": [
+            {
+              "name": "Get-NtFilePath"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenEffective",
+          "children": [
+            {
+              "name": "Show-NtTokenEffective"
+            }
+          ]
+        },
+        {
+          "name": "NtIoControlCode",
+          "children": [
+            {
+              "name": "Get-NtIoControlCode"
+            }
+          ]
+        },
+        {
+          "name": "ExecutionAlias",
+          "children": [
+            {
+              "name": "Get-ExecutionAlias"
+            },
+            {
+              "name": "Set-ExecutionAlias"
+            }
+          ]
+        },
+        {
+          "name": "NtObjectAddress",
+          "children": [
+            {
+              "name": "Resolve-NtObjectAddress"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorIntegrityLevel",
+          "children": [
+            {
+              "name": "Get-NtSecurityDescriptorIntegrityLevel"
+            },
+            {
+              "name": "Set-NtSecurityDescriptorIntegrityLevel"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorIntegrityLevel"
+            }
+          ]
+        },
+        {
+          "name": "NtVirtualMemory",
+          "children": [
+            {
+              "name": "Add-NtVirtualMemory"
+            },
+            {
+              "name": "Get-NtVirtualMemory"
+            },
+            {
+              "name": "Remove-NtVirtualMemory"
+            },
+            {
+              "name": "Set-NtVirtualMemory"
+            },
+            {
+              "name": "Read-NtVirtualMemory"
+            },
+            {
+              "name": "Write-NtVirtualMemory"
+            }
+          ]
+        },
+        {
+          "name": "EmbeddedAuthenticodeSignature",
+          "children": [
+            {
+              "name": "Get-EmbeddedAuthenticodeSignature"
+            }
+          ]
+        },
+        {
+          "name": "NtSidName",
+          "children": [
+            {
+              "name": "Get-NtSidName"
+            },
+            {
+              "name": "Clear-NtSidName"
+            },
+            {
+              "name": "Add-NtSidName"
+            },
+            {
+              "name": "Remove-NtSidName"
+            }
+          ]
+        },
+        {
+          "name": "SymbolResolver",
+          "children": [
+            {
+              "name": "New-SymbolResolver"
+            }
+          ]
+        },
+        {
+          "name": "NdrParser",
+          "children": [
+            {
+              "name": "New-NdrParser"
+            }
+          ]
+        },
+        {
+          "name": "NdrComplexType",
+          "children": [
+            {
+              "name": "Format-NdrComplexType"
+            },
+            {
+              "name": "Get-NdrComplexType"
+            }
+          ]
+        },
+        {
+          "name": "NdrProcedure",
+          "children": [
+            {
+              "name": "Format-NdrProcedure"
+            }
+          ]
+        },
+        {
+          "name": "NdrComProxy",
+          "children": [
+            {
+              "name": "Format-NdrComProxy"
+            },
+            {
+              "name": "Get-NdrComProxy"
+            }
+          ]
+        },
+        {
+          "name": "NdrRpcServerInterface",
+          "children": [
+            {
+              "name": "Get-NdrRpcServerInterface"
+            },
+            {
+              "name": "Format-NdrRpcServerInterface"
+            }
+          ]
+        },
+        {
+          "name": "NtWnf",
+          "children": [
+            {
+              "name": "Get-NtWnf"
+            }
+          ]
+        },
+        {
+          "name": "NtCachedSigningLevel",
+          "children": [
+            {
+              "name": "Get-NtCachedSigningLevel"
+            },
+            {
+              "name": "Set-NtCachedSigningLevel"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorDaclAce",
+          "children": [
+            {
+              "name": "Add-NtSecurityDescriptorDaclAce"
+            }
+          ]
+        },
+        {
+          "name": "NtFilePathType",
+          "children": [
+            {
+              "name": "Get-NtFilePathType"
+            }
+          ]
+        },
+        {
+          "name": "RpcEndpoint",
+          "children": [
+            {
+              "name": "Get-RpcEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "GlobalSymbolResolver",
+          "children": [
+            {
+              "name": "Set-GlobalSymbolResolver"
+            }
+          ]
+        },
+        {
+          "name": "RunningService",
+          "children": [
+            {
+              "name": "Get-RunningService"
+            }
+          ]
+        },
+        {
+          "name": "RpcAlpcServer",
+          "children": [
+            {
+              "name": "Get-RpcAlpcServer"
+            }
+          ]
+        },
+        {
+          "name": "NtObjectFromHandle",
+          "children": [
+            {
+              "name": "Get-NtObjectFromHandle"
+            }
+          ]
+        },
+        {
+          "name": "Win32ChildProcess",
+          "children": [
+            {
+              "name": "Start-Win32ChildProcess"
+            }
+          ]
+        },
+        {
+          "name": "NtFileOplock",
+          "children": [
+            {
+              "name": "Start-NtFileOplock"
+            },
+            {
+              "name": "Confirm-NtFileOplock"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessMitigationPolicy",
+          "children": [
+            {
+              "name": "Get-NtProcessMitigationPolicy"
+            },
+            {
+              "name": "Set-NtProcessMitigationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppContainerProfile",
+          "children": [
+            {
+              "name": "Get-AppContainerProfile"
+            },
+            {
+              "name": "New-AppContainerProfile"
+            },
+            {
+              "name": "Remove-AppContainerProfile"
+            }
+          ]
+        },
+        {
+          "name": "RpcClient",
+          "children": [
+            {
+              "name": "Get-RpcClient"
+            },
+            {
+              "name": "Format-RpcClient"
+            },
+            {
+              "name": "Connect-RpcClient"
+            },
+            {
+              "name": "Disconnect-RpcClient"
+            }
+          ]
+        },
+        {
+          "name": "RpcContextHandle",
+          "children": [
+            {
+              "name": "New-RpcContextHandle"
+            }
+          ]
+        },
+        {
+          "name": "RpcComplexType",
+          "children": [
+            {
+              "name": "Format-RpcComplexType"
+            }
+          ]
+        },
+        {
+          "name": "Win32File",
+          "children": [
+            {
+              "name": "Get-Win32File"
+            }
+          ]
+        },
+        {
+          "name": "NtFileEa",
+          "children": [
+            {
+              "name": "Get-NtFileEa"
+            },
+            {
+              "name": "Set-NtFileEa"
+            },
+            {
+              "name": "Remove-NtFileEa"
+            }
+          ]
+        },
+        {
+          "name": "NtLocallyUniqueId",
+          "children": [
+            {
+              "name": "Get-NtLocallyUniqueId"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenSid",
+          "children": [
+            {
+              "name": "Get-NtTokenSid"
+            },
+            {
+              "name": "Set-NtTokenSid"
+            }
+          ]
+        },
+        {
+          "name": "NtDesktopName",
+          "children": [
+            {
+              "name": "Get-NtDesktopName"
+            }
+          ]
+        },
+        {
+          "name": "NtWindowStationName",
+          "children": [
+            {
+              "name": "Get-NtWindowStationName"
+            }
+          ]
+        },
+        {
+          "name": "NtWindow",
+          "children": [
+            {
+              "name": "Get-NtWindow"
+            }
+          ]
+        },
+        {
+          "name": "HexDump",
+          "children": [
+            {
+              "name": "Format-HexDump"
+            },
+            {
+              "name": "ConvertFrom-HexDump"
+            }
+          ]
+        },
+        {
+          "name": "NtTypeAccess",
+          "children": [
+            {
+              "name": "Get-NtTypeAccess"
+            }
+          ]
+        },
+        {
+          "name": "NtAtom",
+          "children": [
+            {
+              "name": "Get-NtAtom"
+            },
+            {
+              "name": "Add-NtAtom"
+            },
+            {
+              "name": "Remove-NtAtom"
+            }
+          ]
+        },
+        {
+          "name": "Win32Module",
+          "children": [
+            {
+              "name": "Import-Win32Module"
+            },
+            {
+              "name": "Get-Win32Module"
+            }
+          ]
+        },
+        {
+          "name": "Win32ModuleExport",
+          "children": [
+            {
+              "name": "Get-Win32ModuleExport"
+            }
+          ]
+        },
+        {
+          "name": "Win32ModuleImport",
+          "children": [
+            {
+              "name": "Get-Win32ModuleImport"
+            }
+          ]
+        },
+        {
+          "name": "NtDirectoryEntry",
+          "children": [
+            {
+              "name": "Get-NtDirectoryEntry"
+            }
+          ]
+        },
+        {
+          "name": "LsaCredential",
+          "children": [
+            {
+              "name": "Read-LsaCredential"
+            },
+            {
+              "name": "Get-LsaCredential"
+            }
+          ]
+        },
+        {
+          "name": "LsaPackage",
+          "children": [
+            {
+              "name": "Get-LsaPackage"
+            }
+          ]
+        },
+        {
+          "name": "LsaCredentialHandle",
+          "children": [
+            {
+              "name": "New-LsaCredentialHandle"
+            }
+          ]
+        },
+        {
+          "name": "LsaServerContext",
+          "children": [
+            {
+              "name": "New-LsaServerContext"
+            },
+            {
+              "name": "Update-LsaServerContext"
+            }
+          ]
+        },
+        {
+          "name": "LsaClientContext",
+          "children": [
+            {
+              "name": "New-LsaClientContext"
+            },
+            {
+              "name": "Update-LsaClientContext"
+            }
+          ]
+        },
+        {
+          "name": "LsaAccessToken",
+          "children": [
+            {
+              "name": "Get-LsaAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "NtKernelModule",
+          "children": [
+            {
+              "name": "Get-NtKernelModule"
+            }
+          ]
+        },
+        {
+          "name": "NtObjectInformationClass",
+          "children": [
+            {
+              "name": "Get-NtObjectInformationClass"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorOwner",
+          "children": [
+            {
+              "name": "Set-NtSecurityDescriptorOwner"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorOwner"
+            },
+            {
+              "name": "Get-NtSecurityDescriptorOwner"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorGroup",
+          "children": [
+            {
+              "name": "Set-NtSecurityDescriptorGroup"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorGroup"
+            },
+            {
+              "name": "Get-NtSecurityDescriptorGroup"
+            }
+          ]
+        },
+        {
+          "name": "NtUserGroup",
+          "children": [
+            {
+              "name": "New-NtUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "NtAcl",
+          "children": [
+            {
+              "name": "New-NtAcl"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorDacl",
+          "children": [
+            {
+              "name": "Set-NtSecurityDescriptorDacl"
+            },
+            {
+              "name": "Get-NtSecurityDescriptorDacl"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorDacl"
+            },
+            {
+              "name": "Clear-NtSecurityDescriptorDacl"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorSacl",
+          "children": [
+            {
+              "name": "Set-NtSecurityDescriptorSacl"
+            },
+            {
+              "name": "Get-NtSecurityDescriptorSacl"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorSacl"
+            },
+            {
+              "name": "Clear-NtSecurityDescriptorSacl"
+            }
+          ]
+        },
+        {
+          "name": "NtSecurityDescriptorControl",
+          "children": [
+            {
+              "name": "Set-NtSecurityDescriptorControl"
+            },
+            {
+              "name": "Get-NtSecurityDescriptorControl"
+            },
+            {
+              "name": "Add-NtSecurityDescriptorControl"
+            },
+            {
+              "name": "Remove-NtSecurityDescriptorControl"
+            }
+          ]
+        },
+        {
+          "name": "ObjectTypeTree",
+          "children": [
+            {
+              "name": "New-ObjectTypeTree"
+            },
+            {
+              "name": "Add-ObjectTypeTree"
+            },
+            {
+              "name": "Remove-ObjectTypeTree"
+            },
+            {
+              "name": "Select-ObjectTypeTree"
+            },
+            {
+              "name": "ConvertTo-ObjectTypeTree"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenMandatoryPolicy",
+          "children": [
+            {
+              "name": "Get-NtTokenMandatoryPolicy"
+            }
+          ]
+        },
+        {
+          "name": "CentralAccessPolicy",
+          "children": [
+            {
+              "name": "Get-CentralAccessPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ObjectTypeTreeAccess",
+          "children": [
+            {
+              "name": "Set-ObjectTypeTreeAccess"
+            },
+            {
+              "name": "Revoke-ObjectTypeTreeAccess"
+            }
+          ]
+        },
+        {
+          "name": "NtAuditPolicy",
+          "children": [
+            {
+              "name": "Get-NtAuditPolicy"
+            },
+            {
+              "name": "Set-NtAuditPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NtAuditSecurity",
+          "children": [
+            {
+              "name": "Get-NtAuditSecurity"
+            },
+            {
+              "name": "Set-NtAuditSecurity"
+            }
+          ]
+        },
+        {
+          "name": "LsaAuthToken",
+          "children": [
+            {
+              "name": "Format-LsaAuthToken"
+            },
+            {
+              "name": "Get-LsaAuthToken"
+            },
+            {
+              "name": "Export-LsaAuthToken"
+            },
+            {
+              "name": "Import-LsaAuthToken"
+            },
+            {
+              "name": "Unprotect-LsaAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "LsaContext",
+          "children": [
+            {
+              "name": "Test-LsaContext"
+            }
+          ]
+        },
+        {
+          "name": "NtLogonSession",
+          "children": [
+            {
+              "name": "Get-NtLogonSession"
+            }
+          ]
+        },
+        {
+          "name": "NtAccountRight",
+          "children": [
+            {
+              "name": "Get-NtAccountRight"
+            },
+            {
+              "name": "Add-NtAccountRight"
+            },
+            {
+              "name": "Remove-NtAccountRight"
+            }
+          ]
+        },
+        {
+          "name": "NtAccountRightSid",
+          "children": [
+            {
+              "name": "Get-NtAccountRightSid"
+            }
+          ]
+        },
+        {
+          "name": "NtConsoleSession",
+          "children": [
+            {
+              "name": "Get-NtConsoleSession"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipalName",
+          "children": [
+            {
+              "name": "Get-ServicePrincipalName"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenId",
+          "children": [
+            {
+              "name": "Get-NtTokenId"
+            }
+          ]
+        },
+        {
+          "name": "MD4Hash",
+          "children": [
+            {
+              "name": "Get-MD4Hash"
+            }
+          ]
+        },
+        {
+          "name": "ASN1DER",
+          "children": [
+            {
+              "name": "Format-ASN1DER"
+            },
+            {
+              "name": "Get-ASN1DER"
+            },
+            {
+              "name": "New-ASN1DER"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKeyTab",
+          "children": [
+            {
+              "name": "Import-KerberosKeyTab"
+            },
+            {
+              "name": "Export-KerberosKeyTab"
+            },
+            {
+              "name": "New-KerberosKeyTab"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKey",
+          "children": [
+            {
+              "name": "New-KerberosKey"
+            },
+            {
+              "name": "Get-KerberosKey"
+            }
+          ]
+        },
+        {
+          "name": "KerberosTicket",
+          "children": [
+            {
+              "name": "Get-KerberosTicket"
+            },
+            {
+              "name": "Format-KerberosTicket"
+            },
+            {
+              "name": "New-KerberosTicket"
+            },
+            {
+              "name": "Add-KerberosTicket"
+            },
+            {
+              "name": "Remove-KerberosTicket"
+            },
+            {
+              "name": "Rename-KerberosTicket"
+            },
+            {
+              "name": "Export-KerberosTicket"
+            },
+            {
+              "name": "Import-KerberosTicket"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessUser",
+          "children": [
+            {
+              "name": "Get-NtProcessUser"
+            }
+          ]
+        },
+        {
+          "name": "NtProcessEnvironment",
+          "children": [
+            {
+              "name": "Get-NtProcessEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "Win32CommandLine",
+          "children": [
+            {
+              "name": "Split-Win32CommandLine"
+            }
+          ]
+        },
+        {
+          "name": "NtWindowMessage",
+          "children": [
+            {
+              "name": "Send-NtWindowMessage"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenVirtualization",
+          "children": [
+            {
+              "name": "Enable-NtTokenVirtualization"
+            },
+            {
+              "name": "Disable-NtTokenVirtualization"
+            }
+          ]
+        },
+        {
+          "name": "FilterConnectionPort",
+          "children": [
+            {
+              "name": "Get-FilterConnectionPort"
+            },
+            {
+              "name": "Send-FilterConnectionPort"
+            }
+          ]
+        },
+        {
+          "name": "FilterDriver",
+          "children": [
+            {
+              "name": "Get-FilterDriver"
+            }
+          ]
+        },
+        {
+          "name": "FilterDriverInstance",
+          "children": [
+            {
+              "name": "Get-FilterDriverInstance"
+            }
+          ]
+        },
+        {
+          "name": "FilterDriverVolume",
+          "children": [
+            {
+              "name": "Get-FilterDriverVolume"
+            }
+          ]
+        },
+        {
+          "name": "FilterDriverVolumeInstance",
+          "children": [
+            {
+              "name": "Get-FilterDriverVolumeInstance"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceSetupClass",
+          "children": [
+            {
+              "name": "Get-NtDeviceSetupClass"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceNode",
+          "children": [
+            {
+              "name": "Get-NtDeviceNode"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceInterfaceClass",
+          "children": [
+            {
+              "name": "Get-NtDeviceInterfaceClass"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceProperty",
+          "children": [
+            {
+              "name": "Get-NtDeviceProperty"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceNodeChild",
+          "children": [
+            {
+              "name": "Get-NtDeviceNodeChild"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceInterfaceInstance",
+          "children": [
+            {
+              "name": "Get-NtDeviceInterfaceInstance"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceNodeParent",
+          "children": [
+            {
+              "name": "Get-NtDeviceNodeParent"
+            }
+          ]
+        },
+        {
+          "name": "NtDeviceNodeStack",
+          "children": [
+            {
+              "name": "Get-NtDeviceNodeStack"
+            }
+          ]
+        },
+        {
+          "name": "NtFileItem",
+          "children": [
+            {
+              "name": "Get-NtFileItem"
+            }
+          ]
+        },
+        {
+          "name": "NtFileChange",
+          "children": [
+            {
+              "name": "Get-NtFileChange"
+            }
+          ]
+        },
+        {
+          "name": "NtFileDisposition",
+          "children": [
+            {
+              "name": "Get-NtFileDisposition"
+            },
+            {
+              "name": "Set-NtFileDisposition"
+            }
+          ]
+        },
+        {
+          "name": "AsyncTaskResult",
+          "children": [
+            {
+              "name": "Wait-AsyncTaskResult"
+            }
+          ]
+        },
+        {
+          "name": "NtFile8dot3Name",
+          "children": [
+            {
+              "name": "Get-NtFile8dot3Name"
+            }
+          ]
+        },
+        {
+          "name": "NtFileDriverPath",
+          "children": [
+            {
+              "name": "Test-NtFileDriverPath"
+            }
+          ]
+        },
+        {
+          "name": "NtMountPoint",
+          "children": [
+            {
+              "name": "Get-NtMountPoint"
+            }
+          ]
+        },
+        {
+          "name": "NtFileReparseBuffer",
+          "children": [
+            {
+              "name": "New-NtFileReparseBuffer"
+            }
+          ]
+        },
+        {
+          "name": "NtFileQuota",
+          "children": [
+            {
+              "name": "Get-NtFileQuota"
+            },
+            {
+              "name": "Set-NtFileQuota"
+            }
+          ]
+        },
+        {
+          "name": "NtFileUsnJournal",
+          "children": [
+            {
+              "name": "Read-NtFileUsnJournal"
+            }
+          ]
+        },
+        {
+          "name": "AppModelApplication",
+          "children": [
+            {
+              "name": "Start-AppModelApplication"
+            }
+          ]
+        },
+        {
+          "name": "NtThreadContext",
+          "children": [
+            {
+              "name": "Get-NtThreadContext"
+            },
+            {
+              "name": "Set-NtThreadContext"
+            }
+          ]
+        },
+        {
+          "name": "AppModelApplicationPolicy",
+          "children": [
+            {
+              "name": "Get-AppModelApplicationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AppxDesktopBridge",
+          "children": [
+            {
+              "name": "Get-AppxDesktopBridge"
+            }
+          ]
+        },
+        {
+          "name": "NtThreadWorkOnBehalfTicket",
+          "children": [
+            {
+              "name": "Get-NtThreadWorkOnBehalfTicket"
+            },
+            {
+              "name": "Set-NtThreadWorkOnBehalfTicket"
+            },
+            {
+              "name": "Clear-NtThreadWorkOnBehalfTicket"
+            }
+          ]
+        },
+        {
+          "name": "NtThreadContainerId",
+          "children": [
+            {
+              "name": "Get-NtThreadContainerId"
+            }
+          ]
+        },
+        {
+          "name": "NtThreadContainer",
+          "children": [
+            {
+              "name": "Set-NtThreadContainer"
+            }
+          ]
+        },
+        {
+          "name": "NtSigningLevel",
+          "children": [
+            {
+              "name": "Compare-NtSigningLevel"
+            },
+            {
+              "name": "Get-NtSigningLevel"
+            }
+          ]
+        },
+        {
+          "name": "NtSystemInformation",
+          "children": [
+            {
+              "name": "Get-NtSystemInformation"
+            }
+          ]
+        },
+        {
+          "name": "X509Certificate",
+          "children": [
+            {
+              "name": "Get-X509Certificate"
+            }
+          ]
+        },
+        {
+          "name": "Win32DebugConsole",
+          "children": [
+            {
+              "name": "Start-Win32DebugConsole"
+            },
+            {
+              "name": "New-Win32DebugConsole"
+            },
+            {
+              "name": "Read-Win32DebugConsole"
+            }
+          ]
+        },
+        {
+          "name": "Win32Service",
+          "children": [
+            {
+              "name": "Get-Win32Service"
+            },
+            {
+              "name": "New-Win32Service"
+            },
+            {
+              "name": "Remove-Win32Service"
+            },
+            {
+              "name": "Start-Win32Service"
+            },
+            {
+              "name": "Wait-Win32Service"
+            },
+            {
+              "name": "Send-Win32Service"
+            },
+            {
+              "name": "Restart-Win32Service"
+            },
+            {
+              "name": "Test-Win32Service"
+            }
+          ]
+        },
+        {
+          "name": "NtApiSet",
+          "children": [
+            {
+              "name": "Get-NtApiSet"
+            }
+          ]
+        },
+        {
+          "name": "NtTokenCapability",
+          "children": [
+            {
+              "name": "Test-NtTokenCapability"
+            }
+          ]
+        },
+        {
+          "name": "Win32ServiceSecurityDescriptor",
+          "children": [
+            {
+              "name": "Get-Win32ServiceSecurityDescriptor"
+            },
+            {
+              "name": "Set-Win32ServiceSecurityDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "Win32ModuleSymbolFile",
+          "children": [
+            {
+              "name": "Get-Win32ModuleSymbolFile"
+            }
+          ]
+        },
+        {
+          "name": "RpcStringBinding",
+          "children": [
+            {
+              "name": "Get-RpcStringBinding"
+            }
+          ]
+        },
+        {
+          "name": "LsaContextSignature",
+          "children": [
+            {
+              "name": "Get-LsaContextSignature"
+            },
+            {
+              "name": "Test-LsaContextSignature"
+            }
+          ]
+        },
+        {
+          "name": "LsaContextMessage",
+          "children": [
+            {
+              "name": "Protect-LsaContextMessage"
+            },
+            {
+              "name": "Unprotect-LsaContextMessage"
+            }
+          ]
+        },
+        {
+          "name": "LsaSecurityBuffer",
+          "children": [
+            {
+              "name": "New-LsaSecurityBuffer"
+            },
+            {
+              "name": "ConvertFrom-LsaSecurityBuffer"
+            }
+          ]
+        },
+        {
+          "name": "LsaSchannelCredential",
+          "children": [
+            {
+              "name": "Get-LsaSchannelCredential"
+            }
+          ]
+        },
+        {
+          "name": "LsaCredSSPCredential",
+          "children": [
+            {
+              "name": "Get-LsaCredSSPCredential"
+            }
+          ]
+        },
+        {
+          "name": "AppModelLoopbackException",
+          "children": [
+            {
+              "name": "Get-AppModelLoopbackException"
+            },
+            {
+              "name": "Add-AppModelLoopbackException"
+            },
+            {
+              "name": "Remove-AppModelLoopbackException"
+            }
+          ]
+        },
+        {
+          "name": "NtSDKName",
+          "children": [
+            {
+              "name": "Get-NtSDKName"
+            }
+          ]
+        },
+        {
+          "name": "Win32ServiceTrigger",
+          "children": [
+            {
+              "name": "Get-Win32ServiceTrigger"
+            }
+          ]
+        },
+        {
+          "name": "Win32ModuleResource",
+          "children": [
+            {
+              "name": "Get-Win32ModuleResource"
+            }
+          ]
+        },
+        {
+          "name": "LsaPolicy",
+          "children": [
+            {
+              "name": "Get-LsaPolicy"
+            }
+          ]
+        },
+        {
+          "name": "SamServer",
+          "children": [
+            {
+              "name": "Connect-SamServer"
+            }
+          ]
+        },
+        {
+          "name": "SamDomain",
+          "children": [
+            {
+              "name": "Get-SamDomain"
+            }
+          ]
+        },
+        {
+          "name": "SamUser",
+          "children": [
+            {
+              "name": "Get-SamUser"
+            },
+            {
+              "name": "New-SamUser"
+            }
+          ]
+        },
+        {
+          "name": "SamAlias",
+          "children": [
+            {
+              "name": "Get-SamAlias"
+            }
+          ]
+        },
+        {
+          "name": "SamGroup",
+          "children": [
+            {
+              "name": "Get-SamGroup"
+            }
+          ]
+        },
+        {
+          "name": "LsaPrivateData",
+          "children": [
+            {
+              "name": "Get-LsaPrivateData"
+            },
+            {
+              "name": "Set-LsaPrivateData"
+            }
+          ]
+        },
+        {
+          "name": "LsaAccount",
+          "children": [
+            {
+              "name": "Get-LsaAccount"
+            }
+          ]
+        },
+        {
+          "name": "LsaTrustedDomain",
+          "children": [
+            {
+              "name": "Get-LsaTrustedDomain"
+            }
+          ]
+        },
+        {
+          "name": "LsaSecret",
+          "children": [
+            {
+              "name": "Get-LsaSecret"
+            }
+          ]
+        },
+        {
+          "name": "SamAliasMember",
+          "children": [
+            {
+              "name": "Get-SamAliasMember"
+            }
+          ]
+        },
+        {
+          "name": "SamGroupMember",
+          "children": [
+            {
+              "name": "Get-SamGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "DsExtendedRight",
+          "children": [
+            {
+              "name": "Get-DsExtendedRight"
+            }
+          ]
+        },
+        {
+          "name": "DsSchemaClass",
+          "children": [
+            {
+              "name": "Get-DsSchemaClass"
+            }
+          ]
+        },
+        {
+          "name": "LsaName",
+          "children": [
+            {
+              "name": "Get-LsaName"
+            }
+          ]
+        },
+        {
+          "name": "LsaSid",
+          "children": [
+            {
+              "name": "Get-LsaSid"
+            }
+          ]
+        },
+        {
+          "name": "RC4",
+          "children": [
+            {
+              "name": "Protect-RC4"
+            }
+          ]
+        },
+        {
+          "name": "DsObjectSid",
+          "children": [
+            {
+              "name": "Get-DsObjectSid"
+            },
+            {
+              "name": "Search-DsObjectSid"
+            }
+          ]
+        },
+        {
+          "name": "DsObjectSchemaClass",
+          "children": [
+            {
+              "name": "Get-DsObjectSchemaClass"
+            }
+          ]
+        },
+        {
+          "name": "DsSchemaAttribute",
+          "children": [
+            {
+              "name": "Get-DsSchemaAttribute"
+            }
+          ]
+        },
+        {
+          "name": "DsHeuristics",
+          "children": [
+            {
+              "name": "Get-DsHeuristics"
+            }
+          ]
+        },
+        {
+          "name": "DsSDRightsEffective",
+          "children": [
+            {
+              "name": "Get-DsSDRightsEffective"
+            }
+          ]
+        },
+        {
+          "name": "Win32Credential",
+          "children": [
+            {
+              "name": "Get-Win32Credential"
+            },
+            {
+              "name": "Backup-Win32Credential"
+            },
+            {
+              "name": "Remove-Win32Credential"
+            },
+            {
+              "name": "Set-Win32Credential"
+            },
+            {
+              "name": "Protect-Win32Credential"
+            },
+            {
+              "name": "Unprotect-Win32Credential"
+            }
+          ]
+        },
+        {
+          "name": "BinaryString",
+          "children": [
+            {
+              "name": "Select-BinaryString"
+            }
+          ]
+        },
+        {
+          "name": "FwEngine",
+          "children": [
+            {
+              "name": "Get-FwEngine"
+            }
+          ]
+        },
+        {
+          "name": "FwLayer",
+          "children": [
+            {
+              "name": "Get-FwLayer"
+            }
+          ]
+        },
+        {
+          "name": "FwFilter",
+          "children": [
+            {
+              "name": "Get-FwFilter"
+            },
+            {
+              "name": "Remove-FwFilter"
+            },
+            {
+              "name": "Format-FwFilter"
+            },
+            {
+              "name": "Add-FwFilter"
+            }
+          ]
+        },
+        {
+          "name": "FwSubLayer",
+          "children": [
+            {
+              "name": "Get-FwSubLayer"
+            }
+          ]
+        },
+        {
+          "name": "FwConditionBuilder",
+          "children": [
+            {
+              "name": "New-FwConditionBuilder"
+            }
+          ]
+        },
+        {
+          "name": "FwGuid",
+          "children": [
+            {
+              "name": "Get-FwGuid"
+            }
+          ]
+        },
+        {
+          "name": "FwFilterTemplate",
+          "children": [
+            {
+              "name": "New-FwFilterTemplate"
+            }
+          ]
+        },
+        {
+          "name": "FwAleEndpoint",
+          "children": [
+            {
+              "name": "Get-FwAleEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "FwToken",
+          "children": [
+            {
+              "name": "Get-FwToken"
+            }
+          ]
+        },
+        {
+          "name": "SocketSecurity",
+          "children": [
+            {
+              "name": "Get-SocketSecurity"
+            },
+            {
+              "name": "Set-SocketSecurity"
+            }
+          ]
+        },
+        {
+          "name": "SocketPeerTargetName",
+          "children": [
+            {
+              "name": "Set-SocketPeerTargetName"
+            }
+          ]
+        },
+        {
+          "name": "IkeSecurityAssociation",
+          "children": [
+            {
+              "name": "Get-IkeSecurityAssociation"
+            }
+          ]
+        },
+        {
+          "name": "FwSession",
+          "children": [
+            {
+              "name": "Get-FwSession"
+            }
+          ]
+        },
+        {
+          "name": "FwNetEvent",
+          "children": [
+            {
+              "name": "Get-FwNetEvent"
+            },
+            {
+              "name": "Read-FwNetEvent"
+            }
+          ]
+        },
+        {
+          "name": "FwNetEventListener",
+          "children": [
+            {
+              "name": "New-FwNetEventListener"
+            },
+            {
+              "name": "Start-FwNetEventListener"
+            }
+          ]
+        },
+        {
+          "name": "IPsecSaContext",
+          "children": [
+            {
+              "name": "Get-IPsecSaContext"
+            }
+          ]
+        },
+        {
+          "name": "FwEngineOption",
+          "children": [
+            {
+              "name": "Get-FwEngineOption"
+            },
+            {
+              "name": "Set-FwEngineOption"
+            }
+          ]
+        },
+        {
+          "name": "FwNetEventTemplate",
+          "children": [
+            {
+              "name": "New-FwNetEventTemplate"
+            }
+          ]
+        },
+        {
+          "name": "FwCondition",
+          "children": [
+            {
+              "name": "Add-FwCondition"
+            }
+          ]
+        },
+        {
+          "name": "FwCallout",
+          "children": [
+            {
+              "name": "Get-FwCallout"
+            }
+          ]
+        },
+        {
+          "name": "RpcClientSecurityContext",
+          "children": [
+            {
+              "name": "Add-RpcClientSecurityContext"
+            },
+            {
+              "name": "Set-RpcClientSecurityContext"
+            },
+            {
+              "name": "Get-RpcClientSecurityContext"
+            }
+          ]
+        },
+        {
+          "name": "RpcSecurityPrincipalName",
+          "children": [
+            {
+              "name": "Get-RpcSecurityPrincipalName"
+            }
+          ]
+        },
+        {
+          "name": "FwProvider",
+          "children": [
+            {
+              "name": "Get-FwProvider"
+            }
+          ]
+        },
+        {
+          "name": "Win32Environment",
+          "children": [
+            {
+              "name": "Update-Win32Environment"
+            }
+          ]
+        },
+        {
+          "name": "KerberosChecksum",
+          "children": [
+            {
+              "name": "New-KerberosChecksum"
+            }
+          ]
+        },
+        {
+          "name": "KerberosPrincipalName",
+          "children": [
+            {
+              "name": "New-KerberosPrincipalName"
+            }
+          ]
+        },
+        {
+          "name": "KerberosAuthenticator",
+          "children": [
+            {
+              "name": "New-KerberosAuthenticator"
+            }
+          ]
+        },
+        {
+          "name": "KerberosApRequest",
+          "children": [
+            {
+              "name": "New-KerberosApRequest"
+            }
+          ]
+        },
+        {
+          "name": "KerberosTicketCache",
+          "children": [
+            {
+              "name": "New-KerberosTicketCache"
+            },
+            {
+              "name": "Export-KerberosTicketCache"
+            },
+            {
+              "name": "Import-KerberosTicketCache"
+            }
+          ]
+        },
+        {
+          "name": "KerberosError",
+          "children": [
+            {
+              "name": "New-KerberosError"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcPin",
+          "children": [
+            {
+              "name": "Add-KerberosKdcPin"
+            },
+            {
+              "name": "Clear-KerberosKdcPin"
+            }
+          ]
+        },
+        {
+          "name": "KerberosTgsRequest",
+          "children": [
+            {
+              "name": "New-KerberosTgsRequest"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcRequest",
+          "children": [
+            {
+              "name": "Send-KerberosKdcRequest"
+            }
+          ]
+        },
+        {
+          "name": "KerberosAsRequest",
+          "children": [
+            {
+              "name": "New-KerberosAsRequest"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcServer",
+          "children": [
+            {
+              "name": "New-KerberosKdcServer"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcServerUser",
+          "children": [
+            {
+              "name": "New-KerberosKdcServerUser"
+            }
+          ]
+        },
+        {
+          "name": "KerberosAuthorizationData",
+          "children": [
+            {
+              "name": "New-KerberosAuthorizationData"
+            }
+          ]
+        },
+        {
+          "name": "KerberosKdcAddress",
+          "children": [
+            {
+              "name": "Resolve-KerberosKdcAddress"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

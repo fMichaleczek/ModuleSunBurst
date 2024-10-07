@@ -1,0 +1,159 @@
+{
+  "name": "Ben Taylor Work",
+  "children": [
+    {
+      "name": "awp",
+      "companyName": "Ben Taylor Work",
+      "author": "Ben Taylor",
+      "children": [
+        {
+          "name": "AWPPreReq",
+          "children": [
+            {
+              "name": "Test-AWPPreReq"
+            }
+          ]
+        },
+        {
+          "name": "AWP",
+          "children": [
+            {
+              "name": "Install-AWP"
+            },
+            {
+              "name": "Uninstall-AWP"
+            }
+          ]
+        },
+        {
+          "name": "AWPInstall",
+          "children": [
+            {
+              "name": "Test-AWPInstall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzBluePrint",
+      "companyName": "Ben Taylor Work",
+      "author": "Ben Taylor",
+      "children": [
+        {
+          "name": "AzBluePrint",
+          "children": [
+            {
+              "name": "Import-AzBluePrint"
+            },
+            {
+              "name": "Export-AzBluePrint"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "azureVpnP2SSelfSignedCertificate",
+      "companyName": "Ben Taylor Work",
+      "author": "Ben Taylor",
+      "children": [
+        {
+          "name": "AzureVPNRootCertificate",
+          "children": [
+            {
+              "name": "New-AzureVPNRootCertificate"
+            }
+          ]
+        },
+        {
+          "name": "AzureVPNClientCertificate",
+          "children": [
+            {
+              "name": "New-AzureVPNClientCertificate"
+            }
+          ]
+        },
+        {
+          "name": "AzureVPNCertificate",
+          "children": [
+            {
+              "name": "Export-AzureVPNCertificate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "omsAgent",
+      "companyName": "Ben Taylor Work",
+      "author": "Ben Taylor",
+      "children": [
+        {
+          "name": "omsAgentWorkSpace",
+          "children": [
+            {
+              "name": "Get-omsAgentWorkSpace"
+            },
+            {
+              "name": "Add-omsAgentWorkSpace"
+            },
+            {
+              "name": "Remove-omsAgentWorkSpace"
+            }
+          ]
+        },
+        {
+          "name": "omsAgent",
+          "children": [
+            {
+              "name": "Get-omsAgent"
+            },
+            {
+              "name": "Install-omsAgent"
+            },
+            {
+              "name": "Uninstall-omsAgent"
+            }
+          ]
+        },
+        {
+          "name": "omsAgentWorkSpaceKey",
+          "children": [
+            {
+              "name": "Update-omsAgentWorkSpaceKey"
+            }
+          ]
+        },
+        {
+          "name": "omsAgentProxy",
+          "children": [
+            {
+              "name": "Get-omsAgentProxy"
+            },
+            {
+              "name": "Remove-omsAgentProxy"
+            },
+            {
+              "name": "Add-omsAgentProxy"
+            }
+          ]
+        },
+        {
+          "name": "OmsDependencyAgent",
+          "children": [
+            {
+              "name": "Install-OmsDependencyAgent"
+            },
+            {
+              "name": "Get-omsDependencyAgent"
+            },
+            {
+              "name": "Uninstall-omsDependencyAgent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "name": "NewLife Software",
+  "children": [
+    {
+      "name": "nl.nlsw.Document",
+      "companyName": "NewLife Software",
+      "author": "Ernst van der Pols",
+      "children": [
+        {
+          "name": "HashtableArray",
+          "children": [
+            {
+              "name": "ConvertFrom-HashtableArray"
+            }
+          ]
+        },
+        {
+          "name": "OrderedDictionary",
+          "children": [
+            {
+              "name": "ConvertTo-OrderedDictionary"
+            }
+          ]
+        },
+        {
+          "name": "MimeType",
+          "children": [
+            {
+              "name": "Get-MimeType"
+            }
+          ]
+        },
+        {
+          "name": "ExtensionFromMimeType",
+          "children": [
+            {
+              "name": "Get-ExtensionFromMimeType"
+            }
+          ]
+        },
+        {
+          "name": "ItemObjectMacro",
+          "children": [
+            {
+              "name": "Expand-ItemObjectMacro"
+            }
+          ]
+        },
+        {
+          "name": "XmlDocument",
+          "children": [
+            {
+              "name": "New-XmlDocument"
+            }
+          ]
+        },
+        {
+          "name": "XmlElement",
+          "children": [
+            {
+              "name": "Add-XmlElement"
+            }
+          ]
+        },
+        {
+          "name": "XmlProcessingInstruction",
+          "children": [
+            {
+              "name": "Add-XmlProcessingInstruction"
+            }
+          ]
+        },
+        {
+          "name": "XmlText",
+          "children": [
+            {
+              "name": "Add-XmlText"
+            }
+          ]
+        },
+        {
+          "name": "XmlNamespaceManager",
+          "children": [
+            {
+              "name": "New-XmlNamespaceManager"
+            }
+          ]
+        },
+        {
+          "name": "HtmlElement",
+          "children": [
+            {
+              "name": "Add-HtmlElement"
+            }
+          ]
+        },
+        {
+          "name": "HtmlDocument",
+          "children": [
+            {
+              "name": "New-HtmlDocument"
+            }
+          ]
+        },
+        {
+          "name": "HtmlBody",
+          "children": [
+            {
+              "name": "Get-HtmlBody"
+            }
+          ]
+        },
+        {
+          "name": "HtmlHead",
+          "children": [
+            {
+              "name": "Get-HtmlHead"
+            }
+          ]
+        },
+        {
+          "name": "XmlNamespace",
+          "children": [
+            {
+              "name": "Get-XmlNamespace"
+            }
+          ]
+        },
+        {
+          "name": "ValidFileName",
+          "children": [
+            {
+              "name": "Get-ValidFileName"
+            }
+          ]
+        },
+        {
+          "name": "VersionControlledFile",
+          "children": [
+            {
+              "name": "Move-VersionControlledFile"
+            },
+            {
+              "name": "Test-VersionControlledFile"
+            }
+          ]
+        },
+        {
+          "name": "IncrementalFileName",
+          "children": [
+            {
+              "name": "New-IncrementalFileName"
+            }
+          ]
+        },
+        {
+          "name": "TempFolder",
+          "children": [
+            {
+              "name": "New-TempFolder"
+            },
+            {
+              "name": "Remove-TempFolder"
+            }
+          ]
+        },
+        {
+          "name": "ItemToRecycleBin",
+          "children": [
+            {
+              "name": "Remove-ItemToRecycleBin"
+            }
+          ]
+        },
+        {
+          "name": "Ini",
+          "children": [
+            {
+              "name": "Export-Ini"
+            },
+            {
+              "name": "Import-Ini"
+            }
+          ]
+        },
+        {
+          "name": "EPUB",
+          "children": [
+            {
+              "name": "ConvertTo-EPUB"
+            }
+          ]
+        },
+        {
+          "name": "DotNetPowerShellPackage",
+          "children": [
+            {
+              "name": "Build-DotNetPowerShellPackage"
+            }
+          ]
+        },
+        {
+          "name": "DotNetPackage",
+          "children": [
+            {
+              "name": "Get-DotNetPackage"
+            }
+          ]
+        },
+        {
+          "name": "DotNetLibrary",
+          "children": [
+            {
+              "name": "Import-DotNetLibrary"
+            }
+          ]
+        },
+        {
+          "name": "ExcelData",
+          "children": [
+            {
+              "name": "Get-ExcelData"
+            }
+          ]
+        },
+        {
+          "name": "ExcelDataTable",
+          "children": [
+            {
+              "name": "Get-ExcelDataTable"
+            }
+          ]
+        },
+        {
+          "name": "ExcelDataSet",
+          "children": [
+            {
+              "name": "Import-ExcelDataSet"
+            }
+          ]
+        },
+        {
+          "name": "FormattedJson",
+          "children": [
+            {
+              "name": "ConvertTo-FormattedJson"
+            }
+          ]
+        },
+        {
+          "name": "SQLiteDataSet",
+          "children": [
+            {
+              "name": "Get-SQLiteDataSet"
+            }
+          ]
+        },
+        {
+          "name": "SQLiteCommand",
+          "children": [
+            {
+              "name": "Invoke-SQLiteCommand"
+            }
+          ]
+        },
+        {
+          "name": "Feed",
+          "children": [
+            {
+              "name": "Read-Feed"
+            }
+          ]
+        },
+        {
+          "name": "FeedAttachment",
+          "children": [
+            {
+              "name": "Save-FeedAttachment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nl.nlsw.TestSuite",
+      "companyName": "NewLife Software",
+      "author": "Ernst van der Pols",
+      "children": [
+        {
+          "name": "TestSuite",
+          "children": [
+            {
+              "name": "New-TestSuite"
+            },
+            {
+              "name": "Test-TestSuite"
+            }
+          ]
+        },
+        {
+          "name": "Case",
+          "children": [
+            {
+              "name": "Test-Case"
+            }
+          ]
+        },
+        {
+          "name": "TestResult",
+          "children": [
+            {
+              "name": "Write-TestResult"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

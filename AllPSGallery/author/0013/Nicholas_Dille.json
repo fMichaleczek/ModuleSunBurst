@@ -1,0 +1,1494 @@
+{
+  "name": "Nicholas Dille",
+  "children": [
+    {
+      "name": "Artifactory",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "Artifactory",
+          "children": [
+            {
+              "name": "Set-Artifactory"
+            }
+          ]
+        },
+        {
+          "name": "Artifact",
+          "children": [
+            {
+              "name": "Find-Artifact"
+            },
+            {
+              "name": "Get-Artifact"
+            },
+            {
+              "name": "Remove-Artifact"
+            }
+          ]
+        },
+        {
+          "name": "UnusedArtifact",
+          "children": [
+            {
+              "name": "Find-UnusedArtifact"
+            }
+          ]
+        },
+        {
+          "name": "UnusedDockerImage",
+          "children": [
+            {
+              "name": "Find-UnusedDockerImage"
+            }
+          ]
+        },
+        {
+          "name": "ArtifactStatistics",
+          "children": [
+            {
+              "name": "Get-ArtifactStatistics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitBucketCloud",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "BitBucketCloud",
+          "children": [
+            {
+              "name": "Set-BitBucketCloud"
+            }
+          ]
+        },
+        {
+          "name": "BitBucketCloudGroup",
+          "children": [
+            {
+              "name": "Add-BitBucketCloudGroup"
+            },
+            {
+              "name": "Get-BitBucketCloudGroup"
+            },
+            {
+              "name": "Remove-BitBucketCloudGroup"
+            }
+          ]
+        },
+        {
+          "name": "BitBucketCloudMember",
+          "children": [
+            {
+              "name": "Add-BitBucketCloudMember"
+            },
+            {
+              "name": "Get-BitBucketCloudMember"
+            },
+            {
+              "name": "Remove-BitBucketCloudMember"
+            }
+          ]
+        },
+        {
+          "name": "BitBucketCloudPrivilege",
+          "children": [
+            {
+              "name": "Add-BitBucketCloudPrivilege"
+            },
+            {
+              "name": "Get-BitBucketCloudPrivilege"
+            },
+            {
+              "name": "Remove-BitBucketCloudPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "BitBucketCloudUser",
+          "children": [
+            {
+              "name": "Block-BitBucketCloudUser"
+            }
+          ]
+        },
+        {
+          "name": "BitBucketCloudRepository",
+          "children": [
+            {
+              "name": "Get-BitBucketCloudRepository"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitBucketServer",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "BitBucketServer",
+          "children": [
+            {
+              "name": "Set-BitBucketServer"
+            }
+          ]
+        },
+        {
+          "name": "BitBucketServerGroup",
+          "children": [
+            {
+              "name": "Get-BitBucketServerGroup"
+            }
+          ]
+        },
+        {
+          "name": "BitBucketServerProject",
+          "children": [
+            {
+              "name": "Get-BitBucketServerProject"
+            }
+          ]
+        },
+        {
+          "name": "BitBucketServerRepository",
+          "children": [
+            {
+              "name": "Get-BitBucketServerRepository"
+            }
+          ]
+        },
+        {
+          "name": "BitBucketServerUser",
+          "children": [
+            {
+              "name": "Get-BitBucketServerUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CICD",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "GitHubRelease",
+          "children": [
+            {
+              "name": "Get-GitHubRelease"
+            },
+            {
+              "name": "New-GitHubRelease"
+            },
+            {
+              "name": "Remove-GitHubRelease"
+            }
+          ]
+        },
+        {
+          "name": "GitHubReleaseAsset",
+          "children": [
+            {
+              "name": "Get-GitHubReleaseAsset"
+            },
+            {
+              "name": "New-GitHubReleaseAsset"
+            },
+            {
+              "name": "Remove-GitHubReleaseAsset"
+            }
+          ]
+        },
+        {
+          "name": "CoverageReportFromPester",
+          "children": [
+            {
+              "name": "New-CoverageReportFromPester"
+            }
+          ]
+        },
+        {
+          "name": "CodeCoverageMetric",
+          "children": [
+            {
+              "name": "Get-CodeCoverageMetric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DockerRegistry",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "DockerImageLayer",
+          "children": [
+            {
+              "name": "Add-DockerImageLayer"
+            },
+            {
+              "name": "Merge-DockerImageLayer"
+            }
+          ]
+        },
+        {
+          "name": "DockerImage",
+          "children": [
+            {
+              "name": "Copy-DockerImage"
+            }
+          ]
+        },
+        {
+          "name": "DockerImageBlob",
+          "children": [
+            {
+              "name": "Get-DockerImageBlob"
+            },
+            {
+              "name": "New-DockerImageBlob"
+            },
+            {
+              "name": "Test-DockerImageBlob"
+            }
+          ]
+        },
+        {
+          "name": "DockerImageDuplicate",
+          "children": [
+            {
+              "name": "Get-DockerImageDuplicate"
+            }
+          ]
+        },
+        {
+          "name": "DockerImageManifest",
+          "children": [
+            {
+              "name": "Get-DockerImageManifest"
+            },
+            {
+              "name": "New-DockerImageManifest"
+            }
+          ]
+        },
+        {
+          "name": "DockerImageTag",
+          "children": [
+            {
+              "name": "Get-DockerImageTag"
+            }
+          ]
+        },
+        {
+          "name": "DockerRegistryToken",
+          "children": [
+            {
+              "name": "Get-DockerRegistryToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GoCD",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "GocdServer",
+          "children": [
+            {
+              "name": "Set-GocdServer"
+            }
+          ]
+        },
+        {
+          "name": "GocdConfiguration",
+          "children": [
+            {
+              "name": "Find-GocdConfiguration"
+            },
+            {
+              "name": "Get-GocdConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "GocdPipeline",
+          "children": [
+            {
+              "name": "Find-GocdPipeline"
+            },
+            {
+              "name": "Get-GocdPipeline"
+            }
+          ]
+        },
+        {
+          "name": "GocdAgent",
+          "children": [
+            {
+              "name": "Get-GocdAgent"
+            }
+          ]
+        },
+        {
+          "name": "GocdConfigurationHistory",
+          "children": [
+            {
+              "name": "Get-GocdConfigurationHistory"
+            }
+          ]
+        },
+        {
+          "name": "GocdConfigurationRepository",
+          "children": [
+            {
+              "name": "Get-GocdConfigurationRepository"
+            }
+          ]
+        },
+        {
+          "name": "GocdEnvironment",
+          "children": [
+            {
+              "name": "Get-GocdEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "GocdJobFeed",
+          "children": [
+            {
+              "name": "Get-GocdJobFeed"
+            }
+          ]
+        },
+        {
+          "name": "GocdJobHistory",
+          "children": [
+            {
+              "name": "Get-GocdJobHistory"
+            }
+          ]
+        },
+        {
+          "name": "GocdPipelineConfiguration",
+          "children": [
+            {
+              "name": "Get-GocdPipelineConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "GocdPipelineGroup",
+          "children": [
+            {
+              "name": "Get-GocdPipelineGroup"
+            }
+          ]
+        },
+        {
+          "name": "GocdPipelineHistory",
+          "children": [
+            {
+              "name": "Get-GocdPipelineHistory"
+            }
+          ]
+        },
+        {
+          "name": "GocdResource",
+          "children": [
+            {
+              "name": "Get-GocdResource"
+            }
+          ]
+        },
+        {
+          "name": "GocdResourceUsage",
+          "children": [
+            {
+              "name": "Get-GocdResourceUsage"
+            }
+          ]
+        },
+        {
+          "name": "GocdRole",
+          "children": [
+            {
+              "name": "Get-GocdRole"
+            }
+          ]
+        },
+        {
+          "name": "GocdStage",
+          "children": [
+            {
+              "name": "Get-GocdStage"
+            }
+          ]
+        },
+        {
+          "name": "GocdUser",
+          "children": [
+            {
+              "name": "Get-GocdUser"
+            }
+          ]
+        },
+        {
+          "name": "GocdSecureValue",
+          "children": [
+            {
+              "name": "New-GocdSecureValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helpers",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "DefaultParameterValue",
+          "children": [
+            {
+              "name": "Backup-DefaultParameterValue"
+            },
+            {
+              "name": "Get-DefaultParameterValue"
+            },
+            {
+              "name": "Remove-DefaultParameterValue"
+            },
+            {
+              "name": "Set-DefaultParameterValue"
+            }
+          ]
+        },
+        {
+          "name": "DefaultParameterValues",
+          "children": [
+            {
+              "name": "Restore-DefaultParameterValues"
+            }
+          ]
+        },
+        {
+          "name": "CimSession",
+          "children": [
+            {
+              "name": "Clear-CimSession"
+            },
+            {
+              "name": "Set-CimSession"
+            }
+          ]
+        },
+        {
+          "name": "SimpleCimSession",
+          "children": [
+            {
+              "name": "New-SimpleCimSession"
+            }
+          ]
+        },
+        {
+          "name": "Credential",
+          "children": [
+            {
+              "name": "Clear-Credential"
+            },
+            {
+              "name": "Set-Credential"
+            },
+            {
+              "name": "Test-Credential"
+            }
+          ]
+        },
+        {
+          "name": "CredentialFromStore",
+          "children": [
+            {
+              "name": "Get-CredentialFromStore"
+            }
+          ]
+        },
+        {
+          "name": "CredentialInStore",
+          "children": [
+            {
+              "name": "New-CredentialInStore"
+            }
+          ]
+        },
+        {
+          "name": "Password",
+          "children": [
+            {
+              "name": "New-Password"
+            }
+          ]
+        },
+        {
+          "name": "BasicAuthentication",
+          "children": [
+            {
+              "name": "Get-BasicAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "EncryptedString",
+          "children": [
+            {
+              "name": "ConvertFrom-EncryptedString"
+            }
+          ]
+        },
+        {
+          "name": "UnattendedXmlPassword",
+          "children": [
+            {
+              "name": "ConvertFrom-UnattendedXmlPassword"
+            }
+          ]
+        },
+        {
+          "name": "PlaintextFromSecureString",
+          "children": [
+            {
+              "name": "Get-PlaintextFromSecureString"
+            }
+          ]
+        },
+        {
+          "name": "PSSession",
+          "children": [
+            {
+              "name": "Clear-PSSession"
+            },
+            {
+              "name": "Set-PSSession"
+            }
+          ]
+        },
+        {
+          "name": "PsRemoteSession",
+          "children": [
+            {
+              "name": "Enter-PsRemoteSession"
+            },
+            {
+              "name": "New-PsRemoteSession"
+            }
+          ]
+        },
+        {
+          "name": "Base64",
+          "children": [
+            {
+              "name": "ConvertFrom-Base64"
+            },
+            {
+              "name": "ConvertTo-Base64"
+            }
+          ]
+        },
+        {
+          "name": "ByteArray",
+          "children": [
+            {
+              "name": "ConvertFrom-ByteArray"
+            },
+            {
+              "name": "ConvertTo-ByteArray"
+            }
+          ]
+        },
+        {
+          "name": "Bytes",
+          "children": [
+            {
+              "name": "ConvertFrom-Bytes"
+            },
+            {
+              "name": "ConvertTo-Bytes"
+            }
+          ]
+        },
+        {
+          "name": "XmlNode",
+          "children": [
+            {
+              "name": "Export-XmlNode"
+            }
+          ]
+        },
+        {
+          "name": "DockerImageTag",
+          "children": [
+            {
+              "name": "Find-DockerImageTag"
+            }
+          ]
+        },
+        {
+          "name": "Epoch",
+          "children": [
+            {
+              "name": "Get-Epoch"
+            }
+          ]
+        },
+        {
+          "name": "UnixLineEnding",
+          "children": [
+            {
+              "name": "Set-UnixLineEnding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HetznerCloud",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "HetznerCloudSShKey",
+          "children": [
+            {
+              "name": "Add-HetznerCloudSShKey"
+            },
+            {
+              "name": "Get-HetznerCloudSshKey"
+            },
+            {
+              "name": "Remove-HetznerCloudSshKey"
+            },
+            {
+              "name": "Set-HetznerCloudSshKey"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudServerBackup",
+          "children": [
+            {
+              "name": "Disable-HetznerCloudServerBackup"
+            },
+            {
+              "name": "Enable-HetznerCloudServerBackup"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudServerRescue",
+          "children": [
+            {
+              "name": "Disable-HetznerCloudServerRescue"
+            },
+            {
+              "name": "Enable-HetznerCloudServerRescue"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudIso",
+          "children": [
+            {
+              "name": "Dismount-HetznerCloudIso"
+            },
+            {
+              "name": "Get-HetznerCloudIso"
+            },
+            {
+              "name": "Mount-HetznerCloudIso"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloud",
+          "children": [
+            {
+              "name": "Get-HetznerCloud"
+            },
+            {
+              "name": "Set-HetznerCloud"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudAction",
+          "children": [
+            {
+              "name": "Get-HetznerCloudAction"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudDatacenter",
+          "children": [
+            {
+              "name": "Get-HetznerCloudDatacenter"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudFloatingIp",
+          "children": [
+            {
+              "name": "Get-HetznerCloudFloatingIp"
+            },
+            {
+              "name": "New-HetznerCloudFloatingIp"
+            },
+            {
+              "name": "Register-HetznerCloudFloatingIp"
+            },
+            {
+              "name": "Remove-HetznerCloudFloatingIp"
+            },
+            {
+              "name": "Set-HetznerCloudFloatingIp"
+            },
+            {
+              "name": "Unregister-HetznerCloudFloatingIp"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudFloatingIpAction",
+          "children": [
+            {
+              "name": "Get-HetznerCloudFloatingIpAction"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudImage",
+          "children": [
+            {
+              "name": "Get-HetznerCloudImage"
+            },
+            {
+              "name": "New-HetznerCloudImage"
+            },
+            {
+              "name": "Remove-HetznerCloudImage"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudLocation",
+          "children": [
+            {
+              "name": "Get-HetznerCloudLocation"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudPricing",
+          "children": [
+            {
+              "name": "Get-HetznerCloudPricing"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudServer",
+          "children": [
+            {
+              "name": "Get-HetznerCloudServer"
+            },
+            {
+              "name": "New-HetznerCloudServer"
+            },
+            {
+              "name": "Remove-HetznerCloudServer"
+            },
+            {
+              "name": "Restart-HetznerCloudServer"
+            },
+            {
+              "name": "Restore-HetznerCloudServer"
+            },
+            {
+              "name": "Set-HetznerCloudServer"
+            },
+            {
+              "name": "Start-HetznerCloudServer"
+            },
+            {
+              "name": "Stop-HetznerCloudServer"
+            },
+            {
+              "name": "Wait-HetznerCloudServer"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudServerAction",
+          "children": [
+            {
+              "name": "Get-HetznerCloudServerAction"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudServerMetric",
+          "children": [
+            {
+              "name": "Get-HetznerCloudServerMetric"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudServerType",
+          "children": [
+            {
+              "name": "Get-HetznerCloudServerType"
+            }
+          ]
+        },
+        {
+          "name": "HetznerCloudApi",
+          "children": [
+            {
+              "name": "Invoke-HetznerCloudApi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InfluxDb",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "InfluxDbPrivilege",
+          "children": [
+            {
+              "name": "Add-InfluxDbPrivilege"
+            },
+            {
+              "name": "Get-InfluxDbPrivilege"
+            },
+            {
+              "name": "Remove-InfluxDbPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "InfluxDbDatabase",
+          "children": [
+            {
+              "name": "Get-InfluxDbDatabase"
+            },
+            {
+              "name": "New-InfluxDbDatabase"
+            },
+            {
+              "name": "Remove-InfluxDbDatabase"
+            }
+          ]
+        },
+        {
+          "name": "InfluxDbField",
+          "children": [
+            {
+              "name": "Get-InfluxDbField"
+            }
+          ]
+        },
+        {
+          "name": "InfluxDbMeasurement",
+          "children": [
+            {
+              "name": "Get-InfluxDbMeasurement"
+            },
+            {
+              "name": "Remove-InfluxDbMeasurement"
+            }
+          ]
+        },
+        {
+          "name": "InfluxDbSubscription",
+          "children": [
+            {
+              "name": "Get-InfluxDbSubscription"
+            },
+            {
+              "name": "Remove-InfluxDbSubscription"
+            }
+          ]
+        },
+        {
+          "name": "InfluxDbUser",
+          "children": [
+            {
+              "name": "Get-InfluxDbUser"
+            },
+            {
+              "name": "New-InfluxDbUser"
+            },
+            {
+              "name": "Remove-InfluxDbUser"
+            }
+          ]
+        },
+        {
+          "name": "InfluxDbServer",
+          "children": [
+            {
+              "name": "Set-InfluxDbServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rancher",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "RancherAdmin",
+          "children": [
+            {
+              "name": "Get-RancherAdmin"
+            }
+          ]
+        },
+        {
+          "name": "RancherCertificate",
+          "children": [
+            {
+              "name": "Get-RancherCertificate"
+            }
+          ]
+        },
+        {
+          "name": "RancherContainer",
+          "children": [
+            {
+              "name": "Get-RancherContainer"
+            }
+          ]
+        },
+        {
+          "name": "RancherEndpoint",
+          "children": [
+            {
+              "name": "Get-RancherEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "RancherEnvironment",
+          "children": [
+            {
+              "name": "Get-RancherEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "RancherHost",
+          "children": [
+            {
+              "name": "Get-RancherHost"
+            }
+          ]
+        },
+        {
+          "name": "RancherHostLabel",
+          "children": [
+            {
+              "name": "Get-RancherHostLabel"
+            }
+          ]
+        },
+        {
+          "name": "RancherInstance",
+          "children": [
+            {
+              "name": "Get-RancherInstance"
+            }
+          ]
+        },
+        {
+          "name": "RancherLoadBalancer",
+          "children": [
+            {
+              "name": "Get-RancherLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "RancherLoadBalancerRule",
+          "children": [
+            {
+              "name": "Get-RancherLoadBalancerRule"
+            }
+          ]
+        },
+        {
+          "name": "RancherMachineDriver",
+          "children": [
+            {
+              "name": "Get-RancherMachineDriver"
+            }
+          ]
+        },
+        {
+          "name": "RancherMember",
+          "children": [
+            {
+              "name": "Get-RancherMember"
+            }
+          ]
+        },
+        {
+          "name": "RancherMount",
+          "children": [
+            {
+              "name": "Get-RancherMount"
+            }
+          ]
+        },
+        {
+          "name": "RancherPort",
+          "children": [
+            {
+              "name": "Get-RancherPort"
+            }
+          ]
+        },
+        {
+          "name": "RancherRegistry",
+          "children": [
+            {
+              "name": "Get-RancherRegistry"
+            }
+          ]
+        },
+        {
+          "name": "RancherRegistryCredential",
+          "children": [
+            {
+              "name": "Get-RancherRegistryCredential"
+            }
+          ]
+        },
+        {
+          "name": "RancherSecret",
+          "children": [
+            {
+              "name": "Get-RancherSecret"
+            }
+          ]
+        },
+        {
+          "name": "RancherService",
+          "children": [
+            {
+              "name": "Get-RancherService"
+            }
+          ]
+        },
+        {
+          "name": "RancherSetting",
+          "children": [
+            {
+              "name": "Get-RancherSetting"
+            }
+          ]
+        },
+        {
+          "name": "RAncherStack",
+          "children": [
+            {
+              "name": "Get-RAncherStack"
+            }
+          ]
+        },
+        {
+          "name": "RancherUser",
+          "children": [
+            {
+              "name": "Get-RancherUser"
+            }
+          ]
+        },
+        {
+          "name": "RancherVolume",
+          "children": [
+            {
+              "name": "Get-RancherVolume"
+            }
+          ]
+        },
+        {
+          "name": "RancherServer",
+          "children": [
+            {
+              "name": "Set-RancherServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Statistics",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "Bar",
+          "children": [
+            {
+              "name": "Add-Bar"
+            }
+          ]
+        },
+        {
+          "name": "PerformanceCounter",
+          "children": [
+            {
+              "name": "ConvertFrom-PerformanceCounter"
+            }
+          ]
+        },
+        {
+          "name": "PrimitiveType",
+          "children": [
+            {
+              "name": "ConvertFrom-PrimitiveType"
+            }
+          ]
+        },
+        {
+          "name": "DateTime",
+          "children": [
+            {
+              "name": "Expand-DateTime"
+            }
+          ]
+        },
+        {
+          "name": "Histogram",
+          "children": [
+            {
+              "name": "Get-Histogram"
+            }
+          ]
+        },
+        {
+          "name": "InterarrivalTime",
+          "children": [
+            {
+              "name": "Get-InterarrivalTime"
+            }
+          ]
+        },
+        {
+          "name": "SlidingAverage",
+          "children": [
+            {
+              "name": "Get-SlidingAverage"
+            }
+          ]
+        },
+        {
+          "name": "WeightedValue",
+          "children": [
+            {
+              "name": "Get-WeightedValue"
+            }
+          ]
+        },
+        {
+          "name": "Group",
+          "children": [
+            {
+              "name": "Measure-Group"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Measure-Object"
+            }
+          ]
+        },
+        {
+          "name": "Measurement",
+          "children": [
+            {
+              "name": "Show-Measurement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SvgChart",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "CorrdinatesFromAngle",
+          "children": [
+            {
+              "name": "Get-CorrdinatesFromAngle"
+            }
+          ]
+        },
+        {
+          "name": "Radiant",
+          "children": [
+            {
+              "name": "Get-Radiant"
+            }
+          ]
+        },
+        {
+          "name": "Svg",
+          "children": [
+            {
+              "name": "New-Svg"
+            }
+          ]
+        },
+        {
+          "name": "SvgBox",
+          "children": [
+            {
+              "name": "Add-SvgBox"
+            }
+          ]
+        },
+        {
+          "name": "SvgCircle",
+          "children": [
+            {
+              "name": "Add-SvgCircle"
+            }
+          ]
+        },
+        {
+          "name": "SvgGroup",
+          "children": [
+            {
+              "name": "Add-SvgGroup"
+            }
+          ]
+        },
+        {
+          "name": "SvgLine",
+          "children": [
+            {
+              "name": "Add-SvgLine"
+            }
+          ]
+        },
+        {
+          "name": "SvgPolyline",
+          "children": [
+            {
+              "name": "Add-SvgPolyline"
+            }
+          ]
+        },
+        {
+          "name": "SvgSlice",
+          "children": [
+            {
+              "name": "Add-SvgSlice"
+            }
+          ]
+        },
+        {
+          "name": "SvgTest",
+          "children": [
+            {
+              "name": "Add-SvgTest"
+            }
+          ]
+        },
+        {
+          "name": "XmlComment",
+          "children": [
+            {
+              "name": "Add-XmlComment"
+            }
+          ]
+        },
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "Export-Xml"
+            },
+            {
+              "name": "Out-Xml"
+            }
+          ]
+        },
+        {
+          "name": "Axis",
+          "children": [
+            {
+              "name": "Add-Axis"
+            }
+          ]
+        },
+        {
+          "name": "BarChart",
+          "children": [
+            {
+              "name": "Add-BarChart"
+            }
+          ]
+        },
+        {
+          "name": "BubbleChart",
+          "children": [
+            {
+              "name": "Add-BubbleChart"
+            }
+          ]
+        },
+        {
+          "name": "CategoryBarChart",
+          "children": [
+            {
+              "name": "Add-CategoryBarChart"
+            }
+          ]
+        },
+        {
+          "name": "LineChart",
+          "children": [
+            {
+              "name": "Add-LineChart"
+            }
+          ]
+        },
+        {
+          "name": "Marker",
+          "children": [
+            {
+              "name": "Add-Marker"
+            }
+          ]
+        },
+        {
+          "name": "PieChart",
+          "children": [
+            {
+              "name": "Add-PieChart"
+            }
+          ]
+        },
+        {
+          "name": "RadarChart",
+          "children": [
+            {
+              "name": "Add-RadarChart"
+            }
+          ]
+        },
+        {
+          "name": "StackedBarChart",
+          "children": [
+            {
+              "name": "Add-StackedBarChart"
+            }
+          ]
+        },
+        {
+          "name": "StackedLineChart",
+          "children": [
+            {
+              "name": "Add-StackedLineChart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WebRequest",
+      "companyName": "Unknown",
+      "author": "Nicholas Dille",
+      "children": [
+        {
+          "name": "CachedWebRequest",
+          "children": [
+            {
+              "name": "Add-CachedWebRequest"
+            },
+            {
+              "name": "Clear-CachedWebRequest"
+            },
+            {
+              "name": "Get-CachedWebRequest"
+            },
+            {
+              "name": "Remove-CachedWebRequest"
+            },
+            {
+              "name": "Update-CachedWebRequest"
+            },
+            {
+              "name": "Invoke-CachedWebRequest"
+            }
+          ]
+        },
+        {
+          "name": "AuthenticatedWebRequest",
+          "children": [
+            {
+              "name": "Invoke-AuthenticatedWebRequest"
+            }
+          ]
+        },
+        {
+          "name": "WebRequest",
+          "children": [
+            {
+              "name": "Invoke-WebRequest"
+            }
+          ]
+        },
+        {
+          "name": "RestMethod",
+          "children": [
+            {
+              "name": "Invoke-RestMethod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

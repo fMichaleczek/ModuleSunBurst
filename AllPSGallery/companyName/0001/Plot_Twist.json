@@ -1,0 +1,126 @@
+{
+  "name": "Plot Twist",
+  "children": [
+    {
+      "name": "Anafora.PowerShell",
+      "companyName": "Plot Twist",
+      "author": "Wiktoryn",
+      "children": [
+        {
+          "name": "AnaforaShellHost",
+          "children": [
+            {
+              "name": "Set-AnaforaShellHost"
+            },
+            {
+              "name": "Connect-AnaforaShellHost"
+            },
+            {
+              "name": "Disconnect-AnaforaShellHost"
+            }
+          ]
+        },
+        {
+          "name": "AnaforaBooleanValue",
+          "children": [
+            {
+              "name": "Get-AnaforaBooleanValue"
+            },
+            {
+              "name": "Set-AnaforaBooleanValue"
+            },
+            {
+              "name": "Reset-AnaforaBooleanValue"
+            }
+          ]
+        },
+        {
+          "name": "AnaforaIntValue",
+          "children": [
+            {
+              "name": "Get-AnaforaIntValue"
+            },
+            {
+              "name": "Set-AnaforaIntValue"
+            },
+            {
+              "name": "Reset-AnaforaIntValue"
+            }
+          ]
+        },
+        {
+          "name": "AnaforaStringValue",
+          "children": [
+            {
+              "name": "Get-AnaforaStringValue"
+            },
+            {
+              "name": "Set-AnaforaStringValue"
+            },
+            {
+              "name": "Reset-AnaforaStringValue"
+            }
+          ]
+        },
+        {
+          "name": "AnaforaFloatValue",
+          "children": [
+            {
+              "name": "Get-AnaforaFloatValue"
+            },
+            {
+              "name": "Set-AnaforaFloatValue"
+            },
+            {
+              "name": "Reset-AnaforaFloatValue"
+            }
+          ]
+        },
+        {
+          "name": "AnaforaDebugger",
+          "children": [
+            {
+              "name": "Get-AnaforaDebugger"
+            },
+            {
+              "name": "Enable-AnaforaDebugger"
+            },
+            {
+              "name": "Disable-AnaforaDebugger"
+            }
+          ]
+        },
+        {
+          "name": "BenFoxNPC",
+          "children": [
+            {
+              "name": "Get-BenFoxNPC"
+            },
+            {
+              "name": "Set-BenFoxNPC"
+            }
+          ]
+        },
+        {
+          "name": "BenFoxPlayer",
+          "children": [
+            {
+              "name": "Move-BenFoxPlayer"
+            }
+          ]
+        },
+        {
+          "name": "BenFoxEncounterFlags",
+          "children": [
+            {
+              "name": "Get-BenFoxEncounterFlags"
+            },
+            {
+              "name": "Set-BenFoxEncounterFlags"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

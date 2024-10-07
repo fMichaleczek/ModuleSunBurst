@@ -1,0 +1,2178 @@
+{
+  "name": "Warren Frame",
+  "children": [
+    {
+      "name": "BuildHelpers",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "TestResultToAppveyor",
+          "children": [
+            {
+              "name": "Add-TestResultToAppveyor"
+            }
+          ]
+        },
+        {
+          "name": "Metadata",
+          "children": [
+            {
+              "name": "Export-Metadata"
+            },
+            {
+              "name": "Get-Metadata"
+            },
+            {
+              "name": "Update-Metadata"
+            }
+          ]
+        },
+        {
+          "name": "NugetPackage",
+          "children": [
+            {
+              "name": "Find-NugetPackage"
+            }
+          ]
+        },
+        {
+          "name": "BuildEnvironment",
+          "children": [
+            {
+              "name": "Get-BuildEnvironment"
+            },
+            {
+              "name": "Set-BuildEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "BuildEnvironmentDetail",
+          "children": [
+            {
+              "name": "Get-BuildEnvironmentDetail"
+            }
+          ]
+        },
+        {
+          "name": "BuildVariable",
+          "children": [
+            {
+              "name": "Get-BuildVariable"
+            }
+          ]
+        },
+        {
+          "name": "GitChangedFile",
+          "children": [
+            {
+              "name": "Get-GitChangedFile"
+            }
+          ]
+        },
+        {
+          "name": "ModuleAlias",
+          "children": [
+            {
+              "name": "Get-ModuleAlias"
+            },
+            {
+              "name": "Set-ModuleAlias"
+            }
+          ]
+        },
+        {
+          "name": "ModuleFunction",
+          "children": [
+            {
+              "name": "Get-ModuleFunction"
+            },
+            {
+              "name": "Set-ModuleFunction"
+            }
+          ]
+        },
+        {
+          "name": "NextNugetPackageVersion",
+          "children": [
+            {
+              "name": "Get-NextNugetPackageVersion"
+            }
+          ]
+        },
+        {
+          "name": "NextPowerShellGetVersion",
+          "children": [
+            {
+              "name": "Get-NextPowerShellGetVersion"
+            }
+          ]
+        },
+        {
+          "name": "ProjectName",
+          "children": [
+            {
+              "name": "Get-ProjectName"
+            }
+          ]
+        },
+        {
+          "name": "PSModuleManifest",
+          "children": [
+            {
+              "name": "Get-PSModuleManifest"
+            }
+          ]
+        },
+        {
+          "name": "Git",
+          "children": [
+            {
+              "name": "Invoke-Git"
+            }
+          ]
+        },
+        {
+          "name": "GithubRelease",
+          "children": [
+            {
+              "name": "Publish-GithubRelease"
+            }
+          ]
+        },
+        {
+          "name": "ModuleFormat",
+          "children": [
+            {
+              "name": "Set-ModuleFormat"
+            }
+          ]
+        },
+        {
+          "name": "ModuleType",
+          "children": [
+            {
+              "name": "Set-ModuleType"
+            }
+          ]
+        },
+        {
+          "name": "ShieldsIoBadge",
+          "children": [
+            {
+              "name": "Set-ShieldsIoBadge"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVersion",
+          "children": [
+            {
+              "name": "Step-ModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "Version",
+          "children": [
+            {
+              "name": "Step-Version"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dots",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "TheDots",
+          "children": [
+            {
+              "name": "Connect-TheDots"
+            }
+          ]
+        },
+        {
+          "name": "DotsConfig",
+          "children": [
+            {
+              "name": "Get-DotsConfig"
+            },
+            {
+              "name": "Initialize-DotsConfig"
+            },
+            {
+              "name": "Set-DotsConfig"
+            }
+          ]
+        },
+        {
+          "name": "DotsConfigPath",
+          "children": [
+            {
+              "name": "Get-DotsConfigPath"
+            }
+          ]
+        },
+        {
+          "name": "DotsScript",
+          "children": [
+            {
+              "name": "Get-DotsScript"
+            }
+          ]
+        },
+        {
+          "name": "DotsScriptHelp",
+          "children": [
+            {
+              "name": "Get-DotsScriptHelp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Invoke-SqlCmd2",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "SqlCmd2",
+          "children": [
+            {
+              "name": "Invoke-SqlCmd2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poshbot.Example",
+      "companyName": "Community",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "ADCentralAccessPolicyMember",
+          "children": [
+            {
+              "name": "Add-ADCentralAccessPolicyMember"
+            },
+            {
+              "name": "Remove-ADCentralAccessPolicyMember"
+            }
+          ]
+        },
+        {
+          "name": "ADComputerServiceAccount",
+          "children": [
+            {
+              "name": "Add-ADComputerServiceAccount"
+            },
+            {
+              "name": "Get-ADComputerServiceAccount"
+            },
+            {
+              "name": "Remove-ADComputerServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "ADDomainControllerPasswordReplicationPolicy",
+          "children": [
+            {
+              "name": "Add-ADDomainControllerPasswordReplicationPolicy"
+            },
+            {
+              "name": "Get-ADDomainControllerPasswordReplicationPolicy"
+            },
+            {
+              "name": "Remove-ADDomainControllerPasswordReplicationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADFineGrainedPasswordPolicySubject",
+          "children": [
+            {
+              "name": "Add-ADFineGrainedPasswordPolicySubject"
+            },
+            {
+              "name": "Get-ADFineGrainedPasswordPolicySubject"
+            },
+            {
+              "name": "Remove-ADFineGrainedPasswordPolicySubject"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupMember",
+          "children": [
+            {
+              "name": "Add-ADGroupMember"
+            },
+            {
+              "name": "Get-ADGroupMember"
+            },
+            {
+              "name": "Remove-ADGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "ADPrincipalGroupMembership",
+          "children": [
+            {
+              "name": "Add-ADPrincipalGroupMembership"
+            },
+            {
+              "name": "Get-ADPrincipalGroupMembership"
+            },
+            {
+              "name": "Remove-ADPrincipalGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "ADResourcePropertyListMember",
+          "children": [
+            {
+              "name": "Add-ADResourcePropertyListMember"
+            },
+            {
+              "name": "Remove-ADResourcePropertyListMember"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountExpiration",
+          "children": [
+            {
+              "name": "Clear-ADAccountExpiration"
+            },
+            {
+              "name": "Set-ADAccountExpiration"
+            }
+          ]
+        },
+        {
+          "name": "ADClaimTransformLink",
+          "children": [
+            {
+              "name": "Clear-ADClaimTransformLink"
+            },
+            {
+              "name": "Set-ADClaimTransformLink"
+            }
+          ]
+        },
+        {
+          "name": "ADAccount",
+          "children": [
+            {
+              "name": "Disable-ADAccount"
+            },
+            {
+              "name": "Enable-ADAccount"
+            },
+            {
+              "name": "Search-ADAccount"
+            },
+            {
+              "name": "Unlock-ADAccount"
+            }
+          ]
+        },
+        {
+          "name": "ADOptionalFeature",
+          "children": [
+            {
+              "name": "Disable-ADOptionalFeature"
+            },
+            {
+              "name": "Enable-ADOptionalFeature"
+            },
+            {
+              "name": "Get-ADOptionalFeature"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountAuthorizationGroup",
+          "children": [
+            {
+              "name": "Get-ADAccountAuthorizationGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountResultantPasswordReplicationPolicy",
+          "children": [
+            {
+              "name": "Get-ADAccountResultantPasswordReplicationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADAuthenticationPolicy",
+          "children": [
+            {
+              "name": "Get-ADAuthenticationPolicy"
+            },
+            {
+              "name": "New-ADAuthenticationPolicy"
+            },
+            {
+              "name": "Remove-ADAuthenticationPolicy"
+            },
+            {
+              "name": "Set-ADAuthenticationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADAuthenticationPolicySilo",
+          "children": [
+            {
+              "name": "Get-ADAuthenticationPolicySilo"
+            },
+            {
+              "name": "New-ADAuthenticationPolicySilo"
+            },
+            {
+              "name": "Remove-ADAuthenticationPolicySilo"
+            },
+            {
+              "name": "Set-ADAuthenticationPolicySilo"
+            }
+          ]
+        },
+        {
+          "name": "ADCentralAccessPolicy",
+          "children": [
+            {
+              "name": "Get-ADCentralAccessPolicy"
+            },
+            {
+              "name": "New-ADCentralAccessPolicy"
+            },
+            {
+              "name": "Remove-ADCentralAccessPolicy"
+            },
+            {
+              "name": "Set-ADCentralAccessPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADCentralAccessRule",
+          "children": [
+            {
+              "name": "Get-ADCentralAccessRule"
+            },
+            {
+              "name": "New-ADCentralAccessRule"
+            },
+            {
+              "name": "Remove-ADCentralAccessRule"
+            },
+            {
+              "name": "Set-ADCentralAccessRule"
+            }
+          ]
+        },
+        {
+          "name": "ADClaimTransformPolicy",
+          "children": [
+            {
+              "name": "Get-ADClaimTransformPolicy"
+            },
+            {
+              "name": "New-ADClaimTransformPolicy"
+            },
+            {
+              "name": "Remove-ADClaimTransformPolicy"
+            },
+            {
+              "name": "Set-ADClaimTransformPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADClaimType",
+          "children": [
+            {
+              "name": "Get-ADClaimType"
+            },
+            {
+              "name": "New-ADClaimType"
+            },
+            {
+              "name": "Remove-ADClaimType"
+            },
+            {
+              "name": "Set-ADClaimType"
+            }
+          ]
+        },
+        {
+          "name": "ADComputer",
+          "children": [
+            {
+              "name": "Get-ADComputer"
+            },
+            {
+              "name": "New-ADComputer"
+            },
+            {
+              "name": "Remove-ADComputer"
+            },
+            {
+              "name": "Set-ADComputer"
+            }
+          ]
+        },
+        {
+          "name": "ADDCCloningExcludedApplicationList",
+          "children": [
+            {
+              "name": "Get-ADDCCloningExcludedApplicationList"
+            }
+          ]
+        },
+        {
+          "name": "ADDefaultDomainPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-ADDefaultDomainPasswordPolicy"
+            },
+            {
+              "name": "Set-ADDefaultDomainPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADDomain",
+          "children": [
+            {
+              "name": "Get-ADDomain"
+            },
+            {
+              "name": "Set-ADDomain"
+            }
+          ]
+        },
+        {
+          "name": "ADDomainController",
+          "children": [
+            {
+              "name": "Get-ADDomainController"
+            }
+          ]
+        },
+        {
+          "name": "ADDomainControllerPasswordReplicationPolicyUsage",
+          "children": [
+            {
+              "name": "Get-ADDomainControllerPasswordReplicationPolicyUsage"
+            }
+          ]
+        },
+        {
+          "name": "ADFineGrainedPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-ADFineGrainedPasswordPolicy"
+            },
+            {
+              "name": "New-ADFineGrainedPasswordPolicy"
+            },
+            {
+              "name": "Remove-ADFineGrainedPasswordPolicy"
+            },
+            {
+              "name": "Set-ADFineGrainedPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADForest",
+          "children": [
+            {
+              "name": "Get-ADForest"
+            },
+            {
+              "name": "Set-ADForest"
+            }
+          ]
+        },
+        {
+          "name": "ADGroup",
+          "children": [
+            {
+              "name": "Get-ADGroup"
+            },
+            {
+              "name": "New-ADGroup"
+            },
+            {
+              "name": "Remove-ADGroup"
+            },
+            {
+              "name": "Set-ADGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADObject",
+          "children": [
+            {
+              "name": "Get-ADObject"
+            },
+            {
+              "name": "Move-ADObject"
+            },
+            {
+              "name": "New-ADObject"
+            },
+            {
+              "name": "Remove-ADObject"
+            },
+            {
+              "name": "Rename-ADObject"
+            },
+            {
+              "name": "Restore-ADObject"
+            },
+            {
+              "name": "Set-ADObject"
+            },
+            {
+              "name": "Sync-ADObject"
+            }
+          ]
+        },
+        {
+          "name": "ADOrganizationalUnit",
+          "children": [
+            {
+              "name": "Get-ADOrganizationalUnit"
+            },
+            {
+              "name": "New-ADOrganizationalUnit"
+            },
+            {
+              "name": "Remove-ADOrganizationalUnit"
+            },
+            {
+              "name": "Set-ADOrganizationalUnit"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationAttributeMetadata",
+          "children": [
+            {
+              "name": "Get-ADReplicationAttributeMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationConnection",
+          "children": [
+            {
+              "name": "Get-ADReplicationConnection"
+            },
+            {
+              "name": "Set-ADReplicationConnection"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationFailure",
+          "children": [
+            {
+              "name": "Get-ADReplicationFailure"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationPartnerMetadata",
+          "children": [
+            {
+              "name": "Get-ADReplicationPartnerMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationQueueOperation",
+          "children": [
+            {
+              "name": "Get-ADReplicationQueueOperation"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationSite",
+          "children": [
+            {
+              "name": "Get-ADReplicationSite"
+            },
+            {
+              "name": "New-ADReplicationSite"
+            },
+            {
+              "name": "Remove-ADReplicationSite"
+            },
+            {
+              "name": "Set-ADReplicationSite"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationSiteLink",
+          "children": [
+            {
+              "name": "Get-ADReplicationSiteLink"
+            },
+            {
+              "name": "New-ADReplicationSiteLink"
+            },
+            {
+              "name": "Remove-ADReplicationSiteLink"
+            },
+            {
+              "name": "Set-ADReplicationSiteLink"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationSiteLinkBridge",
+          "children": [
+            {
+              "name": "Get-ADReplicationSiteLinkBridge"
+            },
+            {
+              "name": "New-ADReplicationSiteLinkBridge"
+            },
+            {
+              "name": "Remove-ADReplicationSiteLinkBridge"
+            },
+            {
+              "name": "Set-ADReplicationSiteLinkBridge"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationSubnet",
+          "children": [
+            {
+              "name": "Get-ADReplicationSubnet"
+            },
+            {
+              "name": "New-ADReplicationSubnet"
+            },
+            {
+              "name": "Remove-ADReplicationSubnet"
+            },
+            {
+              "name": "Set-ADReplicationSubnet"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationUpToDatenessVectorTable",
+          "children": [
+            {
+              "name": "Get-ADReplicationUpToDatenessVectorTable"
+            }
+          ]
+        },
+        {
+          "name": "ADResourceProperty",
+          "children": [
+            {
+              "name": "Get-ADResourceProperty"
+            },
+            {
+              "name": "New-ADResourceProperty"
+            },
+            {
+              "name": "Remove-ADResourceProperty"
+            },
+            {
+              "name": "Set-ADResourceProperty"
+            }
+          ]
+        },
+        {
+          "name": "ADResourcePropertyList",
+          "children": [
+            {
+              "name": "Get-ADResourcePropertyList"
+            },
+            {
+              "name": "New-ADResourcePropertyList"
+            },
+            {
+              "name": "Remove-ADResourcePropertyList"
+            },
+            {
+              "name": "Set-ADResourcePropertyList"
+            }
+          ]
+        },
+        {
+          "name": "ADResourcePropertyValueType",
+          "children": [
+            {
+              "name": "Get-ADResourcePropertyValueType"
+            }
+          ]
+        },
+        {
+          "name": "ADRootDSE",
+          "children": [
+            {
+              "name": "Get-ADRootDSE"
+            }
+          ]
+        },
+        {
+          "name": "ADServiceAccount",
+          "children": [
+            {
+              "name": "Get-ADServiceAccount"
+            },
+            {
+              "name": "Install-ADServiceAccount"
+            },
+            {
+              "name": "New-ADServiceAccount"
+            },
+            {
+              "name": "Remove-ADServiceAccount"
+            },
+            {
+              "name": "Set-ADServiceAccount"
+            },
+            {
+              "name": "Test-ADServiceAccount"
+            },
+            {
+              "name": "Uninstall-ADServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "ADTrust",
+          "children": [
+            {
+              "name": "Get-ADTrust"
+            }
+          ]
+        },
+        {
+          "name": "ADUser",
+          "children": [
+            {
+              "name": "Get-ADUser"
+            },
+            {
+              "name": "New-ADUser"
+            },
+            {
+              "name": "Remove-ADUser"
+            },
+            {
+              "name": "Set-ADUser"
+            }
+          ]
+        },
+        {
+          "name": "ADUserResultantPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-ADUserResultantPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADAuthenticationPolicySiloAccess",
+          "children": [
+            {
+              "name": "Grant-ADAuthenticationPolicySiloAccess"
+            },
+            {
+              "name": "Revoke-ADAuthenticationPolicySiloAccess"
+            }
+          ]
+        },
+        {
+          "name": "ADDirectoryServer",
+          "children": [
+            {
+              "name": "Move-ADDirectoryServer"
+            }
+          ]
+        },
+        {
+          "name": "ADDirectoryServerOperationMasterRole",
+          "children": [
+            {
+              "name": "Move-ADDirectoryServerOperationMasterRole"
+            }
+          ]
+        },
+        {
+          "name": "ADDCCloneConfigFile",
+          "children": [
+            {
+              "name": "New-ADDCCloneConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "ADServiceAccountPassword",
+          "children": [
+            {
+              "name": "Reset-ADServiceAccountPassword"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountAuthenticationPolicySilo",
+          "children": [
+            {
+              "name": "Set-ADAccountAuthenticationPolicySilo"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountControl",
+          "children": [
+            {
+              "name": "Set-ADAccountControl"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountPassword",
+          "children": [
+            {
+              "name": "Set-ADAccountPassword"
+            }
+          ]
+        },
+        {
+          "name": "ADDomainMode",
+          "children": [
+            {
+              "name": "Set-ADDomainMode"
+            }
+          ]
+        },
+        {
+          "name": "ADForestMode",
+          "children": [
+            {
+              "name": "Set-ADForestMode"
+            }
+          ]
+        },
+        {
+          "name": "ADAuthenticationPolicyExpression",
+          "children": [
+            {
+              "name": "Show-ADAuthenticationPolicyExpression"
+            }
+          ]
+        },
+        {
+          "name": "VariableViaSlack",
+          "children": [
+            {
+              "name": "Get-VariableViaSlack"
+            }
+          ]
+        },
+        {
+          "name": "ADUserViaSlack",
+          "children": [
+            {
+              "name": "Get-ADUserViaSlack"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDepend",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "Dependency",
+          "children": [
+            {
+              "name": "Get-Dependency"
+            },
+            {
+              "name": "Import-Dependency"
+            },
+            {
+              "name": "Install-Dependency"
+            },
+            {
+              "name": "Test-Dependency"
+            }
+          ]
+        },
+        {
+          "name": "PSDependScript",
+          "children": [
+            {
+              "name": "Get-PSDependScript"
+            }
+          ]
+        },
+        {
+          "name": "PSDependType",
+          "children": [
+            {
+              "name": "Get-PSDependType"
+            }
+          ]
+        },
+        {
+          "name": "DependencyScript",
+          "children": [
+            {
+              "name": "Invoke-DependencyScript"
+            }
+          ]
+        },
+        {
+          "name": "PSDepend",
+          "children": [
+            {
+              "name": "Invoke-PSDepend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pshtmltable",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "HTMLTableColor",
+          "children": [
+            {
+              "name": "Add-HTMLTableColor"
+            }
+          ]
+        },
+        {
+          "name": "HTML",
+          "children": [
+            {
+              "name": "Close-HTML"
+            }
+          ]
+        },
+        {
+          "name": "PropertyValue",
+          "children": [
+            {
+              "name": "ConvertTo-PropertyValue"
+            }
+          ]
+        },
+        {
+          "name": "HTMLHead",
+          "children": [
+            {
+              "name": "New-HTMLHead"
+            }
+          ]
+        },
+        {
+          "name": "HTMLTable",
+          "children": [
+            {
+              "name": "New-HTMLTable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSNeo4j",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "Neo4j",
+          "children": [
+            {
+              "name": "Clear-Neo4j"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jResponse",
+          "children": [
+            {
+              "name": "ConvertFrom-Neo4jResponse"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jNodesStatement",
+          "children": [
+            {
+              "name": "ConvertTo-Neo4jNodesStatement"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jNodeStatement",
+          "children": [
+            {
+              "name": "ConvertTo-Neo4jNodeStatement"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jActiveConfig",
+          "children": [
+            {
+              "name": "Get-Neo4jActiveConfig"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jConstraint",
+          "children": [
+            {
+              "name": "Get-Neo4jConstraint"
+            },
+            {
+              "name": "New-Neo4jConstraint"
+            },
+            {
+              "name": "Remove-Neo4jConstraint"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jFunction",
+          "children": [
+            {
+              "name": "Get-Neo4jFunction"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jHeader",
+          "children": [
+            {
+              "name": "Get-Neo4jHeader"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jIndex",
+          "children": [
+            {
+              "name": "Get-Neo4jIndex"
+            },
+            {
+              "name": "New-Neo4jIndex"
+            },
+            {
+              "name": "Remove-Neo4jIndex"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jLabel",
+          "children": [
+            {
+              "name": "Get-Neo4jLabel"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jProcedure",
+          "children": [
+            {
+              "name": "Get-Neo4jProcedure"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jPropertyKey",
+          "children": [
+            {
+              "name": "Get-Neo4jPropertyKey"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jRelationshipType",
+          "children": [
+            {
+              "name": "Get-Neo4jRelationshipType"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jUser",
+          "children": [
+            {
+              "name": "Get-Neo4jUser"
+            }
+          ]
+        },
+        {
+          "name": "PSNeo4jConfiguration",
+          "children": [
+            {
+              "name": "Get-PSNeo4jConfiguration"
+            },
+            {
+              "name": "Initialize-PSNeo4jConfiguration"
+            },
+            {
+              "name": "Set-PSNeo4jConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jApi",
+          "children": [
+            {
+              "name": "Invoke-Neo4jApi"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jQuery",
+          "children": [
+            {
+              "name": "Invoke-Neo4jQuery"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jNode",
+          "children": [
+            {
+              "name": "New-Neo4jNode"
+            },
+            {
+              "name": "Remove-Neo4jNode"
+            },
+            {
+              "name": "Set-Neo4jNode"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jRelationship",
+          "children": [
+            {
+              "name": "New-Neo4jRelationship"
+            },
+            {
+              "name": "Remove-Neo4jRelationship"
+            },
+            {
+              "name": "Set-Neo4jRelationship"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jStatements",
+          "children": [
+            {
+              "name": "New-Neo4jStatements"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jNodeProperty",
+          "children": [
+            {
+              "name": "Remove-Neo4jNodeProperty"
+            }
+          ]
+        },
+        {
+          "name": "Neo4jPassword",
+          "children": [
+            {
+              "name": "Set-Neo4jPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSPagerDuty",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "PagerDutyData",
+          "children": [
+            {
+              "name": "ConvertFrom-PagerDutyData"
+            },
+            {
+              "name": "Get-PagerDutyData"
+            }
+          ]
+        },
+        {
+          "name": "PagerDutyHeader",
+          "children": [
+            {
+              "name": "Get-PagerDutyHeader"
+            }
+          ]
+        },
+        {
+          "name": "PagerDutyIncident",
+          "children": [
+            {
+              "name": "Get-PagerDutyIncident"
+            }
+          ]
+        },
+        {
+          "name": "PSPagerDutyConfiguration",
+          "children": [
+            {
+              "name": "Get-PSPagerDutyConfiguration"
+            },
+            {
+              "name": "Set-PSPagerDutyConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "PagerDutyEvent",
+          "children": [
+            {
+              "name": "Send-PagerDutyEvent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSPuppetDB",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "PDBConfig",
+          "children": [
+            {
+              "name": "Get-PDBConfig"
+            },
+            {
+              "name": "Set-PDBConfig"
+            }
+          ]
+        },
+        {
+          "name": "PDBConfigPath",
+          "children": [
+            {
+              "name": "Get-PDBConfigPath"
+            }
+          ]
+        },
+        {
+          "name": "PDBNode",
+          "children": [
+            {
+              "name": "Get-PDBNode"
+            }
+          ]
+        },
+        {
+          "name": "PDBNodeFact",
+          "children": [
+            {
+              "name": "Get-PDBNodeFact"
+            }
+          ]
+        },
+        {
+          "name": "PDBReport",
+          "children": [
+            {
+              "name": "Get-PDBReport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSRT",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "RTConfig",
+          "children": [
+            {
+              "name": "Get-RTConfig"
+            },
+            {
+              "name": "Set-RTConfig"
+            }
+          ]
+        },
+        {
+          "name": "RTTicket",
+          "children": [
+            {
+              "name": "Get-RTTicket"
+            },
+            {
+              "name": "Find-RTTicket"
+            },
+            {
+              "name": "New-RTTicket"
+            },
+            {
+              "name": "Set-RTTicket"
+            }
+          ]
+        },
+        {
+          "name": "RTTicketEntry",
+          "children": [
+            {
+              "name": "Get-RTTicketEntry"
+            }
+          ]
+        },
+        {
+          "name": "RTSession",
+          "children": [
+            {
+              "name": "New-RTSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSensu",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "SensuCheck",
+          "children": [
+            {
+              "name": "Add-SensuCheck"
+            },
+            {
+              "name": "Get-SensuCheck"
+            },
+            {
+              "name": "Remove-SensuCheck"
+            }
+          ]
+        },
+        {
+          "name": "SensuOutput",
+          "children": [
+            {
+              "name": "ConvertFrom-SensuOutput"
+            }
+          ]
+        },
+        {
+          "name": "PSSensuConfiguration",
+          "children": [
+            {
+              "name": "Get-PSSensuConfiguration"
+            },
+            {
+              "name": "Initialize-PSSensuConfiguration"
+            },
+            {
+              "name": "Set-PSSensuConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SensuAccessToken",
+          "children": [
+            {
+              "name": "Get-SensuAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "SensuEntities",
+          "children": [
+            {
+              "name": "Get-SensuEntities"
+            }
+          ]
+        },
+        {
+          "name": "SensuEvents",
+          "children": [
+            {
+              "name": "Get-SensuEvents"
+            },
+            {
+              "name": "Remove-SensuEvents"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSlack",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "SlackMessage",
+          "children": [
+            {
+              "name": "Find-SlackMessage"
+            },
+            {
+              "name": "New-SlackMessage"
+            },
+            {
+              "name": "Remove-SlackMessage"
+            },
+            {
+              "name": "Send-SlackMessage"
+            }
+          ]
+        },
+        {
+          "name": "PSSlackConfig",
+          "children": [
+            {
+              "name": "Get-PSSlackConfig"
+            },
+            {
+              "name": "Set-PSSlackConfig"
+            }
+          ]
+        },
+        {
+          "name": "SlackAuth",
+          "children": [
+            {
+              "name": "Get-SlackAuth"
+            },
+            {
+              "name": "Test-SlackAuth"
+            }
+          ]
+        },
+        {
+          "name": "SlackChannel",
+          "children": [
+            {
+              "name": "Get-SlackChannel"
+            }
+          ]
+        },
+        {
+          "name": "SlackFileInfo",
+          "children": [
+            {
+              "name": "Get-SlackFileInfo"
+            }
+          ]
+        },
+        {
+          "name": "SlackGroup",
+          "children": [
+            {
+              "name": "Get-SlackGroup"
+            }
+          ]
+        },
+        {
+          "name": "SlackGroupHistory",
+          "children": [
+            {
+              "name": "Get-SlackGroupHistory"
+            }
+          ]
+        },
+        {
+          "name": "SlackHistory",
+          "children": [
+            {
+              "name": "Get-SlackHistory"
+            }
+          ]
+        },
+        {
+          "name": "SlackReminder",
+          "children": [
+            {
+              "name": "Get-SlackReminder"
+            },
+            {
+              "name": "New-SlackReminder"
+            },
+            {
+              "name": "Remove-SlackReminder"
+            }
+          ]
+        },
+        {
+          "name": "SlackTeam",
+          "children": [
+            {
+              "name": "Get-SlackTeam"
+            }
+          ]
+        },
+        {
+          "name": "SlackUser",
+          "children": [
+            {
+              "name": "Get-SlackUser"
+            }
+          ]
+        },
+        {
+          "name": "SlackUserGroup",
+          "children": [
+            {
+              "name": "Get-SlackUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "SlackUserMap",
+          "children": [
+            {
+              "name": "Get-SlackUserMap"
+            }
+          ]
+        },
+        {
+          "name": "SlackAction",
+          "children": [
+            {
+              "name": "New-SlackAction"
+            }
+          ]
+        },
+        {
+          "name": "SlackActionConfirmation",
+          "children": [
+            {
+              "name": "New-SlackActionConfirmation"
+            }
+          ]
+        },
+        {
+          "name": "SlackActionOption",
+          "children": [
+            {
+              "name": "New-SlackActionOption"
+            }
+          ]
+        },
+        {
+          "name": "SlackField",
+          "children": [
+            {
+              "name": "New-SlackField"
+            }
+          ]
+        },
+        {
+          "name": "SlackMessageAttachment",
+          "children": [
+            {
+              "name": "New-SlackMessageAttachment"
+            }
+          ]
+        },
+        {
+          "name": "SlackFile",
+          "children": [
+            {
+              "name": "Remove-SlackFile"
+            },
+            {
+              "name": "Send-SlackFile"
+            }
+          ]
+        },
+        {
+          "name": "SlackApi",
+          "children": [
+            {
+              "name": "Send-SlackApi"
+            },
+            {
+              "name": "Test-SlackApi"
+            }
+          ]
+        },
+        {
+          "name": "SlackReminderComplete",
+          "children": [
+            {
+              "name": "Set-SlackReminderComplete"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSQLite",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "SqliteBulkCopy",
+          "children": [
+            {
+              "name": "Invoke-SqliteBulkCopy"
+            }
+          ]
+        },
+        {
+          "name": "SqliteQuery",
+          "children": [
+            {
+              "name": "Invoke-SqliteQuery"
+            }
+          ]
+        },
+        {
+          "name": "SqliteConnection",
+          "children": [
+            {
+              "name": "New-SqliteConnection"
+            }
+          ]
+        },
+        {
+          "name": "DataTable",
+          "children": [
+            {
+              "name": "Out-DataTable"
+            }
+          ]
+        },
+        {
+          "name": "Sqlite",
+          "children": [
+            {
+              "name": "Update-Sqlite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSStackExchange",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "SEAnswer",
+          "children": [
+            {
+              "name": "Get-SEAnswer"
+            }
+          ]
+        },
+        {
+          "name": "SEObject",
+          "children": [
+            {
+              "name": "Get-SEObject"
+            }
+          ]
+        },
+        {
+          "name": "SEQuestion",
+          "children": [
+            {
+              "name": "Get-SEQuestion"
+            },
+            {
+              "name": "Search-SEQuestion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TireFire",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "BackendHelp",
+          "children": [
+            {
+              "name": "Get-BackendHelp"
+            }
+          ]
+        },
+        {
+          "name": "Note",
+          "children": [
+            {
+              "name": "Get-Note"
+            },
+            {
+              "name": "New-Note"
+            },
+            {
+              "name": "Remove-Note"
+            },
+            {
+              "name": "Set-Note"
+            }
+          ]
+        },
+        {
+          "name": "TireFireConfig",
+          "children": [
+            {
+              "name": "Get-TireFireConfig"
+            },
+            {
+              "name": "Set-TireFireConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WFTools",
+      "companyName": "Unknown",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "ObjectDetail",
+          "children": [
+            {
+              "name": "Add-ObjectDetail"
+            }
+          ]
+        },
+        {
+          "name": "SID",
+          "children": [
+            {
+              "name": "ConvertFrom-SID"
+            }
+          ]
+        },
+        {
+          "name": "FlatObject",
+          "children": [
+            {
+              "name": "ConvertTo-FlatObject"
+            }
+          ]
+        },
+        {
+          "name": "PSCredential",
+          "children": [
+            {
+              "name": "Export-PSCredential"
+            },
+            {
+              "name": "Import-PSCredential"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupMembers",
+          "children": [
+            {
+              "name": "Get-ADGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "ADMigratedSourceObject",
+          "children": [
+            {
+              "name": "Get-ADMigratedSourceObject"
+            }
+          ]
+        },
+        {
+          "name": "ADSIObject",
+          "children": [
+            {
+              "name": "Get-ADSIObject"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmVmPublicIP",
+          "children": [
+            {
+              "name": "Get-AzureRmVmPublicIP"
+            }
+          ]
+        },
+        {
+          "name": "FolderEntry",
+          "children": [
+            {
+              "name": "Get-FolderEntry"
+            }
+          ]
+        },
+        {
+          "name": "GPPFile",
+          "children": [
+            {
+              "name": "Get-GPPFile"
+            }
+          ]
+        },
+        {
+          "name": "GPPShortcut",
+          "children": [
+            {
+              "name": "Get-GPPShortcut"
+            }
+          ]
+        },
+        {
+          "name": "InstalledSoftware",
+          "children": [
+            {
+              "name": "Get-InstalledSoftware"
+            }
+          ]
+        },
+        {
+          "name": "MSSQLColumn",
+          "children": [
+            {
+              "name": "Get-MSSQLColumn"
+            }
+          ]
+        },
+        {
+          "name": "NetworkStatistics",
+          "children": [
+            {
+              "name": "Get-NetworkStatistics"
+            }
+          ]
+        },
+        {
+          "name": "PropertyType",
+          "children": [
+            {
+              "name": "Get-PropertyType"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTasks",
+          "children": [
+            {
+              "name": "Get-ScheduledTasks"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstance",
+          "children": [
+            {
+              "name": "Get-SQLInstance"
+            }
+          ]
+        },
+        {
+          "name": "UACSetting",
+          "children": [
+            {
+              "name": "Get-UACSetting"
+            }
+          ]
+        },
+        {
+          "name": "UserSession",
+          "children": [
+            {
+              "name": "Get-UserSession"
+            }
+          ]
+        },
+        {
+          "name": "WinEventData",
+          "children": [
+            {
+              "name": "Get-WinEventData"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmVmScript",
+          "children": [
+            {
+              "name": "Invoke-AzureRmVmScript"
+            }
+          ]
+        },
+        {
+          "name": "MySQLQuery",
+          "children": [
+            {
+              "name": "Invoke-MySQLQuery"
+            }
+          ]
+        },
+        {
+          "name": "Parallel",
+          "children": [
+            {
+              "name": "Invoke-Parallel"
+            }
+          ]
+        },
+        {
+          "name": "Ping",
+          "children": [
+            {
+              "name": "Invoke-Ping"
+            }
+          ]
+        },
+        {
+          "name": "SQLBulkCopy",
+          "children": [
+            {
+              "name": "Invoke-SQLBulkCopy"
+            }
+          ]
+        },
+        {
+          "name": "Sqlcmd2",
+          "children": [
+            {
+              "name": "Invoke-Sqlcmd2"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Join-Object"
+            }
+          ]
+        },
+        {
+          "name": "Parts",
+          "children": [
+            {
+              "name": "Join-Parts"
+            }
+          ]
+        },
+        {
+          "name": "DynamicParam",
+          "children": [
+            {
+              "name": "New-DynamicParam"
+            }
+          ]
+        },
+        {
+          "name": "IPRange",
+          "children": [
+            {
+              "name": "New-IPRange"
+            }
+          ]
+        },
+        {
+          "name": "SqlConnection",
+          "children": [
+            {
+              "name": "New-SqlConnection"
+            }
+          ]
+        },
+        {
+          "name": "ISEFunction",
+          "children": [
+            {
+              "name": "Open-ISEFunction"
+            }
+          ]
+        },
+        {
+          "name": "DataTable",
+          "children": [
+            {
+              "name": "Out-DataTable"
+            }
+          ]
+        },
+        {
+          "name": "Credential",
+          "children": [
+            {
+              "name": "Test-Credential"
+            }
+          ]
+        },
+        {
+          "name": "ForAdmin",
+          "children": [
+            {
+              "name": "Test-ForAdmin"
+            }
+          ]
+        },
+        {
+          "name": "Path",
+          "children": [
+            {
+              "name": "Wait-Path"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

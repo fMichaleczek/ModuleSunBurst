@@ -1,0 +1,1536 @@
+{
+  "name": "Provance Technologies",
+  "children": [
+    {
+      "name": "Provance.Azure",
+      "companyName": "Provance Technologies",
+      "author": "Dragan Arambasic   Provance Technologies",
+      "children": [
+        {
+          "name": "ProvAzureAuthContext",
+          "children": [
+            {
+              "name": "Get-ProvAzureAuthContext"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureTenant",
+          "children": [
+            {
+              "name": "Get-ProvAzureTenant"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureSubscription",
+          "children": [
+            {
+              "name": "Get-ProvAzureSubscription"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureResourceGroup",
+          "children": [
+            {
+              "name": "Get-ProvAzureResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureServiceMapMachine",
+          "children": [
+            {
+              "name": "Get-ProvAzureServiceMapMachine"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureServiceMapMachineGroup",
+          "children": [
+            {
+              "name": "Get-ProvAzureServiceMapMachineGroup"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureServiceMapWorkspace",
+          "children": [
+            {
+              "name": "Get-ProvAzureServiceMapWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureProvider",
+          "children": [
+            {
+              "name": "Get-ProvAzureProvider"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureResource",
+          "children": [
+            {
+              "name": "Get-ProvAzureResource"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureVM",
+          "children": [
+            {
+              "name": "Get-ProvAzureVM"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureVMPowerState",
+          "children": [
+            {
+              "name": "Get-ProvAzureVMPowerState"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureVMInstanceView",
+          "children": [
+            {
+              "name": "Get-ProvAzureVMInstanceView"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureVMAction",
+          "children": [
+            {
+              "name": "Invoke-ProvAzureVMAction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Provance.CloudConnector",
+      "companyName": "Provance Technologies",
+      "author": "Dragan Arambasic and Roman Stadlmair   Provance Technologies",
+      "children": [
+        {
+          "name": "ProvAzureSubscription",
+          "children": [
+            {
+              "name": "Remove-ProvAzureSubscription"
+            },
+            {
+              "name": "Sync-ProvAzureSubscription"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureSubscriptionInactive",
+          "children": [
+            {
+              "name": "Set-ProvAzureSubscriptionInactive"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureCompute",
+          "children": [
+            {
+              "name": "Sync-ProvAzureCompute"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureServiceMap",
+          "children": [
+            {
+              "name": "Sync-ProvAzureServiceMap"
+            }
+          ]
+        },
+        {
+          "name": "ProvAzureResource",
+          "children": [
+            {
+              "name": "Sync-ProvAzureResource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Provance.Dyn365",
+      "companyName": "Provance Technologies",
+      "author": "Dragan Arambasic   Provance Technologies",
+      "children": [
+        {
+          "name": "ProvDyn365Entity",
+          "children": [
+            {
+              "name": "New-ProvDyn365Entity"
+            },
+            {
+              "name": "Get-ProvDyn365Entity"
+            },
+            {
+              "name": "Set-ProvDyn365Entity"
+            },
+            {
+              "name": "Remove-ProvDyn365Entity"
+            },
+            {
+              "name": "Update-ProvDyn365Entity"
+            }
+          ]
+        },
+        {
+          "name": "ProvDyn365EntityAssociation",
+          "children": [
+            {
+              "name": "New-ProvDyn365EntityAssociation"
+            },
+            {
+              "name": "Remove-ProvDyn365EntityAssociation"
+            }
+          ]
+        },
+        {
+          "name": "ProvDyn365EntityMetadata",
+          "children": [
+            {
+              "name": "Get-ProvDyn365EntityMetadata"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ScsmPx",
+      "companyName": "Provance Technologies",
+      "author": "Kirk Munro",
+      "children": [
+        {
+          "name": "SCSMAllowListClass",
+          "children": [
+            {
+              "name": "Add-SCSMAllowListClass"
+            },
+            {
+              "name": "Remove-SCSMAllowListClass"
+            }
+          ]
+        },
+        {
+          "name": "SCDWJob",
+          "children": [
+            {
+              "name": "Disable-SCDWJob"
+            },
+            {
+              "name": "Enable-SCDWJob"
+            },
+            {
+              "name": "Get-SCDWJob"
+            },
+            {
+              "name": "Start-SCDWJob"
+            },
+            {
+              "name": "Stop-SCDWJob"
+            }
+          ]
+        },
+        {
+          "name": "SCDWJobCategory",
+          "children": [
+            {
+              "name": "Disable-SCDWJobCategory"
+            },
+            {
+              "name": "Enable-SCDWJobCategory"
+            }
+          ]
+        },
+        {
+          "name": "SCDWJobSchedule",
+          "children": [
+            {
+              "name": "Disable-SCDWJobSchedule"
+            },
+            {
+              "name": "Enable-SCDWJobSchedule"
+            },
+            {
+              "name": "Get-SCDWJobSchedule"
+            },
+            {
+              "name": "Set-SCDWJobSchedule"
+            }
+          ]
+        },
+        {
+          "name": "SCDWSource",
+          "children": [
+            {
+              "name": "Disable-SCDWSource"
+            },
+            {
+              "name": "Enable-SCDWSource"
+            },
+            {
+              "name": "Get-SCDWSource"
+            },
+            {
+              "name": "Register-SCDWSource"
+            },
+            {
+              "name": "Set-SCDWSource"
+            },
+            {
+              "name": "Unregister-SCDWSource"
+            }
+          ]
+        },
+        {
+          "name": "SCManagementPack",
+          "children": [
+            {
+              "name": "Export-SCManagementPack"
+            },
+            {
+              "name": "Get-SCManagementPack"
+            },
+            {
+              "name": "Import-SCManagementPack"
+            },
+            {
+              "name": "New-SCManagementPack"
+            },
+            {
+              "name": "Protect-SCManagementPack"
+            },
+            {
+              "name": "Remove-SCManagementPack"
+            },
+            {
+              "name": "Test-SCManagementPack"
+            }
+          ]
+        },
+        {
+          "name": "SCClass",
+          "children": [
+            {
+              "name": "Get-SCClass"
+            }
+          ]
+        },
+        {
+          "name": "SCClassInstance",
+          "children": [
+            {
+              "name": "Get-SCClassInstance"
+            },
+            {
+              "name": "New-SCClassInstance"
+            },
+            {
+              "name": "Remove-SCClassInstance"
+            },
+            {
+              "name": "Update-SCClassInstance"
+            }
+          ]
+        },
+        {
+          "name": "SCDiscovery",
+          "children": [
+            {
+              "name": "Get-SCDiscovery"
+            }
+          ]
+        },
+        {
+          "name": "SCDWEntity",
+          "children": [
+            {
+              "name": "Get-SCDWEntity"
+            }
+          ]
+        },
+        {
+          "name": "SCDWJobModule",
+          "children": [
+            {
+              "name": "Get-SCDWJobModule"
+            }
+          ]
+        },
+        {
+          "name": "SCDWRetentionPeriod",
+          "children": [
+            {
+              "name": "Get-SCDWRetentionPeriod"
+            },
+            {
+              "name": "Set-SCDWRetentionPeriod"
+            }
+          ]
+        },
+        {
+          "name": "SCDWSourceType",
+          "children": [
+            {
+              "name": "Get-SCDWSourceType"
+            },
+            {
+              "name": "New-SCDWSourceType"
+            }
+          ]
+        },
+        {
+          "name": "SCDWWatermark",
+          "children": [
+            {
+              "name": "Get-SCDWWatermark"
+            },
+            {
+              "name": "Set-SCDWWatermark"
+            }
+          ]
+        },
+        {
+          "name": "SCGroup",
+          "children": [
+            {
+              "name": "Get-SCGroup"
+            }
+          ]
+        },
+        {
+          "name": "SCManagementGroupConnection",
+          "children": [
+            {
+              "name": "Get-SCManagementGroupConnection"
+            },
+            {
+              "name": "New-SCManagementGroupConnection"
+            },
+            {
+              "name": "Remove-SCManagementGroupConnection"
+            },
+            {
+              "name": "Set-SCManagementGroupConnection"
+            }
+          ]
+        },
+        {
+          "name": "SCObjectTemplate",
+          "children": [
+            {
+              "name": "Get-SCObjectTemplate"
+            }
+          ]
+        },
+        {
+          "name": "SCRelationship",
+          "children": [
+            {
+              "name": "Get-SCRelationship"
+            }
+          ]
+        },
+        {
+          "name": "SCRelationshipInstance",
+          "children": [
+            {
+              "name": "Get-SCRelationshipInstance"
+            },
+            {
+              "name": "New-SCRelationshipInstance"
+            },
+            {
+              "name": "Remove-SCRelationshipInstance"
+            }
+          ]
+        },
+        {
+          "name": "SCRunAsAccount",
+          "children": [
+            {
+              "name": "Get-SCRunAsAccount"
+            },
+            {
+              "name": "New-SCRunAsAccount"
+            },
+            {
+              "name": "Remove-SCRunAsAccount"
+            },
+            {
+              "name": "Update-SCRunAsAccount"
+            }
+          ]
+        },
+        {
+          "name": "SCSMAllowList",
+          "children": [
+            {
+              "name": "Get-SCSMAllowList"
+            },
+            {
+              "name": "Reset-SCSMAllowList"
+            }
+          ]
+        },
+        {
+          "name": "SCSMAnnouncement",
+          "children": [
+            {
+              "name": "Get-SCSMAnnouncement"
+            },
+            {
+              "name": "New-SCSMAnnouncement"
+            },
+            {
+              "name": "Remove-SCSMAnnouncement"
+            },
+            {
+              "name": "Update-SCSMAnnouncement"
+            }
+          ]
+        },
+        {
+          "name": "SCSMChannel",
+          "children": [
+            {
+              "name": "Get-SCSMChannel"
+            },
+            {
+              "name": "Set-SCSMChannel"
+            }
+          ]
+        },
+        {
+          "name": "SCSMConnector",
+          "children": [
+            {
+              "name": "Get-SCSMConnector"
+            },
+            {
+              "name": "Remove-SCSMConnector"
+            },
+            {
+              "name": "Start-SCSMConnector"
+            },
+            {
+              "name": "Update-SCSMConnector"
+            }
+          ]
+        },
+        {
+          "name": "SCSMDCMWorkflow",
+          "children": [
+            {
+              "name": "Get-SCSMDCMWorkflow"
+            },
+            {
+              "name": "New-SCSMDCMWorkflow"
+            },
+            {
+              "name": "Remove-SCSMDCMWorkflow"
+            },
+            {
+              "name": "Update-SCSMDCMWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "SCSMDeletedItem",
+          "children": [
+            {
+              "name": "Get-SCSMDeletedItem"
+            },
+            {
+              "name": "Restore-SCSMDeletedItem"
+            }
+          ]
+        },
+        {
+          "name": "SCSMEmailTemplate",
+          "children": [
+            {
+              "name": "Get-SCSMEmailTemplate"
+            },
+            {
+              "name": "New-SCSMEmailTemplate"
+            },
+            {
+              "name": "Remove-SCSMEmailTemplate"
+            },
+            {
+              "name": "Update-SCSMEmailTemplate"
+            }
+          ]
+        },
+        {
+          "name": "SCSMEmailTemplateContent",
+          "children": [
+            {
+              "name": "Get-SCSMEmailTemplateContent"
+            }
+          ]
+        },
+        {
+          "name": "SCSMPortalCMConfiguration",
+          "children": [
+            {
+              "name": "Get-SCSMPortalCMConfiguration"
+            },
+            {
+              "name": "Set-SCSMPortalCMConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SCSMPortalContactConfiguration",
+          "children": [
+            {
+              "name": "Get-SCSMPortalContactConfiguration"
+            },
+            {
+              "name": "Set-SCSMPortalContactConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SCSMPortalDeploymentProcess",
+          "children": [
+            {
+              "name": "Get-SCSMPortalDeploymentProcess"
+            },
+            {
+              "name": "New-SCSMPortalDeploymentProcess"
+            },
+            {
+              "name": "Remove-SCSMPortalDeploymentProcess"
+            },
+            {
+              "name": "Update-SCSMPortalDeploymentProcess"
+            }
+          ]
+        },
+        {
+          "name": "SCSMPortalSoftwarePackage",
+          "children": [
+            {
+              "name": "Get-SCSMPortalSoftwarePackage"
+            },
+            {
+              "name": "Update-SCSMPortalSoftwarePackage"
+            }
+          ]
+        },
+        {
+          "name": "SCSMQueue",
+          "children": [
+            {
+              "name": "Get-SCSMQueue"
+            }
+          ]
+        },
+        {
+          "name": "SCSMSetting",
+          "children": [
+            {
+              "name": "Get-SCSMSetting"
+            },
+            {
+              "name": "Update-SCSMSetting"
+            }
+          ]
+        },
+        {
+          "name": "SCSMSubscription",
+          "children": [
+            {
+              "name": "Get-SCSMSubscription"
+            },
+            {
+              "name": "New-SCSMSubscription"
+            },
+            {
+              "name": "Remove-SCSMSubscription"
+            },
+            {
+              "name": "Update-SCSMSubscription"
+            }
+          ]
+        },
+        {
+          "name": "SCSMTask",
+          "children": [
+            {
+              "name": "Get-SCSMTask"
+            }
+          ]
+        },
+        {
+          "name": "SCSMUser",
+          "children": [
+            {
+              "name": "Get-SCSMUser"
+            }
+          ]
+        },
+        {
+          "name": "SCSMUserRole",
+          "children": [
+            {
+              "name": "Get-SCSMUserRole"
+            },
+            {
+              "name": "New-SCSMUserRole"
+            },
+            {
+              "name": "Remove-SCSMUserRole"
+            },
+            {
+              "name": "Update-SCSMUserRole"
+            }
+          ]
+        },
+        {
+          "name": "SCSMView",
+          "children": [
+            {
+              "name": "Get-SCSMView"
+            }
+          ]
+        },
+        {
+          "name": "SCSMWorkflow",
+          "children": [
+            {
+              "name": "Get-SCSMWorkflow"
+            },
+            {
+              "name": "New-SCSMWorkflow"
+            },
+            {
+              "name": "Remove-SCSMWorkflow"
+            },
+            {
+              "name": "Update-SCSMWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "SCSMWorkflowStatus",
+          "children": [
+            {
+              "name": "Get-SCSMWorkflowStatus"
+            }
+          ]
+        },
+        {
+          "name": "SCSMInstance",
+          "children": [
+            {
+              "name": "Import-SCSMInstance"
+            }
+          ]
+        },
+        {
+          "name": "SCADConnector",
+          "children": [
+            {
+              "name": "New-SCADConnector"
+            }
+          ]
+        },
+        {
+          "name": "SCCMConnector",
+          "children": [
+            {
+              "name": "New-SCCMConnector"
+            }
+          ]
+        },
+        {
+          "name": "SCManagementPackBundle",
+          "children": [
+            {
+              "name": "New-SCManagementPackBundle"
+            }
+          ]
+        },
+        {
+          "name": "SCOMAlertConnector",
+          "children": [
+            {
+              "name": "New-SCOMAlertConnector"
+            }
+          ]
+        },
+        {
+          "name": "SCOMConfigurationItemConnector",
+          "children": [
+            {
+              "name": "New-SCOMConfigurationItemConnector"
+            }
+          ]
+        },
+        {
+          "name": "SCOrchestratorConnector",
+          "children": [
+            {
+              "name": "New-SCOrchestratorConnector"
+            }
+          ]
+        },
+        {
+          "name": "SCSMAlertRule",
+          "children": [
+            {
+              "name": "New-SCSMAlertRule"
+            }
+          ]
+        },
+        {
+          "name": "SCVMMConnector",
+          "children": [
+            {
+              "name": "New-SCVMMConnector"
+            }
+          ]
+        },
+        {
+          "name": "SCDWManagementPack",
+          "children": [
+            {
+              "name": "Unregister-SCDWManagementPack"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxFileAttachment",
+          "children": [
+            {
+              "name": "Add-ScsmPxFileAttachment"
+            },
+            {
+              "name": "Get-ScsmPxFileAttachment"
+            },
+            {
+              "name": "Remove-ScsmPxFileAttachment"
+            },
+            {
+              "name": "Rename-ScsmPxFileAttachment"
+            },
+            {
+              "name": "Set-ScsmPxFileAttachment"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxTroubleTicketComment",
+          "children": [
+            {
+              "name": "Add-ScsmPxTroubleTicketComment"
+            }
+          ]
+        },
+        {
+          "name": "SCSMCommand",
+          "children": [
+            {
+              "name": "Get-SCSMCommand"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxAdGroup",
+          "children": [
+            {
+              "name": "Get-ScsmPxAdGroup"
+            },
+            {
+              "name": "Remove-ScsmPxAdGroup"
+            },
+            {
+              "name": "Rename-ScsmPxAdGroup"
+            },
+            {
+              "name": "Restore-ScsmPxAdGroup"
+            },
+            {
+              "name": "Set-ScsmPxAdGroup"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxAdPrinter",
+          "children": [
+            {
+              "name": "Get-ScsmPxAdPrinter"
+            },
+            {
+              "name": "Remove-ScsmPxAdPrinter"
+            },
+            {
+              "name": "Rename-ScsmPxAdPrinter"
+            },
+            {
+              "name": "Restore-ScsmPxAdPrinter"
+            },
+            {
+              "name": "Set-ScsmPxAdPrinter"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxAdUser",
+          "children": [
+            {
+              "name": "Get-ScsmPxAdUser"
+            },
+            {
+              "name": "Remove-ScsmPxAdUser"
+            },
+            {
+              "name": "Rename-ScsmPxAdUser"
+            },
+            {
+              "name": "Restore-ScsmPxAdUser"
+            },
+            {
+              "name": "Set-ScsmPxAdUser"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxBuild",
+          "children": [
+            {
+              "name": "Get-ScsmPxBuild"
+            },
+            {
+              "name": "Remove-ScsmPxBuild"
+            },
+            {
+              "name": "Rename-ScsmPxBuild"
+            },
+            {
+              "name": "Restore-ScsmPxBuild"
+            },
+            {
+              "name": "Set-ScsmPxBuild"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxBusinessService",
+          "children": [
+            {
+              "name": "Get-ScsmPxBusinessService"
+            },
+            {
+              "name": "Remove-ScsmPxBusinessService"
+            },
+            {
+              "name": "Rename-ScsmPxBusinessService"
+            },
+            {
+              "name": "Restore-ScsmPxBusinessService"
+            },
+            {
+              "name": "Set-ScsmPxBusinessService"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxChangeRequest",
+          "children": [
+            {
+              "name": "Get-ScsmPxChangeRequest"
+            },
+            {
+              "name": "Remove-ScsmPxChangeRequest"
+            },
+            {
+              "name": "Rename-ScsmPxChangeRequest"
+            },
+            {
+              "name": "Set-ScsmPxChangeRequest"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxCommand",
+          "children": [
+            {
+              "name": "Get-ScsmPxCommand"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxConfigItem",
+          "children": [
+            {
+              "name": "Get-ScsmPxConfigItem"
+            },
+            {
+              "name": "Remove-ScsmPxConfigItem"
+            },
+            {
+              "name": "Rename-ScsmPxConfigItem"
+            },
+            {
+              "name": "Restore-ScsmPxConfigItem"
+            },
+            {
+              "name": "Set-ScsmPxConfigItem"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxConnectedUser",
+          "children": [
+            {
+              "name": "Get-ScsmPxConnectedUser"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxDependentActivity",
+          "children": [
+            {
+              "name": "Get-ScsmPxDependentActivity"
+            },
+            {
+              "name": "Remove-ScsmPxDependentActivity"
+            },
+            {
+              "name": "Rename-ScsmPxDependentActivity"
+            },
+            {
+              "name": "Set-ScsmPxDependentActivity"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxDwCube",
+          "children": [
+            {
+              "name": "Get-ScsmPxDwCube"
+            },
+            {
+              "name": "Remove-ScsmPxDwCube"
+            },
+            {
+              "name": "Rename-ScsmPxDwCube"
+            },
+            {
+              "name": "Set-ScsmPxDwCube"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxDwDataSource",
+          "children": [
+            {
+              "name": "Get-ScsmPxDwDataSource"
+            },
+            {
+              "name": "Remove-ScsmPxDwDataSource"
+            },
+            {
+              "name": "Rename-ScsmPxDwDataSource"
+            },
+            {
+              "name": "Set-ScsmPxDwDataSource"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxDwName",
+          "children": [
+            {
+              "name": "Get-ScsmPxDwName"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxEnterpriseManagementGroup",
+          "children": [
+            {
+              "name": "Get-ScsmPxEnterpriseManagementGroup"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxEnvironment",
+          "children": [
+            {
+              "name": "Get-ScsmPxEnvironment"
+            },
+            {
+              "name": "Remove-ScsmPxEnvironment"
+            },
+            {
+              "name": "Rename-ScsmPxEnvironment"
+            },
+            {
+              "name": "Restore-ScsmPxEnvironment"
+            },
+            {
+              "name": "Set-ScsmPxEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxIncident",
+          "children": [
+            {
+              "name": "Get-ScsmPxIncident"
+            },
+            {
+              "name": "Remove-ScsmPxIncident"
+            },
+            {
+              "name": "Rename-ScsmPxIncident"
+            },
+            {
+              "name": "Set-ScsmPxIncident"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxInstallDirectory",
+          "children": [
+            {
+              "name": "Get-ScsmPxInstallDirectory"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxList",
+          "children": [
+            {
+              "name": "Get-ScsmPxList"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxListItem",
+          "children": [
+            {
+              "name": "Get-ScsmPxListItem"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxKnowledgeArticle",
+          "children": [
+            {
+              "name": "Get-ScsmPxKnowledgeArticle"
+            },
+            {
+              "name": "Remove-ScsmPxKnowledgeArticle"
+            },
+            {
+              "name": "Rename-ScsmPxKnowledgeArticle"
+            },
+            {
+              "name": "Restore-ScsmPxKnowledgeArticle"
+            },
+            {
+              "name": "Set-ScsmPxKnowledgeArticle"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxManagementServer",
+          "children": [
+            {
+              "name": "Get-ScsmPxManagementServer"
+            },
+            {
+              "name": "Remove-ScsmPxManagementServer"
+            },
+            {
+              "name": "Rename-ScsmPxManagementServer"
+            },
+            {
+              "name": "Restore-ScsmPxManagementServer"
+            },
+            {
+              "name": "Set-ScsmPxManagementServer"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxManualActivity",
+          "children": [
+            {
+              "name": "Get-ScsmPxManualActivity"
+            },
+            {
+              "name": "Remove-ScsmPxManualActivity"
+            },
+            {
+              "name": "Rename-ScsmPxManualActivity"
+            },
+            {
+              "name": "Set-ScsmPxManualActivity"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxObject",
+          "children": [
+            {
+              "name": "Get-ScsmPxObject"
+            },
+            {
+              "name": "New-ScsmPxObject"
+            },
+            {
+              "name": "Remove-ScsmPxObject"
+            },
+            {
+              "name": "Rename-ScsmPxObject"
+            },
+            {
+              "name": "Restore-ScsmPxObject"
+            },
+            {
+              "name": "Set-ScsmPxObject"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxObjectHistory",
+          "children": [
+            {
+              "name": "Get-ScsmPxObjectHistory"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxParallelActivity",
+          "children": [
+            {
+              "name": "Get-ScsmPxParallelActivity"
+            },
+            {
+              "name": "Remove-ScsmPxParallelActivity"
+            },
+            {
+              "name": "Rename-ScsmPxParallelActivity"
+            },
+            {
+              "name": "Set-ScsmPxParallelActivity"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxPrimaryManagementServer",
+          "children": [
+            {
+              "name": "Get-ScsmPxPrimaryManagementServer"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxProblem",
+          "children": [
+            {
+              "name": "Get-ScsmPxProblem"
+            },
+            {
+              "name": "Remove-ScsmPxProblem"
+            },
+            {
+              "name": "Rename-ScsmPxProblem"
+            },
+            {
+              "name": "Set-ScsmPxProblem"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxRelatedObject",
+          "children": [
+            {
+              "name": "Get-ScsmPxRelatedObject"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxReleaseRecord",
+          "children": [
+            {
+              "name": "Get-ScsmPxReleaseRecord"
+            },
+            {
+              "name": "Remove-ScsmPxReleaseRecord"
+            },
+            {
+              "name": "Rename-ScsmPxReleaseRecord"
+            },
+            {
+              "name": "Set-ScsmPxReleaseRecord"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxRequestOffering",
+          "children": [
+            {
+              "name": "Get-ScsmPxRequestOffering"
+            },
+            {
+              "name": "Remove-ScsmPxRequestOffering"
+            },
+            {
+              "name": "Rename-ScsmPxRequestOffering"
+            },
+            {
+              "name": "Set-ScsmPxRequestOffering"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxReviewActivity",
+          "children": [
+            {
+              "name": "Get-ScsmPxReviewActivity"
+            },
+            {
+              "name": "Remove-ScsmPxReviewActivity"
+            },
+            {
+              "name": "Rename-ScsmPxReviewActivity"
+            },
+            {
+              "name": "Set-ScsmPxReviewActivity"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxRunbook",
+          "children": [
+            {
+              "name": "Get-ScsmPxRunbook"
+            },
+            {
+              "name": "Remove-ScsmPxRunbook"
+            },
+            {
+              "name": "Rename-ScsmPxRunbook"
+            },
+            {
+              "name": "Set-ScsmPxRunbook"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxRunbookActivity",
+          "children": [
+            {
+              "name": "Get-ScsmPxRunbookActivity"
+            },
+            {
+              "name": "Remove-ScsmPxRunbookActivity"
+            },
+            {
+              "name": "Rename-ScsmPxRunbookActivity"
+            },
+            {
+              "name": "Set-ScsmPxRunbookActivity"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxSequentialActivity",
+          "children": [
+            {
+              "name": "Get-ScsmPxSequentialActivity"
+            },
+            {
+              "name": "Remove-ScsmPxSequentialActivity"
+            },
+            {
+              "name": "Rename-ScsmPxSequentialActivity"
+            },
+            {
+              "name": "Set-ScsmPxSequentialActivity"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxServiceOffering",
+          "children": [
+            {
+              "name": "Get-ScsmPxServiceOffering"
+            },
+            {
+              "name": "Remove-ScsmPxServiceOffering"
+            },
+            {
+              "name": "Rename-ScsmPxServiceOffering"
+            },
+            {
+              "name": "Set-ScsmPxServiceOffering"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxServiceRequest",
+          "children": [
+            {
+              "name": "Get-ScsmPxServiceRequest"
+            },
+            {
+              "name": "Remove-ScsmPxServiceRequest"
+            },
+            {
+              "name": "Rename-ScsmPxServiceRequest"
+            },
+            {
+              "name": "Restore-ScsmPxServiceRequest"
+            },
+            {
+              "name": "Set-ScsmPxServiceRequest"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxSoftwareItem",
+          "children": [
+            {
+              "name": "Get-ScsmPxSoftwareItem"
+            },
+            {
+              "name": "Remove-ScsmPxSoftwareItem"
+            },
+            {
+              "name": "Rename-ScsmPxSoftwareItem"
+            },
+            {
+              "name": "Restore-ScsmPxSoftwareItem"
+            },
+            {
+              "name": "Set-ScsmPxSoftwareItem"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxSoftwareUpdate",
+          "children": [
+            {
+              "name": "Get-ScsmPxSoftwareUpdate"
+            },
+            {
+              "name": "Remove-ScsmPxSoftwareUpdate"
+            },
+            {
+              "name": "Rename-ScsmPxSoftwareUpdate"
+            },
+            {
+              "name": "Restore-ScsmPxSoftwareUpdate"
+            },
+            {
+              "name": "Set-ScsmPxSoftwareUpdate"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxUserOrGroup",
+          "children": [
+            {
+              "name": "Get-ScsmPxUserOrGroup"
+            },
+            {
+              "name": "Remove-ScsmPxUserOrGroup"
+            },
+            {
+              "name": "Rename-ScsmPxUserOrGroup"
+            },
+            {
+              "name": "Restore-ScsmPxUserOrGroup"
+            },
+            {
+              "name": "Set-ScsmPxUserOrGroup"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxViewData",
+          "children": [
+            {
+              "name": "Get-ScsmPxViewData"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxWindowsComputer",
+          "children": [
+            {
+              "name": "Get-ScsmPxWindowsComputer"
+            },
+            {
+              "name": "Remove-ScsmPxWindowsComputer"
+            },
+            {
+              "name": "Rename-ScsmPxWindowsComputer"
+            },
+            {
+              "name": "Restore-ScsmPxWindowsComputer"
+            },
+            {
+              "name": "Set-ScsmPxWindowsComputer"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxManagementPackBundle",
+          "children": [
+            {
+              "name": "New-ScsmPxManagementPackBundle"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxObjectSearchCriteria",
+          "children": [
+            {
+              "name": "New-ScsmPxObjectSearchCriteria"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxProxyFunctionDefinition",
+          "children": [
+            {
+              "name": "New-ScsmPxProxyFunctionDefinition"
+            }
+          ]
+        },
+        {
+          "name": "ScsmPxCommandCache",
+          "children": [
+            {
+              "name": "Reset-ScsmPxCommandCache"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

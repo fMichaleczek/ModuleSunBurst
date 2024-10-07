@@ -1,0 +1,1861 @@
+{
+  "name": "lazywinadmin.com",
+  "children": [
+    {
+      "name": "AdsiPS",
+      "companyName": "lazywinadmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "ADSIGroupMember",
+          "children": [
+            {
+              "name": "Add-ADSIGroupMember"
+            },
+            {
+              "name": "Get-ADSIGroupMember"
+            },
+            {
+              "name": "Remove-ADSIGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "ADSITeamGroups",
+          "children": [
+            {
+              "name": "Compare-ADSITeamGroups"
+            }
+          ]
+        },
+        {
+          "name": "ADSIGroupMembership",
+          "children": [
+            {
+              "name": "Copy-ADSIGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "ADSIComputer",
+          "children": [
+            {
+              "name": "Disable-ADSIComputer"
+            },
+            {
+              "name": "Enable-ADSIComputer"
+            },
+            {
+              "name": "Get-ADSIComputer"
+            },
+            {
+              "name": "Move-ADSIComputer"
+            },
+            {
+              "name": "New-ADSIComputer"
+            },
+            {
+              "name": "Remove-ADSIComputer"
+            }
+          ]
+        },
+        {
+          "name": "ADSIUser",
+          "children": [
+            {
+              "name": "Disable-ADSIUser"
+            },
+            {
+              "name": "Enable-ADSIUser"
+            },
+            {
+              "name": "Get-ADSIUser"
+            },
+            {
+              "name": "Move-ADSIUser"
+            },
+            {
+              "name": "New-ADSIUser"
+            },
+            {
+              "name": "Remove-ADSIUser"
+            },
+            {
+              "name": "Set-ADSIUser"
+            },
+            {
+              "name": "Unlock-ADSIUser"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDomainControllerGlobalCatalog",
+          "children": [
+            {
+              "name": "Enable-ADSIDomainControllerGlobalCatalog"
+            }
+          ]
+        },
+        {
+          "name": "ADSIClass",
+          "children": [
+            {
+              "name": "Get-ADSIClass"
+            }
+          ]
+        },
+        {
+          "name": "ADSIComputerSite",
+          "children": [
+            {
+              "name": "Get-ADSIComputerSite"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDefaultDomainAccountLockout",
+          "children": [
+            {
+              "name": "Get-ADSIDefaultDomainAccountLockout"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDefaultDomainPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-ADSIDefaultDomainPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDomain",
+          "children": [
+            {
+              "name": "Get-ADSIDomain"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDomainBackup",
+          "children": [
+            {
+              "name": "Get-ADSIDomainBackup"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDomainController",
+          "children": [
+            {
+              "name": "Get-ADSIDomainController"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDomainMode",
+          "children": [
+            {
+              "name": "Get-ADSIDomainMode"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDomainRoot",
+          "children": [
+            {
+              "name": "Get-ADSIDomainRoot"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDomainTrustRelationship",
+          "children": [
+            {
+              "name": "Get-ADSIDomainTrustRelationship"
+            }
+          ]
+        },
+        {
+          "name": "ADSIFineGrainedPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-ADSIFineGrainedPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADSIForest",
+          "children": [
+            {
+              "name": "Get-ADSIForest"
+            }
+          ]
+        },
+        {
+          "name": "ADSIForestDomain",
+          "children": [
+            {
+              "name": "Get-ADSIForestDomain"
+            }
+          ]
+        },
+        {
+          "name": "ADSIForestMode",
+          "children": [
+            {
+              "name": "Get-ADSIForestMode"
+            }
+          ]
+        },
+        {
+          "name": "ADSIForestTrustRelationship",
+          "children": [
+            {
+              "name": "Get-ADSIForestTrustRelationship"
+            }
+          ]
+        },
+        {
+          "name": "ADSIFsmo",
+          "children": [
+            {
+              "name": "Get-ADSIFsmo"
+            }
+          ]
+        },
+        {
+          "name": "ADSIGlobalCatalog",
+          "children": [
+            {
+              "name": "Get-ADSIGlobalCatalog"
+            }
+          ]
+        },
+        {
+          "name": "ADSIGroup",
+          "children": [
+            {
+              "name": "Get-ADSIGroup"
+            },
+            {
+              "name": "Move-ADSIGroup"
+            },
+            {
+              "name": "New-ADSIGroup"
+            },
+            {
+              "name": "Remove-ADSIGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADSIGroupManagedBy",
+          "children": [
+            {
+              "name": "Get-ADSIGroupManagedBy"
+            }
+          ]
+        },
+        {
+          "name": "ADSIGroupMembershipTreeView",
+          "children": [
+            {
+              "name": "Get-ADSIGroupMembershipTreeView"
+            }
+          ]
+        },
+        {
+          "name": "ADSIGroupPolicyObject",
+          "children": [
+            {
+              "name": "Get-ADSIGroupPolicyObject"
+            }
+          ]
+        },
+        {
+          "name": "ADSIObject",
+          "children": [
+            {
+              "name": "Get-ADSIObject"
+            }
+          ]
+        },
+        {
+          "name": "ADSIOrganizationalUnit",
+          "children": [
+            {
+              "name": "Get-ADSIOrganizationalUnit"
+            }
+          ]
+        },
+        {
+          "name": "ADSIPrincipalGroupMembership",
+          "children": [
+            {
+              "name": "Get-ADSIPrincipalGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "ADSIPrintQueue",
+          "children": [
+            {
+              "name": "Get-ADSIPrintQueue"
+            }
+          ]
+        },
+        {
+          "name": "ADSIReplicaCurrentTime",
+          "children": [
+            {
+              "name": "Get-ADSIReplicaCurrentTime"
+            }
+          ]
+        },
+        {
+          "name": "ADSIReplicaDomainInfo",
+          "children": [
+            {
+              "name": "Get-ADSIReplicaDomainInfo"
+            }
+          ]
+        },
+        {
+          "name": "ADSIReplicaForestInfo",
+          "children": [
+            {
+              "name": "Get-ADSIReplicaForestInfo"
+            }
+          ]
+        },
+        {
+          "name": "ADSIReplicaGCInfo",
+          "children": [
+            {
+              "name": "Get-ADSIReplicaGCInfo"
+            }
+          ]
+        },
+        {
+          "name": "ADSIReplicaInfo",
+          "children": [
+            {
+              "name": "Get-ADSIReplicaInfo"
+            }
+          ]
+        },
+        {
+          "name": "ADSIRIDsPool",
+          "children": [
+            {
+              "name": "Get-ADSIRIDsPool"
+            }
+          ]
+        },
+        {
+          "name": "ADSIRootDSE",
+          "children": [
+            {
+              "name": "Get-ADSIRootDSE"
+            }
+          ]
+        },
+        {
+          "name": "ADSISchema",
+          "children": [
+            {
+              "name": "Get-ADSISchema"
+            }
+          ]
+        },
+        {
+          "name": "ADSISite",
+          "children": [
+            {
+              "name": "Get-ADSISite"
+            },
+            {
+              "name": "New-ADSISite"
+            },
+            {
+              "name": "Remove-ADSISite"
+            }
+          ]
+        },
+        {
+          "name": "ADSISiteLink",
+          "children": [
+            {
+              "name": "Get-ADSISiteLink"
+            }
+          ]
+        },
+        {
+          "name": "ADSISiteServer",
+          "children": [
+            {
+              "name": "Get-ADSISiteServer"
+            }
+          ]
+        },
+        {
+          "name": "ADSISiteSubnet",
+          "children": [
+            {
+              "name": "Get-ADSISiteSubnet"
+            },
+            {
+              "name": "New-ADSISiteSubnet"
+            },
+            {
+              "name": "Remove-ADSISiteSubnet"
+            }
+          ]
+        },
+        {
+          "name": "ADSITokenGroup",
+          "children": [
+            {
+              "name": "Get-ADSITokenGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADSITombstoneLifetime",
+          "children": [
+            {
+              "name": "Get-ADSITombstoneLifetime"
+            }
+          ]
+        },
+        {
+          "name": "ADSIUserPrimaryGroup",
+          "children": [
+            {
+              "name": "Get-ADSIUserPrimaryGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDomainControllerRole",
+          "children": [
+            {
+              "name": "Move-ADSIDomainControllerRole"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDomainControllerToSite",
+          "children": [
+            {
+              "name": "Move-ADSIDomainControllerToSite"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDirectoryContext",
+          "children": [
+            {
+              "name": "New-ADSIDirectoryContext"
+            }
+          ]
+        },
+        {
+          "name": "ADSIDirectoryEntry",
+          "children": [
+            {
+              "name": "New-ADSIDirectoryEntry"
+            }
+          ]
+        },
+        {
+          "name": "ADSIPrincipalContext",
+          "children": [
+            {
+              "name": "New-ADSIPrincipalContext"
+            }
+          ]
+        },
+        {
+          "name": "ADSIUserPasswordAge",
+          "children": [
+            {
+              "name": "Reset-ADSIUserPasswordAge"
+            }
+          ]
+        },
+        {
+          "name": "ADSIAccount",
+          "children": [
+            {
+              "name": "Search-ADSIAccount"
+            }
+          ]
+        },
+        {
+          "name": "ADSIUserPassword",
+          "children": [
+            {
+              "name": "Set-ADSIUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "ADSIReplicationConsistencyCheck",
+          "children": [
+            {
+              "name": "Start-ADSIReplicationConsistencyCheck"
+            }
+          ]
+        },
+        {
+          "name": "ADSICredential",
+          "children": [
+            {
+              "name": "Test-ADSICredential"
+            }
+          ]
+        },
+        {
+          "name": "ADSIUserIsGroupMember",
+          "children": [
+            {
+              "name": "Test-ADSIUserIsGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "ADSIUserIsLockedOut",
+          "children": [
+            {
+              "name": "Test-ADSIUserIsLockedOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CiresonAssetManagementPS",
+      "companyName": "LazyWinAdmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "CAMBase",
+          "children": [
+            {
+              "name": "Get-CAMBase"
+            }
+          ]
+        },
+        {
+          "name": "CAMCatalogItem",
+          "children": [
+            {
+              "name": "Get-CAMCatalogItem"
+            }
+          ]
+        },
+        {
+          "name": "CAMClass",
+          "children": [
+            {
+              "name": "Get-CAMClass"
+            }
+          ]
+        },
+        {
+          "name": "CAMConsumable",
+          "children": [
+            {
+              "name": "Get-CAMConsumable"
+            }
+          ]
+        },
+        {
+          "name": "CAMCostCenter",
+          "children": [
+            {
+              "name": "Get-CAMCostCenter"
+            }
+          ]
+        },
+        {
+          "name": "CAMHardwareAsset",
+          "children": [
+            {
+              "name": "Get-CAMHardwareAsset"
+            }
+          ]
+        },
+        {
+          "name": "CAMImportConnector",
+          "children": [
+            {
+              "name": "Get-CAMImportConnector"
+            }
+          ]
+        },
+        {
+          "name": "CAMInvoice",
+          "children": [
+            {
+              "name": "Get-CAMInvoice"
+            }
+          ]
+        },
+        {
+          "name": "CAMLease",
+          "children": [
+            {
+              "name": "Get-CAMLease"
+            }
+          ]
+        },
+        {
+          "name": "CAMLicense",
+          "children": [
+            {
+              "name": "Get-CAMLicense"
+            }
+          ]
+        },
+        {
+          "name": "CAMLocation",
+          "children": [
+            {
+              "name": "Get-CAMLocation"
+            }
+          ]
+        },
+        {
+          "name": "CAMLog",
+          "children": [
+            {
+              "name": "Get-CAMLog"
+            }
+          ]
+        },
+        {
+          "name": "CAMMeteringData",
+          "children": [
+            {
+              "name": "Get-CAMMeteringData"
+            }
+          ]
+        },
+        {
+          "name": "CAMNoticeEvent",
+          "children": [
+            {
+              "name": "Get-CAMNoticeEvent"
+            }
+          ]
+        },
+        {
+          "name": "CAMNoticeEventData",
+          "children": [
+            {
+              "name": "Get-CAMNoticeEventData"
+            }
+          ]
+        },
+        {
+          "name": "CAMOrganization",
+          "children": [
+            {
+              "name": "Get-CAMOrganization"
+            }
+          ]
+        },
+        {
+          "name": "CAMPurchase",
+          "children": [
+            {
+              "name": "Get-CAMPurchase"
+            }
+          ]
+        },
+        {
+          "name": "CAMPurchaseOrder",
+          "children": [
+            {
+              "name": "Get-CAMPurchaseOrder"
+            }
+          ]
+        },
+        {
+          "name": "CAMRelatedCustodian",
+          "children": [
+            {
+              "name": "Get-CAMRelatedCustodian"
+            }
+          ]
+        },
+        {
+          "name": "CAMRelatedObject",
+          "children": [
+            {
+              "name": "Get-CAMRelatedObject"
+            }
+          ]
+        },
+        {
+          "name": "CAMRelatedVendor",
+          "children": [
+            {
+              "name": "Get-CAMRelatedVendor"
+            }
+          ]
+        },
+        {
+          "name": "CAMRelationshipObject",
+          "children": [
+            {
+              "name": "Get-CAMRelationshipObject"
+            }
+          ]
+        },
+        {
+          "name": "CAMSetting",
+          "children": [
+            {
+              "name": "Get-CAMSetting"
+            }
+          ]
+        },
+        {
+          "name": "CAMSoftwareAsset",
+          "children": [
+            {
+              "name": "Get-CAMSoftwareAsset"
+            }
+          ]
+        },
+        {
+          "name": "CAMStandard",
+          "children": [
+            {
+              "name": "Get-CAMStandard"
+            }
+          ]
+        },
+        {
+          "name": "CAMSubnet",
+          "children": [
+            {
+              "name": "Get-CAMSubnet"
+            }
+          ]
+        },
+        {
+          "name": "CAMSupportContract",
+          "children": [
+            {
+              "name": "Get-CAMSupportContract"
+            }
+          ]
+        },
+        {
+          "name": "CAMVendor",
+          "children": [
+            {
+              "name": "Get-CAMVendor"
+            },
+            {
+              "name": "New-CAMVendor"
+            }
+          ]
+        },
+        {
+          "name": "CAMWarranty",
+          "children": [
+            {
+              "name": "Get-CAMWarranty"
+            }
+          ]
+        },
+        {
+          "name": "CAMObject",
+          "children": [
+            {
+              "name": "New-CAMObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CiresonPortalPS",
+      "companyName": "Lazywinadmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "CiresonPortalArticle",
+          "children": [
+            {
+              "name": "Get-CiresonPortalArticle"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalConfigurationItem",
+          "children": [
+            {
+              "name": "Get-CiresonPortalConfigurationItem"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalEnum",
+          "children": [
+            {
+              "name": "Get-CiresonPortalEnum"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalPSConfiguration",
+          "children": [
+            {
+              "name": "Get-CiresonPortalPSConfiguration"
+            },
+            {
+              "name": "Set-CiresonPortalPSConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalRequestOffering",
+          "children": [
+            {
+              "name": "Get-CiresonPortalRequestOffering"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalRequestOfferingDetails",
+          "children": [
+            {
+              "name": "Get-CiresonPortalRequestOfferingDetails"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalRequestOfferingTop",
+          "children": [
+            {
+              "name": "Get-CiresonPortalRequestOfferingTop"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalServiceCatalog",
+          "children": [
+            {
+              "name": "Get-CiresonPortalServiceCatalog"
+            },
+            {
+              "name": "Search-CiresonPortalServiceCatalog"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalTemplate",
+          "children": [
+            {
+              "name": "Get-CiresonPortalTemplate"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalUserAnalyst",
+          "children": [
+            {
+              "name": "Get-CiresonPortalUserAnalyst"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalUserGroup",
+          "children": [
+            {
+              "name": "Get-CiresonPortalUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalUserPermission",
+          "children": [
+            {
+              "name": "Get-CiresonPortalUserPermission"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalUserPreference",
+          "children": [
+            {
+              "name": "Get-CiresonPortalUserPreference"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalUserRequest",
+          "children": [
+            {
+              "name": "Get-CiresonPortalUserRequest"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalUserSupportGroup",
+          "children": [
+            {
+              "name": "Get-CiresonPortalUserSupportGroup"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalUserSupportGroupMember",
+          "children": [
+            {
+              "name": "Get-CiresonPortalUserSupportGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalUserTierQueue",
+          "children": [
+            {
+              "name": "Get-CiresonPortalUserTierQueue"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalWorkItem",
+          "children": [
+            {
+              "name": "Get-CiresonPortalWorkItem"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalWorkItemByUserGroup",
+          "children": [
+            {
+              "name": "Get-CiresonPortalWorkItemByUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalWorkItemClosedByUser",
+          "children": [
+            {
+              "name": "Get-CiresonPortalWorkItemClosedByUser"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalRequestOfferingAsFavorite",
+          "children": [
+            {
+              "name": "Set-CiresonPortalRequestOfferingAsFavorite"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalUserIsAuthorized",
+          "children": [
+            {
+              "name": "Test-CiresonPortalUserIsAuthorized"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalProjection",
+          "children": [
+            {
+              "name": "Update-CiresonPortalProjection"
+            },
+            {
+              "name": "Get-CiresonPortalProjection"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalEnumDisplayName",
+          "children": [
+            {
+              "name": "Get-CiresonPortalEnumDisplayName"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalUser",
+          "children": [
+            {
+              "name": "Get-CiresonPortalUser"
+            }
+          ]
+        },
+        {
+          "name": "CiresonPortalObjectHistory",
+          "children": [
+            {
+              "name": "Get-CiresonPortalObjectHistory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CoinMarketCap",
+      "companyName": "LazyWinAdmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "Coin",
+          "children": [
+            {
+              "name": "Get-Coin"
+            }
+          ]
+        },
+        {
+          "name": "CoinID",
+          "children": [
+            {
+              "name": "Get-CoinID"
+            }
+          ]
+        },
+        {
+          "name": "CoinGlobal",
+          "children": [
+            {
+              "name": "Get-CoinGlobal"
+            }
+          ]
+        },
+        {
+          "name": "CoinHistory",
+          "children": [
+            {
+              "name": "Get-CoinHistory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CountriesPS",
+      "companyName": "Lazywinadmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "Country",
+          "children": [
+            {
+              "name": "Get-Country"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fxdemo",
+      "companyName": "Lazywinadmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "ADSIComputer",
+          "children": [
+            {
+              "name": "Get-ADSIComputer"
+            }
+          ]
+        },
+        {
+          "name": "ADSIComputerSite",
+          "children": [
+            {
+              "name": "Get-ADSIComputerSite"
+            }
+          ]
+        },
+        {
+          "name": "ADSIPrincipalContext",
+          "children": [
+            {
+              "name": "New-ADSIPrincipalContext"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MeetupPS",
+      "companyName": "lazywinadmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "MeetupEvent",
+          "children": [
+            {
+              "name": "Get-MeetupEvent"
+            },
+            {
+              "name": "New-MeetupEvent"
+            }
+          ]
+        },
+        {
+          "name": "MeetupEventAttendance",
+          "children": [
+            {
+              "name": "Get-MeetupEventAttendance"
+            }
+          ]
+        },
+        {
+          "name": "MeetupGroup",
+          "children": [
+            {
+              "name": "Get-MeetupGroup"
+            }
+          ]
+        },
+        {
+          "name": "MeetupGroupMember",
+          "children": [
+            {
+              "name": "Get-MeetupGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "MeetupPhoto",
+          "children": [
+            {
+              "name": "Get-MeetupPhoto"
+            }
+          ]
+        },
+        {
+          "name": "MeetupPhotoAlbum",
+          "children": [
+            {
+              "name": "Get-MeetupPhotoAlbum"
+            }
+          ]
+        },
+        {
+          "name": "MeetupConfiguration",
+          "children": [
+            {
+              "name": "Set-MeetupConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MVP",
+      "companyName": "lazywinadmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "MVPConsiderationAnswer",
+          "children": [
+            {
+              "name": "Get-MVPConsiderationAnswer"
+            },
+            {
+              "name": "Lock-MVPConsiderationAnswer"
+            },
+            {
+              "name": "New-MVPConsiderationAnswer"
+            }
+          ]
+        },
+        {
+          "name": "MVPConsiderationQuestion",
+          "children": [
+            {
+              "name": "Get-MVPConsiderationQuestion"
+            }
+          ]
+        },
+        {
+          "name": "MVPContribution",
+          "children": [
+            {
+              "name": "Get-MVPContribution"
+            },
+            {
+              "name": "New-MVPContribution"
+            },
+            {
+              "name": "Remove-MVPContribution"
+            },
+            {
+              "name": "Set-MVPContribution"
+            },
+            {
+              "name": "Test-MVPContribution"
+            }
+          ]
+        },
+        {
+          "name": "MVPContributionArea",
+          "children": [
+            {
+              "name": "Get-MVPContributionArea"
+            }
+          ]
+        },
+        {
+          "name": "MVPContributionType",
+          "children": [
+            {
+              "name": "Get-MVPContributionType"
+            }
+          ]
+        },
+        {
+          "name": "MVPContributionVisibility",
+          "children": [
+            {
+              "name": "Get-MVPContributionVisibility"
+            }
+          ]
+        },
+        {
+          "name": "MVPOnlineIdentity",
+          "children": [
+            {
+              "name": "Get-MVPOnlineIdentity"
+            },
+            {
+              "name": "New-MVPOnlineIdentity"
+            },
+            {
+              "name": "Remove-MVPOnlineIdentity"
+            },
+            {
+              "name": "Set-MVPOnlineIdentity"
+            }
+          ]
+        },
+        {
+          "name": "MVPProfile",
+          "children": [
+            {
+              "name": "Get-MVPProfile"
+            },
+            {
+              "name": "Show-MVPProfile"
+            }
+          ]
+        },
+        {
+          "name": "MVPProfileImage",
+          "children": [
+            {
+              "name": "Get-MVPProfileImage"
+            }
+          ]
+        },
+        {
+          "name": "MVPConfiguration",
+          "children": [
+            {
+              "name": "Remove-MVPConfiguration"
+            },
+            {
+              "name": "Set-MVPConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSModuleSample",
+      "companyName": "lazywinadmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "Message",
+          "children": [
+            {
+              "name": "Get-Message"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpaceX",
+      "companyName": "lazywinadmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "SXApi",
+          "children": [
+            {
+              "name": "Get-SXApi"
+            }
+          ]
+        },
+        {
+          "name": "SXCapsule",
+          "children": [
+            {
+              "name": "Get-SXCapsule"
+            }
+          ]
+        },
+        {
+          "name": "SXCompany",
+          "children": [
+            {
+              "name": "Get-SXCompany"
+            }
+          ]
+        },
+        {
+          "name": "SXCore",
+          "children": [
+            {
+              "name": "Get-SXCore"
+            }
+          ]
+        },
+        {
+          "name": "SXDragon",
+          "children": [
+            {
+              "name": "Get-SXDragon"
+            }
+          ]
+        },
+        {
+          "name": "SXHistory",
+          "children": [
+            {
+              "name": "Get-SXHistory"
+            }
+          ]
+        },
+        {
+          "name": "SXLaunch",
+          "children": [
+            {
+              "name": "Get-SXLaunch"
+            }
+          ]
+        },
+        {
+          "name": "SXLaunchPad",
+          "children": [
+            {
+              "name": "Get-SXLaunchPad"
+            }
+          ]
+        },
+        {
+          "name": "SXMission",
+          "children": [
+            {
+              "name": "Get-SXMission"
+            }
+          ]
+        },
+        {
+          "name": "SXPayload",
+          "children": [
+            {
+              "name": "Get-SXPayload"
+            }
+          ]
+        },
+        {
+          "name": "SXRoadster",
+          "children": [
+            {
+              "name": "Get-SXRoadster"
+            }
+          ]
+        },
+        {
+          "name": "SXRocket",
+          "children": [
+            {
+              "name": "Get-SXRocket"
+            }
+          ]
+        },
+        {
+          "name": "SXShip",
+          "children": [
+            {
+              "name": "Get-SXShip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WinFormPS",
+      "companyName": "LazyWinAdmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "DataGridView",
+          "children": [
+            {
+              "name": "Load-DataGridView"
+            },
+            {
+              "name": "Refresh-DataGridView"
+            }
+          ]
+        },
+        {
+          "name": "ListBox",
+          "children": [
+            {
+              "name": "Load-ListBox"
+            }
+          ]
+        },
+        {
+          "name": "WFDataGridViewColumn",
+          "children": [
+            {
+              "name": "Add-WFDataGridViewColumn"
+            }
+          ]
+        },
+        {
+          "name": "WFDataGridViewRow",
+          "children": [
+            {
+              "name": "Add-WFDataGridViewRow"
+            }
+          ]
+        },
+        {
+          "name": "WFListViewItem",
+          "children": [
+            {
+              "name": "Add-WFListViewItem"
+            },
+            {
+              "name": "Get-WFListViewItem"
+            }
+          ]
+        },
+        {
+          "name": "WFRichTextBoxText",
+          "children": [
+            {
+              "name": "Add-WFRichTextBoxText"
+            }
+          ]
+        },
+        {
+          "name": "WFDataGridViewSelection",
+          "children": [
+            {
+              "name": "Clear-WFDataGridViewSelection"
+            }
+          ]
+        },
+        {
+          "name": "WFErrorProvider",
+          "children": [
+            {
+              "name": "Clear-WFErrorProvider"
+            }
+          ]
+        },
+        {
+          "name": "WFListBox",
+          "children": [
+            {
+              "name": "Clear-WFListBox"
+            },
+            {
+              "name": "Import-WFListBox"
+            }
+          ]
+        },
+        {
+          "name": "WFRichTextBox",
+          "children": [
+            {
+              "name": "Clear-WFRichTextBox"
+            },
+            {
+              "name": "Disable-WFRichTextBox"
+            },
+            {
+              "name": "Enable-WFRichTextBox"
+            },
+            {
+              "name": "Set-WFRichTextBox"
+            }
+          ]
+        },
+        {
+          "name": "WFDataTable",
+          "children": [
+            {
+              "name": "ConvertTo-WFDataTable"
+            }
+          ]
+        },
+        {
+          "name": "WFButton",
+          "children": [
+            {
+              "name": "Disable-WFButton"
+            },
+            {
+              "name": "Enable-WFButton"
+            }
+          ]
+        },
+        {
+          "name": "WFTabControl",
+          "children": [
+            {
+              "name": "Disable-WFTabControl"
+            },
+            {
+              "name": "Enable-WFTabControl"
+            }
+          ]
+        },
+        {
+          "name": "WFTextBox",
+          "children": [
+            {
+              "name": "Disable-WFTextBox"
+            },
+            {
+              "name": "Enable-WFTextBox"
+            }
+          ]
+        },
+        {
+          "name": "WFDataGridViewValue",
+          "children": [
+            {
+              "name": "Find-WFDataGridViewValue"
+            }
+          ]
+        },
+        {
+          "name": "WFCheckedListBoxItem",
+          "children": [
+            {
+              "name": "Get-WFCheckedListBoxItem"
+            }
+          ]
+        },
+        {
+          "name": "WFComboboxItem",
+          "children": [
+            {
+              "name": "Get-WFComboboxItem"
+            }
+          ]
+        },
+        {
+          "name": "WFForm",
+          "children": [
+            {
+              "name": "Get-WFForm"
+            },
+            {
+              "name": "Set-WFForm"
+            }
+          ]
+        },
+        {
+          "name": "WFListBoxItem",
+          "children": [
+            {
+              "name": "Get-WFListBoxItem"
+            },
+            {
+              "name": "Remove-WFListBoxItem"
+            }
+          ]
+        },
+        {
+          "name": "WFDataGridView",
+          "children": [
+            {
+              "name": "Import-WFDataGridView"
+            },
+            {
+              "name": "Set-WFDataGridView"
+            },
+            {
+              "name": "Update-WFDataGridView"
+            }
+          ]
+        },
+        {
+          "name": "WFBalloonNotification",
+          "children": [
+            {
+              "name": "New-WFBalloonNotification"
+            }
+          ]
+        },
+        {
+          "name": "WFInputBox",
+          "children": [
+            {
+              "name": "New-WFInputBox"
+            }
+          ]
+        },
+        {
+          "name": "WFMessageBox",
+          "children": [
+            {
+              "name": "New-WFMessageBox"
+            }
+          ]
+        },
+        {
+          "name": "WFOpenFileDialog",
+          "children": [
+            {
+              "name": "New-WFOpenFileDialog"
+            }
+          ]
+        },
+        {
+          "name": "WFOpenFolderDialog",
+          "children": [
+            {
+              "name": "New-WFOpenFolderDialog"
+            }
+          ]
+        },
+        {
+          "name": "WFSpeakerBeep",
+          "children": [
+            {
+              "name": "New-WFSpeakerBeep"
+            }
+          ]
+        },
+        {
+          "name": "WFDataGridViewFormat",
+          "children": [
+            {
+              "name": "Reset-WFDataGridViewFormat"
+            }
+          ]
+        },
+        {
+          "name": "WFDataGridViewFilter",
+          "children": [
+            {
+              "name": "Set-WFDataGridViewFilter"
+            }
+          ]
+        },
+        {
+          "name": "WFListViewColumn",
+          "children": [
+            {
+              "name": "Set-WFListViewColumn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WPFPS",
+      "companyName": "Lazywinadmin.com",
+      "author": "Francois Xavier Cat",
+      "children": [
+        {
+          "name": "WPFComboBoxItem",
+          "children": [
+            {
+              "name": "Add-WPFComboBoxItem"
+            },
+            {
+              "name": "Remove-WPFComboBoxItem"
+            }
+          ]
+        },
+        {
+          "name": "WPFDataGridRow",
+          "children": [
+            {
+              "name": "Add-WPFDataGridRow"
+            }
+          ]
+        },
+        {
+          "name": "WPFListBoxItem",
+          "children": [
+            {
+              "name": "Add-WPFListBoxItem"
+            },
+            {
+              "name": "Get-WPFListBoxItem"
+            },
+            {
+              "name": "Remove-WPFListBoxItem"
+            }
+          ]
+        },
+        {
+          "name": "WPFDataGrid",
+          "children": [
+            {
+              "name": "Clear-WPFDataGrid"
+            },
+            {
+              "name": "Import-WPFDataGrid"
+            },
+            {
+              "name": "Update-WPFDataGrid"
+            }
+          ]
+        },
+        {
+          "name": "WPFListBox",
+          "children": [
+            {
+              "name": "Clear-WPFListBox"
+            },
+            {
+              "name": "Set-WPFListBox"
+            }
+          ]
+        },
+        {
+          "name": "WPFRichTextBox",
+          "children": [
+            {
+              "name": "Clear-WPFRichTextBox"
+            }
+          ]
+        },
+        {
+          "name": "WPFButton",
+          "children": [
+            {
+              "name": "Disable-WPFButton"
+            },
+            {
+              "name": "Enable-WPFButton"
+            }
+          ]
+        },
+        {
+          "name": "WPFTextBox",
+          "children": [
+            {
+              "name": "Disable-WPFTextBox"
+            },
+            {
+              "name": "Enable-WPFTextBox"
+            }
+          ]
+        },
+        {
+          "name": "WPFTextBoxText",
+          "children": [
+            {
+              "name": "Get-WPFTextBoxText"
+            },
+            {
+              "name": "Set-WPFTextBoxText"
+            }
+          ]
+        },
+        {
+          "name": "WPFInputBox",
+          "children": [
+            {
+              "name": "New-WPFInputBox"
+            }
+          ]
+        },
+        {
+          "name": "WPFMessageBox",
+          "children": [
+            {
+              "name": "New-WPFMessageBox"
+            }
+          ]
+        },
+        {
+          "name": "WPFOpenFileDialog",
+          "children": [
+            {
+              "name": "New-WPFOpenFileDialog"
+            }
+          ]
+        },
+        {
+          "name": "WPFOpenFolderDialog",
+          "children": [
+            {
+              "name": "New-WPFOpenFolderDialog"
+            }
+          ]
+        },
+        {
+          "name": "WPFSpeakerBeep",
+          "children": [
+            {
+              "name": "New-WPFSpeakerBeep"
+            }
+          ]
+        },
+        {
+          "name": "WPFProgressBar",
+          "children": [
+            {
+              "name": "Set-WPFProgressBar"
+            }
+          ]
+        },
+        {
+          "name": "WPFWindow",
+          "children": [
+            {
+              "name": "Set-WPFWindow"
+            },
+            {
+              "name": "Show-WPFWindow"
+            }
+          ]
+        },
+        {
+          "name": "WPFWindowVariable",
+          "children": [
+            {
+              "name": "Set-WPFWindowVariable"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

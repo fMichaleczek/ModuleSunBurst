@@ -1,0 +1,1020 @@
+{
+  "name": "batmanama",
+  "children": [
+    {
+      "name": "logicshell",
+      "companyName": "Unknown",
+      "author": "batmanama",
+      "children": [
+        {
+          "name": "lmApi",
+          "children": [
+            {
+              "name": "Connect-lmApi"
+            },
+            {
+              "name": "Invoke-lmApi"
+            }
+          ]
+        },
+        {
+          "name": "lmDevice",
+          "children": [
+            {
+              "name": "Get-lmDevice"
+            }
+          ]
+        },
+        {
+          "name": "lmSdt",
+          "children": [
+            {
+              "name": "Add-lmSdt"
+            },
+            {
+              "name": "Get-lmSdt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "powerbox",
+      "companyName": "Unknown",
+      "author": "batmanama",
+      "children": [
+        {
+          "name": "nbAPI",
+          "children": [
+            {
+              "name": "Connect-nbAPI"
+            },
+            {
+              "name": "Invoke-nbApi"
+            }
+          ]
+        },
+        {
+          "name": "nbID",
+          "children": [
+            {
+              "name": "ConvertTo-nbID"
+            }
+          ]
+        },
+        {
+          "name": "nbAggregate",
+          "children": [
+            {
+              "name": "Get-nbAggregate"
+            },
+            {
+              "name": "New-nbAggregate"
+            },
+            {
+              "name": "Set-nbAggregate"
+            },
+            {
+              "name": "Remove-nbAggregate"
+            }
+          ]
+        },
+        {
+          "name": "nbCircuit",
+          "children": [
+            {
+              "name": "Get-nbCircuit"
+            },
+            {
+              "name": "New-nbCircuit"
+            },
+            {
+              "name": "Set-nbCircuit"
+            },
+            {
+              "name": "Remove-nbCircuit"
+            }
+          ]
+        },
+        {
+          "name": "nbCircuitTermination",
+          "children": [
+            {
+              "name": "Get-nbCircuitTermination"
+            },
+            {
+              "name": "New-nbCircuitTermination"
+            },
+            {
+              "name": "Set-nbCircuitTermination"
+            },
+            {
+              "name": "Remove-nbCircuitTermination"
+            }
+          ]
+        },
+        {
+          "name": "nbCircuitType",
+          "children": [
+            {
+              "name": "Get-nbCircuitType"
+            },
+            {
+              "name": "New-nbCircuitType"
+            },
+            {
+              "name": "Set-nbCircuitType"
+            },
+            {
+              "name": "Remove-nbCircuitType"
+            }
+          ]
+        },
+        {
+          "name": "nbCluster",
+          "children": [
+            {
+              "name": "Get-nbCluster"
+            },
+            {
+              "name": "New-nbCluster"
+            },
+            {
+              "name": "Set-nbCluster"
+            },
+            {
+              "name": "Remove-nbCluster"
+            }
+          ]
+        },
+        {
+          "name": "nbClusterGroup",
+          "children": [
+            {
+              "name": "Get-nbClusterGroup"
+            },
+            {
+              "name": "New-nbClusterGroup"
+            },
+            {
+              "name": "Set-nbClusterGroup"
+            },
+            {
+              "name": "Remove-nbClusterGroup"
+            }
+          ]
+        },
+        {
+          "name": "nbClusterType",
+          "children": [
+            {
+              "name": "Get-nbClusterType"
+            },
+            {
+              "name": "New-nbClusterType"
+            },
+            {
+              "name": "Set-nbClusterType"
+            },
+            {
+              "name": "Remove-nbClusterType"
+            }
+          ]
+        },
+        {
+          "name": "nbConnectedDevice",
+          "children": [
+            {
+              "name": "Get-nbConnectedDevice"
+            },
+            {
+              "name": "New-nbConnectedDevice"
+            },
+            {
+              "name": "Set-nbConnectedDevice"
+            },
+            {
+              "name": "Remove-nbConnectedDevice"
+            }
+          ]
+        },
+        {
+          "name": "nbConsoleConnection",
+          "children": [
+            {
+              "name": "Get-nbConsoleConnection"
+            },
+            {
+              "name": "New-nbConsoleConnection"
+            },
+            {
+              "name": "Set-nbConsoleConnection"
+            },
+            {
+              "name": "Remove-nbConsoleConnection"
+            }
+          ]
+        },
+        {
+          "name": "nbConsolePort",
+          "children": [
+            {
+              "name": "Get-nbConsolePort"
+            },
+            {
+              "name": "New-nbConsolePort"
+            },
+            {
+              "name": "Set-nbConsolePort"
+            },
+            {
+              "name": "Remove-nbConsolePort"
+            }
+          ]
+        },
+        {
+          "name": "nbConsolePortTemplate",
+          "children": [
+            {
+              "name": "Get-nbConsolePortTemplate"
+            },
+            {
+              "name": "New-nbConsolePortTemplate"
+            },
+            {
+              "name": "Set-nbConsolePortTemplate"
+            },
+            {
+              "name": "Remove-nbConsolePortTemplate"
+            }
+          ]
+        },
+        {
+          "name": "nbConsoleServerPort",
+          "children": [
+            {
+              "name": "Get-nbConsoleServerPort"
+            },
+            {
+              "name": "New-nbConsoleServerPort"
+            },
+            {
+              "name": "Set-nbConsoleServerPort"
+            },
+            {
+              "name": "Remove-nbConsoleServerPort"
+            }
+          ]
+        },
+        {
+          "name": "nbConsoleServerPortTemplate",
+          "children": [
+            {
+              "name": "Get-nbConsoleServerPortTemplate"
+            },
+            {
+              "name": "New-nbConsoleServerPortTemplate"
+            },
+            {
+              "name": "Set-nbConsoleServerPortTemplate"
+            },
+            {
+              "name": "Remove-nbConsoleServerPortTemplate"
+            }
+          ]
+        },
+        {
+          "name": "nbDevice",
+          "children": [
+            {
+              "name": "Get-nbDevice"
+            },
+            {
+              "name": "New-nbDevice"
+            },
+            {
+              "name": "Set-nbDevice"
+            },
+            {
+              "name": "Remove-nbDevice"
+            }
+          ]
+        },
+        {
+          "name": "nbDevicebay",
+          "children": [
+            {
+              "name": "Get-nbDevicebay"
+            },
+            {
+              "name": "New-nbDevicebay"
+            },
+            {
+              "name": "Set-nbDevicebay"
+            },
+            {
+              "name": "Remove-nbDevicebay"
+            }
+          ]
+        },
+        {
+          "name": "nbDevicebayTemplate",
+          "children": [
+            {
+              "name": "Get-nbDevicebayTemplate"
+            },
+            {
+              "name": "New-nbDevicebayTemplate"
+            },
+            {
+              "name": "Set-nbDevicebayTemplate"
+            },
+            {
+              "name": "Remove-nbDevicebayTemplate"
+            }
+          ]
+        },
+        {
+          "name": "nbDeviceRole",
+          "children": [
+            {
+              "name": "Get-nbDeviceRole"
+            },
+            {
+              "name": "New-nbDeviceRole"
+            },
+            {
+              "name": "Set-nbDeviceRole"
+            },
+            {
+              "name": "Remove-nbDeviceRole"
+            }
+          ]
+        },
+        {
+          "name": "nbDeviceType",
+          "children": [
+            {
+              "name": "Get-nbDeviceType"
+            },
+            {
+              "name": "New-nbDeviceType"
+            },
+            {
+              "name": "Set-nbDeviceType"
+            },
+            {
+              "name": "Remove-nbDeviceType"
+            }
+          ]
+        },
+        {
+          "name": "nbExportTemplate",
+          "children": [
+            {
+              "name": "Get-nbExportTemplate"
+            },
+            {
+              "name": "New-nbExportTemplate"
+            },
+            {
+              "name": "Set-nbExportTemplate"
+            },
+            {
+              "name": "Remove-nbExportTemplate"
+            }
+          ]
+        },
+        {
+          "name": "nbGraph",
+          "children": [
+            {
+              "name": "Get-nbGraph"
+            },
+            {
+              "name": "New-nbGraph"
+            },
+            {
+              "name": "Set-nbGraph"
+            },
+            {
+              "name": "Remove-nbGraph"
+            }
+          ]
+        },
+        {
+          "name": "nbImageAttachment",
+          "children": [
+            {
+              "name": "Get-nbImageAttachment"
+            },
+            {
+              "name": "New-nbImageAttachment"
+            },
+            {
+              "name": "Set-nbImageAttachment"
+            },
+            {
+              "name": "Remove-nbImageAttachment"
+            }
+          ]
+        },
+        {
+          "name": "nbInterface",
+          "children": [
+            {
+              "name": "Get-nbInterface"
+            },
+            {
+              "name": "New-nbInterface"
+            },
+            {
+              "name": "Set-nbInterface"
+            },
+            {
+              "name": "Remove-nbInterface"
+            }
+          ]
+        },
+        {
+          "name": "nbInterfaceConnection",
+          "children": [
+            {
+              "name": "Get-nbInterfaceConnection"
+            },
+            {
+              "name": "New-nbInterfaceConnection"
+            },
+            {
+              "name": "Set-nbInterfaceConnection"
+            },
+            {
+              "name": "Remove-nbInterfaceConnection"
+            }
+          ]
+        },
+        {
+          "name": "nbInterfaceTemplate",
+          "children": [
+            {
+              "name": "Get-nbInterfaceTemplate"
+            },
+            {
+              "name": "New-nbInterfaceTemplate"
+            },
+            {
+              "name": "Set-nbInterfaceTemplate"
+            },
+            {
+              "name": "Remove-nbInterfaceTemplate"
+            }
+          ]
+        },
+        {
+          "name": "nbInventoryItem",
+          "children": [
+            {
+              "name": "Get-nbInventoryItem"
+            },
+            {
+              "name": "New-nbInventoryItem"
+            },
+            {
+              "name": "Set-nbInventoryItem"
+            },
+            {
+              "name": "Remove-nbInventoryItem"
+            }
+          ]
+        },
+        {
+          "name": "nbIpAddress",
+          "children": [
+            {
+              "name": "Get-nbIpAddress"
+            },
+            {
+              "name": "New-nbIpAddress"
+            },
+            {
+              "name": "Set-nbIpAddress"
+            },
+            {
+              "name": "Remove-nbIpAddress"
+            }
+          ]
+        },
+        {
+          "name": "nbManufacturer",
+          "children": [
+            {
+              "name": "Get-nbManufacturer"
+            },
+            {
+              "name": "New-nbManufacturer"
+            },
+            {
+              "name": "Set-nbManufacturer"
+            },
+            {
+              "name": "Remove-nbManufacturer"
+            }
+          ]
+        },
+        {
+          "name": "nbObject",
+          "children": [
+            {
+              "name": "Get-nbObject"
+            },
+            {
+              "name": "New-nbObject"
+            },
+            {
+              "name": "Set-nbObject"
+            },
+            {
+              "name": "Remove-nbObject"
+            }
+          ]
+        },
+        {
+          "name": "nbPlatform",
+          "children": [
+            {
+              "name": "Get-nbPlatform"
+            },
+            {
+              "name": "New-nbPlatform"
+            },
+            {
+              "name": "Set-nbPlatform"
+            },
+            {
+              "name": "Remove-nbPlatform"
+            }
+          ]
+        },
+        {
+          "name": "nbPowerConnection",
+          "children": [
+            {
+              "name": "Get-nbPowerConnection"
+            },
+            {
+              "name": "New-nbPowerConnection"
+            },
+            {
+              "name": "Set-nbPowerConnection"
+            },
+            {
+              "name": "Remove-nbPowerConnection"
+            }
+          ]
+        },
+        {
+          "name": "nbPowerOutlet",
+          "children": [
+            {
+              "name": "Get-nbPowerOutlet"
+            },
+            {
+              "name": "New-nbPowerOutlet"
+            },
+            {
+              "name": "Set-nbPowerOutlet"
+            },
+            {
+              "name": "Remove-nbPowerOutlet"
+            }
+          ]
+        },
+        {
+          "name": "nbPowerOutletTemplate",
+          "children": [
+            {
+              "name": "Get-nbPowerOutletTemplate"
+            },
+            {
+              "name": "New-nbPowerOutletTemplate"
+            },
+            {
+              "name": "Set-nbPowerOutletTemplate"
+            },
+            {
+              "name": "Remove-nbPowerOutletTemplate"
+            }
+          ]
+        },
+        {
+          "name": "nbPowerPort",
+          "children": [
+            {
+              "name": "Get-nbPowerPort"
+            },
+            {
+              "name": "New-nbPowerPort"
+            },
+            {
+              "name": "Set-nbPowerPort"
+            },
+            {
+              "name": "Remove-nbPowerPort"
+            }
+          ]
+        },
+        {
+          "name": "nbPowerPortTemplate",
+          "children": [
+            {
+              "name": "Get-nbPowerPortTemplate"
+            },
+            {
+              "name": "New-nbPowerPortTemplate"
+            },
+            {
+              "name": "Set-nbPowerPortTemplate"
+            },
+            {
+              "name": "Remove-nbPowerPortTemplate"
+            }
+          ]
+        },
+        {
+          "name": "nbPrefix",
+          "children": [
+            {
+              "name": "Get-nbPrefix"
+            },
+            {
+              "name": "New-nbPrefix"
+            },
+            {
+              "name": "Set-nbPrefix"
+            },
+            {
+              "name": "Remove-nbPrefix"
+            }
+          ]
+        },
+        {
+          "name": "nbProvider",
+          "children": [
+            {
+              "name": "Get-nbProvider"
+            },
+            {
+              "name": "New-nbProvider"
+            },
+            {
+              "name": "Set-nbProvider"
+            },
+            {
+              "name": "Remove-nbProvider"
+            }
+          ]
+        },
+        {
+          "name": "nbRack",
+          "children": [
+            {
+              "name": "Get-nbRack"
+            },
+            {
+              "name": "New-nbRack"
+            },
+            {
+              "name": "Set-nbRack"
+            },
+            {
+              "name": "Remove-nbRack"
+            }
+          ]
+        },
+        {
+          "name": "nbRackGroup",
+          "children": [
+            {
+              "name": "Get-nbRackGroup"
+            },
+            {
+              "name": "New-nbRackGroup"
+            },
+            {
+              "name": "Set-nbRackGroup"
+            },
+            {
+              "name": "Remove-nbRackGroup"
+            }
+          ]
+        },
+        {
+          "name": "nbRackReservation",
+          "children": [
+            {
+              "name": "Get-nbRackReservation"
+            },
+            {
+              "name": "New-nbRackReservation"
+            },
+            {
+              "name": "Set-nbRackReservation"
+            },
+            {
+              "name": "Remove-nbRackReservation"
+            }
+          ]
+        },
+        {
+          "name": "nbRackRole",
+          "children": [
+            {
+              "name": "Get-nbRackRole"
+            },
+            {
+              "name": "New-nbRackRole"
+            },
+            {
+              "name": "Set-nbRackRole"
+            },
+            {
+              "name": "Remove-nbRackRole"
+            }
+          ]
+        },
+        {
+          "name": "nbRecentActivity",
+          "children": [
+            {
+              "name": "Get-nbRecentActivity"
+            },
+            {
+              "name": "New-nbRecentActivity"
+            },
+            {
+              "name": "Set-nbRecentActivity"
+            },
+            {
+              "name": "Remove-nbRecentActivity"
+            }
+          ]
+        },
+        {
+          "name": "nbRegion",
+          "children": [
+            {
+              "name": "Get-nbRegion"
+            },
+            {
+              "name": "New-nbRegion"
+            },
+            {
+              "name": "Set-nbRegion"
+            },
+            {
+              "name": "Remove-nbRegion"
+            }
+          ]
+        },
+        {
+          "name": "nbReport",
+          "children": [
+            {
+              "name": "Get-nbReport"
+            },
+            {
+              "name": "New-nbReport"
+            },
+            {
+              "name": "Set-nbReport"
+            },
+            {
+              "name": "Remove-nbReport"
+            }
+          ]
+        },
+        {
+          "name": "nbRir",
+          "children": [
+            {
+              "name": "Get-nbRir"
+            },
+            {
+              "name": "New-nbRir"
+            },
+            {
+              "name": "Set-nbRir"
+            },
+            {
+              "name": "Remove-nbRir"
+            }
+          ]
+        },
+        {
+          "name": "nbRole",
+          "children": [
+            {
+              "name": "Get-nbRole"
+            },
+            {
+              "name": "New-nbRole"
+            },
+            {
+              "name": "Set-nbRole"
+            },
+            {
+              "name": "Remove-nbRole"
+            }
+          ]
+        },
+        {
+          "name": "nbService",
+          "children": [
+            {
+              "name": "Get-nbService"
+            },
+            {
+              "name": "New-nbService"
+            },
+            {
+              "name": "Set-nbService"
+            },
+            {
+              "name": "Remove-nbService"
+            }
+          ]
+        },
+        {
+          "name": "nbSite",
+          "children": [
+            {
+              "name": "Get-nbSite"
+            },
+            {
+              "name": "New-nbSite"
+            },
+            {
+              "name": "Set-nbSite"
+            },
+            {
+              "name": "Remove-nbSite"
+            }
+          ]
+        },
+        {
+          "name": "nbTenant",
+          "children": [
+            {
+              "name": "Get-nbTenant"
+            },
+            {
+              "name": "New-nbTenant"
+            },
+            {
+              "name": "Set-nbTenant"
+            },
+            {
+              "name": "Remove-nbTenant"
+            }
+          ]
+        },
+        {
+          "name": "nbTenantGroup",
+          "children": [
+            {
+              "name": "Get-nbTenantGroup"
+            },
+            {
+              "name": "New-nbTenantGroup"
+            },
+            {
+              "name": "Set-nbTenantGroup"
+            },
+            {
+              "name": "Remove-nbTenantGroup"
+            }
+          ]
+        },
+        {
+          "name": "nbTopologyMap",
+          "children": [
+            {
+              "name": "Get-nbTopologyMap"
+            },
+            {
+              "name": "New-nbTopologyMap"
+            },
+            {
+              "name": "Set-nbTopologyMap"
+            },
+            {
+              "name": "Remove-nbTopologyMap"
+            }
+          ]
+        },
+        {
+          "name": "nbVirtualChassis",
+          "children": [
+            {
+              "name": "Get-nbVirtualChassis"
+            },
+            {
+              "name": "New-nbVirtualChassis"
+            },
+            {
+              "name": "Set-nbVirtualChassis"
+            },
+            {
+              "name": "Remove-nbVirtualChassis"
+            }
+          ]
+        },
+        {
+          "name": "nbVirtualMachine",
+          "children": [
+            {
+              "name": "Get-nbVirtualMachine"
+            },
+            {
+              "name": "New-nbVirtualMachine"
+            },
+            {
+              "name": "Set-nbVirtualMachine"
+            },
+            {
+              "name": "Remove-nbVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "nbVlan",
+          "children": [
+            {
+              "name": "Get-nbVlan"
+            },
+            {
+              "name": "New-nbVlan"
+            },
+            {
+              "name": "Set-nbVlan"
+            },
+            {
+              "name": "Remove-nbVlan"
+            }
+          ]
+        },
+        {
+          "name": "nbVlanGroup",
+          "children": [
+            {
+              "name": "Get-nbVlanGroup"
+            },
+            {
+              "name": "New-nbVlanGroup"
+            },
+            {
+              "name": "Set-nbVlanGroup"
+            },
+            {
+              "name": "Remove-nbVlanGroup"
+            }
+          ]
+        },
+        {
+          "name": "nbVMInterface",
+          "children": [
+            {
+              "name": "Get-nbVMInterface"
+            },
+            {
+              "name": "New-nbVMInterface"
+            },
+            {
+              "name": "Set-nbVMInterface"
+            },
+            {
+              "name": "Remove-nbVMInterface"
+            }
+          ]
+        },
+        {
+          "name": "nbVrf",
+          "children": [
+            {
+              "name": "Get-nbVrf"
+            },
+            {
+              "name": "New-nbVrf"
+            },
+            {
+              "name": "Set-nbVrf"
+            },
+            {
+              "name": "Remove-nbVrf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

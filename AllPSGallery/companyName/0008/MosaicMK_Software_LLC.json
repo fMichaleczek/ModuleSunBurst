@@ -1,0 +1,301 @@
+{
+  "name": "MosaicMK Software LLC",
+  "children": [
+    {
+      "name": "AdvancedADManagement",
+      "companyName": "MosaicMK Software LLC",
+      "author": "MosaicMK Software LLC",
+      "children": [
+        {
+          "name": "DomainUser",
+          "children": [
+            {
+              "name": "Get-DomainUser"
+            },
+            {
+              "name": "Unlock-DomainUser"
+            }
+          ]
+        },
+        {
+          "name": "DomainUserPassword",
+          "children": [
+            {
+              "name": "Reset-DomainUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "DomainUserGroupMembership",
+          "children": [
+            {
+              "name": "Get-DomainUserGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "DomainGroupMembers",
+          "children": [
+            {
+              "name": "Get-DomainGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "DomainGroup",
+          "children": [
+            {
+              "name": "Get-DomainGroup"
+            }
+          ]
+        },
+        {
+          "name": "DomainComputer",
+          "children": [
+            {
+              "name": "Get-DomainComputer"
+            }
+          ]
+        },
+        {
+          "name": "DomainComputerGroupMembership",
+          "children": [
+            {
+              "name": "Get-DomainComputerGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "ADObjectInfo",
+          "children": [
+            {
+              "name": "Get-ADObjectInfo"
+            }
+          ]
+        },
+        {
+          "name": "DomainOU",
+          "children": [
+            {
+              "name": "Get-DomainOU"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupMembership",
+          "children": [
+            {
+              "name": "Copy-ADGroupMembership"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CredentialManagement",
+      "companyName": "MosaicMK Software LLC",
+      "author": "MosaicMK Software LLC",
+      "children": [
+        {
+          "name": "StoredCredentials",
+          "children": [
+            {
+              "name": "Add-StoredCredentials"
+            },
+            {
+              "name": "Remove-StoredCredentials"
+            },
+            {
+              "name": "Get-StoredCredentials"
+            }
+          ]
+        },
+        {
+          "name": "ClearTextStoredCredentials",
+          "children": [
+            {
+              "name": "Get-ClearTextStoredCredentials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GetSystemInfo",
+      "companyName": "MosaicMK Software LLC",
+      "author": "MosaicMK Software LLC",
+      "children": [
+        {
+          "name": "SystemInfo",
+          "children": [
+            {
+              "name": "Get-SystemInfo"
+            }
+          ]
+        },
+        {
+          "name": "SystemSoftware",
+          "children": [
+            {
+              "name": "Get-SystemSoftware"
+            }
+          ]
+        },
+        {
+          "name": "InstalledDotNet",
+          "children": [
+            {
+              "name": "Get-InstalledDotNet"
+            }
+          ]
+        },
+        {
+          "name": "InstalledUpdates",
+          "children": [
+            {
+              "name": "Get-InstalledUpdates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GetSystemSoftware",
+      "companyName": "MosaicMK Software LLC",
+      "author": "MosaicMK Software LLC",
+      "children": [
+        {
+          "name": "SystemSoftware",
+          "children": [
+            {
+              "name": "Get-SystemSoftware"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InvokeSpeach",
+      "companyName": "MosaicMK Software LLC",
+      "author": "MosaicMK Software LLC",
+      "children": [
+        {
+          "name": "Speach",
+          "children": [
+            {
+              "name": "Invoke-Speach"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MessageHandling",
+      "companyName": "MosaicMK Software LLC",
+      "author": "MosaicMK Software LLC",
+      "children": [
+        {
+          "name": "Message",
+          "children": [
+            {
+              "name": "Write-Message"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ScriptPackaging",
+      "companyName": "MosaicMK Software LLC",
+      "author": "MosaicMK Software LLC",
+      "children": [
+        {
+          "name": "PS2EXE",
+          "children": [
+            {
+              "name": "Convert-PS2EXE"
+            }
+          ]
+        },
+        {
+          "name": "FileToBase64",
+          "children": [
+            {
+              "name": "Convert-FileToBase64"
+            }
+          ]
+        },
+        {
+          "name": "FileToDll",
+          "children": [
+            {
+              "name": "Convert-FileToDll"
+            }
+          ]
+        },
+        {
+          "name": "AESKeyFile",
+          "children": [
+            {
+              "name": "New-AESKeyFile"
+            },
+            {
+              "name": "Read-AESKeyFile"
+            }
+          ]
+        },
+        {
+          "name": "StringToSecureString",
+          "children": [
+            {
+              "name": "Convert-StringToSecureString"
+            }
+          ]
+        },
+        {
+          "name": "FileFromBase64",
+          "children": [
+            {
+              "name": "Convert-FileFromBase64"
+            }
+          ]
+        },
+        {
+          "name": "EXEIcon",
+          "children": [
+            {
+              "name": "Get-EXEIcon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShadowCopyHandling",
+      "companyName": "MosaicMK Software LLC",
+      "author": "MosaicMK Software LLC",
+      "children": [
+        {
+          "name": "ShadowCopy",
+          "children": [
+            {
+              "name": "Get-ShadowCopy"
+            },
+            {
+              "name": "New-ShadowCopy"
+            },
+            {
+              "name": "Mount-ShadowCopy"
+            },
+            {
+              "name": "Dismount-ShadowCopy"
+            },
+            {
+              "name": "Remove-ShadowCopy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

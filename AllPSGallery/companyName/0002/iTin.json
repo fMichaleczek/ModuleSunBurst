@@ -1,0 +1,123 @@
+{
+  "name": "iTin",
+  "children": [
+    {
+      "name": "iPowerShellCpuid",
+      "companyName": "iTin",
+      "author": "iTin",
+      "children": [
+        {
+          "name": "CpuidImplementedProperties",
+          "children": [
+            {
+              "name": "Get-CpuidImplementedProperties"
+            }
+          ]
+        },
+        {
+          "name": "CpuidImplementedLeafs",
+          "children": [
+            {
+              "name": "Get-CpuidImplementedLeafs"
+            }
+          ]
+        },
+        {
+          "name": "CpuidProperty",
+          "children": [
+            {
+              "name": "Get-CpuidProperty"
+            }
+          ]
+        },
+        {
+          "name": "CpuidLocateProperty",
+          "children": [
+            {
+              "name": "Get-CpuidLocateProperty"
+            }
+          ]
+        },
+        {
+          "name": "CpuidSubLeafs",
+          "children": [
+            {
+              "name": "Get-CpuidSubLeafs"
+            }
+          ]
+        },
+        {
+          "name": "CpuidIsAvailable",
+          "children": [
+            {
+              "name": "Get-CpuidIsAvailable"
+            }
+          ]
+        },
+        {
+          "name": "CpuidPropertyDetail",
+          "children": [
+            {
+              "name": "Get-CpuidPropertyDetail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iPowerShellSmbios",
+      "companyName": "iTin",
+      "author": "iTin",
+      "children": [
+        {
+          "name": "SmbiosImplementedProperties",
+          "children": [
+            {
+              "name": "Get-SmbiosImplementedProperties"
+            }
+          ]
+        },
+        {
+          "name": "SmbiosProperty",
+          "children": [
+            {
+              "name": "Get-SmbiosProperty"
+            }
+          ]
+        },
+        {
+          "name": "SmbiosPropertyDetail",
+          "children": [
+            {
+              "name": "Get-SmbiosPropertyDetail"
+            }
+          ]
+        },
+        {
+          "name": "SmbiosAvailableStructures",
+          "children": [
+            {
+              "name": "Get-SmbiosAvailableStructures"
+            }
+          ]
+        },
+        {
+          "name": "SmbiosLocateProperty",
+          "children": [
+            {
+              "name": "Get-SmbiosLocateProperty"
+            }
+          ]
+        },
+        {
+          "name": "SmbiosVersion",
+          "children": [
+            {
+              "name": "Get-SmbiosVersion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

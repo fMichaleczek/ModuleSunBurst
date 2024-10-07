@@ -1,0 +1,179 @@
+{
+  "name": "sangafabrice",
+  "children": [
+    {
+      "name": "DownloadInfo",
+      "companyName": "sangafabrice",
+      "author": "Fabrice Sanga",
+      "children": [
+        {
+          "name": "DownloadInfo",
+          "children": [
+            {
+              "name": "Get-DownloadInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProcessInspector",
+      "companyName": "sangafabrice",
+      "author": "Fabrice Sanga",
+      "children": [
+        {
+          "name": "ProcessInspector",
+          "children": [
+            {
+              "name": "Stop-ProcessInspector"
+            },
+            {
+              "name": "Reset-ProcessInspector"
+            },
+            {
+              "name": "Show-ProcessInspector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RegCli",
+      "companyName": "sangafabrice",
+      "author": "Fabrice Sanga",
+      "children": [
+        {
+          "name": "Installer",
+          "children": [
+            {
+              "name": "Expand-Installer"
+            },
+            {
+              "name": "Save-Installer"
+            }
+          ]
+        },
+        {
+          "name": "BasicInstaller",
+          "children": [
+            {
+              "name": "Expand-BasicInstaller"
+            }
+          ]
+        },
+        {
+          "name": "ChromiumInstaller",
+          "children": [
+            {
+              "name": "Expand-ChromiumInstaller"
+            }
+          ]
+        },
+        {
+          "name": "SquirrelInstaller",
+          "children": [
+            {
+              "name": "Expand-SquirrelInstaller"
+            }
+          ]
+        },
+        {
+          "name": "NsisInstaller",
+          "children": [
+            {
+              "name": "Expand-NsisInstaller"
+            }
+          ]
+        },
+        {
+          "name": "ExecutableType",
+          "children": [
+            {
+              "name": "Get-ExecutableType"
+            }
+          ]
+        },
+        {
+          "name": "ChromiumShortcut",
+          "children": [
+            {
+              "name": "Set-ChromiumShortcut"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarShortcut",
+          "children": [
+            {
+              "name": "Edit-TaskbarShortcut"
+            }
+          ]
+        },
+        {
+          "name": "ChromiumVisualElementsManifest",
+          "children": [
+            {
+              "name": "Set-ChromiumVisualElementsManifest"
+            }
+          ]
+        },
+        {
+          "name": "RegCliUpdate",
+          "children": [
+            {
+              "name": "New-RegCliUpdate"
+            }
+          ]
+        },
+        {
+          "name": "InstallLocation",
+          "children": [
+            {
+              "name": "Test-InstallLocation"
+            }
+          ]
+        },
+        {
+          "name": "InstallerLocation",
+          "children": [
+            {
+              "name": "Test-InstallerLocation"
+            }
+          ]
+        },
+        {
+          "name": "SavedInstallerVersion",
+          "children": [
+            {
+              "name": "Get-SavedInstallerVersion"
+            }
+          ]
+        },
+        {
+          "name": "SavedInstallerLastModified",
+          "children": [
+            {
+              "name": "Get-SavedInstallerLastModified"
+            }
+          ]
+        },
+        {
+          "name": "SavedInstallerSigningTime",
+          "children": [
+            {
+              "name": "Get-SavedInstallerSigningTime"
+            }
+          ]
+        },
+        {
+          "name": "CommonScript",
+          "children": [
+            {
+              "name": "Import-CommonScript"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

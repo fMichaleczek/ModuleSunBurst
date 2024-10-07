@@ -1,0 +1,36 @@
+{
+  "name": "The Ostrich",
+  "children": [
+    {
+      "name": "Datto-API",
+      "companyName": "The Ostrich",
+      "author": "Jeremy Jackson",
+      "children": [
+        {
+          "name": "DattoDevices",
+          "children": [
+            {
+              "name": "Get-DattoDevices"
+            }
+          ]
+        },
+        {
+          "name": "DattoSites",
+          "children": [
+            {
+              "name": "Get-DattoSites"
+            }
+          ]
+        },
+        {
+          "name": "DattoAPIToken",
+          "children": [
+            {
+              "name": "New-DattoAPIToken"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

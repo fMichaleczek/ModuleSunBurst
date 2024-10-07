@@ -1,0 +1,69 @@
+{
+  "name": "Michael Free",
+  "children": [
+    {
+      "name": "FreeActivate",
+      "companyName": "Michael Free",
+      "author": "Michael Free",
+      "children": [
+        {
+          "name": "Activation",
+          "children": [
+            {
+              "name": "Get-Activation"
+            }
+          ]
+        },
+        {
+          "name": "KmsActivation",
+          "children": [
+            {
+              "name": "Set-KmsActivation"
+            }
+          ]
+        },
+        {
+          "name": "MakActivation",
+          "children": [
+            {
+              "name": "Set-MakActivation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FreeDadJokes",
+      "companyName": "Michael Free",
+      "author": "Michael Free",
+      "children": [
+        {
+          "name": "DadJoke",
+          "children": [
+            {
+              "name": "Get-DadJoke"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FreeLog",
+      "companyName": "Michael Free",
+      "author": "Michael Free",
+      "children": [
+        {
+          "name": "LogFile",
+          "children": [
+            {
+              "name": "New-LogFile"
+            },
+            {
+              "name": "Write-Logfile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

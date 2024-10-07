@@ -1,0 +1,278 @@
+{
+  "name": "PPoSHGroup",
+  "children": [
+    {
+      "name": "PPoShSqlTools",
+      "companyName": "Unknown",
+      "author": "PPoSHGroup",
+      "children": [
+        {
+          "name": "Sql",
+          "children": [
+            {
+              "name": "Invoke-Sql"
+            }
+          ]
+        },
+        {
+          "name": "SqlDatabase",
+          "children": [
+            {
+              "name": "New-SqlDatabase"
+            },
+            {
+              "name": "Remove-SqlDatabase"
+            }
+          ]
+        },
+        {
+          "name": "SqlLogin",
+          "children": [
+            {
+              "name": "New-SqlLogin"
+            }
+          ]
+        },
+        {
+          "name": "SqlUser",
+          "children": [
+            {
+              "name": "New-SqlUser"
+            }
+          ]
+        },
+        {
+          "name": "SqlServerFilestream",
+          "children": [
+            {
+              "name": "Set-SqlServerFilestream"
+            }
+          ]
+        },
+        {
+          "name": "BackupSqlDatabase",
+          "children": [
+            {
+              "name": "Start-BackupSqlDatabase"
+            }
+          ]
+        },
+        {
+          "name": "RestoreSqlDatabase",
+          "children": [
+            {
+              "name": "Start-RestoreSqlDatabase"
+            }
+          ]
+        },
+        {
+          "name": "SqlServerAgentJob",
+          "children": [
+            {
+              "name": "Start-SqlServerAgentJob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PPoShTools",
+      "companyName": "Unknown",
+      "author": "PPoSHGroup",
+      "children": [
+        {
+          "name": "Font",
+          "children": [
+            {
+              "name": "Add-Font"
+            }
+          ]
+        },
+        {
+          "name": "ToLocalGroup",
+          "children": [
+            {
+              "name": "Add-ToLocalGroup"
+            }
+          ]
+        },
+        {
+          "name": "HashtableToString",
+          "children": [
+            {
+              "name": "Convert-HashtableToString"
+            }
+          ]
+        },
+        {
+          "name": "Date",
+          "children": [
+            {
+              "name": "ConvertTo-Date"
+            }
+          ]
+        },
+        {
+          "name": "HashtableFromJSON",
+          "children": [
+            {
+              "name": "ConvertTo-HashtableFromJSON"
+            }
+          ]
+        },
+        {
+          "name": "PSObjectFromJSON",
+          "children": [
+            {
+              "name": "ConvertTo-PSObjectFromJSON"
+            }
+          ]
+        },
+        {
+          "name": "UncPath",
+          "children": [
+            {
+              "name": "ConvertTo-UncPath"
+            }
+          ]
+        },
+        {
+          "name": "RemoteDrive",
+          "children": [
+            {
+              "name": "Format-RemoteDrive"
+            }
+          ]
+        },
+        {
+          "name": "ConfigurationData",
+          "children": [
+            {
+              "name": "Get-ConfigurationData"
+            }
+          ]
+        },
+        {
+          "name": "CredentialValidate",
+          "children": [
+            {
+              "name": "Get-CredentialValidate"
+            }
+          ]
+        },
+        {
+          "name": "CsvData",
+          "children": [
+            {
+              "name": "Get-CsvData"
+            }
+          ]
+        },
+        {
+          "name": "LAPSCredential",
+          "children": [
+            {
+              "name": "Get-LAPSCredential"
+            }
+          ]
+        },
+        {
+          "name": "ConnectionParameters",
+          "children": [
+            {
+              "name": "New-ConnectionParameters"
+            }
+          ]
+        },
+        {
+          "name": "MarkdownDoc",
+          "children": [
+            {
+              "name": "New-MarkdownDoc"
+            }
+          ]
+        },
+        {
+          "name": "PSSessionCustom",
+          "children": [
+            {
+              "name": "New-PSSessionCustom"
+            }
+          ]
+        },
+        {
+          "name": "LogConfiguration",
+          "children": [
+            {
+              "name": "Set-LogConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "SimpleAcl",
+          "children": [
+            {
+              "name": "Set-SimpleAcl"
+            }
+          ]
+        },
+        {
+          "name": "ExternalProcess",
+          "children": [
+            {
+              "name": "Start-ExternalProcess"
+            }
+          ]
+        },
+        {
+          "name": "ProcessForcefully",
+          "children": [
+            {
+              "name": "Stop-ProcessForcefully"
+            }
+          ]
+        },
+        {
+          "name": "ColumnIsValid",
+          "children": [
+            {
+              "name": "Test-ColumnIsValid"
+            }
+          ]
+        },
+        {
+          "name": "Online",
+          "children": [
+            {
+              "name": "Test-Online"
+            }
+          ]
+        },
+        {
+          "name": "WritePermission",
+          "children": [
+            {
+              "name": "Test-WritePermission"
+            }
+          ]
+        },
+        {
+          "name": "ErrorRecord",
+          "children": [
+            {
+              "name": "Write-ErrorRecord"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "JanJoris",
+  "children": [
+    {
+      "name": "coveralls",
+      "companyName": "Unknown",
+      "author": "JanJoris",
+      "children": [
+        {
+          "name": "Coverage",
+          "children": [
+            {
+              "name": "Publish-Coverage"
+            },
+            {
+              "name": "Format-Coverage"
+            }
+          ]
+        },
+        {
+          "name": "CoveragePercentage",
+          "children": [
+            {
+              "name": "Get-CoveragePercentage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "get-packageupdates",
+      "companyName": "herebedragons.io",
+      "author": "JanJoris",
+      "children": [
+        {
+          "name": "PackageUpdates",
+          "children": [
+            {
+              "name": "Write-PackageUpdates"
+            },
+            {
+              "name": "Save-PackageUpdates"
+            },
+            {
+              "name": "Get-PackageUpdates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "posh-with",
+      "companyName": "Unknown",
+      "author": "JanJoris",
+      "children": [
+        {
+          "name": "With",
+          "children": [
+            {
+              "name": "Invoke-With"
+            }
+          ]
+        },
+        {
+          "name": "WithPrompt",
+          "children": [
+            {
+              "name": "Write-WithPrompt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

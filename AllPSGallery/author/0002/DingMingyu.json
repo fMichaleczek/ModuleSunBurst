@@ -1,0 +1,51 @@
+{
+  "name": "DingMingyu",
+  "children": [
+    {
+      "name": "ExoDiagnose",
+      "companyName": "Microsoft Support",
+      "author": "DingMingyu",
+      "children": [
+        {
+          "name": "AbqSettings",
+          "children": [
+            {
+              "name": "Get-AbqSettings"
+            }
+          ]
+        },
+        {
+          "name": "ExoWithBasicAuth",
+          "children": [
+            {
+              "name": "Connect-ExoWithBasicAuth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PopImap",
+      "companyName": "Microsoft Support",
+      "author": "DingMingyu",
+      "children": [
+        {
+          "name": "ImapClient",
+          "children": [
+            {
+              "name": "Get-ImapClient"
+            }
+          ]
+        },
+        {
+          "name": "Pop3Client",
+          "children": [
+            {
+              "name": "Get-Pop3Client"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

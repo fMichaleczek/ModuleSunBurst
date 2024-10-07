@@ -1,0 +1,2515 @@
+{
+  "name": "JumpCloud",
+  "children": [
+    {
+      "name": "JumpCloud",
+      "companyName": "JumpCloud",
+      "author": "JumpCloud Solutions Architect Team",
+      "children": [
+        {
+          "name": "JCAssociation",
+          "children": [
+            {
+              "name": "Add-JCAssociation"
+            },
+            {
+              "name": "Copy-JCAssociation"
+            },
+            {
+              "name": "Get-JCAssociation"
+            },
+            {
+              "name": "Remove-JCAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JCCommandTarget",
+          "children": [
+            {
+              "name": "Add-JCCommandTarget"
+            },
+            {
+              "name": "Get-JCCommandTarget"
+            },
+            {
+              "name": "Remove-JCCommandTarget"
+            }
+          ]
+        },
+        {
+          "name": "JCGsuiteMember",
+          "children": [
+            {
+              "name": "Add-JCGsuiteMember"
+            },
+            {
+              "name": "Remove-JCGsuiteMember"
+            }
+          ]
+        },
+        {
+          "name": "JCOffice365Member",
+          "children": [
+            {
+              "name": "Add-JCOffice365Member"
+            },
+            {
+              "name": "Remove-JCOffice365Member"
+            }
+          ]
+        },
+        {
+          "name": "JCRadiusReplyAttribute",
+          "children": [
+            {
+              "name": "Add-JCRadiusReplyAttribute"
+            },
+            {
+              "name": "Get-JCRadiusReplyAttribute"
+            },
+            {
+              "name": "Remove-JCRadiusReplyAttribute"
+            },
+            {
+              "name": "Set-JCRadiusReplyAttribute"
+            }
+          ]
+        },
+        {
+          "name": "JCSystemGroupMember",
+          "children": [
+            {
+              "name": "Add-JCSystemGroupMember"
+            },
+            {
+              "name": "Get-JCSystemGroupMember"
+            },
+            {
+              "name": "Remove-JCSystemGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "JCSystemUser",
+          "children": [
+            {
+              "name": "Add-JCSystemUser"
+            },
+            {
+              "name": "Get-JCSystemUser"
+            },
+            {
+              "name": "Remove-JCSystemUser"
+            },
+            {
+              "name": "Set-JCSystemUser"
+            }
+          ]
+        },
+        {
+          "name": "JCUserGroupMember",
+          "children": [
+            {
+              "name": "Add-JCUserGroupMember"
+            },
+            {
+              "name": "Get-JCUserGroupMember"
+            },
+            {
+              "name": "Remove-JCUserGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "JCOrganization",
+          "children": [
+            {
+              "name": "Backup-JCOrganization"
+            },
+            {
+              "name": "Get-JCOrganization"
+            },
+            {
+              "name": "Set-JCOrganization"
+            }
+          ]
+        },
+        {
+          "name": "JCOnline",
+          "children": [
+            {
+              "name": "Connect-JCOnline"
+            }
+          ]
+        },
+        {
+          "name": "JCAdmin",
+          "children": [
+            {
+              "name": "Get-JCAdmin"
+            }
+          ]
+        },
+        {
+          "name": "JCBackup",
+          "children": [
+            {
+              "name": "Get-JCBackup"
+            }
+          ]
+        },
+        {
+          "name": "JCCloudDirectory",
+          "children": [
+            {
+              "name": "Get-JCCloudDirectory"
+            },
+            {
+              "name": "Set-JCCloudDirectory"
+            }
+          ]
+        },
+        {
+          "name": "JCCommand",
+          "children": [
+            {
+              "name": "Get-JCCommand"
+            },
+            {
+              "name": "Import-JCCommand"
+            },
+            {
+              "name": "Invoke-JCCommand"
+            },
+            {
+              "name": "New-JCCommand"
+            },
+            {
+              "name": "Remove-JCCommand"
+            },
+            {
+              "name": "Set-JCCommand"
+            }
+          ]
+        },
+        {
+          "name": "JCCommandResult",
+          "children": [
+            {
+              "name": "Get-JCCommandResult"
+            },
+            {
+              "name": "Remove-JCCommandResult"
+            }
+          ]
+        },
+        {
+          "name": "JCEvent",
+          "children": [
+            {
+              "name": "Get-JCEvent"
+            }
+          ]
+        },
+        {
+          "name": "JCEventCount",
+          "children": [
+            {
+              "name": "Get-JCEventCount"
+            }
+          ]
+        },
+        {
+          "name": "JCGroup",
+          "children": [
+            {
+              "name": "Get-JCGroup"
+            }
+          ]
+        },
+        {
+          "name": "JCPolicy",
+          "children": [
+            {
+              "name": "Get-JCPolicy"
+            },
+            {
+              "name": "New-JCPolicy"
+            },
+            {
+              "name": "Remove-JCPolicy"
+            },
+            {
+              "name": "Set-JCPolicy"
+            }
+          ]
+        },
+        {
+          "name": "JCPolicyResult",
+          "children": [
+            {
+              "name": "Get-JCPolicyResult"
+            }
+          ]
+        },
+        {
+          "name": "JCPolicyTargetGroup",
+          "children": [
+            {
+              "name": "Get-JCPolicyTargetGroup"
+            }
+          ]
+        },
+        {
+          "name": "JCPolicyTargetSystem",
+          "children": [
+            {
+              "name": "Get-JCPolicyTargetSystem"
+            }
+          ]
+        },
+        {
+          "name": "JCRadiusServer",
+          "children": [
+            {
+              "name": "Get-JCRadiusServer"
+            },
+            {
+              "name": "New-JCRadiusServer"
+            },
+            {
+              "name": "Remove-JCRadiusServer"
+            },
+            {
+              "name": "Set-JCRadiusServer"
+            }
+          ]
+        },
+        {
+          "name": "JCScheduledUserstate",
+          "children": [
+            {
+              "name": "Get-JCScheduledUserstate"
+            }
+          ]
+        },
+        {
+          "name": "JCSystem",
+          "children": [
+            {
+              "name": "Get-JCSystem"
+            },
+            {
+              "name": "Remove-JCSystem"
+            },
+            {
+              "name": "Set-JCSystem"
+            }
+          ]
+        },
+        {
+          "name": "JCSystemApp",
+          "children": [
+            {
+              "name": "Get-JCSystemApp"
+            }
+          ]
+        },
+        {
+          "name": "JCSystemInsights",
+          "children": [
+            {
+              "name": "Get-JCSystemInsights"
+            }
+          ]
+        },
+        {
+          "name": "JCSystemKB",
+          "children": [
+            {
+              "name": "Get-JCSystemKB"
+            }
+          ]
+        },
+        {
+          "name": "JCUser",
+          "children": [
+            {
+              "name": "Get-JCUser"
+            },
+            {
+              "name": "New-JCUser"
+            },
+            {
+              "name": "Remove-JCUser"
+            },
+            {
+              "name": "Set-JCUser"
+            }
+          ]
+        },
+        {
+          "name": "JCMSPFromCSV",
+          "children": [
+            {
+              "name": "Import-JCMSPFromCSV"
+            },
+            {
+              "name": "Update-JCMSPFromCSV"
+            }
+          ]
+        },
+        {
+          "name": "JCUsersFromCSV",
+          "children": [
+            {
+              "name": "Import-JCUsersFromCSV"
+            },
+            {
+              "name": "Update-JCUsersFromCSV"
+            }
+          ]
+        },
+        {
+          "name": "JCDeployment",
+          "children": [
+            {
+              "name": "Invoke-JCDeployment"
+            }
+          ]
+        },
+        {
+          "name": "JCDeploymentTemplate",
+          "children": [
+            {
+              "name": "New-JCDeploymentTemplate"
+            }
+          ]
+        },
+        {
+          "name": "JCImportTemplate",
+          "children": [
+            {
+              "name": "New-JCImportTemplate"
+            }
+          ]
+        },
+        {
+          "name": "JCMSPImportTemplate",
+          "children": [
+            {
+              "name": "New-JCMSPImportTemplate"
+            }
+          ]
+        },
+        {
+          "name": "JCSystemGroup",
+          "children": [
+            {
+              "name": "New-JCSystemGroup"
+            },
+            {
+              "name": "Remove-JCSystemGroup"
+            }
+          ]
+        },
+        {
+          "name": "JCUserGroup",
+          "children": [
+            {
+              "name": "New-JCUserGroup"
+            },
+            {
+              "name": "Remove-JCUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JCPasswordReset",
+          "children": [
+            {
+              "name": "Send-JCPasswordReset"
+            }
+          ]
+        },
+        {
+          "name": "JCSettingsFile",
+          "children": [
+            {
+              "name": "Set-JCSettingsFile"
+            }
+          ]
+        },
+        {
+          "name": "JCUserGroupLDAP",
+          "children": [
+            {
+              "name": "Set-JCUserGroupLDAP"
+            }
+          ]
+        },
+        {
+          "name": "JCModule",
+          "children": [
+            {
+              "name": "Update-JCModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JumpCloud.ADMU",
+      "companyName": "JumpCloud",
+      "author": "JumpCloud Solutions Architect Team",
+      "children": [
+        {
+          "name": "Migration",
+          "children": [
+            {
+              "name": "Start-Migration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JumpCloud.Office365.SSO",
+      "companyName": "JumpCloud",
+      "author": "JumpCloud",
+      "children": [
+        {
+          "name": "JumpCloud.Office365.SSO",
+          "children": [
+            {
+              "name": "Enable-JumpCloud.Office365.SSO"
+            },
+            {
+              "name": "Disable-JumpCloud.Office365.SSO"
+            },
+            {
+              "name": "Show-JumpCloud.Office365.SSO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JumpCloud.SDK.DirectoryInsights",
+      "companyName": "JumpCloud",
+      "author": "JumpCloud",
+      "children": [
+        {
+          "name": "JcSdkEvent",
+          "children": [
+            {
+              "name": "Get-JcSdkEvent"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkEventCount",
+          "children": [
+            {
+              "name": "Get-JcSdkEventCount"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkEventDistinct",
+          "children": [
+            {
+              "name": "Get-JcSdkEventDistinct"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkEventInterval",
+          "children": [
+            {
+              "name": "Get-JcSdkEventInterval"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkReport",
+          "children": [
+            {
+              "name": "Get-JcSdkReport"
+            },
+            {
+              "name": "New-JcSdkReport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JumpCloud.SDK.V1",
+      "companyName": "JumpCloud",
+      "author": "JumpCloud",
+      "children": [
+        {
+          "name": "JcSdkSystem",
+          "children": [
+            {
+              "name": "Clear-JcSdkSystem"
+            },
+            {
+              "name": "Get-JcSdkSystem"
+            },
+            {
+              "name": "Lock-JcSdkSystem"
+            },
+            {
+              "name": "Remove-JcSdkSystem"
+            },
+            {
+              "name": "Restart-JcSdkSystem"
+            },
+            {
+              "name": "Search-JcSdkSystem"
+            },
+            {
+              "name": "Set-JcSdkSystem"
+            },
+            {
+              "name": "Stop-JcSdkSystem"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkApplication",
+          "children": [
+            {
+              "name": "Get-JcSdkApplication"
+            },
+            {
+              "name": "New-JcSdkApplication"
+            },
+            {
+              "name": "Remove-JcSdkApplication"
+            },
+            {
+              "name": "Set-JcSdkApplication"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkApplicationTemplate",
+          "children": [
+            {
+              "name": "Get-JcSdkApplicationTemplate"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkCommand",
+          "children": [
+            {
+              "name": "Get-JcSdkCommand"
+            },
+            {
+              "name": "New-JcSdkCommand"
+            },
+            {
+              "name": "Remove-JcSdkCommand"
+            },
+            {
+              "name": "Search-JcSdkCommand"
+            },
+            {
+              "name": "Set-JcSdkCommand"
+            },
+            {
+              "name": "Start-JcSdkCommand"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkCommandFile",
+          "children": [
+            {
+              "name": "Get-JcSdkCommandFile"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkCommandResult",
+          "children": [
+            {
+              "name": "Get-JcSdkCommandResult"
+            },
+            {
+              "name": "Remove-JcSdkCommandResult"
+            },
+            {
+              "name": "Search-JcSdkCommandResult"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkCommandResultByCommandId",
+          "children": [
+            {
+              "name": "Get-JcSdkCommandResultByCommandId"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkOrganization",
+          "children": [
+            {
+              "name": "Get-JcSdkOrganization"
+            },
+            {
+              "name": "Search-JcSdkOrganization"
+            },
+            {
+              "name": "Set-JcSdkOrganization"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkRadiusServer",
+          "children": [
+            {
+              "name": "Get-JcSdkRadiusServer"
+            },
+            {
+              "name": "New-JcSdkRadiusServer"
+            },
+            {
+              "name": "Remove-JcSdkRadiusServer"
+            },
+            {
+              "name": "Set-JcSdkRadiusServer"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUser",
+          "children": [
+            {
+              "name": "Get-JcSdkUser"
+            },
+            {
+              "name": "New-JcSdkUser"
+            },
+            {
+              "name": "Remove-JcSdkUser"
+            },
+            {
+              "name": "Search-JcSdkUser"
+            },
+            {
+              "name": "Set-JcSdkUser"
+            },
+            {
+              "name": "Unlock-JcSdkUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserSshKey",
+          "children": [
+            {
+              "name": "Get-JcSdkUserSshKey"
+            },
+            {
+              "name": "New-JcSdkUserSshKey"
+            },
+            {
+              "name": "Remove-JcSdkUserSshKey"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserState",
+          "children": [
+            {
+              "name": "Initialize-JcSdkUserState"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkCommandTrigger",
+          "children": [
+            {
+              "name": "Invoke-JcSdkCommandTrigger"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkExpireUserPassword",
+          "children": [
+            {
+              "name": "Invoke-JcSdkExpireUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkAdministratorUserActivation",
+          "children": [
+            {
+              "name": "Reset-JcSdkAdministratorUserActivation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkAdministratorUserTotp",
+          "children": [
+            {
+              "name": "Reset-JcSdkAdministratorUserTotp"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserMfa",
+          "children": [
+            {
+              "name": "Reset-JcSdkUserMfa"
+            },
+            {
+              "name": "Sync-JcSdkUserMfa"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkAdministratorUser",
+          "children": [
+            {
+              "name": "Set-JcSdkAdministratorUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JumpCloud.SDK.V2",
+      "companyName": "JumpCloud",
+      "author": "JumpCloud",
+      "children": [
+        {
+          "name": "JcSdkAppleMdmDevice",
+          "children": [
+            {
+              "name": "Clear-JcSdkAppleMdmDevice"
+            },
+            {
+              "name": "Get-JcSdkAppleMdmDevice"
+            },
+            {
+              "name": "Lock-JcSdkAppleMdmDevice"
+            },
+            {
+              "name": "Remove-JcSdkAppleMdmDevice"
+            },
+            {
+              "name": "Restart-JcSdkAppleMdmDevice"
+            },
+            {
+              "name": "Stop-JcSdkAppleMdmDevice"
+            },
+            {
+              "name": "Sync-JcSdkAppleMdmDevice"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkAppleMdmDeviceActivationLock",
+          "children": [
+            {
+              "name": "Clear-JcSdkAppleMdmDeviceActivationLock"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkActiveDirectory",
+          "children": [
+            {
+              "name": "Get-JcSdkActiveDirectory"
+            },
+            {
+              "name": "New-JcSdkActiveDirectory"
+            },
+            {
+              "name": "Remove-JcSdkActiveDirectory"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkActiveDirectoryAgent",
+          "children": [
+            {
+              "name": "Get-JcSdkActiveDirectoryAgent"
+            },
+            {
+              "name": "New-JcSdkActiveDirectoryAgent"
+            },
+            {
+              "name": "Remove-JcSdkActiveDirectoryAgent"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkActiveDirectoryAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkActiveDirectoryAssociation"
+            },
+            {
+              "name": "Set-JcSdkActiveDirectoryAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkActiveDirectoryTraverseUser",
+          "children": [
+            {
+              "name": "Get-JcSdkActiveDirectoryTraverseUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkActiveDirectoryTraverseUserGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkActiveDirectoryTraverseUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkAdministratorOrganization",
+          "children": [
+            {
+              "name": "Get-JcSdkAdministratorOrganization"
+            },
+            {
+              "name": "New-JcSdkAdministratorOrganization"
+            },
+            {
+              "name": "Remove-JcSdkAdministratorOrganization"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkAdministratorOrganizationLink",
+          "children": [
+            {
+              "name": "Get-JcSdkAdministratorOrganizationLink"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkAppleMdm",
+          "children": [
+            {
+              "name": "Get-JcSdkAppleMdm"
+            },
+            {
+              "name": "Remove-JcSdkAppleMdm"
+            },
+            {
+              "name": "Set-JcSdkAppleMdm"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkAppleMdmEnrollmentProfile",
+          "children": [
+            {
+              "name": "Get-JcSdkAppleMdmEnrollmentProfile"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkApplicationAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkApplicationAssociation"
+            },
+            {
+              "name": "Set-JcSdkApplicationAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkApplicationTraverseUser",
+          "children": [
+            {
+              "name": "Get-JcSdkApplicationTraverseUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkApplicationTraverseUserGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkApplicationTraverseUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkAuthenticationPolicy",
+          "children": [
+            {
+              "name": "Get-JcSdkAuthenticationPolicy"
+            },
+            {
+              "name": "New-JcSdkAuthenticationPolicy"
+            },
+            {
+              "name": "Remove-JcSdkAuthenticationPolicy"
+            },
+            {
+              "name": "Update-JcSdkAuthenticationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkBulkUsersResult",
+          "children": [
+            {
+              "name": "Get-JcSdkBulkUsersResult"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkBulkUserState",
+          "children": [
+            {
+              "name": "Get-JcSdkBulkUserState"
+            },
+            {
+              "name": "New-JcSdkBulkUserState"
+            },
+            {
+              "name": "Remove-JcSdkBulkUserState"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkCommandAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkCommandAssociation"
+            },
+            {
+              "name": "Set-JcSdkCommandAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkCommandTraverseSystem",
+          "children": [
+            {
+              "name": "Get-JcSdkCommandTraverseSystem"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkCommandTraverseSystemGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkCommandTraverseSystemGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkCustomEmailConfiguration",
+          "children": [
+            {
+              "name": "Get-JcSdkCustomEmailConfiguration"
+            },
+            {
+              "name": "New-JcSdkCustomEmailConfiguration"
+            },
+            {
+              "name": "Remove-JcSdkCustomEmailConfiguration"
+            },
+            {
+              "name": "Set-JcSdkCustomEmailConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkCustomEmailTemplate",
+          "children": [
+            {
+              "name": "Get-JcSdkCustomEmailTemplate"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkDirectory",
+          "children": [
+            {
+              "name": "Get-JcSdkDirectory"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkDuoAccount",
+          "children": [
+            {
+              "name": "Get-JcSdkDuoAccount"
+            },
+            {
+              "name": "New-JcSdkDuoAccount"
+            },
+            {
+              "name": "Remove-JcSdkDuoAccount"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkDuoApplication",
+          "children": [
+            {
+              "name": "Get-JcSdkDuoApplication"
+            },
+            {
+              "name": "New-JcSdkDuoApplication"
+            },
+            {
+              "name": "Remove-JcSdkDuoApplication"
+            },
+            {
+              "name": "Set-JcSdkDuoApplication"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkGSuite",
+          "children": [
+            {
+              "name": "Get-JcSdkGSuite"
+            },
+            {
+              "name": "Update-JcSdkGSuite"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkGSuiteAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkGSuiteAssociation"
+            },
+            {
+              "name": "Set-JcSdkGSuiteAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkGSuiteTranslationRule",
+          "children": [
+            {
+              "name": "Get-JcSdkGSuiteTranslationRule"
+            },
+            {
+              "name": "New-JcSdkGSuiteTranslationRule"
+            },
+            {
+              "name": "Remove-JcSdkGSuiteTranslationRule"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkGSuiteTraverseUser",
+          "children": [
+            {
+              "name": "Get-JcSdkGSuiteTraverseUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkGSuiteTraverseUserGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkGSuiteTraverseUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkGSuiteUsersToImport",
+          "children": [
+            {
+              "name": "Get-JcSdkGSuiteUsersToImport"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkGsuiteUsersToImportFormatted",
+          "children": [
+            {
+              "name": "Get-JcSdkGsuiteUsersToImportFormatted"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkIPList",
+          "children": [
+            {
+              "name": "Get-JcSdkIPList"
+            },
+            {
+              "name": "New-JcSdkIPList"
+            },
+            {
+              "name": "Remove-JcSdkIPList"
+            },
+            {
+              "name": "Set-JcSdkIPList"
+            },
+            {
+              "name": "Update-JcSdkIPList"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkLdapServer",
+          "children": [
+            {
+              "name": "Get-JcSdkLdapServer"
+            },
+            {
+              "name": "Update-JcSdkLdapServer"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkLdapServerAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkLdapServerAssociation"
+            },
+            {
+              "name": "Set-JcSdkLdapServerAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkLdapServerSambaDomain",
+          "children": [
+            {
+              "name": "Get-JcSdkLdapServerSambaDomain"
+            },
+            {
+              "name": "New-JcSdkLdapServerSambaDomain"
+            },
+            {
+              "name": "Remove-JcSdkLdapServerSambaDomain"
+            },
+            {
+              "name": "Set-JcSdkLdapServerSambaDomain"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkLdapServerTraverseUser",
+          "children": [
+            {
+              "name": "Get-JcSdkLdapServerTraverseUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkLdapServerTraverseUserGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkLdapServerTraverseUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkNextScheduledBulkUserState",
+          "children": [
+            {
+              "name": "Get-JcSdkNextScheduledBulkUserState"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkOffice365",
+          "children": [
+            {
+              "name": "Get-JcSdkOffice365"
+            },
+            {
+              "name": "Update-JcSdkOffice365"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkOffice365Association",
+          "children": [
+            {
+              "name": "Get-JcSdkOffice365Association"
+            },
+            {
+              "name": "Set-JcSdkOffice365Association"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkOffice365TranslationRule",
+          "children": [
+            {
+              "name": "Get-JcSdkOffice365TranslationRule"
+            },
+            {
+              "name": "New-JcSdkOffice365TranslationRule"
+            },
+            {
+              "name": "Remove-JcSdkOffice365TranslationRule"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkOffice365TraverseUser",
+          "children": [
+            {
+              "name": "Get-JcSdkOffice365TraverseUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkOffice365TraverseUserGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkOffice365TraverseUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkOffice365UsersToImport",
+          "children": [
+            {
+              "name": "Get-JcSdkOffice365UsersToImport"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkOrganizationPolicyResult",
+          "children": [
+            {
+              "name": "Get-JcSdkOrganizationPolicyResult"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicy",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicy"
+            },
+            {
+              "name": "New-JcSdkPolicy"
+            },
+            {
+              "name": "Remove-JcSdkPolicy"
+            },
+            {
+              "name": "Set-JcSdkPolicy"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyAssociation"
+            },
+            {
+              "name": "Set-JcSdkPolicyAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyGroup"
+            },
+            {
+              "name": "New-JcSdkPolicyGroup"
+            },
+            {
+              "name": "Remove-JcSdkPolicyGroup"
+            },
+            {
+              "name": "Set-JcSdkPolicyGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyGroupAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyGroupAssociation"
+            },
+            {
+              "name": "Set-JcSdkPolicyGroupAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyGroupMember",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyGroupMember"
+            },
+            {
+              "name": "Set-JcSdkPolicyGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyGroupMembership",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyGroupTraverseSystem",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyGroupTraverseSystem"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyGroupTraverseSystemGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyGroupTraverseSystemGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyResult",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyResult"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyStatus",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyStatus"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyTemplate",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyTemplate"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyTraverseSystem",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyTraverseSystem"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkPolicyTraverseSystemGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkPolicyTraverseSystemGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkProviderAdministrator",
+          "children": [
+            {
+              "name": "Get-JcSdkProviderAdministrator"
+            },
+            {
+              "name": "New-JcSdkProviderAdministrator"
+            },
+            {
+              "name": "Remove-JcSdkProviderAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkProviderOrganization",
+          "children": [
+            {
+              "name": "Get-JcSdkProviderOrganization"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkProvidersInvoice",
+          "children": [
+            {
+              "name": "Get-JcSdkProvidersInvoice"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkRadiusServerAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkRadiusServerAssociation"
+            },
+            {
+              "name": "Set-JcSdkRadiusServerAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkRadiusServerTraverseUser",
+          "children": [
+            {
+              "name": "Get-JcSdkRadiusServerTraverseUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkRadiusServerTraverseUserGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkRadiusServerTraverseUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSoftwareApp",
+          "children": [
+            {
+              "name": "Get-JcSdkSoftwareApp"
+            },
+            {
+              "name": "New-JcSdkSoftwareApp"
+            },
+            {
+              "name": "Remove-JcSdkSoftwareApp"
+            },
+            {
+              "name": "Set-JcSdkSoftwareApp"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSoftwareAppAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkSoftwareAppAssociation"
+            },
+            {
+              "name": "Set-JcSdkSoftwareAppAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSoftwareAppStatus",
+          "children": [
+            {
+              "name": "Get-JcSdkSoftwareAppStatus"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSoftwareAppTraverseSystem",
+          "children": [
+            {
+              "name": "Get-JcSdkSoftwareAppTraverseSystem"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSoftwareAppTraverseSystemGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkSoftwareAppTraverseSystemGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSubscription",
+          "children": [
+            {
+              "name": "Get-JcSdkSubscription"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemAssociation"
+            },
+            {
+              "name": "Set-JcSdkSystemAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemFdeKey",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemFdeKey"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemGroup"
+            },
+            {
+              "name": "New-JcSdkSystemGroup"
+            },
+            {
+              "name": "Remove-JcSdkSystemGroup"
+            },
+            {
+              "name": "Set-JcSdkSystemGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemGroupAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemGroupAssociation"
+            },
+            {
+              "name": "Set-JcSdkSystemGroupAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemGroupMember",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemGroupMember"
+            },
+            {
+              "name": "Set-JcSdkSystemGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemGroupMembership",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemGroupTraverseCommand",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemGroupTraverseCommand"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemGroupTraversePolicy",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemGroupTraversePolicy"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemGroupTraversePolicyGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemGroupTraversePolicyGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemGroupTraverseUser",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemGroupTraverseUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemGroupTraverseUserGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemGroupTraverseUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightAlf",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightAlf"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightAlfException",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightAlfException"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightAlfExplicitAuth",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightAlfExplicitAuth"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightApp",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightApp"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightAppCompatShim",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightAppCompatShim"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightAuthorizedKey",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightAuthorizedKey"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightAzureInstanceMetadata",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightAzureInstanceMetadata"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightAzureInstanceTag",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightAzureInstanceTag"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightBattery",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightBattery"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightBitlockerInfo",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightBitlockerInfo"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightBrowserPlugin",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightBrowserPlugin"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightCertificate",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightCertificate"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightChassisInfo",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightChassisInfo"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightChromeExtension",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightChromeExtension"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightConnectivity",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightConnectivity"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightCrash",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightCrash"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightCupDestination",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightCupDestination"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightDiskEncryption",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightDiskEncryption"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightDiskInfo",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightDiskInfo"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightDnsResolver",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightDnsResolver"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightEtcHost",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightEtcHost"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightFirefoxAddon",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightFirefoxAddon"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightIeExtension",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightIeExtension"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightInterfaceAddress",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightInterfaceAddress"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightInterfaceDetail",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightInterfaceDetail"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightKernelInfo",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightKernelInfo"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightLaunchd",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightLaunchd"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightLinuxPackage",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightLinuxPackage"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightLoggedinUser",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightLoggedinUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightLogicalDrive",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightLogicalDrive"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightManagedPolicy",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightManagedPolicy"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightMount",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightMount"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightOSVersion",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightOSVersion"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightPatch",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightPatch"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightProgram",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightProgram"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightPythonPackage",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightPythonPackage"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightSafariExtension",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightSafariExtension"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightScheduledTask",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightSecureboot",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightSecureboot"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightService",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightService"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightShadow",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightShadow"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightSharedFolder",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightSharedFolder"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightSharedResource",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightSharedResource"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightSharingPreference",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightSharingPreference"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightSipConfig",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightSipConfig"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightStartupItem",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightStartupItem"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightSystemControl",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightSystemControl"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightSystemInfo",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightSystemInfo"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightTpmInfo",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightTpmInfo"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightUptime",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightUptime"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightUsbDevice",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightUsbDevice"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightUser",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightUserAssist",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightUserAssist"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightUserGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightUserSshKey",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightUserSshKey"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightWifiNetwork",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightWifiNetwork"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightWifiStatus",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightWifiStatus"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightWindowsSecurityCenter",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightWindowsSecurityCenter"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemInsightWindowsSecurityProduct",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemInsightWindowsSecurityProduct"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemMember",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemMember"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemPolicyStatus",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemPolicyStatus"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemTraverseCommand",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemTraverseCommand"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemTraversePolicy",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemTraversePolicy"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemTraversePolicyGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemTraversePolicyGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemTraverseUser",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemTraverseUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkSystemTraverseUserGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkSystemTraverseUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkUserAssociation"
+            },
+            {
+              "name": "Set-JcSdkUserAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroup"
+            },
+            {
+              "name": "New-JcSdkUserGroup"
+            },
+            {
+              "name": "Remove-JcSdkUserGroup"
+            },
+            {
+              "name": "Set-JcSdkUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupAssociation",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupAssociation"
+            },
+            {
+              "name": "Set-JcSdkUserGroupAssociation"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupMember",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupMember"
+            },
+            {
+              "name": "Set-JcSdkUserGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupMembership",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupTraverseActiveDirectory",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupTraverseActiveDirectory"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupTraverseApplication",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupTraverseApplication"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupTraverseDirectory",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupTraverseDirectory"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupTraverseGSuite",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupTraverseGSuite"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupTraverseLdapServer",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupTraverseLdapServer"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupTraverseOffice365",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupTraverseOffice365"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupTraverseRadiusServer",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupTraverseRadiusServer"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupTraverseSystem",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupTraverseSystem"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserGroupTraverseSystemGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkUserGroupTraverseSystemGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserMember",
+          "children": [
+            {
+              "name": "Get-JcSdkUserMember"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserPushEndpoint",
+          "children": [
+            {
+              "name": "Get-JcSdkUserPushEndpoint"
+            },
+            {
+              "name": "Remove-JcSdkUserPushEndpoint"
+            },
+            {
+              "name": "Update-JcSdkUserPushEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserTraverseActiveDirectory",
+          "children": [
+            {
+              "name": "Get-JcSdkUserTraverseActiveDirectory"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserTraverseApplication",
+          "children": [
+            {
+              "name": "Get-JcSdkUserTraverseApplication"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserTraverseDirectory",
+          "children": [
+            {
+              "name": "Get-JcSdkUserTraverseDirectory"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserTraverseGSuite",
+          "children": [
+            {
+              "name": "Get-JcSdkUserTraverseGSuite"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserTraverseLdapServer",
+          "children": [
+            {
+              "name": "Get-JcSdkUserTraverseLdapServer"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserTraverseOffice365",
+          "children": [
+            {
+              "name": "Get-JcSdkUserTraverseOffice365"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserTraverseRadiusServer",
+          "children": [
+            {
+              "name": "Get-JcSdkUserTraverseRadiusServer"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserTraverseSystem",
+          "children": [
+            {
+              "name": "Get-JcSdkUserTraverseSystem"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkUserTraverseSystemGroup",
+          "children": [
+            {
+              "name": "Get-JcSdkUserTraverseSystemGroup"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkWorkday",
+          "children": [
+            {
+              "name": "Get-JcSdkWorkday"
+            },
+            {
+              "name": "Grant-JcSdkWorkday"
+            },
+            {
+              "name": "Import-JcSdkWorkday"
+            },
+            {
+              "name": "New-JcSdkWorkday"
+            },
+            {
+              "name": "Set-JcSdkWorkday"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkWorkdayWorker",
+          "children": [
+            {
+              "name": "Get-JcSdkWorkdayWorker"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkScim",
+          "children": [
+            {
+              "name": "Import-JcSdkScim"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkWorkdayResult",
+          "children": [
+            {
+              "name": "Import-JcSdkWorkdayResult"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkReclaimSoftwareAppLicense",
+          "children": [
+            {
+              "name": "Invoke-JcSdkReclaimSoftwareAppLicense"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkBulkUser",
+          "children": [
+            {
+              "name": "New-JcSdkBulkUser"
+            },
+            {
+              "name": "Update-JcSdkBulkUser"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkApplicationLogo",
+          "children": [
+            {
+              "name": "Remove-JcSdkApplicationLogo"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkWorkdayAuthorization",
+          "children": [
+            {
+              "name": "Remove-JcSdkWorkdayAuthorization"
+            }
+          ]
+        },
+        {
+          "name": "JcSdkAppleMdmDeviceLockInformation",
+          "children": [
+            {
+              "name": "Update-JcSdkAppleMdmDeviceLockInformation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

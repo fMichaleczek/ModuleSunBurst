@@ -1,0 +1,480 @@
+{
+  "name": "Max Kozlov",
+  "children": [
+    {
+      "name": "GMGoogleDrive",
+      "companyName": "Unknown",
+      "author": "Max Kozlov",
+      "children": [
+        {
+          "name": "GDriveAuthorizationCode",
+          "children": [
+            {
+              "name": "Request-GDriveAuthorizationCode"
+            }
+          ]
+        },
+        {
+          "name": "GDriveRefreshToken",
+          "children": [
+            {
+              "name": "Request-GDriveRefreshToken"
+            }
+          ]
+        },
+        {
+          "name": "GDriveAccessToken",
+          "children": [
+            {
+              "name": "Get-GDriveAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "GDriveToken",
+          "children": [
+            {
+              "name": "Revoke-GDriveToken"
+            }
+          ]
+        },
+        {
+          "name": "GDriveSummary",
+          "children": [
+            {
+              "name": "Get-GDriveSummary"
+            }
+          ]
+        },
+        {
+          "name": "GDriveError",
+          "children": [
+            {
+              "name": "Get-GDriveError"
+            }
+          ]
+        },
+        {
+          "name": "GDriveItem",
+          "children": [
+            {
+              "name": "Find-GDriveItem"
+            },
+            {
+              "name": "New-GDriveItem"
+            },
+            {
+              "name": "Add-GDriveItem"
+            },
+            {
+              "name": "Move-GDriveItem"
+            },
+            {
+              "name": "Rename-GDriveItem"
+            },
+            {
+              "name": "Copy-GDriveItem"
+            },
+            {
+              "name": "Remove-GDriveItem"
+            },
+            {
+              "name": "Restore-GDriveItem"
+            }
+          ]
+        },
+        {
+          "name": "GDriveChildItem",
+          "children": [
+            {
+              "name": "Get-GDriveChildItem"
+            }
+          ]
+        },
+        {
+          "name": "GDriveFolder",
+          "children": [
+            {
+              "name": "New-GDriveFolder"
+            },
+            {
+              "name": "Add-GDriveFolder"
+            }
+          ]
+        },
+        {
+          "name": "GDriveShortcut",
+          "children": [
+            {
+              "name": "New-GDriveShortcut"
+            }
+          ]
+        },
+        {
+          "name": "GDriveItemContent",
+          "children": [
+            {
+              "name": "Get-GDriveItemContent"
+            },
+            {
+              "name": "Set-GDriveItemContent"
+            },
+            {
+              "name": "Export-GDriveItemContent"
+            }
+          ]
+        },
+        {
+          "name": "GDriveItemProperty",
+          "children": [
+            {
+              "name": "Get-GDriveItemProperty"
+            },
+            {
+              "name": "Set-GDriveItemProperty"
+            }
+          ]
+        },
+        {
+          "name": "GDriveItemRevisionList",
+          "children": [
+            {
+              "name": "Get-GDriveItemRevisionList"
+            }
+          ]
+        },
+        {
+          "name": "GDriveItemPermissionList",
+          "children": [
+            {
+              "name": "Get-GDriveItemPermissionList"
+            }
+          ]
+        },
+        {
+          "name": "GDriveItemPermission",
+          "children": [
+            {
+              "name": "Get-GDriveItemPermission"
+            },
+            {
+              "name": "Add-GDriveItemPermission"
+            },
+            {
+              "name": "Remove-GDriveItemPermission"
+            },
+            {
+              "name": "Set-GDriveItemPermission"
+            }
+          ]
+        },
+        {
+          "name": "GDriveItemComment",
+          "children": [
+            {
+              "name": "Add-GDriveItemComment"
+            },
+            {
+              "name": "Get-GDriveItemComment"
+            },
+            {
+              "name": "Remove-GDriveItemComment"
+            },
+            {
+              "name": "Set-GDriveItemComment"
+            }
+          ]
+        },
+        {
+          "name": "GDriveItemCommentList",
+          "children": [
+            {
+              "name": "Get-GDriveItemCommentList"
+            }
+          ]
+        },
+        {
+          "name": "GDriveItemReply",
+          "children": [
+            {
+              "name": "Add-GDriveItemReply"
+            },
+            {
+              "name": "Get-GDriveItemReply"
+            },
+            {
+              "name": "Remove-GDriveItemReply"
+            },
+            {
+              "name": "Set-GDriveItemReply"
+            }
+          ]
+        },
+        {
+          "name": "GDriveItemReplyList",
+          "children": [
+            {
+              "name": "Get-GDriveItemReplyList"
+            }
+          ]
+        },
+        {
+          "name": "GDriveTrash",
+          "children": [
+            {
+              "name": "Clear-GDriveTrash"
+            }
+          ]
+        },
+        {
+          "name": "GDriveProxySetting",
+          "children": [
+            {
+              "name": "Get-GDriveProxySetting"
+            },
+            {
+              "name": "Set-GDriveProxySetting"
+            }
+          ]
+        },
+        {
+          "name": "GSheetsSpreadsheet",
+          "children": [
+            {
+              "name": "New-GSheetsSpreadsheet"
+            },
+            {
+              "name": "Get-GSheetsSpreadsheet"
+            },
+            {
+              "name": "Remove-GSheetsSpreadsheet"
+            }
+          ]
+        },
+        {
+          "name": "GSheetsSheet",
+          "children": [
+            {
+              "name": "Add-GSheetsSheet"
+            },
+            {
+              "name": "Remove-GSheetsSheet"
+            },
+            {
+              "name": "Copy-GSheetsSheet"
+            },
+            {
+              "name": "Rename-GSheetsSheet"
+            }
+          ]
+        },
+        {
+          "name": "GSheets",
+          "children": [
+            {
+              "name": "Export-GSheets"
+            }
+          ]
+        },
+        {
+          "name": "GSheetsValue",
+          "children": [
+            {
+              "name": "Get-GSheetsValue"
+            },
+            {
+              "name": "Set-GSheetsValue"
+            },
+            {
+              "name": "Clear-GSheetsValue"
+            }
+          ]
+        },
+        {
+          "name": "GSheetsFormatting",
+          "children": [
+            {
+              "name": "Set-GSheetsFormatting"
+            }
+          ]
+        },
+        {
+          "name": "GSheetsRaw",
+          "children": [
+            {
+              "name": "Get-GSheetsRaw"
+            },
+            {
+              "name": "Update-GSheetsRaw"
+            }
+          ]
+        },
+        {
+          "name": "A1NotationToGridRange",
+          "children": [
+            {
+              "name": "Convert-A1NotationToGridRange"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GMNicRuDnsApi",
+      "companyName": "Unknown",
+      "author": "Max Kozlov",
+      "children": [
+        {
+          "name": "NicRuToken",
+          "children": [
+            {
+              "name": "Request-NicRuToken"
+            },
+            {
+              "name": "Register-NicRuToken"
+            }
+          ]
+        },
+        {
+          "name": "NicRuDnsService",
+          "children": [
+            {
+              "name": "Get-NicRuDnsService"
+            }
+          ]
+        },
+        {
+          "name": "NicRuDnsZone",
+          "children": [
+            {
+              "name": "Get-NicRuDnsZone"
+            },
+            {
+              "name": "Add-NicRuDnsZone"
+            },
+            {
+              "name": "Move-NicRuDnsZone"
+            },
+            {
+              "name": "Remove-NicRuDnsZone"
+            }
+          ]
+        },
+        {
+          "name": "NicRuDnsZoneData",
+          "children": [
+            {
+              "name": "Get-NicRuDnsZoneData"
+            },
+            {
+              "name": "Set-NicRuDnsZoneData"
+            }
+          ]
+        },
+        {
+          "name": "NicRuDnsZoneChange",
+          "children": [
+            {
+              "name": "Complete-NicRuDnsZoneChange"
+            },
+            {
+              "name": "Reset-NicRuDnsZoneChange"
+            }
+          ]
+        },
+        {
+          "name": "NicRuDnsZoneRevision",
+          "children": [
+            {
+              "name": "Get-NicRuDnsZoneRevision"
+            },
+            {
+              "name": "Set-NicRuDnsZoneRevision"
+            }
+          ]
+        },
+        {
+          "name": "NicRuDnsZoneRevisionData",
+          "children": [
+            {
+              "name": "Get-NicRuDnsZoneRevisionData"
+            }
+          ]
+        },
+        {
+          "name": "NicRuDnsZoneTtl",
+          "children": [
+            {
+              "name": "Get-NicRuDnsZoneTtl"
+            },
+            {
+              "name": "Set-NicRuDnsZoneTtl"
+            }
+          ]
+        },
+        {
+          "name": "NicRuDnsRecord",
+          "children": [
+            {
+              "name": "Get-NicRuDnsRecord"
+            },
+            {
+              "name": "Add-NicRuDnsRecord"
+            },
+            {
+              "name": "Remove-NicRuDnsRecord"
+            }
+          ]
+        },
+        {
+          "name": "NicRuDnsZoneXferAddress",
+          "children": [
+            {
+              "name": "Get-NicRuDnsZoneXferAddress"
+            },
+            {
+              "name": "Set-NicRuDnsZoneXferAddress"
+            }
+          ]
+        },
+        {
+          "name": "NicRuDnsSecondaryZoneMaster",
+          "children": [
+            {
+              "name": "Get-NicRuDnsSecondaryZoneMaster"
+            },
+            {
+              "name": "Set-NicRuDnsSecondaryZoneMaster"
+            }
+          ]
+        },
+        {
+          "name": "NicRuProxySetting",
+          "children": [
+            {
+              "name": "Get-NicRuProxySetting"
+            },
+            {
+              "name": "Set-NicRuProxySetting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GMPPKConverter",
+      "companyName": "Unknown",
+      "author": "Max Kozlov",
+      "children": [
+        {
+          "name": "PPK",
+          "children": [
+            {
+              "name": "ConvertFrom-PPK"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

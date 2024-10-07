@@ -1,0 +1,196 @@
+{
+  "name": "SEPPmail Dev Team",
+  "children": [
+    {
+      "name": "SEPPMail365",
+      "companyName": "SEPPmail AG",
+      "author": "SEPPmail Dev Team",
+      "children": [
+        {
+          "name": "SM365Connectors",
+          "children": [
+            {
+              "name": "Get-SM365Connectors"
+            },
+            {
+              "name": "New-SM365Connectors"
+            },
+            {
+              "name": "Remove-SM365Connectors"
+            }
+          ]
+        },
+        {
+          "name": "SM365Rules",
+          "children": [
+            {
+              "name": "Get-SM365Rules"
+            },
+            {
+              "name": "New-SM365Rules"
+            },
+            {
+              "name": "Remove-SM365Rules"
+            }
+          ]
+        },
+        {
+          "name": "SM365ExOReport",
+          "children": [
+            {
+              "name": "New-SM365ExOReport"
+            }
+          ]
+        },
+        {
+          "name": "SM365ConnectionStatus",
+          "children": [
+            {
+              "name": "Test-SM365ConnectionStatus"
+            }
+          ]
+        },
+        {
+          "name": "SM365TenantID",
+          "children": [
+            {
+              "name": "Get-SM365TenantID"
+            }
+          ]
+        },
+        {
+          "name": "SM365MessageTrace",
+          "children": [
+            {
+              "name": "Get-SM365MessageTrace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SEPPmail365cloud",
+      "companyName": "SEPPmail AG",
+      "author": "SEPPmail Dev Team",
+      "children": [
+        {
+          "name": "SC365Connectors",
+          "children": [
+            {
+              "name": "Get-SC365Connectors"
+            },
+            {
+              "name": "New-SC365Connectors"
+            },
+            {
+              "name": "Remove-SC365Connectors"
+            }
+          ]
+        },
+        {
+          "name": "SC365Rules",
+          "children": [
+            {
+              "name": "Get-SC365Rules"
+            },
+            {
+              "name": "New-SC365Rules"
+            },
+            {
+              "name": "Remove-SC365Rules"
+            }
+          ]
+        },
+        {
+          "name": "SC365ExOReport",
+          "children": [
+            {
+              "name": "New-SC365ExOReport"
+            }
+          ]
+        },
+        {
+          "name": "SC365ConnectionStatus",
+          "children": [
+            {
+              "name": "Test-SC365ConnectionStatus"
+            }
+          ]
+        },
+        {
+          "name": "SC365TenantId",
+          "children": [
+            {
+              "name": "Get-SC365TenantId"
+            }
+          ]
+        },
+        {
+          "name": "SC365MessageTrace",
+          "children": [
+            {
+              "name": "Get-SC365MessageTrace"
+            }
+          ]
+        },
+        {
+          "name": "SC365Setup",
+          "children": [
+            {
+              "name": "Get-SC365Setup"
+            },
+            {
+              "name": "New-SC365Setup"
+            },
+            {
+              "name": "Remove-SC365Setup"
+            }
+          ]
+        },
+        {
+          "name": "SC365SetupTime",
+          "children": [
+            {
+              "name": "Get-SC365SetupTime"
+            }
+          ]
+        },
+        {
+          "name": "SC365TenantDefaultDomain",
+          "children": [
+            {
+              "name": "Confirm-SC365TenantDefaultDomain"
+            }
+          ]
+        },
+        {
+          "name": "SC365DeploymentInfo",
+          "children": [
+            {
+              "name": "Get-SC365DeploymentInfo"
+            }
+          ]
+        },
+        {
+          "name": "SC365Tenant",
+          "children": [
+            {
+              "name": "Show-SC365Tenant"
+            }
+          ]
+        },
+        {
+          "name": "SC365IDNA",
+          "children": [
+            {
+              "name": "ConvertFrom-SC365IDNA"
+            },
+            {
+              "name": "ConvertTo-SC365IDNA"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

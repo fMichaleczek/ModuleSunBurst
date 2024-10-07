@@ -1,0 +1,632 @@
+{
+  "name": "Stephen Valdinger",
+  "children": [
+    {
+      "name": "ChocoBot",
+      "companyName": "Unknown",
+      "author": "Stephen Valdinger",
+      "children": [
+        {
+          "name": "ChocoBotPackage",
+          "children": [
+            {
+              "name": "Install-ChocoBotPackage"
+            },
+            {
+              "name": "Uninstall-ChocoBotPackage"
+            },
+            {
+              "name": "Upgrade-ChocoBotPackage"
+            },
+            {
+              "name": "Get-ChocoBotPackage"
+            }
+          ]
+        },
+        {
+          "name": "ChocoBotSource",
+          "children": [
+            {
+              "name": "Add-ChocoBotSource"
+            },
+            {
+              "name": "Get-ChocoBotSource"
+            }
+          ]
+        },
+        {
+          "name": "ChocoBotConfig",
+          "children": [
+            {
+              "name": "Get-ChocoBotConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChocoCCM",
+      "companyName": "Chocolatey Software, Inc.",
+      "author": "Stephen Valdinger",
+      "children": [
+        {
+          "name": "CCMServer",
+          "children": [
+            {
+              "name": "Connect-CCMServer"
+            }
+          ]
+        },
+        {
+          "name": "CCMComputer",
+          "children": [
+            {
+              "name": "Get-CCMComputer"
+            }
+          ]
+        },
+        {
+          "name": "CCMSoftware",
+          "children": [
+            {
+              "name": "Get-CCMSoftware"
+            }
+          ]
+        },
+        {
+          "name": "CCMGroup",
+          "children": [
+            {
+              "name": "Get-CCMGroup"
+            },
+            {
+              "name": "Add-CCMGroup"
+            },
+            {
+              "name": "Set-CCMGroup"
+            },
+            {
+              "name": "Remove-CCMGroup"
+            }
+          ]
+        },
+        {
+          "name": "CCMGroupMember",
+          "children": [
+            {
+              "name": "Add-CCMGroupMember"
+            },
+            {
+              "name": "Get-CCMGroupMember"
+            },
+            {
+              "name": "Remove-CCMGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "CCMDeployment",
+          "children": [
+            {
+              "name": "Get-CCMDeployment"
+            },
+            {
+              "name": "New-CCMDeployment"
+            },
+            {
+              "name": "Remove-CCMDeployment"
+            },
+            {
+              "name": "Start-CCMDeployment"
+            },
+            {
+              "name": "Stop-CCMDeployment"
+            },
+            {
+              "name": "Export-CCMDeployment"
+            },
+            {
+              "name": "Disable-CCMDeployment"
+            }
+          ]
+        },
+        {
+          "name": "CCMDeploymentStep",
+          "children": [
+            {
+              "name": "Get-CCMDeploymentStep"
+            },
+            {
+              "name": "New-CCMDeploymentStep"
+            },
+            {
+              "name": "Set-CCMDeploymentStep"
+            },
+            {
+              "name": "Remove-CCMDeploymentStep"
+            }
+          ]
+        },
+        {
+          "name": "CCMDeploymentStepResult",
+          "children": [
+            {
+              "name": "Get-CCMDeploymentStepResult"
+            }
+          ]
+        },
+        {
+          "name": "CCMStaleDeployment",
+          "children": [
+            {
+              "name": "Remove-CCMStaleDeployment"
+            }
+          ]
+        },
+        {
+          "name": "CCMDeploymentReport",
+          "children": [
+            {
+              "name": "Export-CCMDeploymentReport"
+            }
+          ]
+        },
+        {
+          "name": "CCMDeploymentToReady",
+          "children": [
+            {
+              "name": "Move-CCMDeploymentToReady"
+            }
+          ]
+        },
+        {
+          "name": "DeploymentResult",
+          "children": [
+            {
+              "name": "Get-DeploymentResult"
+            }
+          ]
+        },
+        {
+          "name": "CCMOutdatedSoftwareMember",
+          "children": [
+            {
+              "name": "Get-CCMOutdatedSoftwareMember"
+            }
+          ]
+        },
+        {
+          "name": "CCMOutdatedSoftware",
+          "children": [
+            {
+              "name": "Get-CCMOutdatedSoftware"
+            }
+          ]
+        },
+        {
+          "name": "CCMOutdatedSoftwareReport",
+          "children": [
+            {
+              "name": "New-CCMOutdatedSoftwareReport"
+            },
+            {
+              "name": "Get-CCMOutdatedSoftwareReport"
+            },
+            {
+              "name": "Export-CCMOutdatedSoftwareReport"
+            }
+          ]
+        },
+        {
+          "name": "CCMOutdatedSoftwarereportDetail",
+          "children": [
+            {
+              "name": "Get-CCMOutdatedSoftwarereportDetail"
+            }
+          ]
+        },
+        {
+          "name": "CCMNotificationStatus",
+          "children": [
+            {
+              "name": "Set-CCMNotificationStatus"
+            }
+          ]
+        },
+        {
+          "name": "CCMRole",
+          "children": [
+            {
+              "name": "Get-CCMRole"
+            }
+          ]
+        },
+        {
+          "name": "PDQDeployPackage",
+          "children": [
+            {
+              "name": "Import-PDQDeployPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSChocoConfig",
+      "companyName": "Chocolatey Software",
+      "author": "Stephen Valdinger",
+      "children": [
+        {
+          "name": "ChocoConfig",
+          "children": [
+            {
+              "name": "Get-ChocoConfig"
+            },
+            {
+              "name": "Set-ChocoConfig"
+            },
+            {
+              "name": "Clear-ChocoConfig"
+            }
+          ]
+        },
+        {
+          "name": "ChocoFeature",
+          "children": [
+            {
+              "name": "Get-ChocoFeature"
+            },
+            {
+              "name": "Set-ChocoFeature"
+            }
+          ]
+        },
+        {
+          "name": "ChocoSource",
+          "children": [
+            {
+              "name": "Add-ChocoSource"
+            },
+            {
+              "name": "Disable-ChocoSource"
+            },
+            {
+              "name": "Enable-ChocoSource"
+            },
+            {
+              "name": "Get-ChocoSource"
+            },
+            {
+              "name": "Remove-ChocoSource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGrafana",
+      "companyName": "Unknown",
+      "author": "Stephen Valdinger",
+      "children": [
+        {
+          "name": "GrafanaConfig",
+          "children": [
+            {
+              "name": "Get-GrafanaConfig"
+            },
+            {
+              "name": "Set-GrafanaConfig"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaDashboard",
+          "children": [
+            {
+              "name": "Get-GrafanaDashboard"
+            },
+            {
+              "name": "New-GrafanaDashboard"
+            },
+            {
+              "name": "Remove-GrafanaDashboard"
+            },
+            {
+              "name": "Set-GrafanaDashboard"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaServerHealth",
+          "children": [
+            {
+              "name": "Get-GrafanaServerHealth"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaAnnotation",
+          "children": [
+            {
+              "name": "Get-GrafanaAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaAPIKey",
+          "children": [
+            {
+              "name": "New-GrafanaAPIKey"
+            },
+            {
+              "name": "Get-GrafanaApiKey"
+            },
+            {
+              "name": "Remove-GrafanaApiKey"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaDatasource",
+          "children": [
+            {
+              "name": "Get-GrafanaDatasource"
+            },
+            {
+              "name": "Remove-GrafanaDatasource"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaSnapshot",
+          "children": [
+            {
+              "name": "Get-GrafanaSnapshot"
+            },
+            {
+              "name": "New-GrafanaSnapshot"
+            },
+            {
+              "name": "Remove-GrafanaSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaAlert",
+          "children": [
+            {
+              "name": "Get-GrafanaAlert"
+            },
+            {
+              "name": "Suspend-GrafanaAlert"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaFolder",
+          "children": [
+            {
+              "name": "Get-GrafanaFolder"
+            },
+            {
+              "name": "New-GrafanaFolder"
+            },
+            {
+              "name": "Set-GrafanaFolder"
+            },
+            {
+              "name": "Remove-GrafanaFolder"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaOrg",
+          "children": [
+            {
+              "name": "Get-GrafanaOrg"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaOrgUser",
+          "children": [
+            {
+              "name": "Get-GrafanaOrgUser"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaUser",
+          "children": [
+            {
+              "name": "Get-GrafanaUser"
+            },
+            {
+              "name": "Set-GrafanaUser"
+            }
+          ]
+        },
+        {
+          "name": "GrafanaServerSettings",
+          "children": [
+            {
+              "name": "Get-GrafanaServerSettings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uh-Oh",
+      "companyName": "Unknown",
+      "author": "Stephen Valdinger",
+      "children": [
+        {
+          "name": "StaytusServer",
+          "children": [
+            {
+              "name": "Connect-StaytusServer"
+            }
+          ]
+        },
+        {
+          "name": "StaytusIncident",
+          "children": [
+            {
+              "name": "Get-StaytusIncident"
+            },
+            {
+              "name": "New-StaytusIncident"
+            },
+            {
+              "name": "Update-StaytusIncident"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotStaytusIncident",
+          "children": [
+            {
+              "name": "New-PoshBotStaytusIncident"
+            },
+            {
+              "name": "Get-PoshBotStaytusIncident"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotStaytusServer",
+          "children": [
+            {
+              "name": "Connect-PoshBotStaytusServer"
+            }
+          ]
+        },
+        {
+          "name": "StaytusSubscriber",
+          "children": [
+            {
+              "name": "Assert-StaytusSubscriber"
+            },
+            {
+              "name": "Get-StaytusSubscriber"
+            },
+            {
+              "name": "New-StaytusSubscriber"
+            },
+            {
+              "name": "Remove-StaytusSubscriber"
+            }
+          ]
+        },
+        {
+          "name": "StaytusVerificationEmail",
+          "children": [
+            {
+              "name": "Send-StaytusVerificationEmail"
+            }
+          ]
+        },
+        {
+          "name": "StaytusService",
+          "children": [
+            {
+              "name": "Get-StaytusService"
+            },
+            {
+              "name": "Set-StaytusService"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vagrantey",
+      "companyName": "Unknown",
+      "author": "Stephen Valdinger",
+      "children": [
+        {
+          "name": "VagrantConfig",
+          "children": [
+            {
+              "name": "Get-VagrantConfig"
+            },
+            {
+              "name": "Set-VagrantConfig"
+            }
+          ]
+        },
+        {
+          "name": "VagrantEnvironment",
+          "children": [
+            {
+              "name": "Get-VagrantEnvironment"
+            },
+            {
+              "name": "Start-VagrantEnvironment"
+            },
+            {
+              "name": "Stop-VagrantEnvironment"
+            },
+            {
+              "name": "Remove-VagrantEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "VagrantProvisioner",
+          "children": [
+            {
+              "name": "Invoke-VagrantProvisioner"
+            }
+          ]
+        },
+        {
+          "name": "VagrantPlugin",
+          "children": [
+            {
+              "name": "Get-VagrantPlugin"
+            },
+            {
+              "name": "Remove-VagrantPlugin"
+            },
+            {
+              "name": "Install-VagrantPlugin"
+            }
+          ]
+        },
+        {
+          "name": "VagrantSnapshot",
+          "children": [
+            {
+              "name": "Get-VagrantSnapshot"
+            },
+            {
+              "name": "New-VagrantSnapshot"
+            },
+            {
+              "name": "Remove-VagrantSnapshot"
+            },
+            {
+              "name": "Restore-VagrantSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "VagrantBox",
+          "children": [
+            {
+              "name": "Get-VagrantBox"
+            },
+            {
+              "name": "Remove-VagrantBox"
+            },
+            {
+              "name": "Update-VagrantBox"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

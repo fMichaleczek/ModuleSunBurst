@@ -1,0 +1,709 @@
+{
+  "name": "John Berkers",
+  "children": [
+    {
+      "name": "Elastic.Helper",
+      "companyName": "IPSec Pty Ltd",
+      "author": "John Berkers",
+      "children": [
+        {
+          "name": "EsHelperConfig",
+          "children": [
+            {
+              "name": "Get-EsHelperConfig"
+            }
+          ]
+        },
+        {
+          "name": "EsIndexDefinition",
+          "children": [
+            {
+              "name": "Get-EsIndexDefinition"
+            }
+          ]
+        },
+        {
+          "name": "EsEnrichPolicyDepends",
+          "children": [
+            {
+              "name": "Test-EsEnrichPolicyDepends"
+            }
+          ]
+        },
+        {
+          "name": "EsEnrichPolicyExists",
+          "children": [
+            {
+              "name": "Test-EsEnrichPolicyExists"
+            }
+          ]
+        },
+        {
+          "name": "EsIndexDepends",
+          "children": [
+            {
+              "name": "Test-EsIndexDepends"
+            }
+          ]
+        },
+        {
+          "name": "EsIndexExists",
+          "children": [
+            {
+              "name": "Test-EsIndexExists"
+            }
+          ]
+        },
+        {
+          "name": "EsPipelineDepends",
+          "children": [
+            {
+              "name": "Test-EsPipelineDepends"
+            }
+          ]
+        },
+        {
+          "name": "EsPipelineExists",
+          "children": [
+            {
+              "name": "Test-EsPipelineExists"
+            }
+          ]
+        },
+        {
+          "name": "EsConfig",
+          "children": [
+            {
+              "name": "Deploy-EsConfig"
+            }
+          ]
+        },
+        {
+          "name": "EsEnrichmentPolicy",
+          "children": [
+            {
+              "name": "Get-EsEnrichmentPolicy"
+            },
+            {
+              "name": "Update-EsEnrichmentPolicy"
+            }
+          ]
+        },
+        {
+          "name": "EsEnrichmentIndices",
+          "children": [
+            {
+              "name": "Update-EsEnrichmentIndices"
+            }
+          ]
+        },
+        {
+          "name": "EsEnrichmentIndicesFromIndex",
+          "children": [
+            {
+              "name": "Update-EsEnrichmentIndicesFromIndex"
+            }
+          ]
+        },
+        {
+          "name": "EsBulkIndex",
+          "children": [
+            {
+              "name": "ConvertTo-EsBulkIndex"
+            }
+          ]
+        },
+        {
+          "name": "EsIndex",
+          "children": [
+            {
+              "name": "Get-EsIndex"
+            }
+          ]
+        },
+        {
+          "name": "EsIndexSettings",
+          "children": [
+            {
+              "name": "Get-EsIndexSettings"
+            },
+            {
+              "name": "Update-EsIndexSettings"
+            }
+          ]
+        },
+        {
+          "name": "EsBulkIndexRequest",
+          "children": [
+            {
+              "name": "Invoke-EsBulkIndexRequest"
+            }
+          ]
+        },
+        {
+          "name": "EsIndexSettingsFromConfig",
+          "children": [
+            {
+              "name": "Update-EsIndexSettingsFromConfig"
+            }
+          ]
+        },
+        {
+          "name": "EsPipeline",
+          "children": [
+            {
+              "name": "Get-EsPipeline"
+            },
+            {
+              "name": "Update-EsPipeline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FreshService.Tools",
+      "companyName": "IPSec Pty Ltd",
+      "author": "John Berkers",
+      "children": [
+        {
+          "name": "FsAgent",
+          "children": [
+            {
+              "name": "Get-FsAgent"
+            }
+          ]
+        },
+        {
+          "name": "FsAgentGroup",
+          "children": [
+            {
+              "name": "Get-FsAgentGroup"
+            }
+          ]
+        },
+        {
+          "name": "FreshServiceAlertRequest",
+          "children": [
+            {
+              "name": "Invoke-FreshServiceAlertRequest"
+            }
+          ]
+        },
+        {
+          "name": "FsAsset",
+          "children": [
+            {
+              "name": "Get-FsAsset"
+            }
+          ]
+        },
+        {
+          "name": "FsAssetTypes",
+          "children": [
+            {
+              "name": "Get-FsAssetTypes"
+            }
+          ]
+        },
+        {
+          "name": "FsChange",
+          "children": [
+            {
+              "name": "Get-FsChange"
+            }
+          ]
+        },
+        {
+          "name": "FsChangeFields",
+          "children": [
+            {
+              "name": "Get-FsChangeFields"
+            }
+          ]
+        },
+        {
+          "name": "FsDepartment",
+          "children": [
+            {
+              "name": "Get-FsDepartment"
+            }
+          ]
+        },
+        {
+          "name": "FsDepartmentFields",
+          "children": [
+            {
+              "name": "Get-FsDepartmentFields"
+            }
+          ]
+        },
+        {
+          "name": "FreshServiceApiRequest",
+          "children": [
+            {
+              "name": "Invoke-FreshServiceApiRequest"
+            }
+          ]
+        },
+        {
+          "name": "FreshServiceConfiguration",
+          "children": [
+            {
+              "name": "New-FreshServiceConfiguration"
+            },
+            {
+              "name": "Update-FreshServiceConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "FsProblem",
+          "children": [
+            {
+              "name": "Get-FsProblem"
+            }
+          ]
+        },
+        {
+          "name": "FsProblemFields",
+          "children": [
+            {
+              "name": "Get-FsProblemFields"
+            }
+          ]
+        },
+        {
+          "name": "FsRequester",
+          "children": [
+            {
+              "name": "Get-FsRequester"
+            },
+            {
+              "name": "Update-FsRequester"
+            }
+          ]
+        },
+        {
+          "name": "FsRequesterGroupMember",
+          "children": [
+            {
+              "name": "Add-FsRequesterGroupMember"
+            },
+            {
+              "name": "Remove-FsRequesterGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "FsRequesterGroup",
+          "children": [
+            {
+              "name": "Get-FsRequesterGroup"
+            }
+          ]
+        },
+        {
+          "name": "FsTicket",
+          "children": [
+            {
+              "name": "Get-FsTicket"
+            },
+            {
+              "name": "New-FsTicket"
+            }
+          ]
+        },
+        {
+          "name": "FsTicketFieldChoice",
+          "children": [
+            {
+              "name": "Get-FsTicketFieldChoice"
+            }
+          ]
+        },
+        {
+          "name": "FsTicketFields",
+          "children": [
+            {
+              "name": "Get-FsTicketFields"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IP.Tools",
+      "companyName": "Unknown",
+      "author": "John Berkers",
+      "children": [
+        {
+          "name": "IpBogon",
+          "children": [
+            {
+              "name": "Get-IpBogon"
+            },
+            {
+              "name": "Remove-IpBogon"
+            },
+            {
+              "name": "Test-IpBogon"
+            }
+          ]
+        },
+        {
+          "name": "IpToMaskLen",
+          "children": [
+            {
+              "name": "Convert-IpToMaskLen"
+            }
+          ]
+        },
+        {
+          "name": "MaskLenToIp",
+          "children": [
+            {
+              "name": "Convert-MaskLenToIp"
+            }
+          ]
+        },
+        {
+          "name": "IpNetworkBase",
+          "children": [
+            {
+              "name": "Get-IpNetworkBase"
+            }
+          ]
+        },
+        {
+          "name": "IpNetworkEndIP",
+          "children": [
+            {
+              "name": "Get-IpNetworkEndIP"
+            }
+          ]
+        },
+        {
+          "name": "IpNetworkStartIP",
+          "children": [
+            {
+              "name": "Get-IpNetworkStartIP"
+            }
+          ]
+        },
+        {
+          "name": "IpNetwork",
+          "children": [
+            {
+              "name": "New-IpNetwork"
+            }
+          ]
+        },
+        {
+          "name": "IpInNetwork",
+          "children": [
+            {
+              "name": "Test-IpInNetwork"
+            }
+          ]
+        },
+        {
+          "name": "IpRangeIsSubnet",
+          "children": [
+            {
+              "name": "Test-IpRangeIsSubnet"
+            }
+          ]
+        },
+        {
+          "name": "ValidMask",
+          "children": [
+            {
+              "name": "Test-ValidMask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MISP.Tools",
+      "companyName": "IPSec Pty Ltd",
+      "author": "John Berkers",
+      "children": [
+        {
+          "name": "MispAttributeToEvent",
+          "children": [
+            {
+              "name": "Add-MispAttributeToEvent"
+            }
+          ]
+        },
+        {
+          "name": "MispAttribute",
+          "children": [
+            {
+              "name": "Get-MispAttribute"
+            },
+            {
+              "name": "New-MispAttribute"
+            },
+            {
+              "name": "Search-MispAttribute"
+            }
+          ]
+        },
+        {
+          "name": "MispAttributeType",
+          "children": [
+            {
+              "name": "Get-MispAttributeType"
+            }
+          ]
+        },
+        {
+          "name": "MispEvent",
+          "children": [
+            {
+              "name": "Get-MispEvent"
+            },
+            {
+              "name": "New-MispEvent"
+            },
+            {
+              "name": "Publish-MispEvent"
+            },
+            {
+              "name": "Search-MispEvent"
+            },
+            {
+              "name": "Unpublish-MispEvent"
+            },
+            {
+              "name": "Update-MispEvent"
+            }
+          ]
+        },
+        {
+          "name": "MispGalaxyClusterToObject",
+          "children": [
+            {
+              "name": "Add-MispGalaxyClusterToObject"
+            }
+          ]
+        },
+        {
+          "name": "MispGalaxy",
+          "children": [
+            {
+              "name": "Get-MispGalaxy"
+            }
+          ]
+        },
+        {
+          "name": "MispGalaxyCluster",
+          "children": [
+            {
+              "name": "Get-MispGalaxyCluster"
+            }
+          ]
+        },
+        {
+          "name": "MispContext",
+          "children": [
+            {
+              "name": "New-MispContext"
+            },
+            {
+              "name": "Read-MispContext"
+            },
+            {
+              "name": "Save-MispContext"
+            }
+          ]
+        },
+        {
+          "name": "MispOrganisation",
+          "children": [
+            {
+              "name": "Get-MispOrganisation"
+            },
+            {
+              "name": "New-MispOrganisation"
+            },
+            {
+              "name": "Update-MispOrganisation"
+            }
+          ]
+        },
+        {
+          "name": "MispAttributeTag",
+          "children": [
+            {
+              "name": "Add-MispAttributeTag"
+            }
+          ]
+        },
+        {
+          "name": "MispEventTag",
+          "children": [
+            {
+              "name": "Add-MispEventTag"
+            }
+          ]
+        },
+        {
+          "name": "MispTag",
+          "children": [
+            {
+              "name": "Get-MispTag"
+            }
+          ]
+        },
+        {
+          "name": "MispWarningList",
+          "children": [
+            {
+              "name": "Get-MispWarningList"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tenable.Tools",
+      "companyName": "IPSec Pty Ltd",
+      "author": "John Berkers",
+      "children": [
+        {
+          "name": "TioAsset",
+          "children": [
+            {
+              "name": "Get-TioAsset"
+            }
+          ]
+        },
+        {
+          "name": "TioExportAsset",
+          "children": [
+            {
+              "name": "Get-TioExportAsset"
+            },
+            {
+              "name": "Stop-TioExportAsset"
+            }
+          ]
+        },
+        {
+          "name": "TioExportAssetChunk",
+          "children": [
+            {
+              "name": "Get-TioExportAssetChunk"
+            }
+          ]
+        },
+        {
+          "name": "TioExportAssetStatus",
+          "children": [
+            {
+              "name": "Get-TioExportAssetStatus"
+            }
+          ]
+        },
+        {
+          "name": "TioExportVuln",
+          "children": [
+            {
+              "name": "Get-TioExportVuln"
+            },
+            {
+              "name": "Stop-TioExportVuln"
+            }
+          ]
+        },
+        {
+          "name": "TioExportVulnChunk",
+          "children": [
+            {
+              "name": "Get-TioExportVulnChunk"
+            }
+          ]
+        },
+        {
+          "name": "TioExportVulnStatus",
+          "children": [
+            {
+              "name": "Get-TioExportVulnStatus"
+            }
+          ]
+        },
+        {
+          "name": "TioFolder",
+          "children": [
+            {
+              "name": "Get-TioFolder"
+            }
+          ]
+        },
+        {
+          "name": "TioApiRequest",
+          "children": [
+            {
+              "name": "Invoke-TioApiRequest"
+            }
+          ]
+        },
+        {
+          "name": "TioCredential",
+          "children": [
+            {
+              "name": "New-TioCredential"
+            }
+          ]
+        },
+        {
+          "name": "TioMsspAccount",
+          "children": [
+            {
+              "name": "Get-TioMsspAccount"
+            }
+          ]
+        },
+        {
+          "name": "TioMsspLogo",
+          "children": [
+            {
+              "name": "Get-TioMsspLogo"
+            },
+            {
+              "name": "Set-TioMsspLogo"
+            }
+          ]
+        },
+        {
+          "name": "TioTagCategory",
+          "children": [
+            {
+              "name": "Get-TioTagCategory"
+            }
+          ]
+        },
+        {
+          "name": "TioTagValue",
+          "children": [
+            {
+              "name": "Get-TioTagValue"
+            }
+          ]
+        },
+        {
+          "name": "TioVulnPlugin",
+          "children": [
+            {
+              "name": "Get-TioVulnPlugin"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

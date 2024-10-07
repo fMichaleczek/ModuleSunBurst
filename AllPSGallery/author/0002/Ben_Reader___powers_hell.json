@@ -1,0 +1,59 @@
+{
+  "name": "Ben Reader   powers hell",
+  "children": [
+    {
+      "name": "Az.ImageBuilder.Tools",
+      "companyName": "Powers Hell",
+      "author": "Ben Reader   powers hell",
+      "children": [
+        {
+          "name": "AIBBuildStatus",
+          "children": [
+            {
+              "name": "Get-AIBBuildStatus"
+            }
+          ]
+        },
+        {
+          "name": "AzureImageBuilder",
+          "children": [
+            {
+              "name": "Initialize-AzureImageBuilder"
+            }
+          ]
+        },
+        {
+          "name": "AIBProviderCheck",
+          "children": [
+            {
+              "name": "Invoke-AIBProviderCheck"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SuperSecret.Tools",
+      "companyName": "Powers Hell",
+      "author": "Ben Reader   Powers Hell",
+      "children": [
+        {
+          "name": "SecureSecret",
+          "children": [
+            {
+              "name": "ConvertFrom-SecureSecret"
+            }
+          ]
+        },
+        {
+          "name": "ClientSecret",
+          "children": [
+            {
+              "name": "New-ClientSecret"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

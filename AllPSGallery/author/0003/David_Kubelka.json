@@ -1,0 +1,416 @@
+{
+  "name": "David Kubelka",
+  "children": [
+    {
+      "name": "gOAuth",
+      "companyName": "Google",
+      "author": "David Kubelka",
+      "children": [
+        {
+          "name": "gOAuthUnixTimestamp",
+          "children": [
+            {
+              "name": "ConvertFrom-gOAuthUnixTimestamp"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthAccessToken",
+          "children": [
+            {
+              "name": "Get-gOAuthAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthAccessTokenSDK",
+          "children": [
+            {
+              "name": "Get-gOAuthAccessTokenSDK"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthAuthorization",
+          "children": [
+            {
+              "name": "Get-gOAuthAuthorization"
+            },
+            {
+              "name": "Set-gOAuthAuthorization"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthAuthorizationRefreshed",
+          "children": [
+            {
+              "name": "Get-gOAuthAuthorizationRefreshed"
+            },
+            {
+              "name": "Set-gOAuthAuthorizationRefreshed"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthClientSecret",
+          "children": [
+            {
+              "name": "Get-gOAuthClientSecret"
+            },
+            {
+              "name": "Set-gOAuthClientSecret"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthDecodeJwt",
+          "children": [
+            {
+              "name": "Get-gOAuthDecodeJwt"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthToken",
+          "children": [
+            {
+              "name": "Get-gOAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthLogin",
+          "children": [
+            {
+              "name": "Invoke-gOAuthLogin"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthRestMethod",
+          "children": [
+            {
+              "name": "Invoke-gOAuthRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthRestMethodPaged",
+          "children": [
+            {
+              "name": "Invoke-gOAuthRestMethodPaged"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthUri",
+          "children": [
+            {
+              "name": "Open-gOAuthUri"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthClientSecretFromFile",
+          "children": [
+            {
+              "name": "Set-gOAuthClientSecretFromFile"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthApiConsole",
+          "children": [
+            {
+              "name": "Start-gOAuthApiConsole"
+            }
+          ]
+        },
+        {
+          "name": "gOAuthCommand",
+          "children": [
+            {
+              "name": "Test-gOAuthCommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gSecret",
+      "companyName": "Google",
+      "author": "David Kubelka",
+      "children": [
+        {
+          "name": "gSecret",
+          "children": [
+            {
+              "name": "Get-gSecret"
+            },
+            {
+              "name": "Set-gSecret"
+            },
+            {
+              "name": "Remove-gSecret"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gSpanner",
+      "companyName": "Google",
+      "author": "David Kubelka",
+      "children": [
+        {
+          "name": "gSpannerDatabase",
+          "children": [
+            {
+              "name": "Add-gSpannerDatabase"
+            },
+            {
+              "name": "Get-gSpannerDatabase"
+            },
+            {
+              "name": "Remove-gSpannerDatabase"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerInstance",
+          "children": [
+            {
+              "name": "Add-gSpannerInstance"
+            },
+            {
+              "name": "Get-gSpannerInstance"
+            },
+            {
+              "name": "Remove-gSpannerInstance"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerItems",
+          "children": [
+            {
+              "name": "Add-gSpannerItems"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerItemsSelectUnionAll",
+          "children": [
+            {
+              "name": "Add-gSpannerItemsSelectUnionAll"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerTable",
+          "children": [
+            {
+              "name": "Add-gSpannerTable"
+            },
+            {
+              "name": "Get-gSpannerTable"
+            },
+            {
+              "name": "Remove-gSpannerTable"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerTableFromType",
+          "children": [
+            {
+              "name": "Add-gSpannerTableFromType"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerColumnHeader",
+          "children": [
+            {
+              "name": "Get-gSpannerColumnHeader"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerColumns",
+          "children": [
+            {
+              "name": "Get-gSpannerColumns"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerColumnsFromType",
+          "children": [
+            {
+              "name": "Get-gSpannerColumnsFromType"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerDatabaseDdl",
+          "children": [
+            {
+              "name": "Get-gSpannerDatabaseDdl"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerDatabaseOperation",
+          "children": [
+            {
+              "name": "Get-gSpannerDatabaseOperation"
+            },
+            {
+              "name": "Remove-gSpannerDatabaseOperation"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerDataType",
+          "children": [
+            {
+              "name": "Get-gSpannerDataType"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerInstanceConfig",
+          "children": [
+            {
+              "name": "Get-gSpannerInstanceConfig"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerInstanceOperation",
+          "children": [
+            {
+              "name": "Get-gSpannerInstanceOperation"
+            },
+            {
+              "name": "Remove-gSpannerInstanceOperation"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerResultSet",
+          "children": [
+            {
+              "name": "Get-gSpannerResultSet"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerSchema",
+          "children": [
+            {
+              "name": "Get-gSpannerSchema"
+            },
+            {
+              "name": "Set-gSpannerSchema"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerSession",
+          "children": [
+            {
+              "name": "Get-gSpannerSession"
+            },
+            {
+              "name": "New-gSpannerSession"
+            },
+            {
+              "name": "Remove-gSpannerSession"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerTransactionOptions",
+          "children": [
+            {
+              "name": "Get-gSpannerTransactionOptions"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerValue",
+          "children": [
+            {
+              "name": "Get-gSpannerValue"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerBatchDml",
+          "children": [
+            {
+              "name": "Invoke-gSpannerBatchDml"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerLogin",
+          "children": [
+            {
+              "name": "Invoke-gSpannerLogin"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerSql",
+          "children": [
+            {
+              "name": "Invoke-gSpannerSql"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerTransaction",
+          "children": [
+            {
+              "name": "New-gSpannerTransaction"
+            },
+            {
+              "name": "Publish-gSpannerTransaction"
+            },
+            {
+              "name": "Undo-gSpannerTransaction"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerAliases",
+          "children": [
+            {
+              "name": "Set-gSpannerAliases"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerDefaultProjectId",
+          "children": [
+            {
+              "name": "Set-gSpannerDefaultProjectId"
+            }
+          ]
+        },
+        {
+          "name": "gSpannerStreamingSql",
+          "children": [
+            {
+              "name": "Start-gSpannerStreamingSql"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

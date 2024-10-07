@@ -1,0 +1,35 @@
+{
+  "name": "SysNet",
+  "children": [
+    {
+      "name": "MCTDemoObject",
+      "companyName": "SysNet",
+      "author": "Pawel Dremel",
+      "children": [
+        {
+          "name": "MyDemoObject",
+          "children": [
+            {
+              "name": "Get-MyDemoObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSInstall",
+      "companyName": "SysNet",
+      "author": "Pawel Dremel",
+      "children": [
+        {
+          "name": "Software",
+          "children": [
+            {
+              "name": "Install-Software"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "ZUM",
+  "children": [
+    {
+      "name": "ExchangeAntiSpamReport",
+      "companyName": "ZUM",
+      "author": "Peter Wawa",
+      "children": [
+        {
+          "name": "ExchangeServer",
+          "children": [
+            {
+              "name": "Connect-ExchangeServer"
+            }
+          ]
+        },
+        {
+          "name": "AntispamReport",
+          "children": [
+            {
+              "name": "Get-AntispamReport"
+            }
+          ]
+        },
+        {
+          "name": "AntispamTopBlockedSender",
+          "children": [
+            {
+              "name": "Get-AntispamTopBlockedSender"
+            }
+          ]
+        },
+        {
+          "name": "AntispamTopBlockedSenderDomain",
+          "children": [
+            {
+              "name": "Get-AntispamTopBlockedSenderDomain"
+            }
+          ]
+        },
+        {
+          "name": "AntispamTopBlockedSenderIP",
+          "children": [
+            {
+              "name": "Get-AntispamTopBlockedSenderIP"
+            }
+          ]
+        },
+        {
+          "name": "AntispamTopRblPovider",
+          "children": [
+            {
+              "name": "Get-AntispamTopRblPovider"
+            }
+          ]
+        },
+        {
+          "name": "AntispamTopRecipient",
+          "children": [
+            {
+              "name": "Get-AntispamTopRecipient"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "NubusTech",
+  "children": [
+    {
+      "name": "NubusTech.CredentialStore",
+      "companyName": "NubusTech",
+      "author": "Fergal O Donnell",
+      "children": [
+        {
+          "name": "CsStore",
+          "children": [
+            {
+              "name": "Initialize-CsStore"
+            }
+          ]
+        },
+        {
+          "name": "CsEntry",
+          "children": [
+            {
+              "name": "Get-CsEntry"
+            },
+            {
+              "name": "Set-CsEntry"
+            }
+          ]
+        },
+        {
+          "name": "CsCredential",
+          "children": [
+            {
+              "name": "Get-CsCredential"
+            }
+          ]
+        },
+        {
+          "name": "CsPassword",
+          "children": [
+            {
+              "name": "Get-CsPassword"
+            }
+          ]
+        },
+        {
+          "name": "CsDefaultStore",
+          "children": [
+            {
+              "name": "Get-CsDefaultStore"
+            },
+            {
+              "name": "Set-CsDefaultStore"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

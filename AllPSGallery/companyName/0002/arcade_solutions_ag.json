@@ -1,0 +1,167 @@
+{
+  "name": "arcade solutions ag",
+  "children": [
+    {
+      "name": "Adb",
+      "companyName": "arcade solutions ag",
+      "author": "Raphael Bicker Claudio Spizzi",
+      "children": [
+        {
+          "name": "AdbServer",
+          "children": [
+            {
+              "name": "Connect-AdbServer"
+            },
+            {
+              "name": "Disconnect-AdbServer"
+            }
+          ]
+        },
+        {
+          "name": "AdbSession",
+          "children": [
+            {
+              "name": "Get-AdbSession"
+            }
+          ]
+        },
+        {
+          "name": "AdbUser",
+          "children": [
+            {
+              "name": "Get-AdbUser"
+            }
+          ]
+        },
+        {
+          "name": "AdbResource",
+          "children": [
+            {
+              "name": "Get-AdbResource"
+            },
+            {
+              "name": "Set-AdbResource"
+            },
+            {
+              "name": "New-AdbResource"
+            },
+            {
+              "name": "Remove-AdbResource"
+            }
+          ]
+        },
+        {
+          "name": "AdbItem",
+          "children": [
+            {
+              "name": "Get-AdbItem"
+            }
+          ]
+        },
+        {
+          "name": "AdbItemProperty",
+          "children": [
+            {
+              "name": "Set-AdbItemProperty"
+            },
+            {
+              "name": "Remove-AdbItemProperty"
+            }
+          ]
+        },
+        {
+          "name": "AdbItemTemplate",
+          "children": [
+            {
+              "name": "Add-AdbItemTemplate"
+            },
+            {
+              "name": "Remove-AdbItemTemplate"
+            }
+          ]
+        },
+        {
+          "name": "AdbItemParent",
+          "children": [
+            {
+              "name": "Add-AdbItemParent"
+            },
+            {
+              "name": "Remove-AdbItemParent"
+            }
+          ]
+        },
+        {
+          "name": "AdbItemValidation",
+          "children": [
+            {
+              "name": "Test-AdbItemValidation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GraylogSidecarDsc",
+      "companyName": "arcade solutions ag",
+      "author": "Claudio Spizzi",
+      "children": [
+        {
+          "name": "GraylogSidecar",
+          "children": [
+            {
+              "name": "Install-GraylogSidecar"
+            },
+            {
+              "name": "Uninstall-GraylogSidecar"
+            }
+          ]
+        },
+        {
+          "name": "GraylogSidecarVersion",
+          "children": [
+            {
+              "name": "Get-GraylogSidecarVersion"
+            }
+          ]
+        },
+        {
+          "name": "GraylogSidecarConfigFile",
+          "children": [
+            {
+              "name": "Get-GraylogSidecarConfigFile"
+            },
+            {
+              "name": "Set-GraylogSidecarConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "GraylogSidecarNodeId",
+          "children": [
+            {
+              "name": "Get-GraylogSidecarNodeId"
+            },
+            {
+              "name": "Set-GraylogSidecarNodeId"
+            }
+          ]
+        },
+        {
+          "name": "GraylogSidecarConfigurationAssignment",
+          "children": [
+            {
+              "name": "Get-GraylogSidecarConfigurationAssignment"
+            },
+            {
+              "name": "Add-GraylogSidecarConfigurationAssignment"
+            },
+            {
+              "name": "Remove-GraylogSidecarConfigurationAssignment"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

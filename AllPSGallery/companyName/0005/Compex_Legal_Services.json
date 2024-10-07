@@ -1,0 +1,191 @@
+{
+  "name": "Compex Legal Services, Inc.",
+  "children": [
+    {
+      "name": "Compex.ActiveDirectory",
+      "companyName": "Compex Legal Services, Inc.",
+      "author": "mark.studer",
+      "children": [
+        {
+          "name": "ADGroupMembership",
+          "children": [
+            {
+              "name": "Confirm-ADGroupMembership"
+            },
+            {
+              "name": "Update-ADGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "PrincipalsAllowedToRetrieveManagedPassword",
+          "children": [
+            {
+              "name": "Confirm-PrincipalsAllowedToRetrieveManagedPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Compex.Certificate",
+      "companyName": "Compex Legal Services, Inc.",
+      "author": "mark.studer",
+      "children": [
+        {
+          "name": "Certificate",
+          "children": [
+            {
+              "name": "Confirm-Certificate"
+            }
+          ]
+        },
+        {
+          "name": "PFXCertificateRemote",
+          "children": [
+            {
+              "name": "Install-PFXCertificateRemote"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Compex.ServerManagement",
+      "companyName": "Compex Legal Services, Inc.",
+      "author": "mark.studer",
+      "children": [
+        {
+          "name": "PowerShellModuleRemote",
+          "children": [
+            {
+              "name": "Copy-PowerShellModuleRemote"
+            }
+          ]
+        },
+        {
+          "name": "PowershellModuleDependencies",
+          "children": [
+            {
+              "name": "Get-PowershellModuleDependencies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Compex.UserInput",
+      "companyName": "Compex Legal Services, Inc.",
+      "author": "mark.studer",
+      "children": [
+        {
+          "name": "Selection",
+          "children": [
+            {
+              "name": "Confirm-Selection"
+            }
+          ]
+        },
+        {
+          "name": "ValidInput",
+          "children": [
+            {
+              "name": "Read-ValidInput"
+            }
+          ]
+        },
+        {
+          "name": "DefaultFromList",
+          "children": [
+            {
+              "name": "Select-DefaultFromList"
+            }
+          ]
+        },
+        {
+          "name": "FromList",
+          "children": [
+            {
+              "name": "Select-FromList"
+            }
+          ]
+        },
+        {
+          "name": "FromObjectList",
+          "children": [
+            {
+              "name": "Select-FromObjectList"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Compex.VMWare",
+      "companyName": "Compex Legal Services, Inc.",
+      "author": "mark.studer",
+      "children": [
+        {
+          "name": "VMVBS",
+          "children": [
+            {
+              "name": "Enable-VMVBS"
+            }
+          ]
+        },
+        {
+          "name": "VMIP",
+          "children": [
+            {
+              "name": "Get-VMIP"
+            }
+          ]
+        },
+        {
+          "name": "VSphereLogin",
+          "children": [
+            {
+              "name": "Get-VSphereLogin"
+            },
+            {
+              "name": "New-VSphereLogin"
+            },
+            {
+              "name": "Remove-VSphereLogin"
+            },
+            {
+              "name": "Save-VSphereLogin"
+            },
+            {
+              "name": "Test-VSphereLogin"
+            }
+          ]
+        },
+        {
+          "name": "VMFromTemplate",
+          "children": [
+            {
+              "name": "New-VMFromTemplate"
+            }
+          ]
+        },
+        {
+          "name": "VSphere",
+          "children": [
+            {
+              "name": "Update-VSphere"
+            }
+          ]
+        },
+        {
+          "name": "GuestShutdown",
+          "children": [
+            {
+              "name": "Wait-GuestShutdown"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "name": "WAKERS",
+  "children": [
+    {
+      "name": "wks_automationHelper",
+      "companyName": "WAKERS",
+      "author": "Kevin Oster",
+      "children": [
+        {
+          "name": "ahCurrentAutomationInfo",
+          "children": [
+            {
+              "name": "get-ahCurrentAutomationInfo"
+            }
+          ]
+        },
+        {
+          "name": "ahVariables",
+          "children": [
+            {
+              "name": "import-ahVariables"
+            }
+          ]
+        },
+        {
+          "name": "ahSecretFromAzVault",
+          "children": [
+            {
+              "name": "get-ahSecretFromAzVault"
+            }
+          ]
+        },
+        {
+          "name": "ahAzureContext",
+          "children": [
+            {
+              "name": "connect-ahAzureContext"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "wks_graphapi",
+      "companyName": "WAKERS",
+      "author": "Kevin Oster",
+      "children": [
+        {
+          "name": "graphToken",
+          "children": [
+            {
+              "name": "get-graphToken"
+            }
+          ]
+        },
+        {
+          "name": "graphApi",
+          "children": [
+            {
+              "name": "use-graphApi"
+            }
+          ]
+        },
+        {
+          "name": "graphApiBatchGet",
+          "children": [
+            {
+              "name": "use-graphApiBatchGet"
+            }
+          ]
+        },
+        {
+          "name": "graphUsers",
+          "children": [
+            {
+              "name": "get-graphUsers"
+            }
+          ]
+        },
+        {
+          "name": "graphSharedItemPermissions",
+          "children": [
+            {
+              "name": "get-graphSharedItemPermissions"
+            }
+          ]
+        },
+        {
+          "name": "graphSharedItemPermissionsBatch",
+          "children": [
+            {
+              "name": "get-graphSharedItemPermissionsBatch"
+            }
+          ]
+        },
+        {
+          "name": "graphSharedFiles",
+          "children": [
+            {
+              "name": "get-graphSharedFiles"
+            }
+          ]
+        },
+        {
+          "name": "graphReportOneDriveAccountDetail",
+          "children": [
+            {
+              "name": "get-graphReportOneDriveAccountDetail"
+            }
+          ]
+        },
+        {
+          "name": "graphSharedFilesBatch",
+          "children": [
+            {
+              "name": "get-graphSharedFilesBatch"
+            }
+          ]
+        },
+        {
+          "name": "graphSharedFilesBatch2",
+          "children": [
+            {
+              "name": "get-graphSharedFilesBatch2"
+            }
+          ]
+        },
+        {
+          "name": "graphSharedFilesPermissionsBatch",
+          "children": [
+            {
+              "name": "get-graphSharedFilesPermissionsBatch"
+            }
+          ]
+        },
+        {
+          "name": "graphMailReport",
+          "children": [
+            {
+              "name": "send-graphMailReport"
+            }
+          ]
+        },
+        {
+          "name": "graphDomains",
+          "children": [
+            {
+              "name": "get-graphDomains"
+            }
+          ]
+        },
+        {
+          "name": "graphGroups",
+          "children": [
+            {
+              "name": "get-graphGroups"
+            }
+          ]
+        },
+        {
+          "name": "graphApplications",
+          "children": [
+            {
+              "name": "get-graphApplications"
+            }
+          ]
+        },
+        {
+          "name": "graphApplication",
+          "children": [
+            {
+              "name": "get-graphApplication"
+            }
+          ]
+        },
+        {
+          "name": "graphServicePrincipals",
+          "children": [
+            {
+              "name": "get-graphServicePrincipals"
+            }
+          ]
+        },
+        {
+          "name": "graphServicePrincipal",
+          "children": [
+            {
+              "name": "get-graphServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "graphAadTermsAndConditions",
+          "children": [
+            {
+              "name": "get-graphAadTermsAndConditions"
+            }
+          ]
+        },
+        {
+          "name": "graphDirectoryRoles",
+          "children": [
+            {
+              "name": "get-graphDirectoryRoles"
+            }
+          ]
+        },
+        {
+          "name": "graphDirectoryRoleTemplates",
+          "children": [
+            {
+              "name": "get-graphDirectoryRoleTemplates"
+            }
+          ]
+        },
+        {
+          "name": "graphCAPolicies",
+          "children": [
+            {
+              "name": "get-graphCAPolicies"
+            }
+          ]
+        },
+        {
+          "name": "graphDirectoryObject",
+          "children": [
+            {
+              "name": "get-graphDirectoryObject"
+            }
+          ]
+        },
+        {
+          "name": "AccessTokenMFA",
+          "children": [
+            {
+              "name": "Get-AccessTokenMFA"
+            }
+          ]
+        },
+        {
+          "name": "AccessTokenNonMFA",
+          "children": [
+            {
+              "name": "Get-AccessTokenNonMFA"
+            }
+          ]
+        },
+        {
+          "name": "AccessToken",
+          "children": [
+            {
+              "name": "Get-AccessToken"
+            }
+          ]
+        },
+        {
+          "name": "TimeBasedOneTimePassword",
+          "children": [
+            {
+              "name": "Get-TimeBasedOneTimePassword"
+            }
+          ]
+        },
+        {
+          "name": "Base32ToByte",
+          "children": [
+            {
+              "name": "Convert-Base32ToByte"
+            }
+          ]
+        },
+        {
+          "name": "graphTeamsGroup",
+          "children": [
+            {
+              "name": "get-graphTeamsGroup"
+            }
+          ]
+        },
+        {
+          "name": "graphTeamsChannel",
+          "children": [
+            {
+              "name": "get-graphTeamsChannel"
+            }
+          ]
+        },
+        {
+          "name": "graphTeamsFolderId",
+          "children": [
+            {
+              "name": "get-graphTeamsFolderId"
+            }
+          ]
+        },
+        {
+          "name": "graphTeamsFile",
+          "children": [
+            {
+              "name": "publish-graphTeamsFile"
+            }
+          ]
+        },
+        {
+          "name": "graphTeamsChannelMessage",
+          "children": [
+            {
+              "name": "write-graphTeamsChannelMessage"
+            }
+          ]
+        },
+        {
+          "name": "graphSPSiteId",
+          "children": [
+            {
+              "name": "get-graphSPSiteId"
+            }
+          ]
+        },
+        {
+          "name": "graphSPFolderId",
+          "children": [
+            {
+              "name": "get-graphSPFolderId"
+            }
+          ]
+        },
+        {
+          "name": "graphSPFile",
+          "children": [
+            {
+              "name": "publish-graphSPFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "wks_htmlReporting",
+      "companyName": "WAKERS",
+      "author": "Kevin Oster",
+      "children": [
+        {
+          "name": "htmlTreeLevel",
+          "children": [
+            {
+              "name": "format-htmlTreeLevel"
+            }
+          ]
+        },
+        {
+          "name": "randomId",
+          "children": [
+            {
+              "name": "get-randomId"
+            }
+          ]
+        },
+        {
+          "name": "translatedNames",
+          "children": [
+            {
+              "name": "get-translatedNames"
+            }
+          ]
+        },
+        {
+          "name": "htmlGroupedProperties",
+          "children": [
+            {
+              "name": "get-htmlGroupedProperties"
+            }
+          ]
+        },
+        {
+          "name": "htmlItemTable",
+          "children": [
+            {
+              "name": "new-htmlItemTable"
+            }
+          ]
+        },
+        {
+          "name": "htmlItemNotifications",
+          "children": [
+            {
+              "name": "new-htmlItemNotifications"
+            }
+          ]
+        },
+        {
+          "name": "htmlItemTree",
+          "children": [
+            {
+              "name": "new-htmlItemTree"
+            }
+          ]
+        },
+        {
+          "name": "htmlItemTreeWithDetailedTable",
+          "children": [
+            {
+              "name": "new-htmlItemTreeWithDetailedTable"
+            }
+          ]
+        },
+        {
+          "name": "htmlItemNewRowAfter",
+          "children": [
+            {
+              "name": "add-htmlItemNewRowAfter"
+            }
+          ]
+        },
+        {
+          "name": "htmlItemChart",
+          "children": [
+            {
+              "name": "new-htmlItemChart"
+            }
+          ]
+        },
+        {
+          "name": "htmlSection",
+          "children": [
+            {
+              "name": "new-htmlSection"
+            }
+          ]
+        },
+        {
+          "name": "htmlSectionItem",
+          "children": [
+            {
+              "name": "add-htmlSectionItem"
+            }
+          ]
+        },
+        {
+          "name": "htmlReport",
+          "children": [
+            {
+              "name": "new-htmlReport"
+            }
+          ]
+        },
+        {
+          "name": "htmlReportSection",
+          "children": [
+            {
+              "name": "add-htmlReportSection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

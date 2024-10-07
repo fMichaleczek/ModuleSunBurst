@@ -1,0 +1,75 @@
+{
+  "name": "aws",
+  "children": [
+    {
+      "name": "awsBox",
+      "companyName": "Unknown",
+      "author": "aws",
+      "children": [
+        {
+          "name": "Base64",
+          "children": [
+            {
+              "name": "Get-Base64"
+            }
+          ]
+        },
+        {
+          "name": "DictSubset",
+          "children": [
+            {
+              "name": "Get-DictSubset"
+            }
+          ]
+        },
+        {
+          "name": "awsBoxPrompt",
+          "children": [
+            {
+              "name": "New-awsBoxPrompt"
+            }
+          ]
+        },
+        {
+          "name": "awsBoxPrompts",
+          "children": [
+            {
+              "name": "ConvertTo-awsBoxPrompts"
+            }
+          ]
+        },
+        {
+          "name": "awsBoxButton",
+          "children": [
+            {
+              "name": "New-awsBoxButton"
+            }
+          ]
+        },
+        {
+          "name": "awsBox",
+          "children": [
+            {
+              "name": "Show-awsBox"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "awsnetsec",
+      "companyName": "Unknown",
+      "author": "aws",
+      "children": [
+        {
+          "name": "NetSecTray",
+          "children": [
+            {
+              "name": "Start-NetSecTray"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

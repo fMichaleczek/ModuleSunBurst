@@ -1,0 +1,124 @@
+{
+  "name": "Jean Pierre LESUEUR",
+  "children": [
+    {
+      "name": "Arcane_Server",
+      "companyName": "Phrozen",
+      "author": "Jean Pierre LESUEUR",
+      "children": [
+        {
+          "name": "ArcaneServer",
+          "children": [
+            {
+              "name": "Invoke-ArcaneServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerRemoteDesktop_Server",
+      "companyName": "Phrozen",
+      "author": "Jean Pierre LESUEUR",
+      "children": [
+        {
+          "name": "RemoteDesktopServer",
+          "children": [
+            {
+              "name": "Invoke-RemoteDesktopServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerRemoteDesktop_Viewer",
+      "companyName": "Phrozen",
+      "author": "Jean Pierre LESUEUR",
+      "children": [
+        {
+          "name": "RemoteDesktopViewer",
+          "children": [
+            {
+              "name": "Invoke-RemoteDesktopViewer"
+            }
+          ]
+        },
+        {
+          "name": "TrustedServer",
+          "children": [
+            {
+              "name": "Remove-TrustedServer"
+            }
+          ]
+        },
+        {
+          "name": "TrustedServers",
+          "children": [
+            {
+              "name": "Clear-TrustedServers"
+            },
+            {
+              "name": "Get-TrustedServers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerRunAsSystem",
+      "companyName": "Phrozen",
+      "author": "Jean Pierre LESUEUR",
+      "children": [
+        {
+          "name": "SystemCommand",
+          "children": [
+            {
+              "name": "Invoke-SystemCommand"
+            }
+          ]
+        },
+        {
+          "name": "InteractiveSystemPowerShell",
+          "children": [
+            {
+              "name": "Invoke-InteractiveSystemPowerShell"
+            }
+          ]
+        },
+        {
+          "name": "CurrentProcessPrivilege",
+          "children": [
+            {
+              "name": "Set-CurrentProcessPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "ImpersonatedProcess",
+          "children": [
+            {
+              "name": "Invoke-ImpersonatedProcess"
+            }
+          ]
+        },
+        {
+          "name": "ImpersonateSystem",
+          "children": [
+            {
+              "name": "Invoke-ImpersonateSystem"
+            }
+          ]
+        },
+        {
+          "name": "RevertToSelf",
+          "children": [
+            {
+              "name": "Invoke-RevertToSelf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

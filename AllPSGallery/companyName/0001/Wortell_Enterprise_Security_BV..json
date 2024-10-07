@@ -1,0 +1,114 @@
+{
+  "name": "Wortell Enterprise Security BV.",
+  "children": [
+    {
+      "name": "wrt.helpers",
+      "companyName": "Wortell Enterprise Security BV.",
+      "author": "Maurice de Jong",
+      "children": [
+        {
+          "name": "ProductStates",
+          "children": [
+            {
+              "name": "Add-ProductStates"
+            }
+          ]
+        },
+        {
+          "name": "StringToShort",
+          "children": [
+            {
+              "name": "Convert-StringToShort"
+            }
+          ]
+        },
+        {
+          "name": "ToShortString",
+          "children": [
+            {
+              "name": "Convert-ToShortString"
+            }
+          ]
+        },
+        {
+          "name": "CompressedFile",
+          "children": [
+            {
+              "name": "Deploy-CompressedFile"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "Deploy-File"
+            },
+            {
+              "name": "Find-File"
+            }
+          ]
+        },
+        {
+          "name": "InTextFile",
+          "children": [
+            {
+              "name": "Find-InTextFile"
+            }
+          ]
+        },
+        {
+          "name": "RegistryKey",
+          "children": [
+            {
+              "name": "Remove-RegistryKey"
+            }
+          ]
+        },
+        {
+          "name": "RegistryValue",
+          "children": [
+            {
+              "name": "Remove-RegistryValue"
+            },
+            {
+              "name": "Test-RegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "Registry",
+          "children": [
+            {
+              "name": "Search-Registry"
+            }
+          ]
+        },
+        {
+          "name": "MessageToLocalUsers",
+          "children": [
+            {
+              "name": "Send-MessageToLocalUsers"
+            }
+          ]
+        },
+        {
+          "name": "ToLogAnalytics",
+          "children": [
+            {
+              "name": "Send-ToLogAnalytics"
+            }
+          ]
+        },
+        {
+          "name": "IsProductStateOn",
+          "children": [
+            {
+              "name": "Test-IsProductStateOn"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

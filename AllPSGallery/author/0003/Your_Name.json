@@ -1,0 +1,58 @@
+{
+  "name": "Your Name",
+  "children": [
+    {
+      "name": "MiniSystemInfo",
+      "companyName": "Your Company",
+      "author": "Your Name",
+      "children": [
+        {
+          "name": "SystemUptime",
+          "children": [
+            {
+              "name": "Get-SystemUptime"
+            }
+          ]
+        },
+        {
+          "name": "CurrentUserInfo",
+          "children": [
+            {
+              "name": "Get-CurrentUserInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nslookup",
+      "companyName": "Your Company",
+      "author": "Your Name",
+      "children": [
+        {
+          "name": "Time",
+          "children": [
+            {
+              "name": "Get-Time"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "telltime",
+      "companyName": "Your Company",
+      "author": "Your Name",
+      "children": [
+        {
+          "name": "Time",
+          "children": [
+            {
+              "name": "Get-Time"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "CLUFaber",
+  "children": [
+    {
+      "name": "CLUFaber.Unity",
+      "companyName": "CLUFaber",
+      "author": "CLUFaber",
+      "children": [
+        {
+          "name": "UpmConfig",
+          "children": [
+            {
+              "name": "Get-UpmConfig"
+            }
+          ]
+        },
+        {
+          "name": "DefaultUpmConfigFile",
+          "children": [
+            {
+              "name": "Out-DefaultUpmConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "UnityProjectVersion",
+          "children": [
+            {
+              "name": "Get-UnityProjectVersion"
+            }
+          ]
+        },
+        {
+          "name": "UnityHubDownloadUrl",
+          "children": [
+            {
+              "name": "Get-UnityHubDownloadUrl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CLUFaber.UPM",
+      "companyName": "CLUFaber",
+      "author": "CLUFaber",
+      "children": [
+        {
+          "name": "UpmConfig",
+          "children": [
+            {
+              "name": "Get-UpmConfig"
+            }
+          ]
+        },
+        {
+          "name": "DefaultUpmConfigFile",
+          "children": [
+            {
+              "name": "Out-DefaultUpmConfigFile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

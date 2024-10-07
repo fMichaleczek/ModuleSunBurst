@@ -1,0 +1,403 @@
+{
+  "name": "Jian Liu",
+  "children": [
+    {
+      "name": "ADGroup.View",
+      "companyName": "Unknown",
+      "author": "Jian Liu",
+      "children": [
+        {
+          "name": "ADSubGroup",
+          "children": [
+            {
+              "name": "Show-ADSubGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADParentGroup",
+          "children": [
+            {
+              "name": "Show-ADParentGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADCyclicGroup",
+          "children": [
+            {
+              "name": "Show-ADCyclicGroup"
+            },
+            {
+              "name": "Test-ADCyclicGroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bluecat.Address.Manager",
+      "companyName": "Unknown",
+      "author": "Jian Liu",
+      "children": [
+        {
+          "name": "BamProperty",
+          "children": [
+            {
+              "name": "Convert-BamProperty"
+            }
+          ]
+        },
+        {
+          "name": "Bam",
+          "children": [
+            {
+              "name": "Connect-Bam"
+            }
+          ]
+        },
+        {
+          "name": "BamConfiguration",
+          "children": [
+            {
+              "name": "Get-BamConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "BamDevice",
+          "children": [
+            {
+              "name": "Get-BamDevice"
+            }
+          ]
+        },
+        {
+          "name": "BamMac",
+          "children": [
+            {
+              "name": "Get-BamMac"
+            }
+          ]
+        },
+        {
+          "name": "BamDnsZone",
+          "children": [
+            {
+              "name": "Get-BamDnsZone"
+            }
+          ]
+        },
+        {
+          "name": "BamDnsView",
+          "children": [
+            {
+              "name": "Get-BamDnsView"
+            }
+          ]
+        },
+        {
+          "name": "BamServer",
+          "children": [
+            {
+              "name": "Get-BamServer"
+            }
+          ]
+        },
+        {
+          "name": "BamDnsRecord",
+          "children": [
+            {
+              "name": "Get-BamDnsRecord"
+            }
+          ]
+        },
+        {
+          "name": "BamIPv4Block",
+          "children": [
+            {
+              "name": "Get-BamIPv4Block"
+            }
+          ]
+        },
+        {
+          "name": "BamIPv4Network",
+          "children": [
+            {
+              "name": "Get-BamIPv4Network"
+            }
+          ]
+        },
+        {
+          "name": "BamDnsHostRecord",
+          "children": [
+            {
+              "name": "Add-BamDnsHostRecord"
+            }
+          ]
+        },
+        {
+          "name": "BamDnsAliasRecord",
+          "children": [
+            {
+              "name": "Add-BamDnsAliasRecord"
+            }
+          ]
+        },
+        {
+          "name": "BamDnsSrvRecord",
+          "children": [
+            {
+              "name": "Add-BamDnsSrvRecord"
+            }
+          ]
+        },
+        {
+          "name": "BamDnsGenericRecord",
+          "children": [
+            {
+              "name": "Add-BamDnsGenericRecord"
+            }
+          ]
+        },
+        {
+          "name": "BamDnsExternalRecord",
+          "children": [
+            {
+              "name": "Add-BamDnsExternalRecord"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hashicorp.Vault.Manager",
+      "companyName": "Unknown",
+      "author": "Jian Liu",
+      "children": [
+        {
+          "name": "VaultGroup",
+          "children": [
+            {
+              "name": "Get-VaultGroup"
+            },
+            {
+              "name": "Remove-VaultGroup"
+            },
+            {
+              "name": "Set-VaultGroup"
+            }
+          ]
+        },
+        {
+          "name": "VaultGroupAlias",
+          "children": [
+            {
+              "name": "Get-VaultGroupAlias"
+            },
+            {
+              "name": "Remove-VaultGroupAlias"
+            },
+            {
+              "name": "Set-VaultGroupAlias"
+            }
+          ]
+        },
+        {
+          "name": "VaultGroupAliasID",
+          "children": [
+            {
+              "name": "Get-VaultGroupAliasID"
+            }
+          ]
+        },
+        {
+          "name": "VaultPolicy",
+          "children": [
+            {
+              "name": "Get-VaultPolicy"
+            },
+            {
+              "name": "Remove-VaultPolicy"
+            },
+            {
+              "name": "Set-VaultPolicy"
+            }
+          ]
+        },
+        {
+          "name": "VaultPolicyName",
+          "children": [
+            {
+              "name": "Get-VaultPolicyName"
+            }
+          ]
+        },
+        {
+          "name": "VaultSecret",
+          "children": [
+            {
+              "name": "Get-VaultSecret"
+            },
+            {
+              "name": "Remove-VaultSecret"
+            },
+            {
+              "name": "Set-VaultSecret"
+            }
+          ]
+        },
+        {
+          "name": "VaultServer",
+          "children": [
+            {
+              "name": "Get-VaultServer"
+            }
+          ]
+        },
+        {
+          "name": "VaultGroupID",
+          "children": [
+            {
+              "name": "Get-VaultGroupID"
+            }
+          ]
+        },
+        {
+          "name": "VaultGroupByID",
+          "children": [
+            {
+              "name": "Get-VaultGroupByID"
+            }
+          ]
+        },
+        {
+          "name": "VaultSecretList",
+          "children": [
+            {
+              "name": "Get-VaultSecretList"
+            }
+          ]
+        },
+        {
+          "name": "VaultUserList",
+          "children": [
+            {
+              "name": "Get-VaultUserList"
+            }
+          ]
+        },
+        {
+          "name": "VaultEntityID",
+          "children": [
+            {
+              "name": "Get-VaultEntityID"
+            }
+          ]
+        },
+        {
+          "name": "VaultEntityByID",
+          "children": [
+            {
+              "name": "Get-VaultEntityByID"
+            }
+          ]
+        },
+        {
+          "name": "VaultEntityAliasID",
+          "children": [
+            {
+              "name": "Get-VaultEntityAliasID"
+            }
+          ]
+        },
+        {
+          "name": "VaultEntityAlias",
+          "children": [
+            {
+              "name": "Get-VaultEntityAlias"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerRelay",
+      "companyName": "Unknown",
+      "author": "Jian Liu",
+      "children": [
+        {
+          "name": "RelayJob",
+          "children": [
+            {
+              "name": "Start-RelayJob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thycotic.Secret.Server",
+      "companyName": "Unknown",
+      "author": "Jian Liu",
+      "children": [
+        {
+          "name": "Tss",
+          "children": [
+            {
+              "name": "Connect-Tss"
+            }
+          ]
+        },
+        {
+          "name": "TssSubFolder",
+          "children": [
+            {
+              "name": "Get-TssSubFolder"
+            }
+          ]
+        },
+        {
+          "name": "TssFolder",
+          "children": [
+            {
+              "name": "Get-TssFolder"
+            }
+          ]
+        },
+        {
+          "name": "TssFolderPermission",
+          "children": [
+            {
+              "name": "Get-TssFolderPermission"
+            }
+          ]
+        },
+        {
+          "name": "TssSecretInFolder",
+          "children": [
+            {
+              "name": "Get-TssSecretInFolder"
+            }
+          ]
+        },
+        {
+          "name": "TssSecret",
+          "children": [
+            {
+              "name": "Get-TssSecret"
+            }
+          ]
+        },
+        {
+          "name": "TssSecretPassword",
+          "children": [
+            {
+              "name": "Get-TssSecretPassword"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Steven Ayers",
+  "children": [
+    {
+      "name": "MigrateTo-AzureRM",
+      "companyName": "Steven Ayers",
+      "author": "Steven Ayers",
+      "children": [
+        {
+          "name": "AzureRM",
+          "children": [
+            {
+              "name": "MigrateTo-AzureRM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office365",
+      "companyName": "Steven Ayers",
+      "author": "Steven Ayers",
+      "children": [
+        {
+          "name": "MsolTenant",
+          "children": [
+            {
+              "name": "Connect-MsolTenant"
+            }
+          ]
+        },
+        {
+          "name": "MsolPartnerTenant",
+          "children": [
+            {
+              "name": "Get-MsolPartnerTenant"
+            }
+          ]
+        },
+        {
+          "name": "MsolPartnerExchange",
+          "children": [
+            {
+              "name": "Connect-MsolPartnerExchange"
+            }
+          ]
+        },
+        {
+          "name": "MsolUser",
+          "children": [
+            {
+              "name": "Backup-MsolUser"
+            }
+          ]
+        },
+        {
+          "name": "Mailbox",
+          "children": [
+            {
+              "name": "Backup-Mailbox"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

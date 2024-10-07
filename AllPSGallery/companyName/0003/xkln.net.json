@@ -1,0 +1,77 @@
+{
+  "name": "xkln.net",
+  "children": [
+    {
+      "name": "PSKindleWatch",
+      "companyName": "xkln.net",
+      "author": "md",
+      "children": [
+        {
+          "name": "KindleBook",
+          "children": [
+            {
+              "name": "Add-KindleBook"
+            },
+            {
+              "name": "Remove-KindleBook"
+            }
+          ]
+        },
+        {
+          "name": "KindleBooks",
+          "children": [
+            {
+              "name": "Get-KindleBooks"
+            }
+          ]
+        },
+        {
+          "name": "KindleBookPrices",
+          "children": [
+            {
+              "name": "Update-KindleBookPrices"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSLANScan",
+      "companyName": "xkln.net",
+      "author": "md",
+      "children": [
+        {
+          "name": "IPs",
+          "children": [
+            {
+              "name": "Get-IPs"
+            }
+          ]
+        },
+        {
+          "name": "LANHosts",
+          "children": [
+            {
+              "name": "Find-LANHosts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSNetAddressing",
+      "companyName": "xkln.net",
+      "author": "md",
+      "children": [
+        {
+          "name": "IPNetwork",
+          "children": [
+            {
+              "name": "Get-IPNetwork"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1913 @@
+{
+  "name": "Freddy Kristiansen",
+  "children": [
+    {
+      "name": "BC.ALGoHelper",
+      "companyName": "Microsoft",
+      "author": "Freddy Kristiansen",
+      "children": [
+        {
+          "name": "ALGoAppSourceContext",
+          "children": [
+            {
+              "name": "New-ALGoAppSourceContext"
+            }
+          ]
+        },
+        {
+          "name": "ALGoAuthContext",
+          "children": [
+            {
+              "name": "New-ALGoAuthContext"
+            }
+          ]
+        },
+        {
+          "name": "ALGoNugetContext",
+          "children": [
+            {
+              "name": "New-ALGoNugetContext"
+            }
+          ]
+        },
+        {
+          "name": "ALGoStorageContext",
+          "children": [
+            {
+              "name": "New-ALGoStorageContext"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BC.AppSourceHelper",
+      "companyName": "Microsoft",
+      "author": "Freddy Kristiansen",
+      "children": [
+        {
+          "name": "AppSourceSubmission",
+          "children": [
+            {
+              "name": "Cancel-AppSourceSubmission"
+            },
+            {
+              "name": "Get-AppSourceSubmission"
+            },
+            {
+              "name": "New-AppSourceSubmission"
+            },
+            {
+              "name": "Promote-AppSourceSubmission"
+            }
+          ]
+        },
+        {
+          "name": "AppSourceProduct",
+          "children": [
+            {
+              "name": "Get-AppSourceProduct"
+            }
+          ]
+        },
+        {
+          "name": "IngestionApiDelete",
+          "children": [
+            {
+              "name": "Invoke-IngestionApiDelete"
+            }
+          ]
+        },
+        {
+          "name": "IngestionApiGet",
+          "children": [
+            {
+              "name": "Invoke-IngestionApiGet"
+            }
+          ]
+        },
+        {
+          "name": "IngestionApiGetCollection",
+          "children": [
+            {
+              "name": "Invoke-IngestionApiGetCollection"
+            }
+          ]
+        },
+        {
+          "name": "IngestionApiPost",
+          "children": [
+            {
+              "name": "Invoke-IngestionApiPost"
+            }
+          ]
+        },
+        {
+          "name": "IngestionApiPut",
+          "children": [
+            {
+              "name": "Invoke-IngestionApiPut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BC.ArtifactsHelper",
+      "companyName": "Microsoft",
+      "author": "Freddy Kristiansen",
+      "children": [
+        {
+          "name": "Artifacts",
+          "children": [
+            {
+              "name": "Download-Artifacts"
+            }
+          ]
+        },
+        {
+          "name": "BCArtifactUrl",
+          "children": [
+            {
+              "name": "Get-BCArtifactUrl"
+            }
+          ]
+        },
+        {
+          "name": "NavArtifactUrl",
+          "children": [
+            {
+              "name": "Get-NavArtifactUrl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BC.AuthenticationHelper",
+      "companyName": "Microsoft",
+      "author": "Freddy Kristiansen",
+      "children": [
+        {
+          "name": "BcAuthContext",
+          "children": [
+            {
+              "name": "New-BcAuthContext"
+            },
+            {
+              "name": "Renew-BcAuthContext"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BC.HelperFunctions",
+      "companyName": "Microsoft",
+      "author": "Freddy Kristiansen",
+      "children": [
+        {
+          "name": "AddTelemetryProperty",
+          "children": [
+            {
+              "name": "AddTelemetryProperty"
+            }
+          ]
+        },
+        {
+          "name": "HashTable",
+          "children": [
+            {
+              "name": "ConvertTo-HashTable"
+            }
+          ]
+        },
+        {
+          "name": "OrderedDictionary",
+          "children": [
+            {
+              "name": "ConvertTo-OrderedDictionary"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "Download-File"
+            }
+          ]
+        },
+        {
+          "name": "PlainText",
+          "children": [
+            {
+              "name": "Get-PlainText"
+            }
+          ]
+        },
+        {
+          "name": "InitTelemetryScope",
+          "children": [
+            {
+              "name": "InitTelemetryScope"
+            }
+          ]
+        },
+        {
+          "name": "gh",
+          "children": [
+            {
+              "name": "invoke-gh"
+            }
+          ]
+        },
+        {
+          "name": "git",
+          "children": [
+            {
+              "name": "invoke-git"
+            }
+          ]
+        },
+        {
+          "name": "DesktopShortcut",
+          "children": [
+            {
+              "name": "New-DesktopShortcut"
+            },
+            {
+              "name": "Remove-DesktopShortcut"
+            }
+          ]
+        },
+        {
+          "name": "RegisterTelemetryScope",
+          "children": [
+            {
+              "name": "RegisterTelemetryScope"
+            }
+          ]
+        },
+        {
+          "name": "TrackException",
+          "children": [
+            {
+              "name": "TrackException"
+            }
+          ]
+        },
+        {
+          "name": "TrackTrace",
+          "children": [
+            {
+              "name": "TrackTrace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BC.NuGetHelper",
+      "companyName": "Microsoft",
+      "author": "Freddy Kristiansen",
+      "children": [
+        {
+          "name": "BcNuGetPackage",
+          "children": [
+            {
+              "name": "Get-BcNuGetPackage"
+            },
+            {
+              "name": "New-BcNuGetPackage"
+            },
+            {
+              "name": "Push-BcNuGetPackage"
+            }
+          ]
+        },
+        {
+          "name": "BcNuGetPackageToContainer",
+          "children": [
+            {
+              "name": "Publish-BcNuGetPackageToContainer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BC.SaasHelper",
+      "companyName": "Microsoft",
+      "author": "Freddy Kristiansen",
+      "children": [
+        {
+          "name": "BcDatabaseExportHistory",
+          "children": [
+            {
+              "name": "Get-BcDatabaseExportHistory"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironments",
+          "children": [
+            {
+              "name": "Get-BcEnvironments"
+            }
+          ]
+        },
+        {
+          "name": "BcInstalledExtensions",
+          "children": [
+            {
+              "name": "Get-BcInstalledExtensions"
+            }
+          ]
+        },
+        {
+          "name": "BcPublishedApps",
+          "children": [
+            {
+              "name": "Get-BcPublishedApps"
+            }
+          ]
+        },
+        {
+          "name": "BcScheduledUpgrade",
+          "children": [
+            {
+              "name": "Get-BcScheduledUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "BcAppFromAppSource",
+          "children": [
+            {
+              "name": "Install-BcAppFromAppSource"
+            }
+          ]
+        },
+        {
+          "name": "BcDatabaseExport",
+          "children": [
+            {
+              "name": "New-BcDatabaseExport"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironment",
+          "children": [
+            {
+              "name": "New-BcEnvironment"
+            },
+            {
+              "name": "Remove-BcEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "PerTenantExtensionApps",
+          "children": [
+            {
+              "name": "Publish-PerTenantExtensionApps"
+            }
+          ]
+        },
+        {
+          "name": "BcUpgrade",
+          "children": [
+            {
+              "name": "Reschedule-BcUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentApplicationInsightsKey",
+          "children": [
+            {
+              "name": "Set-BcEnvironmentApplicationInsightsKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BC.TelemetryHelper",
+      "companyName": "Microsoft",
+      "author": "Freddy Kristiansen",
+      "children": [
+        {
+          "name": "AddTelemetryProperty",
+          "children": [
+            {
+              "name": "AddTelemetryProperty"
+            }
+          ]
+        },
+        {
+          "name": "InitTelemetryScope",
+          "children": [
+            {
+              "name": "InitTelemetryScope"
+            }
+          ]
+        },
+        {
+          "name": "RegisterTelemetryScope",
+          "children": [
+            {
+              "name": "RegisterTelemetryScope"
+            }
+          ]
+        },
+        {
+          "name": "TrackException",
+          "children": [
+            {
+              "name": "TrackException"
+            }
+          ]
+        },
+        {
+          "name": "TrackTrace",
+          "children": [
+            {
+              "name": "TrackTrace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BcContainerHelper",
+      "companyName": "Microsoft",
+      "author": "Freddy Kristiansen",
+      "children": [
+        {
+          "name": "FontsToBcContainer",
+          "children": [
+            {
+              "name": "Add-FontsToBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "GitToAlProjectFolder",
+          "children": [
+            {
+              "name": "Add-GitToAlProjectFolder"
+            }
+          ]
+        },
+        {
+          "name": "AddTelemetryProperty",
+          "children": [
+            {
+              "name": "AddTelemetryProperty"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerDatabases",
+          "children": [
+            {
+              "name": "Backup-BcContainerDatabases"
+            }
+          ]
+        },
+        {
+          "name": "AppSourceSubmission",
+          "children": [
+            {
+              "name": "Cancel-AppSourceSubmission"
+            },
+            {
+              "name": "Get-AppSourceSubmission"
+            },
+            {
+              "name": "New-AppSourceSubmission"
+            },
+            {
+              "name": "Promote-AppSourceSubmission"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerHelperPermissions",
+          "children": [
+            {
+              "name": "Check-BcContainerHelperPermissions"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerDatabase",
+          "children": [
+            {
+              "name": "Clean-BcContainerDatabase"
+            }
+          ]
+        },
+        {
+          "name": "AppInBcContainer",
+          "children": [
+            {
+              "name": "Compile-AppInBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "AppWithBcCompilerFolder",
+          "children": [
+            {
+              "name": "Compile-AppWithBcCompilerFolder"
+            }
+          ]
+        },
+        {
+          "name": "ObjectsInNavContainer",
+          "children": [
+            {
+              "name": "Compile-ObjectsInNavContainer"
+            }
+          ]
+        },
+        {
+          "name": "AlcOutputToDevOps",
+          "children": [
+            {
+              "name": "Convert-AlcOutputToDevOps"
+            }
+          ]
+        },
+        {
+          "name": "BcAppsToRuntimePackages",
+          "children": [
+            {
+              "name": "Convert-BcAppsToRuntimePackages"
+            }
+          ]
+        },
+        {
+          "name": "ModifiedObjectsToAl",
+          "children": [
+            {
+              "name": "Convert-ModifiedObjectsToAl"
+            }
+          ]
+        },
+        {
+          "name": "HashTable",
+          "children": [
+            {
+              "name": "ConvertTo-HashTable"
+            }
+          ]
+        },
+        {
+          "name": "OrderedDictionary",
+          "children": [
+            {
+              "name": "ConvertTo-OrderedDictionary"
+            }
+          ]
+        },
+        {
+          "name": "Txt2Al",
+          "children": [
+            {
+              "name": "Convert-Txt2Al"
+            }
+          ]
+        },
+        {
+          "name": "AlSourceFiles",
+          "children": [
+            {
+              "name": "Copy-AlSourceFiles"
+            }
+          ]
+        },
+        {
+          "name": "AppFilesToCompilerFolder",
+          "children": [
+            {
+              "name": "Copy-AppFilesToCompilerFolder"
+            }
+          ]
+        },
+        {
+          "name": "AppFilesToFolder",
+          "children": [
+            {
+              "name": "Copy-AppFilesToFolder"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironment",
+          "children": [
+            {
+              "name": "Copy-BcEnvironment"
+            },
+            {
+              "name": "New-BcEnvironment"
+            },
+            {
+              "name": "Remove-BcEnvironment"
+            },
+            {
+              "name": "Rename-BcEnvironment"
+            },
+            {
+              "name": "Restore-BcEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "CompanyInBcContainer",
+          "children": [
+            {
+              "name": "Copy-CompanyInBcContainer"
+            },
+            {
+              "name": "Get-CompanyInBcContainer"
+            },
+            {
+              "name": "New-CompanyInBcContainer"
+            },
+            {
+              "name": "Remove-CompanyInBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "FileFromBcContainer",
+          "children": [
+            {
+              "name": "Copy-FileFromBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "FileToBcContainer",
+          "children": [
+            {
+              "name": "Copy-FileToBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "ItemFromBcContainer",
+          "children": [
+            {
+              "name": "Copy-ItemFromBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "ItemToBcContainer",
+          "children": [
+            {
+              "name": "Copy-ItemToBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "AadAppsForNav",
+          "children": [
+            {
+              "name": "Create-AadAppsForNav"
+            }
+          ]
+        },
+        {
+          "name": "AadUsersInBcContainer",
+          "children": [
+            {
+              "name": "Create-AadUsersInBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "AlProjectFolderFromBcContainer",
+          "children": [
+            {
+              "name": "Create-AlProjectFolderFromBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "CustomTraefikImage",
+          "children": [
+            {
+              "name": "Create-CustomTraefikImage"
+            }
+          ]
+        },
+        {
+          "name": "MyDeltaFolder",
+          "children": [
+            {
+              "name": "Create-MyDeltaFolder"
+            }
+          ]
+        },
+        {
+          "name": "MyOriginalFolder",
+          "children": [
+            {
+              "name": "Create-MyOriginalFolder"
+            }
+          ]
+        },
+        {
+          "name": "SymbolsFileFromAppFile",
+          "children": [
+            {
+              "name": "Create-SymbolsFileFromAppFile"
+            }
+          ]
+        },
+        {
+          "name": "Artifacts",
+          "children": [
+            {
+              "name": "Download-Artifacts"
+            }
+          ]
+        },
+        {
+          "name": "BcNuGetPackageToFolder",
+          "children": [
+            {
+              "name": "Download-BcNuGetPackageToFolder"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "Download-File"
+            }
+          ]
+        },
+        {
+          "name": "BcContainer",
+          "children": [
+            {
+              "name": "Enter-BcContainer"
+            },
+            {
+              "name": "New-BcContainer"
+            },
+            {
+              "name": "Open-BcContainer"
+            },
+            {
+              "name": "Remove-BcContainer"
+            },
+            {
+              "name": "Restart-BcContainer"
+            },
+            {
+              "name": "Start-BcContainer"
+            },
+            {
+              "name": "Stop-BcContainer"
+            },
+            {
+              "name": "Test-BcContainer"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerDatabasesAsBacpac",
+          "children": [
+            {
+              "name": "Export-BcContainerDatabasesAsBacpac"
+            }
+          ]
+        },
+        {
+          "name": "ModifiedObjectsAsDeltas",
+          "children": [
+            {
+              "name": "Export-ModifiedObjectsAsDeltas"
+            }
+          ]
+        },
+        {
+          "name": "NavContainerObjects",
+          "children": [
+            {
+              "name": "Export-NavContainerObjects"
+            }
+          ]
+        },
+        {
+          "name": "AppFileToFolder",
+          "children": [
+            {
+              "name": "Extract-AppFileToFolder"
+            }
+          ]
+        },
+        {
+          "name": "FilesFromBcContainerImage",
+          "children": [
+            {
+              "name": "Extract-FilesFromBcContainerImage"
+            }
+          ]
+        },
+        {
+          "name": "FilesFromStoppedBcContainer",
+          "children": [
+            {
+              "name": "Extract-FilesFromStoppedBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "BcNuGetPackage",
+          "children": [
+            {
+              "name": "Find-BcNuGetPackage"
+            },
+            {
+              "name": "Get-BcNuGetPackage"
+            },
+            {
+              "name": "New-BcNuGetPackage"
+            },
+            {
+              "name": "Push-BcNuGetPackage"
+            }
+          ]
+        },
+        {
+          "name": "ContainerHelperCache",
+          "children": [
+            {
+              "name": "Flush-ContainerHelperCache"
+            }
+          ]
+        },
+        {
+          "name": "SymbolsInNavContainer",
+          "children": [
+            {
+              "name": "Generate-SymbolsInNavContainer"
+            }
+          ]
+        },
+        {
+          "name": "AlLanguageExtensionFromArtifacts",
+          "children": [
+            {
+              "name": "Get-AlLanguageExtensionFromArtifacts"
+            }
+          ]
+        },
+        {
+          "name": "AppJsonFromAppFile",
+          "children": [
+            {
+              "name": "Get-AppJsonFromAppFile"
+            }
+          ]
+        },
+        {
+          "name": "AppSourceProduct",
+          "children": [
+            {
+              "name": "Get-AppSourceProduct"
+            }
+          ]
+        },
+        {
+          "name": "AzureFeedWildcardVersion",
+          "children": [
+            {
+              "name": "Get-AzureFeedWildcardVersion"
+            }
+          ]
+        },
+        {
+          "name": "BCArtifactUrl",
+          "children": [
+            {
+              "name": "Get-BCArtifactUrl"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerApiCompanyId",
+          "children": [
+            {
+              "name": "Get-BcContainerApiCompanyId"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerApp",
+          "children": [
+            {
+              "name": "Get-BcContainerApp"
+            },
+            {
+              "name": "Install-BcContainerApp"
+            },
+            {
+              "name": "Publish-BcContainerApp"
+            },
+            {
+              "name": "Repair-BcContainerApp"
+            },
+            {
+              "name": "Sign-BcContainerApp"
+            },
+            {
+              "name": "Sync-BcContainerApp"
+            },
+            {
+              "name": "UnInstall-BcContainerApp"
+            },
+            {
+              "name": "UnPublish-BcContainerApp"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerAppInfo",
+          "children": [
+            {
+              "name": "Get-BcContainerAppInfo"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerAppRuntimePackage",
+          "children": [
+            {
+              "name": "Get-BcContainerAppRuntimePackage"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerArtifactUrl",
+          "children": [
+            {
+              "name": "Get-BcContainerArtifactUrl"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerBcUser",
+          "children": [
+            {
+              "name": "Get-BcContainerBcUser"
+            },
+            {
+              "name": "New-BcContainerBcUser"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerCountry",
+          "children": [
+            {
+              "name": "Get-BcContainerCountry"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerDebugInfo",
+          "children": [
+            {
+              "name": "Get-BcContainerDebugInfo"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerEula",
+          "children": [
+            {
+              "name": "Get-BcContainerEula"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerEventLog",
+          "children": [
+            {
+              "name": "Get-BcContainerEventLog"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerGenericTag",
+          "children": [
+            {
+              "name": "Get-BcContainerGenericTag"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerId",
+          "children": [
+            {
+              "name": "Get-BcContainerId"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerImageLabels",
+          "children": [
+            {
+              "name": "Get-BcContainerImageLabels"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerImageName",
+          "children": [
+            {
+              "name": "Get-BcContainerImageName"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerImageTags",
+          "children": [
+            {
+              "name": "Get-BcContainerImageTags"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerIpAddress",
+          "children": [
+            {
+              "name": "Get-BcContainerIpAddress"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerLegal",
+          "children": [
+            {
+              "name": "Get-BcContainerLegal"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerLicenseInformation",
+          "children": [
+            {
+              "name": "Get-BcContainerLicenseInformation"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerName",
+          "children": [
+            {
+              "name": "Get-BcContainerName"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerNavVersion",
+          "children": [
+            {
+              "name": "Get-BcContainerNavVersion"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerOsVersion",
+          "children": [
+            {
+              "name": "Get-BcContainerOsVersion"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerPath",
+          "children": [
+            {
+              "name": "Get-BcContainerPath"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerPlatformVersion",
+          "children": [
+            {
+              "name": "Get-BcContainerPlatformVersion"
+            }
+          ]
+        },
+        {
+          "name": "BcContainers",
+          "children": [
+            {
+              "name": "Get-BcContainers"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerServerConfiguration",
+          "children": [
+            {
+              "name": "Get-BcContainerServerConfiguration"
+            },
+            {
+              "name": "Set-BcContainerServerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerSession",
+          "children": [
+            {
+              "name": "Get-BcContainerSession"
+            },
+            {
+              "name": "Remove-BcContainerSession"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerSharedFolders",
+          "children": [
+            {
+              "name": "Get-BcContainerSharedFolders"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerTenants",
+          "children": [
+            {
+              "name": "Get-BcContainerTenants"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentAvailableRestorePeriods",
+          "children": [
+            {
+              "name": "Get-BcEnvironmentAvailableRestorePeriods"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentDatabaseExportHistory",
+          "children": [
+            {
+              "name": "Get-BcEnvironmentDatabaseExportHistory"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentInstalledExtensions",
+          "children": [
+            {
+              "name": "Get-BcEnvironmentInstalledExtensions"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentOperations",
+          "children": [
+            {
+              "name": "Get-BcEnvironmentOperations"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentPublishedApps",
+          "children": [
+            {
+              "name": "Get-BcEnvironmentPublishedApps"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironments",
+          "children": [
+            {
+              "name": "Get-BcEnvironments"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentScheduledUpgrade",
+          "children": [
+            {
+              "name": "Get-BcEnvironmentScheduledUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentUpdateWindow",
+          "children": [
+            {
+              "name": "Get-BcEnvironmentUpdateWindow"
+            },
+            {
+              "name": "Set-BcEnvironmentUpdateWindow"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentUsedStorage",
+          "children": [
+            {
+              "name": "Get-BcEnvironmentUsedStorage"
+            }
+          ]
+        },
+        {
+          "name": "BcNotificationRecipients",
+          "children": [
+            {
+              "name": "Get-BcNotificationRecipients"
+            }
+          ]
+        },
+        {
+          "name": "BcNuGetPackageId",
+          "children": [
+            {
+              "name": "Get-BcNuGetPackageId"
+            }
+          ]
+        },
+        {
+          "name": "BestBcContainerImageName",
+          "children": [
+            {
+              "name": "Get-BestBcContainerImageName"
+            }
+          ]
+        },
+        {
+          "name": "BestGenericImageName",
+          "children": [
+            {
+              "name": "Get-BestGenericImageName"
+            }
+          ]
+        },
+        {
+          "name": "LatestAlLanguageExtensionUrl",
+          "children": [
+            {
+              "name": "Get-LatestAlLanguageExtensionUrl"
+            }
+          ]
+        },
+        {
+          "name": "LocaleFromCountry",
+          "children": [
+            {
+              "name": "Get-LocaleFromCountry"
+            }
+          ]
+        },
+        {
+          "name": "NavArtifactUrl",
+          "children": [
+            {
+              "name": "Get-NavArtifactUrl"
+            }
+          ]
+        },
+        {
+          "name": "NavVersionFromVersionInfo",
+          "children": [
+            {
+              "name": "Get-NavVersionFromVersionInfo"
+            }
+          ]
+        },
+        {
+          "name": "PackageInfoFromRapidStartFile",
+          "children": [
+            {
+              "name": "Get-PackageInfoFromRapidStartFile"
+            }
+          ]
+        },
+        {
+          "name": "PlainText",
+          "children": [
+            {
+              "name": "Get-PlainText"
+            }
+          ]
+        },
+        {
+          "name": "TestsFromBcContainer",
+          "children": [
+            {
+              "name": "Get-TestsFromBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerLicense",
+          "children": [
+            {
+              "name": "Import-BcContainerLicense"
+            }
+          ]
+        },
+        {
+          "name": "CertificateToBcContainer",
+          "children": [
+            {
+              "name": "Import-CertificateToBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "ConfigPackageInBcContainer",
+          "children": [
+            {
+              "name": "Import-ConfigPackageInBcContainer"
+            },
+            {
+              "name": "Remove-ConfigPackageInBcContainer"
+            },
+            {
+              "name": "UploadImportAndApply-ConfigPackageInBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "DeltasToNavContainer",
+          "children": [
+            {
+              "name": "Import-DeltasToNavContainer"
+            }
+          ]
+        },
+        {
+          "name": "ObjectsToNavContainer",
+          "children": [
+            {
+              "name": "Import-ObjectsToNavContainer"
+            }
+          ]
+        },
+        {
+          "name": "PfxCertificateToBcContainer",
+          "children": [
+            {
+              "name": "Import-PfxCertificateToBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "TestToolkitToBcContainer",
+          "children": [
+            {
+              "name": "Import-TestToolkitToBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "InitTelemetryScope",
+          "children": [
+            {
+              "name": "InitTelemetryScope"
+            }
+          ]
+        },
+        {
+          "name": "AzDevops",
+          "children": [
+            {
+              "name": "Install-AzDevops"
+            }
+          ]
+        },
+        {
+          "name": "BcAppFromAppSource",
+          "children": [
+            {
+              "name": "Install-BcAppFromAppSource"
+            }
+          ]
+        },
+        {
+          "name": "NAVSipCryptoProviderFromBcContainer",
+          "children": [
+            {
+              "name": "Install-NAVSipCryptoProviderFromBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerApi",
+          "children": [
+            {
+              "name": "Invoke-BcContainerApi"
+            }
+          ]
+        },
+        {
+          "name": "gh",
+          "children": [
+            {
+              "name": "invoke-gh"
+            }
+          ]
+        },
+        {
+          "name": "git",
+          "children": [
+            {
+              "name": "invoke-git"
+            }
+          ]
+        },
+        {
+          "name": "IngestionApiDelete",
+          "children": [
+            {
+              "name": "Invoke-IngestionApiDelete"
+            }
+          ]
+        },
+        {
+          "name": "IngestionApiGet",
+          "children": [
+            {
+              "name": "Invoke-IngestionApiGet"
+            }
+          ]
+        },
+        {
+          "name": "IngestionApiGetCollection",
+          "children": [
+            {
+              "name": "Invoke-IngestionApiGetCollection"
+            }
+          ]
+        },
+        {
+          "name": "IngestionApiPost",
+          "children": [
+            {
+              "name": "Invoke-IngestionApiPost"
+            }
+          ]
+        },
+        {
+          "name": "IngestionApiPut",
+          "children": [
+            {
+              "name": "Invoke-IngestionApiPut"
+            }
+          ]
+        },
+        {
+          "name": "NavContainerCodeunit",
+          "children": [
+            {
+              "name": "Invoke-NavContainerCodeunit"
+            }
+          ]
+        },
+        {
+          "name": "ScriptInBcContainer",
+          "children": [
+            {
+              "name": "Invoke-ScriptInBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "AadAppsForBc",
+          "children": [
+            {
+              "name": "New-AadAppsForBc"
+            },
+            {
+              "name": "Remove-AadAppsForBc"
+            }
+          ]
+        },
+        {
+          "name": "ALGoAppSourceContext",
+          "children": [
+            {
+              "name": "New-ALGoAppSourceContext"
+            }
+          ]
+        },
+        {
+          "name": "ALGoAuthContext",
+          "children": [
+            {
+              "name": "New-ALGoAuthContext"
+            }
+          ]
+        },
+        {
+          "name": "ALGoNugetContext",
+          "children": [
+            {
+              "name": "New-ALGoNugetContext"
+            }
+          ]
+        },
+        {
+          "name": "ALGoRepo",
+          "children": [
+            {
+              "name": "New-ALGoRepo"
+            }
+          ]
+        },
+        {
+          "name": "ALGoStorageContext",
+          "children": [
+            {
+              "name": "New-ALGoStorageContext"
+            }
+          ]
+        },
+        {
+          "name": "BcAuthContext",
+          "children": [
+            {
+              "name": "New-BcAuthContext"
+            },
+            {
+              "name": "Renew-BcAuthContext"
+            }
+          ]
+        },
+        {
+          "name": "BcCompilerFolder",
+          "children": [
+            {
+              "name": "New-BcCompilerFolder"
+            },
+            {
+              "name": "Remove-BcCompilerFolder"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerTenant",
+          "children": [
+            {
+              "name": "New-BcContainerTenant"
+            },
+            {
+              "name": "Remove-BcContainerTenant"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerWindowsUser",
+          "children": [
+            {
+              "name": "New-BcContainerWindowsUser"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerWizard",
+          "children": [
+            {
+              "name": "New-BcContainerWizard"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentDatabaseExport",
+          "children": [
+            {
+              "name": "New-BcEnvironmentDatabaseExport"
+            }
+          ]
+        },
+        {
+          "name": "BcImage",
+          "children": [
+            {
+              "name": "New-BcImage"
+            }
+          ]
+        },
+        {
+          "name": "BcNotificationRecipient",
+          "children": [
+            {
+              "name": "New-BcNotificationRecipient"
+            }
+          ]
+        },
+        {
+          "name": "DesktopShortcut",
+          "children": [
+            {
+              "name": "New-DesktopShortcut"
+            },
+            {
+              "name": "Remove-DesktopShortcut"
+            }
+          ]
+        },
+        {
+          "name": "LetsEncryptCertificate",
+          "children": [
+            {
+              "name": "New-LetsEncryptCertificate"
+            },
+            {
+              "name": "Renew-LetsEncryptCertificate"
+            }
+          ]
+        },
+        {
+          "name": "BcNuGetPackageToContainer",
+          "children": [
+            {
+              "name": "Publish-BcNuGetPackageToContainer"
+            }
+          ]
+        },
+        {
+          "name": "BuildOutputToAzureFeed",
+          "children": [
+            {
+              "name": "Publish-BuildOutputToAzureFeed"
+            }
+          ]
+        },
+        {
+          "name": "BuildOutputToStorage",
+          "children": [
+            {
+              "name": "Publish-BuildOutputToStorage"
+            }
+          ]
+        },
+        {
+          "name": "NewApplicationToBcContainer",
+          "children": [
+            {
+              "name": "Publish-NewApplicationToBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "PerTenantExtensionApps",
+          "children": [
+            {
+              "name": "Publish-PerTenantExtensionApps"
+            }
+          ]
+        },
+        {
+          "name": "RegisterTelemetryScope",
+          "children": [
+            {
+              "name": "RegisterTelemetryScope"
+            }
+          ]
+        },
+        {
+          "name": "BcDatabase",
+          "children": [
+            {
+              "name": "Remove-BcDatabase"
+            }
+          ]
+        },
+        {
+          "name": "BcServerContainer",
+          "children": [
+            {
+              "name": "Replace-BcServerContainer"
+            }
+          ]
+        },
+        {
+          "name": "DependenciesInAppFile",
+          "children": [
+            {
+              "name": "Replace-DependenciesInAppFile"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentUpgrade",
+          "children": [
+            {
+              "name": "Reschedule-BcEnvironmentUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "DependenciesFromAzureFeed",
+          "children": [
+            {
+              "name": "Resolve-DependenciesFromAzureFeed"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerServiceTier",
+          "children": [
+            {
+              "name": "Restart-BcContainerServiceTier"
+            }
+          ]
+        },
+        {
+          "name": "BcDatabaseFromArtifacts",
+          "children": [
+            {
+              "name": "Restore-BcDatabaseFromArtifacts"
+            }
+          ]
+        },
+        {
+          "name": "DatabasesInBcContainer",
+          "children": [
+            {
+              "name": "Restore-DatabasesInBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "AlCops",
+          "children": [
+            {
+              "name": "Run-AlCops"
+            }
+          ]
+        },
+        {
+          "name": "AlPipeline",
+          "children": [
+            {
+              "name": "Run-AlPipeline"
+            }
+          ]
+        },
+        {
+          "name": "AlValidation",
+          "children": [
+            {
+              "name": "Run-AlValidation"
+            }
+          ]
+        },
+        {
+          "name": "BCPTTestsInBcContainer",
+          "children": [
+            {
+              "name": "Run-BCPTTestsInBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "ConnectionTestToBcContainer",
+          "children": [
+            {
+              "name": "Run-ConnectionTestToBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "TestsInBcContainer",
+          "children": [
+            {
+              "name": "Run-TestsInBcContainer"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerFeatureKeys",
+          "children": [
+            {
+              "name": "Set-BcContainerFeatureKeys"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerKeyVaultAadAppAndCertificate",
+          "children": [
+            {
+              "name": "Set-BcContainerKeyVaultAadAppAndCertificate"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentApplicationInsightsKey",
+          "children": [
+            {
+              "name": "Set-BcEnvironmentApplicationInsightsKey"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerTestUsers",
+          "children": [
+            {
+              "name": "Setup-BcContainerTestUsers"
+            }
+          ]
+        },
+        {
+          "name": "TraefikContainerForBcContainers",
+          "children": [
+            {
+              "name": "Setup-TraefikContainerForBcContainers"
+            }
+          ]
+        },
+        {
+          "name": "AppFilesByDependencies",
+          "children": [
+            {
+              "name": "Sort-AppFilesByDependencies"
+            }
+          ]
+        },
+        {
+          "name": "AppFoldersByDependencies",
+          "children": [
+            {
+              "name": "Sort-AppFoldersByDependencies"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerAppDataUpgrade",
+          "children": [
+            {
+              "name": "Start-BcContainerAppDataUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "TrackException",
+          "children": [
+            {
+              "name": "TrackException"
+            }
+          ]
+        },
+        {
+          "name": "TrackTrace",
+          "children": [
+            {
+              "name": "TrackTrace"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerReady",
+          "children": [
+            {
+              "name": "Wait-BcContainerReady"
+            }
+          ]
+        },
+        {
+          "name": "BcEnvironmentsReady",
+          "children": [
+            {
+              "name": "Wait-BcEnvironmentsReady"
+            }
+          ]
+        },
+        {
+          "name": "BcContainerHelperWelcomeText",
+          "children": [
+            {
+              "name": "Write-BcContainerHelperWelcomeText"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

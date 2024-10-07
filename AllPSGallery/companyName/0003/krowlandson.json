@@ -1,0 +1,69 @@
+{
+  "name": "krowlandson",
+  "children": [
+    {
+      "name": "AzureStateManager",
+      "companyName": "krowlandson",
+      "author": "krowlandson",
+      "children": [
+        {
+          "name": "AzState",
+          "children": [
+            {
+              "name": "New-AzState"
+            }
+          ]
+        },
+        {
+          "name": "AzStateDiscovery",
+          "children": [
+            {
+              "name": "New-AzStateDiscovery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CustomPSTools",
+      "companyName": "krowlandson",
+      "author": "krowlandson",
+      "children": [
+        {
+          "name": "AzContext",
+          "children": [
+            {
+              "name": "Switch-AzContext"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSRetry",
+      "companyName": "krowlandson",
+      "author": "krowlandson",
+      "children": [
+        {
+          "name": "PSRetryDelay",
+          "children": [
+            {
+              "name": "Get-PSRetryDelay"
+            },
+            {
+              "name": "Wait-PSRetryDelay"
+            }
+          ]
+        },
+        {
+          "name": "PSRetryExpression",
+          "children": [
+            {
+              "name": "Invoke-PSRetryExpression"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

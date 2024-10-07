@@ -1,0 +1,493 @@
+{
+  "name": "Falk Heiland",
+  "children": [
+    {
+      "name": "PSIGEL",
+      "companyName": "Unknown",
+      "author": "Falk Heiland",
+      "children": [
+        {
+          "name": "UMSDevice",
+          "children": [
+            {
+              "name": "Get-UMSDevice"
+            },
+            {
+              "name": "Move-UMSDevice"
+            },
+            {
+              "name": "New-UMSDevice"
+            },
+            {
+              "name": "Remove-UMSDevice"
+            },
+            {
+              "name": "Reset-UMSDevice"
+            },
+            {
+              "name": "Restart-UMSDevice"
+            },
+            {
+              "name": "Start-UMSDevice"
+            },
+            {
+              "name": "Stop-UMSDevice"
+            },
+            {
+              "name": "Update-UMSDevice"
+            }
+          ]
+        },
+        {
+          "name": "UMSDeviceAssignment",
+          "children": [
+            {
+              "name": "Get-UMSDeviceAssignment"
+            }
+          ]
+        },
+        {
+          "name": "UMSDeviceDirectory",
+          "children": [
+            {
+              "name": "Get-UMSDeviceDirectory"
+            },
+            {
+              "name": "Move-UMSDeviceDirectory"
+            },
+            {
+              "name": "New-UMSDeviceDirectory"
+            },
+            {
+              "name": "Remove-UMSDeviceDirectory"
+            },
+            {
+              "name": "Update-UMSDeviceDirectory"
+            }
+          ]
+        },
+        {
+          "name": "UMSDeviceDirectoryAssignment",
+          "children": [
+            {
+              "name": "Get-UMSDeviceDirectoryAssignment"
+            }
+          ]
+        },
+        {
+          "name": "UMSDirectoryRecursive",
+          "children": [
+            {
+              "name": "Get-UMSDirectoryRecursive"
+            }
+          ]
+        },
+        {
+          "name": "UMSFirmware",
+          "children": [
+            {
+              "name": "Get-UMSFirmware"
+            }
+          ]
+        },
+        {
+          "name": "UMSProfile",
+          "children": [
+            {
+              "name": "Get-UMSProfile"
+            },
+            {
+              "name": "Move-UMSProfile"
+            },
+            {
+              "name": "Remove-UMSProfile"
+            },
+            {
+              "name": "Update-UMSProfile"
+            }
+          ]
+        },
+        {
+          "name": "UMSProfileDirectory",
+          "children": [
+            {
+              "name": "Get-UMSProfileDirectory"
+            },
+            {
+              "name": "Move-UMSProfileDirectory"
+            },
+            {
+              "name": "New-UMSProfileDirectory"
+            },
+            {
+              "name": "Remove-UMSProfileDirectory"
+            },
+            {
+              "name": "Update-UMSProfileDirectory"
+            }
+          ]
+        },
+        {
+          "name": "UMSProfileAssignment",
+          "children": [
+            {
+              "name": "Get-UMSProfileAssignment"
+            },
+            {
+              "name": "New-UMSProfileAssignment"
+            },
+            {
+              "name": "Remove-UMSProfileAssignment"
+            }
+          ]
+        },
+        {
+          "name": "UMSStatus",
+          "children": [
+            {
+              "name": "Get-UMSStatus"
+            }
+          ]
+        },
+        {
+          "name": "UMSAPICookie",
+          "children": [
+            {
+              "name": "New-UMSAPICookie"
+            },
+            {
+              "name": "Remove-UMSAPICookie"
+            }
+          ]
+        },
+        {
+          "name": "UMSDeviceSetting",
+          "children": [
+            {
+              "name": "Send-UMSDeviceSetting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSmacmon",
+      "companyName": "Unknown",
+      "author": "Falk Heiland",
+      "children": [
+        {
+          "name": "MacmonCredential",
+          "children": [
+            {
+              "name": "Get-MacmonCredential"
+            }
+          ]
+        },
+        {
+          "name": "MacmonEndpoint",
+          "children": [
+            {
+              "name": "Get-MacmonEndpoint"
+            },
+            {
+              "name": "New-MacmonEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "MacmonEndpointGroup",
+          "children": [
+            {
+              "name": "Get-MacmonEndpointGroup"
+            },
+            {
+              "name": "New-MacmonEndpointGroup"
+            }
+          ]
+        },
+        {
+          "name": "MacmonLicenseOption",
+          "children": [
+            {
+              "name": "Get-MacmonLicenseOption"
+            }
+          ]
+        },
+        {
+          "name": "MacmonNetworkDevice",
+          "children": [
+            {
+              "name": "Get-MacmonNetworkDevice"
+            },
+            {
+              "name": "New-MacmonNetworkDevice"
+            }
+          ]
+        },
+        {
+          "name": "MacmonNetworkDeviceClass",
+          "children": [
+            {
+              "name": "Get-MacmonNetworkDeviceClass"
+            }
+          ]
+        },
+        {
+          "name": "MacmonNetworkDeviceGroup",
+          "children": [
+            {
+              "name": "Get-MacmonNetworkDeviceGroup"
+            }
+          ]
+        },
+        {
+          "name": "MacmonNetworkSegment",
+          "children": [
+            {
+              "name": "Get-MacmonNetworkSegment"
+            }
+          ]
+        },
+        {
+          "name": "MacmonReport",
+          "children": [
+            {
+              "name": "Get-MacmonReport"
+            }
+          ]
+        },
+        {
+          "name": "MacmonSetting",
+          "children": [
+            {
+              "name": "Get-MacmonSetting"
+            }
+          ]
+        },
+        {
+          "name": "MacmonSystem",
+          "children": [
+            {
+              "name": "Get-MacmonSystem"
+            }
+          ]
+        },
+        {
+          "name": "MacmonUserProperty",
+          "children": [
+            {
+              "name": "Get-MacmonUserProperty"
+            }
+          ]
+        },
+        {
+          "name": "MacmonUserReport",
+          "children": [
+            {
+              "name": "Get-MacmonUserReport"
+            }
+          ]
+        },
+        {
+          "name": "MacmonEndpointProperty",
+          "children": [
+            {
+              "name": "Remove-MacmonEndpointProperty"
+            },
+            {
+              "name": "Update-MacmonEndpointProperty"
+            }
+          ]
+        },
+        {
+          "name": "MacmonEndpointGroupProperty",
+          "children": [
+            {
+              "name": "Update-MacmonEndpointGroupProperty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSPathfinder",
+      "companyName": "Unknown",
+      "author": "Falk Heiland",
+      "children": [
+        {
+          "name": "PFBuilding",
+          "children": [
+            {
+              "name": "Get-PFBuilding"
+            },
+            {
+              "name": "New-PFBuilding"
+            }
+          ]
+        },
+        {
+          "name": "PFCable",
+          "children": [
+            {
+              "name": "Get-PFCable"
+            }
+          ]
+        },
+        {
+          "name": "PFCableTray",
+          "children": [
+            {
+              "name": "Get-PFCableTray"
+            }
+          ]
+        },
+        {
+          "name": "PFComponent",
+          "children": [
+            {
+              "name": "Get-PFComponent"
+            },
+            {
+              "name": "New-PFComponent"
+            },
+            {
+              "name": "Remove-PFComponent"
+            },
+            {
+              "name": "Update-PFComponent"
+            }
+          ]
+        },
+        {
+          "name": "PFComponentDefinition",
+          "children": [
+            {
+              "name": "Get-PFComponentDefinition"
+            }
+          ]
+        },
+        {
+          "name": "PFFloor",
+          "children": [
+            {
+              "name": "Get-PFFloor"
+            },
+            {
+              "name": "New-PFFloor"
+            }
+          ]
+        },
+        {
+          "name": "PFIPAddress",
+          "children": [
+            {
+              "name": "Get-PFIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "PFLocation",
+          "children": [
+            {
+              "name": "Get-PFLocation"
+            }
+          ]
+        },
+        {
+          "name": "PFNetwork",
+          "children": [
+            {
+              "name": "Get-PFNetwork"
+            }
+          ]
+        },
+        {
+          "name": "PFPhone",
+          "children": [
+            {
+              "name": "Get-PFPhone"
+            }
+          ]
+        },
+        {
+          "name": "PFRack",
+          "children": [
+            {
+              "name": "Get-PFRack"
+            },
+            {
+              "name": "New-PFRack"
+            }
+          ]
+        },
+        {
+          "name": "PFRoom",
+          "children": [
+            {
+              "name": "Get-PFRoom"
+            },
+            {
+              "name": "New-PFRoom"
+            }
+          ]
+        },
+        {
+          "name": "PFRootgroup",
+          "children": [
+            {
+              "name": "Get-PFRootgroup"
+            }
+          ]
+        },
+        {
+          "name": "PFService",
+          "children": [
+            {
+              "name": "Get-PFService"
+            }
+          ]
+        },
+        {
+          "name": "PFStatus",
+          "children": [
+            {
+              "name": "Get-PFStatus"
+            }
+          ]
+        },
+        {
+          "name": "PFSubnet",
+          "children": [
+            {
+              "name": "Get-PFSubnet"
+            }
+          ]
+        },
+        {
+          "name": "PFTag",
+          "children": [
+            {
+              "name": "Get-PFTag"
+            }
+          ]
+        },
+        {
+          "name": "PFTaggroup",
+          "children": [
+            {
+              "name": "Get-PFTaggroup"
+            }
+          ]
+        },
+        {
+          "name": "PFVlan",
+          "children": [
+            {
+              "name": "Get-PFVlan"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

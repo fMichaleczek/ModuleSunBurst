@@ -1,0 +1,280 @@
+{
+  "name": "Chris Clohosy",
+  "children": [
+    {
+      "name": "SACRED.Job",
+      "companyName": "Unknown",
+      "author": "Chris Clohosy",
+      "children": [
+        {
+          "name": "SACREDRotationJobDefinition",
+          "children": [
+            {
+              "name": "Register-SACREDRotationJobDefinition"
+            },
+            {
+              "name": "Unregister-SACREDRotationJobDefinition"
+            }
+          ]
+        },
+        {
+          "name": "SACREDRotationSchedule",
+          "children": [
+            {
+              "name": "Invoke-SACREDRotationSchedule"
+            }
+          ]
+        },
+        {
+          "name": "SACREDRotationJob",
+          "children": [
+            {
+              "name": "Invoke-SACREDRotationJob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SACRED.Rotate.Azure.CosmosDB",
+      "companyName": "Unknown",
+      "author": "Chris Clohosy",
+      "children": [
+        {
+          "name": "SACREDCosmosDBKeyRotation",
+          "children": [
+            {
+              "name": "Invoke-SACREDCosmosDBKeyRotation"
+            }
+          ]
+        },
+        {
+          "name": "SACREDCosmosDBKeyRegeneration",
+          "children": [
+            {
+              "name": "Invoke-SACREDCosmosDBKeyRegeneration"
+            }
+          ]
+        },
+        {
+          "name": "SACREDCosmosDBRotationJobName",
+          "children": [
+            {
+              "name": "Build-SACREDCosmosDBRotationJobName"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SACRED.Rotate.Azure.ServicePrincipal",
+      "companyName": "Unknown",
+      "author": "Chris Clohosy",
+      "children": [
+        {
+          "name": "SACREDEntraServicePrincipalSecretRotation",
+          "children": [
+            {
+              "name": "Invoke-SACREDEntraServicePrincipalSecretRotation"
+            }
+          ]
+        },
+        {
+          "name": "SACREDEntraServicePrincipalSecretRegeneration",
+          "children": [
+            {
+              "name": "Invoke-SACREDEntraServicePrincipalSecretRegeneration"
+            }
+          ]
+        },
+        {
+          "name": "SACREDOldEntraServicePrincipalSecrets",
+          "children": [
+            {
+              "name": "Remove-SACREDOldEntraServicePrincipalSecrets"
+            }
+          ]
+        },
+        {
+          "name": "SACREDEntraServicePrincipalSelfSignedCertificateRotation",
+          "children": [
+            {
+              "name": "Invoke-SACREDEntraServicePrincipalSelfSignedCertificateRotation"
+            }
+          ]
+        },
+        {
+          "name": "SACREDEntraServicePrincipalSelfSignedCertificateRegeneration",
+          "children": [
+            {
+              "name": "Invoke-SACREDEntraServicePrincipalSelfSignedCertificateRegeneration"
+            }
+          ]
+        },
+        {
+          "name": "SACREDOldEntraServicePrincipalSelfSignedCertificates",
+          "children": [
+            {
+              "name": "Remove-SACREDOldEntraServicePrincipalSelfSignedCertificates"
+            }
+          ]
+        },
+        {
+          "name": "SACREDEntraServicePrincipalRotationJobName",
+          "children": [
+            {
+              "name": "Build-SACREDEntraServicePrincipalRotationJobName"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SACRED.Server.Pode",
+      "companyName": "Unknown",
+      "author": "Chris Clohosy",
+      "children": [
+        {
+          "name": "SACREDPodeServerEnvironment",
+          "children": [
+            {
+              "name": "Initialize-SACREDPodeServerEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "SACREDPodeServer",
+          "children": [
+            {
+              "name": "Start-SACREDPodeServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SACRED.Update.Azure.KeyVault",
+      "companyName": "Unknown",
+      "author": "Chris Clohosy",
+      "children": [
+        {
+          "name": "SACREDAzureKeyVaultSecrets",
+          "children": [
+            {
+              "name": "Publish-SACREDAzureKeyVaultSecrets"
+            }
+          ]
+        },
+        {
+          "name": "SACREDAzureKeyVaultSecret",
+          "children": [
+            {
+              "name": "Publish-SACREDAzureKeyVaultSecret"
+            }
+          ]
+        },
+        {
+          "name": "SACREDAzureKeyVaultCertificates",
+          "children": [
+            {
+              "name": "Publish-SACREDAzureKeyVaultCertificates"
+            }
+          ]
+        },
+        {
+          "name": "SACREDAzureKeyVaultCertificate",
+          "children": [
+            {
+              "name": "Publish-SACREDAzureKeyVaultCertificate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SACRED.Update.Windows.CertificateStore",
+      "companyName": "Unknown",
+      "author": "Chris Clohosy",
+      "children": [
+        {
+          "name": "SACREDWindowsCertificateStoreCertificates",
+          "children": [
+            {
+              "name": "Publish-SACREDWindowsCertificateStoreCertificates"
+            }
+          ]
+        },
+        {
+          "name": "SACREDWindowsCertificateStoreCertificate",
+          "children": [
+            {
+              "name": "Publish-SACREDWindowsCertificateStoreCertificate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SACRED.Util",
+      "companyName": "Unknown",
+      "author": "Chris Clohosy",
+      "children": [
+        {
+          "name": "SACREDEnvironment",
+          "children": [
+            {
+              "name": "Initialize-SACREDEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "SACREDBase64ValueBytes",
+          "children": [
+            {
+              "name": "ConvertTo-SACREDBase64ValueBytes"
+            }
+          ]
+        },
+        {
+          "name": "SACREDBase64UrlString",
+          "children": [
+            {
+              "name": "ConvertFrom-SACREDBase64UrlString"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SACRED.Util.Azure",
+      "companyName": "Unknown",
+      "author": "Chris Clohosy",
+      "children": [
+        {
+          "name": "SACREDToAzure",
+          "children": [
+            {
+              "name": "Connect-SACREDToAzure"
+            }
+          ]
+        },
+        {
+          "name": "SACREDAzureContextForResource",
+          "children": [
+            {
+              "name": "Get-SACREDAzureContextForResource"
+            }
+          ]
+        },
+        {
+          "name": "SACREDToMicrosoftGraph",
+          "children": [
+            {
+              "name": "Connect-SACREDToMicrosoftGraph"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

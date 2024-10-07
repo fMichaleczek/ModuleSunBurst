@@ -1,0 +1,460 @@
+{
+  "name": "r12f",
+  "children": [
+    {
+      "name": "PSPlus",
+      "companyName": "Unknown",
+      "author": "r12f",
+      "children": [
+        {
+          "name": "HexString",
+          "children": [
+            {
+              "name": "ConvertTo-HexString"
+            }
+          ]
+        },
+        {
+          "name": "NativeFunctionSignature",
+          "children": [
+            {
+              "name": "New-NativeFunctionSignature"
+            }
+          ]
+        },
+        {
+          "name": "Type",
+          "children": [
+            {
+              "name": "Get-Type"
+            }
+          ]
+        },
+        {
+          "name": "FileExtension",
+          "children": [
+            {
+              "name": "Get-FileExtension"
+            },
+            {
+              "name": "Rename-FileExtension"
+            }
+          ]
+        },
+        {
+          "name": "Base64",
+          "children": [
+            {
+              "name": "ConvertFrom-Base64"
+            },
+            {
+              "name": "ConvertTo-Base64"
+            }
+          ]
+        },
+        {
+          "name": "Base64ToByteArray",
+          "children": [
+            {
+              "name": "ConvertFrom-Base64ToByteArray"
+            }
+          ]
+        },
+        {
+          "name": "Base64FromByteArray",
+          "children": [
+            {
+              "name": "ConvertTo-Base64FromByteArray"
+            }
+          ]
+        },
+        {
+          "name": "StringHash",
+          "children": [
+            {
+              "name": "Get-StringHash"
+            }
+          ]
+        },
+        {
+          "name": "Is32BitsOS",
+          "children": [
+            {
+              "name": "Test-Is32BitsOS"
+            }
+          ]
+        },
+        {
+          "name": "Is32BitsPowershell",
+          "children": [
+            {
+              "name": "Test-Is32BitsPowershell"
+            }
+          ]
+        },
+        {
+          "name": "Is32BitsProcess",
+          "children": [
+            {
+              "name": "Test-Is32BitsProcess"
+            }
+          ]
+        },
+        {
+          "name": "Is64BitsOS",
+          "children": [
+            {
+              "name": "Test-Is64BitsOS"
+            }
+          ]
+        },
+        {
+          "name": "Is64BitsPowershell",
+          "children": [
+            {
+              "name": "Test-Is64BitsPowershell"
+            }
+          ]
+        },
+        {
+          "name": "Is64BitsProcess",
+          "children": [
+            {
+              "name": "Test-Is64BitsProcess"
+            }
+          ]
+        },
+        {
+          "name": "ProcessCommandLine",
+          "children": [
+            {
+              "name": "Get-ProcessCommandLine"
+            }
+          ]
+        },
+        {
+          "name": "EventSourceDefinition",
+          "children": [
+            {
+              "name": "New-EventSourceDefinition"
+            }
+          ]
+        },
+        {
+          "name": "EventWatcherOptions",
+          "children": [
+            {
+              "name": "New-EventWatcherOptions"
+            }
+          ]
+        },
+        {
+          "name": "EtwEvents",
+          "children": [
+            {
+              "name": "Watch-EtwEvents"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentVariable",
+          "children": [
+            {
+              "name": "Get-EnvironmentVariable"
+            },
+            {
+              "name": "Set-EnvironmentVariable"
+            },
+            {
+              "name": "Remove-EnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentVariablesInSystem",
+          "children": [
+            {
+              "name": "Update-EnvironmentVariablesInSystem"
+            }
+          ]
+        },
+        {
+          "name": "User32Point",
+          "children": [
+            {
+              "name": "New-User32Point"
+            }
+          ]
+        },
+        {
+          "name": "User32Rect",
+          "children": [
+            {
+              "name": "New-User32Rect"
+            }
+          ]
+        },
+        {
+          "name": "User32ScrollInfo",
+          "children": [
+            {
+              "name": "New-User32ScrollInfo"
+            }
+          ]
+        },
+        {
+          "name": "User32Size",
+          "children": [
+            {
+              "name": "New-User32Size"
+            }
+          ]
+        },
+        {
+          "name": "User32WindowPlacement",
+          "children": [
+            {
+              "name": "New-User32WindowPlacement"
+            }
+          ]
+        },
+        {
+          "name": "WindowControl",
+          "children": [
+            {
+              "name": "New-WindowControl"
+            }
+          ]
+        },
+        {
+          "name": "ForegroundWindow",
+          "children": [
+            {
+              "name": "Get-ForegroundWindow"
+            }
+          ]
+        },
+        {
+          "name": "DesktopWindow",
+          "children": [
+            {
+              "name": "Get-DesktopWindow"
+            }
+          ]
+        },
+        {
+          "name": "Windows",
+          "children": [
+            {
+              "name": "Get-Windows"
+            }
+          ]
+        },
+        {
+          "name": "UpstreamCommands",
+          "children": [
+            {
+              "name": "Stop-UpstreamCommands"
+            }
+          ]
+        },
+        {
+          "name": "NativeFunctions",
+          "children": [
+            {
+              "name": "Import-NativeFunctions"
+            }
+          ]
+        },
+        {
+          "name": "Any",
+          "children": [
+            {
+              "name": "Test-Any"
+            }
+          ]
+        },
+        {
+          "name": "All",
+          "children": [
+            {
+              "name": "Test-All"
+            }
+          ]
+        },
+        {
+          "name": "GenericList",
+          "children": [
+            {
+              "name": "New-GenericList"
+            }
+          ]
+        },
+        {
+          "name": "GenericQueue",
+          "children": [
+            {
+              "name": "New-GenericQueue"
+            }
+          ]
+        },
+        {
+          "name": "GenericStack",
+          "children": [
+            {
+              "name": "New-GenericStack"
+            }
+          ]
+        },
+        {
+          "name": "GenericSet",
+          "children": [
+            {
+              "name": "New-GenericSet"
+            }
+          ]
+        },
+        {
+          "name": "Set",
+          "children": [
+            {
+              "name": "ConvertTo-Set"
+            }
+          ]
+        },
+        {
+          "name": "GenericDictionary",
+          "children": [
+            {
+              "name": "New-GenericDictionary"
+            }
+          ]
+        },
+        {
+          "name": "Dictionary",
+          "children": [
+            {
+              "name": "ConvertTo-Dictionary"
+            }
+          ]
+        },
+        {
+          "name": "DesktopLayoutRulesFromCurrentLayout",
+          "children": [
+            {
+              "name": "New-DesktopLayoutRulesFromCurrentLayout"
+            }
+          ]
+        },
+        {
+          "name": "DesktopLayout",
+          "children": [
+            {
+              "name": "Save-DesktopLayout"
+            },
+            {
+              "name": "Restore-DesktopLayout"
+            }
+          ]
+        },
+        {
+          "name": "DesktopLayoutFromLayoutRules",
+          "children": [
+            {
+              "name": "Restore-DesktopLayoutFromLayoutRules"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSPlus.Tfs",
+      "companyName": "Unknown",
+      "author": "r12f",
+      "children": [
+        {
+          "name": "TfsWorkItemLink",
+          "children": [
+            {
+              "name": "Add-TfsWorkItemLink"
+            },
+            {
+              "name": "New-TfsWorkItemLink"
+            },
+            {
+              "name": "Remove-TfsWorkItemLink"
+            }
+          ]
+        },
+        {
+          "name": "TfsRegisteredLinkType",
+          "children": [
+            {
+              "name": "Get-TfsRegisteredLinkType"
+            }
+          ]
+        },
+        {
+          "name": "TfsWorkItemLinkTypeEnd",
+          "children": [
+            {
+              "name": "Get-TfsWorkItemLinkTypeEnd"
+            }
+          ]
+        },
+        {
+          "name": "TfsWorkItemType",
+          "children": [
+            {
+              "name": "Get-TfsWorkItemType"
+            }
+          ]
+        },
+        {
+          "name": "TfsWorkItem",
+          "children": [
+            {
+              "name": "Get-TfsWorkItem"
+            },
+            {
+              "name": "New-TfsWorkItem"
+            },
+            {
+              "name": "Remove-TfsWorkItem"
+            }
+          ]
+        },
+        {
+          "name": "TfsTeamProject",
+          "children": [
+            {
+              "name": "Get-TfsTeamProject"
+            },
+            {
+              "name": "Connect-TfsTeamProject"
+            }
+          ]
+        },
+        {
+          "name": "TfsTeamProjectCollection",
+          "children": [
+            {
+              "name": "Get-TfsTeamProjectCollection"
+            },
+            {
+              "name": "Connect-TfsTeamProjectCollection"
+            }
+          ]
+        },
+        {
+          "name": "TfsUserIdentity",
+          "children": [
+            {
+              "name": "Get-TfsUserIdentity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

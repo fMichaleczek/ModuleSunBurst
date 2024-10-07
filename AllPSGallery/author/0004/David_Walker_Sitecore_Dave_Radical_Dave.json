@@ -1,0 +1,96 @@
+{
+  "name": "David Walker Sitecore Dave Radical Dave",
+  "children": [
+    {
+      "name": "KuduCommand",
+      "companyName": "Radical Dave",
+      "author": "David Walker Sitecore Dave Radical Dave",
+      "children": [
+        {
+          "name": "LocationPSScript",
+          "children": [
+            {
+              "name": "Set-LocationPSScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SharedSitecore.Backup",
+      "companyName": "Radical Dave",
+      "author": "David Walker Sitecore Dave Radical Dave",
+      "children": [
+        {
+          "name": "SitecoreBackup",
+          "children": [
+            {
+              "name": "New-SitecoreBackup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SharedSitecore.SitecoreDocker",
+      "companyName": "Radical Dave",
+      "author": "David Walker Sitecore Dave Radical Dave",
+      "children": [
+        {
+          "name": "SitecoreDocker",
+          "children": [
+            {
+              "name": "Build-SitecoreDocker"
+            },
+            {
+              "name": "Start-SitecoreDocker"
+            },
+            {
+              "name": "Stop-SitecoreDocker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SitecoreLocal",
+      "companyName": "David Walker, Sitecore Dave, Radical Dave",
+      "author": "David Walker Sitecore Dave Radical Dave",
+      "children": [
+        {
+          "name": "SitecoreLocal",
+          "children": [
+            {
+              "name": "Install-SitecoreLocal"
+            },
+            {
+              "name": "Start-SitecoreLocal"
+            },
+            {
+              "name": "Stop-SitecoreLocal"
+            },
+            {
+              "name": "Uninstall-SitecoreLocal"
+            }
+          ]
+        },
+        {
+          "name": "SitecoreLocalDefaults",
+          "children": [
+            {
+              "name": "Set-SitecoreLocalDefaults"
+            }
+          ]
+        },
+        {
+          "name": "SitecoreLocalOverrides",
+          "children": [
+            {
+              "name": "Set-SitecoreLocalOverrides"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Nibbleblog",
+  "children": [
+    {
+      "name": "InvokeSomething",
+      "companyName": "Nibbleblog",
+      "author": "Yasen Dinkov",
+      "children": [
+        {
+          "name": "Something",
+          "children": [
+            {
+              "name": "Invoke-Something"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServiceBusCommander",
+      "companyName": "Nibbleblog",
+      "author": "Yasen Dinkov",
+      "children": [
+        {
+          "name": "QueueMessage",
+          "children": [
+            {
+              "name": "Send-QueueMessage"
+            }
+          ]
+        },
+        {
+          "name": "QueueMessages",
+          "children": [
+            {
+              "name": "Send-QueueMessages"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShowMessageBox",
+      "companyName": "Nibbleblog",
+      "author": "Yasen Dinkov",
+      "children": [
+        {
+          "name": "MessageBox",
+          "children": [
+            {
+              "name": "Show-MessageBox"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

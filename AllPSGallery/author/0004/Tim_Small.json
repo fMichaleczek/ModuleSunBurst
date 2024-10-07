@@ -1,0 +1,71 @@
+{
+  "name": "Tim Small",
+  "children": [
+    {
+      "name": "PowerShell.ReleasesAPI",
+      "companyName": "Smalls.Online",
+      "author": "Tim Small",
+      "children": [
+        {
+          "name": "PwshReleases",
+          "children": [
+            {
+              "name": "Get-PwshReleases"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pwsh-CreateSplatConfigs",
+      "companyName": "Smalls.Online",
+      "author": "Tim Small",
+      "children": [
+        {
+          "name": "SplatConfig",
+          "children": [
+            {
+              "name": "New-SplatConfig"
+            },
+            {
+              "name": "Import-SplatConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SmallsOnline.TeamsAttendance.Pwsh",
+      "companyName": "Smalls.Online",
+      "author": "Tim Small",
+      "children": [
+        {
+          "name": "ExoTeamsAttendance",
+          "children": [
+            {
+              "name": "Get-ExoTeamsAttendance"
+            },
+            {
+              "name": "Export-ExoTeamsAttendance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SmallsOnline.WindowsBuildNumbers.Pwsh",
+      "companyName": "Smalls.Online",
+      "author": "Tim Small",
+      "children": [
+        {
+          "name": "WindowsReleaseInfo",
+          "children": [
+            {
+              "name": "Get-WindowsReleaseInfo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Cornerstone Group AB",
+  "children": [
+    {
+      "name": "PSBuildModule",
+      "companyName": "Cornerstone Group AB",
+      "author": "Joakim Olsson  joakim.olsson cornerstone.se",
+      "children": [
+        {
+          "name": "PSModuleProject",
+          "children": [
+            {
+              "name": "Export-PSModuleProject"
+            },
+            {
+              "name": "Initialize-PSModuleProject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShoutOut",
+      "companyName": "Cornerstone Group AB",
+      "author": "Joakim Olsson  joakim.olsson adicitus.cloud .",
+      "children": [
+        {
+          "name": "ShoutOutLog",
+          "children": [
+            {
+              "name": "Clear-ShoutOutLog"
+            },
+            {
+              "name": "Get-ShoutOutLog"
+            },
+            {
+              "name": "Remove-ShoutOutLog"
+            },
+            {
+              "name": "Add-ShoutOutLog"
+            }
+          ]
+        },
+        {
+          "name": "ShoutOutConfig",
+          "children": [
+            {
+              "name": "Get-ShoutOutConfig"
+            },
+            {
+              "name": "Set-ShoutOutConfig"
+            }
+          ]
+        },
+        {
+          "name": "ShoutOutDefaultLog",
+          "children": [
+            {
+              "name": "Get-ShoutOutDefaultLog"
+            },
+            {
+              "name": "Set-ShoutOutDefaultLog"
+            }
+          ]
+        },
+        {
+          "name": "ShoutOutRedirect",
+          "children": [
+            {
+              "name": "Set-ShoutOutRedirect"
+            }
+          ]
+        },
+        {
+          "name": "ShoutOut",
+          "children": [
+            {
+              "name": "Invoke-ShoutOut"
+            },
+            {
+              "name": "ShoutOut"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

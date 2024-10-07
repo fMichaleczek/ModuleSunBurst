@@ -1,0 +1,788 @@
+{
+  "name": "IA Talking",
+  "children": [
+    {
+      "name": "powershai",
+      "companyName": "IA Talking",
+      "author": "Rodrigo Ribeiro Gomes",
+      "children": [
+        {
+          "name": "verbose",
+          "children": [
+            {
+              "name": "verbose"
+            }
+          ]
+        },
+        {
+          "name": "IsType",
+          "children": [
+            {
+              "name": "IsType"
+            }
+          ]
+        },
+        {
+          "name": "SetType",
+          "children": [
+            {
+              "name": "SetType"
+            }
+          ]
+        },
+        {
+          "name": "GetMyParams",
+          "children": [
+            {
+              "name": "GetMyParams"
+            }
+          ]
+        },
+        {
+          "name": "GetPowershaiAuxEncodedString",
+          "children": [
+            {
+              "name": "GetPowershaiAuxEncodedString"
+            }
+          ]
+        },
+        {
+          "name": "JoinPath",
+          "children": [
+            {
+              "name": "JoinPath"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiDefaultParams",
+          "children": [
+            {
+              "name": "Get-PowershaiDefaultParams"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiError",
+          "children": [
+            {
+              "name": "New-PowershaiError"
+            }
+          ]
+        },
+        {
+          "name": "RegArgCompletion",
+          "children": [
+            {
+              "name": "RegArgCompletion"
+            }
+          ]
+        },
+        {
+          "name": "AESEncryption",
+          "children": [
+            {
+              "name": "Invoke-AESEncryption"
+            }
+          ]
+        },
+        {
+          "name": "PowerShaiEncrypt",
+          "children": [
+            {
+              "name": "PowerShaiEncrypt"
+            }
+          ]
+        },
+        {
+          "name": "PowerShaiDecrypt",
+          "children": [
+            {
+              "name": "PowerShaiDecrypt"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiHash",
+          "children": [
+            {
+              "name": "PowershaiHash"
+            }
+          ]
+        },
+        {
+          "name": "PowerhsaiConsoleDraw",
+          "children": [
+            {
+              "name": "Invoke-PowerhsaiConsoleDraw"
+            }
+          ]
+        },
+        {
+          "name": "AiCurrentProvider",
+          "children": [
+            {
+              "name": "Get-AiCurrentProvider"
+            }
+          ]
+        },
+        {
+          "name": "AiNearProvider",
+          "children": [
+            {
+              "name": "Get-AiNearProvider"
+            }
+          ]
+        },
+        {
+          "name": "AiProvider",
+          "children": [
+            {
+              "name": "Set-AiProvider"
+            }
+          ]
+        },
+        {
+          "name": "PowerShaiProviderFunc",
+          "children": [
+            {
+              "name": "PowerShaiProviderFunc"
+            }
+          ]
+        },
+        {
+          "name": "GetProviderData",
+          "children": [
+            {
+              "name": "GetProviderData"
+            }
+          ]
+        },
+        {
+          "name": "SetProviderData",
+          "children": [
+            {
+              "name": "SetProviderData"
+            }
+          ]
+        },
+        {
+          "name": "GetCurrentProviderData",
+          "children": [
+            {
+              "name": "GetCurrentProviderData"
+            }
+          ]
+        },
+        {
+          "name": "SetCurrentProviderData",
+          "children": [
+            {
+              "name": "SetCurrentProviderData"
+            }
+          ]
+        },
+        {
+          "name": "AiProviders",
+          "children": [
+            {
+              "name": "Get-AiProviders"
+            }
+          ]
+        },
+        {
+          "name": "AiModels",
+          "children": [
+            {
+              "name": "Get-AiModels"
+            }
+          ]
+        },
+        {
+          "name": "AiDefaultModel",
+          "children": [
+            {
+              "name": "Set-AiDefaultModel"
+            }
+          ]
+        },
+        {
+          "name": "GetModelsId",
+          "children": [
+            {
+              "name": "GetModelsId"
+            }
+          ]
+        },
+        {
+          "name": "AiChat",
+          "children": [
+            {
+              "name": "Get-AiChat"
+            }
+          ]
+        },
+        {
+          "name": "AiChatTools",
+          "children": [
+            {
+              "name": "Invoke-AiChatTools"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiSettings",
+          "children": [
+            {
+              "name": "Export-PowershaiSettings"
+            },
+            {
+              "name": "Import-PowershaiSettings"
+            }
+          ]
+        },
+        {
+          "name": "NewChatContext",
+          "children": [
+            {
+              "name": "NewChatContext"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiParameters",
+          "children": [
+            {
+              "name": "New-PowershaiParameters"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiChat",
+          "children": [
+            {
+              "name": "New-PowershaiChat"
+            },
+            {
+              "name": "Remove-PowershaiChat"
+            },
+            {
+              "name": "Get-PowershaiChat"
+            },
+            {
+              "name": "Send-PowershaiChat"
+            },
+            {
+              "name": "Clear-PowershaiChat"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiActiveChat",
+          "children": [
+            {
+              "name": "Set-PowershaiActiveChat"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiChatParameter",
+          "children": [
+            {
+              "name": "Set-PowershaiChatParameter"
+            },
+            {
+              "name": "Get-PowershaiChatParameter"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiCommand",
+          "children": [
+            {
+              "name": "Invoke-PowershaiCommand"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiChatContextFormatter",
+          "children": [
+            {
+              "name": "Set-PowershaiChatContextFormatter"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiContextFormatters",
+          "children": [
+            {
+              "name": "Get-PowershaiContextFormatters"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiContextJson",
+          "children": [
+            {
+              "name": "ConvertTo-PowershaiContextJson"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiContextOutString",
+          "children": [
+            {
+              "name": "ConvertTo-PowershaiContextOutString"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiContextList",
+          "children": [
+            {
+              "name": "ConvertTo-PowershaiContextList"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiContextTable",
+          "children": [
+            {
+              "name": "ConvertTo-PowershaiContextTable"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiContext",
+          "children": [
+            {
+              "name": "Format-PowershaiContext"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiCurrentChat",
+          "children": [
+            {
+              "name": "Reset-PowershaiCurrentChat"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiChatToolsCache",
+          "children": [
+            {
+              "name": "Reset-PowershaiChatToolsCache"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiChatTool",
+          "children": [
+            {
+              "name": "Add-PowershaiChatTool"
+            },
+            {
+              "name": "Get-PowershaiChatTool"
+            },
+            {
+              "name": "Remove-PowershaiChatTool"
+            },
+            {
+              "name": "Set-PowershaiChatTool"
+            }
+          ]
+        },
+        {
+          "name": "CompilePowershaiChatTools",
+          "children": [
+            {
+              "name": "CompilePowershaiChatTools"
+            }
+          ]
+        },
+        {
+          "name": "PowershaiHelp",
+          "children": [
+            {
+              "name": "Get-PowershaiHelp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "powerzabbix",
+      "companyName": "IA Talking",
+      "author": "Rodrigo Ribeiro Gomes",
+      "children": [
+        {
+          "name": "CallZabbixURL",
+          "children": [
+            {
+              "name": "CallZabbixURL"
+            }
+          ]
+        },
+        {
+          "name": "GetPowerZabbixBackingFile",
+          "children": [
+            {
+              "name": "GetPowerZabbixBackingFile"
+            }
+          ]
+        },
+        {
+          "name": "TranslateZabbixJson",
+          "children": [
+            {
+              "name": "TranslateZabbixJson"
+            }
+          ]
+        },
+        {
+          "name": "GetNewZabbixApiId",
+          "children": [
+            {
+              "name": "GetNewZabbixApiId"
+            }
+          ]
+        },
+        {
+          "name": "GetZabbixApiAuthToken",
+          "children": [
+            {
+              "name": "GetZabbixApiAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixApiParams",
+          "children": [
+            {
+              "name": "New-ZabbixApiParams"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixAPI",
+          "children": [
+            {
+              "name": "ZabbixAPI"
+            }
+          ]
+        },
+        {
+          "name": "Datetime2Unix",
+          "children": [
+            {
+              "name": "Datetime2Unix"
+            }
+          ]
+        },
+        {
+          "name": "UnixTime2LocalTime",
+          "children": [
+            {
+              "name": "UnixTime2LocalTime"
+            }
+          ]
+        },
+        {
+          "name": "MakeZabbixDatetime",
+          "children": [
+            {
+              "name": "MakeZabbixDatetime"
+            }
+          ]
+        },
+        {
+          "name": "NewZabbixParams",
+          "children": [
+            {
+              "name": "Get-NewZabbixParams"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixURL",
+          "children": [
+            {
+              "name": "Invoke-ZabbixURL"
+            }
+          ]
+        },
+        {
+          "name": "Zabbix",
+          "children": [
+            {
+              "name": "Connect-Zabbix"
+            },
+            {
+              "name": "Disconnect-Zabbix"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixSession",
+          "children": [
+            {
+              "name": "Remove-ZabbixSession"
+            }
+          ]
+        },
+        {
+          "name": "DefaultZabbixSession",
+          "children": [
+            {
+              "name": "Set-DefaultZabbixSession"
+            },
+            {
+              "name": "Get-DefaultZabbixSession"
+            }
+          ]
+        },
+        {
+          "name": "DefaultZabbixSessionId",
+          "children": [
+            {
+              "name": "Get-DefaultZabbixSessionId"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixSessions",
+          "children": [
+            {
+              "name": "Get-ZabbixSessions"
+            }
+          ]
+        },
+        {
+          "name": "InterfaceConfig",
+          "children": [
+            {
+              "name": "Get-InterfaceConfig"
+            }
+          ]
+        },
+        {
+          "name": "ConvertHostNames2Ids",
+          "children": [
+            {
+              "name": "ConvertHostNames2Ids"
+            }
+          ]
+        },
+        {
+          "name": "ConvertGroupNames2Ids",
+          "children": [
+            {
+              "name": "ConvertGroupNames2Ids"
+            }
+          ]
+        },
+        {
+          "name": "ConvertMapNames2Ids",
+          "children": [
+            {
+              "name": "ConvertMapNames2Ids"
+            }
+          ]
+        },
+        {
+          "name": "ObjectForUpdate",
+          "children": [
+            {
+              "name": "Get-ObjectForUpdate"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixApiInfoVersion",
+          "children": [
+            {
+              "name": "Get-ZabbixApiInfoVersion"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHostObject",
+          "children": [
+            {
+              "name": "Get-ZabbixHostObject"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHost",
+          "children": [
+            {
+              "name": "Get-ZabbixHost"
+            },
+            {
+              "name": "New-ZabbixHost"
+            },
+            {
+              "name": "Update-ZabbixHost"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHostMass",
+          "children": [
+            {
+              "name": "Remove-ZabbixHostMass"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHostGroup",
+          "children": [
+            {
+              "name": "Get-ZabbixHostGroup"
+            },
+            {
+              "name": "New-ZabbixHostGroup"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHostGroupMass",
+          "children": [
+            {
+              "name": "Remove-ZabbixHostGroupMass"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixTemplate",
+          "children": [
+            {
+              "name": "Get-ZabbixTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixEvent",
+          "children": [
+            {
+              "name": "Get-ZabbixEvent"
+            },
+            {
+              "name": "Confirm-ZabbixEvent"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixTrigger",
+          "children": [
+            {
+              "name": "Get-ZabbixTrigger"
+            },
+            {
+              "name": "Update-ZabbixTrigger"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixMap",
+          "children": [
+            {
+              "name": "Get-ZabbixMap"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixAlert",
+          "children": [
+            {
+              "name": "Get-ZabbixAlert"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixAction",
+          "children": [
+            {
+              "name": "Get-ZabbixAction"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixItem",
+          "children": [
+            {
+              "name": "Get-ZabbixItem"
+            },
+            {
+              "name": "New-ZabbixItem"
+            },
+            {
+              "name": "Remove-ZabbixItem"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHistory",
+          "children": [
+            {
+              "name": "Get-ZabbixHistory"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixScript",
+          "children": [
+            {
+              "name": "Get-ZabbixScript"
+            },
+            {
+              "name": "Invoke-ZabbixScript"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixFrontendMapImage",
+          "children": [
+            {
+              "name": "Add-ZabbixFrontendMapImage"
+            }
+          ]
+        },
+        {
+          "name": "verbose",
+          "children": [
+            {
+              "name": "verbose"
+            }
+          ]
+        },
+        {
+          "name": "ConvertToJson",
+          "children": [
+            {
+              "name": "ConvertToJson"
+            }
+          ]
+        },
+        {
+          "name": "ConvertFromJson",
+          "children": [
+            {
+              "name": "ConvertFromJson"
+            }
+          ]
+        },
+        {
+          "name": "JoinPath",
+          "children": [
+            {
+              "name": "JoinPath"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

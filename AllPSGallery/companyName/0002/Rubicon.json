@@ -1,0 +1,309 @@
+{
+  "name": "Rubicon",
+  "children": [
+    {
+      "name": "PowerBIManager",
+      "companyName": "Rubicon",
+      "author": "Sjoerd van Noort",
+      "children": [
+        {
+          "name": "PBI",
+          "children": [
+            {
+              "name": "Connect-PBI"
+            }
+          ]
+        },
+        {
+          "name": "PBIMethod",
+          "children": [
+            {
+              "name": "Invoke-PBIMethod"
+            }
+          ]
+        },
+        {
+          "name": "PBIGroup",
+          "children": [
+            {
+              "name": "Use-PBIGroup"
+            },
+            {
+              "name": "Get-PBIGroup"
+            }
+          ]
+        },
+        {
+          "name": "PBIContent",
+          "children": [
+            {
+              "name": "Import-PBIContent"
+            }
+          ]
+        },
+        {
+          "name": "PBIReport",
+          "children": [
+            {
+              "name": "Get-PBIReport"
+            }
+          ]
+        },
+        {
+          "name": "PBIDataset",
+          "children": [
+            {
+              "name": "Get-PBIDataset"
+            },
+            {
+              "name": "Sync-PBIDataset"
+            }
+          ]
+        },
+        {
+          "name": "PBIDashboard",
+          "children": [
+            {
+              "name": "Get-PBIDashboard"
+            }
+          ]
+        },
+        {
+          "name": "PBITile",
+          "children": [
+            {
+              "name": "Get-PBITile"
+            }
+          ]
+        },
+        {
+          "name": "PBIDatasource",
+          "children": [
+            {
+              "name": "Get-PBIDatasource"
+            },
+            {
+              "name": "Set-PBIDatasource"
+            }
+          ]
+        },
+        {
+          "name": "PBIDatasetOwner",
+          "children": [
+            {
+              "name": "Set-PBIDatasetOwner"
+            }
+          ]
+        },
+        {
+          "name": "PBILog",
+          "children": [
+            {
+              "name": "Use-PBILog"
+            }
+          ]
+        },
+        {
+          "name": "PBILogVerbose",
+          "children": [
+            {
+              "name": "Write-PBILogVerbose"
+            }
+          ]
+        },
+        {
+          "name": "PBILogInformation",
+          "children": [
+            {
+              "name": "Write-PBILogInformation"
+            }
+          ]
+        },
+        {
+          "name": "PBILogWarning",
+          "children": [
+            {
+              "name": "Write-PBILogWarning"
+            }
+          ]
+        },
+        {
+          "name": "PBILogError",
+          "children": [
+            {
+              "name": "Write-PBILogError"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SqlBIManager",
+      "companyName": "Rubicon",
+      "author": "Sjoerd van Noort",
+      "children": [
+        {
+          "name": "SbmLog",
+          "children": [
+            {
+              "name": "Use-SbmLog"
+            }
+          ]
+        },
+        {
+          "name": "SbmLogInformation",
+          "children": [
+            {
+              "name": "Write-SbmLogInformation"
+            }
+          ]
+        },
+        {
+          "name": "ASServer",
+          "children": [
+            {
+              "name": "Connect-ASServer"
+            }
+          ]
+        },
+        {
+          "name": "AsmlDatabase",
+          "children": [
+            {
+              "name": "ConvertTo-AsmlDatabase"
+            },
+            {
+              "name": "Publish-AsmlDatabase"
+            },
+            {
+              "name": "Read-AsmlDatabase"
+            },
+            {
+              "name": "Write-AsmlDatabase"
+            }
+          ]
+        },
+        {
+          "name": "ASDatabase",
+          "children": [
+            {
+              "name": "Get-ASDatabase"
+            },
+            {
+              "name": "Clear-ASDatabase"
+            }
+          ]
+        },
+        {
+          "name": "ASDatabaseCreateReplaceScript",
+          "children": [
+            {
+              "name": "Write-ASDatabaseCreateReplaceScript"
+            }
+          ]
+        },
+        {
+          "name": "AsmlName",
+          "children": [
+            {
+              "name": "Set-AsmlName"
+            }
+          ]
+        },
+        {
+          "name": "AsmlDatasource",
+          "children": [
+            {
+              "name": "Set-AsmlDatasource"
+            }
+          ]
+        },
+        {
+          "name": "AsmlRoleMember",
+          "children": [
+            {
+              "name": "Add-AsmlRoleMember"
+            },
+            {
+              "name": "Clear-AsmlRoleMember"
+            },
+            {
+              "name": "ConvertTo-AsmlRoleMember"
+            },
+            {
+              "name": "Select-AsmlRoleMember"
+            }
+          ]
+        },
+        {
+          "name": "SsisCatalog",
+          "children": [
+            {
+              "name": "Connect-SsisCatalog"
+            }
+          ]
+        },
+        {
+          "name": "SsisFolder",
+          "children": [
+            {
+              "name": "Get-SsisFolder"
+            }
+          ]
+        },
+        {
+          "name": "SsisProject",
+          "children": [
+            {
+              "name": "Get-SsisProject"
+            },
+            {
+              "name": "Publish-SsisProject"
+            },
+            {
+              "name": "Export-SsisProject"
+            }
+          ]
+        },
+        {
+          "name": "SsisParameter",
+          "children": [
+            {
+              "name": "Get-SsisParameter"
+            },
+            {
+              "name": "Set-SsisParameter"
+            },
+            {
+              "name": "Clear-SsisParameter"
+            }
+          ]
+        },
+        {
+          "name": "SsisEnvironment",
+          "children": [
+            {
+              "name": "Get-SsisEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "SsisEnvironmentVariable",
+          "children": [
+            {
+              "name": "Get-SsisEnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "SsisEnvironmentVariableValue",
+          "children": [
+            {
+              "name": "Set-SsisEnvironmentVariableValue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

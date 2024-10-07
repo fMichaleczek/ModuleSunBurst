@@ -1,0 +1,4027 @@
+{
+  "name": "the dbatools team",
+  "children": [
+    {
+      "name": "dbatools",
+      "companyName": "dbatools.io",
+      "author": "the dbatools team",
+      "children": [
+        {
+          "name": "DbaObject",
+          "children": [
+            {
+              "name": "Select-DbaObject"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsConfig",
+          "children": [
+            {
+              "name": "Set-DbatoolsConfig"
+            },
+            {
+              "name": "Export-DbatoolsConfig"
+            },
+            {
+              "name": "Get-DbatoolsConfig"
+            },
+            {
+              "name": "Import-DbatoolsConfig"
+            },
+            {
+              "name": "Register-DbatoolsConfig"
+            },
+            {
+              "name": "Reset-DbatoolsConfig"
+            },
+            {
+              "name": "Unregister-DbatoolsConfig"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgSpn",
+          "children": [
+            {
+              "name": "Test-DbaAgSpn"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentAdminAlert",
+          "children": [
+            {
+              "name": "Install-DbaAgentAdminAlert"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsInsecureConnection",
+          "children": [
+            {
+              "name": "Set-DbatoolsInsecureConnection"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbServiceBrokerQueue",
+          "children": [
+            {
+              "name": "Get-DbaDbServiceBrokerQueue"
+            }
+          ]
+        },
+        {
+          "name": "DbaLinkedServer",
+          "children": [
+            {
+              "name": "New-DbaLinkedServer"
+            },
+            {
+              "name": "Copy-DbaLinkedServer"
+            },
+            {
+              "name": "Export-DbaLinkedServer"
+            },
+            {
+              "name": "Get-DbaLinkedServer"
+            },
+            {
+              "name": "Remove-DbaLinkedServer"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgDatabase",
+          "children": [
+            {
+              "name": "Add-DbaAgDatabase"
+            },
+            {
+              "name": "Get-DbaAgDatabase"
+            },
+            {
+              "name": "Remove-DbaAgDatabase"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgListener",
+          "children": [
+            {
+              "name": "Add-DbaAgListener"
+            },
+            {
+              "name": "Get-DbaAgListener"
+            },
+            {
+              "name": "Remove-DbaAgListener"
+            },
+            {
+              "name": "Set-DbaAgListener"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgReplica",
+          "children": [
+            {
+              "name": "Add-DbaAgReplica"
+            },
+            {
+              "name": "Get-DbaAgReplica"
+            },
+            {
+              "name": "Remove-DbaAgReplica"
+            },
+            {
+              "name": "Set-DbaAgReplica"
+            }
+          ]
+        },
+        {
+          "name": "DbaComputerCertificate",
+          "children": [
+            {
+              "name": "Add-DbaComputerCertificate"
+            },
+            {
+              "name": "Backup-DbaComputerCertificate"
+            },
+            {
+              "name": "Get-DbaComputerCertificate"
+            },
+            {
+              "name": "New-DbaComputerCertificate"
+            },
+            {
+              "name": "Remove-DbaComputerCertificate"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMirrorMonitor",
+          "children": [
+            {
+              "name": "Add-DbaDbMirrorMonitor"
+            },
+            {
+              "name": "Get-DbaDbMirrorMonitor"
+            },
+            {
+              "name": "Remove-DbaDbMirrorMonitor"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbRoleMember",
+          "children": [
+            {
+              "name": "Add-DbaDbRoleMember"
+            },
+            {
+              "name": "Get-DbaDbRoleMember"
+            },
+            {
+              "name": "Remove-DbaDbRoleMember"
+            }
+          ]
+        },
+        {
+          "name": "DbaPfDataCollectorCounter",
+          "children": [
+            {
+              "name": "Add-DbaPfDataCollectorCounter"
+            },
+            {
+              "name": "Get-DbaPfDataCollectorCounter"
+            },
+            {
+              "name": "Remove-DbaPfDataCollectorCounter"
+            }
+          ]
+        },
+        {
+          "name": "DbaRegServer",
+          "children": [
+            {
+              "name": "Add-DbaRegServer"
+            },
+            {
+              "name": "Copy-DbaRegServer"
+            },
+            {
+              "name": "Export-DbaRegServer"
+            },
+            {
+              "name": "Get-DbaRegServer"
+            },
+            {
+              "name": "Import-DbaRegServer"
+            },
+            {
+              "name": "Move-DbaRegServer"
+            },
+            {
+              "name": "Remove-DbaRegServer"
+            }
+          ]
+        },
+        {
+          "name": "DbaRegServerGroup",
+          "children": [
+            {
+              "name": "Add-DbaRegServerGroup"
+            },
+            {
+              "name": "Get-DbaRegServerGroup"
+            },
+            {
+              "name": "Move-DbaRegServerGroup"
+            },
+            {
+              "name": "Remove-DbaRegServerGroup"
+            }
+          ]
+        },
+        {
+          "name": "DbaServerRoleMember",
+          "children": [
+            {
+              "name": "Add-DbaServerRoleMember"
+            },
+            {
+              "name": "Get-DbaServerRoleMember"
+            },
+            {
+              "name": "Remove-DbaServerRoleMember"
+            }
+          ]
+        },
+        {
+          "name": "DbaDatabase",
+          "children": [
+            {
+              "name": "Backup-DbaDatabase"
+            },
+            {
+              "name": "Copy-DbaDatabase"
+            },
+            {
+              "name": "Dismount-DbaDatabase"
+            },
+            {
+              "name": "Find-DbaDatabase"
+            },
+            {
+              "name": "Get-DbaDatabase"
+            },
+            {
+              "name": "Mount-DbaDatabase"
+            },
+            {
+              "name": "New-DbaDatabase"
+            },
+            {
+              "name": "Remove-DbaDatabase"
+            },
+            {
+              "name": "Rename-DbaDatabase"
+            },
+            {
+              "name": "Restore-DbaDatabase"
+            }
+          ]
+        },
+        {
+          "name": "DbaBackupEncrypted",
+          "children": [
+            {
+              "name": "Test-DbaBackupEncrypted"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbCertificate",
+          "children": [
+            {
+              "name": "Backup-DbaDbCertificate"
+            },
+            {
+              "name": "Get-DbaDbCertificate"
+            },
+            {
+              "name": "Copy-DbaDbCertificate"
+            },
+            {
+              "name": "New-DbaDbCertificate"
+            },
+            {
+              "name": "Remove-DbaDbCertificate"
+            },
+            {
+              "name": "Restore-DbaDbCertificate"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMasterKey",
+          "children": [
+            {
+              "name": "Backup-DbaDbMasterKey"
+            },
+            {
+              "name": "Get-DbaDbMasterKey"
+            },
+            {
+              "name": "New-DbaDbMasterKey"
+            },
+            {
+              "name": "Remove-DbaDbMasterKey"
+            }
+          ]
+        },
+        {
+          "name": "DbaServiceMasterKey",
+          "children": [
+            {
+              "name": "Backup-DbaServiceMasterKey"
+            },
+            {
+              "name": "New-DbaServiceMasterKey"
+            }
+          ]
+        },
+        {
+          "name": "DbaConnectionPool",
+          "children": [
+            {
+              "name": "Clear-DbaConnectionPool"
+            }
+          ]
+        },
+        {
+          "name": "DbaLatchStatistics",
+          "children": [
+            {
+              "name": "Clear-DbaLatchStatistics"
+            }
+          ]
+        },
+        {
+          "name": "DbaPlanCache",
+          "children": [
+            {
+              "name": "Clear-DbaPlanCache"
+            },
+            {
+              "name": "Get-DbaPlanCache"
+            }
+          ]
+        },
+        {
+          "name": "DbaWaitStatistics",
+          "children": [
+            {
+              "name": "Clear-DbaWaitStatistics"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstance",
+          "children": [
+            {
+              "name": "Connect-DbaInstance"
+            },
+            {
+              "name": "Export-DbaInstance"
+            },
+            {
+              "name": "Find-DbaInstance"
+            },
+            {
+              "name": "Install-DbaInstance"
+            },
+            {
+              "name": "Update-DbaInstance"
+            },
+            {
+              "name": "Disconnect-DbaInstance"
+            }
+          ]
+        },
+        {
+          "name": "DbaDataTable",
+          "children": [
+            {
+              "name": "ConvertTo-DbaDataTable"
+            }
+          ]
+        },
+        {
+          "name": "DbaTimeline",
+          "children": [
+            {
+              "name": "ConvertTo-DbaTimeline"
+            }
+          ]
+        },
+        {
+          "name": "DbaXESession",
+          "children": [
+            {
+              "name": "ConvertTo-DbaXESession"
+            },
+            {
+              "name": "Copy-DbaXESession"
+            },
+            {
+              "name": "Export-DbaXESession"
+            },
+            {
+              "name": "Get-DbaXESession"
+            },
+            {
+              "name": "New-DbaXESession"
+            },
+            {
+              "name": "Remove-DbaXESession"
+            },
+            {
+              "name": "Start-DbaXESession"
+            },
+            {
+              "name": "Stop-DbaXESession"
+            },
+            {
+              "name": "Watch-DbaXESession"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentAlert",
+          "children": [
+            {
+              "name": "Copy-DbaAgentAlert"
+            },
+            {
+              "name": "Get-DbaAgentAlert"
+            },
+            {
+              "name": "New-DbaAgentAlert"
+            },
+            {
+              "name": "Remove-DbaAgentAlert"
+            },
+            {
+              "name": "Set-DbaAgentAlert"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentJob",
+          "children": [
+            {
+              "name": "Copy-DbaAgentJob"
+            },
+            {
+              "name": "Find-DbaAgentJob"
+            },
+            {
+              "name": "Get-DbaAgentJob"
+            },
+            {
+              "name": "New-DbaAgentJob"
+            },
+            {
+              "name": "Remove-DbaAgentJob"
+            },
+            {
+              "name": "Set-DbaAgentJob"
+            },
+            {
+              "name": "Start-DbaAgentJob"
+            },
+            {
+              "name": "Stop-DbaAgentJob"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentJobCategory",
+          "children": [
+            {
+              "name": "Copy-DbaAgentJobCategory"
+            },
+            {
+              "name": "Get-DbaAgentJobCategory"
+            },
+            {
+              "name": "New-DbaAgentJobCategory"
+            },
+            {
+              "name": "Remove-DbaAgentJobCategory"
+            },
+            {
+              "name": "Set-DbaAgentJobCategory"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentOperator",
+          "children": [
+            {
+              "name": "Copy-DbaAgentOperator"
+            },
+            {
+              "name": "Get-DbaAgentOperator"
+            },
+            {
+              "name": "New-DbaAgentOperator"
+            },
+            {
+              "name": "Remove-DbaAgentOperator"
+            },
+            {
+              "name": "Set-DbaAgentOperator"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentProxy",
+          "children": [
+            {
+              "name": "Copy-DbaAgentProxy"
+            },
+            {
+              "name": "Get-DbaAgentProxy"
+            },
+            {
+              "name": "New-DbaAgentProxy"
+            },
+            {
+              "name": "Remove-DbaAgentProxy"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentSchedule",
+          "children": [
+            {
+              "name": "Copy-DbaAgentSchedule"
+            },
+            {
+              "name": "Get-DbaAgentSchedule"
+            },
+            {
+              "name": "New-DbaAgentSchedule"
+            },
+            {
+              "name": "Remove-DbaAgentSchedule"
+            },
+            {
+              "name": "Set-DbaAgentSchedule"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentServer",
+          "children": [
+            {
+              "name": "Copy-DbaAgentServer"
+            },
+            {
+              "name": "Get-DbaAgentServer"
+            },
+            {
+              "name": "Set-DbaAgentServer"
+            }
+          ]
+        },
+        {
+          "name": "DbaBackupDevice",
+          "children": [
+            {
+              "name": "Copy-DbaBackupDevice"
+            },
+            {
+              "name": "Get-DbaBackupDevice"
+            }
+          ]
+        },
+        {
+          "name": "DbaCredential",
+          "children": [
+            {
+              "name": "Copy-DbaCredential"
+            },
+            {
+              "name": "Export-DbaCredential"
+            },
+            {
+              "name": "Get-DbaCredential"
+            },
+            {
+              "name": "New-DbaCredential"
+            },
+            {
+              "name": "Remove-DbaCredential"
+            }
+          ]
+        },
+        {
+          "name": "DbaCustomError",
+          "children": [
+            {
+              "name": "Copy-DbaCustomError"
+            },
+            {
+              "name": "Get-DbaCustomError"
+            },
+            {
+              "name": "New-DbaCustomError"
+            },
+            {
+              "name": "Remove-DbaCustomError"
+            }
+          ]
+        },
+        {
+          "name": "DbaDataCollector",
+          "children": [
+            {
+              "name": "Copy-DbaDataCollector"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbAssembly",
+          "children": [
+            {
+              "name": "Copy-DbaDbAssembly"
+            },
+            {
+              "name": "Get-DbaDbAssembly"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMail",
+          "children": [
+            {
+              "name": "Copy-DbaDbMail"
+            },
+            {
+              "name": "Get-DbaDbMail"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbQueryStoreOption",
+          "children": [
+            {
+              "name": "Copy-DbaDbQueryStoreOption"
+            },
+            {
+              "name": "Get-DbaDbQueryStoreOption"
+            },
+            {
+              "name": "Set-DbaDbQueryStoreOption"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbTableData",
+          "children": [
+            {
+              "name": "Copy-DbaDbTableData"
+            },
+            {
+              "name": "Export-DbaDbTableData"
+            },
+            {
+              "name": "Remove-DbaDbTableData"
+            },
+            {
+              "name": "Write-DbaDbTableData"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbViewData",
+          "children": [
+            {
+              "name": "Copy-DbaDbViewData"
+            }
+          ]
+        },
+        {
+          "name": "DbaEndpoint",
+          "children": [
+            {
+              "name": "Copy-DbaEndpoint"
+            },
+            {
+              "name": "Get-DbaEndpoint"
+            },
+            {
+              "name": "New-DbaEndpoint"
+            },
+            {
+              "name": "Remove-DbaEndpoint"
+            },
+            {
+              "name": "Set-DbaEndpoint"
+            },
+            {
+              "name": "Start-DbaEndpoint"
+            },
+            {
+              "name": "Stop-DbaEndpoint"
+            },
+            {
+              "name": "Test-DbaEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstanceAudit",
+          "children": [
+            {
+              "name": "Copy-DbaInstanceAudit"
+            },
+            {
+              "name": "Get-DbaInstanceAudit"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstanceAuditSpecification",
+          "children": [
+            {
+              "name": "Copy-DbaInstanceAuditSpecification"
+            },
+            {
+              "name": "Get-DbaInstanceAuditSpecification"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstanceTrigger",
+          "children": [
+            {
+              "name": "Copy-DbaInstanceTrigger"
+            },
+            {
+              "name": "Get-DbaInstanceTrigger"
+            }
+          ]
+        },
+        {
+          "name": "DbaLogin",
+          "children": [
+            {
+              "name": "Copy-DbaLogin"
+            },
+            {
+              "name": "Export-DbaLogin"
+            },
+            {
+              "name": "Get-DbaLogin"
+            },
+            {
+              "name": "New-DbaLogin"
+            },
+            {
+              "name": "Remove-DbaLogin"
+            },
+            {
+              "name": "Rename-DbaLogin"
+            },
+            {
+              "name": "Set-DbaLogin"
+            }
+          ]
+        },
+        {
+          "name": "DbaPolicyManagement",
+          "children": [
+            {
+              "name": "Copy-DbaPolicyManagement"
+            }
+          ]
+        },
+        {
+          "name": "DbaResourceGovernor",
+          "children": [
+            {
+              "name": "Copy-DbaResourceGovernor"
+            },
+            {
+              "name": "Get-DbaResourceGovernor"
+            },
+            {
+              "name": "Set-DbaResourceGovernor"
+            }
+          ]
+        },
+        {
+          "name": "DbaSpConfigure",
+          "children": [
+            {
+              "name": "Copy-DbaSpConfigure"
+            },
+            {
+              "name": "Export-DbaSpConfigure"
+            },
+            {
+              "name": "Get-DbaSpConfigure"
+            },
+            {
+              "name": "Import-DbaSpConfigure"
+            },
+            {
+              "name": "Set-DbaSpConfigure"
+            }
+          ]
+        },
+        {
+          "name": "DbaStartupProcedure",
+          "children": [
+            {
+              "name": "Copy-DbaStartupProcedure"
+            },
+            {
+              "name": "Disable-DbaStartupProcedure"
+            },
+            {
+              "name": "Enable-DbaStartupProcedure"
+            },
+            {
+              "name": "Get-DbaStartupProcedure"
+            }
+          ]
+        },
+        {
+          "name": "DbaSystemDbUserObject",
+          "children": [
+            {
+              "name": "Copy-DbaSystemDbUserObject"
+            }
+          ]
+        },
+        {
+          "name": "DbaXESessionTemplate",
+          "children": [
+            {
+              "name": "Copy-DbaXESessionTemplate"
+            },
+            {
+              "name": "Export-DbaXESessionTemplate"
+            },
+            {
+              "name": "Get-DbaXESessionTemplate"
+            },
+            {
+              "name": "Import-DbaXESessionTemplate"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgHadr",
+          "children": [
+            {
+              "name": "Disable-DbaAgHadr"
+            },
+            {
+              "name": "Enable-DbaAgHadr"
+            },
+            {
+              "name": "Get-DbaAgHadr"
+            }
+          ]
+        },
+        {
+          "name": "DbaFilestream",
+          "children": [
+            {
+              "name": "Disable-DbaFilestream"
+            },
+            {
+              "name": "Enable-DbaFilestream"
+            },
+            {
+              "name": "Get-DbaFilestream"
+            }
+          ]
+        },
+        {
+          "name": "DbaForceNetworkEncryption",
+          "children": [
+            {
+              "name": "Disable-DbaForceNetworkEncryption"
+            },
+            {
+              "name": "Enable-DbaForceNetworkEncryption"
+            },
+            {
+              "name": "Get-DbaForceNetworkEncryption"
+            }
+          ]
+        },
+        {
+          "name": "DbaHideInstance",
+          "children": [
+            {
+              "name": "Disable-DbaHideInstance"
+            },
+            {
+              "name": "Enable-DbaHideInstance"
+            },
+            {
+              "name": "Get-DbaHideInstance"
+            }
+          ]
+        },
+        {
+          "name": "DbaTraceFlag",
+          "children": [
+            {
+              "name": "Disable-DbaTraceFlag"
+            },
+            {
+              "name": "Enable-DbaTraceFlag"
+            },
+            {
+              "name": "Get-DbaTraceFlag"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbLogFile",
+          "children": [
+            {
+              "name": "Expand-DbaDbLogFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaDacPackage",
+          "children": [
+            {
+              "name": "Export-DbaDacPackage"
+            },
+            {
+              "name": "Publish-DbaDacPackage"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbRole",
+          "children": [
+            {
+              "name": "Export-DbaDbRole"
+            },
+            {
+              "name": "Get-DbaDbRole"
+            },
+            {
+              "name": "New-DbaDbRole"
+            },
+            {
+              "name": "Remove-DbaDbRole"
+            }
+          ]
+        },
+        {
+          "name": "DbaBinaryFile",
+          "children": [
+            {
+              "name": "Export-DbaBinaryFile"
+            },
+            {
+              "name": "Import-DbaBinaryFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaBinaryFileTable",
+          "children": [
+            {
+              "name": "Get-DbaBinaryFileTable"
+            }
+          ]
+        },
+        {
+          "name": "DbaDiagnosticQuery",
+          "children": [
+            {
+              "name": "Export-DbaDiagnosticQuery"
+            },
+            {
+              "name": "Invoke-DbaDiagnosticQuery"
+            }
+          ]
+        },
+        {
+          "name": "DbaExecutionPlan",
+          "children": [
+            {
+              "name": "Export-DbaExecutionPlan"
+            },
+            {
+              "name": "Get-DbaExecutionPlan"
+            }
+          ]
+        },
+        {
+          "name": "DbaPfDataCollectorSetTemplate",
+          "children": [
+            {
+              "name": "Export-DbaPfDataCollectorSetTemplate"
+            },
+            {
+              "name": "Get-DbaPfDataCollectorSetTemplate"
+            },
+            {
+              "name": "Import-DbaPfDataCollectorSetTemplate"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplServerSetting",
+          "children": [
+            {
+              "name": "Export-DbaReplServerSetting"
+            }
+          ]
+        },
+        {
+          "name": "DbaScript",
+          "children": [
+            {
+              "name": "Export-DbaScript"
+            }
+          ]
+        },
+        {
+          "name": "DbaServerRole",
+          "children": [
+            {
+              "name": "Export-DbaServerRole"
+            },
+            {
+              "name": "Get-DbaServerRole"
+            },
+            {
+              "name": "New-DbaServerRole"
+            },
+            {
+              "name": "Remove-DbaServerRole"
+            }
+          ]
+        },
+        {
+          "name": "DbaSysDbUserObject",
+          "children": [
+            {
+              "name": "Export-DbaSysDbUserObject"
+            }
+          ]
+        },
+        {
+          "name": "DbaUser",
+          "children": [
+            {
+              "name": "Export-DbaUser"
+            }
+          ]
+        },
+        {
+          "name": "DbaXECsv",
+          "children": [
+            {
+              "name": "Export-DbaXECsv"
+            }
+          ]
+        },
+        {
+          "name": "DbaBackup",
+          "children": [
+            {
+              "name": "Find-DbaBackup"
+            },
+            {
+              "name": "Remove-DbaBackup"
+            }
+          ]
+        },
+        {
+          "name": "DbaCommand",
+          "children": [
+            {
+              "name": "Find-DbaCommand"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDisabledIndex",
+          "children": [
+            {
+              "name": "Find-DbaDbDisabledIndex"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDuplicateIndex",
+          "children": [
+            {
+              "name": "Find-DbaDbDuplicateIndex"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbGrowthEvent",
+          "children": [
+            {
+              "name": "Find-DbaDbGrowthEvent"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbUnusedIndex",
+          "children": [
+            {
+              "name": "Find-DbaDbUnusedIndex"
+            }
+          ]
+        },
+        {
+          "name": "DbaLoginInGroup",
+          "children": [
+            {
+              "name": "Find-DbaLoginInGroup"
+            }
+          ]
+        },
+        {
+          "name": "DbaOrphanedFile",
+          "children": [
+            {
+              "name": "Find-DbaOrphanedFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaSimilarTable",
+          "children": [
+            {
+              "name": "Find-DbaSimilarTable"
+            }
+          ]
+        },
+        {
+          "name": "DbaStoredProcedure",
+          "children": [
+            {
+              "name": "Find-DbaStoredProcedure"
+            }
+          ]
+        },
+        {
+          "name": "DbaTrigger",
+          "children": [
+            {
+              "name": "Find-DbaTrigger"
+            }
+          ]
+        },
+        {
+          "name": "DbaUserObject",
+          "children": [
+            {
+              "name": "Find-DbaUserObject"
+            }
+          ]
+        },
+        {
+          "name": "DbaView",
+          "children": [
+            {
+              "name": "Find-DbaView"
+            }
+          ]
+        },
+        {
+          "name": "DbaBackupInformation",
+          "children": [
+            {
+              "name": "Format-DbaBackupInformation"
+            },
+            {
+              "name": "Get-DbaBackupInformation"
+            },
+            {
+              "name": "Select-DbaBackupInformation"
+            },
+            {
+              "name": "Test-DbaBackupInformation"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgBackupHistory",
+          "children": [
+            {
+              "name": "Get-DbaAgBackupHistory"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentAlertCategory",
+          "children": [
+            {
+              "name": "Get-DbaAgentAlertCategory"
+            },
+            {
+              "name": "New-DbaAgentAlertCategory"
+            },
+            {
+              "name": "Remove-DbaAgentAlertCategory"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentJobHistory",
+          "children": [
+            {
+              "name": "Get-DbaAgentJobHistory"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentJobOutputFile",
+          "children": [
+            {
+              "name": "Get-DbaAgentJobOutputFile"
+            },
+            {
+              "name": "Set-DbaAgentJobOutputFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentJobStep",
+          "children": [
+            {
+              "name": "Get-DbaAgentJobStep"
+            },
+            {
+              "name": "New-DbaAgentJobStep"
+            },
+            {
+              "name": "Remove-DbaAgentJobStep"
+            },
+            {
+              "name": "Set-DbaAgentJobStep"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentLog",
+          "children": [
+            {
+              "name": "Get-DbaAgentLog"
+            }
+          ]
+        },
+        {
+          "name": "DbaAvailabilityGroup",
+          "children": [
+            {
+              "name": "Get-DbaAvailabilityGroup"
+            },
+            {
+              "name": "Join-DbaAvailabilityGroup"
+            },
+            {
+              "name": "New-DbaAvailabilityGroup"
+            },
+            {
+              "name": "Remove-DbaAvailabilityGroup"
+            },
+            {
+              "name": "Set-DbaAvailabilityGroup"
+            },
+            {
+              "name": "Sync-DbaAvailabilityGroup"
+            },
+            {
+              "name": "Test-DbaAvailabilityGroup"
+            }
+          ]
+        },
+        {
+          "name": "DbaAvailableCollation",
+          "children": [
+            {
+              "name": "Get-DbaAvailableCollation"
+            }
+          ]
+        },
+        {
+          "name": "DbaBuild",
+          "children": [
+            {
+              "name": "Get-DbaBuild"
+            },
+            {
+              "name": "Test-DbaBuild"
+            }
+          ]
+        },
+        {
+          "name": "DbaClientAlias",
+          "children": [
+            {
+              "name": "Get-DbaClientAlias"
+            },
+            {
+              "name": "New-DbaClientAlias"
+            },
+            {
+              "name": "Remove-DbaClientAlias"
+            }
+          ]
+        },
+        {
+          "name": "DbaClientProtocol",
+          "children": [
+            {
+              "name": "Get-DbaClientProtocol"
+            }
+          ]
+        },
+        {
+          "name": "DbaCmConnection",
+          "children": [
+            {
+              "name": "Get-DbaCmConnection"
+            },
+            {
+              "name": "New-DbaCmConnection"
+            },
+            {
+              "name": "Remove-DbaCmConnection"
+            },
+            {
+              "name": "Set-DbaCmConnection"
+            },
+            {
+              "name": "Test-DbaCmConnection"
+            }
+          ]
+        },
+        {
+          "name": "DbaCmObject",
+          "children": [
+            {
+              "name": "Get-DbaCmObject"
+            }
+          ]
+        },
+        {
+          "name": "DbaComputerSystem",
+          "children": [
+            {
+              "name": "Get-DbaComputerSystem"
+            }
+          ]
+        },
+        {
+          "name": "DbaConnection",
+          "children": [
+            {
+              "name": "Get-DbaConnection"
+            },
+            {
+              "name": "Test-DbaConnection"
+            }
+          ]
+        },
+        {
+          "name": "DbaCpuRingBuffer",
+          "children": [
+            {
+              "name": "Get-DbaCpuRingBuffer"
+            }
+          ]
+        },
+        {
+          "name": "DbaCpuUsage",
+          "children": [
+            {
+              "name": "Get-DbaCpuUsage"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbAsymmetricKey",
+          "children": [
+            {
+              "name": "Get-DbaDbAsymmetricKey"
+            },
+            {
+              "name": "New-DbaDbAsymmetricKey"
+            },
+            {
+              "name": "Remove-DbaDbAsymmetricKey"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbBackupHistory",
+          "children": [
+            {
+              "name": "Get-DbaDbBackupHistory"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbccHelp",
+          "children": [
+            {
+              "name": "Get-DbaDbccHelp"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbccMemoryStatus",
+          "children": [
+            {
+              "name": "Get-DbaDbccMemoryStatus"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbccProcCache",
+          "children": [
+            {
+              "name": "Get-DbaDbccProcCache"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbccSessionBuffer",
+          "children": [
+            {
+              "name": "Get-DbaDbccSessionBuffer"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbccStatistic",
+          "children": [
+            {
+              "name": "Get-DbaDbccStatistic"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbccUserOption",
+          "children": [
+            {
+              "name": "Get-DbaDbccUserOption"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbCheckConstraint",
+          "children": [
+            {
+              "name": "Get-DbaDbCheckConstraint"
+            },
+            {
+              "name": "Remove-DbaDbCheckConstraint"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbCompatibility",
+          "children": [
+            {
+              "name": "Get-DbaDbCompatibility"
+            },
+            {
+              "name": "Set-DbaDbCompatibility"
+            },
+            {
+              "name": "Test-DbaDbCompatibility"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbCompression",
+          "children": [
+            {
+              "name": "Get-DbaDbCompression"
+            },
+            {
+              "name": "Set-DbaDbCompression"
+            },
+            {
+              "name": "Test-DbaDbCompression"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDbccOpenTran",
+          "children": [
+            {
+              "name": "Get-DbaDbDbccOpenTran"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDetachedFileInfo",
+          "children": [
+            {
+              "name": "Get-DbaDbDetachedFileInfo"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbEncryption",
+          "children": [
+            {
+              "name": "Get-DbaDbEncryption"
+            },
+            {
+              "name": "Disable-DbaDbEncryption"
+            },
+            {
+              "name": "Enable-DbaDbEncryption"
+            },
+            {
+              "name": "Start-DbaDbEncryption"
+            },
+            {
+              "name": "Stop-DbaDbEncryption"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbEncryptionKey",
+          "children": [
+            {
+              "name": "Get-DbaDbEncryptionKey"
+            },
+            {
+              "name": "New-DbaDbEncryptionKey"
+            },
+            {
+              "name": "Remove-DbaDbEncryptionKey"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbExtentDiff",
+          "children": [
+            {
+              "name": "Get-DbaDbExtentDiff"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbFeatureUsage",
+          "children": [
+            {
+              "name": "Get-DbaDbFeatureUsage"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbFile",
+          "children": [
+            {
+              "name": "Get-DbaDbFile"
+            },
+            {
+              "name": "Move-DbaDbFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbFileGroup",
+          "children": [
+            {
+              "name": "Get-DbaDbFileGroup"
+            },
+            {
+              "name": "New-DbaDbFileGroup"
+            },
+            {
+              "name": "Remove-DbaDbFileGroup"
+            },
+            {
+              "name": "Set-DbaDbFileGroup"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbFileGrowth",
+          "children": [
+            {
+              "name": "Get-DbaDbFileGrowth"
+            },
+            {
+              "name": "Set-DbaDbFileGrowth"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbFileMapping",
+          "children": [
+            {
+              "name": "Get-DbaDbFileMapping"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbForeignKey",
+          "children": [
+            {
+              "name": "Get-DbaDbForeignKey"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbIdentity",
+          "children": [
+            {
+              "name": "Get-DbaDbIdentity"
+            },
+            {
+              "name": "Set-DbaDbIdentity"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbLogShipError",
+          "children": [
+            {
+              "name": "Get-DbaDbLogShipError"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbLogSpace",
+          "children": [
+            {
+              "name": "Get-DbaDbLogSpace"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMailAccount",
+          "children": [
+            {
+              "name": "Get-DbaDbMailAccount"
+            },
+            {
+              "name": "New-DbaDbMailAccount"
+            },
+            {
+              "name": "Remove-DbaDbMailAccount"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMailConfig",
+          "children": [
+            {
+              "name": "Get-DbaDbMailConfig"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMailHistory",
+          "children": [
+            {
+              "name": "Get-DbaDbMailHistory"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMailLog",
+          "children": [
+            {
+              "name": "Get-DbaDbMailLog"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMailProfile",
+          "children": [
+            {
+              "name": "Get-DbaDbMailProfile"
+            },
+            {
+              "name": "New-DbaDbMailProfile"
+            },
+            {
+              "name": "Remove-DbaDbMailProfile"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMailServer",
+          "children": [
+            {
+              "name": "Get-DbaDbMailServer"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMemoryUsage",
+          "children": [
+            {
+              "name": "Get-DbaDbMemoryUsage"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMirror",
+          "children": [
+            {
+              "name": "Get-DbaDbMirror"
+            },
+            {
+              "name": "Remove-DbaDbMirror"
+            },
+            {
+              "name": "Repair-DbaDbMirror"
+            },
+            {
+              "name": "Set-DbaDbMirror"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbObjectTrigger",
+          "children": [
+            {
+              "name": "Get-DbaDbObjectTrigger"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbOrphanUser",
+          "children": [
+            {
+              "name": "Get-DbaDbOrphanUser"
+            },
+            {
+              "name": "Remove-DbaDbOrphanUser"
+            },
+            {
+              "name": "Repair-DbaDbOrphanUser"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbPageInfo",
+          "children": [
+            {
+              "name": "Get-DbaDbPageInfo"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbPartitionFunction",
+          "children": [
+            {
+              "name": "Get-DbaDbPartitionFunction"
+            },
+            {
+              "name": "Remove-DbaDbPartitionFunction"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbPartitionScheme",
+          "children": [
+            {
+              "name": "Get-DbaDbPartitionScheme"
+            },
+            {
+              "name": "Remove-DbaDbPartitionScheme"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbRecoveryModel",
+          "children": [
+            {
+              "name": "Get-DbaDbRecoveryModel"
+            },
+            {
+              "name": "Set-DbaDbRecoveryModel"
+            },
+            {
+              "name": "Test-DbaDbRecoveryModel"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbRestoreHistory",
+          "children": [
+            {
+              "name": "Get-DbaDbRestoreHistory"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbSchema",
+          "children": [
+            {
+              "name": "Get-DbaDbSchema"
+            },
+            {
+              "name": "New-DbaDbSchema"
+            },
+            {
+              "name": "Remove-DbaDbSchema"
+            },
+            {
+              "name": "Set-DbaDbSchema"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbSequence",
+          "children": [
+            {
+              "name": "Get-DbaDbSequence"
+            },
+            {
+              "name": "New-DbaDbSequence"
+            },
+            {
+              "name": "Remove-DbaDbSequence"
+            },
+            {
+              "name": "Set-DbaDbSequence"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbServiceBrokerService",
+          "children": [
+            {
+              "name": "Get-DbaDbServiceBrokerService"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbSharePoint",
+          "children": [
+            {
+              "name": "Get-DbaDbSharePoint"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbSnapshot",
+          "children": [
+            {
+              "name": "Get-DbaDbSnapshot"
+            },
+            {
+              "name": "New-DbaDbSnapshot"
+            },
+            {
+              "name": "Remove-DbaDbSnapshot"
+            },
+            {
+              "name": "Restore-DbaDbSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbSpace",
+          "children": [
+            {
+              "name": "Get-DbaDbSpace"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbState",
+          "children": [
+            {
+              "name": "Get-DbaDbState"
+            },
+            {
+              "name": "Set-DbaDbState"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbStoredProcedure",
+          "children": [
+            {
+              "name": "Get-DbaDbStoredProcedure"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbSynonym",
+          "children": [
+            {
+              "name": "Get-DbaDbSynonym"
+            },
+            {
+              "name": "New-DbaDbSynonym"
+            },
+            {
+              "name": "Remove-DbaDbSynonym"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbTable",
+          "children": [
+            {
+              "name": "Get-DbaDbTable"
+            },
+            {
+              "name": "Remove-DbaDbTable"
+            },
+            {
+              "name": "New-DbaDbTable"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbTrigger",
+          "children": [
+            {
+              "name": "Get-DbaDbTrigger"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbUdf",
+          "children": [
+            {
+              "name": "Get-DbaDbUdf"
+            },
+            {
+              "name": "Remove-DbaDbUdf"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbUser",
+          "children": [
+            {
+              "name": "Get-DbaDbUser"
+            },
+            {
+              "name": "New-DbaDbUser"
+            },
+            {
+              "name": "Remove-DbaDbUser"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbUserDefinedTableType",
+          "children": [
+            {
+              "name": "Get-DbaDbUserDefinedTableType"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbView",
+          "children": [
+            {
+              "name": "Get-DbaDbView"
+            },
+            {
+              "name": "Remove-DbaDbView"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbVirtualLogFile",
+          "children": [
+            {
+              "name": "Get-DbaDbVirtualLogFile"
+            },
+            {
+              "name": "Measure-DbaDbVirtualLogFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaDefaultPath",
+          "children": [
+            {
+              "name": "Get-DbaDefaultPath"
+            },
+            {
+              "name": "Set-DbaDefaultPath"
+            }
+          ]
+        },
+        {
+          "name": "DbaDependency",
+          "children": [
+            {
+              "name": "Get-DbaDependency"
+            }
+          ]
+        },
+        {
+          "name": "DbaDeprecatedFeature",
+          "children": [
+            {
+              "name": "Get-DbaDeprecatedFeature"
+            },
+            {
+              "name": "Test-DbaDeprecatedFeature"
+            }
+          ]
+        },
+        {
+          "name": "DbaDiskSpace",
+          "children": [
+            {
+              "name": "Get-DbaDiskSpace"
+            }
+          ]
+        },
+        {
+          "name": "DbaDump",
+          "children": [
+            {
+              "name": "Get-DbaDump"
+            }
+          ]
+        },
+        {
+          "name": "DbaErrorLog",
+          "children": [
+            {
+              "name": "Get-DbaErrorLog"
+            }
+          ]
+        },
+        {
+          "name": "DbaErrorLogConfig",
+          "children": [
+            {
+              "name": "Get-DbaErrorLogConfig"
+            },
+            {
+              "name": "Set-DbaErrorLogConfig"
+            }
+          ]
+        },
+        {
+          "name": "DbaEstimatedCompletionTime",
+          "children": [
+            {
+              "name": "Get-DbaEstimatedCompletionTime"
+            }
+          ]
+        },
+        {
+          "name": "DbaExtendedProtection",
+          "children": [
+            {
+              "name": "Get-DbaExtendedProtection"
+            },
+            {
+              "name": "Set-DbaExtendedProtection"
+            }
+          ]
+        },
+        {
+          "name": "DbaExternalProcess",
+          "children": [
+            {
+              "name": "Get-DbaExternalProcess"
+            },
+            {
+              "name": "Stop-DbaExternalProcess"
+            }
+          ]
+        },
+        {
+          "name": "DbaFeature",
+          "children": [
+            {
+              "name": "Get-DbaFeature"
+            }
+          ]
+        },
+        {
+          "name": "DbaFile",
+          "children": [
+            {
+              "name": "Get-DbaFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaFirewallRule",
+          "children": [
+            {
+              "name": "Get-DbaFirewallRule"
+            },
+            {
+              "name": "New-DbaFirewallRule"
+            },
+            {
+              "name": "Remove-DbaFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "DbaHelpIndex",
+          "children": [
+            {
+              "name": "Get-DbaHelpIndex"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstalledPatch",
+          "children": [
+            {
+              "name": "Get-DbaInstalledPatch"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstanceInstallDate",
+          "children": [
+            {
+              "name": "Get-DbaInstanceInstallDate"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstanceProperty",
+          "children": [
+            {
+              "name": "Get-DbaInstanceProperty"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstanceProtocol",
+          "children": [
+            {
+              "name": "Get-DbaInstanceProtocol"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstanceUserOption",
+          "children": [
+            {
+              "name": "Get-DbaInstanceUserOption"
+            }
+          ]
+        },
+        {
+          "name": "DbaIoLatency",
+          "children": [
+            {
+              "name": "Get-DbaIoLatency"
+            }
+          ]
+        },
+        {
+          "name": "DbaKbUpdate",
+          "children": [
+            {
+              "name": "Get-DbaKbUpdate"
+            },
+            {
+              "name": "Save-DbaKbUpdate"
+            }
+          ]
+        },
+        {
+          "name": "DbaLastBackup",
+          "children": [
+            {
+              "name": "Get-DbaLastBackup"
+            },
+            {
+              "name": "Test-DbaLastBackup"
+            }
+          ]
+        },
+        {
+          "name": "DbaLastGoodCheckDb",
+          "children": [
+            {
+              "name": "Get-DbaLastGoodCheckDb"
+            }
+          ]
+        },
+        {
+          "name": "DbaLatchStatistic",
+          "children": [
+            {
+              "name": "Get-DbaLatchStatistic"
+            }
+          ]
+        },
+        {
+          "name": "DbaLocaleSetting",
+          "children": [
+            {
+              "name": "Get-DbaLocaleSetting"
+            }
+          ]
+        },
+        {
+          "name": "DbaMaintenanceSolutionLog",
+          "children": [
+            {
+              "name": "Get-DbaMaintenanceSolutionLog"
+            }
+          ]
+        },
+        {
+          "name": "DbaManagementObject",
+          "children": [
+            {
+              "name": "Get-DbaManagementObject"
+            },
+            {
+              "name": "Test-DbaManagementObject"
+            }
+          ]
+        },
+        {
+          "name": "DbaMaxMemory",
+          "children": [
+            {
+              "name": "Get-DbaMaxMemory"
+            },
+            {
+              "name": "Set-DbaMaxMemory"
+            },
+            {
+              "name": "Test-DbaMaxMemory"
+            }
+          ]
+        },
+        {
+          "name": "DbaMemoryCondition",
+          "children": [
+            {
+              "name": "Get-DbaMemoryCondition"
+            }
+          ]
+        },
+        {
+          "name": "DbaMemoryUsage",
+          "children": [
+            {
+              "name": "Get-DbaMemoryUsage"
+            }
+          ]
+        },
+        {
+          "name": "DbaModule",
+          "children": [
+            {
+              "name": "Get-DbaModule"
+            }
+          ]
+        },
+        {
+          "name": "DbaMsdtc",
+          "children": [
+            {
+              "name": "Get-DbaMsdtc"
+            }
+          ]
+        },
+        {
+          "name": "DbaNetworkActivity",
+          "children": [
+            {
+              "name": "Get-DbaNetworkActivity"
+            }
+          ]
+        },
+        {
+          "name": "DbaNetworkCertificate",
+          "children": [
+            {
+              "name": "Get-DbaNetworkCertificate"
+            },
+            {
+              "name": "Remove-DbaNetworkCertificate"
+            },
+            {
+              "name": "Set-DbaNetworkCertificate"
+            }
+          ]
+        },
+        {
+          "name": "DbaNetworkConfiguration",
+          "children": [
+            {
+              "name": "Get-DbaNetworkConfiguration"
+            },
+            {
+              "name": "Set-DbaNetworkConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DbaOpenTransaction",
+          "children": [
+            {
+              "name": "Get-DbaOpenTransaction"
+            }
+          ]
+        },
+        {
+          "name": "DbaOperatingSystem",
+          "children": [
+            {
+              "name": "Get-DbaOperatingSystem"
+            }
+          ]
+        },
+        {
+          "name": "DbaPageFileSetting",
+          "children": [
+            {
+              "name": "Get-DbaPageFileSetting"
+            }
+          ]
+        },
+        {
+          "name": "DbaPbmCategory",
+          "children": [
+            {
+              "name": "Get-DbaPbmCategory"
+            }
+          ]
+        },
+        {
+          "name": "DbaPbmCategorySubscription",
+          "children": [
+            {
+              "name": "Get-DbaPbmCategorySubscription"
+            }
+          ]
+        },
+        {
+          "name": "DbaPbmCondition",
+          "children": [
+            {
+              "name": "Get-DbaPbmCondition"
+            }
+          ]
+        },
+        {
+          "name": "DbaPbmObjectSet",
+          "children": [
+            {
+              "name": "Get-DbaPbmObjectSet"
+            }
+          ]
+        },
+        {
+          "name": "DbaPbmPolicy",
+          "children": [
+            {
+              "name": "Get-DbaPbmPolicy"
+            }
+          ]
+        },
+        {
+          "name": "DbaPbmStore",
+          "children": [
+            {
+              "name": "Get-DbaPbmStore"
+            }
+          ]
+        },
+        {
+          "name": "DbaPermission",
+          "children": [
+            {
+              "name": "Get-DbaPermission"
+            }
+          ]
+        },
+        {
+          "name": "DbaPfAvailableCounter",
+          "children": [
+            {
+              "name": "Get-DbaPfAvailableCounter"
+            }
+          ]
+        },
+        {
+          "name": "DbaPfDataCollector",
+          "children": [
+            {
+              "name": "Get-DbaPfDataCollector"
+            }
+          ]
+        },
+        {
+          "name": "DbaPfDataCollectorCounterSample",
+          "children": [
+            {
+              "name": "Get-DbaPfDataCollectorCounterSample"
+            }
+          ]
+        },
+        {
+          "name": "DbaPfDataCollectorSet",
+          "children": [
+            {
+              "name": "Get-DbaPfDataCollectorSet"
+            },
+            {
+              "name": "Remove-DbaPfDataCollectorSet"
+            },
+            {
+              "name": "Start-DbaPfDataCollectorSet"
+            },
+            {
+              "name": "Stop-DbaPfDataCollectorSet"
+            }
+          ]
+        },
+        {
+          "name": "DbaPowerPlan",
+          "children": [
+            {
+              "name": "Get-DbaPowerPlan"
+            },
+            {
+              "name": "Set-DbaPowerPlan"
+            },
+            {
+              "name": "Test-DbaPowerPlan"
+            }
+          ]
+        },
+        {
+          "name": "DbaPrivilege",
+          "children": [
+            {
+              "name": "Get-DbaPrivilege"
+            },
+            {
+              "name": "Set-DbaPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "DbaProcess",
+          "children": [
+            {
+              "name": "Get-DbaProcess"
+            },
+            {
+              "name": "Stop-DbaProcess"
+            }
+          ]
+        },
+        {
+          "name": "DbaProductKey",
+          "children": [
+            {
+              "name": "Get-DbaProductKey"
+            }
+          ]
+        },
+        {
+          "name": "DbaQueryExecutionTime",
+          "children": [
+            {
+              "name": "Get-DbaQueryExecutionTime"
+            }
+          ]
+        },
+        {
+          "name": "DbaRandomizedDataset",
+          "children": [
+            {
+              "name": "Get-DbaRandomizedDataset"
+            }
+          ]
+        },
+        {
+          "name": "DbaRandomizedDatasetTemplate",
+          "children": [
+            {
+              "name": "Get-DbaRandomizedDatasetTemplate"
+            }
+          ]
+        },
+        {
+          "name": "DbaRandomizedType",
+          "children": [
+            {
+              "name": "Get-DbaRandomizedType"
+            }
+          ]
+        },
+        {
+          "name": "DbaRandomizedValue",
+          "children": [
+            {
+              "name": "Get-DbaRandomizedValue"
+            }
+          ]
+        },
+        {
+          "name": "DbaRegistryRoot",
+          "children": [
+            {
+              "name": "Get-DbaRegistryRoot"
+            }
+          ]
+        },
+        {
+          "name": "DbaRegServerStore",
+          "children": [
+            {
+              "name": "Get-DbaRegServerStore"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplDistributor",
+          "children": [
+            {
+              "name": "Get-DbaReplDistributor"
+            },
+            {
+              "name": "Disable-DbaReplDistributor"
+            },
+            {
+              "name": "Enable-DbaReplDistributor"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplPublication",
+          "children": [
+            {
+              "name": "Get-DbaReplPublication"
+            },
+            {
+              "name": "New-DbaReplPublication"
+            },
+            {
+              "name": "Remove-DbaReplPublication"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplPublisher",
+          "children": [
+            {
+              "name": "Get-DbaReplPublisher"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplServer",
+          "children": [
+            {
+              "name": "Get-DbaReplServer"
+            }
+          ]
+        },
+        {
+          "name": "DbaRgClassifierFunction",
+          "children": [
+            {
+              "name": "Get-DbaRgClassifierFunction"
+            }
+          ]
+        },
+        {
+          "name": "DbaRgResourcePool",
+          "children": [
+            {
+              "name": "Get-DbaRgResourcePool"
+            },
+            {
+              "name": "New-DbaRgResourcePool"
+            },
+            {
+              "name": "Remove-DbaRgResourcePool"
+            },
+            {
+              "name": "Set-DbaRgResourcePool"
+            }
+          ]
+        },
+        {
+          "name": "DbaRgWorkloadGroup",
+          "children": [
+            {
+              "name": "Get-DbaRgWorkloadGroup"
+            },
+            {
+              "name": "Set-DbaRgWorkloadGroup"
+            },
+            {
+              "name": "New-DbaRgWorkloadGroup"
+            },
+            {
+              "name": "Remove-DbaRgWorkloadGroup"
+            }
+          ]
+        },
+        {
+          "name": "DbaRunningJob",
+          "children": [
+            {
+              "name": "Get-DbaRunningJob"
+            }
+          ]
+        },
+        {
+          "name": "DbaSchemaChangeHistory",
+          "children": [
+            {
+              "name": "Get-DbaSchemaChangeHistory"
+            }
+          ]
+        },
+        {
+          "name": "DbaService",
+          "children": [
+            {
+              "name": "Get-DbaService"
+            },
+            {
+              "name": "Restart-DbaService"
+            },
+            {
+              "name": "Start-DbaService"
+            },
+            {
+              "name": "Stop-DbaService"
+            }
+          ]
+        },
+        {
+          "name": "DbaSpinLockStatistic",
+          "children": [
+            {
+              "name": "Get-DbaSpinLockStatistic"
+            }
+          ]
+        },
+        {
+          "name": "DbaSpn",
+          "children": [
+            {
+              "name": "Get-DbaSpn"
+            },
+            {
+              "name": "Remove-DbaSpn"
+            },
+            {
+              "name": "Set-DbaSpn"
+            },
+            {
+              "name": "Test-DbaSpn"
+            }
+          ]
+        },
+        {
+          "name": "DbaSsisExecutionHistory",
+          "children": [
+            {
+              "name": "Get-DbaSsisExecutionHistory"
+            }
+          ]
+        },
+        {
+          "name": "DbaSsisCatalog",
+          "children": [
+            {
+              "name": "Copy-DbaSsisCatalog"
+            },
+            {
+              "name": "New-DbaSsisCatalog"
+            }
+          ]
+        },
+        {
+          "name": "DbaSsisEnvironmentVariable",
+          "children": [
+            {
+              "name": "Get-DbaSsisEnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "DbaStartupParameter",
+          "children": [
+            {
+              "name": "Get-DbaStartupParameter"
+            },
+            {
+              "name": "Set-DbaStartupParameter"
+            }
+          ]
+        },
+        {
+          "name": "DbaSuspectPage",
+          "children": [
+            {
+              "name": "Get-DbaSuspectPage"
+            }
+          ]
+        },
+        {
+          "name": "DbaTcpPort",
+          "children": [
+            {
+              "name": "Get-DbaTcpPort"
+            },
+            {
+              "name": "Set-DbaTcpPort"
+            }
+          ]
+        },
+        {
+          "name": "DbaTempdbUsage",
+          "children": [
+            {
+              "name": "Get-DbaTempdbUsage"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsChangeLog",
+          "children": [
+            {
+              "name": "Get-DbatoolsChangeLog"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsConfigValue",
+          "children": [
+            {
+              "name": "Get-DbatoolsConfigValue"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsError",
+          "children": [
+            {
+              "name": "Get-DbatoolsError"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsLog",
+          "children": [
+            {
+              "name": "Get-DbatoolsLog"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsPath",
+          "children": [
+            {
+              "name": "Get-DbatoolsPath"
+            },
+            {
+              "name": "Set-DbatoolsPath"
+            }
+          ]
+        },
+        {
+          "name": "DbaTopResourceUsage",
+          "children": [
+            {
+              "name": "Get-DbaTopResourceUsage"
+            }
+          ]
+        },
+        {
+          "name": "DbaTrace",
+          "children": [
+            {
+              "name": "Get-DbaTrace"
+            },
+            {
+              "name": "Remove-DbaTrace"
+            },
+            {
+              "name": "Start-DbaTrace"
+            },
+            {
+              "name": "Stop-DbaTrace"
+            }
+          ]
+        },
+        {
+          "name": "DbaUptime",
+          "children": [
+            {
+              "name": "Get-DbaUptime"
+            }
+          ]
+        },
+        {
+          "name": "DbaUserPermission",
+          "children": [
+            {
+              "name": "Get-DbaUserPermission"
+            }
+          ]
+        },
+        {
+          "name": "DbaWaitingTask",
+          "children": [
+            {
+              "name": "Get-DbaWaitingTask"
+            }
+          ]
+        },
+        {
+          "name": "DbaWaitResource",
+          "children": [
+            {
+              "name": "Get-DbaWaitResource"
+            }
+          ]
+        },
+        {
+          "name": "DbaWaitStatistic",
+          "children": [
+            {
+              "name": "Get-DbaWaitStatistic"
+            }
+          ]
+        },
+        {
+          "name": "DbaWindowsLog",
+          "children": [
+            {
+              "name": "Get-DbaWindowsLog"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcAvailableDisk",
+          "children": [
+            {
+              "name": "Get-DbaWsfcAvailableDisk"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcCluster",
+          "children": [
+            {
+              "name": "Get-DbaWsfcCluster"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcDisk",
+          "children": [
+            {
+              "name": "Get-DbaWsfcDisk"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcNetwork",
+          "children": [
+            {
+              "name": "Get-DbaWsfcNetwork"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcNetworkInterface",
+          "children": [
+            {
+              "name": "Get-DbaWsfcNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcNode",
+          "children": [
+            {
+              "name": "Get-DbaWsfcNode"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcResource",
+          "children": [
+            {
+              "name": "Get-DbaWsfcResource"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcResourceGroup",
+          "children": [
+            {
+              "name": "Get-DbaWsfcResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcResourceType",
+          "children": [
+            {
+              "name": "Get-DbaWsfcResourceType"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcRole",
+          "children": [
+            {
+              "name": "Get-DbaWsfcRole"
+            }
+          ]
+        },
+        {
+          "name": "DbaWsfcSharedVolume",
+          "children": [
+            {
+              "name": "Get-DbaWsfcSharedVolume"
+            }
+          ]
+        },
+        {
+          "name": "DbaXEObject",
+          "children": [
+            {
+              "name": "Get-DbaXEObject"
+            }
+          ]
+        },
+        {
+          "name": "DbaXESessionTarget",
+          "children": [
+            {
+              "name": "Get-DbaXESessionTarget"
+            }
+          ]
+        },
+        {
+          "name": "DbaXESessionTargetFile",
+          "children": [
+            {
+              "name": "Get-DbaXESessionTargetFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaXESmartTarget",
+          "children": [
+            {
+              "name": "Get-DbaXESmartTarget"
+            },
+            {
+              "name": "Remove-DbaXESmartTarget"
+            },
+            {
+              "name": "Start-DbaXESmartTarget"
+            },
+            {
+              "name": "Stop-DbaXESmartTarget"
+            }
+          ]
+        },
+        {
+          "name": "DbaXEStore",
+          "children": [
+            {
+              "name": "Get-DbaXEStore"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgPermission",
+          "children": [
+            {
+              "name": "Grant-DbaAgPermission"
+            },
+            {
+              "name": "Revoke-DbaAgPermission"
+            }
+          ]
+        },
+        {
+          "name": "DbaCsv",
+          "children": [
+            {
+              "name": "Import-DbaCsv"
+            }
+          ]
+        },
+        {
+          "name": "DbaDarlingData",
+          "children": [
+            {
+              "name": "Install-DbaDarlingData"
+            }
+          ]
+        },
+        {
+          "name": "DbaFirstResponderKit",
+          "children": [
+            {
+              "name": "Install-DbaFirstResponderKit"
+            }
+          ]
+        },
+        {
+          "name": "DbaMaintenanceSolution",
+          "children": [
+            {
+              "name": "Install-DbaMaintenanceSolution"
+            },
+            {
+              "name": "Update-DbaMaintenanceSolution"
+            }
+          ]
+        },
+        {
+          "name": "DbaMultiTool",
+          "children": [
+            {
+              "name": "Install-DbaMultiTool"
+            }
+          ]
+        },
+        {
+          "name": "DbaSqlWatch",
+          "children": [
+            {
+              "name": "Install-DbaSqlWatch"
+            },
+            {
+              "name": "Uninstall-DbaSqlWatch"
+            }
+          ]
+        },
+        {
+          "name": "DbaWhoIsActive",
+          "children": [
+            {
+              "name": "Install-DbaWhoIsActive"
+            },
+            {
+              "name": "Invoke-DbaWhoIsActive"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbAzSqlTip",
+          "children": [
+            {
+              "name": "Invoke-DbaDbAzSqlTip"
+            }
+          ]
+        },
+        {
+          "name": "DbaAdvancedInstall",
+          "children": [
+            {
+              "name": "Invoke-DbaAdvancedInstall"
+            }
+          ]
+        },
+        {
+          "name": "DbaAdvancedRestore",
+          "children": [
+            {
+              "name": "Invoke-DbaAdvancedRestore"
+            }
+          ]
+        },
+        {
+          "name": "DbaAdvancedUpdate",
+          "children": [
+            {
+              "name": "Invoke-DbaAdvancedUpdate"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgFailover",
+          "children": [
+            {
+              "name": "Invoke-DbaAgFailover"
+            }
+          ]
+        },
+        {
+          "name": "DbaBalanceDataFiles",
+          "children": [
+            {
+              "name": "Invoke-DbaBalanceDataFiles"
+            }
+          ]
+        },
+        {
+          "name": "DbaCycleErrorLog",
+          "children": [
+            {
+              "name": "Invoke-DbaCycleErrorLog"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbccDropCleanBuffer",
+          "children": [
+            {
+              "name": "Invoke-DbaDbccDropCleanBuffer"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbccFreeCache",
+          "children": [
+            {
+              "name": "Invoke-DbaDbccFreeCache"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbClone",
+          "children": [
+            {
+              "name": "Invoke-DbaDbClone"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDataGenerator",
+          "children": [
+            {
+              "name": "Invoke-DbaDbDataGenerator"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDataMasking",
+          "children": [
+            {
+              "name": "Invoke-DbaDbDataMasking"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDbccCheckConstraint",
+          "children": [
+            {
+              "name": "Invoke-DbaDbDbccCheckConstraint"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDbccCleanTable",
+          "children": [
+            {
+              "name": "Invoke-DbaDbDbccCleanTable"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDbccUpdateUsage",
+          "children": [
+            {
+              "name": "Invoke-DbaDbDbccUpdateUsage"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDecryptObject",
+          "children": [
+            {
+              "name": "Invoke-DbaDbDecryptObject"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbLogShipping",
+          "children": [
+            {
+              "name": "Invoke-DbaDbLogShipping"
+            },
+            {
+              "name": "Remove-DbaDbLogShipping"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbLogShipRecovery",
+          "children": [
+            {
+              "name": "Invoke-DbaDbLogShipRecovery"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMirrorFailover",
+          "children": [
+            {
+              "name": "Invoke-DbaDbMirrorFailover"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMirroring",
+          "children": [
+            {
+              "name": "Invoke-DbaDbMirroring"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbPiiScan",
+          "children": [
+            {
+              "name": "Invoke-DbaDbPiiScan"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbShrink",
+          "children": [
+            {
+              "name": "Invoke-DbaDbShrink"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbTransfer",
+          "children": [
+            {
+              "name": "Invoke-DbaDbTransfer"
+            },
+            {
+              "name": "New-DbaDbTransfer"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbUpgrade",
+          "children": [
+            {
+              "name": "Invoke-DbaDbUpgrade"
+            }
+          ]
+        },
+        {
+          "name": "DbaPfRelog",
+          "children": [
+            {
+              "name": "Invoke-DbaPfRelog"
+            }
+          ]
+        },
+        {
+          "name": "DbaQuery",
+          "children": [
+            {
+              "name": "Invoke-DbaQuery"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsFormatter",
+          "children": [
+            {
+              "name": "Invoke-DbatoolsFormatter"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsRenameHelper",
+          "children": [
+            {
+              "name": "Invoke-DbatoolsRenameHelper"
+            }
+          ]
+        },
+        {
+          "name": "DbaXEReplay",
+          "children": [
+            {
+              "name": "Invoke-DbaXEReplay"
+            }
+          ]
+        },
+        {
+          "name": "DbaPath",
+          "children": [
+            {
+              "name": "Join-DbaPath"
+            },
+            {
+              "name": "Resolve-DbaPath"
+            },
+            {
+              "name": "Test-DbaPath"
+            }
+          ]
+        },
+        {
+          "name": "DbaBackupThroughput",
+          "children": [
+            {
+              "name": "Measure-DbaBackupThroughput"
+            }
+          ]
+        },
+        {
+          "name": "DbaDiskSpaceRequirement",
+          "children": [
+            {
+              "name": "Measure-DbaDiskSpaceRequirement"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsImport",
+          "children": [
+            {
+              "name": "Measure-DbatoolsImport"
+            }
+          ]
+        },
+        {
+          "name": "DbaAzAccessToken",
+          "children": [
+            {
+              "name": "New-DbaAzAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "DbaComputerCertificateSigningRequest",
+          "children": [
+            {
+              "name": "New-DbaComputerCertificateSigningRequest"
+            }
+          ]
+        },
+        {
+          "name": "DbaConnectionString",
+          "children": [
+            {
+              "name": "New-DbaConnectionString"
+            }
+          ]
+        },
+        {
+          "name": "DbaConnectionStringBuilder",
+          "children": [
+            {
+              "name": "New-DbaConnectionStringBuilder"
+            }
+          ]
+        },
+        {
+          "name": "DbaDacOption",
+          "children": [
+            {
+              "name": "New-DbaDacOption"
+            }
+          ]
+        },
+        {
+          "name": "DbaDacProfile",
+          "children": [
+            {
+              "name": "New-DbaDacProfile"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDataGeneratorConfig",
+          "children": [
+            {
+              "name": "New-DbaDbDataGeneratorConfig"
+            },
+            {
+              "name": "Test-DbaDbDataGeneratorConfig"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbMaskingConfig",
+          "children": [
+            {
+              "name": "New-DbaDbMaskingConfig"
+            }
+          ]
+        },
+        {
+          "name": "DbaDiagnosticAdsNotebook",
+          "children": [
+            {
+              "name": "New-DbaDiagnosticAdsNotebook"
+            }
+          ]
+        },
+        {
+          "name": "DbaDirectory",
+          "children": [
+            {
+              "name": "New-DbaDirectory"
+            }
+          ]
+        },
+        {
+          "name": "DbaScriptingOption",
+          "children": [
+            {
+              "name": "New-DbaScriptingOption"
+            }
+          ]
+        },
+        {
+          "name": "DbaSqlParameter",
+          "children": [
+            {
+              "name": "New-DbaSqlParameter"
+            }
+          ]
+        },
+        {
+          "name": "DbatoolsSupportPackage",
+          "children": [
+            {
+              "name": "New-DbatoolsSupportPackage"
+            }
+          ]
+        },
+        {
+          "name": "DbaXESmartCsvWriter",
+          "children": [
+            {
+              "name": "New-DbaXESmartCsvWriter"
+            }
+          ]
+        },
+        {
+          "name": "DbaXESmartEmail",
+          "children": [
+            {
+              "name": "New-DbaXESmartEmail"
+            }
+          ]
+        },
+        {
+          "name": "DbaXESmartQueryExec",
+          "children": [
+            {
+              "name": "New-DbaXESmartQueryExec"
+            }
+          ]
+        },
+        {
+          "name": "DbaXESmartReplay",
+          "children": [
+            {
+              "name": "New-DbaXESmartReplay"
+            }
+          ]
+        },
+        {
+          "name": "DbaXESmartTableWriter",
+          "children": [
+            {
+              "name": "New-DbaXESmartTableWriter"
+            }
+          ]
+        },
+        {
+          "name": "DbaAuditFile",
+          "children": [
+            {
+              "name": "Read-DbaAuditFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaBackupHeader",
+          "children": [
+            {
+              "name": "Read-DbaBackupHeader"
+            }
+          ]
+        },
+        {
+          "name": "DbaTraceFile",
+          "children": [
+            {
+              "name": "Read-DbaTraceFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaTransactionLog",
+          "children": [
+            {
+              "name": "Read-DbaTransactionLog"
+            }
+          ]
+        },
+        {
+          "name": "DbaXEFile",
+          "children": [
+            {
+              "name": "Read-DbaXEFile"
+            }
+          ]
+        },
+        {
+          "name": "DbaDatabaseSafely",
+          "children": [
+            {
+              "name": "Remove-DbaDatabaseSafely"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbBackupRestoreHistory",
+          "children": [
+            {
+              "name": "Remove-DbaDbBackupRestoreHistory"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbData",
+          "children": [
+            {
+              "name": "Remove-DbaDbData"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstanceName",
+          "children": [
+            {
+              "name": "Repair-DbaInstanceName"
+            },
+            {
+              "name": "Test-DbaInstanceName"
+            }
+          ]
+        },
+        {
+          "name": "DbaAdmin",
+          "children": [
+            {
+              "name": "Reset-DbaAdmin"
+            }
+          ]
+        },
+        {
+          "name": "DbaNetworkName",
+          "children": [
+            {
+              "name": "Resolve-DbaNetworkName"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgDbDataMovement",
+          "children": [
+            {
+              "name": "Resume-DbaAgDbDataMovement"
+            },
+            {
+              "name": "Suspend-DbaAgDbDataMovement"
+            }
+          ]
+        },
+        {
+          "name": "DbaDiagnosticQueryScript",
+          "children": [
+            {
+              "name": "Save-DbaDiagnosticQueryScript"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbSequenceNextValue",
+          "children": [
+            {
+              "name": "Select-DbaDbSequenceNextValue"
+            }
+          ]
+        },
+        {
+          "name": "DbaAgentJobOwner",
+          "children": [
+            {
+              "name": "Set-DbaAgentJobOwner"
+            },
+            {
+              "name": "Test-DbaAgentJobOwner"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbOwner",
+          "children": [
+            {
+              "name": "Set-DbaDbOwner"
+            },
+            {
+              "name": "Test-DbaDbOwner"
+            }
+          ]
+        },
+        {
+          "name": "DbaMaxDop",
+          "children": [
+            {
+              "name": "Set-DbaMaxDop"
+            },
+            {
+              "name": "Test-DbaMaxDop"
+            }
+          ]
+        },
+        {
+          "name": "DbaTempDbConfig",
+          "children": [
+            {
+              "name": "Set-DbaTempDbConfig"
+            },
+            {
+              "name": "Test-DbaTempDbConfig"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbList",
+          "children": [
+            {
+              "name": "Show-DbaDbList"
+            }
+          ]
+        },
+        {
+          "name": "DbaInstanceFileSystem",
+          "children": [
+            {
+              "name": "Show-DbaInstanceFileSystem"
+            }
+          ]
+        },
+        {
+          "name": "DbaMigration",
+          "children": [
+            {
+              "name": "Start-DbaMigration"
+            }
+          ]
+        },
+        {
+          "name": "DbaLoginPermission",
+          "children": [
+            {
+              "name": "Sync-DbaLoginPermission"
+            }
+          ]
+        },
+        {
+          "name": "DbaComputerCertificateExpiration",
+          "children": [
+            {
+              "name": "Test-DbaComputerCertificateExpiration"
+            }
+          ]
+        },
+        {
+          "name": "DbaConnectionAuthScheme",
+          "children": [
+            {
+              "name": "Test-DbaConnectionAuthScheme"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbCollation",
+          "children": [
+            {
+              "name": "Test-DbaDbCollation"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbDataMaskingConfig",
+          "children": [
+            {
+              "name": "Test-DbaDbDataMaskingConfig"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbLogShipStatus",
+          "children": [
+            {
+              "name": "Test-DbaDbLogShipStatus"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbQueryStore",
+          "children": [
+            {
+              "name": "Test-DbaDbQueryStore"
+            }
+          ]
+        },
+        {
+          "name": "DbaDiskAlignment",
+          "children": [
+            {
+              "name": "Test-DbaDiskAlignment"
+            }
+          ]
+        },
+        {
+          "name": "DbaDiskAllocation",
+          "children": [
+            {
+              "name": "Test-DbaDiskAllocation"
+            }
+          ]
+        },
+        {
+          "name": "DbaDiskSpeed",
+          "children": [
+            {
+              "name": "Test-DbaDiskSpeed"
+            }
+          ]
+        },
+        {
+          "name": "DbaIdentityUsage",
+          "children": [
+            {
+              "name": "Test-DbaIdentityUsage"
+            }
+          ]
+        },
+        {
+          "name": "DbaLinkedServerConnection",
+          "children": [
+            {
+              "name": "Test-DbaLinkedServerConnection"
+            }
+          ]
+        },
+        {
+          "name": "DbaLoginPassword",
+          "children": [
+            {
+              "name": "Test-DbaLoginPassword"
+            }
+          ]
+        },
+        {
+          "name": "DbaMigrationConstraint",
+          "children": [
+            {
+              "name": "Test-DbaMigrationConstraint"
+            }
+          ]
+        },
+        {
+          "name": "DbaNetworkLatency",
+          "children": [
+            {
+              "name": "Test-DbaNetworkLatency"
+            }
+          ]
+        },
+        {
+          "name": "DbaOptimizeForAdHoc",
+          "children": [
+            {
+              "name": "Test-DbaOptimizeForAdHoc"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplLatency",
+          "children": [
+            {
+              "name": "Test-DbaReplLatency"
+            }
+          ]
+        },
+        {
+          "name": "DbaWindowsLogin",
+          "children": [
+            {
+              "name": "Test-DbaWindowsLogin"
+            }
+          ]
+        },
+        {
+          "name": "DbaBuildReference",
+          "children": [
+            {
+              "name": "Update-DbaBuildReference"
+            }
+          ]
+        },
+        {
+          "name": "DbaServiceAccount",
+          "children": [
+            {
+              "name": "Update-DbaServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "Dbatools",
+          "children": [
+            {
+              "name": "Update-Dbatools"
+            }
+          ]
+        },
+        {
+          "name": "DbaDbLogin",
+          "children": [
+            {
+              "name": "Watch-DbaDbLogin"
+            }
+          ]
+        },
+        {
+          "name": "DbaExtendedProperty",
+          "children": [
+            {
+              "name": "Remove-DbaExtendedProperty"
+            },
+            {
+              "name": "Get-DbaExtendedProperty"
+            },
+            {
+              "name": "Set-DbaExtendedProperty"
+            },
+            {
+              "name": "Add-DbaExtendedProperty"
+            }
+          ]
+        },
+        {
+          "name": "DbaOleDbProvider",
+          "children": [
+            {
+              "name": "Get-DbaOleDbProvider"
+            }
+          ]
+        },
+        {
+          "name": "DbaConnectedInstance",
+          "children": [
+            {
+              "name": "Get-DbaConnectedInstance"
+            }
+          ]
+        },
+        {
+          "name": "DbaCommunitySoftware",
+          "children": [
+            {
+              "name": "Save-DbaCommunitySoftware"
+            }
+          ]
+        },
+        {
+          "name": "DbaLinkedServerLogin",
+          "children": [
+            {
+              "name": "Get-DbaLinkedServerLogin"
+            },
+            {
+              "name": "New-DbaLinkedServerLogin"
+            },
+            {
+              "name": "Remove-DbaLinkedServerLogin"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplPublishing",
+          "children": [
+            {
+              "name": "Disable-DbaReplPublishing"
+            },
+            {
+              "name": "Enable-DbaReplPublishing"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplArticle",
+          "children": [
+            {
+              "name": "Get-DbaReplArticle"
+            },
+            {
+              "name": "Add-DbaReplArticle"
+            },
+            {
+              "name": "Remove-DbaReplArticle"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplArticleColumn",
+          "children": [
+            {
+              "name": "Get-DbaReplArticleColumn"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplSubscription",
+          "children": [
+            {
+              "name": "New-DbaReplSubscription"
+            },
+            {
+              "name": "Remove-DbaReplSubscription"
+            },
+            {
+              "name": "Get-DbaReplSubscription"
+            }
+          ]
+        },
+        {
+          "name": "DbaReplCreationScriptOptions",
+          "children": [
+            {
+              "name": "New-DbaReplCreationScriptOptions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dbatools.library",
+      "companyName": "dbatools.io",
+      "author": "the dbatools team",
+      "children": [
+        {
+          "name": "DbatoolsLibraryPath",
+          "children": [
+            {
+              "name": "Get-DbatoolsLibraryPath"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

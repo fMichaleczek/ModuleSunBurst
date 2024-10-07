@@ -1,0 +1,5245 @@
+{
+  "name": "VMware",
+  "children": [
+    {
+      "name": "PowerNSX",
+      "companyName": "VMware",
+      "author": "Nick Bradford",
+      "children": [
+        {
+          "name": "XmlElement",
+          "children": [
+            {
+              "name": "Add-XmlElement"
+            }
+          ]
+        },
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "Format-Xml"
+            }
+          ]
+        },
+        {
+          "name": "NsxRestMethod",
+          "children": [
+            {
+              "name": "Invoke-NsxRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "NsxWebRequest",
+          "children": [
+            {
+              "name": "Invoke-NsxWebRequest"
+            }
+          ]
+        },
+        {
+          "name": "NsxServer",
+          "children": [
+            {
+              "name": "Connect-NsxServer"
+            },
+            {
+              "name": "Disconnect-NsxServer"
+            }
+          ]
+        },
+        {
+          "name": "PowerNsxVersion",
+          "children": [
+            {
+              "name": "Get-PowerNsxVersion"
+            }
+          ]
+        },
+        {
+          "name": "NsxClusterStatus",
+          "children": [
+            {
+              "name": "Get-NsxClusterStatus"
+            }
+          ]
+        },
+        {
+          "name": "NsxCli",
+          "children": [
+            {
+              "name": "Invoke-NsxCli"
+            }
+          ]
+        },
+        {
+          "name": "NsxJob",
+          "children": [
+            {
+              "name": "Wait-NsxJob"
+            }
+          ]
+        },
+        {
+          "name": "NsxCliDfwFilter",
+          "children": [
+            {
+              "name": "Get-NsxCliDfwFilter"
+            }
+          ]
+        },
+        {
+          "name": "NsxCliDfwRule",
+          "children": [
+            {
+              "name": "Get-NsxCliDfwRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxCliDfwAddrSet",
+          "children": [
+            {
+              "name": "Get-NsxCliDfwAddrSet"
+            }
+          ]
+        },
+        {
+          "name": "NsxManager",
+          "children": [
+            {
+              "name": "New-NsxManager"
+            },
+            {
+              "name": "Set-NsxManager"
+            }
+          ]
+        },
+        {
+          "name": "NsxController",
+          "children": [
+            {
+              "name": "New-NsxController"
+            },
+            {
+              "name": "Get-NsxController"
+            },
+            {
+              "name": "Remove-NsxController"
+            }
+          ]
+        },
+        {
+          "name": "NsxControllerJob",
+          "children": [
+            {
+              "name": "Wait-NsxControllerJob"
+            }
+          ]
+        },
+        {
+          "name": "NsxIpPool",
+          "children": [
+            {
+              "name": "New-NsxIpPool"
+            },
+            {
+              "name": "Get-NsxIpPool"
+            },
+            {
+              "name": "Remove-NsxIpPool"
+            }
+          ]
+        },
+        {
+          "name": "NsxVdsContext",
+          "children": [
+            {
+              "name": "Get-NsxVdsContext"
+            },
+            {
+              "name": "New-NsxVdsContext"
+            },
+            {
+              "name": "Remove-NsxVdsContext"
+            }
+          ]
+        },
+        {
+          "name": "NsxClusterVxlanConfig",
+          "children": [
+            {
+              "name": "New-NsxClusterVxlanConfig"
+            },
+            {
+              "name": "Remove-NsxClusterVxlanConfig"
+            }
+          ]
+        },
+        {
+          "name": "NsxCluster",
+          "children": [
+            {
+              "name": "Install-NsxCluster"
+            },
+            {
+              "name": "Remove-NsxCluster"
+            }
+          ]
+        },
+        {
+          "name": "NsxSegmentIdRange",
+          "children": [
+            {
+              "name": "New-NsxSegmentIdRange"
+            },
+            {
+              "name": "Get-NsxSegmentIdRange"
+            },
+            {
+              "name": "Remove-NsxSegmentIdRange"
+            }
+          ]
+        },
+        {
+          "name": "NsxTransportZone",
+          "children": [
+            {
+              "name": "Get-NsxTransportZone"
+            },
+            {
+              "name": "New-NsxTransportZone"
+            },
+            {
+              "name": "Remove-NsxTransportZone"
+            }
+          ]
+        },
+        {
+          "name": "NsxTransportZoneMember",
+          "children": [
+            {
+              "name": "Add-NsxTransportZoneMember"
+            },
+            {
+              "name": "Remove-NsxTransportZoneMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalSwitch",
+          "children": [
+            {
+              "name": "Get-NsxLogicalSwitch"
+            },
+            {
+              "name": "New-NsxLogicalSwitch"
+            },
+            {
+              "name": "Remove-NsxLogicalSwitch"
+            },
+            {
+              "name": "Set-NsxLogicalSwitch"
+            },
+            {
+              "name": "Connect-NsxLogicalSwitch"
+            },
+            {
+              "name": "Disconnect-NsxLogicalSwitch"
+            }
+          ]
+        },
+        {
+          "name": "NsxSpoofguardPolicy",
+          "children": [
+            {
+              "name": "Get-NsxSpoofguardPolicy"
+            },
+            {
+              "name": "New-NsxSpoofguardPolicy"
+            },
+            {
+              "name": "Remove-NsxSpoofguardPolicy"
+            },
+            {
+              "name": "Publish-NsxSpoofguardPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NsxSpoofguardNic",
+          "children": [
+            {
+              "name": "Get-NsxSpoofguardNic"
+            }
+          ]
+        },
+        {
+          "name": "NsxSpoofguardNicApproval",
+          "children": [
+            {
+              "name": "Grant-NsxSpoofguardNicApproval"
+            },
+            {
+              "name": "Revoke-NsxSpoofguardNicApproval"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouter",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouter"
+            },
+            {
+              "name": "New-NsxLogicalRouter"
+            },
+            {
+              "name": "Remove-NsxLogicalRouter"
+            },
+            {
+              "name": "Set-NsxLogicalRouter"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterInterfaceSpec",
+          "children": [
+            {
+              "name": "New-NsxLogicalRouterInterfaceSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterInterface",
+          "children": [
+            {
+              "name": "Set-NsxLogicalRouterInterface"
+            },
+            {
+              "name": "New-NsxLogicalRouterInterface"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterInterface"
+            },
+            {
+              "name": "Get-NsxLogicalRouterInterface"
+            }
+          ]
+        },
+        {
+          "name": "NsxAddressSpec",
+          "children": [
+            {
+              "name": "New-NsxAddressSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeInterfaceSpec",
+          "children": [
+            {
+              "name": "New-NsxEdgeInterfaceSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeSubInterfaceSpec",
+          "children": [
+            {
+              "name": "New-NsxEdgeSubInterfaceSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeInterface",
+          "children": [
+            {
+              "name": "Set-NsxEdgeInterface"
+            },
+            {
+              "name": "Clear-NsxEdgeInterface"
+            },
+            {
+              "name": "Get-NsxEdgeInterface"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeSubInterface",
+          "children": [
+            {
+              "name": "New-NsxEdgeSubInterface"
+            },
+            {
+              "name": "Remove-NsxEdgeSubInterface"
+            },
+            {
+              "name": "Get-NsxEdgeSubInterface"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeInterfaceAddress",
+          "children": [
+            {
+              "name": "Get-NsxEdgeInterfaceAddress"
+            },
+            {
+              "name": "Add-NsxEdgeInterfaceAddress"
+            },
+            {
+              "name": "Remove-NsxEdgeInterfaceAddress"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdge",
+          "children": [
+            {
+              "name": "Get-NsxEdge"
+            },
+            {
+              "name": "New-NsxEdge"
+            },
+            {
+              "name": "Repair-NsxEdge"
+            },
+            {
+              "name": "Set-NsxEdge"
+            },
+            {
+              "name": "Remove-NsxEdge"
+            },
+            {
+              "name": "Copy-NsxEdge"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeStatus",
+          "children": [
+            {
+              "name": "Get-NsxEdgeStatus"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeSsh",
+          "children": [
+            {
+              "name": "Enable-NsxEdgeSsh"
+            },
+            {
+              "name": "Disable-NsxEdgeSsh"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeFips",
+          "children": [
+            {
+              "name": "Enable-NsxEdgeFips"
+            },
+            {
+              "name": "Disable-NsxEdgeFips"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeNat",
+          "children": [
+            {
+              "name": "Set-NsxEdgeNat"
+            },
+            {
+              "name": "Get-NsxEdgeNat"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeNatRule",
+          "children": [
+            {
+              "name": "Get-NsxEdgeNatRule"
+            },
+            {
+              "name": "New-NsxEdgeNatRule"
+            },
+            {
+              "name": "Remove-NsxEdgeNatRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeFirewall",
+          "children": [
+            {
+              "name": "Set-NsxEdgeFirewall"
+            },
+            {
+              "name": "Get-NsxEdgeFirewall"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeFirewallRule",
+          "children": [
+            {
+              "name": "Get-NsxEdgeFirewallRule"
+            },
+            {
+              "name": "New-NsxEdgeFirewallRule"
+            },
+            {
+              "name": "Set-NsxEdgeFirewallRule"
+            },
+            {
+              "name": "Remove-NsxEdgeFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeCsr",
+          "children": [
+            {
+              "name": "Get-NsxEdgeCsr"
+            },
+            {
+              "name": "New-NsxEdgeCsr"
+            },
+            {
+              "name": "Remove-NsxEdgeCsr"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeCrl",
+          "children": [
+            {
+              "name": "Remove-NsxEdgeCrl"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeCertificate",
+          "children": [
+            {
+              "name": "Get-NsxEdgeCertificate"
+            },
+            {
+              "name": "Remove-NsxEdgeCertificate"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeSelfSignedCertificate",
+          "children": [
+            {
+              "name": "New-NsxEdgeSelfSignedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpn",
+          "children": [
+            {
+              "name": "Get-NsxSslVpn"
+            },
+            {
+              "name": "Set-NsxSslVpn"
+            },
+            {
+              "name": "Remove-NsxSslVpn"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpnAuthServer",
+          "children": [
+            {
+              "name": "New-NsxSslVpnAuthServer"
+            },
+            {
+              "name": "Get-NsxSslVpnAuthServer"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpnUser",
+          "children": [
+            {
+              "name": "New-NsxSslVpnUser"
+            },
+            {
+              "name": "Get-NsxSslVpnUser"
+            },
+            {
+              "name": "Remove-NsxSslVpnUser"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpnIpPool",
+          "children": [
+            {
+              "name": "New-NsxSslVpnIpPool"
+            },
+            {
+              "name": "Get-NsxSslVpnIpPool"
+            },
+            {
+              "name": "Remove-NsxSslVpnIpPool"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpnPrivateNetwork",
+          "children": [
+            {
+              "name": "New-NsxSslVpnPrivateNetwork"
+            },
+            {
+              "name": "Get-NsxSslVpnPrivateNetwork"
+            },
+            {
+              "name": "Remove-NsxSslVpnPrivateNetwork"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpnClientInstallationPackage",
+          "children": [
+            {
+              "name": "New-NsxSslVpnClientInstallationPackage"
+            },
+            {
+              "name": "Get-NsxSslVpnClientInstallationPackage"
+            },
+            {
+              "name": "Remove-NsxSslVpnClientInstallationPackage"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeRouting",
+          "children": [
+            {
+              "name": "Set-NsxEdgeRouting"
+            },
+            {
+              "name": "Get-NsxEdgeRouting"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeStaticRoute",
+          "children": [
+            {
+              "name": "Get-NsxEdgeStaticRoute"
+            },
+            {
+              "name": "New-NsxEdgeStaticRoute"
+            },
+            {
+              "name": "Remove-NsxEdgeStaticRoute"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgePrefix",
+          "children": [
+            {
+              "name": "Get-NsxEdgePrefix"
+            },
+            {
+              "name": "New-NsxEdgePrefix"
+            },
+            {
+              "name": "Remove-NsxEdgePrefix"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeBgp",
+          "children": [
+            {
+              "name": "Get-NsxEdgeBgp"
+            },
+            {
+              "name": "Set-NsxEdgeBgp"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeBgpNeighbour",
+          "children": [
+            {
+              "name": "Get-NsxEdgeBgpNeighbour"
+            },
+            {
+              "name": "New-NsxEdgeBgpNeighbour"
+            },
+            {
+              "name": "Remove-NsxEdgeBgpNeighbour"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeOspf",
+          "children": [
+            {
+              "name": "Get-NsxEdgeOspf"
+            },
+            {
+              "name": "Set-NsxEdgeOspf"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeOspfArea",
+          "children": [
+            {
+              "name": "Get-NsxEdgeOspfArea"
+            },
+            {
+              "name": "Remove-NsxEdgeOspfArea"
+            },
+            {
+              "name": "New-NsxEdgeOspfArea"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeOspfInterface",
+          "children": [
+            {
+              "name": "Get-NsxEdgeOspfInterface"
+            },
+            {
+              "name": "Remove-NsxEdgeOspfInterface"
+            },
+            {
+              "name": "New-NsxEdgeOspfInterface"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeRedistributionRule",
+          "children": [
+            {
+              "name": "Get-NsxEdgeRedistributionRule"
+            },
+            {
+              "name": "Remove-NsxEdgeRedistributionRule"
+            },
+            {
+              "name": "New-NsxEdgeRedistributionRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterRouting",
+          "children": [
+            {
+              "name": "Set-NsxLogicalRouterRouting"
+            },
+            {
+              "name": "Get-NsxLogicalRouterRouting"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterStaticRoute",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterStaticRoute"
+            },
+            {
+              "name": "New-NsxLogicalRouterStaticRoute"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterStaticRoute"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterPrefix",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterPrefix"
+            },
+            {
+              "name": "New-NsxLogicalRouterPrefix"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterPrefix"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterBgp",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterBgp"
+            },
+            {
+              "name": "Set-NsxLogicalRouterBgp"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterBgpNeighbour",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterBgpNeighbour"
+            },
+            {
+              "name": "New-NsxLogicalRouterBgpNeighbour"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterBgpNeighbour"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterOspf",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterOspf"
+            },
+            {
+              "name": "Set-NsxLogicalRouterOspf"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterOspfArea",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterOspfArea"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterOspfArea"
+            },
+            {
+              "name": "New-NsxLogicalRouterOspfArea"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterOspfInterface",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterOspfInterface"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterOspfInterface"
+            },
+            {
+              "name": "New-NsxLogicalRouterOspfInterface"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterRedistributionRule",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterRedistributionRule"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterRedistributionRule"
+            },
+            {
+              "name": "New-NsxLogicalRouterRedistributionRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroup",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroup"
+            },
+            {
+              "name": "New-NsxSecurityGroup"
+            },
+            {
+              "name": "Remove-NsxSecurityGroup"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupMember",
+          "children": [
+            {
+              "name": "Add-NsxSecurityGroupMember"
+            },
+            {
+              "name": "Remove-NsxSecurityGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxDynamicCriteriaSpec",
+          "children": [
+            {
+              "name": "New-NsxDynamicCriteriaSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxDynamicMemberSet",
+          "children": [
+            {
+              "name": "Add-NsxDynamicMemberSet"
+            },
+            {
+              "name": "Get-NsxDynamicMemberSet"
+            },
+            {
+              "name": "Remove-NsxDynamicMemberSet"
+            }
+          ]
+        },
+        {
+          "name": "NsxDynamicCriteria",
+          "children": [
+            {
+              "name": "Add-NsxDynamicCriteria"
+            },
+            {
+              "name": "Get-NsxDynamicCriteria"
+            },
+            {
+              "name": "Remove-NsxDynamicCriteria"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityTag",
+          "children": [
+            {
+              "name": "New-NsxSecurityTag"
+            },
+            {
+              "name": "Get-NsxSecurityTag"
+            },
+            {
+              "name": "Remove-NsxSecurityTag"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityTagAssignment",
+          "children": [
+            {
+              "name": "Get-NsxSecurityTagAssignment"
+            },
+            {
+              "name": "New-NsxSecurityTagAssignment"
+            },
+            {
+              "name": "Remove-NsxSecurityTagAssignment"
+            }
+          ]
+        },
+        {
+          "name": "NsxIpSet",
+          "children": [
+            {
+              "name": "Get-NsxIpSet"
+            },
+            {
+              "name": "New-NsxIpSet"
+            },
+            {
+              "name": "Remove-NsxIpSet"
+            }
+          ]
+        },
+        {
+          "name": "NsxMacSet",
+          "children": [
+            {
+              "name": "Get-NsxMacSet"
+            },
+            {
+              "name": "New-NsxMacSet"
+            },
+            {
+              "name": "Remove-NsxMacSet"
+            }
+          ]
+        },
+        {
+          "name": "NsxService",
+          "children": [
+            {
+              "name": "Get-NsxService"
+            },
+            {
+              "name": "New-NsxService"
+            },
+            {
+              "name": "Remove-NsxService"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallSection",
+          "children": [
+            {
+              "name": "Get-NsxFirewallSection"
+            },
+            {
+              "name": "New-NsxFirewallSection"
+            },
+            {
+              "name": "Remove-NsxFirewallSection"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallRule",
+          "children": [
+            {
+              "name": "Get-NsxFirewallRule"
+            },
+            {
+              "name": "New-NsxFirewallRule"
+            },
+            {
+              "name": "Set-NsxFirewallRule"
+            },
+            {
+              "name": "Remove-NsxFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancer",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancer"
+            },
+            {
+              "name": "Set-NsxLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerMonitor",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancerMonitor"
+            },
+            {
+              "name": "New-NsxLoadBalancerMonitor"
+            },
+            {
+              "name": "Remove-NsxLoadBalancerMonitor"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerApplicationProfile",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancerApplicationProfile"
+            },
+            {
+              "name": "New-NsxLoadBalancerApplicationProfile"
+            },
+            {
+              "name": "Remove-NsxLoadBalancerApplicationProfile"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerMemberSpec",
+          "children": [
+            {
+              "name": "New-NsxLoadBalancerMemberSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerPool",
+          "children": [
+            {
+              "name": "New-NsxLoadBalancerPool"
+            },
+            {
+              "name": "Get-NsxLoadBalancerPool"
+            },
+            {
+              "name": "Remove-NsxLoadBalancerPool"
+            },
+            {
+              "name": "Set-NsxLoadBalancerPool"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerPoolMember",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancerPoolMember"
+            },
+            {
+              "name": "Set-NsxLoadBalancerPoolMember"
+            },
+            {
+              "name": "Add-NsxLoadBalancerPoolMember"
+            },
+            {
+              "name": "Remove-NsxLoadBalancerPoolMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerVip",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancerVip"
+            },
+            {
+              "name": "Add-NsxLoadBalancerVip"
+            },
+            {
+              "name": "Remove-NsxLoadBalancerVip"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicy",
+          "children": [
+            {
+              "name": "Get-NsxSecurityPolicy"
+            },
+            {
+              "name": "Remove-NsxSecurityPolicy"
+            },
+            {
+              "name": "New-NsxSecurityPolicy"
+            },
+            {
+              "name": "Set-NsxSecurityPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicyRule",
+          "children": [
+            {
+              "name": "Add-NsxSecurityPolicyRule"
+            },
+            {
+              "name": "Get-NsxSecurityPolicyRule"
+            },
+            {
+              "name": "Move-NsxSecurityPolicyRule"
+            },
+            {
+              "name": "Remove-NsxSecurityPolicyRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicyFirewallRuleSpec",
+          "children": [
+            {
+              "name": "New-NsxSecurityPolicyFirewallRuleSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicyHighestUsedPrecedence",
+          "children": [
+            {
+              "name": "Get-NsxSecurityPolicyHighestUsedPrecedence"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicyGuestIntrospectionSpec",
+          "children": [
+            {
+              "name": "New-NsxSecurityPolicyGuestIntrospectionSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicyNetworkIntrospectionSpec",
+          "children": [
+            {
+              "name": "New-NsxSecurityPolicyNetworkIntrospectionSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicyAssignment",
+          "children": [
+            {
+              "name": "New-NsxSecurityPolicyAssignment"
+            },
+            {
+              "name": "Remove-NsxSecurityPolicyAssignment"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicyFirewallRule",
+          "children": [
+            {
+              "name": "Set-NsxSecurityPolicyFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicyRuleGroup",
+          "children": [
+            {
+              "name": "Add-NsxSecurityPolicyRuleGroup"
+            },
+            {
+              "name": "Remove-NsxSecurityPolicyRuleGroup"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicyRuleService",
+          "children": [
+            {
+              "name": "Add-NsxSecurityPolicyRuleService"
+            },
+            {
+              "name": "Remove-NsxSecurityPolicyRuleService"
+            }
+          ]
+        },
+        {
+          "name": "NsxApplicableSecurityAction",
+          "children": [
+            {
+              "name": "Get-NsxApplicableSecurityAction"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupEffectiveMember",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupEffectiveMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxServiceDefinition",
+          "children": [
+            {
+              "name": "Get-NsxServiceDefinition"
+            }
+          ]
+        },
+        {
+          "name": "NsxServiceProfile",
+          "children": [
+            {
+              "name": "Get-NsxServiceProfile"
+            }
+          ]
+        },
+        {
+          "name": "NsxWhereVMUsed",
+          "children": [
+            {
+              "name": "Find-NsxWhereVMUsed"
+            }
+          ]
+        },
+        {
+          "name": "NsxBackingPortGroup",
+          "children": [
+            {
+              "name": "Get-NsxBackingPortGroup"
+            }
+          ]
+        },
+        {
+          "name": "NsxBackingDVSwitch",
+          "children": [
+            {
+              "name": "Get-NsxBackingDVSwitch"
+            }
+          ]
+        },
+        {
+          "name": "PowerNsx",
+          "children": [
+            {
+              "name": "Update-PowerNsx"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallExclusionListMember",
+          "children": [
+            {
+              "name": "Get-NsxFirewallExclusionListMember"
+            },
+            {
+              "name": "Add-NsxFirewallExclusionListMember"
+            },
+            {
+              "name": "Remove-NsxFirewallExclusionListMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerSsoConfig",
+          "children": [
+            {
+              "name": "Get-NsxManagerSsoConfig"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerVcenterConfig",
+          "children": [
+            {
+              "name": "Get-NsxManagerVcenterConfig"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerTimeSettings",
+          "children": [
+            {
+              "name": "Get-NsxManagerTimeSettings"
+            },
+            {
+              "name": "Set-NsxManagerTimeSettings"
+            },
+            {
+              "name": "Clear-NsxManagerTimeSettings"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerSyslogServer",
+          "children": [
+            {
+              "name": "Get-NsxManagerSyslogServer"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerNetwork",
+          "children": [
+            {
+              "name": "Get-NsxManagerNetwork"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerBackup",
+          "children": [
+            {
+              "name": "Get-NsxManagerBackup"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerComponentSummary",
+          "children": [
+            {
+              "name": "Get-NsxManagerComponentSummary"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerSystemSummary",
+          "children": [
+            {
+              "name": "Get-NsxManagerSystemSummary"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerCertificate",
+          "children": [
+            {
+              "name": "Get-NsxManagerCertificate"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerRole",
+          "children": [
+            {
+              "name": "Get-NsxManagerRole"
+            },
+            {
+              "name": "Set-NsxManagerRole"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerSync",
+          "children": [
+            {
+              "name": "Invoke-NsxManagerSync"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerSyncStatus",
+          "children": [
+            {
+              "name": "Get-NsxManagerSyncStatus"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecondaryManager",
+          "children": [
+            {
+              "name": "Add-NsxSecondaryManager"
+            },
+            {
+              "name": "Get-NsxSecondaryManager"
+            },
+            {
+              "name": "Remove-NsxSecondaryManager"
+            }
+          ]
+        },
+        {
+          "name": "NsxServiceGroup",
+          "children": [
+            {
+              "name": "New-NsxServiceGroup"
+            },
+            {
+              "name": "Get-NsxServiceGroup"
+            },
+            {
+              "name": "Remove-NsxServiceGroup"
+            }
+          ]
+        },
+        {
+          "name": "NsxServiceGroupMember",
+          "children": [
+            {
+              "name": "Add-NsxServiceGroupMember"
+            },
+            {
+              "name": "Get-NsxServiceGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerStats",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancerStats"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallSavedConfiguration",
+          "children": [
+            {
+              "name": "Get-NsxFirewallSavedConfiguration"
+            },
+            {
+              "name": "New-NsxFirewallSavedConfiguration"
+            },
+            {
+              "name": "Remove-NsxFirewallSavedConfiguration"
+            },
+            {
+              "name": "Set-NsxFirewallSavedConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerApplicationRule",
+          "children": [
+            {
+              "name": "New-NsxLoadBalancerApplicationRule"
+            },
+            {
+              "name": "Get-NsxLoadBalancerApplicationRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxObject",
+          "children": [
+            {
+              "name": "Export-NsxObject"
+            },
+            {
+              "name": "Import-NsxObject"
+            }
+          ]
+        },
+        {
+          "name": "NsxLicense",
+          "children": [
+            {
+              "name": "Add-NsxLicense"
+            },
+            {
+              "name": "Get-NsxLicense"
+            }
+          ]
+        },
+        {
+          "name": "NsxApplicableMember",
+          "children": [
+            {
+              "name": "Get-NsxApplicableMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupMemberTypes",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupMemberTypes"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupEffectiveVirtualMachine",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupEffectiveVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupEffectiveIpAddress",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupEffectiveIpAddress"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupEffectiveMacAddress",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupEffectiveMacAddress"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupEffectiveVnic",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupEffectiveVnic"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallThreshold",
+          "children": [
+            {
+              "name": "Set-NsxFirewallThreshold"
+            },
+            {
+              "name": "Get-NsxFirewallThreshold"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallGlobalConfiguration",
+          "children": [
+            {
+              "name": "Get-NsxFirewallGlobalConfiguration"
+            },
+            {
+              "name": "Set-NsxFirewallGlobalConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "NsxIpSetMember",
+          "children": [
+            {
+              "name": "Add-NsxIpSetMember"
+            },
+            {
+              "name": "Remove-NsxIpSetMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxUserRole",
+          "children": [
+            {
+              "name": "Get-NsxUserRole"
+            }
+          ]
+        },
+        {
+          "name": "XpathQuery",
+          "children": [
+            {
+              "name": "Invoke-XpathQuery"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallRuleMember",
+          "children": [
+            {
+              "name": "Get-NsxFirewallRuleMember"
+            },
+            {
+              "name": "Add-NsxFirewallRuleMember"
+            },
+            {
+              "name": "Remove-NsxFirewallRuleMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxGenericJob",
+          "children": [
+            {
+              "name": "Wait-NsxGenericJob"
+            }
+          ]
+        },
+        {
+          "name": "NsxClusterResolveAll",
+          "children": [
+            {
+              "name": "Invoke-NsxClusterResolveAll"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallPublishStatus",
+          "children": [
+            {
+              "name": "Get-NsxFirewallPublishStatus"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterBridging",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterBridging"
+            },
+            {
+              "name": "Set-NsxLogicalRouterBridging"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterBridge",
+          "children": [
+            {
+              "name": "New-NsxLogicalRouterBridge"
+            },
+            {
+              "name": "Get-NsxLogicalRouterBridge"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterBridge"
+            }
+          ]
+        },
+        {
+          "name": "NsxIPsecStats",
+          "children": [
+            {
+              "name": "Get-NsxIPsecStats"
+            }
+          ]
+        },
+        {
+          "name": "NsxDns",
+          "children": [
+            {
+              "name": "Get-NsxDns"
+            },
+            {
+              "name": "Set-NsxDns"
+            },
+            {
+              "name": "Remove-NsxDns"
+            }
+          ]
+        },
+        {
+          "name": "NsxIPsec",
+          "children": [
+            {
+              "name": "Get-NsxIPsec"
+            },
+            {
+              "name": "Set-NsxIPsec"
+            },
+            {
+              "name": "Remove-NsxIPsec"
+            }
+          ]
+        },
+        {
+          "name": "NsxIPsecSite",
+          "children": [
+            {
+              "name": "Add-NsxIPsecSite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowervRACloud",
+      "companyName": "VMware",
+      "author": "Munishpal Makhija",
+      "children": [
+        {
+          "name": "vRACloudCommands",
+          "children": [
+            {
+              "name": "Get-vRACloudCommands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowervRLICloud",
+      "companyName": "VMware",
+      "author": "Munishpal Makhija",
+      "children": [
+        {
+          "name": "AccessKey",
+          "children": [
+            {
+              "name": "Create-AccessKey"
+            },
+            {
+              "name": "Get-AccessKey"
+            },
+            {
+              "name": "Remove-AccessKey"
+            }
+          ]
+        },
+        {
+          "name": "AlertDefinitions",
+          "children": [
+            {
+              "name": "Get-AlertDefinitions"
+            }
+          ]
+        },
+        {
+          "name": "AlertInstanceById",
+          "children": [
+            {
+              "name": "Get-AlertInstanceById"
+            }
+          ]
+        },
+        {
+          "name": "AlertInstances",
+          "children": [
+            {
+              "name": "Get-AlertInstances"
+            }
+          ]
+        },
+        {
+          "name": "CurrentDataset",
+          "children": [
+            {
+              "name": "Get-CurrentDataset"
+            }
+          ]
+        },
+        {
+          "name": "CurrentRole",
+          "children": [
+            {
+              "name": "Get-CurrentRole"
+            }
+          ]
+        },
+        {
+          "name": "Datasets",
+          "children": [
+            {
+              "name": "Get-Datasets"
+            }
+          ]
+        },
+        {
+          "name": "QueryResponse",
+          "children": [
+            {
+              "name": "Get-QueryResponse"
+            }
+          ]
+        },
+        {
+          "name": "Roles",
+          "children": [
+            {
+              "name": "Get-Roles"
+            }
+          ]
+        },
+        {
+          "name": "SubscriptionStatus",
+          "children": [
+            {
+              "name": "Get-SubscriptionStatus"
+            }
+          ]
+        },
+        {
+          "name": "UsageReport",
+          "children": [
+            {
+              "name": "Get-UsageReport"
+            }
+          ]
+        },
+        {
+          "name": "AlertDefinition",
+          "children": [
+            {
+              "name": "Remove-AlertDefinition"
+            },
+            {
+              "name": "Create-AlertDefinition"
+            }
+          ]
+        },
+        {
+          "name": "LogsToCloudProxy",
+          "children": [
+            {
+              "name": "Post-LogsToCloudProxy"
+            }
+          ]
+        },
+        {
+          "name": "LogsTovRLICloud",
+          "children": [
+            {
+              "name": "Post-LogsTovRLICloud"
+            }
+          ]
+        },
+        {
+          "name": "UserInOrg",
+          "children": [
+            {
+              "name": "Search-UserInOrg"
+            }
+          ]
+        },
+        {
+          "name": "UserServiceRoles",
+          "children": [
+            {
+              "name": "Get-UserServiceRoles"
+            }
+          ]
+        },
+        {
+          "name": "NewUserTovRLICloudService",
+          "children": [
+            {
+              "name": "Invite-NewUserTovRLICloudService"
+            }
+          ]
+        },
+        {
+          "name": "UserTovRLICloudService",
+          "children": [
+            {
+              "name": "Add-UserTovRLICloudService"
+            }
+          ]
+        },
+        {
+          "name": "UserFromvRLICloudService",
+          "children": [
+            {
+              "name": "Remove-UserFromvRLICloudService"
+            }
+          ]
+        },
+        {
+          "name": "UserFromOrg",
+          "children": [
+            {
+              "name": "Remove-UserFromOrg"
+            }
+          ]
+        },
+        {
+          "name": "Tags",
+          "children": [
+            {
+              "name": "Get-Tags"
+            }
+          ]
+        },
+        {
+          "name": "Tag",
+          "children": [
+            {
+              "name": "Create-Tag"
+            },
+            {
+              "name": "Remove-Tag"
+            }
+          ]
+        },
+        {
+          "name": "vSphereConfig",
+          "children": [
+            {
+              "name": "Get-vSphereConfig"
+            }
+          ]
+        },
+        {
+          "name": "WebhookConfig",
+          "children": [
+            {
+              "name": "Get-WebhookConfig"
+            }
+          ]
+        },
+        {
+          "name": "Fields",
+          "children": [
+            {
+              "name": "Get-Fields"
+            }
+          ]
+        },
+        {
+          "name": "QueryDefinition",
+          "children": [
+            {
+              "name": "Create-QueryDefinition"
+            },
+            {
+              "name": "Remove-QueryDefinition"
+            }
+          ]
+        },
+        {
+          "name": "QueryDefinitions",
+          "children": [
+            {
+              "name": "Get-QueryDefinitions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowervRNI",
+      "companyName": "VMware",
+      "author": "Martijn Smit",
+      "children": [
+        {
+          "name": "vRNIServer",
+          "children": [
+            {
+              "name": "Connect-vRNIServer"
+            },
+            {
+              "name": "Disconnect-vRNIServer"
+            }
+          ]
+        },
+        {
+          "name": "NIServer",
+          "children": [
+            {
+              "name": "Connect-NIServer"
+            }
+          ]
+        },
+        {
+          "name": "vRNIDataSource",
+          "children": [
+            {
+              "name": "Disable-vRNIDataSource"
+            },
+            {
+              "name": "Enable-vRNIDataSource"
+            },
+            {
+              "name": "Get-vRNIDataSource"
+            },
+            {
+              "name": "New-vRNIDataSource"
+            },
+            {
+              "name": "Remove-vRNIDataSource"
+            }
+          ]
+        },
+        {
+          "name": "vRNIAPIVersion",
+          "children": [
+            {
+              "name": "Get-vRNIAPIVersion"
+            }
+          ]
+        },
+        {
+          "name": "vRNIApplication",
+          "children": [
+            {
+              "name": "Get-vRNIApplication"
+            },
+            {
+              "name": "New-vRNIApplication"
+            },
+            {
+              "name": "Remove-vRNIApplication"
+            }
+          ]
+        },
+        {
+          "name": "vRNIApplicationTier",
+          "children": [
+            {
+              "name": "Get-vRNIApplicationTier"
+            },
+            {
+              "name": "New-vRNIApplicationTier"
+            },
+            {
+              "name": "Remove-vRNIApplicationTier"
+            }
+          ]
+        },
+        {
+          "name": "vRNIDatastore",
+          "children": [
+            {
+              "name": "Get-vRNIDatastore"
+            }
+          ]
+        },
+        {
+          "name": "vRNIDistributedSwitch",
+          "children": [
+            {
+              "name": "Get-vRNIDistributedSwitch"
+            }
+          ]
+        },
+        {
+          "name": "vRNIDistributedSwitchPortGroup",
+          "children": [
+            {
+              "name": "Get-vRNIDistributedSwitchPortGroup"
+            }
+          ]
+        },
+        {
+          "name": "vRNIEntity",
+          "children": [
+            {
+              "name": "Get-vRNIEntity"
+            }
+          ]
+        },
+        {
+          "name": "vRNIEntityName",
+          "children": [
+            {
+              "name": "Get-vRNIEntityName"
+            }
+          ]
+        },
+        {
+          "name": "vRNIFirewallRule",
+          "children": [
+            {
+              "name": "Get-vRNIFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "vRNIFlow",
+          "children": [
+            {
+              "name": "Get-vRNIFlow"
+            }
+          ]
+        },
+        {
+          "name": "vRNIHost",
+          "children": [
+            {
+              "name": "Get-vRNIHost"
+            }
+          ]
+        },
+        {
+          "name": "vRNIHostVMKNic",
+          "children": [
+            {
+              "name": "Get-vRNIHostVMKNic"
+            }
+          ]
+        },
+        {
+          "name": "vRNIIPSet",
+          "children": [
+            {
+              "name": "Get-vRNIIPSet"
+            }
+          ]
+        },
+        {
+          "name": "vRNIL2Network",
+          "children": [
+            {
+              "name": "Get-vRNIL2Network"
+            }
+          ]
+        },
+        {
+          "name": "vRNINodes",
+          "children": [
+            {
+              "name": "Get-vRNINodes"
+            }
+          ]
+        },
+        {
+          "name": "vRNINSXManager",
+          "children": [
+            {
+              "name": "Get-vRNINSXManager"
+            }
+          ]
+        },
+        {
+          "name": "vRNIProblem",
+          "children": [
+            {
+              "name": "Get-vRNIProblem"
+            }
+          ]
+        },
+        {
+          "name": "vRNIRecommendedRules",
+          "children": [
+            {
+              "name": "Get-vRNIRecommendedRules"
+            }
+          ]
+        },
+        {
+          "name": "vRNIRecommendedRulesNsxBundle",
+          "children": [
+            {
+              "name": "Get-vRNIRecommendedRulesNsxBundle"
+            }
+          ]
+        },
+        {
+          "name": "vRNISecurityGroup",
+          "children": [
+            {
+              "name": "Get-vRNISecurityGroup"
+            }
+          ]
+        },
+        {
+          "name": "vRNISecurityTag",
+          "children": [
+            {
+              "name": "Get-vRNISecurityTag"
+            }
+          ]
+        },
+        {
+          "name": "vRNIService",
+          "children": [
+            {
+              "name": "Get-vRNIService"
+            }
+          ]
+        },
+        {
+          "name": "vRNIServiceGroup",
+          "children": [
+            {
+              "name": "Get-vRNIServiceGroup"
+            }
+          ]
+        },
+        {
+          "name": "vRNIvCenter",
+          "children": [
+            {
+              "name": "Get-vRNIvCenter"
+            }
+          ]
+        },
+        {
+          "name": "vRNIvCenterCluster",
+          "children": [
+            {
+              "name": "Get-vRNIvCenterCluster"
+            }
+          ]
+        },
+        {
+          "name": "vRNIvCenterDatacenter",
+          "children": [
+            {
+              "name": "Get-vRNIvCenterDatacenter"
+            }
+          ]
+        },
+        {
+          "name": "vRNIvCenterFolder",
+          "children": [
+            {
+              "name": "Get-vRNIvCenterFolder"
+            }
+          ]
+        },
+        {
+          "name": "vRNIVM",
+          "children": [
+            {
+              "name": "Get-vRNIVM"
+            }
+          ]
+        },
+        {
+          "name": "vRNIVMvNIC",
+          "children": [
+            {
+              "name": "Get-vRNIVMvNIC"
+            }
+          ]
+        },
+        {
+          "name": "vRNIDataSourceSNMPConfig",
+          "children": [
+            {
+              "name": "Get-vRNIDataSourceSNMPConfig"
+            },
+            {
+              "name": "Set-vRNIDataSourceSNMPConfig"
+            }
+          ]
+        },
+        {
+          "name": "vRNISDDC",
+          "children": [
+            {
+              "name": "Get-vRNISDDC"
+            }
+          ]
+        },
+        {
+          "name": "vRNIRestMethod",
+          "children": [
+            {
+              "name": "Invoke-vRNIRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "vRNISubnetMapping",
+          "children": [
+            {
+              "name": "New-vRNISubnetMapping"
+            },
+            {
+              "name": "Get-vRNISubnetMapping"
+            }
+          ]
+        },
+        {
+          "name": "vRNIEastWestIP",
+          "children": [
+            {
+              "name": "Get-vRNIEastWestIP"
+            },
+            {
+              "name": "Add-vRNIEastWestIP"
+            },
+            {
+              "name": "Remove-vRNIEastWestIP"
+            }
+          ]
+        },
+        {
+          "name": "vRNINorthSouthIP",
+          "children": [
+            {
+              "name": "Get-vRNINorthSouthIP"
+            },
+            {
+              "name": "Add-vRNINorthSouthIP"
+            },
+            {
+              "name": "Remove-vRNINorthSouthIP"
+            }
+          ]
+        },
+        {
+          "name": "vRNISettingsVIDM",
+          "children": [
+            {
+              "name": "Get-vRNISettingsVIDM"
+            },
+            {
+              "name": "Set-vRNISettingsVIDM"
+            }
+          ]
+        },
+        {
+          "name": "vRNISettingsUserGroup",
+          "children": [
+            {
+              "name": "Get-vRNISettingsUserGroup"
+            },
+            {
+              "name": "Set-vRNISettingsUserGroup"
+            },
+            {
+              "name": "Remove-vRNISettingsUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "vRNISettingsUser",
+          "children": [
+            {
+              "name": "Get-vRNISettingsUser"
+            },
+            {
+              "name": "Set-vRNISettingsUser"
+            },
+            {
+              "name": "Remove-vRNISettingsUser"
+            }
+          ]
+        },
+        {
+          "name": "vRNIAuditLogs",
+          "children": [
+            {
+              "name": "Get-vRNIAuditLogs"
+            }
+          ]
+        },
+        {
+          "name": "vRNIApplicationMemberVM",
+          "children": [
+            {
+              "name": "Get-vRNIApplicationMemberVM"
+            }
+          ]
+        },
+        {
+          "name": "vRNIUserPassword",
+          "children": [
+            {
+              "name": "Set-vRNIUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "vRNIKubernetesServices",
+          "children": [
+            {
+              "name": "Get-vRNIKubernetesServices"
+            }
+          ]
+        },
+        {
+          "name": "vRNIDataSourceData",
+          "children": [
+            {
+              "name": "Update-vRNIDataSourceData"
+            }
+          ]
+        },
+        {
+          "name": "vRNINSXvControllerClusterPassword",
+          "children": [
+            {
+              "name": "Update-vRNINSXvControllerClusterPassword"
+            }
+          ]
+        },
+        {
+          "name": "vRNIEntityNames",
+          "children": [
+            {
+              "name": "Get-vRNIEntityNames"
+            }
+          ]
+        },
+        {
+          "name": "vRNISearch",
+          "children": [
+            {
+              "name": "Invoke-vRNISearch"
+            }
+          ]
+        },
+        {
+          "name": "vRNILicensing",
+          "children": [
+            {
+              "name": "Get-vRNILicensing"
+            },
+            {
+              "name": "Test-vRNILicensing"
+            },
+            {
+              "name": "Install-vRNILicensing"
+            },
+            {
+              "name": "Remove-vRNILicensing"
+            }
+          ]
+        },
+        {
+          "name": "vRNIBackup",
+          "children": [
+            {
+              "name": "Get-vRNIBackup"
+            },
+            {
+              "name": "Remove-vRNIBackup"
+            },
+            {
+              "name": "Enable-vRNIBackup"
+            },
+            {
+              "name": "Disable-vRNIBackup"
+            },
+            {
+              "name": "Set-vRNIBackup"
+            }
+          ]
+        },
+        {
+          "name": "vRNIBackupStatus",
+          "children": [
+            {
+              "name": "Get-vRNIBackupStatus"
+            }
+          ]
+        },
+        {
+          "name": "vRNIDatabusSubscriber",
+          "children": [
+            {
+              "name": "Get-vRNIDatabusSubscriber"
+            },
+            {
+              "name": "New-vRNIDatabusSubscriber"
+            },
+            {
+              "name": "Remove-vRNIDatabusSubscriber"
+            }
+          ]
+        },
+        {
+          "name": "vRNISDDCGroup",
+          "children": [
+            {
+              "name": "Get-vRNISDDCGroup"
+            }
+          ]
+        },
+        {
+          "name": "vRNIVMCDirectConnect",
+          "children": [
+            {
+              "name": "Get-vRNIVMCDirectConnect"
+            }
+          ]
+        },
+        {
+          "name": "vRNIVMCDirectConnectInterface",
+          "children": [
+            {
+              "name": "Get-vRNIVMCDirectConnectInterface"
+            }
+          ]
+        },
+        {
+          "name": "vRNISwitchPort",
+          "children": [
+            {
+              "name": "Get-vRNISwitchPort"
+            }
+          ]
+        },
+        {
+          "name": "vRNILogicalRouter",
+          "children": [
+            {
+              "name": "Get-vRNILogicalRouter"
+            }
+          ]
+        },
+        {
+          "name": "vRNIVMwareTransitGateway",
+          "children": [
+            {
+              "name": "Get-vRNIVMwareTransitGateway"
+            }
+          ]
+        },
+        {
+          "name": "vRNINSXTIPsecVPNSessions",
+          "children": [
+            {
+              "name": "Get-vRNINSXTIPsecVPNSessions"
+            }
+          ]
+        },
+        {
+          "name": "vRNISettingsLoginBanner",
+          "children": [
+            {
+              "name": "Get-vRNISettingsLoginBanner"
+            },
+            {
+              "name": "Set-vRNISettingsLoginBanner"
+            },
+            {
+              "name": "Remove-vRNISettingsLoginBanner"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SaltStackConfig",
+      "companyName": "VMware",
+      "author": "Brian Wuchner",
+      "children": [
+        {
+          "name": "SscServer",
+          "children": [
+            {
+              "name": "Connect-SscServer"
+            },
+            {
+              "name": "Disconnect-SscServer"
+            }
+          ]
+        },
+        {
+          "name": "SscActivity",
+          "children": [
+            {
+              "name": "Get-SscActivity"
+            }
+          ]
+        },
+        {
+          "name": "SscData",
+          "children": [
+            {
+              "name": "Get-SscData"
+            }
+          ]
+        },
+        {
+          "name": "SscJob",
+          "children": [
+            {
+              "name": "Get-SscJob"
+            }
+          ]
+        },
+        {
+          "name": "SscMaster",
+          "children": [
+            {
+              "name": "Get-SscMaster"
+            }
+          ]
+        },
+        {
+          "name": "SscMinionCache",
+          "children": [
+            {
+              "name": "Get-SscMinionCache"
+            }
+          ]
+        },
+        {
+          "name": "SscReturn",
+          "children": [
+            {
+              "name": "Get-SscReturn"
+            }
+          ]
+        },
+        {
+          "name": "SscSchedule",
+          "children": [
+            {
+              "name": "Get-SscSchedule"
+            }
+          ]
+        },
+        {
+          "name": "SscFile",
+          "children": [
+            {
+              "name": "Get-SscFile"
+            },
+            {
+              "name": "Set-SscFile"
+            },
+            {
+              "name": "New-SscFile"
+            },
+            {
+              "name": "Remove-SscFile"
+            }
+          ]
+        },
+        {
+          "name": "SscLicense",
+          "children": [
+            {
+              "name": "Get-SscLicense"
+            }
+          ]
+        },
+        {
+          "name": "SscvRALicense",
+          "children": [
+            {
+              "name": "Get-SscvRALicense"
+            }
+          ]
+        },
+        {
+          "name": "SscMinionKey",
+          "children": [
+            {
+              "name": "Get-SscMinionKey"
+            },
+            {
+              "name": "Set-SscMinionKey"
+            },
+            {
+              "name": "Remove-SscMinionKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkylineAutomationToolkit",
+      "companyName": "VMware",
+      "author": "Sonny Nguyen",
+      "children": [
+        {
+          "name": "fixer",
+          "children": [
+            {
+              "name": "skyline-fixer"
+            }
+          ]
+        },
+        {
+          "name": "helper",
+          "children": [
+            {
+              "name": "skyline-helper"
+            }
+          ]
+        },
+        {
+          "name": "docker",
+          "children": [
+            {
+              "name": "skyline-docker"
+            }
+          ]
+        },
+        {
+          "name": "comm",
+          "children": [
+            {
+              "name": "skyline-comm"
+            }
+          ]
+        },
+        {
+          "name": "sec",
+          "children": [
+            {
+              "name": "skyline-sec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SkylineUtils",
+      "companyName": "VMware",
+      "author": "Sonny Nguyen",
+      "children": [
+        {
+          "name": "fixer",
+          "children": [
+            {
+              "name": "skyline-fixer"
+            }
+          ]
+        },
+        {
+          "name": "helper",
+          "children": [
+            {
+              "name": "skyline-helper"
+            }
+          ]
+        },
+        {
+          "name": "docker",
+          "children": [
+            {
+              "name": "skyline-docker"
+            }
+          ]
+        },
+        {
+          "name": "comm",
+          "children": [
+            {
+              "name": "skyline-comm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TestNBPNSX",
+      "companyName": "VMware",
+      "author": "Nick Bradford",
+      "children": [
+        {
+          "name": "XmlElement",
+          "children": [
+            {
+              "name": "Add-XmlElement"
+            }
+          ]
+        },
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "Format-Xml"
+            }
+          ]
+        },
+        {
+          "name": "NsxRestMethod",
+          "children": [
+            {
+              "name": "Invoke-NsxRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "NsxWebRequest",
+          "children": [
+            {
+              "name": "Invoke-NsxWebRequest"
+            }
+          ]
+        },
+        {
+          "name": "NsxServer",
+          "children": [
+            {
+              "name": "Connect-NsxServer"
+            },
+            {
+              "name": "Disconnect-NsxServer"
+            }
+          ]
+        },
+        {
+          "name": "PowerNsxVersion",
+          "children": [
+            {
+              "name": "Get-PowerNsxVersion"
+            }
+          ]
+        },
+        {
+          "name": "NsxClusterStatus",
+          "children": [
+            {
+              "name": "Get-NsxClusterStatus"
+            }
+          ]
+        },
+        {
+          "name": "NsxCli",
+          "children": [
+            {
+              "name": "Invoke-NsxCli"
+            }
+          ]
+        },
+        {
+          "name": "NsxJob",
+          "children": [
+            {
+              "name": "Wait-NsxJob"
+            }
+          ]
+        },
+        {
+          "name": "NsxCliDfwFilter",
+          "children": [
+            {
+              "name": "Get-NsxCliDfwFilter"
+            }
+          ]
+        },
+        {
+          "name": "NsxCliDfwRule",
+          "children": [
+            {
+              "name": "Get-NsxCliDfwRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxCliDfwAddrSet",
+          "children": [
+            {
+              "name": "Get-NsxCliDfwAddrSet"
+            }
+          ]
+        },
+        {
+          "name": "NsxManager",
+          "children": [
+            {
+              "name": "New-NsxManager"
+            },
+            {
+              "name": "Set-NsxManager"
+            }
+          ]
+        },
+        {
+          "name": "NsxController",
+          "children": [
+            {
+              "name": "New-NsxController"
+            },
+            {
+              "name": "Get-NsxController"
+            },
+            {
+              "name": "Remove-NsxController"
+            }
+          ]
+        },
+        {
+          "name": "NsxControllerJob",
+          "children": [
+            {
+              "name": "Wait-NsxControllerJob"
+            }
+          ]
+        },
+        {
+          "name": "NsxIpPool",
+          "children": [
+            {
+              "name": "New-NsxIpPool"
+            },
+            {
+              "name": "Get-NsxIpPool"
+            },
+            {
+              "name": "Remove-NsxIpPool"
+            }
+          ]
+        },
+        {
+          "name": "NsxVdsContext",
+          "children": [
+            {
+              "name": "Get-NsxVdsContext"
+            },
+            {
+              "name": "New-NsxVdsContext"
+            },
+            {
+              "name": "Remove-NsxVdsContext"
+            }
+          ]
+        },
+        {
+          "name": "NsxClusterVxlanConfig",
+          "children": [
+            {
+              "name": "New-NsxClusterVxlanConfig"
+            },
+            {
+              "name": "Remove-NsxClusterVxlanConfig"
+            }
+          ]
+        },
+        {
+          "name": "NsxCluster",
+          "children": [
+            {
+              "name": "Install-NsxCluster"
+            },
+            {
+              "name": "Remove-NsxCluster"
+            }
+          ]
+        },
+        {
+          "name": "NsxSegmentIdRange",
+          "children": [
+            {
+              "name": "New-NsxSegmentIdRange"
+            },
+            {
+              "name": "Get-NsxSegmentIdRange"
+            },
+            {
+              "name": "Remove-NsxSegmentIdRange"
+            }
+          ]
+        },
+        {
+          "name": "NsxTransportZone",
+          "children": [
+            {
+              "name": "Get-NsxTransportZone"
+            },
+            {
+              "name": "New-NsxTransportZone"
+            },
+            {
+              "name": "Remove-NsxTransportZone"
+            }
+          ]
+        },
+        {
+          "name": "NsxTransportZoneMember",
+          "children": [
+            {
+              "name": "Add-NsxTransportZoneMember"
+            },
+            {
+              "name": "Remove-NsxTransportZoneMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalSwitch",
+          "children": [
+            {
+              "name": "Get-NsxLogicalSwitch"
+            },
+            {
+              "name": "New-NsxLogicalSwitch"
+            },
+            {
+              "name": "Remove-NsxLogicalSwitch"
+            },
+            {
+              "name": "Connect-NsxLogicalSwitch"
+            },
+            {
+              "name": "Disconnect-NsxLogicalSwitch"
+            }
+          ]
+        },
+        {
+          "name": "NsxSpoofguardPolicy",
+          "children": [
+            {
+              "name": "Get-NsxSpoofguardPolicy"
+            },
+            {
+              "name": "New-NsxSpoofguardPolicy"
+            },
+            {
+              "name": "Remove-NsxSpoofguardPolicy"
+            },
+            {
+              "name": "Publish-NsxSpoofguardPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NsxSpoofguardNic",
+          "children": [
+            {
+              "name": "Get-NsxSpoofguardNic"
+            }
+          ]
+        },
+        {
+          "name": "NsxSpoofguardNicApproval",
+          "children": [
+            {
+              "name": "Grant-NsxSpoofguardNicApproval"
+            },
+            {
+              "name": "Revoke-NsxSpoofguardNicApproval"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouter",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouter"
+            },
+            {
+              "name": "New-NsxLogicalRouter"
+            },
+            {
+              "name": "Remove-NsxLogicalRouter"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterInterfaceSpec",
+          "children": [
+            {
+              "name": "New-NsxLogicalRouterInterfaceSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterInterface",
+          "children": [
+            {
+              "name": "Set-NsxLogicalRouterInterface"
+            },
+            {
+              "name": "New-NsxLogicalRouterInterface"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterInterface"
+            },
+            {
+              "name": "Get-NsxLogicalRouterInterface"
+            }
+          ]
+        },
+        {
+          "name": "NsxAddressSpec",
+          "children": [
+            {
+              "name": "New-NsxAddressSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeInterfaceSpec",
+          "children": [
+            {
+              "name": "New-NsxEdgeInterfaceSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeSubInterfaceSpec",
+          "children": [
+            {
+              "name": "New-NsxEdgeSubInterfaceSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeInterface",
+          "children": [
+            {
+              "name": "Set-NsxEdgeInterface"
+            },
+            {
+              "name": "Clear-NsxEdgeInterface"
+            },
+            {
+              "name": "Get-NsxEdgeInterface"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeSubInterface",
+          "children": [
+            {
+              "name": "New-NsxEdgeSubInterface"
+            },
+            {
+              "name": "Remove-NsxEdgeSubInterface"
+            },
+            {
+              "name": "Get-NsxEdgeSubInterface"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeInterfaceAddress",
+          "children": [
+            {
+              "name": "Get-NsxEdgeInterfaceAddress"
+            },
+            {
+              "name": "Add-NsxEdgeInterfaceAddress"
+            },
+            {
+              "name": "Remove-NsxEdgeInterfaceAddress"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdge",
+          "children": [
+            {
+              "name": "Get-NsxEdge"
+            },
+            {
+              "name": "New-NsxEdge"
+            },
+            {
+              "name": "Repair-NsxEdge"
+            },
+            {
+              "name": "Set-NsxEdge"
+            },
+            {
+              "name": "Remove-NsxEdge"
+            },
+            {
+              "name": "Copy-NsxEdge"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeSsh",
+          "children": [
+            {
+              "name": "Enable-NsxEdgeSsh"
+            },
+            {
+              "name": "Disable-NsxEdgeSsh"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeNat",
+          "children": [
+            {
+              "name": "Set-NsxEdgeNat"
+            },
+            {
+              "name": "Get-NsxEdgeNat"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeNatRule",
+          "children": [
+            {
+              "name": "Get-NsxEdgeNatRule"
+            },
+            {
+              "name": "New-NsxEdgeNatRule"
+            },
+            {
+              "name": "Remove-NsxEdgeNatRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeFirewall",
+          "children": [
+            {
+              "name": "Set-NsxEdgeFirewall"
+            },
+            {
+              "name": "Get-NsxEdgeFirewall"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeFirewallRule",
+          "children": [
+            {
+              "name": "Get-NsxEdgeFirewallRule"
+            },
+            {
+              "name": "New-NsxEdgeFirewallRule"
+            },
+            {
+              "name": "Remove-NsxEdgeFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeCsr",
+          "children": [
+            {
+              "name": "Get-NsxEdgeCsr"
+            },
+            {
+              "name": "New-NsxEdgeCsr"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeCrl",
+          "children": [
+            {
+              "name": "Remove-NsxEdgeCrl"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeCertificate",
+          "children": [
+            {
+              "name": "Get-NsxEdgeCertificate"
+            },
+            {
+              "name": "Remove-NsxEdgeCertificate"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeSelfSignedCertificate",
+          "children": [
+            {
+              "name": "New-NsxEdgeSelfSignedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpn",
+          "children": [
+            {
+              "name": "Get-NsxSslVpn"
+            },
+            {
+              "name": "Set-NsxSslVpn"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpnAuthServer",
+          "children": [
+            {
+              "name": "New-NsxSslVpnAuthServer"
+            },
+            {
+              "name": "Get-NsxSslVpnAuthServer"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpnUser",
+          "children": [
+            {
+              "name": "New-NsxSslVpnUser"
+            },
+            {
+              "name": "Get-NsxSslVpnUser"
+            },
+            {
+              "name": "Remove-NsxSslVpnUser"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpnIpPool",
+          "children": [
+            {
+              "name": "New-NsxSslVpnIpPool"
+            },
+            {
+              "name": "Get-NsxSslVpnIpPool"
+            },
+            {
+              "name": "Remove-NsxSslVpnIpPool"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpnPrivateNetwork",
+          "children": [
+            {
+              "name": "New-NsxSslVpnPrivateNetwork"
+            },
+            {
+              "name": "Get-NsxSslVpnPrivateNetwork"
+            },
+            {
+              "name": "Remove-NsxSslVpnPrivateNetwork"
+            }
+          ]
+        },
+        {
+          "name": "NsxSslVpnClientInstallationPackage",
+          "children": [
+            {
+              "name": "New-NsxSslVpnClientInstallationPackage"
+            },
+            {
+              "name": "Get-NsxSslVpnClientInstallationPackage"
+            },
+            {
+              "name": "Remove-NsxSslVpnClientInstallationPackage"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeRouting",
+          "children": [
+            {
+              "name": "Set-NsxEdgeRouting"
+            },
+            {
+              "name": "Get-NsxEdgeRouting"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeStaticRoute",
+          "children": [
+            {
+              "name": "Get-NsxEdgeStaticRoute"
+            },
+            {
+              "name": "New-NsxEdgeStaticRoute"
+            },
+            {
+              "name": "Remove-NsxEdgeStaticRoute"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgePrefix",
+          "children": [
+            {
+              "name": "Get-NsxEdgePrefix"
+            },
+            {
+              "name": "New-NsxEdgePrefix"
+            },
+            {
+              "name": "Remove-NsxEdgePrefix"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeBgp",
+          "children": [
+            {
+              "name": "Get-NsxEdgeBgp"
+            },
+            {
+              "name": "Set-NsxEdgeBgp"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeBgpNeighbour",
+          "children": [
+            {
+              "name": "Get-NsxEdgeBgpNeighbour"
+            },
+            {
+              "name": "New-NsxEdgeBgpNeighbour"
+            },
+            {
+              "name": "Remove-NsxEdgeBgpNeighbour"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeOspf",
+          "children": [
+            {
+              "name": "Get-NsxEdgeOspf"
+            },
+            {
+              "name": "Set-NsxEdgeOspf"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeOspfArea",
+          "children": [
+            {
+              "name": "Get-NsxEdgeOspfArea"
+            },
+            {
+              "name": "Remove-NsxEdgeOspfArea"
+            },
+            {
+              "name": "New-NsxEdgeOspfArea"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeOspfInterface",
+          "children": [
+            {
+              "name": "Get-NsxEdgeOspfInterface"
+            },
+            {
+              "name": "Remove-NsxEdgeOspfInterface"
+            },
+            {
+              "name": "New-NsxEdgeOspfInterface"
+            }
+          ]
+        },
+        {
+          "name": "NsxEdgeRedistributionRule",
+          "children": [
+            {
+              "name": "Get-NsxEdgeRedistributionRule"
+            },
+            {
+              "name": "Remove-NsxEdgeRedistributionRule"
+            },
+            {
+              "name": "New-NsxEdgeRedistributionRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterRouting",
+          "children": [
+            {
+              "name": "Set-NsxLogicalRouterRouting"
+            },
+            {
+              "name": "Get-NsxLogicalRouterRouting"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterStaticRoute",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterStaticRoute"
+            },
+            {
+              "name": "New-NsxLogicalRouterStaticRoute"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterStaticRoute"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterPrefix",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterPrefix"
+            },
+            {
+              "name": "New-NsxLogicalRouterPrefix"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterPrefix"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterBgp",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterBgp"
+            },
+            {
+              "name": "Set-NsxLogicalRouterBgp"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterBgpNeighbour",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterBgpNeighbour"
+            },
+            {
+              "name": "New-NsxLogicalRouterBgpNeighbour"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterBgpNeighbour"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterOspf",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterOspf"
+            },
+            {
+              "name": "Set-NsxLogicalRouterOspf"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterOspfArea",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterOspfArea"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterOspfArea"
+            },
+            {
+              "name": "New-NsxLogicalRouterOspfArea"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterOspfInterface",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterOspfInterface"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterOspfInterface"
+            },
+            {
+              "name": "New-NsxLogicalRouterOspfInterface"
+            }
+          ]
+        },
+        {
+          "name": "NsxLogicalRouterRedistributionRule",
+          "children": [
+            {
+              "name": "Get-NsxLogicalRouterRedistributionRule"
+            },
+            {
+              "name": "Remove-NsxLogicalRouterRedistributionRule"
+            },
+            {
+              "name": "New-NsxLogicalRouterRedistributionRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroup",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroup"
+            },
+            {
+              "name": "New-NsxSecurityGroup"
+            },
+            {
+              "name": "Remove-NsxSecurityGroup"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupMember",
+          "children": [
+            {
+              "name": "Add-NsxSecurityGroupMember"
+            },
+            {
+              "name": "Remove-NsxSecurityGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityTag",
+          "children": [
+            {
+              "name": "New-NsxSecurityTag"
+            },
+            {
+              "name": "Get-NsxSecurityTag"
+            },
+            {
+              "name": "Remove-NsxSecurityTag"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityTagAssignment",
+          "children": [
+            {
+              "name": "Get-NsxSecurityTagAssignment"
+            },
+            {
+              "name": "New-NsxSecurityTagAssignment"
+            },
+            {
+              "name": "Remove-NsxSecurityTagAssignment"
+            }
+          ]
+        },
+        {
+          "name": "NsxIpSet",
+          "children": [
+            {
+              "name": "Get-NsxIpSet"
+            },
+            {
+              "name": "New-NsxIpSet"
+            },
+            {
+              "name": "Remove-NsxIpSet"
+            }
+          ]
+        },
+        {
+          "name": "NsxMacSet",
+          "children": [
+            {
+              "name": "Get-NsxMacSet"
+            },
+            {
+              "name": "New-NsxMacSet"
+            },
+            {
+              "name": "Remove-NsxMacSet"
+            }
+          ]
+        },
+        {
+          "name": "NsxService",
+          "children": [
+            {
+              "name": "Get-NsxService"
+            },
+            {
+              "name": "New-NsxService"
+            },
+            {
+              "name": "Remove-NsxService"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallSection",
+          "children": [
+            {
+              "name": "Get-NsxFirewallSection"
+            },
+            {
+              "name": "New-NsxFirewallSection"
+            },
+            {
+              "name": "Remove-NsxFirewallSection"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallRule",
+          "children": [
+            {
+              "name": "Get-NsxFirewallRule"
+            },
+            {
+              "name": "New-NsxFirewallRule"
+            },
+            {
+              "name": "Remove-NsxFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancer",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancer"
+            },
+            {
+              "name": "Set-NsxLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerMonitor",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancerMonitor"
+            },
+            {
+              "name": "New-NsxLoadBalancerMonitor"
+            },
+            {
+              "name": "Remove-NsxLoadBalancerMonitor"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerApplicationProfile",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancerApplicationProfile"
+            },
+            {
+              "name": "New-NsxLoadBalancerApplicationProfile"
+            },
+            {
+              "name": "Remove-NsxLoadBalancerApplicationProfile"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerMemberSpec",
+          "children": [
+            {
+              "name": "New-NsxLoadBalancerMemberSpec"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerPool",
+          "children": [
+            {
+              "name": "New-NsxLoadBalancerPool"
+            },
+            {
+              "name": "Get-NsxLoadBalancerPool"
+            },
+            {
+              "name": "Remove-NsxLoadBalancerPool"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerPoolMember",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancerPoolMember"
+            },
+            {
+              "name": "Add-NsxLoadBalancerPoolMember"
+            },
+            {
+              "name": "Remove-NsxLoadBalancerPoolMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerVip",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancerVip"
+            },
+            {
+              "name": "Add-NsxLoadBalancerVip"
+            },
+            {
+              "name": "Remove-NsxLoadBalancerVip"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityPolicy",
+          "children": [
+            {
+              "name": "Get-NsxSecurityPolicy"
+            },
+            {
+              "name": "Remove-NsxSecurityPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupEffectiveMember",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupEffectiveMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxWhereVMUsed",
+          "children": [
+            {
+              "name": "Find-NsxWhereVMUsed"
+            }
+          ]
+        },
+        {
+          "name": "NsxBackingPortGroup",
+          "children": [
+            {
+              "name": "Get-NsxBackingPortGroup"
+            }
+          ]
+        },
+        {
+          "name": "NsxBackingDVSwitch",
+          "children": [
+            {
+              "name": "Get-NsxBackingDVSwitch"
+            }
+          ]
+        },
+        {
+          "name": "PowerNsx",
+          "children": [
+            {
+              "name": "Update-PowerNsx"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallExclusionListMember",
+          "children": [
+            {
+              "name": "Get-NsxFirewallExclusionListMember"
+            },
+            {
+              "name": "Add-NsxFirewallExclusionListMember"
+            },
+            {
+              "name": "Remove-NsxFirewallExclusionListMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerSsoConfig",
+          "children": [
+            {
+              "name": "Get-NsxManagerSsoConfig"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerVcenterConfig",
+          "children": [
+            {
+              "name": "Get-NsxManagerVcenterConfig"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerTimeSettings",
+          "children": [
+            {
+              "name": "Get-NsxManagerTimeSettings"
+            },
+            {
+              "name": "Set-NsxManagerTimeSettings"
+            },
+            {
+              "name": "Clear-NsxManagerTimeSettings"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerSyslogServer",
+          "children": [
+            {
+              "name": "Get-NsxManagerSyslogServer"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerNetwork",
+          "children": [
+            {
+              "name": "Get-NsxManagerNetwork"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerBackup",
+          "children": [
+            {
+              "name": "Get-NsxManagerBackup"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerComponentSummary",
+          "children": [
+            {
+              "name": "Get-NsxManagerComponentSummary"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerSystemSummary",
+          "children": [
+            {
+              "name": "Get-NsxManagerSystemSummary"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerCertificate",
+          "children": [
+            {
+              "name": "Get-NsxManagerCertificate"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerRole",
+          "children": [
+            {
+              "name": "Get-NsxManagerRole"
+            },
+            {
+              "name": "Set-NsxManagerRole"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerSync",
+          "children": [
+            {
+              "name": "Invoke-NsxManagerSync"
+            }
+          ]
+        },
+        {
+          "name": "NsxManagerSyncStatus",
+          "children": [
+            {
+              "name": "Get-NsxManagerSyncStatus"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecondaryManager",
+          "children": [
+            {
+              "name": "Add-NsxSecondaryManager"
+            },
+            {
+              "name": "Get-NsxSecondaryManager"
+            },
+            {
+              "name": "Remove-NsxSecondaryManager"
+            }
+          ]
+        },
+        {
+          "name": "NsxServiceGroup",
+          "children": [
+            {
+              "name": "New-NsxServiceGroup"
+            },
+            {
+              "name": "Get-NsxServiceGroup"
+            },
+            {
+              "name": "Remove-NsxServiceGroup"
+            }
+          ]
+        },
+        {
+          "name": "NsxServiceGroupMember",
+          "children": [
+            {
+              "name": "Add-NsxServiceGroupMember"
+            },
+            {
+              "name": "Get-NsxServiceGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerStats",
+          "children": [
+            {
+              "name": "Get-NsxLoadBalancerStats"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallSavedConfiguration",
+          "children": [
+            {
+              "name": "Get-NsxFirewallSavedConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "NsxLoadBalancerApplicationRule",
+          "children": [
+            {
+              "name": "New-NsxLoadBalancerApplicationRule"
+            },
+            {
+              "name": "Get-NsxLoadBalancerApplicationRule"
+            }
+          ]
+        },
+        {
+          "name": "NsxObject",
+          "children": [
+            {
+              "name": "Export-NsxObject"
+            },
+            {
+              "name": "Import-NsxObject"
+            }
+          ]
+        },
+        {
+          "name": "NsxLicense",
+          "children": [
+            {
+              "name": "Add-NsxLicense"
+            },
+            {
+              "name": "Get-NsxLicense"
+            }
+          ]
+        },
+        {
+          "name": "NsxApplicableMember",
+          "children": [
+            {
+              "name": "Get-NsxApplicableMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupMemberTypes",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupMemberTypes"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupEffectiveVirtualMachine",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupEffectiveVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupEffectiveIpAddress",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupEffectiveIpAddress"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupEffectiveMacAddress",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupEffectiveMacAddress"
+            }
+          ]
+        },
+        {
+          "name": "NsxSecurityGroupEffectiveVnic",
+          "children": [
+            {
+              "name": "Get-NsxSecurityGroupEffectiveVnic"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallThreshold",
+          "children": [
+            {
+              "name": "Set-NsxFirewallThreshold"
+            },
+            {
+              "name": "Get-NsxFirewallThreshold"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallGlobalConfiguration",
+          "children": [
+            {
+              "name": "Get-NsxFirewallGlobalConfiguration"
+            },
+            {
+              "name": "Set-NsxFirewallGlobalConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "NsxIpSetMember",
+          "children": [
+            {
+              "name": "Add-NsxIpSetMember"
+            },
+            {
+              "name": "Remove-NsxIpSetMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxUserRole",
+          "children": [
+            {
+              "name": "Get-NsxUserRole"
+            }
+          ]
+        },
+        {
+          "name": "XpathQuery",
+          "children": [
+            {
+              "name": "Invoke-XpathQuery"
+            }
+          ]
+        },
+        {
+          "name": "NsxFirewallRuleMember",
+          "children": [
+            {
+              "name": "Get-NsxFirewallRuleMember"
+            },
+            {
+              "name": "Add-NsxFirewallRuleMember"
+            },
+            {
+              "name": "Remove-NsxFirewallRuleMember"
+            }
+          ]
+        },
+        {
+          "name": "NsxGenericJob",
+          "children": [
+            {
+              "name": "Wait-NsxGenericJob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.Community.AppTransformer",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "AppTransformer",
+          "children": [
+            {
+              "name": "Connect-AppTransformer"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerVCenter",
+          "children": [
+            {
+              "name": "New-AppTransformerVCenter"
+            },
+            {
+              "name": "Get-AppTransformerVCenter"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerNetworkInsight",
+          "children": [
+            {
+              "name": "Get-AppTransformerNetworkInsight"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerNetworkInsightCloud",
+          "children": [
+            {
+              "name": "New-AppTransformerNetworkInsightCloud"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerCredential",
+          "children": [
+            {
+              "name": "Get-AppTransformerCredential"
+            },
+            {
+              "name": "New-AppTransformerCredential"
+            },
+            {
+              "name": "Remove-AppTransformerCredential"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerVM",
+          "children": [
+            {
+              "name": "Get-AppTransformerVM"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerCredentialAssociation",
+          "children": [
+            {
+              "name": "New-AppTransformerCredentialAssociation"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerIntrospection",
+          "children": [
+            {
+              "name": "Start-AppTransformerIntrospection"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerApplication",
+          "children": [
+            {
+              "name": "Get-AppTransformerApplication"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerComponent",
+          "children": [
+            {
+              "name": "Get-AppTransformerComponent"
+            }
+          ]
+        },
+        {
+          "name": "AppTransformerComponentSignature",
+          "children": [
+            {
+              "name": "Get-AppTransformerComponentSignature"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.Community.Datasets",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "VMDataset",
+          "children": [
+            {
+              "name": "New-VMDataset"
+            },
+            {
+              "name": "Get-VMDataset"
+            },
+            {
+              "name": "Remove-VMDataset"
+            }
+          ]
+        },
+        {
+          "name": "VMDatasetEntry",
+          "children": [
+            {
+              "name": "New-VMDatasetEntry"
+            },
+            {
+              "name": "Get-VMDatasetEntry"
+            },
+            {
+              "name": "Remove-VMDatasetEntry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.Community.VPlus",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "VPlus",
+          "children": [
+            {
+              "name": "Connect-VPlus"
+            }
+          ]
+        },
+        {
+          "name": "VPlusDeployments",
+          "children": [
+            {
+              "name": "Get-VPlusDeployments"
+            }
+          ]
+        },
+        {
+          "name": "VPlusSubscription",
+          "children": [
+            {
+              "name": "Get-VPlusSubscription"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.CSP",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "CSPAccessToken",
+          "children": [
+            {
+              "name": "Get-CSPAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "CSPServices",
+          "children": [
+            {
+              "name": "Get-CSPServices"
+            }
+          ]
+        },
+        {
+          "name": "CSPRefreshTokenExpiry",
+          "children": [
+            {
+              "name": "Get-CSPRefreshTokenExpiry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.DRaaS",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "DRaas",
+          "children": [
+            {
+              "name": "Connect-DRaas"
+            },
+            {
+              "name": "Get-DRaas"
+            },
+            {
+              "name": "Set-DRaas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.HCX",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "HcxServer",
+          "children": [
+            {
+              "name": "Connect-HcxServer"
+            }
+          ]
+        },
+        {
+          "name": "HcxCloudConfig",
+          "children": [
+            {
+              "name": "Get-HcxCloudConfig"
+            }
+          ]
+        },
+        {
+          "name": "HcxEndpoint",
+          "children": [
+            {
+              "name": "Get-HcxEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "HcxMigration",
+          "children": [
+            {
+              "name": "New-HcxMigration"
+            },
+            {
+              "name": "Get-HcxMigration"
+            }
+          ]
+        },
+        {
+          "name": "HcxVAMI",
+          "children": [
+            {
+              "name": "Connect-HcxVAMI"
+            }
+          ]
+        },
+        {
+          "name": "HcxVCConfig",
+          "children": [
+            {
+              "name": "Get-HcxVCConfig"
+            },
+            {
+              "name": "Set-HcxVCConfig"
+            }
+          ]
+        },
+        {
+          "name": "HcxLicense",
+          "children": [
+            {
+              "name": "Get-HcxLicense"
+            },
+            {
+              "name": "Set-HcxLicense"
+            }
+          ]
+        },
+        {
+          "name": "HcxNSXConfig",
+          "children": [
+            {
+              "name": "Get-HcxNSXConfig"
+            },
+            {
+              "name": "Set-HcxNSXConfig"
+            }
+          ]
+        },
+        {
+          "name": "HcxCity",
+          "children": [
+            {
+              "name": "Get-HcxCity"
+            }
+          ]
+        },
+        {
+          "name": "HcxLocation",
+          "children": [
+            {
+              "name": "Get-HcxLocation"
+            },
+            {
+              "name": "Set-HcxLocation"
+            }
+          ]
+        },
+        {
+          "name": "HcxRoleMapping",
+          "children": [
+            {
+              "name": "Get-HcxRoleMapping"
+            },
+            {
+              "name": "Set-HcxRoleMapping"
+            }
+          ]
+        },
+        {
+          "name": "HcxProxy",
+          "children": [
+            {
+              "name": "Get-HcxProxy"
+            },
+            {
+              "name": "Set-HcxProxy"
+            },
+            {
+              "name": "Remove-HcxProxy"
+            }
+          ]
+        },
+        {
+          "name": "HcxCloudServer",
+          "children": [
+            {
+              "name": "Connect-HcxCloudServer"
+            }
+          ]
+        },
+        {
+          "name": "HCXCloudActivationKey",
+          "children": [
+            {
+              "name": "Get-HCXCloudActivationKey"
+            },
+            {
+              "name": "New-HCXCloudActivationKey"
+            }
+          ]
+        },
+        {
+          "name": "HCXCloudSubscription",
+          "children": [
+            {
+              "name": "Get-HCXCloudSubscription"
+            }
+          ]
+        },
+        {
+          "name": "HCXCloud",
+          "children": [
+            {
+              "name": "Get-HCXCloud"
+            },
+            {
+              "name": "Set-HCXCloud"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.PSDesiredStateConfiguration",
+      "companyName": "VMware",
+      "author": "VMware",
+      "children": [
+        {
+          "name": "VmwDscConfiguration",
+          "children": [
+            {
+              "name": "New-VmwDscConfiguration"
+            },
+            {
+              "name": "Start-VmwDscConfiguration"
+            },
+            {
+              "name": "Test-VmwDscConfiguration"
+            },
+            {
+              "name": "Get-VmwDscConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.Skyline.InsightsApi",
+      "companyName": "VMware",
+      "author": "Brian Wuchner",
+      "children": [
+        {
+          "name": "SkylineInsights",
+          "children": [
+            {
+              "name": "Connect-SkylineInsights"
+            },
+            {
+              "name": "Disconnect-SkylineInsights"
+            }
+          ]
+        },
+        {
+          "name": "SkylineInsightsApi",
+          "children": [
+            {
+              "name": "Invoke-SkylineInsightsApi"
+            }
+          ]
+        },
+        {
+          "name": "SkylineFinding",
+          "children": [
+            {
+              "name": "Get-SkylineFinding"
+            }
+          ]
+        },
+        {
+          "name": "SkylineAffectedObject",
+          "children": [
+            {
+              "name": "Get-SkylineAffectedObject"
+            }
+          ]
+        },
+        {
+          "name": "SkylineResult",
+          "children": [
+            {
+              "name": "Format-SkylineResult"
+            }
+          ]
+        },
+        {
+          "name": "SkylineInsightsApiExplorer",
+          "children": [
+            {
+              "name": "Start-SkylineInsightsApiExplorer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.TanzuApplicationService.Utility",
+      "companyName": "VMware",
+      "author": "Hin Lam",
+      "children": [
+        {
+          "name": "InstanceGroup",
+          "children": [
+            {
+              "name": "Get-InstanceGroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.VMC",
+      "companyName": "VMware",
+      "author": "Alan Renouf",
+      "children": [
+        {
+          "name": "VMCCommand",
+          "children": [
+            {
+              "name": "Get-VMCCommand"
+            }
+          ]
+        },
+        {
+          "name": "VMCVIServer",
+          "children": [
+            {
+              "name": "Connect-VMCVIServer"
+            }
+          ]
+        },
+        {
+          "name": "VMCOrg",
+          "children": [
+            {
+              "name": "Get-VMCOrg"
+            }
+          ]
+        },
+        {
+          "name": "VMCSDDC",
+          "children": [
+            {
+              "name": "Get-VMCSDDC"
+            }
+          ]
+        },
+        {
+          "name": "VMCTask",
+          "children": [
+            {
+              "name": "Get-VMCTask"
+            }
+          ]
+        },
+        {
+          "name": "VMCSDDCDefaultCredential",
+          "children": [
+            {
+              "name": "Get-VMCSDDCDefaultCredential"
+            }
+          ]
+        },
+        {
+          "name": "VMCSDDCPublicIP",
+          "children": [
+            {
+              "name": "Get-VMCSDDCPublicIP"
+            }
+          ]
+        },
+        {
+          "name": "VMCVMHost",
+          "children": [
+            {
+              "name": "Get-VMCVMHost"
+            }
+          ]
+        },
+        {
+          "name": "VMCSDDCVersion",
+          "children": [
+            {
+              "name": "Get-VMCSDDCVersion"
+            }
+          ]
+        },
+        {
+          "name": "VMCFirewallRule",
+          "children": [
+            {
+              "name": "Get-VMCFirewallRule"
+            },
+            {
+              "name": "Export-VMCFirewallRule"
+            },
+            {
+              "name": "Import-VMCFirewallRule"
+            },
+            {
+              "name": "Remove-VMCFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "VMCLogicalNetwork",
+          "children": [
+            {
+              "name": "Get-VMCLogicalNetwork"
+            },
+            {
+              "name": "Remove-VMCLogicalNetwork"
+            },
+            {
+              "name": "New-VMCLogicalNetwork"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.VMC.Notification",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "VmcNotification",
+          "children": [
+            {
+              "name": "Connect-VmcNotification"
+            }
+          ]
+        },
+        {
+          "name": "VmcNotificationEvent",
+          "children": [
+            {
+              "name": "Get-VmcNotificationEvent"
+            }
+          ]
+        },
+        {
+          "name": "VmcNotificationWebhook",
+          "children": [
+            {
+              "name": "Get-VmcNotificationWebhook"
+            },
+            {
+              "name": "New-VmcNotificationWebhook"
+            },
+            {
+              "name": "Remove-VmcNotificationWebhook"
+            },
+            {
+              "name": "Test-VmcNotificationWebhook"
+            }
+          ]
+        },
+        {
+          "name": "VmcNotificationType",
+          "children": [
+            {
+              "name": "Get-VmcNotificationType"
+            }
+          ]
+        },
+        {
+          "name": "VmcNotificationCategory",
+          "children": [
+            {
+              "name": "Get-VmcNotificationCategory"
+            }
+          ]
+        },
+        {
+          "name": "JWTtoken",
+          "children": [
+            {
+              "name": "Get-JWTtoken"
+            }
+          ]
+        },
+        {
+          "name": "VmcNotificationPreference",
+          "children": [
+            {
+              "name": "Get-VmcNotificationPreference"
+            },
+            {
+              "name": "Set-VmcNotificationPreference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.VMC.NSXT",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "NSXTProxy",
+          "children": [
+            {
+              "name": "Connect-NSXTProxy"
+            }
+          ]
+        },
+        {
+          "name": "NSXTSegment",
+          "children": [
+            {
+              "name": "Get-NSXTSegment"
+            },
+            {
+              "name": "New-NSXTSegment"
+            },
+            {
+              "name": "Set-NSXTSegment"
+            },
+            {
+              "name": "Remove-NSXTSegment"
+            }
+          ]
+        },
+        {
+          "name": "NSXTFirewall",
+          "children": [
+            {
+              "name": "Get-NSXTFirewall"
+            },
+            {
+              "name": "New-NSXTFirewall"
+            },
+            {
+              "name": "Remove-NSXTFirewall"
+            }
+          ]
+        },
+        {
+          "name": "NSXTGroup",
+          "children": [
+            {
+              "name": "Get-NSXTGroup"
+            },
+            {
+              "name": "New-NSXTGroup"
+            },
+            {
+              "name": "Remove-NSXTGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSXTServiceDefinition",
+          "children": [
+            {
+              "name": "Get-NSXTServiceDefinition"
+            },
+            {
+              "name": "Remove-NSXTServiceDefinition"
+            },
+            {
+              "name": "New-NSXTServiceDefinition"
+            }
+          ]
+        },
+        {
+          "name": "NSXTDistFirewallSection",
+          "children": [
+            {
+              "name": "New-NSXTDistFirewallSection"
+            },
+            {
+              "name": "Get-NSXTDistFirewallSection"
+            },
+            {
+              "name": "Remove-NSXTDistFirewallSection"
+            }
+          ]
+        },
+        {
+          "name": "NSXTDistFirewall",
+          "children": [
+            {
+              "name": "Get-NSXTDistFirewall"
+            },
+            {
+              "name": "New-NSXTDistFirewall"
+            },
+            {
+              "name": "Remove-NSXTDistFirewall"
+            }
+          ]
+        },
+        {
+          "name": "NSXTRouteTable",
+          "children": [
+            {
+              "name": "Get-NSXTRouteTable"
+            }
+          ]
+        },
+        {
+          "name": "NSXTOverviewInfo",
+          "children": [
+            {
+              "name": "Get-NSXTOverviewInfo"
+            }
+          ]
+        },
+        {
+          "name": "NSXTInfraScope",
+          "children": [
+            {
+              "name": "Get-NSXTInfraScope"
+            }
+          ]
+        },
+        {
+          "name": "NSXTInfraGroup",
+          "children": [
+            {
+              "name": "Get-NSXTInfraGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSXTRouteBasedVPN",
+          "children": [
+            {
+              "name": "New-NSXTRouteBasedVPN"
+            },
+            {
+              "name": "Get-NSXTRouteBasedVPN"
+            },
+            {
+              "name": "Remove-NSXTRouteBasedVPN"
+            }
+          ]
+        },
+        {
+          "name": "NSXTPolicyBasedVPN",
+          "children": [
+            {
+              "name": "New-NSXTPolicyBasedVPN"
+            },
+            {
+              "name": "Get-NSXTPolicyBasedVPN"
+            },
+            {
+              "name": "Remove-NSXTPolicyBasedVPN"
+            }
+          ]
+        },
+        {
+          "name": "NSXTDNS",
+          "children": [
+            {
+              "name": "Get-NSXTDNS"
+            },
+            {
+              "name": "Set-NSXTDNS"
+            }
+          ]
+        },
+        {
+          "name": "NSXTPublicIP",
+          "children": [
+            {
+              "name": "Get-NSXTPublicIP"
+            },
+            {
+              "name": "New-NSXTPublicIP"
+            },
+            {
+              "name": "Remove-NSXTPublicIP"
+            }
+          ]
+        },
+        {
+          "name": "NSXTNatRule",
+          "children": [
+            {
+              "name": "Get-NSXTNatRule"
+            },
+            {
+              "name": "New-NSXTNatRule"
+            },
+            {
+              "name": "Remove-NSXTNatRule"
+            }
+          ]
+        },
+        {
+          "name": "NSXTT0Stats",
+          "children": [
+            {
+              "name": "Get-NSXTT0Stats"
+            }
+          ]
+        },
+        {
+          "name": "NSXTLinkedVpc",
+          "children": [
+            {
+              "name": "Get-NSXTLinkedVpc"
+            }
+          ]
+        },
+        {
+          "name": "NSXTL2VPN",
+          "children": [
+            {
+              "name": "Get-NSXTL2VPN"
+            }
+          ]
+        },
+        {
+          "name": "NSXTPortMirror",
+          "children": [
+            {
+              "name": "Get-NSXTPortMirror"
+            }
+          ]
+        },
+        {
+          "name": "NSXTIPFIXCollector",
+          "children": [
+            {
+              "name": "Get-NSXTIPFIXCollector"
+            }
+          ]
+        },
+        {
+          "name": "NSXTDirectConnectVIF",
+          "children": [
+            {
+              "name": "Get-NSXTDirectConnectVIF"
+            }
+          ]
+        },
+        {
+          "name": "NSXTVifPerHost",
+          "children": [
+            {
+              "name": "Get-NSXTVifPerHost"
+            }
+          ]
+        },
+        {
+          "name": "NSXTVM",
+          "children": [
+            {
+              "name": "Get-NSXTVM"
+            }
+          ]
+        },
+        {
+          "name": "NSXTSegmentPort",
+          "children": [
+            {
+              "name": "Get-NSXTSegmentPort"
+            }
+          ]
+        },
+        {
+          "name": "NSXTGroupMember",
+          "children": [
+            {
+              "name": "Get-NSXTGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "NSXTSegmentStatsbyT1",
+          "children": [
+            {
+              "name": "Get-NSXTSegmentStatsbyT1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.WorkloadManagement",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "WorkloadManagement4",
+          "children": [
+            {
+              "name": "New-WorkloadManagement4"
+            }
+          ]
+        },
+        {
+          "name": "WorkloadManagement3",
+          "children": [
+            {
+              "name": "New-WorkloadManagement3"
+            }
+          ]
+        },
+        {
+          "name": "WorkloadManagement2",
+          "children": [
+            {
+              "name": "New-WorkloadManagement2"
+            }
+          ]
+        },
+        {
+          "name": "WorkloadManagement",
+          "children": [
+            {
+              "name": "New-WorkloadManagement"
+            },
+            {
+              "name": "Get-WorkloadManagement"
+            },
+            {
+              "name": "Remove-WorkloadManagement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.WorkspaceOneAccess",
+      "companyName": "VMware",
+      "author": "William Lam",
+      "children": [
+        {
+          "name": "WorkspaceOneAccess",
+          "children": [
+            {
+              "name": "Connect-WorkspaceOneAccess"
+            }
+          ]
+        },
+        {
+          "name": "WSDirectory",
+          "children": [
+            {
+              "name": "Get-WSDirectory"
+            },
+            {
+              "name": "Remove-WSDirectory"
+            }
+          ]
+        },
+        {
+          "name": "WSIdentityProvider",
+          "children": [
+            {
+              "name": "Get-WSIdentityProvider"
+            }
+          ]
+        },
+        {
+          "name": "WSOrgNetwork",
+          "children": [
+            {
+              "name": "Get-WSOrgNetwork"
+            }
+          ]
+        },
+        {
+          "name": "WS3rdPartyIdentityProvider",
+          "children": [
+            {
+              "name": "New-WS3rdPartyIdentityProvider"
+            },
+            {
+              "name": "Remove-WS3rdPartyIdentityProvider"
+            }
+          ]
+        },
+        {
+          "name": "WSJitDirectory",
+          "children": [
+            {
+              "name": "New-WSJitDirectory"
+            }
+          ]
+        },
+        {
+          "name": "UEMConfig",
+          "children": [
+            {
+              "name": "Get-UEMConfig"
+            },
+            {
+              "name": "Remove-UEMConfig"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

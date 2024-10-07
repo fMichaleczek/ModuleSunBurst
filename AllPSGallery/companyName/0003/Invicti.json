@@ -1,0 +1,50 @@
+{
+  "name": "Invicti",
+  "children": [
+    {
+      "name": "CFLogger",
+      "companyName": "Invicti",
+      "author": "Kevin Attard Compagno",
+      "children": [
+        {
+          "name": "CFLogger",
+          "children": [
+            {
+              "name": "Initialize-CFLogger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConvertTo-Hashtable",
+      "companyName": "Invicti",
+      "author": "Kevin Attard Compagno",
+      "children": [
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Write-LogMessage",
+      "companyName": "Invicti",
+      "author": "Kevin Attard Compagno",
+      "children": [
+        {
+          "name": "LogMessage",
+          "children": [
+            {
+              "name": "Write-LogMessage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

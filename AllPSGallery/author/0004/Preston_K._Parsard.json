@@ -1,0 +1,188 @@
+{
+  "name": "Preston K. Parsard",
+  "children": [
+    {
+      "name": "ARMDeploy",
+      "companyName": "Microsoft",
+      "author": "Preston K. Parsard",
+      "children": [
+        {
+          "name": "ARMDeployHeader",
+          "children": [
+            {
+              "name": "New-ARMDeployHeader"
+            }
+          ]
+        },
+        {
+          "name": "ARMDeployPSModule",
+          "children": [
+            {
+              "name": "Get-ARMDeployPSModule"
+            },
+            {
+              "name": "Remove-ARMDeployPSModule"
+            }
+          ]
+        },
+        {
+          "name": "ARMDeployDscArchive",
+          "children": [
+            {
+              "name": "New-ARMDeployDscArchive"
+            }
+          ]
+        },
+        {
+          "name": "ARMDeployFQDN",
+          "children": [
+            {
+              "name": "Enter-ARMDeployFQDN"
+            }
+          ]
+        },
+        {
+          "name": "ARMDeployArtifactsToAzureStorage",
+          "children": [
+            {
+              "name": "Push-ARMDeployArtifactsToAzureStorage"
+            }
+          ]
+        },
+        {
+          "name": "ARMDeployRandomString",
+          "children": [
+            {
+              "name": "New-ARMDeployRandomString"
+            }
+          ]
+        },
+        {
+          "name": "ARMDeployAssociateSubnetToNsg",
+          "children": [
+            {
+              "name": "New-ARMDeployAssociateSubnetToNsg"
+            }
+          ]
+        },
+        {
+          "name": "ARMDeployRandomPassword",
+          "children": [
+            {
+              "name": "New-ARMDeployRandomPassword"
+            }
+          ]
+        },
+        {
+          "name": "ARMDeployAzStorageModuleSpecificVersion",
+          "children": [
+            {
+              "name": "Install-ARMDeployAzStorageModuleSpecificVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureAutomation",
+      "companyName": "Microsoft",
+      "author": "Preston K. Parsard",
+      "children": [
+        {
+          "name": "AutomationAccountRunAsServicePrincipal",
+          "children": [
+            {
+              "name": "New-AutomationAccountRunAsServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "AutomationAccountRunbookScripts",
+          "children": [
+            {
+              "name": "Publish-AutomationAccountRunbookScripts"
+            }
+          ]
+        },
+        {
+          "name": "AutomationAccountModules",
+          "children": [
+            {
+              "name": "New-AutomationAccountModules"
+            }
+          ]
+        },
+        {
+          "name": "AutomationAccountScheduleTimeZoneOffset",
+          "children": [
+            {
+              "name": "Format-AutomationAccountScheduleTimeZoneOffset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSCommonFunction",
+      "companyName": "Microsoft",
+      "author": "Preston K. Parsard",
+      "children": [
+        {
+          "name": "CFPSGalleryModule",
+          "children": [
+            {
+              "name": "Get-CFPSGalleryModule"
+            }
+          ]
+        },
+        {
+          "name": "CFHeader",
+          "children": [
+            {
+              "name": "New-CFHeader"
+            }
+          ]
+        },
+        {
+          "name": "CFAdModuleIfRequired",
+          "children": [
+            {
+              "name": "Install-CFAdModuleIfRequired"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WriteToLogs",
+      "companyName": "Microsoft",
+      "author": "Preston K. Parsard",
+      "children": [
+        {
+          "name": "ToConsoleAndLog",
+          "children": [
+            {
+              "name": "Write-ToConsoleAndLog"
+            }
+          ]
+        },
+        {
+          "name": "WithTime",
+          "children": [
+            {
+              "name": "Write-WithTime"
+            }
+          ]
+        },
+        {
+          "name": "ToLogOnly",
+          "children": [
+            {
+              "name": "Write-ToLogOnly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

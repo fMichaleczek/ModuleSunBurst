@@ -11,6 +11,20 @@
   <style>
     body { margin: 0 }
     .tooltip { opacity: 1 !important; }
+    .svg-container {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        padding-bottom: 100%; /* aspect ratio */
+        vertical-align: middle;
+        overflow: auto;
+    }
+    .svg-content-responsive {
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
   </style>
 </head>
 <body>
@@ -19,22 +33,31 @@
       <div id='spinner-overlay' class="overlay" style="z-index: 10002"></div>
       <div id='blurred-overlay' class="overlay blur"></div>
       
-      <dialog id="dialog-custom-overlay" class="max">
-        <h5>Select File</h5>
-        <div class="margin-bottom">
-          <article id="fileListExpansions" class="border no-padding">
-          </article>
+      <dialog id="dialog-custom-overlay" class="max no-padding no-margin">
+        <div class="no-padding no-margin">
+            <nav id="topNav" class="tabbed no-round no-space">
+              <a data-ui="#authorList" class="active"><i>face</i><span>Author</span></a>
+              <a data-ui="#companyNameList"> <i>apartment</i><span>Company</span></a>
+              <a data-ui="#tagList" class="disabled"><i>sell</i><span>Tag</span></a>
+            </nav>
+            <div id="authorList" class="page top-padding bottom-padding left-padding active"></div>
+            <div id="companyNameList" class="page top-padding bottom-padding left-padding "></div>
+            <div id="tagList" class="page top-padding bottom-padding left-padding">Not Implemented</div>
         </div>
-        <nav class="right-align no-space">
-          <button class="transparent link" data-ui="#dialog-custom-overlay">Cancel</button>
+        <nav id="bottomNav" class="right-align fixed bottom round fill padding no-margin">
+          <button class="border white" data-ui="#dialog-custom-overlay">
+            <i>close</i>
+            <span>Cancel</span>
+          </button>
         </nav>
       </dialog>
 
       <div id="chart"></div>
 
-      <div class="fixed top right margin">
-          <button data-ui="#dialog-custom-overlay" class="">Choose File</button>
+      <div class="fixed top left margin">
+          <button id="buttonSelection" data-ui="#dialog-custom-overlay" class="" style="visibility: hidden;">Select ...</button>
       </div>
+
     </main>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/page-js@1.7.3/page.min.js"></script>
@@ -54,7 +77,13 @@
       //   }
       // ]
 
-      var resourcesFile = 'resources.json';    document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener('DOMContentLoaded', function() {
+
+        var resourcesFile = 'AllPSGallery/resources.json';
+      
+        var paramsString = decodeURI(window.location.href).split("#")[1];
+        let searchParams = new URLSearchParams(paramsString);
+
         var blurredOverlay = document.getElementById('blurred-overlay');
         var spinnerOverlay = document.getElementById('spinner-overlay');
         var dialog = document.getElementById('dialog-custom-overlay');
@@ -82,56 +111,38 @@
             .then(res => res.json())
             .then(data => {
                 console.log("resources data loaded:", data);
-                var fileListExpansions = document.getElementById('fileListExpansions');
-                var categories = {};
 
-                // Group resources by category
+                var categories = {};
+                
                 data.forEach(function(item) {
-                    if (!categories[item.category]) {
-                        categories[item.category] = [];
+                    if (!categories[item.type]) {
+                        categories[item.type] = [];
                     }
-                    categories[item.category].push(item);
+                    categories[item.type].push(item);
                 });
 
                 // Create menu structure
                 for (var category in categories) {
-                    var details = document.createElement('details');
-                    var summary = document.createElement('summary');
-                    summary.className = 'none';
-                    summary.innerHTML = `<a class="row wave">${category}</a>`;
-                    details.appendChild(summary);
-
+                    var pre = document.createElement('div');
+                    pre.className = 'scroll no-padding bottom-margin large-margin';
+                    // set the max height of the pre element based on the window height
+                    pre.style = 'max-height: ' + (window.innerHeight - document.getElementById('topNav').clientHeight - document.getElementById('bottomNav').clientHeight) + 'px;';
                     categories[category].forEach(function(item) {
-                        var article = document.createElement('article');
-                        article.className = 'border round margin';
-
-                        var divRow = document.createElement('div');
-                        divRow.className = 'row';
-
-                        var divMax = document.createElement('div');
-                        divMax.className = 'max';
-
-                        var h5 = document.createElement('h5');
-                        h5.textContent = item.name;
-
-                        var p = document.createElement('p');
-                        // transform the count to a human readable format
-                        // replace 001 with 1, 002 with 2, etc.
-                        var count = item.count.replace(/0+(\d+)/, '$1');
-                        p.textContent = `Number of Modules: ${count}`;
-
-                        divMax.appendChild(h5);
-                        divMax.appendChild(p);
-                        divRow.appendChild(divMax);
-                        article.appendChild(divRow);
-
-                        var nav = document.createElement('nav');
                         var button = document.createElement('button');
-                        button.textContent = 'Open';
+                        button.className = 'chip no-margin';
+                        button.style = 'margin-bottom: 5px !important;margin-right: 5px !important;';
+                        var span = document.createElement('span');
+                        span.textContent = item.name.replace(/_/g, ' ');
+                        button.appendChild(span);
+
+                        var badge = document.createElement('div');
+                        badge.className = 'badge none';
+                        badge.textContent = item.count.replace(/0+(\d+)/, '$1');
+                        button.appendChild(badge);
+                        
                         button.onclick = function(event) {
                             event.preventDefault();
                             spinnerOverlay.classList.add('active');
-
                             var jsonFilePath = item.url;
                             
                             var existingSunburst = document.getElementById('chart');
@@ -170,42 +181,70 @@
                                 });
                         };
 
-                        nav.appendChild(button);
-                        article.appendChild(nav);
-                        details.appendChild(article);
+                        pre.appendChild(button);
                     });
-
-                    fileListExpansions.appendChild(details);
+                    var categoryList = document.getElementById(category + 'List');
+                    categoryList.appendChild(pre);
 
                 }
 
-                dialog.showModal();
+                if (searchParams.has("author") === true) {
+                    var author = searchParams.get("author");
+                    // find the button with the author name and click it
+                    // the button has a span with the author in it
+                    // button > span > textContent = author
+                    // this code will not work : document.querySelector('button:contains("' + author + '")');
+                    document.querySelectorAll('button span').forEach((span) => {
+                        if (span.innerHTML === author) {
+                            span.parentElement.click();
+                        }
+                    });
+                } else if (searchParams.has("companyName") === true) {
+                    var companyName = searchParams.get("companyName");
+                    var companyNameButton = document.querySelector('button:contains("' + companyName + '")');
+                    if (companyNameButton) {
+                        companyNameButton.click();
+                    }
+                } else {
+                  dialog.showModal();
+                }
+
+                var buttonSelection = document.getElementById('buttonSelection');
+                buttonSelection.style.visibility = 'visible';
             })
             .catch(err => console.error("Error loading resources file:", err));
       });
       
       function createSunburstChart(data) {
         
+        // if data count is over 100 items, then only show the top 100 items
+        if (data.children.length > 100) {
+          data.children = data.children.slice(0, 100);
+        }
+
         const width =  window.innerWidth, // document.documentElement.scrollWidth - 20,
-          height = window.innerHeight - 5,
-          centerX = width/2,
-          centerY = height/2;
+              height = window.innerHeight,
+              centerX = width/2,
+              centerY = height/2;
         
         var startAngle = 0, // the starting angle for the sunburst
             endAngle = 2 * Math.PI, // the ending angle for the sunburst
-            radius = Math.min(width, height)/2,
+            radius = Math.min(width, height)/2 - 8,
             padRadius = radius/4;
 
         // Create the color scale.
         const color = d3.scaleOrdinal(d3.quantize(d3.interpolateSinebow, data.children.length + 1));
 
+        const shadow = true;
+        const black  = true;
+        
         // Compute the layout.
         const hierarchy = d3.hierarchy(data)
                             .each(function (d) { 
                               if (d.depth && d.depth > 0 && d.parent && d.parent.value && d.parent.children) {
                                   d.value = d.parent.value/d.parent.children.length;
                               } else {
-                                d.value = 100;
+                                d.value = 360;
                               }
                             })
                             .sort((a,b) => a.data.name.localeCompare(b.data.name));
@@ -227,13 +266,14 @@
 
         // Create the SVG container.
         const svg = d3.select("#chart")
+                      .append("div")
+                      .classed("svg-container", true) 
                       .append("svg")
-                        .attr("class", "node-container")
+                        // .classed("svg-content-responsive", true)
                         .attr("viewBox", [-width/2, - height/2, width, height])
-                    .attr("width", width)
-                    .attr("height", height)
-                        .attr("font-family", "Segoe UI, Noto Sans, Helvetica, Arial, sans-serif")
-                        .attr("font-size", 12);
+                        .attr("preserveAspectRatio", "xMinYMin meet")
+                        .attr("font-size", 12)
+                        .attr("font-family", "Segoe UI, Noto Sans, Helvetica, Arial, sans-serif");
 
         const format = d3.format(",d");
         
@@ -244,7 +284,7 @@
                         .join("path")
                           .attr("class", "node-path")
                           .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
-                    .attr("fill-rule", "evenodd")
+                          .attr("fill-rule", "evenodd")
                           .attr("fill-opacity", d => arcVisible(d.current) ? 0.5 : 0)
                           .attr("pointer-events", d => arcVisible(d.current) ? "auto" : "none")
                           .attr("d", d => arc(d.current));
@@ -285,17 +325,30 @@
                         .attr("class", "node-label")
                         .attr("pointer-events", "none")
                         .style("user-select", "none")
-                        .style("fill", "#333")
                         .selectAll("text")
                         .data(root.descendants().slice(1))
                         .join("text")
                           .attr("class", "node-text")
+                          .attr("fill", "#000")
                           .attr("fill-opacity", d => +labelVisible(d.current))
-                          .attr("font-size", d => d.parent.children.length < 0 ? '12' : '10' )
-                          .attr("font-weight", d => d.parent.children.length < 0 ? 'bold' : 'normal' )
-                          .attr("text-anchor", d => labelAnchor(d))
-                          .attr("dx", d => labelDx(d))
-                          .attr("dy", d => labelDy(d))
+                          /*
+                          .attr("font-size", function (d) {
+                              var space = getAvailableLabelSpace(d);
+                              var fontSize = getFontSizeToFit(space, d.data.name, "Segoe UI");
+                              return fontSize;
+                           })
+                          */
+                          .attr("text-shadow", function(){
+                                if (shadow) {
+                                    return black ? "2px 2px 0px white" : "2px 2px 0px black";
+                                } else {
+                                    return "none";
+                                }
+                           })
+                          .attr("font-weight", "bold")
+                          .attr("text-anchor", d => labelAnchor(d.current))
+                          .attr("dx", d => labelDx(d.current))
+                          .attr("dy", d => labelDy(d.current))
                           .attr("transform", d => labelTransform(d))
                           .text(d => d.data.name);
 
@@ -352,14 +405,14 @@
               .attrTween("d", d => () => arc(d.current));
 
           label.filter(function(d) {
-                return +this.getAttribute("fill-opacity") || +labelVisible(d.target);
+                return +this.getAttribute("fill-opacity") || labelVisible(d.target);
                 })
               .transition(t)
               .attr("fill-opacity", d => +labelVisible(d.target))
-              .attr("text-anchor", d => labelAnchor(d))
+              .attr("text-anchor", d => labelAnchor(d.target))
               .attr("dx", d => labelDx(d))
               .attr("dy", d => labelDy(d))
-              .attrTween("transform", d => () => labelTransform(d.target));
+              .attrTween("transform", d => () => labelTransform(d));
         }
         
         function arcHover(event, p) {
@@ -370,66 +423,143 @@
         }
 
         function labelVisible(d) {
-          return d.y1 <= 3 && d.y0 >= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) > 0.03;
+          return d.y1 <= 3 && 
+                 d.y0 >= 1 && 
+                 (d.y1 - d.y0) * (d.x1 - d.x0) > 0.03;
         }
 
         function labelAnchor(d) {
-          if (d.target) {
-              var x = ((d.target.x0 + d.target.x1) / 2 * 180 / Math.PI);
-          } else {
-              var x = ((d.x0 + d.x1) / 2 * 180 / Math.PI);
-          }
-          if (x >= 180 && x <= 360) {
-            return `start`;
-          } else if (x >= 0 && x < 180) {
+          var x = ((d.x0 + d.x1) / 2 * 180 / Math.PI);
+          if (x >= 0 && x < 180) {
               return `end`;
-          }
+          } else if (x >= 180 && x <= 360) {
+            return `start`;
+          }  
         }
         
         function labelDy(d) {
-          var dy = 0;
+          /*
+          var height = (d.y0 + d.y1) / 2;
+          var dy = height;
           const y = (d.y0 + d.y1) / 6 * radius;
-          if (y >= 180 && y <= 360) {
-              return `-${dy}em`;
-          } else if (y >= 0 && y < 180) {
-              return `${dy}em`;
+          if (y < 180) {
+            dy = -dy;
           }
+          */
+          var dy = 0;
+          return `${dy}em`;
         }
 
         function labelDx(d) {
-          var dx = 0;
-          if (d.depth === 1) {
-            dx = 11.5;
-          } else if (d.depth === 2) {
-            dx = 8.5;
-          } else {
-            dx = 5.5;
-          }
-          if (d.target) {
-              var x = ((d.target.x0 + d.target.x1) / 2 * 180 / Math.PI);
-          } else {
-              var x = ((d.x0 + d.x1) / 2 * 180 / Math.PI);
-          }
+          var count = d.parent ? d.parent.children.length : d.children.length;
+          /*
+          var node = d3.select(".node-text");
+          var fontSize = node.attr("font-size");
+          var textLength = d.data.name.length;
+          var width = (d.x0 + d.x1) / 2;
+          var x = ((d.x0 + d.x1) / 2 * 180 / Math.PI);
+          // var dx = width;
           if (x >= 180 && x <= 360) {
-              return `-${dx}em`;
-          } else if (x >= 0 && x < 180) {
-              return `${dx}em`;
+              dx = -dx;
           }
+          */
+          // var fontSize = getFontSizeToFit(getAvailableLabelSpace(d), d.data.name, "Segoe UI");
+          
+          // console.log("x:", x, d.data.name, d.depth);
+          var dx = 8 - (d.depth*2) - 1 ;// - (fontSize*0.1)
+
+          if (d.target) {
+            var x = ((d.target.x0 + d.target.x1) / 2 * 180 / Math.PI);
+          } else {
+            var x = ((d.x0 + d.x1) / 2 * 180 / Math.PI);
+          }
+
+          if (count == 1) {
+            dx = dx + 3;
+          } else {
+            if (x >= 0 && x < 180) {
+                dx = dx;
+            } else if (x >= 180 && x <= 360) {
+                dx = -dx;
+            }
+          }
+          return `${dx}em`;
+          // return `0em`;
         }
 
         function labelTransform(d) {
-          if (d.target) {
-              var x = ((d.target.x0 + d.target.x1) / 2 * 180 / Math.PI);
-              var y = (d.target.y0 + d.target.y1) / 6 * radius;
+          console.log("d:", d);
+          var count = d.parent && d.parent.children ? d.parent.children.length : d.children.length;
+          /*
+          var count = d.parent ? d.parent.children.length : d.children.length;
+          var angle = 360 / count;
+          */ 
+
+          if (d.current) {
+              var x = (d.current.x0 + d.current.x1) / 2 * 180 / Math.PI;
+              var y = (d.current.y0 + d.current.y1) / 6 * radius;
           } else {
               var x = ((d.x0 + d.x1) / 2 * 180 / Math.PI);
               var y = (d.y0 + d.y1) / 6 * radius;
           }
-          return `rotate(${x - 90}) translate(${y}, 0) rotate(${x < 180 ? 0 : 180})`;
+          
+          var rotation = x - 90;
+          var xTranslation =  y;
+          var yTranslation = 0;
+          var rotation2 = (x < 180 ? 0 : 180);
+
+          // console.log("name, count, rotation, x, y:\n", d.data.name, count, rotation, x, y);
+
+          if (count == 1) {
+            xTranslation = 0 ; //d.target ? -((d.target.x0 + d.target.x1)/2) : -((d.x0 + d.x1)/2);
+            yTranslation = -y;
+            return `${rotate} translate(${xTranslation}, ${yTranslation})`;
+          } else if (count == 33333) {
+            // there is enough space for 3 labels so we don't need to rotate the labels
+            // but we need to fix xTranslation and yTranslation like we are rotating the labels with rotation
+            if (rotation == 0) {
+              xTranslation = y/2;
+              yTranslation = -y;
+            } if (rotation == 90) {
+              xTranslation = y/2;
+              yTranslation = y;
+            } else if (rotation < 180) {
+              xTranslation = y;
+            } else if (rotation > 180 ) {
+              xTranslation = -y;
+            }
+            return `translate(${xTranslation}, ${yTranslation})`;
+          }
+          var rotate =  `rotate(${rotation})`;
+          var translate = `translate(${xTranslation}, ${yTranslation})`;
+          var rotate2 =  `rotate(${rotation2})`;
+          return `${rotate} ${translate} ${rotate2}`;
         }
+
+        function getAvailableLabelSpace(d) {
+          if (d.target) {
+            var arcWidth = d.target.x1 - d.target.x0;
+          } else {
+            var arcWidth = d.x1 - d.x0;
+          }
+          var availableSpace = arcWidth * radius;
+          return availableSpace;
+        }
+
+        function measureTextWidth(text, fontSize, fontFamily) {
+          const ctx = new OffscreenCanvas(0, 0).getContext('2d');
+          if (!ctx) return 0;
+          ctx.font = `${fontSize}px ${fontFamily}`;
+          return ctx.measureText(text).width;
+        }
+
+        function getFontSizeToFit(availableWidthPx, text, fontFamily, minFontSize = 12, maxFontSize = 32) {
+          const fontSize = (availableWidthPx / measureTextWidth(text, 12, fontFamily)) * 12;
+          return fontSize < minFontSize ? minFontSize : Math.min(maxFontSize, fontSize);
+        }
+
       }
 
-      
   </script>
 </body>
 </html>

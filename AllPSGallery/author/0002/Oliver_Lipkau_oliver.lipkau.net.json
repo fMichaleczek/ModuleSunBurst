@@ -1,0 +1,335 @@
+{
+  "name": "Oliver Lipkau oliver.lipkau.net",
+  "children": [
+    {
+      "name": "PsConfluence",
+      "companyName": "Unknown",
+      "author": "Oliver Lipkau oliver.lipkau.net",
+      "children": [
+        {
+          "name": "ConfluenceLabel",
+          "children": [
+            {
+              "name": "Add-ConfluenceLabel"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceSpace",
+          "children": [
+            {
+              "name": "Add-ConfluenceSpace"
+            },
+            {
+              "name": "Export-ConfluenceSpace"
+            },
+            {
+              "name": "Remove-ConfluenceSpace"
+            },
+            {
+              "name": "Set-ConfluenceSpace"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceSpacePermissions",
+          "children": [
+            {
+              "name": "Add-ConfluenceSpacePermissions"
+            },
+            {
+              "name": "Get-ConfluenceSpacePermissions"
+            },
+            {
+              "name": "Remove-ConfluenceSpacePermissions"
+            }
+          ]
+        },
+        {
+          "name": "Confluence",
+          "children": [
+            {
+              "name": "Connect-Confluence"
+            }
+          ]
+        },
+        {
+          "name": "ConfluencePersonalSpace",
+          "children": [
+            {
+              "name": "ConvertTo-ConfluencePersonalSpace"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceStorageFormat",
+          "children": [
+            {
+              "name": "ConvertTo-ConfluenceStorageFormat"
+            }
+          ]
+        },
+        {
+          "name": "UnversionedPages",
+          "children": [
+            {
+              "name": "ConvertTo-UnversionedPages"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceSite",
+          "children": [
+            {
+              "name": "Export-ConfluenceSite"
+            },
+            {
+              "name": "Search-ConfluenceSite"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceSpaceToPDF",
+          "children": [
+            {
+              "name": "Export-ConfluenceSpaceToPDF"
+            }
+          ]
+        },
+        {
+          "name": "PagesToVersion",
+          "children": [
+            {
+              "name": "Export-PagesToVersion"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceAttachment",
+          "children": [
+            {
+              "name": "Get-ConfluenceAttachment"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceAvailableSpacePermissions",
+          "children": [
+            {
+              "name": "Get-ConfluenceAvailableSpacePermissions"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceChildPage",
+          "children": [
+            {
+              "name": "Get-ConfluenceChildPage"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceClusterInformation",
+          "children": [
+            {
+              "name": "Get-ConfluenceClusterInformation"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceClusterNodeStatuses",
+          "children": [
+            {
+              "name": "Get-ConfluenceClusterNodeStatuses"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceComment",
+          "children": [
+            {
+              "name": "Get-ConfluenceComment"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceContent",
+          "children": [
+            {
+              "name": "Get-ConfluenceContent"
+            },
+            {
+              "name": "Resolve-ConfluenceContent"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceLabels",
+          "children": [
+            {
+              "name": "Get-ConfluenceLabels"
+            }
+          ]
+        },
+        {
+          "name": "ConfluencePage",
+          "children": [
+            {
+              "name": "Get-ConfluencePage"
+            },
+            {
+              "name": "Move-ConfluencePage"
+            },
+            {
+              "name": "Remove-ConfluencePage"
+            },
+            {
+              "name": "Set-ConfluencePage"
+            }
+          ]
+        },
+        {
+          "name": "ConfluencePageHistory",
+          "children": [
+            {
+              "name": "Get-ConfluencePageHistory"
+            }
+          ]
+        },
+        {
+          "name": "ConfluencePermissions",
+          "children": [
+            {
+              "name": "Get-ConfluencePermissions"
+            },
+            {
+              "name": "Set-ConfluencePermissions"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceServerInfo",
+          "children": [
+            {
+              "name": "Get-ConfluenceServerInfo"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceSpaces",
+          "children": [
+            {
+              "name": "Get-ConfluenceSpaces"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceTrashContent",
+          "children": [
+            {
+              "name": "Get-ConfluenceTrashContent"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceUser",
+          "children": [
+            {
+              "name": "Get-ConfluenceUser"
+            }
+          ]
+        },
+        {
+          "name": "ScrollPageAttributes",
+          "children": [
+            {
+              "name": "Get-ScrollPageAttributes"
+            },
+            {
+              "name": "Set-ScrollPageAttributes"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceLogout",
+          "children": [
+            {
+              "name": "Invoke-ConfluenceLogout"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceTrashItem",
+          "children": [
+            {
+              "name": "Remove-ConfluenceTrashItem"
+            }
+          ]
+        },
+        {
+          "name": "ConfluenceEndpoint",
+          "children": [
+            {
+              "name": "Set-ConfluenceEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "ScrollPageIds",
+          "children": [
+            {
+              "name": "Sync-ScrollPageIds"
+            }
+          ]
+        },
+        {
+          "name": "ConfluencePluginEnabled",
+          "children": [
+            {
+              "name": "Test-ConfluencePluginEnabled"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XmlRpc",
+      "companyName": "Unknown",
+      "author": "Oliver Lipkau oliver.lipkau.net",
+      "children": [
+        {
+          "name": "XmlRpcType",
+          "children": [
+            {
+              "name": "ConvertTo-XmlRpcType"
+            }
+          ]
+        },
+        {
+          "name": "XmlRpcMethodCall",
+          "children": [
+            {
+              "name": "ConvertTo-XmlRpcMethodCall"
+            }
+          ]
+        },
+        {
+          "name": "XmlRpcRequest",
+          "children": [
+            {
+              "name": "Send-XmlRpcRequest"
+            }
+          ]
+        },
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "ConvertFrom-Xml"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

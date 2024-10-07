@@ -1,0 +1,271 @@
+{
+  "name": "David Segura  SeguraOSD",
+  "children": [
+    {
+      "name": "AutopilotOOBE",
+      "companyName": "osdeploy.com",
+      "author": "David Segura  SeguraOSD",
+      "children": [
+        {
+          "name": "AutopilotOOBEcmd",
+          "children": [
+            {
+              "name": "Invoke-AutopilotOOBEcmd"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotOOBE",
+          "children": [
+            {
+              "name": "Start-AutopilotOOBE"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotOOBEnetwork",
+          "children": [
+            {
+              "name": "Test-AutopilotOOBEnetwork"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotOOBEconnection",
+          "children": [
+            {
+              "name": "Test-AutopilotOOBEconnection"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotOOBEevents",
+          "children": [
+            {
+              "name": "Watch-AutopilotOOBEevents"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDBuilder",
+      "companyName": "osdeploy.com",
+      "author": "David Segura  SeguraOSD",
+      "children": [
+        {
+          "name": "OSDBuilderDownload",
+          "children": [
+            {
+              "name": "Save-OSDBuilderDownload"
+            }
+          ]
+        },
+        {
+          "name": "OSBuilds",
+          "children": [
+            {
+              "name": "Get-OSBuilds"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilder",
+          "children": [
+            {
+              "name": "Get-OSDBuilder"
+            },
+            {
+              "name": "Initialize-OSDBuilder"
+            }
+          ]
+        },
+        {
+          "name": "OSMedia",
+          "children": [
+            {
+              "name": "Get-OSMedia"
+            },
+            {
+              "name": "Import-OSMedia"
+            },
+            {
+              "name": "Update-OSMedia"
+            }
+          ]
+        },
+        {
+          "name": "PEBuilds",
+          "children": [
+            {
+              "name": "Get-PEBuilds"
+            }
+          ]
+        },
+        {
+          "name": "OSBuild",
+          "children": [
+            {
+              "name": "New-OSBuild"
+            }
+          ]
+        },
+        {
+          "name": "OSBuildMultiLang",
+          "children": [
+            {
+              "name": "New-OSBuildMultiLang"
+            }
+          ]
+        },
+        {
+          "name": "OSBuildTask",
+          "children": [
+            {
+              "name": "New-OSBuildTask"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilderContentPack",
+          "children": [
+            {
+              "name": "New-OSDBuilderContentPack"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilderISO",
+          "children": [
+            {
+              "name": "New-OSDBuilderISO"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilderUSB",
+          "children": [
+            {
+              "name": "New-OSDBuilderUSB"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilderVHD",
+          "children": [
+            {
+              "name": "New-OSDBuilderVHD"
+            }
+          ]
+        },
+        {
+          "name": "PEBuild",
+          "children": [
+            {
+              "name": "New-PEBuild"
+            }
+          ]
+        },
+        {
+          "name": "PEBuildTask",
+          "children": [
+            {
+              "name": "New-PEBuildTask"
+            }
+          ]
+        },
+        {
+          "name": "OSDBuilderInfo",
+          "children": [
+            {
+              "name": "Show-OSDBuilderInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDDrivers",
+      "companyName": "osdeploy.com",
+      "author": "David Segura  SeguraOSD",
+      "children": [
+        {
+          "name": "OSDDrivers",
+          "children": [
+            {
+              "name": "Get-OSDDrivers"
+            }
+          ]
+        },
+        {
+          "name": "OSDDriversModelPack",
+          "children": [
+            {
+              "name": "Save-OSDDriversModelPack"
+            }
+          ]
+        },
+        {
+          "name": "OSDDriversMultiPack",
+          "children": [
+            {
+              "name": "Save-OSDDriversMultiPack"
+            },
+            {
+              "name": "Update-OSDDriversMultiPack"
+            }
+          ]
+        },
+        {
+          "name": "OSDDriversPack",
+          "children": [
+            {
+              "name": "Save-OSDDriversPack"
+            }
+          ]
+        },
+        {
+          "name": "OSDDriversScripts",
+          "children": [
+            {
+              "name": "Update-OSDDriversScripts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDSUS",
+      "companyName": "osdeploy.com",
+      "author": "David Segura  SeguraOSD",
+      "children": [
+        {
+          "name": "OSDSUS",
+          "children": [
+            {
+              "name": "Get-OSDSUS"
+            },
+            {
+              "name": "Update-OSDSUS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PShot",
+      "companyName": "osdeploy.com",
+      "author": "David Segura  SeguraOSD",
+      "children": [
+        {
+          "name": "PShot",
+          "children": [
+            {
+              "name": "Get-PShot"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

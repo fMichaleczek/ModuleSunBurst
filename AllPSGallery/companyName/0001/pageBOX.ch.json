@@ -1,0 +1,58 @@
+{
+  "name": "pageBOX.ch",
+  "children": [
+    {
+      "name": "brickBOX",
+      "companyName": "pageBOX.ch",
+      "author": "Patrick Page Gehrig",
+      "children": [
+        {
+          "name": "Admin",
+          "children": [
+            {
+              "name": "Test-Admin"
+            }
+          ]
+        },
+        {
+          "name": "Elevated",
+          "children": [
+            {
+              "name": "Start-Elevated"
+            }
+          ]
+        },
+        {
+          "name": "Secret",
+          "children": [
+            {
+              "name": "Set-Secret"
+            },
+            {
+              "name": "Get-Secret"
+            },
+            {
+              "name": "Clear-Secret"
+            }
+          ]
+        },
+        {
+          "name": "IniContent",
+          "children": [
+            {
+              "name": "Set-IniContent"
+            }
+          ]
+        },
+        {
+          "name": "API",
+          "children": [
+            {
+              "name": "Invoke-API"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

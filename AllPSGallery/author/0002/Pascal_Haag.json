@@ -1,0 +1,74 @@
+{
+  "name": "Pascal Haag",
+  "children": [
+    {
+      "name": "PSGetInternal",
+      "companyName": "Unknown",
+      "author": "Pascal Haag",
+      "children": [
+        {
+          "name": "GIModule",
+          "children": [
+            {
+              "name": "Find-GIModule"
+            },
+            {
+              "name": "Install-GIModule"
+            },
+            {
+              "name": "Save-GIModule"
+            },
+            {
+              "name": "Update-GIModule"
+            }
+          ]
+        },
+        {
+          "name": "GIRepository",
+          "children": [
+            {
+              "name": "Set-GIRepository"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ResolveEntraID",
+      "companyName": "Unknown",
+      "author": "Pascal Haag",
+      "children": [
+        {
+          "name": "MeidIdentityCache",
+          "children": [
+            {
+              "name": "Clear-MeidIdentityCache"
+            }
+          ]
+        },
+        {
+          "name": "MeidIdentityProvider",
+          "children": [
+            {
+              "name": "Get-MeidIdentityProvider"
+            },
+            {
+              "name": "Register-MeidIdentityProvider"
+            },
+            {
+              "name": "Unregister-MeidIdentityProvider"
+            }
+          ]
+        },
+        {
+          "name": "MeidIdentity",
+          "children": [
+            {
+              "name": "Resolve-MeidIdentity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

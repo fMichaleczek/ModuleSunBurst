@@ -1,0 +1,912 @@
+{
+  "name": "Nimble Storage, A Hewlett Packard Enterprise Company",
+  "children": [
+    {
+      "name": "HPENimblePowerShellToolkit",
+      "companyName": "Nimble Storage, A Hewlett Packard Enterprise Company",
+      "author": "Hewlett Packard Enterprise Co.",
+      "children": [
+        {
+          "name": "NS2PasswordFormat",
+          "children": [
+            {
+              "name": "Test-NS2PasswordFormat"
+            }
+          ]
+        },
+        {
+          "name": "Ns2Type",
+          "children": [
+            {
+              "name": "Test-Ns2Type"
+            }
+          ]
+        },
+        {
+          "name": "NS2ID",
+          "children": [
+            {
+              "name": "Test-NS2ID"
+            }
+          ]
+        },
+        {
+          "name": "NSGroup",
+          "children": [
+            {
+              "name": "Connect-NSGroup"
+            },
+            {
+              "name": "Disconnect-NSGroup"
+            },
+            {
+              "name": "Get-NSGroup"
+            },
+            {
+              "name": "Set-NSGroup"
+            },
+            {
+              "name": "Reset-NSGroup"
+            },
+            {
+              "name": "Stop-NSGroup"
+            },
+            {
+              "name": "Merge-NSGroup"
+            },
+            {
+              "name": "Move-NSGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSAccessControlRecord",
+          "children": [
+            {
+              "name": "New-NSAccessControlRecord"
+            },
+            {
+              "name": "Get-NSAccessControlRecord"
+            },
+            {
+              "name": "Remove-NSAccessControlRecord"
+            }
+          ]
+        },
+        {
+          "name": "NSChapUser",
+          "children": [
+            {
+              "name": "New-NSChapUser"
+            },
+            {
+              "name": "Get-NSChapUser"
+            },
+            {
+              "name": "Set-NSChapUser"
+            },
+            {
+              "name": "Remove-NSChapUser"
+            }
+          ]
+        },
+        {
+          "name": "NSPool",
+          "children": [
+            {
+              "name": "New-NSPool"
+            },
+            {
+              "name": "Get-NSPool"
+            },
+            {
+              "name": "Set-NSPool"
+            },
+            {
+              "name": "Remove-NSPool"
+            },
+            {
+              "name": "Merge-NSPool"
+            }
+          ]
+        },
+        {
+          "name": "NSPoolDeDupe",
+          "children": [
+            {
+              "name": "Invoke-NSPoolDeDupe"
+            }
+          ]
+        },
+        {
+          "name": "NSProtectionTemplate",
+          "children": [
+            {
+              "name": "New-NSProtectionTemplate"
+            },
+            {
+              "name": "Get-NSProtectionTemplate"
+            },
+            {
+              "name": "Set-NSProtectionTemplate"
+            },
+            {
+              "name": "Remove-NSProtectionTemplate"
+            }
+          ]
+        },
+        {
+          "name": "NSVolume",
+          "children": [
+            {
+              "name": "New-NSVolume"
+            },
+            {
+              "name": "Get-NSVolume"
+            },
+            {
+              "name": "Set-NSVolume"
+            },
+            {
+              "name": "Remove-NSVolume"
+            },
+            {
+              "name": "Restore-NSVolume"
+            },
+            {
+              "name": "Move-NSVolume"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeBulk",
+          "children": [
+            {
+              "name": "Move-NSVolumeBulk"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeMove",
+          "children": [
+            {
+              "name": "Stop-NSVolumeMove"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeBulkDeDupe",
+          "children": [
+            {
+              "name": "Set-NSVolumeBulkDeDupe"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeBulkOnline",
+          "children": [
+            {
+              "name": "Set-NSVolumeBulkOnline"
+            }
+          ]
+        },
+        {
+          "name": "NSSpaceDomain",
+          "children": [
+            {
+              "name": "Get-NSSpaceDomain"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupAlert",
+          "children": [
+            {
+              "name": "Test-NSGroupAlert"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupSoftwareUpdate",
+          "children": [
+            {
+              "name": "Test-NSGroupSoftwareUpdate"
+            },
+            {
+              "name": "Start-NSGroupSoftwareUpdate"
+            },
+            {
+              "name": "Resume-NSGroupSoftwareUpdate"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupSoftwareDownload",
+          "children": [
+            {
+              "name": "Start-NSGroupSoftwareDownload"
+            },
+            {
+              "name": "Stop-NSGroupSoftwareDownload"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupDiscoveredList",
+          "children": [
+            {
+              "name": "Get-NSGroupDiscoveredList"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupMerge",
+          "children": [
+            {
+              "name": "Test-NSGroupMerge"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupgetEULA",
+          "children": [
+            {
+              "name": "Get-NSGroupgetEULA"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupMigrate",
+          "children": [
+            {
+              "name": "Test-NSGroupMigrate"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupTimeZoneList",
+          "children": [
+            {
+              "name": "Get-NSGroupTimeZoneList"
+            }
+          ]
+        },
+        {
+          "name": "NSReplicationPartner",
+          "children": [
+            {
+              "name": "New-NSReplicationPartner"
+            },
+            {
+              "name": "Get-NSReplicationPartner"
+            },
+            {
+              "name": "Set-NSReplicationPartner"
+            },
+            {
+              "name": "Remove-NSReplicationPartner"
+            },
+            {
+              "name": "Suspend-NSReplicationPartner"
+            },
+            {
+              "name": "Resume-NSReplicationPartner"
+            },
+            {
+              "name": "Test-NSReplicationPartner"
+            }
+          ]
+        },
+        {
+          "name": "NSMasterKey",
+          "children": [
+            {
+              "name": "New-NSMasterKey"
+            },
+            {
+              "name": "Get-NSMasterKey"
+            },
+            {
+              "name": "Set-NSMasterKey"
+            },
+            {
+              "name": "Remove-NSMasterKey"
+            }
+          ]
+        },
+        {
+          "name": "NSMasterKeyInactive",
+          "children": [
+            {
+              "name": "Clear-NSMasterKeyInactive"
+            }
+          ]
+        },
+        {
+          "name": "NSApplicationServer",
+          "children": [
+            {
+              "name": "New-NSApplicationServer"
+            },
+            {
+              "name": "Get-NSApplicationServer"
+            },
+            {
+              "name": "Set-NSApplicationServer"
+            },
+            {
+              "name": "Remove-NSApplicationServer"
+            }
+          ]
+        },
+        {
+          "name": "NSEvent",
+          "children": [
+            {
+              "name": "Get-NSEvent"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelPort",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelPort"
+            }
+          ]
+        },
+        {
+          "name": "NSVersion",
+          "children": [
+            {
+              "name": "Get-NSVersion"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiator",
+          "children": [
+            {
+              "name": "New-NSInitiator"
+            },
+            {
+              "name": "Get-NSInitiator"
+            },
+            {
+              "name": "Remove-NSInitiator"
+            }
+          ]
+        },
+        {
+          "name": "NSPerformancePolicy",
+          "children": [
+            {
+              "name": "New-NSPerformancePolicy"
+            },
+            {
+              "name": "Get-NSPerformancePolicy"
+            },
+            {
+              "name": "Set-NSPerformancePolicy"
+            },
+            {
+              "name": "Remove-NSPerformancePolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSKeyManager",
+          "children": [
+            {
+              "name": "New-NSKeyManager"
+            },
+            {
+              "name": "Get-NSKeyManager"
+            },
+            {
+              "name": "Set-NSKeyManager"
+            },
+            {
+              "name": "Remove-NSKeyManager"
+            },
+            {
+              "name": "Move-NSKeyManager"
+            }
+          ]
+        },
+        {
+          "name": "NSUserPolicy",
+          "children": [
+            {
+              "name": "Get-NSUserPolicy"
+            },
+            {
+              "name": "Set-NSUserPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSSnapshotCollection",
+          "children": [
+            {
+              "name": "New-NSSnapshotCollection"
+            },
+            {
+              "name": "Get-NSSnapshotCollection"
+            },
+            {
+              "name": "Set-NSSnapshotCollection"
+            },
+            {
+              "name": "Remove-NSSnapshotCollection"
+            }
+          ]
+        },
+        {
+          "name": "NSShelf",
+          "children": [
+            {
+              "name": "Get-NSShelf"
+            },
+            {
+              "name": "Set-NSShelf"
+            },
+            {
+              "name": "Show-NSShelf"
+            },
+            {
+              "name": "Remove-NSShelf"
+            }
+          ]
+        },
+        {
+          "name": "NSProtocolEndpoint",
+          "children": [
+            {
+              "name": "Get-NSProtocolEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelInterface",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelInterface"
+            },
+            {
+              "name": "Set-NSFibreChannelInterface"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelSession",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelSession"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollection",
+          "children": [
+            {
+              "name": "New-NSVolumeCollection"
+            },
+            {
+              "name": "Get-NSVolumeCollection"
+            },
+            {
+              "name": "Set-NSVolumeCollection"
+            },
+            {
+              "name": "Remove-NSVolumeCollection"
+            },
+            {
+              "name": "Test-NSVolumeCollection"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollectionPromote",
+          "children": [
+            {
+              "name": "Invoke-NSVolumeCollectionPromote"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollectionDemote",
+          "children": [
+            {
+              "name": "Invoke-NSVolumeCollectionDemote"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollectionHandover",
+          "children": [
+            {
+              "name": "Start-NSVolumeCollectionHandover"
+            },
+            {
+              "name": "Stop-NSVolumeCollectionHandover"
+            }
+          ]
+        },
+        {
+          "name": "NSToken",
+          "children": [
+            {
+              "name": "New-NSToken"
+            },
+            {
+              "name": "Get-NSToken"
+            },
+            {
+              "name": "Remove-NSToken"
+            }
+          ]
+        },
+        {
+          "name": "NSTokenUserDetails",
+          "children": [
+            {
+              "name": "Get-NSTokenUserDetails"
+            }
+          ]
+        },
+        {
+          "name": "NSUserGroup",
+          "children": [
+            {
+              "name": "New-NSUserGroup"
+            },
+            {
+              "name": "Get-NSUserGroup"
+            },
+            {
+              "name": "Set-NSUserGroup"
+            },
+            {
+              "name": "Remove-NSUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSWitness",
+          "children": [
+            {
+              "name": "New-NSWitness"
+            },
+            {
+              "name": "Get-NSWitness"
+            },
+            {
+              "name": "Remove-NSWitness"
+            },
+            {
+              "name": "Test-NSWitness"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelInitiatorAlias",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelInitiatorAlias"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiatorGroup",
+          "children": [
+            {
+              "name": "New-NSInitiatorGroup"
+            },
+            {
+              "name": "Get-NSInitiatorGroup"
+            },
+            {
+              "name": "Set-NSInitiatorGroup"
+            },
+            {
+              "name": "Remove-NSInitiatorGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiatorGroupMerge",
+          "children": [
+            {
+              "name": "Resolve-NSInitiatorGroupMerge"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiatorGroupLunAvailability",
+          "children": [
+            {
+              "name": "Test-NSInitiatorGroupLunAvailability"
+            }
+          ]
+        },
+        {
+          "name": "NSSnapshot",
+          "children": [
+            {
+              "name": "New-NSSnapshot"
+            },
+            {
+              "name": "Get-NSSnapshot"
+            },
+            {
+              "name": "Set-NSSnapshot"
+            },
+            {
+              "name": "Remove-NSSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "NSSnapshotBulk",
+          "children": [
+            {
+              "name": "New-NSSnapshotBulk"
+            }
+          ]
+        },
+        {
+          "name": "NSActiveDirectoryMembership",
+          "children": [
+            {
+              "name": "New-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Get-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Set-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Remove-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Test-NSActiveDirectoryMembership"
+            }
+          ]
+        },
+        {
+          "name": "NSActiveDirectoryMembershipUser",
+          "children": [
+            {
+              "name": "Test-NSActiveDirectoryMembershipUser"
+            }
+          ]
+        },
+        {
+          "name": "NSActiveDirectoryMembershipGroup",
+          "children": [
+            {
+              "name": "Test-NSActiveDirectoryMembershipGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSSubnet",
+          "children": [
+            {
+              "name": "Get-NSSubnet"
+            }
+          ]
+        },
+        {
+          "name": "NSFolder",
+          "children": [
+            {
+              "name": "New-NSFolder"
+            },
+            {
+              "name": "Get-NSFolder"
+            },
+            {
+              "name": "Set-NSFolder"
+            },
+            {
+              "name": "Remove-NSFolder"
+            }
+          ]
+        },
+        {
+          "name": "NSFolderDeDupe",
+          "children": [
+            {
+              "name": "Invoke-NSFolderDeDupe"
+            }
+          ]
+        },
+        {
+          "name": "NSNetworkConfig",
+          "children": [
+            {
+              "name": "New-NSNetworkConfig"
+            },
+            {
+              "name": "Get-NSNetworkConfig"
+            },
+            {
+              "name": "Set-NSNetworkConfig"
+            },
+            {
+              "name": "Remove-NSNetworkConfig"
+            },
+            {
+              "name": "Initialize-NSNetworkConfig"
+            },
+            {
+              "name": "Test-NSNetworkConfig"
+            }
+          ]
+        },
+        {
+          "name": "NSController",
+          "children": [
+            {
+              "name": "Get-NSController"
+            },
+            {
+              "name": "Stop-NSController"
+            },
+            {
+              "name": "Reset-NSController"
+            }
+          ]
+        },
+        {
+          "name": "NSProtectionSchedule",
+          "children": [
+            {
+              "name": "New-NSProtectionSchedule"
+            },
+            {
+              "name": "Get-NSProtectionSchedule"
+            },
+            {
+              "name": "Set-NSProtectionSchedule"
+            },
+            {
+              "name": "Remove-NSProtectionSchedule"
+            }
+          ]
+        },
+        {
+          "name": "NSApplicationCategory",
+          "children": [
+            {
+              "name": "Get-NSApplicationCategory"
+            }
+          ]
+        },
+        {
+          "name": "NSAuditLog",
+          "children": [
+            {
+              "name": "Get-NSAuditLog"
+            }
+          ]
+        },
+        {
+          "name": "NSJob",
+          "children": [
+            {
+              "name": "Get-NSJob"
+            }
+          ]
+        },
+        {
+          "name": "NSDisk",
+          "children": [
+            {
+              "name": "Get-NSDisk"
+            },
+            {
+              "name": "Set-NSDisk"
+            }
+          ]
+        },
+        {
+          "name": "NSNetworkInterface",
+          "children": [
+            {
+              "name": "Get-NSNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "NSSoftwareVersion",
+          "children": [
+            {
+              "name": "Get-NSSoftwareVersion"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelConfig",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelConfig"
+            },
+            {
+              "name": "Update-NSFibreChannelConfig"
+            }
+          ]
+        },
+        {
+          "name": "NSUser",
+          "children": [
+            {
+              "name": "New-NSUser"
+            },
+            {
+              "name": "Get-NSUser"
+            },
+            {
+              "name": "Set-NSUser"
+            },
+            {
+              "name": "Remove-NSUser"
+            },
+            {
+              "name": "Unlock-NSUser"
+            }
+          ]
+        },
+        {
+          "name": "NSArray",
+          "children": [
+            {
+              "name": "New-NSArray"
+            },
+            {
+              "name": "Get-NSArray"
+            },
+            {
+              "name": "Set-NSArray"
+            },
+            {
+              "name": "Remove-NSArray"
+            },
+            {
+              "name": "Invoke-NSArray"
+            },
+            {
+              "name": "Stop-NSArray"
+            },
+            {
+              "name": "Reset-NSArray"
+            }
+          ]
+        },
+        {
+          "name": "NSAlarm",
+          "children": [
+            {
+              "name": "Get-NSAlarm"
+            },
+            {
+              "name": "Set-NSAlarm"
+            },
+            {
+              "name": "Remove-NSAlarm"
+            },
+            {
+              "name": "Clear-NSAlarm"
+            },
+            {
+              "name": "Undo-NSAlarm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

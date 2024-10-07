@@ -1,0 +1,73 @@
+{
+  "name": "iiric",
+  "children": [
+    {
+      "name": "psaptgetupdate",
+      "companyName": "Unknown",
+      "author": "iiric",
+      "children": [
+        {
+          "name": "CommandFromCache",
+          "children": [
+            {
+              "name": "Find-CommandFromCache"
+            }
+          ]
+        },
+        {
+          "name": "ModuleFromCache",
+          "children": [
+            {
+              "name": "Find-ModuleFromCache"
+            },
+            {
+              "name": "Update-ModuleFromCache"
+            }
+          ]
+        },
+        {
+          "name": "ScriptFromCache",
+          "children": [
+            {
+              "name": "Find-ScriptFromCache"
+            }
+          ]
+        },
+        {
+          "name": "PSRepositoryCache",
+          "children": [
+            {
+              "name": "New-PSRepositoryCache"
+            },
+            {
+              "name": "Update-PSRepositoryCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SE.IntroModule",
+      "companyName": "Microsoft",
+      "author": "iiric",
+      "children": [
+        {
+          "name": "Square",
+          "children": [
+            {
+              "name": "Get-Square"
+            }
+          ]
+        },
+        {
+          "name": "Cube",
+          "children": [
+            {
+              "name": "Get-Cube"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

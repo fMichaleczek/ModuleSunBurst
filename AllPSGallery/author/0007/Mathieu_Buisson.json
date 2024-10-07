@@ -1,0 +1,181 @@
+{
+  "name": "Mathieu Buisson",
+  "children": [
+    {
+      "name": "cRegFile",
+      "companyName": "Unknown",
+      "author": "Mathieu Buisson",
+      "children": [
+        {
+          "name": "TargetResource",
+          "children": [
+            {
+              "name": "Get-TargetResource"
+            },
+            {
+              "name": "Set-TargetResource"
+            },
+            {
+              "name": "Test-TargetResource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cWindowsErrorReporting",
+      "companyName": "Unknown",
+      "author": "Mathieu Buisson",
+      "children": [
+        {
+          "name": "TargetResource",
+          "children": [
+            {
+              "name": "Get-TargetResource"
+            },
+            {
+              "name": "Set-TargetResource"
+            },
+            {
+              "name": "Test-TargetResource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DeploymentReadinessChecker",
+      "companyName": "Unknown",
+      "author": "Mathieu Buisson",
+      "children": [
+        {
+          "name": "DeploymentReadiness",
+          "children": [
+            {
+              "name": "Test-DeploymentReadiness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Merge-DscConfigData",
+      "companyName": "Unknown",
+      "author": "Mathieu Buisson",
+      "children": [
+        {
+          "name": "DscConfigData",
+          "children": [
+            {
+              "name": "Merge-DscConfigData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAksDeployment",
+      "companyName": "Unknown",
+      "author": "Mathieu Buisson",
+      "children": [
+        {
+          "name": "PSAksDeployment",
+          "children": [
+            {
+              "name": "Invoke-PSAksDeployment"
+            },
+            {
+              "name": "Remove-PSAksDeployment"
+            }
+          ]
+        },
+        {
+          "name": "PSAksDeploymentConfig",
+          "children": [
+            {
+              "name": "New-PSAksDeploymentConfig"
+            }
+          ]
+        },
+        {
+          "name": "PSAksPrerequisites",
+          "children": [
+            {
+              "name": "Install-PSAksPrerequisites"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSCodeHealth",
+      "companyName": "Unknown",
+      "author": "Mathieu Buisson",
+      "children": [
+        {
+          "name": "PSCodeHealth",
+          "children": [
+            {
+              "name": "Invoke-PSCodeHealth"
+            }
+          ]
+        },
+        {
+          "name": "PSCodeHealthComplianceRule",
+          "children": [
+            {
+              "name": "Get-PSCodeHealthComplianceRule"
+            }
+          ]
+        },
+        {
+          "name": "PSCodeHealthCompliance",
+          "children": [
+            {
+              "name": "Test-PSCodeHealthCompliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGithubSearch",
+      "companyName": "Unknown",
+      "author": "Mathieu Buisson",
+      "children": [
+        {
+          "name": "GitHubCode",
+          "children": [
+            {
+              "name": "Find-GitHubCode"
+            }
+          ]
+        },
+        {
+          "name": "GitHubIssue",
+          "children": [
+            {
+              "name": "Find-GitHubIssue"
+            }
+          ]
+        },
+        {
+          "name": "GitHubRepository",
+          "children": [
+            {
+              "name": "Find-GitHubRepository"
+            }
+          ]
+        },
+        {
+          "name": "GithubUser",
+          "children": [
+            {
+              "name": "Find-GithubUser"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

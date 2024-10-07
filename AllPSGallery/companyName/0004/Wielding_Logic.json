@@ -1,0 +1,178 @@
+{
+  "name": "Wielding Logic",
+  "children": [
+    {
+      "name": "WieldingAnsi",
+      "companyName": "Wielding Logic",
+      "author": "Andrew Kunkel",
+      "children": [
+        {
+          "name": "WieldingAnsiInfo",
+          "children": [
+            {
+              "name": "Get-WieldingAnsiInfo"
+            }
+          ]
+        },
+        {
+          "name": "WansiToken",
+          "children": [
+            {
+              "name": "Set-WansiToken"
+            }
+          ]
+        },
+        {
+          "name": "AnsiCodes",
+          "children": [
+            {
+              "name": "Show-AnsiCodes"
+            },
+            {
+              "name": "Update-AnsiCodes"
+            }
+          ]
+        },
+        {
+          "name": "WansiVisibleTokens",
+          "children": [
+            {
+              "name": "Show-WansiVisibleTokens"
+            }
+          ]
+        },
+        {
+          "name": "Tokens",
+          "children": [
+            {
+              "name": "Expand-Tokens"
+            }
+          ]
+        },
+        {
+          "name": "AnsiString",
+          "children": [
+            {
+              "name": "ConvertTo-AnsiString"
+            }
+          ]
+        },
+        {
+          "name": "Wansi",
+          "children": [
+            {
+              "name": "Write-Wansi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WieldingLocation",
+      "companyName": "Wielding Logic",
+      "author": "Andrew Kunkel",
+      "children": [
+        {
+          "name": "QuickLocation",
+          "children": [
+            {
+              "name": "Show-QuickLocation"
+            },
+            {
+              "name": "Set-QuickLocation"
+            },
+            {
+              "name": "Copy-QuickLocation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WieldingLs",
+      "companyName": "Wielding Logic",
+      "author": "Andrew Kunkel",
+      "children": [
+        {
+          "name": "DirectoryContents",
+          "children": [
+            {
+              "name": "Get-DirectoryContents"
+            }
+          ]
+        },
+        {
+          "name": "GDCColors",
+          "children": [
+            {
+              "name": "Update-GDCColors"
+            }
+          ]
+        },
+        {
+          "name": "AnsiCodes",
+          "children": [
+            {
+              "name": "Get-AnsiCodes"
+            }
+          ]
+        },
+        {
+          "name": "WieldingLsInfo",
+          "children": [
+            {
+              "name": "Get-WieldingLsInfo"
+            }
+          ]
+        },
+        {
+          "name": "FIleColor",
+          "children": [
+            {
+              "name": "Get-FIleColor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WieldingStackScript",
+      "companyName": "Wielding Logic",
+      "author": "Andrew",
+      "children": [
+        {
+          "name": "MachineInfo",
+          "children": [
+            {
+              "name": "Get-MachineInfo"
+            }
+          ]
+        },
+        {
+          "name": "Go",
+          "children": [
+            {
+              "name": "Install-Go"
+            }
+          ]
+        },
+        {
+          "name": "Nginx",
+          "children": [
+            {
+              "name": "Install-Nginx"
+            }
+          ]
+        },
+        {
+          "name": "Package",
+          "children": [
+            {
+              "name": "Test-Package"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

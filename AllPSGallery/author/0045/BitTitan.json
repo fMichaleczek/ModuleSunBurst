@@ -1,0 +1,2823 @@
+{
+  "name": "BitTitan",
+  "children": [
+    {
+      "name": "BitTitan.Runbooks.ActiveDirectory",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "ActiveDirectoryGroups",
+          "children": [
+            {
+              "name": "Compare-ActiveDirectoryGroups"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryUsers",
+          "children": [
+            {
+              "name": "Compare-ActiveDirectoryUsers"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryUserToMSPCompleteUser",
+          "children": [
+            {
+              "name": "Convert-ActiveDirectoryUserToMSPCompleteUser"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryGroupPropertyList",
+          "children": [
+            {
+              "name": "Get-ActiveDirectoryGroupPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryUserPropertyList",
+          "children": [
+            {
+              "name": "Get-ActiveDirectoryUserPropertyList"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.ActiveDirectory.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "ActiveDirectoryGroups",
+          "children": [
+            {
+              "name": "Compare-ActiveDirectoryGroups"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryUsers",
+          "children": [
+            {
+              "name": "Compare-ActiveDirectoryUsers"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryUserToMSPCompleteUser",
+          "children": [
+            {
+              "name": "Convert-ActiveDirectoryUserToMSPCompleteUser"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryGroupPropertyList",
+          "children": [
+            {
+              "name": "Get-ActiveDirectoryGroupPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryUserPropertyList",
+          "children": [
+            {
+              "name": "Get-ActiveDirectoryUserPropertyList"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.AzureAD",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "AzureADUserManagerEmailAddressProperty",
+          "children": [
+            {
+              "name": "Add-AzureADUserManagerEmailAddressProperty"
+            }
+          ]
+        },
+        {
+          "name": "AzureADAdminAccount",
+          "children": [
+            {
+              "name": "Connect-AzureADAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "AzureADUserToMSPCompleteUser",
+          "children": [
+            {
+              "name": "Convert-AzureADUserToMSPCompleteUser"
+            }
+          ]
+        },
+        {
+          "name": "AllAzureADUsers",
+          "children": [
+            {
+              "name": "Get-AllAzureADUsers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.AzureAD.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "AzureADUserManagerEmailAddressProperty",
+          "children": [
+            {
+              "name": "Add-AzureADUserManagerEmailAddressProperty"
+            }
+          ]
+        },
+        {
+          "name": "AzureADAdminAccount",
+          "children": [
+            {
+              "name": "Connect-AzureADAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "AzureADUserToMSPCompleteUser",
+          "children": [
+            {
+              "name": "Convert-AzureADUserToMSPCompleteUser"
+            }
+          ]
+        },
+        {
+          "name": "AllAzureADUsers",
+          "children": [
+            {
+              "name": "Get-AllAzureADUsers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.AzureRMS",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "AzureRmsAdminAccount",
+          "children": [
+            {
+              "name": "Connect-AzureRmsAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "AzureRMS",
+          "children": [
+            {
+              "name": "Disconnect-AzureRMS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.AzureRMS.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "AzureRmsAdminAccount",
+          "children": [
+            {
+              "name": "Connect-AzureRmsAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "AzureRMS",
+          "children": [
+            {
+              "name": "Disconnect-AzureRMS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Common",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "LineToFile",
+          "children": [
+            {
+              "name": "Add-LineToFile"
+            }
+          ]
+        },
+        {
+          "name": "Base64EncodedBytesToFile",
+          "children": [
+            {
+              "name": "Convert-Base64EncodedBytesToFile"
+            }
+          ]
+        },
+        {
+          "name": "FileToBase64EncodedBytes",
+          "children": [
+            {
+              "name": "Convert-FileToBase64EncodedBytes"
+            }
+          ]
+        },
+        {
+          "name": "SymbolSeparatedValues",
+          "children": [
+            {
+              "name": "ConvertFrom-SymbolSeparatedValues"
+            }
+          ]
+        },
+        {
+          "name": "Array",
+          "children": [
+            {
+              "name": "ConvertTo-Array"
+            }
+          ]
+        },
+        {
+          "name": "CsvObject",
+          "children": [
+            {
+              "name": "ConvertTo-CsvObject"
+            }
+          ]
+        },
+        {
+          "name": "CsvString",
+          "children": [
+            {
+              "name": "ConvertTo-CsvString"
+            }
+          ]
+        },
+        {
+          "name": "BT",
+          "children": [
+            {
+              "name": "Get-BT"
+            },
+            {
+              "name": "Set-BT"
+            }
+          ]
+        },
+        {
+          "name": "CombinedCsvString",
+          "children": [
+            {
+              "name": "Get-CombinedCsvString"
+            }
+          ]
+        },
+        {
+          "name": "EmailAddressDomain",
+          "children": [
+            {
+              "name": "Get-EmailAddressDomain"
+            }
+          ]
+        },
+        {
+          "name": "EmailAddressUsername",
+          "children": [
+            {
+              "name": "Get-EmailAddressUsername"
+            }
+          ]
+        },
+        {
+          "name": "FileFromUrl",
+          "children": [
+            {
+              "name": "Get-FileFromUrl"
+            }
+          ]
+        },
+        {
+          "name": "FilteredCsvString",
+          "children": [
+            {
+              "name": "Get-FilteredCsvString"
+            }
+          ]
+        },
+        {
+          "name": "JsonStringMaximumDepth",
+          "children": [
+            {
+              "name": "Get-JsonStringMaximumDepth"
+            }
+          ]
+        },
+        {
+          "name": "StringValueWithoutBom",
+          "children": [
+            {
+              "name": "Get-StringValueWithoutBom"
+            }
+          ]
+        },
+        {
+          "name": "StringWithWhitespaceReplaced",
+          "children": [
+            {
+              "name": "Get-StringWithWhitespaceReplaced"
+            }
+          ]
+        },
+        {
+          "name": "TextFileEncoding",
+          "children": [
+            {
+              "name": "Get-TextFileEncoding"
+            }
+          ]
+        },
+        {
+          "name": "RestMethodWithRetry",
+          "children": [
+            {
+              "name": "Invoke-RestMethodWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "ScriptBlock",
+          "children": [
+            {
+              "name": "Invoke-ScriptBlock"
+            }
+          ]
+        },
+        {
+          "name": "MergedObjectHashTable",
+          "children": [
+            {
+              "name": "New-MergedObjectHashTable"
+            }
+          ]
+        },
+        {
+          "name": "Password",
+          "children": [
+            {
+              "name": "New-Password"
+            }
+          ]
+        },
+        {
+          "name": "TemporaryFolder",
+          "children": [
+            {
+              "name": "New-TemporaryFolder"
+            }
+          ]
+        },
+        {
+          "name": "TextBlock",
+          "children": [
+            {
+              "name": "New-TextBlock"
+            }
+          ]
+        },
+        {
+          "name": "HashTable",
+          "children": [
+            {
+              "name": "Search-HashTable"
+            }
+          ]
+        },
+        {
+          "name": "Email",
+          "children": [
+            {
+              "name": "Send-Email"
+            }
+          ]
+        },
+        {
+          "name": "DefaultValue",
+          "children": [
+            {
+              "name": "Set-DefaultValue"
+            }
+          ]
+        },
+        {
+          "name": "DomainValidity",
+          "children": [
+            {
+              "name": "Test-DomainValidity"
+            }
+          ]
+        },
+        {
+          "name": "EmailAddressValidity",
+          "children": [
+            {
+              "name": "Test-EmailAddressValidity"
+            }
+          ]
+        },
+        {
+          "name": "IsClearCurrentValueFlag",
+          "children": [
+            {
+              "name": "Test-IsClearCurrentValueFlag"
+            }
+          ]
+        },
+        {
+          "name": "OutputMessage",
+          "children": [
+            {
+              "name": "Write-OutputMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Common.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "LineToFile",
+          "children": [
+            {
+              "name": "Add-LineToFile"
+            }
+          ]
+        },
+        {
+          "name": "Base64EncodedBytesToFile",
+          "children": [
+            {
+              "name": "Convert-Base64EncodedBytesToFile"
+            }
+          ]
+        },
+        {
+          "name": "FileToBase64EncodedBytes",
+          "children": [
+            {
+              "name": "Convert-FileToBase64EncodedBytes"
+            }
+          ]
+        },
+        {
+          "name": "SymbolSeparatedValues",
+          "children": [
+            {
+              "name": "ConvertFrom-SymbolSeparatedValues"
+            }
+          ]
+        },
+        {
+          "name": "Array",
+          "children": [
+            {
+              "name": "ConvertTo-Array"
+            }
+          ]
+        },
+        {
+          "name": "CsvObject",
+          "children": [
+            {
+              "name": "ConvertTo-CsvObject"
+            }
+          ]
+        },
+        {
+          "name": "CsvString",
+          "children": [
+            {
+              "name": "ConvertTo-CsvString"
+            }
+          ]
+        },
+        {
+          "name": "BT",
+          "children": [
+            {
+              "name": "Get-BT"
+            },
+            {
+              "name": "Set-BT"
+            }
+          ]
+        },
+        {
+          "name": "CombinedCsvString",
+          "children": [
+            {
+              "name": "Get-CombinedCsvString"
+            }
+          ]
+        },
+        {
+          "name": "EmailAddressDomain",
+          "children": [
+            {
+              "name": "Get-EmailAddressDomain"
+            }
+          ]
+        },
+        {
+          "name": "EmailAddressUsername",
+          "children": [
+            {
+              "name": "Get-EmailAddressUsername"
+            }
+          ]
+        },
+        {
+          "name": "FileFromUrl",
+          "children": [
+            {
+              "name": "Get-FileFromUrl"
+            }
+          ]
+        },
+        {
+          "name": "FilteredCsvString",
+          "children": [
+            {
+              "name": "Get-FilteredCsvString"
+            }
+          ]
+        },
+        {
+          "name": "JsonStringMaximumDepth",
+          "children": [
+            {
+              "name": "Get-JsonStringMaximumDepth"
+            }
+          ]
+        },
+        {
+          "name": "StringValueWithoutBom",
+          "children": [
+            {
+              "name": "Get-StringValueWithoutBom"
+            }
+          ]
+        },
+        {
+          "name": "StringWithWhitespaceReplaced",
+          "children": [
+            {
+              "name": "Get-StringWithWhitespaceReplaced"
+            }
+          ]
+        },
+        {
+          "name": "TextFileEncoding",
+          "children": [
+            {
+              "name": "Get-TextFileEncoding"
+            }
+          ]
+        },
+        {
+          "name": "RestMethodWithRetry",
+          "children": [
+            {
+              "name": "Invoke-RestMethodWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "ScriptBlock",
+          "children": [
+            {
+              "name": "Invoke-ScriptBlock"
+            }
+          ]
+        },
+        {
+          "name": "MergedObjectHashTable",
+          "children": [
+            {
+              "name": "New-MergedObjectHashTable"
+            }
+          ]
+        },
+        {
+          "name": "Password",
+          "children": [
+            {
+              "name": "New-Password"
+            }
+          ]
+        },
+        {
+          "name": "TemporaryFolder",
+          "children": [
+            {
+              "name": "New-TemporaryFolder"
+            }
+          ]
+        },
+        {
+          "name": "TextBlock",
+          "children": [
+            {
+              "name": "New-TextBlock"
+            }
+          ]
+        },
+        {
+          "name": "HashTable",
+          "children": [
+            {
+              "name": "Search-HashTable"
+            }
+          ]
+        },
+        {
+          "name": "Email",
+          "children": [
+            {
+              "name": "Send-Email"
+            }
+          ]
+        },
+        {
+          "name": "DefaultValue",
+          "children": [
+            {
+              "name": "Set-DefaultValue"
+            }
+          ]
+        },
+        {
+          "name": "DomainValidity",
+          "children": [
+            {
+              "name": "Test-DomainValidity"
+            }
+          ]
+        },
+        {
+          "name": "EmailAddressValidity",
+          "children": [
+            {
+              "name": "Test-EmailAddressValidity"
+            }
+          ]
+        },
+        {
+          "name": "IsClearCurrentValueFlag",
+          "children": [
+            {
+              "name": "Test-IsClearCurrentValueFlag"
+            }
+          ]
+        },
+        {
+          "name": "OutputMessage",
+          "children": [
+            {
+              "name": "Write-OutputMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Csv",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "CsvObjectToString",
+          "children": [
+            {
+              "name": "Convert-CsvObjectToString"
+            }
+          ]
+        },
+        {
+          "name": "CsvStringToExcelWorkbook",
+          "children": [
+            {
+              "name": "Convert-CsvStringToExcelWorkbook"
+            }
+          ]
+        },
+        {
+          "name": "CsvStringToObject",
+          "children": [
+            {
+              "name": "Convert-CsvStringToObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.CSV.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "CsvObjectToString",
+          "children": [
+            {
+              "name": "Convert-CsvObjectToString"
+            }
+          ]
+        },
+        {
+          "name": "CsvStringToExcelWorkbook",
+          "children": [
+            {
+              "name": "Convert-CsvStringToExcelWorkbook"
+            }
+          ]
+        },
+        {
+          "name": "CsvStringToObject",
+          "children": [
+            {
+              "name": "Convert-CsvStringToObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Excel",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "ExcelToHtml",
+          "children": [
+            {
+              "name": "Convert-ExcelToHtml"
+            }
+          ]
+        },
+        {
+          "name": "ExcelToImage",
+          "children": [
+            {
+              "name": "Convert-ExcelToImage"
+            }
+          ]
+        },
+        {
+          "name": "ExcelToPdf",
+          "children": [
+            {
+              "name": "Convert-ExcelToPdf"
+            }
+          ]
+        },
+        {
+          "name": "XlsConverterProgram",
+          "children": [
+            {
+              "name": "Install-XlsConverterProgram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Excel.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "ExcelToHtml",
+          "children": [
+            {
+              "name": "Convert-ExcelToHtml"
+            }
+          ]
+        },
+        {
+          "name": "ExcelToImage",
+          "children": [
+            {
+              "name": "Convert-ExcelToImage"
+            }
+          ]
+        },
+        {
+          "name": "ExcelToPdf",
+          "children": [
+            {
+              "name": "Convert-ExcelToPdf"
+            }
+          ]
+        },
+        {
+          "name": "XlsConverterProgram",
+          "children": [
+            {
+              "name": "Install-XlsConverterProgram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.ExchangeOnline",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "ManagerEmailAddressProperty",
+          "children": [
+            {
+              "name": "Add-ManagerEmailAddressProperty"
+            }
+          ]
+        },
+        {
+          "name": "UntilExchangeOnlineGroupAvailable",
+          "children": [
+            {
+              "name": "Block-UntilExchangeOnlineGroupAvailable"
+            }
+          ]
+        },
+        {
+          "name": "UntilExchangeOnlineUserAvailable",
+          "children": [
+            {
+              "name": "Block-UntilExchangeOnlineUserAvailable"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnlineAdminAccount",
+          "children": [
+            {
+              "name": "Connect-ExchangeOnlineAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnlineUserToMSPCompleteUser",
+          "children": [
+            {
+              "name": "Convert-ExchangeOnlineUserToMSPCompleteUser"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnline",
+          "children": [
+            {
+              "name": "Disconnect-ExchangeOnline"
+            }
+          ]
+        },
+        {
+          "name": "AllExchangeOnlineUsers",
+          "children": [
+            {
+              "name": "Get-AllExchangeOnlineUsers"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnlineContactPropertyList",
+          "children": [
+            {
+              "name": "Get-ExchangeOnlineContactPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnlineMailContactPropertyList",
+          "children": [
+            {
+              "name": "Get-ExchangeOnlineMailContactPropertyList"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.ExchangeOnline.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "ManagerEmailAddressProperty",
+          "children": [
+            {
+              "name": "Add-ManagerEmailAddressProperty"
+            }
+          ]
+        },
+        {
+          "name": "UntilExchangeOnlineGroupAvailable",
+          "children": [
+            {
+              "name": "Block-UntilExchangeOnlineGroupAvailable"
+            }
+          ]
+        },
+        {
+          "name": "UntilExchangeOnlineUserAvailable",
+          "children": [
+            {
+              "name": "Block-UntilExchangeOnlineUserAvailable"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnlineAdminAccount",
+          "children": [
+            {
+              "name": "Connect-ExchangeOnlineAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnlineUserToMSPCompleteUser",
+          "children": [
+            {
+              "name": "Convert-ExchangeOnlineUserToMSPCompleteUser"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnline",
+          "children": [
+            {
+              "name": "Disconnect-ExchangeOnline"
+            }
+          ]
+        },
+        {
+          "name": "AllExchangeOnlineUsers",
+          "children": [
+            {
+              "name": "Get-AllExchangeOnlineUsers"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnlineContactPropertyList",
+          "children": [
+            {
+              "name": "Get-ExchangeOnlineContactPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnlineMailContactPropertyList",
+          "children": [
+            {
+              "name": "Get-ExchangeOnlineMailContactPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOnlineSettingObjects",
+          "children": [
+            {
+              "name": "Get-ExchangeOnlineSettingObjects"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.GSuite",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "GSuiteGroupMember",
+          "children": [
+            {
+              "name": "Add-GSuiteGroupMember"
+            },
+            {
+              "name": "Get-GSuiteGroupMember"
+            },
+            {
+              "name": "Remove-GSuiteGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteUserAlias",
+          "children": [
+            {
+              "name": "Add-GSuiteUserAlias"
+            },
+            {
+              "name": "Get-GSuiteUserAlias"
+            },
+            {
+              "name": "Remove-GSuiteUserAlias"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteAdminAccount",
+          "children": [
+            {
+              "name": "Connect-GSuiteAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteUserToMSPCompleteUser",
+          "children": [
+            {
+              "name": "Convert-GSuiteUserToMSPCompleteUser"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteEndpoint",
+          "children": [
+            {
+              "name": "ConvertFrom-GSuiteEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteAccessToken",
+          "children": [
+            {
+              "name": "Get-GSuiteAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteGroup",
+          "children": [
+            {
+              "name": "Get-GSuiteGroup"
+            },
+            {
+              "name": "New-GSuiteGroup"
+            },
+            {
+              "name": "Remove-GSuiteGroup"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteUser",
+          "children": [
+            {
+              "name": "Get-GSuiteUser"
+            },
+            {
+              "name": "New-GSuiteUser"
+            },
+            {
+              "name": "Remove-GSuiteUser"
+            },
+            {
+              "name": "Set-GSuiteUser"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteEndpointConfiguration",
+          "children": [
+            {
+              "name": "New-GSuiteEndpointConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteAdministrator",
+          "children": [
+            {
+              "name": "Set-GSuiteAdministrator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.GSuite.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "GSuiteGroupMember",
+          "children": [
+            {
+              "name": "Add-GSuiteGroupMember"
+            },
+            {
+              "name": "Get-GSuiteGroupMember"
+            },
+            {
+              "name": "Remove-GSuiteGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteUserAlias",
+          "children": [
+            {
+              "name": "Add-GSuiteUserAlias"
+            },
+            {
+              "name": "Get-GSuiteUserAlias"
+            },
+            {
+              "name": "Remove-GSuiteUserAlias"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteAdminAccount",
+          "children": [
+            {
+              "name": "Connect-GSuiteAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteUserToMSPCompleteUser",
+          "children": [
+            {
+              "name": "Convert-GSuiteUserToMSPCompleteUser"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteEndpoint",
+          "children": [
+            {
+              "name": "ConvertFrom-GSuiteEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteAccessToken",
+          "children": [
+            {
+              "name": "Get-GSuiteAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteGroup",
+          "children": [
+            {
+              "name": "Get-GSuiteGroup"
+            },
+            {
+              "name": "New-GSuiteGroup"
+            },
+            {
+              "name": "Remove-GSuiteGroup"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteOrganizationalUnit",
+          "children": [
+            {
+              "name": "Get-GSuiteOrganizationalUnit"
+            },
+            {
+              "name": "New-GSuiteOrganizationalUnit"
+            },
+            {
+              "name": "Remove-GSuiteOrganizationalUnit"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteUser",
+          "children": [
+            {
+              "name": "Get-GSuiteUser"
+            },
+            {
+              "name": "New-GSuiteUser"
+            },
+            {
+              "name": "Remove-GSuiteUser"
+            },
+            {
+              "name": "Set-GSuiteUser"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteEndpointConfiguration",
+          "children": [
+            {
+              "name": "New-GSuiteEndpointConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "GSuiteAdministrator",
+          "children": [
+            {
+              "name": "Set-GSuiteAdministrator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Microsoft365.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "Microsoft365LicenseInformation",
+          "children": [
+            {
+              "name": "Get-Microsoft365LicenseInformation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.MicrosoftGraph",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "MicrosoftGraphAuthenticationToken",
+          "children": [
+            {
+              "name": "Get-MicrosoftGraphAuthenticationToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.MicrosoftGraph.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "MicrosoftGraphAuthenticationToken",
+          "children": [
+            {
+              "name": "Get-MicrosoftGraphAuthenticationToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.MicrosoftTeams",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "MicrosoftTeamsAdminAccount",
+          "children": [
+            {
+              "name": "Connect-MicrosoftTeamsAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "TeamChannelObject",
+          "children": [
+            {
+              "name": "Get-TeamChannelObject"
+            }
+          ]
+        },
+        {
+          "name": "TeamObject",
+          "children": [
+            {
+              "name": "Get-TeamObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.MicrosoftTeams.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "MicrosoftTeamsAdminAccount",
+          "children": [
+            {
+              "name": "Connect-MicrosoftTeamsAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "TeamChannelObject",
+          "children": [
+            {
+              "name": "Get-TeamChannelObject"
+            }
+          ]
+        },
+        {
+          "name": "TeamObject",
+          "children": [
+            {
+              "name": "Get-TeamObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Modules",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "BT",
+          "children": [
+            {
+              "name": "Import-BT"
+            }
+          ]
+        },
+        {
+          "name": "ExternalModule",
+          "children": [
+            {
+              "name": "Import-ExternalModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Modules.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "BT",
+          "children": [
+            {
+              "name": "Import-BT"
+            }
+          ]
+        },
+        {
+          "name": "ExternalModule",
+          "children": [
+            {
+              "name": "Import-ExternalModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.MSOnline",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "UntilMSOnlineUserAvailable",
+          "children": [
+            {
+              "name": "Block-UntilMSOnlineUserAvailable"
+            }
+          ]
+        },
+        {
+          "name": "MSOnlineAdminAccount",
+          "children": [
+            {
+              "name": "Connect-MSOnlineAdminAccount"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.MSOnline.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "UntilMSOnlineUserAvailable",
+          "children": [
+            {
+              "name": "Block-UntilMSOnlineUserAvailable"
+            }
+          ]
+        },
+        {
+          "name": "MSOnlineAdminAccount",
+          "children": [
+            {
+              "name": "Connect-MSOnlineAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "MSOnlineSettingObjects",
+          "children": [
+            {
+              "name": "Get-MSOnlineSettingObjects"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.MSPComplete",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "MembersToMSPCompleteGroupObject",
+          "children": [
+            {
+              "name": "Add-MembersToMSPCompleteGroupObject"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteCustomer",
+          "children": [
+            {
+              "name": "Compare-MSPCompleteCustomer"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteGroup",
+          "children": [
+            {
+              "name": "Compare-MSPCompleteGroup"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUser",
+          "children": [
+            {
+              "name": "Compare-MSPCompleteUser"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUsers",
+          "children": [
+            {
+              "name": "Compare-MSPCompleteUsers"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserForm",
+          "children": [
+            {
+              "name": "ConvertTo-MSPCompleteUserForm"
+            }
+          ]
+        },
+        {
+          "name": "StringInMSPCompleteTaskInputs",
+          "children": [
+            {
+              "name": "Find-StringInMSPCompleteTaskInputs"
+            }
+          ]
+        },
+        {
+          "name": "CredentialFromMSPCompleteEndpoint",
+          "children": [
+            {
+              "name": "Get-CredentialFromMSPCompleteEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteCustomerPropertyList",
+          "children": [
+            {
+              "name": "Get-MSPCompleteCustomerPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteEndpointWithCredential",
+          "children": [
+            {
+              "name": "Get-MSPCompleteEndpointWithCredential"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteGroupExtendedPropertyList",
+          "children": [
+            {
+              "name": "Get-MSPCompleteGroupExtendedPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteGroupPropertyList",
+          "children": [
+            {
+              "name": "Get-MSPCompleteGroupPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserExtendedPropertyList",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserExtendedPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserPropertyList",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToActiveDirectoryUserExtendedPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToActiveDirectoryUserExtendedPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToActiveDirectoryUserPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToActiveDirectoryUserPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToAzureADUserExtendedPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToAzureADUserExtendedPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToAzureADUserPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToAzureADUserPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToExchangeOnlineUserExtendedPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToExchangeOnlineUserExtendedPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToExchangeOnlineUserPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToExchangeOnlineUserPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToGSuiteUserExtendedPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToGSuiteUserExtendedPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToGSuiteUserPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToGSuiteUserPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteTaskShouldSkip",
+          "children": [
+            {
+              "name": "Test-MSPCompleteTaskShouldSkip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.MSPComplete.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "MembersToMSPCompleteGroupObject",
+          "children": [
+            {
+              "name": "Add-MembersToMSPCompleteGroupObject"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteCustomer",
+          "children": [
+            {
+              "name": "Compare-MSPCompleteCustomer"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteGroup",
+          "children": [
+            {
+              "name": "Compare-MSPCompleteGroup"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUser",
+          "children": [
+            {
+              "name": "Compare-MSPCompleteUser"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUsers",
+          "children": [
+            {
+              "name": "Compare-MSPCompleteUsers"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserForm",
+          "children": [
+            {
+              "name": "ConvertTo-MSPCompleteUserForm"
+            }
+          ]
+        },
+        {
+          "name": "StringInMSPCompleteTaskInputs",
+          "children": [
+            {
+              "name": "Find-StringInMSPCompleteTaskInputs"
+            }
+          ]
+        },
+        {
+          "name": "CredentialFromMSPCompleteEndpoint",
+          "children": [
+            {
+              "name": "Get-CredentialFromMSPCompleteEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteCustomerPropertyList",
+          "children": [
+            {
+              "name": "Get-MSPCompleteCustomerPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteEndpointWithCredential",
+          "children": [
+            {
+              "name": "Get-MSPCompleteEndpointWithCredential"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteGroupExtendedPropertyList",
+          "children": [
+            {
+              "name": "Get-MSPCompleteGroupExtendedPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteGroupPropertyList",
+          "children": [
+            {
+              "name": "Get-MSPCompleteGroupPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserExtendedPropertyList",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserExtendedPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserPropertyList",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserPropertyList"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToActiveDirectoryUserExtendedPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToActiveDirectoryUserExtendedPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToActiveDirectoryUserPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToActiveDirectoryUserPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToAzureADUserExtendedPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToAzureADUserExtendedPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToAzureADUserPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToAzureADUserPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToExchangeOnlineUserExtendedPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToExchangeOnlineUserExtendedPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToExchangeOnlineUserPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToExchangeOnlineUserPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToGSuiteUserExtendedPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToGSuiteUserExtendedPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteUserToGSuiteUserPropertyMap",
+          "children": [
+            {
+              "name": "Get-MSPCompleteUserToGSuiteUserPropertyMap"
+            }
+          ]
+        },
+        {
+          "name": "MSPCompleteTaskShouldSkip",
+          "children": [
+            {
+              "name": "Test-MSPCompleteTaskShouldSkip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Office365SecurityAndCompliance",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "Office365SecurityAndComplianceAdminAccount",
+          "children": [
+            {
+              "name": "Connect-Office365SecurityAndComplianceAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "Office365SecurityAndCompliance",
+          "children": [
+            {
+              "name": "Disconnect-Office365SecurityAndCompliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Office365SecurityAndCompliance.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "Office365SecurityAndComplianceAdminAccount",
+          "children": [
+            {
+              "name": "Connect-Office365SecurityAndComplianceAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "Office365SecurityAndCompliance",
+          "children": [
+            {
+              "name": "Disconnect-Office365SecurityAndCompliance"
+            }
+          ]
+        },
+        {
+          "name": "Office365SecurityAndComplianceSettingObjects",
+          "children": [
+            {
+              "name": "Get-Office365SecurityAndComplianceSettingObjects"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.OneDrive",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "FileFromOneDrive",
+          "children": [
+            {
+              "name": "Download-FileFromOneDrive"
+            },
+            {
+              "name": "Remove-FileFromOneDrive"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveFileDownloadLink",
+          "children": [
+            {
+              "name": "Get-OneDriveFileDownloadLink"
+            }
+          ]
+        },
+        {
+          "name": "FileToOneDrive",
+          "children": [
+            {
+              "name": "Upload-FileToOneDrive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.OneDrive.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "FileFromOneDrive",
+          "children": [
+            {
+              "name": "Download-FileFromOneDrive"
+            },
+            {
+              "name": "Remove-FileFromOneDrive"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveFileDownloadLink",
+          "children": [
+            {
+              "name": "Get-OneDriveFileDownloadLink"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveFileSharingLink",
+          "children": [
+            {
+              "name": "Get-OneDriveFileSharingLink"
+            }
+          ]
+        },
+        {
+          "name": "FileToOneDrive",
+          "children": [
+            {
+              "name": "Upload-FileToOneDrive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.PartnerCenter",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "PartnerCenterAdminAccount",
+          "children": [
+            {
+              "name": "Connect-PartnerCenterAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "PartnerCenterAccessToken",
+          "children": [
+            {
+              "name": "Get-PartnerCenterAccessToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.PartnerCenter.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "PartnerCenterAdminAccount",
+          "children": [
+            {
+              "name": "Connect-PartnerCenterAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "PartnerCenterAccessToken",
+          "children": [
+            {
+              "name": "Get-PartnerCenterAccessToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.SharePointOnline",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "SharePointOnlineAdminAccount",
+          "children": [
+            {
+              "name": "Connect-SharePointOnlineAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "SharePointOnline",
+          "children": [
+            {
+              "name": "Disconnect-SharePointOnline"
+            }
+          ]
+        },
+        {
+          "name": "FileFromSharePointOnline",
+          "children": [
+            {
+              "name": "Download-FileFromSharePointOnline"
+            },
+            {
+              "name": "Remove-FileFromSharePointOnline"
+            }
+          ]
+        },
+        {
+          "name": "SharePointOnlineFileDownloadLink",
+          "children": [
+            {
+              "name": "Get-SharePointOnlineFileDownloadLink"
+            }
+          ]
+        },
+        {
+          "name": "SharePointOnlineUrl",
+          "children": [
+            {
+              "name": "Get-SharePointOnlineUrl"
+            }
+          ]
+        },
+        {
+          "name": "FileToSharePointOnline",
+          "children": [
+            {
+              "name": "Upload-FileToSharePointOnline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.SharePointOnline.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "SharePointOnlineAdminAccount",
+          "children": [
+            {
+              "name": "Connect-SharePointOnlineAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "SharePointOnline",
+          "children": [
+            {
+              "name": "Disconnect-SharePointOnline"
+            }
+          ]
+        },
+        {
+          "name": "FileFromSharePointOnline",
+          "children": [
+            {
+              "name": "Download-FileFromSharePointOnline"
+            },
+            {
+              "name": "Remove-FileFromSharePointOnline"
+            }
+          ]
+        },
+        {
+          "name": "SharePointOnlineFileDownloadLink",
+          "children": [
+            {
+              "name": "Get-SharePointOnlineFileDownloadLink"
+            }
+          ]
+        },
+        {
+          "name": "SharePointOnlineSettingObjects",
+          "children": [
+            {
+              "name": "Get-SharePointOnlineSettingObjects"
+            }
+          ]
+        },
+        {
+          "name": "SharePointOnlineUrl",
+          "children": [
+            {
+              "name": "Get-SharePointOnlineUrl"
+            }
+          ]
+        },
+        {
+          "name": "FileToSharePointOnline",
+          "children": [
+            {
+              "name": "Upload-FileToSharePointOnline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.SkypeForBusinessOnline",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "SkypeForBusinessOnlineAdminAccount",
+          "children": [
+            {
+              "name": "Connect-SkypeForBusinessOnlineAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "SkypeForBusinessOnline",
+          "children": [
+            {
+              "name": "Disconnect-SkypeForBusinessOnline"
+            }
+          ]
+        },
+        {
+          "name": "CsOnlineSession",
+          "children": [
+            {
+              "name": "New-CsOnlineSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.SkypeForBusinessOnline.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "SkypeForBusinessOnlineAdminAccount",
+          "children": [
+            {
+              "name": "Connect-SkypeForBusinessOnlineAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "SkypeForBusinessOnline",
+          "children": [
+            {
+              "name": "Disconnect-SkypeForBusinessOnline"
+            }
+          ]
+        },
+        {
+          "name": "SkypeForBusinessOnlineSettingObjects",
+          "children": [
+            {
+              "name": "Get-SkypeForBusinessOnlineSettingObjects"
+            }
+          ]
+        },
+        {
+          "name": "CsOnlineSession",
+          "children": [
+            {
+              "name": "New-CsOnlineSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Slack.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "UserToSlackChannel",
+          "children": [
+            {
+              "name": "Add-UserToSlackChannel"
+            }
+          ]
+        },
+        {
+          "name": "SlackChannel",
+          "children": [
+            {
+              "name": "Get-SlackChannel"
+            },
+            {
+              "name": "New-SlackChannel"
+            },
+            {
+              "name": "Set-SlackChannel"
+            }
+          ]
+        },
+        {
+          "name": "SlackFile",
+          "children": [
+            {
+              "name": "Get-SlackFile"
+            }
+          ]
+        },
+        {
+          "name": "SlackMessage",
+          "children": [
+            {
+              "name": "Get-SlackMessage"
+            },
+            {
+              "name": "Submit-SlackMessage"
+            }
+          ]
+        },
+        {
+          "name": "SlackUser",
+          "children": [
+            {
+              "name": "Get-SlackUser"
+            }
+          ]
+        },
+        {
+          "name": "UserFromSlackChannel",
+          "children": [
+            {
+              "name": "Remove-UserFromSlackChannel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Sync",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "SyncActiveDirectoryGroupsScriptBlocks",
+          "children": [
+            {
+              "name": "Get-SyncActiveDirectoryGroupsScriptBlocks"
+            }
+          ]
+        },
+        {
+          "name": "SyncActiveDirectoryUsersScriptBlocks",
+          "children": [
+            {
+              "name": "Get-SyncActiveDirectoryUsersScriptBlocks"
+            }
+          ]
+        },
+        {
+          "name": "SyncMSPCompleteCustomersScriptBlocks",
+          "children": [
+            {
+              "name": "Get-SyncMSPCompleteCustomersScriptBlocks"
+            }
+          ]
+        },
+        {
+          "name": "SyncMSPCompleteUsersScriptBlocks",
+          "children": [
+            {
+              "name": "Get-SyncMSPCompleteUsersScriptBlocks"
+            }
+          ]
+        },
+        {
+          "name": "Entities",
+          "children": [
+            {
+              "name": "Sync-Entities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.Sync.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "SyncActiveDirectoryGroupsScriptBlocks",
+          "children": [
+            {
+              "name": "Get-SyncActiveDirectoryGroupsScriptBlocks"
+            }
+          ]
+        },
+        {
+          "name": "SyncActiveDirectoryUsersScriptBlocks",
+          "children": [
+            {
+              "name": "Get-SyncActiveDirectoryUsersScriptBlocks"
+            }
+          ]
+        },
+        {
+          "name": "SyncMSPCompleteCustomersScriptBlocks",
+          "children": [
+            {
+              "name": "Get-SyncMSPCompleteCustomersScriptBlocks"
+            }
+          ]
+        },
+        {
+          "name": "SyncMSPCompleteGroupsScriptBlocks",
+          "children": [
+            {
+              "name": "Get-SyncMSPCompleteGroupsScriptBlocks"
+            }
+          ]
+        },
+        {
+          "name": "SyncMSPCompleteUsersScriptBlocks",
+          "children": [
+            {
+              "name": "Get-SyncMSPCompleteUsersScriptBlocks"
+            }
+          ]
+        },
+        {
+          "name": "Entities",
+          "children": [
+            {
+              "name": "Sync-Entities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.TechData",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "TechDataApiEndpointUrl",
+          "children": [
+            {
+              "name": "Get-TechDataApiEndpointUrl"
+            }
+          ]
+        },
+        {
+          "name": "TechDataApiHeaders",
+          "children": [
+            {
+              "name": "Get-TechDataApiHeaders"
+            }
+          ]
+        },
+        {
+          "name": "TechDataAdminAccount",
+          "children": [
+            {
+              "name": "Connect-TechDataAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "TechDataCustomerPropertyNames",
+          "children": [
+            {
+              "name": "Get-TechDataCustomerPropertyNames"
+            }
+          ]
+        },
+        {
+          "name": "TechDataCustomer",
+          "children": [
+            {
+              "name": "Get-TechDataCustomer"
+            },
+            {
+              "name": "New-TechDataCustomer"
+            }
+          ]
+        },
+        {
+          "name": "TechDataCustomerDetails",
+          "children": [
+            {
+              "name": "Get-TechDataCustomerDetails"
+            }
+          ]
+        },
+        {
+          "name": "TechDataOrder",
+          "children": [
+            {
+              "name": "New-TechDataOrder"
+            }
+          ]
+        },
+        {
+          "name": "TechDataProduct",
+          "children": [
+            {
+              "name": "Get-TechDataProduct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.TechData.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "TechDataApiEndpointUrl",
+          "children": [
+            {
+              "name": "Get-TechDataApiEndpointUrl"
+            }
+          ]
+        },
+        {
+          "name": "TechDataApiHeaders",
+          "children": [
+            {
+              "name": "Get-TechDataApiHeaders"
+            }
+          ]
+        },
+        {
+          "name": "TechDataAdminAccount",
+          "children": [
+            {
+              "name": "Connect-TechDataAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "TechDataCustomerPropertyNames",
+          "children": [
+            {
+              "name": "Get-TechDataCustomerPropertyNames"
+            }
+          ]
+        },
+        {
+          "name": "TechDataCustomer",
+          "children": [
+            {
+              "name": "Get-TechDataCustomer"
+            },
+            {
+              "name": "New-TechDataCustomer"
+            }
+          ]
+        },
+        {
+          "name": "TechDataCustomerDetails",
+          "children": [
+            {
+              "name": "Get-TechDataCustomerDetails"
+            }
+          ]
+        },
+        {
+          "name": "TechDataOrder",
+          "children": [
+            {
+              "name": "New-TechDataOrder"
+            }
+          ]
+        },
+        {
+          "name": "TechDataProduct",
+          "children": [
+            {
+              "name": "Get-TechDataProduct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.UIAutomation",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "Puppeteer",
+          "children": [
+            {
+              "name": "Get-Puppeteer"
+            }
+          ]
+        },
+        {
+          "name": "NodePackageRequiredModules",
+          "children": [
+            {
+              "name": "Install-NodePackageRequiredModules"
+            }
+          ]
+        },
+        {
+          "name": "UIAutomationScript",
+          "children": [
+            {
+              "name": "Invoke-UIAutomationScript"
+            }
+          ]
+        },
+        {
+          "name": "NodePackageDetails",
+          "children": [
+            {
+              "name": "New-NodePackageDetails"
+            }
+          ]
+        },
+        {
+          "name": "PuppeteerCodeGenerator",
+          "children": [
+            {
+              "name": "New-PuppeteerCodeGenerator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitan.Runbooks.UIAutomation.Beta",
+      "companyName": "BitTitan, Inc.",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "Puppeteer",
+          "children": [
+            {
+              "name": "Get-Puppeteer"
+            }
+          ]
+        },
+        {
+          "name": "NodePackageRequiredModules",
+          "children": [
+            {
+              "name": "Install-NodePackageRequiredModules"
+            }
+          ]
+        },
+        {
+          "name": "UIAutomationScript",
+          "children": [
+            {
+              "name": "Invoke-UIAutomationScript"
+            }
+          ]
+        },
+        {
+          "name": "NodePackageDetails",
+          "children": [
+            {
+              "name": "New-NodePackageDetails"
+            }
+          ]
+        },
+        {
+          "name": "PuppeteerCodeGenerator",
+          "children": [
+            {
+              "name": "New-PuppeteerCodeGenerator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitTitanManagement",
+      "companyName": "BitTitan",
+      "author": "BitTitan",
+      "children": [
+        {
+          "name": "ActiveDirectoryToOffice365ContactDirectorySync",
+          "children": [
+            {
+              "name": "New-ActiveDirectoryToOffice365ContactDirectorySync"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryToOffice365GroupDirectorySync",
+          "children": [
+            {
+              "name": "New-ActiveDirectoryToOffice365GroupDirectorySync"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectoryToOffice365UserDirectorySync",
+          "children": [
+            {
+              "name": "New-ActiveDirectoryToOffice365UserDirectorySync"
+            }
+          ]
+        },
+        {
+          "name": "PublicFolderLicenseEstimate",
+          "children": [
+            {
+              "name": "Select-PublicFolderLicenseEstimate"
+            }
+          ]
+        },
+        {
+          "name": "PublicFolderMigrations",
+          "children": [
+            {
+              "name": "Split-PublicFolderMigrations"
+            }
+          ]
+        },
+        {
+          "name": "PublicFolderData",
+          "children": [
+            {
+              "name": "Select-PublicFolderData"
+            }
+          ]
+        },
+        {
+          "name": "PublicFoldersIntoMailboxes",
+          "children": [
+            {
+              "name": "Split-PublicFoldersIntoMailboxes"
+            }
+          ]
+        },
+        {
+          "name": "PostponeTask",
+          "children": [
+            {
+              "name": "Request-PostponeTask"
+            }
+          ]
+        },
+        {
+          "name": "MW",
+          "children": [
+            {
+              "name": "Get-MW"
+            },
+            {
+              "name": "Add-MW"
+            },
+            {
+              "name": "Set-MW"
+            },
+            {
+              "name": "Remove-MW"
+            },
+            {
+              "name": "New-MW"
+            }
+          ]
+        },
+        {
+          "name": "AzureContainer",
+          "children": [
+            {
+              "name": "Rename-AzureContainer"
+            }
+          ]
+        },
+        {
+          "name": "BT",
+          "children": [
+            {
+              "name": "New-BT"
+            },
+            {
+              "name": "Add-BT"
+            },
+            {
+              "name": "Get-BT"
+            },
+            {
+              "name": "Set-BT"
+            },
+            {
+              "name": "Remove-BT"
+            },
+            {
+              "name": "Complete-BT"
+            },
+            {
+              "name": "Export-BT"
+            },
+            {
+              "name": "Import-BT"
+            },
+            {
+              "name": "Send-BT"
+            },
+            {
+              "name": "Start-BT"
+            }
+          ]
+        },
+        {
+          "name": "MSPC",
+          "children": [
+            {
+              "name": "Initialize-MSPC"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVersion",
+          "children": [
+            {
+              "name": "Get-ModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "MigrationWizGoogleEmailForward",
+          "children": [
+            {
+              "name": "Get-MigrationWizGoogleEmailForward"
+            },
+            {
+              "name": "Set-MigrationWizGoogleEmailForward"
+            }
+          ]
+        },
+        {
+          "name": "MigrationWizGoogleUserAccounts",
+          "children": [
+            {
+              "name": "Get-MigrationWizGoogleUserAccounts"
+            }
+          ]
+        },
+        {
+          "name": "MigrationWizGoogleOAuth2AccessToken",
+          "children": [
+            {
+              "name": "Remove-MigrationWizGoogleOAuth2AccessToken"
+            }
+          ]
+        },
+        {
+          "name": "MigrationWizGoogleUserPassword",
+          "children": [
+            {
+              "name": "Set-MigrationWizGoogleUserPassword"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

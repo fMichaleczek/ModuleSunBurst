@@ -1,0 +1,186 @@
+{
+  "name": "PlayFab",
+  "children": [
+    {
+      "name": "PlayCompute",
+      "companyName": "Microsoft",
+      "author": "PlayFab",
+      "children": [
+        {
+          "name": "PFQosServer",
+          "children": [
+            {
+              "name": "Get-PFQosServer"
+            }
+          ]
+        },
+        {
+          "name": "PFTitleEntityToken",
+          "children": [
+            {
+              "name": "Get-PFTitleEntityToken"
+            }
+          ]
+        },
+        {
+          "name": "PFGameAsset",
+          "children": [
+            {
+              "name": "Get-PFGameAsset"
+            },
+            {
+              "name": "Add-PFGameAsset"
+            }
+          ]
+        },
+        {
+          "name": "PFGameCertificate",
+          "children": [
+            {
+              "name": "Add-PFGameCertificate"
+            },
+            {
+              "name": "Get-PFGameCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PFGameBuild",
+          "children": [
+            {
+              "name": "Get-PFGameBuild"
+            },
+            {
+              "name": "New-PFGameBuild"
+            },
+            {
+              "name": "Remove-PFGameBuild"
+            }
+          ]
+        },
+        {
+          "name": "PFGameSessionHost",
+          "children": [
+            {
+              "name": "Get-PFGameSessionHost"
+            },
+            {
+              "name": "New-PFGameSessionHost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PlayFabMultiplayer",
+      "companyName": "Microsoft",
+      "author": "PlayFab",
+      "children": [
+        {
+          "name": "PFMultiplayerAsset",
+          "children": [
+            {
+              "name": "Add-PFMultiplayerAsset"
+            },
+            {
+              "name": "Get-PFMultiplayerAsset"
+            },
+            {
+              "name": "Remove-PFMultiplayerAsset"
+            }
+          ]
+        },
+        {
+          "name": "PFMultiplayerCertificate",
+          "children": [
+            {
+              "name": "Add-PFMultiplayerCertificate"
+            },
+            {
+              "name": "Get-PFMultiplayerCertificate"
+            },
+            {
+              "name": "Remove-PFMultiplayerCertificate"
+            }
+          ]
+        },
+        {
+          "name": "PFMultiplayerServer",
+          "children": [
+            {
+              "name": "Enable-PFMultiplayerServer"
+            },
+            {
+              "name": "Get-PFMultiplayerServer"
+            },
+            {
+              "name": "New-PFMultiplayerServer"
+            }
+          ]
+        },
+        {
+          "name": "PFMultiplayerBuild",
+          "children": [
+            {
+              "name": "Get-PFMultiplayerBuild"
+            },
+            {
+              "name": "New-PFMultiplayerBuild"
+            },
+            {
+              "name": "Remove-PFMultiplayerBuild"
+            }
+          ]
+        },
+        {
+          "name": "PFMultiplayerContainerImages",
+          "children": [
+            {
+              "name": "Get-PFMultiplayerContainerImages"
+            }
+          ]
+        },
+        {
+          "name": "PFMultiplayerContainerImageTags",
+          "children": [
+            {
+              "name": "Get-PFMultiplayerContainerImageTags"
+            }
+          ]
+        },
+        {
+          "name": "PFMultiplayerQosServer",
+          "children": [
+            {
+              "name": "Get-PFMultiplayerQosServer"
+            }
+          ]
+        },
+        {
+          "name": "PFTitleEntityToken",
+          "children": [
+            {
+              "name": "Get-PFTitleEntityToken"
+            }
+          ]
+        },
+        {
+          "name": "PFMultiplayerContainerImageTag",
+          "children": [
+            {
+              "name": "Remove-PFMultiplayerContainerImageTag"
+            }
+          ]
+        },
+        {
+          "name": "PFTitle",
+          "children": [
+            {
+              "name": "Set-PFTitle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

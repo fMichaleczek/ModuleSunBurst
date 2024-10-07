@@ -1,0 +1,101 @@
+{
+  "name": "gisp",
+  "children": [
+    {
+      "name": "PSGISP.ActiveDirectory",
+      "companyName": "gisp",
+      "author": "gisp",
+      "children": [
+        {
+          "name": "BulkGPO",
+          "children": [
+            {
+              "name": "Import-BulkGPO"
+            }
+          ]
+        },
+        {
+          "name": "PrintGPO",
+          "children": [
+            {
+              "name": "Import-PrintGPO"
+            }
+          ]
+        },
+        {
+          "name": "NetworkDrive",
+          "children": [
+            {
+              "name": "New-NetworkDrive"
+            }
+          ]
+        },
+        {
+          "name": "ADUserPassword",
+          "children": [
+            {
+              "name": "Set-ADUserPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGISP.MicrosoftGraph",
+      "companyName": "gisp",
+      "author": "gisp",
+      "children": [
+        {
+          "name": "MgApplicationAPIPermission",
+          "children": [
+            {
+              "name": "Add-MgApplicationAPIPermission"
+            },
+            {
+              "name": "Remove-MgApplicationAPIPermission"
+            }
+          ]
+        },
+        {
+          "name": "MgApplicationCertificate",
+          "children": [
+            {
+              "name": "Add-MgApplicationCertificate"
+            }
+          ]
+        },
+        {
+          "name": "MgSessionPermission",
+          "children": [
+            {
+              "name": "Approve-MgSessionPermission"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGISP.Tools",
+      "companyName": "gisp",
+      "author": "gisp",
+      "children": [
+        {
+          "name": "Path",
+          "children": [
+            {
+              "name": "Get-Path"
+            }
+          ]
+        },
+        {
+          "name": "RandomString",
+          "children": [
+            {
+              "name": "Get-RandomString"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

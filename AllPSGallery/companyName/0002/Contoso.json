@@ -1,0 +1,301 @@
+{
+  "name": "Contoso",
+  "children": [
+    {
+      "name": "appdynamics",
+      "companyName": "Contoso",
+      "author": "Evan Lock  inammathe gmail.com",
+      "children": [
+        {
+          "name": "AppDAccountId",
+          "children": [
+            {
+              "name": "Get-AppDAccountId"
+            }
+          ]
+        },
+        {
+          "name": "AppDApplication",
+          "children": [
+            {
+              "name": "Get-AppDApplication"
+            }
+          ]
+        },
+        {
+          "name": "AppDAuth",
+          "children": [
+            {
+              "name": "Get-AppDAuth"
+            }
+          ]
+        },
+        {
+          "name": "AppDBTCountbyTier",
+          "children": [
+            {
+              "name": "Get-AppDBTCountbyTier"
+            }
+          ]
+        },
+        {
+          "name": "AppDBTMetricPath",
+          "children": [
+            {
+              "name": "Get-AppDBTMetricPath"
+            }
+          ]
+        },
+        {
+          "name": "AppDBTMetrics",
+          "children": [
+            {
+              "name": "Get-AppDBTMetrics"
+            }
+          ]
+        },
+        {
+          "name": "AppDBTs",
+          "children": [
+            {
+              "name": "Get-AppDBTs"
+            }
+          ]
+        },
+        {
+          "name": "AppDConnectionInfo",
+          "children": [
+            {
+              "name": "Get-AppDConnectionInfo"
+            },
+            {
+              "name": "Set-AppDConnectionInfo"
+            }
+          ]
+        },
+        {
+          "name": "AppDEvent",
+          "children": [
+            {
+              "name": "Get-AppDEvent"
+            }
+          ]
+        },
+        {
+          "name": "AppDLicenseInfo",
+          "children": [
+            {
+              "name": "Get-AppDLicenseInfo"
+            }
+          ]
+        },
+        {
+          "name": "AppDMetricData",
+          "children": [
+            {
+              "name": "Get-AppDMetricData"
+            }
+          ]
+        },
+        {
+          "name": "AppDNodes",
+          "children": [
+            {
+              "name": "Get-AppDNodes"
+            }
+          ]
+        },
+        {
+          "name": "AppDPolicies",
+          "children": [
+            {
+              "name": "Get-AppDPolicies"
+            }
+          ]
+        },
+        {
+          "name": "AppDSepConfig",
+          "children": [
+            {
+              "name": "Get-AppDSepConfig"
+            }
+          ]
+        },
+        {
+          "name": "AppDTier",
+          "children": [
+            {
+              "name": "Get-AppDTier"
+            }
+          ]
+        },
+        {
+          "name": "AppDConnection",
+          "children": [
+            {
+              "name": "New-AppDConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSElastic",
+      "companyName": "Contoso",
+      "author": "Evan Lock  inammathe gmail.com",
+      "children": [
+        {
+          "name": "ElasticClusterHealth",
+          "children": [
+            {
+              "name": "Get-ElasticClusterHealth"
+            }
+          ]
+        },
+        {
+          "name": "ElasticClusterSettings",
+          "children": [
+            {
+              "name": "Get-ElasticClusterSettings"
+            }
+          ]
+        },
+        {
+          "name": "ElasticClusterState",
+          "children": [
+            {
+              "name": "Get-ElasticClusterState"
+            }
+          ]
+        },
+        {
+          "name": "ElasticClusterStats",
+          "children": [
+            {
+              "name": "Get-ElasticClusterStats"
+            }
+          ]
+        },
+        {
+          "name": "ElasticConnection",
+          "children": [
+            {
+              "name": "Get-ElasticConnection"
+            },
+            {
+              "name": "Set-ElasticConnection"
+            }
+          ]
+        },
+        {
+          "name": "ElasticDocument",
+          "children": [
+            {
+              "name": "Get-ElasticDocument"
+            },
+            {
+              "name": "Remove-ElasticDocument"
+            },
+            {
+              "name": "Write-ElasticDocument"
+            }
+          ]
+        },
+        {
+          "name": "ElasticFieldMapping",
+          "children": [
+            {
+              "name": "Get-ElasticFieldMapping"
+            }
+          ]
+        },
+        {
+          "name": "ElasticIndex",
+          "children": [
+            {
+              "name": "Get-ElasticIndex"
+            },
+            {
+              "name": "New-ElasticIndex"
+            },
+            {
+              "name": "Remove-ElasticIndex"
+            }
+          ]
+        },
+        {
+          "name": "ElasticMapping",
+          "children": [
+            {
+              "name": "Get-ElasticMapping"
+            }
+          ]
+        },
+        {
+          "name": "ElasticParamSetVariables",
+          "children": [
+            {
+              "name": "Get-ElasticParamSetVariables"
+            }
+          ]
+        },
+        {
+          "name": "ElasticQueryString",
+          "children": [
+            {
+              "name": "Get-ElasticQueryString"
+            }
+          ]
+        },
+        {
+          "name": "ElasticRequest",
+          "children": [
+            {
+              "name": "Invoke-ElasticRequest"
+            }
+          ]
+        },
+        {
+          "name": "ElasticParts",
+          "children": [
+            {
+              "name": "Join-ElasticParts"
+            }
+          ]
+        },
+        {
+          "name": "ElasticIndexExists",
+          "children": [
+            {
+              "name": "Test-ElasticIndexExists"
+            }
+          ]
+        },
+        {
+          "name": "ElasticJson",
+          "children": [
+            {
+              "name": "Test-ElasticJson"
+            }
+          ]
+        },
+        {
+          "name": "ElasticTypeExists",
+          "children": [
+            {
+              "name": "Test-ElasticTypeExists"
+            }
+          ]
+        },
+        {
+          "name": "ElasticLog",
+          "children": [
+            {
+              "name": "Write-ElasticLog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

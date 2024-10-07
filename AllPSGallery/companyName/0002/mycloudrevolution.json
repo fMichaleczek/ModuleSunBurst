@@ -1,0 +1,59 @@
+{
+  "name": "mycloudrevolution",
+  "children": [
+    {
+      "name": "poshbot.veeam",
+      "companyName": "mycloudrevolution",
+      "author": "Markus Kraus",
+      "children": [
+        {
+          "name": "VeeamRepositories",
+          "children": [
+            {
+              "name": "Get-VeeamRepositories"
+            }
+          ]
+        },
+        {
+          "name": "VeeamJobSessions",
+          "children": [
+            {
+              "name": "Get-VeeamJobSessions"
+            }
+          ]
+        },
+        {
+          "name": "VeeamJobs",
+          "children": [
+            {
+              "name": "Get-VeeamJobs"
+            }
+          ]
+        },
+        {
+          "name": "VeeamQuickBackup",
+          "children": [
+            {
+              "name": "Start-VeeamQuickBackup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGallery-Test",
+      "companyName": "mycloudrevolution",
+      "author": "Markus Kraus",
+      "children": [
+        {
+          "name": "Awsome",
+          "children": [
+            {
+              "name": "Get-Awsome"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "name": "AtlassianPS",
+  "children": [
+    {
+      "name": "ConfluencePS",
+      "companyName": "AtlassianPS",
+      "author": "AtlassianPS",
+      "children": [
+        {
+          "name": "Attachment",
+          "children": [
+            {
+              "name": "Add-Attachment"
+            },
+            {
+              "name": "Get-Attachment"
+            },
+            {
+              "name": "Remove-Attachment"
+            },
+            {
+              "name": "Set-Attachment"
+            }
+          ]
+        },
+        {
+          "name": "Label",
+          "children": [
+            {
+              "name": "Add-Label"
+            },
+            {
+              "name": "Get-Label"
+            },
+            {
+              "name": "Remove-Label"
+            },
+            {
+              "name": "Set-Label"
+            }
+          ]
+        },
+        {
+          "name": "StorageFormat",
+          "children": [
+            {
+              "name": "ConvertTo-StorageFormat"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "children": [
+            {
+              "name": "ConvertTo-Table"
+            }
+          ]
+        },
+        {
+          "name": "AttachmentFile",
+          "children": [
+            {
+              "name": "Get-AttachmentFile"
+            }
+          ]
+        },
+        {
+          "name": "ChildPage",
+          "children": [
+            {
+              "name": "Get-ChildPage"
+            }
+          ]
+        },
+        {
+          "name": "Page",
+          "children": [
+            {
+              "name": "Get-Page"
+            },
+            {
+              "name": "New-Page"
+            },
+            {
+              "name": "Remove-Page"
+            },
+            {
+              "name": "Set-Page"
+            }
+          ]
+        },
+        {
+          "name": "Space",
+          "children": [
+            {
+              "name": "Get-Space"
+            },
+            {
+              "name": "New-Space"
+            },
+            {
+              "name": "Remove-Space"
+            }
+          ]
+        },
+        {
+          "name": "Method",
+          "children": [
+            {
+              "name": "Invoke-Method"
+            }
+          ]
+        },
+        {
+          "name": "Info",
+          "children": [
+            {
+              "name": "Set-Info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JiraPS",
+      "companyName": "AtlassianPS.org",
+      "author": "AtlassianPS",
+      "children": [
+        {
+          "name": "JiraFilterPermission",
+          "children": [
+            {
+              "name": "Add-JiraFilterPermission"
+            },
+            {
+              "name": "Get-JiraFilterPermission"
+            },
+            {
+              "name": "Remove-JiraFilterPermission"
+            }
+          ]
+        },
+        {
+          "name": "JiraGroupMember",
+          "children": [
+            {
+              "name": "Add-JiraGroupMember"
+            },
+            {
+              "name": "Get-JiraGroupMember"
+            },
+            {
+              "name": "Remove-JiraGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueAttachment",
+          "children": [
+            {
+              "name": "Add-JiraIssueAttachment"
+            },
+            {
+              "name": "Get-JiraIssueAttachment"
+            },
+            {
+              "name": "Remove-JiraIssueAttachment"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueComment",
+          "children": [
+            {
+              "name": "Add-JiraIssueComment"
+            },
+            {
+              "name": "Get-JiraIssueComment"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueLink",
+          "children": [
+            {
+              "name": "Add-JiraIssueLink"
+            },
+            {
+              "name": "Get-JiraIssueLink"
+            },
+            {
+              "name": "Remove-JiraIssueLink"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueWatcher",
+          "children": [
+            {
+              "name": "Add-JiraIssueWatcher"
+            },
+            {
+              "name": "Get-JiraIssueWatcher"
+            },
+            {
+              "name": "Remove-JiraIssueWatcher"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueWorklog",
+          "children": [
+            {
+              "name": "Add-JiraIssueWorklog"
+            },
+            {
+              "name": "Get-JiraIssueWorklog"
+            }
+          ]
+        },
+        {
+          "name": "JiraFilter",
+          "children": [
+            {
+              "name": "Find-JiraFilter"
+            },
+            {
+              "name": "Get-JiraFilter"
+            },
+            {
+              "name": "New-JiraFilter"
+            },
+            {
+              "name": "Remove-JiraFilter"
+            },
+            {
+              "name": "Set-JiraFilter"
+            }
+          ]
+        },
+        {
+          "name": "Jira",
+          "children": [
+            {
+              "name": "Format-Jira"
+            }
+          ]
+        },
+        {
+          "name": "JiraComponent",
+          "children": [
+            {
+              "name": "Get-JiraComponent"
+            }
+          ]
+        },
+        {
+          "name": "JiraConfigServer",
+          "children": [
+            {
+              "name": "Get-JiraConfigServer"
+            },
+            {
+              "name": "Set-JiraConfigServer"
+            }
+          ]
+        },
+        {
+          "name": "JiraField",
+          "children": [
+            {
+              "name": "Get-JiraField"
+            }
+          ]
+        },
+        {
+          "name": "JiraGroup",
+          "children": [
+            {
+              "name": "Get-JiraGroup"
+            },
+            {
+              "name": "New-JiraGroup"
+            },
+            {
+              "name": "Remove-JiraGroup"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssue",
+          "children": [
+            {
+              "name": "Get-JiraIssue"
+            },
+            {
+              "name": "New-JiraIssue"
+            },
+            {
+              "name": "Remove-JiraIssue"
+            },
+            {
+              "name": "Set-JiraIssue"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueAttachmentFile",
+          "children": [
+            {
+              "name": "Get-JiraIssueAttachmentFile"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueCreateMetadata",
+          "children": [
+            {
+              "name": "Get-JiraIssueCreateMetadata"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueEditMetadata",
+          "children": [
+            {
+              "name": "Get-JiraIssueEditMetadata"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueLinkType",
+          "children": [
+            {
+              "name": "Get-JiraIssueLinkType"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueType",
+          "children": [
+            {
+              "name": "Get-JiraIssueType"
+            }
+          ]
+        },
+        {
+          "name": "JiraPriority",
+          "children": [
+            {
+              "name": "Get-JiraPriority"
+            }
+          ]
+        },
+        {
+          "name": "JiraProject",
+          "children": [
+            {
+              "name": "Get-JiraProject"
+            }
+          ]
+        },
+        {
+          "name": "JiraRemoteLink",
+          "children": [
+            {
+              "name": "Get-JiraRemoteLink"
+            },
+            {
+              "name": "Remove-JiraRemoteLink"
+            }
+          ]
+        },
+        {
+          "name": "JiraServerInformation",
+          "children": [
+            {
+              "name": "Get-JiraServerInformation"
+            }
+          ]
+        },
+        {
+          "name": "JiraSession",
+          "children": [
+            {
+              "name": "Get-JiraSession"
+            },
+            {
+              "name": "New-JiraSession"
+            },
+            {
+              "name": "Remove-JiraSession"
+            }
+          ]
+        },
+        {
+          "name": "JiraUser",
+          "children": [
+            {
+              "name": "Get-JiraUser"
+            },
+            {
+              "name": "New-JiraUser"
+            },
+            {
+              "name": "Remove-JiraUser"
+            },
+            {
+              "name": "Set-JiraUser"
+            }
+          ]
+        },
+        {
+          "name": "JiraVersion",
+          "children": [
+            {
+              "name": "Get-JiraVersion"
+            },
+            {
+              "name": "Move-JiraVersion"
+            },
+            {
+              "name": "New-JiraVersion"
+            },
+            {
+              "name": "Remove-JiraVersion"
+            },
+            {
+              "name": "Set-JiraVersion"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueTransition",
+          "children": [
+            {
+              "name": "Invoke-JiraIssueTransition"
+            }
+          ]
+        },
+        {
+          "name": "JiraMethod",
+          "children": [
+            {
+              "name": "Invoke-JiraMethod"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueLabel",
+          "children": [
+            {
+              "name": "Set-JiraIssueLabel"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

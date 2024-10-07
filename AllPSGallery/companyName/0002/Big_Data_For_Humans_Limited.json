@@ -1,0 +1,67 @@
+{
+  "name": "Big Data For Humans Limited",
+  "children": [
+    {
+      "name": "AzureAutomationTools.Logging",
+      "companyName": "Big Data For Humans Limited",
+      "author": "Big Data For Humans",
+      "children": [
+        {
+          "name": "AzureRmAutomationRunbookLog",
+          "children": [
+            {
+              "name": "Export-AzureRmAutomationRunbookLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSaru.Security",
+      "companyName": "Big Data for Humans Limited",
+      "author": "Big Data for Humans Limited",
+      "children": [
+        {
+          "name": "PlainText",
+          "children": [
+            {
+              "name": "ConvertTo-PlainText"
+            }
+          ]
+        },
+        {
+          "name": "ByteArray",
+          "children": [
+            {
+              "name": "ConvertTo-ByteArray"
+            }
+          ]
+        },
+        {
+          "name": "CryptoRandomByte",
+          "children": [
+            {
+              "name": "Get-CryptoRandomByte"
+            }
+          ]
+        },
+        {
+          "name": "RandomPassword",
+          "children": [
+            {
+              "name": "Get-RandomPassword"
+            }
+          ]
+        },
+        {
+          "name": "StringHash",
+          "children": [
+            {
+              "name": "Get-StringHash"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

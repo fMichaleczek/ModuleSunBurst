@@ -1,0 +1,65 @@
+{
+  "name": "sid 500.com",
+  "children": [
+    {
+      "name": "Enable-RemoteDesktop",
+      "companyName": "sid 500.com",
+      "author": "Patrick Gruenauer",
+      "children": [
+        {
+          "name": "RemoteDesktop",
+          "children": [
+            {
+              "name": "Enable-RemoteDesktop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Get-ADUserLastLogon",
+      "companyName": "sid 500.com",
+      "author": "Patrick Gruenauer",
+      "children": [
+        {
+          "name": "ADUserLastLogon",
+          "children": [
+            {
+              "name": "Get-ADUserLastLogon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Get-AntiMalwareStatus",
+      "companyName": "sid 500.com",
+      "author": "Patrick Gruenauer",
+      "children": [
+        {
+          "name": "AntimalwareStatus",
+          "children": [
+            {
+              "name": "Get-AntimalwareStatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Test-OpenPort",
+      "companyName": "sid 500.com",
+      "author": "Patrick Gruenauer",
+      "children": [
+        {
+          "name": "OpenPort",
+          "children": [
+            {
+              "name": "Test-OpenPort"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

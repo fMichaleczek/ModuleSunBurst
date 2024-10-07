@@ -1,0 +1,43 @@
+{
+  "name": "nimbus117",
+  "children": [
+    {
+      "name": "zWindowsUpdate",
+      "companyName": "nimbus117",
+      "author": "nimbus117",
+      "children": [
+        {
+          "name": "zWULog",
+          "children": [
+            {
+              "name": "Get-zWULog"
+            }
+          ]
+        },
+        {
+          "name": "zWUTask",
+          "children": [
+            {
+              "name": "Get-zWUTask"
+            },
+            {
+              "name": "New-zWUTask"
+            },
+            {
+              "name": "Remove-zWUTask"
+            },
+            {
+              "name": "Start-zWUTask"
+            },
+            {
+              "name": "Stop-zWUTask"
+            },
+            {
+              "name": "Wait-zWUTask"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

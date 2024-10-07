@@ -1,0 +1,271 @@
+{
+  "name": "PoshCode",
+  "children": [
+    {
+      "name": "ErrorView",
+      "companyName": "PoshCode",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Error",
+          "children": [
+            {
+              "name": "Format-Error"
+            }
+          ]
+        },
+        {
+          "name": "ErrorView",
+          "children": [
+            {
+              "name": "Set-ErrorView"
+            }
+          ]
+        },
+        {
+          "name": "NativeCommandError",
+          "children": [
+            {
+              "name": "Write-NativeCommandError"
+            }
+          ]
+        },
+        {
+          "name": "CategoryErrorView",
+          "children": [
+            {
+              "name": "ConvertTo-CategoryErrorView"
+            }
+          ]
+        },
+        {
+          "name": "NormalErrorView",
+          "children": [
+            {
+              "name": "ConvertTo-NormalErrorView"
+            }
+          ]
+        },
+        {
+          "name": "SimpleErrorView",
+          "children": [
+            {
+              "name": "ConvertTo-SimpleErrorView"
+            }
+          ]
+        },
+        {
+          "name": "FullErrorView",
+          "children": [
+            {
+              "name": "ConvertTo-FullErrorView"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ModuleBuilder",
+      "companyName": "PoshCode",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Build-Module"
+            }
+          ]
+        },
+        {
+          "name": "Breakpoint",
+          "children": [
+            {
+              "name": "Convert-Breakpoint"
+            }
+          ]
+        },
+        {
+          "name": "CodeCoverage",
+          "children": [
+            {
+              "name": "Convert-CodeCoverage"
+            }
+          ]
+        },
+        {
+          "name": "SourceLineNumber",
+          "children": [
+            {
+              "name": "ConvertFrom-SourceLineNumber"
+            },
+            {
+              "name": "ConvertTo-SourceLineNumber"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGit",
+      "companyName": "PoshCode",
+      "author": "PoshCode Team",
+      "children": [
+        {
+          "name": "WriteMessage",
+          "children": [
+            {
+              "name": "WriteMessage"
+            }
+          ]
+        },
+        {
+          "name": "ConvertColor",
+          "children": [
+            {
+              "name": "ConvertColor"
+            }
+          ]
+        },
+        {
+          "name": "RootFolder",
+          "children": [
+            {
+              "name": "Get-RootFolder"
+            }
+          ]
+        },
+        {
+          "name": "Change",
+          "children": [
+            {
+              "name": "Get-Change"
+            }
+          ]
+        },
+        {
+          "name": "Info",
+          "children": [
+            {
+              "name": "Get-Info"
+            }
+          ]
+        },
+        {
+          "name": "Branch",
+          "children": [
+            {
+              "name": "Get-Branch"
+            }
+          ]
+        },
+        {
+          "name": "Status",
+          "children": [
+            {
+              "name": "Get-Status"
+            },
+            {
+              "name": "Show-Status"
+            },
+            {
+              "name": "Write-Status"
+            }
+          ]
+        },
+        {
+          "name": "Repository",
+          "children": [
+            {
+              "name": "New-Repository"
+            }
+          ]
+        },
+        {
+          "name": "PromptSetting",
+          "children": [
+            {
+              "name": "Set-PromptSetting"
+            }
+          ]
+        },
+        {
+          "name": "Text",
+          "children": [
+            {
+              "name": "Write-Text"
+            }
+          ]
+        },
+        {
+          "name": "StatusPowerLine",
+          "children": [
+            {
+              "name": "Write-StatusPowerLine"
+            }
+          ]
+        },
+        {
+          "name": "SetPSGit",
+          "children": [
+            {
+              "name": "SetPSGit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RequiredModules",
+      "companyName": "PoshCode",
+      "author": "Joel  Jaykul  Bennett",
+      "children": [
+        {
+          "name": "RequiredModule",
+          "children": [
+            {
+              "name": "Install-RequiredModule"
+            }
+          ]
+        },
+        {
+          "name": "Dependency",
+          "children": [
+            {
+              "name": "Optimize-Dependency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WindowsConsoleFonts",
+      "companyName": "PoshCode",
+      "author": "Joel Bennett",
+      "children": [
+        {
+          "name": "ConsoleFont",
+          "children": [
+            {
+              "name": "Set-ConsoleFont"
+            },
+            {
+              "name": "Get-ConsoleFont"
+            }
+          ]
+        },
+        {
+          "name": "Font",
+          "children": [
+            {
+              "name": "Add-Font"
+            },
+            {
+              "name": "Remove-Font"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

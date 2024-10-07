@@ -1,0 +1,35 @@
+{
+  "name": "Eggs Toast Bacon",
+  "children": [
+    {
+      "name": "Invoke-EggJob",
+      "companyName": "Unknown",
+      "author": "Eggs Toast Bacon",
+      "children": [
+        {
+          "name": "EggJob",
+          "children": [
+            {
+              "name": "Invoke-EggJob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Invoke-EggThread",
+      "companyName": "Unknown",
+      "author": "Eggs Toast Bacon",
+      "children": [
+        {
+          "name": "EggThread",
+          "children": [
+            {
+              "name": "Invoke-EggThread"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

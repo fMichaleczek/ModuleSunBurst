@@ -1,0 +1,174 @@
+{
+  "name": "UKHO",
+  "children": [
+    {
+      "name": "BuildAndDeploy",
+      "companyName": "UKHO",
+      "author": "UKHO",
+      "children": [
+        {
+          "name": "FunctionsToExport",
+          "children": [
+            {
+              "name": "Add-FunctionsToExport"
+            }
+          ]
+        },
+        {
+          "name": "TokenTransform",
+          "children": [
+            {
+              "name": "Complete-TokenTransform"
+            },
+            {
+              "name": "Invoke-TokenTransform"
+            },
+            {
+              "name": "Test-TokenTransform"
+            }
+          ]
+        },
+        {
+          "name": "ArtifactToSession",
+          "children": [
+            {
+              "name": "Copy-ArtifactToSession"
+            }
+          ]
+        },
+        {
+          "name": "DscEncryptionCertificate",
+          "children": [
+            {
+              "name": "Get-DscEncryptionCertificate"
+            },
+            {
+              "name": "Use-DscEncryptionCertificate"
+            }
+          ]
+        },
+        {
+          "name": "WindowsServiceRecovery",
+          "children": [
+            {
+              "name": "Get-WindowsServiceRecovery"
+            },
+            {
+              "name": "Set-WindowsServiceRecovery"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellDataFileConfigs",
+          "children": [
+            {
+              "name": "Import-PowerShellDataFileConfigs"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVersion",
+          "children": [
+            {
+              "name": "Increment-ModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "RequiredModules",
+          "children": [
+            {
+              "name": "Install-RequiredModules"
+            }
+          ]
+        },
+        {
+          "name": "VulnerabilityCheck",
+          "children": [
+            {
+              "name": "Invoke-VulnerabilityCheck"
+            }
+          ]
+        },
+        {
+          "name": "DependencyVulnerabilities",
+          "children": [
+            {
+              "name": "Measure-DependencyVulnerabilities"
+            },
+            {
+              "name": "Test-DependencyVulnerabilities"
+            }
+          ]
+        },
+        {
+          "name": "ConfigHashtables",
+          "children": [
+            {
+              "name": "Merge-ConfigHashtables"
+            }
+          ]
+        },
+        {
+          "name": "PowershellScripts",
+          "children": [
+            {
+              "name": "Protect-PowershellScripts"
+            }
+          ]
+        },
+        {
+          "name": "ModuleToFeed",
+          "children": [
+            {
+              "name": "Publish-ModuleToFeed"
+            }
+          ]
+        },
+        {
+          "name": "Repository",
+          "children": [
+            {
+              "name": "Register-Repository"
+            },
+            {
+              "name": "UnRegister-Repository"
+            }
+          ]
+        },
+        {
+          "name": "ModuleAsPreRelease",
+          "children": [
+            {
+              "name": "Set-ModuleAsPreRelease"
+            }
+          ]
+        },
+        {
+          "name": "PackageLicences",
+          "children": [
+            {
+              "name": "Show-PackageLicences"
+            }
+          ]
+        },
+        {
+          "name": "Uninstall.RequiredModules",
+          "children": [
+            {
+              "name": "Uninstall.RequiredModules"
+            }
+          ]
+        },
+        {
+          "name": "AssemblyInfo",
+          "children": [
+            {
+              "name": "Update-AssemblyInfo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1943 @@
+{
+  "name": "Pete Maan",
+  "children": [
+    {
+      "name": "CredentialRetriever",
+      "companyName": "Unknown",
+      "author": "Pete Maan",
+      "children": [
+        {
+          "name": "CCPCredential",
+          "children": [
+            {
+              "name": "Get-CCPCredential"
+            }
+          ]
+        },
+        {
+          "name": "AIMCredential",
+          "children": [
+            {
+              "name": "Get-AIMCredential"
+            }
+          ]
+        },
+        {
+          "name": "AIMConfiguration",
+          "children": [
+            {
+              "name": "Set-AIMConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IdentityCommand",
+      "companyName": "PSPETE",
+      "author": "Pete Maan",
+      "children": [
+        {
+          "name": "IDSession",
+          "children": [
+            {
+              "name": "New-IDSession"
+            },
+            {
+              "name": "Close-IDSession"
+            },
+            {
+              "name": "Get-IDSession"
+            }
+          ]
+        },
+        {
+          "name": "IDUserSession",
+          "children": [
+            {
+              "name": "Clear-IDUserSession"
+            }
+          ]
+        },
+        {
+          "name": "IDUser",
+          "children": [
+            {
+              "name": "Get-IDUser"
+            },
+            {
+              "name": "Lock-IDUser"
+            },
+            {
+              "name": "Unlock-IDUser"
+            }
+          ]
+        },
+        {
+          "name": "IDUserMFA",
+          "children": [
+            {
+              "name": "Suspend-IDUserMFA"
+            }
+          ]
+        },
+        {
+          "name": "IDUserCloudLock",
+          "children": [
+            {
+              "name": "Test-IDUserCloudLock"
+            }
+          ]
+        },
+        {
+          "name": "IDTenant",
+          "children": [
+            {
+              "name": "Get-IDTenant"
+            }
+          ]
+        },
+        {
+          "name": "IDTenantConfiguration",
+          "children": [
+            {
+              "name": "Get-IDTenantConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "IDConnector",
+          "children": [
+            {
+              "name": "Get-IDConnector"
+            }
+          ]
+        },
+        {
+          "name": "IDPlatformToken",
+          "children": [
+            {
+              "name": "New-IDPlatformToken"
+            }
+          ]
+        },
+        {
+          "name": "IDUserRole",
+          "children": [
+            {
+              "name": "Get-IDUserRole"
+            }
+          ]
+        },
+        {
+          "name": "IDAnalyticsDataset",
+          "children": [
+            {
+              "name": "Get-IDAnalyticsDataset"
+            }
+          ]
+        },
+        {
+          "name": "IDTenantCname",
+          "children": [
+            {
+              "name": "Get-IDTenantCname"
+            }
+          ]
+        },
+        {
+          "name": "IDDownloadUrl",
+          "children": [
+            {
+              "name": "Get-IDDownloadUrl"
+            }
+          ]
+        },
+        {
+          "name": "IDUserIdentifier",
+          "children": [
+            {
+              "name": "Get-IDUserIdentifier"
+            }
+          ]
+        },
+        {
+          "name": "IDSqlcmd",
+          "children": [
+            {
+              "name": "Invoke-IDSqlcmd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IdentityCommand.DPA",
+      "companyName": "PSPETE",
+      "author": "Pete Maan",
+      "children": [
+        {
+          "name": "DPATenant",
+          "children": [
+            {
+              "name": "Connect-DPATenant"
+            }
+          ]
+        },
+        {
+          "name": "DPAModuleData",
+          "children": [
+            {
+              "name": "Get-DPAModuleData"
+            }
+          ]
+        },
+        {
+          "name": "DPAPolicy",
+          "children": [
+            {
+              "name": "Get-DPAPolicy"
+            },
+            {
+              "name": "Remove-DPAPolicy"
+            },
+            {
+              "name": "Set-DPAPolicy"
+            },
+            {
+              "name": "New-DPAPolicy"
+            }
+          ]
+        },
+        {
+          "name": "DPAPolicyUserAccessRuleDefinition",
+          "children": [
+            {
+              "name": "New-DPAPolicyUserAccessRuleDefinition"
+            }
+          ]
+        },
+        {
+          "name": "DPAPolicyProviderDefinition",
+          "children": [
+            {
+              "name": "New-DPAPolicyProviderDefinition"
+            }
+          ]
+        },
+        {
+          "name": "DPAPolicyConnectAsDefinition",
+          "children": [
+            {
+              "name": "New-DPAPolicyConnectAsDefinition"
+            }
+          ]
+        },
+        {
+          "name": "DPAPolicyFQDNRuleDefinition",
+          "children": [
+            {
+              "name": "New-DPAPolicyFQDNRuleDefinition"
+            }
+          ]
+        },
+        {
+          "name": "DPAPolicyUserDataDefinition",
+          "children": [
+            {
+              "name": "New-DPAPolicyUserDataDefinition"
+            }
+          ]
+        },
+        {
+          "name": "DPASetting",
+          "children": [
+            {
+              "name": "Get-DPASetting"
+            },
+            {
+              "name": "Set-DPASetting"
+            }
+          ]
+        },
+        {
+          "name": "DPAConnectorSetupScript",
+          "children": [
+            {
+              "name": "Get-DPAConnectorSetupScript"
+            }
+          ]
+        },
+        {
+          "name": "DPATargetSet",
+          "children": [
+            {
+              "name": "Get-DPATargetSet"
+            },
+            {
+              "name": "Add-DPATargetSet"
+            },
+            {
+              "name": "Remove-DPATargetSet"
+            }
+          ]
+        },
+        {
+          "name": "DPASSHPublicKey",
+          "children": [
+            {
+              "name": "Get-DPASSHPublicKey"
+            }
+          ]
+        },
+        {
+          "name": "DPAStrongAccount",
+          "children": [
+            {
+              "name": "Get-DPAStrongAccount"
+            },
+            {
+              "name": "New-DPAStrongAccount"
+            },
+            {
+              "name": "Remove-DPAStrongAccount"
+            }
+          ]
+        },
+        {
+          "name": "DPAResource",
+          "children": [
+            {
+              "name": "Get-DPAResource"
+            }
+          ]
+        },
+        {
+          "name": "DPASession",
+          "children": [
+            {
+              "name": "Get-DPASession"
+            }
+          ]
+        },
+        {
+          "name": "DPAConnector",
+          "children": [
+            {
+              "name": "Get-DPAConnector"
+            }
+          ]
+        },
+        {
+          "name": "DPACertificate",
+          "children": [
+            {
+              "name": "Get-DPACertificate"
+            }
+          ]
+        },
+        {
+          "name": "DPATarget",
+          "children": [
+            {
+              "name": "Connect-DPATarget"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoShPACLI",
+      "companyName": "PSPETE LTD",
+      "author": "Pete Maan",
+      "children": [
+        {
+          "name": "PVConfiguration",
+          "children": [
+            {
+              "name": "Get-PVConfiguration"
+            },
+            {
+              "name": "Set-PVConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "PVPacli",
+          "children": [
+            {
+              "name": "Start-PVPacli"
+            },
+            {
+              "name": "Stop-PVPacli"
+            }
+          ]
+        },
+        {
+          "name": "PVVaultDefinition",
+          "children": [
+            {
+              "name": "New-PVVaultDefinition"
+            },
+            {
+              "name": "Import-PVVaultDefinition"
+            }
+          ]
+        },
+        {
+          "name": "PVVault",
+          "children": [
+            {
+              "name": "Connect-PVVault"
+            },
+            {
+              "name": "Disconnect-PVVault"
+            }
+          ]
+        },
+        {
+          "name": "PVLogonFile",
+          "children": [
+            {
+              "name": "New-PVLogonFile"
+            }
+          ]
+        },
+        {
+          "name": "PVUserPassword",
+          "children": [
+            {
+              "name": "Set-PVUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "PVUser",
+          "children": [
+            {
+              "name": "Lock-PVUser"
+            },
+            {
+              "name": "Unlock-PVUser"
+            },
+            {
+              "name": "New-PVUser"
+            },
+            {
+              "name": "Set-PVUser"
+            },
+            {
+              "name": "Rename-PVUser"
+            },
+            {
+              "name": "Remove-PVUser"
+            },
+            {
+              "name": "Get-PVUser"
+            }
+          ]
+        },
+        {
+          "name": "PVExternalUser",
+          "children": [
+            {
+              "name": "Add-PVExternalUser"
+            }
+          ]
+        },
+        {
+          "name": "PVUserList",
+          "children": [
+            {
+              "name": "Get-PVUserList"
+            }
+          ]
+        },
+        {
+          "name": "PVUserActivity",
+          "children": [
+            {
+              "name": "Get-PVUserActivity"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeLog",
+          "children": [
+            {
+              "name": "Get-PVSafeLog"
+            }
+          ]
+        },
+        {
+          "name": "PVUserHistory",
+          "children": [
+            {
+              "name": "Clear-PVUserHistory"
+            }
+          ]
+        },
+        {
+          "name": "PVUserPhoto",
+          "children": [
+            {
+              "name": "Set-PVUserPhoto"
+            },
+            {
+              "name": "Get-PVUserPhoto"
+            }
+          ]
+        },
+        {
+          "name": "PVMailMessage",
+          "children": [
+            {
+              "name": "Send-PVMailMessage"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeGWAccount",
+          "children": [
+            {
+              "name": "Add-PVSafeGWAccount"
+            },
+            {
+              "name": "Remove-PVSafeGWAccount"
+            }
+          ]
+        },
+        {
+          "name": "PVGroup",
+          "children": [
+            {
+              "name": "New-PVGroup"
+            },
+            {
+              "name": "Set-PVGroup"
+            },
+            {
+              "name": "Remove-PVGroup"
+            },
+            {
+              "name": "Get-PVGroup"
+            }
+          ]
+        },
+        {
+          "name": "PVGroupMember",
+          "children": [
+            {
+              "name": "Add-PVGroupMember"
+            },
+            {
+              "name": "Remove-PVGroupMember"
+            },
+            {
+              "name": "Get-PVGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "PVLocation",
+          "children": [
+            {
+              "name": "New-PVLocation"
+            },
+            {
+              "name": "Set-PVLocation"
+            },
+            {
+              "name": "Rename-PVLocation"
+            },
+            {
+              "name": "Remove-PVLocation"
+            },
+            {
+              "name": "Get-PVLocation"
+            }
+          ]
+        },
+        {
+          "name": "PVLDAPBranch",
+          "children": [
+            {
+              "name": "New-PVLDAPBranch"
+            },
+            {
+              "name": "Set-PVLDAPBranch"
+            },
+            {
+              "name": "Remove-PVLDAPBranch"
+            },
+            {
+              "name": "Get-PVLDAPBranch"
+            }
+          ]
+        },
+        {
+          "name": "PVNetworkArea",
+          "children": [
+            {
+              "name": "New-PVNetworkArea"
+            },
+            {
+              "name": "Remove-PVNetworkArea"
+            },
+            {
+              "name": "Move-PVNetworkArea"
+            },
+            {
+              "name": "Rename-PVNetworkArea"
+            },
+            {
+              "name": "Get-PVNetworkArea"
+            }
+          ]
+        },
+        {
+          "name": "PVNetworkAreaAddress",
+          "children": [
+            {
+              "name": "New-PVNetworkAreaAddress"
+            },
+            {
+              "name": "Remove-PVNetworkAreaAddress"
+            }
+          ]
+        },
+        {
+          "name": "PVTrustedNetworkArea",
+          "children": [
+            {
+              "name": "Add-PVTrustedNetworkArea"
+            },
+            {
+              "name": "Remove-PVTrustedNetworkArea"
+            },
+            {
+              "name": "Get-PVTrustedNetworkArea"
+            },
+            {
+              "name": "Enable-PVTrustedNetworkArea"
+            },
+            {
+              "name": "Disable-PVTrustedNetworkArea"
+            }
+          ]
+        },
+        {
+          "name": "PVSafe",
+          "children": [
+            {
+              "name": "Open-PVSafe"
+            },
+            {
+              "name": "Close-PVSafe"
+            },
+            {
+              "name": "New-PVSafe"
+            },
+            {
+              "name": "Set-PVSafe"
+            },
+            {
+              "name": "Rename-PVSafe"
+            },
+            {
+              "name": "Remove-PVSafe"
+            },
+            {
+              "name": "Get-PVSafe"
+            },
+            {
+              "name": "Reset-PVSafe"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeOwner",
+          "children": [
+            {
+              "name": "Add-PVSafeOwner"
+            },
+            {
+              "name": "Set-PVSafeOwner"
+            },
+            {
+              "name": "Remove-PVSafeOwner"
+            },
+            {
+              "name": "Get-PVSafeOwner"
+            }
+          ]
+        },
+        {
+          "name": "PVUserSafeList",
+          "children": [
+            {
+              "name": "Get-PVUserSafeList"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeList",
+          "children": [
+            {
+              "name": "Get-PVSafeList"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeActivity",
+          "children": [
+            {
+              "name": "Get-PVSafeActivity"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeFileCategory",
+          "children": [
+            {
+              "name": "New-PVSafeFileCategory"
+            },
+            {
+              "name": "Set-PVSafeFileCategory"
+            },
+            {
+              "name": "Remove-PVSafeFileCategory"
+            },
+            {
+              "name": "Get-PVSafeFileCategory"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeEvent",
+          "children": [
+            {
+              "name": "Write-PVSafeEvent"
+            },
+            {
+              "name": "Get-PVSafeEvent"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeNote",
+          "children": [
+            {
+              "name": "Set-PVSafeNote"
+            }
+          ]
+        },
+        {
+          "name": "PVSafeHistory",
+          "children": [
+            {
+              "name": "Clear-PVSafeHistory"
+            }
+          ]
+        },
+        {
+          "name": "PVFolder",
+          "children": [
+            {
+              "name": "New-PVFolder"
+            },
+            {
+              "name": "Remove-PVFolder"
+            },
+            {
+              "name": "Restore-PVFolder"
+            },
+            {
+              "name": "Move-PVFolder"
+            },
+            {
+              "name": "Get-PVFolder"
+            }
+          ]
+        },
+        {
+          "name": "PVPreferredFolder",
+          "children": [
+            {
+              "name": "Add-PVPreferredFolder"
+            },
+            {
+              "name": "Remove-PVPreferredFolder"
+            }
+          ]
+        },
+        {
+          "name": "PVFile",
+          "children": [
+            {
+              "name": "Add-PVFile"
+            },
+            {
+              "name": "Get-PVFile"
+            },
+            {
+              "name": "Remove-PVFile"
+            },
+            {
+              "name": "Restore-PVFile"
+            },
+            {
+              "name": "Lock-PVFile"
+            },
+            {
+              "name": "Unlock-PVFile"
+            },
+            {
+              "name": "Move-PVFile"
+            },
+            {
+              "name": "Find-PVFile"
+            },
+            {
+              "name": "Reset-PVFile"
+            }
+          ]
+        },
+        {
+          "name": "PVPasswordObject",
+          "children": [
+            {
+              "name": "Add-PVPasswordObject"
+            },
+            {
+              "name": "Get-PVPasswordObject"
+            }
+          ]
+        },
+        {
+          "name": "PVFileList",
+          "children": [
+            {
+              "name": "Get-PVFileList"
+            }
+          ]
+        },
+        {
+          "name": "PVFileVersionList",
+          "children": [
+            {
+              "name": "Get-PVFileVersionList"
+            }
+          ]
+        },
+        {
+          "name": "PVFileActivity",
+          "children": [
+            {
+              "name": "Get-PVFileActivity"
+            }
+          ]
+        },
+        {
+          "name": "PVFileCategory",
+          "children": [
+            {
+              "name": "Add-PVFileCategory"
+            },
+            {
+              "name": "Set-PVFileCategory"
+            },
+            {
+              "name": "Remove-PVFileCategory"
+            },
+            {
+              "name": "Get-PVFileCategory"
+            }
+          ]
+        },
+        {
+          "name": "PVObjectValidation",
+          "children": [
+            {
+              "name": "Set-PVObjectValidation"
+            }
+          ]
+        },
+        {
+          "name": "PVRule",
+          "children": [
+            {
+              "name": "Add-PVRule"
+            },
+            {
+              "name": "Remove-PVRule"
+            },
+            {
+              "name": "Get-PVRule"
+            }
+          ]
+        },
+        {
+          "name": "PVRequest",
+          "children": [
+            {
+              "name": "Get-PVRequest"
+            },
+            {
+              "name": "Remove-PVRequest"
+            }
+          ]
+        },
+        {
+          "name": "PVRequestStatus",
+          "children": [
+            {
+              "name": "Set-PVRequestStatus"
+            },
+            {
+              "name": "Get-PVRequestStatus"
+            }
+          ]
+        },
+        {
+          "name": "PVPassword",
+          "children": [
+            {
+              "name": "New-PVPassword"
+            }
+          ]
+        },
+        {
+          "name": "PVCTL",
+          "children": [
+            {
+              "name": "Get-PVCTL"
+            }
+          ]
+        },
+        {
+          "name": "PVCTLCertificate",
+          "children": [
+            {
+              "name": "Add-PVCTLCertificate"
+            },
+            {
+              "name": "Remove-PVCTLCertificate"
+            },
+            {
+              "name": "Get-PVCTLCertificate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSMPSession",
+      "companyName": "Unknown",
+      "author": "Pete Maan",
+      "children": [
+        {
+          "name": "PSMPSession",
+          "children": [
+            {
+              "name": "New-PSMPSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psPAS",
+      "companyName": "Unknown",
+      "author": "Pete Maan",
+      "children": [
+        {
+          "name": "PASSession",
+          "children": [
+            {
+              "name": "New-PASSession"
+            },
+            {
+              "name": "Close-PASSession"
+            },
+            {
+              "name": "Get-PASSession"
+            },
+            {
+              "name": "Use-PASSession"
+            }
+          ]
+        },
+        {
+          "name": "PASPublicSSHKey",
+          "children": [
+            {
+              "name": "Add-PASPublicSSHKey"
+            },
+            {
+              "name": "Get-PASPublicSSHKey"
+            },
+            {
+              "name": "Remove-PASPublicSSHKey"
+            }
+          ]
+        },
+        {
+          "name": "PASAccount",
+          "children": [
+            {
+              "name": "Add-PASAccount"
+            },
+            {
+              "name": "Get-PASAccount"
+            },
+            {
+              "name": "Remove-PASAccount"
+            },
+            {
+              "name": "Set-PASAccount"
+            },
+            {
+              "name": "Unlock-PASAccount"
+            }
+          ]
+        },
+        {
+          "name": "PASSafe",
+          "children": [
+            {
+              "name": "Add-PASSafe"
+            },
+            {
+              "name": "Set-PASSafe"
+            },
+            {
+              "name": "Remove-PASSafe"
+            },
+            {
+              "name": "Get-PASSafe"
+            },
+            {
+              "name": "Find-PASSafe"
+            }
+          ]
+        },
+        {
+          "name": "PASSafeMember",
+          "children": [
+            {
+              "name": "Add-PASSafeMember"
+            },
+            {
+              "name": "Set-PASSafeMember"
+            },
+            {
+              "name": "Remove-PASSafeMember"
+            },
+            {
+              "name": "Get-PASSafeMember"
+            }
+          ]
+        },
+        {
+          "name": "PASPolicyACL",
+          "children": [
+            {
+              "name": "Get-PASPolicyACL"
+            },
+            {
+              "name": "Add-PASPolicyACL"
+            },
+            {
+              "name": "Remove-PASPolicyACL"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountACL",
+          "children": [
+            {
+              "name": "Get-PASAccountACL"
+            },
+            {
+              "name": "Add-PASAccountACL"
+            },
+            {
+              "name": "Remove-PASAccountACL"
+            }
+          ]
+        },
+        {
+          "name": "PASApplication",
+          "children": [
+            {
+              "name": "Get-PASApplication"
+            },
+            {
+              "name": "Add-PASApplication"
+            },
+            {
+              "name": "Remove-PASApplication"
+            }
+          ]
+        },
+        {
+          "name": "PASApplicationAuthenticationMethod",
+          "children": [
+            {
+              "name": "Add-PASApplicationAuthenticationMethod"
+            },
+            {
+              "name": "Remove-PASApplicationAuthenticationMethod"
+            },
+            {
+              "name": "Get-PASApplicationAuthenticationMethod"
+            }
+          ]
+        },
+        {
+          "name": "PASUser",
+          "children": [
+            {
+              "name": "Unblock-PASUser"
+            },
+            {
+              "name": "Set-PASUser"
+            },
+            {
+              "name": "Remove-PASUser"
+            },
+            {
+              "name": "New-PASUser"
+            },
+            {
+              "name": "Get-PASUser"
+            },
+            {
+              "name": "Enable-PASUser"
+            },
+            {
+              "name": "Disable-PASUser"
+            }
+          ]
+        },
+        {
+          "name": "PASLoggedOnUser",
+          "children": [
+            {
+              "name": "Get-PASLoggedOnUser"
+            }
+          ]
+        },
+        {
+          "name": "PASGroupMember",
+          "children": [
+            {
+              "name": "Add-PASGroupMember"
+            },
+            {
+              "name": "Remove-PASGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountActivity",
+          "children": [
+            {
+              "name": "Get-PASAccountActivity"
+            }
+          ]
+        },
+        {
+          "name": "PASPendingAccount",
+          "children": [
+            {
+              "name": "Add-PASPendingAccount"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountGroupMember",
+          "children": [
+            {
+              "name": "Add-PASAccountGroupMember"
+            },
+            {
+              "name": "Get-PASAccountGroupMember"
+            },
+            {
+              "name": "Remove-PASAccountGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountGroup",
+          "children": [
+            {
+              "name": "New-PASAccountGroup"
+            },
+            {
+              "name": "Get-PASAccountGroup"
+            }
+          ]
+        },
+        {
+          "name": "PASOnboardingRule",
+          "children": [
+            {
+              "name": "New-PASOnboardingRule"
+            },
+            {
+              "name": "Get-PASOnboardingRule"
+            },
+            {
+              "name": "Remove-PASOnboardingRule"
+            },
+            {
+              "name": "Set-PASOnboardingRule"
+            }
+          ]
+        },
+        {
+          "name": "PASServer",
+          "children": [
+            {
+              "name": "Get-PASServer"
+            }
+          ]
+        },
+        {
+          "name": "PASSafeShareLogo",
+          "children": [
+            {
+              "name": "Get-PASSafeShareLogo"
+            }
+          ]
+        },
+        {
+          "name": "PASServerWebService",
+          "children": [
+            {
+              "name": "Get-PASServerWebService"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountPassword",
+          "children": [
+            {
+              "name": "Get-PASAccountPassword"
+            },
+            {
+              "name": "New-PASAccountPassword"
+            }
+          ]
+        },
+        {
+          "name": "PASPlatform",
+          "children": [
+            {
+              "name": "Get-PASPlatform"
+            },
+            {
+              "name": "Import-PASPlatform"
+            },
+            {
+              "name": "Export-PASPlatform"
+            },
+            {
+              "name": "Copy-PASPlatform"
+            },
+            {
+              "name": "Disable-PASPlatform"
+            },
+            {
+              "name": "Enable-PASPlatform"
+            },
+            {
+              "name": "Remove-PASPlatform"
+            }
+          ]
+        },
+        {
+          "name": "PASRequest",
+          "children": [
+            {
+              "name": "New-PASRequest"
+            },
+            {
+              "name": "Remove-PASRequest"
+            },
+            {
+              "name": "Approve-PASRequest"
+            },
+            {
+              "name": "Deny-PASRequest"
+            },
+            {
+              "name": "Get-PASRequest"
+            }
+          ]
+        },
+        {
+          "name": "PASRequestDetail",
+          "children": [
+            {
+              "name": "Get-PASRequestDetail"
+            }
+          ]
+        },
+        {
+          "name": "PASPSMSession",
+          "children": [
+            {
+              "name": "New-PASPSMSession"
+            },
+            {
+              "name": "Get-PASPSMSession"
+            },
+            {
+              "name": "Stop-PASPSMSession"
+            },
+            {
+              "name": "Suspend-PASPSMSession"
+            },
+            {
+              "name": "Resume-PASPSMSession"
+            },
+            {
+              "name": "Connect-PASPSMSession"
+            }
+          ]
+        },
+        {
+          "name": "PASPSMRecording",
+          "children": [
+            {
+              "name": "Get-PASPSMRecording"
+            },
+            {
+              "name": "Export-PASPSMRecording"
+            },
+            {
+              "name": "Test-PASPSMRecording"
+            }
+          ]
+        },
+        {
+          "name": "PASComponentSummary",
+          "children": [
+            {
+              "name": "Get-PASComponentSummary"
+            }
+          ]
+        },
+        {
+          "name": "PASComponentDetail",
+          "children": [
+            {
+              "name": "Get-PASComponentDetail"
+            }
+          ]
+        },
+        {
+          "name": "PASConnectionComponent",
+          "children": [
+            {
+              "name": "Import-PASConnectionComponent"
+            },
+            {
+              "name": "Get-PASConnectionComponent"
+            }
+          ]
+        },
+        {
+          "name": "PASUserLoginInfo",
+          "children": [
+            {
+              "name": "Get-PASUserLoginInfo"
+            }
+          ]
+        },
+        {
+          "name": "PASDirectory",
+          "children": [
+            {
+              "name": "Get-PASDirectory"
+            },
+            {
+              "name": "Add-PASDirectory"
+            },
+            {
+              "name": "Remove-PASDirectory"
+            }
+          ]
+        },
+        {
+          "name": "PASDirectoryMapping",
+          "children": [
+            {
+              "name": "New-PASDirectoryMapping"
+            },
+            {
+              "name": "Get-PASDirectoryMapping"
+            },
+            {
+              "name": "Set-PASDirectoryMapping"
+            },
+            {
+              "name": "Remove-PASDirectoryMapping"
+            }
+          ]
+        },
+        {
+          "name": "PASPTAEvent",
+          "children": [
+            {
+              "name": "Get-PASPTAEvent"
+            },
+            {
+              "name": "Set-PASPTAEvent"
+            }
+          ]
+        },
+        {
+          "name": "PASPTARemediation",
+          "children": [
+            {
+              "name": "Get-PASPTARemediation"
+            },
+            {
+              "name": "Set-PASPTARemediation"
+            }
+          ]
+        },
+        {
+          "name": "PASPTARule",
+          "children": [
+            {
+              "name": "Get-PASPTARule"
+            },
+            {
+              "name": "Set-PASPTARule"
+            },
+            {
+              "name": "Add-PASPTARule"
+            }
+          ]
+        },
+        {
+          "name": "PASGroup",
+          "children": [
+            {
+              "name": "Get-PASGroup"
+            },
+            {
+              "name": "New-PASGroup"
+            },
+            {
+              "name": "Remove-PASGroup"
+            },
+            {
+              "name": "Set-PASGroup"
+            }
+          ]
+        },
+        {
+          "name": "PASDiscoveredAccount",
+          "children": [
+            {
+              "name": "Add-PASDiscoveredAccount"
+            },
+            {
+              "name": "Get-PASDiscoveredAccount"
+            },
+            {
+              "name": "Publish-PASDiscoveredAccount"
+            }
+          ]
+        },
+        {
+          "name": "PASPSMSessionActivity",
+          "children": [
+            {
+              "name": "Get-PASPSMSessionActivity"
+            }
+          ]
+        },
+        {
+          "name": "PASPSMRecordingActivity",
+          "children": [
+            {
+              "name": "Get-PASPSMRecordingActivity"
+            }
+          ]
+        },
+        {
+          "name": "PASPSMRecordingProperty",
+          "children": [
+            {
+              "name": "Get-PASPSMRecordingProperty"
+            }
+          ]
+        },
+        {
+          "name": "PASPSMSessionProperty",
+          "children": [
+            {
+              "name": "Get-PASPSMSessionProperty"
+            }
+          ]
+        },
+        {
+          "name": "PASJustInTimeAccess",
+          "children": [
+            {
+              "name": "Request-PASJustInTimeAccess"
+            },
+            {
+              "name": "Revoke-PASJustInTimeAccess"
+            }
+          ]
+        },
+        {
+          "name": "PASCPMOperation",
+          "children": [
+            {
+              "name": "Invoke-PASCPMOperation"
+            }
+          ]
+        },
+        {
+          "name": "PASUserPassword",
+          "children": [
+            {
+              "name": "Set-PASUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "PASDirectoryMappingOrder",
+          "children": [
+            {
+              "name": "Set-PASDirectoryMappingOrder"
+            }
+          ]
+        },
+        {
+          "name": "PASCPMAutoManagement",
+          "children": [
+            {
+              "name": "Enable-PASCPMAutoManagement"
+            },
+            {
+              "name": "Disable-PASCPMAutoManagement"
+            }
+          ]
+        },
+        {
+          "name": "PASPlatformSafe",
+          "children": [
+            {
+              "name": "Get-PASPlatformSafe"
+            }
+          ]
+        },
+        {
+          "name": "PASAllowedReferrer",
+          "children": [
+            {
+              "name": "Get-PASAllowedReferrer"
+            },
+            {
+              "name": "Add-PASAllowedReferrer"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountSSHKey",
+          "children": [
+            {
+              "name": "Get-PASAccountSSHKey"
+            }
+          ]
+        },
+        {
+          "name": "PASAuthenticationMethod",
+          "children": [
+            {
+              "name": "Get-PASAuthenticationMethod"
+            },
+            {
+              "name": "Add-PASAuthenticationMethod"
+            },
+            {
+              "name": "Set-PASAuthenticationMethod"
+            },
+            {
+              "name": "Remove-PASAuthenticationMethod"
+            }
+          ]
+        },
+        {
+          "name": "PASPSMServer",
+          "children": [
+            {
+              "name": "Get-PASPSMServer"
+            }
+          ]
+        },
+        {
+          "name": "PASPlatformPSMConfig",
+          "children": [
+            {
+              "name": "Get-PASPlatformPSMConfig"
+            },
+            {
+              "name": "Set-PASPlatformPSMConfig"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountObject",
+          "children": [
+            {
+              "name": "New-PASAccountObject"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountImportJob",
+          "children": [
+            {
+              "name": "Start-PASAccountImportJob"
+            },
+            {
+              "name": "Get-PASAccountImportJob"
+            }
+          ]
+        },
+        {
+          "name": "PASOpenIDConnectProvider",
+          "children": [
+            {
+              "name": "Add-PASOpenIDConnectProvider"
+            },
+            {
+              "name": "Get-PASOpenIDConnectProvider"
+            },
+            {
+              "name": "Set-PASOpenIDConnectProvider"
+            },
+            {
+              "name": "Remove-PASOpenIDConnectProvider"
+            }
+          ]
+        },
+        {
+          "name": "PASLinkedAccount",
+          "children": [
+            {
+              "name": "Set-PASLinkedAccount"
+            },
+            {
+              "name": "Clear-PASLinkedAccount"
+            },
+            {
+              "name": "Get-PASLinkedAccount"
+            }
+          ]
+        },
+        {
+          "name": "PASDiscoveredAccountList",
+          "children": [
+            {
+              "name": "Clear-PASDiscoveredAccountList"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountPasswordVersion",
+          "children": [
+            {
+              "name": "Get-PASAccountPasswordVersion"
+            }
+          ]
+        },
+        {
+          "name": "PASPrivateSSHKey",
+          "children": [
+            {
+              "name": "New-PASPrivateSSHKey"
+            },
+            {
+              "name": "Remove-PASPrivateSSHKey"
+            },
+            {
+              "name": "Clear-PASPrivateSSHKey"
+            }
+          ]
+        },
+        {
+          "name": "PASAccountDetail",
+          "children": [
+            {
+              "name": "Get-PASAccountDetail"
+            }
+          ]
+        },
+        {
+          "name": "PASPlatformSummary",
+          "children": [
+            {
+              "name": "Get-PASPlatformSummary"
+            }
+          ]
+        },
+        {
+          "name": "PASPersonalAdminAccount",
+          "children": [
+            {
+              "name": "Add-PASPersonalAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "PASPTAGlobalCatalog",
+          "children": [
+            {
+              "name": "Add-PASPTAGlobalCatalog"
+            },
+            {
+              "name": "Get-PASPTAGlobalCatalog"
+            }
+          ]
+        },
+        {
+          "name": "PASRequestObject",
+          "children": [
+            {
+              "name": "New-PASRequestObject"
+            }
+          ]
+        },
+        {
+          "name": "PASPTARiskEvent",
+          "children": [
+            {
+              "name": "Get-PASPTARiskEvent"
+            },
+            {
+              "name": "Set-PASPTARiskEvent"
+            }
+          ]
+        },
+        {
+          "name": "PASPTARiskSummary",
+          "children": [
+            {
+              "name": "Get-PASPTARiskSummary"
+            }
+          ]
+        },
+        {
+          "name": "PASUserTypeInfo",
+          "children": [
+            {
+              "name": "Get-PASUserTypeInfo"
+            }
+          ]
+        },
+        {
+          "name": "PASPTAPrivilegedUser",
+          "children": [
+            {
+              "name": "Get-PASPTAPrivilegedUser"
+            },
+            {
+              "name": "Remove-PASPTAPrivilegedUser"
+            },
+            {
+              "name": "Add-PASPTAPrivilegedUser"
+            }
+          ]
+        },
+        {
+          "name": "PASPTAPrivilegedGroup",
+          "children": [
+            {
+              "name": "Get-PASPTAPrivilegedGroup"
+            },
+            {
+              "name": "Remove-PASPTAPrivilegedGroup"
+            },
+            {
+              "name": "Add-PASPTAPrivilegedGroup"
+            }
+          ]
+        },
+        {
+          "name": "PASPTAIncludedTarget",
+          "children": [
+            {
+              "name": "Get-PASPTAIncludedTarget"
+            },
+            {
+              "name": "Add-PASPTAIncludedTarget"
+            },
+            {
+              "name": "Remove-PASPTAIncludedTarget"
+            }
+          ]
+        },
+        {
+          "name": "PASPTAExcludedTarget",
+          "children": [
+            {
+              "name": "Get-PASPTAExcludedTarget"
+            },
+            {
+              "name": "Add-PASPTAExcludedTarget"
+            },
+            {
+              "name": "Remove-PASPTAExcludedTarget"
+            }
+          ]
+        },
+        {
+          "name": "PASLinkedGroup",
+          "children": [
+            {
+              "name": "Get-PASLinkedGroup"
+            }
+          ]
+        },
+        {
+          "name": "PASIPAllowList",
+          "children": [
+            {
+              "name": "Set-PASIPAllowList"
+            },
+            {
+              "name": "Get-PASIPAllowList"
+            }
+          ]
+        },
+        {
+          "name": "PASBYOKConfig",
+          "children": [
+            {
+              "name": "Get-PASBYOKConfig"
+            }
+          ]
+        },
+        {
+          "name": "PASDiscoveredLocalAccount",
+          "children": [
+            {
+              "name": "Get-PASDiscoveredLocalAccount"
+            },
+            {
+              "name": "Publish-PASDiscoveredLocalAccount"
+            },
+            {
+              "name": "Add-PASDiscoveredLocalAccount"
+            },
+            {
+              "name": "Clear-PASDiscoveredLocalAccount"
+            },
+            {
+              "name": "Remove-PASDiscoveredLocalAccount"
+            }
+          ]
+        },
+        {
+          "name": "PASDiscoveredLocalAccountActivity",
+          "children": [
+            {
+              "name": "Get-PASDiscoveredLocalAccountActivity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VaultControl",
+      "companyName": "Unknown",
+      "author": "Pete Maan",
+      "children": [
+        {
+          "name": "PARComponent",
+          "children": [
+            {
+              "name": "Get-PARComponent"
+            },
+            {
+              "name": "Restart-PARComponent"
+            },
+            {
+              "name": "Start-PARComponent"
+            },
+            {
+              "name": "Stop-PARComponent"
+            }
+          ]
+        },
+        {
+          "name": "PARComponentConfig",
+          "children": [
+            {
+              "name": "Get-PARComponentConfig"
+            },
+            {
+              "name": "Set-PARComponentConfig"
+            }
+          ]
+        },
+        {
+          "name": "PARComponentLog",
+          "children": [
+            {
+              "name": "Get-PARComponentLog"
+            }
+          ]
+        },
+        {
+          "name": "PARServer",
+          "children": [
+            {
+              "name": "Get-PARServer"
+            },
+            {
+              "name": "Restart-PARServer"
+            }
+          ]
+        },
+        {
+          "name": "PARServerLog",
+          "children": [
+            {
+              "name": "Get-PARServerLog"
+            }
+          ]
+        },
+        {
+          "name": "PARService",
+          "children": [
+            {
+              "name": "Get-PARService"
+            }
+          ]
+        },
+        {
+          "name": "PARConfiguration",
+          "children": [
+            {
+              "name": "Set-PARConfiguration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "heavymetaldev",
+  "children": [
+    {
+      "name": "MsDeploy",
+      "companyName": "heavymetaldev",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "MsDeploy",
+          "children": [
+            {
+              "name": "Test-MsDeploy"
+            },
+            {
+              "name": "Invoke-MsDeploy"
+            }
+          ]
+        },
+        {
+          "name": "MsDeployCommand",
+          "children": [
+            {
+              "name": "Invoke-MsDeployCommand"
+            }
+          ]
+        },
+        {
+          "name": "MsDeployFile",
+          "children": [
+            {
+              "name": "Copy-MsDeployFile"
+            },
+            {
+              "name": "Get-MsDeployFile"
+            }
+          ]
+        },
+        {
+          "name": "MsDeployApp",
+          "children": [
+            {
+              "name": "Copy-MsDeployApp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "require",
+      "companyName": "heavymetaldev",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Request-Module"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

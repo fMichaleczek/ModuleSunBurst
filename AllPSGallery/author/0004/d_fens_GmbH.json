@@ -1,0 +1,248 @@
+{
+  "name": "d fens GmbH",
+  "children": [
+    {
+      "name": "biz.dfch.PS.Activiti.Client",
+      "companyName": "d fens GmbH",
+      "author": "d fens GmbH",
+      "children": [
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Enter-Server"
+            }
+          ]
+        },
+        {
+          "name": "WorkflowDefinition",
+          "children": [
+            {
+              "name": "Get-WorkflowDefinition"
+            }
+          ]
+        },
+        {
+          "name": "WorkflowDeployment",
+          "children": [
+            {
+              "name": "Get-WorkflowDeployment"
+            },
+            {
+              "name": "Remove-WorkflowDeployment"
+            },
+            {
+              "name": "Import-WorkflowDeployment"
+            }
+          ]
+        },
+        {
+          "name": "WorkflowInstance",
+          "children": [
+            {
+              "name": "Start-WorkflowInstance"
+            },
+            {
+              "name": "Suspend-WorkflowInstance"
+            },
+            {
+              "name": "Resume-WorkflowInstance"
+            },
+            {
+              "name": "Get-WorkflowInstance"
+            },
+            {
+              "name": "Stop-WorkflowInstance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "biz.dfch.PS.Azure.ServiceBus.Client",
+      "companyName": "d fens GmbH",
+      "author": "d fens GmbH",
+      "children": [
+        {
+          "name": "GenericMethod",
+          "children": [
+            {
+              "name": "Invoke-GenericMethod"
+            }
+          ]
+        },
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Enter-Server"
+            }
+          ]
+        },
+        {
+          "name": "Message",
+          "children": [
+            {
+              "name": "Get-Message"
+            },
+            {
+              "name": "New-Message"
+            }
+          ]
+        },
+        {
+          "name": "MessageBody",
+          "children": [
+            {
+              "name": "Get-MessageBody"
+            }
+          ]
+        },
+        {
+          "name": "MessageReceiver",
+          "children": [
+            {
+              "name": "Get-MessageReceiver"
+            }
+          ]
+        },
+        {
+          "name": "MessageSender",
+          "children": [
+            {
+              "name": "Get-MessageSender"
+            }
+          ]
+        },
+        {
+          "name": "MessageFacility",
+          "children": [
+            {
+              "name": "New-MessageFacility"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "biz.dfch.PS.Azure.ServiceBus.Management",
+      "companyName": "d fens GmbH",
+      "author": "d fens GmbH",
+      "children": [
+        {
+          "name": "NotifcationHub",
+          "children": [
+            {
+              "name": "New-NotifcationHub"
+            }
+          ]
+        },
+        {
+          "name": "Queue",
+          "children": [
+            {
+              "name": "New-Queue"
+            },
+            {
+              "name": "Get-Queue"
+            },
+            {
+              "name": "Remove-Queue"
+            }
+          ]
+        },
+        {
+          "name": "Subscription",
+          "children": [
+            {
+              "name": "New-Subscription"
+            },
+            {
+              "name": "Get-Subscription"
+            },
+            {
+              "name": "Remove-Subscription"
+            }
+          ]
+        },
+        {
+          "name": "Topic",
+          "children": [
+            {
+              "name": "New-Topic"
+            },
+            {
+              "name": "Get-Topic"
+            },
+            {
+              "name": "Remove-Topic"
+            }
+          ]
+        },
+        {
+          "name": "Queues",
+          "children": [
+            {
+              "name": "Get-Queues"
+            }
+          ]
+        },
+        {
+          "name": "Topics",
+          "children": [
+            {
+              "name": "Get-Topics"
+            }
+          ]
+        },
+        {
+          "name": "Subscriptions",
+          "children": [
+            {
+              "name": "Get-Subscriptions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net.Appclusive.PS.Client",
+      "companyName": "d fens GmbH",
+      "author": "d fens GmbH",
+      "children": [
+        {
+          "name": "Server",
+          "children": [
+            {
+              "name": "Enter-Server"
+            }
+          ]
+        },
+        {
+          "name": "Tenant",
+          "children": [
+            {
+              "name": "Get-Tenant"
+            }
+          ]
+        },
+        {
+          "name": "Configuration",
+          "children": [
+            {
+              "name": "Import-Configuration"
+            }
+          ]
+        },
+        {
+          "name": "Acl",
+          "children": [
+            {
+              "name": "New-Acl"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

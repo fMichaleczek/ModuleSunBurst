@@ -1,0 +1,232 @@
+{
+  "name": "DEVDEER",
+  "children": [
+    {
+      "name": "Devdeer.Azure",
+      "companyName": "DEVDEER GmbH",
+      "author": "DEVDEER",
+      "children": [
+        {
+          "name": "AllSqlFirewallRules",
+          "children": [
+            {
+              "name": "Clear-AllSqlFirewallRules"
+            }
+          ]
+        },
+        {
+          "name": "ToStorageContainer",
+          "children": [
+            {
+              "name": "Copy-ToStorageContainer"
+            }
+          ]
+        },
+        {
+          "name": "ArmTemplateJson",
+          "children": [
+            {
+              "name": "Import-ArmTemplateJson"
+            }
+          ]
+        },
+        {
+          "name": "ArmDeployment",
+          "children": [
+            {
+              "name": "New-ArmDeployment"
+            }
+          ]
+        },
+        {
+          "name": "ArmGroupDeployment",
+          "children": [
+            {
+              "name": "New-ArmGroupDeployment"
+            }
+          ]
+        },
+        {
+          "name": "ResourceGroupDeleteLock",
+          "children": [
+            {
+              "name": "New-ResourceGroupDeleteLock"
+            }
+          ]
+        },
+        {
+          "name": "SqlFirewallRule",
+          "children": [
+            {
+              "name": "New-SqlFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "SubscriptionContext",
+          "children": [
+            {
+              "name": "Set-SubscriptionContext"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Devdeer.Caf",
+      "companyName": "DEVDEER GmbH",
+      "author": "DEVDEER",
+      "children": [
+        {
+          "name": "Context",
+          "children": [
+            {
+              "name": "Get-Context"
+            },
+            {
+              "name": "Use-Context"
+            }
+          ]
+        },
+        {
+          "name": "Subscriptions",
+          "children": [
+            {
+              "name": "Initialize-Subscriptions"
+            }
+          ]
+        },
+        {
+          "name": "Subscription",
+          "children": [
+            {
+              "name": "Initialize-Subscription"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipal",
+          "children": [
+            {
+              "name": "Set-ServicePrincipal"
+            },
+            {
+              "name": "Use-ServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipals",
+          "children": [
+            {
+              "name": "Initialize-ServicePrincipals"
+            }
+          ]
+        },
+        {
+          "name": "DeploymentSpGroup",
+          "children": [
+            {
+              "name": "Initialize-DeploymentSpGroup"
+            }
+          ]
+        },
+        {
+          "name": "Deployment",
+          "children": [
+            {
+              "name": "New-Deployment"
+            }
+          ]
+        },
+        {
+          "name": "PolicyAssets",
+          "children": [
+            {
+              "name": "Deploy-PolicyAssets"
+            },
+            {
+              "name": "Clear-PolicyAssets"
+            }
+          ]
+        },
+        {
+          "name": "Scoped",
+          "children": [
+            {
+              "name": "Start-Scoped"
+            }
+          ]
+        },
+        {
+          "name": "PimGroup",
+          "children": [
+            {
+              "name": "Start-PimGroup"
+            },
+            {
+              "name": "Stop-PimGroup"
+            }
+          ]
+        },
+        {
+          "name": "PimRole",
+          "children": [
+            {
+              "name": "Start-PimRole"
+            },
+            {
+              "name": "Stop-PimRole"
+            },
+            {
+              "name": "Approve-PimRole"
+            }
+          ]
+        },
+        {
+          "name": "NamingConvention",
+          "children": [
+            {
+              "name": "Show-NamingConvention"
+            }
+          ]
+        },
+        {
+          "name": "SqlFirewallRule",
+          "children": [
+            {
+              "name": "New-SqlFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "AllSqlFirewallRules",
+          "children": [
+            {
+              "name": "Clear-AllSqlFirewallRules"
+            }
+          ]
+        },
+        {
+          "name": "Locks",
+          "children": [
+            {
+              "name": "Restore-Locks"
+            },
+            {
+              "name": "Remove-Locks"
+            }
+          ]
+        },
+        {
+          "name": "StaleRoleAssignments",
+          "children": [
+            {
+              "name": "Remove-StaleRoleAssignments"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

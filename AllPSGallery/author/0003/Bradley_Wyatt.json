@@ -1,0 +1,82 @@
+{
+  "name": "Bradley Wyatt",
+  "children": [
+    {
+      "name": "PSElection",
+      "companyName": "The Lazy Administrator",
+      "author": "Bradley Wyatt",
+      "children": [
+        {
+          "name": "EarlyVotingPlaces",
+          "children": [
+            {
+              "name": "Get-EarlyVotingPlaces"
+            }
+          ]
+        },
+        {
+          "name": "PollingPlaces",
+          "children": [
+            {
+              "name": "Get-PollingPlaces"
+            }
+          ]
+        },
+        {
+          "name": "BallotDropOffLocations",
+          "children": [
+            {
+              "name": "Get-BallotDropOffLocations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGlobalEntry",
+      "companyName": "Unknown",
+      "author": "Bradley Wyatt",
+      "children": [
+        {
+          "name": "GESchedule",
+          "children": [
+            {
+              "name": "Get-GESchedule"
+            }
+          ]
+        },
+        {
+          "name": "GELocation",
+          "children": [
+            {
+              "name": "Get-GELocation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSWordle",
+      "companyName": "The Lazy Administrator",
+      "author": "Bradley Wyatt",
+      "children": [
+        {
+          "name": "PSWordleGame",
+          "children": [
+            {
+              "name": "New-PSWordleGame"
+            }
+          ]
+        },
+        {
+          "name": "PSWordleLeaderBoard",
+          "children": [
+            {
+              "name": "Get-PSWordleLeaderBoard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

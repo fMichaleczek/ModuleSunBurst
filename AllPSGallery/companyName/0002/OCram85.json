@@ -1,0 +1,57 @@
+{
+  "name": "OCram85",
+  "children": [
+    {
+      "name": "apvr-test",
+      "companyName": "OCram85",
+      "author": "OCram85",
+      "children": [
+        {
+          "name": "Test",
+          "children": [
+            {
+              "name": "Get-Test"
+            },
+            {
+              "name": "Set-Test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ponduit",
+      "companyName": "OCram85",
+      "author": "OCram85",
+      "children": [
+        {
+          "name": "ConduitConfig",
+          "children": [
+            {
+              "name": "Get-ConduitConfig"
+            },
+            {
+              "name": "Set-ConduitConfig"
+            }
+          ]
+        },
+        {
+          "name": "ConduitMethods",
+          "children": [
+            {
+              "name": "Update-ConduitMethods"
+            }
+          ]
+        },
+        {
+          "name": "ConduitMethod",
+          "children": [
+            {
+              "name": "Invoke-ConduitMethod"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

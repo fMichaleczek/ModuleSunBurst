@@ -1,0 +1,446 @@
+{
+  "name": "Shannon Graybrook",
+  "children": [
+    {
+      "name": "ActiveDirectoryObjectPicker",
+      "companyName": "Brooksworks",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "ActiveDirectoryObjectPicker",
+          "children": [
+            {
+              "name": "New-ActiveDirectoryObjectPicker"
+            },
+            {
+              "name": "Show-ActiveDirectoryObjectPicker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BitwardenWrapper",
+      "companyName": "Brooksworks",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "BWCredential",
+          "children": [
+            {
+              "name": "Get-BWCredential"
+            },
+            {
+              "name": "Select-BWCredential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BW.Utils.GroupPolicy",
+      "companyName": "Brooksworks",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "GPOIncrementVersion",
+          "children": [
+            {
+              "name": "Invoke-GPOIncrementVersion"
+            }
+          ]
+        },
+        {
+          "name": "GPLink",
+          "children": [
+            {
+              "name": "Get-GPLink"
+            }
+          ]
+        },
+        {
+          "name": "GPBackupManifest",
+          "children": [
+            {
+              "name": "Import-GPBackupManifest"
+            }
+          ]
+        },
+        {
+          "name": "GPRegistryValue",
+          "children": [
+            {
+              "name": "Find-GPRegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "GPRegistryValues",
+          "children": [
+            {
+              "name": "Search-GPRegistryValues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BW.Utils.WMIPermissions",
+      "companyName": "Brooksworks",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "WmiNamespaceACL",
+          "children": [
+            {
+              "name": "Get-WmiNamespaceACL"
+            },
+            {
+              "name": "Set-WmiNamespaceACL"
+            }
+          ]
+        },
+        {
+          "name": "WmiNamespaceTrustee",
+          "children": [
+            {
+              "name": "Add-WmiNamespaceTrustee"
+            },
+            {
+              "name": "Remove-WmiNamespaceTrustee"
+            }
+          ]
+        },
+        {
+          "name": "WmiNamespaceTrusteeRights",
+          "children": [
+            {
+              "name": "Get-WmiNamespaceTrusteeRights"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BWDynamicParameter",
+      "companyName": "Brooksworks",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "DynamicParameter",
+          "children": [
+            {
+              "name": "New-DynamicParameter"
+            }
+          ]
+        },
+        {
+          "name": "DynamicParameterDictionary",
+          "children": [
+            {
+              "name": "New-DynamicParameterDictionary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BWNetworkTests",
+      "companyName": "Brooksworks",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "NetTcpPortOpen",
+          "children": [
+            {
+              "name": "Test-NetTcpPortOpen"
+            }
+          ]
+        },
+        {
+          "name": "NetDomainNameResolution",
+          "children": [
+            {
+              "name": "Test-NetDomainNameResolution"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BWRandomPassword",
+      "companyName": "brooksworks.com",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "RandomPassword",
+          "children": [
+            {
+              "name": "Get-RandomPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Connect-RemoteDesktop",
+      "companyName": "graybrook.io",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "RemoteDesktop",
+          "children": [
+            {
+              "name": "Connect-RemoteDesktop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConvertFrom-DataRow",
+      "companyName": "graybrook.io",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "DataRow",
+          "children": [
+            {
+              "name": "ConvertFrom-DataRow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DellCatalogMirror",
+      "companyName": "graybrook.io",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "DellCatalogXml",
+          "children": [
+            {
+              "name": "Import-DellCatalogXml"
+            },
+            {
+              "name": "Optimize-DellCatalogXml"
+            }
+          ]
+        },
+        {
+          "name": "DellCatalogModels",
+          "children": [
+            {
+              "name": "Get-DellCatalogModels"
+            }
+          ]
+        },
+        {
+          "name": "DellCatalogMirror",
+          "children": [
+            {
+              "name": "Update-DellCatalogMirror"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSmRemoteNG",
+      "companyName": "Brooksworks",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "MRNGSecureString",
+          "children": [
+            {
+              "name": "ConvertFrom-MRNGSecureString"
+            },
+            {
+              "name": "ConvertTo-MRNGSecureString"
+            }
+          ]
+        },
+        {
+          "name": "MRNGConnectionFile",
+          "children": [
+            {
+              "name": "Export-MRNGConnectionFile"
+            }
+          ]
+        },
+        {
+          "name": "MRNGRootNode",
+          "children": [
+            {
+              "name": "Import-MRNGRootNode"
+            },
+            {
+              "name": "New-MRNGRootNode"
+            }
+          ]
+        },
+        {
+          "name": "MRNGConnection",
+          "children": [
+            {
+              "name": "New-MRNGConnection"
+            }
+          ]
+        },
+        {
+          "name": "MRNGContainer",
+          "children": [
+            {
+              "name": "New-MRNGContainer"
+            }
+          ]
+        },
+        {
+          "name": "MRNGInheritanceConfiguration",
+          "children": [
+            {
+              "name": "New-MRNGInheritanceConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ScreenConnectUtils",
+      "companyName": "Brooksworks",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "SupportSession",
+          "children": [
+            {
+              "name": "Connect-SupportSession"
+            }
+          ]
+        },
+        {
+          "name": "HostClient",
+          "children": [
+            {
+              "name": "Install-HostClient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Send-VMKeystrokes",
+      "companyName": "graybrook.io",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "VMKeystrokeStringToHIDEvent",
+          "children": [
+            {
+              "name": "Convert-VMKeystrokeStringToHIDEvent"
+            }
+          ]
+        },
+        {
+          "name": "VMKeystrokeEscapedString",
+          "children": [
+            {
+              "name": "ConvertTo-VMKeystrokeEscapedString"
+            }
+          ]
+        },
+        {
+          "name": "VMKeystrokeHIDEvent",
+          "children": [
+            {
+              "name": "Send-VMKeystrokeHIDEvent"
+            }
+          ]
+        },
+        {
+          "name": "VMKeystrokes",
+          "children": [
+            {
+              "name": "Send-VMKeystrokes"
+            }
+          ]
+        },
+        {
+          "name": "VMKeystrokeString",
+          "children": [
+            {
+              "name": "Split-VMKeystrokeString"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SimplyOpenConnection",
+      "companyName": "graybrook.io",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "OpenMySqlConnection",
+          "children": [
+            {
+              "name": "Request-OpenMySqlConnection"
+            }
+          ]
+        },
+        {
+          "name": "OpenOracleConnection",
+          "children": [
+            {
+              "name": "Request-OpenOracleConnection"
+            }
+          ]
+        },
+        {
+          "name": "OpenPostGreConnection",
+          "children": [
+            {
+              "name": "Request-OpenPostGreConnection"
+            }
+          ]
+        },
+        {
+          "name": "OpenSqlConnection",
+          "children": [
+            {
+              "name": "Request-OpenSqlConnection"
+            }
+          ]
+        },
+        {
+          "name": "OpenSQLiteConnection",
+          "children": [
+            {
+              "name": "Request-OpenSQLiteConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "xDhcpServerOption119",
+      "companyName": "graybrook.io",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "DhcpSearchSuffixList",
+          "children": [
+            {
+              "name": "ConvertFrom-DhcpSearchSuffixList"
+            },
+            {
+              "name": "ConvertTo-DhcpSearchSuffixList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

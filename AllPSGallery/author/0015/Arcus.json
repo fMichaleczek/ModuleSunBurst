@@ -1,0 +1,478 @@
+{
+  "name": "Arcus",
+  "children": [
+    {
+      "name": "Arcus.Scripting.ActiveDirectory",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzADAppRoleAssignments",
+          "children": [
+            {
+              "name": "List-AzADAppRoleAssignments"
+            }
+          ]
+        },
+        {
+          "name": "AzADAppRoleAssignment",
+          "children": [
+            {
+              "name": "Add-AzADAppRoleAssignment"
+            },
+            {
+              "name": "Remove-AzADAppRoleAssignment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.ApiManagement",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzApiManagementApiOperation",
+          "children": [
+            {
+              "name": "Create-AzApiManagementApiOperation"
+            }
+          ]
+        },
+        {
+          "name": "AzApiManagementProductPolicy",
+          "children": [
+            {
+              "name": "Import-AzApiManagementProductPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AzApiManagementApiPolicy",
+          "children": [
+            {
+              "name": "Import-AzApiManagementApiPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AzApiManagementOperationPolicy",
+          "children": [
+            {
+              "name": "Import-AzApiManagementOperationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "AzApiManagementService",
+          "children": [
+            {
+              "name": "Backup-AzApiManagementService"
+            },
+            {
+              "name": "Restore-AzApiManagementService"
+            }
+          ]
+        },
+        {
+          "name": "AzApiManagementDefaults",
+          "children": [
+            {
+              "name": "Remove-AzApiManagementDefaults"
+            }
+          ]
+        },
+        {
+          "name": "AzApiManagementApiSubscriptionKey",
+          "children": [
+            {
+              "name": "Set-AzApiManagementApiSubscriptionKey"
+            }
+          ]
+        },
+        {
+          "name": "AzApiManagementCertificate",
+          "children": [
+            {
+              "name": "Upload-AzApiManagementCertificate"
+            }
+          ]
+        },
+        {
+          "name": "AzApiManagementSystemCertificate",
+          "children": [
+            {
+              "name": "Upload-AzApiManagementSystemCertificate"
+            }
+          ]
+        },
+        {
+          "name": "AzApiManagementUserAccount",
+          "children": [
+            {
+              "name": "Create-AzApiManagementUserAccount"
+            },
+            {
+              "name": "Remove-AzApiManagementUserAccount"
+            }
+          ]
+        },
+        {
+          "name": "AzApiManagementUserAccountsFromConfig",
+          "children": [
+            {
+              "name": "Create-AzApiManagementUserAccountsFromConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.AppService",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzAppServiceSetting",
+          "children": [
+            {
+              "name": "Set-AzAppServiceSetting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.ARM",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "ArmContent",
+          "children": [
+            {
+              "name": "Inject-ArmContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.DataFactory",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzDataFactoryTrigger",
+          "children": [
+            {
+              "name": "Enable-AzDataFactoryTrigger"
+            },
+            {
+              "name": "Disable-AzDataFactoryTrigger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.DevOps",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzDevOpsVariable",
+          "children": [
+            {
+              "name": "Set-AzDevOpsVariable"
+            }
+          ]
+        },
+        {
+          "name": "AzDevOpsArmOutputsToVariableGroup",
+          "children": [
+            {
+              "name": "Set-AzDevOpsArmOutputsToVariableGroup"
+            }
+          ]
+        },
+        {
+          "name": "AzDevOpsArmOutputsToPipelineVariables",
+          "children": [
+            {
+              "name": "Set-AzDevOpsArmOutputsToPipelineVariables"
+            }
+          ]
+        },
+        {
+          "name": "AzDevOpsBuild",
+          "children": [
+            {
+              "name": "Save-AzDevOpsBuild"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.IntegrationAccount",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzIntegrationAccountSchemas",
+          "children": [
+            {
+              "name": "Set-AzIntegrationAccountSchemas"
+            }
+          ]
+        },
+        {
+          "name": "AzIntegrationAccountMaps",
+          "children": [
+            {
+              "name": "Set-AzIntegrationAccountMaps"
+            }
+          ]
+        },
+        {
+          "name": "AzIntegrationAccountAssemblies",
+          "children": [
+            {
+              "name": "Set-AzIntegrationAccountAssemblies"
+            }
+          ]
+        },
+        {
+          "name": "AzIntegrationAccountCertificates",
+          "children": [
+            {
+              "name": "Set-AzIntegrationAccountCertificates"
+            }
+          ]
+        },
+        {
+          "name": "AzIntegrationAccountPartners",
+          "children": [
+            {
+              "name": "Set-AzIntegrationAccountPartners"
+            }
+          ]
+        },
+        {
+          "name": "AzIntegrationAccountAgreements",
+          "children": [
+            {
+              "name": "Set-AzIntegrationAccountAgreements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.KeyVault",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzKeyVaultAccessPolicies",
+          "children": [
+            {
+              "name": "Get-AzKeyVaultAccessPolicies"
+            }
+          ]
+        },
+        {
+          "name": "AzKeyVaultSecretFromFile",
+          "children": [
+            {
+              "name": "Set-AzKeyVaultSecretFromFile"
+            }
+          ]
+        },
+        {
+          "name": "AzKeyVaultSecretAsBase64FromFile",
+          "children": [
+            {
+              "name": "Set-AzKeyVaultSecretAsBase64FromFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.LogicApps",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzLogicAppRuns",
+          "children": [
+            {
+              "name": "Cancel-AzLogicAppRuns"
+            }
+          ]
+        },
+        {
+          "name": "FailedAzLogicAppRuns",
+          "children": [
+            {
+              "name": "Resubmit-FailedAzLogicAppRuns"
+            }
+          ]
+        },
+        {
+          "name": "AzLogicApp",
+          "children": [
+            {
+              "name": "Disable-AzLogicApp"
+            },
+            {
+              "name": "Enable-AzLogicApp"
+            }
+          ]
+        },
+        {
+          "name": "AzLogicAppsFromConfig",
+          "children": [
+            {
+              "name": "Disable-AzLogicAppsFromConfig"
+            },
+            {
+              "name": "Enable-AzLogicAppsFromConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.Management",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzApiManagementSoftDeletedService",
+          "children": [
+            {
+              "name": "Remove-AzApiManagementSoftDeletedService"
+            },
+            {
+              "name": "Restore-AzApiManagementSoftDeletedService"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.Security",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzResourceGroupLocks",
+          "children": [
+            {
+              "name": "Remove-AzResourceGroupLocks"
+            }
+          ]
+        },
+        {
+          "name": "AzCachedAccessToken",
+          "children": [
+            {
+              "name": "Get-AzCachedAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "AzResourceGroupRoleAssignment",
+          "children": [
+            {
+              "name": "New-AzResourceGroupRoleAssignment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.Sql",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzSqlDatabaseMigration",
+          "children": [
+            {
+              "name": "Invoke-AzSqlDatabaseMigration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.Storage.Blob",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzFilesToBlobStorage",
+          "children": [
+            {
+              "name": "Upload-AzFilesToBlobStorage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.Storage.FileShare",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzFileShareStorageFolder",
+          "children": [
+            {
+              "name": "Create-AzFileShareStorageFolder"
+            }
+          ]
+        },
+        {
+          "name": "AzFileShareStorageFiles",
+          "children": [
+            {
+              "name": "Copy-AzFileShareStorageFiles"
+            },
+            {
+              "name": "Upload-AzFileShareStorageFiles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcus.Scripting.Storage.Table",
+      "companyName": "Unknown",
+      "author": "Arcus",
+      "children": [
+        {
+          "name": "AzStorageTable",
+          "children": [
+            {
+              "name": "Create-AzStorageTable"
+            }
+          ]
+        },
+        {
+          "name": "AzTableStorageEntities",
+          "children": [
+            {
+              "name": "Set-AzTableStorageEntities"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

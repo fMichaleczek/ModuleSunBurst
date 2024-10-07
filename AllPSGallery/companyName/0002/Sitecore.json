@@ -1,0 +1,43 @@
+{
+  "name": "Sitecore",
+  "children": [
+    {
+      "name": "SCInstall",
+      "companyName": "Sitecore",
+      "author": "Sitecore",
+      "children": [
+        {
+          "name": "Greeting",
+          "children": [
+            {
+              "name": "Get-Greeting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sitecore.Courier",
+      "companyName": "Sitecore",
+      "author": "Alexander Doroshenko",
+      "children": [
+        {
+          "name": "CourierPackage",
+          "children": [
+            {
+              "name": "New-CourierPackage"
+            }
+          ]
+        },
+        {
+          "name": "CourierSecurityPackage",
+          "children": [
+            {
+              "name": "New-CourierSecurityPackage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

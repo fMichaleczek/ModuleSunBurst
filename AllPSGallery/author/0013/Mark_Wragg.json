@@ -1,0 +1,561 @@
+{
+  "name": "Mark Wragg",
+  "children": [
+    {
+      "name": "ADAudit",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "ADConfig",
+          "children": [
+            {
+              "name": "Export-ADConfig"
+            },
+            {
+              "name": "Get-ADConfig"
+            }
+          ]
+        },
+        {
+          "name": "ActiveDirectory",
+          "children": [
+            {
+              "name": "Test-ActiveDirectory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzCostTools",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "CostAdvisor",
+          "children": [
+            {
+              "name": "Get-CostAdvisor"
+            }
+          ]
+        },
+        {
+          "name": "StorageCost",
+          "children": [
+            {
+              "name": "Get-StorageCost"
+            }
+          ]
+        },
+        {
+          "name": "SubscriptionCost",
+          "children": [
+            {
+              "name": "Get-SubscriptionCost"
+            }
+          ]
+        },
+        {
+          "name": "CostAnalysis",
+          "children": [
+            {
+              "name": "Show-CostAnalysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CurrencyConverter",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "CryptoCurrency",
+          "children": [
+            {
+              "name": "Convert-CryptoCurrency"
+            },
+            {
+              "name": "Get-CryptoCurrency"
+            }
+          ]
+        },
+        {
+          "name": "Currency",
+          "children": [
+            {
+              "name": "Convert-Currency"
+            },
+            {
+              "name": "Format-Currency"
+            },
+            {
+              "name": "Get-Currency"
+            }
+          ]
+        },
+        {
+          "name": "CryptoExchangeRate",
+          "children": [
+            {
+              "name": "Get-CryptoExchangeRate"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeRate",
+          "children": [
+            {
+              "name": "Get-ExchangeRate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HashCopy",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "FileHash",
+          "children": [
+            {
+              "name": "Compare-FileHash"
+            },
+            {
+              "name": "Copy-FileHash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Influx",
+      "companyName": "Wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "InfluxLineString",
+          "children": [
+            {
+              "name": "ConvertTo-InfluxLineString"
+            }
+          ]
+        },
+        {
+          "name": "Metric",
+          "children": [
+            {
+              "name": "ConvertTo-Metric"
+            }
+          ]
+        },
+        {
+          "name": "StatsDString",
+          "children": [
+            {
+              "name": "ConvertTo-StatsDString"
+            }
+          ]
+        },
+        {
+          "name": "3ParSystemMetric",
+          "children": [
+            {
+              "name": "Get-3ParSystemMetric"
+            },
+            {
+              "name": "Send-3ParSystemMetric"
+            }
+          ]
+        },
+        {
+          "name": "3ParVirtualVolumeMetric",
+          "children": [
+            {
+              "name": "Get-3ParVirtualVolumeMetric"
+            },
+            {
+              "name": "Send-3ParVirtualVolumeMetric"
+            }
+          ]
+        },
+        {
+          "name": "DatacenterMetric",
+          "children": [
+            {
+              "name": "Get-DatacenterMetric"
+            },
+            {
+              "name": "Send-DatacenterMetric"
+            }
+          ]
+        },
+        {
+          "name": "DatastoreClusterMetric",
+          "children": [
+            {
+              "name": "Get-DatastoreClusterMetric"
+            },
+            {
+              "name": "Send-DatastoreClusterMetric"
+            }
+          ]
+        },
+        {
+          "name": "DatastoreMetric",
+          "children": [
+            {
+              "name": "Get-DatastoreMetric"
+            },
+            {
+              "name": "Send-DatastoreMetric"
+            }
+          ]
+        },
+        {
+          "name": "HostMetric",
+          "children": [
+            {
+              "name": "Get-HostMetric"
+            },
+            {
+              "name": "Send-HostMetric"
+            }
+          ]
+        },
+        {
+          "name": "IsilonStoragePoolMetric",
+          "children": [
+            {
+              "name": "Get-IsilonStoragePoolMetric"
+            },
+            {
+              "name": "Send-IsilonStoragePoolMetric"
+            }
+          ]
+        },
+        {
+          "name": "ResourcePoolMetric",
+          "children": [
+            {
+              "name": "Get-ResourcePoolMetric"
+            },
+            {
+              "name": "Send-ResourcePoolMetric"
+            }
+          ]
+        },
+        {
+          "name": "TFSBuildMetric",
+          "children": [
+            {
+              "name": "Get-TFSBuildMetric"
+            },
+            {
+              "name": "Send-TFSBuildMetric"
+            }
+          ]
+        },
+        {
+          "name": "VMMetric",
+          "children": [
+            {
+              "name": "Get-VMMetric"
+            },
+            {
+              "name": "Send-VMMetric"
+            }
+          ]
+        },
+        {
+          "name": "Influx",
+          "children": [
+            {
+              "name": "Write-Influx"
+            }
+          ]
+        },
+        {
+          "name": "InfluxUDP",
+          "children": [
+            {
+              "name": "Write-InfluxUDP"
+            }
+          ]
+        },
+        {
+          "name": "StatsD",
+          "children": [
+            {
+              "name": "Write-StatsD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lumos",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "Lumos",
+          "children": [
+            {
+              "name": "Invoke-Lumos"
+            }
+          ]
+        },
+        {
+          "name": "LumosScheduledTask",
+          "children": [
+            {
+              "name": "Register-LumosScheduledTask"
+            },
+            {
+              "name": "Update-LumosScheduledTask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MacNotify",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "AlerterNotification",
+          "children": [
+            {
+              "name": "Invoke-AlerterNotification"
+            }
+          ]
+        },
+        {
+          "name": "MacNotification",
+          "children": [
+            {
+              "name": "Invoke-MacNotification"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSHipChat",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "Hipchat",
+          "children": [
+            {
+              "name": "Send-Hipchat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remedy",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "RemedyChange",
+          "children": [
+            {
+              "name": "Get-RemedyChange"
+            }
+          ]
+        },
+        {
+          "name": "RemedyInterface",
+          "children": [
+            {
+              "name": "Get-RemedyInterface"
+            }
+          ]
+        },
+        {
+          "name": "RemedyKnownError",
+          "children": [
+            {
+              "name": "Get-RemedyKnownError"
+            }
+          ]
+        },
+        {
+          "name": "RemedyPerson",
+          "children": [
+            {
+              "name": "Get-RemedyPerson"
+            }
+          ]
+        },
+        {
+          "name": "RemedyProblem",
+          "children": [
+            {
+              "name": "Get-RemedyProblem"
+            }
+          ]
+        },
+        {
+          "name": "RemedySolution",
+          "children": [
+            {
+              "name": "Get-RemedySolution"
+            }
+          ]
+        },
+        {
+          "name": "RemedyTeam",
+          "children": [
+            {
+              "name": "Get-RemedyTeam"
+            }
+          ]
+        },
+        {
+          "name": "RemedyTicket",
+          "children": [
+            {
+              "name": "Get-RemedyTicket"
+            }
+          ]
+        },
+        {
+          "name": "RemedyWorkLog",
+          "children": [
+            {
+              "name": "Get-RemedyWorkLog"
+            }
+          ]
+        },
+        {
+          "name": "Remedy",
+          "children": [
+            {
+              "name": "Invoke-Remedy"
+            }
+          ]
+        },
+        {
+          "name": "RemedyApiConfig",
+          "children": [
+            {
+              "name": "Set-RemedyApiConfig"
+            },
+            {
+              "name": "Test-RemedyApiConfig"
+            },
+            {
+              "name": "Update-RemedyApiConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SlackBot",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "SlackBot",
+          "children": [
+            {
+              "name": "Invoke-SlackBot"
+            }
+          ]
+        },
+        {
+          "name": "SlackMsg",
+          "children": [
+            {
+              "name": "Send-SlackMsg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Subnet",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "NetworkClass",
+          "children": [
+            {
+              "name": "Get-NetworkClass"
+            }
+          ]
+        },
+        {
+          "name": "Subnet",
+          "children": [
+            {
+              "name": "Get-Subnet"
+            }
+          ]
+        },
+        {
+          "name": "PrivateIP",
+          "children": [
+            {
+              "name": "Test-PrivateIP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Watch",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "Command",
+          "children": [
+            {
+              "name": "Watch-Command"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XKCD",
+      "companyName": "wragg.io",
+      "author": "Mark Wragg",
+      "children": [
+        {
+          "name": "XKCD",
+          "children": [
+            {
+              "name": "Find-XKCD"
+            },
+            {
+              "name": "Get-XKCD"
+            }
+          ]
+        },
+        {
+          "name": "XKCDCache",
+          "children": [
+            {
+              "name": "Update-XKCDCache"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

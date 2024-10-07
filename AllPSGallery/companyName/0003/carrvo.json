@@ -1,0 +1,86 @@
+{
+  "name": "carrvo",
+  "children": [
+    {
+      "name": "AutoAdapter.DuckTyping.PowerShell",
+      "companyName": "carrvo",
+      "author": "carrvo",
+      "children": [
+        {
+          "name": "Adapter",
+          "children": [
+            {
+              "name": "Register-Adapter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellHttpModule",
+      "companyName": "carrvo",
+      "author": "carrvo",
+      "children": [
+        {
+          "name": "HttpResponse",
+          "children": [
+            {
+              "name": "Deny-HttpResponse"
+            },
+            {
+              "name": "Submit-HttpResponse"
+            }
+          ]
+        },
+        {
+          "name": "HttpListener",
+          "children": [
+            {
+              "name": "Get-HttpListener"
+            },
+            {
+              "name": "New-HttpListener"
+            },
+            {
+              "name": "Start-HttpListener"
+            },
+            {
+              "name": "Stop-HttpListener"
+            }
+          ]
+        },
+        {
+          "name": "HttpRequestBody",
+          "children": [
+            {
+              "name": "Receive-HttpRequestBody"
+            }
+          ]
+        },
+        {
+          "name": "HttpRequest",
+          "children": [
+            {
+              "name": "Wait-HttpRequest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TypeDataExtensions",
+      "companyName": "carrvo",
+      "author": "carrvo",
+      "children": [
+        {
+          "name": "TypeData",
+          "children": [
+            {
+              "name": "Export-TypeData"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

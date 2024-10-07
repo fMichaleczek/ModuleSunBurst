@@ -1,0 +1,288 @@
+{
+  "name": "Chirishman",
+  "children": [
+    {
+      "name": "ADAuth",
+      "companyName": "Unknown",
+      "author": "Chirishman",
+      "children": [
+        {
+          "name": "ADCredential",
+          "children": [
+            {
+              "name": "Test-ADCredential"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupMembership",
+          "children": [
+            {
+              "name": "Get-ADGroupMembership"
+            },
+            {
+              "name": "Test-ADGroupMembership"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "allspice",
+      "companyName": "Unknown",
+      "author": "Chirishman",
+      "children": [
+        {
+          "name": "SpiceworksSession",
+          "children": [
+            {
+              "name": "New-SpiceworksSession"
+            },
+            {
+              "name": "Get-SpiceworksSession"
+            }
+          ]
+        },
+        {
+          "name": "SpiceworksTicket",
+          "children": [
+            {
+              "name": "Get-SpiceworksTicket"
+            }
+          ]
+        },
+        {
+          "name": "SpiceworksTicketSet",
+          "children": [
+            {
+              "name": "Import-SpiceworksTicketSet"
+            }
+          ]
+        },
+        {
+          "name": "TicketReminderRequest",
+          "children": [
+            {
+              "name": "Get-TicketReminderRequest"
+            }
+          ]
+        },
+        {
+          "name": "TicketReminderEmail",
+          "children": [
+            {
+              "name": "New-TicketReminderEmail"
+            }
+          ]
+        },
+        {
+          "name": "TicketReminder",
+          "children": [
+            {
+              "name": "Register-TicketReminder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChiriTools",
+      "companyName": "Unknown",
+      "author": "Chirishman",
+      "children": [
+        {
+          "name": "ADGroupMembership",
+          "children": [
+            {
+              "name": "Get-ADGroupMembership"
+            },
+            {
+              "name": "Test-ADGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "DirectoryServicesDomain",
+          "children": [
+            {
+              "name": "Get-DirectoryServicesDomain"
+            }
+          ]
+        },
+        {
+          "name": "DirectoryServicesDomainController",
+          "children": [
+            {
+              "name": "Get-DirectoryServicesDomainController"
+            }
+          ]
+        },
+        {
+          "name": "RealLockoutState",
+          "children": [
+            {
+              "name": "Get-RealLockoutState"
+            }
+          ]
+        },
+        {
+          "name": "RealLogonDate",
+          "children": [
+            {
+              "name": "Get-RealLogonDate"
+            }
+          ]
+        },
+        {
+          "name": "RegistryTweak",
+          "children": [
+            {
+              "name": "Install-RegistryTweak"
+            }
+          ]
+        },
+        {
+          "name": "ADCredential",
+          "children": [
+            {
+              "name": "Test-ADCredential"
+            }
+          ]
+        },
+        {
+          "name": "SecureString",
+          "children": [
+            {
+              "name": "Unprotect-SecureString"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Keystore",
+      "companyName": "Unknown",
+      "author": "Chirishman",
+      "children": [
+        {
+          "name": "StoredKeyList",
+          "children": [
+            {
+              "name": "Read-StoredKeyList"
+            }
+          ]
+        },
+        {
+          "name": "StoredKey",
+          "children": [
+            {
+              "name": "Get-StoredKey"
+            },
+            {
+              "name": "Initialize-StoredKey"
+            },
+            {
+              "name": "Remove-StoredKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpenHardwareMonitor",
+      "companyName": "Unknown",
+      "author": "Chirishman",
+      "children": [
+        {
+          "name": "HardwareMonitor",
+          "children": [
+            {
+              "name": "New-HardwareMonitor"
+            }
+          ]
+        },
+        {
+          "name": "CPUTemperature",
+          "children": [
+            {
+              "name": "Measure-CPUTemperature"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PuppyFriendlySpeculationControl",
+      "companyName": "Unknown",
+      "author": "Chirishman",
+      "children": [
+        {
+          "name": "SpeculationControlSettings",
+          "children": [
+            {
+              "name": "Test-SpeculationControlSettings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StatUSB",
+      "companyName": "Unknown",
+      "author": "Chirishman",
+      "children": [
+        {
+          "name": "StatUSBPort",
+          "children": [
+            {
+              "name": "Connect-StatUSBPort"
+            },
+            {
+              "name": "Disconnect-StatUSBPort"
+            }
+          ]
+        },
+        {
+          "name": "StatUSBCommand",
+          "children": [
+            {
+              "name": "New-StatUSBCommand"
+            },
+            {
+              "name": "Send-StatUSBCommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StoredPSCredential",
+      "companyName": "Unknown",
+      "author": "Chirishman",
+      "children": [
+        {
+          "name": "StoredCredentialList",
+          "children": [
+            {
+              "name": "Read-StoredCredentialList"
+            }
+          ]
+        },
+        {
+          "name": "StoredCredential",
+          "children": [
+            {
+              "name": "Get-StoredCredential"
+            },
+            {
+              "name": "Initialize-StoredCredential"
+            },
+            {
+              "name": "Remove-StoredCredential"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

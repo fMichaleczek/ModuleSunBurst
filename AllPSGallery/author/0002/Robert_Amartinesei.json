@@ -1,0 +1,81 @@
+{
+  "name": "Robert Amartinesei",
+  "children": [
+    {
+      "name": "ACLCleanup",
+      "companyName": "Unknown",
+      "author": "Robert Amartinesei",
+      "children": [
+        {
+          "name": "ExplicitUserPermission",
+          "children": [
+            {
+              "name": "Get-ExplicitUserPermission"
+            },
+            {
+              "name": "Remove-ExplicitUserPermission"
+            }
+          ]
+        },
+        {
+          "name": "OrphanedAce",
+          "children": [
+            {
+              "name": "Get-OrphanedAce"
+            },
+            {
+              "name": "Remove-OrphanedAce"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RobamaTools",
+      "companyName": "Unknown",
+      "author": "Robert Amartinesei",
+      "children": [
+        {
+          "name": "ScheduledReboot",
+          "children": [
+            {
+              "name": "Add-ScheduledReboot"
+            }
+          ]
+        },
+        {
+          "name": "Driveletter",
+          "children": [
+            {
+              "name": "Set-Driveletter"
+            }
+          ]
+        },
+        {
+          "name": "ItemSize",
+          "children": [
+            {
+              "name": "Get-ItemSize"
+            }
+          ]
+        },
+        {
+          "name": "SDDLToACL",
+          "children": [
+            {
+              "name": "Convert-SDDLToACL"
+            }
+          ]
+        },
+        {
+          "name": "Spelling",
+          "children": [
+            {
+              "name": "Get-Spelling"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

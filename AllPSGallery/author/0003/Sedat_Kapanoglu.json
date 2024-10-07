@@ -1,0 +1,189 @@
+{
+  "name": "Sedat Kapanoglu",
+  "children": [
+    {
+      "name": "ExeTools",
+      "companyName": "Unknown",
+      "author": "Sedat Kapanoglu",
+      "children": [
+        {
+          "name": "ExeHeader",
+          "children": [
+            {
+              "name": "Get-ExeHeader"
+            }
+          ]
+        },
+        {
+          "name": "ExeArchitecture",
+          "children": [
+            {
+              "name": "Get-ExeArchitecture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Genesis",
+      "companyName": "Unknown",
+      "author": "Sedat Kapanoglu",
+      "children": [
+        {
+          "name": "SystemConfiguration",
+          "children": [
+            {
+              "name": "Update-SystemConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "Browser",
+          "children": [
+            {
+              "name": "Get-Browser"
+            }
+          ]
+        },
+        {
+          "name": "RestartNeeded",
+          "children": [
+            {
+              "name": "Set-RestartNeeded"
+            },
+            {
+              "name": "Get-RestartNeeded"
+            }
+          ]
+        },
+        {
+          "name": "SpecialFolder",
+          "children": [
+            {
+              "name": "Assert-SpecialFolder"
+            }
+          ]
+        },
+        {
+          "name": "NoKeepAwake",
+          "children": [
+            {
+              "name": "Assert-NoKeepAwake"
+            }
+          ]
+        },
+        {
+          "name": "RegistryValue",
+          "children": [
+            {
+              "name": "Assert-RegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "SpecialFolderPath",
+          "children": [
+            {
+              "name": "Assert-SpecialFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "StoreAppsInstalled",
+          "children": [
+            {
+              "name": "Assert-StoreAppsInstalled"
+            }
+          ]
+        },
+        {
+          "name": "DesktopShortcut",
+          "children": [
+            {
+              "name": "Assert-DesktopShortcut"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyPackages",
+          "children": [
+            {
+              "name": "Assert-ChocolateyPackages"
+            }
+          ]
+        },
+        {
+          "name": "WindowsFeature",
+          "children": [
+            {
+              "name": "Assert-WindowsFeature"
+            }
+          ]
+        },
+        {
+          "name": "WindowsCapability",
+          "children": [
+            {
+              "name": "Assert-WindowsCapability"
+            }
+          ]
+        },
+        {
+          "name": "DefaultBrowser",
+          "children": [
+            {
+              "name": "Test-DefaultBrowser"
+            }
+          ]
+        },
+        {
+          "name": "Configuration",
+          "children": [
+            {
+              "name": "Assert-Configuration"
+            }
+          ]
+        },
+        {
+          "name": "RecycleBinCapacity",
+          "children": [
+            {
+              "name": "Set-RecycleBinCapacity"
+            }
+          ]
+        },
+        {
+          "name": "DesktopPath",
+          "children": [
+            {
+              "name": "Get-DesktopPath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wait-Net",
+      "companyName": "Unknown",
+      "author": "Sedat Kapanoglu",
+      "children": [
+        {
+          "name": "Net",
+          "children": [
+            {
+              "name": "Wait-Net"
+            }
+          ]
+        },
+        {
+          "name": "NetConnectivity",
+          "children": [
+            {
+              "name": "Test-NetConnectivity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

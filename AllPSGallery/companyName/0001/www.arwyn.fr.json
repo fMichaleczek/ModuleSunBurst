@@ -1,0 +1,36 @@
+{
+  "name": "www.arwyn.fr",
+  "children": [
+    {
+      "name": "ArwynFr.SemanticVersion",
+      "companyName": "www.arwyn.fr",
+      "author": "ArwynFr",
+      "children": [
+        {
+          "name": "SemanticVersionStep",
+          "children": [
+            {
+              "name": "ConvertTo-SemanticVersionStep"
+            }
+          ]
+        },
+        {
+          "name": "GithubSemanticVersionRelease",
+          "children": [
+            {
+              "name": "New-GithubSemanticVersionRelease"
+            }
+          ]
+        },
+        {
+          "name": "SemanticVersion",
+          "children": [
+            {
+              "name": "Step-SemanticVersion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

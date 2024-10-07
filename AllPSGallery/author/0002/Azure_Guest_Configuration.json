@@ -1,0 +1,70 @@
+{
+  "name": "Azure Guest Configuration",
+  "children": [
+    {
+      "name": "GuestConfiguration",
+      "companyName": "MicrosoftCorporation",
+      "author": "Azure Guest Configuration",
+      "children": [
+        {
+          "name": "GuestConfigurationPackage",
+          "children": [
+            {
+              "name": "New-GuestConfigurationPackage"
+            },
+            {
+              "name": "Protect-GuestConfigurationPackage"
+            }
+          ]
+        },
+        {
+          "name": "GuestConfigurationPackageComplianceStatus",
+          "children": [
+            {
+              "name": "Get-GuestConfigurationPackageComplianceStatus"
+            }
+          ]
+        },
+        {
+          "name": "GuestConfigurationPackageRemediation",
+          "children": [
+            {
+              "name": "Start-GuestConfigurationPackageRemediation"
+            }
+          ]
+        },
+        {
+          "name": "GuestConfigurationPolicy",
+          "children": [
+            {
+              "name": "New-GuestConfigurationPolicy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GuestConfigurationTroubleshooter",
+      "companyName": "MicrosoftCorporation",
+      "author": "Azure Guest Configuration",
+      "children": [
+        {
+          "name": "GuestConfigurationPolicyHealth",
+          "children": [
+            {
+              "name": "Get-GuestConfigurationPolicyHealth"
+            }
+          ]
+        },
+        {
+          "name": "NonApplicableVMs",
+          "children": [
+            {
+              "name": "Get-NonApplicableVMs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Semptra",
+  "children": [
+    {
+      "name": "HoNAvatarManager",
+      "companyName": "Unknown",
+      "author": "Semptra",
+      "children": [
+        {
+          "name": "HoNAvatarManagerTelemetry",
+          "children": [
+            {
+              "name": "Disable-HoNAvatarManagerTelemetry"
+            },
+            {
+              "name": "Enable-HoNAvatarManagerTelemetry"
+            }
+          ]
+        },
+        {
+          "name": "HeroAvatar",
+          "children": [
+            {
+              "name": "Remove-HeroAvatar"
+            },
+            {
+              "name": "Set-HeroAvatar"
+            }
+          ]
+        },
+        {
+          "name": "HeroAvatarUnpacked",
+          "children": [
+            {
+              "name": "Set-HeroAvatarUnpacked"
+            }
+          ]
+        },
+        {
+          "name": "HoNPath",
+          "children": [
+            {
+              "name": "Set-HoNPath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HoNTools",
+      "companyName": "HoNTools",
+      "author": "Semptra",
+      "children": [
+        {
+          "name": "HoNServerInfo",
+          "children": [
+            {
+              "name": "Get-HoNServerInfo"
+            }
+          ]
+        },
+        {
+          "name": "HoNReconnect",
+          "children": [
+            {
+              "name": "Set-HoNReconnect"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "name": "gogbg outlook.com",
+  "children": [
+    {
+      "name": "AdoAzHelper",
+      "companyName": "Unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "AahServiceConnection",
+          "children": [
+            {
+              "name": "Connect-AahServiceConnection"
+            },
+            {
+              "name": "Disconnect-AahServiceConnection"
+            }
+          ]
+        },
+        {
+          "name": "AahPipelineVariable",
+          "children": [
+            {
+              "name": "Set-AahPipelineVariable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AdoExtensions",
+      "companyName": "Unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "AdoePipelineDefinitionFile",
+          "children": [
+            {
+              "name": "Create-AdoePipelineDefinitionFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AstExtensions",
+      "companyName": "pugbg",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "AstStatement",
+          "children": [
+            {
+              "name": "Get-AstStatement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzExtensions",
+      "companyName": "Unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "AzeResourceGroup",
+          "children": [
+            {
+              "name": "New-AzeResourceGroup"
+            },
+            {
+              "name": "Get-AzeResourceGroup"
+            },
+            {
+              "name": "Remove-AzeResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "AzeOAuthToken",
+          "children": [
+            {
+              "name": "Get-AzeOAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "AzeAccount",
+          "children": [
+            {
+              "name": "Connect-AzeAccount"
+            }
+          ]
+        },
+        {
+          "name": "AzeRoleDefinition",
+          "children": [
+            {
+              "name": "Get-AzeRoleDefinition"
+            }
+          ]
+        },
+        {
+          "name": "AzeRoleAssignment",
+          "children": [
+            {
+              "name": "New-AzeRoleAssignment"
+            }
+          ]
+        },
+        {
+          "name": "AzeKeyVault",
+          "children": [
+            {
+              "name": "New-AzeKeyVault"
+            },
+            {
+              "name": "Remove-AzeKeyVault"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureExtensions",
+      "companyName": "gogbg outlook.com",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "AzePolicySetDefinition",
+          "children": [
+            {
+              "name": "Remove-AzePolicySetDefinition"
+            }
+          ]
+        },
+        {
+          "name": "AzePolicyDefinition",
+          "children": [
+            {
+              "name": "Remove-AzePolicyDefinition"
+            }
+          ]
+        },
+        {
+          "name": "AzeADNestedGroupMembers",
+          "children": [
+            {
+              "name": "Get-AzeADNestedGroupMembers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureRestHelper",
+      "companyName": "gogbg outlook.com",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "ArhAuthorizationHeader",
+          "children": [
+            {
+              "name": "Get-ArhAuthorizationHeader"
+            }
+          ]
+        },
+        {
+          "name": "ArhRestMethod",
+          "children": [
+            {
+              "name": "Invoke-ArhRestMethod"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HtmlHelper",
+      "companyName": "Unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "htmldoc",
+          "children": [
+            {
+              "name": "htmldoc"
+            }
+          ]
+        },
+        {
+          "name": "paragraph",
+          "children": [
+            {
+              "name": "paragraph"
+            }
+          ]
+        },
+        {
+          "name": "table",
+          "children": [
+            {
+              "name": "table"
+            }
+          ]
+        },
+        {
+          "name": "column",
+          "children": [
+            {
+              "name": "table-column"
+            }
+          ]
+        },
+        {
+          "name": "row",
+          "children": [
+            {
+              "name": "table-row"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LogHelper",
+      "companyName": "Unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "LhConfiguration",
+          "children": [
+            {
+              "name": "Register-LhConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "LhEvent",
+          "children": [
+            {
+              "name": "Write-LhEvent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSBuild",
+      "companyName": "Unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "PSSolutionConfiguration",
+          "children": [
+            {
+              "name": "New-PSSolutionConfiguration"
+            },
+            {
+              "name": "Get-PSSolutionConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "PSSolution",
+          "children": [
+            {
+              "name": "Build-PSSolution"
+            },
+            {
+              "name": "Publish-PSSolution"
+            },
+            {
+              "name": "Clear-PSSolution"
+            }
+          ]
+        },
+        {
+          "name": "PSModule",
+          "children": [
+            {
+              "name": "Build-PSModule"
+            }
+          ]
+        },
+        {
+          "name": "PSScript",
+          "children": [
+            {
+              "name": "Build-PSScript"
+            }
+          ]
+        },
+        {
+          "name": "PSModules",
+          "children": [
+            {
+              "name": "Publish-PSModules"
+            }
+          ]
+        },
+        {
+          "name": "PSRepository",
+          "children": [
+            {
+              "name": "Assert-PSRepository"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSHelper",
+      "companyName": "unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "PSModulePathEntry",
+          "children": [
+            {
+              "name": "Add-PSModulePathEntry"
+            },
+            {
+              "name": "Remove-PSModulePathEntry"
+            }
+          ]
+        },
+        {
+          "name": "PSModulePath",
+          "children": [
+            {
+              "name": "Set-PSModulePath"
+            },
+            {
+              "name": "Get-PSModulePath"
+            }
+          ]
+        },
+        {
+          "name": "PSModule",
+          "children": [
+            {
+              "name": "Test-PSModule"
+            },
+            {
+              "name": "Publish-PSModule"
+            }
+          ]
+        },
+        {
+          "name": "PSModuleVersion",
+          "children": [
+            {
+              "name": "Update-PSModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "PSScript",
+          "children": [
+            {
+              "name": "Test-PSScript"
+            }
+          ]
+        },
+        {
+          "name": "PSScriptVersion",
+          "children": [
+            {
+              "name": "Update-PSScriptVersion"
+            }
+          ]
+        },
+        {
+          "name": "PSScriptConfig",
+          "children": [
+            {
+              "name": "Update-PSScriptConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSMarkdig",
+      "companyName": "unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "MdDocument",
+          "children": [
+            {
+              "name": "Get-MdDocument"
+            }
+          ]
+        },
+        {
+          "name": "MdElement",
+          "children": [
+            {
+              "name": "Get-MdElement"
+            }
+          ]
+        },
+        {
+          "name": "MdToString",
+          "children": [
+            {
+              "name": "Convert-MdToString"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSMermaid",
+      "companyName": "Unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "graph",
+          "children": [
+            {
+              "name": "m-graph"
+            }
+          ]
+        },
+        {
+          "name": "subgraph",
+          "children": [
+            {
+              "name": "m-subgraph"
+            }
+          ]
+        },
+        {
+          "name": "node",
+          "children": [
+            {
+              "name": "m-node"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psplaceholders",
+      "companyName": "Unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "PSPlaceholder",
+          "children": [
+            {
+              "name": "Get-PSPlaceholder"
+            },
+            {
+              "name": "Update-PSPlaceholder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SQLExtensions",
+      "companyName": "KPMG",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "SqlConnection",
+          "children": [
+            {
+              "name": "New-SqlConnection"
+            }
+          ]
+        },
+        {
+          "name": "SqlInstalledComponents",
+          "children": [
+            {
+              "name": "Get-SqlInstalledComponents"
+            }
+          ]
+        },
+        {
+          "name": "SQLQuery",
+          "children": [
+            {
+              "name": "Invoke-SQLQuery"
+            }
+          ]
+        },
+        {
+          "name": "SqlInstanceNameFormat",
+          "children": [
+            {
+              "name": "Test-SqlInstanceNameFormat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SystemExtensions",
+      "companyName": "unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "Process",
+          "children": [
+            {
+              "name": "Suspend-Process"
+            },
+            {
+              "name": "Resume-Process"
+            }
+          ]
+        },
+        {
+          "name": "Thread",
+          "children": [
+            {
+              "name": "Suspend-Thread"
+            },
+            {
+              "name": "Resume-Thread"
+            }
+          ]
+        },
+        {
+          "name": "NewProcess",
+          "children": [
+            {
+              "name": "Start-NewProcess"
+            }
+          ]
+        },
+        {
+          "name": "ServiceConfig",
+          "children": [
+            {
+              "name": "Get-ServiceConfig"
+            },
+            {
+              "name": "Set-ServiceConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TypeHelper",
+      "companyName": "Unknown",
+      "author": "gogbg outlook.com",
+      "children": [
+        {
+          "name": "String",
+          "children": [
+            {
+              "name": "ConvertTo-String"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "TabifiedString",
+          "children": [
+            {
+              "name": "ConvertTo-TabifiedString"
+            }
+          ]
+        },
+        {
+          "name": "ObjectProperty",
+          "children": [
+            {
+              "name": "Resolve-ObjectProperty"
+            }
+          ]
+        },
+        {
+          "name": "PSDataFile",
+          "children": [
+            {
+              "name": "Import-PSDataFile"
+            }
+          ]
+        },
+        {
+          "name": "JsonString",
+          "children": [
+            {
+              "name": "ConvertFrom-JsonString"
+            }
+          ]
+        },
+        {
+          "name": "DynamicConfiguration",
+          "children": [
+            {
+              "name": "New-DynamicConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DerivedType",
+          "children": [
+            {
+              "name": "Get-DerivedType"
+            }
+          ]
+        },
+        {
+          "name": "Version",
+          "children": [
+            {
+              "name": "Get-Version"
+            }
+          ]
+        },
+        {
+          "name": "HTMLSpecialChars",
+          "children": [
+            {
+              "name": "Update-HTMLSpecialChars"
+            }
+          ]
+        },
+        {
+          "name": "JsonSchema",
+          "children": [
+            {
+              "name": "Test-JsonSchema"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Split-Object"
+            },
+            {
+              "name": "Merge-Object"
+            }
+          ]
+        },
+        {
+          "name": "JsonSchemaLicense",
+          "children": [
+            {
+              "name": "Set-JsonSchemaLicense"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

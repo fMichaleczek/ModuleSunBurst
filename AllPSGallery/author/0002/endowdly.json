@@ -1,0 +1,133 @@
+{
+  "name": "endowdly",
+  "children": [
+    {
+      "name": "GoPS",
+      "companyName": "endowdly",
+      "author": "endowdly",
+      "children": [
+        {
+          "name": "DefaultNavigationFile",
+          "children": [
+            {
+              "name": "Get-DefaultNavigationFile"
+            },
+            {
+              "name": "Set-DefaultNavigationFile"
+            }
+          ]
+        },
+        {
+          "name": "NavigationFile",
+          "children": [
+            {
+              "name": "New-NavigationFile"
+            }
+          ]
+        },
+        {
+          "name": "NavigationEntry",
+          "children": [
+            {
+              "name": "Export-NavigationEntry"
+            },
+            {
+              "name": "Add-NavigationEntry"
+            },
+            {
+              "name": "Get-NavigationEntry"
+            },
+            {
+              "name": "Remove-NavigationEntry"
+            }
+          ]
+        },
+        {
+          "name": "GoPS",
+          "children": [
+            {
+              "name": "Invoke-GoPS"
+            }
+          ]
+        },
+        {
+          "name": "Last",
+          "children": [
+            {
+              "name": "Invoke-Last"
+            }
+          ]
+        },
+        {
+          "name": "Back",
+          "children": [
+            {
+              "name": "Invoke-Back"
+            }
+          ]
+        },
+        {
+          "name": "NavigationDatabase",
+          "children": [
+            {
+              "name": "Update-NavigationDatabase"
+            }
+          ]
+        },
+        {
+          "name": "GoPSStack",
+          "children": [
+            {
+              "name": "Get-GoPSStack"
+            }
+          ]
+        },
+        {
+          "name": "JumpHistory",
+          "children": [
+            {
+              "name": "Get-JumpHistory"
+            }
+          ]
+        },
+        {
+          "name": "Up",
+          "children": [
+            {
+              "name": "Invoke-Up"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSparklines",
+      "companyName": "endowdly",
+      "author": "endowdly",
+      "children": [
+        {
+          "name": "Emphasis",
+          "children": [
+            {
+              "name": "New-Emphasis"
+            }
+          ]
+        },
+        {
+          "name": "Sparkline",
+          "children": [
+            {
+              "name": "Get-Sparkline"
+            },
+            {
+              "name": "Show-Sparkline"
+            },
+            {
+              "name": "Write-Sparkline"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

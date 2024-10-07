@@ -1,0 +1,100 @@
+{
+  "name": "stknohg",
+  "children": [
+    {
+      "name": "AdmxPolicy",
+      "companyName": "stknohg",
+      "author": "stknohg",
+      "children": [
+        {
+          "name": "AdmlResource",
+          "children": [
+            {
+              "name": "Get-AdmlResource"
+            }
+          ]
+        },
+        {
+          "name": "AdmxFileInfo",
+          "children": [
+            {
+              "name": "Get-AdmxFileInfo"
+            }
+          ]
+        },
+        {
+          "name": "AdmxPolicies",
+          "children": [
+            {
+              "name": "Get-AdmxPolicies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSVersion",
+      "companyName": "stknohg",
+      "author": "stknohg",
+      "children": [
+        {
+          "name": "OSVersion",
+          "children": [
+            {
+              "name": "Get-OSVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSBanner",
+      "companyName": "stknohg",
+      "author": "stknohg",
+      "children": [
+        {
+          "name": "FontFamilies",
+          "children": [
+            {
+              "name": "Get-FontFamilies"
+            }
+          ]
+        },
+        {
+          "name": "Banner",
+          "children": [
+            {
+              "name": "Write-Banner"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSushiBar",
+      "companyName": "stknohg",
+      "author": "stknohg",
+      "children": [
+        {
+          "name": "SushiCount",
+          "children": [
+            {
+              "name": "Get-SushiCount"
+            }
+          ]
+        },
+        {
+          "name": "SushiBar",
+          "children": [
+            {
+              "name": "Start-SushiBar"
+            },
+            {
+              "name": "Stop-SushiBar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

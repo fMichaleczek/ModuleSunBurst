@@ -1,0 +1,476 @@
+{
+  "name": "Felix Becker",
+  "children": [
+    {
+      "name": "PowerGit",
+      "companyName": "Unknown",
+      "author": "Felix Becker",
+      "children": [
+        {
+          "name": "GitItem",
+          "children": [
+            {
+              "name": "Add-GitItem"
+            },
+            {
+              "name": "Remove-GitItem"
+            }
+          ]
+        },
+        {
+          "name": "GitRemote",
+          "children": [
+            {
+              "name": "Add-GitRemote"
+            },
+            {
+              "name": "Get-GitRemote"
+            },
+            {
+              "name": "Remove-GitRemote"
+            },
+            {
+              "name": "Rename-GitRemote"
+            },
+            {
+              "name": "Update-GitRemote"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoryCache",
+          "children": [
+            {
+              "name": "Clear-GitRepositoryCache"
+            }
+          ]
+        },
+        {
+          "name": "GitTree",
+          "children": [
+            {
+              "name": "Compare-GitTree"
+            }
+          ]
+        },
+        {
+          "name": "ColoredPatch",
+          "children": [
+            {
+              "name": "ConvertTo-ColoredPatch"
+            }
+          ]
+        },
+        {
+          "name": "GitRepository",
+          "children": [
+            {
+              "name": "Copy-GitRepository"
+            },
+            {
+              "name": "Find-GitRepository"
+            },
+            {
+              "name": "Get-GitRepository"
+            },
+            {
+              "name": "New-GitRepository"
+            }
+          ]
+        },
+        {
+          "name": "GitBranch",
+          "children": [
+            {
+              "name": "Get-GitBranch"
+            },
+            {
+              "name": "New-GitBranch"
+            },
+            {
+              "name": "Receive-GitBranch"
+            },
+            {
+              "name": "Remove-GitBranch"
+            },
+            {
+              "name": "Send-GitBranch"
+            },
+            {
+              "name": "Test-GitBranch"
+            }
+          ]
+        },
+        {
+          "name": "GitCommit",
+          "children": [
+            {
+              "name": "Get-GitCommit"
+            },
+            {
+              "name": "Merge-GitCommit"
+            },
+            {
+              "name": "Save-GitCommit"
+            },
+            {
+              "name": "Test-GitCommit"
+            }
+          ]
+        },
+        {
+          "name": "GitHead",
+          "children": [
+            {
+              "name": "Get-GitHead"
+            },
+            {
+              "name": "Reset-GitHead"
+            },
+            {
+              "name": "Set-GitHead"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoryStatus",
+          "children": [
+            {
+              "name": "Get-GitRepositoryStatus"
+            }
+          ]
+        },
+        {
+          "name": "GitStatusPrompt",
+          "children": [
+            {
+              "name": "Get-GitStatusPrompt"
+            }
+          ]
+        },
+        {
+          "name": "GitTag",
+          "children": [
+            {
+              "name": "Get-GitTag"
+            },
+            {
+              "name": "New-GitTag"
+            },
+            {
+              "name": "Test-GitTag"
+            }
+          ]
+        },
+        {
+          "name": "GitSignature",
+          "children": [
+            {
+              "name": "New-GitSignature"
+            }
+          ]
+        },
+        {
+          "name": "GitObject",
+          "children": [
+            {
+              "name": "Receive-GitObject"
+            },
+            {
+              "name": "Send-GitObject"
+            }
+          ]
+        },
+        {
+          "name": "GitRebase",
+          "children": [
+            {
+              "name": "Resume-GitRebase"
+            },
+            {
+              "name": "Start-GitRebase"
+            },
+            {
+              "name": "Stop-GitRebase"
+            }
+          ]
+        },
+        {
+          "name": "GitConfiguration",
+          "children": [
+            {
+              "name": "Set-GitConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "GitRemoteUri",
+          "children": [
+            {
+              "name": "Test-GitRemoteUri"
+            }
+          ]
+        },
+        {
+          "name": "GitUncommittedChange",
+          "children": [
+            {
+              "name": "Test-GitUncommittedChange"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSBuildkite",
+      "companyName": "Unknown",
+      "author": "Felix Becker",
+      "children": [
+        {
+          "name": "BuildkiteBuild",
+          "children": [
+            {
+              "name": "Get-BuildkiteBuild"
+            },
+            {
+              "name": "Stop-BuildkiteBuild"
+            },
+            {
+              "name": "Restart-BuildkiteBuild"
+            }
+          ]
+        },
+        {
+          "name": "BuildkiteCruiseControlFeedUrl",
+          "children": [
+            {
+              "name": "Get-BuildkiteCruiseControlFeedUrl"
+            }
+          ]
+        },
+        {
+          "name": "BuildkiteJobLog",
+          "children": [
+            {
+              "name": "Get-BuildkiteJobLog"
+            }
+          ]
+        },
+        {
+          "name": "BuildkiteOrganization",
+          "children": [
+            {
+              "name": "Get-BuildkiteOrganization"
+            }
+          ]
+        },
+        {
+          "name": "BuildkitePipeline",
+          "children": [
+            {
+              "name": "Get-BuildkitePipeline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSCodeCovIo",
+      "companyName": "Unknown",
+      "author": "Felix Becker",
+      "children": [
+        {
+          "name": "CodeCovIoJson",
+          "children": [
+            {
+              "name": "Export-CodeCovIoJson"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDefaults",
+      "companyName": "Unknown",
+      "author": "Felix Becker",
+      "children": [
+        {
+          "name": "DefaultsDomain",
+          "children": [
+            {
+              "name": "Get-DefaultsDomain"
+            },
+            {
+              "name": "Remove-DefaultsDomain"
+            }
+          ]
+        },
+        {
+          "name": "DefaultsValue",
+          "children": [
+            {
+              "name": "Get-DefaultsValue"
+            },
+            {
+              "name": "Set-DefaultsValue"
+            },
+            {
+              "name": "Remove-DefaultsValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSOpen",
+      "companyName": "Unknown",
+      "author": "Felix Becker",
+      "children": [
+        {
+          "name": "Item",
+          "children": [
+            {
+              "name": "Open-Item"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSourcegraph",
+      "companyName": "Sourcegraph",
+      "author": "Felix Becker",
+      "children": [
+        {
+          "name": "Repository",
+          "children": [
+            {
+              "name": "Get-Repository"
+            }
+          ]
+        },
+        {
+          "name": "Hover",
+          "children": [
+            {
+              "name": "Get-Hover"
+            }
+          ]
+        },
+        {
+          "name": "Definition",
+          "children": [
+            {
+              "name": "Get-Definition"
+            }
+          ]
+        },
+        {
+          "name": "Reference",
+          "children": [
+            {
+              "name": "Get-Reference"
+            }
+          ]
+        },
+        {
+          "name": "User",
+          "children": [
+            {
+              "name": "Get-User"
+            },
+            {
+              "name": "New-User"
+            }
+          ]
+        },
+        {
+          "name": "ApiRequest",
+          "children": [
+            {
+              "name": "Invoke-ApiRequest"
+            }
+          ]
+        },
+        {
+          "name": "Search",
+          "children": [
+            {
+              "name": "Search-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSTravis",
+      "companyName": "Unknown",
+      "author": "Felix Becker",
+      "children": [
+        {
+          "name": "TravisEnvironmentVariable",
+          "children": [
+            {
+              "name": "Add-TravisEnvironmentVariable"
+            },
+            {
+              "name": "Get-TravisEnvironmentVariable"
+            },
+            {
+              "name": "Remove-TravisEnvironmentVariable"
+            },
+            {
+              "name": "Update-TravisEnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "TravisRepository",
+          "children": [
+            {
+              "name": "Enable-TravisRepository"
+            },
+            {
+              "name": "Get-TravisRepository"
+            }
+          ]
+        },
+        {
+          "name": "TravisCruiseControlFeedUrl",
+          "children": [
+            {
+              "name": "Get-TravisCruiseControlFeedUrl"
+            }
+          ]
+        },
+        {
+          "name": "TravisUser",
+          "children": [
+            {
+              "name": "Get-TravisUser"
+            }
+          ]
+        },
+        {
+          "name": "TravisRepositorySync",
+          "children": [
+            {
+              "name": "Start-TravisRepositorySync"
+            },
+            {
+              "name": "Wait-TravisRepositorySync"
+            }
+          ]
+        },
+        {
+          "name": "TravisRepositories",
+          "children": [
+            {
+              "name": "Sync-TravisRepositories"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "name": "Lord Hepipud Crited",
+  "children": [
+    {
+      "name": "icinga-powershell-apichecks",
+      "companyName": "Icinga GmbH",
+      "author": "Lord Hepipud Crited",
+      "children": [
+        {
+          "name": "IcingaRESTAPIEndpointAPIChecks",
+          "children": [
+            {
+              "name": "Register-IcingaRESTAPIEndpointAPIChecks"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTApiCommandAliasesApiChecks",
+          "children": [
+            {
+              "name": "Register-IcingaRESTApiCommandAliasesApiChecks"
+            }
+          ]
+        },
+        {
+          "name": "IcingaApiChecksRESTCall",
+          "children": [
+            {
+              "name": "Invoke-IcingaApiChecksRESTCall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "icinga-powershell-inventory",
+      "companyName": "Icinga GmbH",
+      "author": "Lord Hepipud Crited",
+      "children": [
+        {
+          "name": "IcingaRESTAPIEndpointInventory",
+          "children": [
+            {
+              "name": "Register-IcingaRESTAPIEndpointInventory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTApiCommandAliasesInventory",
+          "children": [
+            {
+              "name": "Register-IcingaRESTApiCommandAliasesInventory"
+            }
+          ]
+        },
+        {
+          "name": "IcingaInventoryRESTCall",
+          "children": [
+            {
+              "name": "Invoke-IcingaInventoryRESTCall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "icinga-powershell-restapi",
+      "companyName": "Icinga GmbH",
+      "author": "Lord Hepipud Crited",
+      "children": [
+        {
+          "name": "IcingaEventLogMessagesRESTApi",
+          "children": [
+            {
+              "name": "Register-IcingaEventLogMessagesRESTApi"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTAPIv1Calls",
+          "children": [
+            {
+              "name": "Invoke-IcingaRESTAPIv1Calls"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTClientBlacklistCount",
+          "children": [
+            {
+              "name": "Add-IcingaRESTClientBlacklistCount"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTClientBlacklist",
+          "children": [
+            {
+              "name": "Remove-IcingaRESTClientBlacklist"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTClientBlacklisted",
+          "children": [
+            {
+              "name": "Test-IcingaRESTClientBlacklisted"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTClientConnection",
+          "children": [
+            {
+              "name": "Test-IcingaRESTClientConnection"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsRESTApi",
+          "children": [
+            {
+              "name": "New-IcingaForWindowsRESTApi"
+            }
+          ]
+        },
+        {
+          "name": "IcingaWindowsRESTApi",
+          "children": [
+            {
+              "name": "Start-IcingaWindowsRESTApi"
+            }
+          ]
+        },
+        {
+          "name": "IcingaNextRESTApiThreadId",
+          "children": [
+            {
+              "name": "Get-IcingaNextRESTApiThreadId"
+            }
+          ]
+        },
+        {
+          "name": "IcingaForWindowsRESTThread",
+          "children": [
+            {
+              "name": "New-IcingaForWindowsRESTThread"
+            },
+            {
+              "name": "Start-IcingaForWindowsRESTThread"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTApiCommand",
+          "children": [
+            {
+              "name": "Add-IcingaRESTApiCommand"
+            },
+            {
+              "name": "Remove-IcingaRESTApiCommand"
+            },
+            {
+              "name": "Test-IcingaRESTApiCommand"
+            }
+          ]
+        },
+        {
+          "name": "IcingaRESTApiCommands",
+          "children": [
+            {
+              "name": "Show-IcingaRESTApiCommands"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

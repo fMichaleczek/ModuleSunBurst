@@ -1,0 +1,64 @@
+{
+  "name": "Promptus Software LLC",
+  "children": [
+    {
+      "name": "BigFix",
+      "companyName": "Promptus Software LLC",
+      "author": "Michael Bell",
+      "children": [
+        {
+          "name": "QnaSession",
+          "children": [
+            {
+              "name": "Get-QnaSession"
+            },
+            {
+              "name": "New-QnaSession"
+            }
+          ]
+        },
+        {
+          "name": "WebReportsServer",
+          "children": [
+            {
+              "name": "Get-WebReportsServer"
+            },
+            {
+              "name": "New-WebReportsServer"
+            },
+            {
+              "name": "Set-WebReportsServer"
+            }
+          ]
+        },
+        {
+          "name": "WebReportsSession",
+          "children": [
+            {
+              "name": "Get-WebReportsSession"
+            },
+            {
+              "name": "New-WebReportsSession"
+            }
+          ]
+        },
+        {
+          "name": "EvaluateClientRelevance",
+          "children": [
+            {
+              "name": "Invoke-EvaluateClientRelevance"
+            }
+          ]
+        },
+        {
+          "name": "EvaluateSessionRelevance",
+          "children": [
+            {
+              "name": "Invoke-EvaluateSessionRelevance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

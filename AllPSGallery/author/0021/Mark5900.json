@@ -1,0 +1,1753 @@
+{
+  "name": "Mark5900",
+  "children": [
+    {
+      "name": "Capa.PowerShell.Module.PowerPack",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "PpDll",
+          "children": [
+            {
+              "name": "Add-PpDll"
+            }
+          ]
+        },
+        {
+          "name": "PSDownloadPackage",
+          "children": [
+            {
+              "name": "Start-PSDownloadPackage"
+            }
+          ]
+        },
+        {
+          "name": "RunAsLoggedOnUser",
+          "children": [
+            {
+              "name": "Invoke-RunAsLoggedOnUser"
+            }
+          ]
+        },
+        {
+          "name": "PpVariables",
+          "children": [
+            {
+              "name": "Initialize-PpVariables"
+            }
+          ]
+        },
+        {
+          "name": "Powerpack",
+          "children": [
+            {
+              "name": "Register-Powerpack"
+            },
+            {
+              "name": "Unregister-Powerpack"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.PowerPack.CMS",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "PpCMSComputerToCalendarGroup",
+          "children": [
+            {
+              "name": "Add-PpCMSComputerToCalendarGroup"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSComputerToDepartmentGroup",
+          "children": [
+            {
+              "name": "Add-PpCMSComputerToDepartmentGroup"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSComputerToPowerSchemeGroup",
+          "children": [
+            {
+              "name": "Add-PpCMSComputerToPowerSchemeGroup"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSComputerToReinstallGroup",
+          "children": [
+            {
+              "name": "Add-PpCMSComputerToReinstallGroup"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSComputerToStaticGroup",
+          "children": [
+            {
+              "name": "Add-PpCMSComputerToStaticGroup"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSCustomInventory",
+          "children": [
+            {
+              "name": "Add-PpCMSCustomInventory"
+            },
+            {
+              "name": "Remove-PpCMSCustomInventory"
+            },
+            {
+              "name": "Reset-PpCMSCustomInventory"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSHardwareInventory",
+          "children": [
+            {
+              "name": "Add-PpCMSHardwareInventory"
+            },
+            {
+              "name": "Remove-PpCMSHardwareInventory"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSPackageToUnit",
+          "children": [
+            {
+              "name": "Add-PpCMSPackageToUnit"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSUnitToBusinessUnit",
+          "children": [
+            {
+              "name": "Add-PpCMSUnitToBusinessUnit"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSAdvertisedPackages",
+          "children": [
+            {
+              "name": "Get-PpCMSAdvertisedPackages"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSDeploymentTemplateVariable",
+          "children": [
+            {
+              "name": "Get-PpCMSDeploymentTemplateVariable"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSGroupMembership",
+          "children": [
+            {
+              "name": "Get-PpCMSGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSIsPackageLinked",
+          "children": [
+            {
+              "name": "Get-PpCMSIsPackageLinked"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSIsPackageScheduleEnabled",
+          "children": [
+            {
+              "name": "Get-PpCMSIsPackageScheduleEnabled"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSPackage",
+          "children": [
+            {
+              "name": "Get-PpCMSPackage"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSPackageStatus",
+          "children": [
+            {
+              "name": "Get-PpCMSPackageStatus"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSProperty",
+          "children": [
+            {
+              "name": "Get-PpCMSProperty"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSRerunPackage",
+          "children": [
+            {
+              "name": "Initialize-PpCMSRerunPackage"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSAdvertisedPackage",
+          "children": [
+            {
+              "name": "Install-PpCMSAdvertisedPackage"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSRunSystemAgent",
+          "children": [
+            {
+              "name": "Invoke-PpCMSRunSystemAgent"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSRunUserAgent",
+          "children": [
+            {
+              "name": "Invoke-PpCMSRunUserAgent"
+            }
+          ]
+        },
+        {
+          "name": "PpJobRetryLater",
+          "children": [
+            {
+              "name": "Invoke-PpJobRetryLater"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSComputerFromCalendarGroup",
+          "children": [
+            {
+              "name": "Remove-PpCMSComputerFromCalendarGroup"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSComputerFromDepartmentGroup",
+          "children": [
+            {
+              "name": "Remove-PpCMSComputerFromDepartmentGroup"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSComputerFromPowerSchemeGroup",
+          "children": [
+            {
+              "name": "Remove-PpCMSComputerFromPowerSchemeGroup"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSComputerFromReinstallGroup",
+          "children": [
+            {
+              "name": "Remove-PpCMSComputerFromReinstallGroup"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSComputerFromStaticGroup",
+          "children": [
+            {
+              "name": "Remove-PpCMSComputerFromStaticGroup"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSPackageFromUnit",
+          "children": [
+            {
+              "name": "Remove-PpCMSPackageFromUnit"
+            },
+            {
+              "name": "Uninstall-PpCMSPackageFromUnit"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSCurrentUser",
+          "children": [
+            {
+              "name": "Set-PpCMSCurrentUser"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSPackageStatusToInstalled",
+          "children": [
+            {
+              "name": "Set-PpCMSPackageStatusToInstalled"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSPackageStatusToNotCompliant",
+          "children": [
+            {
+              "name": "Set-PpCMSPackageStatusToNotCompliant"
+            }
+          ]
+        },
+        {
+          "name": "PpCMSExistPackageOnManagementServer",
+          "children": [
+            {
+              "name": "Test-PpCMSExistPackageOnManagementServer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.PowerPack.Exit",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "PpRetryLater",
+          "children": [
+            {
+              "name": "Exit-PpRetryLater"
+            }
+          ]
+        },
+        {
+          "name": "Exit",
+          "children": [
+            {
+              "name": "Exit"
+            }
+          ]
+        },
+        {
+          "name": "PpRebootRequested",
+          "children": [
+            {
+              "name": "Exit-PpRebootRequested"
+            }
+          ]
+        },
+        {
+          "name": "PpMissingDiskSpace",
+          "children": [
+            {
+              "name": "Exit-PpMissingDiskSpace"
+            }
+          ]
+        },
+        {
+          "name": "PpCommandSucceded",
+          "children": [
+            {
+              "name": "Exit-PpCommandSucceded"
+            }
+          ]
+        },
+        {
+          "name": "PpModuleNotFound",
+          "children": [
+            {
+              "name": "Exit-PpModuleNotFound"
+            }
+          ]
+        },
+        {
+          "name": "PpCommandObsolete",
+          "children": [
+            {
+              "name": "Exit-PpCommandObsolete"
+            }
+          ]
+        },
+        {
+          "name": "PpCommandNotDelivered",
+          "children": [
+            {
+              "name": "Exit-PpCommandNotDelivered"
+            }
+          ]
+        },
+        {
+          "name": "PpCommandTimedOut",
+          "children": [
+            {
+              "name": "Exit-PpCommandTimedOut"
+            }
+          ]
+        },
+        {
+          "name": "PpCommandFailed",
+          "children": [
+            {
+              "name": "Exit-PpCommandFailed"
+            }
+          ]
+        },
+        {
+          "name": "PpApplicationAlreadyInstalled",
+          "children": [
+            {
+              "name": "Exit-PpApplicationAlreadyInstalled"
+            }
+          ]
+        },
+        {
+          "name": "PpCommandNotRecognized",
+          "children": [
+            {
+              "name": "Exit-PpCommandNotRecognized"
+            }
+          ]
+        },
+        {
+          "name": "PpPowerShellExecutionFailed",
+          "children": [
+            {
+              "name": "Exit-PpPowerShellExecutionFailed"
+            }
+          ]
+        },
+        {
+          "name": "PpPackageNotCompliant",
+          "children": [
+            {
+              "name": "Exit-PpPackageNotCompliant"
+            }
+          ]
+        },
+        {
+          "name": "PpPackageCancelled",
+          "children": [
+            {
+              "name": "Exit-PpPackageCancelled"
+            }
+          ]
+        },
+        {
+          "name": "PpPackageFailedInstall",
+          "children": [
+            {
+              "name": "Exit-PpPackageFailedInstall"
+            }
+          ]
+        },
+        {
+          "name": "PpPackageFailedUninstall",
+          "children": [
+            {
+              "name": "Exit-PpPackageFailedUninstall"
+            }
+          ]
+        },
+        {
+          "name": "PpScript",
+          "children": [
+            {
+              "name": "Exit-PpScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.PowerPack.File",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "File"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.PowerPack.Shell",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "Shell",
+          "children": [
+            {
+              "name": "Shell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.PowerPack.Sys",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "PpMessageBox",
+          "children": [
+            {
+              "name": "Show-PpMessageBox"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.PowerPack.UsrMgr",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "UsrMgr",
+          "children": [
+            {
+              "name": "UsrMgr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.PowerPack.Winget",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "PpWingetScopeMachine",
+          "children": [
+            {
+              "name": "Add-PpWingetScopeMachine"
+            }
+          ]
+        },
+        {
+          "name": "PpWingetAppInstall",
+          "children": [
+            {
+              "name": "Confirm-PpWingetAppInstall"
+            }
+          ]
+        },
+        {
+          "name": "PpWinGet",
+          "children": [
+            {
+              "name": "Find-PpWinGet"
+            }
+          ]
+        },
+        {
+          "name": "PpWingetReturnCodeDescription",
+          "children": [
+            {
+              "name": "Get-PpWingetReturnCodeDescription"
+            }
+          ]
+        },
+        {
+          "name": "PpWingetApp",
+          "children": [
+            {
+              "name": "Install-PpWingetApp"
+            },
+            {
+              "name": "Uninstall-PpWingetApp"
+            },
+            {
+              "name": "Update-PpWingetApp"
+            }
+          ]
+        },
+        {
+          "name": "PpWingetPrerequisites",
+          "children": [
+            {
+              "name": "Install-PpWingetPrerequisites"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.Authentication",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaSDK",
+          "children": [
+            {
+              "name": "Initialize-CapaSDK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.Container",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaDllVersion",
+          "children": [
+            {
+              "name": "Get-CapaDllVersion"
+            }
+          ]
+        },
+        {
+          "name": "CapaSchedule",
+          "children": [
+            {
+              "name": "Get-CapaSchedule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.Group",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaGroup",
+          "children": [
+            {
+              "name": "Create-CapaGroup"
+            },
+            {
+              "name": "Remove-CapaGroup"
+            }
+          ]
+        },
+        {
+          "name": "CapaGroupDescription",
+          "children": [
+            {
+              "name": "Get-CapaGroupDescription"
+            },
+            {
+              "name": "Set-CapaGroupDescription"
+            }
+          ]
+        },
+        {
+          "name": "CapaGroupFolder",
+          "children": [
+            {
+              "name": "Get-CapaGroupFolder"
+            },
+            {
+              "name": "Set-CapaGroupFolder"
+            }
+          ]
+        },
+        {
+          "name": "CapaGroupPackages",
+          "children": [
+            {
+              "name": "Get-CapaGroupPackages"
+            }
+          ]
+        },
+        {
+          "name": "CapaGroupPrinters",
+          "children": [
+            {
+              "name": "Get-CapaGroupPrinters"
+            }
+          ]
+        },
+        {
+          "name": "CapaGroups",
+          "children": [
+            {
+              "name": "Get-CapaGroups"
+            }
+          ]
+        },
+        {
+          "name": "CapaGroupUnits",
+          "children": [
+            {
+              "name": "Get-CapaGroupUnits"
+            }
+          ]
+        },
+        {
+          "name": "CapaApplicationGroups",
+          "children": [
+            {
+              "name": "Get-CapaApplicationGroups"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.Inventory",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaCustomInventoryForUnit",
+          "children": [
+            {
+              "name": "Get-CapaCustomInventoryForUnit"
+            }
+          ]
+        },
+        {
+          "name": "CapaHardwareInventoryForUnit",
+          "children": [
+            {
+              "name": "Get-CapaHardwareInventoryForUnit"
+            }
+          ]
+        },
+        {
+          "name": "CapaLogonHistoryForUnit",
+          "children": [
+            {
+              "name": "Get-CapaLogonHistoryForUnit"
+            }
+          ]
+        },
+        {
+          "name": "CapaMeteringGroups",
+          "children": [
+            {
+              "name": "Get-CapaMeteringGroups"
+            }
+          ]
+        },
+        {
+          "name": "CapaSoftwareInventoryForUnit",
+          "children": [
+            {
+              "name": "Get-CapaSoftwareInventoryForUnit"
+            }
+          ]
+        },
+        {
+          "name": "CapaUpdateInventoryForUnit",
+          "children": [
+            {
+              "name": "Get-CapaUpdateInventoryForUnit"
+            }
+          ]
+        },
+        {
+          "name": "CapaUserInventory",
+          "children": [
+            {
+              "name": "Get-CapaUserInventory"
+            }
+          ]
+        },
+        {
+          "name": "CapaCustomInventoryCategoriesAndEntries",
+          "children": [
+            {
+              "name": "Get-CapaCustomInventoryCategoriesAndEntries"
+            }
+          ]
+        },
+        {
+          "name": "CapaCustomInventory",
+          "children": [
+            {
+              "name": "Set-CapaCustomInventory"
+            }
+          ]
+        },
+        {
+          "name": "CapaHardwareInventory",
+          "children": [
+            {
+              "name": "Set-CapaHardwareInventory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.MDM",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaUnitToProfile",
+          "children": [
+            {
+              "name": "Add-CapaUnitToProfile"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitFromProfile",
+          "children": [
+            {
+              "name": "Unlink-CapaUnitFromProfile"
+            }
+          ]
+        },
+        {
+          "name": "CapaProfileFromDevice",
+          "children": [
+            {
+              "name": "Remove-CapaProfileFromDevice"
+            }
+          ]
+        },
+        {
+          "name": "CapaExchangePayloadToProfile",
+          "children": [
+            {
+              "name": "Add-CapaExchangePayloadToProfile"
+            }
+          ]
+        },
+        {
+          "name": "CapaWifiPayloadToProfile",
+          "children": [
+            {
+              "name": "Add-CapaWifiPayloadToProfile"
+            }
+          ]
+        },
+        {
+          "name": "CapaEnforcePasscodeAndroid",
+          "children": [
+            {
+              "name": "Add-CapaEnforcePasscodeAndroid"
+            }
+          ]
+        },
+        {
+          "name": "CapaKeyValueToAppConfigAndroid",
+          "children": [
+            {
+              "name": "Add-CapaKeyValueToAppConfigAndroid"
+            }
+          ]
+        },
+        {
+          "name": "CapaKeyValueToAppConfigIOS",
+          "children": [
+            {
+              "name": "Add-CapaKeyValueToAppConfigIOS"
+            }
+          ]
+        },
+        {
+          "name": "CapaProfileToBusinessUnit",
+          "children": [
+            {
+              "name": "Assign-CapaProfileToBusinessUnit"
+            }
+          ]
+        },
+        {
+          "name": "CapaDeviceApplication",
+          "children": [
+            {
+              "name": "Clone-CapaDeviceApplication"
+            }
+          ]
+        },
+        {
+          "name": "CapaProfile",
+          "children": [
+            {
+              "name": "Create-CapaProfile"
+            }
+          ]
+        },
+        {
+          "name": "CapaExchangePayload",
+          "children": [
+            {
+              "name": "Edit-CapaExchangePayload"
+            }
+          ]
+        },
+        {
+          "name": "CapaWifiPayload",
+          "children": [
+            {
+              "name": "Edit-CapaWifiPayload"
+            }
+          ]
+        },
+        {
+          "name": "CapaDeviceApplications",
+          "children": [
+            {
+              "name": "Get-CapaDeviceApplications"
+            }
+          ]
+        },
+        {
+          "name": "CapaProfiles",
+          "children": [
+            {
+              "name": "Get-CapaProfiles"
+            }
+          ]
+        },
+        {
+          "name": "CapaProfileToGroup",
+          "children": [
+            {
+              "name": "Link-CapaProfileToGroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.OSDeployment",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaOSDiskConfigration",
+          "children": [
+            {
+              "name": "Get-CapaOSDiskConfigration"
+            }
+          ]
+        },
+        {
+          "name": "CapaOSImages",
+          "children": [
+            {
+              "name": "Get-CapaOSImages"
+            }
+          ]
+        },
+        {
+          "name": "CapaOSInstallationTypes",
+          "children": [
+            {
+              "name": "Get-CapaOSInstallationTypes"
+            }
+          ]
+        },
+        {
+          "name": "CapaOSPoints",
+          "children": [
+            {
+              "name": "Get-CapaOSPoints"
+            }
+          ]
+        },
+        {
+          "name": "CapaOSServers",
+          "children": [
+            {
+              "name": "Get-CapaOSServers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.Package",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaPackageToBusinessUnit",
+          "children": [
+            {
+              "name": "Add-CapaPackageToBusinessUnit"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageToGroup",
+          "children": [
+            {
+              "name": "Add-CapaPackageToGroup"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageToManagementServer",
+          "children": [
+            {
+              "name": "Add-CapaPackageToManagementServer"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackage",
+          "children": [
+            {
+              "name": "Clone-CapaPackage"
+            },
+            {
+              "name": "Copy-CapaPackage"
+            },
+            {
+              "name": "New-CapaPackage"
+            },
+            {
+              "name": "Exist-CapaPackage"
+            },
+            {
+              "name": "Export-CapaPackage"
+            },
+            {
+              "name": "Import-CapaPackage"
+            },
+            {
+              "name": "Remove-CapaPackage"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageRelation",
+          "children": [
+            {
+              "name": "Copy-CapaPackageRelation"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageSchedule",
+          "children": [
+            {
+              "name": "Disable-CapaPackageSchedule"
+            },
+            {
+              "name": "Enable-CapaPackageSchedule"
+            },
+            {
+              "name": "Set-CapaPackageSchedule"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageDescription",
+          "children": [
+            {
+              "name": "Get-CapaPackageDescription"
+            },
+            {
+              "name": "Set-CapaPackageDescription"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageFolder",
+          "children": [
+            {
+              "name": "Get-CapaPackageFolder"
+            },
+            {
+              "name": "Set-CapaPackageFolder"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageGroups",
+          "children": [
+            {
+              "name": "Get-CapaPackageGroups"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackages",
+          "children": [
+            {
+              "name": "Get-CapaPackages"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackagesOnManagementServer",
+          "children": [
+            {
+              "name": "Get-CapaPackagesOnManagementServer"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageStatus",
+          "children": [
+            {
+              "name": "Get-CapaPackageStatus"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageUnits",
+          "children": [
+            {
+              "name": "Get-CapaPackageUnits"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackagePromote",
+          "children": [
+            {
+              "name": "Initialize-CapaPackagePromote"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageFromGroup",
+          "children": [
+            {
+              "name": "Remove-CapaPackageFromGroup"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageFromManagementServer",
+          "children": [
+            {
+              "name": "Remove-CapaPackageFromManagementServer"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackagePriority",
+          "children": [
+            {
+              "name": "Set-CapaPackagePriority"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageNow",
+          "children": [
+            {
+              "name": "Update-CapaPackageNow"
+            }
+          ]
+        },
+        {
+          "name": "CapaAllInventoryPackages",
+          "children": [
+            {
+              "name": "Get-CapaAllInventoryPackages"
+            }
+          ]
+        },
+        {
+          "name": "CapatAllNoneInventoryPackages",
+          "children": [
+            {
+              "name": "Get-CapatAllNoneInventoryPackages"
+            }
+          ]
+        },
+        {
+          "name": "CapaPowerPack",
+          "children": [
+            {
+              "name": "New-CapaPowerPack"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageScriptAndKit",
+          "children": [
+            {
+              "name": "Update-CapaPackageScriptAndKit"
+            }
+          ]
+        },
+        {
+          "name": "CapaPackageWithGit",
+          "children": [
+            {
+              "name": "New-CapaPackageWithGit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.SystemSdk",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaConscomActions",
+          "children": [
+            {
+              "name": "Count-CapaConscomActions"
+            }
+          ]
+        },
+        {
+          "name": "CapaBusinessUnits",
+          "children": [
+            {
+              "name": "Get-CapaBusinessUnits"
+            }
+          ]
+        },
+        {
+          "name": "CapaExternalTools",
+          "children": [
+            {
+              "name": "Get-CapaExternalTools"
+            }
+          ]
+        },
+        {
+          "name": "CapaManagementPoint",
+          "children": [
+            {
+              "name": "Get-CapaManagementPoint"
+            }
+          ]
+        },
+        {
+          "name": "CapaManagementServers",
+          "children": [
+            {
+              "name": "Get-CapaManagementServers"
+            }
+          ]
+        },
+        {
+          "name": "CapaKitFileOnPoint",
+          "children": [
+            {
+              "name": "Rebuild-CapaKitFileOnPoint"
+            }
+          ]
+        },
+        {
+          "name": "CapaKitFileOnManagementServer",
+          "children": [
+            {
+              "name": "Rebuild-CapaKitFileOnManagementServer"
+            }
+          ]
+        },
+        {
+          "name": "CapaLastRunDateOnGlobalTask",
+          "children": [
+            {
+              "name": "Reset-CapaLastRunDateOnGlobalTask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.Unit",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaUnitToBusinessUnit",
+          "children": [
+            {
+              "name": "Add-CapaUnitToBusinessUnit"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitToCalendarGroup",
+          "children": [
+            {
+              "name": "Add-CapaUnitToCalendarGroup"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitToFolder",
+          "children": [
+            {
+              "name": "Add-CapaUnitToFolder"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitToGroup",
+          "children": [
+            {
+              "name": "Add-CapaUnitToGroup"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitToPackage",
+          "children": [
+            {
+              "name": "Add-CapaUnitToPackage"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitToReinstall",
+          "children": [
+            {
+              "name": "Add-CapaUnitToReinstall"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnit",
+          "children": [
+            {
+              "name": "Create-CapaUnit"
+            },
+            {
+              "name": "Delete-CapaUnit"
+            },
+            {
+              "name": "Exist-CapaUnit"
+            },
+            {
+              "name": "Rename-CapaUnit"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitLocation",
+          "children": [
+            {
+              "name": "Exist-CapaUnitLocation"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitOnManagementPoint",
+          "children": [
+            {
+              "name": "Exist-CapaUnitOnManagementPoint"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitDescription",
+          "children": [
+            {
+              "name": "Get-CapaUnitDescription"
+            },
+            {
+              "name": "Set-CapaUnitDescription"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitFolder",
+          "children": [
+            {
+              "name": "Get-CapaUnitFolder"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitGroups",
+          "children": [
+            {
+              "name": "Get-CapaUnitGroups"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitLastRuntime",
+          "children": [
+            {
+              "name": "Get-CapaUnitLastRuntime"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitLinkedUnits",
+          "children": [
+            {
+              "name": "Get-CapaUnitLinkedUnits"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitLinkedUser",
+          "children": [
+            {
+              "name": "Get-CapaUnitLinkedUser"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitManagementPoint",
+          "children": [
+            {
+              "name": "Get-CapaUnitManagementPoint"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitManagementServerRelation",
+          "children": [
+            {
+              "name": "Get-CapaUnitManagementServerRelation"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitPackages",
+          "children": [
+            {
+              "name": "Get-CapaUnitPackages"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitPackageStatus",
+          "children": [
+            {
+              "name": "Get-CapaUnitPackageStatus"
+            },
+            {
+              "name": "Set-CapaUnitPackageStatus"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitRelations",
+          "children": [
+            {
+              "name": "Get-CapaUnitRelations"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnits",
+          "children": [
+            {
+              "name": "Get-CapaUnits"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitsInFolder",
+          "children": [
+            {
+              "name": "Get-CapaUnitsInFolder"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitWSUSGroup",
+          "children": [
+            {
+              "name": "Get-CapaUnitWSUSGroup"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitByUUID",
+          "children": [
+            {
+              "name": "Remove-CapaUnitByUUID"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitFromBusinessUnit",
+          "children": [
+            {
+              "name": "Remove-CapaUnitFromBusinessUnit"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitFromCalendarGroup",
+          "children": [
+            {
+              "name": "Remove-CapaUnitFromCalendarGroup"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitFromGroup",
+          "children": [
+            {
+              "name": "Remove-CapaUnitFromGroup"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitFromPackage",
+          "children": [
+            {
+              "name": "Remove-CapaUnitFromPackage"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitFromReinstall",
+          "children": [
+            {
+              "name": "Remove-CapaUnitFromReinstall"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitCommand",
+          "children": [
+            {
+              "name": "Send-CapaUnitCommand"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitLabel",
+          "children": [
+            {
+              "name": "Set-CapaUnitLabel"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitName",
+          "children": [
+            {
+              "name": "Set-CapaUnitName"
+            }
+          ]
+        },
+        {
+          "name": "CapaUnitStatus",
+          "children": [
+            {
+              "name": "Set-CapaUnitStatus"
+            }
+          ]
+        },
+        {
+          "name": "CapaPrinterToUnit",
+          "children": [
+            {
+              "name": "Add-CapaPrinterToUnit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.User",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaUsers",
+          "children": [
+            {
+              "name": "Get-CapaUsers"
+            }
+          ]
+        },
+        {
+          "name": "CapaPrimaryUser",
+          "children": [
+            {
+              "name": "Clear-CapaPrimaryUser"
+            },
+            {
+              "name": "Set-CapaPrimaryUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.Utilities",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaADGroup",
+          "children": [
+            {
+              "name": "Create-CapaADGroup"
+            }
+          ]
+        },
+        {
+          "name": "CapaLog",
+          "children": [
+            {
+              "name": "Get-CapaLog"
+            }
+          ]
+        },
+        {
+          "name": "CapaReinstallStatus",
+          "children": [
+            {
+              "name": "Get-CapaReinstallStatus"
+            }
+          ]
+        },
+        {
+          "name": "CapaDeviceToPoint",
+          "children": [
+            {
+              "name": "Move-CapaDeviceToPoint"
+            }
+          ]
+        },
+        {
+          "name": "CapaAgent",
+          "children": [
+            {
+              "name": "Restart-CapaAgent"
+            }
+          ]
+        },
+        {
+          "name": "CapaWakeOnLAN",
+          "children": [
+            {
+              "name": "Set-CapaWakeOnLAN"
+            }
+          ]
+        },
+        {
+          "name": "ScriptLogging",
+          "children": [
+            {
+              "name": "Start-ScriptLogging"
+            },
+            {
+              "name": "Stop-ScriptLogging"
+            }
+          ]
+        },
+        {
+          "name": "LogLine",
+          "children": [
+            {
+              "name": "Write-LogLine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.VPP",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaUnitToVppProgram",
+          "children": [
+            {
+              "name": "Invite-CapaUnitToVppProgram"
+            }
+          ]
+        },
+        {
+          "name": "CapaVppUsers",
+          "children": [
+            {
+              "name": "Get-CapaVppUsers"
+            }
+          ]
+        },
+        {
+          "name": "CapaVppPrograms",
+          "children": [
+            {
+              "name": "Get-CapaVppPrograms"
+            }
+          ]
+        },
+        {
+          "name": "CapaDevicesLinkedToVppUser",
+          "children": [
+            {
+              "name": "Get-CapaDevicesLinkedToVppUser"
+            }
+          ]
+        },
+        {
+          "name": "CapaUsersLinkedToVppUser",
+          "children": [
+            {
+              "name": "Get-CapaUsersLinkedToVppUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capa.PowerShell.Module.SDK.WSUS",
+      "companyName": "Unknown",
+      "author": "Mark5900",
+      "children": [
+        {
+          "name": "CapaWSUSGroups",
+          "children": [
+            {
+              "name": "Get-CapaWSUSGroups"
+            }
+          ]
+        },
+        {
+          "name": "CapaWSUSPoints",
+          "children": [
+            {
+              "name": "Get-CapaWSUSPoints"
+            }
+          ]
+        },
+        {
+          "name": "CapaWSUSGroupUnits",
+          "children": [
+            {
+              "name": "Get-CapaWSUSGroupUnits"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

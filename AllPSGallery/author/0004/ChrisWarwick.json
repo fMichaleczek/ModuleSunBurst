@@ -1,0 +1,68 @@
+{
+  "name": "ChrisWarwick",
+  "children": [
+    {
+      "name": "ExifDateTime",
+      "companyName": "Nuney.com",
+      "author": "ChrisWarwick",
+      "children": [
+        {
+          "name": "ExifDateTaken",
+          "children": [
+            {
+              "name": "Get-ExifDateTaken"
+            },
+            {
+              "name": "Update-ExifDateTaken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Get-Quote",
+      "companyName": "Nuney.com",
+      "author": "ChrisWarwick",
+      "children": [
+        {
+          "name": "Quote",
+          "children": [
+            {
+              "name": "Get-Quote"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GetFirmwareBIOSorUEFI",
+      "companyName": "Nuney.com",
+      "author": "ChrisWarwick",
+      "children": [
+        {
+          "name": "FirmwareType",
+          "children": [
+            {
+              "name": "Get-FirmwareType"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WakeOnLan",
+      "companyName": "Nuney.com",
+      "author": "ChrisWarwick",
+      "children": [
+        {
+          "name": "WakeOnLan",
+          "children": [
+            {
+              "name": "Invoke-WakeOnLan"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

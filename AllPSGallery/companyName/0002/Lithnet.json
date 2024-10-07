@@ -1,0 +1,391 @@
+{
+  "name": "Lithnet",
+  "children": [
+    {
+      "name": "LithnetMIISAutomation",
+      "companyName": "Lithnet",
+      "author": "Ryan Newington",
+      "children": [
+        {
+          "name": "PendingImports",
+          "children": [
+            {
+              "name": "Get-PendingImports"
+            }
+          ]
+        },
+        {
+          "name": "SavedRunHistory",
+          "children": [
+            {
+              "name": "Get-SavedRunHistory"
+            }
+          ]
+        },
+        {
+          "name": "RunHistory",
+          "children": [
+            {
+              "name": "Save-RunHistory"
+            },
+            {
+              "name": "Clear-RunHistory"
+            }
+          ]
+        },
+        {
+          "name": "Connectors",
+          "children": [
+            {
+              "name": "Get-Connectors"
+            }
+          ]
+        },
+        {
+          "name": "MVConfiguration",
+          "children": [
+            {
+              "name": "Get-MVConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "MVSchema",
+          "children": [
+            {
+              "name": "Get-MVSchema"
+            }
+          ]
+        },
+        {
+          "name": "MVObject",
+          "children": [
+            {
+              "name": "Get-MVObject"
+            },
+            {
+              "name": "New-MVObject"
+            }
+          ]
+        },
+        {
+          "name": "PendingImportDeletes",
+          "children": [
+            {
+              "name": "Get-PendingImportDeletes"
+            }
+          ]
+        },
+        {
+          "name": "PendingImportUpdates",
+          "children": [
+            {
+              "name": "Get-PendingImportUpdates"
+            }
+          ]
+        },
+        {
+          "name": "PendingImportAdds",
+          "children": [
+            {
+              "name": "Get-PendingImportAdds"
+            }
+          ]
+        },
+        {
+          "name": "PendingExports",
+          "children": [
+            {
+              "name": "Get-PendingExports"
+            }
+          ]
+        },
+        {
+          "name": "PendingExportRenames",
+          "children": [
+            {
+              "name": "Get-PendingExportRenames"
+            }
+          ]
+        },
+        {
+          "name": "PendingExportDeletes",
+          "children": [
+            {
+              "name": "Get-PendingExportDeletes"
+            }
+          ]
+        },
+        {
+          "name": "PendingExportUpdates",
+          "children": [
+            {
+              "name": "Get-PendingExportUpdates"
+            }
+          ]
+        },
+        {
+          "name": "PendingExportAdds",
+          "children": [
+            {
+              "name": "Get-PendingExportAdds"
+            }
+          ]
+        },
+        {
+          "name": "CSObject",
+          "children": [
+            {
+              "name": "Disconnect-CSObject"
+            },
+            {
+              "name": "Join-CSObject"
+            },
+            {
+              "name": "Sync-CSObject"
+            },
+            {
+              "name": "Get-CSObject"
+            }
+          ]
+        },
+        {
+          "name": "LastRunDetails",
+          "children": [
+            {
+              "name": "Get-LastRunDetails"
+            }
+          ]
+        },
+        {
+          "name": "RunDetail",
+          "children": [
+            {
+              "name": "Get-RunDetail"
+            }
+          ]
+        },
+        {
+          "name": "MVQuery",
+          "children": [
+            {
+              "name": "New-MVQuery"
+            }
+          ]
+        },
+        {
+          "name": "DisconnectorState",
+          "children": [
+            {
+              "name": "Set-DisconnectorState"
+            }
+          ]
+        },
+        {
+          "name": "Disconnectors",
+          "children": [
+            {
+              "name": "Get-Disconnectors"
+            }
+          ]
+        },
+        {
+          "name": "FullSyncWarning",
+          "children": [
+            {
+              "name": "Clear-FullSyncWarning"
+            }
+          ]
+        },
+        {
+          "name": "ManagementAgent",
+          "children": [
+            {
+              "name": "Wait-ManagementAgent"
+            },
+            {
+              "name": "Export-ManagementAgent"
+            },
+            {
+              "name": "Stop-ManagementAgent"
+            },
+            {
+              "name": "Start-ManagementAgent"
+            },
+            {
+              "name": "Get-ManagementAgent"
+            }
+          ]
+        },
+        {
+          "name": "MetaverseConfiguration",
+          "children": [
+            {
+              "name": "Export-MetaverseConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "RunSummary",
+          "children": [
+            {
+              "name": "Get-RunSummary"
+            }
+          ]
+        },
+        {
+          "name": "MVProvisioningRulesExtension",
+          "children": [
+            {
+              "name": "Set-MVProvisioningRulesExtension"
+            }
+          ]
+        },
+        {
+          "name": "RunProfiles",
+          "children": [
+            {
+              "name": "Get-RunProfiles"
+            }
+          ]
+        },
+        {
+          "name": "RunProfileNames",
+          "children": [
+            {
+              "name": "Get-RunProfileNames"
+            }
+          ]
+        },
+        {
+          "name": "MAStatistics",
+          "children": [
+            {
+              "name": "Get-MAStatistics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LithnetRMA",
+      "companyName": "Lithnet",
+      "author": "Ryan Newington",
+      "children": [
+        {
+          "name": "PendingApprovalRequest",
+          "children": [
+            {
+              "name": "Set-PendingApprovalRequest"
+            }
+          ]
+        },
+        {
+          "name": "ApprovalRequest",
+          "children": [
+            {
+              "name": "Get-ApprovalRequest"
+            }
+          ]
+        },
+        {
+          "name": "RMConfig",
+          "children": [
+            {
+              "name": "Import-RMConfig"
+            }
+          ]
+        },
+        {
+          "name": "XPathExpression",
+          "children": [
+            {
+              "name": "New-XPathExpression"
+            }
+          ]
+        },
+        {
+          "name": "XPathQueryGroup",
+          "children": [
+            {
+              "name": "New-XPathQueryGroup"
+            }
+          ]
+        },
+        {
+          "name": "XPathQuery",
+          "children": [
+            {
+              "name": "New-XPathQuery"
+            }
+          ]
+        },
+        {
+          "name": "ResourceUpdateTemplate",
+          "children": [
+            {
+              "name": "New-ResourceUpdateTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ResourceCount",
+          "children": [
+            {
+              "name": "Get-ResourceCount"
+            }
+          ]
+        },
+        {
+          "name": "ResourcesPaged",
+          "children": [
+            {
+              "name": "Search-ResourcesPaged"
+            }
+          ]
+        },
+        {
+          "name": "ResourceManagementClientSchema",
+          "children": [
+            {
+              "name": "Update-ResourceManagementClientSchema"
+            }
+          ]
+        },
+        {
+          "name": "Resource",
+          "children": [
+            {
+              "name": "Remove-Resource"
+            },
+            {
+              "name": "New-Resource"
+            },
+            {
+              "name": "Save-Resource"
+            },
+            {
+              "name": "Get-Resource"
+            }
+          ]
+        },
+        {
+          "name": "Resources",
+          "children": [
+            {
+              "name": "Search-Resources"
+            }
+          ]
+        },
+        {
+          "name": "ResourceManagementClient",
+          "children": [
+            {
+              "name": "Set-ResourceManagementClient"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

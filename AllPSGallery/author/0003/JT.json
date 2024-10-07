@@ -1,0 +1,990 @@
+{
+  "name": "JT",
+  "children": [
+    {
+      "name": "HyperVTools",
+      "companyName": "JT",
+      "author": "JT",
+      "children": [
+        {
+          "name": "VM",
+          "children": [
+            {
+              "name": "Backup-VM"
+            }
+          ]
+        },
+        {
+          "name": "VmSession",
+          "children": [
+            {
+              "name": "Connect-VmSession"
+            }
+          ]
+        },
+        {
+          "name": "AllVmDvds",
+          "children": [
+            {
+              "name": "Dismount-AllVmDvds"
+            }
+          ]
+        },
+        {
+          "name": "HyperVCpuCommit",
+          "children": [
+            {
+              "name": "Get-HyperVCpuCommit"
+            }
+          ]
+        },
+        {
+          "name": "HyperVRamCommit",
+          "children": [
+            {
+              "name": "Get-HyperVRamCommit"
+            }
+          ]
+        },
+        {
+          "name": "HyperVStorageCommit",
+          "children": [
+            {
+              "name": "Get-HyperVStorageCommit"
+            }
+          ]
+        },
+        {
+          "name": "VMInfo",
+          "children": [
+            {
+              "name": "Get-VMInfo"
+            }
+          ]
+        },
+        {
+          "name": "VmFromIsoFile",
+          "children": [
+            {
+              "name": "Install-VmFromIsoFile"
+            }
+          ]
+        },
+        {
+          "name": "MyVMStorage",
+          "children": [
+            {
+              "name": "Move-MyVMStorage"
+            }
+          ]
+        },
+        {
+          "name": "HyperVAutopilotVM",
+          "children": [
+            {
+              "name": "New-HyperVAutopilotVM"
+            }
+          ]
+        },
+        {
+          "name": "HyperVImage",
+          "children": [
+            {
+              "name": "New-HyperVImage"
+            }
+          ]
+        },
+        {
+          "name": "SshToGateway",
+          "children": [
+            {
+              "name": "Open-SshToGateway"
+            }
+          ]
+        },
+        {
+          "name": "HyperVFolder",
+          "children": [
+            {
+              "name": "Optimize-HyperVFolder"
+            }
+          ]
+        },
+        {
+          "name": "VMAndDestroyData",
+          "children": [
+            {
+              "name": "Remove-VMAndDestroyData"
+            }
+          ]
+        },
+        {
+          "name": "VMDiskToCleanInstall",
+          "children": [
+            {
+              "name": "Reset-VMDiskToCleanInstall"
+            }
+          ]
+        },
+        {
+          "name": "MyVHD",
+          "children": [
+            {
+              "name": "Resize-MyVHD"
+            }
+          ]
+        },
+        {
+          "name": "VMResolution",
+          "children": [
+            {
+              "name": "Set-VMResolution"
+            }
+          ]
+        },
+        {
+          "name": "JTGateway",
+          "children": [
+            {
+              "name": "Start-JTGateway"
+            }
+          ]
+        },
+        {
+          "name": "AllVms",
+          "children": [
+            {
+              "name": "Stop-AllVms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JaapsTools",
+      "companyName": "JT",
+      "author": "JT",
+      "children": [
+        {
+          "name": "MySettings",
+          "children": [
+            {
+              "name": "Backup-MySettings"
+            }
+          ]
+        },
+        {
+          "name": "NAS01",
+          "children": [
+            {
+              "name": "Backup-NAS01"
+            },
+            {
+              "name": "Connect-NAS01"
+            },
+            {
+              "name": "Disconnect-NAS01"
+            }
+          ]
+        },
+        {
+          "name": "VstFolder",
+          "children": [
+            {
+              "name": "Backup-VstFolder"
+            }
+          ]
+        },
+        {
+          "name": "JRecycleBin",
+          "children": [
+            {
+              "name": "Clear-JRecycleBin"
+            }
+          ]
+        },
+        {
+          "name": "Notifications",
+          "children": [
+            {
+              "name": "Clear-Notifications"
+            }
+          ]
+        },
+        {
+          "name": "CmdletToSplat",
+          "children": [
+            {
+              "name": "Convert-CmdletToSplat"
+            }
+          ]
+        },
+        {
+          "name": "UIMtoCSV",
+          "children": [
+            {
+              "name": "Convert-UIMtoCSV"
+            }
+          ]
+        },
+        {
+          "name": "WithRobocopy",
+          "children": [
+            {
+              "name": "Copy-WithRobocopy"
+            }
+          ]
+        },
+        {
+          "name": "NFS",
+          "children": [
+            {
+              "name": "Enable-NFS"
+            }
+          ]
+        },
+        {
+          "name": "EmptyFolders",
+          "children": [
+            {
+              "name": "Find-EmptyFolders"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "Find-File"
+            }
+          ]
+        },
+        {
+          "name": "DeadLinks",
+          "children": [
+            {
+              "name": "Get-DeadLinks"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentVariables",
+          "children": [
+            {
+              "name": "Get-EnvironmentVariables"
+            }
+          ]
+        },
+        {
+          "name": "ExternalIpAddress",
+          "children": [
+            {
+              "name": "Get-ExternalIpAddress"
+            }
+          ]
+        },
+        {
+          "name": "FolderSize",
+          "children": [
+            {
+              "name": "Get-FolderSize"
+            }
+          ]
+        },
+        {
+          "name": "InstalledPrograms",
+          "children": [
+            {
+              "name": "Get-InstalledPrograms"
+            }
+          ]
+        },
+        {
+          "name": "MyAlias",
+          "children": [
+            {
+              "name": "Get-MyAlias"
+            }
+          ]
+        },
+        {
+          "name": "OsStartupsAndShutdowns",
+          "children": [
+            {
+              "name": "Get-OsStartupsAndShutdowns"
+            }
+          ]
+        },
+        {
+          "name": "PrinterDetails",
+          "children": [
+            {
+              "name": "Get-PrinterDetails"
+            }
+          ]
+        },
+        {
+          "name": "Quser",
+          "children": [
+            {
+              "name": "Get-Quser"
+            }
+          ]
+        },
+        {
+          "name": "SpecialFolders",
+          "children": [
+            {
+              "name": "Get-SpecialFolders"
+            }
+          ]
+        },
+        {
+          "name": "SystemInfo",
+          "children": [
+            {
+              "name": "Get-SystemInfo"
+            }
+          ]
+        },
+        {
+          "name": "UserProfiles",
+          "children": [
+            {
+              "name": "Get-UserProfiles"
+            }
+          ]
+        },
+        {
+          "name": "WifiNetworks",
+          "children": [
+            {
+              "name": "Get-WifiNetworks"
+            }
+          ]
+        },
+        {
+          "name": "WorkingTime",
+          "children": [
+            {
+              "name": "Get-WorkingTime"
+            }
+          ]
+        },
+        {
+          "name": "MyModule",
+          "children": [
+            {
+              "name": "Import-MyModule"
+            },
+            {
+              "name": "Publish-MyModule"
+            }
+          ]
+        },
+        {
+          "name": "ModuleFromGithub",
+          "children": [
+            {
+              "name": "Install-ModuleFromGithub"
+            }
+          ]
+        },
+        {
+          "name": "ChocoOutdated",
+          "children": [
+            {
+              "name": "Invoke-ChocoOutdated"
+            }
+          ]
+        },
+        {
+          "name": "ChocoUpgradeAll",
+          "children": [
+            {
+              "name": "Invoke-ChocoUpgradeAll"
+            }
+          ]
+        },
+        {
+          "name": "Launch",
+          "children": [
+            {
+              "name": "Invoke-Launch"
+            }
+          ]
+        },
+        {
+          "name": "ParallelRobocopy",
+          "children": [
+            {
+              "name": "Invoke-ParallelRobocopy"
+            }
+          ]
+        },
+        {
+          "name": "Timer",
+          "children": [
+            {
+              "name": "Invoke-Timer"
+            }
+          ]
+        },
+        {
+          "name": "UserLogoff",
+          "children": [
+            {
+              "name": "Invoke-UserLogoff"
+            }
+          ]
+        },
+        {
+          "name": "Logout",
+          "children": [
+            {
+              "name": "Logout"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "children": [
+            {
+              "name": "Maintenance"
+            }
+          ]
+        },
+        {
+          "name": "ChromiumProfile",
+          "children": [
+            {
+              "name": "New-ChromiumProfile"
+            }
+          ]
+        },
+        {
+          "name": "GitBranch",
+          "children": [
+            {
+              "name": "New-GitBranch"
+            }
+          ]
+        },
+        {
+          "name": "GitHubIssue",
+          "children": [
+            {
+              "name": "New-GitHubIssue"
+            }
+          ]
+        },
+        {
+          "name": "GitHubPullRequest",
+          "children": [
+            {
+              "name": "New-GitHubPullRequest"
+            }
+          ]
+        },
+        {
+          "name": "GuitarRecord",
+          "children": [
+            {
+              "name": "New-GuitarRecord"
+            }
+          ]
+        },
+        {
+          "name": "MyVolume",
+          "children": [
+            {
+              "name": "New-MyVolume"
+            },
+            {
+              "name": "Resize-MyVolume"
+            }
+          ]
+        },
+        {
+          "name": "Password",
+          "children": [
+            {
+              "name": "New-Password"
+            }
+          ]
+        },
+        {
+          "name": "Regkey",
+          "children": [
+            {
+              "name": "New-Regkey"
+            }
+          ]
+        },
+        {
+          "name": "Shortcut",
+          "children": [
+            {
+              "name": "New-Shortcut"
+            }
+          ]
+        },
+        {
+          "name": "InExplorer",
+          "children": [
+            {
+              "name": "Open-InExplorer"
+            }
+          ]
+        },
+        {
+          "name": "JPSHistory",
+          "children": [
+            {
+              "name": "Open-JPSHistory"
+            }
+          ]
+        },
+        {
+          "name": "NewWindowsinstallScript",
+          "children": [
+            {
+              "name": "Open-NewWindowsinstallScript"
+            }
+          ]
+        },
+        {
+          "name": "ChromiumProfiles",
+          "children": [
+            {
+              "name": "Remove-ChromiumProfiles"
+            }
+          ]
+        },
+        {
+          "name": "DesktopIcons",
+          "children": [
+            {
+              "name": "Remove-DesktopIcons"
+            }
+          ]
+        },
+        {
+          "name": "DownloadFolderItems",
+          "children": [
+            {
+              "name": "Remove-DownloadFolderItems"
+            }
+          ]
+        },
+        {
+          "name": "GitBranchesNotExistantOnline",
+          "children": [
+            {
+              "name": "Remove-GitBranchesNotExistantOnline"
+            }
+          ]
+        },
+        {
+          "name": "WOL",
+          "children": [
+            {
+              "name": "Send-WOL"
+            }
+          ]
+        },
+        {
+          "name": "ChocoPinList",
+          "children": [
+            {
+              "name": "Set-ChocoPinList"
+            }
+          ]
+        },
+        {
+          "name": "ClevoPowerMode",
+          "children": [
+            {
+              "name": "Set-ClevoPowerMode"
+            }
+          ]
+        },
+        {
+          "name": "IPAddress",
+          "children": [
+            {
+              "name": "Set-IPAddress"
+            }
+          ]
+        },
+        {
+          "name": "Mylocation",
+          "children": [
+            {
+              "name": "Set-Mylocation"
+            }
+          ]
+        },
+        {
+          "name": "OnedriveItemAvailability",
+          "children": [
+            {
+              "name": "Set-OnedriveItemAvailability"
+            }
+          ]
+        },
+        {
+          "name": "PSWindowsTitle",
+          "children": [
+            {
+              "name": "Set-PSWindowsTitle"
+            }
+          ]
+        },
+        {
+          "name": "Scaling",
+          "children": [
+            {
+              "name": "Set-Scaling"
+            }
+          ]
+        },
+        {
+          "name": "TrayIcons",
+          "children": [
+            {
+              "name": "Show-TrayIcons"
+            }
+          ]
+        },
+        {
+          "name": "ShutdownTimer",
+          "children": [
+            {
+              "name": "ShutdownTimer"
+            }
+          ]
+        },
+        {
+          "name": "PlayingSilence",
+          "children": [
+            {
+              "name": "Start-PlayingSilence"
+            }
+          ]
+        },
+        {
+          "name": "RDP",
+          "children": [
+            {
+              "name": "Start-RDP"
+            }
+          ]
+        },
+        {
+          "name": "Startup",
+          "children": [
+            {
+              "name": "Startup"
+            }
+          ]
+        },
+        {
+          "name": "ProcessSoft",
+          "children": [
+            {
+              "name": "Stop-ProcessSoft"
+            }
+          ]
+        },
+        {
+          "name": "HyperV",
+          "children": [
+            {
+              "name": "Switch-HyperV"
+            }
+          ]
+        },
+        {
+          "name": "GitRepos",
+          "children": [
+            {
+              "name": "Sync-GitRepos"
+            }
+          ]
+        },
+        {
+          "name": "OldInstalledModules",
+          "children": [
+            {
+              "name": "Uninstall-OldInstalledModules"
+            }
+          ]
+        },
+        {
+          "name": "InstalledModule",
+          "children": [
+            {
+              "name": "Update-InstalledModule"
+            }
+          ]
+        },
+        {
+          "name": "MyModuleManifest",
+          "children": [
+            {
+              "name": "Update-MyModuleManifest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OfficeAndAzureTools",
+      "companyName": "JT",
+      "author": "JT",
+      "children": [
+        {
+          "name": "JGraph",
+          "children": [
+            {
+              "name": "Connect-JGraph"
+            }
+          ]
+        },
+        {
+          "name": "AADGroupmembership",
+          "children": [
+            {
+              "name": "Find-AADGroupmembership"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotDevice",
+          "children": [
+            {
+              "name": "Find-AutopilotDevice"
+            }
+          ]
+        },
+        {
+          "name": "AzureADRoleMembers",
+          "children": [
+            {
+              "name": "Get-AzureADRoleMembers"
+            }
+          ]
+        },
+        {
+          "name": "IntuneAssignmentReport",
+          "children": [
+            {
+              "name": "Get-IntuneAssignmentReport"
+            }
+          ]
+        },
+        {
+          "name": "IntuneAutopilotAssignmentReport",
+          "children": [
+            {
+              "name": "Get-IntuneAutopilotAssignmentReport"
+            }
+          ]
+        },
+        {
+          "name": "IntuneDeviceConfigurationPolicyAssignmentReport",
+          "children": [
+            {
+              "name": "Get-IntuneDeviceConfigurationPolicyAssignmentReport"
+            }
+          ]
+        },
+        {
+          "name": "IntuneDeviceManagementScriptsAssignmentReport",
+          "children": [
+            {
+              "name": "Get-IntuneDeviceManagementScriptsAssignmentReport"
+            }
+          ]
+        },
+        {
+          "name": "IntuneLoggedOnUsers",
+          "children": [
+            {
+              "name": "Get-IntuneLoggedOnUsers"
+            }
+          ]
+        },
+        {
+          "name": "IntuneMobileAppAssignmentReport",
+          "children": [
+            {
+              "name": "Get-IntuneMobileAppAssignmentReport"
+            }
+          ]
+        },
+        {
+          "name": "IntuneRemediationScriptAssignmentReport",
+          "children": [
+            {
+              "name": "Get-IntuneRemediationScriptAssignmentReport"
+            }
+          ]
+        },
+        {
+          "name": "Mailboxsizes",
+          "children": [
+            {
+              "name": "Get-Mailboxsizes"
+            }
+          ]
+        },
+        {
+          "name": "MsolRoleMembers",
+          "children": [
+            {
+              "name": "Get-MsolRoleMembers"
+            }
+          ]
+        },
+        {
+          "name": "Office365ServiceHealth",
+          "children": [
+            {
+              "name": "Get-Office365ServiceHealth"
+            }
+          ]
+        },
+        {
+          "name": "UserMFARegistration",
+          "children": [
+            {
+              "name": "Get-UserMFARegistration"
+            }
+          ]
+        },
+        {
+          "name": "AdminPortalCreation",
+          "children": [
+            {
+              "name": "Invoke-AdminPortalCreation"
+            }
+          ]
+        },
+        {
+          "name": "CreateAutopilotPartnerCsv",
+          "children": [
+            {
+              "name": "Invoke-CreateAutopilotPartnerCsv"
+            }
+          ]
+        },
+        {
+          "name": "IntuneWin32App",
+          "children": [
+            {
+              "name": "New-IntuneWin32App"
+            }
+          ]
+        },
+        {
+          "name": "MgGroupMemberCustom",
+          "children": [
+            {
+              "name": "New-MgGroupMemberCustom"
+            }
+          ]
+        },
+        {
+          "name": "MgUserCustom",
+          "children": [
+            {
+              "name": "New-MgUserCustom"
+            }
+          ]
+        },
+        {
+          "name": "MultipleIntuneAppAssignments",
+          "children": [
+            {
+              "name": "New-MultipleIntuneAppAssignments"
+            }
+          ]
+        },
+        {
+          "name": "MultipleIntuneDeviceConfigAssignments",
+          "children": [
+            {
+              "name": "New-MultipleIntuneDeviceConfigAssignments"
+            }
+          ]
+        },
+        {
+          "name": "MultipleIntuneDeviceManagementScriptsAssignments",
+          "children": [
+            {
+              "name": "New-MultipleIntuneDeviceManagementScriptsAssignments"
+            }
+          ]
+        },
+        {
+          "name": "PartnerTenantAdminUser",
+          "children": [
+            {
+              "name": "New-PartnerTenantAdminUser"
+            }
+          ]
+        },
+        {
+          "name": "AadDevices",
+          "children": [
+            {
+              "name": "Remove-AadDevices"
+            }
+          ]
+        },
+        {
+          "name": "IntuneAutopilotDevice",
+          "children": [
+            {
+              "name": "Remove-IntuneAutopilotDevice"
+            }
+          ]
+        },
+        {
+          "name": "IntunePrimaryUser",
+          "children": [
+            {
+              "name": "Remove-IntunePrimaryUser"
+            }
+          ]
+        },
+        {
+          "name": "IntuneDevices",
+          "children": [
+            {
+              "name": "Rename-IntuneDevices"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotComputernameAndGrouptag",
+          "children": [
+            {
+              "name": "Set-AutopilotComputernameAndGrouptag"
+            }
+          ]
+        },
+        {
+          "name": "IntuneWin32Packaging",
+          "children": [
+            {
+              "name": "Start-IntuneWin32Packaging"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

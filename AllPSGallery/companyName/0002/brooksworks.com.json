@@ -1,0 +1,67 @@
+{
+  "name": "brooksworks.com",
+  "children": [
+    {
+      "name": "BWRandomPassword",
+      "companyName": "brooksworks.com",
+      "author": "Shannon Graybrook",
+      "children": [
+        {
+          "name": "RandomPassword",
+          "children": [
+            {
+              "name": "Get-RandomPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CredExtra",
+      "companyName": "brooksworks.com",
+      "author": "Shannon Brooks",
+      "children": [
+        {
+          "name": "CredentialToCache",
+          "children": [
+            {
+              "name": "Add-CredentialToCache"
+            }
+          ]
+        },
+        {
+          "name": "CredentialFromCache",
+          "children": [
+            {
+              "name": "Get-CredentialFromCache"
+            }
+          ]
+        },
+        {
+          "name": "CredentialFromPlaintext",
+          "children": [
+            {
+              "name": "Get-CredentialFromPlaintext"
+            }
+          ]
+        },
+        {
+          "name": "Credential",
+          "children": [
+            {
+              "name": "Test-Credential"
+            }
+          ]
+        },
+        {
+          "name": "CredentialCached",
+          "children": [
+            {
+              "name": "Test-CredentialCached"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

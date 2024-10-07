@@ -1,0 +1,151 @@
+{
+  "name": "Dailen Gunter",
+  "children": [
+    {
+      "name": "ChocolateyTaskManager",
+      "companyName": "WideData",
+      "author": "Dailen Gunter",
+      "children": [
+        {
+          "name": "ChocolateyTask",
+          "children": [
+            {
+              "name": "Register-ChocolateyTask"
+            },
+            {
+              "name": "Unregister-ChocolateyTask"
+            },
+            {
+              "name": "Get-ChocolateyTask"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyTaskStatus",
+          "children": [
+            {
+              "name": "Update-ChocolateyTaskStatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ChocolateyUpdateMonitor",
+      "companyName": "WideData",
+      "author": "Dailen Gunter",
+      "children": [
+        {
+          "name": "ChocoMonitorConfig",
+          "children": [
+            {
+              "name": "Get-ChocoMonitorConfig"
+            },
+            {
+              "name": "Set-ChocoMonitorConfig"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyUpdate",
+          "children": [
+            {
+              "name": "Get-ChocolateyUpdate"
+            },
+            {
+              "name": "Show-ChocolateyUpdate"
+            },
+            {
+              "name": "Install-ChocolateyUpdate"
+            }
+          ]
+        },
+        {
+          "name": "ChocoMonitorTask",
+          "children": [
+            {
+              "name": "Register-ChocoMonitorTask"
+            },
+            {
+              "name": "Unregister-ChocoMonitorTask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ExitProcessRequest",
+      "companyName": "WideData",
+      "author": "Dailen Gunter",
+      "children": [
+        {
+          "name": "ExitProcessRequest",
+          "children": [
+            {
+              "name": "Show-ExitProcessRequest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FU-MSAuth",
+      "companyName": "WideData Corporation, Inc.",
+      "author": "Dailen Gunter",
+      "children": [
+        {
+          "name": "MSAuthRepair",
+          "children": [
+            {
+              "name": "Invoke-MSAuthRepair"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NetExtender",
+      "companyName": "WideData Corporation, Inc.",
+      "author": "Dailen Gunter",
+      "children": [
+        {
+          "name": "NetExtender",
+          "children": [
+            {
+              "name": "Get-NetExtender"
+            },
+            {
+              "name": "Install-NetExtender"
+            }
+          ]
+        },
+        {
+          "name": "NetExtenderProfile",
+          "children": [
+            {
+              "name": "Get-NetExtenderProfile"
+            },
+            {
+              "name": "Remove-NetExtenderProfile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Repair-MSAuth",
+      "companyName": "WideData Corporation, Inc.",
+      "author": "Dailen Gunter",
+      "children": [
+        {
+          "name": "MSAuthRepair",
+          "children": [
+            {
+              "name": "Invoke-MSAuthRepair"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

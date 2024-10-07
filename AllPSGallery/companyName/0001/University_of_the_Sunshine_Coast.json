@@ -1,0 +1,307 @@
+{
+  "name": "University of the Sunshine Coast",
+  "children": [
+    {
+      "name": "USC-SCCM",
+      "companyName": "University of the Sunshine Coast",
+      "author": "Jesse Harris",
+      "children": [
+        {
+          "name": "CfgGlobalVars",
+          "children": [
+            {
+              "name": "Import-CfgGlobalVars"
+            },
+            {
+              "name": "Test-CfgGlobalVars"
+            }
+          ]
+        },
+        {
+          "name": "CfgSiteServer",
+          "children": [
+            {
+              "name": "Connect-CfgSiteServer"
+            }
+          ]
+        },
+        {
+          "name": "CurrentAdminRights",
+          "children": [
+            {
+              "name": "Test-CurrentAdminRights"
+            }
+          ]
+        },
+        {
+          "name": "CfgCollectionMembers",
+          "children": [
+            {
+              "name": "Get-CfgCollectionMembers"
+            },
+            {
+              "name": "Test-CfgCollectionMembers"
+            }
+          ]
+        },
+        {
+          "name": "CfgClientInventory",
+          "children": [
+            {
+              "name": "Get-CfgClientInventory"
+            }
+          ]
+        },
+        {
+          "name": "CfgUserUpdateTrigger",
+          "children": [
+            {
+              "name": "Send-CfgUserUpdateTrigger"
+            }
+          ]
+        },
+        {
+          "name": "CfgCacheSize",
+          "children": [
+            {
+              "name": "Get-CfgCacheSize"
+            },
+            {
+              "name": "Set-CfgCacheSize"
+            }
+          ]
+        },
+        {
+          "name": "CMCacheInfo",
+          "children": [
+            {
+              "name": "Get-CMCacheInfo"
+            }
+          ]
+        },
+        {
+          "name": "CMCache",
+          "children": [
+            {
+              "name": "Clear-CMCache"
+            }
+          ]
+        },
+        {
+          "name": "CfgAppEval",
+          "children": [
+            {
+              "name": "Send-CfgAppEval"
+            }
+          ]
+        },
+        {
+          "name": "CfgTrigger",
+          "children": [
+            {
+              "name": "Send-CfgTrigger"
+            }
+          ]
+        },
+        {
+          "name": "CfgSCEPTrigger",
+          "children": [
+            {
+              "name": "Send-CfgSCEPTrigger"
+            }
+          ]
+        },
+        {
+          "name": "CfgMachineUpdateTrigger",
+          "children": [
+            {
+              "name": "Send-CfgMachineUpdateTrigger"
+            }
+          ]
+        },
+        {
+          "name": "CfgInventoryUpdateTrigger",
+          "children": [
+            {
+              "name": "Send-CfgInventoryUpdateTrigger"
+            }
+          ]
+        },
+        {
+          "name": "CfgClientProvisioningMode",
+          "children": [
+            {
+              "name": "Get-CfgClientProvisioningMode"
+            },
+            {
+              "name": "Set-CfgClientProvisioningMode"
+            }
+          ]
+        },
+        {
+          "name": "CfgCollections",
+          "children": [
+            {
+              "name": "Get-CfgCollections"
+            }
+          ]
+        },
+        {
+          "name": "CfgMachineVariables",
+          "children": [
+            {
+              "name": "Get-CfgMachineVariables"
+            }
+          ]
+        },
+        {
+          "name": "WOL",
+          "children": [
+            {
+              "name": "Send-WOL"
+            }
+          ]
+        },
+        {
+          "name": "Pingable",
+          "children": [
+            {
+              "name": "Test-Pingable"
+            }
+          ]
+        },
+        {
+          "name": "CfgIPAddress",
+          "children": [
+            {
+              "name": "Get-CfgIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "RepairCCM",
+          "children": [
+            {
+              "name": "Send-RepairCCM"
+            }
+          ]
+        },
+        {
+          "name": "CCM",
+          "children": [
+            {
+              "name": "Install-CCM"
+            }
+          ]
+        },
+        {
+          "name": "RecentMachines",
+          "children": [
+            {
+              "name": "Get-RecentMachines"
+            }
+          ]
+        },
+        {
+          "name": "AdvertisementResult",
+          "children": [
+            {
+              "name": "Get-AdvertisementResult"
+            }
+          ]
+        },
+        {
+          "name": "MachineInventory",
+          "children": [
+            {
+              "name": "Get-MachineInventory"
+            }
+          ]
+        },
+        {
+          "name": "AdvertisementStatus",
+          "children": [
+            {
+              "name": "Get-AdvertisementStatus"
+            }
+          ]
+        },
+        {
+          "name": "CurrentUser",
+          "children": [
+            {
+              "name": "Get-CurrentUser"
+            }
+          ]
+        },
+        {
+          "name": "CfgConfigEval",
+          "children": [
+            {
+              "name": "Invoke-CfgConfigEval"
+            },
+            {
+              "name": "Get-CfgConfigEval"
+            }
+          ]
+        },
+        {
+          "name": "CfgItemsByFolder",
+          "children": [
+            {
+              "name": "Get-CfgItemsByFolder"
+            }
+          ]
+        },
+        {
+          "name": "CfgCollectionsByFolder",
+          "children": [
+            {
+              "name": "Get-CfgCollectionsByFolder"
+            }
+          ]
+        },
+        {
+          "name": "CfgCollectionsDeps",
+          "children": [
+            {
+              "name": "Get-CfgCollectionsDeps"
+            }
+          ]
+        },
+        {
+          "name": "CfgStateMessageSend",
+          "children": [
+            {
+              "name": "Invoke-CfgStateMessageSend"
+            }
+          ]
+        },
+        {
+          "name": "CfgService",
+          "children": [
+            {
+              "name": "Set-CfgService"
+            }
+          ]
+        },
+        {
+          "name": "CfgEvalStateDescription",
+          "children": [
+            {
+              "name": "Get-CfgEvalStateDescription"
+            }
+          ]
+        },
+        {
+          "name": "CfgApplicationState",
+          "children": [
+            {
+              "name": "Get-CfgApplicationState"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

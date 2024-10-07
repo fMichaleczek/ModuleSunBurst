@@ -1,0 +1,163 @@
+{
+  "name": "phbits",
+  "children": [
+    {
+      "name": "AsyncHttps",
+      "companyName": "phbits",
+      "author": "phbits",
+      "children": [
+        {
+          "name": "AsyncHttps",
+          "children": [
+            {
+              "name": "Invoke-AsyncHttps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DnsBlockList",
+      "companyName": "phbits",
+      "author": "phbits",
+      "children": [
+        {
+          "name": "DnsBlockList",
+          "children": [
+            {
+              "name": "Invoke-DnsBlockList"
+            }
+          ]
+        },
+        {
+          "name": "DnsBlockListQRP",
+          "children": [
+            {
+              "name": "Clear-DnsBlockListQRP"
+            }
+          ]
+        },
+        {
+          "name": "DnsBlockListQRPManually",
+          "children": [
+            {
+              "name": "Clear-DnsBlockListQRPManually"
+            }
+          ]
+        },
+        {
+          "name": "DnsBlockListREADME",
+          "children": [
+            {
+              "name": "Get-DnsBlockListREADME"
+            },
+            {
+              "name": "Copy-DnsBlockListREADME"
+            }
+          ]
+        },
+        {
+          "name": "DnsBlockListDefaultConfiguration",
+          "children": [
+            {
+              "name": "Get-DnsBlockListDefaultConfiguration"
+            },
+            {
+              "name": "Copy-DnsBlockListDefaultConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DscBaseline",
+      "companyName": "phbits",
+      "author": "phbits",
+      "children": [
+        {
+          "name": "DscBaseline",
+          "children": [
+            {
+              "name": "Invoke-DscBaseline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IISRFBaseline",
+      "companyName": "phbits",
+      "author": "phbits",
+      "children": [
+        {
+          "name": "IISRFBaseline",
+          "children": [
+            {
+              "name": "Invoke-IISRFBaseline"
+            }
+          ]
+        },
+        {
+          "name": "IISRFBaselineHelp",
+          "children": [
+            {
+              "name": "Get-IISRFBaselineHelp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SocketHttpRequest",
+      "companyName": "phbits",
+      "author": "phbits",
+      "children": [
+        {
+          "name": "SocketHttpRequest",
+          "children": [
+            {
+              "name": "Invoke-SocketHttpRequest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WebsiteFailedLogins",
+      "companyName": "phbits",
+      "author": "phbits",
+      "children": [
+        {
+          "name": "WebsiteFailedLogins",
+          "children": [
+            {
+              "name": "Invoke-WebsiteFailedLogins"
+            }
+          ]
+        },
+        {
+          "name": "WebsiteFailedLoginsReadme",
+          "children": [
+            {
+              "name": "Get-WebsiteFailedLoginsReadme"
+            },
+            {
+              "name": "Copy-WebsiteFailedLoginsReadme"
+            }
+          ]
+        },
+        {
+          "name": "WebsiteFailedLoginsDefaultConfiguration",
+          "children": [
+            {
+              "name": "Get-WebsiteFailedLoginsDefaultConfiguration"
+            },
+            {
+              "name": "Copy-WebsiteFailedLoginsDefaultConfiguration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

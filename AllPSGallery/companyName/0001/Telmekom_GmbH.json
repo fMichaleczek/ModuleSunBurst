@@ -1,0 +1,45 @@
+{
+  "name": "Telmekom GmbH",
+  "children": [
+    {
+      "name": "DesktopControl",
+      "companyName": "Telmekom GmbH",
+      "author": "Elmar Niederkofler",
+      "children": [
+        {
+          "name": "TKNDesktopControl",
+          "children": [
+            {
+              "name": "Install-TKNDesktopControl"
+            },
+            {
+              "name": "Uninstall-TKNDesktopControl"
+            },
+            {
+              "name": "Update-TKNDesktopControl"
+            },
+            {
+              "name": "Close-TKNDesktopControl"
+            }
+          ]
+        },
+        {
+          "name": "TKNDesktopControlDB",
+          "children": [
+            {
+              "name": "Update-TKNDesktopControlDB"
+            }
+          ]
+        },
+        {
+          "name": "TKNSettings",
+          "children": [
+            {
+              "name": "Test-TKNSettings"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

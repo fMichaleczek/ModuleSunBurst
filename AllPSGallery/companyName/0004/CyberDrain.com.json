@@ -1,0 +1,96 @@
+{
+  "name": "CyberDrain.com",
+  "children": [
+    {
+      "name": "PsNetSapiens",
+      "companyName": "CyberDrain.com",
+      "author": "Kelvin Tegelaar   Kelvin limenetworks.nl",
+      "children": [
+        {
+          "name": "NSApi",
+          "children": [
+            {
+              "name": "Connect-NSApi"
+            },
+            {
+              "name": "Get-NSAPI"
+            },
+            {
+              "name": "Set-NSAPI"
+            },
+            {
+              "name": "New-NSAPI"
+            },
+            {
+              "name": "Remove-NSAPI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSWarranty",
+      "companyName": "CyberDrain.com",
+      "author": "Kelvin Tegelaar   Kelvin limenetworks.nl",
+      "children": [
+        {
+          "name": "WarrantyReport",
+          "children": [
+            {
+              "name": "New-WarrantyReport"
+            }
+          ]
+        },
+        {
+          "name": "Warrantyinfo",
+          "children": [
+            {
+              "name": "Get-Warrantyinfo"
+            },
+            {
+              "name": "Update-Warrantyinfo"
+            }
+          ]
+        },
+        {
+          "name": "WarrantyAPIKeys",
+          "children": [
+            {
+              "name": "Set-WarrantyAPIKeys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RunAsUser",
+      "companyName": "CyberDrain.com",
+      "author": "Kelvin Tegelaar   Kelvin limenetworks.nl",
+      "children": [
+        {
+          "name": "AsCurrentUser",
+          "children": [
+            {
+              "name": "Invoke-AsCurrentUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RunAsUserimpact",
+      "companyName": "CyberDrain.com",
+      "author": "Kelvin Tegelaar   Kelvin limenetworks.nl",
+      "children": [
+        {
+          "name": "AsCurrentUser",
+          "children": [
+            {
+              "name": "Invoke-AsCurrentUser"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

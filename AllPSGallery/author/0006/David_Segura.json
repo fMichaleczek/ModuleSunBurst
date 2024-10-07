@@ -1,0 +1,321 @@
+{
+  "name": "David Segura",
+  "children": [
+    {
+      "name": "DellBios",
+      "companyName": "Unknown",
+      "author": "David Segura",
+      "children": [
+        {
+          "name": "DellBiosUpdate",
+          "children": [
+            {
+              "name": "Get-DellBiosUpdate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSBuilder",
+      "companyName": "osdeploy.com",
+      "author": "David Segura",
+      "children": [
+        {
+          "name": "OSBuilder",
+          "children": [
+            {
+              "name": "Get-OSBuilder"
+            }
+          ]
+        },
+        {
+          "name": "OSBMediaISO",
+          "children": [
+            {
+              "name": "New-OSBMediaISO"
+            }
+          ]
+        },
+        {
+          "name": "OSBMediaUSB",
+          "children": [
+            {
+              "name": "New-OSBMediaUSB"
+            }
+          ]
+        },
+        {
+          "name": "OSBMediaInfo",
+          "children": [
+            {
+              "name": "Show-OSBMediaInfo"
+            }
+          ]
+        },
+        {
+          "name": "OSBUpdate",
+          "children": [
+            {
+              "name": "Get-OSBUpdate"
+            },
+            {
+              "name": "New-OSBUpdate"
+            }
+          ]
+        },
+        {
+          "name": "OSMedia",
+          "children": [
+            {
+              "name": "Get-OSMedia"
+            },
+            {
+              "name": "Import-OSMedia"
+            },
+            {
+              "name": "Update-OSMedia"
+            },
+            {
+              "name": "Rename-OSMedia"
+            }
+          ]
+        },
+        {
+          "name": "OSBuild",
+          "children": [
+            {
+              "name": "New-OSBuild"
+            }
+          ]
+        },
+        {
+          "name": "OSBuildTask",
+          "children": [
+            {
+              "name": "New-OSBuildTask"
+            },
+            {
+              "name": "Repair-OSBuildTask"
+            }
+          ]
+        },
+        {
+          "name": "PEBuild",
+          "children": [
+            {
+              "name": "New-PEBuild"
+            }
+          ]
+        },
+        {
+          "name": "PEBuildTask",
+          "children": [
+            {
+              "name": "New-PEBuildTask"
+            },
+            {
+              "name": "Repair-PEBuildTask"
+            }
+          ]
+        },
+        {
+          "name": "OSBuilds",
+          "children": [
+            {
+              "name": "Get-OSBuilds"
+            }
+          ]
+        },
+        {
+          "name": "PEBuilds",
+          "children": [
+            {
+              "name": "Get-PEBuilds"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDCatalog",
+      "companyName": "osdeploy.com",
+      "author": "David Segura",
+      "children": [
+        {
+          "name": "OSDCatalog",
+          "children": [
+            {
+              "name": "New-OSDCatalog"
+            }
+          ]
+        },
+        {
+          "name": "ModuleOSDCatalog",
+          "children": [
+            {
+              "name": "Update-ModuleOSDCatalog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDrivers",
+      "companyName": "Unknown",
+      "author": "David Segura",
+      "children": [
+        {
+          "name": "OSDriver",
+          "children": [
+            {
+              "name": "Expand-OSDriver"
+            }
+          ]
+        },
+        {
+          "name": "OSDrivers",
+          "children": [
+            {
+              "name": "Export-OSDrivers"
+            }
+          ]
+        },
+        {
+          "name": "OSDriverByType",
+          "children": [
+            {
+              "name": "Find-OSDriverByType"
+            }
+          ]
+        },
+        {
+          "name": "OSDriverINFs",
+          "children": [
+            {
+              "name": "Find-OSDriverINFs"
+            }
+          ]
+        },
+        {
+          "name": "OSDriverPNPIDS",
+          "children": [
+            {
+              "name": "Get-OSDriverPNPIDS"
+            }
+          ]
+        },
+        {
+          "name": "PublicOSDrivers",
+          "children": [
+            {
+              "name": "Get-PublicOSDrivers"
+            }
+          ]
+        },
+        {
+          "name": "OSDriverCAB",
+          "children": [
+            {
+              "name": "New-OSDriverCAB"
+            }
+          ]
+        },
+        {
+          "name": "OSDriverContent",
+          "children": [
+            {
+              "name": "Search-OSDriverContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDSoftware",
+      "companyName": "osdeploy.com",
+      "author": "David Segura",
+      "children": [
+        {
+          "name": "OSDSoftware",
+          "children": [
+            {
+              "name": "Get-OSDSoftware"
+            }
+          ]
+        },
+        {
+          "name": "ModuleOSDSoftware",
+          "children": [
+            {
+              "name": "Update-ModuleOSDSoftware"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OSDUpdate",
+      "companyName": "osdeploy.com",
+      "author": "David Segura",
+      "children": [
+        {
+          "name": "OSDUpdate",
+          "children": [
+            {
+              "name": "Get-OSDUpdate"
+            }
+          ]
+        },
+        {
+          "name": "DownDefender",
+          "children": [
+            {
+              "name": "Get-DownDefender"
+            }
+          ]
+        },
+        {
+          "name": "DownMcAfee",
+          "children": [
+            {
+              "name": "Get-DownMcAfee"
+            }
+          ]
+        },
+        {
+          "name": "DownOSDUpdate",
+          "children": [
+            {
+              "name": "Get-DownOSDUpdate"
+            }
+          ]
+        },
+        {
+          "name": "DownOffice",
+          "children": [
+            {
+              "name": "Get-DownOffice"
+            }
+          ]
+        },
+        {
+          "name": "OSDUpdatePackage",
+          "children": [
+            {
+              "name": "New-OSDUpdatePackage"
+            }
+          ]
+        },
+        {
+          "name": "ModuleOSDUpdate",
+          "children": [
+            {
+              "name": "Update-ModuleOSDUpdate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

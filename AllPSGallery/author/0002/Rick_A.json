@@ -1,0 +1,281 @@
+{
+  "name": "Rick A",
+  "children": [
+    {
+      "name": "CGMM",
+      "companyName": "CGMM",
+      "author": "Rick A",
+      "children": [
+        {
+          "name": "CGMMStagingGroupCloud",
+          "children": [
+            {
+              "name": "Convert-CGMMStagingGroupCloud"
+            }
+          ]
+        },
+        {
+          "name": "CGMMStagingMailContact",
+          "children": [
+            {
+              "name": "Convert-CGMMStagingMailContact"
+            },
+            {
+              "name": "New-CGMMStagingMailContact"
+            },
+            {
+              "name": "Set-CGMMStagingMailContact"
+            }
+          ]
+        },
+        {
+          "name": "CGMMTargetGroup",
+          "children": [
+            {
+              "name": "Get-CGMMTargetGroup"
+            },
+            {
+              "name": "Test-CGMMTargetGroup"
+            }
+          ]
+        },
+        {
+          "name": "CGMMExchOnline",
+          "children": [
+            {
+              "name": "Import-CGMMExchOnline"
+            }
+          ]
+        },
+        {
+          "name": "CGMMExchOnPrem",
+          "children": [
+            {
+              "name": "Import-CGMMExchOnPrem"
+            }
+          ]
+        },
+        {
+          "name": "CGMMStagingGroup",
+          "children": [
+            {
+              "name": "New-CGMMStagingGroup"
+            },
+            {
+              "name": "Set-CGMMStagingGroup"
+            }
+          ]
+        },
+        {
+          "name": "CGMMGroupMembershipCloud",
+          "children": [
+            {
+              "name": "Update-CGMMGroupMembershipCloud"
+            }
+          ]
+        },
+        {
+          "name": "CGMMGroupMembershipOnPrem",
+          "children": [
+            {
+              "name": "Update-CGMMGroupMembershipOnPrem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MDSTools",
+      "companyName": "MDSTools",
+      "author": "Rick A",
+      "children": [
+        {
+          "name": "MDSCredential",
+          "children": [
+            {
+              "name": "Add-MDSCredential"
+            },
+            {
+              "name": "Get-MDSCredential"
+            },
+            {
+              "name": "Remove-MDSCredential"
+            },
+            {
+              "name": "Update-MDSCredential"
+            }
+          ]
+        },
+        {
+          "name": "MDSMsolService",
+          "children": [
+            {
+              "name": "Connect-MDSMsolService"
+            }
+          ]
+        },
+        {
+          "name": "MDSOffice365",
+          "children": [
+            {
+              "name": "Connect-MDSOffice365"
+            }
+          ]
+        },
+        {
+          "name": "MDSMsolLicenseServicePlan",
+          "children": [
+            {
+              "name": "Disable-MDSMsolLicenseServicePlan"
+            },
+            {
+              "name": "Enable-MDSMsolLicenseServicePlan"
+            },
+            {
+              "name": "Get-MDSMsolLicenseServicePlan"
+            }
+          ]
+        },
+        {
+          "name": "MDSUserName",
+          "children": [
+            {
+              "name": "Find-MDSUserName"
+            }
+          ]
+        },
+        {
+          "name": "MDSADLockoutSource",
+          "children": [
+            {
+              "name": "Get-MDSADLockoutSource"
+            }
+          ]
+        },
+        {
+          "name": "MDSConfiguration",
+          "children": [
+            {
+              "name": "Get-MDSConfiguration"
+            },
+            {
+              "name": "Set-MDSConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "MDSExchServerFromLDAP",
+          "children": [
+            {
+              "name": "Get-MDSExchServerFromLDAP"
+            }
+          ]
+        },
+        {
+          "name": "MDSForestADGroupMember",
+          "children": [
+            {
+              "name": "Get-MDSForestADGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "MDSExchOnline",
+          "children": [
+            {
+              "name": "Import-MDSExchOnline"
+            }
+          ]
+        },
+        {
+          "name": "MDSExchOnprem",
+          "children": [
+            {
+              "name": "Import-MDSExchOnprem"
+            }
+          ]
+        },
+        {
+          "name": "MDSSkypeOnprem",
+          "children": [
+            {
+              "name": "Import-MDSSkypeOnprem"
+            }
+          ]
+        },
+        {
+          "name": "MDSADSyncSyncCycle",
+          "children": [
+            {
+              "name": "Start-MDSADSyncSyncCycle"
+            }
+          ]
+        },
+        {
+          "name": "MDSADUC",
+          "children": [
+            {
+              "name": "Start-MDSADUC"
+            }
+          ]
+        },
+        {
+          "name": "MDSExchMgmtConsole",
+          "children": [
+            {
+              "name": "Start-MDSExchMgmtConsole"
+            }
+          ]
+        },
+        {
+          "name": "MDSExplorer",
+          "children": [
+            {
+              "name": "Start-MDSExplorer"
+            }
+          ]
+        },
+        {
+          "name": "MDSGPMC",
+          "children": [
+            {
+              "name": "Start-MDSGPMC"
+            }
+          ]
+        },
+        {
+          "name": "MDSPowerShell",
+          "children": [
+            {
+              "name": "Start-MDSPowerShell"
+            }
+          ]
+        },
+        {
+          "name": "MDSSitesAndServices",
+          "children": [
+            {
+              "name": "Start-MDSSitesAndServices"
+            }
+          ]
+        },
+        {
+          "name": "MDSWebBrowser",
+          "children": [
+            {
+              "name": "Start-MDSWebBrowser"
+            }
+          ]
+        },
+        {
+          "name": "MDSADAuthentication",
+          "children": [
+            {
+              "name": "Test-MDSADAuthentication"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

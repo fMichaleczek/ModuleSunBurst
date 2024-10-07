@@ -1,0 +1,35 @@
+{
+  "name": "boris",
+  "children": [
+    {
+      "name": "server-startup-order",
+      "companyName": "Unknown",
+      "author": "boris",
+      "children": [
+        {
+          "name": "Config.ps1",
+          "children": [
+            {
+              "name": "Download-Config.ps1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServerStartupOrder",
+      "companyName": "Unknown",
+      "author": "boris",
+      "children": [
+        {
+          "name": "Config.ps1",
+          "children": [
+            {
+              "name": "Install-Config.ps1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

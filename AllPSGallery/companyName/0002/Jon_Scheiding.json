@@ -1,0 +1,73 @@
+{
+  "name": "Jon Scheiding",
+  "children": [
+    {
+      "name": "posh-awsp",
+      "companyName": "Jon Scheiding",
+      "author": "Jon Scheiding",
+      "children": [
+        {
+          "name": "AWSCurrentProfile",
+          "children": [
+            {
+              "name": "Get-AWSCurrentProfile"
+            },
+            {
+              "name": "Set-AWSCurrentProfile"
+            }
+          ]
+        },
+        {
+          "name": "AWSAvailableProfiles",
+          "children": [
+            {
+              "name": "Get-AWSAvailableProfiles"
+            }
+          ]
+        },
+        {
+          "name": "AWSProfile",
+          "children": [
+            {
+              "name": "Switch-AWSProfile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "posh-awsvault",
+      "companyName": "Jon Scheiding",
+      "author": "Jon Scheiding",
+      "children": [
+        {
+          "name": "AWSVaultAlias",
+          "children": [
+            {
+              "name": "New-AWSVaultAlias"
+            },
+            {
+              "name": "Remove-AWSVaultAlias"
+            }
+          ]
+        },
+        {
+          "name": "WithAWSVaultExec",
+          "children": [
+            {
+              "name": "Invoke-WithAWSVaultExec"
+            }
+          ]
+        },
+        {
+          "name": "AWSVault",
+          "children": [
+            {
+              "name": "Invoke-AWSVault"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

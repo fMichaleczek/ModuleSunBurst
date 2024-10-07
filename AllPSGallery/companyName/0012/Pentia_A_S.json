@@ -1,0 +1,274 @@
+{
+  "name": "Pentia A S",
+  "children": [
+    {
+      "name": "Pentia.Assert-WebProjectConsistency",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "WebProjectConsistency",
+          "children": [
+            {
+              "name": "Assert-WebProjectConsistency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.Get-ConfigurationTransformFile",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "ConfigurationTransformFile",
+          "children": [
+            {
+              "name": "Get-ConfigurationTransformFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.Get-MSBuild",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "MSBuild",
+          "children": [
+            {
+              "name": "Get-MSBuild"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.Get-RuntimeDependencyPackage",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "RuntimeDependencyPackage",
+          "children": [
+            {
+              "name": "Get-RuntimeDependencyPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.Get-WebProject",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "WebProject",
+          "children": [
+            {
+              "name": "Get-WebProject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.Invoke-ConfigurationTransform",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "PathOfFileToTransform",
+          "children": [
+            {
+              "name": "Get-PathOfFileToTransform"
+            }
+          ]
+        },
+        {
+          "name": "ConfigurationTransform",
+          "children": [
+            {
+              "name": "Invoke-ConfigurationTransform"
+            }
+          ]
+        },
+        {
+          "name": "AllConfigurationTransforms",
+          "children": [
+            {
+              "name": "Invoke-AllConfigurationTransforms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.Invoke-MSBuild",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "MSBuild",
+          "children": [
+            {
+              "name": "Invoke-MSBuild"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.Publish-NuGetPackage",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "NuGetExe",
+          "children": [
+            {
+              "name": "Install-NuGetExe"
+            }
+          ]
+        },
+        {
+          "name": "NuGetPackage",
+          "children": [
+            {
+              "name": "Restore-NuGetPackage"
+            },
+            {
+              "name": "Install-NuGetPackage"
+            },
+            {
+              "name": "Publish-NuGetPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.Publish-RuntimeDependencyPackage",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "RuntimeDependencyPackage",
+          "children": [
+            {
+              "name": "Publish-RuntimeDependencyPackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.Publish-WebProject",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "WebProject",
+          "children": [
+            {
+              "name": "Publish-WebProject"
+            }
+          ]
+        },
+        {
+          "name": "ConfiguredWebProject",
+          "children": [
+            {
+              "name": "Publish-ConfiguredWebProject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.Publish-WebSolution",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "ConfiguredWebSolution",
+          "children": [
+            {
+              "name": "Publish-ConfiguredWebSolution"
+            }
+          ]
+        },
+        {
+          "name": "UnconfiguredWebSolution",
+          "children": [
+            {
+              "name": "Publish-UnconfiguredWebSolution"
+            }
+          ]
+        },
+        {
+          "name": "WebSolutionConfiguration",
+          "children": [
+            {
+              "name": "Set-WebSolutionConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "AllRuntimeDependencies",
+          "children": [
+            {
+              "name": "Publish-AllRuntimeDependencies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentia.UserSettings",
+      "companyName": "Pentia A S",
+      "author": "Pentia Developers",
+      "children": [
+        {
+          "name": "UserSettingsFilePath",
+          "children": [
+            {
+              "name": "Get-UserSettingsFilePath"
+            }
+          ]
+        },
+        {
+          "name": "UserSettings",
+          "children": [
+            {
+              "name": "Get-UserSettings"
+            },
+            {
+              "name": "Set-UserSettings"
+            }
+          ]
+        },
+        {
+          "name": "ParametersAndUserSettings",
+          "children": [
+            {
+              "name": "Merge-ParametersAndUserSettings"
+            }
+          ]
+        },
+        {
+          "name": "MergedParametersAndUserSettings",
+          "children": [
+            {
+              "name": "Get-MergedParametersAndUserSettings"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

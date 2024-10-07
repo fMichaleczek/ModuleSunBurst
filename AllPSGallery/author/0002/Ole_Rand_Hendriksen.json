@@ -1,0 +1,78 @@
+{
+  "name": "Ole Rand Hendriksen",
+  "children": [
+    {
+      "name": "ExtendedHistory",
+      "companyName": "Unknown",
+      "author": "Ole Rand Hendriksen",
+      "children": [
+        {
+          "name": "History",
+          "children": [
+            {
+              "name": "Split-History"
+            }
+          ]
+        },
+        {
+          "name": "ExtendedHistory",
+          "children": [
+            {
+              "name": "Get-ExtendedHistory"
+            },
+            {
+              "name": "Invoke-ExtendedHistory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MGNestedGroups",
+      "companyName": "Unknown",
+      "author": "Ole Rand Hendriksen",
+      "children": [
+        {
+          "name": "MGSubgroupsToEnterpriseApp",
+          "children": [
+            {
+              "name": "Add-MGSubgroupsToEnterpriseApp"
+            }
+          ]
+        },
+        {
+          "name": "MGSubgroups",
+          "children": [
+            {
+              "name": "Get-MGSubgroups"
+            }
+          ]
+        },
+        {
+          "name": "LicenseToMGSubgroups",
+          "children": [
+            {
+              "name": "Grant-LicenseToMGSubgroups"
+            }
+          ]
+        },
+        {
+          "name": "LicenseFromMGSubgroups",
+          "children": [
+            {
+              "name": "Revoke-LicenseFromMGSubgroups"
+            }
+          ]
+        },
+        {
+          "name": "MGSubgroupsFromEnterpriseApp",
+          "children": [
+            {
+              "name": "Remove-MGSubgroupsFromEnterpriseApp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

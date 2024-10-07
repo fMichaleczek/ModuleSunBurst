@@ -1,0 +1,1135 @@
+{
+  "name": "Virtual Engine",
+  "children": [
+    {
+      "name": "AppLockerEx",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "AppLockerPolicyComment",
+          "children": [
+            {
+              "name": "Add-AppLockerPolicyComment"
+            }
+          ]
+        },
+        {
+          "name": "AppLockerPolicyHashRule",
+          "children": [
+            {
+              "name": "Add-AppLockerPolicyHashRule"
+            }
+          ]
+        },
+        {
+          "name": "AppLockerPolicyPathRule",
+          "children": [
+            {
+              "name": "Add-AppLockerPolicyPathRule"
+            }
+          ]
+        },
+        {
+          "name": "AppLockerPolicyPublisherRule",
+          "children": [
+            {
+              "name": "Add-AppLockerPolicyPublisherRule"
+            }
+          ]
+        },
+        {
+          "name": "AppLockerPolicyDocument",
+          "children": [
+            {
+              "name": "New-AppLockerPolicyDocument"
+            }
+          ]
+        },
+        {
+          "name": "AppLockerPolicyEnforcementMode",
+          "children": [
+            {
+              "name": "Set-AppLockerPolicyEnforcementMode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lability",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "Lab",
+          "children": [
+            {
+              "name": "Checkpoint-Lab"
+            },
+            {
+              "name": "Reset-Lab"
+            },
+            {
+              "name": "Restore-Lab"
+            },
+            {
+              "name": "Start-Lab"
+            },
+            {
+              "name": "Stop-Lab"
+            },
+            {
+              "name": "Wait-Lab"
+            }
+          ]
+        },
+        {
+          "name": "LabModuleCache",
+          "children": [
+            {
+              "name": "Clear-LabModuleCache"
+            }
+          ]
+        },
+        {
+          "name": "ModulePath",
+          "children": [
+            {
+              "name": "Clear-ModulePath"
+            }
+          ]
+        },
+        {
+          "name": "LabHostConfiguration",
+          "children": [
+            {
+              "name": "Export-LabHostConfiguration"
+            },
+            {
+              "name": "Get-LabHostConfiguration"
+            },
+            {
+              "name": "Import-LabHostConfiguration"
+            },
+            {
+              "name": "Start-LabHostConfiguration"
+            },
+            {
+              "name": "Test-LabHostConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "LabImage",
+          "children": [
+            {
+              "name": "Export-LabImage"
+            },
+            {
+              "name": "Get-LabImage"
+            },
+            {
+              "name": "New-LabImage"
+            },
+            {
+              "name": "Test-LabImage"
+            }
+          ]
+        },
+        {
+          "name": "LabHostDefault",
+          "children": [
+            {
+              "name": "Get-LabHostDefault"
+            },
+            {
+              "name": "Reset-LabHostDefault"
+            },
+            {
+              "name": "Set-LabHostDefault"
+            }
+          ]
+        },
+        {
+          "name": "LabMedia",
+          "children": [
+            {
+              "name": "Get-LabMedia"
+            },
+            {
+              "name": "Register-LabMedia"
+            },
+            {
+              "name": "Reset-LabMedia"
+            },
+            {
+              "name": "Test-LabMedia"
+            },
+            {
+              "name": "Unregister-LabMedia"
+            }
+          ]
+        },
+        {
+          "name": "LabStatus",
+          "children": [
+            {
+              "name": "Get-LabStatus"
+            },
+            {
+              "name": "Test-LabStatus"
+            }
+          ]
+        },
+        {
+          "name": "LabVM",
+          "children": [
+            {
+              "name": "Get-LabVM"
+            },
+            {
+              "name": "New-LabVM"
+            },
+            {
+              "name": "Remove-LabVM"
+            },
+            {
+              "name": "Reset-LabVM"
+            },
+            {
+              "name": "Test-LabVM"
+            }
+          ]
+        },
+        {
+          "name": "LabVMDefault",
+          "children": [
+            {
+              "name": "Get-LabVMDefault"
+            },
+            {
+              "name": "Reset-LabVMDefault"
+            },
+            {
+              "name": "Set-LabVMDefault"
+            }
+          ]
+        },
+        {
+          "name": "LabModule",
+          "children": [
+            {
+              "name": "Install-LabModule"
+            }
+          ]
+        },
+        {
+          "name": "LabResourceDownload",
+          "children": [
+            {
+              "name": "Invoke-LabResourceDownload"
+            }
+          ]
+        },
+        {
+          "name": "LabConfiguration",
+          "children": [
+            {
+              "name": "Remove-LabConfiguration"
+            },
+            {
+              "name": "Start-LabConfiguration"
+            },
+            {
+              "name": "Test-LabConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DscCompilation",
+          "children": [
+            {
+              "name": "Start-DscCompilation"
+            }
+          ]
+        },
+        {
+          "name": "LabResource",
+          "children": [
+            {
+              "name": "Test-LabResource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LegacyNetworking",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "LegacyNetFirewallRule",
+          "children": [
+            {
+              "name": "Get-LegacyNetFirewallRule"
+            },
+            {
+              "name": "New-LegacyNetFirewallRule"
+            },
+            {
+              "name": "Remove-LegacyNetFirewallRule"
+            },
+            {
+              "name": "Set-LegacyNetFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "LegacyNetAdapter",
+          "children": [
+            {
+              "name": "Get-LegacyNetAdapter"
+            }
+          ]
+        },
+        {
+          "name": "LegacyNetAdapterConfiguration",
+          "children": [
+            {
+              "name": "Get-LegacyNetAdapterConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PScribo",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "BlankLine",
+          "children": [
+            {
+              "name": "BlankLine"
+            }
+          ]
+        },
+        {
+          "name": "Document",
+          "children": [
+            {
+              "name": "Document"
+            },
+            {
+              "name": "Export-Document"
+            }
+          ]
+        },
+        {
+          "name": "DocumentOption",
+          "children": [
+            {
+              "name": "DocumentOption"
+            }
+          ]
+        },
+        {
+          "name": "Footer",
+          "children": [
+            {
+              "name": "Footer"
+            }
+          ]
+        },
+        {
+          "name": "Header",
+          "children": [
+            {
+              "name": "Header"
+            }
+          ]
+        },
+        {
+          "name": "Image",
+          "children": [
+            {
+              "name": "Image"
+            }
+          ]
+        },
+        {
+          "name": "LineBreak",
+          "children": [
+            {
+              "name": "LineBreak"
+            }
+          ]
+        },
+        {
+          "name": "PageBreak",
+          "children": [
+            {
+              "name": "PageBreak"
+            }
+          ]
+        },
+        {
+          "name": "Paragraph",
+          "children": [
+            {
+              "name": "Paragraph"
+            }
+          ]
+        },
+        {
+          "name": "Section",
+          "children": [
+            {
+              "name": "Section"
+            }
+          ]
+        },
+        {
+          "name": "Style",
+          "children": [
+            {
+              "name": "Set-Style"
+            },
+            {
+              "name": "Style"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "children": [
+            {
+              "name": "Table"
+            }
+          ]
+        },
+        {
+          "name": "TableStyle",
+          "children": [
+            {
+              "name": "TableStyle"
+            }
+          ]
+        },
+        {
+          "name": "Text",
+          "children": [
+            {
+              "name": "Text"
+            }
+          ]
+        },
+        {
+          "name": "PScriboMessage",
+          "children": [
+            {
+              "name": "Write-PScriboMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PScriboCharts",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "AreaChartSeries",
+          "children": [
+            {
+              "name": "Add-AreaChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "BarChartSeries",
+          "children": [
+            {
+              "name": "Add-BarChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "ChartArea",
+          "children": [
+            {
+              "name": "Add-ChartArea"
+            }
+          ]
+        },
+        {
+          "name": "ChartAnnotation",
+          "children": [
+            {
+              "name": "Add-ChartAnnotation"
+            }
+          ]
+        },
+        {
+          "name": "ChartLegend",
+          "children": [
+            {
+              "name": "Add-ChartLegend"
+            }
+          ]
+        },
+        {
+          "name": "ChartTitle",
+          "children": [
+            {
+              "name": "Add-ChartTitle"
+            }
+          ]
+        },
+        {
+          "name": "ColumnChartSeries",
+          "children": [
+            {
+              "name": "Add-ColumnChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "DoughnutChartSeries",
+          "children": [
+            {
+              "name": "Add-DoughnutChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "LineChartSeries",
+          "children": [
+            {
+              "name": "Add-LineChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "PieChartSeries",
+          "children": [
+            {
+              "name": "Add-PieChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "SplineChartSeries",
+          "children": [
+            {
+              "name": "Add-SplineChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "SplineAreaChartSeries",
+          "children": [
+            {
+              "name": "Add-SplineAreaChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "StackedAreaChartSeries",
+          "children": [
+            {
+              "name": "Add-StackedAreaChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "StackedBarChartSeries",
+          "children": [
+            {
+              "name": "Add-StackedBarChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "StackedColumnChartSeries",
+          "children": [
+            {
+              "name": "Add-StackedColumnChartSeries"
+            }
+          ]
+        },
+        {
+          "name": "Chart",
+          "children": [
+            {
+              "name": "Export-Chart"
+            },
+            {
+              "name": "New-Chart"
+            }
+          ]
+        },
+        {
+          "name": "ChartFont",
+          "children": [
+            {
+              "name": "New-ChartFont"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RESONEAutomation",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "ROAEnvironmentGuid",
+          "children": [
+            {
+              "name": "Get-ROAEnvironmentGuid"
+            }
+          ]
+        },
+        {
+          "name": "ROASiteLicense",
+          "children": [
+            {
+              "name": "Get-ROASiteLicense"
+            }
+          ]
+        },
+        {
+          "name": "ROABuildingBlock",
+          "children": [
+            {
+              "name": "Import-ROABuildingBlock"
+            }
+          ]
+        },
+        {
+          "name": "ROAManagementPortalConfiguration",
+          "children": [
+            {
+              "name": "New-ROAManagementPortalConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RESONEServiceStore",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "ROSSSession",
+          "children": [
+            {
+              "name": "Connect-ROSSSession"
+            },
+            {
+              "name": "Disconnect-ROSSSession"
+            }
+          ]
+        },
+        {
+          "name": "ROSSPerson",
+          "children": [
+            {
+              "name": "Disable-ROSSPerson"
+            },
+            {
+              "name": "Enable-ROSSPerson"
+            },
+            {
+              "name": "Get-ROSSPerson"
+            },
+            {
+              "name": "New-ROSSPerson"
+            },
+            {
+              "name": "Set-ROSSPerson"
+            }
+          ]
+        },
+        {
+          "name": "ROSSService",
+          "children": [
+            {
+              "name": "Disable-ROSSService"
+            },
+            {
+              "name": "Enable-ROSSService"
+            },
+            {
+              "name": "Get-ROSSService"
+            },
+            {
+              "name": "Set-ROSSService"
+            }
+          ]
+        },
+        {
+          "name": "ROSSServiceWorkflowAction",
+          "children": [
+            {
+              "name": "Disable-ROSSServiceWorkflowAction"
+            },
+            {
+              "name": "Enable-ROSSServiceWorkflowAction"
+            }
+          ]
+        },
+        {
+          "name": "ROSSBuildingBlock",
+          "children": [
+            {
+              "name": "Export-ROSSBuildingBlock"
+            },
+            {
+              "name": "Import-ROSSBuildingBlock"
+            }
+          ]
+        },
+        {
+          "name": "ROSSDataConnection",
+          "children": [
+            {
+              "name": "Get-ROSSDataConnection"
+            }
+          ]
+        },
+        {
+          "name": "ROSSDataSource",
+          "children": [
+            {
+              "name": "Get-ROSSDataSource"
+            }
+          ]
+        },
+        {
+          "name": "ROSSOrganization",
+          "children": [
+            {
+              "name": "Get-ROSSOrganization"
+            }
+          ]
+        },
+        {
+          "name": "ROSSTransaction",
+          "children": [
+            {
+              "name": "Get-ROSSTransaction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RESONEWorkspace",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "ROWBuildingBlock",
+          "children": [
+            {
+              "name": "Import-ROWBuildingBlock"
+            },
+            {
+              "name": "Export-ROWBuildingBlock"
+            }
+          ]
+        },
+        {
+          "name": "ROWManagementPortalConfiguration",
+          "children": [
+            {
+              "name": "New-ROWManagementPortalConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VirtualEngine.Build",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "SecureString",
+          "children": [
+            {
+              "name": "ConvertFrom-SecureString"
+            },
+            {
+              "name": "Read-SecureString"
+            },
+            {
+              "name": "Write-SecureString"
+            }
+          ]
+        },
+        {
+          "name": "GitRepository",
+          "children": [
+            {
+              "name": "Copy-GitRepository"
+            },
+            {
+              "name": "Test-GitRepository"
+            },
+            {
+              "name": "Update-GitRepository"
+            }
+          ]
+        },
+        {
+          "name": "FileEncoding",
+          "children": [
+            {
+              "name": "Get-FileEncoding"
+            }
+          ]
+        },
+        {
+          "name": "GitRevision",
+          "children": [
+            {
+              "name": "Get-GitRevision"
+            }
+          ]
+        },
+        {
+          "name": "GitRemoteOrigin",
+          "children": [
+            {
+              "name": "Get-GitRemoteOrigin"
+            },
+            {
+              "name": "Test-GitRemoteOrigin"
+            }
+          ]
+        },
+        {
+          "name": "GitVersionString",
+          "children": [
+            {
+              "name": "Get-GitVersionString"
+            }
+          ]
+        },
+        {
+          "name": "ModuleFile",
+          "children": [
+            {
+              "name": "Get-ModuleFile"
+            }
+          ]
+        },
+        {
+          "name": "ModuleManifest",
+          "children": [
+            {
+              "name": "Get-ModuleManifest"
+            }
+          ]
+        },
+        {
+          "name": "ModuleManifestProperty",
+          "children": [
+            {
+              "name": "Get-ModuleManifestProperty"
+            },
+            {
+              "name": "Set-ModuleManifestProperty"
+            }
+          ]
+        },
+        {
+          "name": "WindowsInstallerPackageProperty",
+          "children": [
+            {
+              "name": "Get-WindowsInstallerPackageProperty"
+            }
+          ]
+        },
+        {
+          "name": "NuGetPack",
+          "children": [
+            {
+              "name": "Invoke-NuGetPack"
+            }
+          ]
+        },
+        {
+          "name": "NuGetPush",
+          "children": [
+            {
+              "name": "Invoke-NuGetPush"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyInstallBundledPackage",
+          "children": [
+            {
+              "name": "New-ChocolateyInstallBundledPackage"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyInstallBundledScript",
+          "children": [
+            {
+              "name": "New-ChocolateyInstallBundledScript"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyInstallPackage",
+          "children": [
+            {
+              "name": "New-ChocolateyInstallPackage"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyInstallVsix",
+          "children": [
+            {
+              "name": "New-ChocolateyInstallVsix"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyInstallZipModule",
+          "children": [
+            {
+              "name": "New-ChocolateyInstallZipModule"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyInstallZipPackage",
+          "children": [
+            {
+              "name": "New-ChocolateyInstallZipPackage"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyInstallZipPortable",
+          "children": [
+            {
+              "name": "New-ChocolateyInstallZipPortable"
+            }
+          ]
+        },
+        {
+          "name": "ChocolateyInstallZipScript",
+          "children": [
+            {
+              "name": "New-ChocolateyInstallZipScript"
+            }
+          ]
+        },
+        {
+          "name": "ModuleLicense",
+          "children": [
+            {
+              "name": "New-ModuleLicense"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVersionNumber",
+          "children": [
+            {
+              "name": "New-ModuleVersionNumber"
+            }
+          ]
+        },
+        {
+          "name": "NuGetNuspec",
+          "children": [
+            {
+              "name": "New-NuGetNuspec"
+            }
+          ]
+        },
+        {
+          "name": "Credential",
+          "children": [
+            {
+              "name": "Read-Credential"
+            },
+            {
+              "name": "Write-Credential"
+            }
+          ]
+        },
+        {
+          "name": "NuspecProperty",
+          "children": [
+            {
+              "name": "Set-NuspecProperty"
+            }
+          ]
+        },
+        {
+          "name": "ScriptSignature",
+          "children": [
+            {
+              "name": "Set-ScriptSignature"
+            }
+          ]
+        },
+        {
+          "name": "VSAssemblyInfo",
+          "children": [
+            {
+              "name": "Set-VSAssemblyInfo"
+            }
+          ]
+        },
+        {
+          "name": "Git",
+          "children": [
+            {
+              "name": "Test-Git"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VirtualEngine.EvergreenDsc",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "EvergreenPackageCache",
+          "children": [
+            {
+              "name": "Clear-EvergreenPackageCache"
+            }
+          ]
+        },
+        {
+          "name": "EvergreenPackage",
+          "children": [
+            {
+              "name": "Find-EvergreenPackage"
+            },
+            {
+              "name": "Install-EvergreenPackage"
+            },
+            {
+              "name": "Save-EvergreenPackage"
+            },
+            {
+              "name": "Test-EvergreenPackage"
+            },
+            {
+              "name": "Uninstall-EvergreenPackage"
+            }
+          ]
+        },
+        {
+          "name": "EvergreenPackageCacheMetadata",
+          "children": [
+            {
+              "name": "Get-EvergreenPackageCacheMetadata"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XmlEx",
+      "companyName": "Virtual Engine",
+      "author": "Iain Brighton",
+      "children": [
+        {
+          "name": "XmlExAttribute",
+          "children": [
+            {
+              "name": "Add-XmlExAttribute"
+            }
+          ]
+        },
+        {
+          "name": "XmlExComment",
+          "children": [
+            {
+              "name": "Add-XmlExComment"
+            }
+          ]
+        },
+        {
+          "name": "XmlExElement",
+          "children": [
+            {
+              "name": "Add-XmlExElement"
+            }
+          ]
+        },
+        {
+          "name": "XmlExNamespace",
+          "children": [
+            {
+              "name": "Add-XmlExNamespace"
+            }
+          ]
+        },
+        {
+          "name": "XmlExText",
+          "children": [
+            {
+              "name": "Add-XmlExText"
+            }
+          ]
+        },
+        {
+          "name": "XmlEx",
+          "children": [
+            {
+              "name": "Format-XmlEx"
+            }
+          ]
+        },
+        {
+          "name": "XmlExDocument",
+          "children": [
+            {
+              "name": "New-XmlExDocument"
+            }
+          ]
+        },
+        {
+          "name": "XmlExDeclaration",
+          "children": [
+            {
+              "name": "Set-XmlExDeclaration"
+            }
+          ]
+        },
+        {
+          "name": "XmlExConfigKeyValue",
+          "children": [
+            {
+              "name": "Set-XmlExConfigKeyValue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

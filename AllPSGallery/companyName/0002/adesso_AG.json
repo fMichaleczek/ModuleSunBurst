@@ -1,0 +1,43 @@
+{
+  "name": "adesso AG",
+  "children": [
+    {
+      "name": "configuration-substitution",
+      "companyName": "adesso AG",
+      "author": "Torben Soennecken",
+      "children": [
+        {
+          "name": "NamingArray",
+          "children": [
+            {
+              "name": "ConvertTo-NamingArray"
+            }
+          ]
+        },
+        {
+          "name": "NamingDictionary",
+          "children": [
+            {
+              "name": "ConvertTo-NamingDictionary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSUnidecode",
+      "companyName": "adesso AG",
+      "author": "Torben Soennecken",
+      "children": [
+        {
+          "name": "Unicode",
+          "children": [
+            {
+              "name": "ConvertFrom-Unicode"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

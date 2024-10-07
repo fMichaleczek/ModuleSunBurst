@@ -1,0 +1,218 @@
+{
+  "name": "Josh Irwin",
+  "children": [
+    {
+      "name": "AzureDevOpsMgmt",
+      "companyName": "Unknown",
+      "author": "Josh Irwin",
+      "children": [
+        {
+          "name": "WorkItem",
+          "children": [
+            {
+              "name": "Get-WorkItem"
+            },
+            {
+              "name": "Update-WorkItem"
+            }
+          ]
+        },
+        {
+          "name": "WorkItemFields",
+          "children": [
+            {
+              "name": "Get-WorkItemFields"
+            }
+          ]
+        },
+        {
+          "name": "Configuration",
+          "children": [
+            {
+              "name": "Import-Configuration"
+            }
+          ]
+        },
+        {
+          "name": "ReleaseStep",
+          "children": [
+            {
+              "name": "Approve-ReleaseStep"
+            },
+            {
+              "name": "Deny-ReleaseStep"
+            }
+          ]
+        },
+        {
+          "name": "Release",
+          "children": [
+            {
+              "name": "Get-Release"
+            }
+          ]
+        },
+        {
+          "name": "Build",
+          "children": [
+            {
+              "name": "Get-Build"
+            }
+          ]
+        },
+        {
+          "name": "RemainingWork",
+          "children": [
+            {
+              "name": "Update-RemainingWork"
+            }
+          ]
+        },
+        {
+          "name": "Account",
+          "children": [
+            {
+              "name": "Add-Account"
+            },
+            {
+              "name": "Get-Account"
+            },
+            {
+              "name": "Remove-Account"
+            }
+          ]
+        },
+        {
+          "name": "AccountProject",
+          "children": [
+            {
+              "name": "Add-AccountProject"
+            },
+            {
+              "name": "Remove-AccountProject"
+            }
+          ]
+        },
+        {
+          "name": "PatToken",
+          "children": [
+            {
+              "name": "Add-PatToken"
+            },
+            {
+              "name": "Get-PatToken"
+            },
+            {
+              "name": "Remove-PatToken"
+            }
+          ]
+        },
+        {
+          "name": "StartUpAccount",
+          "children": [
+            {
+              "name": "Get-StartUpAccount"
+            },
+            {
+              "name": "Set-StartUpAccount"
+            }
+          ]
+        },
+        {
+          "name": "AccountAndPatToken",
+          "children": [
+            {
+              "name": "Join-AccountAndPatToken"
+            }
+          ]
+        },
+        {
+          "name": "AccountContext",
+          "children": [
+            {
+              "name": "Set-AccountContext"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VstsModuleManagement",
+      "companyName": "Unknown",
+      "author": "Josh Irwin",
+      "children": [
+        {
+          "name": "VstsPackageSource",
+          "children": [
+            {
+              "name": "Add-VstsPackageSource"
+            },
+            {
+              "name": "Remove-VstsPackageSource"
+            }
+          ]
+        },
+        {
+          "name": "VstsModule",
+          "children": [
+            {
+              "name": "Find-VstsModule"
+            },
+            {
+              "name": "Uninstall-VstsModule"
+            },
+            {
+              "name": "Install-VstsModule"
+            }
+          ]
+        },
+        {
+          "name": "VstsCredential",
+          "children": [
+            {
+              "name": "Get-VstsCredential"
+            },
+            {
+              "name": "Save-VstsCredential"
+            },
+            {
+              "name": "Remove-VstsCredential"
+            }
+          ]
+        },
+        {
+          "name": "VstsPackageSources",
+          "children": [
+            {
+              "name": "Get-VstsPackageSources"
+            }
+          ]
+        },
+        {
+          "name": "VstsPackageSourceWithCredential",
+          "children": [
+            {
+              "name": "Join-VstsPackageSourceWithCredential"
+            }
+          ]
+        },
+        {
+          "name": "ModuleSettings",
+          "children": [
+            {
+              "name": "Read-ModuleSettings"
+            }
+          ]
+        },
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Initialize-Module"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

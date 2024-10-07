@@ -1,0 +1,63 @@
+{
+  "name": "www.radcrawler.it",
+  "children": [
+    {
+      "name": "Dicom",
+      "companyName": "www.radcrawler.it",
+      "author": "Riccardo Rolla",
+      "children": [
+        {
+          "name": "Properties",
+          "children": [
+            {
+              "name": "Read-Properties"
+            },
+            {
+              "name": "Write-Properties"
+            }
+          ]
+        },
+        {
+          "name": "Dicom",
+          "children": [
+            {
+              "name": "Search-Dicom"
+            },
+            {
+              "name": "Move-Dicom"
+            },
+            {
+              "name": "Edit-Dicom"
+            },
+            {
+              "name": "Import-Dicom"
+            },
+            {
+              "name": "Read-Dicom"
+            },
+            {
+              "name": "Send-Dicom"
+            },
+            {
+              "name": "Save-Dicom"
+            },
+            {
+              "name": "Convert-Dicom"
+            },
+            {
+              "name": "Export-Dicom"
+            }
+          ]
+        },
+        {
+          "name": "DicomServer",
+          "children": [
+            {
+              "name": "Start-DicomServer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

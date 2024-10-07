@@ -1,0 +1,28 @@
+{
+  "name": "Nzt",
+  "children": [
+    {
+      "name": "SecretManagementArgumentCompleter",
+      "companyName": "Nzt",
+      "author": "Francis Mercier",
+      "children": [
+        {
+          "name": "SecretManagementArgumentCompleterCache",
+          "children": [
+            {
+              "name": "Clear-SecretManagementArgumentCompleterCache"
+            }
+          ]
+        },
+        {
+          "name": "SecretManagementArgumentCompleter",
+          "children": [
+            {
+              "name": "Import-SecretManagementArgumentCompleter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

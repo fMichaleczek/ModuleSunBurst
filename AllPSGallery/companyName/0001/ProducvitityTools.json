@@ -1,0 +1,78 @@
+{
+  "name": "ProducvitityTools",
+  "children": [
+    {
+      "name": "ProductivityTools.ManageGitRepositories",
+      "companyName": "ProducvitityTools",
+      "author": "Pawe  Wujczyk",
+      "children": [
+        {
+          "name": "GitRepository",
+          "children": [
+            {
+              "name": "Push-GitRepository"
+            },
+            {
+              "name": "Pull-GitRepository"
+            },
+            {
+              "name": "Commit-GitRepository"
+            },
+            {
+              "name": "CommitPush-GitRepository"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositories",
+          "children": [
+            {
+              "name": "Push-GitRepositories"
+            },
+            {
+              "name": "Pull-GitRepositories"
+            },
+            {
+              "name": "Commit-GitRepositories"
+            },
+            {
+              "name": "CommitPush-GitRepositories"
+            }
+          ]
+        },
+        {
+          "name": "AutoCommitRepository",
+          "children": [
+            {
+              "name": "Get-AutoCommitRepository"
+            }
+          ]
+        },
+        {
+          "name": "AutoCommitRepositories",
+          "children": [
+            {
+              "name": "Get-AutoCommitRepositories"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoryStatus",
+          "children": [
+            {
+              "name": "Get-GitRepositoryStatus"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoriesStatus",
+          "children": [
+            {
+              "name": "Get-GitRepositoriesStatus"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

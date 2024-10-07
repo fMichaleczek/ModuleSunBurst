@@ -1,0 +1,58 @@
+{
+  "name": "Dakota Clark",
+  "children": [
+    {
+      "name": "MSOnlineExt",
+      "companyName": "Dakota Clark",
+      "author": "Dakota Clark",
+      "children": [
+        {
+          "name": "MsolTenantContext",
+          "children": [
+            {
+              "name": "Get-MsolTenantContext"
+            },
+            {
+              "name": "Remove-MsolTenantContext"
+            },
+            {
+              "name": "Set-MsolTenantContext"
+            }
+          ]
+        },
+        {
+          "name": "MSOnlineExtTelemetryOption",
+          "children": [
+            {
+              "name": "Get-MSOnlineExtTelemetryOption"
+            },
+            {
+              "name": "Set-MSOnlineExtTelemetryOption"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS.HealthChecks",
+      "companyName": "Dakota Clark",
+      "author": "Dakota Clark",
+      "children": [
+        {
+          "name": "HealthCheck",
+          "children": [
+            {
+              "name": "Connect-HealthCheck"
+            },
+            {
+              "name": "Get-HealthCheck"
+            },
+            {
+              "name": "New-HealthCheck"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

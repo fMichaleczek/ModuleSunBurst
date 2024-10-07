@@ -1,0 +1,1004 @@
+{
+  "name": "lordmilko",
+  "children": [
+    {
+      "name": "DebugTools",
+      "companyName": "Unknown",
+      "author": "lordmilko",
+      "children": [
+        {
+          "name": "DbgProfilerStackTrace",
+          "children": [
+            {
+              "name": "Export-DbgProfilerStackTrace"
+            },
+            {
+              "name": "Import-DbgProfilerStackTrace"
+            },
+            {
+              "name": "Show-DbgProfilerStackTrace"
+            }
+          ]
+        },
+        {
+          "name": "ClrType",
+          "children": [
+            {
+              "name": "Get-ClrType"
+            }
+          ]
+        },
+        {
+          "name": "ComObject",
+          "children": [
+            {
+              "name": "Get-ComObject"
+            }
+          ]
+        },
+        {
+          "name": "ComObjectMethod",
+          "children": [
+            {
+              "name": "Get-ComObjectMethod"
+            }
+          ]
+        },
+        {
+          "name": "DbgProfiler",
+          "children": [
+            {
+              "name": "Get-DbgProfiler"
+            },
+            {
+              "name": "Start-DbgProfiler"
+            },
+            {
+              "name": "Stop-DbgProfiler"
+            }
+          ]
+        },
+        {
+          "name": "DbgProfilerException",
+          "children": [
+            {
+              "name": "Get-DbgProfilerException"
+            }
+          ]
+        },
+        {
+          "name": "DbgProfilerLastStackTrace",
+          "children": [
+            {
+              "name": "Get-DbgProfilerLastStackTrace"
+            }
+          ]
+        },
+        {
+          "name": "DbgProfilerMethod",
+          "children": [
+            {
+              "name": "Get-DbgProfilerMethod"
+            }
+          ]
+        },
+        {
+          "name": "DbgProfilerStackFrame",
+          "children": [
+            {
+              "name": "Get-DbgProfilerStackFrame"
+            }
+          ]
+        },
+        {
+          "name": "DbgProfilerStaticField",
+          "children": [
+            {
+              "name": "Get-DbgProfilerStaticField"
+            }
+          ]
+        },
+        {
+          "name": "DbgProxy",
+          "children": [
+            {
+              "name": "Get-DbgProxy"
+            }
+          ]
+        },
+        {
+          "name": "DbgStaticField",
+          "children": [
+            {
+              "name": "Get-DbgStaticField"
+            }
+          ]
+        },
+        {
+          "name": "PEHeader",
+          "children": [
+            {
+              "name": "Get-PEHeader"
+            }
+          ]
+        },
+        {
+          "name": "MethodDesc",
+          "children": [
+            {
+              "name": "Get-MethodDesc"
+            }
+          ]
+        },
+        {
+          "name": "MethodTable",
+          "children": [
+            {
+              "name": "Get-MethodTable"
+            }
+          ]
+        },
+        {
+          "name": "DbgProfilerCommand",
+          "children": [
+            {
+              "name": "Invoke-DbgProfilerCommand"
+            }
+          ]
+        },
+        {
+          "name": "SOSDacCache",
+          "children": [
+            {
+              "name": "Clear-SOSDacCache"
+            }
+          ]
+        },
+        {
+          "name": "SOSProcess",
+          "children": [
+            {
+              "name": "Connect-SOSProcess"
+            },
+            {
+              "name": "Disconnect-SOSProcess"
+            },
+            {
+              "name": "Get-SOSProcess"
+            }
+          ]
+        },
+        {
+          "name": "SOSAppDomain",
+          "children": [
+            {
+              "name": "Get-SOSAppDomain"
+            }
+          ]
+        },
+        {
+          "name": "SOSAssembly",
+          "children": [
+            {
+              "name": "Get-SOSAssembly"
+            }
+          ]
+        },
+        {
+          "name": "SOSFieldDesc",
+          "children": [
+            {
+              "name": "Get-SOSFieldDesc"
+            }
+          ]
+        },
+        {
+          "name": "SOSMethodDesc",
+          "children": [
+            {
+              "name": "Get-SOSMethodDesc"
+            }
+          ]
+        },
+        {
+          "name": "SOSMethodTable",
+          "children": [
+            {
+              "name": "Get-SOSMethodTable"
+            }
+          ]
+        },
+        {
+          "name": "SOSModule",
+          "children": [
+            {
+              "name": "Get-SOSModule"
+            }
+          ]
+        },
+        {
+          "name": "SOSStackTrace",
+          "children": [
+            {
+              "name": "Get-SOSStackTrace"
+            }
+          ]
+        },
+        {
+          "name": "SOSThread",
+          "children": [
+            {
+              "name": "Get-SOSThread"
+            }
+          ]
+        },
+        {
+          "name": "DbgProfilerStack",
+          "children": [
+            {
+              "name": "Trace-DbgProfilerStack"
+            },
+            {
+              "name": "Watch-DbgProfilerStack"
+            }
+          ]
+        },
+        {
+          "name": "UiProcess",
+          "children": [
+            {
+              "name": "Connect-UiProcess"
+            },
+            {
+              "name": "Disconnect-UiProcess"
+            }
+          ]
+        },
+        {
+          "name": "UiElement",
+          "children": [
+            {
+              "name": "Find-UiElement"
+            },
+            {
+              "name": "Get-UiElement"
+            },
+            {
+              "name": "Set-UiElement"
+            },
+            {
+              "name": "Invoke-UiElement"
+            }
+          ]
+        },
+        {
+          "name": "UiMessage",
+          "children": [
+            {
+              "name": "Get-UiMessage"
+            }
+          ]
+        },
+        {
+          "name": "UiTree",
+          "children": [
+            {
+              "name": "Show-UiTree"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PrtgAPI",
+      "companyName": "Unknown",
+      "author": "lordmilko",
+      "children": [
+        {
+          "name": "Channel",
+          "children": [
+            {
+              "name": "Get-Channel"
+            }
+          ]
+        },
+        {
+          "name": "Device",
+          "children": [
+            {
+              "name": "Get-Device"
+            },
+            {
+              "name": "Add-Device"
+            }
+          ]
+        },
+        {
+          "name": "DeviceTemplate",
+          "children": [
+            {
+              "name": "Get-DeviceTemplate"
+            }
+          ]
+        },
+        {
+          "name": "Group",
+          "children": [
+            {
+              "name": "Get-Group"
+            },
+            {
+              "name": "Add-Group"
+            }
+          ]
+        },
+        {
+          "name": "ModificationHistory",
+          "children": [
+            {
+              "name": "Get-ModificationHistory"
+            }
+          ]
+        },
+        {
+          "name": "NotificationAction",
+          "children": [
+            {
+              "name": "Get-NotificationAction"
+            }
+          ]
+        },
+        {
+          "name": "NotificationTrigger",
+          "children": [
+            {
+              "name": "Get-NotificationTrigger"
+            },
+            {
+              "name": "Add-NotificationTrigger"
+            },
+            {
+              "name": "Remove-NotificationTrigger"
+            },
+            {
+              "name": "Set-NotificationTrigger"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Get-Object"
+            },
+            {
+              "name": "Copy-Object"
+            },
+            {
+              "name": "Move-Object"
+            },
+            {
+              "name": "Suspend-Object"
+            },
+            {
+              "name": "Update-Object"
+            },
+            {
+              "name": "Remove-Object"
+            },
+            {
+              "name": "Rename-Object"
+            },
+            {
+              "name": "Resume-Object"
+            }
+          ]
+        },
+        {
+          "name": "ObjectLog",
+          "children": [
+            {
+              "name": "Get-ObjectLog"
+            }
+          ]
+        },
+        {
+          "name": "ObjectProperty",
+          "children": [
+            {
+              "name": "Get-ObjectProperty"
+            },
+            {
+              "name": "Set-ObjectProperty"
+            }
+          ]
+        },
+        {
+          "name": "Probe",
+          "children": [
+            {
+              "name": "Get-Probe"
+            },
+            {
+              "name": "Approve-Probe"
+            },
+            {
+              "name": "Restart-Probe"
+            }
+          ]
+        },
+        {
+          "name": "PrtgSchedule",
+          "children": [
+            {
+              "name": "Get-PrtgSchedule"
+            }
+          ]
+        },
+        {
+          "name": "PrtgStatus",
+          "children": [
+            {
+              "name": "Get-PrtgStatus"
+            }
+          ]
+        },
+        {
+          "name": "Sensor",
+          "children": [
+            {
+              "name": "Get-Sensor"
+            },
+            {
+              "name": "Confirm-Sensor"
+            },
+            {
+              "name": "Add-Sensor"
+            },
+            {
+              "name": "New-Sensor"
+            }
+          ]
+        },
+        {
+          "name": "SensorFactorySource",
+          "children": [
+            {
+              "name": "Get-SensorFactorySource"
+            }
+          ]
+        },
+        {
+          "name": "SensorHistory",
+          "children": [
+            {
+              "name": "Get-SensorHistory"
+            }
+          ]
+        },
+        {
+          "name": "SensorTarget",
+          "children": [
+            {
+              "name": "Get-SensorTarget"
+            }
+          ]
+        },
+        {
+          "name": "SensorTotals",
+          "children": [
+            {
+              "name": "Get-SensorTotals"
+            }
+          ]
+        },
+        {
+          "name": "SensorType",
+          "children": [
+            {
+              "name": "Get-SensorType"
+            }
+          ]
+        },
+        {
+          "name": "SystemInfo",
+          "children": [
+            {
+              "name": "Get-SystemInfo"
+            },
+            {
+              "name": "Update-SystemInfo"
+            }
+          ]
+        },
+        {
+          "name": "SearchFilter",
+          "children": [
+            {
+              "name": "New-SearchFilter"
+            }
+          ]
+        },
+        {
+          "name": "SensorFactoryDefinition",
+          "children": [
+            {
+              "name": "New-SensorFactoryDefinition"
+            }
+          ]
+        },
+        {
+          "name": "PrtgConfig",
+          "children": [
+            {
+              "name": "Backup-PrtgConfig"
+            }
+          ]
+        },
+        {
+          "name": "PrtgCache",
+          "children": [
+            {
+              "name": "Clear-PrtgCache"
+            }
+          ]
+        },
+        {
+          "name": "PrtgConfigFile",
+          "children": [
+            {
+              "name": "Sync-PrtgConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "DeviceParameters",
+          "children": [
+            {
+              "name": "New-DeviceParameters"
+            }
+          ]
+        },
+        {
+          "name": "GroupParameters",
+          "children": [
+            {
+              "name": "New-GroupParameters"
+            }
+          ]
+        },
+        {
+          "name": "NotificationTriggerParameters",
+          "children": [
+            {
+              "name": "New-NotificationTriggerParameters"
+            }
+          ]
+        },
+        {
+          "name": "SensorParameters",
+          "children": [
+            {
+              "name": "New-SensorParameters"
+            }
+          ]
+        },
+        {
+          "name": "PrtgObject",
+          "children": [
+            {
+              "name": "Open-PrtgObject"
+            }
+          ]
+        },
+        {
+          "name": "PrtgCore",
+          "children": [
+            {
+              "name": "Restart-PrtgCore"
+            }
+          ]
+        },
+        {
+          "name": "ChannelProperty",
+          "children": [
+            {
+              "name": "Set-ChannelProperty"
+            }
+          ]
+        },
+        {
+          "name": "NotificationTriggerProperty",
+          "children": [
+            {
+              "name": "Set-NotificationTriggerProperty"
+            }
+          ]
+        },
+        {
+          "name": "ObjectPosition",
+          "children": [
+            {
+              "name": "Set-ObjectPosition"
+            }
+          ]
+        },
+        {
+          "name": "ErrorStatus",
+          "children": [
+            {
+              "name": "Test-ErrorStatus"
+            }
+          ]
+        },
+        {
+          "name": "SortPrtgObject",
+          "children": [
+            {
+              "name": "Invoke-SortPrtgObject"
+            }
+          ]
+        },
+        {
+          "name": "AutoDiscovery",
+          "children": [
+            {
+              "name": "Start-AutoDiscovery"
+            }
+          ]
+        },
+        {
+          "name": "PrtgServer",
+          "children": [
+            {
+              "name": "Connect-PrtgServer"
+            },
+            {
+              "name": "Disconnect-PrtgServer"
+            }
+          ]
+        },
+        {
+          "name": "PrtgProgress",
+          "children": [
+            {
+              "name": "Disable-PrtgProgress"
+            },
+            {
+              "name": "Enable-PrtgProgress"
+            }
+          ]
+        },
+        {
+          "name": "PrtgClient",
+          "children": [
+            {
+              "name": "Get-PrtgClient"
+            },
+            {
+              "name": "Set-PrtgClient"
+            }
+          ]
+        },
+        {
+          "name": "GoPrtgServer",
+          "children": [
+            {
+              "name": "Connect-GoPrtgServer"
+            },
+            {
+              "name": "Get-GoPrtgServer"
+            },
+            {
+              "name": "Install-GoPrtgServer"
+            },
+            {
+              "name": "Uninstall-GoPrtgServer"
+            }
+          ]
+        },
+        {
+          "name": "GoPrtgAlias",
+          "children": [
+            {
+              "name": "Set-GoPrtgAlias"
+            }
+          ]
+        },
+        {
+          "name": "GoPrtgCredential",
+          "children": [
+            {
+              "name": "Update-GoPrtgCredential"
+            }
+          ]
+        },
+        {
+          "name": "PrtgTree",
+          "children": [
+            {
+              "name": "Compare-PrtgTree"
+            },
+            {
+              "name": "Get-PrtgTree"
+            },
+            {
+              "name": "Show-PrtgTree"
+            }
+          ]
+        },
+        {
+          "name": "DeviceNode",
+          "children": [
+            {
+              "name": "New-DeviceNode"
+            }
+          ]
+        },
+        {
+          "name": "GroupNode",
+          "children": [
+            {
+              "name": "New-GroupNode"
+            }
+          ]
+        },
+        {
+          "name": "ProbeNode",
+          "children": [
+            {
+              "name": "New-ProbeNode"
+            }
+          ]
+        },
+        {
+          "name": "PropertyNode",
+          "children": [
+            {
+              "name": "New-PropertyNode"
+            }
+          ]
+        },
+        {
+          "name": "SensorNode",
+          "children": [
+            {
+              "name": "New-SensorNode"
+            }
+          ]
+        },
+        {
+          "name": "TriggerNode",
+          "children": [
+            {
+              "name": "New-TriggerNode"
+            }
+          ]
+        },
+        {
+          "name": "Credential",
+          "children": [
+            {
+              "name": "New-Credential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PrtgXml",
+      "companyName": "Unknown",
+      "author": "lordmilko",
+      "children": [
+        {
+          "name": "Prtg",
+          "children": [
+            {
+              "name": "Prtg"
+            }
+          ]
+        },
+        {
+          "name": "Result",
+          "children": [
+            {
+              "name": "Result"
+            }
+          ]
+        },
+        {
+          "name": "Text",
+          "children": [
+            {
+              "name": "Text"
+            }
+          ]
+        },
+        {
+          "name": "Error",
+          "children": [
+            {
+              "name": "Error"
+            }
+          ]
+        },
+        {
+          "name": "Channel",
+          "children": [
+            {
+              "name": "Channel"
+            }
+          ]
+        },
+        {
+          "name": "Value",
+          "children": [
+            {
+              "name": "Value"
+            }
+          ]
+        },
+        {
+          "name": "Unit",
+          "children": [
+            {
+              "name": "Unit"
+            }
+          ]
+        },
+        {
+          "name": "CustomUnit",
+          "children": [
+            {
+              "name": "CustomUnit"
+            }
+          ]
+        },
+        {
+          "name": "SpeedSize",
+          "children": [
+            {
+              "name": "SpeedSize"
+            }
+          ]
+        },
+        {
+          "name": "VolumeSize",
+          "children": [
+            {
+              "name": "VolumeSize"
+            }
+          ]
+        },
+        {
+          "name": "SpeedTime",
+          "children": [
+            {
+              "name": "SpeedTime"
+            }
+          ]
+        },
+        {
+          "name": "Mode",
+          "children": [
+            {
+              "name": "Mode"
+            }
+          ]
+        },
+        {
+          "name": "Float",
+          "children": [
+            {
+              "name": "Float"
+            }
+          ]
+        },
+        {
+          "name": "DecimalMode",
+          "children": [
+            {
+              "name": "DecimalMode"
+            }
+          ]
+        },
+        {
+          "name": "Warning",
+          "children": [
+            {
+              "name": "Warning"
+            }
+          ]
+        },
+        {
+          "name": "ShowChart",
+          "children": [
+            {
+              "name": "ShowChart"
+            }
+          ]
+        },
+        {
+          "name": "ShowTable",
+          "children": [
+            {
+              "name": "ShowTable"
+            }
+          ]
+        },
+        {
+          "name": "LimitMaxError",
+          "children": [
+            {
+              "name": "LimitMaxError"
+            }
+          ]
+        },
+        {
+          "name": "LimitMaxWarning",
+          "children": [
+            {
+              "name": "LimitMaxWarning"
+            }
+          ]
+        },
+        {
+          "name": "LimitMinWarning",
+          "children": [
+            {
+              "name": "LimitMinWarning"
+            }
+          ]
+        },
+        {
+          "name": "LimitMinError",
+          "children": [
+            {
+              "name": "LimitMinError"
+            }
+          ]
+        },
+        {
+          "name": "LimitErrorMsg",
+          "children": [
+            {
+              "name": "LimitErrorMsg"
+            }
+          ]
+        },
+        {
+          "name": "LimitWarningMsg",
+          "children": [
+            {
+              "name": "LimitWarningMsg"
+            }
+          ]
+        },
+        {
+          "name": "LimitMode",
+          "children": [
+            {
+              "name": "LimitMode"
+            }
+          ]
+        },
+        {
+          "name": "ValueLookup",
+          "children": [
+            {
+              "name": "ValueLookup"
+            }
+          ]
+        },
+        {
+          "name": "NotifyChanged",
+          "children": [
+            {
+              "name": "NotifyChanged"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

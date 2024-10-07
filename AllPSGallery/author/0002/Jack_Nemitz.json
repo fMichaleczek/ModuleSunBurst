@@ -1,0 +1,81 @@
+{
+  "name": "Jack Nemitz",
+  "children": [
+    {
+      "name": "Auger",
+      "companyName": "Unknown",
+      "author": "Jack Nemitz",
+      "children": [
+        {
+          "name": "AugerContext",
+          "children": [
+            {
+              "name": "New-AugerContext"
+            },
+            {
+              "name": "Clear-AugerContext"
+            },
+            {
+              "name": "Get-AugerContext"
+            }
+          ]
+        },
+        {
+          "name": "Auger",
+          "children": [
+            {
+              "name": "Write-Auger"
+            }
+          ]
+        },
+        {
+          "name": "SplunkLog",
+          "children": [
+            {
+              "name": "Send-SplunkLog"
+            }
+          ]
+        },
+        {
+          "name": "SlackLog",
+          "children": [
+            {
+              "name": "Send-SlackLog"
+            }
+          ]
+        },
+        {
+          "name": "MailLog",
+          "children": [
+            {
+              "name": "Send-MailLog"
+            }
+          ]
+        },
+        {
+          "name": "AugerSession",
+          "children": [
+            {
+              "name": "Close-AugerSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pmirin",
+      "companyName": "Unknown",
+      "author": "Jack Nemitz",
+      "children": [
+        {
+          "name": "Pmirin",
+          "children": [
+            {
+              "name": "Invoke-Pmirin"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

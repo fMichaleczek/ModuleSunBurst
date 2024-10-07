@@ -1,0 +1,5297 @@
+{
+  "name": "Abdullah Ollivierre",
+  "children": [
+    {
+      "name": "EnhancedAO.Graph.SignInLogs",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "Result",
+          "children": [
+            {
+              "name": "Add-Result"
+            },
+            {
+              "name": "New-Result"
+            }
+          ]
+        },
+        {
+          "name": "DeviceStateInIntune",
+          "children": [
+            {
+              "name": "Check-DeviceStateInIntune"
+            }
+          ]
+        },
+        {
+          "name": "SignInLogs",
+          "children": [
+            {
+              "name": "Export-SignInLogs"
+            },
+            {
+              "name": "Load-SignInLogs"
+            },
+            {
+              "name": "Process-SignInLogs"
+            }
+          ]
+        },
+        {
+          "name": "ExportAndProcessSignInLogs",
+          "children": [
+            {
+              "name": "ExportAndProcessSignInLogs"
+            }
+          ]
+        },
+        {
+          "name": "DeviceStateWithRetry",
+          "children": [
+            {
+              "name": "Fetch-DeviceStateWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "OSVersion",
+          "children": [
+            {
+              "name": "Fetch-OSVersion"
+            }
+          ]
+        },
+        {
+          "name": "OSVersionWithRetry",
+          "children": [
+            {
+              "name": "Fetch-OSVersionWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "UserLicense",
+          "children": [
+            {
+              "name": "Fetch-UserLicense"
+            }
+          ]
+        },
+        {
+          "name": "UserLicensesWithRetry",
+          "children": [
+            {
+              "name": "Fetch-UserLicensesWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "LatestJsonFile",
+          "children": [
+            {
+              "name": "Find-LatestJsonFile"
+            }
+          ]
+        },
+        {
+          "name": "LicenseReports",
+          "children": [
+            {
+              "name": "Generate-LicenseReports"
+            }
+          ]
+        },
+        {
+          "name": "UserLicenses",
+          "children": [
+            {
+              "name": "Get-UserLicenses"
+            }
+          ]
+        },
+        {
+          "name": "ExternalAADTenant",
+          "children": [
+            {
+              "name": "Handle-ExternalAADTenant"
+            }
+          ]
+        },
+        {
+          "name": "Context",
+          "children": [
+            {
+              "name": "Initialize-Context"
+            }
+          ]
+        },
+        {
+          "name": "DeviceDetail",
+          "children": [
+            {
+              "name": "New-DeviceDetail"
+            }
+          ]
+        },
+        {
+          "name": "DeviceItem",
+          "children": [
+            {
+              "name": "New-DeviceItem"
+            },
+            {
+              "name": "Process-DeviceItem"
+            }
+          ]
+        },
+        {
+          "name": "ProcessingContext",
+          "children": [
+            {
+              "name": "New-ProcessingContext"
+            }
+          ]
+        },
+        {
+          "name": "SignInLog",
+          "children": [
+            {
+              "name": "New-SignInLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedBoilerPlateAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "EnvPath",
+          "children": [
+            {
+              "name": "Add-EnvPath"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVersionStatus",
+          "children": [
+            {
+              "name": "Check-ModuleVersionStatus"
+            }
+          ]
+        },
+        {
+          "name": "WindowsPathToLinuxPath",
+          "children": [
+            {
+              "name": "Convert-WindowsPathToLinuxPath"
+            }
+          ]
+        },
+        {
+          "name": "Psd1File",
+          "children": [
+            {
+              "name": "Download-Psd1File"
+            }
+          ]
+        },
+        {
+          "name": "LoggingFunctionExists",
+          "children": [
+            {
+              "name": "Ensure-LoggingFunctionExists"
+            }
+          ]
+        },
+        {
+          "name": "ModulesScriptPathsAndVariables",
+          "children": [
+            {
+              "name": "Get-ModulesScriptPathsAndVariables"
+            }
+          ]
+        },
+        {
+          "name": "Modules",
+          "children": [
+            {
+              "name": "Import-Modules"
+            },
+            {
+              "name": "Install-Modules"
+            }
+          ]
+        },
+        {
+          "name": "ModulesFromLocalRepository",
+          "children": [
+            {
+              "name": "Import-ModulesFromLocalRepository"
+            }
+          ]
+        },
+        {
+          "name": "ModuleWithRetry",
+          "children": [
+            {
+              "name": "Import-ModuleWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "ModuleWithPowerShell5Fallback",
+          "children": [
+            {
+              "name": "Install-ModuleWithPowerShell5Fallback"
+            }
+          ]
+        },
+        {
+          "name": "RequiredModules",
+          "children": [
+            {
+              "name": "Install-RequiredModules"
+            }
+          ]
+        },
+        {
+          "name": "InstallAndImportModulesPSGallery",
+          "children": [
+            {
+              "name": "InstallAndImportModulesPSGallery"
+            }
+          ]
+        },
+        {
+          "name": "InPowerShell5",
+          "children": [
+            {
+              "name": "Invoke-InPowerShell5"
+            }
+          ]
+        },
+        {
+          "name": "ServerCore",
+          "children": [
+            {
+              "name": "Is-ServerCore"
+            }
+          ]
+        },
+        {
+          "name": "OldVersions",
+          "children": [
+            {
+              "name": "Remove-OldVersions"
+            }
+          ]
+        },
+        {
+          "name": "ModulePaths",
+          "children": [
+            {
+              "name": "Reset-ModulePaths"
+            }
+          ]
+        },
+        {
+          "name": "ModuleIfOldOrMissing",
+          "children": [
+            {
+              "name": "Update-ModuleIfOldOrMissing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedDeviceMigrationAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "CopyOperationStatus",
+          "children": [
+            {
+              "name": "Analyze-CopyOperationStatus"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveSyncUtilStatus",
+          "children": [
+            {
+              "name": "Analyze-OneDriveSyncUtilStatus"
+            }
+          ]
+        },
+        {
+          "name": "RegistrySettings",
+          "children": [
+            {
+              "name": "Apply-RegistrySettings"
+            }
+          ]
+        },
+        {
+          "name": "UserFilesToOneDrive",
+          "children": [
+            {
+              "name": "Backup-UserFilesToOneDrive"
+            }
+          ]
+        },
+        {
+          "name": "UserInput",
+          "children": [
+            {
+              "name": "Block-UserInput"
+            }
+          ]
+        },
+        {
+          "name": "DomainMembership",
+          "children": [
+            {
+              "name": "Check-DomainMembership"
+            }
+          ]
+        },
+        {
+          "name": "IntuneEnrollment",
+          "children": [
+            {
+              "name": "Check-IntuneEnrollment"
+            }
+          ]
+        },
+        {
+          "name": "ODSyncUtilStatus",
+          "children": [
+            {
+              "name": "Check-ODSyncUtilStatus"
+            }
+          ]
+        },
+        {
+          "name": "PackageAccount",
+          "children": [
+            {
+              "name": "Check-PackageAccount"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveCache",
+          "children": [
+            {
+              "name": "Clear-OneDriveCache"
+            }
+          ]
+        },
+        {
+          "name": "EventLogSource",
+          "children": [
+            {
+              "name": "Create-EventLogSource"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveCacheClearTask",
+          "children": [
+            {
+              "name": "Create-OneDriveCacheClearTask"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveRemediationTask",
+          "children": [
+            {
+              "name": "Create-OneDriveRemediationTask"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveSyncUtilStatusTask",
+          "children": [
+            {
+              "name": "Create-OneDriveSyncUtilStatusTask"
+            }
+          ]
+        },
+        {
+          "name": "PPKG",
+          "children": [
+            {
+              "name": "Create-PPKG"
+            },
+            {
+              "name": "Install-PPKG"
+            }
+          ]
+        },
+        {
+          "name": "UserFileBackupTask",
+          "children": [
+            {
+              "name": "Create-UserFileBackupTask"
+            }
+          ]
+        },
+        {
+          "name": "LocalUserAccounts",
+          "children": [
+            {
+              "name": "Disable-LocalUserAccounts"
+            },
+            {
+              "name": "Enable-LocalUserAccounts"
+            },
+            {
+              "name": "Manage-LocalUserAccounts"
+            }
+          ]
+        },
+        {
+          "name": "OOBEPrivacy",
+          "children": [
+            {
+              "name": "Disable-OOBEPrivacy"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTaskByPath",
+          "children": [
+            {
+              "name": "Disable-ScheduledTaskByPath"
+            }
+          ]
+        },
+        {
+          "name": "ADKOffline",
+          "children": [
+            {
+              "name": "Download-ADKOffline"
+            }
+          ]
+        },
+        {
+          "name": "InstallMDT",
+          "children": [
+            {
+              "name": "Download-InstallMDT"
+            }
+          ]
+        },
+        {
+          "name": "MigrationTool",
+          "children": [
+            {
+              "name": "Download-MigrationTool"
+            }
+          ]
+        },
+        {
+          "name": "ODSyncUtil",
+          "children": [
+            {
+              "name": "Download-ODSyncUtil"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveLib",
+          "children": [
+            {
+              "name": "Download-OneDriveLib"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveSetup",
+          "children": [
+            {
+              "name": "Download-OneDriveSetup"
+            },
+            {
+              "name": "Install-OneDriveSetup"
+            }
+          ]
+        },
+        {
+          "name": "UserInLocalAdminGroup",
+          "children": [
+            {
+              "name": "Ensure-UserInLocalAdminGroup"
+            }
+          ]
+        },
+        {
+          "name": "BitLockerKey",
+          "children": [
+            {
+              "name": "Escrow-BitLockerKey"
+            }
+          ]
+        },
+        {
+          "name": "MigrationCleanupTasks",
+          "children": [
+            {
+              "name": "Execute-MigrationCleanupTasks"
+            }
+          ]
+        },
+        {
+          "name": "MigrationToolkit",
+          "children": [
+            {
+              "name": "Execute-MigrationToolkit"
+            }
+          ]
+        },
+        {
+          "name": "NewStatusFile",
+          "children": [
+            {
+              "name": "Find-NewStatusFile"
+            }
+          ]
+        },
+        {
+          "name": "OneDrivePath",
+          "children": [
+            {
+              "name": "Find-OneDrivePath"
+            }
+          ]
+        },
+        {
+          "name": "RemoveIntuneMgmtSummaryReport",
+          "children": [
+            {
+              "name": "Generate-RemoveIntuneMgmtSummaryReport"
+            }
+          ]
+        },
+        {
+          "name": "DSRegStatus",
+          "children": [
+            {
+              "name": "Get-DSRegStatus"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedLocalGroupMembers",
+          "children": [
+            {
+              "name": "Get-EnhancedLocalGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "GitHubPAT",
+          "children": [
+            {
+              "name": "Get-GitHubPAT"
+            }
+          ]
+        },
+        {
+          "name": "KeyProtectorId",
+          "children": [
+            {
+              "name": "Get-KeyProtectorId"
+            }
+          ]
+        },
+        {
+          "name": "ADKFromMSI",
+          "children": [
+            {
+              "name": "Install-ADKFromMSI"
+            }
+          ]
+        },
+        {
+          "name": "Software",
+          "children": [
+            {
+              "name": "Install-Software"
+            }
+          ]
+        },
+        {
+          "name": "BitlockerEscrow",
+          "children": [
+            {
+              "name": "Invoke-BitlockerEscrow"
+            }
+          ]
+        },
+        {
+          "name": "VaultDecryptionProcess",
+          "children": [
+            {
+              "name": "Invoke-VaultDecryptionProcess"
+            }
+          ]
+        },
+        {
+          "name": "Domain",
+          "children": [
+            {
+              "name": "Leave-Domain"
+            }
+          ]
+        },
+        {
+          "name": "MigrateToAADJOnly",
+          "children": [
+            {
+              "name": "Main-MigrateToAADJOnly"
+            }
+          ]
+        },
+        {
+          "name": "NetworkAdapters",
+          "children": [
+            {
+              "name": "Manage-NetworkAdapters"
+            }
+          ]
+        },
+        {
+          "name": "UserSessions",
+          "children": [
+            {
+              "name": "Manage-UserSessions"
+            }
+          ]
+        },
+        {
+          "name": "KFMSync",
+          "children": [
+            {
+              "name": "Perform-KFMSync"
+            }
+          ]
+        },
+        {
+          "name": "Phase1EntraJoin",
+          "children": [
+            {
+              "name": "PostRunOnce-Phase1EntraJoin"
+            }
+          ]
+        },
+        {
+          "name": "Phase2EscrowBitlocker",
+          "children": [
+            {
+              "name": "PostRunOnce-Phase2EscrowBitlocker"
+            }
+          ]
+        },
+        {
+          "name": "AADMigration",
+          "children": [
+            {
+              "name": "Prepare-AADMigration"
+            }
+          ]
+        },
+        {
+          "name": "SolutionDirectory",
+          "children": [
+            {
+              "name": "Prepare-SolutionDirectory"
+            }
+          ]
+        },
+        {
+          "name": "AADMigrationArtifacts",
+          "children": [
+            {
+              "name": "Remove-AADMigrationArtifacts"
+            }
+          ]
+        },
+        {
+          "name": "ADJoin",
+          "children": [
+            {
+              "name": "Remove-ADJoin"
+            }
+          ]
+        },
+        {
+          "name": "CompanyPortal",
+          "children": [
+            {
+              "name": "Remove-CompanyPortal"
+            }
+          ]
+        },
+        {
+          "name": "DeviceCertificates",
+          "children": [
+            {
+              "name": "Remove-DeviceCertificates"
+            }
+          ]
+        },
+        {
+          "name": "ExistingStatusFiles",
+          "children": [
+            {
+              "name": "Remove-ExistingStatusFiles"
+            }
+          ]
+        },
+        {
+          "name": "Hybrid",
+          "children": [
+            {
+              "name": "Remove-Hybrid"
+            }
+          ]
+        },
+        {
+          "name": "InstalledPPKG",
+          "children": [
+            {
+              "name": "Remove-InstalledPPKG"
+            }
+          ]
+        },
+        {
+          "name": "IntuneMgmt",
+          "children": [
+            {
+              "name": "Remove-IntuneMgmt"
+            }
+          ]
+        },
+        {
+          "name": "LocalUserAccount",
+          "children": [
+            {
+              "name": "Remove-LocalUserAccount"
+            }
+          ]
+        },
+        {
+          "name": "MigrationFiles",
+          "children": [
+            {
+              "name": "Remove-MigrationFiles"
+            }
+          ]
+        },
+        {
+          "name": "RegistryKeys",
+          "children": [
+            {
+              "name": "Remove-RegistryKeys"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTasks",
+          "children": [
+            {
+              "name": "Remove-ScheduledTasks"
+            }
+          ]
+        },
+        {
+          "name": "UserCertificates",
+          "children": [
+            {
+              "name": "Remove-UserCertificates"
+            }
+          ]
+        },
+        {
+          "name": "BannerImage",
+          "children": [
+            {
+              "name": "Replace-BannerImage"
+            }
+          ]
+        },
+        {
+          "name": "DeployApplicationPS1",
+          "children": [
+            {
+              "name": "Replace-DeployApplicationPS1"
+            }
+          ]
+        },
+        {
+          "name": "ComputerIfNeeded",
+          "children": [
+            {
+              "name": "Restart-ComputerIfNeeded"
+            }
+          ]
+        },
+        {
+          "name": "Autologin",
+          "children": [
+            {
+              "name": "Set-Autologin"
+            }
+          ]
+        },
+        {
+          "name": "ODKFMRegistrySettings",
+          "children": [
+            {
+              "name": "Set-ODKFMRegistrySettings"
+            }
+          ]
+        },
+        {
+          "name": "RegistryValue",
+          "children": [
+            {
+              "name": "Set-RegistryValue"
+            },
+            {
+              "name": "Validate-RegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "RunOnce",
+          "children": [
+            {
+              "name": "Set-RunOnce"
+            }
+          ]
+        },
+        {
+          "name": "MigrationInProgressForm",
+          "children": [
+            {
+              "name": "Show-MigrationInProgressForm"
+            }
+          ]
+        },
+        {
+          "name": "FileDownloadWithRetry",
+          "children": [
+            {
+              "name": "Start-FileDownloadWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "ProcessesUsingOneDriveLib",
+          "children": [
+            {
+              "name": "Stop-ProcessesUsingOneDriveLib"
+            }
+          ]
+        },
+        {
+          "name": "BitLockerWithReboot",
+          "children": [
+            {
+              "name": "Suspend-BitLockerWithReboot"
+            }
+          ]
+        },
+        {
+          "name": "Bitlocker",
+          "children": [
+            {
+              "name": "Test-Bitlocker"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTask",
+          "children": [
+            {
+              "name": "Trigger-ScheduledTask"
+            },
+            {
+              "name": "Validate-ScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "LogsToGitHub",
+          "children": [
+            {
+              "name": "Upload-LogsToGitHub"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveLibUsage",
+          "children": [
+            {
+              "name": "Validate-OneDriveLibUsage"
+            }
+          ]
+        },
+        {
+          "name": "PPKGInstallation",
+          "children": [
+            {
+              "name": "Validate-PPKGInstallation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedFileManagerAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "FilesWithRobocopy",
+          "children": [
+            {
+              "name": "Copy-FilesWithRobocopy"
+            }
+          ]
+        },
+        {
+          "name": "FileToPublicAndTemp",
+          "children": [
+            {
+              "name": "Copy-FileToPublicAndTemp"
+            }
+          ]
+        },
+        {
+          "name": "Handle",
+          "children": [
+            {
+              "name": "Download-Handle"
+            }
+          ]
+        },
+        {
+          "name": "LockingProcess",
+          "children": [
+            {
+              "name": "Get-LockingProcess"
+            }
+          ]
+        },
+        {
+          "name": "LockingProcesses",
+          "children": [
+            {
+              "name": "Kill-LockingProcesses"
+            },
+            {
+              "name": "Manage-LockingProcesses"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedItem",
+          "children": [
+            {
+              "name": "Remove-EnhancedItem"
+            }
+          ]
+        },
+        {
+          "name": "ExistingHandle",
+          "children": [
+            {
+              "name": "Remove-ExistingHandle"
+            }
+          ]
+        },
+        {
+          "name": "FileExists",
+          "children": [
+            {
+              "name": "Validate-FileExists"
+            }
+          ]
+        },
+        {
+          "name": "CopyOperation",
+          "children": [
+            {
+              "name": "Verify-CopyOperation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedGraphAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "KeyCredentialToApp",
+          "children": [
+            {
+              "name": "Add-KeyCredentialToApp"
+            }
+          ]
+        },
+        {
+          "name": "GraphWithCert",
+          "children": [
+            {
+              "name": "Connect-GraphWithCert"
+            }
+          ]
+        },
+        {
+          "name": "ToMicrosoftGraphIfServerCore",
+          "children": [
+            {
+              "name": "Connect-ToMicrosoftGraphIfServerCore"
+            }
+          ]
+        },
+        {
+          "name": "EntraDeviceIdToIntuneDeviceId",
+          "children": [
+            {
+              "name": "Convert-EntraDeviceIdToIntuneDeviceId"
+            }
+          ]
+        },
+        {
+          "name": "AndVerifyServicePrincipal",
+          "children": [
+            {
+              "name": "Create-AndVerifyServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "AppRegistration",
+          "children": [
+            {
+              "name": "Create-AppRegistration"
+            }
+          ]
+        },
+        {
+          "name": "SelfSignedCert",
+          "children": [
+            {
+              "name": "Create-SelfSignedCert"
+            }
+          ]
+        },
+        {
+          "name": "SelfSignedCertOpenSSL",
+          "children": [
+            {
+              "name": "Create-SelfSignedCertOpenSSL"
+            }
+          ]
+        },
+        {
+          "name": "ExportCertificatetoCER",
+          "children": [
+            {
+              "name": "ExportCertificatetoCER"
+            }
+          ]
+        },
+        {
+          "name": "AppInfoFromJson",
+          "children": [
+            {
+              "name": "Get-AppInfoFromJson"
+            }
+          ]
+        },
+        {
+          "name": "AppName",
+          "children": [
+            {
+              "name": "Get-AppName"
+            }
+          ]
+        },
+        {
+          "name": "FriendlyNamesForPermissions",
+          "children": [
+            {
+              "name": "Get-FriendlyNamesForPermissions"
+            }
+          ]
+        },
+        {
+          "name": "MsGraphAccessToken",
+          "children": [
+            {
+              "name": "Get-MsGraphAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "MsGraphAccessTokenCert",
+          "children": [
+            {
+              "name": "Get-MsGraphAccessTokenCert"
+            }
+          ]
+        },
+        {
+          "name": "Secrets",
+          "children": [
+            {
+              "name": "Get-Secrets"
+            },
+            {
+              "name": "Output-secrets"
+            }
+          ]
+        },
+        {
+          "name": "SignInLogs",
+          "children": [
+            {
+              "name": "Get-SignInLogs"
+            }
+          ]
+        },
+        {
+          "name": "TenantDetails",
+          "children": [
+            {
+              "name": "Get-TenantDetails"
+            }
+          ]
+        },
+        {
+          "name": "AdminConsentToAllPermissions",
+          "children": [
+            {
+              "name": "Grant-AdminConsentToAllPermissions"
+            }
+          ]
+        },
+        {
+          "name": "AdminConsentToApiPermissions",
+          "children": [
+            {
+              "name": "Grant-AdminConsentToApiPermissions"
+            }
+          ]
+        },
+        {
+          "name": "AdminConsentToDelegatedPermissions",
+          "children": [
+            {
+              "name": "Grant-AdminConsentToDelegatedPermissions"
+            }
+          ]
+        },
+        {
+          "name": "AdminConsentUsingAzCli",
+          "children": [
+            {
+              "name": "Grant-AdminConsentUsingAzCli"
+            }
+          ]
+        },
+        {
+          "name": "CertificateIfNotExist",
+          "children": [
+            {
+              "name": "Import-CertificateIfNotExist"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedGraphAORequest",
+          "children": [
+            {
+              "name": "Invoke-EnhancedGraphAORequest"
+            }
+          ]
+        },
+        {
+          "name": "Certificate",
+          "children": [
+            {
+              "name": "Load-Certificate"
+            },
+            {
+              "name": "Validate-Certificate"
+            }
+          ]
+        },
+        {
+          "name": "CertificateStore",
+          "children": [
+            {
+              "name": "Open-CertificateStore"
+            }
+          ]
+        },
+        {
+          "name": "AppListJson",
+          "children": [
+            {
+              "name": "Remove-AppListJson"
+            }
+          ]
+        },
+        {
+          "name": "AppRegistrationsAndDeletedItems",
+          "children": [
+            {
+              "name": "Remove-AppRegistrationsAndDeletedItems"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationPermissions",
+          "children": [
+            {
+              "name": "Update-ApplicationPermissions"
+            }
+          ]
+        },
+        {
+          "name": "AppCreation",
+          "children": [
+            {
+              "name": "Validate-AppCreation"
+            }
+          ]
+        },
+        {
+          "name": "AppCreationWithRetry",
+          "children": [
+            {
+              "name": "Validate-AppCreationWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "CertCreation",
+          "children": [
+            {
+              "name": "Validate-CertCreation"
+            }
+          ]
+        },
+        {
+          "name": "UriAccess",
+          "children": [
+            {
+              "name": "Validate-UriAccess"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedHyperVAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "DVDDriveToVM",
+          "children": [
+            {
+              "name": "Add-DVDDriveToVM"
+            }
+          ]
+        },
+        {
+          "name": "ConfigureVM",
+          "children": [
+            {
+              "name": "ConfigureVM"
+            }
+          ]
+        },
+        {
+          "name": "ConfigureVMBoot",
+          "children": [
+            {
+              "name": "ConfigureVMBoot"
+            }
+          ]
+        },
+        {
+          "name": "VMConsole",
+          "children": [
+            {
+              "name": "Connect-VMConsole"
+            }
+          ]
+        },
+        {
+          "name": "CreateVMFolder",
+          "children": [
+            {
+              "name": "CreateVMFolder"
+            }
+          ]
+        },
+        {
+          "name": "VHDX",
+          "children": [
+            {
+              "name": "Dismount-VHDX"
+            }
+          ]
+        },
+        {
+          "name": "EnableVMTPM",
+          "children": [
+            {
+              "name": "EnableVMTPM"
+            }
+          ]
+        },
+        {
+          "name": "EnsureUntrustedGuardianExists",
+          "children": [
+            {
+              "name": "EnsureUntrustedGuardianExists"
+            }
+          ]
+        },
+        {
+          "name": "DependentVMs",
+          "children": [
+            {
+              "name": "Get-DependentVMs"
+            },
+            {
+              "name": "Shutdown-DependentVMs"
+            }
+          ]
+        },
+        {
+          "name": "NextVMNamePrefix",
+          "children": [
+            {
+              "name": "Get-NextVMNamePrefix"
+            }
+          ]
+        },
+        {
+          "name": "HyperVServices",
+          "children": [
+            {
+              "name": "Initialize-HyperVServices"
+            }
+          ]
+        },
+        {
+          "name": "CustomVMWithDifferencingDisk",
+          "children": [
+            {
+              "name": "New-CustomVMWithDifferencingDisk"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "children": [
+            {
+              "name": "Parse-Size"
+            }
+          ]
+        },
+        {
+          "name": "VMEnhanced",
+          "children": [
+            {
+              "name": "Start-VMEnhanced"
+            }
+          ]
+        },
+        {
+          "name": "ISOAdded",
+          "children": [
+            {
+              "name": "Validate-ISOAdded"
+            }
+          ]
+        },
+        {
+          "name": "VHDMount",
+          "children": [
+            {
+              "name": "Validate-VHDMount"
+            }
+          ]
+        },
+        {
+          "name": "VMExists",
+          "children": [
+            {
+              "name": "Validate-VMExists"
+            }
+          ]
+        },
+        {
+          "name": "VMStarted",
+          "children": [
+            {
+              "name": "Validate-VMStarted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedIntuneAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "IntuneCertificates",
+          "children": [
+            {
+              "name": "Check-IntuneCertificates"
+            }
+          ]
+        },
+        {
+          "name": "RegistryKeys",
+          "children": [
+            {
+              "name": "Check-RegistryKeys"
+            }
+          ]
+        },
+        {
+          "name": "TaskSchedulerEntriesAndTasks",
+          "children": [
+            {
+              "name": "Check-TaskSchedulerEntriesAndTasks"
+            },
+            {
+              "name": "Remove-TaskSchedulerEntriesAndTasks"
+            }
+          ]
+        },
+        {
+          "name": "MDMAutoEnrollment",
+          "children": [
+            {
+              "name": "Enable-MDMAutoEnrollment"
+            }
+          ]
+        },
+        {
+          "name": "ManagementGUID",
+          "children": [
+            {
+              "name": "Get-ManagementGUID"
+            }
+          ]
+        },
+        {
+          "name": "IntuneCleanup",
+          "children": [
+            {
+              "name": "Perform-IntuneCleanup"
+            }
+          ]
+        },
+        {
+          "name": "MDMCertificates",
+          "children": [
+            {
+              "name": "Remove-MDMCertificates"
+            }
+          ]
+        },
+        {
+          "name": "RegistryEntries",
+          "children": [
+            {
+              "name": "Remove-RegistryEntries"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedLoggingAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "Data",
+          "children": [
+            {
+              "name": "Export-Data"
+            }
+          ]
+        },
+        {
+          "name": "FunctionModule",
+          "children": [
+            {
+              "name": "Get-FunctionModule"
+            }
+          ]
+        },
+        {
+          "name": "PSFCSVLogFilePath",
+          "children": [
+            {
+              "name": "Get-PSFCSVLogFilePath"
+            }
+          ]
+        },
+        {
+          "name": "TranscriptFilePath",
+          "children": [
+            {
+              "name": "Get-TranscriptFilePath"
+            }
+          ]
+        },
+        {
+          "name": "PSFLogging",
+          "children": [
+            {
+              "name": "Handle-PSFLogging"
+            }
+          ]
+        },
+        {
+          "name": "ScriptAndLogging",
+          "children": [
+            {
+              "name": "Initialize-ScriptAndLogging"
+            }
+          ]
+        },
+        {
+          "name": "LogsFolder",
+          "children": [
+            {
+              "name": "Remove-LogsFolder"
+            }
+          ]
+        },
+        {
+          "name": "PSFLogFilesWithUsername",
+          "children": [
+            {
+              "name": "Rename-PSFLogFilesWithUsername"
+            }
+          ]
+        },
+        {
+          "name": "LogFilePath",
+          "children": [
+            {
+              "name": "Sanitize-LogFilePath"
+            },
+            {
+              "name": "Validate-LogFilePath"
+            }
+          ]
+        },
+        {
+          "name": "LogMessage",
+          "children": [
+            {
+              "name": "Write-LogMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedModuleStarterAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "EnvPath",
+          "children": [
+            {
+              "name": "Add-EnvPath"
+            }
+          ]
+        },
+        {
+          "name": "Step",
+          "children": [
+            {
+              "name": "Add-Step"
+            },
+            {
+              "name": "Log-Step"
+            }
+          ]
+        },
+        {
+          "name": "GitHubCLI",
+          "children": [
+            {
+              "name": "Authenticate-GitHubCLI"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVersionStatus",
+          "children": [
+            {
+              "name": "Check-ModuleVersionStatus"
+            }
+          ]
+        },
+        {
+          "name": "CheckAndElevate",
+          "children": [
+            {
+              "name": "CheckAndElevate"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedRepos",
+          "children": [
+            {
+              "name": "Clone-EnhancedRepos"
+            }
+          ]
+        },
+        {
+          "name": "SoftwareVersion",
+          "children": [
+            {
+              "name": "Compare-SoftwareVersion"
+            }
+          ]
+        },
+        {
+          "name": "WindowsPathToLinuxPath",
+          "children": [
+            {
+              "name": "Convert-WindowsPathToLinuxPath"
+            }
+          ]
+        },
+        {
+          "name": "Modules",
+          "children": [
+            {
+              "name": "Download-Modules"
+            },
+            {
+              "name": "Import-Modules"
+            },
+            {
+              "name": "Install-Modules"
+            }
+          ]
+        },
+        {
+          "name": "Psd1File",
+          "children": [
+            {
+              "name": "Download-Psd1File"
+            }
+          ]
+        },
+        {
+          "name": "Script",
+          "children": [
+            {
+              "name": "Elevate-Script"
+            }
+          ]
+        },
+        {
+          "name": "GitIsInstalled",
+          "children": [
+            {
+              "name": "Ensure-GitIsInstalled"
+            }
+          ]
+        },
+        {
+          "name": "LoggingFunctionExists",
+          "children": [
+            {
+              "name": "Ensure-LoggingFunctionExists"
+            }
+          ]
+        },
+        {
+          "name": "ModuleIsLatest",
+          "children": [
+            {
+              "name": "Ensure-ModuleIsLatest"
+            }
+          ]
+        },
+        {
+          "name": "NuGetProvider",
+          "children": [
+            {
+              "name": "Ensure-NuGetProvider"
+            }
+          ]
+        },
+        {
+          "name": "SoftwareInstallSummaryReport",
+          "children": [
+            {
+              "name": "Generate-SoftwareInstallSummaryReport"
+            }
+          ]
+        },
+        {
+          "name": "GitPath",
+          "children": [
+            {
+              "name": "Get-GitPath"
+            }
+          ]
+        },
+        {
+          "name": "LatestChocoVersion",
+          "children": [
+            {
+              "name": "Get-LatestChocoVersion"
+            }
+          ]
+        },
+        {
+          "name": "LatestWinGetversion",
+          "children": [
+            {
+              "name": "Get-LatestWinGetversion"
+            }
+          ]
+        },
+        {
+          "name": "ModulesScriptPathsAndVariables",
+          "children": [
+            {
+              "name": "Get-ModulesScriptPathsAndVariables"
+            }
+          ]
+        },
+        {
+          "name": "ParentScriptName",
+          "children": [
+            {
+              "name": "Get-ParentScriptName"
+            }
+          ]
+        },
+        {
+          "name": "Platform",
+          "children": [
+            {
+              "name": "Get-Platform"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellPath",
+          "children": [
+            {
+              "name": "Get-PowerShellPath"
+            }
+          ]
+        },
+        {
+          "name": "Error",
+          "children": [
+            {
+              "name": "Handle-Error"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedModules",
+          "children": [
+            {
+              "name": "Import-EnhancedModules"
+            }
+          ]
+        },
+        {
+          "name": "ModulesFromLocalRepository",
+          "children": [
+            {
+              "name": "Import-ModulesFromLocalRepository"
+            }
+          ]
+        },
+        {
+          "name": "ModuleWithRetry",
+          "children": [
+            {
+              "name": "Import-ModuleWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "Environment",
+          "children": [
+            {
+              "name": "Initialize-Environment"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedModule",
+          "children": [
+            {
+              "name": "Install-EnhancedModule"
+            }
+          ]
+        },
+        {
+          "name": "GitFromWeb",
+          "children": [
+            {
+              "name": "Install-GitFromWeb"
+            }
+          ]
+        },
+        {
+          "name": "ModuleInPS5",
+          "children": [
+            {
+              "name": "Install-ModuleInPS5"
+            }
+          ]
+        },
+        {
+          "name": "PowerShell7FromWeb",
+          "children": [
+            {
+              "name": "Install-PowerShell7FromWeb"
+            }
+          ]
+        },
+        {
+          "name": "RequiredModules",
+          "children": [
+            {
+              "name": "Install-RequiredModules"
+            }
+          ]
+        },
+        {
+          "name": "InstallAndImportModulesPSGallery",
+          "children": [
+            {
+              "name": "InstallAndImportModulesPSGallery"
+            }
+          ]
+        },
+        {
+          "name": "CloneEnhancedRepos",
+          "children": [
+            {
+              "name": "Invoke-CloneEnhancedRepos"
+            }
+          ]
+        },
+        {
+          "name": "CommandInPs5",
+          "children": [
+            {
+              "name": "invoke-CommandInPs5"
+            }
+          ]
+        },
+        {
+          "name": "GitCommandWithRetry",
+          "children": [
+            {
+              "name": "Invoke-GitCommandWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "InPowerShell5",
+          "children": [
+            {
+              "name": "Invoke-InPowerShell5"
+            }
+          ]
+        },
+        {
+          "name": "ModuleStarter",
+          "children": [
+            {
+              "name": "Invoke-ModuleStarter"
+            }
+          ]
+        },
+        {
+          "name": "ScriptInPS5",
+          "children": [
+            {
+              "name": "Invoke-ScriptInPS5"
+            }
+          ]
+        },
+        {
+          "name": "WebScript",
+          "children": [
+            {
+              "name": "Invoke-WebScript"
+            }
+          ]
+        },
+        {
+          "name": "ServerCore",
+          "children": [
+            {
+              "name": "Is-ServerCore"
+            }
+          ]
+        },
+        {
+          "name": "Params",
+          "children": [
+            {
+              "name": "Log-Params"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositories",
+          "children": [
+            {
+              "name": "Manage-GitRepositories"
+            }
+          ]
+        },
+        {
+          "name": "SoftwareDetails",
+          "children": [
+            {
+              "name": "Process-SoftwareDetails"
+            }
+          ]
+        },
+        {
+          "name": "OldVersions",
+          "children": [
+            {
+              "name": "Remove-OldVersions"
+            }
+          ]
+        },
+        {
+          "name": "ModulePaths",
+          "children": [
+            {
+              "name": "Reset-ModulePaths"
+            }
+          ]
+        },
+        {
+          "name": "VersionString",
+          "children": [
+            {
+              "name": "Sanitize-VersionString"
+            }
+          ]
+        },
+        {
+          "name": "GlobalPaths",
+          "children": [
+            {
+              "name": "Setup-GlobalPaths"
+            }
+          ]
+        },
+        {
+          "name": "Admin",
+          "children": [
+            {
+              "name": "Test-Admin"
+            }
+          ]
+        },
+        {
+          "name": "RunningAsSystem",
+          "children": [
+            {
+              "name": "Test-RunningAsSystem"
+            }
+          ]
+        },
+        {
+          "name": "SoftwareInstallation",
+          "children": [
+            {
+              "name": "Test-SoftwareInstallation"
+            },
+            {
+              "name": "Validate-SoftwareInstallation"
+            }
+          ]
+        },
+        {
+          "name": "Url",
+          "children": [
+            {
+              "name": "Test-Url"
+            }
+          ]
+        },
+        {
+          "name": "ModuleIfOldOrMissing",
+          "children": [
+            {
+              "name": "Update-ModuleIfOldOrMissing"
+            }
+          ]
+        },
+        {
+          "name": "InstallationResults",
+          "children": [
+            {
+              "name": "Validate-InstallationResults"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedLog",
+          "children": [
+            {
+              "name": "Write-EnhancedLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedPSADTAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "LocalAdminAccount",
+          "children": [
+            {
+              "name": "Create-LocalAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "BitLockerStatus",
+          "children": [
+            {
+              "name": "Detect-BitLockerStatus"
+            }
+          ]
+        },
+        {
+          "name": "FortiClientEMSInstallation",
+          "children": [
+            {
+              "name": "Detect-FortiClientEMSInstallation"
+            }
+          ]
+        },
+        {
+          "name": "SystemMode",
+          "children": [
+            {
+              "name": "Detect-SystemMode"
+            }
+          ]
+        },
+        {
+          "name": "SafeModeBasedOnDetection",
+          "children": [
+            {
+              "name": "Enter-SafeModeBasedOnDetection"
+            },
+            {
+              "name": "Exit-SafeModeBasedOnDetection"
+            }
+          ]
+        },
+        {
+          "name": "RegistryKeys",
+          "children": [
+            {
+              "name": "Export-RegistryKeys"
+            },
+            {
+              "name": "Validate-RegistryKeys"
+            }
+          ]
+        },
+        {
+          "name": "UninstallString",
+          "children": [
+            {
+              "name": "Find-UninstallString"
+            }
+          ]
+        },
+        {
+          "name": "FortiClientConfig",
+          "children": [
+            {
+              "name": "Import-FortiClientConfig"
+            }
+          ]
+        },
+        {
+          "name": "RegistryFilesInScriptRoot",
+          "children": [
+            {
+              "name": "Import-RegistryFilesInScriptRoot"
+            }
+          ]
+        },
+        {
+          "name": "MSIPackage",
+          "children": [
+            {
+              "name": "Install-MSIPackage"
+            }
+          ]
+        },
+        {
+          "name": "Uninstall",
+          "children": [
+            {
+              "name": "Invoke-Uninstall"
+            }
+          ]
+        },
+        {
+          "name": "Autologin",
+          "children": [
+            {
+              "name": "Remove-Autologin"
+            }
+          ]
+        },
+        {
+          "name": "FortiSoftware",
+          "children": [
+            {
+              "name": "Remove-FortiSoftware"
+            }
+          ]
+        },
+        {
+          "name": "RegistryPath",
+          "children": [
+            {
+              "name": "Remove-RegistryPath"
+            }
+          ]
+        },
+        {
+          "name": "BitLockerForDrives",
+          "children": [
+            {
+              "name": "Suspend-BitLockerForDrives"
+            }
+          ]
+        },
+        {
+          "name": "FortiClientEMSAgentApplication",
+          "children": [
+            {
+              "name": "Uninstall-FortiClientEMSAgentApplication"
+            }
+          ]
+        },
+        {
+          "name": "PSADTFiles",
+          "children": [
+            {
+              "name": "Validate-PSADTFiles"
+            }
+          ]
+        },
+        {
+          "name": "RegistryRemoval",
+          "children": [
+            {
+              "name": "Validate-RegistryRemoval"
+            }
+          ]
+        },
+        {
+          "name": "WaitForRegistryKey",
+          "children": [
+            {
+              "name": "WaitForRegistryKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedPSTools",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "DVDDriveToVM",
+          "children": [
+            {
+              "name": "Add-DVDDriveToVM"
+            }
+          ]
+        },
+        {
+          "name": "EnvPath",
+          "children": [
+            {
+              "name": "Add-EnvPath"
+            }
+          ]
+        },
+        {
+          "name": "GuidToPs1Files",
+          "children": [
+            {
+              "name": "Add-GuidToPs1Files"
+            }
+          ]
+        },
+        {
+          "name": "KeePassAttachment",
+          "children": [
+            {
+              "name": "Add-KeePassAttachment"
+            },
+            {
+              "name": "Export-KeePassAttachment"
+            }
+          ]
+        },
+        {
+          "name": "KeePassEntry",
+          "children": [
+            {
+              "name": "Add-KeePassEntry"
+            }
+          ]
+        },
+        {
+          "name": "KeyCredentialToApp",
+          "children": [
+            {
+              "name": "Add-KeyCredentialToApp"
+            }
+          ]
+        },
+        {
+          "name": "Result",
+          "children": [
+            {
+              "name": "Add-Result"
+            },
+            {
+              "name": "New-Result"
+            }
+          ]
+        },
+        {
+          "name": "Step",
+          "children": [
+            {
+              "name": "Add-Step"
+            },
+            {
+              "name": "Log-Step"
+            }
+          ]
+        },
+        {
+          "name": "CopyOperationStatus",
+          "children": [
+            {
+              "name": "Analyze-CopyOperationStatus"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveSyncUtilStatus",
+          "children": [
+            {
+              "name": "Analyze-OneDriveSyncUtilStatus"
+            }
+          ]
+        },
+        {
+          "name": "RegistrySettings",
+          "children": [
+            {
+              "name": "Apply-RegistrySettings"
+            }
+          ]
+        },
+        {
+          "name": "GitHubCLI",
+          "children": [
+            {
+              "name": "Authenticate-GitHubCLI"
+            }
+          ]
+        },
+        {
+          "name": "UserFilesToOneDrive",
+          "children": [
+            {
+              "name": "Backup-UserFilesToOneDrive"
+            }
+          ]
+        },
+        {
+          "name": "UserInput",
+          "children": [
+            {
+              "name": "Block-UserInput"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationImage",
+          "children": [
+            {
+              "name": "Check-ApplicationImage"
+            }
+          ]
+        },
+        {
+          "name": "DeviceStateInIntune",
+          "children": [
+            {
+              "name": "Check-DeviceStateInIntune"
+            }
+          ]
+        },
+        {
+          "name": "DomainMembership",
+          "children": [
+            {
+              "name": "Check-DomainMembership"
+            }
+          ]
+        },
+        {
+          "name": "ExistingTask",
+          "children": [
+            {
+              "name": "Check-ExistingTask"
+            }
+          ]
+        },
+        {
+          "name": "IntuneCertificates",
+          "children": [
+            {
+              "name": "Check-IntuneCertificates"
+            }
+          ]
+        },
+        {
+          "name": "IntuneEnrollment",
+          "children": [
+            {
+              "name": "Check-IntuneEnrollment"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVersionStatus",
+          "children": [
+            {
+              "name": "Check-ModuleVersionStatus"
+            }
+          ]
+        },
+        {
+          "name": "ODSyncUtilStatus",
+          "children": [
+            {
+              "name": "Check-ODSyncUtilStatus"
+            }
+          ]
+        },
+        {
+          "name": "PackageAccount",
+          "children": [
+            {
+              "name": "Check-PackageAccount"
+            }
+          ]
+        },
+        {
+          "name": "RegistryKeys",
+          "children": [
+            {
+              "name": "Check-RegistryKeys"
+            },
+            {
+              "name": "Export-RegistryKeys"
+            },
+            {
+              "name": "Remove-RegistryKeys"
+            },
+            {
+              "name": "Validate-RegistryKeys"
+            }
+          ]
+        },
+        {
+          "name": "TaskSchedulerEntriesAndTasks",
+          "children": [
+            {
+              "name": "Check-TaskSchedulerEntriesAndTasks"
+            },
+            {
+              "name": "Remove-TaskSchedulerEntriesAndTasks"
+            }
+          ]
+        },
+        {
+          "name": "CheckAndElevate",
+          "children": [
+            {
+              "name": "CheckAndElevate"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveCache",
+          "children": [
+            {
+              "name": "Clear-OneDriveCache"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedRepos",
+          "children": [
+            {
+              "name": "Clone-EnhancedRepos"
+            }
+          ]
+        },
+        {
+          "name": "SoftwareVersion",
+          "children": [
+            {
+              "name": "Compare-SoftwareVersion"
+            }
+          ]
+        },
+        {
+          "name": "Win32",
+          "children": [
+            {
+              "name": "Compile-Win32"
+            }
+          ]
+        },
+        {
+          "name": "ConfigureVM",
+          "children": [
+            {
+              "name": "ConfigureVM"
+            }
+          ]
+        },
+        {
+          "name": "ConfigureVMBoot",
+          "children": [
+            {
+              "name": "ConfigureVMBoot"
+            }
+          ]
+        },
+        {
+          "name": "GraphWithCert",
+          "children": [
+            {
+              "name": "Connect-GraphWithCert"
+            }
+          ]
+        },
+        {
+          "name": "ToMicrosoftGraphIfServerCore",
+          "children": [
+            {
+              "name": "Connect-ToMicrosoftGraphIfServerCore"
+            }
+          ]
+        },
+        {
+          "name": "VMConsole",
+          "children": [
+            {
+              "name": "Connect-VMConsole"
+            }
+          ]
+        },
+        {
+          "name": "EntraDeviceIdToIntuneDeviceId",
+          "children": [
+            {
+              "name": "Convert-EntraDeviceIdToIntuneDeviceId"
+            }
+          ]
+        },
+        {
+          "name": "WindowsPathToLinuxPath",
+          "children": [
+            {
+              "name": "Convert-WindowsPathToLinuxPath"
+            }
+          ]
+        },
+        {
+          "name": "FilesToPath",
+          "children": [
+            {
+              "name": "Copy-FilesToPath"
+            }
+          ]
+        },
+        {
+          "name": "FilesWithRobocopy",
+          "children": [
+            {
+              "name": "Copy-FilesWithRobocopy"
+            }
+          ]
+        },
+        {
+          "name": "FileToPublicAndTemp",
+          "children": [
+            {
+              "name": "Copy-FileToPublicAndTemp"
+            }
+          ]
+        },
+        {
+          "name": "InvokeAzureStorageBlobUploadFinalize",
+          "children": [
+            {
+              "name": "Copy-InvokeAzureStorageBlobUploadFinalize"
+            }
+          ]
+        },
+        {
+          "name": "AADGroup",
+          "children": [
+            {
+              "name": "Create-AADGroup"
+            }
+          ]
+        },
+        {
+          "name": "AndVerifyServicePrincipal",
+          "children": [
+            {
+              "name": "Create-AndVerifyServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "AppRegistration",
+          "children": [
+            {
+              "name": "Create-AppRegistration"
+            }
+          ]
+        },
+        {
+          "name": "DetectionRule",
+          "children": [
+            {
+              "name": "Create-DetectionRule"
+            }
+          ]
+        },
+        {
+          "name": "EventLogSource",
+          "children": [
+            {
+              "name": "Create-EventLogSource"
+            }
+          ]
+        },
+        {
+          "name": "InteractiveMigrationTask",
+          "children": [
+            {
+              "name": "Create-InteractiveMigrationTask"
+            }
+          ]
+        },
+        {
+          "name": "IntuneWinPackage",
+          "children": [
+            {
+              "name": "Create-IntuneWinPackage"
+            },
+            {
+              "name": "Upload-IntuneWinPackage"
+            }
+          ]
+        },
+        {
+          "name": "LocalAdminAccount",
+          "children": [
+            {
+              "name": "Create-LocalAdminAccount"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveCacheClearTask",
+          "children": [
+            {
+              "name": "Create-OneDriveCacheClearTask"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveRemediationTask",
+          "children": [
+            {
+              "name": "Create-OneDriveRemediationTask"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveSyncUtilStatusTask",
+          "children": [
+            {
+              "name": "Create-OneDriveSyncUtilStatusTask"
+            }
+          ]
+        },
+        {
+          "name": "PostMigrationCleanupTask",
+          "children": [
+            {
+              "name": "Create-PostMigrationCleanupTask"
+            }
+          ]
+        },
+        {
+          "name": "PPKG",
+          "children": [
+            {
+              "name": "Create-PPKG"
+            },
+            {
+              "name": "Install-PPKG"
+            }
+          ]
+        },
+        {
+          "name": "RequirementRule",
+          "children": [
+            {
+              "name": "Create-RequirementRule"
+            }
+          ]
+        },
+        {
+          "name": "SelfSignedCert",
+          "children": [
+            {
+              "name": "Create-SelfSignedCert"
+            }
+          ]
+        },
+        {
+          "name": "SelfSignedCertOpenSSL",
+          "children": [
+            {
+              "name": "Create-SelfSignedCertOpenSSL"
+            }
+          ]
+        },
+        {
+          "name": "UserFileBackupTask",
+          "children": [
+            {
+              "name": "Create-UserFileBackupTask"
+            }
+          ]
+        },
+        {
+          "name": "VBShiddenPS",
+          "children": [
+            {
+              "name": "Create-VBShiddenPS"
+            }
+          ]
+        },
+        {
+          "name": "CreateAndRegisterScheduledTask",
+          "children": [
+            {
+              "name": "CreateAndRegisterScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "CreateVMFolder",
+          "children": [
+            {
+              "name": "CreateVMFolder"
+            }
+          ]
+        },
+        {
+          "name": "FileWithCert",
+          "children": [
+            {
+              "name": "Decrypt-FileWithCert"
+            },
+            {
+              "name": "Encrypt-FileWithCert"
+            }
+          ]
+        },
+        {
+          "name": "SourcePath",
+          "children": [
+            {
+              "name": "Define-SourcePath"
+            }
+          ]
+        },
+        {
+          "name": "BitLockerStatus",
+          "children": [
+            {
+              "name": "Detect-BitLockerStatus"
+            }
+          ]
+        },
+        {
+          "name": "FortiClientEMSInstallation",
+          "children": [
+            {
+              "name": "Detect-FortiClientEMSInstallation"
+            }
+          ]
+        },
+        {
+          "name": "SystemMode",
+          "children": [
+            {
+              "name": "Detect-SystemMode"
+            }
+          ]
+        },
+        {
+          "name": "LocalUserAccounts",
+          "children": [
+            {
+              "name": "Disable-LocalUserAccounts"
+            },
+            {
+              "name": "Enable-LocalUserAccounts"
+            },
+            {
+              "name": "Manage-LocalUserAccounts"
+            }
+          ]
+        },
+        {
+          "name": "OOBEPrivacy",
+          "children": [
+            {
+              "name": "Disable-OOBEPrivacy"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTaskByPath",
+          "children": [
+            {
+              "name": "Disable-ScheduledTaskByPath"
+            }
+          ]
+        },
+        {
+          "name": "VHDX",
+          "children": [
+            {
+              "name": "Dismount-VHDX"
+            }
+          ]
+        },
+        {
+          "name": "ADKOffline",
+          "children": [
+            {
+              "name": "Download-ADKOffline"
+            }
+          ]
+        },
+        {
+          "name": "GitHubReleaseAsset",
+          "children": [
+            {
+              "name": "Download-GitHubReleaseAsset"
+            },
+            {
+              "name": "Upload-GitHubReleaseAsset"
+            }
+          ]
+        },
+        {
+          "name": "Handle",
+          "children": [
+            {
+              "name": "Download-Handle"
+            }
+          ]
+        },
+        {
+          "name": "InstallMDT",
+          "children": [
+            {
+              "name": "Download-InstallMDT"
+            }
+          ]
+        },
+        {
+          "name": "MigrationTool",
+          "children": [
+            {
+              "name": "Download-MigrationTool"
+            }
+          ]
+        },
+        {
+          "name": "Modules",
+          "children": [
+            {
+              "name": "Download-Modules"
+            },
+            {
+              "name": "Import-Modules"
+            },
+            {
+              "name": "Install-Modules"
+            }
+          ]
+        },
+        {
+          "name": "ODSyncUtil",
+          "children": [
+            {
+              "name": "Download-ODSyncUtil"
+            }
+          ]
+        },
+        {
+          "name": "ODT",
+          "children": [
+            {
+              "name": "Download-ODT"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveLib",
+          "children": [
+            {
+              "name": "Download-OneDriveLib"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveSetup",
+          "children": [
+            {
+              "name": "Download-OneDriveSetup"
+            },
+            {
+              "name": "Install-OneDriveSetup"
+            }
+          ]
+        },
+        {
+          "name": "PSAppDeployToolkit",
+          "children": [
+            {
+              "name": "Download-PSAppDeployToolkit"
+            }
+          ]
+        },
+        {
+          "name": "Psd1File",
+          "children": [
+            {
+              "name": "Download-Psd1File"
+            }
+          ]
+        },
+        {
+          "name": "PsExec",
+          "children": [
+            {
+              "name": "Download-PsExec"
+            }
+          ]
+        },
+        {
+          "name": "Script",
+          "children": [
+            {
+              "name": "Elevate-Script"
+            }
+          ]
+        },
+        {
+          "name": "MDMAutoEnrollment",
+          "children": [
+            {
+              "name": "Enable-MDMAutoEnrollment"
+            }
+          ]
+        },
+        {
+          "name": "EnableVMTPM",
+          "children": [
+            {
+              "name": "EnableVMTPM"
+            }
+          ]
+        },
+        {
+          "name": "ExportsFolder",
+          "children": [
+            {
+              "name": "Ensure-ExportsFolder"
+            }
+          ]
+        },
+        {
+          "name": "GitIsInstalled",
+          "children": [
+            {
+              "name": "Ensure-GitIsInstalled"
+            }
+          ]
+        },
+        {
+          "name": "LoggingFunctionExists",
+          "children": [
+            {
+              "name": "Ensure-LoggingFunctionExists"
+            }
+          ]
+        },
+        {
+          "name": "ModuleIsLatest",
+          "children": [
+            {
+              "name": "Ensure-ModuleIsLatest"
+            }
+          ]
+        },
+        {
+          "name": "NuGetProvider",
+          "children": [
+            {
+              "name": "Ensure-NuGetProvider"
+            }
+          ]
+        },
+        {
+          "name": "RunningAsSystem",
+          "children": [
+            {
+              "name": "Ensure-RunningAsSystem"
+            },
+            {
+              "name": "Test-RunningAsSystem"
+            }
+          ]
+        },
+        {
+          "name": "ScriptPathsExist",
+          "children": [
+            {
+              "name": "Ensure-ScriptPathsExist"
+            }
+          ]
+        },
+        {
+          "name": "TargetFolderExists",
+          "children": [
+            {
+              "name": "Ensure-TargetFolderExists"
+            }
+          ]
+        },
+        {
+          "name": "UserInLocalAdminGroup",
+          "children": [
+            {
+              "name": "Ensure-UserInLocalAdminGroup"
+            }
+          ]
+        },
+        {
+          "name": "EnsureUntrustedGuardianExists",
+          "children": [
+            {
+              "name": "EnsureUntrustedGuardianExists"
+            }
+          ]
+        },
+        {
+          "name": "SafeModeBasedOnDetection",
+          "children": [
+            {
+              "name": "Enter-SafeModeBasedOnDetection"
+            },
+            {
+              "name": "Exit-SafeModeBasedOnDetection"
+            }
+          ]
+        },
+        {
+          "name": "BitLockerKey",
+          "children": [
+            {
+              "name": "Escrow-BitLockerKey"
+            }
+          ]
+        },
+        {
+          "name": "DetectionAndRemediation",
+          "children": [
+            {
+              "name": "Execute-DetectionAndRemediation"
+            }
+          ]
+        },
+        {
+          "name": "MigrationCleanupTasks",
+          "children": [
+            {
+              "name": "Execute-MigrationCleanupTasks"
+            }
+          ]
+        },
+        {
+          "name": "MigrationToolkit",
+          "children": [
+            {
+              "name": "Execute-MigrationToolkit"
+            }
+          ]
+        },
+        {
+          "name": "Data",
+          "children": [
+            {
+              "name": "Export-Data"
+            }
+          ]
+        },
+        {
+          "name": "SignInLogs",
+          "children": [
+            {
+              "name": "Export-SignInLogs"
+            },
+            {
+              "name": "Get-SignInLogs"
+            },
+            {
+              "name": "Load-SignInLogs"
+            },
+            {
+              "name": "Process-SignInLogs"
+            }
+          ]
+        },
+        {
+          "name": "VPNConnectionsToXML",
+          "children": [
+            {
+              "name": "Export-VPNConnectionsToXML"
+            }
+          ]
+        },
+        {
+          "name": "ExportAndProcessSignInLogs",
+          "children": [
+            {
+              "name": "ExportAndProcessSignInLogs"
+            }
+          ]
+        },
+        {
+          "name": "ExportCertificatetoCER",
+          "children": [
+            {
+              "name": "ExportCertificatetoCER"
+            }
+          ]
+        },
+        {
+          "name": "DeviceStateWithRetry",
+          "children": [
+            {
+              "name": "Fetch-DeviceStateWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "OSVersion",
+          "children": [
+            {
+              "name": "Fetch-OSVersion"
+            }
+          ]
+        },
+        {
+          "name": "OSVersionWithRetry",
+          "children": [
+            {
+              "name": "Fetch-OSVersionWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "UserLicense",
+          "children": [
+            {
+              "name": "Fetch-UserLicense"
+            }
+          ]
+        },
+        {
+          "name": "UserLicensesWithRetry",
+          "children": [
+            {
+              "name": "Fetch-UserLicensesWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "LatestJsonFile",
+          "children": [
+            {
+              "name": "Find-LatestJsonFile"
+            }
+          ]
+        },
+        {
+          "name": "NewStatusFile",
+          "children": [
+            {
+              "name": "Find-NewStatusFile"
+            }
+          ]
+        },
+        {
+          "name": "OneDrivePath",
+          "children": [
+            {
+              "name": "Find-OneDrivePath"
+            }
+          ]
+        },
+        {
+          "name": "UninstallString",
+          "children": [
+            {
+              "name": "Find-UninstallString"
+            }
+          ]
+        },
+        {
+          "name": "LicenseReports",
+          "children": [
+            {
+              "name": "Generate-LicenseReports"
+            }
+          ]
+        },
+        {
+          "name": "RemoveIntuneMgmtSummaryReport",
+          "children": [
+            {
+              "name": "Generate-RemoveIntuneMgmtSummaryReport"
+            }
+          ]
+        },
+        {
+          "name": "SoftwareInstallSummaryReport",
+          "children": [
+            {
+              "name": "Generate-SoftwareInstallSummaryReport"
+            }
+          ]
+        },
+        {
+          "name": "AppInfoFromJson",
+          "children": [
+            {
+              "name": "Get-AppInfoFromJson"
+            }
+          ]
+        },
+        {
+          "name": "AppName",
+          "children": [
+            {
+              "name": "Get-AppName"
+            }
+          ]
+        },
+        {
+          "name": "CustomWin32AppName",
+          "children": [
+            {
+              "name": "Get-CustomWin32AppName"
+            }
+          ]
+        },
+        {
+          "name": "DependentVMs",
+          "children": [
+            {
+              "name": "Get-DependentVMs"
+            },
+            {
+              "name": "Shutdown-DependentVMs"
+            }
+          ]
+        },
+        {
+          "name": "DSRegStatus",
+          "children": [
+            {
+              "name": "Get-DSRegStatus"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedLocalGroupMembers",
+          "children": [
+            {
+              "name": "Get-EnhancedLocalGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "FriendlyNamesForPermissions",
+          "children": [
+            {
+              "name": "Get-FriendlyNamesForPermissions"
+            }
+          ]
+        },
+        {
+          "name": "FunctionModule",
+          "children": [
+            {
+              "name": "Get-FunctionModule"
+            }
+          ]
+        },
+        {
+          "name": "GitHubPAT",
+          "children": [
+            {
+              "name": "Get-GitHubPAT"
+            }
+          ]
+        },
+        {
+          "name": "GitPath",
+          "children": [
+            {
+              "name": "Get-GitPath"
+            }
+          ]
+        },
+        {
+          "name": "KeyProtectorId",
+          "children": [
+            {
+              "name": "Get-KeyProtectorId"
+            }
+          ]
+        },
+        {
+          "name": "LatestChocoVersion",
+          "children": [
+            {
+              "name": "Get-LatestChocoVersion"
+            }
+          ]
+        },
+        {
+          "name": "LatestWinGetversion",
+          "children": [
+            {
+              "name": "Get-LatestWinGetversion"
+            }
+          ]
+        },
+        {
+          "name": "LockingProcess",
+          "children": [
+            {
+              "name": "Get-LockingProcess"
+            }
+          ]
+        },
+        {
+          "name": "ManagementGUID",
+          "children": [
+            {
+              "name": "Get-ManagementGUID"
+            }
+          ]
+        },
+        {
+          "name": "ModulesScriptPathsAndVariables",
+          "children": [
+            {
+              "name": "Get-ModulesScriptPathsAndVariables"
+            }
+          ]
+        },
+        {
+          "name": "MsGraphAccessToken",
+          "children": [
+            {
+              "name": "Get-MsGraphAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "MsGraphAccessTokenCert",
+          "children": [
+            {
+              "name": "Get-MsGraphAccessTokenCert"
+            }
+          ]
+        },
+        {
+          "name": "NextVMNamePrefix",
+          "children": [
+            {
+              "name": "Get-NextVMNamePrefix"
+            }
+          ]
+        },
+        {
+          "name": "ParentScriptName",
+          "children": [
+            {
+              "name": "Get-ParentScriptName"
+            }
+          ]
+        },
+        {
+          "name": "Platform",
+          "children": [
+            {
+              "name": "Get-Platform"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellPath",
+          "children": [
+            {
+              "name": "Get-PowerShellPath"
+            }
+          ]
+        },
+        {
+          "name": "PSFCSVLogFilePath",
+          "children": [
+            {
+              "name": "Get-PSFCSVLogFilePath"
+            }
+          ]
+        },
+        {
+          "name": "Secrets",
+          "children": [
+            {
+              "name": "Get-Secrets"
+            },
+            {
+              "name": "Output-secrets"
+            }
+          ]
+        },
+        {
+          "name": "SharePointDocumentDriveId",
+          "children": [
+            {
+              "name": "Get-SharePointDocumentDriveId"
+            }
+          ]
+        },
+        {
+          "name": "TenantDetails",
+          "children": [
+            {
+              "name": "Get-TenantDetails"
+            }
+          ]
+        },
+        {
+          "name": "TranscriptFilePath",
+          "children": [
+            {
+              "name": "Get-TranscriptFilePath"
+            }
+          ]
+        },
+        {
+          "name": "UserLicenses",
+          "children": [
+            {
+              "name": "Get-UserLicenses"
+            }
+          ]
+        },
+        {
+          "name": "AdminConsentToAllPermissions",
+          "children": [
+            {
+              "name": "Grant-AdminConsentToAllPermissions"
+            }
+          ]
+        },
+        {
+          "name": "AdminConsentToApiPermissions",
+          "children": [
+            {
+              "name": "Grant-AdminConsentToApiPermissions"
+            }
+          ]
+        },
+        {
+          "name": "AdminConsentToDelegatedPermissions",
+          "children": [
+            {
+              "name": "Grant-AdminConsentToDelegatedPermissions"
+            }
+          ]
+        },
+        {
+          "name": "AdminConsentUsingAzCli",
+          "children": [
+            {
+              "name": "Grant-AdminConsentUsingAzCli"
+            }
+          ]
+        },
+        {
+          "name": "Error",
+          "children": [
+            {
+              "name": "Handle-Error"
+            }
+          ]
+        },
+        {
+          "name": "ExternalAADTenant",
+          "children": [
+            {
+              "name": "Handle-ExternalAADTenant"
+            }
+          ]
+        },
+        {
+          "name": "PSFLogging",
+          "children": [
+            {
+              "name": "Handle-PSFLogging"
+            }
+          ]
+        },
+        {
+          "name": "CertificateIfNotExist",
+          "children": [
+            {
+              "name": "Import-CertificateIfNotExist"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedModules",
+          "children": [
+            {
+              "name": "Import-EnhancedModules"
+            }
+          ]
+        },
+        {
+          "name": "FortiClientConfig",
+          "children": [
+            {
+              "name": "Import-FortiClientConfig"
+            }
+          ]
+        },
+        {
+          "name": "ModulesFromLocalRepository",
+          "children": [
+            {
+              "name": "Import-ModulesFromLocalRepository"
+            }
+          ]
+        },
+        {
+          "name": "ModuleWithRetry",
+          "children": [
+            {
+              "name": "Import-ModuleWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "RegistryFilesInScriptRoot",
+          "children": [
+            {
+              "name": "Import-RegistryFilesInScriptRoot"
+            }
+          ]
+        },
+        {
+          "name": "VPNConnection",
+          "children": [
+            {
+              "name": "Import-VPNConnection"
+            },
+            {
+              "name": "New-VPNConnection"
+            },
+            {
+              "name": "Test-VPNConnection"
+            }
+          ]
+        },
+        {
+          "name": "Context",
+          "children": [
+            {
+              "name": "Initialize-Context"
+            }
+          ]
+        },
+        {
+          "name": "Environment",
+          "children": [
+            {
+              "name": "Initialize-Environment"
+            }
+          ]
+        },
+        {
+          "name": "HyperVServices",
+          "children": [
+            {
+              "name": "Initialize-HyperVServices"
+            }
+          ]
+        },
+        {
+          "name": "ScriptAndLogging",
+          "children": [
+            {
+              "name": "Initialize-ScriptAndLogging"
+            }
+          ]
+        },
+        {
+          "name": "ScriptVariables",
+          "children": [
+            {
+              "name": "Initialize-ScriptVariables"
+            }
+          ]
+        },
+        {
+          "name": "Win32Environment",
+          "children": [
+            {
+              "name": "Initialize-Win32Environment"
+            }
+          ]
+        },
+        {
+          "name": "ADKFromMSI",
+          "children": [
+            {
+              "name": "Install-ADKFromMSI"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedModule",
+          "children": [
+            {
+              "name": "Install-EnhancedModule"
+            }
+          ]
+        },
+        {
+          "name": "GitFromWeb",
+          "children": [
+            {
+              "name": "Install-GitFromWeb"
+            }
+          ]
+        },
+        {
+          "name": "Keepass",
+          "children": [
+            {
+              "name": "Install-Keepass"
+            }
+          ]
+        },
+        {
+          "name": "KeePassXCCli",
+          "children": [
+            {
+              "name": "Install-KeePassXCCli"
+            }
+          ]
+        },
+        {
+          "name": "ModuleInPS5",
+          "children": [
+            {
+              "name": "Install-ModuleInPS5"
+            }
+          ]
+        },
+        {
+          "name": "MSIPackage",
+          "children": [
+            {
+              "name": "Install-MSIPackage"
+            }
+          ]
+        },
+        {
+          "name": "PowerShell7FromWeb",
+          "children": [
+            {
+              "name": "Install-PowerShell7FromWeb"
+            }
+          ]
+        },
+        {
+          "name": "RequiredModules",
+          "children": [
+            {
+              "name": "Install-RequiredModules"
+            }
+          ]
+        },
+        {
+          "name": "Software",
+          "children": [
+            {
+              "name": "Install-Software"
+            }
+          ]
+        },
+        {
+          "name": "InstallAndImportModulesPSGallery",
+          "children": [
+            {
+              "name": "InstallAndImportModulesPSGallery"
+            }
+          ]
+        },
+        {
+          "name": "AsSystem",
+          "children": [
+            {
+              "name": "Invoke-AsSystem"
+            }
+          ]
+        },
+        {
+          "name": "BitlockerEscrow",
+          "children": [
+            {
+              "name": "Invoke-BitlockerEscrow"
+            }
+          ]
+        },
+        {
+          "name": "CloneEnhancedRepos",
+          "children": [
+            {
+              "name": "Invoke-CloneEnhancedRepos"
+            }
+          ]
+        },
+        {
+          "name": "CommandInPs5",
+          "children": [
+            {
+              "name": "invoke-CommandInPs5"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedGraphAORequest",
+          "children": [
+            {
+              "name": "Invoke-EnhancedGraphAORequest"
+            }
+          ]
+        },
+        {
+          "name": "GitCommandWithRetry",
+          "children": [
+            {
+              "name": "Invoke-GitCommandWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "InPowerShell5",
+          "children": [
+            {
+              "name": "Invoke-InPowerShell5"
+            }
+          ]
+        },
+        {
+          "name": "ModuleStarter",
+          "children": [
+            {
+              "name": "Invoke-ModuleStarter"
+            }
+          ]
+        },
+        {
+          "name": "PrinterInstallation",
+          "children": [
+            {
+              "name": "Invoke-PrinterInstallation"
+            },
+            {
+              "name": "Process-PrinterInstallation"
+            }
+          ]
+        },
+        {
+          "name": "ScriptInPS5",
+          "children": [
+            {
+              "name": "Invoke-ScriptInPS5"
+            }
+          ]
+        },
+        {
+          "name": "Uninstall",
+          "children": [
+            {
+              "name": "Invoke-Uninstall"
+            }
+          ]
+        },
+        {
+          "name": "VaultDecryptionProcess",
+          "children": [
+            {
+              "name": "Invoke-VaultDecryptionProcess"
+            }
+          ]
+        },
+        {
+          "name": "WebScript",
+          "children": [
+            {
+              "name": "Invoke-WebScript"
+            }
+          ]
+        },
+        {
+          "name": "ServerCore",
+          "children": [
+            {
+              "name": "Is-ServerCore"
+            }
+          ]
+        },
+        {
+          "name": "LockingProcesses",
+          "children": [
+            {
+              "name": "Kill-LockingProcesses"
+            },
+            {
+              "name": "Manage-LockingProcesses"
+            }
+          ]
+        },
+        {
+          "name": "Domain",
+          "children": [
+            {
+              "name": "Leave-Domain"
+            }
+          ]
+        },
+        {
+          "name": "Certificate",
+          "children": [
+            {
+              "name": "Load-Certificate"
+            },
+            {
+              "name": "Validate-Certificate"
+            }
+          ]
+        },
+        {
+          "name": "Params",
+          "children": [
+            {
+              "name": "Log-Params"
+            }
+          ]
+        },
+        {
+          "name": "MigrateToAADJOnly",
+          "children": [
+            {
+              "name": "Main-MigrateToAADJOnly"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositories",
+          "children": [
+            {
+              "name": "Manage-GitRepositories"
+            }
+          ]
+        },
+        {
+          "name": "NetworkAdapters",
+          "children": [
+            {
+              "name": "Manage-NetworkAdapters"
+            }
+          ]
+        },
+        {
+          "name": "UserSessions",
+          "children": [
+            {
+              "name": "Manage-UserSessions"
+            }
+          ]
+        },
+        {
+          "name": "CustomVMWithDifferencingDisk",
+          "children": [
+            {
+              "name": "New-CustomVMWithDifferencingDisk"
+            }
+          ]
+        },
+        {
+          "name": "DeviceDetail",
+          "children": [
+            {
+              "name": "New-DeviceDetail"
+            }
+          ]
+        },
+        {
+          "name": "DeviceItem",
+          "children": [
+            {
+              "name": "New-DeviceItem"
+            },
+            {
+              "name": "Process-DeviceItem"
+            }
+          ]
+        },
+        {
+          "name": "KeePassDatabase",
+          "children": [
+            {
+              "name": "New-KeePassDatabase"
+            }
+          ]
+        },
+        {
+          "name": "ProcessingContext",
+          "children": [
+            {
+              "name": "New-ProcessingContext"
+            }
+          ]
+        },
+        {
+          "name": "SharePointFolder",
+          "children": [
+            {
+              "name": "New-SharePointFolder"
+            }
+          ]
+        },
+        {
+          "name": "SignInLog",
+          "children": [
+            {
+              "name": "New-SignInLog"
+            }
+          ]
+        },
+        {
+          "name": "CertificateStore",
+          "children": [
+            {
+              "name": "Open-CertificateStore"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "children": [
+            {
+              "name": "Parse-Size"
+            }
+          ]
+        },
+        {
+          "name": "IntuneCleanup",
+          "children": [
+            {
+              "name": "Perform-IntuneCleanup"
+            }
+          ]
+        },
+        {
+          "name": "KFMSync",
+          "children": [
+            {
+              "name": "Perform-KFMSync"
+            }
+          ]
+        },
+        {
+          "name": "Phase1EntraJoin",
+          "children": [
+            {
+              "name": "PostRunOnce-Phase1EntraJoin"
+            }
+          ]
+        },
+        {
+          "name": "Phase2EscrowBitlocker",
+          "children": [
+            {
+              "name": "PostRunOnce-Phase2EscrowBitlocker"
+            }
+          ]
+        },
+        {
+          "name": "AADMigration",
+          "children": [
+            {
+              "name": "Prepare-AADMigration"
+            }
+          ]
+        },
+        {
+          "name": "Paths",
+          "children": [
+            {
+              "name": "Prepare-Paths"
+            }
+          ]
+        },
+        {
+          "name": "SolutionDirectory",
+          "children": [
+            {
+              "name": "Prepare-SolutionDirectory"
+            }
+          ]
+        },
+        {
+          "name": "Folder",
+          "children": [
+            {
+              "name": "Process-Folder"
+            }
+          ]
+        },
+        {
+          "name": "SoftwareDetails",
+          "children": [
+            {
+              "name": "Process-SoftwareDetails"
+            }
+          ]
+        },
+        {
+          "name": "Win32App",
+          "children": [
+            {
+              "name": "Process-Win32App"
+            },
+            {
+              "name": "Upload-Win32App"
+            }
+          ]
+        },
+        {
+          "name": "AADMigrationArtifacts",
+          "children": [
+            {
+              "name": "Remove-AADMigrationArtifacts"
+            }
+          ]
+        },
+        {
+          "name": "ADJoin",
+          "children": [
+            {
+              "name": "Remove-ADJoin"
+            }
+          ]
+        },
+        {
+          "name": "AppListJson",
+          "children": [
+            {
+              "name": "Remove-AppListJson"
+            }
+          ]
+        },
+        {
+          "name": "AppRegistrationsAndDeletedItems",
+          "children": [
+            {
+              "name": "Remove-AppRegistrationsAndDeletedItems"
+            }
+          ]
+        },
+        {
+          "name": "Autologin",
+          "children": [
+            {
+              "name": "Remove-Autologin"
+            },
+            {
+              "name": "Set-Autologin"
+            }
+          ]
+        },
+        {
+          "name": "CompanyPortal",
+          "children": [
+            {
+              "name": "Remove-CompanyPortal"
+            }
+          ]
+        },
+        {
+          "name": "DeviceCertificates",
+          "children": [
+            {
+              "name": "Remove-DeviceCertificates"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedItem",
+          "children": [
+            {
+              "name": "Remove-EnhancedItem"
+            }
+          ]
+        },
+        {
+          "name": "ExistingHandle",
+          "children": [
+            {
+              "name": "Remove-ExistingHandle"
+            }
+          ]
+        },
+        {
+          "name": "ExistingPsExec",
+          "children": [
+            {
+              "name": "Remove-ExistingPsExec"
+            }
+          ]
+        },
+        {
+          "name": "ExistingServiceUI",
+          "children": [
+            {
+              "name": "Remove-ExistingServiceUI"
+            }
+          ]
+        },
+        {
+          "name": "ExistingStatusFiles",
+          "children": [
+            {
+              "name": "Remove-ExistingStatusFiles"
+            }
+          ]
+        },
+        {
+          "name": "FortiSoftware",
+          "children": [
+            {
+              "name": "Remove-FortiSoftware"
+            }
+          ]
+        },
+        {
+          "name": "Hybrid",
+          "children": [
+            {
+              "name": "Remove-Hybrid"
+            }
+          ]
+        },
+        {
+          "name": "InstalledPPKG",
+          "children": [
+            {
+              "name": "Remove-InstalledPPKG"
+            }
+          ]
+        },
+        {
+          "name": "IntuneMgmt",
+          "children": [
+            {
+              "name": "Remove-IntuneMgmt"
+            }
+          ]
+        },
+        {
+          "name": "IntuneWinFiles",
+          "children": [
+            {
+              "name": "Remove-IntuneWinFiles"
+            }
+          ]
+        },
+        {
+          "name": "LocalUserAccount",
+          "children": [
+            {
+              "name": "Remove-LocalUserAccount"
+            }
+          ]
+        },
+        {
+          "name": "LogsFolder",
+          "children": [
+            {
+              "name": "Remove-LogsFolder"
+            }
+          ]
+        },
+        {
+          "name": "MDMCertificates",
+          "children": [
+            {
+              "name": "Remove-MDMCertificates"
+            }
+          ]
+        },
+        {
+          "name": "MigrationFiles",
+          "children": [
+            {
+              "name": "Remove-MigrationFiles"
+            }
+          ]
+        },
+        {
+          "name": "OldVersions",
+          "children": [
+            {
+              "name": "Remove-OldVersions"
+            }
+          ]
+        },
+        {
+          "name": "RegistryEntries",
+          "children": [
+            {
+              "name": "Remove-RegistryEntries"
+            }
+          ]
+        },
+        {
+          "name": "RegistryPath",
+          "children": [
+            {
+              "name": "Remove-RegistryPath"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTaskFilesWithLogging",
+          "children": [
+            {
+              "name": "Remove-ScheduledTaskFilesWithLogging"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTasks",
+          "children": [
+            {
+              "name": "Remove-ScheduledTasks"
+            }
+          ]
+        },
+        {
+          "name": "UserCertificates",
+          "children": [
+            {
+              "name": "Remove-UserCertificates"
+            }
+          ]
+        },
+        {
+          "name": "PSFLogFilesWithUsername",
+          "children": [
+            {
+              "name": "Rename-PSFLogFilesWithUsername"
+            }
+          ]
+        },
+        {
+          "name": "BannerImage",
+          "children": [
+            {
+              "name": "Replace-BannerImage"
+            }
+          ]
+        },
+        {
+          "name": "DeployApplicationPS1",
+          "children": [
+            {
+              "name": "Replace-DeployApplicationPS1"
+            }
+          ]
+        },
+        {
+          "name": "ModulePaths",
+          "children": [
+            {
+              "name": "Reset-ModulePaths"
+            }
+          ]
+        },
+        {
+          "name": "ComputerIfNeeded",
+          "children": [
+            {
+              "name": "Restart-ComputerIfNeeded"
+            }
+          ]
+        },
+        {
+          "name": "LogFilePath",
+          "children": [
+            {
+              "name": "Sanitize-LogFilePath"
+            },
+            {
+              "name": "Validate-LogFilePath"
+            }
+          ]
+        },
+        {
+          "name": "VersionString",
+          "children": [
+            {
+              "name": "Sanitize-VersionString"
+            }
+          ]
+        },
+        {
+          "name": "AppIcon",
+          "children": [
+            {
+              "name": "Set-AppIcon"
+            }
+          ]
+        },
+        {
+          "name": "InstallCommandLine",
+          "children": [
+            {
+              "name": "Set-InstallCommandLine"
+            }
+          ]
+        },
+        {
+          "name": "LocalPathBasedOnContext",
+          "children": [
+            {
+              "name": "Set-LocalPathBasedOnContext"
+            }
+          ]
+        },
+        {
+          "name": "ODKFMRegistrySettings",
+          "children": [
+            {
+              "name": "Set-ODKFMRegistrySettings"
+            }
+          ]
+        },
+        {
+          "name": "RegistryValue",
+          "children": [
+            {
+              "name": "Set-RegistryValue"
+            },
+            {
+              "name": "Validate-RegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "RunOnce",
+          "children": [
+            {
+              "name": "Set-RunOnce"
+            }
+          ]
+        },
+        {
+          "name": "GlobalPaths",
+          "children": [
+            {
+              "name": "Setup-GlobalPaths"
+            }
+          ]
+        },
+        {
+          "name": "LinuxEnvironment",
+          "children": [
+            {
+              "name": "Setup-LinuxEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "Win32GlobalPaths",
+          "children": [
+            {
+              "name": "Setup-Win32GlobalPaths"
+            }
+          ]
+        },
+        {
+          "name": "WindowsEnvironment",
+          "children": [
+            {
+              "name": "Setup-WindowsEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "MigrationInProgressForm",
+          "children": [
+            {
+              "name": "Show-MigrationInProgressForm"
+            }
+          ]
+        },
+        {
+          "name": "FileDownloadWithRetry",
+          "children": [
+            {
+              "name": "Start-FileDownloadWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "ServiceUIWithAppDeploy",
+          "children": [
+            {
+              "name": "Start-ServiceUIWithAppDeploy"
+            }
+          ]
+        },
+        {
+          "name": "VMEnhanced",
+          "children": [
+            {
+              "name": "Start-VMEnhanced"
+            }
+          ]
+        },
+        {
+          "name": "ProcessesUsingOneDriveLib",
+          "children": [
+            {
+              "name": "Stop-ProcessesUsingOneDriveLib"
+            }
+          ]
+        },
+        {
+          "name": "BitLockerForDrives",
+          "children": [
+            {
+              "name": "Suspend-BitLockerForDrives"
+            }
+          ]
+        },
+        {
+          "name": "BitLockerWithReboot",
+          "children": [
+            {
+              "name": "Suspend-BitLockerWithReboot"
+            }
+          ]
+        },
+        {
+          "name": "Admin",
+          "children": [
+            {
+              "name": "Test-Admin"
+            }
+          ]
+        },
+        {
+          "name": "Bitlocker",
+          "children": [
+            {
+              "name": "Test-Bitlocker"
+            }
+          ]
+        },
+        {
+          "name": "SoftwareInstallation",
+          "children": [
+            {
+              "name": "Test-SoftwareInstallation"
+            },
+            {
+              "name": "Validate-SoftwareInstallation"
+            }
+          ]
+        },
+        {
+          "name": "Url",
+          "children": [
+            {
+              "name": "Test-Url"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTask",
+          "children": [
+            {
+              "name": "Trigger-ScheduledTask"
+            },
+            {
+              "name": "Validate-ScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "FortiClientEMSAgentApplication",
+          "children": [
+            {
+              "name": "Uninstall-FortiClientEMSAgentApplication"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTaskWithLogging",
+          "children": [
+            {
+              "name": "Unregister-ScheduledTaskWithLogging"
+            }
+          ]
+        },
+        {
+          "name": "Directory",
+          "children": [
+            {
+              "name": "Unzip-Directory"
+            },
+            {
+              "name": "Zip-Directory"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationPermissions",
+          "children": [
+            {
+              "name": "Update-ApplicationPermissions"
+            }
+          ]
+        },
+        {
+          "name": "ModuleIfOldOrMissing",
+          "children": [
+            {
+              "name": "Update-ModuleIfOldOrMissing"
+            }
+          ]
+        },
+        {
+          "name": "FileToSharePoint",
+          "children": [
+            {
+              "name": "Upload-FileToSharePoint"
+            }
+          ]
+        },
+        {
+          "name": "LogsToGitHub",
+          "children": [
+            {
+              "name": "Upload-LogsToGitHub"
+            }
+          ]
+        },
+        {
+          "name": "AppCreation",
+          "children": [
+            {
+              "name": "Validate-AppCreation"
+            }
+          ]
+        },
+        {
+          "name": "AppCreationWithRetry",
+          "children": [
+            {
+              "name": "Validate-AppCreationWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "CertCreation",
+          "children": [
+            {
+              "name": "Validate-CertCreation"
+            }
+          ]
+        },
+        {
+          "name": "FileExists",
+          "children": [
+            {
+              "name": "Validate-FileExists"
+            }
+          ]
+        },
+        {
+          "name": "InstallationResults",
+          "children": [
+            {
+              "name": "Validate-InstallationResults"
+            }
+          ]
+        },
+        {
+          "name": "ISOAdded",
+          "children": [
+            {
+              "name": "Validate-ISOAdded"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveLibUsage",
+          "children": [
+            {
+              "name": "Validate-OneDriveLibUsage"
+            }
+          ]
+        },
+        {
+          "name": "PathExistsWithLogging",
+          "children": [
+            {
+              "name": "Validate-PathExistsWithLogging"
+            }
+          ]
+        },
+        {
+          "name": "PPKGInstallation",
+          "children": [
+            {
+              "name": "Validate-PPKGInstallation"
+            }
+          ]
+        },
+        {
+          "name": "PSADTFiles",
+          "children": [
+            {
+              "name": "Validate-PSADTFiles"
+            }
+          ]
+        },
+        {
+          "name": "RegistryRemoval",
+          "children": [
+            {
+              "name": "Validate-RegistryRemoval"
+            }
+          ]
+        },
+        {
+          "name": "UriAccess",
+          "children": [
+            {
+              "name": "Validate-UriAccess"
+            }
+          ]
+        },
+        {
+          "name": "VHDMount",
+          "children": [
+            {
+              "name": "Validate-VHDMount"
+            }
+          ]
+        },
+        {
+          "name": "VMExists",
+          "children": [
+            {
+              "name": "Validate-VMExists"
+            }
+          ]
+        },
+        {
+          "name": "VMStarted",
+          "children": [
+            {
+              "name": "Validate-VMStarted"
+            }
+          ]
+        },
+        {
+          "name": "CopyOperation",
+          "children": [
+            {
+              "name": "Verify-CopyOperation"
+            }
+          ]
+        },
+        {
+          "name": "WaitForRegistryKey",
+          "children": [
+            {
+              "name": "WaitForRegistryKey"
+            }
+          ]
+        },
+        {
+          "name": "EnhancedLog",
+          "children": [
+            {
+              "name": "Write-EnhancedLog"
+            }
+          ]
+        },
+        {
+          "name": "LogMessage",
+          "children": [
+            {
+              "name": "Write-LogMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedSchedTaskAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "ExistingTask",
+          "children": [
+            {
+              "name": "Check-ExistingTask"
+            }
+          ]
+        },
+        {
+          "name": "FilesToPath",
+          "children": [
+            {
+              "name": "Copy-FilesToPath"
+            }
+          ]
+        },
+        {
+          "name": "InteractiveMigrationTask",
+          "children": [
+            {
+              "name": "Create-InteractiveMigrationTask"
+            }
+          ]
+        },
+        {
+          "name": "PostMigrationCleanupTask",
+          "children": [
+            {
+              "name": "Create-PostMigrationCleanupTask"
+            }
+          ]
+        },
+        {
+          "name": "VBShiddenPS",
+          "children": [
+            {
+              "name": "Create-VBShiddenPS"
+            }
+          ]
+        },
+        {
+          "name": "CreateAndRegisterScheduledTask",
+          "children": [
+            {
+              "name": "CreateAndRegisterScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "ODT",
+          "children": [
+            {
+              "name": "Download-ODT"
+            }
+          ]
+        },
+        {
+          "name": "PSAppDeployToolkit",
+          "children": [
+            {
+              "name": "Download-PSAppDeployToolkit"
+            }
+          ]
+        },
+        {
+          "name": "PsExec",
+          "children": [
+            {
+              "name": "Download-PsExec"
+            }
+          ]
+        },
+        {
+          "name": "RunningAsSystem",
+          "children": [
+            {
+              "name": "Ensure-RunningAsSystem"
+            }
+          ]
+        },
+        {
+          "name": "ScriptPathsExist",
+          "children": [
+            {
+              "name": "Ensure-ScriptPathsExist"
+            }
+          ]
+        },
+        {
+          "name": "TargetFolderExists",
+          "children": [
+            {
+              "name": "Ensure-TargetFolderExists"
+            }
+          ]
+        },
+        {
+          "name": "DetectionAndRemediation",
+          "children": [
+            {
+              "name": "Execute-DetectionAndRemediation"
+            }
+          ]
+        },
+        {
+          "name": "ScriptVariables",
+          "children": [
+            {
+              "name": "Initialize-ScriptVariables"
+            }
+          ]
+        },
+        {
+          "name": "AsSystem",
+          "children": [
+            {
+              "name": "Invoke-AsSystem"
+            }
+          ]
+        },
+        {
+          "name": "ExistingPsExec",
+          "children": [
+            {
+              "name": "Remove-ExistingPsExec"
+            }
+          ]
+        },
+        {
+          "name": "ExistingServiceUI",
+          "children": [
+            {
+              "name": "Remove-ExistingServiceUI"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTaskFilesWithLogging",
+          "children": [
+            {
+              "name": "Remove-ScheduledTaskFilesWithLogging"
+            }
+          ]
+        },
+        {
+          "name": "LocalPathBasedOnContext",
+          "children": [
+            {
+              "name": "Set-LocalPathBasedOnContext"
+            }
+          ]
+        },
+        {
+          "name": "ServiceUIWithAppDeploy",
+          "children": [
+            {
+              "name": "Start-ServiceUIWithAppDeploy"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTaskWithLogging",
+          "children": [
+            {
+              "name": "Unregister-ScheduledTaskWithLogging"
+            }
+          ]
+        },
+        {
+          "name": "PathExistsWithLogging",
+          "children": [
+            {
+              "name": "Validate-PathExistsWithLogging"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedSecretsAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "KeePassAttachment",
+          "children": [
+            {
+              "name": "Add-KeePassAttachment"
+            },
+            {
+              "name": "Export-KeePassAttachment"
+            }
+          ]
+        },
+        {
+          "name": "KeePassEntry",
+          "children": [
+            {
+              "name": "Add-KeePassEntry"
+            }
+          ]
+        },
+        {
+          "name": "FileWithCert",
+          "children": [
+            {
+              "name": "Decrypt-FileWithCert"
+            },
+            {
+              "name": "Encrypt-FileWithCert"
+            }
+          ]
+        },
+        {
+          "name": "GitHubReleaseAsset",
+          "children": [
+            {
+              "name": "Download-GitHubReleaseAsset"
+            },
+            {
+              "name": "Upload-GitHubReleaseAsset"
+            }
+          ]
+        },
+        {
+          "name": "Keepass",
+          "children": [
+            {
+              "name": "Install-Keepass"
+            }
+          ]
+        },
+        {
+          "name": "KeePassXCCli",
+          "children": [
+            {
+              "name": "Install-KeePassXCCli"
+            }
+          ]
+        },
+        {
+          "name": "KeePassDatabase",
+          "children": [
+            {
+              "name": "New-KeePassDatabase"
+            }
+          ]
+        },
+        {
+          "name": "Directory",
+          "children": [
+            {
+              "name": "Unzip-Directory"
+            },
+            {
+              "name": "Zip-Directory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedSPOAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "ExportsFolder",
+          "children": [
+            {
+              "name": "Ensure-ExportsFolder"
+            }
+          ]
+        },
+        {
+          "name": "SharePointDocumentDriveId",
+          "children": [
+            {
+              "name": "Get-SharePointDocumentDriveId"
+            }
+          ]
+        },
+        {
+          "name": "SharePointFolder",
+          "children": [
+            {
+              "name": "New-SharePointFolder"
+            }
+          ]
+        },
+        {
+          "name": "FileToSharePoint",
+          "children": [
+            {
+              "name": "Upload-FileToSharePoint"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedVPNAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "VPNConnectionsToXML",
+          "children": [
+            {
+              "name": "Export-VPNConnectionsToXML"
+            }
+          ]
+        },
+        {
+          "name": "VPNConnection",
+          "children": [
+            {
+              "name": "Import-VPNConnection"
+            },
+            {
+              "name": "New-VPNConnection"
+            },
+            {
+              "name": "Test-VPNConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EnhancedWin32DeployerAO",
+      "companyName": "Abdullah Ollivierre",
+      "author": "Abdullah Ollivierre",
+      "children": [
+        {
+          "name": "GuidToPs1Files",
+          "children": [
+            {
+              "name": "Add-GuidToPs1Files"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationImage",
+          "children": [
+            {
+              "name": "Check-ApplicationImage"
+            }
+          ]
+        },
+        {
+          "name": "Win32",
+          "children": [
+            {
+              "name": "Compile-Win32"
+            }
+          ]
+        },
+        {
+          "name": "InvokeAzureStorageBlobUploadFinalize",
+          "children": [
+            {
+              "name": "Copy-InvokeAzureStorageBlobUploadFinalize"
+            }
+          ]
+        },
+        {
+          "name": "AADGroup",
+          "children": [
+            {
+              "name": "Create-AADGroup"
+            }
+          ]
+        },
+        {
+          "name": "DetectionRule",
+          "children": [
+            {
+              "name": "Create-DetectionRule"
+            }
+          ]
+        },
+        {
+          "name": "IntuneWinPackage",
+          "children": [
+            {
+              "name": "Create-IntuneWinPackage"
+            },
+            {
+              "name": "Upload-IntuneWinPackage"
+            }
+          ]
+        },
+        {
+          "name": "RequirementRule",
+          "children": [
+            {
+              "name": "Create-RequirementRule"
+            }
+          ]
+        },
+        {
+          "name": "SourcePath",
+          "children": [
+            {
+              "name": "Define-SourcePath"
+            }
+          ]
+        },
+        {
+          "name": "CustomWin32AppName",
+          "children": [
+            {
+              "name": "Get-CustomWin32AppName"
+            }
+          ]
+        },
+        {
+          "name": "Win32Environment",
+          "children": [
+            {
+              "name": "Initialize-Win32Environment"
+            }
+          ]
+        },
+        {
+          "name": "PrinterInstallation",
+          "children": [
+            {
+              "name": "Invoke-PrinterInstallation"
+            },
+            {
+              "name": "Process-PrinterInstallation"
+            }
+          ]
+        },
+        {
+          "name": "Paths",
+          "children": [
+            {
+              "name": "Prepare-Paths"
+            }
+          ]
+        },
+        {
+          "name": "Folder",
+          "children": [
+            {
+              "name": "Process-Folder"
+            }
+          ]
+        },
+        {
+          "name": "Win32App",
+          "children": [
+            {
+              "name": "Process-Win32App"
+            },
+            {
+              "name": "Upload-Win32App"
+            }
+          ]
+        },
+        {
+          "name": "IntuneWinFiles",
+          "children": [
+            {
+              "name": "Remove-IntuneWinFiles"
+            }
+          ]
+        },
+        {
+          "name": "AppIcon",
+          "children": [
+            {
+              "name": "Set-AppIcon"
+            }
+          ]
+        },
+        {
+          "name": "InstallCommandLine",
+          "children": [
+            {
+              "name": "Set-InstallCommandLine"
+            }
+          ]
+        },
+        {
+          "name": "LinuxEnvironment",
+          "children": [
+            {
+              "name": "Setup-LinuxEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "Win32GlobalPaths",
+          "children": [
+            {
+              "name": "Setup-Win32GlobalPaths"
+            }
+          ]
+        },
+        {
+          "name": "WindowsEnvironment",
+          "children": [
+            {
+              "name": "Setup-WindowsEnvironment"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

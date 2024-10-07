@@ -1,0 +1,28 @@
+{
+  "name": "Optiver",
+  "children": [
+    {
+      "name": "ISEPester",
+      "companyName": "Optiver",
+      "author": "Bartek Bielawski",
+      "children": [
+        {
+          "name": "ISECurrentTest",
+          "children": [
+            {
+              "name": "Invoke-ISECurrentTest"
+            }
+          ]
+        },
+        {
+          "name": "ISEPesterConfiguration",
+          "children": [
+            {
+              "name": "Set-ISEPesterConfiguration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

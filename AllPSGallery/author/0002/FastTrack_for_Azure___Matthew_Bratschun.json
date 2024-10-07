@@ -1,0 +1,35 @@
+{
+  "name": "FastTrack for Azure   Matthew Bratschun",
+  "children": [
+    {
+      "name": "AzureAvSetBasicPublicIPUpgrade",
+      "companyName": "Microsoft",
+      "author": "FastTrack for Azure   Matthew Bratschun",
+      "children": [
+        {
+          "name": "AzAvSetPublicIPUpgrade",
+          "children": [
+            {
+              "name": "Start-AzAvSetPublicIPUpgrade"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureVMPublicIPUpgrade",
+      "companyName": "Microsoft",
+      "author": "FastTrack for Azure   Matthew Bratschun",
+      "children": [
+        {
+          "name": "VMPublicIPUpgrade",
+          "children": [
+            {
+              "name": "Start-VMPublicIPUpgrade"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

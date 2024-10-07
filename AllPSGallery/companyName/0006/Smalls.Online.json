@@ -1,0 +1,267 @@
+{
+  "name": "Smalls.Online",
+  "children": [
+    {
+      "name": "mdatp-pwsh",
+      "companyName": "Smalls.Online",
+      "author": "Timothy Small",
+      "children": [
+        {
+          "name": "DatpModuleConfig",
+          "children": [
+            {
+              "name": "Set-DatpModuleConfig"
+            }
+          ]
+        },
+        {
+          "name": "DatpGraph",
+          "children": [
+            {
+              "name": "Connect-DatpGraph"
+            }
+          ]
+        },
+        {
+          "name": "DatpSessionClient",
+          "children": [
+            {
+              "name": "Get-DatpSessionClient"
+            }
+          ]
+        },
+        {
+          "name": "DatpMachine",
+          "children": [
+            {
+              "name": "Get-DatpMachine"
+            }
+          ]
+        },
+        {
+          "name": "DatpMachineAlerts",
+          "children": [
+            {
+              "name": "Get-DatpMachineAlerts"
+            }
+          ]
+        },
+        {
+          "name": "DatpMachineUsers",
+          "children": [
+            {
+              "name": "Get-DatpMachineUsers"
+            }
+          ]
+        },
+        {
+          "name": "DatpMachineIsolation",
+          "children": [
+            {
+              "name": "Set-DatpMachineIsolation"
+            }
+          ]
+        },
+        {
+          "name": "DatpMachineTag",
+          "children": [
+            {
+              "name": "Add-DatpMachineTag"
+            },
+            {
+              "name": "Remove-DatpMachineTag"
+            }
+          ]
+        },
+        {
+          "name": "DatpMachineScan",
+          "children": [
+            {
+              "name": "Start-DatpMachineScan"
+            }
+          ]
+        },
+        {
+          "name": "DatpMachineAction",
+          "children": [
+            {
+              "name": "Get-DatpMachineAction"
+            }
+          ]
+        },
+        {
+          "name": "DatpInvestigationPkgCollection",
+          "children": [
+            {
+              "name": "Start-DatpInvestigationPkgCollection"
+            }
+          ]
+        },
+        {
+          "name": "DatpDomainStats",
+          "children": [
+            {
+              "name": "Get-DatpDomainStats"
+            }
+          ]
+        },
+        {
+          "name": "DatpDomainRelated",
+          "children": [
+            {
+              "name": "Get-DatpDomainRelated"
+            }
+          ]
+        },
+        {
+          "name": "DatpUserMachines",
+          "children": [
+            {
+              "name": "Get-DatpUserMachines"
+            }
+          ]
+        },
+        {
+          "name": "DatpUserAlerts",
+          "children": [
+            {
+              "name": "Get-DatpUserAlerts"
+            }
+          ]
+        },
+        {
+          "name": "DatpAlert",
+          "children": [
+            {
+              "name": "Get-DatpAlert"
+            },
+            {
+              "name": "Update-DatpAlert"
+            }
+          ]
+        },
+        {
+          "name": "DatpInvestigationPkg",
+          "children": [
+            {
+              "name": "Out-DatpInvestigationPkg"
+            }
+          ]
+        },
+        {
+          "name": "DatpFile",
+          "children": [
+            {
+              "name": "Get-DatpFile"
+            }
+          ]
+        },
+        {
+          "name": "DatpFileAlerts",
+          "children": [
+            {
+              "name": "Get-DatpFileAlerts"
+            }
+          ]
+        },
+        {
+          "name": "DatpFileMachines",
+          "children": [
+            {
+              "name": "Get-DatpFileMachines"
+            }
+          ]
+        },
+        {
+          "name": "DatpFileStats",
+          "children": [
+            {
+              "name": "Get-DatpFileStats"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.ReleasesAPI",
+      "companyName": "Smalls.Online",
+      "author": "Tim Small",
+      "children": [
+        {
+          "name": "PwshReleases",
+          "children": [
+            {
+              "name": "Get-PwshReleases"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pwsh-CreateSplatConfigs",
+      "companyName": "Smalls.Online",
+      "author": "Tim Small",
+      "children": [
+        {
+          "name": "SplatConfig",
+          "children": [
+            {
+              "name": "New-SplatConfig"
+            },
+            {
+              "name": "Import-SplatConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SmallsOnline.Subnetting.Pwsh",
+      "companyName": "Smalls.Online",
+      "author": "Timothy Small",
+      "children": [
+        {
+          "name": "IPv4Subnet",
+          "children": [
+            {
+              "name": "New-IPv4Subnet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SmallsOnline.TeamsAttendance.Pwsh",
+      "companyName": "Smalls.Online",
+      "author": "Tim Small",
+      "children": [
+        {
+          "name": "ExoTeamsAttendance",
+          "children": [
+            {
+              "name": "Get-ExoTeamsAttendance"
+            },
+            {
+              "name": "Export-ExoTeamsAttendance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SmallsOnline.WindowsBuildNumbers.Pwsh",
+      "companyName": "Smalls.Online",
+      "author": "Tim Small",
+      "children": [
+        {
+          "name": "WindowsReleaseInfo",
+          "children": [
+            {
+              "name": "Get-WindowsReleaseInfo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

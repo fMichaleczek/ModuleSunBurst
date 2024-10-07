@@ -1,0 +1,2287 @@
+{
+  "name": "WebMD Health Services",
+  "children": [
+    {
+      "name": "BitbucketServerAutomation",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "BBServerRepository",
+          "children": [
+            {
+              "name": "Find-BBServerRepository"
+            },
+            {
+              "name": "Get-BBServerRepository"
+            },
+            {
+              "name": "Move-BBServerRepository"
+            },
+            {
+              "name": "New-BBServerRepository"
+            },
+            {
+              "name": "Remove-BBServerRepository"
+            },
+            {
+              "name": "Rename-BBServerRepository"
+            }
+          ]
+        },
+        {
+          "name": "BBServerHook",
+          "children": [
+            {
+              "name": "Disable-BBServerHook"
+            },
+            {
+              "name": "Enable-BBServerHook"
+            },
+            {
+              "name": "Get-BBServerHook"
+            }
+          ]
+        },
+        {
+          "name": "BBServerBranch",
+          "children": [
+            {
+              "name": "Get-BBServerBranch"
+            },
+            {
+              "name": "New-BBServerBranch"
+            }
+          ]
+        },
+        {
+          "name": "BBServerChange",
+          "children": [
+            {
+              "name": "Get-BBServerChange"
+            }
+          ]
+        },
+        {
+          "name": "BBServerCommitBuildStatus",
+          "children": [
+            {
+              "name": "Get-BBServerCommitBuildStatus"
+            },
+            {
+              "name": "Set-BBServerCommitBuildStatus"
+            }
+          ]
+        },
+        {
+          "name": "BBServerDefaultReviewer",
+          "children": [
+            {
+              "name": "Get-BBServerDefaultReviewer"
+            },
+            {
+              "name": "New-BBServerDefaultReviewer"
+            },
+            {
+              "name": "Set-BBServerDefaultReviewer"
+            }
+          ]
+        },
+        {
+          "name": "BBServerFile",
+          "children": [
+            {
+              "name": "Get-BBServerFile"
+            }
+          ]
+        },
+        {
+          "name": "BBServerFileContent",
+          "children": [
+            {
+              "name": "Get-BBServerFileContent"
+            }
+          ]
+        },
+        {
+          "name": "BBServerProject",
+          "children": [
+            {
+              "name": "Get-BBServerProject"
+            },
+            {
+              "name": "New-BBServerProject"
+            }
+          ]
+        },
+        {
+          "name": "BBServerPullRequest",
+          "children": [
+            {
+              "name": "Get-BBServerPullRequest"
+            },
+            {
+              "name": "Merge-BBServerPullRequest"
+            },
+            {
+              "name": "New-BBServerPullRequest"
+            }
+          ]
+        },
+        {
+          "name": "BBServerPullRequestSetting",
+          "children": [
+            {
+              "name": "Get-BBServerPullRequestSetting"
+            },
+            {
+              "name": "Set-BBServerPullRequestSetting"
+            }
+          ]
+        },
+        {
+          "name": "BBServerTag",
+          "children": [
+            {
+              "name": "Get-BBServerTag"
+            },
+            {
+              "name": "New-BBServerTag"
+            },
+            {
+              "name": "Remove-BBServerTag"
+            }
+          ]
+        },
+        {
+          "name": "BBServerUser",
+          "children": [
+            {
+              "name": "Get-BBServerUser"
+            }
+          ]
+        },
+        {
+          "name": "BBServerRestMethod",
+          "children": [
+            {
+              "name": "Invoke-BBServerRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "BBServerConnection",
+          "children": [
+            {
+              "name": "New-BBServerConnection"
+            }
+          ]
+        },
+        {
+          "name": "BBServerDefaultBranch",
+          "children": [
+            {
+              "name": "Set-BBServerDefaultBranch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BuildMasterAutomation",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "BMObjectParameter",
+          "children": [
+            {
+              "name": "Add-BMObjectParameter"
+            }
+          ]
+        },
+        {
+          "name": "BMParameter",
+          "children": [
+            {
+              "name": "Add-BMParameter"
+            }
+          ]
+        },
+        {
+          "name": "BMNativeApiByteValue",
+          "children": [
+            {
+              "name": "ConvertFrom-BMNativeApiByteValue"
+            },
+            {
+              "name": "ConvertTo-BMNativeApiByteValue"
+            }
+          ]
+        },
+        {
+          "name": "BMOtterScriptExpression",
+          "children": [
+            {
+              "name": "ConvertFrom-BMOtterScriptExpression"
+            },
+            {
+              "name": "ConvertTo-BMOtterScriptExpression"
+            }
+          ]
+        },
+        {
+          "name": "BMApplication",
+          "children": [
+            {
+              "name": "Disable-BMApplication"
+            },
+            {
+              "name": "Get-BMApplication"
+            },
+            {
+              "name": "New-BMApplication"
+            },
+            {
+              "name": "Remove-BMApplication"
+            }
+          ]
+        },
+        {
+          "name": "BMApplicationGroup",
+          "children": [
+            {
+              "name": "Get-BMApplicationGroup"
+            }
+          ]
+        },
+        {
+          "name": "BMBuild",
+          "children": [
+            {
+              "name": "Get-BMBuild"
+            },
+            {
+              "name": "New-BMBuild"
+            }
+          ]
+        },
+        {
+          "name": "BMDeployment",
+          "children": [
+            {
+              "name": "Get-BMDeployment"
+            }
+          ]
+        },
+        {
+          "name": "BMEnvironment",
+          "children": [
+            {
+              "name": "Get-BMEnvironment"
+            },
+            {
+              "name": "New-BMEnvironment"
+            },
+            {
+              "name": "Remove-BMEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "BMPackage",
+          "children": [
+            {
+              "name": "Get-BMPackage"
+            },
+            {
+              "name": "New-BMPackage"
+            }
+          ]
+        },
+        {
+          "name": "BMRelease",
+          "children": [
+            {
+              "name": "Get-BMRelease"
+            },
+            {
+              "name": "New-BMRelease"
+            },
+            {
+              "name": "Set-BMRelease"
+            },
+            {
+              "name": "Stop-BMRelease"
+            }
+          ]
+        },
+        {
+          "name": "BMObjectName",
+          "children": [
+            {
+              "name": "Get-BMObjectName"
+            }
+          ]
+        },
+        {
+          "name": "BMPipeline",
+          "children": [
+            {
+              "name": "Get-BMPipeline"
+            },
+            {
+              "name": "Remove-BMPipeline"
+            },
+            {
+              "name": "Set-BMPipeline"
+            }
+          ]
+        },
+        {
+          "name": "BMRaft",
+          "children": [
+            {
+              "name": "Get-BMRaft"
+            },
+            {
+              "name": "Remove-BMRaft"
+            },
+            {
+              "name": "Set-BMRaft"
+            }
+          ]
+        },
+        {
+          "name": "BMRaftItem",
+          "children": [
+            {
+              "name": "Get-BMRaftItem"
+            },
+            {
+              "name": "Remove-BMRaftItem"
+            },
+            {
+              "name": "Set-BMRaftItem"
+            }
+          ]
+        },
+        {
+          "name": "BMServer",
+          "children": [
+            {
+              "name": "Get-BMServer"
+            },
+            {
+              "name": "New-BMServer"
+            },
+            {
+              "name": "Remove-BMServer"
+            }
+          ]
+        },
+        {
+          "name": "BMServerRole",
+          "children": [
+            {
+              "name": "Get-BMServerRole"
+            },
+            {
+              "name": "New-BMServerRole"
+            },
+            {
+              "name": "Remove-BMServerRole"
+            }
+          ]
+        },
+        {
+          "name": "BMVariable",
+          "children": [
+            {
+              "name": "Get-BMVariable"
+            },
+            {
+              "name": "Remove-BMVariable"
+            },
+            {
+              "name": "Set-BMVariable"
+            }
+          ]
+        },
+        {
+          "name": "BMNativeApiMethod",
+          "children": [
+            {
+              "name": "Invoke-BMNativeApiMethod"
+            }
+          ]
+        },
+        {
+          "name": "BMRestMethod",
+          "children": [
+            {
+              "name": "Invoke-BMRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "BMPipelinePostDeploymentOptionsObject",
+          "children": [
+            {
+              "name": "New-BMPipelinePostDeploymentOptionsObject"
+            }
+          ]
+        },
+        {
+          "name": "BMPipelineStageObject",
+          "children": [
+            {
+              "name": "New-BMPipelineStageObject"
+            }
+          ]
+        },
+        {
+          "name": "BMPipelineStageTargetObject",
+          "children": [
+            {
+              "name": "New-BMPipelineStageTargetObject"
+            }
+          ]
+        },
+        {
+          "name": "BMSession",
+          "children": [
+            {
+              "name": "New-BMSession"
+            }
+          ]
+        },
+        {
+          "name": "BMReleaseBuild",
+          "children": [
+            {
+              "name": "Publish-BMReleaseBuild"
+            }
+          ]
+        },
+        {
+          "name": "BMReleasePackage",
+          "children": [
+            {
+              "name": "Publish-BMReleasePackage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon.Accounts",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CSecurityIdentifier",
+          "children": [
+            {
+              "name": "ConvertTo-CSecurityIdentifier"
+            }
+          ]
+        },
+        {
+          "name": "CIdentity",
+          "children": [
+            {
+              "name": "Resolve-CIdentity"
+            },
+            {
+              "name": "Test-CIdentity"
+            }
+          ]
+        },
+        {
+          "name": "CIdentityName",
+          "children": [
+            {
+              "name": "Resolve-CIdentityName"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon.Core",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CTypeData",
+          "children": [
+            {
+              "name": "Add-CTypeData"
+            }
+          ]
+        },
+        {
+          "name": "CBase64",
+          "children": [
+            {
+              "name": "ConvertTo-CBase64"
+            }
+          ]
+        },
+        {
+          "name": "CPathProvider",
+          "children": [
+            {
+              "name": "Get-CPathProvider"
+            }
+          ]
+        },
+        {
+          "name": "CPowerShellPath",
+          "children": [
+            {
+              "name": "Get-CPowerShellPath"
+            }
+          ]
+        },
+        {
+          "name": "CPowerShell",
+          "children": [
+            {
+              "name": "Invoke-CPowerShell"
+            },
+            {
+              "name": "Test-CPowerShell"
+            }
+          ]
+        },
+        {
+          "name": "CFullPath",
+          "children": [
+            {
+              "name": "Resolve-CFullPath"
+            }
+          ]
+        },
+        {
+          "name": "CPowerShellProcess",
+          "children": [
+            {
+              "name": "Start-CPowerShellProcess"
+            }
+          ]
+        },
+        {
+          "name": "COperatingSystem",
+          "children": [
+            {
+              "name": "Test-COperatingSystem"
+            }
+          ]
+        },
+        {
+          "name": "CType",
+          "children": [
+            {
+              "name": "Test-CType"
+            }
+          ]
+        },
+        {
+          "name": "CTypeDataMember",
+          "children": [
+            {
+              "name": "Test-CTypeDataMember"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon.DSC",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CDscLocalResourceCache",
+          "children": [
+            {
+              "name": "Clear-CDscLocalResourceCache"
+            }
+          ]
+        },
+        {
+          "name": "CMofAuthoringMetadata",
+          "children": [
+            {
+              "name": "Clear-CMofAuthoringMetadata"
+            }
+          ]
+        },
+        {
+          "name": "CDscResource",
+          "children": [
+            {
+              "name": "Copy-CDscResource"
+            }
+          ]
+        },
+        {
+          "name": "CDscError",
+          "children": [
+            {
+              "name": "Get-CDscError"
+            },
+            {
+              "name": "Write-CDscError"
+            }
+          ]
+        },
+        {
+          "name": "CLcm",
+          "children": [
+            {
+              "name": "Initialize-CLcm"
+            }
+          ]
+        },
+        {
+          "name": "CDscTargetResource",
+          "children": [
+            {
+              "name": "Test-CDscTargetResource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon.FileSystem",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CNtfsPermission",
+          "children": [
+            {
+              "name": "Get-CNtfsPermission"
+            },
+            {
+              "name": "Grant-CNtfsPermission"
+            },
+            {
+              "name": "Revoke-CNtfsPermission"
+            },
+            {
+              "name": "Test-CNtfsPermission"
+            }
+          ]
+        },
+        {
+          "name": "CNtfsHardLink",
+          "children": [
+            {
+              "name": "Get-CNtfsHardLink"
+            }
+          ]
+        },
+        {
+          "name": "FileHardLink",
+          "children": [
+            {
+              "name": "Get-FileHardLink"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon.Registry",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CRegistryKeyValue",
+          "children": [
+            {
+              "name": "Get-CRegistryKeyValue"
+            },
+            {
+              "name": "Remove-CRegistryKeyValue"
+            },
+            {
+              "name": "Set-CRegistryKeyValue"
+            },
+            {
+              "name": "Test-CRegistryKeyValue"
+            }
+          ]
+        },
+        {
+          "name": "CRegistryPermission",
+          "children": [
+            {
+              "name": "Get-CRegistryPermission"
+            },
+            {
+              "name": "Grant-CRegistryPermission"
+            },
+            {
+              "name": "Revoke-CRegistryPermission"
+            },
+            {
+              "name": "Test-CRegistryPermission"
+            }
+          ]
+        },
+        {
+          "name": "CRegistryKey",
+          "children": [
+            {
+              "name": "Install-CRegistryKey"
+            },
+            {
+              "name": "Uninstall-CRegistryKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon.ScheduledTasks",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CScheduledTask",
+          "children": [
+            {
+              "name": "Get-CScheduledTask"
+            },
+            {
+              "name": "Install-CScheduledTask"
+            },
+            {
+              "name": "Test-CScheduledTask"
+            },
+            {
+              "name": "Uninstall-CScheduledTask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon.Security",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CAcl",
+          "children": [
+            {
+              "name": "Get-CAcl"
+            }
+          ]
+        },
+        {
+          "name": "CPermission",
+          "children": [
+            {
+              "name": "Get-CPermission"
+            },
+            {
+              "name": "Grant-CPermission"
+            },
+            {
+              "name": "Revoke-CPermission"
+            },
+            {
+              "name": "Test-CPermission"
+            }
+          ]
+        },
+        {
+          "name": "CPrivilege",
+          "children": [
+            {
+              "name": "Get-CPrivilege"
+            },
+            {
+              "name": "Grant-CPrivilege"
+            },
+            {
+              "name": "Revoke-CPrivilege"
+            },
+            {
+              "name": "Test-CPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "CPrivilegeName",
+          "children": [
+            {
+              "name": "Test-CPrivilegeName"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon.Windows",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CBackConnectionHostName",
+          "children": [
+            {
+              "name": "Get-CBackConnectionHostName"
+            },
+            {
+              "name": "Register-CBackConnectionHostName"
+            },
+            {
+              "name": "Unregister-CBackConnectionHostName"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon.Windows.HttpServer",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CHttpsCertificateBinding",
+          "children": [
+            {
+              "name": "Get-CHttpsCertificateBinding"
+            },
+            {
+              "name": "Remove-CHttpsCertificateBinding"
+            },
+            {
+              "name": "Set-CHttpsCertificateBinding"
+            },
+            {
+              "name": "Test-CHttpsCertificateBinding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon.Windows.Installer",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CMsi",
+          "children": [
+            {
+              "name": "Get-CMsi"
+            },
+            {
+              "name": "Install-CMsi"
+            }
+          ]
+        },
+        {
+          "name": "CInstalledProgram",
+          "children": [
+            {
+              "name": "Get-CInstalledProgram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CloudBoltAutomation",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "CBEnvironment",
+          "children": [
+            {
+              "name": "Get-CBEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "CBGroup",
+          "children": [
+            {
+              "name": "Get-CBGroup"
+            },
+            {
+              "name": "New-CBGroup"
+            },
+            {
+              "name": "Remove-CBGroup"
+            }
+          ]
+        },
+        {
+          "name": "CBJob",
+          "children": [
+            {
+              "name": "Get-CBJob"
+            }
+          ]
+        },
+        {
+          "name": "CBOrder",
+          "children": [
+            {
+              "name": "Get-CBOrder"
+            },
+            {
+              "name": "Start-CBOrder"
+            },
+            {
+              "name": "Wait-CBOrder"
+            }
+          ]
+        },
+        {
+          "name": "CBResourceService",
+          "children": [
+            {
+              "name": "Get-CBResourceService"
+            },
+            {
+              "name": "Remove-CBResourceService"
+            }
+          ]
+        },
+        {
+          "name": "CBRestMethod",
+          "children": [
+            {
+              "name": "Invoke-CBRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "CBSession",
+          "children": [
+            {
+              "name": "New-CBSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GitAutomation",
+      "companyName": "Unknown",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "GitItem",
+          "children": [
+            {
+              "name": "Add-GitItem"
+            },
+            {
+              "name": "Remove-GitItem"
+            }
+          ]
+        },
+        {
+          "name": "GitTree",
+          "children": [
+            {
+              "name": "Compare-GitTree"
+            }
+          ]
+        },
+        {
+          "name": "GitRepository",
+          "children": [
+            {
+              "name": "Copy-GitRepository"
+            },
+            {
+              "name": "Find-GitRepository"
+            },
+            {
+              "name": "Get-GitRepository"
+            },
+            {
+              "name": "New-GitRepository"
+            },
+            {
+              "name": "Update-GitRepository"
+            }
+          ]
+        },
+        {
+          "name": "GitBranch",
+          "children": [
+            {
+              "name": "Get-GitBranch"
+            },
+            {
+              "name": "New-GitBranch"
+            },
+            {
+              "name": "Send-GitBranch"
+            },
+            {
+              "name": "Sync-GitBranch"
+            },
+            {
+              "name": "Test-GitBranch"
+            }
+          ]
+        },
+        {
+          "name": "GitCommit",
+          "children": [
+            {
+              "name": "Get-GitCommit"
+            },
+            {
+              "name": "Merge-GitCommit"
+            },
+            {
+              "name": "Receive-GitCommit"
+            },
+            {
+              "name": "Save-GitCommit"
+            },
+            {
+              "name": "Send-GitCommit"
+            },
+            {
+              "name": "Test-GitCommit"
+            }
+          ]
+        },
+        {
+          "name": "GitConfiguration",
+          "children": [
+            {
+              "name": "Get-GitConfiguration"
+            },
+            {
+              "name": "Remove-GitConfiguration"
+            },
+            {
+              "name": "Set-GitConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoryStatus",
+          "children": [
+            {
+              "name": "Get-GitRepositoryStatus"
+            }
+          ]
+        },
+        {
+          "name": "GitTag",
+          "children": [
+            {
+              "name": "Get-GitTag"
+            },
+            {
+              "name": "New-GitTag"
+            },
+            {
+              "name": "Test-GitTag"
+            }
+          ]
+        },
+        {
+          "name": "GitSignature",
+          "children": [
+            {
+              "name": "New-GitSignature"
+            }
+          ]
+        },
+        {
+          "name": "GitObject",
+          "children": [
+            {
+              "name": "Send-GitObject"
+            }
+          ]
+        },
+        {
+          "name": "GitRemoteUri",
+          "children": [
+            {
+              "name": "Test-GitRemoteUri"
+            }
+          ]
+        },
+        {
+          "name": "GitUncommittedChange",
+          "children": [
+            {
+              "name": "Test-GitUncommittedChange"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Glob",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "GlobFile",
+          "children": [
+            {
+              "name": "Find-GlobFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PagerDutyAutomation",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "PDExtension",
+          "children": [
+            {
+              "name": "Convert-PDExtension"
+            }
+          ]
+        },
+        {
+          "name": "PDRestMethod",
+          "children": [
+            {
+              "name": "Invoke-PDRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "PDSession",
+          "children": [
+            {
+              "name": "New-PDSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prism",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "Prism",
+          "children": [
+            {
+              "name": "Invoke-Prism"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProGetAutomation",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "ProGetUniversalPackageFile",
+          "children": [
+            {
+              "name": "Add-ProGetUniversalPackageFile"
+            },
+            {
+              "name": "Read-ProGetUniversalPackageFile"
+            }
+          ]
+        },
+        {
+          "name": "ProGetAsset",
+          "children": [
+            {
+              "name": "Get-ProGetAsset"
+            },
+            {
+              "name": "Remove-ProGetAsset"
+            },
+            {
+              "name": "Set-ProGetAsset"
+            }
+          ]
+        },
+        {
+          "name": "ProGetAssetContent",
+          "children": [
+            {
+              "name": "Get-ProGetAssetContent"
+            }
+          ]
+        },
+        {
+          "name": "ProGetFeed",
+          "children": [
+            {
+              "name": "Get-ProGetFeed"
+            },
+            {
+              "name": "New-ProGetFeed"
+            },
+            {
+              "name": "Remove-ProGetFeed"
+            },
+            {
+              "name": "Test-ProGetFeed"
+            }
+          ]
+        },
+        {
+          "name": "ProGetUniversalPackage",
+          "children": [
+            {
+              "name": "Get-ProGetUniversalPackage"
+            },
+            {
+              "name": "New-ProGetUniversalPackage"
+            },
+            {
+              "name": "Publish-ProGetUniversalPackage"
+            },
+            {
+              "name": "Remove-ProGetUniversalPackage"
+            }
+          ]
+        },
+        {
+          "name": "ProGetNativeApiMethod",
+          "children": [
+            {
+              "name": "Invoke-ProGetNativeApiMethod"
+            }
+          ]
+        },
+        {
+          "name": "ProGetRestMethod",
+          "children": [
+            {
+              "name": "Invoke-ProGetRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "ProGetSession",
+          "children": [
+            {
+              "name": "New-ProGetSession"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PxGet",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "PxGet",
+          "children": [
+            {
+              "name": "Invoke-PxGet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rivet",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "Index",
+          "children": [
+            {
+              "name": "Add-Index"
+            },
+            {
+              "name": "Remove-Index"
+            },
+            {
+              "name": "Rename-Index"
+            }
+          ]
+        },
+        {
+          "name": "Migration",
+          "children": [
+            {
+              "name": "Export-Migration"
+            },
+            {
+              "name": "Get-Migration"
+            },
+            {
+              "name": "Merge-Migration"
+            },
+            {
+              "name": "New-Migration"
+            },
+            {
+              "name": "Stop-Migration"
+            }
+          ]
+        },
+        {
+          "name": "RivetConfig",
+          "children": [
+            {
+              "name": "Get-RivetConfig"
+            }
+          ]
+        },
+        {
+          "name": "RivetPlugin",
+          "children": [
+            {
+              "name": "Import-RivetPlugin"
+            },
+            {
+              "name": "Invoke-RivetPlugin"
+            }
+          ]
+        },
+        {
+          "name": "Rivet",
+          "children": [
+            {
+              "name": "Invoke-Rivet"
+            }
+          ]
+        },
+        {
+          "name": "CheckConstraint",
+          "children": [
+            {
+              "name": "Add-CheckConstraint"
+            },
+            {
+              "name": "Remove-CheckConstraint"
+            }
+          ]
+        },
+        {
+          "name": "DataType",
+          "children": [
+            {
+              "name": "Add-DataType"
+            },
+            {
+              "name": "Remove-DataType"
+            },
+            {
+              "name": "Rename-DataType"
+            }
+          ]
+        },
+        {
+          "name": "DefaultConstraint",
+          "children": [
+            {
+              "name": "Add-DefaultConstraint"
+            },
+            {
+              "name": "Remove-DefaultConstraint"
+            }
+          ]
+        },
+        {
+          "name": "Description",
+          "children": [
+            {
+              "name": "Add-Description"
+            },
+            {
+              "name": "Remove-Description"
+            },
+            {
+              "name": "Update-Description"
+            }
+          ]
+        },
+        {
+          "name": "ExtendedProperty",
+          "children": [
+            {
+              "name": "Add-ExtendedProperty"
+            },
+            {
+              "name": "Remove-ExtendedProperty"
+            },
+            {
+              "name": "Update-ExtendedProperty"
+            }
+          ]
+        },
+        {
+          "name": "ForeignKey",
+          "children": [
+            {
+              "name": "Add-ForeignKey"
+            },
+            {
+              "name": "Remove-ForeignKey"
+            }
+          ]
+        },
+        {
+          "name": "PrimaryKey",
+          "children": [
+            {
+              "name": "Add-PrimaryKey"
+            },
+            {
+              "name": "Remove-PrimaryKey"
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "children": [
+            {
+              "name": "Add-Row"
+            },
+            {
+              "name": "Remove-Row"
+            },
+            {
+              "name": "Update-Row"
+            }
+          ]
+        },
+        {
+          "name": "RowGuidCol",
+          "children": [
+            {
+              "name": "Add-RowGuidCol"
+            },
+            {
+              "name": "Remove-RowGuidCol"
+            }
+          ]
+        },
+        {
+          "name": "Schema",
+          "children": [
+            {
+              "name": "Add-Schema"
+            },
+            {
+              "name": "Remove-Schema"
+            }
+          ]
+        },
+        {
+          "name": "StoredProcedure",
+          "children": [
+            {
+              "name": "Add-StoredProcedure"
+            },
+            {
+              "name": "Remove-StoredProcedure"
+            },
+            {
+              "name": "Update-StoredProcedure"
+            }
+          ]
+        },
+        {
+          "name": "Synonym",
+          "children": [
+            {
+              "name": "Add-Synonym"
+            },
+            {
+              "name": "Remove-Synonym"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "children": [
+            {
+              "name": "Add-Table"
+            },
+            {
+              "name": "Remove-Table"
+            },
+            {
+              "name": "Update-Table"
+            }
+          ]
+        },
+        {
+          "name": "Trigger",
+          "children": [
+            {
+              "name": "Add-Trigger"
+            },
+            {
+              "name": "Remove-Trigger"
+            },
+            {
+              "name": "Update-Trigger"
+            }
+          ]
+        },
+        {
+          "name": "UniqueKey",
+          "children": [
+            {
+              "name": "Add-UniqueKey"
+            },
+            {
+              "name": "Remove-UniqueKey"
+            }
+          ]
+        },
+        {
+          "name": "UserDefinedFunction",
+          "children": [
+            {
+              "name": "Add-UserDefinedFunction"
+            },
+            {
+              "name": "Remove-UserDefinedFunction"
+            },
+            {
+              "name": "Update-UserDefinedFunction"
+            }
+          ]
+        },
+        {
+          "name": "View",
+          "children": [
+            {
+              "name": "Add-View"
+            },
+            {
+              "name": "Remove-View"
+            },
+            {
+              "name": "Update-View"
+            }
+          ]
+        },
+        {
+          "name": "Constraint",
+          "children": [
+            {
+              "name": "Disable-Constraint"
+            },
+            {
+              "name": "Enable-Constraint"
+            }
+          ]
+        },
+        {
+          "name": "Ddl",
+          "children": [
+            {
+              "name": "Invoke-Ddl"
+            }
+          ]
+        },
+        {
+          "name": "SqlScript",
+          "children": [
+            {
+              "name": "Invoke-SqlScript"
+            }
+          ]
+        },
+        {
+          "name": "Column",
+          "children": [
+            {
+              "name": "Rename-Column"
+            },
+            {
+              "name": "New-Column"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Rename-Object"
+            }
+          ]
+        },
+        {
+          "name": "CodeObjectMetadata",
+          "children": [
+            {
+              "name": "Update-CodeObjectMetadata"
+            }
+          ]
+        },
+        {
+          "name": "BigIntColumn",
+          "children": [
+            {
+              "name": "New-BigIntColumn"
+            }
+          ]
+        },
+        {
+          "name": "BinaryColumn",
+          "children": [
+            {
+              "name": "New-BinaryColumn"
+            }
+          ]
+        },
+        {
+          "name": "BitColumn",
+          "children": [
+            {
+              "name": "New-BitColumn"
+            }
+          ]
+        },
+        {
+          "name": "CharColumn",
+          "children": [
+            {
+              "name": "New-CharColumn"
+            }
+          ]
+        },
+        {
+          "name": "DateColumn",
+          "children": [
+            {
+              "name": "New-DateColumn"
+            }
+          ]
+        },
+        {
+          "name": "DateTime2Column",
+          "children": [
+            {
+              "name": "New-DateTime2Column"
+            }
+          ]
+        },
+        {
+          "name": "DateTimeColumn",
+          "children": [
+            {
+              "name": "New-DateTimeColumn"
+            }
+          ]
+        },
+        {
+          "name": "DateTimeOffsetColumn",
+          "children": [
+            {
+              "name": "New-DateTimeOffsetColumn"
+            }
+          ]
+        },
+        {
+          "name": "DecimalColumn",
+          "children": [
+            {
+              "name": "New-DecimalColumn"
+            }
+          ]
+        },
+        {
+          "name": "FloatColumn",
+          "children": [
+            {
+              "name": "New-FloatColumn"
+            }
+          ]
+        },
+        {
+          "name": "HierarchyIDColumn",
+          "children": [
+            {
+              "name": "New-HierarchyIDColumn"
+            }
+          ]
+        },
+        {
+          "name": "IntColumn",
+          "children": [
+            {
+              "name": "New-IntColumn"
+            }
+          ]
+        },
+        {
+          "name": "MoneyColumn",
+          "children": [
+            {
+              "name": "New-MoneyColumn"
+            }
+          ]
+        },
+        {
+          "name": "NCharColumn",
+          "children": [
+            {
+              "name": "New-NCharColumn"
+            }
+          ]
+        },
+        {
+          "name": "NVarCharColumn",
+          "children": [
+            {
+              "name": "New-NVarCharColumn"
+            }
+          ]
+        },
+        {
+          "name": "RealColumn",
+          "children": [
+            {
+              "name": "New-RealColumn"
+            }
+          ]
+        },
+        {
+          "name": "RivetSession",
+          "children": [
+            {
+              "name": "New-RivetSession"
+            }
+          ]
+        },
+        {
+          "name": "RowVersionColumn",
+          "children": [
+            {
+              "name": "New-RowVersionColumn"
+            }
+          ]
+        },
+        {
+          "name": "SmallDateTimeColumn",
+          "children": [
+            {
+              "name": "New-SmallDateTimeColumn"
+            }
+          ]
+        },
+        {
+          "name": "SmallIntColumn",
+          "children": [
+            {
+              "name": "New-SmallIntColumn"
+            }
+          ]
+        },
+        {
+          "name": "SmallMoneyColumn",
+          "children": [
+            {
+              "name": "New-SmallMoneyColumn"
+            }
+          ]
+        },
+        {
+          "name": "SqlVariantColumn",
+          "children": [
+            {
+              "name": "New-SqlVariantColumn"
+            }
+          ]
+        },
+        {
+          "name": "TimeColumn",
+          "children": [
+            {
+              "name": "New-TimeColumn"
+            }
+          ]
+        },
+        {
+          "name": "TinyIntColumn",
+          "children": [
+            {
+              "name": "New-TinyIntColumn"
+            }
+          ]
+        },
+        {
+          "name": "UniqueIdentifierColumn",
+          "children": [
+            {
+              "name": "New-UniqueIdentifierColumn"
+            }
+          ]
+        },
+        {
+          "name": "VarBinaryColumn",
+          "children": [
+            {
+              "name": "New-VarBinaryColumn"
+            }
+          ]
+        },
+        {
+          "name": "VarCharColumn",
+          "children": [
+            {
+              "name": "New-VarCharColumn"
+            }
+          ]
+        },
+        {
+          "name": "XmlColumn",
+          "children": [
+            {
+              "name": "New-XmlColumn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Whiskey",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "WhiskeyApiKey",
+          "children": [
+            {
+              "name": "Add-WhiskeyApiKey"
+            },
+            {
+              "name": "Get-WhiskeyApiKey"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyCredential",
+          "children": [
+            {
+              "name": "Add-WhiskeyCredential"
+            },
+            {
+              "name": "Get-WhiskeyCredential"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyTaskDefault",
+          "children": [
+            {
+              "name": "Add-WhiskeyTaskDefault"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyVariable",
+          "children": [
+            {
+              "name": "Add-WhiskeyVariable"
+            },
+            {
+              "name": "Resolve-WhiskeyVariable"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyNodePath",
+          "children": [
+            {
+              "name": "Assert-WhiskeyNodePath"
+            },
+            {
+              "name": "Resolve-WhiskeyNodePath"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyNodeModulePath",
+          "children": [
+            {
+              "name": "Assert-WhiskeyNodeModulePath"
+            },
+            {
+              "name": "Resolve-WhiskeyNodeModulePath"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyContext",
+          "children": [
+            {
+              "name": "ConvertFrom-WhiskeyContext"
+            },
+            {
+              "name": "ConvertTo-WhiskeyContext"
+            },
+            {
+              "name": "New-WhiskeyContext"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyYamlScalar",
+          "children": [
+            {
+              "name": "ConvertFrom-WhiskeyYamlScalar"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeySemanticVersion",
+          "children": [
+            {
+              "name": "ConvertTo-WhiskeySemanticVersion"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyPathDirectorySeparator",
+          "children": [
+            {
+              "name": "Convert-WhiskeyPathDirectorySeparator"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyTask",
+          "children": [
+            {
+              "name": "Get-WhiskeyTask"
+            },
+            {
+              "name": "Invoke-WhiskeyTask"
+            },
+            {
+              "name": "Stop-WhiskeyTask"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyMSBuildConfiguration",
+          "children": [
+            {
+              "name": "Get-WhiskeyMSBuildConfiguration"
+            },
+            {
+              "name": "Set-WhiskeyMSBuildConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyTool",
+          "children": [
+            {
+              "name": "Install-WhiskeyTool"
+            },
+            {
+              "name": "Uninstall-WhiskeyTool"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyNodeTask",
+          "children": [
+            {
+              "name": "Invoke-WhiskeyNodeTask"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyNpmCommand",
+          "children": [
+            {
+              "name": "Invoke-WhiskeyNpmCommand"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyPipeline",
+          "children": [
+            {
+              "name": "Invoke-WhiskeyPipeline"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyBuild",
+          "children": [
+            {
+              "name": "Invoke-WhiskeyBuild"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyBuildMasterPackage",
+          "children": [
+            {
+              "name": "Publish-WhiskeyBuildMasterPackage"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyNuGetPackage",
+          "children": [
+            {
+              "name": "Publish-WhiskeyNuGetPackage"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyProGetUniversalPackage",
+          "children": [
+            {
+              "name": "Publish-WhiskeyProGetUniversalPackage"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyBBServerTag",
+          "children": [
+            {
+              "name": "Publish-WhiskeyBBServerTag"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyEvent",
+          "children": [
+            {
+              "name": "Register-WhiskeyEvent"
+            },
+            {
+              "name": "Unregister-WhiskeyEvent"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyTaskPath",
+          "children": [
+            {
+              "name": "Resolve-WhiskeyTaskPath"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyBuildStatus",
+          "children": [
+            {
+              "name": "Set-WhiskeyBuildStatus"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyDebug",
+          "children": [
+            {
+              "name": "Write-WhiskeyDebug"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyError",
+          "children": [
+            {
+              "name": "Write-WhiskeyError"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyInfo",
+          "children": [
+            {
+              "name": "Write-WhiskeyInfo"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyObject",
+          "children": [
+            {
+              "name": "Write-WhiskeyObject"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyVerbose",
+          "children": [
+            {
+              "name": "Write-WhiskeyVerbose"
+            }
+          ]
+        },
+        {
+          "name": "WhiskeyWarning",
+          "children": [
+            {
+              "name": "Write-WhiskeyWarning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yodel",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "YDatabase",
+          "children": [
+            {
+              "name": "Connect-YDatabase"
+            }
+          ]
+        },
+        {
+          "name": "YDbCommand",
+          "children": [
+            {
+              "name": "Invoke-YDbCommand"
+            }
+          ]
+        },
+        {
+          "name": "YMsSqlIdentifier",
+          "children": [
+            {
+              "name": "ConvertTo-YMsSqlIdentifier"
+            }
+          ]
+        },
+        {
+          "name": "YMsSqlExtendedProperty",
+          "children": [
+            {
+              "name": "Get-YMsSqlExtendedProperty"
+            },
+            {
+              "name": "Set-YMsSqlExtendedProperty"
+            },
+            {
+              "name": "Test-YMsSqlExtendedProperty"
+            }
+          ]
+        },
+        {
+          "name": "YMsSqlSchema",
+          "children": [
+            {
+              "name": "Get-YMsSqlSchema"
+            },
+            {
+              "name": "Initialize-YMsSqlSchema"
+            },
+            {
+              "name": "Test-YMsSqlSchema"
+            }
+          ]
+        },
+        {
+          "name": "YMsSqlTable",
+          "children": [
+            {
+              "name": "Get-YMsSqlTable"
+            },
+            {
+              "name": "Remove-YMsSqlTable"
+            },
+            {
+              "name": "Test-YMsSqlTable"
+            }
+          ]
+        },
+        {
+          "name": "YMsSqlTableColumn",
+          "children": [
+            {
+              "name": "Get-YMsSqlTableColumn"
+            },
+            {
+              "name": "Test-YMsSqlTableColumn"
+            }
+          ]
+        },
+        {
+          "name": "YMsSqlDatabase",
+          "children": [
+            {
+              "name": "Initialize-YMsSqlDatabase"
+            }
+          ]
+        },
+        {
+          "name": "YMsSqlCommand",
+          "children": [
+            {
+              "name": "Invoke-YMsSqlCommand"
+            }
+          ]
+        },
+        {
+          "name": "YSqlServerCommand",
+          "children": [
+            {
+              "name": "Invoke-YSqlServerCommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zip",
+      "companyName": "WebMD Health Services",
+      "author": "WebMD Health Services",
+      "children": [
+        {
+          "name": "ZipArchiveEntry",
+          "children": [
+            {
+              "name": "Add-ZipArchiveEntry"
+            }
+          ]
+        },
+        {
+          "name": "ZipArchive",
+          "children": [
+            {
+              "name": "New-ZipArchive"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

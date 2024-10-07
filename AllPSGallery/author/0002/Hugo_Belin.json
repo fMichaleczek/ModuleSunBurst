@@ -1,0 +1,275 @@
+{
+  "name": "Hugo Belin",
+  "children": [
+    {
+      "name": "ConfigHive",
+      "companyName": "Unknown",
+      "author": "Hugo Belin",
+      "children": [
+        {
+          "name": "ConfigHive",
+          "children": [
+            {
+              "name": "Get-ConfigHive"
+            },
+            {
+              "name": "Register-ConfigHive"
+            },
+            {
+              "name": "Unregister-ConfigHive"
+            }
+          ]
+        },
+        {
+          "name": "ConfigKeys",
+          "children": [
+            {
+              "name": "Get-ConfigKeys"
+            }
+          ]
+        },
+        {
+          "name": "ConfigValue",
+          "children": [
+            {
+              "name": "Get-ConfigValue"
+            },
+            {
+              "name": "Remove-ConfigValue"
+            },
+            {
+              "name": "Set-ConfigValue"
+            }
+          ]
+        },
+        {
+          "name": "CurrentHiveName",
+          "children": [
+            {
+              "name": "Get-CurrentHiveName"
+            }
+          ]
+        },
+        {
+          "name": "CustomStorePath",
+          "children": [
+            {
+              "name": "Get-CustomStorePath"
+            }
+          ]
+        },
+        {
+          "name": "RegisteredHives",
+          "children": [
+            {
+              "name": "Get-RegisteredHives"
+            }
+          ]
+        },
+        {
+          "name": "DataStore",
+          "children": [
+            {
+              "name": "Initialize-DataStore"
+            },
+            {
+              "name": "New-DataStore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "xUtility",
+      "companyName": "HugoBelin",
+      "author": "Hugo Belin",
+      "children": [
+        {
+          "name": "ExpiringCacheItem",
+          "children": [
+            {
+              "name": "Add-ExpiringCacheItem"
+            },
+            {
+              "name": "Get-ExpiringCacheItem"
+            },
+            {
+              "name": "Remove-ExpiringCacheItem"
+            }
+          ]
+        },
+        {
+          "name": "CustomPrompt",
+          "children": [
+            {
+              "name": "Disable-CustomPrompt"
+            }
+          ]
+        },
+        {
+          "name": "AppDataPath",
+          "children": [
+            {
+              "name": "Get-AppDataPath"
+            }
+          ]
+        },
+        {
+          "name": "TempPath",
+          "children": [
+            {
+              "name": "Get-TempPath"
+            }
+          ]
+        },
+        {
+          "name": "WindowSize",
+          "children": [
+            {
+              "name": "Get-WindowSize"
+            },
+            {
+              "name": "Set-WindowSize"
+            }
+          ]
+        },
+        {
+          "name": "PSCommand",
+          "children": [
+            {
+              "name": "Invoke-PSCommand"
+            }
+          ]
+        },
+        {
+          "name": "ScriptBlockWithRetry",
+          "children": [
+            {
+              "name": "Invoke-ScriptBlockWithRetry"
+            }
+          ]
+        },
+        {
+          "name": "ConsoleColorSet",
+          "children": [
+            {
+              "name": "New-ConsoleColorSet"
+            }
+          ]
+        },
+        {
+          "name": "ConstantRetryPolicy",
+          "children": [
+            {
+              "name": "New-ConstantRetryPolicy"
+            }
+          ]
+        },
+        {
+          "name": "LinearRetryPolicy",
+          "children": [
+            {
+              "name": "New-LinearRetryPolicy"
+            }
+          ]
+        },
+        {
+          "name": "RetryPolicy",
+          "children": [
+            {
+              "name": "New-RetryPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ColorFormat",
+          "children": [
+            {
+              "name": "Out-ColorFormat"
+            }
+          ]
+        },
+        {
+          "name": "xUtilityConfig",
+          "children": [
+            {
+              "name": "Register-xUtilityConfig"
+            }
+          ]
+        },
+        {
+          "name": "ConsoleTransparency",
+          "children": [
+            {
+              "name": "Set-ConsoleTransparency"
+            }
+          ]
+        },
+        {
+          "name": "Prompt",
+          "children": [
+            {
+              "name": "Set-Prompt"
+            }
+          ]
+        },
+        {
+          "name": "PSVersionCheckpoint",
+          "children": [
+            {
+              "name": "Set-PSVersionCheckpoint"
+            }
+          ]
+        },
+        {
+          "name": "SymbolicLinkBehavior",
+          "children": [
+            {
+              "name": "Set-SymbolicLinkBehavior"
+            }
+          ]
+        },
+        {
+          "name": "Title",
+          "children": [
+            {
+              "name": "Set-Title"
+            }
+          ]
+        },
+        {
+          "name": "SublimeText",
+          "children": [
+            {
+              "name": "Start-SublimeText"
+            }
+          ]
+        },
+        {
+          "name": "AdminRights",
+          "children": [
+            {
+              "name": "Test-AdminRights"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellVersion",
+          "children": [
+            {
+              "name": "Test-PowerShellVersion"
+            }
+          ]
+        },
+        {
+          "name": "InlineProgress",
+          "children": [
+            {
+              "name": "Write-InlineProgress"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "name": "Puppet, Inc",
+  "children": [
+    {
+      "name": "PuppetBolt",
+      "companyName": "Puppet, Inc",
+      "author": "Puppet Inc",
+      "children": [
+        {
+          "name": "BoltVersion",
+          "children": [
+            {
+              "name": "Get-BoltVersion"
+            }
+          ]
+        },
+        {
+          "name": "BoltModule",
+          "children": [
+            {
+              "name": "Add-BoltModule"
+            },
+            {
+              "name": "Get-BoltModule"
+            },
+            {
+              "name": "Install-BoltModule"
+            }
+          ]
+        },
+        {
+          "name": "BoltPlan",
+          "children": [
+            {
+              "name": "Convert-BoltPlan"
+            },
+            {
+              "name": "Get-BoltPlan"
+            },
+            {
+              "name": "Invoke-BoltPlan"
+            },
+            {
+              "name": "New-BoltPlan"
+            }
+          ]
+        },
+        {
+          "name": "BoltGroup",
+          "children": [
+            {
+              "name": "Get-BoltGroup"
+            }
+          ]
+        },
+        {
+          "name": "BoltInventory",
+          "children": [
+            {
+              "name": "Get-BoltInventory"
+            }
+          ]
+        },
+        {
+          "name": "BoltPlugin",
+          "children": [
+            {
+              "name": "Get-BoltPlugin"
+            }
+          ]
+        },
+        {
+          "name": "BoltPolicy",
+          "children": [
+            {
+              "name": "Get-BoltPolicy"
+            },
+            {
+              "name": "Invoke-BoltPolicy"
+            },
+            {
+              "name": "New-BoltPolicy"
+            }
+          ]
+        },
+        {
+          "name": "BoltTask",
+          "children": [
+            {
+              "name": "Get-BoltTask"
+            },
+            {
+              "name": "Invoke-BoltTask"
+            }
+          ]
+        },
+        {
+          "name": "BoltApply",
+          "children": [
+            {
+              "name": "Invoke-BoltApply"
+            }
+          ]
+        },
+        {
+          "name": "BoltCommand",
+          "children": [
+            {
+              "name": "Invoke-BoltCommand"
+            }
+          ]
+        },
+        {
+          "name": "BoltLookup",
+          "children": [
+            {
+              "name": "Invoke-BoltLookup"
+            }
+          ]
+        },
+        {
+          "name": "BoltScript",
+          "children": [
+            {
+              "name": "Invoke-BoltScript"
+            }
+          ]
+        },
+        {
+          "name": "BoltProject",
+          "children": [
+            {
+              "name": "New-BoltProject"
+            },
+            {
+              "name": "Update-BoltProject"
+            }
+          ]
+        },
+        {
+          "name": "BoltSecretKey",
+          "children": [
+            {
+              "name": "New-BoltSecretKey"
+            }
+          ]
+        },
+        {
+          "name": "BoltSecret",
+          "children": [
+            {
+              "name": "Protect-BoltSecret"
+            },
+            {
+              "name": "Unprotect-BoltSecret"
+            }
+          ]
+        },
+        {
+          "name": "BoltFile",
+          "children": [
+            {
+              "name": "Receive-BoltFile"
+            },
+            {
+              "name": "Send-BoltFile"
+            }
+          ]
+        },
+        {
+          "name": "BoltModuleTypes",
+          "children": [
+            {
+              "name": "Register-BoltModuleTypes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "name": "Jeff Scripter",
+  "children": [
+    {
+      "name": "LogParsing",
+      "companyName": "JPSCRIPTER.Com",
+      "author": "Jeff Scripter",
+      "children": [
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Get-Log"
+            }
+          ]
+        },
+        {
+          "name": "LogType",
+          "children": [
+            {
+              "name": "Get-LogType"
+            }
+          ]
+        },
+        {
+          "name": "LogWatcher",
+          "children": [
+            {
+              "name": "New-LogWatcher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RunAsImpersonation",
+      "companyName": "JPSCRIPTER.Com",
+      "author": "Jeff Scripter",
+      "children": [
+        {
+          "name": "Impersonation",
+          "children": [
+            {
+              "name": "Set-Impersonation"
+            }
+          ]
+        },
+        {
+          "name": "MachineToken",
+          "children": [
+            {
+              "name": "Get-MachineToken"
+            }
+          ]
+        },
+        {
+          "name": "CredentialToken",
+          "children": [
+            {
+              "name": "Get-CredentialToken"
+            }
+          ]
+        },
+        {
+          "name": "GMSACredential",
+          "children": [
+            {
+              "name": "Get-GMSACredential"
+            }
+          ]
+        },
+        {
+          "name": "ProcessToken",
+          "children": [
+            {
+              "name": "Get-ProcessToken"
+            }
+          ]
+        },
+        {
+          "name": "ScriptBlock",
+          "children": [
+            {
+              "name": "Invoke-ScriptBlock"
+            }
+          ]
+        },
+        {
+          "name": "CommandWithCredential",
+          "children": [
+            {
+              "name": "Invoke-CommandWithCredential"
+            }
+          ]
+        },
+        {
+          "name": "CommandWithToken",
+          "children": [
+            {
+              "name": "Invoke-CommandWithToken"
+            }
+          ]
+        },
+        {
+          "name": "Credential",
+          "children": [
+            {
+              "name": "Test-Credential"
+            }
+          ]
+        },
+        {
+          "name": "ConsoleUserToken",
+          "children": [
+            {
+              "name": "Get-ConsoleUserToken"
+            }
+          ]
+        },
+        {
+          "name": "TokenInfo",
+          "children": [
+            {
+              "name": "Get-TokenInfo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

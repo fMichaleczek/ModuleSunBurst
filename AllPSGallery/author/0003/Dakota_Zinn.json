@@ -1,0 +1,230 @@
+{
+  "name": "Dakota Zinn",
+  "children": [
+    {
+      "name": "RescueTime",
+      "companyName": "Unknown",
+      "author": "Dakota Zinn",
+      "children": [
+        {
+          "name": "RescueTime",
+          "children": [
+            {
+              "name": "Connect-RescueTime"
+            }
+          ]
+        },
+        {
+          "name": "RTAnalytics",
+          "children": [
+            {
+              "name": "Get-RTAnalytics"
+            }
+          ]
+        },
+        {
+          "name": "RTSummaryFeed",
+          "children": [
+            {
+              "name": "Get-RTSummaryFeed"
+            }
+          ]
+        },
+        {
+          "name": "RTAlerts",
+          "children": [
+            {
+              "name": "Get-RTAlerts"
+            }
+          ]
+        },
+        {
+          "name": "RTHighlights",
+          "children": [
+            {
+              "name": "Get-RTHighlights"
+            }
+          ]
+        },
+        {
+          "name": "RTHighlight",
+          "children": [
+            {
+              "name": "New-RTHighlight"
+            }
+          ]
+        },
+        {
+          "name": "RTFocusTime",
+          "children": [
+            {
+              "name": "Start-RTFocusTime"
+            },
+            {
+              "name": "Stop-RTFocusTime"
+            },
+            {
+              "name": "Get-RTFocusTime"
+            }
+          ]
+        },
+        {
+          "name": "RTOfflineTime",
+          "children": [
+            {
+              "name": "Add-RTOfflineTime"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TechDirect",
+      "companyName": "Unknown",
+      "author": "Dakota Zinn",
+      "children": [
+        {
+          "name": "TechDirect",
+          "children": [
+            {
+              "name": "Connect-TechDirect"
+            }
+          ]
+        },
+        {
+          "name": "TDAccessToken",
+          "children": [
+            {
+              "name": "Get-TDAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "DispatchPart",
+          "children": [
+            {
+              "name": "Format-DispatchPart"
+            }
+          ]
+        },
+        {
+          "name": "DispatchAttachment",
+          "children": [
+            {
+              "name": "Format-DispatchAttachment"
+            }
+          ]
+        },
+        {
+          "name": "TechnicianStatus",
+          "children": [
+            {
+              "name": "Get-TechnicianStatus"
+            }
+          ]
+        },
+        {
+          "name": "TechnicianInfo",
+          "children": [
+            {
+              "name": "Get-TechnicianInfo"
+            }
+          ]
+        },
+        {
+          "name": "DispatchRequest",
+          "children": [
+            {
+              "name": "Invoke-DispatchRequest"
+            },
+            {
+              "name": "Redo-DispatchRequest"
+            }
+          ]
+        },
+        {
+          "name": "DispatchStatus",
+          "children": [
+            {
+              "name": "Get-DispatchStatus"
+            }
+          ]
+        },
+        {
+          "name": "PartsByServiceTag",
+          "children": [
+            {
+              "name": "Get-PartsByServiceTag"
+            }
+          ]
+        },
+        {
+          "name": "BulkDispatch",
+          "children": [
+            {
+              "name": "Get-BulkDispatch"
+            }
+          ]
+        },
+        {
+          "name": "DeviceWarranty",
+          "children": [
+            {
+              "name": "Get-DeviceWarranty"
+            }
+          ]
+        },
+        {
+          "name": "FileToBase64",
+          "children": [
+            {
+              "name": "Convert-FileToBase64"
+            }
+          ]
+        },
+        {
+          "name": "TDStatusCode",
+          "children": [
+            {
+              "name": "Convert-TDStatusCode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WSO2-Auth",
+      "companyName": "Unknown",
+      "author": "Dakota Zinn",
+      "children": [
+        {
+          "name": "WSO2",
+          "children": [
+            {
+              "name": "Connect-WSO2"
+            },
+            {
+              "name": "Disconnect-WSO2"
+            }
+          ]
+        },
+        {
+          "name": "WSO2Token",
+          "children": [
+            {
+              "name": "Get-WSO2Token"
+            }
+          ]
+        },
+        {
+          "name": "AzureJWT",
+          "children": [
+            {
+              "name": "Get-AzureJWT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

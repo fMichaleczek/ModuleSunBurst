@@ -1,0 +1,91 @@
+{
+  "name": "iricigor outlook.com",
+  "children": [
+    {
+      "name": "azmi",
+      "companyName": "Unknown",
+      "author": "iricigor outlook.com",
+      "children": [
+        {
+          "name": "AzmiToken",
+          "children": [
+            {
+              "name": "Get-AzmiToken"
+            }
+          ]
+        },
+        {
+          "name": "AzmiSecret",
+          "children": [
+            {
+              "name": "Get-AzmiSecret"
+            }
+          ]
+        },
+        {
+          "name": "AzmiCertificate",
+          "children": [
+            {
+              "name": "Get-AzmiCertificate"
+            }
+          ]
+        },
+        {
+          "name": "AzmiBlobList",
+          "children": [
+            {
+              "name": "Get-AzmiBlobList"
+            }
+          ]
+        },
+        {
+          "name": "AzmiBlobContent",
+          "children": [
+            {
+              "name": "Get-AzmiBlobContent"
+            },
+            {
+              "name": "Set-AzmiBlobContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InstallModuleFromGit",
+      "companyName": "Unknown",
+      "author": "iricigor outlook.com",
+      "children": [
+        {
+          "name": "GitModule",
+          "children": [
+            {
+              "name": "Get-GitModule"
+            },
+            {
+              "name": "Install-GitModule"
+            },
+            {
+              "name": "Update-GitModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KQL",
+      "companyName": "Unknown",
+      "author": "iricigor outlook.com",
+      "children": [
+        {
+          "name": "KQL",
+          "children": [
+            {
+              "name": "Invoke-KQL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

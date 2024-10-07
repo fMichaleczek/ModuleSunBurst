@@ -1,0 +1,84 @@
+{
+  "name": "Contoso ltd.",
+  "children": [
+    {
+      "name": "JeaCertificateManager",
+      "companyName": "Contoso ltd.",
+      "author": "Friedrich Weinmann",
+      "children": [
+        {
+          "name": "ExpiringCertificate",
+          "children": [
+            {
+              "name": "Get-ExpiringCertificate"
+            }
+          ]
+        },
+        {
+          "name": "IssuedCertificate",
+          "children": [
+            {
+              "name": "Get-IssuedCertificate"
+            }
+          ]
+        },
+        {
+          "name": "Certificate",
+          "children": [
+            {
+              "name": "Revoke-Certificate"
+            }
+          ]
+        },
+        {
+          "name": "CertificateTemplateRoleMember",
+          "children": [
+            {
+              "name": "Add-CertificateTemplateRoleMember"
+            },
+            {
+              "name": "Get-CertificateTemplateRoleMember"
+            },
+            {
+              "name": "Remove-CertificateTemplateRoleMember"
+            }
+          ]
+        },
+        {
+          "name": "CertificateTemplateRole",
+          "children": [
+            {
+              "name": "New-CertificateTemplateRole"
+            }
+          ]
+        },
+        {
+          "name": "JeaCertificateManager",
+          "children": [
+            {
+              "name": "Register-JeaCertificateManager"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LargeFiles",
+      "companyName": "Contoso Ltd.",
+      "author": "Friedrich Weinmann",
+      "children": [
+        {
+          "name": "LargeFile",
+          "children": [
+            {
+              "name": "Get-LargeFile"
+            },
+            {
+              "name": "Rename-LargeFile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

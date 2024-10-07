@@ -1,0 +1,111 @@
+{
+  "name": "Ephing Admin",
+  "children": [
+    {
+      "name": "EAMemoryCache",
+      "companyName": "Ephing Admin",
+      "author": "Ryan Ephgrave",
+      "children": [
+        {
+          "name": "EAMemoryCacheValue",
+          "children": [
+            {
+              "name": "Get-EAMemoryCacheValue"
+            },
+            {
+              "name": "Remove-EAMemoryCacheValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EAMonitor",
+      "companyName": "Ephing Admin",
+      "author": "Ryan Ephgrave",
+      "children": [
+        {
+          "name": "EAMemoryCacheValue",
+          "children": [
+            {
+              "name": "Get-EAMemoryCacheValue"
+            },
+            {
+              "name": "Remove-EAMemoryCacheValue"
+            }
+          ]
+        },
+        {
+          "name": "EAMonitor",
+          "children": [
+            {
+              "name": "Get-EAMonitor"
+            },
+            {
+              "name": "Import-EAMonitor"
+            },
+            {
+              "name": "Initialize-EAMonitor"
+            },
+            {
+              "name": "Start-EAMonitor"
+            }
+          ]
+        },
+        {
+          "name": "EAMonitorEnvironment",
+          "children": [
+            {
+              "name": "Get-EAMonitorEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "EAMonitorJob",
+          "children": [
+            {
+              "name": "Get-EAMonitorJob"
+            }
+          ]
+        },
+        {
+          "name": "EAMonitorSetting",
+          "children": [
+            {
+              "name": "Get-EAMonitorSetting"
+            },
+            {
+              "name": "Import-EAMonitorSetting"
+            },
+            {
+              "name": "Set-EAMonitorSetting"
+            }
+          ]
+        },
+        {
+          "name": "EAMonitorScriptBlock",
+          "children": [
+            {
+              "name": "Import-EAMonitorScriptBlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "eaRunAs",
+      "companyName": "Ephing Admin",
+      "author": "Ryan Ephgrave",
+      "children": [
+        {
+          "name": "eaRunAsScriptBlock",
+          "children": [
+            {
+              "name": "Invoke-eaRunAsScriptBlock"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

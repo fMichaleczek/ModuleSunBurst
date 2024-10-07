@@ -1,0 +1,62 @@
+{
+  "name": "bzzzt",
+  "children": [
+    {
+      "name": "rib",
+      "companyName": "bzzzt",
+      "author": "Richie Lee",
+      "children": [
+        {
+          "name": "VstsBuild",
+          "children": [
+            {
+              "name": "Get-VstsBuild"
+            },
+            {
+              "name": "Invoke-VstsBuild"
+            }
+          ]
+        },
+        {
+          "name": "VstsRelease",
+          "children": [
+            {
+              "name": "Get-VstsRelease"
+            }
+          ]
+        },
+        {
+          "name": "VstsReleaseByName",
+          "children": [
+            {
+              "name": "Get-VstsReleaseByName"
+            }
+          ]
+        },
+        {
+          "name": "VstsReleaseInBuild",
+          "children": [
+            {
+              "name": "Invoke-VstsReleaseInBuild"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vstsBuildWatcher",
+      "companyName": "bzzzt",
+      "author": "Richie Lee",
+      "children": [
+        {
+          "name": "VstsBuilds",
+          "children": [
+            {
+              "name": "Show-VstsBuilds"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

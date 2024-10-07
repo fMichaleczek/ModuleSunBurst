@@ -1,0 +1,43 @@
+{
+  "name": "tobia",
+  "children": [
+    {
+      "name": "GetNetStat",
+      "companyName": "powershell.one",
+      "author": "tobia",
+      "children": [
+        {
+          "name": "NetStat",
+          "children": [
+            {
+              "name": "Get-NetStat"
+            }
+          ]
+        },
+        {
+          "name": "HostNameProperty",
+          "children": [
+            {
+              "name": "Resolve-HostNameProperty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSTemperatureMonitor",
+      "companyName": "tobia",
+      "author": "tobia",
+      "children": [
+        {
+          "name": "MonitorTemperature",
+          "children": [
+            {
+              "name": "Start-MonitorTemperature"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

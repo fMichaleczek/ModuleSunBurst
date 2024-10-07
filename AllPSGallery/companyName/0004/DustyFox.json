@@ -1,0 +1,147 @@
+{
+  "name": "DustyFox",
+  "children": [
+    {
+      "name": "FindFunctionCalls",
+      "companyName": "DustyFox",
+      "author": "Freddie Sackur",
+      "children": [
+        {
+          "name": "FunctionCall",
+          "children": [
+            {
+              "name": "Find-FunctionCall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Karabiner",
+      "companyName": "DustyFox",
+      "author": "Freddie Sackur",
+      "children": [
+        {
+          "name": "KarabinerConfig",
+          "children": [
+            {
+              "name": "Get-KarabinerConfig"
+            },
+            {
+              "name": "Set-KarabinerConfig"
+            }
+          ]
+        },
+        {
+          "name": "KarabinerProfile",
+          "children": [
+            {
+              "name": "Get-KarabinerProfile"
+            },
+            {
+              "name": "Set-KarabinerProfile"
+            },
+            {
+              "name": "Switch-KarabinerProfile"
+            }
+          ]
+        },
+        {
+          "name": "KarabinerRule",
+          "children": [
+            {
+              "name": "Get-KarabinerRule"
+            },
+            {
+              "name": "Set-KarabinerRule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Victor",
+      "companyName": "DustyFox",
+      "author": "Freddie Sackur",
+      "children": [
+        {
+          "name": "GitFile",
+          "children": [
+            {
+              "name": "Add-GitFile"
+            }
+          ]
+        },
+        {
+          "name": "GitBranch",
+          "children": [
+            {
+              "name": "Get-GitBranch"
+            }
+          ]
+        },
+        {
+          "name": "GitLog",
+          "children": [
+            {
+              "name": "Get-GitLog"
+            }
+          ]
+        },
+        {
+          "name": "GitStatus",
+          "children": [
+            {
+              "name": "Get-GitStatus"
+            }
+          ]
+        },
+        {
+          "name": "Git",
+          "children": [
+            {
+              "name": "Reset-Git"
+            }
+          ]
+        },
+        {
+          "name": "GitCommit",
+          "children": [
+            {
+              "name": "Select-GitCommit"
+            },
+            {
+              "name": "Update-GitCommit"
+            },
+            {
+              "name": "Write-GitCommit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WhoCalled",
+      "companyName": "DustyFox",
+      "author": "Freddie Sackur",
+      "children": [
+        {
+          "name": "Call",
+          "children": [
+            {
+              "name": "Find-Call"
+            }
+          ]
+        },
+        {
+          "name": "Caller",
+          "children": [
+            {
+              "name": "Find-Caller"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

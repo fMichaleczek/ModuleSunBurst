@@ -1,0 +1,28 @@
+{
+  "name": "PATRON IT s.r.o.",
+  "children": [
+    {
+      "name": "Patron.SNMP",
+      "companyName": "PATRON IT s.r.o.",
+      "author": "Martin Haller",
+      "children": [
+        {
+          "name": "SnmpGet",
+          "children": [
+            {
+              "name": "Invoke-SnmpGet"
+            }
+          ]
+        },
+        {
+          "name": "SnmpWalk",
+          "children": [
+            {
+              "name": "Invoke-SnmpWalk"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

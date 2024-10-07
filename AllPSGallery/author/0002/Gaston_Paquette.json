@@ -1,0 +1,108 @@
+{
+  "name": "Gaston Paquette",
+  "children": [
+    {
+      "name": "PSGUIHelper",
+      "companyName": "Unknown",
+      "author": "Gaston Paquette",
+      "children": [
+        {
+          "name": "PSGUIWPF",
+          "children": [
+            {
+              "name": "New-PSGUIWPF"
+            },
+            {
+              "name": "Update-PSGUIWPF"
+            }
+          ]
+        },
+        {
+          "name": "PSGUIActions",
+          "children": [
+            {
+              "name": "Add-PSGUIActions"
+            }
+          ]
+        },
+        {
+          "name": "PSGUIXaml",
+          "children": [
+            {
+              "name": "Read-PSGUIXaml"
+            }
+          ]
+        },
+        {
+          "name": "PSGUIScripts",
+          "children": [
+            {
+              "name": "Export-PSGUIScripts"
+            }
+          ]
+        },
+        {
+          "name": "PSGUICustomCommand",
+          "children": [
+            {
+              "name": "Add-PSGUICustomCommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecretManagement.BitWarden",
+      "companyName": "Gaston Paquette",
+      "author": "Gaston Paquette",
+      "children": [
+        {
+          "name": "Secret",
+          "children": [
+            {
+              "name": "Set-Secret"
+            },
+            {
+              "name": "Get-Secret"
+            },
+            {
+              "name": "Remove-Secret"
+            }
+          ]
+        },
+        {
+          "name": "SecretInfo",
+          "children": [
+            {
+              "name": "Get-SecretInfo"
+            }
+          ]
+        },
+        {
+          "name": "SecretVault",
+          "children": [
+            {
+              "name": "Test-SecretVault"
+            }
+          ]
+        },
+        {
+          "name": "BWSession",
+          "children": [
+            {
+              "name": "Unlock-BWSession"
+            }
+          ]
+        },
+        {
+          "name": "SecretTemplate",
+          "children": [
+            {
+              "name": "Get-SecretTemplate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

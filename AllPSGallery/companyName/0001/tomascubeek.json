@@ -1,0 +1,54 @@
+{
+  "name": "tomascubeek",
+  "children": [
+    {
+      "name": "Portable.CI.Cache",
+      "companyName": "tomascubeek",
+      "author": "tomascubeek",
+      "children": [
+        {
+          "name": "AwsS3Cache",
+          "children": [
+            {
+              "name": "Save-AwsS3Cache"
+            },
+            {
+              "name": "Restore-AwsS3Cache"
+            },
+            {
+              "name": "Test-AwsS3Cache"
+            }
+          ]
+        },
+        {
+          "name": "ArtifactoryCache",
+          "children": [
+            {
+              "name": "Save-ArtifactoryCache"
+            },
+            {
+              "name": "Restore-ArtifactoryCache"
+            },
+            {
+              "name": "Test-ArtifactoryCache"
+            }
+          ]
+        },
+        {
+          "name": "FileSystemCache",
+          "children": [
+            {
+              "name": "Save-FileSystemCache"
+            },
+            {
+              "name": "Restore-FileSystemCache"
+            },
+            {
+              "name": "Test-FileSystemCache"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

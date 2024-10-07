@@ -1,0 +1,811 @@
+{
+  "name": "NT Systems GmbH & Co. KG",
+  "children": [
+    {
+      "name": "NTS.Tools.Application",
+      "companyName": "NT Systems GmbH & Co. KG",
+      "author": "Moritz Wiedmann",
+      "children": [
+        {
+          "name": "C2RSetup",
+          "children": [
+            {
+              "name": "Get-C2RSetup"
+            },
+            {
+              "name": "Start-C2RSetup"
+            }
+          ]
+        },
+        {
+          "name": "Mimikatz",
+          "children": [
+            {
+              "name": "Get-Mimikatz"
+            }
+          ]
+        },
+        {
+          "name": "BitwardenClient",
+          "children": [
+            {
+              "name": "Install-BitwardenClient"
+            }
+          ]
+        },
+        {
+          "name": "GenericApplication",
+          "children": [
+            {
+              "name": "Install-GenericApplication"
+            }
+          ]
+        },
+        {
+          "name": "VSCode",
+          "children": [
+            {
+              "name": "Install-VSCode"
+            }
+          ]
+        },
+        {
+          "name": "C2RConfigXML",
+          "children": [
+            {
+              "name": "New-C2RConfigXML"
+            }
+          ]
+        },
+        {
+          "name": "OfficeConfiguration",
+          "children": [
+            {
+              "name": "Test-OfficeConfiguration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NTS.Tools.General",
+      "companyName": "NT Systems GmbH & Co. KG",
+      "author": "Moritz Wiedmann",
+      "children": [
+        {
+          "name": "DomainConnectivity",
+          "children": [
+            {
+              "name": "Confirm-DomainConnectivity"
+            }
+          ]
+        },
+        {
+          "name": "LatestModuleVersionInstalled",
+          "children": [
+            {
+              "name": "Confirm-LatestModuleVersionInstalled"
+            }
+          ]
+        },
+        {
+          "name": "LogFileParameters",
+          "children": [
+            {
+              "name": "Confirm-LogFileParameters"
+            }
+          ]
+        },
+        {
+          "name": "Question",
+          "children": [
+            {
+              "name": "Confirm-Question"
+            }
+          ]
+        },
+        {
+          "name": "RunningAsAdministrator",
+          "children": [
+            {
+              "name": "Confirm-RunningAsAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "ServiceIsRunning",
+          "children": [
+            {
+              "name": "Confirm-ServiceIsRunning"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellEnviroment",
+          "children": [
+            {
+              "name": "Initialize-PowerShellEnviroment"
+            }
+          ]
+        },
+        {
+          "name": "ItemIfNotExists",
+          "children": [
+            {
+              "name": "New-ItemIfNotExists"
+            }
+          ]
+        },
+        {
+          "name": "Interface",
+          "children": [
+            {
+              "name": "Set-Interface"
+            }
+          ]
+        },
+        {
+          "name": "FileDownload",
+          "children": [
+            {
+              "name": "Start-FileDownload"
+            }
+          ]
+        },
+        {
+          "name": "FolderCleanUp",
+          "children": [
+            {
+              "name": "Start-FolderCleanUp"
+            }
+          ]
+        },
+        {
+          "name": "FileLock",
+          "children": [
+            {
+              "name": "Test-FileLock"
+            }
+          ]
+        },
+        {
+          "name": "RebootPending",
+          "children": [
+            {
+              "name": "Test-RebootPending"
+            }
+          ]
+        },
+        {
+          "name": "RegistryValue",
+          "children": [
+            {
+              "name": "Test-RegistryValue"
+            }
+          ]
+        },
+        {
+          "name": "WindowsSystem",
+          "children": [
+            {
+              "name": "Update-WindowsSystem"
+            }
+          ]
+        },
+        {
+          "name": "ToLogOrTerminal",
+          "children": [
+            {
+              "name": "Write-ToLogOrTerminal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NTS.Tools.MSADCS",
+      "companyName": "NT Systems GmbH & Co. KG",
+      "author": "Moritz Wiedmann",
+      "children": [
+        {
+          "name": "CertRequest",
+          "children": [
+            {
+              "name": "Complete-CertRequest"
+            }
+          ]
+        },
+        {
+          "name": "ScheduledTaskForCRLCreation",
+          "children": [
+            {
+              "name": "Enable-ScheduledTaskForCRLCreation"
+            }
+          ]
+        },
+        {
+          "name": "CACert",
+          "children": [
+            {
+              "name": "Install-CACert"
+            }
+          ]
+        },
+        {
+          "name": "CACRL",
+          "children": [
+            {
+              "name": "New-CACRL"
+            }
+          ]
+        },
+        {
+          "name": "CACRLToAD",
+          "children": [
+            {
+              "name": "Publish-CACRLToAD"
+            }
+          ]
+        },
+        {
+          "name": "CAConfig",
+          "children": [
+            {
+              "name": "Set-CAConfig"
+            }
+          ]
+        },
+        {
+          "name": "CAPolicyInfFile",
+          "children": [
+            {
+              "name": "Set-CAPolicyInfFile"
+            }
+          ]
+        },
+        {
+          "name": "Certutil",
+          "children": [
+            {
+              "name": "Start-Certutil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NTS.Tools.MSADDS",
+      "companyName": "NT Systems GmbH & Co. KG",
+      "author": "Moritz Wiedmann",
+      "children": [
+        {
+          "name": "DFSRObject",
+          "children": [
+            {
+              "name": "Compare-DFSRObject"
+            }
+          ]
+        },
+        {
+          "name": "NLASvcFixForDCs",
+          "children": [
+            {
+              "name": "Install-NLASvcFixForDCs"
+            }
+          ]
+        },
+        {
+          "name": "EASEOUStructure",
+          "children": [
+            {
+              "name": "New-EASEOUStructure"
+            }
+          ]
+        },
+        {
+          "name": "DFSRReplication",
+          "children": [
+            {
+              "name": "Repair-DFSRReplication"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NTS.Tools.MSConfigMgr",
+      "companyName": "NT Systems GmbH & Co. KG",
+      "author": "Moritz Wiedmann",
+      "children": [
+        {
+          "name": "CM",
+          "children": [
+            {
+              "name": "Add-CM"
+            },
+            {
+              "name": "Confirm-CM"
+            },
+            {
+              "name": "Get-CM"
+            },
+            {
+              "name": "Initialize-CM"
+            },
+            {
+              "name": "Install-CM"
+            }
+          ]
+        },
+        {
+          "name": "CMSiteUpdatePackageDownloaded",
+          "children": [
+            {
+              "name": "Confirm-CMSiteUpdatePackageDownloaded"
+            }
+          ]
+        },
+        {
+          "name": "CMSiteUpdatePackageInstallation",
+          "children": [
+            {
+              "name": "Confirm-CMSiteUpdatePackageInstallation"
+            }
+          ]
+        },
+        {
+          "name": "CMSiteUpdatePrereqCheckFinished",
+          "children": [
+            {
+              "name": "Confirm-CMSiteUpdatePrereqCheckFinished"
+            }
+          ]
+        },
+        {
+          "name": "CMSiteUpdateState",
+          "children": [
+            {
+              "name": "Convert-CMSiteUpdateState"
+            }
+          ]
+        },
+        {
+          "name": "ConfigMgrSiteUpdate",
+          "children": [
+            {
+              "name": "Get-ConfigMgrSiteUpdate"
+            }
+          ]
+        },
+        {
+          "name": "WADK",
+          "children": [
+            {
+              "name": "Install-WADK"
+            }
+          ]
+        },
+        {
+          "name": "WSUS",
+          "children": [
+            {
+              "name": "Install-WSUS"
+            }
+          ]
+        },
+        {
+          "name": "ConfigMgrAgent",
+          "children": [
+            {
+              "name": "Uninstall-ConfigMgrAgent"
+            }
+          ]
+        },
+        {
+          "name": "CMSiteUpdateStatus",
+          "children": [
+            {
+              "name": "Write-CMSiteUpdateStatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NTS.Tools.MSExchange",
+      "companyName": "NT Systems GmbH & Co. KG",
+      "author": "Moritz Wiedmann",
+      "children": [
+        {
+          "name": "ExchangeCU",
+          "children": [
+            {
+              "name": "Get-ExchangeCU"
+            }
+          ]
+        },
+        {
+          "name": "ADForExchange",
+          "children": [
+            {
+              "name": "Initialize-ADForExchange"
+            }
+          ]
+        },
+        {
+          "name": "SchemaForExchange",
+          "children": [
+            {
+              "name": "Initialize-SchemaForExchange"
+            }
+          ]
+        },
+        {
+          "name": "Exchange",
+          "children": [
+            {
+              "name": "Install-Exchange"
+            }
+          ]
+        },
+        {
+          "name": "ExchangePrerequisites",
+          "children": [
+            {
+              "name": "Install-ExchangePrerequisites"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NTS.Tools.MSHyperV",
+      "companyName": "NT Systems GmbH & Co. KG",
+      "author": "Moritz Wiedmann",
+      "children": [
+        {
+          "name": "VMDisk",
+          "children": [
+            {
+              "name": "Add-VMDisk"
+            }
+          ]
+        },
+        {
+          "name": "VMToDomain",
+          "children": [
+            {
+              "name": "Add-VMToDomain"
+            }
+          ]
+        },
+        {
+          "name": "HyperV",
+          "children": [
+            {
+              "name": "Confirm-HyperV"
+            }
+          ]
+        },
+        {
+          "name": "VMDeployment",
+          "children": [
+            {
+              "name": "Confirm-VMDeployment"
+            },
+            {
+              "name": "Reset-VMDeployment"
+            }
+          ]
+        },
+        {
+          "name": "VMPresence",
+          "children": [
+            {
+              "name": "Confirm-VMPresence"
+            }
+          ]
+        },
+        {
+          "name": "VMState",
+          "children": [
+            {
+              "name": "Confirm-VMState"
+            }
+          ]
+        },
+        {
+          "name": "CourseVMToNetwork",
+          "children": [
+            {
+              "name": "Connect-CourseVMToNetwork"
+            }
+          ]
+        },
+        {
+          "name": "VMOperatingSystem",
+          "children": [
+            {
+              "name": "Get-VMOperatingSystem"
+            }
+          ]
+        },
+        {
+          "name": "CourseVM",
+          "children": [
+            {
+              "name": "Import-CourseVM"
+            },
+            {
+              "name": "New-CourseVM"
+            },
+            {
+              "name": "Update-CourseVM"
+            }
+          ]
+        },
+        {
+          "name": "ModuleInVM",
+          "children": [
+            {
+              "name": "Install-ModuleInVM"
+            }
+          ]
+        },
+        {
+          "name": "VMs",
+          "children": [
+            {
+              "name": "Install-VMs"
+            }
+          ]
+        },
+        {
+          "name": "VirtualMaschine",
+          "children": [
+            {
+              "name": "New-VirtualMaschine"
+            }
+          ]
+        },
+        {
+          "name": "VMDiskFormated",
+          "children": [
+            {
+              "name": "New-VMDiskFormated"
+            }
+          ]
+        },
+        {
+          "name": "VMHost",
+          "children": [
+            {
+              "name": "New-VMHost"
+            }
+          ]
+        },
+        {
+          "name": "VMVolume",
+          "children": [
+            {
+              "name": "New-VMVolume"
+            }
+          ]
+        },
+        {
+          "name": "VMVSwitch",
+          "children": [
+            {
+              "name": "New-VMVSwitch"
+            }
+          ]
+        },
+        {
+          "name": "VMInConfigMgr",
+          "children": [
+            {
+              "name": "Register-VMInConfigMgr"
+            }
+          ]
+        },
+        {
+          "name": "VMConfigMgrDeployment",
+          "children": [
+            {
+              "name": "Remove-VMConfigMgrDeployment"
+            }
+          ]
+        },
+        {
+          "name": "VMIfNeeded",
+          "children": [
+            {
+              "name": "Restart-VMIfNeeded"
+            }
+          ]
+        },
+        {
+          "name": "CourseVMToLastSnapshot",
+          "children": [
+            {
+              "name": "Restore-CourseVMToLastSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "VMInstallSnapshot",
+          "children": [
+            {
+              "name": "Set-VMInstallSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "VMIPConfig",
+          "children": [
+            {
+              "name": "Set-VMIPConfig"
+            }
+          ]
+        },
+        {
+          "name": "VMConnection",
+          "children": [
+            {
+              "name": "Test-VMConnection"
+            }
+          ]
+        },
+        {
+          "name": "CourseEnvironment",
+          "children": [
+            {
+              "name": "Update-CourseEnvironment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NTS.Tools.MSSQL",
+      "companyName": "NT Systems GmbH & Co. KG",
+      "author": "Moritz Wiedmann",
+      "children": [
+        {
+          "name": "SQLDBRole",
+          "children": [
+            {
+              "name": "Add-SQLDBRole"
+            }
+          ]
+        },
+        {
+          "name": "SQLMountPoint",
+          "children": [
+            {
+              "name": "Add-SQLMountPoint"
+            }
+          ]
+        },
+        {
+          "name": "VirtualSQLDiskVolume",
+          "children": [
+            {
+              "name": "Add-VirtualSQLDiskVolume"
+            }
+          ]
+        },
+        {
+          "name": "SQLCU",
+          "children": [
+            {
+              "name": "Get-SQLCU"
+            },
+            {
+              "name": "Install-SQLCU"
+            }
+          ]
+        },
+        {
+          "name": "SQLISO",
+          "children": [
+            {
+              "name": "Get-SQLISO"
+            }
+          ]
+        },
+        {
+          "name": "SQLSSMSSetup",
+          "children": [
+            {
+              "name": "Get-SQLSSMSSetup"
+            }
+          ]
+        },
+        {
+          "name": "SQLSSRSSetup",
+          "children": [
+            {
+              "name": "Get-SQLSSRSSetup"
+            }
+          ]
+        },
+        {
+          "name": "SQLSetup",
+          "children": [
+            {
+              "name": "Initialize-SQLSetup"
+            }
+          ]
+        },
+        {
+          "name": "SQLSSRS",
+          "children": [
+            {
+              "name": "Initialize-SQLSSRS"
+            },
+            {
+              "name": "Install-SQLSSRS"
+            }
+          ]
+        },
+        {
+          "name": "SQLADServiceAccount",
+          "children": [
+            {
+              "name": "Install-SQLADServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstance",
+          "children": [
+            {
+              "name": "Install-SQLInstance"
+            }
+          ]
+        },
+        {
+          "name": "SQLODBCDriver",
+          "children": [
+            {
+              "name": "Install-SQLODBCDriver"
+            }
+          ]
+        },
+        {
+          "name": "SQLSSMS",
+          "children": [
+            {
+              "name": "Install-SQLSSMS"
+            }
+          ]
+        },
+        {
+          "name": "SQLSummaryLog",
+          "children": [
+            {
+              "name": "Search-SQLSummaryLog"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceStaticPort",
+          "children": [
+            {
+              "name": "Set-SQLInstanceStaticPort"
+            }
+          ]
+        },
+        {
+          "name": "SQLDatabaseConnection",
+          "children": [
+            {
+              "name": "Test-SQLDatabaseConnection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Jacob Hodges",
+  "children": [
+    {
+      "name": "BandwidthConverter",
+      "companyName": "Unknown",
+      "author": "Jacob Hodges",
+      "children": [
+        {
+          "name": "BitsPerSecond",
+          "children": [
+            {
+              "name": "ConvertTo-BitsPerSecond"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAzureUtils",
+      "companyName": "Unknown",
+      "author": "Jacob Hodges",
+      "children": [
+        {
+          "name": "ResourceGroup",
+          "children": [
+            {
+              "name": "New-ResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "DeploymentName",
+          "children": [
+            {
+              "name": "Get-DeploymentName"
+            }
+          ]
+        },
+        {
+          "name": "Subscription",
+          "children": [
+            {
+              "name": "Test-Subscription"
+            }
+          ]
+        },
+        {
+          "name": "AccessToken",
+          "children": [
+            {
+              "name": "Get-AccessToken"
+            }
+          ]
+        },
+        {
+          "name": "Azure",
+          "children": [
+            {
+              "name": "Connect-Azure"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Manjunath Beli",
+  "children": [
+    {
+      "name": "ModuleTools",
+      "companyName": "Unknown",
+      "author": "Manjunath Beli",
+      "children": [
+        {
+          "name": "MTProjectInfo",
+          "children": [
+            {
+              "name": "Get-MTProjectInfo"
+            }
+          ]
+        },
+        {
+          "name": "MTBuild",
+          "children": [
+            {
+              "name": "Invoke-MTBuild"
+            }
+          ]
+        },
+        {
+          "name": "MTTest",
+          "children": [
+            {
+              "name": "Invoke-MTTest"
+            }
+          ]
+        },
+        {
+          "name": "MTModule",
+          "children": [
+            {
+              "name": "New-MTModule"
+            }
+          ]
+        },
+        {
+          "name": "MTModuleVersion",
+          "children": [
+            {
+              "name": "Update-MTModuleVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mold",
+      "companyName": "Unknown",
+      "author": "Manjunath Beli",
+      "children": [
+        {
+          "name": "MoldTemplate",
+          "children": [
+            {
+              "name": "Get-MoldTemplate"
+            },
+            {
+              "name": "Test-MoldTemplate"
+            }
+          ]
+        },
+        {
+          "name": "Mold",
+          "children": [
+            {
+              "name": "Invoke-Mold"
+            }
+          ]
+        },
+        {
+          "name": "MoldAnswerFile",
+          "children": [
+            {
+              "name": "New-MoldAnswerFile"
+            }
+          ]
+        },
+        {
+          "name": "MoldManifest",
+          "children": [
+            {
+              "name": "New-MoldManifest"
+            },
+            {
+              "name": "Update-MoldManifest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecretBackup",
+      "companyName": "Unknown",
+      "author": "Manjunath Beli",
+      "children": [
+        {
+          "name": "Secret",
+          "children": [
+            {
+              "name": "Export-Secret"
+            },
+            {
+              "name": "Import-Secret"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

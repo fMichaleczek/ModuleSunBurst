@@ -1,0 +1,359 @@
+{
+  "name": "Skatterbrainz",
+  "children": [
+    {
+      "name": "cmhealth",
+      "companyName": "Skatterbrainz",
+      "author": "David Stein",
+      "children": [
+        {
+          "name": "CmHealth",
+          "children": [
+            {
+              "name": "Test-CmHealth"
+            }
+          ]
+        },
+        {
+          "name": "CmHealthConfig",
+          "children": [
+            {
+              "name": "Show-CmHealthConfig"
+            },
+            {
+              "name": "Reset-CmHealthConfig"
+            }
+          ]
+        },
+        {
+          "name": "CmHealthReport",
+          "children": [
+            {
+              "name": "Out-CmHealthReport"
+            }
+          ]
+        },
+        {
+          "name": "CmHealthTests",
+          "children": [
+            {
+              "name": "Get-CmHealthTests"
+            },
+            {
+              "name": "Invoke-CmHealthTests"
+            }
+          ]
+        },
+        {
+          "name": "CmHealthDependencies",
+          "children": [
+            {
+              "name": "Test-CmHealthDependencies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CMHealthcheck",
+      "companyName": "skatterbrainz",
+      "author": "David Stein",
+      "children": [
+        {
+          "name": "CMHealthCheck",
+          "children": [
+            {
+              "name": "Get-CMHealthCheck"
+            },
+            {
+              "name": "Invoke-CMHealthCheck"
+            }
+          ]
+        },
+        {
+          "name": "CMHealthCheckSummary",
+          "children": [
+            {
+              "name": "Get-CMHealthCheckSummary"
+            }
+          ]
+        },
+        {
+          "name": "CMHealthReport",
+          "children": [
+            {
+              "name": "Export-CMHealthReport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cmnetworkports",
+      "companyName": "Skatterbrainz",
+      "author": "David M. Stein",
+      "children": [
+        {
+          "name": "CmSiteSystemPorts",
+          "children": [
+            {
+              "name": "Get-CmSiteSystemPorts"
+            },
+            {
+              "name": "Test-CmSiteSystemPorts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ds-intune",
+      "companyName": "Skatterbrainz",
+      "author": "David Stein",
+      "children": [
+        {
+          "name": "DsIntuneAzureADDevices",
+          "children": [
+            {
+              "name": "Get-DsIntuneAzureADDevices"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneAuth",
+          "children": [
+            {
+              "name": "Get-DsIntuneAuth"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneDevices",
+          "children": [
+            {
+              "name": "Get-DsIntuneDevices"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneDevicesRaw",
+          "children": [
+            {
+              "name": "Get-DsIntuneDevicesRaw"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneDevicesWithApp",
+          "children": [
+            {
+              "name": "Get-DsIntuneDevicesWithApp"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneInstalledApps",
+          "children": [
+            {
+              "name": "Get-DsIntuneInstalledApps"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneInstalledAppCounts",
+          "children": [
+            {
+              "name": "Get-DsIntuneInstalledAppCounts"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneStaleDevices",
+          "children": [
+            {
+              "name": "Get-DsIntuneStaleDevices"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneDeviceSummary",
+          "children": [
+            {
+              "name": "Get-DsIntuneDeviceSummary"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneInventory",
+          "children": [
+            {
+              "name": "Export-DsIntuneInventory"
+            }
+          ]
+        },
+        {
+          "name": "DsExcelQuery",
+          "children": [
+            {
+              "name": "Invoke-DsExcelQuery"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneAppQuery",
+          "children": [
+            {
+              "name": "Invoke-DsIntuneAppQuery"
+            }
+          ]
+        },
+        {
+          "name": "DsIntuneUpdate",
+          "children": [
+            {
+              "name": "Test-DsIntuneUpdate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPODoc",
+      "companyName": "Skatterbrainz",
+      "author": "David Stein",
+      "children": [
+        {
+          "name": "GPOComment",
+          "children": [
+            {
+              "name": "Get-GPOComment"
+            }
+          ]
+        },
+        {
+          "name": "GPOLinks",
+          "children": [
+            {
+              "name": "Get-GPOLinks"
+            }
+          ]
+        },
+        {
+          "name": "GPOComments",
+          "children": [
+            {
+              "name": "Export-GPOComments"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psLogAnalytics",
+      "companyName": "Skatterbrainz",
+      "author": "David Stein",
+      "children": [
+        {
+          "name": "PsLogAnalytics",
+          "children": [
+            {
+              "name": "Write-PsLogAnalytics"
+            }
+          ]
+        },
+        {
+          "name": "PsLogAnalyticsDeviceInventory",
+          "children": [
+            {
+              "name": "Write-PsLogAnalyticsDeviceInventory"
+            }
+          ]
+        },
+        {
+          "name": "PsLogAnalyticsDeviceQuery",
+          "children": [
+            {
+              "name": "Show-PsLogAnalyticsDeviceQuery"
+            }
+          ]
+        },
+        {
+          "name": "PsLogAnalyticsQuery",
+          "children": [
+            {
+              "name": "Export-PsLogAnalyticsQuery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ud-cmwt",
+      "companyName": "Skatterbrainz",
+      "author": "David Stein",
+      "children": [
+        {
+          "name": "UDCmwtDashboard",
+          "children": [
+            {
+              "name": "Start-UDCmwtDashboard"
+            }
+          ]
+        },
+        {
+          "name": "CmwtCredential",
+          "children": [
+            {
+              "name": "Import-CmwtCredential"
+            },
+            {
+              "name": "Export-CmwtCredential"
+            }
+          ]
+        },
+        {
+          "name": "CmwtConfigJson",
+          "children": [
+            {
+              "name": "Set-CmwtConfigJson"
+            },
+            {
+              "name": "Get-CmwtConfigJson"
+            }
+          ]
+        },
+        {
+          "name": "CmwtDbQuery",
+          "children": [
+            {
+              "name": "Get-CmwtDbQuery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "udcm",
+      "companyName": "Skatterbrainz",
+      "author": "David Stein",
+      "children": [
+        {
+          "name": "UdCmJson",
+          "children": [
+            {
+              "name": "Import-UdCmJson"
+            }
+          ]
+        },
+        {
+          "name": "UDCM",
+          "children": [
+            {
+              "name": "New-UDCM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

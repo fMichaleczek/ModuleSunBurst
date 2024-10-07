@@ -1,0 +1,1684 @@
+{
+  "name": "jakub.pawlowski",
+  "children": [
+    {
+      "name": "AssemblyMeta",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "AssemblyMetaKey",
+          "children": [
+            {
+              "name": "Get-AssemblyMetaKey"
+            }
+          ]
+        },
+        {
+          "name": "AssemblyMetaFile",
+          "children": [
+            {
+              "name": "Get-AssemblyMetaFile"
+            }
+          ]
+        },
+        {
+          "name": "AssemblyMeta",
+          "children": [
+            {
+              "name": "Get-AssemblyMeta"
+            },
+            {
+              "name": "Set-AssemblyMeta"
+            }
+          ]
+        },
+        {
+          "name": "AssemblyVersion",
+          "children": [
+            {
+              "name": "Update-AssemblyVersion"
+            }
+          ]
+        },
+        {
+          "name": "packageVersion",
+          "children": [
+            {
+              "name": "split-packageVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "beam.serverside",
+      "companyName": "Holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "ConfigFile",
+          "children": [
+            {
+              "name": "Get-ConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "StagingConfig",
+          "children": [
+            {
+              "name": "Compare-StagingConfig"
+            }
+          ]
+        },
+        {
+          "name": "FromStaging",
+          "children": [
+            {
+              "name": "Copy-FromStaging"
+            }
+          ]
+        },
+        {
+          "name": "Backup",
+          "children": [
+            {
+              "name": "Restore-Backup"
+            },
+            {
+              "name": "Copy-Backup"
+            }
+          ]
+        },
+        {
+          "name": "ItemFiltered",
+          "children": [
+            {
+              "name": "Copy-ItemFiltered"
+            }
+          ]
+        },
+        {
+          "name": "TaskHere",
+          "children": [
+            {
+              "name": "New-TaskHere"
+            }
+          ]
+        },
+        {
+          "name": "Task",
+          "children": [
+            {
+              "name": "New-Task"
+            }
+          ]
+        },
+        {
+          "name": "BeamScheduledTask",
+          "children": [
+            {
+              "name": "Start-BeamScheduledTask"
+            },
+            {
+              "name": "Stop-BeamScheduledTask"
+            },
+            {
+              "name": "Restart-BeamScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "RemoteFiles",
+          "children": [
+            {
+              "name": "Compare-RemoteFiles"
+            }
+          ]
+        },
+        {
+          "name": "Files",
+          "children": [
+            {
+              "name": "Compare-Files"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Get-Log"
+            }
+          ]
+        },
+        {
+          "name": "DotnetVersion",
+          "children": [
+            {
+              "name": "Get-DotnetVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "beam.serverside.new",
+      "companyName": "Holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "ConfigFile",
+          "children": [
+            {
+              "name": "Get-ConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "StagingConfig",
+          "children": [
+            {
+              "name": "Compare-StagingConfig"
+            }
+          ]
+        },
+        {
+          "name": "FromStaging",
+          "children": [
+            {
+              "name": "Copy-FromStaging"
+            }
+          ]
+        },
+        {
+          "name": "Backup",
+          "children": [
+            {
+              "name": "Restore-Backup"
+            },
+            {
+              "name": "Copy-Backup"
+            }
+          ]
+        },
+        {
+          "name": "ItemFiltered",
+          "children": [
+            {
+              "name": "Copy-ItemFiltered"
+            }
+          ]
+        },
+        {
+          "name": "TaskHere",
+          "children": [
+            {
+              "name": "New-TaskHere"
+            }
+          ]
+        },
+        {
+          "name": "Task",
+          "children": [
+            {
+              "name": "New-Task"
+            }
+          ]
+        },
+        {
+          "name": "BeamScheduledTask",
+          "children": [
+            {
+              "name": "Start-BeamScheduledTask"
+            },
+            {
+              "name": "Stop-BeamScheduledTask"
+            },
+            {
+              "name": "Restart-BeamScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "RemoteFiles",
+          "children": [
+            {
+              "name": "Compare-RemoteFiles"
+            }
+          ]
+        },
+        {
+          "name": "Files",
+          "children": [
+            {
+              "name": "Compare-Files"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Get-Log"
+            }
+          ]
+        },
+        {
+          "name": "DotnetVersion",
+          "children": [
+            {
+              "name": "Get-DotnetVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chalk",
+      "companyName": "Unknown",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "LogVerbose",
+          "children": [
+            {
+              "name": "Write-LogVerbose"
+            }
+          ]
+        },
+        {
+          "name": "LogInfo",
+          "children": [
+            {
+              "name": "Write-LogInfo"
+            }
+          ]
+        },
+        {
+          "name": "Logprogress",
+          "children": [
+            {
+              "name": "Write-Logprogress"
+            }
+          ]
+        },
+        {
+          "name": "Logwarn",
+          "children": [
+            {
+              "name": "Write-Logwarn"
+            }
+          ]
+        },
+        {
+          "name": "Logerror",
+          "children": [
+            {
+              "name": "Write-Logerror"
+            }
+          ]
+        },
+        {
+          "name": "Logmessage",
+          "children": [
+            {
+              "name": "Write-Logmessage"
+            }
+          ]
+        },
+        {
+          "name": "Logtime",
+          "children": [
+            {
+              "name": "Write-Logtime"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crayon",
+      "companyName": "Unknown",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "LogVerbose",
+          "children": [
+            {
+              "name": "Write-LogVerbose"
+            }
+          ]
+        },
+        {
+          "name": "LogInfo",
+          "children": [
+            {
+              "name": "Write-LogInfo"
+            }
+          ]
+        },
+        {
+          "name": "Logprogress",
+          "children": [
+            {
+              "name": "Write-Logprogress"
+            }
+          ]
+        },
+        {
+          "name": "Logwarn",
+          "children": [
+            {
+              "name": "Write-Logwarn"
+            }
+          ]
+        },
+        {
+          "name": "Logerror",
+          "children": [
+            {
+              "name": "Write-Logerror"
+            }
+          ]
+        },
+        {
+          "name": "Logmessage",
+          "children": [
+            {
+              "name": "Write-Logmessage"
+            }
+          ]
+        },
+        {
+          "name": "Logtime",
+          "children": [
+            {
+              "name": "Write-Logtime"
+            }
+          ]
+        },
+        {
+          "name": "ElapsedTime",
+          "children": [
+            {
+              "name": "Get-ElapsedTime"
+            }
+          ]
+        },
+        {
+          "name": "ETA",
+          "children": [
+            {
+              "name": "Get-ETA"
+            }
+          ]
+        },
+        {
+          "name": "WithLogRedirect",
+          "children": [
+            {
+              "name": "WithLogRedirect"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "csproj",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Sln",
+          "children": [
+            {
+              "name": "Import-Sln"
+            },
+            {
+              "name": "test-sln"
+            }
+          ]
+        },
+        {
+          "name": "Slnprojects",
+          "children": [
+            {
+              "name": "Get-Slnprojects"
+            }
+          ]
+        },
+        {
+          "name": "SlnProject",
+          "children": [
+            {
+              "name": "Remove-SlnProject"
+            },
+            {
+              "name": "Update-SlnProject"
+            }
+          ]
+        },
+        {
+          "name": "RepoRoot",
+          "children": [
+            {
+              "name": "find-RepoRoot"
+            }
+          ]
+        },
+        {
+          "name": "GlobalJson",
+          "children": [
+            {
+              "name": "Find-GlobalJson"
+            }
+          ]
+        },
+        {
+          "name": "InstalledNugets",
+          "children": [
+            {
+              "name": "Get-InstalledNugets"
+            }
+          ]
+        },
+        {
+          "name": "AvailableNugets",
+          "children": [
+            {
+              "name": "Get-AvailableNugets"
+            }
+          ]
+        },
+        {
+          "name": "PackageVersion",
+          "children": [
+            {
+              "name": "Get-PackageVersion"
+            }
+          ]
+        },
+        {
+          "name": "PackageName",
+          "children": [
+            {
+              "name": "Get-PackageName"
+            }
+          ]
+        },
+        {
+          "name": "csproj",
+          "children": [
+            {
+              "name": "import-csproj"
+            }
+          ]
+        },
+        {
+          "name": "nodes",
+          "children": [
+            {
+              "name": "get-nodes"
+            }
+          ]
+        },
+        {
+          "name": "projectreferences",
+          "children": [
+            {
+              "name": "get-projectreferences"
+            }
+          ]
+        },
+        {
+          "name": "externalreferences",
+          "children": [
+            {
+              "name": "get-externalreferences"
+            }
+          ]
+        },
+        {
+          "name": "nugetreferences",
+          "children": [
+            {
+              "name": "get-nugetreferences"
+            }
+          ]
+        },
+        {
+          "name": "systemreferences",
+          "children": [
+            {
+              "name": "get-systemreferences"
+            }
+          ]
+        },
+        {
+          "name": "allreferences",
+          "children": [
+            {
+              "name": "get-allreferences"
+            }
+          ]
+        },
+        {
+          "name": "projectItem",
+          "children": [
+            {
+              "name": "add-projectItem"
+            }
+          ]
+        },
+        {
+          "name": "nuget",
+          "children": [
+            {
+              "name": "convertto-nuget"
+            }
+          ]
+        },
+        {
+          "name": "reference",
+          "children": [
+            {
+              "name": "convert-reference"
+            }
+          ]
+        },
+        {
+          "name": "packagesconfig",
+          "children": [
+            {
+              "name": "get-packagesconfig"
+            },
+            {
+              "name": "set-packagesconfig"
+            }
+          ]
+        },
+        {
+          "name": "packagetoconfig",
+          "children": [
+            {
+              "name": "add-packagetoconfig"
+            }
+          ]
+        },
+        {
+          "name": "packagefromconfig",
+          "children": [
+            {
+              "name": "remove-packagefromconfig"
+            }
+          ]
+        },
+        {
+          "name": "referencestonuget",
+          "children": [
+            {
+              "name": "convert-referencestonuget"
+            }
+          ]
+        },
+        {
+          "name": "referencesTo",
+          "children": [
+            {
+              "name": "get-referencesTo"
+            }
+          ]
+        },
+        {
+          "name": "projectreference",
+          "children": [
+            {
+              "name": "convertto-projectreference"
+            }
+          ]
+        },
+        {
+          "name": "nugetreference",
+          "children": [
+            {
+              "name": "convertto-nugetreference"
+            }
+          ]
+        },
+        {
+          "name": "nugetToProjectReference",
+          "children": [
+            {
+              "name": "convert-nugetToProjectReference"
+            }
+          ]
+        },
+        {
+          "name": "assemblymeta",
+          "children": [
+            {
+              "name": "set-assemblymeta"
+            },
+            {
+              "name": "get-assemblymeta"
+            }
+          ]
+        },
+        {
+          "name": "slndependencies",
+          "children": [
+            {
+              "name": "get-slndependencies"
+            },
+            {
+              "name": "test-slndependencies"
+            }
+          ]
+        },
+        {
+          "name": "slnpaths",
+          "children": [
+            {
+              "name": "repair-slnpaths"
+            }
+          ]
+        },
+        {
+          "name": "csprojdependencies",
+          "children": [
+            {
+              "name": "get-csprojdependencies"
+            }
+          ]
+        },
+        {
+          "name": "csprojpaths",
+          "children": [
+            {
+              "name": "repair-csprojpaths"
+            }
+          ]
+        },
+        {
+          "name": "packagestoprojectjson",
+          "children": [
+            {
+              "name": "convert-packagestoprojectjson"
+            }
+          ]
+        },
+        {
+          "name": "ProjectJSonProjectReferences",
+          "children": [
+            {
+              "name": "repair-ProjectJSonProjectReferences"
+            }
+          ]
+        },
+        {
+          "name": "projects",
+          "children": [
+            {
+              "name": "initialize-projects"
+            },
+            {
+              "name": "use-projects"
+            }
+          ]
+        },
+        {
+          "name": "nugets",
+          "children": [
+            {
+              "name": "push-nugets"
+            }
+          ]
+        },
+        {
+          "name": "BindingRedirects",
+          "children": [
+            {
+              "name": "Copy-BindingRedirects"
+            }
+          ]
+        },
+        {
+          "name": "referencesToStable",
+          "children": [
+            {
+              "name": "update-referencesToStable"
+            }
+          ]
+        },
+        {
+          "name": "unstablePackages",
+          "children": [
+            {
+              "name": "find-unstablePackages"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MsDeploy",
+      "companyName": "heavymetaldev",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "MsDeploy",
+          "children": [
+            {
+              "name": "Test-MsDeploy"
+            },
+            {
+              "name": "Invoke-MsDeploy"
+            }
+          ]
+        },
+        {
+          "name": "MsDeployCommand",
+          "children": [
+            {
+              "name": "Invoke-MsDeployCommand"
+            }
+          ]
+        },
+        {
+          "name": "MsDeployFile",
+          "children": [
+            {
+              "name": "Copy-MsDeployFile"
+            },
+            {
+              "name": "Get-MsDeployFile"
+            }
+          ]
+        },
+        {
+          "name": "MsDeployApp",
+          "children": [
+            {
+              "name": "Copy-MsDeployApp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "newtonsoft.json",
+      "companyName": "Unknown",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "JsonNewtonsoft",
+          "children": [
+            {
+              "name": "ConvertFrom-JsonNewtonsoft"
+            },
+            {
+              "name": "ConvertTo-JsonNewtonsoft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nupkg",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "ZIPFile",
+          "children": [
+            {
+              "name": "Expand-ZIPFile"
+            }
+          ]
+        },
+        {
+          "name": "nuspec",
+          "children": [
+            {
+              "name": "new-nuspec"
+            }
+          ]
+        },
+        {
+          "name": "InstalledNugets",
+          "children": [
+            {
+              "name": "Get-InstalledNugets"
+            }
+          ]
+        },
+        {
+          "name": "AvailableNugets",
+          "children": [
+            {
+              "name": "Get-AvailableNugets"
+            }
+          ]
+        },
+        {
+          "name": "nugetpush",
+          "children": [
+            {
+              "name": "invoke-nugetpush"
+            }
+          ]
+        },
+        {
+          "name": "nugetpack",
+          "children": [
+            {
+              "name": "invoke-nugetpack"
+            }
+          ]
+        },
+        {
+          "name": "nugetmeta",
+          "children": [
+            {
+              "name": "update-nugetmeta"
+            }
+          ]
+        },
+        {
+          "name": "vcsname",
+          "children": [
+            {
+              "name": "get-vcsname"
+            }
+          ]
+        },
+        {
+          "name": "vcsbranch",
+          "children": [
+            {
+              "name": "get-vcsbranch"
+            }
+          ]
+        },
+        {
+          "name": "vcsrev",
+          "children": [
+            {
+              "name": "get-vcsrev"
+            }
+          ]
+        },
+        {
+          "name": "BuildVersion",
+          "children": [
+            {
+              "name": "Update-BuildVersion"
+            }
+          ]
+        },
+        {
+          "name": "globaljson",
+          "children": [
+            {
+              "name": "find-globaljson"
+            }
+          ]
+        },
+        {
+          "name": "dotnetcommand",
+          "children": [
+            {
+              "name": "get-dotnetcommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oneliners",
+      "companyName": "Unknown",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "giteach",
+          "children": [
+            {
+              "name": "invoke-giteach"
+            }
+          ]
+        },
+        {
+          "name": "gitpull",
+          "children": [
+            {
+              "name": "invoke-gitpull"
+            }
+          ]
+        },
+        {
+          "name": "colorcode",
+          "children": [
+            {
+              "name": "convertto-colorcode"
+            }
+          ]
+        },
+        {
+          "name": "bgcolor",
+          "children": [
+            {
+              "name": "set-bgcolor"
+            }
+          ]
+        },
+        {
+          "name": "color",
+          "children": [
+            {
+              "name": "set-color"
+            }
+          ]
+        },
+        {
+          "name": "controlchar",
+          "children": [
+            {
+              "name": "write-controlchar"
+            }
+          ]
+        },
+        {
+          "name": "windowtitle",
+          "children": [
+            {
+              "name": "set-windowtitle"
+            },
+            {
+              "name": "update-windowtitle"
+            }
+          ]
+        },
+        {
+          "name": "output",
+          "children": [
+            {
+              "name": "split-output"
+            }
+          ]
+        },
+        {
+          "name": "ComFolderItem",
+          "children": [
+            {
+              "name": "Get-ComFolderItem"
+            }
+          ]
+        },
+        {
+          "name": "TaskBarPinnedItem",
+          "children": [
+            {
+              "name": "Install-TaskBarPinnedItem"
+            },
+            {
+              "name": "Uninstall-TaskBarPinnedItem"
+            }
+          ]
+        },
+        {
+          "name": "shortcut",
+          "children": [
+            {
+              "name": "new-shortcut"
+            }
+          ]
+        },
+        {
+          "name": "allprocesses",
+          "children": [
+            {
+              "name": "stop-allprocesses"
+            }
+          ]
+        },
+        {
+          "name": "any",
+          "children": [
+            {
+              "name": "test-any"
+            }
+          ]
+        },
+        {
+          "name": "dotnetversions",
+          "children": [
+            {
+              "name": "get-dotnetversions"
+            }
+          ]
+        },
+        {
+          "name": "tcp",
+          "children": [
+            {
+              "name": "test-tcp"
+            }
+          ]
+        },
+        {
+          "name": "state",
+          "children": [
+            {
+              "name": "import-state"
+            },
+            {
+              "name": "export-state"
+            }
+          ]
+        },
+        {
+          "name": "DnsAlias",
+          "children": [
+            {
+              "name": "Add-DnsAlias"
+            },
+            {
+              "name": "remove-dnsalias"
+            }
+          ]
+        },
+        {
+          "name": "isadmin",
+          "children": [
+            {
+              "name": "test-isadmin"
+            }
+          ]
+        },
+        {
+          "name": "Slack",
+          "children": [
+            {
+              "name": "Send-Slack"
+            }
+          ]
+        },
+        {
+          "name": "hyperv",
+          "children": [
+            {
+              "name": "disable-hyperv"
+            },
+            {
+              "name": "enable-hyperv"
+            }
+          ]
+        },
+        {
+          "name": "grep",
+          "children": [
+            {
+              "name": "grep"
+            }
+          ]
+        },
+        {
+          "name": "notify",
+          "children": [
+            {
+              "name": "notify"
+            }
+          ]
+        },
+        {
+          "name": "repo",
+          "children": [
+            {
+              "name": "foreach-repo"
+            }
+          ]
+        },
+        {
+          "name": "all",
+          "children": [
+            {
+              "name": "pull-all"
+            },
+            {
+              "name": "update-all"
+            }
+          ]
+        },
+        {
+          "name": "tryloop",
+          "children": [
+            {
+              "name": "tryloop"
+            }
+          ]
+        },
+        {
+          "name": "FileSystemWatcher",
+          "children": [
+            {
+              "name": "Register-FileSystemWatcher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PathUtils",
+      "companyName": "Unknown",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "CommandOnPath",
+          "children": [
+            {
+              "name": "Find-CommandOnPath"
+            }
+          ]
+        },
+        {
+          "name": "EnvVar",
+          "children": [
+            {
+              "name": "Set-EnvVar"
+            },
+            {
+              "name": "Get-EnvVar"
+            },
+            {
+              "name": "Update-EnvVar"
+            }
+          ]
+        },
+        {
+          "name": "ToEnvVar",
+          "children": [
+            {
+              "name": "Add-ToEnvVar"
+            }
+          ]
+        },
+        {
+          "name": "PathEnv",
+          "children": [
+            {
+              "name": "Get-PathEnv"
+            }
+          ]
+        },
+        {
+          "name": "ToPath",
+          "children": [
+            {
+              "name": "Add-ToPath"
+            }
+          ]
+        },
+        {
+          "name": "FromPath",
+          "children": [
+            {
+              "name": "Remove-FromPath"
+            }
+          ]
+        },
+        {
+          "name": "EnvPath",
+          "children": [
+            {
+              "name": "Test-EnvPath"
+            }
+          ]
+        },
+        {
+          "name": "Env",
+          "children": [
+            {
+              "name": "Update-Env"
+            }
+          ]
+        },
+        {
+          "name": "EscapedRegex",
+          "children": [
+            {
+              "name": "Get-EscapedRegex"
+            }
+          ]
+        },
+        {
+          "name": "IsRelativePath",
+          "children": [
+            {
+              "name": "Test-IsRelativePath"
+            }
+          ]
+        },
+        {
+          "name": "AbsolutePath",
+          "children": [
+            {
+              "name": "Get-AbsolutePath"
+            }
+          ]
+        },
+        {
+          "name": "DriveSymbol",
+          "children": [
+            {
+              "name": "Get-DriveSymbol"
+            }
+          ]
+        },
+        {
+          "name": "PathSeparated",
+          "children": [
+            {
+              "name": "Join-PathSeparated"
+            }
+          ]
+        },
+        {
+          "name": "RelativePath",
+          "children": [
+            {
+              "name": "Get-RelativePath"
+            }
+          ]
+        },
+        {
+          "name": "ShortPath",
+          "children": [
+            {
+              "name": "Get-ShortPath"
+            }
+          ]
+        },
+        {
+          "name": "Junction",
+          "children": [
+            {
+              "name": "New-Junction"
+            },
+            {
+              "name": "Test-Junction"
+            }
+          ]
+        },
+        {
+          "name": "JunctionTarget",
+          "children": [
+            {
+              "name": "Get-JunctionTarget"
+            }
+          ]
+        },
+        {
+          "name": "ModuleLink",
+          "children": [
+            {
+              "name": "Install-ModuleLink"
+            },
+            {
+              "name": "Update-ModuleLink"
+            }
+          ]
+        },
+        {
+          "name": "Listing",
+          "children": [
+            {
+              "name": "Get-Listing"
+            }
+          ]
+        },
+        {
+          "name": "GetListing",
+          "children": [
+            {
+              "name": "GetListing"
+            }
+          ]
+        },
+        {
+          "name": "upwards",
+          "children": [
+            {
+              "name": "find-upwards"
+            }
+          ]
+        },
+        {
+          "name": "FileExtension",
+          "children": [
+            {
+              "name": "Set-FileExtension"
+            }
+          ]
+        },
+        {
+          "name": "EnvUsername",
+          "children": [
+            {
+              "name": "Convert-EnvUsername"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Process",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Console",
+          "children": [
+            {
+              "name": "Write-Console"
+            }
+          ]
+        },
+        {
+          "name": "Indented",
+          "children": [
+            {
+              "name": "Write-Indented"
+            }
+          ]
+        },
+        {
+          "name": "Invoke",
+          "children": [
+            {
+              "name": "Invoke"
+            }
+          ]
+        },
+        {
+          "name": "IsAdmin",
+          "children": [
+            {
+              "name": "Test-IsAdmin"
+            }
+          ]
+        },
+        {
+          "name": "AsAdmin",
+          "children": [
+            {
+              "name": "Invoke-AsAdmin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "publishmap",
+      "companyName": "Unknown",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Entry",
+          "children": [
+            {
+              "name": "Get-Entry"
+            }
+          ]
+        },
+        {
+          "name": "Map",
+          "children": [
+            {
+              "name": "Import-Map"
+            }
+          ]
+        },
+        {
+          "name": "Profile",
+          "children": [
+            {
+              "name": "Get-Profile"
+            }
+          ]
+        },
+        {
+          "name": "Property",
+          "children": [
+            {
+              "name": "Add-Property"
+            }
+          ]
+        },
+        {
+          "name": "Properties",
+          "children": [
+            {
+              "name": "Add-Properties"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            },
+            {
+              "name": "copy-hashtable"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "ConvertTo-Object"
+            }
+          ]
+        },
+        {
+          "name": "loadLib",
+          "children": [
+            {
+              "name": "loadLib"
+            }
+          ]
+        },
+        {
+          "name": "metaproperties",
+          "children": [
+            {
+              "name": "add-metaproperties"
+            }
+          ]
+        },
+        {
+          "name": "InheritedProperties",
+          "children": [
+            {
+              "name": "Add-InheritedProperties"
+            }
+          ]
+        },
+        {
+          "name": "publishmap",
+          "children": [
+            {
+              "name": "postprocess-publishmap"
+            }
+          ]
+        },
+        {
+          "name": "GlobalSettings",
+          "children": [
+            {
+              "name": "Add-GlobalSettings"
+            }
+          ]
+        },
+        {
+          "name": "genericgroup",
+          "children": [
+            {
+              "name": "import-genericgroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pubxml",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "pubprofile",
+          "children": [
+            {
+              "name": "update-pubprofile"
+            },
+            {
+              "name": "new-pubprofile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remoting",
+      "companyName": "Holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Rdp",
+          "children": [
+            {
+              "name": "Enter-Rdp"
+            }
+          ]
+        },
+        {
+          "name": "RemoteSession",
+          "children": [
+            {
+              "name": "Enter-RemoteSession"
+            },
+            {
+              "name": "New-RemoteSession"
+            }
+          ]
+        },
+        {
+          "name": "Port",
+          "children": [
+            {
+              "name": "Test-Port"
+            }
+          ]
+        },
+        {
+          "name": "RemoteCert",
+          "children": [
+            {
+              "name": "Get-RemoteCert"
+            }
+          ]
+        },
+        {
+          "name": "SessionMap",
+          "children": [
+            {
+              "name": "Find-SessionMap"
+            }
+          ]
+        },
+        {
+          "name": "sshid",
+          "children": [
+            {
+              "name": "copy-sshid"
+            }
+          ]
+        },
+        {
+          "name": "rpsentry",
+          "children": [
+            {
+              "name": "add-rpsentry"
+            },
+            {
+              "name": "Get-RpsEntry"
+            }
+          ]
+        },
+        {
+          "name": "RemoteFile",
+          "children": [
+            {
+              "name": "Copy-RemoteFile"
+            }
+          ]
+        },
+        {
+          "name": "WinRMTrustedHost",
+          "children": [
+            {
+              "name": "Add-WinRMTrustedHost"
+            }
+          ]
+        },
+        {
+          "name": "SshEntry",
+          "children": [
+            {
+              "name": "Get-SshEntry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "require",
+      "companyName": "heavymetaldev",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Request-Module"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SemVer",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Version",
+          "children": [
+            {
+              "name": "Update-Version"
+            },
+            {
+              "name": "Split-Version"
+            },
+            {
+              "name": "Join-Version"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

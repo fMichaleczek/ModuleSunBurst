@@ -1,0 +1,129 @@
+{
+  "name": "DFTAI",
+  "children": [
+    {
+      "name": "MOFCompare",
+      "companyName": "DFTAI",
+      "author": "Ryan Bartram",
+      "children": [
+        {
+          "name": "MOF",
+          "children": [
+            {
+              "name": "Compare-MOF"
+            },
+            {
+              "name": "ConvertFrom-MOF"
+            }
+          ]
+        },
+        {
+          "name": "DscResourceCache",
+          "children": [
+            {
+              "name": "Initialize-DscResourceCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSKeepAChangeLog",
+      "companyName": "DFTAI",
+      "author": "Ryan Bartram",
+      "children": [
+        {
+          "name": "ChangeLog",
+          "children": [
+            {
+              "name": "New-ChangeLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSTerraformParser",
+      "companyName": "DFTAI",
+      "author": "Ryan Bartram",
+      "children": [
+        {
+          "name": "TerraformPlan",
+          "children": [
+            {
+              "name": "Read-TerraformPlan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StoragePre2K12",
+      "companyName": "DFTAI",
+      "author": "Ryan Bartram",
+      "children": [
+        {
+          "name": "Volume",
+          "children": [
+            {
+              "name": "Format-Volume"
+            },
+            {
+              "name": "Get-Volume"
+            },
+            {
+              "name": "Set-Volume"
+            }
+          ]
+        },
+        {
+          "name": "Disk",
+          "children": [
+            {
+              "name": "Get-Disk"
+            },
+            {
+              "name": "Initialize-Disk"
+            },
+            {
+              "name": "Set-Disk"
+            }
+          ]
+        },
+        {
+          "name": "Partition",
+          "children": [
+            {
+              "name": "Get-Partition"
+            },
+            {
+              "name": "New-Partition"
+            },
+            {
+              "name": "Resize-Partition"
+            },
+            {
+              "name": "Set-Partition"
+            }
+          ]
+        },
+        {
+          "name": "PartitionSupportedSize",
+          "children": [
+            {
+              "name": "Get-PartitionSupportedSize"
+            }
+          ]
+        },
+        {
+          "name": "HostStorageCache",
+          "children": [
+            {
+              "name": "Update-HostStorageCache"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

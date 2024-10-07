@@ -1,0 +1,137 @@
+{
+  "name": "Sami Koskivaara",
+  "children": [
+    {
+      "name": "PS-Terraform-Cloud",
+      "companyName": "Fujitsu",
+      "author": "Sami Koskivaara",
+      "children": [
+        {
+          "name": "WorkspaceVariable",
+          "children": [
+            {
+              "name": "New-WorkspaceVariable"
+            }
+          ]
+        },
+        {
+          "name": "TerraformCloudOrganization",
+          "children": [
+            {
+              "name": "New-TerraformCloudOrganization"
+            }
+          ]
+        },
+        {
+          "name": "TerraformCloudWorkspace",
+          "children": [
+            {
+              "name": "New-TerraformCloudWorkspace"
+            },
+            {
+              "name": "Get-TerraformCloudWorkspace"
+            },
+            {
+              "name": "Remove-TerraformCloudWorkspace"
+            }
+          ]
+        },
+        {
+          "name": "TerraformCloudWorkspaceVariable",
+          "children": [
+            {
+              "name": "New-TerraformCloudWorkspaceVariable"
+            },
+            {
+              "name": "Update-TerraformCloudWorkspaceVariable"
+            },
+            {
+              "name": "Get-TerraformCloudWorkspaceVariable"
+            },
+            {
+              "name": "Remove-TerraformCloudWorkspaceVariable"
+            }
+          ]
+        },
+        {
+          "name": "TerraformCloudOAuthClient",
+          "children": [
+            {
+              "name": "Get-TerraformCloudOAuthClient"
+            }
+          ]
+        },
+        {
+          "name": "TerraformCloudOAuthToken",
+          "children": [
+            {
+              "name": "Get-TerraformCloudOAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "TerraformAzureState",
+          "children": [
+            {
+              "name": "Import-TerraformAzureState"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS-Zabbix-Host",
+      "companyName": "Fujitsu",
+      "author": "Sami Koskivaara",
+      "children": [
+        {
+          "name": "ZabbixAgent",
+          "children": [
+            {
+              "name": "Install-ZabbixAgent"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixToken",
+          "children": [
+            {
+              "name": "New-ZabbixToken"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHost",
+          "children": [
+            {
+              "name": "New-ZabbixHost"
+            }
+          ]
+        },
+        {
+          "name": "LocalIPAddress",
+          "children": [
+            {
+              "name": "Get-LocalIPAddress"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServiceNow-MIDServer",
+      "companyName": "Fujitsu",
+      "author": "Sami Koskivaara",
+      "children": [
+        {
+          "name": "ServiceNowMIDServer",
+          "children": [
+            {
+              "name": "Install-ServiceNowMIDServer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

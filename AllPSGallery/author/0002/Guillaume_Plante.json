@@ -1,0 +1,106 @@
+{
+  "name": "Guillaume Plante",
+  "children": [
+    {
+      "name": "PowerShell.Module.InvokeWinGet",
+      "companyName": "Unknown",
+      "author": "Guillaume Plante",
+      "children": [
+        {
+          "name": "InstalledSoftware",
+          "children": [
+            {
+              "name": "Get-InstalledSoftware"
+            }
+          ]
+        },
+        {
+          "name": "WinGetExePath",
+          "children": [
+            {
+              "name": "Get-WinGetExePath"
+            }
+          ]
+        },
+        {
+          "name": "WinGetVersion",
+          "children": [
+            {
+              "name": "Get-WinGetVersion"
+            }
+          ]
+        },
+        {
+          "name": "PSWinGet",
+          "children": [
+            {
+              "name": "Invoke-PSWinGet"
+            }
+          ]
+        },
+        {
+          "name": "WinGetConfiguration",
+          "children": [
+            {
+              "name": "Set-WinGetConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "WinGetPackageVersionClassPath",
+          "children": [
+            {
+              "name": "Get-WinGetPackageVersionClassPath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PersistentPathStack",
+      "companyName": "Unknown",
+      "author": "Guillaume Plante",
+      "children": [
+        {
+          "name": "PersistentPath",
+          "children": [
+            {
+              "name": "New-PersistentPath"
+            },
+            {
+              "name": "Remove-PersistentPath"
+            },
+            {
+              "name": "Test-PersistentPath"
+            },
+            {
+              "name": "Push-PersistentPath"
+            },
+            {
+              "name": "Pop-PersistentPath"
+            }
+          ]
+        },
+        {
+          "name": "PersistentPathStacks",
+          "children": [
+            {
+              "name": "Get-PersistentPathStacks"
+            }
+          ]
+        },
+        {
+          "name": "PersistentPaths",
+          "children": [
+            {
+              "name": "Get-PersistentPaths"
+            },
+            {
+              "name": "Clear-PersistentPaths"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

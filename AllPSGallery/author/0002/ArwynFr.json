@@ -1,0 +1,54 @@
+{
+  "name": "ArwynFr",
+  "children": [
+    {
+      "name": "ArwynFr.SemanticVersion",
+      "companyName": "www.arwyn.fr",
+      "author": "ArwynFr",
+      "children": [
+        {
+          "name": "SemanticVersionStep",
+          "children": [
+            {
+              "name": "ConvertTo-SemanticVersionStep"
+            }
+          ]
+        },
+        {
+          "name": "GithubSemanticVersionRelease",
+          "children": [
+            {
+              "name": "New-GithubSemanticVersionRelease"
+            }
+          ]
+        },
+        {
+          "name": "SemanticVersion",
+          "children": [
+            {
+              "name": "Step-SemanticVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HashWebCopy",
+      "companyName": "arwynfr",
+      "author": "arwynfr",
+      "children": [
+        {
+          "name": "HashManifest",
+          "children": [
+            {
+              "name": "Copy-HashManifest"
+            },
+            {
+              "name": "Get-HashManifest"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

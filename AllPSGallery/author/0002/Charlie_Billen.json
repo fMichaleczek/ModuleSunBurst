@@ -1,0 +1,49 @@
+{
+  "name": "Charlie Billen",
+  "children": [
+    {
+      "name": "ConvertBase64Strings",
+      "companyName": "Unknown",
+      "author": "Charlie Billen",
+      "children": [
+        {
+          "name": "Base64",
+          "children": [
+            {
+              "name": "ConvertTo-Base64"
+            },
+            {
+              "name": "ConvertFrom-Base64"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GithubCodeSearch",
+      "companyName": "Unknown",
+      "author": "Charlie Billen",
+      "children": [
+        {
+          "name": "GithubCodeSearchToken",
+          "children": [
+            {
+              "name": "Get-GithubCodeSearchToken"
+            },
+            {
+              "name": "Set-GithubCodeSearchToken"
+            }
+          ]
+        },
+        {
+          "name": "GithubCodeSearch",
+          "children": [
+            {
+              "name": "Invoke-GithubCodeSearch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

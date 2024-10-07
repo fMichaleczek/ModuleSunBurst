@@ -1,0 +1,190 @@
+{
+  "name": "ProductivityTools.tech",
+  "children": [
+    {
+      "name": "ProductivityTools.AzureAutomation",
+      "companyName": "ProductivityTools.tech",
+      "author": "Pawel Wujczyk",
+      "children": [
+        {
+          "name": "ResourceGroup",
+          "children": [
+            {
+              "name": "Create-ResourceGroup"
+            },
+            {
+              "name": "Remove-ResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "StorageAccount",
+          "children": [
+            {
+              "name": "Create-StorageAccount"
+            },
+            {
+              "name": "Remove-StorageAccount"
+            }
+          ]
+        },
+        {
+          "name": "StorageContainer",
+          "children": [
+            {
+              "name": "Create-StorageContainer"
+            },
+            {
+              "name": "Remove-StorageContainer"
+            }
+          ]
+        },
+        {
+          "name": "StorageAccountCustomDomain",
+          "children": [
+            {
+              "name": "Set-StorageAccountCustomDomain"
+            }
+          ]
+        },
+        {
+          "name": "FileToAzureBlobStorage",
+          "children": [
+            {
+              "name": "Push-FileToAzureBlobStorage"
+            }
+          ]
+        },
+        {
+          "name": "AzureBlobStorageFiles",
+          "children": [
+            {
+              "name": "Get-AzureBlobStorageFiles"
+            }
+          ]
+        },
+        {
+          "name": "AzureBlobStorageFile",
+          "children": [
+            {
+              "name": "Remove-AzureBlobStorageFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProductivityTools.Bank.Inteligo",
+      "companyName": "ProductivityTools.tech",
+      "author": "Pawel Wujczyk",
+      "children": [
+        {
+          "name": "ToInteligo",
+          "children": [
+            {
+              "name": "Login-ToInteligo"
+            }
+          ]
+        },
+        {
+          "name": "InteligoBasicData",
+          "children": [
+            {
+              "name": "Get-InteligoBasicData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProductivityTools.CloneGitRepositories",
+      "companyName": "ProductivityTools.tech",
+      "author": "Pawel Wujczyk",
+      "children": [
+        {
+          "name": "GitRepositories",
+          "children": [
+            {
+              "name": "Clone-GitRepositories"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProductivityTools.GetExternalIP",
+      "companyName": "ProductivityTools.tech",
+      "author": "Pawel Wujczyk",
+      "children": [
+        {
+          "name": "ExternalIP",
+          "children": [
+            {
+              "name": "Get-ExternalIP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProductivityTools.GetServiceDescription",
+      "companyName": "ProductivityTools.tech",
+      "author": "Pawel Wujczyk",
+      "children": [
+        {
+          "name": "ServiceDescription",
+          "children": [
+            {
+              "name": "Get-ServiceDescription"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProductivityTools.NewTemporaryDirectory",
+      "companyName": "ProductivityTools.tech",
+      "author": "Pawel Wujczyk",
+      "children": [
+        {
+          "name": "TemporaryDirectory",
+          "children": [
+            {
+              "name": "New-TemporaryDirectory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProductivityTools.SQLServerColumnDescription",
+      "companyName": "ProductivityTools.tech",
+      "author": "Pawel Wujczyk",
+      "children": [
+        {
+          "name": "ColumnsDescription",
+          "children": [
+            {
+              "name": "Get-ColumnsDescription"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProductivityTools.TrainingLog.Endomondo",
+      "companyName": "ProductivityTools.tech",
+      "author": "Pawel Wujczyk",
+      "children": [
+        {
+          "name": "EndomondoTrainingsToTrainingLog",
+          "children": [
+            {
+              "name": "Import-EndomondoTrainingsToTrainingLog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

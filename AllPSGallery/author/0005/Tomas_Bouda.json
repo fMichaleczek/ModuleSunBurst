@@ -1,0 +1,260 @@
+{
+  "name": "Tomas Bouda",
+  "children": [
+    {
+      "name": "PoShLog",
+      "companyName": "Tomas Bouda",
+      "author": "Tomas Bouda",
+      "children": [
+        {
+          "name": "DebugLog",
+          "children": [
+            {
+              "name": "Write-DebugLog"
+            }
+          ]
+        },
+        {
+          "name": "ErrorLog",
+          "children": [
+            {
+              "name": "Write-ErrorLog"
+            }
+          ]
+        },
+        {
+          "name": "FatalLog",
+          "children": [
+            {
+              "name": "Write-FatalLog"
+            }
+          ]
+        },
+        {
+          "name": "InfoLog",
+          "children": [
+            {
+              "name": "Write-InfoLog"
+            }
+          ]
+        },
+        {
+          "name": "InformationLog",
+          "children": [
+            {
+              "name": "Write-InformationLog"
+            }
+          ]
+        },
+        {
+          "name": "VerboseLog",
+          "children": [
+            {
+              "name": "Write-VerboseLog"
+            }
+          ]
+        },
+        {
+          "name": "WarningLog",
+          "children": [
+            {
+              "name": "Write-WarningLog"
+            }
+          ]
+        },
+        {
+          "name": "Logger",
+          "children": [
+            {
+              "name": "Close-Logger"
+            },
+            {
+              "name": "New-Logger"
+            },
+            {
+              "name": "Set-Logger"
+            },
+            {
+              "name": "Start-Logger"
+            }
+          ]
+        },
+        {
+          "name": "LevelSwitch",
+          "children": [
+            {
+              "name": "New-LevelSwitch"
+            },
+            {
+              "name": "Set-LevelSwitch"
+            }
+          ]
+        },
+        {
+          "name": "MinimumLevel",
+          "children": [
+            {
+              "name": "Set-MinimumLevel"
+            }
+          ]
+        },
+        {
+          "name": "EnrichFromLogContext",
+          "children": [
+            {
+              "name": "Add-EnrichFromLogContext"
+            }
+          ]
+        },
+        {
+          "name": "EnrichWithErrorRecord",
+          "children": [
+            {
+              "name": "Add-EnrichWithErrorRecord"
+            }
+          ]
+        },
+        {
+          "name": "EnrichWithProperty",
+          "children": [
+            {
+              "name": "Add-EnrichWithProperty"
+            }
+          ]
+        },
+        {
+          "name": "JsonFormatter",
+          "children": [
+            {
+              "name": "Get-JsonFormatter"
+            }
+          ]
+        },
+        {
+          "name": "LogFunctions",
+          "children": [
+            {
+              "name": "Convert-LogFunctions"
+            }
+          ]
+        },
+        {
+          "name": "SinkConsole",
+          "children": [
+            {
+              "name": "Add-SinkConsole"
+            }
+          ]
+        },
+        {
+          "name": "SinkFile",
+          "children": [
+            {
+              "name": "Add-SinkFile"
+            }
+          ]
+        },
+        {
+          "name": "SinkPowerShell",
+          "children": [
+            {
+              "name": "Add-SinkPowerShell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoShLog.Sinks.EventLog",
+      "companyName": "Tomas Bouda",
+      "author": "Tomas Bouda",
+      "children": [
+        {
+          "name": "SinkEventLog",
+          "children": [
+            {
+              "name": "Add-SinkEventLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoShLog.Sinks.Http",
+      "companyName": "Tomas Bouda",
+      "author": "Tomas Bouda",
+      "children": [
+        {
+          "name": "SinkHttp",
+          "children": [
+            {
+              "name": "Add-SinkHttp"
+            }
+          ]
+        },
+        {
+          "name": "ApiKeyHttpClient",
+          "children": [
+            {
+              "name": "Get-ApiKeyHttpClient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoShLog.Sinks.Seq",
+      "companyName": "Tomas Bouda",
+      "author": "Tomas Bouda",
+      "children": [
+        {
+          "name": "SinkSeq",
+          "children": [
+            {
+              "name": "Add-SinkSeq"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoShLog.Tools",
+      "companyName": "Tomas Bouda",
+      "author": "Tomas Bouda",
+      "children": [
+        {
+          "name": "Bootstrap",
+          "children": [
+            {
+              "name": "Bootstrap"
+            }
+          ]
+        },
+        {
+          "name": "Dependencies",
+          "children": [
+            {
+              "name": "Build-Dependencies"
+            }
+          ]
+        },
+        {
+          "name": "VersionFromBranch",
+          "children": [
+            {
+              "name": "Expand-VersionFromBranch"
+            }
+          ]
+        },
+        {
+          "name": "PipelineVariable",
+          "children": [
+            {
+              "name": "Set-PipelineVariable"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

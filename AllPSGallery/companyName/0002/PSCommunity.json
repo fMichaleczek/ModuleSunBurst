@@ -1,0 +1,43 @@
+{
+  "name": "PSCommunity",
+  "children": [
+    {
+      "name": "AzureFileSyncDsc",
+      "companyName": "PSCommunity",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "*.TargetResource",
+          "children": [
+            {
+              "name": "*.TargetResource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PIMTools",
+      "companyName": "PSCommunity",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "AzureADPIMRequest",
+          "children": [
+            {
+              "name": "New-AzureADPIMRequest"
+            }
+          ]
+        },
+        {
+          "name": "AzurePIMRequest",
+          "children": [
+            {
+              "name": "New-AzurePIMRequest"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Jim Moyle",
+  "children": [
+    {
+      "name": "CimDiskImage",
+      "companyName": "Jim Moyle",
+      "author": "Jim Moyle",
+      "children": [
+        {
+          "name": "CimDiskImage",
+          "children": [
+            {
+              "name": "Dismount-CimDiskImage"
+            },
+            {
+              "name": "Get-CimDiskImage"
+            },
+            {
+              "name": "Mount-CimDiskImage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FSLogix.PowerShell.Rules",
+      "companyName": "FSLogix",
+      "author": "Jim Moyle",
+      "children": [
+        {
+          "name": "FslAssignment",
+          "children": [
+            {
+              "name": "Add-FslAssignment"
+            },
+            {
+              "name": "Get-FslAssignment"
+            },
+            {
+              "name": "Remove-FslAssignment"
+            },
+            {
+              "name": "Set-FslAssignment"
+            }
+          ]
+        },
+        {
+          "name": "FslRule",
+          "children": [
+            {
+              "name": "Add-FslRule"
+            },
+            {
+              "name": "Get-FslRule"
+            },
+            {
+              "name": "Remove-FslRule"
+            },
+            {
+              "name": "Set-FslRule"
+            }
+          ]
+        },
+        {
+          "name": "FslFilePath",
+          "children": [
+            {
+              "name": "Compare-FslFilePath"
+            }
+          ]
+        },
+        {
+          "name": "FslRuleFile",
+          "children": [
+            {
+              "name": "Compare-FslRuleFile"
+            }
+          ]
+        },
+        {
+          "name": "FslLicenseDay",
+          "children": [
+            {
+              "name": "Get-FslLicenseDay"
+            },
+            {
+              "name": "Set-FslLicenseDay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "name": "Jason Wasser  wasserja",
+  "children": [
+    {
+      "name": "BitdefenderHealth",
+      "companyName": "Mr. Automaton",
+      "author": "Jason Wasser  wasserja",
+      "children": [
+        {
+          "name": "BitdefenderUpdateFileData",
+          "children": [
+            {
+              "name": "Get-BitdefenderUpdateFileData"
+            }
+          ]
+        },
+        {
+          "name": "BitdefenderSignatureDate",
+          "children": [
+            {
+              "name": "Get-BitdefenderSignatureDate"
+            }
+          ]
+        },
+        {
+          "name": "TimeZone",
+          "children": [
+            {
+              "name": "Convert-TimeZone"
+            }
+          ]
+        },
+        {
+          "name": "UnixTimetoDateTime",
+          "children": [
+            {
+              "name": "Convert-UnixTimetoDateTime"
+            }
+          ]
+        },
+        {
+          "name": "Service",
+          "children": [
+            {
+              "name": "Test-Service"
+            }
+          ]
+        },
+        {
+          "name": "Bitdefender",
+          "children": [
+            {
+              "name": "Test-Bitdefender"
+            }
+          ]
+        },
+        {
+          "name": "SessionFunction",
+          "children": [
+            {
+              "name": "Import-SessionFunction"
+            }
+          ]
+        },
+        {
+          "name": "BitdefenderComponentStatus",
+          "children": [
+            {
+              "name": "Get-BitdefenderComponentStatus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CertificateHealth",
+      "companyName": "Mr. Automaton",
+      "author": "Jason Wasser  wasserja",
+      "children": [
+        {
+          "name": "CertificateFile",
+          "children": [
+            {
+              "name": "Get-CertificateFile"
+            }
+          ]
+        },
+        {
+          "name": "CertificateHealth",
+          "children": [
+            {
+              "name": "Get-CertificateHealth"
+            }
+          ]
+        },
+        {
+          "name": "UnhealthyCertificate",
+          "children": [
+            {
+              "name": "Get-UnhealthyCertificate"
+            }
+          ]
+        },
+        {
+          "name": "UnhealthyCertificateNagios",
+          "children": [
+            {
+              "name": "Get-UnhealthyCertificateNagios"
+            }
+          ]
+        },
+        {
+          "name": "NetCertificate",
+          "children": [
+            {
+              "name": "Get-NetCertificate"
+            },
+            {
+              "name": "Save-NetCertificate"
+            }
+          ]
+        },
+        {
+          "name": "NetCertificateHealth",
+          "children": [
+            {
+              "name": "Get-NetCertificateHealth"
+            }
+          ]
+        },
+        {
+          "name": "ListeningPort",
+          "children": [
+            {
+              "name": "Get-ListeningPort"
+            }
+          ]
+        },
+        {
+          "name": "LocalNetPortCertificate",
+          "children": [
+            {
+              "name": "Test-LocalNetPortCertificate"
+            }
+          ]
+        },
+        {
+          "name": "NetSslProtocol",
+          "children": [
+            {
+              "name": "Test-NetSslProtocol"
+            }
+          ]
+        },
+        {
+          "name": "SchannelProtocol",
+          "children": [
+            {
+              "name": "Get-SchannelProtocol"
+            },
+            {
+              "name": "Set-SchannelProtocol"
+            },
+            {
+              "name": "Disable-SchannelProtocol"
+            },
+            {
+              "name": "Enable-SchannelProtocol"
+            }
+          ]
+        },
+        {
+          "name": "SchannelProtocolStrictTLS12",
+          "children": [
+            {
+              "name": "Enable-SchannelProtocolStrictTLS12"
+            },
+            {
+              "name": "Test-SchannelProtocolStrictTLS12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MrAADAdministration",
+      "companyName": "Mr. Automaton",
+      "author": "Jason Wasser  wasserja",
+      "children": [
+        {
+          "name": "ADReplication",
+          "children": [
+            {
+              "name": "Invoke-ADReplication"
+            }
+          ]
+        },
+        {
+          "name": "ADUserPasswordExpiration",
+          "children": [
+            {
+              "name": "Get-ADUserPasswordExpiration"
+            }
+          ]
+        },
+        {
+          "name": "ADUserPasswordExpirationNotification",
+          "children": [
+            {
+              "name": "Send-ADUserPasswordExpirationNotification"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        },
+        {
+          "name": "ADUser",
+          "children": [
+            {
+              "name": "Test-ADUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MrAAppx",
+      "companyName": "Mr. Automaton",
+      "author": "Jason Wasser  wasserja",
+      "children": [
+        {
+          "name": "AppxProtocol",
+          "children": [
+            {
+              "name": "Get-AppxProtocol"
+            }
+          ]
+        },
+        {
+          "name": "AppxShortcut",
+          "children": [
+            {
+              "name": "New-AppxShortcut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MrAAzure",
+      "companyName": "Mr. Automaton",
+      "author": "Jason Wasser  wasserja",
+      "children": [
+        {
+          "name": "AzureRmVMExtensionLegacy",
+          "children": [
+            {
+              "name": "Install-AzureRmVMExtensionLegacy"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmVMAvailableExtension",
+          "children": [
+            {
+              "name": "Get-AzureRmVMAvailableExtension"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmVMExtension",
+          "children": [
+            {
+              "name": "Install-AzureRmVMExtension"
+            }
+          ]
+        },
+        {
+          "name": "AzureCustomRouteTable",
+          "children": [
+            {
+              "name": "Set-AzureCustomRouteTable"
+            }
+          ]
+        },
+        {
+          "name": "AzureBlob",
+          "children": [
+            {
+              "name": "Copy-AzureBlob"
+            }
+          ]
+        },
+        {
+          "name": "AzureItem",
+          "children": [
+            {
+              "name": "Copy-AzureItem"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmVMTrendMicroDeepSecurityExtension",
+          "children": [
+            {
+              "name": "Install-AzureRmVMTrendMicroDeepSecurityExtension"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmLogin",
+          "children": [
+            {
+              "name": "Test-AzureRmLogin"
+            }
+          ]
+        },
+        {
+          "name": "AzurePublicIPList",
+          "children": [
+            {
+              "name": "Get-AzurePublicIPList"
+            }
+          ]
+        },
+        {
+          "name": "AzureRmVirtualNetworkGatewayStatistics",
+          "children": [
+            {
+              "name": "Get-AzureRmVirtualNetworkGatewayStatistics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MrACredential",
+      "companyName": "Mr. Automaton",
+      "author": "Jason Wasser  wasserja",
+      "children": [
+        {
+          "name": "EncryptionKey",
+          "children": [
+            {
+              "name": "New-EncryptionKey"
+            }
+          ]
+        },
+        {
+          "name": "Credential",
+          "children": [
+            {
+              "name": "Save-Credential"
+            },
+            {
+              "name": "Import-Credential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MrANagios",
+      "companyName": "Mr. Automaton",
+      "author": "Jason Wasser  wasserja",
+      "children": [
+        {
+          "name": "NagiosGlobalNotification",
+          "children": [
+            {
+              "name": "Disable-NagiosGlobalNotification"
+            },
+            {
+              "name": "Enable-NagiosGlobalNotification"
+            }
+          ]
+        },
+        {
+          "name": "NagiosHostCheck",
+          "children": [
+            {
+              "name": "Disable-NagiosHostCheck"
+            },
+            {
+              "name": "Enable-NagiosHostCheck"
+            }
+          ]
+        },
+        {
+          "name": "NagiosHostGroupCheck",
+          "children": [
+            {
+              "name": "Disable-NagiosHostGroupCheck"
+            },
+            {
+              "name": "Enable-NagiosHostGroupCheck"
+            }
+          ]
+        },
+        {
+          "name": "NagiosHostNotification",
+          "children": [
+            {
+              "name": "Disable-NagiosHostNotification"
+            },
+            {
+              "name": "Enable-NagiosHostNotification"
+            }
+          ]
+        },
+        {
+          "name": "NagiosServiceGroupCheck",
+          "children": [
+            {
+              "name": "Disable-NagiosServiceGroupCheck"
+            },
+            {
+              "name": "Enable-NagiosServiceGroupCheck"
+            }
+          ]
+        },
+        {
+          "name": "NagiosServiceNotification",
+          "children": [
+            {
+              "name": "Disable-NagiosServiceNotification"
+            },
+            {
+              "name": "Enable-NagiosServiceNotification"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXIAllHostProblems",
+          "children": [
+            {
+              "name": "Get-NagiosXIAllHostProblems"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXIAllOpenServiceProblems",
+          "children": [
+            {
+              "name": "Get-NagiosXIAllOpenServiceProblems"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXIAllServiceProblems",
+          "children": [
+            {
+              "name": "Get-NagiosXIAllServiceProblems"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXIHostStatus",
+          "children": [
+            {
+              "name": "Get-NagiosXIHostStatus"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXIOpenServiceProblem",
+          "children": [
+            {
+              "name": "Get-NagiosXIOpenServiceProblem"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXiOpenHostProblem",
+          "children": [
+            {
+              "name": "Get-NagiosXiOpenHostProblem"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXiServiceStatus",
+          "children": [
+            {
+              "name": "Get-NagiosXiServiceStatus"
+            }
+          ]
+        },
+        {
+          "name": "NagiosRequest",
+          "children": [
+            {
+              "name": "Invoke-NagiosRequest"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXiApi",
+          "children": [
+            {
+              "name": "Invoke-NagiosXiApi"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXiStoppedServiceProblem",
+          "children": [
+            {
+              "name": "Resolve-NagiosXiStoppedServiceProblem"
+            }
+          ]
+        },
+        {
+          "name": "NagiosHostAcknowledgement",
+          "children": [
+            {
+              "name": "Submit-NagiosHostAcknowledgement"
+            }
+          ]
+        },
+        {
+          "name": "NagiosServiceAcknowledgement",
+          "children": [
+            {
+              "name": "Submit-NagiosServiceAcknowledgement"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXiOpenHostProblemsAcknowledgement",
+          "children": [
+            {
+              "name": "Submit-NagiosXiOpenHostProblemsAcknowledgement"
+            }
+          ]
+        },
+        {
+          "name": "NagiosXiOpenServiceProblemsAcknowledgement",
+          "children": [
+            {
+              "name": "Submit-NagiosXiOpenServiceProblemsAcknowledgement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MrAScheduledRestartComputer",
+      "companyName": "Mr. Automaton",
+      "author": "Jason Wasser  wasserja",
+      "children": [
+        {
+          "name": "ScheduledRestartComputerJob",
+          "children": [
+            {
+              "name": "Submit-ScheduledRestartComputerJob"
+            },
+            {
+              "name": "Get-ScheduledRestartComputerJob"
+            },
+            {
+              "name": "Remove-ScheduledRestartComputerJob"
+            }
+          ]
+        },
+        {
+          "name": "ExpiredScheduledRestartComputerJob",
+          "children": [
+            {
+              "name": "Remove-ExpiredScheduledRestartComputerJob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MrAToolbox",
+      "companyName": "Mr. Automaton",
+      "author": "Jason Wasser  wasserja",
+      "children": [
+        {
+          "name": "Url",
+          "children": [
+            {
+              "name": "Confirm-Url"
+            }
+          ]
+        },
+        {
+          "name": "RemoteDesktop",
+          "children": [
+            {
+              "name": "Connect-RemoteDesktop"
+            }
+          ]
+        },
+        {
+          "name": "Volume",
+          "children": [
+            {
+              "name": "Expand-Volume"
+            }
+          ]
+        },
+        {
+          "name": "ActivePowerPlan",
+          "children": [
+            {
+              "name": "Get-ActivePowerPlan"
+            }
+          ]
+        },
+        {
+          "name": "ClusterNodesMemory",
+          "children": [
+            {
+              "name": "Get-ClusterNodesMemory"
+            }
+          ]
+        },
+        {
+          "name": "ClusterSharedVolumeUsage",
+          "children": [
+            {
+              "name": "Get-ClusterSharedVolumeUsage"
+            }
+          ]
+        },
+        {
+          "name": "ComputerHardwareSpecification",
+          "children": [
+            {
+              "name": "Get-ComputerHardwareSpecification"
+            }
+          ]
+        },
+        {
+          "name": "DiskInventory",
+          "children": [
+            {
+              "name": "Get-DiskInventory"
+            }
+          ]
+        },
+        {
+          "name": "DotNetv4FrameworkVersion",
+          "children": [
+            {
+              "name": "Get-DotNetv4FrameworkVersion"
+            }
+          ]
+        },
+        {
+          "name": "DriverVersion",
+          "children": [
+            {
+              "name": "Get-DriverVersion"
+            }
+          ]
+        },
+        {
+          "name": "Hostname",
+          "children": [
+            {
+              "name": "Get-Hostname"
+            }
+          ]
+        },
+        {
+          "name": "IISSite",
+          "children": [
+            {
+              "name": "Get-IISSite"
+            }
+          ]
+        },
+        {
+          "name": "LapsPassword",
+          "children": [
+            {
+              "name": "Get-LapsPassword"
+            }
+          ]
+        },
+        {
+          "name": "LargeFiles",
+          "children": [
+            {
+              "name": "Get-LargeFiles"
+            }
+          ]
+        },
+        {
+          "name": "LastReboot",
+          "children": [
+            {
+              "name": "Get-LastReboot"
+            }
+          ]
+        },
+        {
+          "name": "LocalAdministratorPasswordLastSet",
+          "children": [
+            {
+              "name": "Get-LocalAdministratorPasswordLastSet"
+            }
+          ]
+        },
+        {
+          "name": "LocalGroupMembership",
+          "children": [
+            {
+              "name": "Get-LocalGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "MachineType",
+          "children": [
+            {
+              "name": "Get-MachineType"
+            }
+          ]
+        },
+        {
+          "name": "OS",
+          "children": [
+            {
+              "name": "Get-OS"
+            }
+          ]
+        },
+        {
+          "name": "PhysicalMemory",
+          "children": [
+            {
+              "name": "Get-PhysicalMemory"
+            }
+          ]
+        },
+        {
+          "name": "ProcessorInfo",
+          "children": [
+            {
+              "name": "Get-ProcessorInfo"
+            }
+          ]
+        },
+        {
+          "name": "ReplicaStatus",
+          "children": [
+            {
+              "name": "Get-ReplicaStatus"
+            }
+          ]
+        },
+        {
+          "name": "SCVMMInventory",
+          "children": [
+            {
+              "name": "Get-SCVMMInventory"
+            }
+          ]
+        },
+        {
+          "name": "SMBStatus",
+          "children": [
+            {
+              "name": "Get-SMBStatus"
+            }
+          ]
+        },
+        {
+          "name": "TimeZone",
+          "children": [
+            {
+              "name": "Get-TimeZone"
+            }
+          ]
+        },
+        {
+          "name": "Uptime",
+          "children": [
+            {
+              "name": "Get-Uptime"
+            }
+          ]
+        },
+        {
+          "name": "WindowsUpdatePolicy",
+          "children": [
+            {
+              "name": "Get-WindowsUpdatePolicy"
+            }
+          ]
+        },
+        {
+          "name": "ResilientCimSession",
+          "children": [
+            {
+              "name": "New-ResilientCimSession"
+            }
+          ]
+        },
+        {
+          "name": "LapsAdministratorPassword",
+          "children": [
+            {
+              "name": "Reset-LapsAdministratorPassword"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Send-Log"
+            },
+            {
+              "name": "Write-Log"
+            }
+          ]
+        },
+        {
+          "name": "IPAddress",
+          "children": [
+            {
+              "name": "Set-IPAddress"
+            }
+          ]
+        },
+        {
+          "name": "Robocopy",
+          "children": [
+            {
+              "name": "Start-Robocopy"
+            }
+          ]
+        },
+        {
+          "name": "Watch",
+          "children": [
+            {
+              "name": "Start-Watch"
+            }
+          ]
+        },
+        {
+          "name": "IsAdmin",
+          "children": [
+            {
+              "name": "Test-IsAdmin"
+            }
+          ]
+        },
+        {
+          "name": "LapsCompliance",
+          "children": [
+            {
+              "name": "Test-LapsCompliance"
+            }
+          ]
+        },
+        {
+          "name": "Process",
+          "children": [
+            {
+              "name": "Test-Process"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerResourceRecordA",
+          "children": [
+            {
+              "name": "Update-DnsServerResourceRecordA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MrAWindowsServices",
+      "companyName": "Mr. Automaton",
+      "author": "Jason Wasser  wasserja",
+      "children": [
+        {
+          "name": "StoppedAutomaticService",
+          "children": [
+            {
+              "name": "Get-StoppedAutomaticService"
+            },
+            {
+              "name": "Start-StoppedAutomaticService"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

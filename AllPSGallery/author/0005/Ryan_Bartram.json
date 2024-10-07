@@ -1,0 +1,495 @@
+{
+  "name": "Ryan Bartram",
+  "children": [
+    {
+      "name": "MOFCompare",
+      "companyName": "DFTAI",
+      "author": "Ryan Bartram",
+      "children": [
+        {
+          "name": "MOF",
+          "children": [
+            {
+              "name": "Compare-MOF"
+            },
+            {
+              "name": "ConvertFrom-MOF"
+            }
+          ]
+        },
+        {
+          "name": "DscResourceCache",
+          "children": [
+            {
+              "name": "Initialize-DscResourceCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSKeepAChangeLog",
+      "companyName": "DFTAI",
+      "author": "Ryan Bartram",
+      "children": [
+        {
+          "name": "ChangeLog",
+          "children": [
+            {
+              "name": "New-ChangeLog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSpotify",
+      "companyName": "Unknown",
+      "author": "Ryan Bartram",
+      "children": [
+        {
+          "name": "AuthorizationCode",
+          "children": [
+            {
+              "name": "Get-AuthorizationCode"
+            }
+          ]
+        },
+        {
+          "name": "AccessToken",
+          "children": [
+            {
+              "name": "Get-AccessToken"
+            }
+          ]
+        },
+        {
+          "name": "OAuthConfirmationWindow",
+          "children": [
+            {
+              "name": "New-OAuthConfirmationWindow"
+            }
+          ]
+        },
+        {
+          "name": "Spotify",
+          "children": [
+            {
+              "name": "Connect-Spotify"
+            },
+            {
+              "name": "Resume-Spotify"
+            },
+            {
+              "name": "Pause-Spotify"
+            }
+          ]
+        },
+        {
+          "name": "AuthToken",
+          "children": [
+            {
+              "name": "Assert-AuthToken"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyDevice",
+          "children": [
+            {
+              "name": "Get-SpotifyDevice"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyPlayer",
+          "children": [
+            {
+              "name": "Get-SpotifyPlayer"
+            },
+            {
+              "name": "Set-SpotifyPlayer"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyCurrentTrack",
+          "children": [
+            {
+              "name": "Get-SpotifyCurrentTrack"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyTrack",
+          "children": [
+            {
+              "name": "Skip-SpotifyTrack"
+            },
+            {
+              "name": "Previous-SpotifyTrack"
+            },
+            {
+              "name": "Find-SpotifyTrack"
+            },
+            {
+              "name": "Get-SpotifyTrack"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyPlaylist",
+          "children": [
+            {
+              "name": "Get-SpotifyPlaylist"
+            },
+            {
+              "name": "New-SpotifyPlaylist"
+            },
+            {
+              "name": "Set-SpotifyPlaylist"
+            },
+            {
+              "name": "Find-SpotifyPlaylist"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyTracktoPlaylist",
+          "children": [
+            {
+              "name": "Add-SpotifyTracktoPlaylist"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyPlaylistTrackPosition",
+          "children": [
+            {
+              "name": "Set-SpotifyPlaylistTrackPosition"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyPlaylistTrackOrder",
+          "children": [
+            {
+              "name": "Randomize-SpotifyPlaylistTrackOrder"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyTrackfromPlaylist",
+          "children": [
+            {
+              "name": "Remove-SpotifyTrackfromPlaylist"
+            }
+          ]
+        },
+        {
+          "name": "PlaylistObject",
+          "children": [
+            {
+              "name": "Convertto-PlaylistObject"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyProfile",
+          "children": [
+            {
+              "name": "Get-SpotifyProfile"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyRecentlyPlayed",
+          "children": [
+            {
+              "name": "Get-SpotifyRecentlyPlayed"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyUsersTopArtist",
+          "children": [
+            {
+              "name": "Get-SpotifyUsersTopArtist"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyUsersTopTrack",
+          "children": [
+            {
+              "name": "Get-SpotifyUsersTopTrack"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyItem",
+          "children": [
+            {
+              "name": "Find-SpotifyItem"
+            },
+            {
+              "name": "Follow-SpotifyItem"
+            },
+            {
+              "name": "Unfollow-SpotifyItem"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyArtist",
+          "children": [
+            {
+              "name": "Find-SpotifyArtist"
+            },
+            {
+              "name": "Get-SpotifyArtist"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyAlbum",
+          "children": [
+            {
+              "name": "Find-SpotifyAlbum"
+            },
+            {
+              "name": "Get-SpotifyAlbum"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyArtistTopTracks",
+          "children": [
+            {
+              "name": "Get-SpotifyArtistTopTracks"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyRelatedArtists",
+          "children": [
+            {
+              "name": "Get-SpotifyRelatedArtists"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyFeaturedPlaylists",
+          "children": [
+            {
+              "name": "Get-SpotifyFeaturedPlaylists"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyNewReleases",
+          "children": [
+            {
+              "name": "Get-SpotifyNewReleases"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyCategory",
+          "children": [
+            {
+              "name": "Get-SpotifyCategory"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyRecommendation",
+          "children": [
+            {
+              "name": "Get-SpotifyRecommendation"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyRecommendationGenres",
+          "children": [
+            {
+              "name": "Get-SpotifyRecommendationGenres"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyFollowedItem",
+          "children": [
+            {
+              "name": "Get-SpotifyFollowedItem"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyFollowing",
+          "children": [
+            {
+              "name": "Assert-SpotifyFollowing"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyLibrary",
+          "children": [
+            {
+              "name": "Get-SpotifyLibrary"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyTracktoLibrary",
+          "children": [
+            {
+              "name": "Add-SpotifyTracktoLibrary"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyAlbumtoLibrary",
+          "children": [
+            {
+              "name": "Add-SpotifyAlbumtoLibrary"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyTrackfromLibrary",
+          "children": [
+            {
+              "name": "Remove-SpotifyTrackfromLibrary"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyAlbumfromLibrary",
+          "children": [
+            {
+              "name": "Remove-SpotifyAlbumfromLibrary"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyTrackinLibrary",
+          "children": [
+            {
+              "name": "Assert-SpotifyTrackinLibrary"
+            }
+          ]
+        },
+        {
+          "name": "SpotifyAlbuminLibrary",
+          "children": [
+            {
+              "name": "Assert-SpotifyAlbuminLibrary"
+            }
+          ]
+        },
+        {
+          "name": "Epoch",
+          "children": [
+            {
+              "name": "ConvertTo-Epoch"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSTerraformParser",
+      "companyName": "DFTAI",
+      "author": "Ryan Bartram",
+      "children": [
+        {
+          "name": "TerraformPlan",
+          "children": [
+            {
+              "name": "Read-TerraformPlan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StoragePre2K12",
+      "companyName": "DFTAI",
+      "author": "Ryan Bartram",
+      "children": [
+        {
+          "name": "Volume",
+          "children": [
+            {
+              "name": "Format-Volume"
+            },
+            {
+              "name": "Get-Volume"
+            },
+            {
+              "name": "Set-Volume"
+            }
+          ]
+        },
+        {
+          "name": "Disk",
+          "children": [
+            {
+              "name": "Get-Disk"
+            },
+            {
+              "name": "Initialize-Disk"
+            },
+            {
+              "name": "Set-Disk"
+            }
+          ]
+        },
+        {
+          "name": "Partition",
+          "children": [
+            {
+              "name": "Get-Partition"
+            },
+            {
+              "name": "New-Partition"
+            },
+            {
+              "name": "Resize-Partition"
+            },
+            {
+              "name": "Set-Partition"
+            }
+          ]
+        },
+        {
+          "name": "PartitionSupportedSize",
+          "children": [
+            {
+              "name": "Get-PartitionSupportedSize"
+            }
+          ]
+        },
+        {
+          "name": "HostStorageCache",
+          "children": [
+            {
+              "name": "Update-HostStorageCache"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

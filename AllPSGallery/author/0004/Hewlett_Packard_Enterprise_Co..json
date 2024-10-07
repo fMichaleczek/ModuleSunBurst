@@ -1,0 +1,5091 @@
+{
+  "name": "Hewlett Packard Enterprise Co.",
+  "children": [
+    {
+      "name": "HPEAlletra6000andNimbleStoragePowerShellToolkit",
+      "companyName": "HPE Storage, A Hewlett Packard Enterprise Company",
+      "author": "Hewlett Packard Enterprise Co.",
+      "children": [
+        {
+          "name": "NS2PasswordFormat",
+          "children": [
+            {
+              "name": "Test-NS2PasswordFormat"
+            }
+          ]
+        },
+        {
+          "name": "Ns2Type",
+          "children": [
+            {
+              "name": "Test-Ns2Type"
+            }
+          ]
+        },
+        {
+          "name": "NS2ID",
+          "children": [
+            {
+              "name": "Test-NS2ID"
+            }
+          ]
+        },
+        {
+          "name": "NSGroup",
+          "children": [
+            {
+              "name": "Connect-NSGroup"
+            },
+            {
+              "name": "Disconnect-NSGroup"
+            },
+            {
+              "name": "Get-NSGroup"
+            },
+            {
+              "name": "Set-NSGroup"
+            },
+            {
+              "name": "Reset-NSGroup"
+            },
+            {
+              "name": "Stop-NSGroup"
+            },
+            {
+              "name": "Merge-NSGroup"
+            },
+            {
+              "name": "Move-NSGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSAccessControlRecord",
+          "children": [
+            {
+              "name": "New-NSAccessControlRecord"
+            },
+            {
+              "name": "Get-NSAccessControlRecord"
+            },
+            {
+              "name": "Remove-NSAccessControlRecord"
+            }
+          ]
+        },
+        {
+          "name": "NSChapUser",
+          "children": [
+            {
+              "name": "New-NSChapUser"
+            },
+            {
+              "name": "Get-NSChapUser"
+            },
+            {
+              "name": "Set-NSChapUser"
+            },
+            {
+              "name": "Remove-NSChapUser"
+            }
+          ]
+        },
+        {
+          "name": "NSPool",
+          "children": [
+            {
+              "name": "New-NSPool"
+            },
+            {
+              "name": "Get-NSPool"
+            },
+            {
+              "name": "Set-NSPool"
+            },
+            {
+              "name": "Remove-NSPool"
+            },
+            {
+              "name": "Merge-NSPool"
+            }
+          ]
+        },
+        {
+          "name": "NSPoolDeDupe",
+          "children": [
+            {
+              "name": "Invoke-NSPoolDeDupe"
+            }
+          ]
+        },
+        {
+          "name": "NSProtectionTemplate",
+          "children": [
+            {
+              "name": "New-NSProtectionTemplate"
+            },
+            {
+              "name": "Get-NSProtectionTemplate"
+            },
+            {
+              "name": "Set-NSProtectionTemplate"
+            },
+            {
+              "name": "Remove-NSProtectionTemplate"
+            }
+          ]
+        },
+        {
+          "name": "NSVolume",
+          "children": [
+            {
+              "name": "New-NSVolume"
+            },
+            {
+              "name": "Get-NSVolume"
+            },
+            {
+              "name": "Set-NSVolume"
+            },
+            {
+              "name": "Remove-NSVolume"
+            },
+            {
+              "name": "Restore-NSVolume"
+            },
+            {
+              "name": "Move-NSVolume"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeBulk",
+          "children": [
+            {
+              "name": "Move-NSVolumeBulk"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeMove",
+          "children": [
+            {
+              "name": "Stop-NSVolumeMove"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeBulkDeDupe",
+          "children": [
+            {
+              "name": "Set-NSVolumeBulkDeDupe"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeBulkOnline",
+          "children": [
+            {
+              "name": "Set-NSVolumeBulkOnline"
+            }
+          ]
+        },
+        {
+          "name": "NSSpaceDomain",
+          "children": [
+            {
+              "name": "Get-NSSpaceDomain"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupAlert",
+          "children": [
+            {
+              "name": "Test-NSGroupAlert"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupSoftwareUpdate",
+          "children": [
+            {
+              "name": "Test-NSGroupSoftwareUpdate"
+            },
+            {
+              "name": "Start-NSGroupSoftwareUpdate"
+            },
+            {
+              "name": "Resume-NSGroupSoftwareUpdate"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupSoftwareDownload",
+          "children": [
+            {
+              "name": "Start-NSGroupSoftwareDownload"
+            },
+            {
+              "name": "Stop-NSGroupSoftwareDownload"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupDiscoveredList",
+          "children": [
+            {
+              "name": "Get-NSGroupDiscoveredList"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupMerge",
+          "children": [
+            {
+              "name": "Test-NSGroupMerge"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupgetEULA",
+          "children": [
+            {
+              "name": "Get-NSGroupgetEULA"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupMigrate",
+          "children": [
+            {
+              "name": "Test-NSGroupMigrate"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupTimeZoneList",
+          "children": [
+            {
+              "name": "Get-NSGroupTimeZoneList"
+            }
+          ]
+        },
+        {
+          "name": "NSReplicationPartner",
+          "children": [
+            {
+              "name": "New-NSReplicationPartner"
+            },
+            {
+              "name": "Get-NSReplicationPartner"
+            },
+            {
+              "name": "Set-NSReplicationPartner"
+            },
+            {
+              "name": "Remove-NSReplicationPartner"
+            },
+            {
+              "name": "Suspend-NSReplicationPartner"
+            },
+            {
+              "name": "Resume-NSReplicationPartner"
+            },
+            {
+              "name": "Test-NSReplicationPartner"
+            }
+          ]
+        },
+        {
+          "name": "NSTrustedOauthIssuer",
+          "children": [
+            {
+              "name": "New-NSTrustedOauthIssuer"
+            },
+            {
+              "name": "Get-NSTrustedOauthIssuer"
+            }
+          ]
+        },
+        {
+          "name": "NSMasterKey",
+          "children": [
+            {
+              "name": "New-NSMasterKey"
+            },
+            {
+              "name": "Get-NSMasterKey"
+            },
+            {
+              "name": "Set-NSMasterKey"
+            },
+            {
+              "name": "Remove-NSMasterKey"
+            }
+          ]
+        },
+        {
+          "name": "NSMasterKeyInactive",
+          "children": [
+            {
+              "name": "Clear-NSMasterKeyInactive"
+            }
+          ]
+        },
+        {
+          "name": "NSEvent",
+          "children": [
+            {
+              "name": "Get-NSEvent"
+            }
+          ]
+        },
+        {
+          "name": "NSApplicationServer",
+          "children": [
+            {
+              "name": "New-NSApplicationServer"
+            },
+            {
+              "name": "Get-NSApplicationServer"
+            },
+            {
+              "name": "Set-NSApplicationServer"
+            },
+            {
+              "name": "Remove-NSApplicationServer"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelPort",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelPort"
+            }
+          ]
+        },
+        {
+          "name": "NSLdapDomain",
+          "children": [
+            {
+              "name": "New-NSLdapDomain"
+            },
+            {
+              "name": "Get-NSLdapDomain"
+            },
+            {
+              "name": "Set-NSLdapDomain"
+            },
+            {
+              "name": "Remove-NSLdapDomain"
+            },
+            {
+              "name": "Test-NSLdapDomain"
+            }
+          ]
+        },
+        {
+          "name": "NSLdapDomainUser",
+          "children": [
+            {
+              "name": "Test-NSLdapDomainUser"
+            }
+          ]
+        },
+        {
+          "name": "NSLdapDomainGroup",
+          "children": [
+            {
+              "name": "Test-NSLdapDomainGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSVersion",
+          "children": [
+            {
+              "name": "Get-NSVersion"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiator",
+          "children": [
+            {
+              "name": "New-NSInitiator"
+            },
+            {
+              "name": "Get-NSInitiator"
+            },
+            {
+              "name": "Remove-NSInitiator"
+            }
+          ]
+        },
+        {
+          "name": "NSSubscriber",
+          "children": [
+            {
+              "name": "New-NSSubscriber"
+            },
+            {
+              "name": "Get-NSSubscriber"
+            },
+            {
+              "name": "Set-NSSubscriber"
+            },
+            {
+              "name": "Remove-NSSubscriber"
+            }
+          ]
+        },
+        {
+          "name": "NSPerformancePolicy",
+          "children": [
+            {
+              "name": "New-NSPerformancePolicy"
+            },
+            {
+              "name": "Get-NSPerformancePolicy"
+            },
+            {
+              "name": "Set-NSPerformancePolicy"
+            },
+            {
+              "name": "Remove-NSPerformancePolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSKeyManager",
+          "children": [
+            {
+              "name": "New-NSKeyManager"
+            },
+            {
+              "name": "Get-NSKeyManager"
+            },
+            {
+              "name": "Set-NSKeyManager"
+            },
+            {
+              "name": "Remove-NSKeyManager"
+            },
+            {
+              "name": "Move-NSKeyManager"
+            }
+          ]
+        },
+        {
+          "name": "NSUserPolicy",
+          "children": [
+            {
+              "name": "Get-NSUserPolicy"
+            },
+            {
+              "name": "Set-NSUserPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSSnapshotCollection",
+          "children": [
+            {
+              "name": "New-NSSnapshotCollection"
+            },
+            {
+              "name": "Get-NSSnapshotCollection"
+            },
+            {
+              "name": "Set-NSSnapshotCollection"
+            },
+            {
+              "name": "Remove-NSSnapshotCollection"
+            }
+          ]
+        },
+        {
+          "name": "NSShelf",
+          "children": [
+            {
+              "name": "Get-NSShelf"
+            },
+            {
+              "name": "Set-NSShelf"
+            },
+            {
+              "name": "Show-NSShelf"
+            },
+            {
+              "name": "Remove-NSShelf"
+            }
+          ]
+        },
+        {
+          "name": "NSProtocolEndpoint",
+          "children": [
+            {
+              "name": "Get-NSProtocolEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelInterface",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelInterface"
+            },
+            {
+              "name": "Set-NSFibreChannelInterface"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelSession",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelSession"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollection",
+          "children": [
+            {
+              "name": "New-NSVolumeCollection"
+            },
+            {
+              "name": "Get-NSVolumeCollection"
+            },
+            {
+              "name": "Set-NSVolumeCollection"
+            },
+            {
+              "name": "Remove-NSVolumeCollection"
+            },
+            {
+              "name": "Test-NSVolumeCollection"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollectionPromote",
+          "children": [
+            {
+              "name": "Invoke-NSVolumeCollectionPromote"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollectionDemote",
+          "children": [
+            {
+              "name": "Invoke-NSVolumeCollectionDemote"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollectionHandover",
+          "children": [
+            {
+              "name": "Start-NSVolumeCollectionHandover"
+            },
+            {
+              "name": "Stop-NSVolumeCollectionHandover"
+            }
+          ]
+        },
+        {
+          "name": "NSToken",
+          "children": [
+            {
+              "name": "New-NSToken"
+            },
+            {
+              "name": "Get-NSToken"
+            },
+            {
+              "name": "Remove-NSToken"
+            }
+          ]
+        },
+        {
+          "name": "NSTokenUserDetails",
+          "children": [
+            {
+              "name": "Get-NSTokenUserDetails"
+            }
+          ]
+        },
+        {
+          "name": "NSUserGroup",
+          "children": [
+            {
+              "name": "New-NSUserGroup"
+            },
+            {
+              "name": "Get-NSUserGroup"
+            },
+            {
+              "name": "Set-NSUserGroup"
+            },
+            {
+              "name": "Remove-NSUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSWitness",
+          "children": [
+            {
+              "name": "New-NSWitness"
+            },
+            {
+              "name": "Get-NSWitness"
+            },
+            {
+              "name": "Remove-NSWitness"
+            },
+            {
+              "name": "Test-NSWitness"
+            }
+          ]
+        },
+        {
+          "name": "NSSubscription",
+          "children": [
+            {
+              "name": "New-NSSubscription"
+            },
+            {
+              "name": "Get-NSSubscription"
+            },
+            {
+              "name": "Set-NSSubscription"
+            },
+            {
+              "name": "Remove-NSSubscription"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelInitiatorAlias",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelInitiatorAlias"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiatorGroup",
+          "children": [
+            {
+              "name": "New-NSInitiatorGroup"
+            },
+            {
+              "name": "Get-NSInitiatorGroup"
+            },
+            {
+              "name": "Set-NSInitiatorGroup"
+            },
+            {
+              "name": "Remove-NSInitiatorGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiatorGroupMerge",
+          "children": [
+            {
+              "name": "Resolve-NSInitiatorGroupMerge"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiatorGroupLunAvailability",
+          "children": [
+            {
+              "name": "Test-NSInitiatorGroupLunAvailability"
+            }
+          ]
+        },
+        {
+          "name": "NSSnapshot",
+          "children": [
+            {
+              "name": "New-NSSnapshot"
+            },
+            {
+              "name": "Get-NSSnapshot"
+            },
+            {
+              "name": "Set-NSSnapshot"
+            },
+            {
+              "name": "Remove-NSSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "NSSnapshotBulk",
+          "children": [
+            {
+              "name": "New-NSSnapshotBulk"
+            }
+          ]
+        },
+        {
+          "name": "NSActiveDirectoryMembership",
+          "children": [
+            {
+              "name": "New-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Get-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Set-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Remove-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Test-NSActiveDirectoryMembership"
+            }
+          ]
+        },
+        {
+          "name": "NSActiveDirectoryMembershipUser",
+          "children": [
+            {
+              "name": "Test-NSActiveDirectoryMembershipUser"
+            }
+          ]
+        },
+        {
+          "name": "NSActiveDirectoryMembershipGroup",
+          "children": [
+            {
+              "name": "Test-NSActiveDirectoryMembershipGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSSubnet",
+          "children": [
+            {
+              "name": "Get-NSSubnet"
+            }
+          ]
+        },
+        {
+          "name": "NSFolder",
+          "children": [
+            {
+              "name": "New-NSFolder"
+            },
+            {
+              "name": "Get-NSFolder"
+            },
+            {
+              "name": "Set-NSFolder"
+            },
+            {
+              "name": "Remove-NSFolder"
+            }
+          ]
+        },
+        {
+          "name": "NSFolderDeDupe",
+          "children": [
+            {
+              "name": "Invoke-NSFolderDeDupe"
+            }
+          ]
+        },
+        {
+          "name": "NSNetworkConfig",
+          "children": [
+            {
+              "name": "New-NSNetworkConfig"
+            },
+            {
+              "name": "Get-NSNetworkConfig"
+            },
+            {
+              "name": "Set-NSNetworkConfig"
+            },
+            {
+              "name": "Remove-NSNetworkConfig"
+            },
+            {
+              "name": "Initialize-NSNetworkConfig"
+            },
+            {
+              "name": "Test-NSNetworkConfig"
+            }
+          ]
+        },
+        {
+          "name": "NSController",
+          "children": [
+            {
+              "name": "Get-NSController"
+            },
+            {
+              "name": "Stop-NSController"
+            },
+            {
+              "name": "Reset-NSController"
+            }
+          ]
+        },
+        {
+          "name": "NSProtectionSchedule",
+          "children": [
+            {
+              "name": "New-NSProtectionSchedule"
+            },
+            {
+              "name": "Get-NSProtectionSchedule"
+            },
+            {
+              "name": "Set-NSProtectionSchedule"
+            },
+            {
+              "name": "Remove-NSProtectionSchedule"
+            }
+          ]
+        },
+        {
+          "name": "NSApplicationCategory",
+          "children": [
+            {
+              "name": "Get-NSApplicationCategory"
+            }
+          ]
+        },
+        {
+          "name": "NSAuditLog",
+          "children": [
+            {
+              "name": "Get-NSAuditLog"
+            }
+          ]
+        },
+        {
+          "name": "NSJob",
+          "children": [
+            {
+              "name": "Get-NSJob"
+            }
+          ]
+        },
+        {
+          "name": "NSDisk",
+          "children": [
+            {
+              "name": "Get-NSDisk"
+            },
+            {
+              "name": "Set-NSDisk"
+            }
+          ]
+        },
+        {
+          "name": "NSNetworkInterface",
+          "children": [
+            {
+              "name": "Get-NSNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "NSSoftwareVersion",
+          "children": [
+            {
+              "name": "Get-NSSoftwareVersion"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelConfig",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelConfig"
+            },
+            {
+              "name": "Update-NSFibreChannelConfig"
+            }
+          ]
+        },
+        {
+          "name": "NSUser",
+          "children": [
+            {
+              "name": "New-NSUser"
+            },
+            {
+              "name": "Get-NSUser"
+            },
+            {
+              "name": "Set-NSUser"
+            },
+            {
+              "name": "Remove-NSUser"
+            },
+            {
+              "name": "Unlock-NSUser"
+            }
+          ]
+        },
+        {
+          "name": "NSArray",
+          "children": [
+            {
+              "name": "New-NSArray"
+            },
+            {
+              "name": "Get-NSArray"
+            },
+            {
+              "name": "Set-NSArray"
+            },
+            {
+              "name": "Remove-NSArray"
+            },
+            {
+              "name": "Invoke-NSArray"
+            },
+            {
+              "name": "Stop-NSArray"
+            },
+            {
+              "name": "Reset-NSArray"
+            }
+          ]
+        },
+        {
+          "name": "NSAlarm",
+          "children": [
+            {
+              "name": "Get-NSAlarm"
+            },
+            {
+              "name": "Set-NSAlarm"
+            },
+            {
+              "name": "Remove-NSAlarm"
+            },
+            {
+              "name": "Clear-NSAlarm"
+            },
+            {
+              "name": "Undo-NSAlarm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HPEiLOCmdlets",
+      "companyName": "Hewlett Packard Enterprise Co.",
+      "author": "Hewlett Packard Enterprise Co.",
+      "children": [
+        {
+          "name": "HPEiLODirectoryGroup",
+          "children": [
+            {
+              "name": "Add-HPEiLODirectoryGroup"
+            },
+            {
+              "name": "Get-HPEiLODirectoryGroup"
+            },
+            {
+              "name": "Remove-HPEiLODirectoryGroup"
+            },
+            {
+              "name": "Set-HPEiLODirectoryGroup"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOEventServiceSubscription",
+          "children": [
+            {
+              "name": "Add-HPEiLOEventServiceSubscription"
+            },
+            {
+              "name": "Clear-HPEiLOEventServiceSubscription"
+            },
+            {
+              "name": "Set-HPEiLOEventServiceSubscription"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFederationGroup",
+          "children": [
+            {
+              "name": "Add-HPEiLOFederationGroup"
+            },
+            {
+              "name": "Get-HPEiLOFederationGroup"
+            },
+            {
+              "name": "Remove-HPEiLOFederationGroup"
+            },
+            {
+              "name": "Set-HPEiLOFederationGroup"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOInstallationQueueWaitTask",
+          "children": [
+            {
+              "name": "Add-HPEiLOInstallationQueueWaitTask"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOInstallSet",
+          "children": [
+            {
+              "name": "Add-HPEiLOInstallSet"
+            },
+            {
+              "name": "Clear-HPEiLOInstallSet"
+            },
+            {
+              "name": "Get-HPEiLOInstallSet"
+            },
+            {
+              "name": "Invoke-HPEiLOInstallSet"
+            },
+            {
+              "name": "Remove-HPEiLOInstallSet"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOLanguagePack",
+          "children": [
+            {
+              "name": "Add-HPEiLOLanguagePack"
+            },
+            {
+              "name": "Remove-HPEiLOLanguagePack"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOMaintenanceWindow",
+          "children": [
+            {
+              "name": "Add-HPEiLOMaintenanceWindow"
+            },
+            {
+              "name": "Clear-HPEiLOMaintenanceWindow"
+            },
+            {
+              "name": "Get-HPEiLOMaintenanceWindow"
+            },
+            {
+              "name": "Remove-HPEiLOMaintenanceWindow"
+            },
+            {
+              "name": "Set-HPEiLOMaintenanceWindow"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLORepositoryComponent",
+          "children": [
+            {
+              "name": "Add-HPEiLORepositoryComponent"
+            },
+            {
+              "name": "Get-HPEiLORepositoryComponent"
+            },
+            {
+              "name": "Invoke-HPEiLORepositoryComponent"
+            },
+            {
+              "name": "Remove-HPEiLORepositoryComponent"
+            },
+            {
+              "name": "Set-HPEiLORepositoryComponent"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSNMPAlertDestination",
+          "children": [
+            {
+              "name": "Add-HPEiLOSNMPAlertDestination"
+            },
+            {
+              "name": "Get-HPEiLOSNMPAlertDestination"
+            },
+            {
+              "name": "Remove-HPEiLOSNMPAlertDestination"
+            },
+            {
+              "name": "Set-HPEiLOSNMPAlertDestination"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSNMPv3User",
+          "children": [
+            {
+              "name": "Add-HPEiLOSNMPv3User"
+            },
+            {
+              "name": "Get-HPEiLOSNMPv3User"
+            },
+            {
+              "name": "Remove-HPEiLOSNMPv3User"
+            },
+            {
+              "name": "Set-HPEiLOSNMPv3User"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSSORecord",
+          "children": [
+            {
+              "name": "Add-HPEiLOSSORecord"
+            },
+            {
+              "name": "Clear-HPEiLOSSORecord"
+            },
+            {
+              "name": "Remove-HPEiLOSSORecord"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOUser",
+          "children": [
+            {
+              "name": "Add-HPEiLOUser"
+            },
+            {
+              "name": "Get-HPEiLOUser"
+            },
+            {
+              "name": "Remove-HPEiLOUser"
+            },
+            {
+              "name": "Set-HPEiLOUser"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSetting",
+          "children": [
+            {
+              "name": "Backup-HPEiLOSetting"
+            },
+            {
+              "name": "Restore-HPEiLOSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOAHSData",
+          "children": [
+            {
+              "name": "Clear-HPEiLOAHSData"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOESKMLog",
+          "children": [
+            {
+              "name": "Clear-HPEiLOESKMLog"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOEventLog",
+          "children": [
+            {
+              "name": "Clear-HPEiLOEventLog"
+            },
+            {
+              "name": "Get-HPEiLOEventLog"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOHotKeyConfig",
+          "children": [
+            {
+              "name": "Clear-HPEiLOHotKeyConfig"
+            },
+            {
+              "name": "Get-HPEiLOHotKeyConfig"
+            },
+            {
+              "name": "Set-HPEiLOHotKeyConfig"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOIML",
+          "children": [
+            {
+              "name": "Clear-HPEiLOIML"
+            },
+            {
+              "name": "Get-HPEiLOIML"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOInstallationTaskQueue",
+          "children": [
+            {
+              "name": "Clear-HPEiLOInstallationTaskQueue"
+            },
+            {
+              "name": "Get-HPEiLOInstallationTaskQueue"
+            },
+            {
+              "name": "Remove-HPEiLOInstallationTaskQueue"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPowerOnTime",
+          "children": [
+            {
+              "name": "Clear-HPEiLOPowerOnTime"
+            },
+            {
+              "name": "Get-HPEiLOPowerOnTime"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLORemoteSupportServiceEventLog",
+          "children": [
+            {
+              "name": "Clear-HPEiLORemoteSupportServiceEventLog"
+            },
+            {
+              "name": "Get-HPEiLORemoteSupportServiceEventLog"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLORestAPIState",
+          "children": [
+            {
+              "name": "Clear-HPEiLORestAPIState"
+            },
+            {
+              "name": "Get-HPEiLORestAPIState"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSecurityLog",
+          "children": [
+            {
+              "name": "Clear-HPEiLOSecurityLog"
+            },
+            {
+              "name": "Get-HPEiLOSecurityLog"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOUnlockedRepositoryComponent",
+          "children": [
+            {
+              "name": "Clear-HPEiLOUnlockedRepositoryComponent"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOComputeOpsManagement",
+          "children": [
+            {
+              "name": "Disable-HPEiLOComputeOpsManagement"
+            },
+            {
+              "name": "Enable-HPEiLOComputeOpsManagement"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFunctionality",
+          "children": [
+            {
+              "name": "Disable-HPEiLOFunctionality"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOMCTP",
+          "children": [
+            {
+              "name": "Disable-HPEiLOMCTP"
+            },
+            {
+              "name": "Enable-HPEiLOMCTP"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSecurityDashboardSetting",
+          "children": [
+            {
+              "name": "Disable-HPEiLOSecurityDashboardSetting"
+            },
+            {
+              "name": "Enable-HPEiLOSecurityDashboardSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOVirtualMedia",
+          "children": [
+            {
+              "name": "Dismount-HPEiLOVirtualMedia"
+            },
+            {
+              "name": "Mount-HPEiLOVirtualMedia"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSystemIntelligentDiagnosticsMode",
+          "children": [
+            {
+              "name": "Enable-HPEiLOSystemIntelligentDiagnosticsMode"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSystemSafeMode",
+          "children": [
+            {
+              "name": "Enable-HPEiLOSystemSafeMode"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLO",
+          "children": [
+            {
+              "name": "Find-HPEiLO"
+            },
+            {
+              "name": "Reset-HPEiLO"
+            },
+            {
+              "name": "Connect-HPEiLO"
+            },
+            {
+              "name": "Disconnect-HPEiLO"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOAccessSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOAccessSetting"
+            },
+            {
+              "name": "Set-HPEiLOAccessSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOAHSStatus",
+          "children": [
+            {
+              "name": "Get-HPEiLOAHSStatus"
+            },
+            {
+              "name": "Set-HPEiLOAHSStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOAlertMailSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOAlertMailSetting"
+            },
+            {
+              "name": "Set-HPEiLOAlertMailSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOAssetTag",
+          "children": [
+            {
+              "name": "Get-HPEiLOAssetTag"
+            },
+            {
+              "name": "Set-HPEiLOAssetTag"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOBatteryBackUpUnit",
+          "children": [
+            {
+              "name": "Get-HPEiLOBatteryBackUpUnit"
+            },
+            {
+              "name": "Set-HPEiLOBatteryBackUpUnit"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOBootMode",
+          "children": [
+            {
+              "name": "Get-HPEiLOBootMode"
+            },
+            {
+              "name": "Set-HPEiLOBootMode"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOBootOption",
+          "children": [
+            {
+              "name": "Get-HPEiLOBootOption"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOBrownout",
+          "children": [
+            {
+              "name": "Get-HPEiLOBrownout"
+            },
+            {
+              "name": "Set-HPEiLOBrownout"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOCACSmartCardAuthentication",
+          "children": [
+            {
+              "name": "Get-HPEiLOCACSmartCardAuthentication"
+            },
+            {
+              "name": "Set-HPEiLOCACSmartCardAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOCertificateSigningRequest",
+          "children": [
+            {
+              "name": "Get-HPEiLOCertificateSigningRequest"
+            },
+            {
+              "name": "Start-HPEiLOCertificateSigningRequest"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOChassisInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOChassisInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOChassisPowerCalibrationData",
+          "children": [
+            {
+              "name": "Get-HPEiLOChassisPowerCalibrationData"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOChassisPowerCapSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOChassisPowerCapSetting"
+            },
+            {
+              "name": "Set-HPEiLOChassisPowerCapSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOChassisPowerNodeInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOChassisPowerNodeInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOChassisPowerRegulatorSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOChassisPowerRegulatorSetting"
+            },
+            {
+              "name": "Set-HPEiLOChassisPowerRegulatorSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOChassisPowerZoneConfiguration",
+          "children": [
+            {
+              "name": "Get-HPEiLOChassisPowerZoneConfiguration"
+            },
+            {
+              "name": "Set-HPEiLOChassisPowerZoneConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOComputeOpsManagementStatus",
+          "children": [
+            {
+              "name": "Get-HPEiLOComputeOpsManagementStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOComputerLockConfiguration",
+          "children": [
+            {
+              "name": "Get-HPEiLOComputerLockConfiguration"
+            },
+            {
+              "name": "Set-HPEiLOComputerLockConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOCriticalTemperatureAction",
+          "children": [
+            {
+              "name": "Get-HPEiLOCriticalTemperatureAction"
+            },
+            {
+              "name": "Set-HPEiLOCriticalTemperatureAction"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLODeviceDiscoveryStatus",
+          "children": [
+            {
+              "name": "Get-HPEiLODeviceDiscoveryStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLODeviceInventory",
+          "children": [
+            {
+              "name": "Get-HPEiLODeviceInventory"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLODirectorySetting",
+          "children": [
+            {
+              "name": "Get-HPEiLODirectorySetting"
+            },
+            {
+              "name": "Set-HPEiLODirectorySetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLODirectorySettingTestResult",
+          "children": [
+            {
+              "name": "Get-HPEiLODirectorySettingTestResult"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOEmbeddedMedia",
+          "children": [
+            {
+              "name": "Get-HPEiLOEmbeddedMedia"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOEncryptionSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOEncryptionSetting"
+            },
+            {
+              "name": "Set-HPEiLOEncryptionSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOESKMSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOESKMSetting"
+            },
+            {
+              "name": "Set-HPEiLOESKMSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOEventService",
+          "children": [
+            {
+              "name": "Get-HPEiLOEventService"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFan",
+          "children": [
+            {
+              "name": "Get-HPEiLOFan"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFederationMulticast",
+          "children": [
+            {
+              "name": "Get-HPEiLOFederationMulticast"
+            },
+            {
+              "name": "Set-HPEiLOFederationMulticast"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFederationPeer",
+          "children": [
+            {
+              "name": "Get-HPEiLOFederationPeer"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFirmwareCapabilities",
+          "children": [
+            {
+              "name": "Get-HPEiLOFirmwareCapabilities"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFirmwareInventory",
+          "children": [
+            {
+              "name": "Get-HPEiLOFirmwareInventory"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFirmwarePolicy",
+          "children": [
+            {
+              "name": "Get-HPEiLOFirmwarePolicy"
+            },
+            {
+              "name": "Set-HPEiLOFirmwarePolicy"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFirmwareVerificationLastScanResult",
+          "children": [
+            {
+              "name": "Get-HPEiLOFirmwareVerificationLastScanResult"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFirmwareVerificationScanSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOFirmwareVerificationScanSetting"
+            },
+            {
+              "name": "Set-HPEiLOFirmwareVerificationScanSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFirmwareVersion",
+          "children": [
+            {
+              "name": "Get-HPEiLOFirmwareVersion"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOHealthSummary",
+          "children": [
+            {
+              "name": "Get-HPEiLOHealthSummary"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOHostData",
+          "children": [
+            {
+              "name": "Get-HPEiLOHostData"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOIntegratedRemoteConsoleTrustSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOIntegratedRemoteConsoleTrustSetting"
+            },
+            {
+              "name": "Set-HPEiLOIntegratedRemoteConsoleTrustSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOIntelligentProvisioningInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOIntelligentProvisioningInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOInvalidFirmwareImage",
+          "children": [
+            {
+              "name": "Get-HPEiLOInvalidFirmwareImage"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOIPv4NetworkSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOIPv4NetworkSetting"
+            },
+            {
+              "name": "Set-HPEiLOIPv4NetworkSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOIPv6NetworkSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOIPv6NetworkSetting"
+            },
+            {
+              "name": "Set-HPEiLOIPv6NetworkSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOiSCSISources",
+          "children": [
+            {
+              "name": "Get-HPEiLOiSCSISources"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOKerberosConfig",
+          "children": [
+            {
+              "name": "Get-HPEiLOKerberosConfig"
+            },
+            {
+              "name": "Set-HPEiLOKerberosConfig"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOKMSConfig",
+          "children": [
+            {
+              "name": "Get-HPEiLOKMSConfig"
+            },
+            {
+              "name": "Set-HPEiLOKMSConfig"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOLanguage",
+          "children": [
+            {
+              "name": "Get-HPEiLOLanguage"
+            },
+            {
+              "name": "Set-HPEiLOLanguage"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOLDAPCACertificate",
+          "children": [
+            {
+              "name": "Get-HPEiLOLDAPCACertificate"
+            },
+            {
+              "name": "Import-HPEiLOLDAPCACertificate"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOLicense",
+          "children": [
+            {
+              "name": "Get-HPEiLOLicense"
+            },
+            {
+              "name": "Remove-HPEiLOLicense"
+            },
+            {
+              "name": "Set-HPEiLOLicense"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOLoginSecurityBanner",
+          "children": [
+            {
+              "name": "Get-HPEiLOLoginSecurityBanner"
+            },
+            {
+              "name": "Set-HPEiLOLoginSecurityBanner"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOMemoryInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOMemoryInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLONetworkInterfaces",
+          "children": [
+            {
+              "name": "Get-HPEiLONetworkInterfaces"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLONICInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLONICInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLONVMeControllerDrives",
+          "children": [
+            {
+              "name": "Get-HPEiLONVMeControllerDrives"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOOAInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOOAInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOOneTimeBootOption",
+          "children": [
+            {
+              "name": "Get-HPEiLOOneTimeBootOption"
+            },
+            {
+              "name": "Set-HPEiLOOneTimeBootOption"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPCIDeviceInventory",
+          "children": [
+            {
+              "name": "Get-HPEiLOPCIDeviceInventory"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPCISlot",
+          "children": [
+            {
+              "name": "Get-HPEiLOPCISlot"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPerformanceAlertSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOPerformanceAlertSetting"
+            },
+            {
+              "name": "Set-HPEiLOPerformanceAlertSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPerformanceMonitoringData",
+          "children": [
+            {
+              "name": "Get-HPEiLOPerformanceMonitoringData"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPerformanceTuningSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOPerformanceTuningSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPersistentBootOrder",
+          "children": [
+            {
+              "name": "Get-HPEiLOPersistentBootOrder"
+            },
+            {
+              "name": "Set-HPEiLOPersistentBootOrder"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPersistentMouseKeyboard",
+          "children": [
+            {
+              "name": "Get-HPEiLOPersistentMouseKeyboard"
+            },
+            {
+              "name": "Set-HPEiLOPersistentMouseKeyboard"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPhysicalSecurity",
+          "children": [
+            {
+              "name": "Get-HPEiLOPhysicalSecurity"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPostSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOPostSetting"
+            },
+            {
+              "name": "Set-HPEiLOPostSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPowerCapSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOPowerCapSetting"
+            },
+            {
+              "name": "Set-HPEiLOPowerCapSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPowerMeter",
+          "children": [
+            {
+              "name": "Get-HPEiLOPowerMeter"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPowerReading",
+          "children": [
+            {
+              "name": "Get-HPEiLOPowerReading"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPowerRegulatorSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOPowerRegulatorSetting"
+            },
+            {
+              "name": "Set-HPEiLOPowerRegulatorSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOPowerSupply",
+          "children": [
+            {
+              "name": "Get-HPEiLOPowerSupply"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOProcessor",
+          "children": [
+            {
+              "name": "Get-HPEiLOProcessor"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOProcessorJitterControl",
+          "children": [
+            {
+              "name": "Get-HPEiLOProcessorJitterControl"
+            },
+            {
+              "name": "Set-HPEiLOProcessorJitterControl"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOProfile",
+          "children": [
+            {
+              "name": "Get-HPEiLOProfile"
+            },
+            {
+              "name": "Remove-HPEiLOProfile"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOProfileApplyResult",
+          "children": [
+            {
+              "name": "Get-HPEiLOProfileApplyResult"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLORackSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLORackSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLORedfishMessageInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLORedfishMessageInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLORemoteSupportSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLORemoteSupportSetting"
+            },
+            {
+              "name": "Register-HPEiLORemoteSupportSetting"
+            },
+            {
+              "name": "Set-HPEiLORemoteSupportSetting"
+            },
+            {
+              "name": "Unregister-HPEiLORemoteSupportSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLORemoteSyslog",
+          "children": [
+            {
+              "name": "Get-HPEiLORemoteSyslog"
+            },
+            {
+              "name": "Send-HPEiLORemoteSyslog"
+            },
+            {
+              "name": "Set-HPEiLORemoteSyslog"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSecureBoot",
+          "children": [
+            {
+              "name": "Get-HPEiLOSecureBoot"
+            },
+            {
+              "name": "Set-HPEiLOSecureBoot"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSecureSystemEraseStatus",
+          "children": [
+            {
+              "name": "Get-HPEiLOSecureSystemEraseStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSecurityDashboardInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOSecurityDashboardInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSelfTestResult",
+          "children": [
+            {
+              "name": "Get-HPEiLOSelfTestResult"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOServerInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOServerInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOServerPower",
+          "children": [
+            {
+              "name": "Get-HPEiLOServerPower"
+            },
+            {
+              "name": "Set-HPEiLOServerPower"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOServerPowerRestoreSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOServerPowerRestoreSetting"
+            },
+            {
+              "name": "Set-HPEiLOServerPowerRestoreSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOServerSoftwareInventory",
+          "children": [
+            {
+              "name": "Get-HPEiLOServerSoftwareInventory"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOServerWorkloadInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOServerWorkloadInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOServicePort",
+          "children": [
+            {
+              "name": "Get-HPEiLOServicePort"
+            },
+            {
+              "name": "Set-HPEiLOServicePort"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSessionInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOSessionInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSmartArrayStorageController",
+          "children": [
+            {
+              "name": "Get-HPEiLOSmartArrayStorageController"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSmartStorageBattery",
+          "children": [
+            {
+              "name": "Get-HPEiLOSmartStorageBattery"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSMHFQDN",
+          "children": [
+            {
+              "name": "Get-HPEiLOSMHFQDN"
+            },
+            {
+              "name": "Set-HPEiLOSMHFQDN"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSNMPAlertSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOSNMPAlertSetting"
+            },
+            {
+              "name": "Set-HPEiLOSNMPAlertSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSNMPPowerAlertThreshold",
+          "children": [
+            {
+              "name": "Get-HPEiLOSNMPPowerAlertThreshold"
+            },
+            {
+              "name": "Set-HPEiLOSNMPPowerAlertThreshold"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSNMPSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOSNMPSetting"
+            },
+            {
+              "name": "Set-HPEiLOSNMPSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSNMPv3Setting",
+          "children": [
+            {
+              "name": "Get-HPEiLOSNMPv3Setting"
+            },
+            {
+              "name": "Set-HPEiLOSNMPv3Setting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSNTPSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOSNTPSetting"
+            },
+            {
+              "name": "Set-HPEiLOSNTPSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSpatial",
+          "children": [
+            {
+              "name": "Get-HPEiLOSpatial"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSSLCertificateInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOSSLCertificateInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSSOSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOSSOSetting"
+            },
+            {
+              "name": "Set-HPEiLOSSOSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOStorageController",
+          "children": [
+            {
+              "name": "Get-HPEiLOStorageController"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSystemDiagnosticsModeSetting",
+          "children": [
+            {
+              "name": "Get-HPEiLOSystemDiagnosticsModeSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSystemInfo",
+          "children": [
+            {
+              "name": "Get-HPEiLOSystemInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSystemMaintenanceSwitch",
+          "children": [
+            {
+              "name": "Get-HPEiLOSystemMaintenanceSwitch"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOTemperature",
+          "children": [
+            {
+              "name": "Get-HPEiLOTemperature"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOTPMStatus",
+          "children": [
+            {
+              "name": "Get-HPEiLOTPMStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOUIDStatus",
+          "children": [
+            {
+              "name": "Get-HPEiLOUIDStatus"
+            },
+            {
+              "name": "Set-HPEiLOUIDStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOUSBDevice",
+          "children": [
+            {
+              "name": "Get-HPEiLOUSBDevice"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOUserCertificateMapping",
+          "children": [
+            {
+              "name": "Get-HPEiLOUserCertificateMapping"
+            },
+            {
+              "name": "Remove-HPEiLOUserCertificateMapping"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOVirtualMediaStatus",
+          "children": [
+            {
+              "name": "Get-HPEiLOVirtualMediaStatus"
+            },
+            {
+              "name": "Set-HPEiLOVirtualMediaStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOCertificate",
+          "children": [
+            {
+              "name": "Import-HPEiLOCertificate"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOUserSSHKey",
+          "children": [
+            {
+              "name": "Import-HPEiLOUserSSHKey"
+            },
+            {
+              "name": "Remove-HPEiLOUserSSHKey"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFirmwareVerificationScan",
+          "children": [
+            {
+              "name": "Invoke-HPEiLOFirmwareVerificationScan"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOProfileApply",
+          "children": [
+            {
+              "name": "Invoke-HPEiLOProfileApply"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOProfileDownload",
+          "children": [
+            {
+              "name": "Invoke-HPEiLOProfileDownload"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSecureSystemErase",
+          "children": [
+            {
+              "name": "Invoke-HPEiLOSecureSystemErase"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSNMPTestTrap",
+          "children": [
+            {
+              "name": "Invoke-HPEiLOSNMPTestTrap"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSMBIOSRecord",
+          "children": [
+            {
+              "name": "Read-HPEiLOSMBIOSRecord"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOCertificateRevocationList",
+          "children": [
+            {
+              "name": "Remove-HPEiLOCertificateRevocationList"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSecureBootKey",
+          "children": [
+            {
+              "name": "Reset-HPEiLOSecureBootKey"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSystemDefault",
+          "children": [
+            {
+              "name": "Reset-HPEiLOSystemDefault"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSystemManufacturingDefault",
+          "children": [
+            {
+              "name": "Reset-HPEiLOSystemManufacturingDefault"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOAHSLog",
+          "children": [
+            {
+              "name": "Save-HPEiLOAHSLog"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLORemoteSupportAHSSubmission",
+          "children": [
+            {
+              "name": "Send-HPEiLORemoteSupportAHSSubmission"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLORemoteSupportDataCollectionInfo",
+          "children": [
+            {
+              "name": "Send-HPEiLORemoteSupportDataCollectionInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLORemoteSupportTestEvent",
+          "children": [
+            {
+              "name": "Send-HPEiLORemoteSupportTestEvent"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOSystemRecoveryEvent",
+          "children": [
+            {
+              "name": "Send-HPEiLOSystemRecoveryEvent"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOTestAlertMail",
+          "children": [
+            {
+              "name": "Send-HPEiLOTestAlertMail"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOAdministratorPassword",
+          "children": [
+            {
+              "name": "Set-HPEiLOAdministratorPassword"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFactoryDefault",
+          "children": [
+            {
+              "name": "Set-HPEiLOFactoryDefault"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOProxy",
+          "children": [
+            {
+              "name": "Set-HPEiLOProxy"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOChassisPowerCalibrationConfiguration",
+          "children": [
+            {
+              "name": "Start-HPEiLOChassisPowerCalibrationConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLODirectorySettingTest",
+          "children": [
+            {
+              "name": "Start-HPEiLODirectorySettingTest"
+            },
+            {
+              "name": "Stop-HPEiLODirectorySettingTest"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOESKMConnection",
+          "children": [
+            {
+              "name": "Test-HPEiLOESKMConnection"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOFirmware",
+          "children": [
+            {
+              "name": "Update-HPEiLOFirmware"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOMaxThreadLimit",
+          "children": [
+            {
+              "name": "Get-HPEiLOMaxThreadLimit"
+            },
+            {
+              "name": "Set-HPEiLOMaxThreadLimit"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOModuleVersion",
+          "children": [
+            {
+              "name": "Get-HPEiLOModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOLog",
+          "children": [
+            {
+              "name": "Clear-HPEiLOLog"
+            },
+            {
+              "name": "Disable-HPEiLOLog"
+            },
+            {
+              "name": "Enable-HPEiLOLog"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOLogConfig",
+          "children": [
+            {
+              "name": "Get-HPEiLOLogConfig"
+            },
+            {
+              "name": "Set-HPEiLOLogConfig"
+            }
+          ]
+        },
+        {
+          "name": "HPEiLOConnection",
+          "children": [
+            {
+              "name": "Test-HPEiLOConnection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HPENimblePowerShellToolkit",
+      "companyName": "Nimble Storage, A Hewlett Packard Enterprise Company",
+      "author": "Hewlett Packard Enterprise Co.",
+      "children": [
+        {
+          "name": "NS2PasswordFormat",
+          "children": [
+            {
+              "name": "Test-NS2PasswordFormat"
+            }
+          ]
+        },
+        {
+          "name": "Ns2Type",
+          "children": [
+            {
+              "name": "Test-Ns2Type"
+            }
+          ]
+        },
+        {
+          "name": "NS2ID",
+          "children": [
+            {
+              "name": "Test-NS2ID"
+            }
+          ]
+        },
+        {
+          "name": "NSGroup",
+          "children": [
+            {
+              "name": "Connect-NSGroup"
+            },
+            {
+              "name": "Disconnect-NSGroup"
+            },
+            {
+              "name": "Get-NSGroup"
+            },
+            {
+              "name": "Set-NSGroup"
+            },
+            {
+              "name": "Reset-NSGroup"
+            },
+            {
+              "name": "Stop-NSGroup"
+            },
+            {
+              "name": "Merge-NSGroup"
+            },
+            {
+              "name": "Move-NSGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSAccessControlRecord",
+          "children": [
+            {
+              "name": "New-NSAccessControlRecord"
+            },
+            {
+              "name": "Get-NSAccessControlRecord"
+            },
+            {
+              "name": "Remove-NSAccessControlRecord"
+            }
+          ]
+        },
+        {
+          "name": "NSChapUser",
+          "children": [
+            {
+              "name": "New-NSChapUser"
+            },
+            {
+              "name": "Get-NSChapUser"
+            },
+            {
+              "name": "Set-NSChapUser"
+            },
+            {
+              "name": "Remove-NSChapUser"
+            }
+          ]
+        },
+        {
+          "name": "NSPool",
+          "children": [
+            {
+              "name": "New-NSPool"
+            },
+            {
+              "name": "Get-NSPool"
+            },
+            {
+              "name": "Set-NSPool"
+            },
+            {
+              "name": "Remove-NSPool"
+            },
+            {
+              "name": "Merge-NSPool"
+            }
+          ]
+        },
+        {
+          "name": "NSPoolDeDupe",
+          "children": [
+            {
+              "name": "Invoke-NSPoolDeDupe"
+            }
+          ]
+        },
+        {
+          "name": "NSProtectionTemplate",
+          "children": [
+            {
+              "name": "New-NSProtectionTemplate"
+            },
+            {
+              "name": "Get-NSProtectionTemplate"
+            },
+            {
+              "name": "Set-NSProtectionTemplate"
+            },
+            {
+              "name": "Remove-NSProtectionTemplate"
+            }
+          ]
+        },
+        {
+          "name": "NSVolume",
+          "children": [
+            {
+              "name": "New-NSVolume"
+            },
+            {
+              "name": "Get-NSVolume"
+            },
+            {
+              "name": "Set-NSVolume"
+            },
+            {
+              "name": "Remove-NSVolume"
+            },
+            {
+              "name": "Restore-NSVolume"
+            },
+            {
+              "name": "Move-NSVolume"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeBulk",
+          "children": [
+            {
+              "name": "Move-NSVolumeBulk"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeMove",
+          "children": [
+            {
+              "name": "Stop-NSVolumeMove"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeBulkDeDupe",
+          "children": [
+            {
+              "name": "Set-NSVolumeBulkDeDupe"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeBulkOnline",
+          "children": [
+            {
+              "name": "Set-NSVolumeBulkOnline"
+            }
+          ]
+        },
+        {
+          "name": "NSSpaceDomain",
+          "children": [
+            {
+              "name": "Get-NSSpaceDomain"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupAlert",
+          "children": [
+            {
+              "name": "Test-NSGroupAlert"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupSoftwareUpdate",
+          "children": [
+            {
+              "name": "Test-NSGroupSoftwareUpdate"
+            },
+            {
+              "name": "Start-NSGroupSoftwareUpdate"
+            },
+            {
+              "name": "Resume-NSGroupSoftwareUpdate"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupSoftwareDownload",
+          "children": [
+            {
+              "name": "Start-NSGroupSoftwareDownload"
+            },
+            {
+              "name": "Stop-NSGroupSoftwareDownload"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupDiscoveredList",
+          "children": [
+            {
+              "name": "Get-NSGroupDiscoveredList"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupMerge",
+          "children": [
+            {
+              "name": "Test-NSGroupMerge"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupgetEULA",
+          "children": [
+            {
+              "name": "Get-NSGroupgetEULA"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupMigrate",
+          "children": [
+            {
+              "name": "Test-NSGroupMigrate"
+            }
+          ]
+        },
+        {
+          "name": "NSGroupTimeZoneList",
+          "children": [
+            {
+              "name": "Get-NSGroupTimeZoneList"
+            }
+          ]
+        },
+        {
+          "name": "NSReplicationPartner",
+          "children": [
+            {
+              "name": "New-NSReplicationPartner"
+            },
+            {
+              "name": "Get-NSReplicationPartner"
+            },
+            {
+              "name": "Set-NSReplicationPartner"
+            },
+            {
+              "name": "Remove-NSReplicationPartner"
+            },
+            {
+              "name": "Suspend-NSReplicationPartner"
+            },
+            {
+              "name": "Resume-NSReplicationPartner"
+            },
+            {
+              "name": "Test-NSReplicationPartner"
+            }
+          ]
+        },
+        {
+          "name": "NSMasterKey",
+          "children": [
+            {
+              "name": "New-NSMasterKey"
+            },
+            {
+              "name": "Get-NSMasterKey"
+            },
+            {
+              "name": "Set-NSMasterKey"
+            },
+            {
+              "name": "Remove-NSMasterKey"
+            }
+          ]
+        },
+        {
+          "name": "NSMasterKeyInactive",
+          "children": [
+            {
+              "name": "Clear-NSMasterKeyInactive"
+            }
+          ]
+        },
+        {
+          "name": "NSApplicationServer",
+          "children": [
+            {
+              "name": "New-NSApplicationServer"
+            },
+            {
+              "name": "Get-NSApplicationServer"
+            },
+            {
+              "name": "Set-NSApplicationServer"
+            },
+            {
+              "name": "Remove-NSApplicationServer"
+            }
+          ]
+        },
+        {
+          "name": "NSEvent",
+          "children": [
+            {
+              "name": "Get-NSEvent"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelPort",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelPort"
+            }
+          ]
+        },
+        {
+          "name": "NSVersion",
+          "children": [
+            {
+              "name": "Get-NSVersion"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiator",
+          "children": [
+            {
+              "name": "New-NSInitiator"
+            },
+            {
+              "name": "Get-NSInitiator"
+            },
+            {
+              "name": "Remove-NSInitiator"
+            }
+          ]
+        },
+        {
+          "name": "NSPerformancePolicy",
+          "children": [
+            {
+              "name": "New-NSPerformancePolicy"
+            },
+            {
+              "name": "Get-NSPerformancePolicy"
+            },
+            {
+              "name": "Set-NSPerformancePolicy"
+            },
+            {
+              "name": "Remove-NSPerformancePolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSKeyManager",
+          "children": [
+            {
+              "name": "New-NSKeyManager"
+            },
+            {
+              "name": "Get-NSKeyManager"
+            },
+            {
+              "name": "Set-NSKeyManager"
+            },
+            {
+              "name": "Remove-NSKeyManager"
+            },
+            {
+              "name": "Move-NSKeyManager"
+            }
+          ]
+        },
+        {
+          "name": "NSUserPolicy",
+          "children": [
+            {
+              "name": "Get-NSUserPolicy"
+            },
+            {
+              "name": "Set-NSUserPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSSnapshotCollection",
+          "children": [
+            {
+              "name": "New-NSSnapshotCollection"
+            },
+            {
+              "name": "Get-NSSnapshotCollection"
+            },
+            {
+              "name": "Set-NSSnapshotCollection"
+            },
+            {
+              "name": "Remove-NSSnapshotCollection"
+            }
+          ]
+        },
+        {
+          "name": "NSShelf",
+          "children": [
+            {
+              "name": "Get-NSShelf"
+            },
+            {
+              "name": "Set-NSShelf"
+            },
+            {
+              "name": "Show-NSShelf"
+            },
+            {
+              "name": "Remove-NSShelf"
+            }
+          ]
+        },
+        {
+          "name": "NSProtocolEndpoint",
+          "children": [
+            {
+              "name": "Get-NSProtocolEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelInterface",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelInterface"
+            },
+            {
+              "name": "Set-NSFibreChannelInterface"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelSession",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelSession"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollection",
+          "children": [
+            {
+              "name": "New-NSVolumeCollection"
+            },
+            {
+              "name": "Get-NSVolumeCollection"
+            },
+            {
+              "name": "Set-NSVolumeCollection"
+            },
+            {
+              "name": "Remove-NSVolumeCollection"
+            },
+            {
+              "name": "Test-NSVolumeCollection"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollectionPromote",
+          "children": [
+            {
+              "name": "Invoke-NSVolumeCollectionPromote"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollectionDemote",
+          "children": [
+            {
+              "name": "Invoke-NSVolumeCollectionDemote"
+            }
+          ]
+        },
+        {
+          "name": "NSVolumeCollectionHandover",
+          "children": [
+            {
+              "name": "Start-NSVolumeCollectionHandover"
+            },
+            {
+              "name": "Stop-NSVolumeCollectionHandover"
+            }
+          ]
+        },
+        {
+          "name": "NSToken",
+          "children": [
+            {
+              "name": "New-NSToken"
+            },
+            {
+              "name": "Get-NSToken"
+            },
+            {
+              "name": "Remove-NSToken"
+            }
+          ]
+        },
+        {
+          "name": "NSTokenUserDetails",
+          "children": [
+            {
+              "name": "Get-NSTokenUserDetails"
+            }
+          ]
+        },
+        {
+          "name": "NSUserGroup",
+          "children": [
+            {
+              "name": "New-NSUserGroup"
+            },
+            {
+              "name": "Get-NSUserGroup"
+            },
+            {
+              "name": "Set-NSUserGroup"
+            },
+            {
+              "name": "Remove-NSUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSWitness",
+          "children": [
+            {
+              "name": "New-NSWitness"
+            },
+            {
+              "name": "Get-NSWitness"
+            },
+            {
+              "name": "Remove-NSWitness"
+            },
+            {
+              "name": "Test-NSWitness"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelInitiatorAlias",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelInitiatorAlias"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiatorGroup",
+          "children": [
+            {
+              "name": "New-NSInitiatorGroup"
+            },
+            {
+              "name": "Get-NSInitiatorGroup"
+            },
+            {
+              "name": "Set-NSInitiatorGroup"
+            },
+            {
+              "name": "Remove-NSInitiatorGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiatorGroupMerge",
+          "children": [
+            {
+              "name": "Resolve-NSInitiatorGroupMerge"
+            }
+          ]
+        },
+        {
+          "name": "NSInitiatorGroupLunAvailability",
+          "children": [
+            {
+              "name": "Test-NSInitiatorGroupLunAvailability"
+            }
+          ]
+        },
+        {
+          "name": "NSSnapshot",
+          "children": [
+            {
+              "name": "New-NSSnapshot"
+            },
+            {
+              "name": "Get-NSSnapshot"
+            },
+            {
+              "name": "Set-NSSnapshot"
+            },
+            {
+              "name": "Remove-NSSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "NSSnapshotBulk",
+          "children": [
+            {
+              "name": "New-NSSnapshotBulk"
+            }
+          ]
+        },
+        {
+          "name": "NSActiveDirectoryMembership",
+          "children": [
+            {
+              "name": "New-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Get-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Set-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Remove-NSActiveDirectoryMembership"
+            },
+            {
+              "name": "Test-NSActiveDirectoryMembership"
+            }
+          ]
+        },
+        {
+          "name": "NSActiveDirectoryMembershipUser",
+          "children": [
+            {
+              "name": "Test-NSActiveDirectoryMembershipUser"
+            }
+          ]
+        },
+        {
+          "name": "NSActiveDirectoryMembershipGroup",
+          "children": [
+            {
+              "name": "Test-NSActiveDirectoryMembershipGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSSubnet",
+          "children": [
+            {
+              "name": "Get-NSSubnet"
+            }
+          ]
+        },
+        {
+          "name": "NSFolder",
+          "children": [
+            {
+              "name": "New-NSFolder"
+            },
+            {
+              "name": "Get-NSFolder"
+            },
+            {
+              "name": "Set-NSFolder"
+            },
+            {
+              "name": "Remove-NSFolder"
+            }
+          ]
+        },
+        {
+          "name": "NSFolderDeDupe",
+          "children": [
+            {
+              "name": "Invoke-NSFolderDeDupe"
+            }
+          ]
+        },
+        {
+          "name": "NSNetworkConfig",
+          "children": [
+            {
+              "name": "New-NSNetworkConfig"
+            },
+            {
+              "name": "Get-NSNetworkConfig"
+            },
+            {
+              "name": "Set-NSNetworkConfig"
+            },
+            {
+              "name": "Remove-NSNetworkConfig"
+            },
+            {
+              "name": "Initialize-NSNetworkConfig"
+            },
+            {
+              "name": "Test-NSNetworkConfig"
+            }
+          ]
+        },
+        {
+          "name": "NSController",
+          "children": [
+            {
+              "name": "Get-NSController"
+            },
+            {
+              "name": "Stop-NSController"
+            },
+            {
+              "name": "Reset-NSController"
+            }
+          ]
+        },
+        {
+          "name": "NSProtectionSchedule",
+          "children": [
+            {
+              "name": "New-NSProtectionSchedule"
+            },
+            {
+              "name": "Get-NSProtectionSchedule"
+            },
+            {
+              "name": "Set-NSProtectionSchedule"
+            },
+            {
+              "name": "Remove-NSProtectionSchedule"
+            }
+          ]
+        },
+        {
+          "name": "NSApplicationCategory",
+          "children": [
+            {
+              "name": "Get-NSApplicationCategory"
+            }
+          ]
+        },
+        {
+          "name": "NSAuditLog",
+          "children": [
+            {
+              "name": "Get-NSAuditLog"
+            }
+          ]
+        },
+        {
+          "name": "NSJob",
+          "children": [
+            {
+              "name": "Get-NSJob"
+            }
+          ]
+        },
+        {
+          "name": "NSDisk",
+          "children": [
+            {
+              "name": "Get-NSDisk"
+            },
+            {
+              "name": "Set-NSDisk"
+            }
+          ]
+        },
+        {
+          "name": "NSNetworkInterface",
+          "children": [
+            {
+              "name": "Get-NSNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "NSSoftwareVersion",
+          "children": [
+            {
+              "name": "Get-NSSoftwareVersion"
+            }
+          ]
+        },
+        {
+          "name": "NSFibreChannelConfig",
+          "children": [
+            {
+              "name": "Get-NSFibreChannelConfig"
+            },
+            {
+              "name": "Update-NSFibreChannelConfig"
+            }
+          ]
+        },
+        {
+          "name": "NSUser",
+          "children": [
+            {
+              "name": "New-NSUser"
+            },
+            {
+              "name": "Get-NSUser"
+            },
+            {
+              "name": "Set-NSUser"
+            },
+            {
+              "name": "Remove-NSUser"
+            },
+            {
+              "name": "Unlock-NSUser"
+            }
+          ]
+        },
+        {
+          "name": "NSArray",
+          "children": [
+            {
+              "name": "New-NSArray"
+            },
+            {
+              "name": "Get-NSArray"
+            },
+            {
+              "name": "Set-NSArray"
+            },
+            {
+              "name": "Remove-NSArray"
+            },
+            {
+              "name": "Invoke-NSArray"
+            },
+            {
+              "name": "Stop-NSArray"
+            },
+            {
+              "name": "Reset-NSArray"
+            }
+          ]
+        },
+        {
+          "name": "NSAlarm",
+          "children": [
+            {
+              "name": "Get-NSAlarm"
+            },
+            {
+              "name": "Set-NSAlarm"
+            },
+            {
+              "name": "Remove-NSAlarm"
+            },
+            {
+              "name": "Clear-NSAlarm"
+            },
+            {
+              "name": "Undo-NSAlarm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HPEOACmdlets",
+      "companyName": "Hewlett Packard Enterprise Co.",
+      "author": "Hewlett Packard Enterprise Co.",
+      "children": [
+        {
+          "name": "HPEOARouteIPv6",
+          "children": [
+            {
+              "name": "Add-HPEOARouteIPv6"
+            },
+            {
+              "name": "Remove-HPEOARouteIPv6"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFirmwareLog",
+          "children": [
+            {
+              "name": "Clear-HPEOAFirmwareLog"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAAlertmail",
+          "children": [
+            {
+              "name": "Get-HPEOAAlertmail"
+            },
+            {
+              "name": "Set-HPEOAAlertmail"
+            },
+            {
+              "name": "Test-HPEOAAlertMail"
+            }
+          ]
+        },
+        {
+          "name": "HPEOACACInfo",
+          "children": [
+            {
+              "name": "Get-HPEOACACInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASSLCipher",
+          "children": [
+            {
+              "name": "Get-HPEOASSLCipher"
+            },
+            {
+              "name": "Set-HPEOASSLCipher"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASSLProtocol",
+          "children": [
+            {
+              "name": "Get-HPEOASSLProtocol"
+            },
+            {
+              "name": "Set-HPEOASSLProtocol"
+            }
+          ]
+        },
+        {
+          "name": "HPEOABladeBootFWDiscovery",
+          "children": [
+            {
+              "name": "Set-HPEOABladeBootFWDiscovery"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFQDNLinkSuppot",
+          "children": [
+            {
+              "name": "Set-HPEOAFQDNLinkSuppot"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALDAPServiceAccount",
+          "children": [
+            {
+              "name": "Set-HPEOALDAPServiceAccount"
+            },
+            {
+              "name": "Test-HPEOALDAPServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerPower",
+          "children": [
+            {
+              "name": "Set-HPEOAServerPower"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAOCSP",
+          "children": [
+            {
+              "name": "Disable-HPEOAOCSP"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAiLO",
+          "children": [
+            {
+              "name": "Reset-HPEOAiLO"
+            },
+            {
+              "name": "Update-HPEOAiLO"
+            }
+          ]
+        },
+        {
+          "name": "HPEOACertificate",
+          "children": [
+            {
+              "name": "Add-HPEOACertificate"
+            },
+            {
+              "name": "Get-HPEOACertificate"
+            },
+            {
+              "name": "Remove-HPEOACertificate"
+            }
+          ]
+        },
+        {
+          "name": "HPEOADNS",
+          "children": [
+            {
+              "name": "Add-HPEOADNS"
+            },
+            {
+              "name": "Remove-HPEOADNS"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEBIPA",
+          "children": [
+            {
+              "name": "Add-HPEOAEBIPA"
+            },
+            {
+              "name": "Get-HPEOAEBIPA"
+            },
+            {
+              "name": "Remove-HPEOAEBIPA"
+            },
+            {
+              "name": "Save-HPEOAEBIPA"
+            },
+            {
+              "name": "Set-HPEOAEBIPA"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAIPv6Address",
+          "children": [
+            {
+              "name": "Add-HPEOAIPv6Address"
+            },
+            {
+              "name": "Remove-HPEOAIPv6Address"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALanguage",
+          "children": [
+            {
+              "name": "Add-HPEOALanguage"
+            },
+            {
+              "name": "Get-HPEOALanguage"
+            },
+            {
+              "name": "Remove-HPEOALanguage"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALDAPBay",
+          "children": [
+            {
+              "name": "Add-HPEOALDAPBay"
+            },
+            {
+              "name": "Remove-HPEOALDAPBay"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALDAPGroup",
+          "children": [
+            {
+              "name": "Add-HPEOALDAPGroup"
+            },
+            {
+              "name": "Get-HPEOALDAPGroup"
+            },
+            {
+              "name": "Remove-HPEOALDAPGroup"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALDAPPrivilege",
+          "children": [
+            {
+              "name": "Add-HPEOALDAPPrivilege"
+            },
+            {
+              "name": "Remove-HPEOALDAPPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASNMPTrapReceiver",
+          "children": [
+            {
+              "name": "Add-HPEOASNMPTrapReceiver"
+            },
+            {
+              "name": "Remove-HPEOASNMPTrapReceiver"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASNMPUser",
+          "children": [
+            {
+              "name": "Add-HPEOASNMPUser"
+            },
+            {
+              "name": "Get-HPEOASNMPUser"
+            },
+            {
+              "name": "Remove-HPEOASNMPUser"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASSHKey",
+          "children": [
+            {
+              "name": "Add-HPEOASSHKey"
+            },
+            {
+              "name": "Clear-HPEOASSHKey"
+            },
+            {
+              "name": "Get-HPEOASSHKey"
+            }
+          ]
+        },
+        {
+          "name": "HPEOATrustedHost",
+          "children": [
+            {
+              "name": "Add-HPEOATrustedHost"
+            },
+            {
+              "name": "Remove-HPEOATrustedHost"
+            },
+            {
+              "name": "Set-HPEOATrustedHost"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAUser",
+          "children": [
+            {
+              "name": "Add-HPEOAUser"
+            },
+            {
+              "name": "Get-HPEOAUser"
+            },
+            {
+              "name": "Remove-HPEOAUser"
+            },
+            {
+              "name": "Set-HPEOAUser"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAUserBay",
+          "children": [
+            {
+              "name": "Add-HPEOAUserBay"
+            },
+            {
+              "name": "Remove-HPEOAUserBay"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAUserPrivilege",
+          "children": [
+            {
+              "name": "Add-HPEOAUserPrivilege"
+            },
+            {
+              "name": "Remove-HPEOAUserPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAVLAN",
+          "children": [
+            {
+              "name": "Add-HPEOAVLAN"
+            },
+            {
+              "name": "Get-HPEOAVLAN"
+            },
+            {
+              "name": "Remove-HPEOAVLAN"
+            },
+            {
+              "name": "Save-HPEOAVLAN"
+            },
+            {
+              "name": "Set-HPEOAVLAN"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALoginBannerText",
+          "children": [
+            {
+              "name": "Clear-HPEOALoginBannerText"
+            }
+          ]
+        },
+        {
+          "name": "HPEOANTP",
+          "children": [
+            {
+              "name": "Clear-HPEOANTP"
+            },
+            {
+              "name": "Set-HPEOANTP"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASysLog",
+          "children": [
+            {
+              "name": "Clear-HPEOASysLog"
+            },
+            {
+              "name": "Get-HPEOASysLog"
+            },
+            {
+              "name": "Test-HPEOASyslog"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAVCMode",
+          "children": [
+            {
+              "name": "Clear-HPEOAVCMode"
+            },
+            {
+              "name": "Get-HPEOAVCMode"
+            }
+          ]
+        },
+        {
+          "name": "HPEOA",
+          "children": [
+            {
+              "name": "Connect-HPEOA"
+            },
+            {
+              "name": "Disconnect-HPEOA"
+            },
+            {
+              "name": "Find-HPEOA"
+            },
+            {
+              "name": "Reset-HPEOA"
+            },
+            {
+              "name": "Switch-HPEOA"
+            }
+          ]
+        },
+        {
+          "name": "HPEOACRL",
+          "children": [
+            {
+              "name": "Disable-HPEOACRL"
+            }
+          ]
+        },
+        {
+          "name": "HPEOABladeDeviceSerialNumber",
+          "children": [
+            {
+              "name": "Get-HPEOABladeDeviceSerialNumber"
+            },
+            {
+              "name": "Set-HPEOABladeDeviceSerialNumber"
+            }
+          ]
+        },
+        {
+          "name": "HPEOACACertificate",
+          "children": [
+            {
+              "name": "Get-HPEOACACertificate"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAConfig",
+          "children": [
+            {
+              "name": "Get-HPEOAConfig"
+            }
+          ]
+        },
+        {
+          "name": "HPEOADate",
+          "children": [
+            {
+              "name": "Get-HPEOADate"
+            },
+            {
+              "name": "Set-HPEOADate"
+            }
+          ]
+        },
+        {
+          "name": "HPEOADiscoveryInfo",
+          "children": [
+            {
+              "name": "Get-HPEOADiscoveryInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosureFan",
+          "children": [
+            {
+              "name": "Get-HPEOAEnclosureFan"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosureInfo",
+          "children": [
+            {
+              "name": "Get-HPEOAEnclosureInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosureLCD",
+          "children": [
+            {
+              "name": "Get-HPEOAEnclosureLCD"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosurePowerCap",
+          "children": [
+            {
+              "name": "Get-HPEOAEnclosurePowerCap"
+            },
+            {
+              "name": "Set-HPEOAEnclosurePowerCap"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosurePowerCapBaysToExclude",
+          "children": [
+            {
+              "name": "Get-HPEOAEnclosurePowerCapBaysToExclude"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosurePowerSummary",
+          "children": [
+            {
+              "name": "Get-HPEOAEnclosurePowerSummary"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosurePowerSupply",
+          "children": [
+            {
+              "name": "Get-HPEOAEnclosurePowerSupply"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosureStatus",
+          "children": [
+            {
+              "name": "Get-HPEOAEnclosureStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosureTemp",
+          "children": [
+            {
+              "name": "Get-HPEOAEnclosureTemp"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFIPSMode",
+          "children": [
+            {
+              "name": "Get-HPEOAFIPSMode"
+            },
+            {
+              "name": "Set-HPEOAFIPSMode"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFRU",
+          "children": [
+            {
+              "name": "Get-HPEOAFRU"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFWLogServer",
+          "children": [
+            {
+              "name": "Get-HPEOAFWLogServer"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFWLogSession",
+          "children": [
+            {
+              "name": "Get-HPEOAFWLogSession"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFWManagement",
+          "children": [
+            {
+              "name": "Get-HPEOAFWManagement"
+            },
+            {
+              "name": "Set-HPEOAFWManagement"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFWManagementLog",
+          "children": [
+            {
+              "name": "Get-HPEOAFWManagementLog"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFWSummary",
+          "children": [
+            {
+              "name": "Get-HPEOAFWSummary"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAHealth",
+          "children": [
+            {
+              "name": "Get-HPEOAHealth"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAHPSIMInfo",
+          "children": [
+            {
+              "name": "Get-HPEOAHPSIMInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAInfo",
+          "children": [
+            {
+              "name": "Get-HPEOAInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAInterconnectInfo",
+          "children": [
+            {
+              "name": "Get-HPEOAInterconnectInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAInterconnectList",
+          "children": [
+            {
+              "name": "Get-HPEOAInterconnectList"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAInterconnectPortMap",
+          "children": [
+            {
+              "name": "Get-HPEOAInterconnectPortMap"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAInterconnectPowerDelay",
+          "children": [
+            {
+              "name": "Get-HPEOAInterconnectPowerDelay"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAInterconnectSession",
+          "children": [
+            {
+              "name": "Get-HPEOAInterconnectSession"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAInterconnectStatus",
+          "children": [
+            {
+              "name": "Get-HPEOAInterconnectStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALDAPCertificate",
+          "children": [
+            {
+              "name": "Get-HPEOALDAPCertificate"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALDAPInfo",
+          "children": [
+            {
+              "name": "Get-HPEOALDAPInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALoginBanner",
+          "children": [
+            {
+              "name": "Get-HPEOALoginBanner"
+            },
+            {
+              "name": "Set-HPEOALoginBanner"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAModuleVersion",
+          "children": [
+            {
+              "name": "Get-HPEOAModuleVersion"
+            },
+            {
+              "name": "Update-HPEOAModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "HPEOANetworkSetting",
+          "children": [
+            {
+              "name": "Get-HPEOANetworkSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAPasswordSetting",
+          "children": [
+            {
+              "name": "Get-HPEOAPasswordSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAPower",
+          "children": [
+            {
+              "name": "Get-HPEOAPower"
+            },
+            {
+              "name": "Set-HPEOAPower"
+            }
+          ]
+        },
+        {
+          "name": "HPEOARackInfo",
+          "children": [
+            {
+              "name": "Get-HPEOARackInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEOARackName",
+          "children": [
+            {
+              "name": "Get-HPEOARackName"
+            },
+            {
+              "name": "Set-HPEOARackName"
+            }
+          ]
+        },
+        {
+          "name": "HPEOARemoteSupport",
+          "children": [
+            {
+              "name": "Get-HPEOARemoteSupport"
+            },
+            {
+              "name": "Set-HPEOARemoteSupport"
+            },
+            {
+              "name": "Test-HPEOARemoteSupport"
+            }
+          ]
+        },
+        {
+          "name": "HPEOARemoteSupportEvents",
+          "children": [
+            {
+              "name": "Get-HPEOARemoteSupportEvents"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerBoot",
+          "children": [
+            {
+              "name": "Get-HPEOAServerBoot"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerDVD",
+          "children": [
+            {
+              "name": "Get-HPEOAServerDVD"
+            },
+            {
+              "name": "Set-HPEOAServerDVD"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerFW",
+          "children": [
+            {
+              "name": "Get-HPEOAServerFW"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerInfo",
+          "children": [
+            {
+              "name": "Get-HPEOAServerInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerList",
+          "children": [
+            {
+              "name": "Get-HPEOAServerList"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerName",
+          "children": [
+            {
+              "name": "Get-HPEOAServerName"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerPortMap",
+          "children": [
+            {
+              "name": "Get-HPEOAServerPortMap"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerPowerDelay",
+          "children": [
+            {
+              "name": "Get-HPEOAServerPowerDelay"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerStatus",
+          "children": [
+            {
+              "name": "Get-HPEOAServerStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerTemp",
+          "children": [
+            {
+              "name": "Get-HPEOAServerTemp"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASessionTimeout",
+          "children": [
+            {
+              "name": "Get-HPEOASessionTimeout"
+            },
+            {
+              "name": "Set-HPEOASessionTimeout"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASNMP",
+          "children": [
+            {
+              "name": "Get-HPEOASNMP"
+            },
+            {
+              "name": "Set-HPEOASNMP"
+            },
+            {
+              "name": "Test-HPEOASNMP"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASSHFingerprint",
+          "children": [
+            {
+              "name": "Get-HPEOASSHFingerprint"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAStatus",
+          "children": [
+            {
+              "name": "Get-HPEOAStatus"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASyslogHistory",
+          "children": [
+            {
+              "name": "Get-HPEOASyslogHistory"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASyslogSetting",
+          "children": [
+            {
+              "name": "Get-HPEOASyslogSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEOATopology",
+          "children": [
+            {
+              "name": "Get-HPEOATopology"
+            }
+          ]
+        },
+        {
+          "name": "HPEOATwoFactorInfo",
+          "children": [
+            {
+              "name": "Get-HPEOATwoFactorInfo"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAUpgradableDevice",
+          "children": [
+            {
+              "name": "Get-HPEOAUpgradableDevice"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAUpTime",
+          "children": [
+            {
+              "name": "Get-HPEOAUpTime"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAURB",
+          "children": [
+            {
+              "name": "Get-HPEOAURB"
+            },
+            {
+              "name": "Set-HPEOAURB"
+            },
+            {
+              "name": "Test-HPEOAURB"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAUSB",
+          "children": [
+            {
+              "name": "Get-HPEOAUSB"
+            },
+            {
+              "name": "Set-HPEOAUSB"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAUSBKey",
+          "children": [
+            {
+              "name": "Get-HPEOAUSBKey"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAiLOCommand",
+          "children": [
+            {
+              "name": "Invoke-HPEOAiLOCommand"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAUserCertificate",
+          "children": [
+            {
+              "name": "Remove-HPEOAUserCertificate"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAVLANIPConfig",
+          "children": [
+            {
+              "name": "Save-HPEOAVLANIPConfig"
+            },
+            {
+              "name": "Set-HPEOAVLANIPConfig"
+            }
+          ]
+        },
+        {
+          "name": "HPEOADataCollection",
+          "children": [
+            {
+              "name": "Send-HPEOADataCollection"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAActiveHealthSystem",
+          "children": [
+            {
+              "name": "Set-HPEOAActiveHealthSystem"
+            }
+          ]
+        },
+        {
+          "name": "HPEOADHCPDomainName",
+          "children": [
+            {
+              "name": "Set-HPEOADHCPDomainName"
+            }
+          ]
+        },
+        {
+          "name": "HPEOADHCPv6",
+          "children": [
+            {
+              "name": "Set-HPEOADHCPv6"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosure",
+          "children": [
+            {
+              "name": "Set-HPEOAEnclosure"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosureiLOFederationSupport",
+          "children": [
+            {
+              "name": "Set-HPEOAEnclosureiLOFederationSupport"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAEnclosureIPMode",
+          "children": [
+            {
+              "name": "Set-HPEOAEnclosureIPMode"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFactoryDefault",
+          "children": [
+            {
+              "name": "Set-HPEOAFactoryDefault"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAGateway",
+          "children": [
+            {
+              "name": "Set-HPEOAGateway"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAGUILoginDetail",
+          "children": [
+            {
+              "name": "Set-HPEOAGUILoginDetail"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAHPSIMTrustMode",
+          "children": [
+            {
+              "name": "Set-HPEOAHPSIMTrustMode"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAHTTPS",
+          "children": [
+            {
+              "name": "Set-HPEOAHTTPS"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAIPConfig",
+          "children": [
+            {
+              "name": "Set-HPEOAIPConfig"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAIPv6",
+          "children": [
+            {
+              "name": "Set-HPEOAIPv6"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAIPv6DynamicDNS",
+          "children": [
+            {
+              "name": "Set-HPEOAIPv6DynamicDNS"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALDAP",
+          "children": [
+            {
+              "name": "Set-HPEOALDAP"
+            },
+            {
+              "name": "Test-HPEOALDAP"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALDAPSetting",
+          "children": [
+            {
+              "name": "Set-HPEOALDAPSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEOALLF",
+          "children": [
+            {
+              "name": "Set-HPEOALLF"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAMinimumPasswordLength",
+          "children": [
+            {
+              "name": "Set-HPEOAMinimumPasswordLength"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAName",
+          "children": [
+            {
+              "name": "Set-HPEOAName"
+            }
+          ]
+        },
+        {
+          "name": "HPEOANIC",
+          "children": [
+            {
+              "name": "Set-HPEOANIC"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAPassword",
+          "children": [
+            {
+              "name": "Set-HPEOAPassword"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAPowerDelay",
+          "children": [
+            {
+              "name": "Set-HPEOAPowerDelay"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAPowerSetting",
+          "children": [
+            {
+              "name": "Set-HPEOAPowerSetting"
+            }
+          ]
+        },
+        {
+          "name": "HPEOARemoteSupportDirect",
+          "children": [
+            {
+              "name": "Set-HPEOARemoteSupportDirect"
+            }
+          ]
+        },
+        {
+          "name": "HPEOARemoteSupportMaintenance",
+          "children": [
+            {
+              "name": "Set-HPEOARemoteSupportMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "HPEOARemoteSyslog",
+          "children": [
+            {
+              "name": "Set-HPEOARemoteSyslog"
+            }
+          ]
+        },
+        {
+          "name": "HPEOARouterAdvertisement",
+          "children": [
+            {
+              "name": "Set-HPEOARouterAdvertisement"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASecureSh",
+          "children": [
+            {
+              "name": "Set-HPEOASecureSh"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASerialBaud",
+          "children": [
+            {
+              "name": "Set-HPEOASerialBaud"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAServerBootOrder",
+          "children": [
+            {
+              "name": "Set-HPEOAServerBootOrder"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASLAAC",
+          "children": [
+            {
+              "name": "Set-HPEOASLAAC"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAStrongPassword",
+          "children": [
+            {
+              "name": "Set-HPEOAStrongPassword"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASysLogRemote",
+          "children": [
+            {
+              "name": "Set-HPEOASysLogRemote"
+            }
+          ]
+        },
+        {
+          "name": "HPEOATelnet",
+          "children": [
+            {
+              "name": "Set-HPEOATelnet"
+            }
+          ]
+        },
+        {
+          "name": "HPEOATimezone",
+          "children": [
+            {
+              "name": "Set-HPEOATimezone"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAUID",
+          "children": [
+            {
+              "name": "Set-HPEOAUID"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAVLANDefault",
+          "children": [
+            {
+              "name": "Set-HPEOAVLANDefault"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAVLANFactoryDefault",
+          "children": [
+            {
+              "name": "Set-HPEOAVLANFactoryDefault"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAVLANID",
+          "children": [
+            {
+              "name": "Set-HPEOAVLANID"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAVLANName",
+          "children": [
+            {
+              "name": "Set-HPEOAVLANName"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAVLANOA",
+          "children": [
+            {
+              "name": "Set-HPEOAVLANOA"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAVLANRevert",
+          "children": [
+            {
+              "name": "Set-HPEOAVLANRevert"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAXMLReply",
+          "children": [
+            {
+              "name": "Set-HPEOAXMLReply"
+            }
+          ]
+        },
+        {
+          "name": "HPEOACertificateDownload",
+          "children": [
+            {
+              "name": "Start-HPEOACertificateDownload"
+            }
+          ]
+        },
+        {
+          "name": "HPEOACertificateGeneration",
+          "children": [
+            {
+              "name": "Start-HPEOACertificateGeneration"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAConfigDownload",
+          "children": [
+            {
+              "name": "Start-HPEOAConfigDownload"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAConfigUpload",
+          "children": [
+            {
+              "name": "Start-HPEOAConfigUpload"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFirmwareServerDiscovery",
+          "children": [
+            {
+              "name": "Start-HPEOAFirmwareServerDiscovery"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAKeyGeneration",
+          "children": [
+            {
+              "name": "Start-HPEOAKeyGeneration"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASSHKeyDownload",
+          "children": [
+            {
+              "name": "Start-HPEOASSHKeyDownload"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASupportDumpUpload",
+          "children": [
+            {
+              "name": "Start-HPEOASupportDumpUpload"
+            }
+          ]
+        },
+        {
+          "name": "HPEOASyslogUpload",
+          "children": [
+            {
+              "name": "Start-HPEOASyslogUpload"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAConnection",
+          "children": [
+            {
+              "name": "Test-HPEOAConnection"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFirmware",
+          "children": [
+            {
+              "name": "Update-HPEOAFirmware"
+            }
+          ]
+        },
+        {
+          "name": "HPEOAFWServer",
+          "children": [
+            {
+              "name": "Update-HPEOAFWServer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

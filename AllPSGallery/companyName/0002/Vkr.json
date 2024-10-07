@@ -1,0 +1,43 @@
+{
+  "name": "Vkr",
+  "children": [
+    {
+      "name": "ConvertOfficeSKU",
+      "companyName": "Vkr",
+      "author": "Erick Torres do Vale",
+      "children": [
+        {
+          "name": "OfficeSku",
+          "children": [
+            {
+              "name": "Convert-OfficeSku"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Get-LoggedUser",
+      "companyName": "Vkr",
+      "author": "Erick Torres do Vale",
+      "children": [
+        {
+          "name": "LoggedUser",
+          "children": [
+            {
+              "name": "Get-LoggedUser"
+            }
+          ]
+        },
+        {
+          "name": "ADLoggedUser",
+          "children": [
+            {
+              "name": "Get-ADLoggedUser"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

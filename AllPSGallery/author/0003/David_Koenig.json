@@ -1,0 +1,305 @@
+{
+  "name": "David Koenig",
+  "children": [
+    {
+      "name": "EMPSSDK",
+      "companyName": "Matrix42 AG",
+      "author": "David Koenig",
+      "children": [
+        {
+          "name": "EMConnection",
+          "children": [
+            {
+              "name": "Open-EMConnection"
+            }
+          ]
+        },
+        {
+          "name": "EMSCCMTask",
+          "children": [
+            {
+              "name": "New-EMSCCMTask"
+            },
+            {
+              "name": "Get-EMSCCMTask"
+            }
+          ]
+        },
+        {
+          "name": "EMComputer",
+          "children": [
+            {
+              "name": "New-EMComputer"
+            },
+            {
+              "name": "Get-EMComputer"
+            },
+            {
+              "name": "Save-EMComputer"
+            },
+            {
+              "name": "Remove-EMComputer"
+            }
+          ]
+        },
+        {
+          "name": "EMFolder",
+          "children": [
+            {
+              "name": "New-EMFolder"
+            },
+            {
+              "name": "Test-EMFolder"
+            },
+            {
+              "name": "Get-EMFolder"
+            },
+            {
+              "name": "Save-EMFolder"
+            },
+            {
+              "name": "Remove-EMFolder"
+            }
+          ]
+        },
+        {
+          "name": "EMReleasegroup",
+          "children": [
+            {
+              "name": "Get-EMReleasegroup"
+            }
+          ]
+        },
+        {
+          "name": "EMUser",
+          "children": [
+            {
+              "name": "Test-EMUser"
+            },
+            {
+              "name": "Get-EMUser"
+            }
+          ]
+        },
+        {
+          "name": "EMSequence",
+          "children": [
+            {
+              "name": "New-EMSequence"
+            },
+            {
+              "name": "Get-EMSequence"
+            },
+            {
+              "name": "Save-EMSequence"
+            },
+            {
+              "name": "Remove-EMSequence"
+            },
+            {
+              "name": "Test-EMSequence"
+            }
+          ]
+        },
+        {
+          "name": "EMFileCondition",
+          "children": [
+            {
+              "name": "New-EMFileCondition"
+            }
+          ]
+        },
+        {
+          "name": "EMServiceAction",
+          "children": [
+            {
+              "name": "New-EMServiceAction"
+            }
+          ]
+        },
+        {
+          "name": "EMProcessAction",
+          "children": [
+            {
+              "name": "New-EMProcessAction"
+            }
+          ]
+        },
+        {
+          "name": "EMRestartAction",
+          "children": [
+            {
+              "name": "New-EMRestartAction"
+            }
+          ]
+        },
+        {
+          "name": "EMRegistryAction",
+          "children": [
+            {
+              "name": "New-EMRegistryAction"
+            }
+          ]
+        },
+        {
+          "name": "EMAccountAction",
+          "children": [
+            {
+              "name": "New-EMAccountAction"
+            }
+          ]
+        },
+        {
+          "name": "EMFileAction",
+          "children": [
+            {
+              "name": "New-EMFileAction"
+            }
+          ]
+        },
+        {
+          "name": "EMInfoAction",
+          "children": [
+            {
+              "name": "New-EMInfoAction"
+            }
+          ]
+        },
+        {
+          "name": "EMFolderAction",
+          "children": [
+            {
+              "name": "New-EMFolderAction"
+            }
+          ]
+        },
+        {
+          "name": "EMMonitoringAction",
+          "children": [
+            {
+              "name": "New-EMMonitoringAction"
+            }
+          ]
+        },
+        {
+          "name": "EMSccmApplicationAction",
+          "children": [
+            {
+              "name": "New-EMSccmApplicationAction"
+            }
+          ]
+        },
+        {
+          "name": "EMSccmPackageAction",
+          "children": [
+            {
+              "name": "New-EMSccmPackageAction"
+            }
+          ]
+        },
+        {
+          "name": "EMSccmDownloadAction",
+          "children": [
+            {
+              "name": "New-EMSccmDownloadAction"
+            }
+          ]
+        },
+        {
+          "name": "EMVariableAction",
+          "children": [
+            {
+              "name": "New-EMVariableAction"
+            }
+          ]
+        },
+        {
+          "name": "EMRolloutPlan",
+          "children": [
+            {
+              "name": "New-EMRolloutPlan"
+            },
+            {
+              "name": "Save-EMRolloutplan"
+            },
+            {
+              "name": "Get-EMRolloutplan"
+            },
+            {
+              "name": "Test-EMRolloutplan"
+            },
+            {
+              "name": "Remove-EMRolloutplan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kabompo",
+      "companyName": "David Koenig",
+      "author": "David Koenig",
+      "children": [
+        {
+          "name": "KabompoLogging",
+          "children": [
+            {
+              "name": "Register-KabompoLogging"
+            }
+          ]
+        },
+        {
+          "name": "KabompoLogLine",
+          "children": [
+            {
+              "name": "Add-KabompoLogLine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pswslmanage",
+      "companyName": "shiftavenue",
+      "author": "David Koenig",
+      "children": [
+        {
+          "name": "WslImage",
+          "children": [
+            {
+              "name": "Add-WslImage"
+            },
+            {
+              "name": "Test-WslImage"
+            },
+            {
+              "name": "Get-WslImage"
+            },
+            {
+              "name": "Remove-WslImage"
+            },
+            {
+              "name": "Stop-WslImage"
+            }
+          ]
+        },
+        {
+          "name": "WslUser",
+          "children": [
+            {
+              "name": "Add-WslUser"
+            }
+          ]
+        },
+        {
+          "name": "WslRoleSSH",
+          "children": [
+            {
+              "name": "Add-WslRoleSSH"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

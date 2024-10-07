@@ -1,0 +1,54 @@
+{
+  "name": "www.kostov bg.com",
+  "children": [
+    {
+      "name": "FileSystem.IO.Extensions",
+      "companyName": "www.kostov bg.com",
+      "author": "konstantin kostov bg.com",
+      "children": [
+        {
+          "name": "DirectoryContents",
+          "children": [
+            {
+              "name": "Copy-DirectoryContents"
+            }
+          ]
+        },
+        {
+          "name": "TempFolderPath",
+          "children": [
+            {
+              "name": "Get-TempFolderPath"
+            }
+          ]
+        },
+        {
+          "name": "ZipArchive",
+          "children": [
+            {
+              "name": "New-ZipArchive"
+            },
+            {
+              "name": "Expand-ZipArchive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ParallelExecutionHelper",
+      "companyName": "www.kostov bg.com",
+      "author": "Konstantin Kostov  konstantin kostov bg.com",
+      "children": [
+        {
+          "name": "ParallelProcessing",
+          "children": [
+            {
+              "name": "Invoke-ParallelProcessing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "name": "atwork deutschland GmbH",
+  "children": [
+    {
+      "name": "Exchange.Connection.Manager",
+      "companyName": "atwork deutschland GmbH",
+      "author": "Andreas Bode",
+      "children": [
+        {
+          "name": "Exchange",
+          "children": [
+            {
+              "name": "Connect-Exchange"
+            }
+          ]
+        },
+        {
+          "name": "ECMConnection",
+          "children": [
+            {
+              "name": "Remove-ECMConnection"
+            },
+            {
+              "name": "Get-ECMConnection"
+            },
+            {
+              "name": "New-ECMConnection"
+            },
+            {
+              "name": "Set-ECMConnection"
+            }
+          ]
+        },
+        {
+          "name": "ECMConfig",
+          "children": [
+            {
+              "name": "Get-ECMConfig"
+            },
+            {
+              "name": "Set-ECMConfig"
+            }
+          ]
+        },
+        {
+          "name": "ECMOnPremConnection",
+          "children": [
+            {
+              "name": "New-ECMOnPremConnection"
+            }
+          ]
+        },
+        {
+          "name": "ECM",
+          "children": [
+            {
+              "name": "Start-ECM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSScriptConfig",
+      "companyName": "atwork deutschland GmbH",
+      "author": "abodePS",
+      "children": [
+        {
+          "name": "PSScriptConfig",
+          "children": [
+            {
+              "name": "Register-PSScriptConfig"
+            },
+            {
+              "name": "Get-PSScriptConfig"
+            },
+            {
+              "name": "New-PSScriptConfig"
+            },
+            {
+              "name": "Save-PSScriptConfig"
+            },
+            {
+              "name": "Remove-PSScriptConfig"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

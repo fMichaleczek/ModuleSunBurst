@@ -1,0 +1,95 @@
+{
+  "name": "John Foret",
+  "children": [
+    {
+      "name": "MDTApplicationTools",
+      "companyName": "John Foret",
+      "author": "John Foret",
+      "children": [
+        {
+          "name": "MDTModule",
+          "children": [
+            {
+              "name": "Import-MDTModule"
+            }
+          ]
+        },
+        {
+          "name": "MDTDrive",
+          "children": [
+            {
+              "name": "Get-MDTDrive"
+            },
+            {
+              "name": "Set-MDTDrive"
+            }
+          ]
+        },
+        {
+          "name": "MDTApplication",
+          "children": [
+            {
+              "name": "Get-MDTApplication"
+            },
+            {
+              "name": "Rename-MDTApplication"
+            }
+          ]
+        },
+        {
+          "name": "MDTApplicationDependency",
+          "children": [
+            {
+              "name": "Get-MDTApplicationDependency"
+            }
+          ]
+        },
+        {
+          "name": "MDTApplicationSupportedPlatform",
+          "children": [
+            {
+              "name": "Get-MDTApplicationSupportedPlatform"
+            },
+            {
+              "name": "Set-MDTApplicationSupportedPlatform"
+            }
+          ]
+        },
+        {
+          "name": "MDTApplicationContent",
+          "children": [
+            {
+              "name": "Find-MDTApplicationContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Set-ADUserLogonTo",
+      "companyName": "John Foret",
+      "author": "John Foret",
+      "children": [
+        {
+          "name": "ADModule",
+          "children": [
+            {
+              "name": "Test-ADModule"
+            }
+          ]
+        },
+        {
+          "name": "ADUserLogonTo",
+          "children": [
+            {
+              "name": "Get-ADUserLogonTo"
+            },
+            {
+              "name": "Set-ADUserLogonTo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

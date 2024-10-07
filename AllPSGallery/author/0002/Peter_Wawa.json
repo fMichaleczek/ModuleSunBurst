@@ -1,0 +1,97 @@
+{
+  "name": "Peter Wawa",
+  "children": [
+    {
+      "name": "ExchangeAntiSpamReport",
+      "companyName": "ZUM",
+      "author": "Peter Wawa",
+      "children": [
+        {
+          "name": "ExchangeServer",
+          "children": [
+            {
+              "name": "Connect-ExchangeServer"
+            }
+          ]
+        },
+        {
+          "name": "AntispamReport",
+          "children": [
+            {
+              "name": "Get-AntispamReport"
+            }
+          ]
+        },
+        {
+          "name": "AntispamTopBlockedSender",
+          "children": [
+            {
+              "name": "Get-AntispamTopBlockedSender"
+            }
+          ]
+        },
+        {
+          "name": "AntispamTopBlockedSenderDomain",
+          "children": [
+            {
+              "name": "Get-AntispamTopBlockedSenderDomain"
+            }
+          ]
+        },
+        {
+          "name": "AntispamTopBlockedSenderIP",
+          "children": [
+            {
+              "name": "Get-AntispamTopBlockedSenderIP"
+            }
+          ]
+        },
+        {
+          "name": "AntispamTopRblPovider",
+          "children": [
+            {
+              "name": "Get-AntispamTopRblPovider"
+            }
+          ]
+        },
+        {
+          "name": "AntispamTopRecipient",
+          "children": [
+            {
+              "name": "Get-AntispamTopRecipient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UserProfile",
+      "companyName": "Unknown",
+      "author": "Peter Wawa",
+      "children": [
+        {
+          "name": "UserProfile",
+          "children": [
+            {
+              "name": "Get-UserProfile"
+            },
+            {
+              "name": "Remove-UserProfile"
+            }
+          ]
+        },
+        {
+          "name": "ProfileOwner",
+          "children": [
+            {
+              "name": "Set-ProfileOwner"
+            },
+            {
+              "name": "Get-ProfileOwner"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "name": "Jason Thompson",
+  "children": [
+    {
+      "name": "ADAL.PS",
+      "companyName": "Microsoft Corporation",
+      "author": "Jason Thompson",
+      "children": [
+        {
+          "name": "AdalTokenCache",
+          "children": [
+            {
+              "name": "Clear-AdalTokenCache"
+            }
+          ]
+        },
+        {
+          "name": "AdalAuthenticationContext",
+          "children": [
+            {
+              "name": "Get-AdalAuthenticationContext"
+            }
+          ]
+        },
+        {
+          "name": "AdalToken",
+          "children": [
+            {
+              "name": "Get-AdalToken"
+            }
+          ]
+        },
+        {
+          "name": "AdalClientCredential",
+          "children": [
+            {
+              "name": "New-AdalClientCredential"
+            }
+          ]
+        },
+        {
+          "name": "AdalUserIdentifier",
+          "children": [
+            {
+              "name": "New-AdalUserIdentifier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MSAL.PS",
+      "companyName": "Microsoft Corporation",
+      "author": "Jason Thompson",
+      "children": [
+        {
+          "name": "MsalClientApplication",
+          "children": [
+            {
+              "name": "Add-MsalClientApplication"
+            },
+            {
+              "name": "Get-MsalClientApplication"
+            },
+            {
+              "name": "New-MsalClientApplication"
+            },
+            {
+              "name": "Remove-MsalClientApplication"
+            },
+            {
+              "name": "Select-MsalClientApplication"
+            }
+          ]
+        },
+        {
+          "name": "MsalTokenCache",
+          "children": [
+            {
+              "name": "Clear-MsalTokenCache"
+            }
+          ]
+        },
+        {
+          "name": "MsalTokenCacheOnDisk",
+          "children": [
+            {
+              "name": "Enable-MsalTokenCacheOnDisk"
+            }
+          ]
+        },
+        {
+          "name": "MsalAccount",
+          "children": [
+            {
+              "name": "Get-MsalAccount"
+            }
+          ]
+        },
+        {
+          "name": "MsalFeatureSupport",
+          "children": [
+            {
+              "name": "Get-MsalFeatureSupport"
+            }
+          ]
+        },
+        {
+          "name": "MsalToken",
+          "children": [
+            {
+              "name": "Get-MsalToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Utility.PS",
+      "companyName": "Microsoft Corporation",
+      "author": "Jason Thompson",
+      "children": [
+        {
+          "name": "Data",
+          "children": [
+            {
+              "name": "Compress-Data"
+            },
+            {
+              "name": "Expand-Data"
+            }
+          ]
+        },
+        {
+          "name": "Base64String",
+          "children": [
+            {
+              "name": "ConvertFrom-Base64String"
+            },
+            {
+              "name": "ConvertTo-Base64String"
+            }
+          ]
+        },
+        {
+          "name": "ClixmlString",
+          "children": [
+            {
+              "name": "ConvertFrom-ClixmlString"
+            },
+            {
+              "name": "ConvertTo-ClixmlString"
+            }
+          ]
+        },
+        {
+          "name": "HexString",
+          "children": [
+            {
+              "name": "ConvertFrom-HexString"
+            },
+            {
+              "name": "ConvertTo-HexString"
+            }
+          ]
+        },
+        {
+          "name": "HtmlString",
+          "children": [
+            {
+              "name": "ConvertFrom-HtmlString"
+            },
+            {
+              "name": "ConvertTo-HtmlString"
+            }
+          ]
+        },
+        {
+          "name": "QueryString",
+          "children": [
+            {
+              "name": "ConvertFrom-QueryString"
+            },
+            {
+              "name": "ConvertTo-QueryString"
+            }
+          ]
+        },
+        {
+          "name": "SecureStringAsPlainText",
+          "children": [
+            {
+              "name": "ConvertFrom-SecureStringAsPlainText"
+            }
+          ]
+        },
+        {
+          "name": "UrlString",
+          "children": [
+            {
+              "name": "ConvertFrom-UrlString"
+            },
+            {
+              "name": "ConvertTo-UrlString"
+            }
+          ]
+        },
+        {
+          "name": "Dictionary",
+          "children": [
+            {
+              "name": "ConvertTo-Dictionary"
+            }
+          ]
+        },
+        {
+          "name": "MarkdownTable",
+          "children": [
+            {
+              "name": "ConvertTo-MarkdownTable"
+            }
+          ]
+        },
+        {
+          "name": "PsParameterString",
+          "children": [
+            {
+              "name": "ConvertTo-PsParameterString"
+            }
+          ]
+        },
+        {
+          "name": "PsString",
+          "children": [
+            {
+              "name": "ConvertTo-PsString"
+            }
+          ]
+        },
+        {
+          "name": "DataSize",
+          "children": [
+            {
+              "name": "Format-DataSize"
+            }
+          ]
+        },
+        {
+          "name": "NumberWithMetricUnit",
+          "children": [
+            {
+              "name": "Format-NumberWithMetricUnit"
+            }
+          ]
+        },
+        {
+          "name": "PropertyValue",
+          "children": [
+            {
+              "name": "Format-PropertyValue"
+            },
+            {
+              "name": "Get-PropertyValue"
+            }
+          ]
+        },
+        {
+          "name": "ContentEncoding",
+          "children": [
+            {
+              "name": "Get-ContentEncoding"
+            }
+          ]
+        },
+        {
+          "name": "RelativePath",
+          "children": [
+            {
+              "name": "Get-RelativePath"
+            }
+          ]
+        },
+        {
+          "name": "StrictModeVersion",
+          "children": [
+            {
+              "name": "Get-StrictModeVersion"
+            }
+          ]
+        },
+        {
+          "name": "X509Certificate",
+          "children": [
+            {
+              "name": "Get-X509Certificate"
+            }
+          ]
+        },
+        {
+          "name": "X509CertificateCrlDistributionPoints",
+          "children": [
+            {
+              "name": "Get-X509CertificateCrlDistributionPoints"
+            }
+          ]
+        },
+        {
+          "name": "CommandAsSystem",
+          "children": [
+            {
+              "name": "Invoke-CommandAsSystem"
+            }
+          ]
+        },
+        {
+          "name": "SecureStringKey",
+          "children": [
+            {
+              "name": "New-SecureStringKey"
+            }
+          ]
+        },
+        {
+          "name": "Diacritics",
+          "children": [
+            {
+              "name": "Remove-Diacritics"
+            }
+          ]
+        },
+        {
+          "name": "InvalidFileNameCharacters",
+          "children": [
+            {
+              "name": "Remove-InvalidFileNameCharacters"
+            }
+          ]
+        },
+        {
+          "name": "SensitiveData",
+          "children": [
+            {
+              "name": "Remove-SensitiveData"
+            }
+          ]
+        },
+        {
+          "name": "PsBoundParameters",
+          "children": [
+            {
+              "name": "Select-PsBoundParameters"
+            }
+          ]
+        },
+        {
+          "name": "NullValue",
+          "children": [
+            {
+              "name": "Skip-NullValue"
+            }
+          ]
+        },
+        {
+          "name": "IpAddressInSubnet",
+          "children": [
+            {
+              "name": "Test-IpAddressInSubnet"
+            }
+          ]
+        },
+        {
+          "name": "PsElevation",
+          "children": [
+            {
+              "name": "Test-PsElevation"
+            }
+          ]
+        },
+        {
+          "name": "Progress",
+          "children": [
+            {
+              "name": "Use-Progress"
+            }
+          ]
+        },
+        {
+          "name": "HostPrompt",
+          "children": [
+            {
+              "name": "Write-HostPrompt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

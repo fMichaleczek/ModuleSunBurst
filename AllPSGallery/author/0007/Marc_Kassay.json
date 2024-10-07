@@ -1,0 +1,456 @@
+{
+  "name": "Marc Kassay",
+  "children": [
+    {
+      "name": "EndOfLine",
+      "companyName": "Unknown",
+      "author": "Marc Kassay",
+      "children": [
+        {
+          "name": "LF",
+          "children": [
+            {
+              "name": "ConvertTo-LF"
+            }
+          ]
+        },
+        {
+          "name": "CRLF",
+          "children": [
+            {
+              "name": "ConvertTo-CRLF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GmailFilterUtil",
+      "companyName": "Unknown",
+      "author": "Marc Kassay",
+      "children": [
+        {
+          "name": "FromList",
+          "children": [
+            {
+              "name": "Add-FromList"
+            },
+            {
+              "name": "Set-FromList"
+            }
+          ]
+        },
+        {
+          "name": "XmlFilter",
+          "children": [
+            {
+              "name": "Export-XmlFilter"
+            },
+            {
+              "name": "Import-XmlFilter"
+            }
+          ]
+        },
+        {
+          "name": "PredefinedFromList",
+          "children": [
+            {
+              "name": "Read-PredefinedFromList"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KidRSA",
+      "companyName": "Unknown",
+      "author": "Marc Kassay",
+      "children": [
+        {
+          "name": "RSAKey",
+          "children": [
+            {
+              "name": "Get-RSAKey"
+            }
+          ]
+        },
+        {
+          "name": "CipherText",
+          "children": [
+            {
+              "name": "ConvertTo-CipherText"
+            }
+          ]
+        },
+        {
+          "name": "PlainText",
+          "children": [
+            {
+              "name": "ConvertTo-PlainText"
+            }
+          ]
+        },
+        {
+          "name": "PublicEncryptionValue",
+          "children": [
+            {
+              "name": "ConvertTo-PublicEncryptionValue"
+            }
+          ]
+        },
+        {
+          "name": "PrivateDecryptionValue",
+          "children": [
+            {
+              "name": "ConvertTo-PrivateDecryptionValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PrependLicense",
+      "companyName": "Unknown",
+      "author": "Marc Kassay",
+      "children": [
+        {
+          "name": "GPLHeader",
+          "children": [
+            {
+              "name": "Add-GPLHeader"
+            }
+          ]
+        },
+        {
+          "name": "MITHeader",
+          "children": [
+            {
+              "name": "Add-MITHeader"
+            }
+          ]
+        },
+        {
+          "name": "Header",
+          "children": [
+            {
+              "name": "Add-Header"
+            }
+          ]
+        },
+        {
+          "name": "FileTypeTable",
+          "children": [
+            {
+              "name": "Get-FileTypeTable"
+            },
+            {
+              "name": "Set-FileTypeTable"
+            }
+          ]
+        },
+        {
+          "name": "BracketTable",
+          "children": [
+            {
+              "name": "Get-BracketTable"
+            },
+            {
+              "name": "Set-BracketTable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSTrueCrypt",
+      "companyName": "Unknown",
+      "author": "Marc Kassay",
+      "children": [
+        {
+          "name": "TrueCrypt",
+          "children": [
+            {
+              "name": "Mount-TrueCrypt"
+            },
+            {
+              "name": "Dismount-TrueCrypt"
+            }
+          ]
+        },
+        {
+          "name": "TrueCryptForceAll",
+          "children": [
+            {
+              "name": "Dismount-TrueCryptForceAll"
+            }
+          ]
+        },
+        {
+          "name": "PSTrueCryptContainer",
+          "children": [
+            {
+              "name": "New-PSTrueCryptContainer"
+            },
+            {
+              "name": "Edit-PSTrueCryptContainer"
+            },
+            {
+              "name": "Remove-PSTrueCryptContainer"
+            }
+          ]
+        },
+        {
+          "name": "PSTrueCryptContainers",
+          "children": [
+            {
+              "name": "Show-PSTrueCryptContainers"
+            }
+          ]
+        },
+        {
+          "name": "RegistrySubKeys",
+          "children": [
+            {
+              "name": "Get-RegistrySubKeys"
+            }
+          ]
+        },
+        {
+          "name": "Container",
+          "children": [
+            {
+              "name": "Write-Container"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SeeDatum",
+      "companyName": "Unknown",
+      "author": "Marc Kassay",
+      "children": [
+        {
+          "name": "Bytes",
+          "children": [
+            {
+              "name": "Get-Bytes"
+            }
+          ]
+        },
+        {
+          "name": "Binary",
+          "children": [
+            {
+              "name": "ConvertTo-Binary"
+            }
+          ]
+        },
+        {
+          "name": "UTF8",
+          "children": [
+            {
+              "name": "ConvertTo-UTF8"
+            }
+          ]
+        },
+        {
+          "name": "Character",
+          "children": [
+            {
+              "name": "ConvertTo-Character"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XAz",
+      "companyName": "Unknown",
+      "author": "Marc Kassay",
+      "children": [
+        {
+          "name": "XAzDomainName",
+          "children": [
+            {
+              "name": "Approve-XAzDomainName"
+            }
+          ]
+        },
+        {
+          "name": "XAzRegistryName",
+          "children": [
+            {
+              "name": "Approve-XAzRegistryName"
+            }
+          ]
+        },
+        {
+          "name": "X509Store",
+          "children": [
+            {
+              "name": "Close-X509Store"
+            },
+            {
+              "name": "Open-X509Store"
+            }
+          ]
+        },
+        {
+          "name": "XAzAccount",
+          "children": [
+            {
+              "name": "Confirm-XAzAccount"
+            },
+            {
+              "name": "Connect-XAzAccount"
+            }
+          ]
+        },
+        {
+          "name": "XAzResourceGroup",
+          "children": [
+            {
+              "name": "Confirm-XAzResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "PEMCertificateString",
+          "children": [
+            {
+              "name": "ConvertTo-PEMCertificateString"
+            }
+          ]
+        },
+        {
+          "name": "X509FormatDataView",
+          "children": [
+            {
+              "name": "Disable-X509FormatDataView"
+            },
+            {
+              "name": "Enable-X509FormatDataView"
+            }
+          ]
+        },
+        {
+          "name": "X509Certificate",
+          "children": [
+            {
+              "name": "Export-X509Certificate"
+            },
+            {
+              "name": "Import-X509Certificate"
+            },
+            {
+              "name": "Remove-X509Certificate"
+            }
+          ]
+        },
+        {
+          "name": "PEMCertificate",
+          "children": [
+            {
+              "name": "Get-PEMCertificate"
+            }
+          ]
+        },
+        {
+          "name": "SelfSignedCertParamObject",
+          "children": [
+            {
+              "name": "New-SelfSignedCertParamObject"
+            }
+          ]
+        },
+        {
+          "name": "X509Certificates",
+          "children": [
+            {
+              "name": "Get-X509Certificates"
+            }
+          ]
+        },
+        {
+          "name": "XAzAccountInfo",
+          "children": [
+            {
+              "name": "Get-XAzAccountInfo"
+            },
+            {
+              "name": "Set-XAzAccountInfo"
+            }
+          ]
+        },
+        {
+          "name": "XAzContainerRegistryTags",
+          "children": [
+            {
+              "name": "Get-XAzContainerRegistryTags"
+            }
+          ]
+        },
+        {
+          "name": "XAzRegistryCredentials",
+          "children": [
+            {
+              "name": "Get-XAzRegistryCredentials"
+            }
+          ]
+        },
+        {
+          "name": "XAzTemplateObject",
+          "children": [
+            {
+              "name": "Get-XAzTemplateObject"
+            }
+          ]
+        },
+        {
+          "name": "AzureCLIDownload",
+          "children": [
+            {
+              "name": "Invoke-AzureCLIDownload"
+            }
+          ]
+        },
+        {
+          "name": "SelfSignedCert",
+          "children": [
+            {
+              "name": "New-SelfSignedCert"
+            }
+          ]
+        },
+        {
+          "name": "Confirmation",
+          "children": [
+            {
+              "name": "Read-Confirmation"
+            }
+          ]
+        },
+        {
+          "name": "StepMessage",
+          "children": [
+            {
+              "name": "Set-StepMessage"
+            },
+            {
+              "name": "Write-StepMessage"
+            }
+          ]
+        },
+        {
+          "name": "XAzServicePrincipal",
+          "children": [
+            {
+              "name": "Set-XAzServicePrincipal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

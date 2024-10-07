@@ -1,0 +1,940 @@
+{
+  "name": "Kelverion Inc.",
+  "children": [
+    {
+      "name": "Kelverion.Atlassian.Jira",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "JiraIssueAttachment",
+          "children": [
+            {
+              "name": "Add-JiraIssueAttachment"
+            },
+            {
+              "name": "Get-JiraIssueAttachment"
+            },
+            {
+              "name": "Remove-JiraIssueAttachment"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueComment",
+          "children": [
+            {
+              "name": "Add-JiraIssueComment"
+            },
+            {
+              "name": "Get-JiraIssueComment"
+            },
+            {
+              "name": "Remove-JiraIssueComment"
+            },
+            {
+              "name": "Set-JiraIssueComment"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueWatcher",
+          "children": [
+            {
+              "name": "Add-JiraIssueWatcher"
+            },
+            {
+              "name": "Get-JiraIssueWatcher"
+            },
+            {
+              "name": "Remove-JiraIssueWatcher"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueWorklog",
+          "children": [
+            {
+              "name": "Add-JiraIssueWorklog"
+            },
+            {
+              "name": "Get-JiraIssueWorklog"
+            },
+            {
+              "name": "Remove-JiraIssueWorklog"
+            },
+            {
+              "name": "Set-JiraIssueWorklog"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssue",
+          "children": [
+            {
+              "name": "Get-JiraIssue"
+            },
+            {
+              "name": "New-JiraIssue"
+            },
+            {
+              "name": "Remove-JiraIssue"
+            },
+            {
+              "name": "Set-JiraIssue"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueAttachmentContent",
+          "children": [
+            {
+              "name": "Get-JiraIssueAttachmentContent"
+            }
+          ]
+        },
+        {
+          "name": "JiraIssueTransition",
+          "children": [
+            {
+              "name": "Get-JiraIssueTransition"
+            },
+            {
+              "name": "Invoke-JiraIssueTransition"
+            }
+          ]
+        },
+        {
+          "name": "JiraUser",
+          "children": [
+            {
+              "name": "Get-JiraUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.Azure.DevOps",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "DevOpsWorkItem",
+          "children": [
+            {
+              "name": "New-DevOpsWorkItem"
+            },
+            {
+              "name": "Set-DevOpsWorkItem"
+            },
+            {
+              "name": "Get-DevOpsWorkItem"
+            },
+            {
+              "name": "Remove-DevOpsWorkItem"
+            }
+          ]
+        },
+        {
+          "name": "DevOpsAttachmentContent",
+          "children": [
+            {
+              "name": "Add-DevOpsAttachmentContent"
+            },
+            {
+              "name": "Get-DevOpsAttachmentContent"
+            }
+          ]
+        },
+        {
+          "name": "DevOpsAttachmentInfo",
+          "children": [
+            {
+              "name": "Get-DevOpsAttachmentInfo"
+            }
+          ]
+        },
+        {
+          "name": "DevOpsAttachment",
+          "children": [
+            {
+              "name": "Remove-DevOpsAttachment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.Azure.Infrastructure",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "AzureKaResourceDeployment",
+          "children": [
+            {
+              "name": "New-AzureKaResourceDeployment"
+            }
+          ]
+        },
+        {
+          "name": "AzureKaResourceGroup",
+          "children": [
+            {
+              "name": "Get-AzureKaResourceGroup"
+            }
+          ]
+        },
+        {
+          "name": "AzureKaResource",
+          "children": [
+            {
+              "name": "Get-AzureKaResource"
+            },
+            {
+              "name": "Move-AzureKaResource"
+            },
+            {
+              "name": "Remove-AzureKaResource"
+            }
+          ]
+        },
+        {
+          "name": "AzureKaResourceTag",
+          "children": [
+            {
+              "name": "Remove-AzureKaResourceTag"
+            },
+            {
+              "name": "Set-AzureKaResourceTag"
+            }
+          ]
+        },
+        {
+          "name": "AzureKaVm",
+          "children": [
+            {
+              "name": "Remove-AzureKaVm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.BMC.Helix.Itsm",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "HelixItsmEntryAttachment",
+          "children": [
+            {
+              "name": "Get-HelixItsmEntryAttachment"
+            },
+            {
+              "name": "Set-HelixItsmEntryAttachment"
+            }
+          ]
+        },
+        {
+          "name": "HelixItsmEntry",
+          "children": [
+            {
+              "name": "Get-HelixItsmEntry"
+            },
+            {
+              "name": "New-HelixItsmEntry"
+            },
+            {
+              "name": "Remove-HelixItsmEntry"
+            },
+            {
+              "name": "Set-HelixItsmEntry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.Cherwell",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "CherwellRecord",
+          "children": [
+            {
+              "name": "New-CherwellRecord"
+            },
+            {
+              "name": "Set-CherwellRecord"
+            },
+            {
+              "name": "Get-CherwellRecord"
+            },
+            {
+              "name": "Remove-CherwellRecord"
+            }
+          ]
+        },
+        {
+          "name": "CherwellAttachmentContent",
+          "children": [
+            {
+              "name": "Add-CherwellAttachmentContent"
+            },
+            {
+              "name": "Get-CherwellAttachmentContent"
+            }
+          ]
+        },
+        {
+          "name": "CherwellAttachmentInfo",
+          "children": [
+            {
+              "name": "Get-CherwellAttachmentInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.EasyVista",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "EasyVistaAttachment",
+          "children": [
+            {
+              "name": "Add-EasyVistaAttachment"
+            },
+            {
+              "name": "Get-EasyVistaAttachment"
+            }
+          ]
+        },
+        {
+          "name": "EasyVistaRequest",
+          "children": [
+            {
+              "name": "Close-EasyVistaRequest"
+            },
+            {
+              "name": "Get-EasyVistaRequest"
+            },
+            {
+              "name": "New-EasyVistaRequest"
+            },
+            {
+              "name": "Resume-EasyVistaRequest"
+            },
+            {
+              "name": "Set-EasyVistaRequest"
+            },
+            {
+              "name": "Suspend-EasyVistaRequest"
+            }
+          ]
+        },
+        {
+          "name": "EasyVistaAction",
+          "children": [
+            {
+              "name": "Complete-EasyVistaAction"
+            },
+            {
+              "name": "Get-EasyVistaAction"
+            },
+            {
+              "name": "New-EasyVistaAction"
+            },
+            {
+              "name": "Set-EasyVistaAction"
+            }
+          ]
+        },
+        {
+          "name": "EasyVistaAttachmentContent",
+          "children": [
+            {
+              "name": "Get-EasyVistaAttachmentContent"
+            }
+          ]
+        },
+        {
+          "name": "EasyVistaComment",
+          "children": [
+            {
+              "name": "Get-EasyVistaComment"
+            }
+          ]
+        },
+        {
+          "name": "EasyVistaDescription",
+          "children": [
+            {
+              "name": "Get-EasyVistaDescription"
+            }
+          ]
+        },
+        {
+          "name": "EasyVistaDepartment",
+          "children": [
+            {
+              "name": "Get-EasyVistaDepartment"
+            }
+          ]
+        },
+        {
+          "name": "EasyVistaEmployee",
+          "children": [
+            {
+              "name": "Get-EasyVistaEmployee"
+            }
+          ]
+        },
+        {
+          "name": "EasyVistaLocation",
+          "children": [
+            {
+              "name": "Get-EasyVistaLocation"
+            }
+          ]
+        },
+        {
+          "name": "EasyVistaRequestCatalog",
+          "children": [
+            {
+              "name": "Get-EasyVistaRequestCatalog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.Oracle",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "OracleRow",
+          "children": [
+            {
+              "name": "Delete-OracleRow"
+            },
+            {
+              "name": "Insert-OracleRow"
+            },
+            {
+              "name": "Select-OracleRow"
+            },
+            {
+              "name": "Update-OracleRow"
+            }
+          ]
+        },
+        {
+          "name": "OracleCommand",
+          "children": [
+            {
+              "name": "Invoke-OracleCommand"
+            }
+          ]
+        },
+        {
+          "name": "OracleProcedure",
+          "children": [
+            {
+              "name": "Invoke-OracleProcedure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.Salesforce",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "SalesforceLimits",
+          "children": [
+            {
+              "name": "Get-SalesforceLimits"
+            }
+          ]
+        },
+        {
+          "name": "SalesforceRecord",
+          "children": [
+            {
+              "name": "Get-SalesforceRecord"
+            },
+            {
+              "name": "New-SalesforceRecord"
+            },
+            {
+              "name": "Remove-SalesforceRecord"
+            },
+            {
+              "name": "Set-SalesforceRecord"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.ServiceDeskPlus",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "ServiceDeskPlusRequest",
+          "children": [
+            {
+              "name": "Close-ServiceDeskPlusRequest"
+            },
+            {
+              "name": "Get-ServiceDeskPlusRequest"
+            },
+            {
+              "name": "New-ServiceDeskPlusRequest"
+            },
+            {
+              "name": "Remove-ServiceDeskPlusRequest"
+            },
+            {
+              "name": "Set-ServiceDeskPlusRequest"
+            }
+          ]
+        },
+        {
+          "name": "ServiceDeskPlusRequestNote",
+          "children": [
+            {
+              "name": "Get-ServiceDeskPlusRequestNote"
+            },
+            {
+              "name": "New-ServiceDeskPlusRequestNote"
+            },
+            {
+              "name": "Remove-ServiceDeskPlusRequestNote"
+            },
+            {
+              "name": "Set-ServiceDeskPlusRequestNote"
+            }
+          ]
+        },
+        {
+          "name": "ServiceDeskPlusRequestTask",
+          "children": [
+            {
+              "name": "Get-ServiceDeskPlusRequestTask"
+            },
+            {
+              "name": "New-ServiceDeskPlusRequestTask"
+            },
+            {
+              "name": "Remove-ServiceDeskPlusRequestTask"
+            },
+            {
+              "name": "Set-ServiceDeskPlusRequestTask"
+            }
+          ]
+        },
+        {
+          "name": "ServiceDeskPlusRequestWorklog",
+          "children": [
+            {
+              "name": "Get-ServiceDeskPlusRequestWorklog"
+            },
+            {
+              "name": "New-ServiceDeskPlusRequestWorklog"
+            },
+            {
+              "name": "Remove-ServiceDeskPlusRequestWorklog"
+            },
+            {
+              "name": "Set-ServiceDeskPlusRequestWorklog"
+            }
+          ]
+        },
+        {
+          "name": "ServiceDeskPlusRequestTaskWorklog",
+          "children": [
+            {
+              "name": "Get-ServiceDeskPlusRequestTaskWorklog"
+            },
+            {
+              "name": "New-ServiceDeskPlusRequestTaskWorklog"
+            },
+            {
+              "name": "Remove-ServiceDeskPlusRequestTaskWorklog"
+            },
+            {
+              "name": "Set-ServiceDeskPlusRequestTaskWorklog"
+            }
+          ]
+        },
+        {
+          "name": "ServiceDeskPlusTechnician",
+          "children": [
+            {
+              "name": "Get-ServiceDeskPlusTechnician"
+            }
+          ]
+        },
+        {
+          "name": "ServiceDeskPlusUser",
+          "children": [
+            {
+              "name": "Get-ServiceDeskPlusUser"
+            }
+          ]
+        },
+        {
+          "name": "ServiceDeskPlusRefreshToken",
+          "children": [
+            {
+              "name": "New-ServiceDeskPlusRefreshToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.ServiceNow",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "ServiceNowAttachmentContent",
+          "children": [
+            {
+              "name": "Add-ServiceNowAttachmentContent"
+            },
+            {
+              "name": "Get-ServiceNowAttachmentContent"
+            }
+          ]
+        },
+        {
+          "name": "ServiceNowAttachmentInfo",
+          "children": [
+            {
+              "name": "Get-ServiceNowAttachmentInfo"
+            }
+          ]
+        },
+        {
+          "name": "ServiceNowRecord",
+          "children": [
+            {
+              "name": "Get-ServiceNowRecord"
+            },
+            {
+              "name": "Import-ServiceNowRecord"
+            },
+            {
+              "name": "Remove-ServiceNowRecord"
+            },
+            {
+              "name": "New-ServiceNowRecord"
+            },
+            {
+              "name": "Set-ServiceNowRecord"
+            }
+          ]
+        },
+        {
+          "name": "ServiceNowRecordCount",
+          "children": [
+            {
+              "name": "Get-ServiceNowRecordCount"
+            }
+          ]
+        },
+        {
+          "name": "ServiceNowRefreshToken",
+          "children": [
+            {
+              "name": "Get-ServiceNowRefreshToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.Slack",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "SlackChannel",
+          "children": [
+            {
+              "name": "Close-SlackChannel"
+            },
+            {
+              "name": "Get-SlackChannel"
+            },
+            {
+              "name": "New-SlackChannel"
+            }
+          ]
+        },
+        {
+          "name": "SlackDirectMessage",
+          "children": [
+            {
+              "name": "Close-SlackDirectMessage"
+            },
+            {
+              "name": "Open-SlackDirectMessage"
+            }
+          ]
+        },
+        {
+          "name": "SlackChannelHistory",
+          "children": [
+            {
+              "name": "Get-SlackChannelHistory"
+            }
+          ]
+        },
+        {
+          "name": "SlackMessageThread",
+          "children": [
+            {
+              "name": "Get-SlackMessageThread"
+            }
+          ]
+        },
+        {
+          "name": "SlackMessage",
+          "children": [
+            {
+              "name": "Get-SlackMessage"
+            },
+            {
+              "name": "Remove-SlackMessage"
+            },
+            {
+              "name": "Send-SlackMessage"
+            },
+            {
+              "name": "Set-SlackMessage"
+            }
+          ]
+        },
+        {
+          "name": "SlackTeam",
+          "children": [
+            {
+              "name": "Get-SlackTeam"
+            }
+          ]
+        },
+        {
+          "name": "SlackUser",
+          "children": [
+            {
+              "name": "Get-SlackUser"
+            }
+          ]
+        },
+        {
+          "name": "SlackUserGroup",
+          "children": [
+            {
+              "name": "Get-SlackUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "SlackEphemeralMessage",
+          "children": [
+            {
+              "name": "Send-SlackEphemeralMessage"
+            }
+          ]
+        },
+        {
+          "name": "SlackScheduledMessage",
+          "children": [
+            {
+              "name": "Send-SlackScheduledMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.SqlServer",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "SqlRow",
+          "children": [
+            {
+              "name": "Delete-SqlRow"
+            },
+            {
+              "name": "Insert-SqlRow"
+            },
+            {
+              "name": "Select-SqlRow"
+            },
+            {
+              "name": "Update-SqlRow"
+            }
+          ]
+        },
+        {
+          "name": "SqlProcedure",
+          "children": [
+            {
+              "name": "Invoke-SqlProcedure"
+            }
+          ]
+        },
+        {
+          "name": "SqlCommand",
+          "children": [
+            {
+              "name": "Invoke-SqlCommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.Vmware.Vsphere",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "VsphereVmDevice",
+          "children": [
+            {
+              "name": "Add-VsphereVmDevice"
+            },
+            {
+              "name": "Get-VsphereVmDevice"
+            }
+          ]
+        },
+        {
+          "name": "VsphereCustomAttribute",
+          "children": [
+            {
+              "name": "Get-VsphereCustomAttribute"
+            },
+            {
+              "name": "Set-VsphereCustomAttribute"
+            }
+          ]
+        },
+        {
+          "name": "VsphereObject",
+          "children": [
+            {
+              "name": "Get-VsphereObject"
+            }
+          ]
+        },
+        {
+          "name": "VsphereVmInfo",
+          "children": [
+            {
+              "name": "Get-VsphereVmInfo"
+            }
+          ]
+        },
+        {
+          "name": "VsphereVmSnapshot",
+          "children": [
+            {
+              "name": "Get-VsphereVmSnapshot"
+            },
+            {
+              "name": "New-VsphereVmSnapshot"
+            },
+            {
+              "name": "Remove-VsphereVmSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "VsphereVm",
+          "children": [
+            {
+              "name": "Move-VsphereVm"
+            },
+            {
+              "name": "New-VsphereVm"
+            },
+            {
+              "name": "Remove-VsphereVm"
+            },
+            {
+              "name": "Restart-VsphereVm"
+            },
+            {
+              "name": "Set-VsphereVm"
+            },
+            {
+              "name": "Start-VsphereVm"
+            },
+            {
+              "name": "Stop-VsphereVm"
+            },
+            {
+              "name": "Suspend-VsphereVm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kelverion.Zendesk",
+      "companyName": "Kelverion Inc.",
+      "author": "Kelverion Inc.",
+      "children": [
+        {
+          "name": "ZendeskRecord",
+          "children": [
+            {
+              "name": "Get-ZendeskRecord"
+            }
+          ]
+        },
+        {
+          "name": "ZendeskComment",
+          "children": [
+            {
+              "name": "Get-ZendeskComment"
+            }
+          ]
+        },
+        {
+          "name": "ZendeskTicket",
+          "children": [
+            {
+              "name": "New-ZendeskTicket"
+            },
+            {
+              "name": "Remove-ZendeskTicket"
+            },
+            {
+              "name": "Set-ZendeskTicket"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

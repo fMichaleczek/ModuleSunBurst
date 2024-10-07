@@ -1,0 +1,629 @@
+{
+  "name": "Brett Gerhardi",
+  "children": [
+    {
+      "name": "PSEasy.Module",
+      "companyName": "Unknown",
+      "author": "Brett Gerhardi",
+      "children": [
+        {
+          "name": "ArtifactEndpointCredential",
+          "children": [
+            {
+              "name": "Get-ArtifactEndpointCredential"
+            }
+          ]
+        },
+        {
+          "name": "ArtifactCredentialPassword",
+          "children": [
+            {
+              "name": "Install-ArtifactCredentialPassword"
+            }
+          ]
+        },
+        {
+          "name": "ArtifactCredentialProvider",
+          "children": [
+            {
+              "name": "Install-ArtifactCredentialProvider"
+            }
+          ]
+        },
+        {
+          "name": "ArtifactSource",
+          "children": [
+            {
+              "name": "Register-ArtifactSource"
+            }
+          ]
+        },
+        {
+          "name": "PSArtifactSource",
+          "children": [
+            {
+              "name": "Register-PSArtifactSource"
+            }
+          ]
+        },
+        {
+          "name": "TypeFromNugetPackage",
+          "children": [
+            {
+              "name": "Add-TypeFromNugetPackage"
+            }
+          ]
+        },
+        {
+          "name": "Dependency",
+          "children": [
+            {
+              "name": "Get-Dependency"
+            },
+            {
+              "name": "Import-Dependency"
+            },
+            {
+              "name": "Install-Dependency"
+            }
+          ]
+        },
+        {
+          "name": "ModuleFromNugetPackage",
+          "children": [
+            {
+              "name": "Import-ModuleFromNugetPackage"
+            }
+          ]
+        },
+        {
+          "name": "DependencyNuget",
+          "children": [
+            {
+              "name": "Install-DependencyNuget"
+            }
+          ]
+        },
+        {
+          "name": "DependencyPSModule",
+          "children": [
+            {
+              "name": "Install-DependencyPSModule"
+            }
+          ]
+        },
+        {
+          "name": "DependencyPSPackageProvider",
+          "children": [
+            {
+              "name": "Install-DependencyPSPackageProvider"
+            }
+          ]
+        },
+        {
+          "name": "DependencyWebDownload",
+          "children": [
+            {
+              "name": "Install-DependencyWebDownload"
+            }
+          ]
+        },
+        {
+          "name": "NugetSource",
+          "children": [
+            {
+              "name": "Get-NugetSource"
+            }
+          ]
+        },
+        {
+          "name": "NugetPackage",
+          "children": [
+            {
+              "name": "Publish-NugetPackage"
+            }
+          ]
+        },
+        {
+          "name": "NugetArtifactSource",
+          "children": [
+            {
+              "name": "Register-NugetArtifactSource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSEasy.Utility",
+      "companyName": "Unknown",
+      "author": "Brett Gerhardi",
+      "children": [
+        {
+          "name": "ArchiveFolder",
+          "children": [
+            {
+              "name": "Compress-ArchiveFolder"
+            }
+          ]
+        },
+        {
+          "name": "CpuArtificialWorkload",
+          "children": [
+            {
+              "name": "Invoke-CpuArtificialWorkload"
+            }
+          ]
+        },
+        {
+          "name": "CredentialSilently",
+          "children": [
+            {
+              "name": "Get-CredentialSilently"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentVariable",
+          "children": [
+            {
+              "name": "Clear-EnvironmentVariable"
+            },
+            {
+              "name": "Get-EnvironmentVariable"
+            },
+            {
+              "name": "Set-EnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "CleanErrorString",
+          "children": [
+            {
+              "name": "Get-CleanErrorString"
+            }
+          ]
+        },
+        {
+          "name": "ErrorViewIfPossible",
+          "children": [
+            {
+              "name": "Set-ErrorViewIfPossible"
+            }
+          ]
+        },
+        {
+          "name": "GenericMethod",
+          "children": [
+            {
+              "name": "Invoke-GenericMethod"
+            }
+          ]
+        },
+        {
+          "name": "Hash",
+          "children": [
+            {
+              "name": "Get-Hash"
+            }
+          ]
+        },
+        {
+          "name": "HashtableItem",
+          "children": [
+            {
+              "name": "Add-HashtableItem"
+            },
+            {
+              "name": "Remove-HashtableItem"
+            },
+            {
+              "name": "Set-HashTableItem"
+            }
+          ]
+        },
+        {
+          "name": "PerformanceRecord",
+          "children": [
+            {
+              "name": "Add-PerformanceRecord"
+            },
+            {
+              "name": "Complete-PerformanceRecord"
+            },
+            {
+              "name": "Get-PerformanceRecord"
+            }
+          ]
+        },
+        {
+          "name": "PerformanceStore",
+          "children": [
+            {
+              "name": "Get-PerformanceStore"
+            }
+          ]
+        },
+        {
+          "name": "Command2",
+          "children": [
+            {
+              "name": "Measure-Command2"
+            }
+          ]
+        },
+        {
+          "name": "ObjectModelValue",
+          "children": [
+            {
+              "name": "Get-ObjectModelValue"
+            },
+            {
+              "name": "Set-ObjectModelValue"
+            }
+          ]
+        },
+        {
+          "name": "ObjectModelPathIsSafe",
+          "children": [
+            {
+              "name": "Test-ObjectModelPathIsSafe"
+            }
+          ]
+        },
+        {
+          "name": "MemberIfNotExist",
+          "children": [
+            {
+              "name": "Add-MemberIfNotExist"
+            }
+          ]
+        },
+        {
+          "name": "Array",
+          "children": [
+            {
+              "name": "ConvertTo-Array"
+            }
+          ]
+        },
+        {
+          "name": "Array2",
+          "children": [
+            {
+              "name": "ConvertTo-Array2"
+            }
+          ]
+        },
+        {
+          "name": "Array3",
+          "children": [
+            {
+              "name": "ConvertTo-Array3"
+            }
+          ]
+        },
+        {
+          "name": "FlatObject",
+          "children": [
+            {
+              "name": "ConvertTo-FlatObject"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "HashtableBased",
+          "children": [
+            {
+              "name": "ConvertTo-HashtableBased"
+            }
+          ]
+        },
+        {
+          "name": "ConvertDateTimePropertyToString",
+          "children": [
+            {
+              "name": "Edit-ConvertDateTimePropertyToString"
+            }
+          ]
+        },
+        {
+          "name": "Property",
+          "children": [
+            {
+              "name": "Remove-Property"
+            }
+          ]
+        },
+        {
+          "name": "HasProperty",
+          "children": [
+            {
+              "name": "Test-HasProperty"
+            }
+          ]
+        },
+        {
+          "name": "PSSessionEntry",
+          "children": [
+            {
+              "name": "Add-PSSessionEntry"
+            },
+            {
+              "name": "Test-PSSessionEntry"
+            }
+          ]
+        },
+        {
+          "name": "PSSessionVariable",
+          "children": [
+            {
+              "name": "Initialize-PSSessionVariable"
+            }
+          ]
+        },
+        {
+          "name": "AesKey",
+          "children": [
+            {
+              "name": "ConvertTo-AesKey"
+            }
+          ]
+        },
+        {
+          "name": "SecureStringEmpty",
+          "children": [
+            {
+              "name": "Test-SecureStringEmpty"
+            }
+          ]
+        },
+        {
+          "name": "HashtableFromRemainingArgument",
+          "children": [
+            {
+              "name": "Get-HashtableFromRemainingArgument"
+            }
+          ]
+        },
+        {
+          "name": "NullIf",
+          "children": [
+            {
+              "name": "Get-NullIf"
+            }
+          ]
+        },
+        {
+          "name": "NullIfDBNull",
+          "children": [
+            {
+              "name": "Get-NullIfDBNull"
+            }
+          ]
+        },
+        {
+          "name": "HostSmartAnsi",
+          "children": [
+            {
+              "name": "Out-HostSmartAnsi"
+            }
+          ]
+        },
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "Format-Xml"
+            }
+          ]
+        },
+        {
+          "name": "ContentNoPassword",
+          "children": [
+            {
+              "name": "Test-ContentNoPassword"
+            }
+          ]
+        },
+        {
+          "name": "ContentNoTab",
+          "children": [
+            {
+              "name": "Test-ContentNoTab"
+            }
+          ]
+        },
+        {
+          "name": "FileLockProcess",
+          "children": [
+            {
+              "name": "Get-FileLockProcess"
+            }
+          ]
+        },
+        {
+          "name": "FileLock",
+          "children": [
+            {
+              "name": "Test-FileLock"
+            }
+          ]
+        },
+        {
+          "name": "Item",
+          "children": [
+            {
+              "name": "Find-Item"
+            }
+          ]
+        },
+        {
+          "name": "FileWithRegex",
+          "children": [
+            {
+              "name": "Rename-FileWithRegex"
+            }
+          ]
+        },
+        {
+          "name": "GitFileWithRegex",
+          "children": [
+            {
+              "name": "Rename-GitFileWithRegex"
+            }
+          ]
+        },
+        {
+          "name": "LogPath",
+          "children": [
+            {
+              "name": "Get-LogPath"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Remove-Log"
+            }
+          ]
+        },
+        {
+          "name": "Logging",
+          "children": [
+            {
+              "name": "Start-Logging"
+            },
+            {
+              "name": "Stop-Logging"
+            }
+          ]
+        },
+        {
+          "name": "Assembly",
+          "children": [
+            {
+              "name": "Get-Assembly"
+            }
+          ]
+        },
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Build-Module"
+            }
+          ]
+        },
+        {
+          "name": "ModuleUserFolder",
+          "children": [
+            {
+              "name": "Get-ModuleUserFolder"
+            }
+          ]
+        },
+        {
+          "name": "ModuleVersion",
+          "children": [
+            {
+              "name": "Get-ModuleVersion"
+            },
+            {
+              "name": "Set-ModuleVersion"
+            }
+          ]
+        },
+        {
+          "name": "ModuleFromFolder",
+          "children": [
+            {
+              "name": "Install-ModuleFromFolder"
+            },
+            {
+              "name": "Uninstall-ModuleFromFolder"
+            }
+          ]
+        },
+        {
+          "name": "ModuleFunction",
+          "children": [
+            {
+              "name": "Invoke-ModuleFunction"
+            }
+          ]
+        },
+        {
+          "name": "ModuleManifestExport",
+          "children": [
+            {
+              "name": "Add-ModuleManifestExport"
+            }
+          ]
+        },
+        {
+          "name": "Script",
+          "children": [
+            {
+              "name": "Test-Script"
+            }
+          ]
+        },
+        {
+          "name": "CommandAs",
+          "children": [
+            {
+              "name": "Invoke-CommandAs"
+            }
+          ]
+        },
+        {
+          "name": "PwshAs",
+          "children": [
+            {
+              "name": "Invoke-PwshAs"
+            }
+          ]
+        },
+        {
+          "name": "RunAs",
+          "children": [
+            {
+              "name": "Invoke-RunAs"
+            }
+          ]
+        },
+        {
+          "name": "Impersonate",
+          "children": [
+            {
+              "name": "Start-Impersonate"
+            },
+            {
+              "name": "Stop-Impersonate"
+            }
+          ]
+        },
+        {
+          "name": "UserPrivilegeAdmin",
+          "children": [
+            {
+              "name": "Test-UserPrivilegeAdmin"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "TechTokAutomation",
+  "children": [
+    {
+      "name": "TTAPSModuleBuilder",
+      "companyName": "TechTokAutomation",
+      "author": "TechTok",
+      "children": [
+        {
+          "name": "PowerShellAst",
+          "children": [
+            {
+              "name": "Get-PowerShellAst"
+            }
+          ]
+        },
+        {
+          "name": "ModuleBuilder",
+          "children": [
+            {
+              "name": "Invoke-ModuleBuilder"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

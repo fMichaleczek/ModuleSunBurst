@@ -1,0 +1,78 @@
+{
+  "name": "Alexey Shuvalov",
+  "children": [
+    {
+      "name": "Kang",
+      "companyName": "Unknown",
+      "author": "Alexey Shuvalov",
+      "children": [
+        {
+          "name": "KangProfile",
+          "children": [
+            {
+              "name": "Set-KangProfile"
+            }
+          ]
+        },
+        {
+          "name": "AdaptiveContrast",
+          "children": [
+            {
+              "name": "Disable-AdaptiveContrast"
+            },
+            {
+              "name": "Enable-AdaptiveContrast"
+            }
+          ]
+        },
+        {
+          "name": "CCMSetup",
+          "children": [
+            {
+              "name": "Disable-CCMSetup"
+            }
+          ]
+        },
+        {
+          "name": "IntuneManagementExtension",
+          "children": [
+            {
+              "name": "Disable-IntuneManagementExtension"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M365HelperFunctions",
+      "companyName": "Unknown",
+      "author": "Alexey Shuvalov",
+      "children": [
+        {
+          "name": "ExOApplicationAccessPolicy",
+          "children": [
+            {
+              "name": "New-ExOApplicationAccessPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ExOServicePrincipal",
+          "children": [
+            {
+              "name": "New-ExOServicePrincipal"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeManageAsAppPermissions",
+          "children": [
+            {
+              "name": "Add-ExchangeManageAsAppPermissions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

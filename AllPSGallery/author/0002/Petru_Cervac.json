@@ -1,0 +1,67 @@
+{
+  "name": "Petru Cervac",
+  "children": [
+    {
+      "name": "DockerPS",
+      "companyName": "Unknown",
+      "author": "Petru Cervac",
+      "children": [
+        {
+          "name": "DockerImages",
+          "children": [
+            {
+              "name": "Get-DockerImages"
+            }
+          ]
+        },
+        {
+          "name": "DockerContainers",
+          "children": [
+            {
+              "name": "Get-DockerContainers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PesterExtensions",
+      "companyName": "Unknown",
+      "author": "Petru Cervac",
+      "children": [
+        {
+          "name": "ScriptPath",
+          "children": [
+            {
+              "name": "Get-ScriptPath"
+            }
+          ]
+        },
+        {
+          "name": "ProjectRoot",
+          "children": [
+            {
+              "name": "Get-ProjectRoot"
+            }
+          ]
+        },
+        {
+          "name": "SemanticVersionUpdate",
+          "children": [
+            {
+              "name": "Test-SemanticVersionUpdate"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentVariable",
+          "children": [
+            {
+              "name": "Mock-EnvironmentVariable"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Tvanleeuwen",
+  "children": [
+    {
+      "name": "WifiConnectionAPI",
+      "companyName": "Unknown",
+      "author": "Tvanleeuwen",
+      "children": [
+        {
+          "name": "RadioState",
+          "children": [
+            {
+              "name": "Get-RadioState"
+            },
+            {
+              "name": "Set-RadioState"
+            }
+          ]
+        },
+        {
+          "name": "WifiDeviceInformation",
+          "children": [
+            {
+              "name": "Get-WifiDeviceInformation"
+            }
+          ]
+        },
+        {
+          "name": "WiFiAvailableAdapter",
+          "children": [
+            {
+              "name": "Get-WiFiAvailableAdapter"
+            }
+          ]
+        },
+        {
+          "name": "WifiConnectionProfile",
+          "children": [
+            {
+              "name": "Get-WifiConnectionProfile"
+            },
+            {
+              "name": "Remove-WifiConnectionProfile"
+            }
+          ]
+        },
+        {
+          "name": "WifiAvailableNetworks",
+          "children": [
+            {
+              "name": "Get-WifiAvailableNetworks"
+            }
+          ]
+        },
+        {
+          "name": "WifiCurrentConection",
+          "children": [
+            {
+              "name": "Get-WifiCurrentConection"
+            }
+          ]
+        },
+        {
+          "name": "WifiNetwork",
+          "children": [
+            {
+              "name": "Disconnect-WifiNetwork"
+            },
+            {
+              "name": "Connect-WiFiNetwork"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "xlsx",
+      "companyName": "Unknown",
+      "author": "TvanLeeuwen",
+      "children": [
+        {
+          "name": "XlsxTableNames",
+          "children": [
+            {
+              "name": "Get-XlsxTableNames"
+            }
+          ]
+        },
+        {
+          "name": "XlsxTableData",
+          "children": [
+            {
+              "name": "Get-XlsxTableData"
+            }
+          ]
+        },
+        {
+          "name": "XlsxFromCsv",
+          "children": [
+            {
+              "name": "Convertto-XlsxFromCsv"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

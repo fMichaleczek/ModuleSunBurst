@@ -1,0 +1,31 @@
+{
+  "name": "PoshLogger",
+  "children": [
+    {
+      "name": "PoshLogger",
+      "companyName": "PoshLogger",
+      "author": "Marc Collins",
+      "children": [
+        {
+          "name": "LogConfiguration",
+          "children": [
+            {
+              "name": "New-LogConfiguration"
+            },
+            {
+              "name": "Remove-LogConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

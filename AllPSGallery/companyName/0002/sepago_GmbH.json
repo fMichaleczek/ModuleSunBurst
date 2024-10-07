@@ -1,0 +1,51 @@
+{
+  "name": "sepago GmbH",
+  "children": [
+    {
+      "name": "Azure.EventHub",
+      "companyName": "sepago GmbH",
+      "author": "Marcel.Meurer sepago.de",
+      "children": [
+        {
+          "name": "AzureEHSASToken",
+          "children": [
+            {
+              "name": "Get-AzureEHSASToken"
+            }
+          ]
+        },
+        {
+          "name": "AzureEHDatagram",
+          "children": [
+            {
+              "name": "Send-AzureEHDatagram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureML",
+      "companyName": "sepago GmbH",
+      "author": "Marcel.Meurer sepago.de",
+      "children": [
+        {
+          "name": "AzureMLWebServiceConnection",
+          "children": [
+            {
+              "name": "Set-AzureMLWebServiceConnection"
+            }
+          ]
+        },
+        {
+          "name": "AzureMLPrediction",
+          "children": [
+            {
+              "name": "Get-AzureMLPrediction"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "name": "Guid.New GmbH",
+  "children": [
+    {
+      "name": "Billomat",
+      "companyName": "Guid.New GmbH",
+      "author": "Stefan Schnuderl",
+      "children": [
+        {
+          "name": "BMT",
+          "children": [
+            {
+              "name": "Connect-BMT"
+            }
+          ]
+        },
+        {
+          "name": "BMTCreditNote",
+          "children": [
+            {
+              "name": "Get-BMTCreditNote"
+            },
+            {
+              "name": "Add-BMTCreditNote"
+            }
+          ]
+        },
+        {
+          "name": "BMTCreditNoteItem",
+          "children": [
+            {
+              "name": "Add-BMTCreditNoteItem"
+            }
+          ]
+        },
+        {
+          "name": "BMTInvoiceItem",
+          "children": [
+            {
+              "name": "Add-BMTInvoiceItem"
+            }
+          ]
+        },
+        {
+          "name": "BMTInvoice",
+          "children": [
+            {
+              "name": "Add-BMTInvoice"
+            },
+            {
+              "name": "Get-BMTInvoice"
+            }
+          ]
+        },
+        {
+          "name": "BMTInvoicePdf",
+          "children": [
+            {
+              "name": "Read-BMTInvoicePdf"
+            }
+          ]
+        },
+        {
+          "name": "BMTCreditNotePdf",
+          "children": [
+            {
+              "name": "Read-BMTCreditNotePdf"
+            }
+          ]
+        },
+        {
+          "name": "BMTInvoicePayments",
+          "children": [
+            {
+              "name": "Get-BMTInvoicePayments"
+            }
+          ]
+        },
+        {
+          "name": "BMTInvoices",
+          "children": [
+            {
+              "name": "Get-BMTInvoices"
+            }
+          ]
+        },
+        {
+          "name": "BMTTemplates",
+          "children": [
+            {
+              "name": "Get-BMTTemplates"
+            }
+          ]
+        },
+        {
+          "name": "BMTClients",
+          "children": [
+            {
+              "name": "Get-BMTClients"
+            }
+          ]
+        },
+        {
+          "name": "BMTClient",
+          "children": [
+            {
+              "name": "Get-BMTClient"
+            }
+          ]
+        },
+        {
+          "name": "BMTContacts",
+          "children": [
+            {
+              "name": "Get-BMTContacts"
+            }
+          ]
+        },
+        {
+          "name": "BMTContact",
+          "children": [
+            {
+              "name": "Get-BMTContact"
+            }
+          ]
+        },
+        {
+          "name": "BMTOffer",
+          "children": [
+            {
+              "name": "Get-BMTOffer"
+            }
+          ]
+        },
+        {
+          "name": "BMTOffers",
+          "children": [
+            {
+              "name": "Get-BMTOffers"
+            }
+          ]
+        },
+        {
+          "name": "BMTOfferPdf",
+          "children": [
+            {
+              "name": "Read-BMTOfferPdf"
+            }
+          ]
+        },
+        {
+          "name": "BMTInboxDoc",
+          "children": [
+            {
+              "name": "Add-BMTInboxDoc"
+            },
+            {
+              "name": "Remove-BMTInboxDoc"
+            },
+            {
+              "name": "Read-BMTInboxDoc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "companyName": "Guid.New GmbH",
+      "author": "Stefan Schnuderl",
+      "children": [
+        {
+          "name": "DevEnv",
+          "children": [
+            {
+              "name": "New-DevEnv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Freshdesk",
+      "companyName": "Guid.New GmbH",
+      "author": "Stefan Schnuderl",
+      "children": [
+        {
+          "name": "FD",
+          "children": [
+            {
+              "name": "Connect-FD"
+            }
+          ]
+        },
+        {
+          "name": "FDTickets",
+          "children": [
+            {
+              "name": "Get-FDTickets"
+            }
+          ]
+        },
+        {
+          "name": "FDTicket",
+          "children": [
+            {
+              "name": "Get-FDTicket"
+            },
+            {
+              "name": "Add-FDTicket"
+            },
+            {
+              "name": "Edit-FDTicket"
+            }
+          ]
+        },
+        {
+          "name": "FDContact",
+          "children": [
+            {
+              "name": "Get-FDContact"
+            }
+          ]
+        },
+        {
+          "name": "FDContactByMail",
+          "children": [
+            {
+              "name": "Get-FDContactByMail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pipedrive",
+      "companyName": "Guid.New GmbH",
+      "author": "Stefan Schnuderl",
+      "children": [
+        {
+          "name": "PD",
+          "children": [
+            {
+              "name": "Connect-PD"
+            }
+          ]
+        },
+        {
+          "name": "PDPipeline",
+          "children": [
+            {
+              "name": "Get-PDPipeline"
+            }
+          ]
+        },
+        {
+          "name": "PDStage",
+          "children": [
+            {
+              "name": "Get-PDStage"
+            }
+          ]
+        },
+        {
+          "name": "PDDeal",
+          "children": [
+            {
+              "name": "Get-PDDeal"
+            },
+            {
+              "name": "Add-PDDeal"
+            },
+            {
+              "name": "Edit-PDDeal"
+            }
+          ]
+        },
+        {
+          "name": "PDOrganization",
+          "children": [
+            {
+              "name": "Get-PDOrganization"
+            },
+            {
+              "name": "Add-PDOrganization"
+            }
+          ]
+        },
+        {
+          "name": "PDPerson",
+          "children": [
+            {
+              "name": "Get-PDPerson"
+            },
+            {
+              "name": "Add-PDPerson"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TimeCockpit",
+      "companyName": "Guid.New GmbH",
+      "author": "Stefan Schnuderl",
+      "children": [
+        {
+          "name": "TCMgmnt",
+          "children": [
+            {
+              "name": "Connect-TCMgmnt"
+            }
+          ]
+        },
+        {
+          "name": "TCMgmntUsers",
+          "children": [
+            {
+              "name": "Get-TCMgmntUsers"
+            }
+          ]
+        },
+        {
+          "name": "TC",
+          "children": [
+            {
+              "name": "Connect-TC"
+            }
+          ]
+        },
+        {
+          "name": "TCCustomer",
+          "children": [
+            {
+              "name": "Get-TCCustomer"
+            }
+          ]
+        },
+        {
+          "name": "TCProject",
+          "children": [
+            {
+              "name": "Get-TCProject"
+            },
+            {
+              "name": "Add-TCProject"
+            },
+            {
+              "name": "Edit-TCProject"
+            },
+            {
+              "name": "Open-TCProject"
+            },
+            {
+              "name": "Close-TCProject"
+            }
+          ]
+        },
+        {
+          "name": "TCCountry",
+          "children": [
+            {
+              "name": "Add-TCCountry"
+            }
+          ]
+        },
+        {
+          "name": "TCTask",
+          "children": [
+            {
+              "name": "Add-TCTask"
+            },
+            {
+              "name": "Get-TCTask"
+            },
+            {
+              "name": "Edit-TCTask"
+            },
+            {
+              "name": "Open-TCTask"
+            },
+            {
+              "name": "Close-TCTask"
+            }
+          ]
+        },
+        {
+          "name": "TCTimesheets",
+          "children": [
+            {
+              "name": "Get-TCTimesheets"
+            }
+          ]
+        },
+        {
+          "name": "TCTimesheet",
+          "children": [
+            {
+              "name": "Get-TCTimesheet"
+            },
+            {
+              "name": "Add-TCTimesheet"
+            },
+            {
+              "name": "Edit-TCTimesheet"
+            },
+            {
+              "name": "Remove-TCTimesheet"
+            }
+          ]
+        },
+        {
+          "name": "TCDB",
+          "children": [
+            {
+              "name": "Connect-TCDB"
+            }
+          ]
+        },
+        {
+          "name": "TCDBSqlCmd",
+          "children": [
+            {
+              "name": "Invoke-TCDBSqlCmd"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

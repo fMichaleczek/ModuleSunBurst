@@ -1,0 +1,182 @@
+{
+  "name": "Kaido J rvemets",
+  "children": [
+    {
+      "name": "AzureArcConnectedAgentManagement",
+      "companyName": "Kaido J rvemets",
+      "author": "Kaido J rvemets",
+      "children": [
+        {
+          "name": "AzureArcNode",
+          "children": [
+            {
+              "name": "Connect-AzureArcNode"
+            },
+            {
+              "name": "Disconnect-AzureArcNode"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcNodeAgentInformation",
+          "children": [
+            {
+              "name": "Get-AzureArcNodeAgentInformation"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcNodeNetworkConnectivity",
+          "children": [
+            {
+              "name": "Test-AzureArcNodeNetworkConnectivity"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcNodeConfiguration",
+          "children": [
+            {
+              "name": "Set-AzureArcNodeConfiguration"
+            },
+            {
+              "name": "Get-AzureArcNodeConfiguration"
+            },
+            {
+              "name": "Clear-AzureArcNodeConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcAgent",
+          "children": [
+            {
+              "name": "Install-AzureArcAgent"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcNodeLogs",
+          "children": [
+            {
+              "name": "Save-AzureArcNodeLogs"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcNodeServiceStatus",
+          "children": [
+            {
+              "name": "Get-AzureArcNodeServiceStatus"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcNodeService",
+          "children": [
+            {
+              "name": "Restart-AzureArcNodeService"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcNodeConnection",
+          "children": [
+            {
+              "name": "Test-AzureArcNodeConnection"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcNodeAgentConfigurationFileContent",
+          "children": [
+            {
+              "name": "Get-AzureArcNodeAgentConfigurationFileContent"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcNodeAgentLocalConfigurationFileContent",
+          "children": [
+            {
+              "name": "Get-AzureArcNodeAgentLocalConfigurationFileContent"
+            }
+          ]
+        },
+        {
+          "name": "AzureArcNodeAgentInstalledExtensions",
+          "children": [
+            {
+              "name": "Get-AzureArcNodeAgentInstalledExtensions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureArcReOnboardingAssistant",
+      "companyName": "KaidoJarvemets.com",
+      "author": "Kaido J rvemets",
+      "children": [
+        {
+          "name": "AzureArcNodeOffboarding",
+          "children": [
+            {
+              "name": "Invoke-AzureArcNodeOffboarding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DefenderforCloud",
+      "companyName": "Unknown",
+      "author": "Kaido J rvemets",
+      "children": [
+        {
+          "name": "AzureResources",
+          "children": [
+            {
+              "name": "Get-AzureResources"
+            }
+          ]
+        },
+        {
+          "name": "DefenderPlan",
+          "children": [
+            {
+              "name": "Enable-DefenderPlan"
+            },
+            {
+              "name": "Remove-DefenderPlan"
+            }
+          ]
+        },
+        {
+          "name": "DefenderForSQLDataExfiltration",
+          "children": [
+            {
+              "name": "Test-DefenderForSQLDataExfiltration"
+            }
+          ]
+        },
+        {
+          "name": "DefenderForSQLAttack",
+          "children": [
+            {
+              "name": "Test-DefenderForSQLAttack"
+            }
+          ]
+        },
+        {
+          "name": "DefenderforSQLBruteForceAttack",
+          "children": [
+            {
+              "name": "Test-DefenderforSQLBruteForceAttack"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

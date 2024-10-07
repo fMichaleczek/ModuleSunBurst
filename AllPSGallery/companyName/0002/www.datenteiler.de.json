@@ -1,0 +1,43 @@
+{
+  "name": "www.datenteiler.de",
+  "children": [
+    {
+      "name": "InvokeSQLiteQuery",
+      "companyName": "www.datenteiler.de",
+      "author": "Christian Imhorst  datenteiler",
+      "children": [
+        {
+          "name": "SQLiteQuery",
+          "children": [
+            {
+              "name": "Invoke-SQLiteQuery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ReadMsgFile",
+      "companyName": "www.datenteiler.de",
+      "author": "Christian Imhorst",
+      "children": [
+        {
+          "name": "MsgFile",
+          "children": [
+            {
+              "name": "Read-MsgFile"
+            }
+          ]
+        },
+        {
+          "name": "MsgAttachment",
+          "children": [
+            {
+              "name": "Get-MsgAttachment"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

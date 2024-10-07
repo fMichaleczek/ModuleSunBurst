@@ -1,0 +1,906 @@
+{
+  "name": "holycode",
+  "children": [
+    {
+      "name": "AssemblyMeta",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "AssemblyMetaKey",
+          "children": [
+            {
+              "name": "Get-AssemblyMetaKey"
+            }
+          ]
+        },
+        {
+          "name": "AssemblyMetaFile",
+          "children": [
+            {
+              "name": "Get-AssemblyMetaFile"
+            }
+          ]
+        },
+        {
+          "name": "AssemblyMeta",
+          "children": [
+            {
+              "name": "Get-AssemblyMeta"
+            },
+            {
+              "name": "Set-AssemblyMeta"
+            }
+          ]
+        },
+        {
+          "name": "AssemblyVersion",
+          "children": [
+            {
+              "name": "Update-AssemblyVersion"
+            }
+          ]
+        },
+        {
+          "name": "packageVersion",
+          "children": [
+            {
+              "name": "split-packageVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "beam.serverside",
+      "companyName": "Holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "ConfigFile",
+          "children": [
+            {
+              "name": "Get-ConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "StagingConfig",
+          "children": [
+            {
+              "name": "Compare-StagingConfig"
+            }
+          ]
+        },
+        {
+          "name": "FromStaging",
+          "children": [
+            {
+              "name": "Copy-FromStaging"
+            }
+          ]
+        },
+        {
+          "name": "Backup",
+          "children": [
+            {
+              "name": "Restore-Backup"
+            },
+            {
+              "name": "Copy-Backup"
+            }
+          ]
+        },
+        {
+          "name": "ItemFiltered",
+          "children": [
+            {
+              "name": "Copy-ItemFiltered"
+            }
+          ]
+        },
+        {
+          "name": "TaskHere",
+          "children": [
+            {
+              "name": "New-TaskHere"
+            }
+          ]
+        },
+        {
+          "name": "Task",
+          "children": [
+            {
+              "name": "New-Task"
+            }
+          ]
+        },
+        {
+          "name": "BeamScheduledTask",
+          "children": [
+            {
+              "name": "Start-BeamScheduledTask"
+            },
+            {
+              "name": "Stop-BeamScheduledTask"
+            },
+            {
+              "name": "Restart-BeamScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "RemoteFiles",
+          "children": [
+            {
+              "name": "Compare-RemoteFiles"
+            }
+          ]
+        },
+        {
+          "name": "Files",
+          "children": [
+            {
+              "name": "Compare-Files"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Get-Log"
+            }
+          ]
+        },
+        {
+          "name": "DotnetVersion",
+          "children": [
+            {
+              "name": "Get-DotnetVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "beam.serverside.new",
+      "companyName": "Holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "ConfigFile",
+          "children": [
+            {
+              "name": "Get-ConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "StagingConfig",
+          "children": [
+            {
+              "name": "Compare-StagingConfig"
+            }
+          ]
+        },
+        {
+          "name": "FromStaging",
+          "children": [
+            {
+              "name": "Copy-FromStaging"
+            }
+          ]
+        },
+        {
+          "name": "Backup",
+          "children": [
+            {
+              "name": "Restore-Backup"
+            },
+            {
+              "name": "Copy-Backup"
+            }
+          ]
+        },
+        {
+          "name": "ItemFiltered",
+          "children": [
+            {
+              "name": "Copy-ItemFiltered"
+            }
+          ]
+        },
+        {
+          "name": "TaskHere",
+          "children": [
+            {
+              "name": "New-TaskHere"
+            }
+          ]
+        },
+        {
+          "name": "Task",
+          "children": [
+            {
+              "name": "New-Task"
+            }
+          ]
+        },
+        {
+          "name": "BeamScheduledTask",
+          "children": [
+            {
+              "name": "Start-BeamScheduledTask"
+            },
+            {
+              "name": "Stop-BeamScheduledTask"
+            },
+            {
+              "name": "Restart-BeamScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "RemoteFiles",
+          "children": [
+            {
+              "name": "Compare-RemoteFiles"
+            }
+          ]
+        },
+        {
+          "name": "Files",
+          "children": [
+            {
+              "name": "Compare-Files"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Get-Log"
+            }
+          ]
+        },
+        {
+          "name": "DotnetVersion",
+          "children": [
+            {
+              "name": "Get-DotnetVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "csproj",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Sln",
+          "children": [
+            {
+              "name": "Import-Sln"
+            },
+            {
+              "name": "test-sln"
+            }
+          ]
+        },
+        {
+          "name": "Slnprojects",
+          "children": [
+            {
+              "name": "Get-Slnprojects"
+            }
+          ]
+        },
+        {
+          "name": "SlnProject",
+          "children": [
+            {
+              "name": "Remove-SlnProject"
+            },
+            {
+              "name": "Update-SlnProject"
+            }
+          ]
+        },
+        {
+          "name": "RepoRoot",
+          "children": [
+            {
+              "name": "find-RepoRoot"
+            }
+          ]
+        },
+        {
+          "name": "GlobalJson",
+          "children": [
+            {
+              "name": "Find-GlobalJson"
+            }
+          ]
+        },
+        {
+          "name": "InstalledNugets",
+          "children": [
+            {
+              "name": "Get-InstalledNugets"
+            }
+          ]
+        },
+        {
+          "name": "AvailableNugets",
+          "children": [
+            {
+              "name": "Get-AvailableNugets"
+            }
+          ]
+        },
+        {
+          "name": "PackageVersion",
+          "children": [
+            {
+              "name": "Get-PackageVersion"
+            }
+          ]
+        },
+        {
+          "name": "PackageName",
+          "children": [
+            {
+              "name": "Get-PackageName"
+            }
+          ]
+        },
+        {
+          "name": "csproj",
+          "children": [
+            {
+              "name": "import-csproj"
+            }
+          ]
+        },
+        {
+          "name": "nodes",
+          "children": [
+            {
+              "name": "get-nodes"
+            }
+          ]
+        },
+        {
+          "name": "projectreferences",
+          "children": [
+            {
+              "name": "get-projectreferences"
+            }
+          ]
+        },
+        {
+          "name": "externalreferences",
+          "children": [
+            {
+              "name": "get-externalreferences"
+            }
+          ]
+        },
+        {
+          "name": "nugetreferences",
+          "children": [
+            {
+              "name": "get-nugetreferences"
+            }
+          ]
+        },
+        {
+          "name": "systemreferences",
+          "children": [
+            {
+              "name": "get-systemreferences"
+            }
+          ]
+        },
+        {
+          "name": "allreferences",
+          "children": [
+            {
+              "name": "get-allreferences"
+            }
+          ]
+        },
+        {
+          "name": "projectItem",
+          "children": [
+            {
+              "name": "add-projectItem"
+            }
+          ]
+        },
+        {
+          "name": "nuget",
+          "children": [
+            {
+              "name": "convertto-nuget"
+            }
+          ]
+        },
+        {
+          "name": "reference",
+          "children": [
+            {
+              "name": "convert-reference"
+            }
+          ]
+        },
+        {
+          "name": "packagesconfig",
+          "children": [
+            {
+              "name": "get-packagesconfig"
+            },
+            {
+              "name": "set-packagesconfig"
+            }
+          ]
+        },
+        {
+          "name": "packagetoconfig",
+          "children": [
+            {
+              "name": "add-packagetoconfig"
+            }
+          ]
+        },
+        {
+          "name": "packagefromconfig",
+          "children": [
+            {
+              "name": "remove-packagefromconfig"
+            }
+          ]
+        },
+        {
+          "name": "referencestonuget",
+          "children": [
+            {
+              "name": "convert-referencestonuget"
+            }
+          ]
+        },
+        {
+          "name": "referencesTo",
+          "children": [
+            {
+              "name": "get-referencesTo"
+            }
+          ]
+        },
+        {
+          "name": "projectreference",
+          "children": [
+            {
+              "name": "convertto-projectreference"
+            }
+          ]
+        },
+        {
+          "name": "nugetreference",
+          "children": [
+            {
+              "name": "convertto-nugetreference"
+            }
+          ]
+        },
+        {
+          "name": "nugetToProjectReference",
+          "children": [
+            {
+              "name": "convert-nugetToProjectReference"
+            }
+          ]
+        },
+        {
+          "name": "assemblymeta",
+          "children": [
+            {
+              "name": "set-assemblymeta"
+            },
+            {
+              "name": "get-assemblymeta"
+            }
+          ]
+        },
+        {
+          "name": "slndependencies",
+          "children": [
+            {
+              "name": "get-slndependencies"
+            },
+            {
+              "name": "test-slndependencies"
+            }
+          ]
+        },
+        {
+          "name": "slnpaths",
+          "children": [
+            {
+              "name": "repair-slnpaths"
+            }
+          ]
+        },
+        {
+          "name": "csprojdependencies",
+          "children": [
+            {
+              "name": "get-csprojdependencies"
+            }
+          ]
+        },
+        {
+          "name": "csprojpaths",
+          "children": [
+            {
+              "name": "repair-csprojpaths"
+            }
+          ]
+        },
+        {
+          "name": "packagestoprojectjson",
+          "children": [
+            {
+              "name": "convert-packagestoprojectjson"
+            }
+          ]
+        },
+        {
+          "name": "ProjectJSonProjectReferences",
+          "children": [
+            {
+              "name": "repair-ProjectJSonProjectReferences"
+            }
+          ]
+        },
+        {
+          "name": "projects",
+          "children": [
+            {
+              "name": "initialize-projects"
+            },
+            {
+              "name": "use-projects"
+            }
+          ]
+        },
+        {
+          "name": "nugets",
+          "children": [
+            {
+              "name": "push-nugets"
+            }
+          ]
+        },
+        {
+          "name": "BindingRedirects",
+          "children": [
+            {
+              "name": "Copy-BindingRedirects"
+            }
+          ]
+        },
+        {
+          "name": "referencesToStable",
+          "children": [
+            {
+              "name": "update-referencesToStable"
+            }
+          ]
+        },
+        {
+          "name": "unstablePackages",
+          "children": [
+            {
+              "name": "find-unstablePackages"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nupkg",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "ZIPFile",
+          "children": [
+            {
+              "name": "Expand-ZIPFile"
+            }
+          ]
+        },
+        {
+          "name": "nuspec",
+          "children": [
+            {
+              "name": "new-nuspec"
+            }
+          ]
+        },
+        {
+          "name": "InstalledNugets",
+          "children": [
+            {
+              "name": "Get-InstalledNugets"
+            }
+          ]
+        },
+        {
+          "name": "AvailableNugets",
+          "children": [
+            {
+              "name": "Get-AvailableNugets"
+            }
+          ]
+        },
+        {
+          "name": "nugetpush",
+          "children": [
+            {
+              "name": "invoke-nugetpush"
+            }
+          ]
+        },
+        {
+          "name": "nugetpack",
+          "children": [
+            {
+              "name": "invoke-nugetpack"
+            }
+          ]
+        },
+        {
+          "name": "nugetmeta",
+          "children": [
+            {
+              "name": "update-nugetmeta"
+            }
+          ]
+        },
+        {
+          "name": "vcsname",
+          "children": [
+            {
+              "name": "get-vcsname"
+            }
+          ]
+        },
+        {
+          "name": "vcsbranch",
+          "children": [
+            {
+              "name": "get-vcsbranch"
+            }
+          ]
+        },
+        {
+          "name": "vcsrev",
+          "children": [
+            {
+              "name": "get-vcsrev"
+            }
+          ]
+        },
+        {
+          "name": "BuildVersion",
+          "children": [
+            {
+              "name": "Update-BuildVersion"
+            }
+          ]
+        },
+        {
+          "name": "globaljson",
+          "children": [
+            {
+              "name": "find-globaljson"
+            }
+          ]
+        },
+        {
+          "name": "dotnetcommand",
+          "children": [
+            {
+              "name": "get-dotnetcommand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Process",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Console",
+          "children": [
+            {
+              "name": "Write-Console"
+            }
+          ]
+        },
+        {
+          "name": "Indented",
+          "children": [
+            {
+              "name": "Write-Indented"
+            }
+          ]
+        },
+        {
+          "name": "Invoke",
+          "children": [
+            {
+              "name": "Invoke"
+            }
+          ]
+        },
+        {
+          "name": "IsAdmin",
+          "children": [
+            {
+              "name": "Test-IsAdmin"
+            }
+          ]
+        },
+        {
+          "name": "AsAdmin",
+          "children": [
+            {
+              "name": "Invoke-AsAdmin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pubxml",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "pubprofile",
+          "children": [
+            {
+              "name": "update-pubprofile"
+            },
+            {
+              "name": "new-pubprofile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remoting",
+      "companyName": "Holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Rdp",
+          "children": [
+            {
+              "name": "Enter-Rdp"
+            }
+          ]
+        },
+        {
+          "name": "RemoteSession",
+          "children": [
+            {
+              "name": "Enter-RemoteSession"
+            },
+            {
+              "name": "New-RemoteSession"
+            }
+          ]
+        },
+        {
+          "name": "Port",
+          "children": [
+            {
+              "name": "Test-Port"
+            }
+          ]
+        },
+        {
+          "name": "RemoteCert",
+          "children": [
+            {
+              "name": "Get-RemoteCert"
+            }
+          ]
+        },
+        {
+          "name": "SessionMap",
+          "children": [
+            {
+              "name": "Find-SessionMap"
+            }
+          ]
+        },
+        {
+          "name": "sshid",
+          "children": [
+            {
+              "name": "copy-sshid"
+            }
+          ]
+        },
+        {
+          "name": "rpsentry",
+          "children": [
+            {
+              "name": "add-rpsentry"
+            },
+            {
+              "name": "Get-RpsEntry"
+            }
+          ]
+        },
+        {
+          "name": "RemoteFile",
+          "children": [
+            {
+              "name": "Copy-RemoteFile"
+            }
+          ]
+        },
+        {
+          "name": "WinRMTrustedHost",
+          "children": [
+            {
+              "name": "Add-WinRMTrustedHost"
+            }
+          ]
+        },
+        {
+          "name": "SshEntry",
+          "children": [
+            {
+              "name": "Get-SshEntry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SemVer",
+      "companyName": "holycode",
+      "author": "jakub.pawlowski",
+      "children": [
+        {
+          "name": "Version",
+          "children": [
+            {
+              "name": "Update-Version"
+            },
+            {
+              "name": "Split-Version"
+            },
+            {
+              "name": "Join-Version"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "name": "SecureMFA",
+  "children": [
+    {
+      "name": "SecureMFA",
+      "companyName": "SecureMFA",
+      "author": "SecureMFA.com",
+      "children": [
+        {
+          "name": "xOTP",
+          "children": [
+            {
+              "name": "Reset-xOTP"
+            },
+            {
+              "name": "Show-xOTP"
+            },
+            {
+              "name": "Set-xOTP"
+            },
+            {
+              "name": "Get-xOTP"
+            },
+            {
+              "name": "New-xOTP"
+            }
+          ]
+        },
+        {
+          "name": "xHashiCorp",
+          "children": [
+            {
+              "name": "Get-xHashiCorp"
+            }
+          ]
+        },
+        {
+          "name": "xRDWeb",
+          "children": [
+            {
+              "name": "Add-xRDWeb"
+            }
+          ]
+        },
+        {
+          "name": "SecureMFA",
+          "children": [
+            {
+              "name": "Install-SecureMFA"
+            },
+            {
+              "name": "Uninstall-SecureMFA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecureMFA_API_OTP",
+      "companyName": "SecureMFA",
+      "author": "SecureMFA.com",
+      "children": [
+        {
+          "name": "SecureMfaApiOtpProvider",
+          "children": [
+            {
+              "name": "Install-SecureMfaApiOtpProvider"
+            },
+            {
+              "name": "Uninstall-SecureMfaApiOtpProvider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecureMFA_EMAIL_OTP",
+      "companyName": "SecureMFA",
+      "author": "SecureMFA.com",
+      "children": [
+        {
+          "name": "SecureMFAEmailOtpProvider",
+          "children": [
+            {
+              "name": "Install-SecureMFAEmailOtpProvider"
+            },
+            {
+              "name": "Uninstall-SecureMFAEmailOtpProvider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecureMFA_OTP",
+      "companyName": "SecureMFA",
+      "author": "SecureMFA.com",
+      "children": [
+        {
+          "name": "SecureMfaOtpProvider",
+          "children": [
+            {
+              "name": "Install-SecureMfaOtpProvider"
+            },
+            {
+              "name": "Uninstall-SecureMfaOtpProvider"
+            }
+          ]
+        },
+        {
+          "name": "ADFS",
+          "children": [
+            {
+              "name": "Install-ADFS"
+            },
+            {
+              "name": "Add-ADFS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecureMFA_RDS",
+      "companyName": "SecureMFA",
+      "author": "SecureMFA.com",
+      "children": [
+        {
+          "name": "xRDS",
+          "children": [
+            {
+              "name": "Convert-xRDS"
+            },
+            {
+              "name": "Get-xRDS"
+            },
+            {
+              "name": "Invoke-xRDS"
+            },
+            {
+              "name": "Send-xRDS"
+            },
+            {
+              "name": "Remove-xRDS"
+            }
+          ]
+        },
+        {
+          "name": "xRDP",
+          "children": [
+            {
+              "name": "Invoke-xRDP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecureMFA_RDS_OTP",
+      "companyName": "SecureMFA",
+      "author": "SecureMFA.com",
+      "children": [
+        {
+          "name": "SecureMFA",
+          "children": [
+            {
+              "name": "Install-SecureMFA"
+            },
+            {
+              "name": "Uninstall-SecureMFA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecureMFA_SSPR",
+      "companyName": "SecureMFA",
+      "author": "SecureMFA.com",
+      "children": [
+        {
+          "name": "SecureMFA",
+          "children": [
+            {
+              "name": "Get-SecureMFA"
+            },
+            {
+              "name": "Install-SecureMFA"
+            },
+            {
+              "name": "Uninstall-SecureMFA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecureMFA_TDM",
+      "companyName": "SecureMFA",
+      "author": "SecureMFA.com",
+      "children": [
+        {
+          "name": "SecureMfaThreatDetectionModule",
+          "children": [
+            {
+              "name": "Install-SecureMfaThreatDetectionModule"
+            },
+            {
+              "name": "Uninstall-SecureMfaThreatDetectionModule"
+            }
+          ]
+        },
+        {
+          "name": "SecureMfaThreatDetectionModuleConfig",
+          "children": [
+            {
+              "name": "Update-SecureMfaThreatDetectionModuleConfig"
+            }
+          ]
+        },
+        {
+          "name": "ADFS",
+          "children": [
+            {
+              "name": "Update-ADFS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecureMFA_WIN_OTP",
+      "companyName": "SecureMFA",
+      "author": "SecureMFA.com",
+      "children": [
+        {
+          "name": "SecureMFA",
+          "children": [
+            {
+              "name": "Get-SecureMFA"
+            },
+            {
+              "name": "Install-SecureMFA"
+            },
+            {
+              "name": "Uninstall-SecureMFA"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

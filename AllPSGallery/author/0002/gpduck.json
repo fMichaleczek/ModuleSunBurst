@@ -1,0 +1,91 @@
+{
+  "name": "gpduck",
+  "children": [
+    {
+      "name": "PSCommonSql",
+      "companyName": "Unknown",
+      "author": "gpduck",
+      "children": [
+        {
+          "name": "DbProviderFactory",
+          "children": [
+            {
+              "name": "Get-DbProviderFactory"
+            }
+          ]
+        },
+        {
+          "name": "SQLBulkCopy",
+          "children": [
+            {
+              "name": "Invoke-SQLBulkCopy"
+            }
+          ]
+        },
+        {
+          "name": "SqlQuery",
+          "children": [
+            {
+              "name": "Invoke-SqlQuery"
+            }
+          ]
+        },
+        {
+          "name": "SqlConnection",
+          "children": [
+            {
+              "name": "New-SqlConnection"
+            }
+          ]
+        },
+        {
+          "name": "DataTable",
+          "children": [
+            {
+              "name": "Out-DataTable"
+            }
+          ]
+        },
+        {
+          "name": "DbProvider",
+          "children": [
+            {
+              "name": "Register-DbProvider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSCommonSql.Sqlite",
+      "companyName": "Unknown",
+      "author": "gpduck",
+      "children": [
+        {
+          "name": "SqliteDbProviderFactory",
+          "children": [
+            {
+              "name": "Get-SqliteDbProviderFactory"
+            }
+          ]
+        },
+        {
+          "name": "SQLiteConnection",
+          "children": [
+            {
+              "name": "New-SQLiteConnection"
+            }
+          ]
+        },
+        {
+          "name": "SQLiteConnectionString",
+          "children": [
+            {
+              "name": "New-SQLiteConnectionString"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

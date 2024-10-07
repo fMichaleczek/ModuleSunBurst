@@ -1,0 +1,6912 @@
+{
+  "name": "Community",
+  "children": [
+    {
+      "name": "AdvReg",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "RegInfo",
+          "children": [
+            {
+              "name": "Get-RegInfo"
+            }
+          ]
+        },
+        {
+          "name": "RegLink",
+          "children": [
+            {
+              "name": "New-RegLink"
+            },
+            {
+              "name": "Remove-RegLink"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzSpeedTest",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "AzRegion",
+          "children": [
+            {
+              "name": "Get-AzRegion"
+            }
+          ]
+        },
+        {
+          "name": "AzRegionLatency",
+          "children": [
+            {
+              "name": "Test-AzRegionLatency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureADTenantID",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "AzureADTenantId",
+          "children": [
+            {
+              "name": "Get-AzureADTenantId"
+            }
+          ]
+        },
+        {
+          "name": "AzureADCustomDomains",
+          "children": [
+            {
+              "name": "Get-AzureADCustomDomains"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AzureADUserFederation",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "AzureADUserGuestTenants",
+          "children": [
+            {
+              "name": "Get-AzureADUserGuestTenants"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ClassExplorer",
+      "companyName": "Community",
+      "author": "Patrick Meinecke",
+      "children": [
+        {
+          "name": "Member",
+          "children": [
+            {
+              "name": "Find-Member"
+            }
+          ]
+        },
+        {
+          "name": "Type",
+          "children": [
+            {
+              "name": "Find-Type"
+            }
+          ]
+        },
+        {
+          "name": "Assembly",
+          "children": [
+            {
+              "name": "Get-Assembly"
+            }
+          ]
+        },
+        {
+          "name": "Parameter",
+          "children": [
+            {
+              "name": "Get-Parameter"
+            }
+          ]
+        },
+        {
+          "name": "MemberSignature",
+          "children": [
+            {
+              "name": "Format-MemberSignature"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConvertTime",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "UnixTime",
+          "children": [
+            {
+              "name": "Convert-UnixTime"
+            },
+            {
+              "name": "Get-UnixTime"
+            }
+          ]
+        },
+        {
+          "name": "WindowsTime",
+          "children": [
+            {
+              "name": "Convert-WindowsTime"
+            },
+            {
+              "name": "Get-WindowsTime"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ctypes",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "CtypesLib",
+          "children": [
+            {
+              "name": "New-CtypesLib"
+            }
+          ]
+        },
+        {
+          "name": "CtypesStruct",
+          "children": [
+            {
+              "name": "New-CtypesStruct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CustomizeWindows10",
+      "companyName": "Community",
+      "author": "Jaap Brasser & Jan Egil Ring",
+      "children": [
+        {
+          "name": "AppTheme",
+          "children": [
+            {
+              "name": "Set-AppTheme"
+            },
+            {
+              "name": "Get-AppTheme"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellWinX",
+          "children": [
+            {
+              "name": "Add-PowerShellWinX"
+            },
+            {
+              "name": "Remove-PowerShellWinX"
+            },
+            {
+              "name": "Get-PowerShellWinX"
+            }
+          ]
+        },
+        {
+          "name": "OneDriveNavPane",
+          "children": [
+            {
+              "name": "Remove-OneDriveNavPane"
+            },
+            {
+              "name": "Add-OneDriveNavPane"
+            },
+            {
+              "name": "Get-OneDriveNavPane"
+            }
+          ]
+        },
+        {
+          "name": "SnapFill",
+          "children": [
+            {
+              "name": "Enable-SnapFill"
+            },
+            {
+              "name": "Disable-SnapFill"
+            },
+            {
+              "name": "Get-SnapFill"
+            }
+          ]
+        },
+        {
+          "name": "SnapAssist",
+          "children": [
+            {
+              "name": "Enable-SnapAssist"
+            },
+            {
+              "name": "Disable-SnapAssist"
+            },
+            {
+              "name": "Get-SnapAssist"
+            }
+          ]
+        },
+        {
+          "name": "ShowFileExtension",
+          "children": [
+            {
+              "name": "Enable-ShowFileExtension"
+            },
+            {
+              "name": "Disable-ShowFileExtension"
+            },
+            {
+              "name": "Get-ShowFileExtension"
+            }
+          ]
+        },
+        {
+          "name": "ShowHiddenFiles",
+          "children": [
+            {
+              "name": "Enable-ShowHiddenFiles"
+            },
+            {
+              "name": "Disable-ShowHiddenFiles"
+            },
+            {
+              "name": "Get-ShowHiddenFiles"
+            }
+          ]
+        },
+        {
+          "name": "ShowSuperHiddenFiles",
+          "children": [
+            {
+              "name": "Enable-ShowSuperHiddenFiles"
+            },
+            {
+              "name": "Disable-ShowSuperHiddenFiles"
+            },
+            {
+              "name": "Get-ShowSuperHiddenFiles"
+            }
+          ]
+        },
+        {
+          "name": "StartMenuBingSearch",
+          "children": [
+            {
+              "name": "Enable-StartMenuBingSearch"
+            },
+            {
+              "name": "Disable-StartMenuBingSearch"
+            },
+            {
+              "name": "Get-StartMenuBingSearch"
+            }
+          ]
+        },
+        {
+          "name": "ExplorerThisPC",
+          "children": [
+            {
+              "name": "Enable-ExplorerThisPC"
+            },
+            {
+              "name": "Disable-ExplorerThisPC"
+            },
+            {
+              "name": "Get-ExplorerThisPC"
+            }
+          ]
+        },
+        {
+          "name": "Windows7VolumeMixer",
+          "children": [
+            {
+              "name": "Enable-Windows7VolumeMixer"
+            },
+            {
+              "name": "Disable-Windows7VolumeMixer"
+            },
+            {
+              "name": "Get-Windows7VolumeMixer"
+            }
+          ]
+        },
+        {
+          "name": "LockScreen",
+          "children": [
+            {
+              "name": "Enable-LockScreen"
+            },
+            {
+              "name": "Disable-LockScreen"
+            },
+            {
+              "name": "Get-LockScreen"
+            }
+          ]
+        },
+        {
+          "name": "QuickAccessShowRecent",
+          "children": [
+            {
+              "name": "Enable-QuickAccessShowRecent"
+            },
+            {
+              "name": "Disable-QuickAccessShowRecent"
+            },
+            {
+              "name": "Get-QuickAccessShowRecent"
+            }
+          ]
+        },
+        {
+          "name": "QuickAccessShowFrequent",
+          "children": [
+            {
+              "name": "Enable-QuickAccessShowFrequent"
+            },
+            {
+              "name": "Disable-QuickAccessShowFrequent"
+            },
+            {
+              "name": "Get-QuickAccessShowFrequent"
+            }
+          ]
+        },
+        {
+          "name": "AdditionalCalendar",
+          "children": [
+            {
+              "name": "Set-AdditionalCalendar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D4IOT",
+      "companyName": "Community",
+      "author": "Samik Roy",
+      "children": [
+        {
+          "name": "D4IOTUserPassword",
+          "children": [
+            {
+              "name": "Set-D4IOTUserPassword"
+            }
+          ]
+        },
+        {
+          "name": "D4IOTUserPasswordByAdmin",
+          "children": [
+            {
+              "name": "Set-D4IOTUserPasswordByAdmin"
+            }
+          ]
+        },
+        {
+          "name": "D4IOTUserCredential",
+          "children": [
+            {
+              "name": "Validate-D4IOTUserCredential"
+            }
+          ]
+        },
+        {
+          "name": "D4IOTDevices",
+          "children": [
+            {
+              "name": "Get-D4IOTDevices"
+            }
+          ]
+        },
+        {
+          "name": "D4IOTDeviceConnections",
+          "children": [
+            {
+              "name": "Get-D4IOTDeviceConnections"
+            }
+          ]
+        },
+        {
+          "name": "D4IOTDeviceEvents",
+          "children": [
+            {
+              "name": "Get-D4IOTDeviceEvents"
+            }
+          ]
+        },
+        {
+          "name": "D4IOTDeviceAlerts",
+          "children": [
+            {
+              "name": "Get-D4IOTDeviceAlerts"
+            }
+          ]
+        },
+        {
+          "name": "D4IOTDeviceCves",
+          "children": [
+            {
+              "name": "Get-D4IOTDeviceCves"
+            }
+          ]
+        },
+        {
+          "name": "D4IOTDeviceVulnerabilities",
+          "children": [
+            {
+              "name": "Get-D4IOTDeviceVulnerabilities"
+            }
+          ]
+        },
+        {
+          "name": "D4IOTSecurityVulnerabilities",
+          "children": [
+            {
+              "name": "Get-D4IOTSecurityVulnerabilities"
+            }
+          ]
+        },
+        {
+          "name": "D4IOTOperationalVulnerabilities",
+          "children": [
+            {
+              "name": "Get-D4IOTOperationalVulnerabilities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DataProtectionManagerCX",
+      "companyName": "Community",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "DPMCXAgent",
+          "children": [
+            {
+              "name": "Get-DPMCXAgent"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXAgentOwner",
+          "children": [
+            {
+              "name": "Get-DPMCXAgentOwner"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXAlert",
+          "children": [
+            {
+              "name": "Get-DPMCXAlert"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXMARSAgent",
+          "children": [
+            {
+              "name": "Get-DPMCXMARSAgent"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXMARSVersion",
+          "children": [
+            {
+              "name": "Get-DPMCXMARSVersion"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXRecoveryPointStatus",
+          "children": [
+            {
+              "name": "Get-DPMCXRecoveryPointStatus"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXServerConfiguration",
+          "children": [
+            {
+              "name": "Get-DPMCXServerConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXSizingBaseline",
+          "children": [
+            {
+              "name": "Get-DPMCXSizingBaseline"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXVersion",
+          "children": [
+            {
+              "name": "Get-DPMCXVersion"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXMARSAgentReport",
+          "children": [
+            {
+              "name": "New-DPMCXMARSAgentReport"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXRecoveryPointStatusReport",
+          "children": [
+            {
+              "name": "New-DPMCXRecoveryPointStatusReport"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXServerConfigurationReport",
+          "children": [
+            {
+              "name": "New-DPMCXServerConfigurationReport"
+            }
+          ]
+        },
+        {
+          "name": "DPMCXComputer",
+          "children": [
+            {
+              "name": "Test-DPMCXComputer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DynamicDL.Creation",
+      "companyName": "Community",
+      "author": "Franklin J. Lee",
+      "children": [
+        {
+          "name": "DynamicDistributionList",
+          "children": [
+            {
+              "name": "New-DynamicDistributionList"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EditorAstProvider",
+      "companyName": "Community",
+      "author": "Patrick Meinecke",
+      "children": [
+        {
+          "name": "EditorAstPSDrive",
+          "children": [
+            {
+              "name": "New-EditorAstPSDrive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EditorServicesCommandSuite",
+      "companyName": "Community",
+      "author": "Patrick Meinecke",
+      "children": [
+        {
+          "name": "CommandToManifest",
+          "children": [
+            {
+              "name": "Add-CommandToManifest"
+            }
+          ]
+        },
+        {
+          "name": "ModuleQualification",
+          "children": [
+            {
+              "name": "Add-ModuleQualification"
+            }
+          ]
+        },
+        {
+          "name": "PinvokeMethod",
+          "children": [
+            {
+              "name": "Add-PinvokeMethod"
+            }
+          ]
+        },
+        {
+          "name": "FunctionDefinition",
+          "children": [
+            {
+              "name": "ConvertTo-FunctionDefinition"
+            }
+          ]
+        },
+        {
+          "name": "LocalizationString",
+          "children": [
+            {
+              "name": "ConvertTo-LocalizationString"
+            }
+          ]
+        },
+        {
+          "name": "MarkdownHelp",
+          "children": [
+            {
+              "name": "ConvertTo-MarkdownHelp"
+            }
+          ]
+        },
+        {
+          "name": "SplatExpression",
+          "children": [
+            {
+              "name": "ConvertTo-SplatExpression"
+            }
+          ]
+        },
+        {
+          "name": "Expression",
+          "children": [
+            {
+              "name": "Expand-Expression"
+            }
+          ]
+        },
+        {
+          "name": "MemberExpression",
+          "children": [
+            {
+              "name": "Expand-MemberExpression"
+            }
+          ]
+        },
+        {
+          "name": "TypeImplementation",
+          "children": [
+            {
+              "name": "Expand-TypeImplementation"
+            }
+          ]
+        },
+        {
+          "name": "ESCSSettingsFile",
+          "children": [
+            {
+              "name": "New-ESCSSettingsFile"
+            }
+          ]
+        },
+        {
+          "name": "Semicolon",
+          "children": [
+            {
+              "name": "Remove-Semicolon"
+            }
+          ]
+        },
+        {
+          "name": "HangingIndent",
+          "children": [
+            {
+              "name": "Set-HangingIndent"
+            }
+          ]
+        },
+        {
+          "name": "RuleSuppression",
+          "children": [
+            {
+              "name": "Set-RuleSuppression"
+            }
+          ]
+        },
+        {
+          "name": "UsingStatementOrder",
+          "children": [
+            {
+              "name": "Set-UsingStatementOrder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EditorServicesProcess",
+      "companyName": "Community",
+      "author": "Patrick Meinecke",
+      "children": [
+        {
+          "name": "EditorServicesProcess",
+          "children": [
+            {
+              "name": "Enter-EditorServicesProcess"
+            },
+            {
+              "name": "Get-EditorServicesProcess"
+            },
+            {
+              "name": "Invoke-EditorServicesProcess"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GetClrCallStack",
+      "companyName": "Community",
+      "author": "Patrick Meinecke",
+      "children": [
+        {
+          "name": "ClrCallStack",
+          "children": [
+            {
+              "name": "Get-ClrCallStack"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "H2OAI",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "FormData",
+          "children": [
+            {
+              "name": "ConvertTo-FormData"
+            }
+          ]
+        },
+        {
+          "name": "H2OPrediction",
+          "children": [
+            {
+              "name": "Get-H2OPrediction"
+            }
+          ]
+        },
+        {
+          "name": "H2O",
+          "children": [
+            {
+              "name": "Start-H2O"
+            },
+            {
+              "name": "Stop-H2O"
+            }
+          ]
+        },
+        {
+          "name": "H2OJob",
+          "children": [
+            {
+              "name": "Wait-H2OJob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ILAssembler",
+      "companyName": "Community",
+      "author": "Patrick Meinecke",
+      "children": [
+        {
+          "name": "ILDelegate",
+          "children": [
+            {
+              "name": "New-ILDelegate"
+            }
+          ]
+        },
+        {
+          "name": "ldloc.auto",
+          "children": [
+            {
+              "name": "ldloc.auto"
+            }
+          ]
+        },
+        {
+          "name": "stloc.auto",
+          "children": [
+            {
+              "name": "stloc.auto"
+            }
+          ]
+        },
+        {
+          "name": "ldloca.auto",
+          "children": [
+            {
+              "name": "ldloca.auto"
+            }
+          ]
+        },
+        {
+          "name": "ldarg.0",
+          "children": [
+            {
+              "name": "ldarg.0"
+            }
+          ]
+        },
+        {
+          "name": "ldarg.1",
+          "children": [
+            {
+              "name": "ldarg.1"
+            }
+          ]
+        },
+        {
+          "name": "ldarg.2",
+          "children": [
+            {
+              "name": "ldarg.2"
+            }
+          ]
+        },
+        {
+          "name": "ldarg.3",
+          "children": [
+            {
+              "name": "ldarg.3"
+            }
+          ]
+        },
+        {
+          "name": "ldloc.0",
+          "children": [
+            {
+              "name": "ldloc.0"
+            }
+          ]
+        },
+        {
+          "name": "ldloc.1",
+          "children": [
+            {
+              "name": "ldloc.1"
+            }
+          ]
+        },
+        {
+          "name": "ldloc.2",
+          "children": [
+            {
+              "name": "ldloc.2"
+            }
+          ]
+        },
+        {
+          "name": "ldloc.3",
+          "children": [
+            {
+              "name": "ldloc.3"
+            }
+          ]
+        },
+        {
+          "name": "stloc.0",
+          "children": [
+            {
+              "name": "stloc.0"
+            }
+          ]
+        },
+        {
+          "name": "stloc.1",
+          "children": [
+            {
+              "name": "stloc.1"
+            }
+          ]
+        },
+        {
+          "name": "stloc.2",
+          "children": [
+            {
+              "name": "stloc.2"
+            }
+          ]
+        },
+        {
+          "name": "stloc.3",
+          "children": [
+            {
+              "name": "stloc.3"
+            }
+          ]
+        },
+        {
+          "name": "ldarg.s",
+          "children": [
+            {
+              "name": "ldarg.s"
+            }
+          ]
+        },
+        {
+          "name": "ldarga.s",
+          "children": [
+            {
+              "name": "ldarga.s"
+            }
+          ]
+        },
+        {
+          "name": "starg.s",
+          "children": [
+            {
+              "name": "starg.s"
+            }
+          ]
+        },
+        {
+          "name": "ldloc.s",
+          "children": [
+            {
+              "name": "ldloc.s"
+            }
+          ]
+        },
+        {
+          "name": "ldloca.s",
+          "children": [
+            {
+              "name": "ldloca.s"
+            }
+          ]
+        },
+        {
+          "name": "stloc.s",
+          "children": [
+            {
+              "name": "stloc.s"
+            }
+          ]
+        },
+        {
+          "name": "ldnull",
+          "children": [
+            {
+              "name": "ldnull"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.m1",
+          "children": [
+            {
+              "name": "ldc.i4.m1"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.0",
+          "children": [
+            {
+              "name": "ldc.i4.0"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.1",
+          "children": [
+            {
+              "name": "ldc.i4.1"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.2",
+          "children": [
+            {
+              "name": "ldc.i4.2"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.3",
+          "children": [
+            {
+              "name": "ldc.i4.3"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.4",
+          "children": [
+            {
+              "name": "ldc.i4.4"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.5",
+          "children": [
+            {
+              "name": "ldc.i4.5"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.6",
+          "children": [
+            {
+              "name": "ldc.i4.6"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.7",
+          "children": [
+            {
+              "name": "ldc.i4.7"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.8",
+          "children": [
+            {
+              "name": "ldc.i4.8"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4.s",
+          "children": [
+            {
+              "name": "ldc.i4.s"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i4",
+          "children": [
+            {
+              "name": "ldc.i4"
+            }
+          ]
+        },
+        {
+          "name": "ldc.i8",
+          "children": [
+            {
+              "name": "ldc.i8"
+            }
+          ]
+        },
+        {
+          "name": "ldc.r4",
+          "children": [
+            {
+              "name": "ldc.r4"
+            }
+          ]
+        },
+        {
+          "name": "ldc.r8",
+          "children": [
+            {
+              "name": "ldc.r8"
+            }
+          ]
+        },
+        {
+          "name": "call",
+          "children": [
+            {
+              "name": "call"
+            }
+          ]
+        },
+        {
+          "name": "br.s",
+          "children": [
+            {
+              "name": "br.s"
+            }
+          ]
+        },
+        {
+          "name": "brfalse.s",
+          "children": [
+            {
+              "name": "brfalse.s"
+            }
+          ]
+        },
+        {
+          "name": "brtrue.s",
+          "children": [
+            {
+              "name": "brtrue.s"
+            }
+          ]
+        },
+        {
+          "name": "beq.s",
+          "children": [
+            {
+              "name": "beq.s"
+            }
+          ]
+        },
+        {
+          "name": "bge.s",
+          "children": [
+            {
+              "name": "bge.s"
+            }
+          ]
+        },
+        {
+          "name": "bgt.s",
+          "children": [
+            {
+              "name": "bgt.s"
+            }
+          ]
+        },
+        {
+          "name": "ble.s",
+          "children": [
+            {
+              "name": "ble.s"
+            }
+          ]
+        },
+        {
+          "name": "blt.s",
+          "children": [
+            {
+              "name": "blt.s"
+            }
+          ]
+        },
+        {
+          "name": "bne.un.s",
+          "children": [
+            {
+              "name": "bne.un.s"
+            }
+          ]
+        },
+        {
+          "name": "bge.un.s",
+          "children": [
+            {
+              "name": "bge.un.s"
+            }
+          ]
+        },
+        {
+          "name": "bgt.un.s",
+          "children": [
+            {
+              "name": "bgt.un.s"
+            }
+          ]
+        },
+        {
+          "name": "ble.un.s",
+          "children": [
+            {
+              "name": "ble.un.s"
+            }
+          ]
+        },
+        {
+          "name": "blt.un.s",
+          "children": [
+            {
+              "name": "blt.un.s"
+            }
+          ]
+        },
+        {
+          "name": "brfalse",
+          "children": [
+            {
+              "name": "brfalse"
+            }
+          ]
+        },
+        {
+          "name": "brtrue",
+          "children": [
+            {
+              "name": "brtrue"
+            }
+          ]
+        },
+        {
+          "name": "bne.un",
+          "children": [
+            {
+              "name": "bne.un"
+            }
+          ]
+        },
+        {
+          "name": "bge.un",
+          "children": [
+            {
+              "name": "bge.un"
+            }
+          ]
+        },
+        {
+          "name": "bgt.un",
+          "children": [
+            {
+              "name": "bgt.un"
+            }
+          ]
+        },
+        {
+          "name": "ble.un",
+          "children": [
+            {
+              "name": "ble.un"
+            }
+          ]
+        },
+        {
+          "name": "blt.un",
+          "children": [
+            {
+              "name": "blt.un"
+            }
+          ]
+        },
+        {
+          "name": "ldind.i1",
+          "children": [
+            {
+              "name": "ldind.i1"
+            }
+          ]
+        },
+        {
+          "name": "ldind.u1",
+          "children": [
+            {
+              "name": "ldind.u1"
+            }
+          ]
+        },
+        {
+          "name": "ldind.i2",
+          "children": [
+            {
+              "name": "ldind.i2"
+            }
+          ]
+        },
+        {
+          "name": "ldind.u2",
+          "children": [
+            {
+              "name": "ldind.u2"
+            }
+          ]
+        },
+        {
+          "name": "ldind.i4",
+          "children": [
+            {
+              "name": "ldind.i4"
+            }
+          ]
+        },
+        {
+          "name": "calli",
+          "children": [
+            {
+              "name": "calli"
+            }
+          ]
+        },
+        {
+          "name": "ldind.u4",
+          "children": [
+            {
+              "name": "ldind.u4"
+            }
+          ]
+        },
+        {
+          "name": "ldind.i8",
+          "children": [
+            {
+              "name": "ldind.i8"
+            }
+          ]
+        },
+        {
+          "name": "ldind.i",
+          "children": [
+            {
+              "name": "ldind.i"
+            }
+          ]
+        },
+        {
+          "name": "ldind.r4",
+          "children": [
+            {
+              "name": "ldind.r4"
+            }
+          ]
+        },
+        {
+          "name": "ldind.r8",
+          "children": [
+            {
+              "name": "ldind.r8"
+            }
+          ]
+        },
+        {
+          "name": "ldind.ref",
+          "children": [
+            {
+              "name": "ldind.ref"
+            }
+          ]
+        },
+        {
+          "name": "stind.ref",
+          "children": [
+            {
+              "name": "stind.ref"
+            }
+          ]
+        },
+        {
+          "name": "stind.i1",
+          "children": [
+            {
+              "name": "stind.i1"
+            }
+          ]
+        },
+        {
+          "name": "stind.i2",
+          "children": [
+            {
+              "name": "stind.i2"
+            }
+          ]
+        },
+        {
+          "name": "stind.i4",
+          "children": [
+            {
+              "name": "stind.i4"
+            }
+          ]
+        },
+        {
+          "name": "stind.i8",
+          "children": [
+            {
+              "name": "stind.i8"
+            }
+          ]
+        },
+        {
+          "name": "stind.r4",
+          "children": [
+            {
+              "name": "stind.r4"
+            }
+          ]
+        },
+        {
+          "name": "stind.r8",
+          "children": [
+            {
+              "name": "stind.r8"
+            }
+          ]
+        },
+        {
+          "name": "div.un",
+          "children": [
+            {
+              "name": "div.un"
+            }
+          ]
+        },
+        {
+          "name": "rem.un",
+          "children": [
+            {
+              "name": "rem.un"
+            }
+          ]
+        },
+        {
+          "name": "shr.un",
+          "children": [
+            {
+              "name": "shr.un"
+            }
+          ]
+        },
+        {
+          "name": "conv.i1",
+          "children": [
+            {
+              "name": "conv.i1"
+            }
+          ]
+        },
+        {
+          "name": "conv.i2",
+          "children": [
+            {
+              "name": "conv.i2"
+            }
+          ]
+        },
+        {
+          "name": "conv.i4",
+          "children": [
+            {
+              "name": "conv.i4"
+            }
+          ]
+        },
+        {
+          "name": "conv.i8",
+          "children": [
+            {
+              "name": "conv.i8"
+            }
+          ]
+        },
+        {
+          "name": "conv.r4",
+          "children": [
+            {
+              "name": "conv.r4"
+            }
+          ]
+        },
+        {
+          "name": "conv.r8",
+          "children": [
+            {
+              "name": "conv.r8"
+            }
+          ]
+        },
+        {
+          "name": "conv.u4",
+          "children": [
+            {
+              "name": "conv.u4"
+            }
+          ]
+        },
+        {
+          "name": "conv.u8",
+          "children": [
+            {
+              "name": "conv.u8"
+            }
+          ]
+        },
+        {
+          "name": "callvirt",
+          "children": [
+            {
+              "name": "callvirt"
+            }
+          ]
+        },
+        {
+          "name": "cpobj",
+          "children": [
+            {
+              "name": "cpobj"
+            }
+          ]
+        },
+        {
+          "name": "ldobj",
+          "children": [
+            {
+              "name": "ldobj"
+            }
+          ]
+        },
+        {
+          "name": "ldstr",
+          "children": [
+            {
+              "name": "ldstr"
+            }
+          ]
+        },
+        {
+          "name": "newobj",
+          "children": [
+            {
+              "name": "newobj"
+            }
+          ]
+        },
+        {
+          "name": "castclass",
+          "children": [
+            {
+              "name": "castclass"
+            }
+          ]
+        },
+        {
+          "name": "isinst",
+          "children": [
+            {
+              "name": "isinst"
+            }
+          ]
+        },
+        {
+          "name": "conv.r.un",
+          "children": [
+            {
+              "name": "conv.r.un"
+            }
+          ]
+        },
+        {
+          "name": "unbox",
+          "children": [
+            {
+              "name": "unbox"
+            }
+          ]
+        },
+        {
+          "name": "throw",
+          "children": [
+            {
+              "name": "throw"
+            }
+          ]
+        },
+        {
+          "name": "ldfld",
+          "children": [
+            {
+              "name": "ldfld"
+            }
+          ]
+        },
+        {
+          "name": "ldflda",
+          "children": [
+            {
+              "name": "ldflda"
+            }
+          ]
+        },
+        {
+          "name": "stfld",
+          "children": [
+            {
+              "name": "stfld"
+            }
+          ]
+        },
+        {
+          "name": "ldsfld",
+          "children": [
+            {
+              "name": "ldsfld"
+            }
+          ]
+        },
+        {
+          "name": "ldsflda",
+          "children": [
+            {
+              "name": "ldsflda"
+            }
+          ]
+        },
+        {
+          "name": "stsfld",
+          "children": [
+            {
+              "name": "stsfld"
+            }
+          ]
+        },
+        {
+          "name": "stobj",
+          "children": [
+            {
+              "name": "stobj"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.i1.un",
+          "children": [
+            {
+              "name": "conv.ovf.i1.un"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.i2.un",
+          "children": [
+            {
+              "name": "conv.ovf.i2.un"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.i4.un",
+          "children": [
+            {
+              "name": "conv.ovf.i4.un"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.i8.un",
+          "children": [
+            {
+              "name": "conv.ovf.i8.un"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.u1.un",
+          "children": [
+            {
+              "name": "conv.ovf.u1.un"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.u2.un",
+          "children": [
+            {
+              "name": "conv.ovf.u2.un"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.u4.un",
+          "children": [
+            {
+              "name": "conv.ovf.u4.un"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.u8.un",
+          "children": [
+            {
+              "name": "conv.ovf.u8.un"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.i.un",
+          "children": [
+            {
+              "name": "conv.ovf.i.un"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.u.un",
+          "children": [
+            {
+              "name": "conv.ovf.u.un"
+            }
+          ]
+        },
+        {
+          "name": "newarr",
+          "children": [
+            {
+              "name": "newarr"
+            }
+          ]
+        },
+        {
+          "name": "ldlen",
+          "children": [
+            {
+              "name": "ldlen"
+            }
+          ]
+        },
+        {
+          "name": "ldelema",
+          "children": [
+            {
+              "name": "ldelema"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.i1",
+          "children": [
+            {
+              "name": "ldelem.i1"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.u1",
+          "children": [
+            {
+              "name": "ldelem.u1"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.i2",
+          "children": [
+            {
+              "name": "ldelem.i2"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.u2",
+          "children": [
+            {
+              "name": "ldelem.u2"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.i4",
+          "children": [
+            {
+              "name": "ldelem.i4"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.u4",
+          "children": [
+            {
+              "name": "ldelem.u4"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.i8",
+          "children": [
+            {
+              "name": "ldelem.i8"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.i",
+          "children": [
+            {
+              "name": "ldelem.i"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.r4",
+          "children": [
+            {
+              "name": "ldelem.r4"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.r8",
+          "children": [
+            {
+              "name": "ldelem.r8"
+            }
+          ]
+        },
+        {
+          "name": "ldelem.ref",
+          "children": [
+            {
+              "name": "ldelem.ref"
+            }
+          ]
+        },
+        {
+          "name": "stelem.i",
+          "children": [
+            {
+              "name": "stelem.i"
+            }
+          ]
+        },
+        {
+          "name": "stelem.i1",
+          "children": [
+            {
+              "name": "stelem.i1"
+            }
+          ]
+        },
+        {
+          "name": "stelem.i2",
+          "children": [
+            {
+              "name": "stelem.i2"
+            }
+          ]
+        },
+        {
+          "name": "stelem.i4",
+          "children": [
+            {
+              "name": "stelem.i4"
+            }
+          ]
+        },
+        {
+          "name": "stelem.i8",
+          "children": [
+            {
+              "name": "stelem.i8"
+            }
+          ]
+        },
+        {
+          "name": "stelem.r4",
+          "children": [
+            {
+              "name": "stelem.r4"
+            }
+          ]
+        },
+        {
+          "name": "stelem.r8",
+          "children": [
+            {
+              "name": "stelem.r8"
+            }
+          ]
+        },
+        {
+          "name": "stelem.ref",
+          "children": [
+            {
+              "name": "stelem.ref"
+            }
+          ]
+        },
+        {
+          "name": "ldelem",
+          "children": [
+            {
+              "name": "ldelem"
+            }
+          ]
+        },
+        {
+          "name": "stelem",
+          "children": [
+            {
+              "name": "stelem"
+            }
+          ]
+        },
+        {
+          "name": "unbox.any",
+          "children": [
+            {
+              "name": "unbox.any"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.i1",
+          "children": [
+            {
+              "name": "conv.ovf.i1"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.u1",
+          "children": [
+            {
+              "name": "conv.ovf.u1"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.i2",
+          "children": [
+            {
+              "name": "conv.ovf.i2"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.u2",
+          "children": [
+            {
+              "name": "conv.ovf.u2"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.i4",
+          "children": [
+            {
+              "name": "conv.ovf.i4"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.u4",
+          "children": [
+            {
+              "name": "conv.ovf.u4"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.i8",
+          "children": [
+            {
+              "name": "conv.ovf.i8"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.u8",
+          "children": [
+            {
+              "name": "conv.ovf.u8"
+            }
+          ]
+        },
+        {
+          "name": "refanyval",
+          "children": [
+            {
+              "name": "refanyval"
+            }
+          ]
+        },
+        {
+          "name": "ckfinite",
+          "children": [
+            {
+              "name": "ckfinite"
+            }
+          ]
+        },
+        {
+          "name": "mkrefany",
+          "children": [
+            {
+              "name": "mkrefany"
+            }
+          ]
+        },
+        {
+          "name": "ldtoken",
+          "children": [
+            {
+              "name": "ldtoken"
+            }
+          ]
+        },
+        {
+          "name": "conv.u2",
+          "children": [
+            {
+              "name": "conv.u2"
+            }
+          ]
+        },
+        {
+          "name": "conv.u1",
+          "children": [
+            {
+              "name": "conv.u1"
+            }
+          ]
+        },
+        {
+          "name": "conv.i",
+          "children": [
+            {
+              "name": "conv.i"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.i",
+          "children": [
+            {
+              "name": "conv.ovf.i"
+            }
+          ]
+        },
+        {
+          "name": "conv.ovf.u",
+          "children": [
+            {
+              "name": "conv.ovf.u"
+            }
+          ]
+        },
+        {
+          "name": "add.ovf",
+          "children": [
+            {
+              "name": "add.ovf"
+            }
+          ]
+        },
+        {
+          "name": "add.ovf.un",
+          "children": [
+            {
+              "name": "add.ovf.un"
+            }
+          ]
+        },
+        {
+          "name": "mul.ovf",
+          "children": [
+            {
+              "name": "mul.ovf"
+            }
+          ]
+        },
+        {
+          "name": "mul.ovf.un",
+          "children": [
+            {
+              "name": "mul.ovf.un"
+            }
+          ]
+        },
+        {
+          "name": "sub.ovf",
+          "children": [
+            {
+              "name": "sub.ovf"
+            }
+          ]
+        },
+        {
+          "name": "sub.ovf.un",
+          "children": [
+            {
+              "name": "sub.ovf.un"
+            }
+          ]
+        },
+        {
+          "name": "endfinally",
+          "children": [
+            {
+              "name": "endfinally"
+            }
+          ]
+        },
+        {
+          "name": "endfault",
+          "children": [
+            {
+              "name": "endfault"
+            }
+          ]
+        },
+        {
+          "name": "leave",
+          "children": [
+            {
+              "name": "leave"
+            }
+          ]
+        },
+        {
+          "name": "leave.s",
+          "children": [
+            {
+              "name": "leave.s"
+            }
+          ]
+        },
+        {
+          "name": "stind.i",
+          "children": [
+            {
+              "name": "stind.i"
+            }
+          ]
+        },
+        {
+          "name": "conv.u",
+          "children": [
+            {
+              "name": "conv.u"
+            }
+          ]
+        },
+        {
+          "name": "arglist",
+          "children": [
+            {
+              "name": "arglist"
+            }
+          ]
+        },
+        {
+          "name": "cgt.un",
+          "children": [
+            {
+              "name": "cgt.un"
+            }
+          ]
+        },
+        {
+          "name": "clt.un",
+          "children": [
+            {
+              "name": "clt.un"
+            }
+          ]
+        },
+        {
+          "name": "ldftn",
+          "children": [
+            {
+              "name": "ldftn"
+            }
+          ]
+        },
+        {
+          "name": "ldvirtftn",
+          "children": [
+            {
+              "name": "ldvirtftn"
+            }
+          ]
+        },
+        {
+          "name": "ldarg",
+          "children": [
+            {
+              "name": "ldarg"
+            }
+          ]
+        },
+        {
+          "name": "ldarga",
+          "children": [
+            {
+              "name": "ldarga"
+            }
+          ]
+        },
+        {
+          "name": "starg",
+          "children": [
+            {
+              "name": "starg"
+            }
+          ]
+        },
+        {
+          "name": "ldloc",
+          "children": [
+            {
+              "name": "ldloc"
+            }
+          ]
+        },
+        {
+          "name": "ldloca",
+          "children": [
+            {
+              "name": "ldloca"
+            }
+          ]
+        },
+        {
+          "name": "stloc",
+          "children": [
+            {
+              "name": "stloc"
+            }
+          ]
+        },
+        {
+          "name": "localloc",
+          "children": [
+            {
+              "name": "localloc"
+            }
+          ]
+        },
+        {
+          "name": "endfilter",
+          "children": [
+            {
+              "name": "endfilter"
+            }
+          ]
+        },
+        {
+          "name": "unaligned.",
+          "children": [
+            {
+              "name": "unaligned."
+            }
+          ]
+        },
+        {
+          "name": "volatile.",
+          "children": [
+            {
+              "name": "volatile."
+            }
+          ]
+        },
+        {
+          "name": "tail.",
+          "children": [
+            {
+              "name": "tail."
+            }
+          ]
+        },
+        {
+          "name": "initobj",
+          "children": [
+            {
+              "name": "initobj"
+            }
+          ]
+        },
+        {
+          "name": "constrained.",
+          "children": [
+            {
+              "name": "constrained."
+            }
+          ]
+        },
+        {
+          "name": "cpblk",
+          "children": [
+            {
+              "name": "cpblk"
+            }
+          ]
+        },
+        {
+          "name": "initblk",
+          "children": [
+            {
+              "name": "initblk"
+            }
+          ]
+        },
+        {
+          "name": "rethrow",
+          "children": [
+            {
+              "name": "rethrow"
+            }
+          ]
+        },
+        {
+          "name": "sizeof",
+          "children": [
+            {
+              "name": "sizeof"
+            }
+          ]
+        },
+        {
+          "name": "refanytype",
+          "children": [
+            {
+              "name": "refanytype"
+            }
+          ]
+        },
+        {
+          "name": "readonly.",
+          "children": [
+            {
+              "name": "readonly."
+            }
+          ]
+        },
+        {
+          "name": "switch",
+          "children": [
+            {
+              "name": "switch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ImpliedReflection",
+      "companyName": "Community",
+      "author": "Patrick Meinecke",
+      "children": [
+        {
+          "name": "ImpliedReflection",
+          "children": [
+            {
+              "name": "Enable-ImpliedReflection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "joshooaj.platyPS",
+      "companyName": "Community",
+      "author": "Josh Hendricks",
+      "children": [
+        {
+          "name": "MarkdownHelp",
+          "children": [
+            {
+              "name": "New-MarkdownHelp"
+            },
+            {
+              "name": "Update-MarkdownHelp"
+            },
+            {
+              "name": "Merge-MarkdownHelp"
+            }
+          ]
+        },
+        {
+          "name": "MarkdownMetadata",
+          "children": [
+            {
+              "name": "Get-MarkdownMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ExternalHelp",
+          "children": [
+            {
+              "name": "New-ExternalHelp"
+            }
+          ]
+        },
+        {
+          "name": "YamlHelp",
+          "children": [
+            {
+              "name": "New-YamlHelp"
+            }
+          ]
+        },
+        {
+          "name": "HelpPreview",
+          "children": [
+            {
+              "name": "Get-HelpPreview"
+            }
+          ]
+        },
+        {
+          "name": "ExternalHelpCab",
+          "children": [
+            {
+              "name": "New-ExternalHelpCab"
+            }
+          ]
+        },
+        {
+          "name": "MarkdownHelpModule",
+          "children": [
+            {
+              "name": "Update-MarkdownHelpModule"
+            }
+          ]
+        },
+        {
+          "name": "MarkdownAboutHelp",
+          "children": [
+            {
+              "name": "New-MarkdownAboutHelp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "joshooaj.PowerShellBuild",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "PSBuildMAMLHelp",
+          "children": [
+            {
+              "name": "Build-PSBuildMAMLHelp"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildMarkdown",
+          "children": [
+            {
+              "name": "Build-PSBuildMarkdown"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildModule",
+          "children": [
+            {
+              "name": "Build-PSBuildModule"
+            },
+            {
+              "name": "Publish-PSBuildModule"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildUpdatableHelp",
+          "children": [
+            {
+              "name": "Build-PSBuildUpdatableHelp"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildOutputFolder",
+          "children": [
+            {
+              "name": "Clear-PSBuildOutputFolder"
+            }
+          ]
+        },
+        {
+          "name": "PSBuild",
+          "children": [
+            {
+              "name": "Initialize-PSBuild"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildPester",
+          "children": [
+            {
+              "name": "Test-PSBuildPester"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildScriptAnalysis",
+          "children": [
+            {
+              "name": "Test-PSBuildScriptAnalysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JWTDetails",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "JWTDetails",
+          "children": [
+            {
+              "name": "Get-JWTDetails"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MSGraphIntuneManagement",
+      "companyName": "Community",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "MSGraphAuthenticationToken",
+          "children": [
+            {
+              "name": "Get-MSGraphAuthenticationToken"
+            }
+          ]
+        },
+        {
+          "name": "MSGraphAzureADUser",
+          "children": [
+            {
+              "name": "Get-MSGraphAzureADUser"
+            }
+          ]
+        },
+        {
+          "name": "MSGraphIntuneUserDevice",
+          "children": [
+            {
+              "name": "Get-MSGraphIntuneUserDevice"
+            }
+          ]
+        },
+        {
+          "name": "MSGraphIntuneDeviceAction",
+          "children": [
+            {
+              "name": "Invoke-MSGraphIntuneDeviceAction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neo.vTerm",
+      "companyName": "Community",
+      "author": "ExceptionUnknown",
+      "children": [
+        {
+          "name": "vTermStyle",
+          "children": [
+            {
+              "name": "Get-vTermStyle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NetScaler",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "NSCertKeyPair",
+          "children": [
+            {
+              "name": "Add-NSCertKeyPair"
+            }
+          ]
+        },
+        {
+          "name": "NSCSVirtualServerResponderPolicyBinding",
+          "children": [
+            {
+              "name": "Add-NSCSVirtualServerResponderPolicyBinding"
+            },
+            {
+              "name": "Get-NSCSVirtualServerResponderPolicyBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSDnsNameServer",
+          "children": [
+            {
+              "name": "Add-NSDnsNameServer"
+            },
+            {
+              "name": "Get-NSDnsNameServer"
+            }
+          ]
+        },
+        {
+          "name": "NSDnsSuffix",
+          "children": [
+            {
+              "name": "Add-NSDnsSuffix"
+            },
+            {
+              "name": "Get-NSDnsSuffix"
+            },
+            {
+              "name": "Remove-NSDnsSuffix"
+            }
+          ]
+        },
+        {
+          "name": "NSIPResource",
+          "children": [
+            {
+              "name": "Add-NSIPResource"
+            },
+            {
+              "name": "Get-NSIPResource"
+            }
+          ]
+        },
+        {
+          "name": "NSLBServiceGroupMonitorBinding",
+          "children": [
+            {
+              "name": "Add-NSLBServiceGroupMonitorBinding"
+            },
+            {
+              "name": "Get-NSLBServiceGroupMonitorBinding"
+            },
+            {
+              "name": "Remove-NSLBServiceGroupMonitorBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSLBSSLVirtualServerCertificateBinding",
+          "children": [
+            {
+              "name": "Add-NSLBSSLVirtualServerCertificateBinding"
+            },
+            {
+              "name": "Get-NSLBSSLVirtualServerCertificateBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSLBVirtualServerBinding",
+          "children": [
+            {
+              "name": "Add-NSLBVirtualServerBinding"
+            },
+            {
+              "name": "Get-NSLBVirtualServerBinding"
+            },
+            {
+              "name": "Remove-NSLBVirtualServerBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSCSVirtualServerPolicyBinding",
+          "children": [
+            {
+              "name": "Add-NSCSVirtualServerPolicyBinding"
+            },
+            {
+              "name": "Get-NSCSVirtualServerPolicyBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSLBVirtualServerResponderPolicyBinding",
+          "children": [
+            {
+              "name": "Add-NSLBVirtualServerResponderPolicyBinding"
+            },
+            {
+              "name": "Get-NSLBVirtualServerResponderPolicyBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSLBVirtualServerRewritePolicyBinding",
+          "children": [
+            {
+              "name": "Add-NSLBVirtualServerRewritePolicyBinding"
+            },
+            {
+              "name": "Get-NSLBVirtualServerRewritePolicyBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSLBVirtualServerTrafficPolicyBinding",
+          "children": [
+            {
+              "name": "Add-NSLBVirtualServerTrafficPolicyBinding"
+            },
+            {
+              "name": "Get-NSLBVirtualServerTrafficPolicyBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSRSAKey",
+          "children": [
+            {
+              "name": "Add-NSRSAKey"
+            }
+          ]
+        },
+        {
+          "name": "NSServerCertificate",
+          "children": [
+            {
+              "name": "Add-NSServerCertificate"
+            }
+          ]
+        },
+        {
+          "name": "NSSSLCertificateLink",
+          "children": [
+            {
+              "name": "Add-NSSSLCertificateLink"
+            },
+            {
+              "name": "Get-NSSSLCertificateLink"
+            },
+            {
+              "name": "Remove-NSSSLCertificateLink"
+            }
+          ]
+        },
+        {
+          "name": "NSSystemFile",
+          "children": [
+            {
+              "name": "Add-NSSystemFile"
+            },
+            {
+              "name": "Get-NSSystemFile"
+            },
+            {
+              "name": "Remove-NSSystemFile"
+            }
+          ]
+        },
+        {
+          "name": "NSVPNVirtualServerBinding",
+          "children": [
+            {
+              "name": "Add-NSVPNVirtualServerBinding"
+            },
+            {
+              "name": "Get-NSVPNVirtualServerBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSAAASession",
+          "children": [
+            {
+              "name": "Clear-NSAAASession"
+            }
+          ]
+        },
+        {
+          "name": "NSConfig",
+          "children": [
+            {
+              "name": "Clear-NSConfig"
+            },
+            {
+              "name": "Get-NSConfig"
+            },
+            {
+              "name": "Save-NSConfig"
+            }
+          ]
+        },
+        {
+          "name": "NetScaler",
+          "children": [
+            {
+              "name": "Connect-NetScaler"
+            },
+            {
+              "name": "Disconnect-NetScaler"
+            },
+            {
+              "name": "Restart-NetScaler"
+            }
+          ]
+        },
+        {
+          "name": "NSFeature",
+          "children": [
+            {
+              "name": "Disable-NSFeature"
+            },
+            {
+              "name": "Enable-NSFeature"
+            },
+            {
+              "name": "Get-NSFeature"
+            }
+          ]
+        },
+        {
+          "name": "NSLBMonitor",
+          "children": [
+            {
+              "name": "Disable-NSLBMonitor"
+            },
+            {
+              "name": "Enable-NSLBMonitor"
+            },
+            {
+              "name": "Get-NSLBMonitor"
+            },
+            {
+              "name": "New-NSLBMonitor"
+            },
+            {
+              "name": "Remove-NSLBMonitor"
+            }
+          ]
+        },
+        {
+          "name": "NSLBServer",
+          "children": [
+            {
+              "name": "Disable-NSLBServer"
+            },
+            {
+              "name": "Enable-NSLBServer"
+            },
+            {
+              "name": "Get-NSLBServer"
+            },
+            {
+              "name": "New-NSLBServer"
+            },
+            {
+              "name": "Remove-NSLBServer"
+            },
+            {
+              "name": "Set-NSLBServer"
+            }
+          ]
+        },
+        {
+          "name": "NSLBVirtualServer",
+          "children": [
+            {
+              "name": "Disable-NSLBVirtualServer"
+            },
+            {
+              "name": "Enable-NSLBVirtualServer"
+            },
+            {
+              "name": "Get-NSLBVirtualServer"
+            },
+            {
+              "name": "New-NSLBVirtualServer"
+            },
+            {
+              "name": "Remove-NSLBVirtualServer"
+            },
+            {
+              "name": "Set-NSLBVirtualServer"
+            }
+          ]
+        },
+        {
+          "name": "NSMode",
+          "children": [
+            {
+              "name": "Disable-NSMode"
+            },
+            {
+              "name": "Enable-NSMode"
+            },
+            {
+              "name": "Get-NSMode"
+            }
+          ]
+        },
+        {
+          "name": "NSHighAvailability",
+          "children": [
+            {
+              "name": "Enable-NSHighAvailability"
+            }
+          ]
+        },
+        {
+          "name": "NSAAAGroup",
+          "children": [
+            {
+              "name": "Get-NSAAAGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSAAAGroupBinding",
+          "children": [
+            {
+              "name": "Get-NSAAAGroupBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSAAAUser",
+          "children": [
+            {
+              "name": "Get-NSAAAUser"
+            }
+          ]
+        },
+        {
+          "name": "NSAAAUserBinding",
+          "children": [
+            {
+              "name": "Get-NSAAAUserBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSAAAVirtualServer",
+          "children": [
+            {
+              "name": "Get-NSAAAVirtualServer"
+            }
+          ]
+        },
+        {
+          "name": "NSAvailableTimeZone",
+          "children": [
+            {
+              "name": "Get-NSAvailableTimeZone"
+            }
+          ]
+        },
+        {
+          "name": "NSBackup",
+          "children": [
+            {
+              "name": "Get-NSBackup"
+            },
+            {
+              "name": "New-NSBackup"
+            },
+            {
+              "name": "Remove-NSBackup"
+            }
+          ]
+        },
+        {
+          "name": "NSCSAction",
+          "children": [
+            {
+              "name": "Get-NSCSAction"
+            }
+          ]
+        },
+        {
+          "name": "NSCSPolicy",
+          "children": [
+            {
+              "name": "Get-NSCSPolicy"
+            },
+            {
+              "name": "New-NSCSPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSCSVirtualServer",
+          "children": [
+            {
+              "name": "Get-NSCSVirtualServer"
+            },
+            {
+              "name": "New-NSCSVirtualServer"
+            }
+          ]
+        },
+        {
+          "name": "NSCurrentTime",
+          "children": [
+            {
+              "name": "Get-NSCurrentTime"
+            }
+          ]
+        },
+        {
+          "name": "NSHANode",
+          "children": [
+            {
+              "name": "Get-NSHANode"
+            }
+          ]
+        },
+        {
+          "name": "NSHardware",
+          "children": [
+            {
+              "name": "Get-NSHardware"
+            }
+          ]
+        },
+        {
+          "name": "NSHostname",
+          "children": [
+            {
+              "name": "Get-NSHostname"
+            },
+            {
+              "name": "Set-NSHostname"
+            }
+          ]
+        },
+        {
+          "name": "NSIP6Resource",
+          "children": [
+            {
+              "name": "Get-NSIP6Resource"
+            }
+          ]
+        },
+        {
+          "name": "NSKCDAccount",
+          "children": [
+            {
+              "name": "Get-NSKCDAccount"
+            },
+            {
+              "name": "New-NSKCDAccount"
+            }
+          ]
+        },
+        {
+          "name": "NSLBServiceGroup",
+          "children": [
+            {
+              "name": "Get-NSLBServiceGroup"
+            },
+            {
+              "name": "New-NSLBServiceGroup"
+            },
+            {
+              "name": "Remove-NSLBServiceGroup"
+            },
+            {
+              "name": "Set-NSLBServiceGroup"
+            }
+          ]
+        },
+        {
+          "name": "NSLBServiceGroupMemberBinding",
+          "children": [
+            {
+              "name": "Get-NSLBServiceGroupMemberBinding"
+            }
+          ]
+        },
+        {
+          "name": "NSLBSSLVirtualServer",
+          "children": [
+            {
+              "name": "Get-NSLBSSLVirtualServer"
+            },
+            {
+              "name": "Set-NSLBSSLVirtualServer"
+            }
+          ]
+        },
+        {
+          "name": "NSLBSSLVirtualServerProfile",
+          "children": [
+            {
+              "name": "Get-NSLBSSLVirtualServerProfile"
+            },
+            {
+              "name": "Remove-NSLBSSLVirtualServerProfile"
+            },
+            {
+              "name": "Set-NSLBSSLVirtualServerProfile"
+            }
+          ]
+        },
+        {
+          "name": "NSLBStat",
+          "children": [
+            {
+              "name": "Get-NSLBStat"
+            }
+          ]
+        },
+        {
+          "name": "NSLDAPAuthenticationPolicy",
+          "children": [
+            {
+              "name": "Get-NSLDAPAuthenticationPolicy"
+            },
+            {
+              "name": "New-NSLDAPAuthenticationPolicy"
+            },
+            {
+              "name": "Remove-NSLDAPAuthenticationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSLDAPAuthenticationServer",
+          "children": [
+            {
+              "name": "Get-NSLDAPAuthenticationServer"
+            },
+            {
+              "name": "New-NSLDAPAuthenticationServer"
+            },
+            {
+              "name": "Remove-NSLDAPAuthenticationServer"
+            }
+          ]
+        },
+        {
+          "name": "NSLicenseExpiration",
+          "children": [
+            {
+              "name": "Get-NSLicenseExpiration"
+            }
+          ]
+        },
+        {
+          "name": "NSNTPServer",
+          "children": [
+            {
+              "name": "Get-NSNTPServer"
+            },
+            {
+              "name": "New-NSNTPServer"
+            }
+          ]
+        },
+        {
+          "name": "NSResponderAction",
+          "children": [
+            {
+              "name": "Get-NSResponderAction"
+            },
+            {
+              "name": "New-NSResponderAction"
+            },
+            {
+              "name": "Remove-NSResponderAction"
+            },
+            {
+              "name": "Set-NSResponderAction"
+            }
+          ]
+        },
+        {
+          "name": "NSResponderPolicy",
+          "children": [
+            {
+              "name": "Get-NSResponderPolicy"
+            },
+            {
+              "name": "New-NSResponderPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSRewriteAction",
+          "children": [
+            {
+              "name": "Get-NSRewriteAction"
+            },
+            {
+              "name": "New-NSRewriteAction"
+            }
+          ]
+        },
+        {
+          "name": "NSRewritePolicy",
+          "children": [
+            {
+              "name": "Get-NSRewritePolicy"
+            },
+            {
+              "name": "New-NSRewritePolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSSAMLAuthenticationPolicy",
+          "children": [
+            {
+              "name": "Get-NSSAMLAuthenticationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSSAMLAuthenticationServer",
+          "children": [
+            {
+              "name": "Get-NSSAMLAuthenticationServer"
+            }
+          ]
+        },
+        {
+          "name": "NSSSLCertificate",
+          "children": [
+            {
+              "name": "Get-NSSSLCertificate"
+            }
+          ]
+        },
+        {
+          "name": "NSSSLProfile",
+          "children": [
+            {
+              "name": "Get-NSSSLProfile"
+            },
+            {
+              "name": "New-NSSSLProfile"
+            },
+            {
+              "name": "Remove-NSSSLProfile"
+            },
+            {
+              "name": "Set-NSSSLProfile"
+            }
+          ]
+        },
+        {
+          "name": "NSStat",
+          "children": [
+            {
+              "name": "Get-NSStat"
+            }
+          ]
+        },
+        {
+          "name": "NSTimeZone",
+          "children": [
+            {
+              "name": "Get-NSTimeZone"
+            },
+            {
+              "name": "Set-NSTimeZone"
+            }
+          ]
+        },
+        {
+          "name": "NSVersion",
+          "children": [
+            {
+              "name": "Get-NSVersion"
+            }
+          ]
+        },
+        {
+          "name": "NSVPNServer",
+          "children": [
+            {
+              "name": "Get-NSVPNServer"
+            }
+          ]
+        },
+        {
+          "name": "NSVPNSessionPolicy",
+          "children": [
+            {
+              "name": "Get-NSVPNSessionPolicy"
+            },
+            {
+              "name": "New-NSVPNSessionPolicy"
+            },
+            {
+              "name": "Remove-NSVPNSessionPolicy"
+            }
+          ]
+        },
+        {
+          "name": "NSVPNSessionProfile",
+          "children": [
+            {
+              "name": "Get-NSVPNSessionProfile"
+            },
+            {
+              "name": "New-NSVPNSessionProfile"
+            },
+            {
+              "name": "Remove-NSVPNSessionProfile"
+            }
+          ]
+        },
+        {
+          "name": "NSVPNVirtualServer",
+          "children": [
+            {
+              "name": "Get-NSVPNVirtualServer"
+            },
+            {
+              "name": "New-NSVPNVirtualServer"
+            }
+          ]
+        },
+        {
+          "name": "NSVPNVirtualServerTheme",
+          "children": [
+            {
+              "name": "Get-NSVPNVirtualServerTheme"
+            },
+            {
+              "name": "Set-NSVPNVirtualServerTheme"
+            }
+          ]
+        },
+        {
+          "name": "NSLicense",
+          "children": [
+            {
+              "name": "Install-NSLicense"
+            }
+          ]
+        },
+        {
+          "name": "Nitro",
+          "children": [
+            {
+              "name": "Invoke-Nitro"
+            }
+          ]
+        },
+        {
+          "name": "NSLBServiceGroupMember",
+          "children": [
+            {
+              "name": "New-NSLBServiceGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "NSLBServiceGroupMonitor",
+          "children": [
+            {
+              "name": "New-NSLBServiceGroupMonitor"
+            }
+          ]
+        },
+        {
+          "name": "NSAppliance",
+          "children": [
+            {
+              "name": "Update-NSAppliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpenAuthenticode",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "OpenAuthenticodeSignature",
+          "children": [
+            {
+              "name": "Add-OpenAuthenticodeSignature"
+            },
+            {
+              "name": "Clear-OpenAuthenticodeSignature"
+            },
+            {
+              "name": "Get-OpenAuthenticodeSignature"
+            },
+            {
+              "name": "Set-OpenAuthenticodeSignature"
+            }
+          ]
+        },
+        {
+          "name": "OpenAuthenticodeAzKey",
+          "children": [
+            {
+              "name": "Get-OpenAuthenticodeAzKey"
+            }
+          ]
+        },
+        {
+          "name": "OpenAuthenticodeSslDotComKey",
+          "children": [
+            {
+              "name": "Get-OpenAuthenticodeSslDotComKey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pb.Docker-Images",
+      "companyName": "Community",
+      "author": "AT",
+      "children": [
+        {
+          "name": "Images",
+          "children": [
+            {
+              "name": "Docker-Images"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pb.Docker-Inspect",
+      "companyName": "Community",
+      "author": "Amin Teimoortagh",
+      "children": [
+        {
+          "name": "Inspect",
+          "children": [
+            {
+              "name": "Docker-Inspect"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pb.Docker-PS",
+      "companyName": "Community",
+      "author": "AT",
+      "children": [
+        {
+          "name": "PS",
+          "children": [
+            {
+              "name": "Docker-PS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pb.RestartService",
+      "companyName": "Community",
+      "author": "AT",
+      "children": [
+        {
+          "name": "Service",
+          "children": [
+            {
+              "name": "Restart-Service"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PKCE",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "PKCE",
+          "children": [
+            {
+              "name": "New-PKCE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "PoshBot",
+          "children": [
+            {
+              "name": "Get-PoshBot"
+            },
+            {
+              "name": "Start-PoshBot"
+            },
+            {
+              "name": "Stop-Poshbot"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotConfiguration",
+          "children": [
+            {
+              "name": "Get-PoshBotConfiguration"
+            },
+            {
+              "name": "New-PoshBotConfiguration"
+            },
+            {
+              "name": "Save-PoshBotConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotStatefulData",
+          "children": [
+            {
+              "name": "Get-PoshBotStatefulData"
+            },
+            {
+              "name": "Remove-PoshBotStatefulData"
+            },
+            {
+              "name": "Set-PoshBotStatefulData"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotAce",
+          "children": [
+            {
+              "name": "New-PoshBotAce"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotBackend",
+          "children": [
+            {
+              "name": "New-PoshBotBackend"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotDiscordBackend",
+          "children": [
+            {
+              "name": "New-PoshBotDiscordBackend"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotFileUpload",
+          "children": [
+            {
+              "name": "New-PoshBotFileUpload"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotInstance",
+          "children": [
+            {
+              "name": "New-PoshBotInstance"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotMiddlewareHook",
+          "children": [
+            {
+              "name": "New-PoshBotMiddlewareHook"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotScheduledTask",
+          "children": [
+            {
+              "name": "New-PoshBotScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotSlackBackend",
+          "children": [
+            {
+              "name": "New-PoshBotSlackBackend"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotTeamsBackend",
+          "children": [
+            {
+              "name": "New-PoshBotTeamsBackend"
+            }
+          ]
+        },
+        {
+          "name": "HelloPlugin",
+          "children": [
+            {
+              "name": "New-HelloPlugin"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotCardResponse",
+          "children": [
+            {
+              "name": "New-PoshBotCardResponse"
+            }
+          ]
+        },
+        {
+          "name": "PoshBotTextResponse",
+          "children": [
+            {
+              "name": "New-PoshBotTextResponse"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.8ball",
+      "companyName": "Community",
+      "author": "Anthony Howell",
+      "children": [
+        {
+          "name": "8ball",
+          "children": [
+            {
+              "name": "Invoke-8ball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.AD",
+      "companyName": "Community",
+      "author": "Vladimir Stepic",
+      "children": [
+        {
+          "name": "GetAdUserTel",
+          "children": [
+            {
+              "name": "Invoke-GetAdUserTel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.AzureAD",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "AADUser",
+          "children": [
+            {
+              "name": "Find-AADUser"
+            },
+            {
+              "name": "Get-AADUser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.Calculator",
+      "companyName": "Community",
+      "author": "Anthony Howell",
+      "children": [
+        {
+          "name": "Calculation",
+          "children": [
+            {
+              "name": "Invoke-Calculation"
+            }
+          ]
+        },
+        {
+          "name": "SquareRoot",
+          "children": [
+            {
+              "name": "Invoke-SquareRoot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.Dilbert",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "Dilbert",
+          "children": [
+            {
+              "name": "Get-Dilbert"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poshbot.Example",
+      "companyName": "Community",
+      "author": "Warren Frame",
+      "children": [
+        {
+          "name": "ADCentralAccessPolicyMember",
+          "children": [
+            {
+              "name": "Add-ADCentralAccessPolicyMember"
+            },
+            {
+              "name": "Remove-ADCentralAccessPolicyMember"
+            }
+          ]
+        },
+        {
+          "name": "ADComputerServiceAccount",
+          "children": [
+            {
+              "name": "Add-ADComputerServiceAccount"
+            },
+            {
+              "name": "Get-ADComputerServiceAccount"
+            },
+            {
+              "name": "Remove-ADComputerServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "ADDomainControllerPasswordReplicationPolicy",
+          "children": [
+            {
+              "name": "Add-ADDomainControllerPasswordReplicationPolicy"
+            },
+            {
+              "name": "Get-ADDomainControllerPasswordReplicationPolicy"
+            },
+            {
+              "name": "Remove-ADDomainControllerPasswordReplicationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADFineGrainedPasswordPolicySubject",
+          "children": [
+            {
+              "name": "Add-ADFineGrainedPasswordPolicySubject"
+            },
+            {
+              "name": "Get-ADFineGrainedPasswordPolicySubject"
+            },
+            {
+              "name": "Remove-ADFineGrainedPasswordPolicySubject"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupMember",
+          "children": [
+            {
+              "name": "Add-ADGroupMember"
+            },
+            {
+              "name": "Get-ADGroupMember"
+            },
+            {
+              "name": "Remove-ADGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "ADPrincipalGroupMembership",
+          "children": [
+            {
+              "name": "Add-ADPrincipalGroupMembership"
+            },
+            {
+              "name": "Get-ADPrincipalGroupMembership"
+            },
+            {
+              "name": "Remove-ADPrincipalGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "ADResourcePropertyListMember",
+          "children": [
+            {
+              "name": "Add-ADResourcePropertyListMember"
+            },
+            {
+              "name": "Remove-ADResourcePropertyListMember"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountExpiration",
+          "children": [
+            {
+              "name": "Clear-ADAccountExpiration"
+            },
+            {
+              "name": "Set-ADAccountExpiration"
+            }
+          ]
+        },
+        {
+          "name": "ADClaimTransformLink",
+          "children": [
+            {
+              "name": "Clear-ADClaimTransformLink"
+            },
+            {
+              "name": "Set-ADClaimTransformLink"
+            }
+          ]
+        },
+        {
+          "name": "ADAccount",
+          "children": [
+            {
+              "name": "Disable-ADAccount"
+            },
+            {
+              "name": "Enable-ADAccount"
+            },
+            {
+              "name": "Search-ADAccount"
+            },
+            {
+              "name": "Unlock-ADAccount"
+            }
+          ]
+        },
+        {
+          "name": "ADOptionalFeature",
+          "children": [
+            {
+              "name": "Disable-ADOptionalFeature"
+            },
+            {
+              "name": "Enable-ADOptionalFeature"
+            },
+            {
+              "name": "Get-ADOptionalFeature"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountAuthorizationGroup",
+          "children": [
+            {
+              "name": "Get-ADAccountAuthorizationGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountResultantPasswordReplicationPolicy",
+          "children": [
+            {
+              "name": "Get-ADAccountResultantPasswordReplicationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADAuthenticationPolicy",
+          "children": [
+            {
+              "name": "Get-ADAuthenticationPolicy"
+            },
+            {
+              "name": "New-ADAuthenticationPolicy"
+            },
+            {
+              "name": "Remove-ADAuthenticationPolicy"
+            },
+            {
+              "name": "Set-ADAuthenticationPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADAuthenticationPolicySilo",
+          "children": [
+            {
+              "name": "Get-ADAuthenticationPolicySilo"
+            },
+            {
+              "name": "New-ADAuthenticationPolicySilo"
+            },
+            {
+              "name": "Remove-ADAuthenticationPolicySilo"
+            },
+            {
+              "name": "Set-ADAuthenticationPolicySilo"
+            }
+          ]
+        },
+        {
+          "name": "ADCentralAccessPolicy",
+          "children": [
+            {
+              "name": "Get-ADCentralAccessPolicy"
+            },
+            {
+              "name": "New-ADCentralAccessPolicy"
+            },
+            {
+              "name": "Remove-ADCentralAccessPolicy"
+            },
+            {
+              "name": "Set-ADCentralAccessPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADCentralAccessRule",
+          "children": [
+            {
+              "name": "Get-ADCentralAccessRule"
+            },
+            {
+              "name": "New-ADCentralAccessRule"
+            },
+            {
+              "name": "Remove-ADCentralAccessRule"
+            },
+            {
+              "name": "Set-ADCentralAccessRule"
+            }
+          ]
+        },
+        {
+          "name": "ADClaimTransformPolicy",
+          "children": [
+            {
+              "name": "Get-ADClaimTransformPolicy"
+            },
+            {
+              "name": "New-ADClaimTransformPolicy"
+            },
+            {
+              "name": "Remove-ADClaimTransformPolicy"
+            },
+            {
+              "name": "Set-ADClaimTransformPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADClaimType",
+          "children": [
+            {
+              "name": "Get-ADClaimType"
+            },
+            {
+              "name": "New-ADClaimType"
+            },
+            {
+              "name": "Remove-ADClaimType"
+            },
+            {
+              "name": "Set-ADClaimType"
+            }
+          ]
+        },
+        {
+          "name": "ADComputer",
+          "children": [
+            {
+              "name": "Get-ADComputer"
+            },
+            {
+              "name": "New-ADComputer"
+            },
+            {
+              "name": "Remove-ADComputer"
+            },
+            {
+              "name": "Set-ADComputer"
+            }
+          ]
+        },
+        {
+          "name": "ADDCCloningExcludedApplicationList",
+          "children": [
+            {
+              "name": "Get-ADDCCloningExcludedApplicationList"
+            }
+          ]
+        },
+        {
+          "name": "ADDefaultDomainPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-ADDefaultDomainPasswordPolicy"
+            },
+            {
+              "name": "Set-ADDefaultDomainPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADDomain",
+          "children": [
+            {
+              "name": "Get-ADDomain"
+            },
+            {
+              "name": "Set-ADDomain"
+            }
+          ]
+        },
+        {
+          "name": "ADDomainController",
+          "children": [
+            {
+              "name": "Get-ADDomainController"
+            }
+          ]
+        },
+        {
+          "name": "ADDomainControllerPasswordReplicationPolicyUsage",
+          "children": [
+            {
+              "name": "Get-ADDomainControllerPasswordReplicationPolicyUsage"
+            }
+          ]
+        },
+        {
+          "name": "ADFineGrainedPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-ADFineGrainedPasswordPolicy"
+            },
+            {
+              "name": "New-ADFineGrainedPasswordPolicy"
+            },
+            {
+              "name": "Remove-ADFineGrainedPasswordPolicy"
+            },
+            {
+              "name": "Set-ADFineGrainedPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADForest",
+          "children": [
+            {
+              "name": "Get-ADForest"
+            },
+            {
+              "name": "Set-ADForest"
+            }
+          ]
+        },
+        {
+          "name": "ADGroup",
+          "children": [
+            {
+              "name": "Get-ADGroup"
+            },
+            {
+              "name": "New-ADGroup"
+            },
+            {
+              "name": "Remove-ADGroup"
+            },
+            {
+              "name": "Set-ADGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADObject",
+          "children": [
+            {
+              "name": "Get-ADObject"
+            },
+            {
+              "name": "Move-ADObject"
+            },
+            {
+              "name": "New-ADObject"
+            },
+            {
+              "name": "Remove-ADObject"
+            },
+            {
+              "name": "Rename-ADObject"
+            },
+            {
+              "name": "Restore-ADObject"
+            },
+            {
+              "name": "Set-ADObject"
+            },
+            {
+              "name": "Sync-ADObject"
+            }
+          ]
+        },
+        {
+          "name": "ADOrganizationalUnit",
+          "children": [
+            {
+              "name": "Get-ADOrganizationalUnit"
+            },
+            {
+              "name": "New-ADOrganizationalUnit"
+            },
+            {
+              "name": "Remove-ADOrganizationalUnit"
+            },
+            {
+              "name": "Set-ADOrganizationalUnit"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationAttributeMetadata",
+          "children": [
+            {
+              "name": "Get-ADReplicationAttributeMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationConnection",
+          "children": [
+            {
+              "name": "Get-ADReplicationConnection"
+            },
+            {
+              "name": "Set-ADReplicationConnection"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationFailure",
+          "children": [
+            {
+              "name": "Get-ADReplicationFailure"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationPartnerMetadata",
+          "children": [
+            {
+              "name": "Get-ADReplicationPartnerMetadata"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationQueueOperation",
+          "children": [
+            {
+              "name": "Get-ADReplicationQueueOperation"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationSite",
+          "children": [
+            {
+              "name": "Get-ADReplicationSite"
+            },
+            {
+              "name": "New-ADReplicationSite"
+            },
+            {
+              "name": "Remove-ADReplicationSite"
+            },
+            {
+              "name": "Set-ADReplicationSite"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationSiteLink",
+          "children": [
+            {
+              "name": "Get-ADReplicationSiteLink"
+            },
+            {
+              "name": "New-ADReplicationSiteLink"
+            },
+            {
+              "name": "Remove-ADReplicationSiteLink"
+            },
+            {
+              "name": "Set-ADReplicationSiteLink"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationSiteLinkBridge",
+          "children": [
+            {
+              "name": "Get-ADReplicationSiteLinkBridge"
+            },
+            {
+              "name": "New-ADReplicationSiteLinkBridge"
+            },
+            {
+              "name": "Remove-ADReplicationSiteLinkBridge"
+            },
+            {
+              "name": "Set-ADReplicationSiteLinkBridge"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationSubnet",
+          "children": [
+            {
+              "name": "Get-ADReplicationSubnet"
+            },
+            {
+              "name": "New-ADReplicationSubnet"
+            },
+            {
+              "name": "Remove-ADReplicationSubnet"
+            },
+            {
+              "name": "Set-ADReplicationSubnet"
+            }
+          ]
+        },
+        {
+          "name": "ADReplicationUpToDatenessVectorTable",
+          "children": [
+            {
+              "name": "Get-ADReplicationUpToDatenessVectorTable"
+            }
+          ]
+        },
+        {
+          "name": "ADResourceProperty",
+          "children": [
+            {
+              "name": "Get-ADResourceProperty"
+            },
+            {
+              "name": "New-ADResourceProperty"
+            },
+            {
+              "name": "Remove-ADResourceProperty"
+            },
+            {
+              "name": "Set-ADResourceProperty"
+            }
+          ]
+        },
+        {
+          "name": "ADResourcePropertyList",
+          "children": [
+            {
+              "name": "Get-ADResourcePropertyList"
+            },
+            {
+              "name": "New-ADResourcePropertyList"
+            },
+            {
+              "name": "Remove-ADResourcePropertyList"
+            },
+            {
+              "name": "Set-ADResourcePropertyList"
+            }
+          ]
+        },
+        {
+          "name": "ADResourcePropertyValueType",
+          "children": [
+            {
+              "name": "Get-ADResourcePropertyValueType"
+            }
+          ]
+        },
+        {
+          "name": "ADRootDSE",
+          "children": [
+            {
+              "name": "Get-ADRootDSE"
+            }
+          ]
+        },
+        {
+          "name": "ADServiceAccount",
+          "children": [
+            {
+              "name": "Get-ADServiceAccount"
+            },
+            {
+              "name": "Install-ADServiceAccount"
+            },
+            {
+              "name": "New-ADServiceAccount"
+            },
+            {
+              "name": "Remove-ADServiceAccount"
+            },
+            {
+              "name": "Set-ADServiceAccount"
+            },
+            {
+              "name": "Test-ADServiceAccount"
+            },
+            {
+              "name": "Uninstall-ADServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "ADTrust",
+          "children": [
+            {
+              "name": "Get-ADTrust"
+            }
+          ]
+        },
+        {
+          "name": "ADUser",
+          "children": [
+            {
+              "name": "Get-ADUser"
+            },
+            {
+              "name": "New-ADUser"
+            },
+            {
+              "name": "Remove-ADUser"
+            },
+            {
+              "name": "Set-ADUser"
+            }
+          ]
+        },
+        {
+          "name": "ADUserResultantPasswordPolicy",
+          "children": [
+            {
+              "name": "Get-ADUserResultantPasswordPolicy"
+            }
+          ]
+        },
+        {
+          "name": "ADAuthenticationPolicySiloAccess",
+          "children": [
+            {
+              "name": "Grant-ADAuthenticationPolicySiloAccess"
+            },
+            {
+              "name": "Revoke-ADAuthenticationPolicySiloAccess"
+            }
+          ]
+        },
+        {
+          "name": "ADDirectoryServer",
+          "children": [
+            {
+              "name": "Move-ADDirectoryServer"
+            }
+          ]
+        },
+        {
+          "name": "ADDirectoryServerOperationMasterRole",
+          "children": [
+            {
+              "name": "Move-ADDirectoryServerOperationMasterRole"
+            }
+          ]
+        },
+        {
+          "name": "ADDCCloneConfigFile",
+          "children": [
+            {
+              "name": "New-ADDCCloneConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "ADServiceAccountPassword",
+          "children": [
+            {
+              "name": "Reset-ADServiceAccountPassword"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountAuthenticationPolicySilo",
+          "children": [
+            {
+              "name": "Set-ADAccountAuthenticationPolicySilo"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountControl",
+          "children": [
+            {
+              "name": "Set-ADAccountControl"
+            }
+          ]
+        },
+        {
+          "name": "ADAccountPassword",
+          "children": [
+            {
+              "name": "Set-ADAccountPassword"
+            }
+          ]
+        },
+        {
+          "name": "ADDomainMode",
+          "children": [
+            {
+              "name": "Set-ADDomainMode"
+            }
+          ]
+        },
+        {
+          "name": "ADForestMode",
+          "children": [
+            {
+              "name": "Set-ADForestMode"
+            }
+          ]
+        },
+        {
+          "name": "ADAuthenticationPolicyExpression",
+          "children": [
+            {
+              "name": "Show-ADAuthenticationPolicyExpression"
+            }
+          ]
+        },
+        {
+          "name": "VariableViaSlack",
+          "children": [
+            {
+              "name": "Get-VariableViaSlack"
+            }
+          ]
+        },
+        {
+          "name": "ADUserViaSlack",
+          "children": [
+            {
+              "name": "Get-ADUserViaSlack"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.Giphy",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "Giphy",
+          "children": [
+            {
+              "name": "Get-Giphy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.Inspect",
+      "companyName": "Community",
+      "author": "Andrew Pla",
+      "children": [
+        {
+          "name": "Command",
+          "children": [
+            {
+              "name": "Inspect-Command"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.Karma",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "Karma",
+          "children": [
+            {
+              "name": "Add-Karma"
+            },
+            {
+              "name": "Remove-Karma"
+            },
+            {
+              "name": "Karma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.LithnetMIISAutomation",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "MVStats",
+          "children": [
+            {
+              "name": "Get-MVStats"
+            }
+          ]
+        },
+        {
+          "name": "MVPerson",
+          "children": [
+            {
+              "name": "Find-MVPerson"
+            },
+            {
+              "name": "Get-MVPerson"
+            }
+          ]
+        },
+        {
+          "name": "MVObject",
+          "children": [
+            {
+              "name": "Find-MVObject"
+            }
+          ]
+        },
+        {
+          "name": "MVObj",
+          "children": [
+            {
+              "name": "Get-MVObj"
+            }
+          ]
+        },
+        {
+          "name": "MVPersonConnectors",
+          "children": [
+            {
+              "name": "Get-MVPersonConnectors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.LithnetRMA",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "PendingApprovalRequest",
+          "children": [
+            {
+              "name": "Set-PendingApprovalRequest"
+            }
+          ]
+        },
+        {
+          "name": "ApprovalRequest",
+          "children": [
+            {
+              "name": "Get-ApprovalRequest"
+            }
+          ]
+        },
+        {
+          "name": "RMConfig",
+          "children": [
+            {
+              "name": "Import-RMConfig"
+            }
+          ]
+        },
+        {
+          "name": "XPathExpression",
+          "children": [
+            {
+              "name": "New-XPathExpression"
+            }
+          ]
+        },
+        {
+          "name": "XPathQueryGroup",
+          "children": [
+            {
+              "name": "New-XPathQueryGroup"
+            }
+          ]
+        },
+        {
+          "name": "XPathQuery",
+          "children": [
+            {
+              "name": "New-XPathQuery"
+            }
+          ]
+        },
+        {
+          "name": "ResourceUpdateTemplate",
+          "children": [
+            {
+              "name": "New-ResourceUpdateTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ResourceCount",
+          "children": [
+            {
+              "name": "Get-ResourceCount"
+            }
+          ]
+        },
+        {
+          "name": "ResourcesPaged",
+          "children": [
+            {
+              "name": "Search-ResourcesPaged"
+            }
+          ]
+        },
+        {
+          "name": "ResourceManagementClientSchema",
+          "children": [
+            {
+              "name": "Update-ResourceManagementClientSchema"
+            }
+          ]
+        },
+        {
+          "name": "Resource",
+          "children": [
+            {
+              "name": "Remove-Resource"
+            },
+            {
+              "name": "New-Resource"
+            },
+            {
+              "name": "Save-Resource"
+            },
+            {
+              "name": "Get-Resource"
+            }
+          ]
+        },
+        {
+          "name": "Resources",
+          "children": [
+            {
+              "name": "Search-Resources"
+            }
+          ]
+        },
+        {
+          "name": "ResourceManagementClient",
+          "children": [
+            {
+              "name": "Set-ResourceManagementClient"
+            }
+          ]
+        },
+        {
+          "name": "Person",
+          "children": [
+            {
+              "name": "Find-Person"
+            },
+            {
+              "name": "Get-Person"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.Networking",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "Ping",
+          "children": [
+            {
+              "name": "Invoke-Ping"
+            }
+          ]
+        },
+        {
+          "name": "Dig",
+          "children": [
+            {
+              "name": "Invoke-Dig"
+            }
+          ]
+        },
+        {
+          "name": "TestPort",
+          "children": [
+            {
+              "name": "Invoke-TestPort"
+            }
+          ]
+        },
+        {
+          "name": "WebServerInfo",
+          "children": [
+            {
+              "name": "Get-WebServerInfo"
+            }
+          ]
+        },
+        {
+          "name": "GeoLocIp",
+          "children": [
+            {
+              "name": "Get-GeoLocIp"
+            }
+          ]
+        },
+        {
+          "name": "NetASInfo",
+          "children": [
+            {
+              "name": "Get-NetASInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.Soon",
+      "companyName": "Community",
+      "author": "Gary Ewan Park Maurice Kevenaar",
+      "children": [
+        {
+          "name": "Soon",
+          "children": [
+            {
+              "name": "Get-Soon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.Spark.Backend",
+      "companyName": "Community",
+      "author": "Andrew Childs",
+      "children": [
+        {
+          "name": "PoshBotSparkBackend",
+          "children": [
+            {
+              "name": "New-PoshBotSparkBackend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.TicTacToe",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "TicTacToeGame",
+          "children": [
+            {
+              "name": "New-TicTacToeGame"
+            }
+          ]
+        },
+        {
+          "name": "BoardSquare",
+          "children": [
+            {
+              "name": "Set-BoardSquare"
+            }
+          ]
+        },
+        {
+          "name": "Game",
+          "children": [
+            {
+              "name": "Show-Game"
+            }
+          ]
+        },
+        {
+          "name": "Stat",
+          "children": [
+            {
+              "name": "Show-Stat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poshbot.VMware",
+      "companyName": "Community",
+      "author": "Xi ErDe",
+      "children": [
+        {
+          "name": "PowerCLI",
+          "children": [
+            {
+              "name": "Invoke-PowerCLI"
+            }
+          ]
+        },
+        {
+          "name": "SnapshotPoshbot",
+          "children": [
+            {
+              "name": "New-SnapshotPoshbot"
+            },
+            {
+              "name": "Get-SnapshotPoshbot"
+            },
+            {
+              "name": "Remove-SnapshotPoshbot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poshbot.vSphere",
+      "companyName": "Community",
+      "author": "Hackathon Team",
+      "children": [
+        {
+          "name": "PBVMNote",
+          "children": [
+            {
+              "name": "Add-PBVMNote"
+            }
+          ]
+        },
+        {
+          "name": "PBVMTag",
+          "children": [
+            {
+              "name": "Add-PBVMTag"
+            },
+            {
+              "name": "Get-PBVMTag"
+            }
+          ]
+        },
+        {
+          "name": "PBCluster",
+          "children": [
+            {
+              "name": "Get-PBCluster"
+            }
+          ]
+        },
+        {
+          "name": "PBContentLibrary",
+          "children": [
+            {
+              "name": "Get-PBContentLibrary"
+            }
+          ]
+        },
+        {
+          "name": "PBContentLibraryItem",
+          "children": [
+            {
+              "name": "Get-PBContentLibraryItem"
+            }
+          ]
+        },
+        {
+          "name": "PBDatacenter",
+          "children": [
+            {
+              "name": "Get-PBDatacenter"
+            }
+          ]
+        },
+        {
+          "name": "PBDatastore",
+          "children": [
+            {
+              "name": "Get-PBDatastore"
+            }
+          ]
+        },
+        {
+          "name": "PBDatastoreCapacityAll",
+          "children": [
+            {
+              "name": "Get-PBDatastoreCapacityAll"
+            }
+          ]
+        },
+        {
+          "name": "PBFolder",
+          "children": [
+            {
+              "name": "Get-PBFolder"
+            }
+          ]
+        },
+        {
+          "name": "PBHost",
+          "children": [
+            {
+              "name": "Get-PBHost"
+            }
+          ]
+        },
+        {
+          "name": "PBResourcePool",
+          "children": [
+            {
+              "name": "Get-PBResourcePool"
+            }
+          ]
+        },
+        {
+          "name": "PBTemplate",
+          "children": [
+            {
+              "name": "Get-PBTemplate"
+            }
+          ]
+        },
+        {
+          "name": "PBVM",
+          "children": [
+            {
+              "name": "Get-PBVM"
+            },
+            {
+              "name": "Start-PBVM"
+            }
+          ]
+        },
+        {
+          "name": "PBVMAllWithTag",
+          "children": [
+            {
+              "name": "Get-PBVMAllWithTag"
+            }
+          ]
+        },
+        {
+          "name": "PBVMSnapshot",
+          "children": [
+            {
+              "name": "Get-PBVMSnapshot"
+            },
+            {
+              "name": "New-PBVMSnapshot"
+            },
+            {
+              "name": "Remove-PBVMSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "PBTag",
+          "children": [
+            {
+              "name": "New-PBTag"
+            }
+          ]
+        },
+        {
+          "name": "PBTagCategory",
+          "children": [
+            {
+              "name": "New-PBTagCategory"
+            }
+          ]
+        },
+        {
+          "name": "PBVMConsoleWindow",
+          "children": [
+            {
+              "name": "Open-PBVMConsoleWindow"
+            }
+          ]
+        },
+        {
+          "name": "PBVMGuest",
+          "children": [
+            {
+              "name": "Restart-PBVMGuest"
+            },
+            {
+              "name": "Stop-PBVMGuest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.Wolfram",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "WolframQuery",
+          "children": [
+            {
+              "name": "Invoke-WolframQuery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBot.XKCD",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "XKCD",
+          "children": [
+            {
+              "name": "Get-XKCD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshBotHLC",
+      "companyName": "Community",
+      "author": "Daniel Kim",
+      "children": [
+        {
+          "name": "SyncAAD",
+          "children": [
+            {
+              "name": "Invoke-SyncAAD"
+            }
+          ]
+        },
+        {
+          "name": "GetComputer",
+          "children": [
+            {
+              "name": "Invoke-GetComputer"
+            }
+          ]
+        },
+        {
+          "name": "GetPackages",
+          "children": [
+            {
+              "name": "Invoke-GetPackages"
+            }
+          ]
+        },
+        {
+          "name": "Deployment",
+          "children": [
+            {
+              "name": "Invoke-Deployment"
+            }
+          ]
+        },
+        {
+          "name": "GetADUser",
+          "children": [
+            {
+              "name": "Invoke-GetADUser"
+            }
+          ]
+        },
+        {
+          "name": "ResetPassword",
+          "children": [
+            {
+              "name": "Invoke-ResetPassword"
+            }
+          ]
+        },
+        {
+          "name": "WakeOnLAN",
+          "children": [
+            {
+              "name": "Invoke-WakeOnLAN"
+            }
+          ]
+        },
+        {
+          "name": "GetEventLog",
+          "children": [
+            {
+              "name": "Invoke-GetEventLog"
+            }
+          ]
+        },
+        {
+          "name": "AddGroupMember",
+          "children": [
+            {
+              "name": "Invoke-AddGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "TestPort",
+          "children": [
+            {
+              "name": "Invoke-TestPort"
+            }
+          ]
+        },
+        {
+          "name": "RestartComputer",
+          "children": [
+            {
+              "name": "Invoke-RestartComputer"
+            }
+          ]
+        },
+        {
+          "name": "Update",
+          "children": [
+            {
+              "name": "Invoke-Update"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoShPal",
+      "companyName": "Community",
+      "author": "Anthony Howell",
+      "children": [
+        {
+          "name": "PayPalAccessToken",
+          "children": [
+            {
+              "name": "Get-PayPalAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "PayPalAuthConfig",
+          "children": [
+            {
+              "name": "Get-PayPalAuthConfig"
+            },
+            {
+              "name": "Set-PayPalAuthConfig"
+            }
+          ]
+        },
+        {
+          "name": "PayPalLocalToken",
+          "children": [
+            {
+              "name": "Get-PayPalLocalToken"
+            }
+          ]
+        },
+        {
+          "name": "PayPalSale",
+          "children": [
+            {
+              "name": "Get-PayPalSale"
+            }
+          ]
+        },
+        {
+          "name": "PayPalTransactions",
+          "children": [
+            {
+              "name": "Get-PayPalTransactions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowereBay",
+      "companyName": "Community",
+      "author": "Anthony Howell",
+      "children": [
+        {
+          "name": "eBayLocalToken",
+          "children": [
+            {
+              "name": "Get-eBayLocalToken"
+            }
+          ]
+        },
+        {
+          "name": "eBayOrder",
+          "children": [
+            {
+              "name": "Get-eBayOrder"
+            }
+          ]
+        },
+        {
+          "name": "eBayReturns",
+          "children": [
+            {
+              "name": "Get-eBayReturns"
+            }
+          ]
+        },
+        {
+          "name": "eBayShippingFulfillment",
+          "children": [
+            {
+              "name": "Get-eBayShippingFulfillment"
+            }
+          ]
+        },
+        {
+          "name": "eBayAuthentication",
+          "children": [
+            {
+              "name": "Invoke-eBayAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "eBayUserToken",
+          "children": [
+            {
+              "name": "Update-eBayUserToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellBuild",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "PSBuildMAMLHelp",
+          "children": [
+            {
+              "name": "Build-PSBuildMAMLHelp"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildMarkdown",
+          "children": [
+            {
+              "name": "Build-PSBuildMarkdown"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildModule",
+          "children": [
+            {
+              "name": "Build-PSBuildModule"
+            },
+            {
+              "name": "Publish-PSBuildModule"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildUpdatableHelp",
+          "children": [
+            {
+              "name": "Build-PSBuildUpdatableHelp"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildOutputFolder",
+          "children": [
+            {
+              "name": "Clear-PSBuildOutputFolder"
+            }
+          ]
+        },
+        {
+          "name": "PSBuild",
+          "children": [
+            {
+              "name": "Initialize-PSBuild"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildPester",
+          "children": [
+            {
+              "name": "Test-PSBuildPester"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildScriptAnalysis",
+          "children": [
+            {
+              "name": "Test-PSBuildScriptAnalysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellBuild5_1",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "PSBuildMAMLHelp",
+          "children": [
+            {
+              "name": "Build-PSBuildMAMLHelp"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildMarkdown",
+          "children": [
+            {
+              "name": "Build-PSBuildMarkdown"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildModule",
+          "children": [
+            {
+              "name": "Build-PSBuildModule"
+            },
+            {
+              "name": "Publish-PSBuildModule"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildUpdatableHelp",
+          "children": [
+            {
+              "name": "Build-PSBuildUpdatableHelp"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildOutputFolder",
+          "children": [
+            {
+              "name": "Clear-PSBuildOutputFolder"
+            }
+          ]
+        },
+        {
+          "name": "PSBuild",
+          "children": [
+            {
+              "name": "Initialize-PSBuild"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildPester",
+          "children": [
+            {
+              "name": "Test-PSBuildPester"
+            }
+          ]
+        },
+        {
+          "name": "PSBuildScriptAnalysis",
+          "children": [
+            {
+              "name": "Test-PSBuildScriptAnalysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ProcessEx",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "EscapedArgument",
+          "children": [
+            {
+              "name": "ConvertTo-EscapedArgument"
+            }
+          ]
+        },
+        {
+          "name": "HandleToProcess",
+          "children": [
+            {
+              "name": "Copy-HandleToProcess"
+            }
+          ]
+        },
+        {
+          "name": "ProcessEnvironment",
+          "children": [
+            {
+              "name": "Get-ProcessEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "ProcessEx",
+          "children": [
+            {
+              "name": "Get-ProcessEx"
+            },
+            {
+              "name": "Start-ProcessEx"
+            }
+          ]
+        },
+        {
+          "name": "StartupInfo",
+          "children": [
+            {
+              "name": "Get-StartupInfo"
+            },
+            {
+              "name": "New-StartupInfo"
+            }
+          ]
+        },
+        {
+          "name": "TokenEnvironment",
+          "children": [
+            {
+              "name": "Get-TokenEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "ConPTY",
+          "children": [
+            {
+              "name": "New-ConPTY"
+            },
+            {
+              "name": "Resize-ConPTY"
+            }
+          ]
+        },
+        {
+          "name": "ProcessWith",
+          "children": [
+            {
+              "name": "Start-ProcessWith"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAccessToken",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "HandleInformation",
+          "children": [
+            {
+              "name": "Get-HandleInformation"
+            },
+            {
+              "name": "Set-HandleInformation"
+            }
+          ]
+        },
+        {
+          "name": "ProcessHandle",
+          "children": [
+            {
+              "name": "Get-ProcessHandle"
+            }
+          ]
+        },
+        {
+          "name": "ThreadHandle",
+          "children": [
+            {
+              "name": "Get-ThreadHandle"
+            }
+          ]
+        },
+        {
+          "name": "ProcessToken",
+          "children": [
+            {
+              "name": "Open-ProcessToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDetour",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "PSDetourHook",
+          "children": [
+            {
+              "name": "New-PSDetourHook"
+            }
+          ]
+        },
+        {
+          "name": "PSDetourSession",
+          "children": [
+            {
+              "name": "New-PSDetourSession"
+            }
+          ]
+        },
+        {
+          "name": "PSDetour",
+          "children": [
+            {
+              "name": "Start-PSDetour"
+            },
+            {
+              "name": "Stop-PSDetour"
+            }
+          ]
+        },
+        {
+          "name": "PSDetourProcess",
+          "children": [
+            {
+              "name": "Trace-PSDetourProcess"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSEtw",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "PSEtwSession",
+          "children": [
+            {
+              "name": "New-PSEtwSession"
+            },
+            {
+              "name": "Remove-PSEtwSession"
+            },
+            {
+              "name": "Test-PSEtwSession"
+            }
+          ]
+        },
+        {
+          "name": "PSEtwEventInfo",
+          "children": [
+            {
+              "name": "New-PSEtwEventInfo"
+            }
+          ]
+        },
+        {
+          "name": "PSEtwEvent",
+          "children": [
+            {
+              "name": "Register-PSEtwEvent"
+            },
+            {
+              "name": "Trace-PSEtwEvent"
+            }
+          ]
+        },
+        {
+          "name": "PSEtwTrace",
+          "children": [
+            {
+              "name": "Stop-PSEtwTrace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSHealthZ",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "HealthZListener",
+          "children": [
+            {
+              "name": "Get-HealthZListener"
+            },
+            {
+              "name": "New-HealthZListener"
+            },
+            {
+              "name": "Start-HealthZListener"
+            },
+            {
+              "name": "Stop-HealthZListener"
+            }
+          ]
+        },
+        {
+          "name": "HealthZToken",
+          "children": [
+            {
+              "name": "New-HealthZToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSLambda",
+      "companyName": "Community",
+      "author": "Patrick M. Meinecke",
+      "children": [
+        {
+          "name": "PSDelegate",
+          "children": [
+            {
+              "name": "New-PSDelegate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSOpenAD",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "OpenADAuthSupport",
+          "children": [
+            {
+              "name": "Get-OpenADAuthSupport"
+            }
+          ]
+        },
+        {
+          "name": "OpenADComputer",
+          "children": [
+            {
+              "name": "Get-OpenADComputer"
+            }
+          ]
+        },
+        {
+          "name": "OpenADGroup",
+          "children": [
+            {
+              "name": "Get-OpenADGroup"
+            }
+          ]
+        },
+        {
+          "name": "OpenADGroupMember",
+          "children": [
+            {
+              "name": "Get-OpenADGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "OpenADObject",
+          "children": [
+            {
+              "name": "Get-OpenADObject"
+            },
+            {
+              "name": "New-OpenADObject"
+            },
+            {
+              "name": "Move-OpenADObject"
+            },
+            {
+              "name": "Remove-OpenADObject"
+            },
+            {
+              "name": "Rename-OpenADObject"
+            },
+            {
+              "name": "Set-OpenADObject"
+            }
+          ]
+        },
+        {
+          "name": "OpenADPrincipalGroupMembership",
+          "children": [
+            {
+              "name": "Get-OpenADPrincipalGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "OpenADRootDSE",
+          "children": [
+            {
+              "name": "Get-OpenADRootDSE"
+            }
+          ]
+        },
+        {
+          "name": "OpenADServiceAccount",
+          "children": [
+            {
+              "name": "Get-OpenADServiceAccount"
+            }
+          ]
+        },
+        {
+          "name": "OpenADSession",
+          "children": [
+            {
+              "name": "Get-OpenADSession"
+            },
+            {
+              "name": "New-OpenADSession"
+            },
+            {
+              "name": "Remove-OpenADSession"
+            }
+          ]
+        },
+        {
+          "name": "OpenADUser",
+          "children": [
+            {
+              "name": "Get-OpenADUser"
+            }
+          ]
+        },
+        {
+          "name": "OpenADWhoami",
+          "children": [
+            {
+              "name": "Get-OpenADWhoami"
+            }
+          ]
+        },
+        {
+          "name": "OpenADSessionOption",
+          "children": [
+            {
+              "name": "New-OpenADSessionOption"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSProductivityTools",
+      "companyName": "Community",
+      "author": "Jan Egil Ring & St le Hansen",
+      "children": [
+        {
+          "name": "SfBContactInformation",
+          "children": [
+            {
+              "name": "Publish-SfBContactInformation"
+            }
+          ]
+        },
+        {
+          "name": "Pomodoro",
+          "children": [
+            {
+              "name": "Start-Pomodoro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSPuppetOrchestrator",
+      "companyName": "Community",
+      "author": "Joey Piccola",
+      "children": [
+        {
+          "name": "PuppetAuthToken",
+          "children": [
+            {
+              "name": "Get-PuppetAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "PuppetJob",
+          "children": [
+            {
+              "name": "Get-PuppetJob"
+            }
+          ]
+        },
+        {
+          "name": "PuppetJobReport",
+          "children": [
+            {
+              "name": "Get-PuppetJobReport"
+            }
+          ]
+        },
+        {
+          "name": "PuppetJobResults",
+          "children": [
+            {
+              "name": "Get-PuppetJobResults"
+            }
+          ]
+        },
+        {
+          "name": "PuppetPCPNodeBrokerDetails",
+          "children": [
+            {
+              "name": "Get-PuppetPCPNodeBrokerDetails"
+            }
+          ]
+        },
+        {
+          "name": "PuppetTask",
+          "children": [
+            {
+              "name": "Get-PuppetTask"
+            },
+            {
+              "name": "Invoke-PuppetTask"
+            }
+          ]
+        },
+        {
+          "name": "PuppetTasks",
+          "children": [
+            {
+              "name": "Get-PuppetTasks"
+            }
+          ]
+        },
+        {
+          "name": "ServerCertificateValidationCallback",
+          "children": [
+            {
+              "name": "Set-ServerCertificateValidationCallback"
+            }
+          ]
+        },
+        {
+          "name": "SkipCertificateCheck",
+          "children": [
+            {
+              "name": "Set-SkipCertificateCheck"
+            }
+          ]
+        },
+        {
+          "name": "PuppetNodePCPBroker",
+          "children": [
+            {
+              "name": "Wait-PuppetNodePCPBroker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSPI",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "SchannelCredential",
+          "children": [
+            {
+              "name": "Get-SchannelCredential"
+            }
+          ]
+        },
+        {
+          "name": "SCHCredential",
+          "children": [
+            {
+              "name": "Get-SCHCredential"
+            }
+          ]
+        },
+        {
+          "name": "SecContextCipherInfo",
+          "children": [
+            {
+              "name": "Get-SecContextCipherInfo"
+            }
+          ]
+        },
+        {
+          "name": "SecContextRemoteCert",
+          "children": [
+            {
+              "name": "Get-SecContextRemoteCert"
+            }
+          ]
+        },
+        {
+          "name": "SecContextSizes",
+          "children": [
+            {
+              "name": "Get-SecContextSizes"
+            }
+          ]
+        },
+        {
+          "name": "SSPICredential",
+          "children": [
+            {
+              "name": "Get-SSPICredential"
+            }
+          ]
+        },
+        {
+          "name": "SSPIPackage",
+          "children": [
+            {
+              "name": "Get-SSPIPackage"
+            }
+          ]
+        },
+        {
+          "name": "ChannelBindingBuffer",
+          "children": [
+            {
+              "name": "New-ChannelBindingBuffer"
+            }
+          ]
+        },
+        {
+          "name": "CryptoSetting",
+          "children": [
+            {
+              "name": "New-CryptoSetting"
+            }
+          ]
+        },
+        {
+          "name": "SecBuffer",
+          "children": [
+            {
+              "name": "New-SecBuffer"
+            }
+          ]
+        },
+        {
+          "name": "SecContext",
+          "children": [
+            {
+              "name": "New-SecContext"
+            }
+          ]
+        },
+        {
+          "name": "TlsParameter",
+          "children": [
+            {
+              "name": "New-TlsParameter"
+            }
+          ]
+        },
+        {
+          "name": "KdcProxy",
+          "children": [
+            {
+              "name": "Set-KdcProxy"
+            }
+          ]
+        },
+        {
+          "name": "AcceptSecContext",
+          "children": [
+            {
+              "name": "Step-AcceptSecContext"
+            }
+          ]
+        },
+        {
+          "name": "InitSecContext",
+          "children": [
+            {
+              "name": "Step-InitSecContext"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSStucco",
+      "companyName": "Community",
+      "author": "Jimmy Briggs",
+      "children": [
+        {
+          "name": "StuccoTemplate",
+          "children": [
+            {
+              "name": "Get-StuccoTemplate"
+            }
+          ]
+        },
+        {
+          "name": "StuccoModule",
+          "children": [
+            {
+              "name": "New-StuccoModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSToml",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "Toml",
+          "children": [
+            {
+              "name": "ConvertFrom-Toml"
+            },
+            {
+              "name": "ConvertTo-Toml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSVersion",
+      "companyName": "Community",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "PSVersion",
+          "children": [
+            {
+              "name": "Get-PSVersion"
+            }
+          ]
+        },
+        {
+          "name": "PSVersionData",
+          "children": [
+            {
+              "name": "Update-PSVersionData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSVersionCompare",
+      "companyName": "Community",
+      "author": "Jan Egil Ring",
+      "children": [
+        {
+          "name": "PSVersionCommand",
+          "children": [
+            {
+              "name": "Compare-PSVersionCommand"
+            },
+            {
+              "name": "Get-PSVersionCommand"
+            }
+          ]
+        },
+        {
+          "name": "PSVersionVariable",
+          "children": [
+            {
+              "name": "Compare-PSVersionVariable"
+            },
+            {
+              "name": "Get-PSVersionVariable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RubyInstaller",
+      "companyName": "Community",
+      "author": "Glenn Sarti",
+      "children": [
+        {
+          "name": "Ruby",
+          "children": [
+            {
+              "name": "Get-Ruby"
+            },
+            {
+              "name": "Install-Ruby"
+            },
+            {
+              "name": "Select-Ruby"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ScriptBlockDisassembler",
+      "companyName": "Community",
+      "author": "Patrick Meinecke",
+      "children": [
+        {
+          "name": "ScriptBlockDisassembly",
+          "children": [
+            {
+              "name": "Get-ScriptBlockDisassembly"
+            }
+          ]
+        },
+        {
+          "name": "ExpressionTree",
+          "children": [
+            {
+              "name": "Format-ExpressionTree"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SecretManagement.DpapiNG",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "DpapiNGDescriptor",
+          "children": [
+            {
+              "name": "Add-DpapiNGDescriptor"
+            },
+            {
+              "name": "New-DpapiNGDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "DpapiNGSecret",
+          "children": [
+            {
+              "name": "ConvertFrom-DpapiNGSecret"
+            },
+            {
+              "name": "ConvertTo-DpapiNGSecret"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ShellMenuX",
+      "companyName": "Community",
+      "author": "Community",
+      "children": [
+        {
+          "name": "ShellMenu",
+          "children": [
+            {
+              "name": "Show-ShellMenu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stucco",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "StuccoTemplate",
+          "children": [
+            {
+              "name": "Get-StuccoTemplate"
+            }
+          ]
+        },
+        {
+          "name": "StuccoModule",
+          "children": [
+            {
+              "name": "New-StuccoModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Terminal-Icons",
+      "companyName": "Community",
+      "author": "Brandon Olin",
+      "children": [
+        {
+          "name": "TerminalIconsColorTheme",
+          "children": [
+            {
+              "name": "Add-TerminalIconsColorTheme"
+            },
+            {
+              "name": "Get-TerminalIconsColorTheme"
+            }
+          ]
+        },
+        {
+          "name": "TerminalIconsIconTheme",
+          "children": [
+            {
+              "name": "Add-TerminalIconsIconTheme"
+            },
+            {
+              "name": "Get-TerminalIconsIconTheme"
+            }
+          ]
+        },
+        {
+          "name": "TerminalIcons",
+          "children": [
+            {
+              "name": "Format-TerminalIcons"
+            }
+          ]
+        },
+        {
+          "name": "TerminalIconsGlyphs",
+          "children": [
+            {
+              "name": "Get-TerminalIconsGlyphs"
+            }
+          ]
+        },
+        {
+          "name": "TerminalIconsTheme",
+          "children": [
+            {
+              "name": "Get-TerminalIconsTheme"
+            },
+            {
+              "name": "Remove-TerminalIconsTheme"
+            },
+            {
+              "name": "Set-TerminalIconsTheme"
+            },
+            {
+              "name": "Show-TerminalIconsTheme"
+            }
+          ]
+        },
+        {
+          "name": "TerminalIconsThemeMigration",
+          "children": [
+            {
+              "name": "Invoke-TerminalIconsThemeMigration"
+            }
+          ]
+        },
+        {
+          "name": "TerminalIconsIcon",
+          "children": [
+            {
+              "name": "Set-TerminalIconsIcon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TestBin",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "HelloWorld",
+          "children": [
+            {
+              "name": "Get-HelloWorld"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toggl.Functions",
+      "companyName": "Community",
+      "author": "David Cruz  davidcruz72 gmail.com",
+      "children": [
+        {
+          "name": "TogglDetailedReport",
+          "children": [
+            {
+              "name": "Get-TogglDetailedReport"
+            }
+          ]
+        },
+        {
+          "name": "TogglMonthlyHoursReport",
+          "children": [
+            {
+              "name": "Get-TogglMonthlyHoursReport"
+            }
+          ]
+        },
+        {
+          "name": "TogglUtilizationReport",
+          "children": [
+            {
+              "name": "Get-TogglUtilizationReport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UpBank",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "UpBankAPI",
+          "children": [
+            {
+              "name": "Test-UpBankAPI"
+            }
+          ]
+        },
+        {
+          "name": "UpBankAccounts",
+          "children": [
+            {
+              "name": "Get-UpBankAccounts"
+            }
+          ]
+        },
+        {
+          "name": "UpBankAccount",
+          "children": [
+            {
+              "name": "Get-UpBankAccount"
+            }
+          ]
+        },
+        {
+          "name": "UpBankCredential",
+          "children": [
+            {
+              "name": "Set-UpBankCredential"
+            }
+          ]
+        },
+        {
+          "name": "UpBankConfiguration",
+          "children": [
+            {
+              "name": "Save-UpBankConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "UpBankTransactions",
+          "children": [
+            {
+              "name": "Get-UpBankTransactions"
+            }
+          ]
+        },
+        {
+          "name": "UpBankTransaction",
+          "children": [
+            {
+              "name": "Get-UpBankTransaction"
+            }
+          ]
+        },
+        {
+          "name": "UpBankAccountTransactions",
+          "children": [
+            {
+              "name": "Get-UpBankAccountTransactions"
+            }
+          ]
+        },
+        {
+          "name": "UpBankProfile",
+          "children": [
+            {
+              "name": "Switch-UpBankProfile"
+            }
+          ]
+        },
+        {
+          "name": "UpBankCategories",
+          "children": [
+            {
+              "name": "Get-UpBankCategories"
+            }
+          ]
+        },
+        {
+          "name": "UpBankCategory",
+          "children": [
+            {
+              "name": "Get-UpBankCategory"
+            }
+          ]
+        },
+        {
+          "name": "UpBankTags",
+          "children": [
+            {
+              "name": "Get-UpBankTags"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vester",
+      "companyName": "Community",
+      "author": "Chris Wahl",
+      "children": [
+        {
+          "name": "VesterTest",
+          "children": [
+            {
+              "name": "Get-VesterTest"
+            }
+          ]
+        },
+        {
+          "name": "Vester",
+          "children": [
+            {
+              "name": "Invoke-Vester"
+            }
+          ]
+        },
+        {
+          "name": "VesterConfig",
+          "children": [
+            {
+              "name": "New-VesterConfig"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMFSIncrease",
+      "companyName": "Community",
+      "author": "Luc Dekens",
+      "children": [
+        {
+          "name": "VmfsDatastoreInfo",
+          "children": [
+            {
+              "name": "Get-VmfsDatastoreInfo"
+            }
+          ]
+        },
+        {
+          "name": "VmfsDatastoreIncrease",
+          "children": [
+            {
+              "name": "Get-VmfsDatastoreIncrease"
+            },
+            {
+              "name": "New-VmfsDatastoreIncrease"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMware.VimAutomation.Custom",
+      "companyName": "Community",
+      "author": "David Cruz  davidcruz72 gmail.com",
+      "children": [
+        {
+          "name": "VMHostIscsiAdapter",
+          "children": [
+            {
+              "name": "Enable-VMHostIscsiAdapter"
+            }
+          ]
+        },
+        {
+          "name": "VMHostNetworkingToCsv",
+          "children": [
+            {
+              "name": "Export-VMHostNetworkingToCsv"
+            }
+          ]
+        },
+        {
+          "name": "VMCpuReadyPercent",
+          "children": [
+            {
+              "name": "Get-VMCpuReadyPercent"
+            }
+          ]
+        },
+        {
+          "name": "VMHostCpuRatio",
+          "children": [
+            {
+              "name": "Get-VMHostCpuRatio"
+            }
+          ]
+        },
+        {
+          "name": "VMHostDatastores",
+          "children": [
+            {
+              "name": "Get-VMHostDatastores"
+            }
+          ]
+        },
+        {
+          "name": "VMHostNetworkCdpInfo",
+          "children": [
+            {
+              "name": "Get-VMHostNetworkCdpInfo"
+            }
+          ]
+        },
+        {
+          "name": "VMHostNetworkLldpInfo",
+          "children": [
+            {
+              "name": "Get-VMHostNetworkLldpInfo"
+            }
+          ]
+        },
+        {
+          "name": "VMHostSSHServiceStatus",
+          "children": [
+            {
+              "name": "Get-VMHostSSHServiceStatus"
+            }
+          ]
+        },
+        {
+          "name": "VMHostUptime",
+          "children": [
+            {
+              "name": "Get-VMHostUptime"
+            }
+          ]
+        },
+        {
+          "name": "VMHostNetworkingFromCsv",
+          "children": [
+            {
+              "name": "Import-VMHostNetworkingFromCsv"
+            }
+          ]
+        },
+        {
+          "name": "VMHostNetworkingCsvTemplate",
+          "children": [
+            {
+              "name": "New-VMHostNetworkingCsvTemplate"
+            }
+          ]
+        },
+        {
+          "name": "VMHostSSHService",
+          "children": [
+            {
+              "name": "Start-VMHostSSHService"
+            },
+            {
+              "name": "Stop-VMHostSSHService"
+            }
+          ]
+        },
+        {
+          "name": "VMHostNetworking",
+          "children": [
+            {
+              "name": "Test-VMHostNetworking"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Watchmen",
+      "companyName": "Community",
+      "author": "Brandon Olin   devblackops",
+      "children": [
+        {
+          "name": "Email",
+          "children": [
+            {
+              "name": "Email"
+            }
+          ]
+        },
+        {
+          "name": "EventLog",
+          "children": [
+            {
+              "name": "EventLog"
+            }
+          ]
+        },
+        {
+          "name": "FromSource",
+          "children": [
+            {
+              "name": "FromSource"
+            }
+          ]
+        },
+        {
+          "name": "WatchmenTest",
+          "children": [
+            {
+              "name": "Get-WatchmenTest"
+            },
+            {
+              "name": "Invoke-WatchmenTest"
+            },
+            {
+              "name": "WatchmenTest"
+            }
+          ]
+        },
+        {
+          "name": "InfluxDB",
+          "children": [
+            {
+              "name": "InfluxDB"
+            }
+          ]
+        },
+        {
+          "name": "LogFile",
+          "children": [
+            {
+              "name": "LogFile"
+            }
+          ]
+        },
+        {
+          "name": "Notifies",
+          "children": [
+            {
+              "name": "Notifies"
+            }
+          ]
+        },
+        {
+          "name": "Parameters",
+          "children": [
+            {
+              "name": "Parameters"
+            }
+          ]
+        },
+        {
+          "name": "PowerShell",
+          "children": [
+            {
+              "name": "PowerShell"
+            }
+          ]
+        },
+        {
+          "name": "Slack",
+          "children": [
+            {
+              "name": "Slack"
+            }
+          ]
+        },
+        {
+          "name": "Syslog",
+          "children": [
+            {
+              "name": "Syslog"
+            }
+          ]
+        },
+        {
+          "name": "Test",
+          "children": [
+            {
+              "name": "Test"
+            }
+          ]
+        },
+        {
+          "name": "TestType",
+          "children": [
+            {
+              "name": "TestType"
+            }
+          ]
+        },
+        {
+          "name": "Version",
+          "children": [
+            {
+              "name": "Version"
+            }
+          ]
+        },
+        {
+          "name": "When",
+          "children": [
+            {
+              "name": "When"
+            }
+          ]
+        },
+        {
+          "name": "WatchmenOptions",
+          "children": [
+            {
+              "name": "WatchmenOptions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X509Details",
+      "companyName": "Community",
+      "author": "Darren J Robinson",
+      "children": [
+        {
+          "name": "X509Details",
+          "children": [
+            {
+              "name": "Get-X509Details"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yayaml",
+      "companyName": "Community",
+      "author": "Jordan Borean",
+      "children": [
+        {
+          "name": "YamlFormat",
+          "children": [
+            {
+              "name": "Add-YamlFormat"
+            }
+          ]
+        },
+        {
+          "name": "Yaml",
+          "children": [
+            {
+              "name": "ConvertFrom-Yaml"
+            },
+            {
+              "name": "ConvertTo-Yaml"
+            }
+          ]
+        },
+        {
+          "name": "YamlSchema",
+          "children": [
+            {
+              "name": "New-YamlSchema"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

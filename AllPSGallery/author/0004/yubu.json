@@ -1,0 +1,893 @@
+{
+  "name": "yubu",
+  "children": [
+    {
+      "name": "ps.checkModuleUpdates",
+      "companyName": "Unknown",
+      "author": "yubu",
+      "children": [
+        {
+          "name": "ModuleUpdates",
+          "children": [
+            {
+              "name": "Get-ModuleUpdates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ps.slack",
+      "companyName": "Unknown",
+      "author": "yubu",
+      "children": [
+        {
+          "name": "slackHelp",
+          "children": [
+            {
+              "name": "Get-slackHelp"
+            }
+          ]
+        },
+        {
+          "name": "EmptyLines",
+          "children": [
+            {
+              "name": "Remove-EmptyLines"
+            }
+          ]
+        },
+        {
+          "name": "slackAuthToken",
+          "children": [
+            {
+              "name": "Set-slackAuthToken"
+            },
+            {
+              "name": "Test-slackAuthToken"
+            },
+            {
+              "name": "Show-slackAuthToken"
+            },
+            {
+              "name": "Revoke-slackAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "slackAPI",
+          "children": [
+            {
+              "name": "Test-slackAPI"
+            }
+          ]
+        },
+        {
+          "name": "slack",
+          "children": [
+            {
+              "name": "Disconnect-slack"
+            },
+            {
+              "name": "Search-slack"
+            }
+          ]
+        },
+        {
+          "name": "slackWebhook",
+          "children": [
+            {
+              "name": "Send-slackWebhook"
+            }
+          ]
+        },
+        {
+          "name": "slackMessage",
+          "children": [
+            {
+              "name": "Send-slackMessage"
+            },
+            {
+              "name": "Set-slackMessage"
+            },
+            {
+              "name": "Remove-slackMessage"
+            }
+          ]
+        },
+        {
+          "name": "slackMessageAsBot",
+          "children": [
+            {
+              "name": "Send-slackMessageAsBot"
+            }
+          ]
+        },
+        {
+          "name": "slackEmoji",
+          "children": [
+            {
+              "name": "Get-slackEmoji"
+            }
+          ]
+        },
+        {
+          "name": "slackPins",
+          "children": [
+            {
+              "name": "Get-slackPins"
+            },
+            {
+              "name": "Set-slackPins"
+            },
+            {
+              "name": "Remove-slackPins"
+            }
+          ]
+        },
+        {
+          "name": "slackChannels",
+          "children": [
+            {
+              "name": "Get-slackChannels"
+            },
+            {
+              "name": "New-slackChannels"
+            },
+            {
+              "name": "Rename-slackChannels"
+            }
+          ]
+        },
+        {
+          "name": "slackChannelsInfo",
+          "children": [
+            {
+              "name": "Get-slackChannelsInfo"
+            }
+          ]
+        },
+        {
+          "name": "slackChannelsArchive",
+          "children": [
+            {
+              "name": "Set-slackChannelsArchive"
+            }
+          ]
+        },
+        {
+          "name": "slackChannelsUnArchive",
+          "children": [
+            {
+              "name": "Set-slackChannelsUnArchive"
+            }
+          ]
+        },
+        {
+          "name": "slackChannelsInvite",
+          "children": [
+            {
+              "name": "Set-slackChannelsInvite"
+            }
+          ]
+        },
+        {
+          "name": "slackChannelsHistory",
+          "children": [
+            {
+              "name": "Get-slackChannelsHistory"
+            }
+          ]
+        },
+        {
+          "name": "slackUsers",
+          "children": [
+            {
+              "name": "Get-slackUsers"
+            }
+          ]
+        },
+        {
+          "name": "slackTeamDND",
+          "children": [
+            {
+              "name": "Get-slackTeamDND"
+            }
+          ]
+        },
+        {
+          "name": "slackUserDND",
+          "children": [
+            {
+              "name": "Get-slackUserDND"
+            }
+          ]
+        },
+        {
+          "name": "slackUsersPresence",
+          "children": [
+            {
+              "name": "Get-slackUsersPresence"
+            }
+          ]
+        },
+        {
+          "name": "slackUsersIdentity",
+          "children": [
+            {
+              "name": "Get-slackUsersIdentity"
+            }
+          ]
+        },
+        {
+          "name": "slackFiles",
+          "children": [
+            {
+              "name": "Get-slackFiles"
+            },
+            {
+              "name": "Send-slackFiles"
+            },
+            {
+              "name": "Save-slackFiles"
+            },
+            {
+              "name": "Remove-slackFiles"
+            }
+          ]
+        },
+        {
+          "name": "slackFilesInfo",
+          "children": [
+            {
+              "name": "Get-slackFilesInfo"
+            }
+          ]
+        },
+        {
+          "name": "slackFilesCurl",
+          "children": [
+            {
+              "name": "Send-slackFilesCurl"
+            },
+            {
+              "name": "Save-slackFilesCurl"
+            }
+          ]
+        },
+        {
+          "name": "slackFilesPublic",
+          "children": [
+            {
+              "name": "Set-slackFilesPublic"
+            }
+          ]
+        },
+        {
+          "name": "slackFilesPrivate",
+          "children": [
+            {
+              "name": "Set-slackFilesPrivate"
+            }
+          ]
+        },
+        {
+          "name": "slackReactionsFile",
+          "children": [
+            {
+              "name": "Get-slackReactionsFile"
+            },
+            {
+              "name": "Set-slackReactionsFile"
+            },
+            {
+              "name": "Remove-slackReactionsFile"
+            }
+          ]
+        },
+        {
+          "name": "slackReactionsUser",
+          "children": [
+            {
+              "name": "Get-slackReactionsUser"
+            }
+          ]
+        },
+        {
+          "name": "slackBots",
+          "children": [
+            {
+              "name": "Get-slackBots"
+            }
+          ]
+        },
+        {
+          "name": "slackGroups",
+          "children": [
+            {
+              "name": "Get-slackGroups"
+            },
+            {
+              "name": "New-slackGroups"
+            },
+            {
+              "name": "Open-slackGroups"
+            },
+            {
+              "name": "Rename-slackGroups"
+            },
+            {
+              "name": "Disconnect-slackGroups"
+            }
+          ]
+        },
+        {
+          "name": "slackGroupsInvite",
+          "children": [
+            {
+              "name": "New-slackGroupsInvite"
+            }
+          ]
+        },
+        {
+          "name": "slackGroupsInfo",
+          "children": [
+            {
+              "name": "Get-slackGroupsInfo"
+            }
+          ]
+        },
+        {
+          "name": "slackGroupsHistory",
+          "children": [
+            {
+              "name": "Get-slackGroupsHistory"
+            }
+          ]
+        },
+        {
+          "name": "slackGroupsReplies",
+          "children": [
+            {
+              "name": "Get-slackGroupsReplies"
+            }
+          ]
+        },
+        {
+          "name": "slackGroupsArchive",
+          "children": [
+            {
+              "name": "Set-slackGroupsArchive"
+            }
+          ]
+        },
+        {
+          "name": "slackGroupsPurpose",
+          "children": [
+            {
+              "name": "Set-slackGroupsPurpose"
+            }
+          ]
+        },
+        {
+          "name": "slackGroupsTopic",
+          "children": [
+            {
+              "name": "Set-slackGroupsTopic"
+            }
+          ]
+        },
+        {
+          "name": "slackGroupsUser",
+          "children": [
+            {
+              "name": "Remove-slackGroupsUser"
+            }
+          ]
+        },
+        {
+          "name": "slackGroupsUnArchive",
+          "children": [
+            {
+              "name": "Set-slackGroupsUnArchive"
+            }
+          ]
+        },
+        {
+          "name": "slackIM",
+          "children": [
+            {
+              "name": "Start-slackIM"
+            },
+            {
+              "name": "Get-slackIM"
+            },
+            {
+              "name": "Stop-slackIM"
+            }
+          ]
+        },
+        {
+          "name": "slackIMHistory",
+          "children": [
+            {
+              "name": "Get-slackIMHistory"
+            }
+          ]
+        },
+        {
+          "name": "slackReminders",
+          "children": [
+            {
+              "name": "Add-slackReminders"
+            },
+            {
+              "name": "Get-slackReminders"
+            },
+            {
+              "name": "Remove-slackReminders"
+            },
+            {
+              "name": "Complete-slackReminders"
+            }
+          ]
+        },
+        {
+          "name": "slackRemindersInfo",
+          "children": [
+            {
+              "name": "Get-slackRemindersInfo"
+            }
+          ]
+        },
+        {
+          "name": "slackTeamInfo",
+          "children": [
+            {
+              "name": "Get-slackTeamInfo"
+            }
+          ]
+        },
+        {
+          "name": "slackTeamBillableInfo",
+          "children": [
+            {
+              "name": "Get-slackTeamBillableInfo"
+            }
+          ]
+        },
+        {
+          "name": "slackTeamAccessLogs",
+          "children": [
+            {
+              "name": "Get-slackTeamAccessLogs"
+            }
+          ]
+        },
+        {
+          "name": "slackTeamIntegrationLogs",
+          "children": [
+            {
+              "name": "Get-slackTeamIntegrationLogs"
+            }
+          ]
+        },
+        {
+          "name": "slackTeamProfile",
+          "children": [
+            {
+              "name": "Get-slackTeamProfile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ps.testPassword",
+      "companyName": "Unknown",
+      "author": "yubu",
+      "children": [
+        {
+          "name": "hashcatBench",
+          "children": [
+            {
+              "name": "Get-hashcatBench"
+            }
+          ]
+        },
+        {
+          "name": "Password",
+          "children": [
+            {
+              "name": "Test-Password"
+            }
+          ]
+        },
+        {
+          "name": "Hash",
+          "children": [
+            {
+              "name": "Out-Hash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psbbix",
+      "companyName": "Unknown",
+      "author": "yubu",
+      "children": [
+        {
+          "name": "EmptyLines",
+          "children": [
+            {
+              "name": "Remove-EmptyLines"
+            }
+          ]
+        },
+        {
+          "name": "MissingParamsMessage",
+          "children": [
+            {
+              "name": "Write-MissingParamsMessage"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHelp",
+          "children": [
+            {
+              "name": "Get-ZabbixHelp"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixSession",
+          "children": [
+            {
+              "name": "New-ZabbixSession"
+            },
+            {
+              "name": "Get-ZabbixSession"
+            },
+            {
+              "name": "Remove-ZabbixSession"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixVersion",
+          "children": [
+            {
+              "name": "Get-ZabbixVersion"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHost",
+          "children": [
+            {
+              "name": "Get-ZabbixHost"
+            },
+            {
+              "name": "Set-ZabbixHost"
+            },
+            {
+              "name": "New-ZabbixHost"
+            },
+            {
+              "name": "Remove-ZabbixHost"
+            },
+            {
+              "name": "Copy-ZabbixHost"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixTemplate",
+          "children": [
+            {
+              "name": "Get-ZabbixTemplate"
+            },
+            {
+              "name": "New-ZabbixTemplate"
+            },
+            {
+              "name": "Set-ZabbixTemplate"
+            },
+            {
+              "name": "Remove-ZabbixTemplate"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHostGroup",
+          "children": [
+            {
+              "name": "Get-ZabbixHostGroup"
+            },
+            {
+              "name": "Set-ZabbixHostGroup"
+            },
+            {
+              "name": "New-ZabbixHostGroup"
+            },
+            {
+              "name": "Remove-ZabbixHostGroup"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHostGroupRemoveHosts",
+          "children": [
+            {
+              "name": "Set-ZabbixHostGroupRemoveHosts"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHostGroupAddHosts",
+          "children": [
+            {
+              "name": "Set-ZabbixHostGroupAddHosts"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixMaintenance",
+          "children": [
+            {
+              "name": "Get-ZabbixMaintenance"
+            },
+            {
+              "name": "Remove-ZabbixMaintenance"
+            },
+            {
+              "name": "New-ZabbixMaintenance"
+            },
+            {
+              "name": "Set-ZabbixMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHttpTest",
+          "children": [
+            {
+              "name": "Get-ZabbixHttpTest"
+            },
+            {
+              "name": "New-ZabbixHttpTest"
+            },
+            {
+              "name": "Set-ZabbixHttpTest"
+            },
+            {
+              "name": "Remove-ZabbixHttpTest"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixConfiguration",
+          "children": [
+            {
+              "name": "Export-ZabbixConfiguration"
+            },
+            {
+              "name": "Import-ZabbixConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixTrigger",
+          "children": [
+            {
+              "name": "Get-ZabbixTrigger"
+            },
+            {
+              "name": "Set-ZabbixTrigger"
+            },
+            {
+              "name": "New-ZabbixTrigger"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixItem",
+          "children": [
+            {
+              "name": "Get-ZabbixItem"
+            },
+            {
+              "name": "Set-ZabbixItem"
+            },
+            {
+              "name": "Remove-ZabbixItem"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixEvent",
+          "children": [
+            {
+              "name": "Get-ZabbixEvent"
+            },
+            {
+              "name": "Set-ZabbixEvent"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixAlert",
+          "children": [
+            {
+              "name": "Get-ZabbixAlert"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixAction",
+          "children": [
+            {
+              "name": "Get-ZabbixAction"
+            },
+            {
+              "name": "Set-ZabbixAction"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixUser",
+          "children": [
+            {
+              "name": "Get-ZabbixUser"
+            },
+            {
+              "name": "Remove-ZabbixUser"
+            },
+            {
+              "name": "New-ZabbixUser"
+            },
+            {
+              "name": "Set-ZabbixUser"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixUserGroup",
+          "children": [
+            {
+              "name": "Get-ZabbixUserGroup"
+            },
+            {
+              "name": "New-ZabbixUserGroup"
+            },
+            {
+              "name": "Set-ZabbixUserGroup"
+            },
+            {
+              "name": "Remove-ZabbixUserGroup"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHistory",
+          "children": [
+            {
+              "name": "Get-ZabbixHistory"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixApplication",
+          "children": [
+            {
+              "name": "Get-ZabbixApplication"
+            },
+            {
+              "name": "Set-ZabbixApplication"
+            },
+            {
+              "name": "Remove-ZabbixApplication"
+            },
+            {
+              "name": "New-ZabbixApplication"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHostInterface",
+          "children": [
+            {
+              "name": "Get-ZabbixHostInterface"
+            },
+            {
+              "name": "Set-ZabbixHostInterface"
+            },
+            {
+              "name": "New-ZabbixHostInterface"
+            },
+            {
+              "name": "Remove-ZabbixHostInterface"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixScreen",
+          "children": [
+            {
+              "name": "Get-ZabbixScreen"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixProblem",
+          "children": [
+            {
+              "name": "Get-ZabbixProblem"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixGraph",
+          "children": [
+            {
+              "name": "Get-ZabbixGraph"
+            },
+            {
+              "name": "Save-ZabbixGraph"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixMediaType",
+          "children": [
+            {
+              "name": "Get-ZabbixMediaType"
+            },
+            {
+              "name": "New-ZabbixMediaType"
+            },
+            {
+              "name": "Set-ZabbixMediaType"
+            },
+            {
+              "name": "Remove-ZabbixMediaType"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixHostInventory",
+          "children": [
+            {
+              "name": "Get-ZabbixHostInventory"
+            },
+            {
+              "name": "Set-ZabbixHostInventory"
+            }
+          ]
+        },
+        {
+          "name": "epoch",
+          "children": [
+            {
+              "name": "convertFrom-epoch"
+            },
+            {
+              "name": "convertTo-epoch"
+            }
+          ]
+        },
+        {
+          "name": "ZabbixDBSize",
+          "children": [
+            {
+              "name": "Get-ZabbixDBSize"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

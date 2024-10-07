@@ -1,0 +1,66 @@
+{
+  "name": "ili",
+  "children": [
+    {
+      "name": "Invoke-OdinApi",
+      "companyName": "Unknown",
+      "author": "ili",
+      "children": [
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "Format-Xml"
+            }
+          ]
+        },
+        {
+          "name": "OdinApi",
+          "children": [
+            {
+              "name": "Invoke-OdinApi"
+            }
+          ]
+        },
+        {
+          "name": "OdinApiXml",
+          "children": [
+            {
+              "name": "ConvertFrom-OdinApiXml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Join-Object",
+      "companyName": "Unknown",
+      "author": "ili",
+      "children": [
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Join-Object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Module.Template",
+      "companyName": "Unknown",
+      "author": "ili",
+      "children": [
+        {
+          "name": "ExampleCommand",
+          "children": [
+            {
+              "name": "Invoke-ExampleCommand"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "name": "Thomas J. Malkewitz  dotps1",
+  "children": [
+    {
+      "name": "PSAppVeyor",
+      "companyName": "Unknown",
+      "author": "Thomas J. Malkewitz  dotps1",
+      "children": [
+        {
+          "name": "AppVeyorBuild",
+          "children": [
+            {
+              "name": "Get-AppVeyorBuild"
+            }
+          ]
+        },
+        {
+          "name": "AppVeyorCollaborator",
+          "children": [
+            {
+              "name": "Get-AppVeyorCollaborator"
+            },
+            {
+              "name": "New-AppVeyorCollaborator"
+            },
+            {
+              "name": "Remove-AppVeyorCollaborator"
+            }
+          ]
+        },
+        {
+          "name": "AppVeyorEnvironment",
+          "children": [
+            {
+              "name": "Get-AppVeyorEnvironment"
+            },
+            {
+              "name": "Remove-AppVeyorEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "AppVeyorProject",
+          "children": [
+            {
+              "name": "Get-AppVeyorProject"
+            },
+            {
+              "name": "New-AppVeyorProject"
+            },
+            {
+              "name": "Remove-AppVeyorProject"
+            }
+          ]
+        },
+        {
+          "name": "AppVeyorProjectSetting",
+          "children": [
+            {
+              "name": "Get-AppVeyorProjectSetting"
+            }
+          ]
+        },
+        {
+          "name": "AppVeyorUser",
+          "children": [
+            {
+              "name": "Get-AppVeyorUser"
+            },
+            {
+              "name": "New-AppVeyorUser"
+            },
+            {
+              "name": "Remove-AppVeyorUser"
+            },
+            {
+              "name": "Update-AppVeyorUser"
+            }
+          ]
+        },
+        {
+          "name": "AppVeyorUserRole",
+          "children": [
+            {
+              "name": "Get-AppVeyorUserRole"
+            },
+            {
+              "name": "New-AppVeyorUserRole"
+            },
+            {
+              "name": "Remove-AppVeyorUserRole"
+            },
+            {
+              "name": "Update-AppVeyorUserRole"
+            }
+          ]
+        },
+        {
+          "name": "AppVeyorApiToken",
+          "children": [
+            {
+              "name": "Set-AppVeyorApiToken"
+            }
+          ]
+        },
+        {
+          "name": "AppVeyorProjectBuild",
+          "children": [
+            {
+              "name": "Start-AppVeyorProjectBuild"
+            },
+            {
+              "name": "Stop-AppVeyorProjectBuild"
+            }
+          ]
+        },
+        {
+          "name": "AppVeyorProjectBuildNumber",
+          "children": [
+            {
+              "name": "Update-AppVeyorProjectBuildNumber"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGist",
+      "companyName": "Unknown",
+      "author": "Thomas J. Malkewitz  dotps1",
+      "children": [
+        {
+          "name": "GistComment",
+          "children": [
+            {
+              "name": "Add-GistComment"
+            },
+            {
+              "name": "Get-GistComment"
+            },
+            {
+              "name": "Remove-GistComment"
+            },
+            {
+              "name": "Update-GistComment"
+            }
+          ]
+        },
+        {
+          "name": "GistFile",
+          "children": [
+            {
+              "name": "Add-GistFile"
+            },
+            {
+              "name": "Remove-GistFile"
+            },
+            {
+              "name": "Rename-GistFile"
+            },
+            {
+              "name": "Update-GistFile"
+            }
+          ]
+        },
+        {
+          "name": "Gist",
+          "children": [
+            {
+              "name": "Copy-Gist"
+            },
+            {
+              "name": "Find-Gist"
+            },
+            {
+              "name": "Get-Gist"
+            },
+            {
+              "name": "New-Gist"
+            },
+            {
+              "name": "Remove-Gist"
+            },
+            {
+              "name": "Save-Gist"
+            },
+            {
+              "name": "Set-Gist"
+            }
+          ]
+        },
+        {
+          "name": "GistCommit",
+          "children": [
+            {
+              "name": "Get-GistCommit"
+            }
+          ]
+        },
+        {
+          "name": "GistFork",
+          "children": [
+            {
+              "name": "Get-GistFork"
+            }
+          ]
+        },
+        {
+          "name": "GistVersion",
+          "children": [
+            {
+              "name": "Get-GistVersion"
+            }
+          ]
+        },
+        {
+          "name": "GistOAuthToken",
+          "children": [
+            {
+              "name": "New-GistOAuthToken"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

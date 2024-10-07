@@ -1,0 +1,43 @@
+{
+  "name": "BAD2BEEF",
+  "children": [
+    {
+      "name": "AWSLogin",
+      "companyName": "BAD2BEEF",
+      "author": "CHRIS",
+      "children": [
+        {
+          "name": "AWSToken",
+          "children": [
+            {
+              "name": "Get-AWSToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OktaLogin",
+      "companyName": "BAD2BEEF",
+      "author": "CHRIS",
+      "children": [
+        {
+          "name": "OktaSessionToken",
+          "children": [
+            {
+              "name": "Get-OktaSessionToken"
+            }
+          ]
+        },
+        {
+          "name": "OktaSAMLAssertion",
+          "children": [
+            {
+              "name": "Get-OktaSAMLAssertion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "name": "PRIMEPULSE SE, glueckkanja GAB AG",
+  "children": [
+    {
+      "name": "MEMPSToolkit",
+      "companyName": "PRIMEPULSE SE, glueckkanja GAB AG",
+      "author": "Hans Carl Oberdalhoff",
+      "children": [
+        {
+          "name": "AADRoleTemplateById",
+          "children": [
+            {
+              "name": "Get-AADRoleTemplateById"
+            }
+          ]
+        },
+        {
+          "name": "ConditionalAccessNamedLocationById",
+          "children": [
+            {
+              "name": "Get-ConditionalAccessNamedLocationById"
+            },
+            {
+              "name": "Resolve-ConditionalAccessNamedLocationById"
+            }
+          ]
+        },
+        {
+          "name": "GUID",
+          "children": [
+            {
+              "name": "Test-GUID"
+            }
+          ]
+        },
+        {
+          "name": "AppLoginSecret",
+          "children": [
+            {
+              "name": "Export-AppLoginSecret"
+            }
+          ]
+        },
+        {
+          "name": "AppLoginFromSavedSecret",
+          "children": [
+            {
+              "name": "Get-AppLoginFromSavedSecret"
+            }
+          ]
+        },
+        {
+          "name": "AppLoginToken",
+          "children": [
+            {
+              "name": "Get-AppLoginToken"
+            },
+            {
+              "name": "Export-AppLoginToken"
+            },
+            {
+              "name": "Import-AppLoginToken"
+            },
+            {
+              "name": "Remove-AppLoginToken"
+            },
+            {
+              "name": "New-AppLoginToken"
+            }
+          ]
+        },
+        {
+          "name": "AzAutomationCredLoginToken",
+          "children": [
+            {
+              "name": "Get-AzAutomationCredLoginToken"
+            }
+          ]
+        },
+        {
+          "name": "DeviceLoginToken",
+          "children": [
+            {
+              "name": "Get-DeviceLoginToken"
+            }
+          ]
+        },
+        {
+          "name": "GraphRestRequest",
+          "children": [
+            {
+              "name": "Invoke-GraphRestRequest"
+            }
+          ]
+        },
+        {
+          "name": "PolicyObjects",
+          "children": [
+            {
+              "name": "Export-PolicyObjects"
+            }
+          ]
+        },
+        {
+          "name": "PolicyObject",
+          "children": [
+            {
+              "name": "Import-PolicyObject"
+            }
+          ]
+        },
+        {
+          "name": "AADGroups",
+          "children": [
+            {
+              "name": "Get-AADGroups"
+            }
+          ]
+        },
+        {
+          "name": "AADGroupFromObject",
+          "children": [
+            {
+              "name": "Add-AADGroupFromObject"
+            }
+          ]
+        },
+        {
+          "name": "AADGroup",
+          "children": [
+            {
+              "name": "Add-AADGroup"
+            }
+          ]
+        },
+        {
+          "name": "AADGroupById",
+          "children": [
+            {
+              "name": "Get-AADGroupById"
+            },
+            {
+              "name": "Update-AADGroupById"
+            }
+          ]
+        },
+        {
+          "name": "AADGroupByName",
+          "children": [
+            {
+              "name": "Get-AADGroupByName"
+            }
+          ]
+        },
+        {
+          "name": "AADGroupFromFile",
+          "children": [
+            {
+              "name": "Add-AADGroupFromFile"
+            }
+          ]
+        },
+        {
+          "name": "AADGroupMembers",
+          "children": [
+            {
+              "name": "Get-AADGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "AADGroupMember",
+          "children": [
+            {
+              "name": "Add-AADGroupMember"
+            },
+            {
+              "name": "Remove-AADGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "AADUsers",
+          "children": [
+            {
+              "name": "Get-AADUsers"
+            }
+          ]
+        },
+        {
+          "name": "AADUserByID",
+          "children": [
+            {
+              "name": "Get-AADUserByID"
+            },
+            {
+              "name": "remove-AadUserById"
+            }
+          ]
+        },
+        {
+          "name": "AADUserByUPN",
+          "children": [
+            {
+              "name": "Get-AADUserByUPN"
+            }
+          ]
+        },
+        {
+          "name": "AADUserIsEnabled",
+          "children": [
+            {
+              "name": "get-AADUserIsEnabled"
+            }
+          ]
+        },
+        {
+          "name": "AADUserAuthMethods",
+          "children": [
+            {
+              "name": "Get-AADUserAuthMethods"
+            }
+          ]
+        },
+        {
+          "name": "AADUserMSAuthenticatorMethods",
+          "children": [
+            {
+              "name": "Get-AADUserMSAuthenticatorMethods"
+            }
+          ]
+        },
+        {
+          "name": "AADUserMSAuthenticatorMethod",
+          "children": [
+            {
+              "name": "Remove-AADUserMSAuthenticatorMethod"
+            }
+          ]
+        },
+        {
+          "name": "AADUserPhoneAuthMethods",
+          "children": [
+            {
+              "name": "Get-AADUserPhoneAuthMethods"
+            }
+          ]
+        },
+        {
+          "name": "AADUserPhoneAuthMethod",
+          "children": [
+            {
+              "name": "Remove-AADUserPhoneAuthMethod"
+            },
+            {
+              "name": "Add-AADUserPhoneAuthMethod"
+            },
+            {
+              "name": "Update-AADUserPhoneAuthMethod"
+            }
+          ]
+        },
+        {
+          "name": "AadUserPasswordAuthMethods",
+          "children": [
+            {
+              "name": "Get-AadUserPasswordAuthMethods"
+            }
+          ]
+        },
+        {
+          "name": "AadUserPasswordAuthMethod",
+          "children": [
+            {
+              "name": "Reset-AadUserPasswordAuthMethod"
+            }
+          ]
+        },
+        {
+          "name": "AadUserTemporaryAccessPass",
+          "children": [
+            {
+              "name": "Get-AadUserTemporaryAccessPass"
+            },
+            {
+              "name": "New-AadUserTemporaryAccessPass"
+            },
+            {
+              "name": "Remove-AadUserTemporaryAccessPass"
+            }
+          ]
+        },
+        {
+          "name": "AadDevices",
+          "children": [
+            {
+              "name": "Get-AadDevices"
+            }
+          ]
+        },
+        {
+          "name": "AadDevice",
+          "children": [
+            {
+              "name": "Disable-AadDevice"
+            },
+            {
+              "name": "Remove-AadDevice"
+            }
+          ]
+        },
+        {
+          "name": "RiskyUsers",
+          "children": [
+            {
+              "name": "get-RiskyUsers"
+            }
+          ]
+        },
+        {
+          "name": "DismissRiskyUser",
+          "children": [
+            {
+              "name": "set-DismissRiskyUser"
+            }
+          ]
+        },
+        {
+          "name": "ConfirmCompromisedRiskyUser",
+          "children": [
+            {
+              "name": "set-ConfirmCompromisedRiskyUser"
+            }
+          ]
+        },
+        {
+          "name": "CompliancePolicies",
+          "children": [
+            {
+              "name": "Get-CompliancePolicies"
+            }
+          ]
+        },
+        {
+          "name": "CompliancePolicyByName",
+          "children": [
+            {
+              "name": "Get-CompliancePolicyByName"
+            }
+          ]
+        },
+        {
+          "name": "CompliancePolicy",
+          "children": [
+            {
+              "name": "Add-CompliancePolicy"
+            }
+          ]
+        },
+        {
+          "name": "CompliancePolicyToGroupAssignment",
+          "children": [
+            {
+              "name": "Set-CompliancePolicyToGroupAssignment"
+            }
+          ]
+        },
+        {
+          "name": "ConditionalAccessPolicies",
+          "children": [
+            {
+              "name": "Get-ConditionalAccessPolicies"
+            }
+          ]
+        },
+        {
+          "name": "ConditionalAccessPolicy",
+          "children": [
+            {
+              "name": "Add-ConditionalAccessPolicy"
+            }
+          ]
+        },
+        {
+          "name": "DeviceConfigurations",
+          "children": [
+            {
+              "name": "Get-DeviceConfigurations"
+            }
+          ]
+        },
+        {
+          "name": "DeviceConfigurationById",
+          "children": [
+            {
+              "name": "Get-DeviceConfigurationById"
+            }
+          ]
+        },
+        {
+          "name": "DeviceConfigurationAssignmentById",
+          "children": [
+            {
+              "name": "Get-DeviceConfigurationAssignmentById"
+            }
+          ]
+        },
+        {
+          "name": "DeviceConfigurationsAndAssignments",
+          "children": [
+            {
+              "name": "Export-DeviceConfigurationsAndAssignments"
+            }
+          ]
+        },
+        {
+          "name": "DeviceConfiguration",
+          "children": [
+            {
+              "name": "Add-DeviceConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DeviceConfigurationAssignment",
+          "children": [
+            {
+              "name": "Set-DeviceConfigurationAssignment"
+            }
+          ]
+        },
+        {
+          "name": "DeviceConfigurationAssignmentToGroup",
+          "children": [
+            {
+              "name": "Set-DeviceConfigurationAssignmentToGroup"
+            }
+          ]
+        },
+        {
+          "name": "DeviceConfigurationFromGroupExclusion",
+          "children": [
+            {
+              "name": "Set-DeviceConfigurationFromGroupExclusion"
+            }
+          ]
+        },
+        {
+          "name": "DeviceConfigurationPolicies",
+          "children": [
+            {
+              "name": "Get-DeviceConfigurationPolicies"
+            }
+          ]
+        },
+        {
+          "name": "DeviceConfigurationPolicySettingsById",
+          "children": [
+            {
+              "name": "Get-DeviceConfigurationPolicySettingsById"
+            }
+          ]
+        },
+        {
+          "name": "AADApps",
+          "children": [
+            {
+              "name": "Get-AADApps"
+            }
+          ]
+        },
+        {
+          "name": "AADAppById",
+          "children": [
+            {
+              "name": "Get-AADAppById"
+            },
+            {
+              "name": "Remove-AADAppById"
+            }
+          ]
+        },
+        {
+          "name": "AADApp",
+          "children": [
+            {
+              "name": "Add-AADApp"
+            }
+          ]
+        },
+        {
+          "name": "AADAppPassword",
+          "children": [
+            {
+              "name": "Add-AADAppPassword"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipals",
+          "children": [
+            {
+              "name": "Get-ServicePrincipals"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipalByAppId",
+          "children": [
+            {
+              "name": "Add-ServicePrincipalByAppId"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipalAppRoleAssignmentsById",
+          "children": [
+            {
+              "name": "Get-ServicePrincipalAppRoleAssignmentsById"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipalAppRoleAssignment",
+          "children": [
+            {
+              "name": "Add-ServicePrincipalAppRoleAssignment"
+            }
+          ]
+        },
+        {
+          "name": "AADRoleById",
+          "children": [
+            {
+              "name": "Get-AADRoleById"
+            }
+          ]
+        },
+        {
+          "name": "ServicePrincipalPassword",
+          "children": [
+            {
+              "name": "Add-ServicePrincipalPassword"
+            }
+          ]
+        },
+        {
+          "name": "AutopilotProfiles",
+          "children": [
+            {
+              "name": "Get-AutopilotProfiles"
+            }
+          ]
+        },
+        {
+          "name": "ImportedMobileDevices",
+          "children": [
+            {
+              "name": "Get-ImportedMobileDevices"
+            }
+          ]
+        },
+        {
+          "name": "ImportedAutopilotDevices",
+          "children": [
+            {
+              "name": "Get-ImportedAutopilotDevices"
+            }
+          ]
+        },
+        {
+          "name": "WindowsAutopilotDevices",
+          "children": [
+            {
+              "name": "Get-WindowsAutopilotDevices"
+            }
+          ]
+        },
+        {
+          "name": "WindowsAutopilotDeviceByDeviceId",
+          "children": [
+            {
+              "name": "Get-WindowsAutopilotDeviceByDeviceId"
+            }
+          ]
+        },
+        {
+          "name": "WindowsAutopilotDevice",
+          "children": [
+            {
+              "name": "Remove-WindowsAutopilotDevice"
+            }
+          ]
+        },
+        {
+          "name": "ManagedDevices",
+          "children": [
+            {
+              "name": "Get-ManagedDevices"
+            }
+          ]
+        },
+        {
+          "name": "ManagedDeviceByDeviceId",
+          "children": [
+            {
+              "name": "Get-ManagedDeviceByDeviceId"
+            }
+          ]
+        },
+        {
+          "name": "ManagedDevice",
+          "children": [
+            {
+              "name": "Remove-ManagedDevice"
+            }
+          ]
+        },
+        {
+          "name": "SPRootSite",
+          "children": [
+            {
+              "name": "Get-SPRootSite"
+            }
+          ]
+        },
+        {
+          "name": "SPAllSites",
+          "children": [
+            {
+              "name": "Get-SPAllSites"
+            }
+          ]
+        },
+        {
+          "name": "SPSite",
+          "children": [
+            {
+              "name": "Get-SPSite"
+            }
+          ]
+        },
+        {
+          "name": "SPSiteDriveById",
+          "children": [
+            {
+              "name": "Get-SPSiteDriveById"
+            }
+          ]
+        },
+        {
+          "name": "DriveById",
+          "children": [
+            {
+              "name": "Get-DriveById"
+            }
+          ]
+        },
+        {
+          "name": "DriveChildrenByPath",
+          "children": [
+            {
+              "name": "Get-DriveChildrenByPath"
+            }
+          ]
+        },
+        {
+          "name": "DriveItemVersions",
+          "children": [
+            {
+              "name": "Get-DriveItemVersions"
+            }
+          ]
+        },
+        {
+          "name": "MyDrives",
+          "children": [
+            {
+              "name": "Get-MyDrives"
+            }
+          ]
+        },
+        {
+          "name": "MyCalendars",
+          "children": [
+            {
+              "name": "Get-MyCalendars"
+            }
+          ]
+        },
+        {
+          "name": "CalendarEvents",
+          "children": [
+            {
+              "name": "Get-CalendarEvents"
+            }
+          ]
+        },
+        {
+          "name": "MyMails",
+          "children": [
+            {
+              "name": "Get-MyMails"
+            }
+          ]
+        },
+        {
+          "name": "MyMailById",
+          "children": [
+            {
+              "name": "Get-MyMailById"
+            }
+          ]
+        },
+        {
+          "name": "MyTeams",
+          "children": [
+            {
+              "name": "Get-MyTeams"
+            }
+          ]
+        },
+        {
+          "name": "TeamsChannels",
+          "children": [
+            {
+              "name": "Get-TeamsChannels"
+            }
+          ]
+        },
+        {
+          "name": "TeamsChannelMessages",
+          "children": [
+            {
+              "name": "Get-TeamsChannelMessages"
+            }
+          ]
+        },
+        {
+          "name": "TeamsChannelMessageById",
+          "children": [
+            {
+              "name": "Get-TeamsChannelMessageById"
+            }
+          ]
+        },
+        {
+          "name": "TeamsChannelMessageHostedContents",
+          "children": [
+            {
+              "name": "Get-TeamsChannelMessageHostedContents"
+            }
+          ]
+        },
+        {
+          "name": "TeamsChannelMessageReplies",
+          "children": [
+            {
+              "name": "Get-TeamsChannelMessageReplies"
+            }
+          ]
+        },
+        {
+          "name": "AppName",
+          "children": [
+            {
+              "name": "Resolve-AppName"
+            }
+          ]
+        },
+        {
+          "name": "Username",
+          "children": [
+            {
+              "name": "Resolve-Username"
+            }
+          ]
+        },
+        {
+          "name": "Groupname",
+          "children": [
+            {
+              "name": "Resolve-Groupname"
+            }
+          ]
+        },
+        {
+          "name": "RoleTemplateName",
+          "children": [
+            {
+              "name": "Resolve-RoleTemplateName"
+            }
+          ]
+        },
+        {
+          "name": "ConditionalAccessPolicyToMermaid",
+          "children": [
+            {
+              "name": "Write-ConditionalAccessPolicyToMermaid"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

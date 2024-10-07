@@ -1,0 +1,114 @@
+{
+  "name": "Luis Carrillo",
+  "children": [
+    {
+      "name": "RemoteGroup",
+      "companyName": "Unknown",
+      "author": "Luis Carrillo",
+      "children": [
+        {
+          "name": "RemoteGroupMember",
+          "children": [
+            {
+              "name": "Add-RemoteGroupMember"
+            },
+            {
+              "name": "Remove-RemoteGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "RemoteGroup",
+          "children": [
+            {
+              "name": "Get-RemoteGroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RemoteLocalGroups",
+      "companyName": "Unknown",
+      "author": "Luis Carrillo",
+      "children": [
+        {
+          "name": "RemoteLocalGroup",
+          "children": [
+            {
+              "name": "Get-RemoteLocalGroup"
+            }
+          ]
+        },
+        {
+          "name": "RemoteLocalGroupMembers",
+          "children": [
+            {
+              "name": "Get-RemoteLocalGroupMembers"
+            },
+            {
+              "name": "Add-RemoteLocalGroupMembers"
+            },
+            {
+              "name": "Remove-RemoteLocalGroupMembers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SysAdmin-Extras",
+      "companyName": "Unknown",
+      "author": "Luis Carrillo",
+      "children": [
+        {
+          "name": "DiskInfo",
+          "children": [
+            {
+              "name": "Get-DiskInfo"
+            }
+          ]
+        },
+        {
+          "name": "SysUpTime",
+          "children": [
+            {
+              "name": "Get-SysUpTime"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VMwareAdmin-Extras",
+      "companyName": "Unknown",
+      "author": "Luis Carrillo",
+      "children": [
+        {
+          "name": "VMInfo",
+          "children": [
+            {
+              "name": "Get-VMInfo"
+            }
+          ]
+        },
+        {
+          "name": "VMTools",
+          "children": [
+            {
+              "name": "Get-VMTools"
+            }
+          ]
+        },
+        {
+          "name": "VMAdvancedSetting",
+          "children": [
+            {
+              "name": "Update-VMAdvancedSetting"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

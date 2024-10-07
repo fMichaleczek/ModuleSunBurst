@@ -1,0 +1,41 @@
+{
+  "name": "icewolf.ch",
+  "children": [
+    {
+      "name": "Icewolf.Exchange.MAPI",
+      "companyName": "icewolf.ch",
+      "author": "Andres Bohren",
+      "children": [
+        {
+          "name": "MAPIPermission",
+          "children": [
+            {
+              "name": "Add-MAPIPermission"
+            },
+            {
+              "name": "Export-MAPIPermission"
+            },
+            {
+              "name": "Remove-MAPIPermission"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Icewolf.EXO.SpamAnalyze",
+      "companyName": "icewolf.ch",
+      "author": "Andres Bohren",
+      "children": [
+        {
+          "name": "SpamAnalyze",
+          "children": [
+            {
+              "name": "Invoke-SpamAnalyze"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

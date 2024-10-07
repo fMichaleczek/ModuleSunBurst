@@ -1,0 +1,73 @@
+{
+  "name": "ForFree",
+  "children": [
+    {
+      "name": "ECS.LocalGPO",
+      "companyName": "ForFree",
+      "author": "Eric C. Singer",
+      "children": [
+        {
+          "name": "ECSSIDToAccount",
+          "children": [
+            {
+              "name": "Convert-ECSSIDToAccount"
+            }
+          ]
+        },
+        {
+          "name": "ECSAccountToSID",
+          "children": [
+            {
+              "name": "Convert-ECSAccountToSID"
+            }
+          ]
+        },
+        {
+          "name": "ECSLocalGPOUserRightAssignment",
+          "children": [
+            {
+              "name": "Get-ECSLocalGPOUserRightAssignment"
+            },
+            {
+              "name": "Add-ECSLocalGPOUserRightAssignment"
+            },
+            {
+              "name": "Remove-ECSLocalGPOUserRightAssignment"
+            }
+          ]
+        },
+        {
+          "name": "ECSLocalGPOAvailableUserRightAssignments",
+          "children": [
+            {
+              "name": "Show-ECSLocalGPOAvailableUserRightAssignments"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ECS.WindowsGeneric",
+      "companyName": "ForFree",
+      "author": "Eric C. Singer",
+      "children": [
+        {
+          "name": "ECSSIDToAccount",
+          "children": [
+            {
+              "name": "Convert-ECSSIDToAccount"
+            }
+          ]
+        },
+        {
+          "name": "ECSAccountToSID",
+          "children": [
+            {
+              "name": "Convert-ECSAccountToSID"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "name": "MartinGC94",
+  "children": [
+    {
+      "name": "DisplayConfig",
+      "companyName": "Unknown",
+      "author": "MartinGC94",
+      "children": [
+        {
+          "name": "DisplaySource",
+          "children": [
+            {
+              "name": "Copy-DisplaySource"
+            }
+          ]
+        },
+        {
+          "name": "DisplayAdvancedColor",
+          "children": [
+            {
+              "name": "Disable-DisplayAdvancedColor"
+            },
+            {
+              "name": "Enable-DisplayAdvancedColor"
+            }
+          ]
+        },
+        {
+          "name": "Display",
+          "children": [
+            {
+              "name": "Disable-Display"
+            },
+            {
+              "name": "Enable-Display"
+            }
+          ]
+        },
+        {
+          "name": "DisplayColorInfo",
+          "children": [
+            {
+              "name": "Get-DisplayColorInfo"
+            }
+          ]
+        },
+        {
+          "name": "DisplayConfig",
+          "children": [
+            {
+              "name": "Get-DisplayConfig"
+            },
+            {
+              "name": "Use-DisplayConfig"
+            }
+          ]
+        },
+        {
+          "name": "DisplayHDR",
+          "children": [
+            {
+              "name": "Get-DisplayHDR"
+            },
+            {
+              "name": "Set-DisplayHDR"
+            }
+          ]
+        },
+        {
+          "name": "DisplayInfo",
+          "children": [
+            {
+              "name": "Get-DisplayInfo"
+            }
+          ]
+        },
+        {
+          "name": "DisplayProfile",
+          "children": [
+            {
+              "name": "Get-DisplayProfile"
+            },
+            {
+              "name": "Set-DisplayProfile"
+            }
+          ]
+        },
+        {
+          "name": "DisplayScale",
+          "children": [
+            {
+              "name": "Get-DisplayScale"
+            },
+            {
+              "name": "Set-DisplayScale"
+            }
+          ]
+        },
+        {
+          "name": "DisplayPosition",
+          "children": [
+            {
+              "name": "Set-DisplayPosition"
+            }
+          ]
+        },
+        {
+          "name": "DisplayPrimary",
+          "children": [
+            {
+              "name": "Set-DisplayPrimary"
+            }
+          ]
+        },
+        {
+          "name": "DisplayRefreshRate",
+          "children": [
+            {
+              "name": "Set-DisplayRefreshRate"
+            }
+          ]
+        },
+        {
+          "name": "DisplayResolution",
+          "children": [
+            {
+              "name": "Set-DisplayResolution"
+            }
+          ]
+        },
+        {
+          "name": "DisplayRotation",
+          "children": [
+            {
+              "name": "Set-DisplayRotation"
+            }
+          ]
+        },
+        {
+          "name": "DisplayConfigChanges",
+          "children": [
+            {
+              "name": "Undo-DisplayConfigChanges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MonitorConfig",
+      "companyName": "Unknown",
+      "author": "MartinGC94",
+      "children": [
+        {
+          "name": "MonitorBrightness",
+          "children": [
+            {
+              "name": "Get-MonitorBrightness"
+            },
+            {
+              "name": "Set-MonitorBrightness"
+            }
+          ]
+        },
+        {
+          "name": "MonitorColorSettings",
+          "children": [
+            {
+              "name": "Get-MonitorColorSettings"
+            },
+            {
+              "name": "Set-MonitorColorSettings"
+            }
+          ]
+        },
+        {
+          "name": "Monitor",
+          "children": [
+            {
+              "name": "Get-Monitor"
+            }
+          ]
+        },
+        {
+          "name": "MonitorDetails",
+          "children": [
+            {
+              "name": "Get-MonitorDetails"
+            }
+          ]
+        },
+        {
+          "name": "MonitorVCPResponse",
+          "children": [
+            {
+              "name": "Get-MonitorVCPResponse"
+            }
+          ]
+        },
+        {
+          "name": "MonitorSettings",
+          "children": [
+            {
+              "name": "Reset-MonitorSettings"
+            },
+            {
+              "name": "Save-MonitorSettings"
+            }
+          ]
+        },
+        {
+          "name": "MonitorVCPValue",
+          "children": [
+            {
+              "name": "Set-MonitorVCPValue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MouseSettings",
+      "companyName": "Unknown",
+      "author": "MartinGC94",
+      "children": [
+        {
+          "name": "MouseSettings",
+          "children": [
+            {
+              "name": "Get-MouseSettings"
+            },
+            {
+              "name": "Set-MouseSettings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSRegistry",
+      "companyName": "Unknown",
+      "author": "MartinGC94",
+      "children": [
+        {
+          "name": "RegKeyProperty",
+          "children": [
+            {
+              "name": "Add-RegKeyProperty"
+            },
+            {
+              "name": "Remove-RegKeyProperty"
+            }
+          ]
+        },
+        {
+          "name": "RegKey",
+          "children": [
+            {
+              "name": "Copy-RegKey"
+            },
+            {
+              "name": "Get-RegKey"
+            },
+            {
+              "name": "New-RegKey"
+            },
+            {
+              "name": "Remove-RegKey"
+            },
+            {
+              "name": "Rename-RegKey"
+            }
+          ]
+        },
+        {
+          "name": "RegHive",
+          "children": [
+            {
+              "name": "Dismount-RegHive"
+            },
+            {
+              "name": "Mount-RegHive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SplitCollection",
+      "companyName": "Unknown",
+      "author": "MartinGC94",
+      "children": [
+        {
+          "name": "Collection",
+          "children": [
+            {
+              "name": "Split-Collection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UnattendXmlBuilder",
+      "companyName": "Unknown",
+      "author": "MartinGC94",
+      "children": [
+        {
+          "name": "UnattendCommand",
+          "children": [
+            {
+              "name": "Add-UnattendCommand"
+            }
+          ]
+        },
+        {
+          "name": "UnattendDiskPartition",
+          "children": [
+            {
+              "name": "Add-UnattendDiskPartition"
+            }
+          ]
+        },
+        {
+          "name": "UnattendDriverPath",
+          "children": [
+            {
+              "name": "Add-UnattendDriverPath"
+            }
+          ]
+        },
+        {
+          "name": "UnattendGroupMember",
+          "children": [
+            {
+              "name": "Add-UnattendGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "UnattendImage",
+          "children": [
+            {
+              "name": "Add-UnattendImage"
+            }
+          ]
+        },
+        {
+          "name": "UnattendInterfaceDnsConfig",
+          "children": [
+            {
+              "name": "Add-UnattendInterfaceDnsConfig"
+            }
+          ]
+        },
+        {
+          "name": "UnattendInterfaceIpConfig",
+          "children": [
+            {
+              "name": "Add-UnattendInterfaceIpConfig"
+            }
+          ]
+        },
+        {
+          "name": "UnattendUser",
+          "children": [
+            {
+              "name": "Add-UnattendUser"
+            }
+          ]
+        },
+        {
+          "name": "UnattendFile",
+          "children": [
+            {
+              "name": "Export-UnattendFile"
+            }
+          ]
+        },
+        {
+          "name": "UnattendBuilder",
+          "children": [
+            {
+              "name": "New-UnattendBuilder"
+            }
+          ]
+        },
+        {
+          "name": "UnattendAudioSetting",
+          "children": [
+            {
+              "name": "Set-UnattendAudioSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendAutoLogon",
+          "children": [
+            {
+              "name": "Set-UnattendAutoLogon"
+            }
+          ]
+        },
+        {
+          "name": "UnattendComputerName",
+          "children": [
+            {
+              "name": "Set-UnattendComputerName"
+            }
+          ]
+        },
+        {
+          "name": "UnattendDnsSetting",
+          "children": [
+            {
+              "name": "Set-UnattendDnsSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendDomainJoinInfo",
+          "children": [
+            {
+              "name": "Set-UnattendDomainJoinInfo"
+            }
+          ]
+        },
+        {
+          "name": "UnattendFirewallSetting",
+          "children": [
+            {
+              "name": "Set-UnattendFirewallSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendIpSetting",
+          "children": [
+            {
+              "name": "Set-UnattendIpSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendLanguageSetting",
+          "children": [
+            {
+              "name": "Set-UnattendLanguageSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendOobeSetting",
+          "children": [
+            {
+              "name": "Set-UnattendOobeSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendOwnerInfo",
+          "children": [
+            {
+              "name": "Set-UnattendOwnerInfo"
+            }
+          ]
+        },
+        {
+          "name": "UnattendPowerSetting",
+          "children": [
+            {
+              "name": "Set-UnattendPowerSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendProductKey",
+          "children": [
+            {
+              "name": "Set-UnattendProductKey"
+            }
+          ]
+        },
+        {
+          "name": "UnattendRdpSetting",
+          "children": [
+            {
+              "name": "Set-UnattendRdpSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendServerManagerSetting",
+          "children": [
+            {
+              "name": "Set-UnattendServerManagerSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendSysPrepSetting",
+          "children": [
+            {
+              "name": "Set-UnattendSysPrepSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendTimeSetting",
+          "children": [
+            {
+              "name": "Set-UnattendTimeSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendTpmSetting",
+          "children": [
+            {
+              "name": "Set-UnattendTpmSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendUacSetting",
+          "children": [
+            {
+              "name": "Set-UnattendUacSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendWindowsSetupSetting",
+          "children": [
+            {
+              "name": "Set-UnattendWindowsSetupSetting"
+            }
+          ]
+        },
+        {
+          "name": "UnattendWinReSetting",
+          "children": [
+            {
+              "name": "Set-UnattendWinReSetting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UsefulArgumentCompleters",
+      "companyName": "Unknown",
+      "author": "MartinGC94",
+      "children": [
+        {
+          "name": "UsefulArgumentCompleter",
+          "children": [
+            {
+              "name": "Get-UsefulArgumentCompleter"
+            }
+          ]
+        },
+        {
+          "name": "UsefulArgumentCompleterSet",
+          "children": [
+            {
+              "name": "Import-UsefulArgumentCompleterSet"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

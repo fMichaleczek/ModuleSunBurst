@@ -1,0 +1,363 @@
+{
+  "name": "JMN",
+  "children": [
+    {
+      "name": "CopyBuild",
+      "companyName": "Unknown",
+      "author": "JMN",
+      "children": [
+        {
+          "name": "HopexInstallFolderFilter",
+          "children": [
+            {
+              "name": "Enable-HopexInstallFolderFilter"
+            },
+            {
+              "name": "Disable-HopexInstallFolderFilter"
+            }
+          ]
+        },
+        {
+          "name": "HopexBuildFolderFilter",
+          "children": [
+            {
+              "name": "Enable-HopexBuildFolderFilter"
+            },
+            {
+              "name": "Disable-HopexBuildFolderFilter"
+            }
+          ]
+        },
+        {
+          "name": "HopexBuildFilters",
+          "children": [
+            {
+              "name": "Enable-HopexBuildFilters"
+            },
+            {
+              "name": "Disable-HopexBuildFilters"
+            }
+          ]
+        },
+        {
+          "name": "HopexBuild",
+          "children": [
+            {
+              "name": "Copy-HopexBuild"
+            }
+          ]
+        },
+        {
+          "name": "HasProcess",
+          "children": [
+            {
+              "name": "Get-HasProcess"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HopexFolders",
+      "companyName": "Unknown",
+      "author": "JMN",
+      "children": [
+        {
+          "name": "HasFolders",
+          "children": [
+            {
+              "name": "Reset-HasFolders"
+            }
+          ]
+        },
+        {
+          "name": "HasRootFolder",
+          "children": [
+            {
+              "name": "Set-HasRootFolder"
+            },
+            {
+              "name": "Get-HasRootFolder"
+            }
+          ]
+        },
+        {
+          "name": "HasInstallFolders",
+          "children": [
+            {
+              "name": "Sync-HasInstallFolders"
+            },
+            {
+              "name": "Get-HasInstallFolders"
+            }
+          ]
+        },
+        {
+          "name": "HasInstallFodlerShortcuts",
+          "children": [
+            {
+              "name": "Get-HasInstallFodlerShortcuts"
+            }
+          ]
+        },
+        {
+          "name": "HasInstallFolderShortcut",
+          "children": [
+            {
+              "name": "Resolve-HasInstallFolderShortcut"
+            }
+          ]
+        },
+        {
+          "name": "HopexRegisteredFolder",
+          "children": [
+            {
+              "name": "Reset-HopexRegisteredFolder"
+            },
+            {
+              "name": "Sync-HopexRegisteredFolder"
+            },
+            {
+              "name": "Get-HopexRegisteredFolder"
+            }
+          ]
+        },
+        {
+          "name": "GuessWorkAreaFolder",
+          "children": [
+            {
+              "name": "GuessWorkAreaFolder"
+            }
+          ]
+        },
+        {
+          "name": "GuessHasRootFolder",
+          "children": [
+            {
+              "name": "GuessHasRootFolder"
+            }
+          ]
+        },
+        {
+          "name": "HopexBuildFolders",
+          "children": [
+            {
+              "name": "Reset-HopexBuildFolders"
+            },
+            {
+              "name": "Sync-HopexBuildFolders"
+            },
+            {
+              "name": "Get-HopexBuildFolders"
+            }
+          ]
+        },
+        {
+          "name": "HopexWorkArea",
+          "children": [
+            {
+              "name": "Set-HopexWorkArea"
+            },
+            {
+              "name": "Get-HopexWorkArea"
+            }
+          ]
+        },
+        {
+          "name": "AllBuildFolders",
+          "children": [
+            {
+              "name": "Get-AllBuildFolders"
+            }
+          ]
+        },
+        {
+          "name": "RemoveRootFromPath",
+          "children": [
+            {
+              "name": "RemoveRootFromPath"
+            }
+          ]
+        },
+        {
+          "name": "MostRecentBuildFolder",
+          "children": [
+            {
+              "name": "Get-MostRecentBuildFolder"
+            }
+          ]
+        },
+        {
+          "name": "HopexBuildFolderShortcuts",
+          "children": [
+            {
+              "name": "Get-HopexBuildFolderShortcuts"
+            }
+          ]
+        },
+        {
+          "name": "HopexBuildFolderShortcut",
+          "children": [
+            {
+              "name": "Resolve-HopexBuildFolderShortcut"
+            }
+          ]
+        },
+        {
+          "name": "HopexFoldersAutoSync",
+          "children": [
+            {
+              "name": "Get-HopexFoldersAutoSync"
+            },
+            {
+              "name": "Enable-HopexFoldersAutoSync"
+            },
+            {
+              "name": "Disable-HopexFoldersAutoSync"
+            }
+          ]
+        },
+        {
+          "name": "HopexFolders",
+          "children": [
+            {
+              "name": "Reset-HopexFolders"
+            },
+            {
+              "name": "Sync-HopexFolders"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PrettyPrint",
+      "companyName": "Unknown",
+      "author": "JMN",
+      "children": [
+        {
+          "name": "PrettyPrint",
+          "children": [
+            {
+              "name": "Reset-PrettyPrint"
+            },
+            {
+              "name": "Enable-PrettyPrint"
+            },
+            {
+              "name": "Disable-PrettyPrint"
+            },
+            {
+              "name": "PrettyPrint"
+            }
+          ]
+        },
+        {
+          "name": "IsEnabled",
+          "children": [
+            {
+              "name": "IsEnabled"
+            }
+          ]
+        },
+        {
+          "name": "AllPrettyPrintPalettes",
+          "children": [
+            {
+              "name": "Get-AllPrettyPrintPalettes"
+            }
+          ]
+        },
+        {
+          "name": "PrettyPrintPalette",
+          "children": [
+            {
+              "name": "Get-PrettyPrintPalette"
+            },
+            {
+              "name": "Set-PrettyPrintPalette"
+            }
+          ]
+        },
+        {
+          "name": "GetPaletteName",
+          "children": [
+            {
+              "name": "GetPaletteName"
+            }
+          ]
+        },
+        {
+          "name": "GetPalette",
+          "children": [
+            {
+              "name": "GetPalette"
+            }
+          ]
+        },
+        {
+          "name": "PrettyPrintPrefix",
+          "children": [
+            {
+              "name": "Set-PrettyPrintPrefix"
+            },
+            {
+              "name": "Get-PrettyPrintPrefix"
+            },
+            {
+              "name": "Reset-PrettyPrintPrefix"
+            }
+          ]
+        },
+        {
+          "name": "GetMarkerDict",
+          "children": [
+            {
+              "name": "GetMarkerDict"
+            }
+          ]
+        },
+        {
+          "name": "ExpandMarkers",
+          "children": [
+            {
+              "name": "ExpandMarkers"
+            }
+          ]
+        },
+        {
+          "name": "TrimAndMergeStrings",
+          "children": [
+            {
+              "name": "TrimAndMergeStrings"
+            }
+          ]
+        },
+        {
+          "name": "PrettyPrintStaging",
+          "children": [
+            {
+              "name": "PrettyPrintStaging"
+            }
+          ]
+        },
+        {
+          "name": "PrintString",
+          "children": [
+            {
+              "name": "PrintString"
+            }
+          ]
+        },
+        {
+          "name": "PrettyPrintReport",
+          "children": [
+            {
+              "name": "Show-PrettyPrintReport"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

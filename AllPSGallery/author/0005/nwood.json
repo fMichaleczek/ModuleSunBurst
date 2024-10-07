@@ -1,0 +1,1503 @@
+{
+  "name": "nwood",
+  "children": [
+    {
+      "name": "AksHci",
+      "companyName": "Microsoft Corporation",
+      "author": "nwood",
+      "children": [
+        {
+          "name": "AksHci",
+          "children": [
+            {
+              "name": "Install-AksHci"
+            },
+            {
+              "name": "Reinstall-AksHci"
+            },
+            {
+              "name": "Uninstall-AksHci"
+            },
+            {
+              "name": "Update-AksHci"
+            }
+          ]
+        },
+        {
+          "name": "AksHciKubernetesVersion",
+          "children": [
+            {
+              "name": "Get-AksHciKubernetesVersion"
+            }
+          ]
+        },
+        {
+          "name": "AksHciVmSize",
+          "children": [
+            {
+              "name": "Get-AksHciVmSize"
+            }
+          ]
+        },
+        {
+          "name": "AksHciAutoScalerProfile",
+          "children": [
+            {
+              "name": "New-AksHciAutoScalerProfile"
+            },
+            {
+              "name": "Get-AksHciAutoScalerProfile"
+            },
+            {
+              "name": "Set-AksHciAutoScalerProfile"
+            },
+            {
+              "name": "Remove-AksHciAutoScalerProfile"
+            }
+          ]
+        },
+        {
+          "name": "AksHciCluster",
+          "children": [
+            {
+              "name": "Set-AksHciCluster"
+            },
+            {
+              "name": "New-AksHciCluster"
+            },
+            {
+              "name": "Get-AksHciCluster"
+            },
+            {
+              "name": "Remove-AksHciCluster"
+            },
+            {
+              "name": "Update-AksHciCluster"
+            }
+          ]
+        },
+        {
+          "name": "AksHciNodePool",
+          "children": [
+            {
+              "name": "New-AksHciNodePool"
+            },
+            {
+              "name": "Get-AksHciNodePool"
+            },
+            {
+              "name": "Set-AksHciNodePool"
+            },
+            {
+              "name": "Remove-AksHciNodePool"
+            }
+          ]
+        },
+        {
+          "name": "AksHciLogs",
+          "children": [
+            {
+              "name": "Get-AksHciLogs"
+            }
+          ]
+        },
+        {
+          "name": "AksHciArcConnection",
+          "children": [
+            {
+              "name": "Enable-AksHciArcConnection"
+            },
+            {
+              "name": "Disable-AksHciArcConnection"
+            }
+          ]
+        },
+        {
+          "name": "AksHciAdAuth",
+          "children": [
+            {
+              "name": "Install-AksHciAdAuth"
+            },
+            {
+              "name": "Uninstall-AksHciAdAuth"
+            }
+          ]
+        },
+        {
+          "name": "AksHciGMSAWebhook",
+          "children": [
+            {
+              "name": "Install-AksHciGMSAWebhook"
+            },
+            {
+              "name": "Uninstall-AksHciGMSAWebhook"
+            }
+          ]
+        },
+        {
+          "name": "AksHciGMSACredentialSpec",
+          "children": [
+            {
+              "name": "Add-AksHciGMSACredentialSpec"
+            },
+            {
+              "name": "Remove-AksHciGMSACredentialSpec"
+            }
+          ]
+        },
+        {
+          "name": "AksHciCredential",
+          "children": [
+            {
+              "name": "Get-AksHciCredential"
+            }
+          ]
+        },
+        {
+          "name": "AksHciConfig",
+          "children": [
+            {
+              "name": "Set-AksHciConfig"
+            },
+            {
+              "name": "Get-AksHciConfig"
+            }
+          ]
+        },
+        {
+          "name": "AksHciVersion",
+          "children": [
+            {
+              "name": "Get-AksHciVersion"
+            }
+          ]
+        },
+        {
+          "name": "AksHciUpdates",
+          "children": [
+            {
+              "name": "Get-AksHciUpdates"
+            }
+          ]
+        },
+        {
+          "name": "AksHciClusterUpdates",
+          "children": [
+            {
+              "name": "Get-AksHciClusterUpdates"
+            }
+          ]
+        },
+        {
+          "name": "AksHciEventLog",
+          "children": [
+            {
+              "name": "Get-AksHciEventLog"
+            }
+          ]
+        },
+        {
+          "name": "AksHciNetworkSetting",
+          "children": [
+            {
+              "name": "New-AksHciNetworkSetting"
+            }
+          ]
+        },
+        {
+          "name": "AksHciClusterCerts",
+          "children": [
+            {
+              "name": "Repair-AksHciClusterCerts"
+            }
+          ]
+        },
+        {
+          "name": "AksHciCerts",
+          "children": [
+            {
+              "name": "Repair-AksHciCerts"
+            }
+          ]
+        },
+        {
+          "name": "AksHciRegistration",
+          "children": [
+            {
+              "name": "Set-AksHciRegistration"
+            },
+            {
+              "name": "Get-AksHciRegistration"
+            }
+          ]
+        },
+        {
+          "name": "AksHciStorageContainer",
+          "children": [
+            {
+              "name": "New-AksHciStorageContainer"
+            },
+            {
+              "name": "Get-AksHciStorageContainer"
+            }
+          ]
+        },
+        {
+          "name": "AksHciCsiSmb",
+          "children": [
+            {
+              "name": "Install-AksHciCsiSmb"
+            },
+            {
+              "name": "Uninstall-AksHciCsiSmb"
+            }
+          ]
+        },
+        {
+          "name": "AksHciCsiNfs",
+          "children": [
+            {
+              "name": "Install-AksHciCsiNfs"
+            },
+            {
+              "name": "Uninstall-AksHciCsiNfs"
+            }
+          ]
+        },
+        {
+          "name": "AksHciBilling",
+          "children": [
+            {
+              "name": "Sync-AksHciBilling"
+            }
+          ]
+        },
+        {
+          "name": "AksHciBillingStatus",
+          "children": [
+            {
+              "name": "Get-AksHciBillingStatus"
+            }
+          ]
+        },
+        {
+          "name": "AksHciClusterNetwork",
+          "children": [
+            {
+              "name": "New-AksHciClusterNetwork"
+            },
+            {
+              "name": "Get-AksHciClusterNetwork"
+            },
+            {
+              "name": "Remove-AksHciClusterNetwork"
+            }
+          ]
+        },
+        {
+          "name": "AksHciMonitoring",
+          "children": [
+            {
+              "name": "Install-AksHciMonitoring"
+            },
+            {
+              "name": "Uninstall-AksHciMonitoring"
+            }
+          ]
+        },
+        {
+          "name": "AksHciNode",
+          "children": [
+            {
+              "name": "Add-AksHciNode"
+            },
+            {
+              "name": "Remove-AksHciNode"
+            }
+          ]
+        },
+        {
+          "name": "AksHciProxySetting",
+          "children": [
+            {
+              "name": "New-AksHciProxySetting"
+            },
+            {
+              "name": "Get-AksHciProxySetting"
+            },
+            {
+              "name": "Set-AksHciProxySetting"
+            }
+          ]
+        },
+        {
+          "name": "AksHciContainerRegistry",
+          "children": [
+            {
+              "name": "New-AksHciContainerRegistry"
+            }
+          ]
+        },
+        {
+          "name": "AksHciPreview",
+          "children": [
+            {
+              "name": "Enable-AksHciPreview"
+            },
+            {
+              "name": "Disable-AksHciPreview"
+            }
+          ]
+        },
+        {
+          "name": "AksHciLoadBalancerSetting",
+          "children": [
+            {
+              "name": "New-AksHciLoadBalancerSetting"
+            }
+          ]
+        },
+        {
+          "name": "AksHciRotateCACertificate",
+          "children": [
+            {
+              "name": "Invoke-AksHciRotateCACertificate"
+            }
+          ]
+        },
+        {
+          "name": "AksHciPatchCloudCertificates",
+          "children": [
+            {
+              "name": "Invoke-AksHciPatchCloudCertificates"
+            }
+          ]
+        },
+        {
+          "name": "CloudCACertificateNearingExpiry",
+          "children": [
+            {
+              "name": "Test-CloudCACertificateNearingExpiry"
+            }
+          ]
+        },
+        {
+          "name": "AksHciLoadBalancer",
+          "children": [
+            {
+              "name": "Set-AksHciLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "AksHciVipPoolSetting",
+          "children": [
+            {
+              "name": "New-AksHciVipPoolSetting"
+            }
+          ]
+        },
+        {
+          "name": "AksHciRelease",
+          "children": [
+            {
+              "name": "Get-AksHciRelease"
+            }
+          ]
+        },
+        {
+          "name": "AksHciOfflineDownload",
+          "children": [
+            {
+              "name": "Enable-AksHciOfflineDownload"
+            },
+            {
+              "name": "Disable-AksHciOfflineDownload"
+            }
+          ]
+        },
+        {
+          "name": "AksHciOffsiteConfig",
+          "children": [
+            {
+              "name": "Set-AksHciOffsiteConfig"
+            }
+          ]
+        },
+        {
+          "name": "AksHciSSHConfiguration",
+          "children": [
+            {
+              "name": "New-AksHciSSHConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "AksHciMocCNISetting",
+          "children": [
+            {
+              "name": "New-AksHciMocCNISetting"
+            }
+          ]
+        },
+        {
+          "name": "AksHciClusterLinuxOsConfig",
+          "children": [
+            {
+              "name": "New-AksHciClusterLinuxOsConfig"
+            }
+          ]
+        },
+        {
+          "name": "AksHciRequiredKubernetesVersion",
+          "children": [
+            {
+              "name": "Get-AksHciRequiredKubernetesVersion"
+            }
+          ]
+        },
+        {
+          "name": "UpdateAksHci",
+          "children": [
+            {
+              "name": "Test-UpdateAksHci"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DownloadSdk",
+      "companyName": "Microsoft Corporation",
+      "author": "nwood",
+      "children": [
+        {
+          "name": "DownloadSdkCatalog",
+          "children": [
+            {
+              "name": "Get-DownloadSdkCatalog"
+            }
+          ]
+        },
+        {
+          "name": "DownloadSdkRelease",
+          "children": [
+            {
+              "name": "Get-DownloadSdkRelease"
+            }
+          ]
+        },
+        {
+          "name": "DownloadSdkEventLog",
+          "children": [
+            {
+              "name": "Get-DownloadSdkEventLog"
+            }
+          ]
+        },
+        {
+          "name": "DownloadSdkLogs",
+          "children": [
+            {
+              "name": "Get-DownloadSdkLogs"
+            }
+          ]
+        },
+        {
+          "name": "DownloadSdkProxy",
+          "children": [
+            {
+              "name": "Set-DownloadSdkProxy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HNS",
+      "companyName": "Microsoft Corporation",
+      "author": "nwood",
+      "children": [
+        {
+          "name": "HnsNetwork",
+          "children": [
+            {
+              "name": "New-HnsNetwork"
+            },
+            {
+              "name": "Get-HnsNetwork"
+            },
+            {
+              "name": "Remove-HnsNetwork"
+            },
+            {
+              "name": "Modify-HnsNetwork"
+            }
+          ]
+        },
+        {
+          "name": "HnsIcsNetwork",
+          "children": [
+            {
+              "name": "New-HnsIcsNetwork"
+            }
+          ]
+        },
+        {
+          "name": "HnsDefaultSwitchNetwork",
+          "children": [
+            {
+              "name": "New-HnsDefaultSwitchNetwork"
+            }
+          ]
+        },
+        {
+          "name": "HnsNetworkDNS",
+          "children": [
+            {
+              "name": "Update-HnsNetworkDNS"
+            }
+          ]
+        },
+        {
+          "name": "HnsNetworkExtension",
+          "children": [
+            {
+              "name": "Update-HnsNetworkExtension"
+            }
+          ]
+        },
+        {
+          "name": "HnsRemoteSubnetRoutePolicy",
+          "children": [
+            {
+              "name": "New-HnsRemoteSubnetRoutePolicy"
+            },
+            {
+              "name": "Remove-HnsRemoteSubnetRoutePolicy"
+            }
+          ]
+        },
+        {
+          "name": "HnsHostRoutePolicy",
+          "children": [
+            {
+              "name": "New-HnsHostRoutePolicy"
+            },
+            {
+              "name": "Remove-HnsHostRoutePolicy"
+            }
+          ]
+        },
+        {
+          "name": "HnsSubnet",
+          "children": [
+            {
+              "name": "New-HnsSubnet"
+            },
+            {
+              "name": "Remove-HnsSubnet"
+            }
+          ]
+        },
+        {
+          "name": "HnsIPSubnet",
+          "children": [
+            {
+              "name": "New-HnsIPSubnet"
+            },
+            {
+              "name": "Remove-HnsIPSubnet"
+            }
+          ]
+        },
+        {
+          "name": "HnsEndpoint",
+          "children": [
+            {
+              "name": "New-HnsEndpoint"
+            },
+            {
+              "name": "Get-HnsEndpoint"
+            },
+            {
+              "name": "Modify-HnsEndpoint"
+            },
+            {
+              "name": "Remove-HnsEndpoint"
+            },
+            {
+              "name": "Attach-HnsEndpoint"
+            },
+            {
+              "name": "Detach-HnsEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "HnsRemoteEndpoint",
+          "children": [
+            {
+              "name": "New-HnsRemoteEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "HnsEndpointPolicy",
+          "children": [
+            {
+              "name": "Update-HnsEndpointPolicy"
+            },
+            {
+              "name": "Add-HnsEndpointPolicy"
+            },
+            {
+              "name": "Remove-HnsEndpointPolicy"
+            }
+          ]
+        },
+        {
+          "name": "HnsEndpointVmPort",
+          "children": [
+            {
+              "name": "Add-HnsEndpointVmPort"
+            },
+            {
+              "name": "Remove-HnsEndpointVmPort"
+            }
+          ]
+        },
+        {
+          "name": "HnsNamespace",
+          "children": [
+            {
+              "name": "New-HnsNamespace"
+            },
+            {
+              "name": "Get-HnsNamespace"
+            },
+            {
+              "name": "Remove-HnsNamespace"
+            },
+            {
+              "name": "Modify-HnsNamespace"
+            }
+          ]
+        },
+        {
+          "name": "HnsLoadBalancer",
+          "children": [
+            {
+              "name": "New-HnsLoadBalancer"
+            },
+            {
+              "name": "Get-HnsLoadBalancer"
+            },
+            {
+              "name": "Remove-HnsLoadBalancer"
+            },
+            {
+              "name": "Modify-HnsLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "HnsRoute",
+          "children": [
+            {
+              "name": "New-HnsRoute"
+            },
+            {
+              "name": "Get-HnsRoute"
+            },
+            {
+              "name": "Remove-HnsRoute"
+            }
+          ]
+        },
+        {
+          "name": "HnsProxyPolicy",
+          "children": [
+            {
+              "name": "New-HnsProxyPolicy"
+            },
+            {
+              "name": "Remove-HnsProxyPolicy"
+            }
+          ]
+        },
+        {
+          "name": "HnsGuestNetworkService",
+          "children": [
+            {
+              "name": "Get-HnsGuestNetworkService"
+            },
+            {
+              "name": "Modify-HnsGuestNetworkService"
+            }
+          ]
+        },
+        {
+          "name": "HnsGuestNetworkServiceState",
+          "children": [
+            {
+              "name": "Modify-HnsGuestNetworkServiceState"
+            }
+          ]
+        },
+        {
+          "name": "HnsHostEndpoint",
+          "children": [
+            {
+              "name": "Attach-HnsHostEndpoint"
+            },
+            {
+              "name": "Detach-HnsHostEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "HnsVMEndpoint",
+          "children": [
+            {
+              "name": "Attach-HnsVMEndpoint"
+            },
+            {
+              "name": "Detach-HnsVMEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "HnsRequest",
+          "children": [
+            {
+              "name": "Invoke-HnsRequest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moc",
+      "companyName": "Microsoft Corporation",
+      "author": "nwood",
+      "children": [
+        {
+          "name": "Moc",
+          "children": [
+            {
+              "name": "Install-Moc"
+            },
+            {
+              "name": "Reset-Moc"
+            },
+            {
+              "name": "Update-Moc"
+            },
+            {
+              "name": "Uninstall-Moc"
+            },
+            {
+              "name": "Repair-Moc"
+            },
+            {
+              "name": "Test-Moc"
+            }
+          ]
+        },
+        {
+          "name": "MocConfig",
+          "children": [
+            {
+              "name": "Get-MocConfig"
+            },
+            {
+              "name": "Set-MocConfig"
+            },
+            {
+              "name": "Import-MocConfig"
+            }
+          ]
+        },
+        {
+          "name": "MocNode",
+          "children": [
+            {
+              "name": "Initialize-MocNode"
+            },
+            {
+              "name": "New-MocNode"
+            },
+            {
+              "name": "Get-MocNode"
+            },
+            {
+              "name": "Remove-MocNode"
+            },
+            {
+              "name": "Reset-MocNode"
+            }
+          ]
+        },
+        {
+          "name": "MocLogs",
+          "children": [
+            {
+              "name": "Get-MocLogs"
+            }
+          ]
+        },
+        {
+          "name": "MocVersion",
+          "children": [
+            {
+              "name": "Get-MocVersion"
+            }
+          ]
+        },
+        {
+          "name": "MocEventLog",
+          "children": [
+            {
+              "name": "Get-MocEventLog"
+            }
+          ]
+        },
+        {
+          "name": "MocLocation",
+          "children": [
+            {
+              "name": "New-MocLocation"
+            },
+            {
+              "name": "Get-MocLocation"
+            },
+            {
+              "name": "Remove-MocLocation"
+            },
+            {
+              "name": "Reset-MocLocation"
+            }
+          ]
+        },
+        {
+          "name": "MocCluster",
+          "children": [
+            {
+              "name": "New-MocCluster"
+            },
+            {
+              "name": "Get-MocCluster"
+            },
+            {
+              "name": "Remove-MocCluster"
+            },
+            {
+              "name": "Reset-MocCluster"
+            }
+          ]
+        },
+        {
+          "name": "MocVipPool",
+          "children": [
+            {
+              "name": "New-MocVipPool"
+            },
+            {
+              "name": "Get-MocVipPool"
+            },
+            {
+              "name": "Remove-MocVipPool"
+            },
+            {
+              "name": "Reset-MocVipPool"
+            }
+          ]
+        },
+        {
+          "name": "MocMacPool",
+          "children": [
+            {
+              "name": "New-MocMacPool"
+            },
+            {
+              "name": "Get-MocMacPool"
+            },
+            {
+              "name": "Remove-MocMacPool"
+            },
+            {
+              "name": "Reset-MocMacPool"
+            }
+          ]
+        },
+        {
+          "name": "MocGroup",
+          "children": [
+            {
+              "name": "New-MocGroup"
+            },
+            {
+              "name": "Get-MocGroup"
+            },
+            {
+              "name": "Remove-MocGroup"
+            },
+            {
+              "name": "Reset-MocGroup"
+            }
+          ]
+        },
+        {
+          "name": "MocVirtualNetwork",
+          "children": [
+            {
+              "name": "New-MocVirtualNetwork"
+            },
+            {
+              "name": "Get-MocVirtualNetwork"
+            },
+            {
+              "name": "Remove-MocVirtualNetwork"
+            },
+            {
+              "name": "Reset-MocVirtualNetwork"
+            }
+          ]
+        },
+        {
+          "name": "MocGalleryImage",
+          "children": [
+            {
+              "name": "New-MocGalleryImage"
+            },
+            {
+              "name": "Get-MocGalleryImage"
+            },
+            {
+              "name": "Remove-MocGalleryImage"
+            },
+            {
+              "name": "Reset-MocGalleryImage"
+            }
+          ]
+        },
+        {
+          "name": "MocVMSS",
+          "children": [
+            {
+              "name": "New-MocVMSS"
+            },
+            {
+              "name": "Get-MocVMSS"
+            },
+            {
+              "name": "Set-MocVMSS"
+            },
+            {
+              "name": "Remove-MocVMSS"
+            },
+            {
+              "name": "Reset-MocVMSS"
+            }
+          ]
+        },
+        {
+          "name": "MocVirtualMachine",
+          "children": [
+            {
+              "name": "New-MocVirtualMachine"
+            },
+            {
+              "name": "Get-MocVirtualMachine"
+            },
+            {
+              "name": "Start-MocVirtualMachine"
+            },
+            {
+              "name": "Stop-MocVirtualMachine"
+            },
+            {
+              "name": "Restart-MocVirtualMachine"
+            },
+            {
+              "name": "Remove-MocVirtualMachine"
+            },
+            {
+              "name": "Reset-MocVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "MocNetworkInterface",
+          "children": [
+            {
+              "name": "New-MocNetworkInterface"
+            },
+            {
+              "name": "Get-MocNetworkInterface"
+            },
+            {
+              "name": "Connect-MocNetworkInterface"
+            },
+            {
+              "name": "Disconnect-MocNetworkInterface"
+            },
+            {
+              "name": "Remove-MocNetworkInterface"
+            },
+            {
+              "name": "Reset-MocNetworkInterface"
+            }
+          ]
+        },
+        {
+          "name": "MocLoadBalancer",
+          "children": [
+            {
+              "name": "New-MocLoadBalancer"
+            },
+            {
+              "name": "Get-MocLoadBalancer"
+            },
+            {
+              "name": "Remove-MocLoadBalancer"
+            },
+            {
+              "name": "Reset-MocLoadBalancer"
+            }
+          ]
+        },
+        {
+          "name": "MocVirtualHardDisk",
+          "children": [
+            {
+              "name": "New-MocVirtualHardDisk"
+            },
+            {
+              "name": "Get-MocVirtualHardDisk"
+            },
+            {
+              "name": "Resize-MocVirtualHardDisk"
+            },
+            {
+              "name": "Connect-MocVirtualHardDisk"
+            },
+            {
+              "name": "Disconnect-MocVirtualHardDisk"
+            },
+            {
+              "name": "Remove-MocVirtualHardDisk"
+            },
+            {
+              "name": "Reset-MocVirtualHardDisk"
+            }
+          ]
+        },
+        {
+          "name": "MocContainer",
+          "children": [
+            {
+              "name": "New-MocContainer"
+            },
+            {
+              "name": "Get-MocContainer"
+            },
+            {
+              "name": "Set-MocContainer"
+            },
+            {
+              "name": "Remove-MocContainer"
+            },
+            {
+              "name": "Reset-MocContainer"
+            }
+          ]
+        },
+        {
+          "name": "MocKeyVault",
+          "children": [
+            {
+              "name": "New-MocKeyVault"
+            },
+            {
+              "name": "Get-MocKeyVault"
+            },
+            {
+              "name": "Remove-MocKeyVault"
+            },
+            {
+              "name": "Reset-MocKeyVault"
+            }
+          ]
+        },
+        {
+          "name": "MocKey",
+          "children": [
+            {
+              "name": "New-MocKey"
+            },
+            {
+              "name": "Get-MocKey"
+            },
+            {
+              "name": "Import-MocKey"
+            },
+            {
+              "name": "Export-MocKey"
+            },
+            {
+              "name": "Remove-MocKey"
+            },
+            {
+              "name": "Reset-MocKey"
+            }
+          ]
+        },
+        {
+          "name": "MocKeyEncrypt",
+          "children": [
+            {
+              "name": "Invoke-MocKeyEncrypt"
+            }
+          ]
+        },
+        {
+          "name": "MocKeyDecrypt",
+          "children": [
+            {
+              "name": "Invoke-MocKeyDecrypt"
+            }
+          ]
+        },
+        {
+          "name": "MocKeyWrap",
+          "children": [
+            {
+              "name": "Invoke-MocKeyWrap"
+            }
+          ]
+        },
+        {
+          "name": "MocKeyUnwrap",
+          "children": [
+            {
+              "name": "Invoke-MocKeyUnwrap"
+            }
+          ]
+        },
+        {
+          "name": "MocKeyPublicKey",
+          "children": [
+            {
+              "name": "Get-MocKeyPublicKey"
+            }
+          ]
+        },
+        {
+          "name": "MocSecret",
+          "children": [
+            {
+              "name": "New-MocSecret"
+            },
+            {
+              "name": "Get-MocSecret"
+            },
+            {
+              "name": "Remove-MocSecret"
+            },
+            {
+              "name": "Reset-MocSecret"
+            }
+          ]
+        },
+        {
+          "name": "MocIdentity",
+          "children": [
+            {
+              "name": "New-MocIdentity"
+            },
+            {
+              "name": "Update-MocIdentity"
+            },
+            {
+              "name": "Remove-MocIdentity"
+            },
+            {
+              "name": "Get-MocIdentity"
+            }
+          ]
+        },
+        {
+          "name": "MocIdentityRotate",
+          "children": [
+            {
+              "name": "Invoke-MocIdentityRotate"
+            }
+          ]
+        },
+        {
+          "name": "MocAdminIdentity",
+          "children": [
+            {
+              "name": "New-MocAdminIdentity"
+            }
+          ]
+        },
+        {
+          "name": "MocBackup",
+          "children": [
+            {
+              "name": "Invoke-MocBackup"
+            }
+          ]
+        },
+        {
+          "name": "MocPhysicalNode",
+          "children": [
+            {
+              "name": "New-MocPhysicalNode"
+            },
+            {
+              "name": "Remove-MocPhysicalNode"
+            }
+          ]
+        },
+        {
+          "name": "MocHyperThreadingEnabled",
+          "children": [
+            {
+              "name": "Get-MocHyperThreadingEnabled"
+            }
+          ]
+        },
+        {
+          "name": "MocRole",
+          "children": [
+            {
+              "name": "New-MocRole"
+            },
+            {
+              "name": "Get-MocRole"
+            },
+            {
+              "name": "Remove-MocRole"
+            }
+          ]
+        },
+        {
+          "name": "MocRoleAssignment",
+          "children": [
+            {
+              "name": "New-MocRoleAssignment"
+            },
+            {
+              "name": "Get-MocRoleAssignment"
+            },
+            {
+              "name": "Remove-MocRoleAssignment"
+            }
+          ]
+        },
+        {
+          "name": "MocRoleAssignmentWhenAvailable",
+          "children": [
+            {
+              "name": "New-MocRoleAssignmentWhenAvailable"
+            }
+          ]
+        },
+        {
+          "name": "MocRoleAssignmentByName",
+          "children": [
+            {
+              "name": "Remove-MocRoleAssignmentByName"
+            }
+          ]
+        },
+        {
+          "name": "MocPreview",
+          "children": [
+            {
+              "name": "Enable-MocPreview"
+            },
+            {
+              "name": "Disable-MocPreview"
+            }
+          ]
+        },
+        {
+          "name": "MocLogin",
+          "children": [
+            {
+              "name": "Repair-MocLogin"
+            }
+          ]
+        },
+        {
+          "name": "MocGuestAgent",
+          "children": [
+            {
+              "name": "Repair-MocGuestAgent"
+            }
+          ]
+        },
+        {
+          "name": "MocCertificate",
+          "children": [
+            {
+              "name": "Update-MocCertificate"
+            },
+            {
+              "name": "Get-MocCertificate"
+            }
+          ]
+        },
+        {
+          "name": "MocRotateCACertificate",
+          "children": [
+            {
+              "name": "Invoke-MocRotateCACertificate"
+            }
+          ]
+        },
+        {
+          "name": "MocRelease",
+          "children": [
+            {
+              "name": "Get-MocRelease"
+            }
+          ]
+        },
+        {
+          "name": "MocOfflineDownload",
+          "children": [
+            {
+              "name": "Enable-MocOfflineDownload"
+            },
+            {
+              "name": "Disable-MocOfflineDownload"
+            }
+          ]
+        },
+        {
+          "name": "MocLatestVersion",
+          "children": [
+            {
+              "name": "Get-MocLatestVersion"
+            }
+          ]
+        },
+        {
+          "name": "MocLogVerbosityLevel",
+          "children": [
+            {
+              "name": "Set-MocLogVerbosityLevel"
+            },
+            {
+              "name": "Get-MocLogVerbosityLevel"
+            }
+          ]
+        },
+        {
+          "name": "MocEnvironment",
+          "children": [
+            {
+              "name": "Initialize-MocEnvironment"
+            },
+            {
+              "name": "Uninitialize-MocEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "MocOffsiteConfig",
+          "children": [
+            {
+              "name": "Set-MocOffsiteConfig"
+            }
+          ]
+        },
+        {
+          "name": "MocOfflineOffsiteTransferCompleted",
+          "children": [
+            {
+              "name": "Set-MocOfflineOffsiteTransferCompleted"
+            }
+          ]
+        },
+        {
+          "name": "MocConfiguration",
+          "children": [
+            {
+              "name": "Test-MocConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "MocSdnEnabled",
+          "children": [
+            {
+              "name": "Test-MocSdnEnabled"
+            }
+          ]
+        },
+        {
+          "name": "RemoteTestHostLimits",
+          "children": [
+            {
+              "name": "Invoke-RemoteTestHostLimits"
+            }
+          ]
+        },
+        {
+          "name": "RemoteInstallBinaries",
+          "children": [
+            {
+              "name": "Invoke-RemoteInstallBinaries"
+            }
+          ]
+        },
+        {
+          "name": "RemoteInstallNodeAgent",
+          "children": [
+            {
+              "name": "Invoke-RemoteInstallNodeAgent"
+            }
+          ]
+        },
+        {
+          "name": "RemoteInstallHostAgent",
+          "children": [
+            {
+              "name": "Invoke-RemoteInstallHostAgent"
+            }
+          ]
+        },
+        {
+          "name": "RemoteGetMocLogs",
+          "children": [
+            {
+              "name": "Invoke-RemoteGetMocLogs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WinInetProxy",
+      "companyName": "Microsoft Corporation",
+      "author": "nwood",
+      "children": [
+        {
+          "name": "WinInetProxy",
+          "children": [
+            {
+              "name": "Set-WinInetProxy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

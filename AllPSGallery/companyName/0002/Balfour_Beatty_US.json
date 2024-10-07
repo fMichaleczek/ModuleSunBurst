@@ -1,0 +1,1136 @@
+{
+  "name": "Balfour Beatty US",
+  "children": [
+    {
+      "name": "AWS_Tools_AddOns",
+      "companyName": "Balfour Beatty US",
+      "author": "Cliff Williams",
+      "children": [
+        {
+          "name": "S3Folder",
+          "children": [
+            {
+              "name": "Get-S3Folder"
+            },
+            {
+              "name": "Restore-S3Folder"
+            }
+          ]
+        },
+        {
+          "name": "S3RestoreProgress",
+          "children": [
+            {
+              "name": "Get-S3RestoreProgress"
+            }
+          ]
+        },
+        {
+          "name": "EC2InstanceList",
+          "children": [
+            {
+              "name": "Get-EC2InstanceList"
+            }
+          ]
+        },
+        {
+          "name": "DiskMappings",
+          "children": [
+            {
+              "name": "Get-DiskMappings"
+            }
+          ]
+        },
+        {
+          "name": "IAMUserPermissions",
+          "children": [
+            {
+              "name": "Get-IAMUserPermissions"
+            }
+          ]
+        },
+        {
+          "name": "IAMGroupPermissions",
+          "children": [
+            {
+              "name": "Get-IAMGroupPermissions"
+            }
+          ]
+        },
+        {
+          "name": "IAMRolePermissions",
+          "children": [
+            {
+              "name": "Get-IAMRolePermissions"
+            }
+          ]
+        },
+        {
+          "name": "SecretVault",
+          "children": [
+            {
+              "name": "Set-SecretVault"
+            }
+          ]
+        },
+        {
+          "name": "SecureAWSCredentials",
+          "children": [
+            {
+              "name": "Set-SecureAWSCredentials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Meraki-API-V1",
+      "companyName": "Balfour Beatty US",
+      "author": "Cliff Williams",
+      "children": [
+        {
+          "name": "MerakiApplianceCellularFirewallRule",
+          "children": [
+            {
+              "name": "Add-MerakiApplianceCellularFirewallRule"
+            },
+            {
+              "name": "Remove-MerakiApplianceCellularFirewallRule"
+            },
+            {
+              "name": "Set-MerakiApplianceCellularFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceContentFilteringRules",
+          "children": [
+            {
+              "name": "Add-MerakiApplianceContentFilteringRules"
+            },
+            {
+              "name": "Remove-MerakiApplianceContentFilteringRules"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceDelegatedStaticPrefix",
+          "children": [
+            {
+              "name": "Add-MerakiApplianceDelegatedStaticPrefix"
+            },
+            {
+              "name": "Remove-MerakiApplianceDelegatedStaticPrefix"
+            },
+            {
+              "name": "Set-MerakiApplianceDelegatedStaticPrefix"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceFirewallNatRule",
+          "children": [
+            {
+              "name": "Add-MerakiApplianceFirewallNatRule"
+            },
+            {
+              "name": "Remove-MerakiApplianceFirewallNatRule"
+            },
+            {
+              "name": "Set-MerakiApplianceFirewallNatRule"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceInboundCellularFirewallRule",
+          "children": [
+            {
+              "name": "Add-MerakiApplianceInboundCellularFirewallRule"
+            },
+            {
+              "name": "Remove-MerakiApplianceInboundCellularFirewallRule"
+            },
+            {
+              "name": "Set-MerakiApplianceInboundCellularFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceInboundFirewallRule",
+          "children": [
+            {
+              "name": "Add-MerakiApplianceInboundFirewallRule"
+            },
+            {
+              "name": "Remove-MerakiApplianceInboundFirewallRule"
+            },
+            {
+              "name": "Set-MerakiApplianceInboundFirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceL3FirewallRule",
+          "children": [
+            {
+              "name": "Add-MerakiApplianceL3FirewallRule"
+            },
+            {
+              "name": "Remove-MerakiApplianceL3FirewallRule"
+            },
+            {
+              "name": "Set-MerakiApplianceL3FirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceL7FirewallRule",
+          "children": [
+            {
+              "name": "Add-MerakiApplianceL7FirewallRule"
+            },
+            {
+              "name": "Remove-MerakiApplianceL7FirewallRule"
+            },
+            {
+              "name": "Set-MerakiApplianceL7FirewallRule"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceStaticRoute",
+          "children": [
+            {
+              "name": "Add-MerakiApplianceStaticRoute"
+            },
+            {
+              "name": "Set-MerakiApplianceStaticRoute"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceVlan",
+          "children": [
+            {
+              "name": "Add-MerakiApplianceVlan"
+            },
+            {
+              "name": "Get-MerakiApplianceVLAN"
+            },
+            {
+              "name": "Remove-MerakiApplianceVlan"
+            },
+            {
+              "name": "Set-MerakiApplianceVLAN"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetwork",
+          "children": [
+            {
+              "name": "Add-MerakiNetwork"
+            },
+            {
+              "name": "Get-MerakiNetwork"
+            },
+            {
+              "name": "Remove-MerakiNetwork"
+            },
+            {
+              "name": "Set-MerakiNetwork"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchAccessControlEntry",
+          "children": [
+            {
+              "name": "Add-MerakiSwitchAccessControlEntry"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchAccessPolicy",
+          "children": [
+            {
+              "name": "Add-MerakiSwitchAccessPolicy"
+            },
+            {
+              "name": "Get-MerakiSwitchAccessPolicy"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchLAG",
+          "children": [
+            {
+              "name": "Add-MerakiSwitchLAG"
+            },
+            {
+              "name": "Get-MerakiSwitchLAG"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchPortSchedule",
+          "children": [
+            {
+              "name": "Add-MerakiSwitchPortSchedule"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchQosRule",
+          "children": [
+            {
+              "name": "Add-MerakiSwitchQosRule"
+            },
+            {
+              "name": "Get-MerakiSwitchQosRule"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchRoutingInterface",
+          "children": [
+            {
+              "name": "Add-MerakiSwitchRoutingInterface"
+            },
+            {
+              "name": "Get-MerakiSwitchRoutingInterface"
+            },
+            {
+              "name": "Remove-MerakiSwitchRoutingInterface"
+            },
+            {
+              "name": "Set-MerakiSwitchRoutingInterface"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchRoutingStaticRoute",
+          "children": [
+            {
+              "name": "Add-MerakiSwitchRoutingStaticRoute"
+            },
+            {
+              "name": "Get-MerakiSwitchRoutingStaticRoute"
+            },
+            {
+              "name": "Set-MerakiSwitchRoutingStaticRoute"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchStackRoutingInterface",
+          "children": [
+            {
+              "name": "Add-MerakiSwitchStackRoutingInterface"
+            },
+            {
+              "name": "Get-MerakiSwitchStackRoutingInterface"
+            },
+            {
+              "name": "Remove-MerakiSwitchStackRoutingInterface"
+            },
+            {
+              "name": "Set-MerakiSwitchStackRoutingInterface"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchStackSwitch",
+          "children": [
+            {
+              "name": "Add-MerakiSwitchStackSwitch"
+            },
+            {
+              "name": "Remove-MerakiSwitchStackSwitch"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkToTemplate",
+          "children": [
+            {
+              "name": "Connect-MerakiNetworkToTemplate"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkFromTemplate",
+          "children": [
+            {
+              "name": "Disconnect-MerakiNetworkFromTemplate"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceCellularFirewallRules",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceCellularFirewallRules"
+            },
+            {
+              "name": "Set-MerakiApplianceCellularFirewallRules"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceClientSecurityEvents",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceClientSecurityEvents"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceContentFiltering",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceContentFiltering"
+            },
+            {
+              "name": "Update-MerakiApplianceContentFiltering"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceContentFilteringCategories",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceContentFilteringCategories"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceDelegatesStaticPrefix",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceDelegatesStaticPrefix"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceDelegatesStaticPrefixes",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceDelegatesStaticPrefixes"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceDhcpSubnets",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceDhcpSubnets"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceFirewalledServices",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceFirewalledServices"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceFirewallNatRules",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceFirewallNatRules"
+            },
+            {
+              "name": "Set-MerakiApplianceFirewallNatRules"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceInboundCellularFirewallRules",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceInboundCellularFirewallRules"
+            },
+            {
+              "name": "Set-MerakiApplianceInboundCellularFirewallRules"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceInboundFirewallRules",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceInboundFirewallRules"
+            },
+            {
+              "name": "Set-MerakiApplianceInboundFirewallRules"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceL3FirewallRules",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceL3FirewallRules"
+            },
+            {
+              "name": "Set-MerakiApplianceL3FirewallRules"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceL7ApplicationCategories",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceL7ApplicationCategories"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceL7FirewallRules",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceL7FirewallRules"
+            },
+            {
+              "name": "Set-MerakiApplianceL7FirewallRules"
+            }
+          ]
+        },
+        {
+          "name": "MerakiAppliancePort",
+          "children": [
+            {
+              "name": "Get-MerakiAppliancePort"
+            },
+            {
+              "name": "Set-MerakiAppliancePort"
+            }
+          ]
+        },
+        {
+          "name": "MerakiAppliancePorts",
+          "children": [
+            {
+              "name": "Get-MerakiAppliancePorts"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceSecurityIntrusion",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceSecurityIntrusion"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceSecurityMalwareSettings",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceSecurityMalwareSettings"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceSingleLan",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceSingleLan"
+            },
+            {
+              "name": "Set-MerakiApplianceSingleLan"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceSiteToSiteVPN",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceSiteToSiteVPN"
+            },
+            {
+              "name": "Set-MerakiApplianceSiteToSiteVpn"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceStaticRoutes",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceStaticRoutes"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceVLANS",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceVLANS"
+            }
+          ]
+        },
+        {
+          "name": "MerakiDevice",
+          "children": [
+            {
+              "name": "Get-MerakiDevice"
+            },
+            {
+              "name": "Restart-MerakiDevice"
+            },
+            {
+              "name": "Set-MerakiDevice"
+            }
+          ]
+        },
+        {
+          "name": "MerakiDeviceApplianceUplinks",
+          "children": [
+            {
+              "name": "Get-MerakiDeviceApplianceUplinks"
+            }
+          ]
+        },
+        {
+          "name": "MerakiDeviceClients",
+          "children": [
+            {
+              "name": "Get-MerakiDeviceClients"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkClientApplicationUsage",
+          "children": [
+            {
+              "name": "Get-MerakiNetworkClientApplicationUsage"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkClientBandwidthUsage",
+          "children": [
+            {
+              "name": "Get-MerakiNetworkClientBandwidthUsage"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkClients",
+          "children": [
+            {
+              "name": "Get-MerakiNetworkClients"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkDevices",
+          "children": [
+            {
+              "name": "Get-MerakiNetworkDevices"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkEvents",
+          "children": [
+            {
+              "name": "Get-MerakiNetworkEvents"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkEventTypes",
+          "children": [
+            {
+              "name": "Get-MerakiNetworkEventTypes"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworks",
+          "children": [
+            {
+              "name": "Get-MerakiNetworks"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkSwitchStacks",
+          "children": [
+            {
+              "name": "Get-MerakiNetworkSwitchStacks"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkTraffic",
+          "children": [
+            {
+              "name": "Get-MerakiNetworkTraffic"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganization",
+          "children": [
+            {
+              "name": "Get-MerakiOrganization"
+            },
+            {
+              "name": "New-MerakiOrganization"
+            },
+            {
+              "name": "Set-MerakiOrganization"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationAdmins",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationAdmins"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationApplianceUplinkStatuses",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationApplianceUplinkStatuses"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationApplianceVpnStats",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationApplianceVpnStats"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationApplianceVpnStatuses",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationApplianceVpnStatuses"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationConfigTemplate",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationConfigTemplate"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationConfigTemplates",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationConfigTemplates"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationConfigurationChanges",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationConfigurationChanges"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationDevices",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationDevices"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationDeviceStatus",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationDeviceStatus"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationDeviceUplinks",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationDeviceUplinks"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationFirmwareUpgrades",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationFirmwareUpgrades"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationFirmwareUpgradesByDevice",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationFirmwareUpgradesByDevice"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationInventoryDevices",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationInventoryDevices"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizations",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizations"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationSecurityEvents",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationSecurityEvents"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationThirdPartyVpnPeers",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationThirdPartyVpnPeers"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSSID",
+          "children": [
+            {
+              "name": "Get-MerakiSSID"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSSIDs",
+          "children": [
+            {
+              "name": "Get-MerakiSSIDs"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchAccessControlList",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchAccessControlList"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchAccessPolicies",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchAccessPolicies"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchPort",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchPort"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchPortSchedules",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchPortSchedules"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchPortsPacketCounters",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchPortsPacketCounters"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchPortsStatus",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchPortsStatus"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchQosRules",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchQosRules"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchQosRulesOrder",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchQosRulesOrder"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchRoutingInterfaceDHCP",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchRoutingInterfaceDHCP"
+            },
+            {
+              "name": "Set-MerakiSwitchRoutingInterfaceDhcp"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchRoutingInterfaces",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchRoutingInterfaces"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchRoutingMulticast",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchRoutingMulticast"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchRoutingOspf",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchRoutingOspf"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchStack",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchStack"
+            },
+            {
+              "name": "New-MerakiSwitchStack"
+            },
+            {
+              "name": "Remove-MerakiSwitchStack"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchStackRoutingInterfaceDHCP",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchStackRoutingInterfaceDHCP"
+            },
+            {
+              "name": "Set-MerakiSwitchStackRoutingInterfaceDhcp"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchStackRoutingInterfaces",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchStackRoutingInterfaces"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchStackRoutingStaticRoute",
+          "children": [
+            {
+              "name": "Get-MerakiSwitchStackRoutingStaticRoute"
+            },
+            {
+              "name": "Remove-MerakiSwitchStackRoutingStaticRoute"
+            },
+            {
+              "name": "Set-MerakiSwitchStackRoutingStaticRoute"
+            }
+          ]
+        },
+        {
+          "name": "MerakiWirelessAirMarshal",
+          "children": [
+            {
+              "name": "Get-MerakiWirelessAirMarshal"
+            }
+          ]
+        },
+        {
+          "name": "MerakiWirelessDataRateHistory",
+          "children": [
+            {
+              "name": "Get-MerakiWirelessDataRateHistory"
+            }
+          ]
+        },
+        {
+          "name": "MerakiWirelessStatus",
+          "children": [
+            {
+              "name": "Get-MerakiWirelessStatus"
+            }
+          ]
+        },
+        {
+          "name": "MerakiWirelessUsageHistory",
+          "children": [
+            {
+              "name": "Get-MerakiWirelessUsageHistory"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkClientConnectionStats",
+          "children": [
+            {
+              "name": "Get-MerakiNetworkClientConnectionStats"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationNetworks",
+          "children": [
+            {
+              "name": "Merge-MerakiOrganizationNetworks"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationThirdPartyVpnPeer",
+          "children": [
+            {
+              "name": "New-MerakiOrganizationThirdPartyVpnPeer"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSecretsVault",
+          "children": [
+            {
+              "name": "New-MerakiSecretsVault"
+            }
+          ]
+        },
+        {
+          "name": "MerakiNetworkDevice",
+          "children": [
+            {
+              "name": "Remove-MerakiNetworkDevice"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchStaticRoute",
+          "children": [
+            {
+              "name": "Remove-MerakiSwitchStaticRoute"
+            }
+          ]
+        },
+        {
+          "name": "MerakiSwitchPorts",
+          "children": [
+            {
+              "name": "Reset-MerakiSwitchPorts"
+            }
+          ]
+        },
+        {
+          "name": "MerakiAPI",
+          "children": [
+            {
+              "name": "Set-MerakiAPI"
+            }
+          ]
+        },
+        {
+          "name": "MerakiProfile",
+          "children": [
+            {
+              "name": "Set-MerakiProfile"
+            }
+          ]
+        },
+        {
+          "name": "MerakiDeviceBlink",
+          "children": [
+            {
+              "name": "Start-MerakiDeviceBlink"
+            }
+          ]
+        },
+        {
+          "name": "MerakiDeviceLldpCdp",
+          "children": [
+            {
+              "name": "Get-MerakiDeviceLldpCdp"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationInventoryDevice",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationInventoryDevice"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationDeviceAvailabilityChangeHistory",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationDeviceAvailabilityChangeHistory"
+            }
+          ]
+        },
+        {
+          "name": "MerakiOrganizationDeviceAvailability",
+          "children": [
+            {
+              "name": "Get-MerakiOrganizationDeviceAvailability"
+            }
+          ]
+        },
+        {
+          "name": "MerakiApplianceSecurityEvents",
+          "children": [
+            {
+              "name": "Get-MerakiApplianceSecurityEvents"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

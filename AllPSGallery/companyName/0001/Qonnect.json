@@ -1,0 +1,360 @@
+{
+  "name": "Qonnect",
+  "children": [
+    {
+      "name": "PSMeraki",
+      "companyName": "Qonnect",
+      "author": "Sander Klaassen",
+      "children": [
+        {
+          "name": "MrkNetworkStaticRoute",
+          "children": [
+            {
+              "name": "Add-MrkNetworkStaticRoute"
+            },
+            {
+              "name": "Get-MrkNetworkStaticRoute"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkVLAN",
+          "children": [
+            {
+              "name": "Add-MrkNetworkVLAN"
+            },
+            {
+              "name": "Get-MrkNetworkVLAN"
+            },
+            {
+              "name": "Remove-MrkNetworkVLAN"
+            },
+            {
+              "name": "Update-MrkNetworkVLAN"
+            }
+          ]
+        },
+        {
+          "name": "MrkCameraVideoLink",
+          "children": [
+            {
+              "name": "Get-MrkCameraVideoLink"
+            }
+          ]
+        },
+        {
+          "name": "MrkDevice",
+          "children": [
+            {
+              "name": "Get-MrkDevice"
+            },
+            {
+              "name": "New-MrkDevice"
+            },
+            {
+              "name": "Remove-MrkDevice"
+            },
+            {
+              "name": "Restart-MrkDevice"
+            },
+            {
+              "name": "Set-MrkDevice"
+            },
+            {
+              "name": "Update-MrkDevice"
+            }
+          ]
+        },
+        {
+          "name": "MrkDeviceClient",
+          "children": [
+            {
+              "name": "Get-MrkDeviceClient"
+            }
+          ]
+        },
+        {
+          "name": "MrkDeviceGroupPolicy",
+          "children": [
+            {
+              "name": "Get-MrkDeviceGroupPolicy"
+            }
+          ]
+        },
+        {
+          "name": "MrkDevicesStatus",
+          "children": [
+            {
+              "name": "Get-MrkDevicesStatus"
+            }
+          ]
+        },
+        {
+          "name": "MrkInventory",
+          "children": [
+            {
+              "name": "Get-MrkInventory"
+            }
+          ]
+        },
+        {
+          "name": "MrkLicenseState",
+          "children": [
+            {
+              "name": "Get-MrkLicenseState"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetwork",
+          "children": [
+            {
+              "name": "Get-MrkNetwork"
+            },
+            {
+              "name": "New-MrkNetwork"
+            },
+            {
+              "name": "Remove-MrkNetwork"
+            },
+            {
+              "name": "Update-MrkNetwork"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkBluetoothClient",
+          "children": [
+            {
+              "name": "Get-MrkNetworkBluetoothClient"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkDevice",
+          "children": [
+            {
+              "name": "Get-MrkNetworkDevice"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkGroupPolicy",
+          "children": [
+            {
+              "name": "Get-MrkNetworkGroupPolicy"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkMRL3FwRule",
+          "children": [
+            {
+              "name": "Get-MrkNetworkMRL3FwRule"
+            },
+            {
+              "name": "Update-MrkNetworkMRL3FwRule"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkMxCfRule",
+          "children": [
+            {
+              "name": "Get-MrkNetworkMxCfRule"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkMXL3FwRule",
+          "children": [
+            {
+              "name": "Get-MrkNetworkMXL3FwRule"
+            },
+            {
+              "name": "Update-MrkNetworkMXL3FwRule"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkMXL7FwRule",
+          "children": [
+            {
+              "name": "Get-MrkNetworkMXL7FwRule"
+            },
+            {
+              "name": "Update-MrkNetworkMXL7FwRule"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkRoute",
+          "children": [
+            {
+              "name": "Get-MrkNetworkRoute"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkSiteToSiteVPN",
+          "children": [
+            {
+              "name": "Get-MrkNetworkSiteToSiteVPN"
+            },
+            {
+              "name": "Set-MrkNetworkSiteToSiteVPN"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkSSID",
+          "children": [
+            {
+              "name": "Get-MrkNetworkSSID"
+            },
+            {
+              "name": "Set-MrkNetworkSSID"
+            }
+          ]
+        },
+        {
+          "name": "MrkOrgAdmins",
+          "children": [
+            {
+              "name": "Get-MrkOrgAdmins"
+            }
+          ]
+        },
+        {
+          "name": "MrkOrganization",
+          "children": [
+            {
+              "name": "Get-MrkOrganization"
+            }
+          ]
+        },
+        {
+          "name": "MrkOrgEndpoint",
+          "children": [
+            {
+              "name": "Get-MrkOrgEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "MrkRestApiVersion",
+          "children": [
+            {
+              "name": "Get-MrkRestApiVersion"
+            },
+            {
+              "name": "Set-MrkRestApiVersion"
+            }
+          ]
+        },
+        {
+          "name": "MrkSAMLrole",
+          "children": [
+            {
+              "name": "Get-MrkSAMLrole"
+            }
+          ]
+        },
+        {
+          "name": "MrkSwitch",
+          "children": [
+            {
+              "name": "Get-MrkSwitch"
+            }
+          ]
+        },
+        {
+          "name": "MrkTemplate",
+          "children": [
+            {
+              "name": "Get-MrkTemplate"
+            }
+          ]
+        },
+        {
+          "name": "MrkTemplateNetworks",
+          "children": [
+            {
+              "name": "Get-MrkTemplateNetworks"
+            }
+          ]
+        },
+        {
+          "name": "MrkVPN",
+          "children": [
+            {
+              "name": "Get-MrkVPN"
+            }
+          ]
+        },
+        {
+          "name": "MrkRestMethod",
+          "children": [
+            {
+              "name": "Invoke-MrkRestMethod"
+            }
+          ]
+        },
+        {
+          "name": "MrkDeviceProvision",
+          "children": [
+            {
+              "name": "New-MrkDeviceProvision"
+            }
+          ]
+        },
+        {
+          "name": "MrkOrgAdmin",
+          "children": [
+            {
+              "name": "New-MrkOrgAdmin"
+            },
+            {
+              "name": "Remove-MrkOrgAdmin"
+            },
+            {
+              "name": "Update-MrkOrgAdmin"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkTemplate",
+          "children": [
+            {
+              "name": "Remove-MrkNetworkTemplate"
+            }
+          ]
+        },
+        {
+          "name": "MrkNetworkToTemplate",
+          "children": [
+            {
+              "name": "Set-MrkNetworkToTemplate"
+            }
+          ]
+        },
+        {
+          "name": "MrkRestApiKey",
+          "children": [
+            {
+              "name": "Set-MrkRestApiKey"
+            }
+          ]
+        },
+        {
+          "name": "MrkSwitchPort",
+          "children": [
+            {
+              "name": "Set-MrkSwitchPort"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

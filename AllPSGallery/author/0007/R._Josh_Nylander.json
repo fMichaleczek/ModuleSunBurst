@@ -1,0 +1,764 @@
+{
+  "name": "R. Josh Nylander",
+  "children": [
+    {
+      "name": "AMAG-SMSPowershell",
+      "companyName": "Whatcom Transportation Authority",
+      "author": "R. Josh Nylander",
+      "children": [
+        {
+          "name": "BoundParams",
+          "children": [
+            {
+              "name": "add-BoundParams"
+            }
+          ]
+        },
+        {
+          "name": "SMSCommand",
+          "children": [
+            {
+              "name": "New-SMSCommand"
+            }
+          ]
+        },
+        {
+          "name": "SMSServerConnection",
+          "children": [
+            {
+              "name": "Get-SMSServerConnection"
+            }
+          ]
+        },
+        {
+          "name": "SMSCard",
+          "children": [
+            {
+              "name": "Disable-SMSCard"
+            },
+            {
+              "name": "Enable-SMSCard"
+            },
+            {
+              "name": "Set-SMSCard"
+            },
+            {
+              "name": "Add-SMSCard"
+            },
+            {
+              "name": "Remove-SMSCard"
+            },
+            {
+              "name": "Get-SMSCard"
+            },
+            {
+              "name": "Copy-SMSCard"
+            },
+            {
+              "name": "Replace-SMSCard"
+            }
+          ]
+        },
+        {
+          "name": "SMSAccessRights",
+          "children": [
+            {
+              "name": "Add-SMSAccessRights"
+            },
+            {
+              "name": "Remove-SMSAccessRights"
+            },
+            {
+              "name": "Get-SMSAccessRights"
+            }
+          ]
+        },
+        {
+          "name": "SMSAccessCode",
+          "children": [
+            {
+              "name": "Get-SMSAccessCode"
+            }
+          ]
+        },
+        {
+          "name": "SMSAlarms",
+          "children": [
+            {
+              "name": "Get-SMSAlarms"
+            }
+          ]
+        },
+        {
+          "name": "SMSActivity",
+          "children": [
+            {
+              "name": "Get-SMSActivity"
+            }
+          ]
+        },
+        {
+          "name": "SMSCardLocation",
+          "children": [
+            {
+              "name": "Get-SMSCardLocation"
+            }
+          ]
+        },
+        {
+          "name": "SMSRecordsToProcess",
+          "children": [
+            {
+              "name": "Get-SMSRecordsToProcess"
+            }
+          ]
+        },
+        {
+          "name": "SMSGroupDoorPermission",
+          "children": [
+            {
+              "name": "Get-SMSGroupDoorPermission"
+            }
+          ]
+        },
+        {
+          "name": "SMSGroupDoorAccessCode",
+          "children": [
+            {
+              "name": "Get-SMSGroupDoorAccessCode"
+            }
+          ]
+        },
+        {
+          "name": "SMSwithAD",
+          "children": [
+            {
+              "name": "Sync-SMSwithAD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MSSQLManagementPowerShell",
+      "companyName": "Whatcom Transportation Auhtority",
+      "author": "R. Josh Nylander",
+      "children": [
+        {
+          "name": "SQLLogs",
+          "children": [
+            {
+              "name": "Get-SQLLogs"
+            }
+          ]
+        },
+        {
+          "name": "SQLAgentJobStatus",
+          "children": [
+            {
+              "name": "Get-SQLAgentJobStatus"
+            }
+          ]
+        },
+        {
+          "name": "SQLAgentJobLogs",
+          "children": [
+            {
+              "name": "Get-SQLAgentJobLogs"
+            }
+          ]
+        },
+        {
+          "name": "SQLIndex",
+          "children": [
+            {
+              "name": "Optimize-SQLIndex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Office365PowershellUtils",
+      "companyName": "Whatcom Transportation Authority",
+      "author": "R. Josh Nylander",
+      "children": [
+        {
+          "name": "DirSync",
+          "children": [
+            {
+              "name": "Force-DirSync"
+            },
+            {
+              "name": "Start-DirSync"
+            }
+          ]
+        },
+        {
+          "name": "ProxyAddress",
+          "children": [
+            {
+              "name": "Add-ProxyAddress"
+            },
+            {
+              "name": "Remove-ProxyAddress"
+            },
+            {
+              "name": "Set-ProxyAddress"
+            },
+            {
+              "name": "Sync-ProxyAddress"
+            },
+            {
+              "name": "Test-ProxyAddress"
+            }
+          ]
+        },
+        {
+          "name": "MailboxMemberOf",
+          "children": [
+            {
+              "name": "Clear-MailboxMemberOf"
+            },
+            {
+              "name": "Get-MailboxMemberOf"
+            }
+          ]
+        },
+        {
+          "name": "Office365",
+          "children": [
+            {
+              "name": "Connect-Office365"
+            }
+          ]
+        },
+        {
+          "name": "SecurityGroupAsDistributionGroup",
+          "children": [
+            {
+              "name": "Disable-SecurityGroupAsDistributionGroup"
+            },
+            {
+              "name": "Enable-SecurityGroupAsDistributionGroup"
+            }
+          ]
+        },
+        {
+          "name": "PSCredential",
+          "children": [
+            {
+              "name": "Export-PSCredential"
+            },
+            {
+              "name": "Import-PSCredential"
+            }
+          ]
+        },
+        {
+          "name": "MsolUsersWithLicense",
+          "children": [
+            {
+              "name": "Find-MsolUsersWithLicense"
+            }
+          ]
+        },
+        {
+          "name": "NextDirSync",
+          "children": [
+            {
+              "name": "Get-NextDirSync"
+            }
+          ]
+        },
+        {
+          "name": "ProxyAddressDefault",
+          "children": [
+            {
+              "name": "Get-ProxyAddressDefault"
+            }
+          ]
+        },
+        {
+          "name": "UserMailbox",
+          "children": [
+            {
+              "name": "Resume-UserMailbox"
+            },
+            {
+              "name": "Suspend-UserMailbox"
+            }
+          ]
+        },
+        {
+          "name": "Mailbox",
+          "children": [
+            {
+              "name": "Test-Mailbox"
+            }
+          ]
+        },
+        {
+          "name": "MsolLicensedUsersFromGroup",
+          "children": [
+            {
+              "name": "Update-MsolLicensedUsersFromGroup"
+            }
+          ]
+        },
+        {
+          "name": "MsolUserUsageLocation",
+          "children": [
+            {
+              "name": "Update-MsolUserUsageLocation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PermissionGroups",
+      "companyName": "Whatcom Transportation Authority",
+      "author": "R. Josh Nylander",
+      "children": [
+        {
+          "name": "SharedMailbox",
+          "children": [
+            {
+              "name": "New-SharedMailbox"
+            }
+          ]
+        },
+        {
+          "name": "SharedMailboxAutoMapping",
+          "children": [
+            {
+              "name": "Sync-SharedMailboxAutoMapping"
+            }
+          ]
+        },
+        {
+          "name": "MailboxPermissionsGroup",
+          "children": [
+            {
+              "name": "Sync-MailboxPermissionsGroup"
+            }
+          ]
+        },
+        {
+          "name": "SharedMailboxGroup",
+          "children": [
+            {
+              "name": "Add-SharedMailboxGroup"
+            }
+          ]
+        },
+        {
+          "name": "PermissionsDistributionGroup",
+          "children": [
+            {
+              "name": "New-PermissionsDistributionGroup"
+            },
+            {
+              "name": "Sync-PermissionsDistributionGroup"
+            },
+            {
+              "name": "Remove-PermissionsDistributionGroup"
+            }
+          ]
+        },
+        {
+          "name": "Office365Loaded",
+          "children": [
+            {
+              "name": "Test-Office365Loaded"
+            }
+          ]
+        },
+        {
+          "name": "FolderPermissions",
+          "children": [
+            {
+              "name": "Add-FolderPermissions"
+            }
+          ]
+        },
+        {
+          "name": "FolderPermissionsGroupName",
+          "children": [
+            {
+              "name": "Get-FolderPermissionsGroupName"
+            }
+          ]
+        },
+        {
+          "name": "FolderPermissionsGroup",
+          "children": [
+            {
+              "name": "New-FolderPermissionsGroup"
+            },
+            {
+              "name": "Add-FolderPermissionsGroup"
+            }
+          ]
+        },
+        {
+          "name": "FolderPermissionsGroupOrphans",
+          "children": [
+            {
+              "name": "Get-FolderPermissionsGroupOrphans"
+            }
+          ]
+        },
+        {
+          "name": "FolderPermissionGroups",
+          "children": [
+            {
+              "name": "Update-FolderPermissionGroups"
+            }
+          ]
+        },
+        {
+          "name": "FolderPermissionsOU",
+          "children": [
+            {
+              "name": "Set-FolderPermissionsOU"
+            },
+            {
+              "name": "Get-FolderPermissionsOU"
+            }
+          ]
+        },
+        {
+          "name": "EmployeeADUser",
+          "children": [
+            {
+              "name": "Choose-EmployeeADUser"
+            }
+          ]
+        },
+        {
+          "name": "RoleADGroup",
+          "children": [
+            {
+              "name": "Get-RoleADGroup"
+            },
+            {
+              "name": "Swap-RoleADGroup"
+            }
+          ]
+        },
+        {
+          "name": "RolePositionGroup",
+          "children": [
+            {
+              "name": "Get-RolePositionGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupMemberChanges",
+          "children": [
+            {
+              "name": "Get-ADGroupMemberChanges"
+            }
+          ]
+        },
+        {
+          "name": "ADGroup",
+          "children": [
+            {
+              "name": "Test-ADGroup"
+            },
+            {
+              "name": "Copy-ADGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupExpanded",
+          "children": [
+            {
+              "name": "Sync-ADGroupExpanded"
+            }
+          ]
+        },
+        {
+          "name": "ADUserMemberships",
+          "children": [
+            {
+              "name": "Remove-ADUserMemberships"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupsFromUsersToGroup",
+          "children": [
+            {
+              "name": "Move-ADGroupsFromUsersToGroup"
+            }
+          ]
+        },
+        {
+          "name": "ADUserPrimaryGroup",
+          "children": [
+            {
+              "name": "Set-ADUserPrimaryGroup"
+            }
+          ]
+        },
+        {
+          "name": "GroupMembershipRecursive",
+          "children": [
+            {
+              "name": "Get-GroupMembershipRecursive"
+            }
+          ]
+        },
+        {
+          "name": "SRSPermissionsGroup",
+          "children": [
+            {
+              "name": "New-SRSPermissionsGroup"
+            }
+          ]
+        },
+        {
+          "name": "SharePointPermissionsGroup",
+          "children": [
+            {
+              "name": "New-SharePointPermissionsGroup"
+            }
+          ]
+        },
+        {
+          "name": "PrinterGroup",
+          "children": [
+            {
+              "name": "New-PrinterGroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshHodgepodge",
+      "companyName": "Whatcom Transportation Authority",
+      "author": "R. Josh Nylander",
+      "children": [
+        {
+          "name": "RDP",
+          "children": [
+            {
+              "name": "Start-RDP"
+            }
+          ]
+        },
+        {
+          "name": "SessionIsElevated",
+          "children": [
+            {
+              "name": "Test-SessionIsElevated"
+            }
+          ]
+        },
+        {
+          "name": "Beep",
+          "children": [
+            {
+              "name": "Start-Beep"
+            }
+          ]
+        },
+        {
+          "name": "LoggedOnUsers",
+          "children": [
+            {
+              "name": "Get-LoggedOnUsers"
+            }
+          ]
+        },
+        {
+          "name": "StartOfMonth",
+          "children": [
+            {
+              "name": "Get-StartOfMonth"
+            }
+          ]
+        },
+        {
+          "name": "EndOfMonth",
+          "children": [
+            {
+              "name": "Get-EndOfMonth"
+            }
+          ]
+        },
+        {
+          "name": "UDPSocket",
+          "children": [
+            {
+              "name": "Listen-UDPSocket"
+            }
+          ]
+        },
+        {
+          "name": "ValueForChange",
+          "children": [
+            {
+              "name": "Watch-ValueForChange"
+            }
+          ]
+        },
+        {
+          "name": "Scratch",
+          "children": [
+            {
+              "name": "Out-Scratch"
+            }
+          ]
+        },
+        {
+          "name": "Web",
+          "children": [
+            {
+              "name": "Search-Web"
+            }
+          ]
+        },
+        {
+          "name": "GPSSentence",
+          "children": [
+            {
+              "name": "Parse-GPSSentence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshIssues",
+      "companyName": "Whatcom Transportation Authority",
+      "author": "R. Josh Nylander",
+      "children": [
+        {
+          "name": "IssueFix",
+          "children": [
+            {
+              "name": "Approve-IssueFix"
+            },
+            {
+              "name": "Archive-IssueFix"
+            },
+            {
+              "name": "Deny-IssueFix"
+            },
+            {
+              "name": "Invoke-IssueFix"
+            },
+            {
+              "name": "Limit-IssueFix"
+            },
+            {
+              "name": "New-IssueFix"
+            },
+            {
+              "name": "Read-IssueFix"
+            },
+            {
+              "name": "Remove-IssueFix"
+            },
+            {
+              "name": "Set-IssueFix"
+            },
+            {
+              "name": "Write-IssueFix"
+            }
+          ]
+        },
+        {
+          "name": "IssueMailMessage",
+          "children": [
+            {
+              "name": "Send-IssueMailMessage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "psCallEmAll",
+      "companyName": "Whatcom Transportation Authority",
+      "author": "R. Josh Nylander",
+      "children": [
+        {
+          "name": "AvailableLists",
+          "children": [
+            {
+              "name": "Get-AvailableLists"
+            }
+          ]
+        },
+        {
+          "name": "ListContents",
+          "children": [
+            {
+              "name": "Get-ListContents"
+            }
+          ]
+        },
+        {
+          "name": "Person",
+          "children": [
+            {
+              "name": "Delete-Person"
+            }
+          ]
+        },
+        {
+          "name": "PersonID",
+          "children": [
+            {
+              "name": "Create-PersonID"
+            },
+            {
+              "name": "Update-PersonID"
+            }
+          ]
+        },
+        {
+          "name": "PersonsToList",
+          "children": [
+            {
+              "name": "Add-PersonsToList"
+            }
+          ]
+        },
+        {
+          "name": "ListIDByName",
+          "children": [
+            {
+              "name": "Get-ListIDByName"
+            }
+          ]
+        },
+        {
+          "name": "NewList",
+          "children": [
+            {
+              "name": "Create-NewList"
+            }
+          ]
+        },
+        {
+          "name": "PersonIDDetails",
+          "children": [
+            {
+              "name": "Get-PersonIDDetails"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

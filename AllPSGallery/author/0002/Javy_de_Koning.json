@@ -1,0 +1,70 @@
+{
+  "name": "Javy de Koning",
+  "children": [
+    {
+      "name": "AWS.ImageBuilder.DocumentGenerator",
+      "companyName": "Amazon Web Services",
+      "author": "Javy de Koning",
+      "children": [
+        {
+          "name": "ImageBuilderDocument",
+          "children": [
+            {
+              "name": "New-ImageBuilderDocument"
+            }
+          ]
+        },
+        {
+          "name": "ImageBuilderPhase",
+          "children": [
+            {
+              "name": "New-ImageBuilderPhase"
+            }
+          ]
+        },
+        {
+          "name": "ImageBuilderS3Action",
+          "children": [
+            {
+              "name": "New-ImageBuilderS3Action"
+            }
+          ]
+        },
+        {
+          "name": "ImageBuilderRegistryAction",
+          "children": [
+            {
+              "name": "New-ImageBuilderRegistryAction"
+            }
+          ]
+        },
+        {
+          "name": "ImageBuilderStep",
+          "children": [
+            {
+              "name": "New-ImageBuilderStep"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shrinkdadatabase",
+      "companyName": "www.javydekoning.com",
+      "author": "Javy de Koning",
+      "children": [
+        {
+          "name": "DaDatabaseSize",
+          "children": [
+            {
+              "name": "Get-DaDatabaseSize"
+            },
+            {
+              "name": "Shrink-DaDatabaseSize"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

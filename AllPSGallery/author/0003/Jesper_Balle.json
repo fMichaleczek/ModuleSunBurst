@@ -1,0 +1,585 @@
+{
+  "name": "Jesper Balle",
+  "children": [
+    {
+      "name": "MedlemsserviceModule",
+      "companyName": "Jesper Balle",
+      "author": "Jesper Balle",
+      "children": [
+        {
+          "name": "MedlemsserviceUrl",
+          "children": [
+            {
+              "name": "Set-MedlemsserviceUrl"
+            },
+            {
+              "name": "Get-MedlemsserviceUrl"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceProxy",
+          "children": [
+            {
+              "name": "Set-MedlemsserviceProxy"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceContextGroup",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceContextGroup"
+            },
+            {
+              "name": "Set-MedlemsserviceContextGroup"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceLogin",
+          "children": [
+            {
+              "name": "Invoke-MedlemsserviceLogin"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceSessionContext",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceSessionContext"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceFieldModel",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceFieldModel"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceStructure",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceStructure"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceMemberList",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceMemberList"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceMember",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceMember"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceMemberDetail",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceMemberDetail"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceMemberFunction",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceMemberFunction"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceEventList",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceEventList"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceEventRegistrationList",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceEventRegistrationList"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceExport",
+          "children": [
+            {
+              "name": "Invoke-MedlemsserviceExport"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceExportFields",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceExportFields"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceExportChildFields",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceExportChildFields"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceSigningDocument",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceSigningDocument"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceCallRequest",
+          "children": [
+            {
+              "name": "Invoke-MedlemsserviceCallRequest"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceDataset",
+          "children": [
+            {
+              "name": "Read-MedlemsserviceDataset"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceRelation",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceRelation"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceFunctionForMember",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceFunctionForMember"
+            }
+          ]
+        },
+        {
+          "name": "MedlemsserviceMemberIdFromModelId",
+          "children": [
+            {
+              "name": "Get-MedlemsserviceMemberIdFromModelId"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NemoVoteClient",
+      "companyName": "Jesper Balle",
+      "author": "Jesper Balle",
+      "children": [
+        {
+          "name": "NemoVote",
+          "children": [
+            {
+              "name": "Open-NemoVote"
+            }
+          ]
+        },
+        {
+          "name": "NemoVoteServerUrl",
+          "children": [
+            {
+              "name": "Set-NemoVoteServerUrl"
+            },
+            {
+              "name": "Get-NemoVoteServerUrl"
+            }
+          ]
+        },
+        {
+          "name": "NemoVoteToken",
+          "children": [
+            {
+              "name": "Set-NemoVoteToken"
+            },
+            {
+              "name": "Get-NemoVoteToken"
+            }
+          ]
+        },
+        {
+          "name": "NemoVoteUser",
+          "children": [
+            {
+              "name": "Get-NemoVoteUser"
+            },
+            {
+              "name": "Add-NemoVoteUser"
+            },
+            {
+              "name": "Update-NemoVoteUser"
+            },
+            {
+              "name": "Remove-NemoVoteUser"
+            }
+          ]
+        },
+        {
+          "name": "NemoVoteUserCredentials",
+          "children": [
+            {
+              "name": "Send-NemoVoteUserCredentials"
+            }
+          ]
+        },
+        {
+          "name": "NemoVotingList",
+          "children": [
+            {
+              "name": "Get-NemoVotingList"
+            },
+            {
+              "name": "Update-NemoVotingList"
+            }
+          ]
+        },
+        {
+          "name": "NemoVotingListMember",
+          "children": [
+            {
+              "name": "Add-NemoVotingListMember"
+            }
+          ]
+        },
+        {
+          "name": "NemoVotingListMembers",
+          "children": [
+            {
+              "name": "Set-NemoVotingListMembers"
+            }
+          ]
+        },
+        {
+          "name": "RandomPassword",
+          "children": [
+            {
+              "name": "Get-RandomPassword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SitecoreCecSearchModule",
+      "companyName": "Sitecore contrib",
+      "author": "Jesper Balle",
+      "children": [
+        {
+          "name": "CecAccessToken",
+          "children": [
+            {
+              "name": "Set-CecAccessToken"
+            },
+            {
+              "name": "New-CecAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "CecRefreshToken",
+          "children": [
+            {
+              "name": "Set-CecRefreshToken"
+            },
+            {
+              "name": "Get-CecRefreshToken"
+            }
+          ]
+        },
+        {
+          "name": "RefreshAccessToken",
+          "children": [
+            {
+              "name": "Invoke-RefreshAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "CecLogin",
+          "children": [
+            {
+              "name": "Invoke-CecLogin"
+            }
+          ]
+        },
+        {
+          "name": "CecDomainContext",
+          "children": [
+            {
+              "name": "Set-CecDomainContext"
+            },
+            {
+              "name": "Get-CecDomainContext"
+            }
+          ]
+        },
+        {
+          "name": "CecGlobalMethod",
+          "children": [
+            {
+              "name": "Invoke-CecGlobalMethod"
+            }
+          ]
+        },
+        {
+          "name": "CecDomainMethod",
+          "children": [
+            {
+              "name": "Invoke-CecDomainMethod"
+            }
+          ]
+        },
+        {
+          "name": "CecDomain",
+          "children": [
+            {
+              "name": "Get-CecDomain"
+            }
+          ]
+        },
+        {
+          "name": "CecDomainContextBy",
+          "children": [
+            {
+              "name": "Set-CecDomainContextBy"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorInfo",
+          "children": [
+            {
+              "name": "Get-CecConnectorInfo"
+            }
+          ]
+        },
+        {
+          "name": "CecConnector",
+          "children": [
+            {
+              "name": "Get-CecConnector"
+            },
+            {
+              "name": "Set-CecConnector"
+            },
+            {
+              "name": "Write-CecConnector"
+            },
+            {
+              "name": "Read-CecConnector"
+            },
+            {
+              "name": "Publish-CecConnector"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorPrefix",
+          "children": [
+            {
+              "name": "Add-CecConnectorPrefix"
+            },
+            {
+              "name": "Remove-CecConnectorPrefix"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorModelWithId",
+          "children": [
+            {
+              "name": "Update-CecConnectorModelWithId"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorVersion",
+          "children": [
+            {
+              "name": "Update-CecConnectorVersion"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorCrawlerSchedule",
+          "children": [
+            {
+              "name": "Set-CecConnectorCrawlerSchedule"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorRescan",
+          "children": [
+            {
+              "name": "Start-CecConnectorRescan"
+            }
+          ]
+        },
+        {
+          "name": "CecConnectorJobStatus",
+          "children": [
+            {
+              "name": "Get-CecConnectorJobStatus"
+            }
+          ]
+        },
+        {
+          "name": "CecJobStatus",
+          "children": [
+            {
+              "name": "Get-CecJobStatus"
+            }
+          ]
+        },
+        {
+          "name": "CecJobError",
+          "children": [
+            {
+              "name": "Get-CecJobError"
+            }
+          ]
+        },
+        {
+          "name": "CecAttribute",
+          "children": [
+            {
+              "name": "Get-CecAttribute"
+            },
+            {
+              "name": "Set-CecAttribute"
+            },
+            {
+              "name": "Write-CecAttribute"
+            },
+            {
+              "name": "Read-CecAttribute"
+            }
+          ]
+        },
+        {
+          "name": "CecFeatureConfig",
+          "children": [
+            {
+              "name": "Get-CecFeatureConfig"
+            },
+            {
+              "name": "Write-CecFeatureConfig"
+            }
+          ]
+        },
+        {
+          "name": "CecWidgetInfo",
+          "children": [
+            {
+              "name": "Get-CecWidgetInfo"
+            }
+          ]
+        },
+        {
+          "name": "CecWidget",
+          "children": [
+            {
+              "name": "Get-CecWidget"
+            },
+            {
+              "name": "Write-CecWidget"
+            }
+          ]
+        },
+        {
+          "name": "CecDomainConfig",
+          "children": [
+            {
+              "name": "Get-CecDomainConfig"
+            }
+          ]
+        },
+        {
+          "name": "CecCustomerKey",
+          "children": [
+            {
+              "name": "Get-CecCustomerKey"
+            }
+          ]
+        },
+        {
+          "name": "CecDnsEntry",
+          "children": [
+            {
+              "name": "Get-CecDnsEntry"
+            }
+          ]
+        },
+        {
+          "name": "CecEndpoint",
+          "children": [
+            {
+              "name": "Get-CecEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "CecApiKeys",
+          "children": [
+            {
+              "name": "Get-CecApiKeys"
+            }
+          ]
+        },
+        {
+          "name": "GetAndWriteAllCecConfiguration",
+          "children": [
+            {
+              "name": "Invoke-GetAndWriteAllCecConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "HttpJsonToGraph",
+          "children": [
+            {
+              "name": "Convert-HttpJsonToGraph"
+            }
+          ]
+        },
+        {
+          "name": "HttpGraphToJson",
+          "children": [
+            {
+              "name": "Convert-HttpGraphToJson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

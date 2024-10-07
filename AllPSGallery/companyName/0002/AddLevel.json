@@ -1,0 +1,49 @@
+{
+  "name": "AddLevel",
+  "children": [
+    {
+      "name": "Kickstart",
+      "companyName": "AddLevel",
+      "author": "richard.ulfvin",
+      "children": [
+        {
+          "name": "Kickstart",
+          "children": [
+            {
+              "name": "Start-Kickstart"
+            },
+            {
+              "name": "Remove-Kickstart"
+            },
+            {
+              "name": "Show-Kickstart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NonPSJob",
+      "companyName": "AddLevel",
+      "author": "Richard Ulfvin",
+      "children": [
+        {
+          "name": "NonPSJob",
+          "children": [
+            {
+              "name": "Get-NonPSJob"
+            }
+          ]
+        },
+        {
+          "name": "Propeller",
+          "children": [
+            {
+              "name": "Get-Propeller"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

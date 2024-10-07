@@ -1,0 +1,471 @@
+{
+  "name": "Ahmad A. Ousman",
+  "children": [
+    {
+      "name": "PowerShell.PowerLibrary.Automation",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "GitRepositoryClone",
+          "children": [
+            {
+              "name": "Get-GitRepositoryClone"
+            }
+          ]
+        },
+        {
+          "name": "GitRepositoriesClone",
+          "children": [
+            {
+              "name": "Get-GitRepositoriesClone"
+            }
+          ]
+        },
+        {
+          "name": "GitBranchRemote",
+          "children": [
+            {
+              "name": "Get-GitBranchRemote"
+            }
+          ]
+        },
+        {
+          "name": "GitDiffNameOnly",
+          "children": [
+            {
+              "name": "Get-GitDiffNameOnly"
+            }
+          ]
+        },
+        {
+          "name": "GitAssumeUnchanged",
+          "children": [
+            {
+              "name": "Set-GitAssumeUnchanged"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PowerLibrary.Core",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "UniqueId",
+          "children": [
+            {
+              "name": "Get-UniqueId"
+            }
+          ]
+        },
+        {
+          "name": "Message",
+          "children": [
+            {
+              "name": "Write-Message"
+            }
+          ]
+        },
+        {
+          "name": "Line",
+          "children": [
+            {
+              "name": "Write-Line"
+            }
+          ]
+        },
+        {
+          "name": "Error",
+          "children": [
+            {
+              "name": "Trace-Error"
+            }
+          ]
+        },
+        {
+          "name": "PartialFileFullName",
+          "children": [
+            {
+              "name": "Get-PartialFileFullName"
+            }
+          ]
+        },
+        {
+          "name": "PostWebRequest",
+          "children": [
+            {
+              "name": "Invoke-PostWebRequest"
+            }
+          ]
+        },
+        {
+          "name": "GetWebRequest",
+          "children": [
+            {
+              "name": "Invoke-GetWebRequest"
+            }
+          ]
+        },
+        {
+          "name": "ZipArchive",
+          "children": [
+            {
+              "name": "New-ZipArchive"
+            },
+            {
+              "name": "Get-ZipArchive"
+            }
+          ]
+        },
+        {
+          "name": "Directory",
+          "children": [
+            {
+              "name": "Confirm-Directory"
+            }
+          ]
+        },
+        {
+          "name": "Uri",
+          "children": [
+            {
+              "name": "Join-Uri"
+            }
+          ]
+        },
+        {
+          "name": "DynamicParameters",
+          "children": [
+            {
+              "name": "Get-DynamicParameters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PowerLibrary.DataBinder",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "FormattedTemplate",
+          "children": [
+            {
+              "name": "Get-FormattedTemplate"
+            }
+          ]
+        },
+        {
+          "name": "DataBinding",
+          "children": [
+            {
+              "name": "Set-DataBinding"
+            }
+          ]
+        },
+        {
+          "name": "DataModelTemplate",
+          "children": [
+            {
+              "name": "Get-DataModelTemplate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PowerLibrary.Encryption",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "AesEncrypted",
+          "children": [
+            {
+              "name": "ConvertTo-AesEncrypted"
+            },
+            {
+              "name": "ConvertFrom-AesEncrypted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PowerLibrary.ExtendedWebAdministration",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "ApplicationPool",
+          "children": [
+            {
+              "name": "Register-ApplicationPool"
+            },
+            {
+              "name": "Unregister-ApplicationPool"
+            },
+            {
+              "name": "Restart-ApplicationPool"
+            },
+            {
+              "name": "Stop-ApplicationPool"
+            },
+            {
+              "name": "Start-ApplicationPool"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationPools",
+          "children": [
+            {
+              "name": "Register-ApplicationPools"
+            },
+            {
+              "name": "Unregister-ApplicationPools"
+            },
+            {
+              "name": "Restart-ApplicationPools"
+            },
+            {
+              "name": "Stop-ApplicationPools"
+            },
+            {
+              "name": "Start-ApplicationPools"
+            }
+          ]
+        },
+        {
+          "name": "WebApplication",
+          "children": [
+            {
+              "name": "Register-WebApplication"
+            }
+          ]
+        },
+        {
+          "name": "WebApplications",
+          "children": [
+            {
+              "name": "Register-WebApplications"
+            }
+          ]
+        },
+        {
+          "name": "VirtualDirectory",
+          "children": [
+            {
+              "name": "Register-VirtualDirectory"
+            }
+          ]
+        },
+        {
+          "name": "VirtualDirectories",
+          "children": [
+            {
+              "name": "Register-VirtualDirectories"
+            }
+          ]
+        },
+        {
+          "name": "Binding",
+          "children": [
+            {
+              "name": "Register-Binding"
+            }
+          ]
+        },
+        {
+          "name": "Bindings",
+          "children": [
+            {
+              "name": "Register-Bindings"
+            }
+          ]
+        },
+        {
+          "name": "Website",
+          "children": [
+            {
+              "name": "Register-Website"
+            },
+            {
+              "name": "Unregister-Website"
+            }
+          ]
+        },
+        {
+          "name": "Websites",
+          "children": [
+            {
+              "name": "Register-Websites"
+            },
+            {
+              "name": "Unregister-Websites"
+            }
+          ]
+        },
+        {
+          "name": "Hosts",
+          "children": [
+            {
+              "name": "Register-Hosts"
+            }
+          ]
+        },
+        {
+          "name": "SelfHostedCertificate",
+          "children": [
+            {
+              "name": "Uninstall-SelfHostedCertificate"
+            },
+            {
+              "name": "Install-SelfHostedCertificate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PowerLibrary.IncrementalUpdate",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "DatabaseMaintenance",
+          "children": [
+            {
+              "name": "Start-DatabaseMaintenance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PowerLibrary.Mail",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "MailMessageWithInlineAttachment",
+          "children": [
+            {
+              "name": "Send-MailMessageWithInlineAttachment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PowerLibrary.MSBuildUtilizer",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "SolutionsBuild",
+          "children": [
+            {
+              "name": "Start-SolutionsBuild"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PowerLibrary.RoboCopyExtension",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "FilesByRoboCopy",
+          "children": [
+            {
+              "name": "Copy-FilesByRoboCopy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PowerLibrary.SqlDatabaseMaintenance",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "SqlCmdInternal",
+          "children": [
+            {
+              "name": "Invoke-SqlCmdInternal"
+            }
+          ]
+        },
+        {
+          "name": "DatabaseRecoveryMode",
+          "children": [
+            {
+              "name": "Set-DatabaseRecoveryMode"
+            }
+          ]
+        },
+        {
+          "name": "DatabaseAuthorization",
+          "children": [
+            {
+              "name": "Set-DatabaseAuthorization"
+            }
+          ]
+        },
+        {
+          "name": "Database",
+          "children": [
+            {
+              "name": "Remove-Database"
+            },
+            {
+              "name": "Restore-Database"
+            },
+            {
+              "name": "Backup-Database"
+            }
+          ]
+        },
+        {
+          "name": "DatabaseLog",
+          "children": [
+            {
+              "name": "Compress-DatabaseLog"
+            }
+          ]
+        },
+        {
+          "name": "SSB",
+          "children": [
+            {
+              "name": "Repair-SSB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShell.PowerLibrary.SqlScripter",
+      "companyName": "Unknown",
+      "author": "Ahmad A. Ousman",
+      "children": [
+        {
+          "name": "SQL",
+          "children": [
+            {
+              "name": "Export-SQL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

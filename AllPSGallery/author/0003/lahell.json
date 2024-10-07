@@ -1,0 +1,165 @@
+{
+  "name": "lahell",
+  "children": [
+    {
+      "name": "PSCortex",
+      "companyName": "Unknown",
+      "author": "lahell",
+      "children": [
+        {
+          "name": "CortexConfig",
+          "children": [
+            {
+              "name": "Initialize-CortexConfig"
+            }
+          ]
+        },
+        {
+          "name": "CortexEndpointList",
+          "children": [
+            {
+              "name": "Get-CortexEndpointList"
+            }
+          ]
+        },
+        {
+          "name": "CortexEndpoint",
+          "children": [
+            {
+              "name": "Get-CortexEndpoint"
+            },
+            {
+              "name": "Remove-CortexEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "CortexIncident",
+          "children": [
+            {
+              "name": "Get-CortexIncident"
+            }
+          ]
+        },
+        {
+          "name": "CortexIncidentExtraData",
+          "children": [
+            {
+              "name": "Get-CortexIncidentExtraData"
+            }
+          ]
+        },
+        {
+          "name": "CortexAlert",
+          "children": [
+            {
+              "name": "Get-CortexAlert"
+            }
+          ]
+        },
+        {
+          "name": "CortexAuditAgentReport",
+          "children": [
+            {
+              "name": "Get-CortexAuditAgentReport"
+            }
+          ]
+        },
+        {
+          "name": "CortexAuditManagementLog",
+          "children": [
+            {
+              "name": "Get-CortexAuditManagementLog"
+            }
+          ]
+        },
+        {
+          "name": "CortexViolation",
+          "children": [
+            {
+              "name": "Get-CortexViolation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDiscoveryProtocol",
+      "companyName": "Unknown",
+      "author": "lahell",
+      "children": [
+        {
+          "name": "CDPPacket",
+          "children": [
+            {
+              "name": "ConvertFrom-CDPPacket"
+            }
+          ]
+        },
+        {
+          "name": "LLDPPacket",
+          "children": [
+            {
+              "name": "ConvertFrom-LLDPPacket"
+            }
+          ]
+        },
+        {
+          "name": "Pcap",
+          "children": [
+            {
+              "name": "Export-Pcap"
+            }
+          ]
+        },
+        {
+          "name": "DiscoveryProtocolData",
+          "children": [
+            {
+              "name": "Get-DiscoveryProtocolData"
+            }
+          ]
+        },
+        {
+          "name": "DiscoveryProtocolCapture",
+          "children": [
+            {
+              "name": "Invoke-DiscoveryProtocolCapture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SNMPv3",
+      "companyName": "Unknown",
+      "author": "lahell",
+      "children": [
+        {
+          "name": "SNMPv3Get",
+          "children": [
+            {
+              "name": "Invoke-SNMPv3Get"
+            }
+          ]
+        },
+        {
+          "name": "SNMPv3Walk",
+          "children": [
+            {
+              "name": "Invoke-SNMPv3Walk"
+            }
+          ]
+        },
+        {
+          "name": "SNMPv3Set",
+          "children": [
+            {
+              "name": "Invoke-SNMPv3Set"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1218 @@
+{
+  "name": "Private build by individual",
+  "children": [
+    {
+      "name": "PKS-pwsh",
+      "companyName": "Private build by individual",
+      "author": "Kbott pivotal.io",
+      "children": [
+        {
+          "name": "PKSapiEndpoint",
+          "children": [
+            {
+              "name": "Connect-PKSapiEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "PKSsession",
+          "children": [
+            {
+              "name": "Disconnect-PKSsession"
+            }
+          ]
+        },
+        {
+          "name": "PKSactuator",
+          "children": [
+            {
+              "name": "Get-PKSactuator"
+            }
+          ]
+        },
+        {
+          "name": "PKSclusterBinding",
+          "children": [
+            {
+              "name": "Get-PKSclusterBinding"
+            }
+          ]
+        },
+        {
+          "name": "PKSclusterdetails",
+          "children": [
+            {
+              "name": "Get-PKSclusterdetails"
+            }
+          ]
+        },
+        {
+          "name": "PKSclusters",
+          "children": [
+            {
+              "name": "Get-PKSclusters"
+            },
+            {
+              "name": "New-PKSclusters"
+            },
+            {
+              "name": "Remove-PKSclusters"
+            },
+            {
+              "name": "Set-PKSclusters"
+            },
+            {
+              "name": "Update-PKSclusters"
+            }
+          ]
+        },
+        {
+          "name": "PKScompute",
+          "children": [
+            {
+              "name": "Get-PKScompute"
+            }
+          ]
+        },
+        {
+          "name": "PKSerror",
+          "children": [
+            {
+              "name": "Get-PKSerror"
+            }
+          ]
+        },
+        {
+          "name": "PKSquotas",
+          "children": [
+            {
+              "name": "Get-PKSquotas"
+            },
+            {
+              "name": "New-PKSquotas"
+            },
+            {
+              "name": "Set-PKSquotas"
+            }
+          ]
+        },
+        {
+          "name": "PKSservice",
+          "children": [
+            {
+              "name": "Get-PKSservice"
+            }
+          ]
+        },
+        {
+          "name": "PKSSessions",
+          "children": [
+            {
+              "name": "Get-PKSSessions"
+            }
+          ]
+        },
+        {
+          "name": "PKSusages",
+          "children": [
+            {
+              "name": "Get-PKSusages"
+            }
+          ]
+        },
+        {
+          "name": "PKSapirequest",
+          "children": [
+            {
+              "name": "Invoke-PKSapirequest"
+            }
+          ]
+        },
+        {
+          "name": "PKSUser",
+          "children": [
+            {
+              "name": "New-PKSUser"
+            }
+          ]
+        },
+        {
+          "name": "PKSSSLCerts",
+          "children": [
+            {
+              "name": "Unblock-PKSSSLCerts"
+            }
+          ]
+        },
+        {
+          "name": "PKSAccessToken",
+          "children": [
+            {
+              "name": "Update-PKSAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "PKSUaauser",
+          "children": [
+            {
+              "name": "New-PKSUaauser"
+            }
+          ]
+        },
+        {
+          "name": "PKSUaaGroupMember",
+          "children": [
+            {
+              "name": "Set-PKSUaaGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "PKSUaaUsers",
+          "children": [
+            {
+              "name": "Get-PKSUaaUsers"
+            },
+            {
+              "name": "Remove-PKSUaaUsers"
+            }
+          ]
+        },
+        {
+          "name": "PKSUaaClients",
+          "children": [
+            {
+              "name": "Get-PKSUaaClients"
+            }
+          ]
+        },
+        {
+          "name": "PKSUaaGroups",
+          "children": [
+            {
+              "name": "Get-PKSUaaGroups"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PPDM-pwsh",
+      "companyName": "Private build by individual",
+      "author": "karsten.bott dell.com",
+      "children": [
+        {
+          "name": "PPDMApplianceFresh",
+          "children": [
+            {
+              "name": "Wait-PPDMApplianceFresh"
+            }
+          ]
+        },
+        {
+          "name": "PPDMapiEndpoint",
+          "children": [
+            {
+              "name": "Connect-PPDMapiEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "PPDMsession",
+          "children": [
+            {
+              "name": "Disconnect-PPDMsession"
+            }
+          ]
+        },
+        {
+          "name": "PPDMassets",
+          "children": [
+            {
+              "name": "Get-PPDMassets"
+            },
+            {
+              "name": "Set-PPDMassets"
+            }
+          ]
+        },
+        {
+          "name": "PPDMhosts",
+          "children": [
+            {
+              "name": "Get-PPDMhosts"
+            }
+          ]
+        },
+        {
+          "name": "PPDMactivities",
+          "children": [
+            {
+              "name": "Get-PPDMactivities"
+            },
+            {
+              "name": "Restart-PPDMactivities"
+            },
+            {
+              "name": "Stop-PPDMactivities"
+            }
+          ]
+        },
+        {
+          "name": "PPDMUsers",
+          "children": [
+            {
+              "name": "New-PPDMUsers"
+            },
+            {
+              "name": "Get-PPDMUsers"
+            }
+          ]
+        },
+        {
+          "name": "PPDMSSLCerts",
+          "children": [
+            {
+              "name": "Unblock-PPDMSSLCerts"
+            }
+          ]
+        },
+        {
+          "name": "PPDMAccessToken",
+          "children": [
+            {
+              "name": "Update-PPDMAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "PPDMapirequest",
+          "children": [
+            {
+              "name": "Invoke-PPDMapirequest"
+            }
+          ]
+        },
+        {
+          "name": "PPDMprotection",
+          "children": [
+            {
+              "name": "Get-PPDMprotection"
+            },
+            {
+              "name": "New-PPDMprotection"
+            },
+            {
+              "name": "Start-PPDMprotection"
+            },
+            {
+              "name": "Get-PPDMProtection"
+            },
+            {
+              "name": "New-PPDMProtection"
+            },
+            {
+              "name": "Remove-PPDMProtection"
+            },
+            {
+              "name": "Set-PPDMProtection"
+            },
+            {
+              "name": "Remove-PPDMprotection"
+            },
+            {
+              "name": "Add-PPDMProtection"
+            }
+          ]
+        },
+        {
+          "name": "PPDMprotectionEngineProxies",
+          "children": [
+            {
+              "name": "Get-PPDMprotectionEngineProxies"
+            }
+          ]
+        },
+        {
+          "name": "PPDMProtectionEngineProxy",
+          "children": [
+            {
+              "name": "New-PPDMProtectionEngineProxy"
+            },
+            {
+              "name": "Remove-PPDMProtectionEngineProxy"
+            },
+            {
+              "name": "Disable-PPDMProtectionEngineProxy"
+            }
+          ]
+        },
+        {
+          "name": "PPDMdiscoveries",
+          "children": [
+            {
+              "name": "Get-PPDMdiscoveries"
+            },
+            {
+              "name": "Set-PPDMdiscoveries"
+            },
+            {
+              "name": "Start-PPDMdiscoveries"
+            }
+          ]
+        },
+        {
+          "name": "PPDMtoken",
+          "children": [
+            {
+              "name": "Update-PPDMtoken"
+            }
+          ]
+        },
+        {
+          "name": "PPDMcommon",
+          "children": [
+            {
+              "name": "Get-PPDMcommon"
+            },
+            {
+              "name": "Set-PPDMcommon"
+            }
+          ]
+        },
+        {
+          "name": "PPDMinventory",
+          "children": [
+            {
+              "name": "Get-PPDMinventory"
+            },
+            {
+              "name": "Set-PPDMinventory"
+            },
+            {
+              "name": "Add-PPDMinventory"
+            },
+            {
+              "name": "Remove-PPDMinventory"
+            }
+          ]
+        },
+        {
+          "name": "PPDMesxDatastores",
+          "children": [
+            {
+              "name": "Get-PPDMesxDatastores"
+            }
+          ]
+        },
+        {
+          "name": "PPDMcomponents",
+          "children": [
+            {
+              "name": "Get-PPDMcomponents"
+            },
+            {
+              "name": "Set-PPDMcomponents"
+            },
+            {
+              "name": "Remove-PPDMcomponents"
+            }
+          ]
+        },
+        {
+          "name": "PPDMdatacomponents",
+          "children": [
+            {
+              "name": "Get-PPDMdatacomponents"
+            }
+          ]
+        },
+        {
+          "name": "PPDMconfigurations",
+          "children": [
+            {
+              "name": "Get-PPDMconfigurations"
+            },
+            {
+              "name": "Set-PPDMconfigurations"
+            }
+          ]
+        },
+        {
+          "name": "PPDMconfigStatus",
+          "children": [
+            {
+              "name": "Get-PPDMconfigStatus"
+            }
+          ]
+        },
+        {
+          "name": "PPDMnodes",
+          "children": [
+            {
+              "name": "Get-PPDMnodes"
+            },
+            {
+              "name": "Set-PPDMnodes"
+            }
+          ]
+        },
+        {
+          "name": "PPDMDisks",
+          "children": [
+            {
+              "name": "Get-PPDMDisks"
+            }
+          ]
+        },
+        {
+          "name": "PPDMcloud",
+          "children": [
+            {
+              "name": "Get-PPDMcloud"
+            },
+            {
+              "name": "Set-PPDMcloud"
+            },
+            {
+              "name": "Remove-PPDMcloud"
+            }
+          ]
+        },
+        {
+          "name": "PPDMdata",
+          "children": [
+            {
+              "name": "Get-PPDMdata"
+            }
+          ]
+        },
+        {
+          "name": "PPDMdatadomain",
+          "children": [
+            {
+              "name": "Get-PPDMdatadomain"
+            },
+            {
+              "name": "New-PPDMdatadomain"
+            },
+            {
+              "name": "Remove-PPDMdatadomain"
+            }
+          ]
+        },
+        {
+          "name": "PPDMstorage",
+          "children": [
+            {
+              "name": "Get-PPDMstorage"
+            },
+            {
+              "name": "Set-PPDMstorage"
+            },
+            {
+              "name": "Remove-PPDMstorage"
+            }
+          ]
+        },
+        {
+          "name": "PPDMTELEMETRY",
+          "children": [
+            {
+              "name": "Get-PPDMTELEMETRY"
+            }
+          ]
+        },
+        {
+          "name": "PPDMkubernetes",
+          "children": [
+            {
+              "name": "Get-PPDMkubernetes"
+            }
+          ]
+        },
+        {
+          "name": "PPDMpvc",
+          "children": [
+            {
+              "name": "Get-PPDMpvc"
+            }
+          ]
+        },
+        {
+          "name": "PPDMcredentials",
+          "children": [
+            {
+              "name": "Get-PPDMcredentials"
+            },
+            {
+              "name": "New-PPDMcredentials"
+            },
+            {
+              "name": "Remove-PPDMcredentials"
+            },
+            {
+              "name": "Update-PPDMcredentials"
+            }
+          ]
+        },
+        {
+          "name": "PPDMagent",
+          "children": [
+            {
+              "name": "Get-PPDMagent"
+            }
+          ]
+        },
+        {
+          "name": "PPDMalerts",
+          "children": [
+            {
+              "name": "Get-PPDMalerts"
+            },
+            {
+              "name": "Set-PPDMalerts"
+            }
+          ]
+        },
+        {
+          "name": "PPDMcopy",
+          "children": [
+            {
+              "name": "Get-PPDMcopy"
+            }
+          ]
+        },
+        {
+          "name": "PPDMactivity",
+          "children": [
+            {
+              "name": "Get-PPDMactivity"
+            }
+          ]
+        },
+        {
+          "name": "PPDMEula",
+          "children": [
+            {
+              "name": "Approve-PPDMEula"
+            },
+            {
+              "name": "Get-PPDMEula"
+            }
+          ]
+        },
+        {
+          "name": "PPDMCertificates",
+          "children": [
+            {
+              "name": "Add-PPDMCertificates"
+            },
+            {
+              "name": "Get-PPDMCertificates"
+            },
+            {
+              "name": "Update-PPDMCertificates"
+            },
+            {
+              "name": "Approve-PPDMCertificates"
+            },
+            {
+              "name": "Remove-PPDMCertificates"
+            },
+            {
+              "name": "Set-PPDMcertificates"
+            }
+          ]
+        },
+        {
+          "name": "PPDMCopies",
+          "children": [
+            {
+              "name": "Get-PPDMCopies"
+            },
+            {
+              "name": "Remove-PPDMCopies"
+            },
+            {
+              "name": "Get-PPDMcopies"
+            }
+          ]
+        },
+        {
+          "name": "PPDMUser",
+          "children": [
+            {
+              "name": "Get-PPDMUser"
+            }
+          ]
+        },
+        {
+          "name": "PPDMroles",
+          "children": [
+            {
+              "name": "Get-PPDMroles"
+            }
+          ]
+        },
+        {
+          "name": "PPDMWebException",
+          "children": [
+            {
+              "name": "Get-PPDMWebException"
+            }
+          ]
+        },
+        {
+          "name": "PPDMlatest",
+          "children": [
+            {
+              "name": "Get-PPDMlatest"
+            }
+          ]
+        },
+        {
+          "name": "PPDMTimezones",
+          "children": [
+            {
+              "name": "Get-PPDMTimezones"
+            }
+          ]
+        },
+        {
+          "name": "PPDMserver",
+          "children": [
+            {
+              "name": "Get-PPDMserver"
+            },
+            {
+              "name": "Set-PPDMserver"
+            },
+            {
+              "name": "New-PPDMserver"
+            },
+            {
+              "name": "Remove-PPDMserver"
+            },
+            {
+              "name": "Update-PPDMserver"
+            }
+          ]
+        },
+        {
+          "name": "PPDMLocations",
+          "children": [
+            {
+              "name": "Get-PPDMLocations"
+            },
+            {
+              "name": "New-PPDMLocations"
+            },
+            {
+              "name": "Remove-PPDMLocations"
+            }
+          ]
+        },
+        {
+          "name": "PPDMsmtp",
+          "children": [
+            {
+              "name": "Get-PPDMsmtp"
+            },
+            {
+              "name": "New-PPDMsmtp"
+            },
+            {
+              "name": "Set-PPDMsmtp"
+            },
+            {
+              "name": "Remove-PPDMsmtp"
+            }
+          ]
+        },
+        {
+          "name": "PPDMVMPrimaryBackupPolicy",
+          "children": [
+            {
+              "name": "New-PPDMVMPrimaryBackupPolicy"
+            }
+          ]
+        },
+        {
+          "name": "PPDMBackupSchedule",
+          "children": [
+            {
+              "name": "New-PPDMBackupSchedule"
+            }
+          ]
+        },
+        {
+          "name": "PPDMVMBackupPolicy",
+          "children": [
+            {
+              "name": "New-PPDMVMBackupPolicy"
+            }
+          ]
+        },
+        {
+          "name": "PPDMFSBackupPolicy",
+          "children": [
+            {
+              "name": "New-PPDMFSBackupPolicy"
+            }
+          ]
+        },
+        {
+          "name": "PPDMDatabaseBackupSchedule",
+          "children": [
+            {
+              "name": "New-PPDMDatabaseBackupSchedule"
+            }
+          ]
+        },
+        {
+          "name": "PPDMSQLBackupPolicy",
+          "children": [
+            {
+              "name": "New-PPDMSQLBackupPolicy"
+            }
+          ]
+        },
+        {
+          "name": "PPDMOracleBackupPolicy",
+          "children": [
+            {
+              "name": "New-PPDMOracleBackupPolicy"
+            }
+          ]
+        },
+        {
+          "name": "PPDMExchangeBackupPolicy",
+          "children": [
+            {
+              "name": "New-PPDMExchangeBackupPolicy"
+            }
+          ]
+        },
+        {
+          "name": "PPDMK8SBackupPolicy",
+          "children": [
+            {
+              "name": "New-PPDMK8SBackupPolicy"
+            }
+          ]
+        },
+        {
+          "name": "PPDMLicenses",
+          "children": [
+            {
+              "name": "Get-PPDMLicenses"
+            },
+            {
+              "name": "Set-PPDMLicenses"
+            }
+          ]
+        },
+        {
+          "name": "PPDMassetcopies",
+          "children": [
+            {
+              "name": "Get-PPDMassetcopies"
+            }
+          ]
+        },
+        {
+          "name": "PPDMK8Scopies",
+          "children": [
+            {
+              "name": "Restore-PPDMK8Scopies"
+            }
+          ]
+        },
+        {
+          "name": "PPDMupgrade",
+          "children": [
+            {
+              "name": "Get-PPDMupgrade"
+            },
+            {
+              "name": "Stop-PPDMupgrade"
+            },
+            {
+              "name": "Remove-PPDMupgrade"
+            }
+          ]
+        },
+        {
+          "name": "PPDMPasswordPolicies",
+          "children": [
+            {
+              "name": "Get-PPDMPasswordPolicies"
+            },
+            {
+              "name": "Set-PPDMPasswordPolicies"
+            }
+          ]
+        },
+        {
+          "name": "PPDMcdrs",
+          "children": [
+            {
+              "name": "Remove-PPDMcdrs"
+            }
+          ]
+        },
+        {
+          "name": "PPDMupgradePrecheck",
+          "children": [
+            {
+              "name": "Stop-PPDMupgradePrecheck"
+            }
+          ]
+        },
+        {
+          "name": "PPDMActivityLog",
+          "children": [
+            {
+              "name": "Request-PPDMActivityLog"
+            },
+            {
+              "name": "Save-PPDMActivityLog"
+            }
+          ]
+        },
+        {
+          "name": "PPDMVMcopies",
+          "children": [
+            {
+              "name": "Restore-PPDMVMcopies"
+            }
+          ]
+        },
+        {
+          "name": "PPDMAudit",
+          "children": [
+            {
+              "name": "Get-PPDMAudit"
+            },
+            {
+              "name": "Update-PPDMAudit"
+            }
+          ]
+        },
+        {
+          "name": "PPDMrestore",
+          "children": [
+            {
+              "name": "Get-PPDMrestore"
+            }
+          ]
+        },
+        {
+          "name": "PPDMRestorePlans",
+          "children": [
+            {
+              "name": "Get-PPDMRestorePlans"
+            }
+          ]
+        },
+        {
+          "name": "PPDMrules",
+          "children": [
+            {
+              "name": "Get-PPDMrules"
+            }
+          ]
+        },
+        {
+          "name": "PPDMflr",
+          "children": [
+            {
+              "name": "Start-PPDMflr"
+            },
+            {
+              "name": "Get-PPDMflr"
+            },
+            {
+              "name": "Set-PPDMflr"
+            },
+            {
+              "name": "Remove-PPDMflr"
+            },
+            {
+              "name": "Restore-PPDMflr"
+            }
+          ]
+        },
+        {
+          "name": "PPDMRestored",
+          "children": [
+            {
+              "name": "Get-PPDMRestored"
+            },
+            {
+              "name": "New-PPDMRestored"
+            },
+            {
+              "name": "Remove-PPDMrestored"
+            }
+          ]
+        },
+        {
+          "name": "PPDMFSAgentFLRBrowselist",
+          "children": [
+            {
+              "name": "Get-PPDMFSAgentFLRBrowselist"
+            }
+          ]
+        },
+        {
+          "name": "PPDMFileFLR",
+          "children": [
+            {
+              "name": "Restore-PPDMFileFLR"
+            }
+          ]
+        },
+        {
+          "name": "PPDMMSSQL",
+          "children": [
+            {
+              "name": "Restore-PPDMMSSQL"
+            }
+          ]
+        },
+        {
+          "name": "PPDMasset",
+          "children": [
+            {
+              "name": "Get-PPDMasset"
+            }
+          ]
+        },
+        {
+          "name": "PPDMapp",
+          "children": [
+            {
+              "name": "Set-PPDMapp"
+            }
+          ]
+        },
+        {
+          "name": "PPDMagents",
+          "children": [
+            {
+              "name": "Get-PPDMagents"
+            },
+            {
+              "name": "Set-PPDMagents"
+            },
+            {
+              "name": "Remove-PPDMagents"
+            }
+          ]
+        },
+        {
+          "name": "PPDMsystem",
+          "children": [
+            {
+              "name": "Get-PPDMsystem"
+            }
+          ]
+        },
+        {
+          "name": "PPDMinfrastructure",
+          "children": [
+            {
+              "name": "Get-PPDMinfrastructure"
+            }
+          ]
+        },
+        {
+          "name": "PPDMvm",
+          "children": [
+            {
+              "name": "Get-PPDMvm"
+            },
+            {
+              "name": "Set-PPDMvm"
+            }
+          ]
+        },
+        {
+          "name": "PPDMmfa",
+          "children": [
+            {
+              "name": "Get-PPDMmfa"
+            },
+            {
+              "name": "New-PPDMmfa"
+            },
+            {
+              "name": "Remove-PPDMmfa"
+            },
+            {
+              "name": "Set-PPDMmfa"
+            }
+          ]
+        },
+        {
+          "name": "PPDMidentity",
+          "children": [
+            {
+              "name": "Get-PPDMidentity"
+            }
+          ]
+        },
+        {
+          "name": "PPDMvcenterDatacenters",
+          "children": [
+            {
+              "name": "Get-PPDMvcenterDatacenters"
+            }
+          ]
+        },
+        {
+          "name": "PPDMvcenterMorefs",
+          "children": [
+            {
+              "name": "Get-PPDMvcenterMorefs"
+            }
+          ]
+        },
+        {
+          "name": "PPDMService",
+          "children": [
+            {
+              "name": "Get-PPDMService"
+            },
+            {
+              "name": "Remove-PPDMService"
+            }
+          ]
+        },
+        {
+          "name": "PPDMBackupService",
+          "children": [
+            {
+              "name": "New-PPDMBackupService"
+            }
+          ]
+        },
+        {
+          "name": "PPDMWhitelist",
+          "children": [
+            {
+              "name": "Get-PPDMWhitelist"
+            },
+            {
+              "name": "Set-PPDMWhitelist"
+            },
+            {
+              "name": "Remove-PPDMWhitelist"
+            },
+            {
+              "name": "Update-PPDMWhitelist"
+            }
+          ]
+        },
+        {
+          "name": "PPDMMSSQLassetStreamcount",
+          "children": [
+            {
+              "name": "Set-PPDMMSSQLassetStreamcount"
+            }
+          ]
+        },
+        {
+          "name": "PPDMOracle",
+          "children": [
+            {
+              "name": "Restore-PPDMOracle"
+            }
+          ]
+        },
+        {
+          "name": "PPDMOracleOIMProtectionProtocol",
+          "children": [
+            {
+              "name": "Set-PPDMOracleOIMProtectionProtocol"
+            }
+          ]
+        },
+        {
+          "name": "PPDMOIMspfile",
+          "children": [
+            {
+              "name": "Get-PPDMOIMspfile"
+            }
+          ]
+        },
+        {
+          "name": "PPDMexported",
+          "children": [
+            {
+              "name": "Remove-PPDMexported"
+            },
+            {
+              "name": "Get-PPDMexported"
+            },
+            {
+              "name": "Set-PPDMexported"
+            }
+          ]
+        },
+        {
+          "name": "PPDMfile",
+          "children": [
+            {
+              "name": "Get-PPDMfile"
+            },
+            {
+              "name": "Request-PPDMfile"
+            }
+          ]
+        },
+        {
+          "name": "PPDMNASBackupPolicy",
+          "children": [
+            {
+              "name": "New-PPDMNASBackupPolicy"
+            }
+          ]
+        },
+        {
+          "name": "PPDMNasFiles",
+          "children": [
+            {
+              "name": "Restore-PPDMNasFiles"
+            }
+          ]
+        },
+        {
+          "name": "PPDMreport",
+          "children": [
+            {
+              "name": "New-PPDMreport"
+            },
+            {
+              "name": "Get-PPDMreport"
+            },
+            {
+              "name": "Request-PPDMreport"
+            }
+          ]
+        },
+        {
+          "name": "PPDMJobStatusSummaryReport",
+          "children": [
+            {
+              "name": "New-PPDMJobStatusSummaryReport"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

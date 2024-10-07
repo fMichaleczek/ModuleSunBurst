@@ -1,0 +1,70 @@
+{
+  "name": "ehrsam",
+  "children": [
+    {
+      "name": "Kull.Data.Powershell",
+      "companyName": "Kull AG",
+      "author": "ehrsam",
+      "children": [
+        {
+          "name": "Database",
+          "children": [
+            {
+              "name": "Connect-Database"
+            }
+          ]
+        },
+        {
+          "name": "DbCommand",
+          "children": [
+            {
+              "name": "Send-DbCommand"
+            }
+          ]
+        },
+        {
+          "name": "DbData",
+          "children": [
+            {
+              "name": "Receive-DbData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SFTPSyncer",
+      "companyName": "Kull AG",
+      "author": "ehrsam",
+      "children": [
+        {
+          "name": "SFTP",
+          "children": [
+            {
+              "name": "Connect-SFTP"
+            }
+          ]
+        },
+        {
+          "name": "SFTPFile",
+          "children": [
+            {
+              "name": "Download-SFTPFile"
+            },
+            {
+              "name": "Upload-SFTPFile"
+            }
+          ]
+        },
+        {
+          "name": "SFTPFiles",
+          "children": [
+            {
+              "name": "Get-SFTPFiles"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

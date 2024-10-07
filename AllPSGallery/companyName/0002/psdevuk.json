@@ -1,0 +1,67 @@
+{
+  "name": "psdevuk",
+  "children": [
+    {
+      "name": "Retype",
+      "companyName": "psdevuk",
+      "author": "Adam Bacon",
+      "children": [
+        {
+          "name": "ReTypeBuild",
+          "children": [
+            {
+              "name": "Initialize-ReTypeBuild"
+            }
+          ]
+        },
+        {
+          "name": "ReTypeProject",
+          "children": [
+            {
+              "name": "Initialize-ReTypeProject"
+            }
+          ]
+        },
+        {
+          "name": "ReTypeRun",
+          "children": [
+            {
+              "name": "Initialize-ReTypeRun"
+            }
+          ]
+        },
+        {
+          "name": "ReTypeWatch",
+          "children": [
+            {
+              "name": "Initialize-ReTypeWatch"
+            }
+          ]
+        },
+        {
+          "name": "Retype",
+          "children": [
+            {
+              "name": "Install-Retype"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UDFeedBack",
+      "companyName": "psdevuk",
+      "author": "psdevuk",
+      "children": [
+        {
+          "name": "UDFeedBack",
+          "children": [
+            {
+              "name": "New-UDFeedBack"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

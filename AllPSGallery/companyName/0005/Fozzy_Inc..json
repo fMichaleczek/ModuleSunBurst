@@ -1,0 +1,147 @@
+{
+  "name": "Fozzy Inc.",
+  "children": [
+    {
+      "name": "AutomaticMaintenance",
+      "companyName": "Fozzy Inc.",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "ComputerMaintenanceConfiguration",
+          "children": [
+            {
+              "name": "Get-ComputerMaintenanceConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ComputerMaintenance",
+          "children": [
+            {
+              "name": "Invoke-ComputerMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "InfrastructureMaintenance",
+          "children": [
+            {
+              "name": "Invoke-InfrastructureMaintenance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HVVMReliableMigration",
+      "companyName": "Fozzy Inc.",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "VMReliably",
+          "children": [
+            {
+              "name": "Move-VMReliably"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ResourceLocker",
+      "companyName": "Fozzy Inc.",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "ResourceDependence",
+          "children": [
+            {
+              "name": "Get-ResourceDependence"
+            }
+          ]
+        },
+        {
+          "name": "ResourceLockId",
+          "children": [
+            {
+              "name": "Get-ResourceLockId"
+            }
+          ]
+        },
+        {
+          "name": "FileResource",
+          "children": [
+            {
+              "name": "Lock-FileResource"
+            }
+          ]
+        },
+        {
+          "name": "HostResource",
+          "children": [
+            {
+              "name": "Lock-HostResource"
+            }
+          ]
+        },
+        {
+          "name": "Resource",
+          "children": [
+            {
+              "name": "Lock-Resource"
+            },
+            {
+              "name": "Unlock-Resource"
+            }
+          ]
+        },
+        {
+          "name": "HostResourceLock",
+          "children": [
+            {
+              "name": "Test-HostResourceLock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCVMReliableMigration",
+      "companyName": "Fozzy Inc.",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "SCPoweredDownVirtualMachine",
+          "children": [
+            {
+              "name": "Move-SCPoweredDownVirtualMachine"
+            }
+          ]
+        },
+        {
+          "name": "SCVirtualMachineReliably",
+          "children": [
+            {
+              "name": "Move-SCVirtualMachineReliably"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SimpleTextLogger",
+      "companyName": "Fozzy Inc.",
+      "author": "Kirill Nikolaev",
+      "children": [
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

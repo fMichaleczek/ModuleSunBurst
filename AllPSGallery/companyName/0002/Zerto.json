@@ -1,0 +1,846 @@
+{
+  "name": "Zerto",
+  "children": [
+    {
+      "name": "ZertoApiWrapper",
+      "companyName": "Zerto",
+      "author": "Wes Carroll",
+      "children": [
+        {
+          "name": "ZertoPeerSite",
+          "children": [
+            {
+              "name": "Add-ZertoPeerSite"
+            },
+            {
+              "name": "Get-ZertoPeerSite"
+            },
+            {
+              "name": "Remove-ZertoPeerSite"
+            }
+          ]
+        },
+        {
+          "name": "ZertoVpgVm",
+          "children": [
+            {
+              "name": "Add-ZertoVpgVm"
+            },
+            {
+              "name": "Remove-ZertoVpgVm"
+            }
+          ]
+        },
+        {
+          "name": "ZertoVpg",
+          "children": [
+            {
+              "name": "Checkpoint-ZertoVpg"
+            },
+            {
+              "name": "Copy-ZertoVpg"
+            },
+            {
+              "name": "Export-ZertoVpg"
+            },
+            {
+              "name": "Get-ZertoVpg"
+            },
+            {
+              "name": "Import-ZertoVpg"
+            },
+            {
+              "name": "New-ZertoVpg"
+            },
+            {
+              "name": "Remove-ZertoVpg"
+            },
+            {
+              "name": "Resume-ZertoVpg"
+            },
+            {
+              "name": "Suspend-ZertoVpg"
+            }
+          ]
+        },
+        {
+          "name": "ZertoAnalytics",
+          "children": [
+            {
+              "name": "Connect-ZertoAnalytics"
+            }
+          ]
+        },
+        {
+          "name": "ZertoServer",
+          "children": [
+            {
+              "name": "Connect-ZertoServer"
+            },
+            {
+              "name": "Disconnect-ZertoServer"
+            }
+          ]
+        },
+        {
+          "name": "ZertoVra",
+          "children": [
+            {
+              "name": "Edit-ZertoVra"
+            },
+            {
+              "name": "Get-ZertoVra"
+            },
+            {
+              "name": "Install-ZertoVra"
+            },
+            {
+              "name": "Uninstall-ZertoVra"
+            }
+          ]
+        },
+        {
+          "name": "ZertoVmNicSetting",
+          "children": [
+            {
+              "name": "Export-ZertoVmNicSetting"
+            },
+            {
+              "name": "Import-ZertoVmNicSetting"
+            }
+          ]
+        },
+        {
+          "name": "ZAAlert",
+          "children": [
+            {
+              "name": "Get-ZAAlert"
+            }
+          ]
+        },
+        {
+          "name": "ZADatastore",
+          "children": [
+            {
+              "name": "Get-ZADatastore"
+            }
+          ]
+        },
+        {
+          "name": "ZAEvent",
+          "children": [
+            {
+              "name": "Get-ZAEvent"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalAverageHistory",
+          "children": [
+            {
+              "name": "Get-ZAJournalAverageHistory"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalAverageSize",
+          "children": [
+            {
+              "name": "Get-ZAJournalAverageSize"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalBreach",
+          "children": [
+            {
+              "name": "Get-ZAJournalBreach"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalHistoryStat",
+          "children": [
+            {
+              "name": "Get-ZAJournalHistoryStat"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalSiteAverageHistory",
+          "children": [
+            {
+              "name": "Get-ZAJournalSiteAverageHistory"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalSiteAverageSize",
+          "children": [
+            {
+              "name": "Get-ZAJournalSiteAverageSize"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalSiteHistoryStat",
+          "children": [
+            {
+              "name": "Get-ZAJournalSiteHistoryStat"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalSiteHistorySummary",
+          "children": [
+            {
+              "name": "Get-ZAJournalSiteHistorySummary"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalSiteSizeStat",
+          "children": [
+            {
+              "name": "Get-ZAJournalSiteSizeStat"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalStatusProportion",
+          "children": [
+            {
+              "name": "Get-ZAJournalStatusProportion"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalStorageStat",
+          "children": [
+            {
+              "name": "Get-ZAJournalStorageStat"
+            }
+          ]
+        },
+        {
+          "name": "ZAJournalSummary",
+          "children": [
+            {
+              "name": "Get-ZAJournalSummary"
+            }
+          ]
+        },
+        {
+          "name": "ZALicense",
+          "children": [
+            {
+              "name": "Get-ZALicense"
+            }
+          ]
+        },
+        {
+          "name": "ZAMonitoring",
+          "children": [
+            {
+              "name": "Get-ZAMonitoring"
+            }
+          ]
+        },
+        {
+          "name": "ZANetworkSiteAverageIOPS",
+          "children": [
+            {
+              "name": "Get-ZANetworkSiteAverageIOPS"
+            }
+          ]
+        },
+        {
+          "name": "ZANetworkSiteAveragePerformance",
+          "children": [
+            {
+              "name": "Get-ZANetworkSiteAveragePerformance"
+            }
+          ]
+        },
+        {
+          "name": "ZANetworkSiteStat",
+          "children": [
+            {
+              "name": "Get-ZANetworkSiteStat"
+            }
+          ]
+        },
+        {
+          "name": "ZANetworkSiteSummary",
+          "children": [
+            {
+              "name": "Get-ZANetworkSiteSummary"
+            }
+          ]
+        },
+        {
+          "name": "ZANetworkVpgAverageIOPS",
+          "children": [
+            {
+              "name": "Get-ZANetworkVpgAverageIOPS"
+            }
+          ]
+        },
+        {
+          "name": "ZANetworkVpgAveragePerformance",
+          "children": [
+            {
+              "name": "Get-ZANetworkVpgAveragePerformance"
+            }
+          ]
+        },
+        {
+          "name": "ZANetworkVpgStat",
+          "children": [
+            {
+              "name": "Get-ZANetworkVpgStat"
+            }
+          ]
+        },
+        {
+          "name": "ZANetworkVpgSummary",
+          "children": [
+            {
+              "name": "Get-ZANetworkVpgSummary"
+            }
+          ]
+        },
+        {
+          "name": "ZAPlannerJournalSizeReport",
+          "children": [
+            {
+              "name": "Get-ZAPlannerJournalSizeReport"
+            }
+          ]
+        },
+        {
+          "name": "ZAPlannerNetworkPerformanceReport",
+          "children": [
+            {
+              "name": "Get-ZAPlannerNetworkPerformanceReport"
+            }
+          ]
+        },
+        {
+          "name": "ZAPlannerSite",
+          "children": [
+            {
+              "name": "Get-ZAPlannerSite"
+            }
+          ]
+        },
+        {
+          "name": "ZAPlannerStatsReport",
+          "children": [
+            {
+              "name": "Get-ZAPlannerStatsReport"
+            }
+          ]
+        },
+        {
+          "name": "ZAPlannerWanReport",
+          "children": [
+            {
+              "name": "Get-ZAPlannerWanReport"
+            }
+          ]
+        },
+        {
+          "name": "ZAPlannerZcasReport",
+          "children": [
+            {
+              "name": "Get-ZAPlannerZcasReport"
+            }
+          ]
+        },
+        {
+          "name": "ZAProtectedVm",
+          "children": [
+            {
+              "name": "Get-ZAProtectedVm"
+            }
+          ]
+        },
+        {
+          "name": "ZAProtectedVmReport",
+          "children": [
+            {
+              "name": "Get-ZAProtectedVmReport"
+            }
+          ]
+        },
+        {
+          "name": "ZARPOAccountAverage",
+          "children": [
+            {
+              "name": "Get-ZARPOAccountAverage"
+            }
+          ]
+        },
+        {
+          "name": "ZARPOAverage",
+          "children": [
+            {
+              "name": "Get-ZARPOAverage"
+            }
+          ]
+        },
+        {
+          "name": "ZARPOBreach",
+          "children": [
+            {
+              "name": "Get-ZARPOBreach"
+            }
+          ]
+        },
+        {
+          "name": "ZARPOStat",
+          "children": [
+            {
+              "name": "Get-ZARPOStat"
+            }
+          ]
+        },
+        {
+          "name": "ZARPOStatusProportion",
+          "children": [
+            {
+              "name": "Get-ZARPOStatusProportion"
+            }
+          ]
+        },
+        {
+          "name": "ZARPOSummary",
+          "children": [
+            {
+              "name": "Get-ZARPOSummary"
+            }
+          ]
+        },
+        {
+          "name": "ZASite",
+          "children": [
+            {
+              "name": "Get-ZASite"
+            }
+          ]
+        },
+        {
+          "name": "ZASitePair",
+          "children": [
+            {
+              "name": "Get-ZASitePair"
+            }
+          ]
+        },
+        {
+          "name": "ZASiteTopology",
+          "children": [
+            {
+              "name": "Get-ZASiteTopology"
+            }
+          ]
+        },
+        {
+          "name": "ZATask",
+          "children": [
+            {
+              "name": "Get-ZATask"
+            }
+          ]
+        },
+        {
+          "name": "ZAVolume",
+          "children": [
+            {
+              "name": "Get-ZAVolume"
+            }
+          ]
+        },
+        {
+          "name": "ZAVpg",
+          "children": [
+            {
+              "name": "Get-ZAVpg"
+            }
+          ]
+        },
+        {
+          "name": "ZAzOrg",
+          "children": [
+            {
+              "name": "Get-ZAzOrg"
+            }
+          ]
+        },
+        {
+          "name": "ZertoAlert",
+          "children": [
+            {
+              "name": "Get-ZertoAlert"
+            },
+            {
+              "name": "Set-ZertoAlert"
+            }
+          ]
+        },
+        {
+          "name": "ZertoDatastore",
+          "children": [
+            {
+              "name": "Get-ZertoDatastore"
+            }
+          ]
+        },
+        {
+          "name": "ZertoEvent",
+          "children": [
+            {
+              "name": "Get-ZertoEvent"
+            }
+          ]
+        },
+        {
+          "name": "ZertoLicense",
+          "children": [
+            {
+              "name": "Get-ZertoLicense"
+            },
+            {
+              "name": "Set-ZertoLicense"
+            }
+          ]
+        },
+        {
+          "name": "ZertoLocalSite",
+          "children": [
+            {
+              "name": "Get-ZertoLocalSite"
+            }
+          ]
+        },
+        {
+          "name": "ZertoProtectedVm",
+          "children": [
+            {
+              "name": "Get-ZertoProtectedVm"
+            }
+          ]
+        },
+        {
+          "name": "ZertoRecoveryReport",
+          "children": [
+            {
+              "name": "Get-ZertoRecoveryReport"
+            }
+          ]
+        },
+        {
+          "name": "ZertoResourcesReport",
+          "children": [
+            {
+              "name": "Get-ZertoResourcesReport"
+            }
+          ]
+        },
+        {
+          "name": "ZertoServiceProfile",
+          "children": [
+            {
+              "name": "Get-ZertoServiceProfile"
+            }
+          ]
+        },
+        {
+          "name": "ZertoTask",
+          "children": [
+            {
+              "name": "Get-ZertoTask"
+            }
+          ]
+        },
+        {
+          "name": "ZertoUnprotectedVm",
+          "children": [
+            {
+              "name": "Get-ZertoUnprotectedVm"
+            }
+          ]
+        },
+        {
+          "name": "ZertoVirtualizationSite",
+          "children": [
+            {
+              "name": "Get-ZertoVirtualizationSite"
+            }
+          ]
+        },
+        {
+          "name": "ZertoVolume",
+          "children": [
+            {
+              "name": "Get-ZertoVolume"
+            }
+          ]
+        },
+        {
+          "name": "ZertoVpgSetting",
+          "children": [
+            {
+              "name": "Get-ZertoVpgSetting"
+            },
+            {
+              "name": "Save-ZertoVpgSetting"
+            }
+          ]
+        },
+        {
+          "name": "ZertoZorg",
+          "children": [
+            {
+              "name": "Get-ZertoZorg"
+            }
+          ]
+        },
+        {
+          "name": "ZertoZsspSession",
+          "children": [
+            {
+              "name": "Get-ZertoZsspSession"
+            }
+          ]
+        },
+        {
+          "name": "ZARestRequest",
+          "children": [
+            {
+              "name": "Invoke-ZARestRequest"
+            }
+          ]
+        },
+        {
+          "name": "ZertoEvacuateVra",
+          "children": [
+            {
+              "name": "Invoke-ZertoEvacuateVra"
+            }
+          ]
+        },
+        {
+          "name": "ZertoFailover",
+          "children": [
+            {
+              "name": "Invoke-ZertoFailover"
+            }
+          ]
+        },
+        {
+          "name": "ZertoFailoverCommit",
+          "children": [
+            {
+              "name": "Invoke-ZertoFailoverCommit"
+            }
+          ]
+        },
+        {
+          "name": "ZertoFailoverRollback",
+          "children": [
+            {
+              "name": "Invoke-ZertoFailoverRollback"
+            }
+          ]
+        },
+        {
+          "name": "ZertoForceSync",
+          "children": [
+            {
+              "name": "Invoke-ZertoForceSync"
+            }
+          ]
+        },
+        {
+          "name": "ZertoMove",
+          "children": [
+            {
+              "name": "Invoke-ZertoMove"
+            }
+          ]
+        },
+        {
+          "name": "ZertoMoveCommit",
+          "children": [
+            {
+              "name": "Invoke-ZertoMoveCommit"
+            }
+          ]
+        },
+        {
+          "name": "ZertoMoveRollback",
+          "children": [
+            {
+              "name": "Invoke-ZertoMoveRollback"
+            }
+          ]
+        },
+        {
+          "name": "ZertoRestRequest",
+          "children": [
+            {
+              "name": "Invoke-ZertoRestRequest"
+            }
+          ]
+        },
+        {
+          "name": "ZertoPairingToken",
+          "children": [
+            {
+              "name": "New-ZertoPairingToken"
+            }
+          ]
+        },
+        {
+          "name": "ZertoVpgSettingsIdentifier",
+          "children": [
+            {
+              "name": "New-ZertoVpgSettingsIdentifier"
+            },
+            {
+              "name": "Remove-ZertoVpgSettingsIdentifier"
+            }
+          ]
+        },
+        {
+          "name": "ZertoUserCredential",
+          "children": [
+            {
+              "name": "Set-ZertoUserCredential"
+            }
+          ]
+        },
+        {
+          "name": "ZertoCloneVpg",
+          "children": [
+            {
+              "name": "Start-ZertoCloneVpg"
+            },
+            {
+              "name": "Stop-ZertoCloneVpg"
+            }
+          ]
+        },
+        {
+          "name": "ZertoFailoverTest",
+          "children": [
+            {
+              "name": "Start-ZertoFailoverTest"
+            },
+            {
+              "name": "Stop-ZertoFailoverTest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ZertoAVSModule",
+      "companyName": "Zerto",
+      "author": "Zerto",
+      "children": [
+        {
+          "name": "Connection",
+          "children": [
+            {
+              "name": "Test-Connection"
+            }
+          ]
+        },
+        {
+          "name": "HostTempFolderInfo",
+          "children": [
+            {
+              "name": "Get-HostTempFolderInfo"
+            }
+          ]
+        },
+        {
+          "name": "HostConnectivity",
+          "children": [
+            {
+              "name": "Test-HostConnectivity"
+            }
+          ]
+        },
+        {
+          "name": "HostEsxiVersion",
+          "children": [
+            {
+              "name": "Get-HostEsxiVersion"
+            }
+          ]
+        },
+        {
+          "name": "StartupFile",
+          "children": [
+            {
+              "name": "Update-StartupFile"
+            }
+          ]
+        },
+        {
+          "name": "Driver",
+          "children": [
+            {
+              "name": "Install-Driver"
+            },
+            {
+              "name": "Uninstall-Driver"
+            }
+          ]
+        },
+        {
+          "name": "SSHTimeout",
+          "children": [
+            {
+              "name": "Set-SSHTimeout"
+            }
+          ]
+        },
+        {
+          "name": "ZertoVcPasswordRotation",
+          "children": [
+            {
+              "name": "Invoke-ZertoVcPasswordRotation"
+            }
+          ]
+        },
+        {
+          "name": "Zerto",
+          "children": [
+            {
+              "name": "Install-Zerto"
+            },
+            {
+              "name": "Uninstall-Zerto"
+            },
+            {
+              "name": "Debug-Zerto"
+            }
+          ]
+        },
+        {
+          "name": "ZertoAppliance",
+          "children": [
+            {
+              "name": "Restart-ZertoAppliance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

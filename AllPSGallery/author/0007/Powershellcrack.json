@@ -1,0 +1,597 @@
+{
+  "name": "Powershellcrack",
+  "children": [
+    {
+      "name": "IDMCmdlets",
+      "companyName": "Unknown",
+      "author": "Powershellcrack",
+      "children": [
+        {
+          "name": "IDMGraphAppCertAuth",
+          "children": [
+            {
+              "name": "Add-IDMGraphAppCertAuth"
+            }
+          ]
+        },
+        {
+          "name": "IDMGraphApp",
+          "children": [
+            {
+              "name": "Connect-IDMGraphApp"
+            },
+            {
+              "name": "New-IDMGraphApp"
+            },
+            {
+              "name": "Update-IDMGraphApp"
+            }
+          ]
+        },
+        {
+          "name": "IDMAppProtectionPolicies",
+          "children": [
+            {
+              "name": "Get-IDMAppProtectionPolicies"
+            }
+          ]
+        },
+        {
+          "name": "IDMAutopilotDevice",
+          "children": [
+            {
+              "name": "Get-IDMAutopilotDevice"
+            }
+          ]
+        },
+        {
+          "name": "IDMAutopilotProfile",
+          "children": [
+            {
+              "name": "Get-IDMAutopilotProfile"
+            }
+          ]
+        },
+        {
+          "name": "IDMAzureDeviceExtension",
+          "children": [
+            {
+              "name": "Get-IDMAzureDeviceExtension"
+            },
+            {
+              "name": "Set-IDMAzureDeviceExtension"
+            }
+          ]
+        },
+        {
+          "name": "IDMAzureDevices",
+          "children": [
+            {
+              "name": "Get-IDMAzureDevices"
+            }
+          ]
+        },
+        {
+          "name": "IDMAzureGroup",
+          "children": [
+            {
+              "name": "Get-IDMAzureGroup"
+            },
+            {
+              "name": "New-IDMAzureGroup"
+            },
+            {
+              "name": "Remove-IDMAzureGroup"
+            }
+          ]
+        },
+        {
+          "name": "IDMAzureUser",
+          "children": [
+            {
+              "name": "Get-IDMAzureUser"
+            }
+          ]
+        },
+        {
+          "name": "IDMAzureUsers",
+          "children": [
+            {
+              "name": "Get-IDMAzureUsers"
+            }
+          ]
+        },
+        {
+          "name": "IDMCompliancePolicies",
+          "children": [
+            {
+              "name": "Get-IDMCompliancePolicies"
+            }
+          ]
+        },
+        {
+          "name": "IDMCompliancePolicyOSRelease",
+          "children": [
+            {
+              "name": "Get-IDMCompliancePolicyOSRelease"
+            }
+          ]
+        },
+        {
+          "name": "IDMDevice",
+          "children": [
+            {
+              "name": "Get-IDMDevice"
+            }
+          ]
+        },
+        {
+          "name": "IDMDeviceAADUser",
+          "children": [
+            {
+              "name": "Get-IDMDeviceAADUser"
+            }
+          ]
+        },
+        {
+          "name": "IDMDeviceAssignedUser",
+          "children": [
+            {
+              "name": "Get-IDMDeviceAssignedUser"
+            },
+            {
+              "name": "Set-IDMDeviceAssignedUser"
+            }
+          ]
+        },
+        {
+          "name": "IDMDeviceCategory",
+          "children": [
+            {
+              "name": "Get-IDMDeviceCategory"
+            },
+            {
+              "name": "Set-IDMDeviceCategory"
+            }
+          ]
+        },
+        {
+          "name": "IDMDevicePendingActions",
+          "children": [
+            {
+              "name": "Get-IDMDevicePendingActions"
+            }
+          ]
+        },
+        {
+          "name": "IDMDevices",
+          "children": [
+            {
+              "name": "Get-IDMDevices"
+            }
+          ]
+        },
+        {
+          "name": "IDMGraphAppAuthToken",
+          "children": [
+            {
+              "name": "Get-IDMGraphAppAuthToken"
+            }
+          ]
+        },
+        {
+          "name": "IDMIntuneAssignments",
+          "children": [
+            {
+              "name": "Get-IDMIntuneAssignments"
+            }
+          ]
+        },
+        {
+          "name": "IDMRole",
+          "children": [
+            {
+              "name": "Get-IDMRole"
+            },
+            {
+              "name": "New-IDMRole"
+            },
+            {
+              "name": "Remove-IDMRole"
+            },
+            {
+              "name": "Set-IDMRole"
+            }
+          ]
+        },
+        {
+          "name": "IDMRoleAssignmentGroups",
+          "children": [
+            {
+              "name": "Get-IDMRoleAssignmentGroups"
+            },
+            {
+              "name": "Update-IDMRoleAssignmentGroups"
+            }
+          ]
+        },
+        {
+          "name": "IDMScopeTag",
+          "children": [
+            {
+              "name": "Get-IDMScopeTag"
+            },
+            {
+              "name": "New-IDMScopeTag"
+            },
+            {
+              "name": "Remove-IDMScopeTag"
+            }
+          ]
+        },
+        {
+          "name": "IDMScopeTagAssignment",
+          "children": [
+            {
+              "name": "Get-IDMScopeTagAssignment"
+            },
+            {
+              "name": "Invoke-IDMScopeTagAssignment"
+            }
+          ]
+        },
+        {
+          "name": "IDMStaleAzureDevices",
+          "children": [
+            {
+              "name": "Get-IDMStaleAzureDevices"
+            }
+          ]
+        },
+        {
+          "name": "IDMStaleDevices",
+          "children": [
+            {
+              "name": "Get-IDMStaleDevices"
+            },
+            {
+              "name": "Remove-IDMStaleDevices"
+            }
+          ]
+        },
+        {
+          "name": "IDMDeviceAction",
+          "children": [
+            {
+              "name": "Invoke-IDMDeviceAction"
+            }
+          ]
+        },
+        {
+          "name": "IDMGraphBatchRequests",
+          "children": [
+            {
+              "name": "Invoke-IDMGraphBatchRequests"
+            }
+          ]
+        },
+        {
+          "name": "IDMGraphRequests",
+          "children": [
+            {
+              "name": "Invoke-IDMGraphRequests"
+            }
+          ]
+        },
+        {
+          "name": "IDMRoleAssignment",
+          "children": [
+            {
+              "name": "Invoke-IDMRoleAssignment"
+            }
+          ]
+        },
+        {
+          "name": "IDMRoleAssignmentAll",
+          "children": [
+            {
+              "name": "Invoke-IDMRoleAssignmentAll"
+            }
+          ]
+        },
+        {
+          "name": "IDMRoleAssignmentScopeTag",
+          "children": [
+            {
+              "name": "Invoke-IDMRoleAssignmentScopeTag"
+            }
+          ]
+        },
+        {
+          "name": "IDMAzureDynamicGroup",
+          "children": [
+            {
+              "name": "New-IDMAzureDynamicGroup"
+            },
+            {
+              "name": "Update-IDMAzureDynamicGroup"
+            }
+          ]
+        },
+        {
+          "name": "IDMGraphAuthCert",
+          "children": [
+            {
+              "name": "New-IDMGraphAuthCert"
+            }
+          ]
+        },
+        {
+          "name": "IDMRoleDefinitionBeta",
+          "children": [
+            {
+              "name": "New-IDMRoleDefinitionBeta"
+            }
+          ]
+        },
+        {
+          "name": "IDMDeviceRecords",
+          "children": [
+            {
+              "name": "Remove-IDMDeviceRecords"
+            }
+          ]
+        },
+        {
+          "name": "IDMAutopilotDeviceTag",
+          "children": [
+            {
+              "name": "Set-IDMAutopilotDeviceTag"
+            }
+          ]
+        },
+        {
+          "name": "IDMResourceFriendlyName",
+          "children": [
+            {
+              "name": "Set-IDMResourceFriendlyName"
+            }
+          ]
+        },
+        {
+          "name": "IDMResourceFriendlyType",
+          "children": [
+            {
+              "name": "Set-IDMResourceFriendlyType"
+            }
+          ]
+        },
+        {
+          "name": "IDMRequests",
+          "children": [
+            {
+              "name": "Split-IDMRequests"
+            }
+          ]
+        },
+        {
+          "name": "IDMAppProtectionPolicyOSCondition",
+          "children": [
+            {
+              "name": "Update-IDMAppProtectionPolicyOSCondition"
+            }
+          ]
+        },
+        {
+          "name": "IDMCompliancePolicyOSVersion",
+          "children": [
+            {
+              "name": "Update-IDMCompliancePolicyOSVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InstallLatestModule",
+      "companyName": "Unknown",
+      "author": "Powershellcrack",
+      "children": [
+        {
+          "name": "LatestModule",
+          "children": [
+            {
+              "name": "Install-LatestModule"
+            },
+            {
+              "name": "Get-LatestModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LGPO",
+      "companyName": "Unknown",
+      "author": "Powershellcrack",
+      "children": [
+        {
+          "name": "LocalPolicySystemSettings",
+          "children": [
+            {
+              "name": "Get-LocalPolicySystemSettings"
+            }
+          ]
+        },
+        {
+          "name": "LocalPolicySetting",
+          "children": [
+            {
+              "name": "Set-LocalPolicySetting"
+            },
+            {
+              "name": "Remove-LocalPolicySetting"
+            }
+          ]
+        },
+        {
+          "name": "LocalPolicySettings",
+          "children": [
+            {
+              "name": "Update-LocalPolicySettings"
+            }
+          ]
+        },
+        {
+          "name": "LocalPolicyUserSettings",
+          "children": [
+            {
+              "name": "Get-LocalPolicyUserSettings"
+            }
+          ]
+        },
+        {
+          "name": "LocalPolicyUserSetting",
+          "children": [
+            {
+              "name": "Set-LocalPolicyUserSetting"
+            },
+            {
+              "name": "Remove-LocalPolicyUserSetting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MSFTLinkDownloader",
+      "companyName": "Unknown",
+      "author": "Powershellcrack",
+      "children": [
+        {
+          "name": "MsftLink",
+          "children": [
+            {
+              "name": "Get-MsftLink"
+            }
+          ]
+        },
+        {
+          "name": "MsftLinkDownload",
+          "children": [
+            {
+              "name": "Invoke-MsftLinkDownload"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SortJson",
+      "companyName": "Unknown",
+      "author": "PowershellCrack",
+      "children": [
+        {
+          "name": "JsonOrder",
+          "children": [
+            {
+              "name": "Format-JsonOrder"
+            }
+          ]
+        },
+        {
+          "name": "OrderObject",
+          "children": [
+            {
+              "name": "ConvertTo-OrderObject"
+            }
+          ]
+        },
+        {
+          "name": "ObjectPropertyOrder",
+          "children": [
+            {
+              "name": "Set-ObjectPropertyOrder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WingetWrapper",
+      "companyName": "Unknown",
+      "author": "Powershellcrack",
+      "children": [
+        {
+          "name": "WinGetWrapperList",
+          "children": [
+            {
+              "name": "Get-WinGetWrapperList"
+            }
+          ]
+        },
+        {
+          "name": "WinGetWrapperUpgradeList",
+          "children": [
+            {
+              "name": "Get-WinGetWrapperUpgradeList"
+            }
+          ]
+        },
+        {
+          "name": "WinGetWrapperIsUpgradeable",
+          "children": [
+            {
+              "name": "Test-WinGetWrapperIsUpgradeable"
+            }
+          ]
+        },
+        {
+          "name": "WinGetWrapperAppUpdate",
+          "children": [
+            {
+              "name": "Start-WinGetWrapperAppUpdate"
+            }
+          ]
+        },
+        {
+          "name": "WinGetWrapperAllUpdates",
+          "children": [
+            {
+              "name": "Start-WinGetWrapperAllUpdates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "YetAnotherCMLogger",
+      "companyName": "Unknown",
+      "author": "Powershellcrack",
+      "children": [
+        {
+          "name": "YaCMLogFileName",
+          "children": [
+            {
+              "name": "Get-YaCMLogFileName"
+            },
+            {
+              "name": "Set-YaCMLogFileName"
+            },
+            {
+              "name": "Restore-YaCMLogFileName"
+            }
+          ]
+        },
+        {
+          "name": "YaCMLogEntry",
+          "children": [
+            {
+              "name": "Write-YaCMLogEntry"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "FB Pro GmbH",
+  "children": [
+    {
+      "name": "ATAPAuditor",
+      "companyName": "FB Pro GmbH",
+      "author": "Benedikt B hme Patrick Helbach Steffen Winternheimer Phan Quang Nguyen Daniel Str her",
+      "children": [
+        {
+          "name": "ATAPHtmlReport",
+          "children": [
+            {
+              "name": "Save-ATAPHtmlReport"
+            }
+          ]
+        },
+        {
+          "name": "ATAPReport",
+          "children": [
+            {
+              "name": "Invoke-ATAPReport"
+            },
+            {
+              "name": "Get-ATAPReport"
+            }
+          ]
+        },
+        {
+          "name": "AuditResource",
+          "children": [
+            {
+              "name": "Get-AuditResource"
+            }
+          ]
+        },
+        {
+          "name": "AuditGroup",
+          "children": [
+            {
+              "name": "Test-AuditGroup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATAPHtmlReport",
+      "companyName": "FB Pro GmbH",
+      "author": "Benedikt B hme Patrick Helbach Steffen Winternheimer",
+      "children": [
+        {
+          "name": "ATAPHtmlReport",
+          "children": [
+            {
+              "name": "Get-ATAPHtmlReport"
+            }
+          ]
+        },
+        {
+          "name": "ATAPHostInformation",
+          "children": [
+            {
+              "name": "Get-ATAPHostInformation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

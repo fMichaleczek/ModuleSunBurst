@@ -1,0 +1,411 @@
+{
+  "name": "TGITS",
+  "children": [
+    {
+      "name": "ClearingAcr",
+      "companyName": "TGITS",
+      "author": "RAMI BEN TRAD",
+      "children": [
+        {
+          "name": "PSTSAzureSubscriptions",
+          "children": [
+            {
+              "name": "Get-PSTSAzureSubscriptions"
+            }
+          ]
+        },
+        {
+          "name": "PSTSAcrBySubscription",
+          "children": [
+            {
+              "name": "Get-PSTSAcrBySubscription"
+            }
+          ]
+        },
+        {
+          "name": "PSTSReposBySubscription",
+          "children": [
+            {
+              "name": "Get-PSTSReposBySubscription"
+            }
+          ]
+        },
+        {
+          "name": "PSTSRepoTags",
+          "children": [
+            {
+              "name": "Get-PSTSRepoTags"
+            }
+          ]
+        },
+        {
+          "name": "PSTSImageAcr",
+          "children": [
+            {
+              "name": "Delete-PSTSImageAcr"
+            }
+          ]
+        },
+        {
+          "name": "ClearingAcr",
+          "children": [
+            {
+              "name": "ClearingAcr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSTS",
+      "companyName": "TGITS",
+      "author": "COTREZ GRAVIL",
+      "children": [
+        {
+          "name": "PSTSAccount",
+          "children": [
+            {
+              "name": "Add-PSTSAccount"
+            },
+            {
+              "name": "Remove-PSTSAccount"
+            },
+            {
+              "name": "Set-PSTSAccount"
+            }
+          ]
+        },
+        {
+          "name": "PSTSBuildDefinition",
+          "children": [
+            {
+              "name": "Add-PSTSBuildDefinition"
+            },
+            {
+              "name": "Export-PSTSBuildDefinition"
+            },
+            {
+              "name": "Get-PSTSBuildDefinition"
+            }
+          ]
+        },
+        {
+          "name": "PSTSBuildDefinitionProperty",
+          "children": [
+            {
+              "name": "Add-PSTSBuildDefinitionProperty"
+            }
+          ]
+        },
+        {
+          "name": "PSTSBuildDefinitionTemplate",
+          "children": [
+            {
+              "name": "Add-PSTSBuildDefinitionTemplate"
+            }
+          ]
+        },
+        {
+          "name": "PSTSBuildDefinitionTrigger",
+          "children": [
+            {
+              "name": "Add-PSTSBuildDefinitionTrigger"
+            }
+          ]
+        },
+        {
+          "name": "PSTSGitRepository",
+          "children": [
+            {
+              "name": "Add-PSTSGitRepository"
+            },
+            {
+              "name": "Get-PSTSGitRepository"
+            }
+          ]
+        },
+        {
+          "name": "PSTSGitRepositoryImportRequest",
+          "children": [
+            {
+              "name": "Add-PSTSGitRepositoryImportRequest"
+            }
+          ]
+        },
+        {
+          "name": "PSTSGitRepositoryInit",
+          "children": [
+            {
+              "name": "Add-PSTSGitRepositoryInit"
+            }
+          ]
+        },
+        {
+          "name": "PSTSGitRepositoryPush",
+          "children": [
+            {
+              "name": "Add-PSTSGitRepositoryPush"
+            }
+          ]
+        },
+        {
+          "name": "PSTSGitRepositoryRef",
+          "children": [
+            {
+              "name": "Add-PSTSGitRepositoryRef"
+            },
+            {
+              "name": "Get-PSTSGitRepositoryRef"
+            },
+            {
+              "name": "Remove-PSTSGitRepositoryRef"
+            }
+          ]
+        },
+        {
+          "name": "PSTSProject",
+          "children": [
+            {
+              "name": "Add-PSTSProject"
+            },
+            {
+              "name": "Get-PSTSProject"
+            }
+          ]
+        },
+        {
+          "name": "PSTSReleaseDefinition",
+          "children": [
+            {
+              "name": "Add-PSTSReleaseDefinition"
+            },
+            {
+              "name": "Export-PSTSReleaseDefinition"
+            },
+            {
+              "name": "Get-PSTSReleaseDefinition"
+            },
+            {
+              "name": "Update-PSTSReleaseDefinition"
+            }
+          ]
+        },
+        {
+          "name": "PSTSReleaseDefinitionArtefact",
+          "children": [
+            {
+              "name": "Add-PSTSReleaseDefinitionArtefact"
+            }
+          ]
+        },
+        {
+          "name": "PSTSReleaseDefinitionProcessParameterInput",
+          "children": [
+            {
+              "name": "Add-PSTSReleaseDefinitionProcessParameterInput"
+            }
+          ]
+        },
+        {
+          "name": "PSTSReleaseDefinitionProperty",
+          "children": [
+            {
+              "name": "Add-PSTSReleaseDefinitionProperty"
+            }
+          ]
+        },
+        {
+          "name": "PSTSReleaseDefinitionTask",
+          "children": [
+            {
+              "name": "Add-PSTSReleaseDefinitionTask"
+            },
+            {
+              "name": "Get-PSTSReleaseDefinitionTask"
+            }
+          ]
+        },
+        {
+          "name": "PSTSReleaseDefinitionTrigger",
+          "children": [
+            {
+              "name": "Add-PSTSReleaseDefinitionTrigger"
+            }
+          ]
+        },
+        {
+          "name": "PSTSReleaseDefinitionVariable",
+          "children": [
+            {
+              "name": "Add-PSTSReleaseDefinitionVariable"
+            }
+          ]
+        },
+        {
+          "name": "PSTSSecureFile",
+          "children": [
+            {
+              "name": "Add-PSTSSecureFile"
+            },
+            {
+              "name": "Get-PSTSSecureFile"
+            },
+            {
+              "name": "Remove-PSTSSecureFile"
+            }
+          ]
+        },
+        {
+          "name": "PSTSServiceEndPointAzurerm",
+          "children": [
+            {
+              "name": "Add-PSTSServiceEndPointAzurerm"
+            }
+          ]
+        },
+        {
+          "name": "PSTSServiceEndPointExternaltfs",
+          "children": [
+            {
+              "name": "Add-PSTSServiceEndPointExternaltfs"
+            }
+          ]
+        },
+        {
+          "name": "PSTSServiceEndPointGit",
+          "children": [
+            {
+              "name": "Add-PSTSServiceEndPointGit"
+            }
+          ]
+        },
+        {
+          "name": "PSTSVariableGroup",
+          "children": [
+            {
+              "name": "Add-PSTSVariableGroup"
+            },
+            {
+              "name": "Link-PSTSVariableGroup"
+            },
+            {
+              "name": "Update-PSTSVariableGroup"
+            }
+          ]
+        },
+        {
+          "name": "PSTSFromYaml",
+          "children": [
+            {
+              "name": "Apply-PSTSFromYaml"
+            }
+          ]
+        },
+        {
+          "name": "PSTSAgentQueue",
+          "children": [
+            {
+              "name": "Get-PSTSAgentQueue"
+            }
+          ]
+        },
+        {
+          "name": "PSTSFeed",
+          "children": [
+            {
+              "name": "Get-PSTSFeed"
+            }
+          ]
+        },
+        {
+          "name": "PSTSFeedPackage",
+          "children": [
+            {
+              "name": "Get-PSTSFeedPackage"
+            }
+          ]
+        },
+        {
+          "name": "PSTSGitRepositoryRefItemBatch",
+          "children": [
+            {
+              "name": "Get-PSTSGitRepositoryRefItemBatch"
+            }
+          ]
+        },
+        {
+          "name": "PSTSGitRepositoryRefItemFile",
+          "children": [
+            {
+              "name": "Get-PSTSGitRepositoryRefItemFile"
+            }
+          ]
+        },
+        {
+          "name": "PSTSGitRepositoryRefItemFolder",
+          "children": [
+            {
+              "name": "Get-PSTSGitRepositoryRefItemFolder"
+            }
+          ]
+        },
+        {
+          "name": "PSTSProcessTemplate",
+          "children": [
+            {
+              "name": "Get-PSTSProcessTemplate"
+            }
+          ]
+        },
+        {
+          "name": "PSTSReleaseDefinitionTaskTemplate",
+          "children": [
+            {
+              "name": "Get-PSTSReleaseDefinitionTaskTemplate"
+            }
+          ]
+        },
+        {
+          "name": "PSTSServiceEndpoint",
+          "children": [
+            {
+              "name": "Get-PSTSServiceEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "PSTSVariablesGroup",
+          "children": [
+            {
+              "name": "Get-PSTSVariablesGroup"
+            }
+          ]
+        },
+        {
+          "name": "PSTSAuthorizedResource",
+          "children": [
+            {
+              "name": "Update-PSTSAuthorizedResource"
+            }
+          ]
+        },
+        {
+          "name": "PSTSReleaseDefinitionDeployInput",
+          "children": [
+            {
+              "name": "Update-PSTSReleaseDefinitionDeployInput"
+            }
+          ]
+        },
+        {
+          "name": "PSTSSecureFiles",
+          "children": [
+            {
+              "name": "Update-PSTSSecureFiles"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Simon W hlin",
+  "children": [
+    {
+      "name": "BicepNet.PS",
+      "companyName": "simonw.se",
+      "author": "Simon W hlin",
+      "children": [
+        {
+          "name": "BicepNetFile",
+          "children": [
+            {
+              "name": "Build-BicepNetFile"
+            },
+            {
+              "name": "ConvertTo-BicepNetFile"
+            },
+            {
+              "name": "Publish-BicepNetFile"
+            },
+            {
+              "name": "Restore-BicepNetFile"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetParamFile",
+          "children": [
+            {
+              "name": "Build-BicepNetParamFile"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetCredential",
+          "children": [
+            {
+              "name": "Clear-BicepNetCredential"
+            },
+            {
+              "name": "Set-BicepNetCredential"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetResourceToBicep",
+          "children": [
+            {
+              "name": "Convert-BicepNetResourceToBicep"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetResource",
+          "children": [
+            {
+              "name": "Export-BicepNetResource"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetChildResource",
+          "children": [
+            {
+              "name": "Export-BicepNetChildResource"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetModule",
+          "children": [
+            {
+              "name": "Find-BicepNetModule"
+            }
+          ]
+        },
+        {
+          "name": "BicepNet",
+          "children": [
+            {
+              "name": "Format-BicepNet"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetAccessToken",
+          "children": [
+            {
+              "name": "Get-BicepNetAccessToken"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetCachePath",
+          "children": [
+            {
+              "name": "Get-BicepNetCachePath"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetConfig",
+          "children": [
+            {
+              "name": "Get-BicepNetConfig"
+            }
+          ]
+        },
+        {
+          "name": "BicepNetVersion",
+          "children": [
+            {
+              "name": "Get-BicepNetVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GetPassword",
+      "companyName": "Unknown",
+      "author": "Simon W hlin",
+      "children": [
+        {
+          "name": "Password",
+          "children": [
+            {
+              "name": "Get-Password"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StageCoder",
+      "companyName": "Simon W hlin",
+      "author": "Simon W hlin",
+      "children": [
+        {
+          "name": "Demo",
+          "children": [
+            {
+              "name": "Get-Demo"
+            },
+            {
+              "name": "Reset-Demo"
+            },
+            {
+              "name": "Set-Demo"
+            }
+          ]
+        },
+        {
+          "name": "DemoCommand",
+          "children": [
+            {
+              "name": "Get-DemoCommand"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

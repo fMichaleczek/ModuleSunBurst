@@ -1,0 +1,107 @@
+{
+  "name": "Alf L kken",
+  "children": [
+    {
+      "name": "graph.auth.lite",
+      "companyName": "Unknown",
+      "author": "Alf L kken",
+      "children": [
+        {
+          "name": "GraphToken",
+          "children": [
+            {
+              "name": "Get-GraphToken"
+            }
+          ]
+        },
+        {
+          "name": "GraphTokenCache",
+          "children": [
+            {
+              "name": "Clear-GraphTokenCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAuthClient",
+      "companyName": "Intility AS",
+      "author": "Alf L kken",
+      "children": [
+        {
+          "name": "WebView2Cache",
+          "children": [
+            {
+              "name": "Clear-WebView2Cache"
+            }
+          ]
+        },
+        {
+          "name": "JsonWebToken",
+          "children": [
+            {
+              "name": "ConvertFrom-JsonWebToken"
+            }
+          ]
+        },
+        {
+          "name": "OidcDiscoveryMetadata",
+          "children": [
+            {
+              "name": "Get-OidcDiscoveryMetadata"
+            }
+          ]
+        },
+        {
+          "name": "OAuth2AuthorizationEndpoint",
+          "children": [
+            {
+              "name": "Invoke-OAuth2AuthorizationEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "OAuth2DeviceAuthorizationEndpoint",
+          "children": [
+            {
+              "name": "Invoke-OAuth2DeviceAuthorizationEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "OAuth2TokenEndpoint",
+          "children": [
+            {
+              "name": "Invoke-OAuth2TokenEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "Oauth2JwtAssertion",
+          "children": [
+            {
+              "name": "New-Oauth2JwtAssertion"
+            }
+          ]
+        },
+        {
+          "name": "PkceChallenge",
+          "children": [
+            {
+              "name": "New-PkceChallenge"
+            }
+          ]
+        },
+        {
+          "name": "JsonWebTokenSignature",
+          "children": [
+            {
+              "name": "Test-JsonWebTokenSignature"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Evalexp",
+  "children": [
+    {
+      "name": "RunApp",
+      "companyName": "Unknown",
+      "author": "Evalexp",
+      "children": [
+        {
+          "name": "App",
+          "children": [
+            {
+              "name": "Start-App"
+            }
+          ]
+        },
+        {
+          "name": "AppAsJob",
+          "children": [
+            {
+              "name": "Start-AppAsJob"
+            }
+          ]
+        },
+        {
+          "name": "AppAsProcess",
+          "children": [
+            {
+              "name": "Start-AppAsProcess"
+            }
+          ]
+        },
+        {
+          "name": "AppAsRaw",
+          "children": [
+            {
+              "name": "Start-AppAsRaw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vmware-better-network-resolve",
+      "companyName": "Unknown",
+      "author": "Evalexp",
+      "children": [
+        {
+          "name": "VMHostAuto",
+          "children": [
+            {
+              "name": "Set-VMHostAuto"
+            }
+          ]
+        },
+        {
+          "name": "VMHostManual",
+          "children": [
+            {
+              "name": "Set-VMHostManual"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

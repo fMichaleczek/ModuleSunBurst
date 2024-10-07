@@ -1,0 +1,964 @@
+{
+  "name": "Charles Antoine Degennes",
+  "children": [
+    {
+      "name": "PwSh.Fw.Archive",
+      "companyName": "Unknown",
+      "author": "Charles Antoine Degennes",
+      "children": [
+        {
+          "name": "SingleFileFromArchive",
+          "children": [
+            {
+              "name": "Expand-SingleFileFromArchive"
+            }
+          ]
+        },
+        {
+          "name": "ArchiveContent",
+          "children": [
+            {
+              "name": "Get-ArchiveContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PwSh.Fw.BuildHelpers",
+      "companyName": "Charles Antoine Degennes",
+      "author": "Charles Antoine Degennes",
+      "children": [
+        {
+          "name": "ToBuildTree",
+          "children": [
+            {
+              "name": "Add-ToBuildTree"
+            }
+          ]
+        },
+        {
+          "name": "DebianCONTROLFileSettings",
+          "children": [
+            {
+              "name": "ConvertTo-DebianCONTROLFileSettings"
+            }
+          ]
+        },
+        {
+          "name": "LinuxIcons",
+          "children": [
+            {
+              "name": "ConvertTo-LinuxIcons"
+            }
+          ]
+        },
+        {
+          "name": "MacOSIcons",
+          "children": [
+            {
+              "name": "ConvertTo-MacOSIcons"
+            }
+          ]
+        },
+        {
+          "name": "NSISSettings",
+          "children": [
+            {
+              "name": "ConvertTo-NSISSettings"
+            }
+          ]
+        },
+        {
+          "name": "PowershellModuleSettings",
+          "children": [
+            {
+              "name": "ConvertTo-PowershellModuleSettings"
+            }
+          ]
+        },
+        {
+          "name": "WindowsIcon",
+          "children": [
+            {
+              "name": "ConvertTo-WindowsIcon"
+            }
+          ]
+        },
+        {
+          "name": "Project",
+          "children": [
+            {
+              "name": "Get-Project"
+            },
+            {
+              "name": "New-Project"
+            }
+          ]
+        },
+        {
+          "name": "ProjectChangelog",
+          "children": [
+            {
+              "name": "Get-ProjectChangelog"
+            }
+          ]
+        },
+        {
+          "name": "BuildTree",
+          "children": [
+            {
+              "name": "Initialize-BuildTree"
+            }
+          ]
+        },
+        {
+          "name": "CabinetFile",
+          "children": [
+            {
+              "name": "New-CabinetFile"
+            }
+          ]
+        },
+        {
+          "name": "DebianBuild",
+          "children": [
+            {
+              "name": "New-DebianBuild"
+            }
+          ]
+        },
+        {
+          "name": "DesktopFile",
+          "children": [
+            {
+              "name": "New-DesktopFile"
+            }
+          ]
+        },
+        {
+          "name": "ModuleManifestRecurse",
+          "children": [
+            {
+              "name": "New-ModuleManifestRecurse"
+            },
+            {
+              "name": "Update-ModuleManifestRecurse"
+            }
+          ]
+        },
+        {
+          "name": "NSISBuild",
+          "children": [
+            {
+              "name": "New-NSISBuild"
+            },
+            {
+              "name": "Test-NSISBuild"
+            }
+          ]
+        },
+        {
+          "name": "ProjectFile",
+          "children": [
+            {
+              "name": "New-ProjectFile"
+            }
+          ]
+        },
+        {
+          "name": "ProjectStructure",
+          "children": [
+            {
+              "name": "New-ProjectStructure"
+            },
+            {
+              "name": "Test-ProjectStructure"
+            }
+          ]
+        },
+        {
+          "name": "CabinetDefinitionFile",
+          "children": [
+            {
+              "name": "Out-CabinetDefinitionFile"
+            }
+          ]
+        },
+        {
+          "name": "DebianCONTROLFile",
+          "children": [
+            {
+              "name": "Out-DebianCONTROLFile"
+            }
+          ]
+        },
+        {
+          "name": "NSISHeaderFile",
+          "children": [
+            {
+              "name": "Out-NSISHeaderFile"
+            }
+          ]
+        },
+        {
+          "name": "ModuleObject",
+          "children": [
+            {
+              "name": "Test-ModuleObject"
+            }
+          ]
+        },
+        {
+          "name": "MetaModuleManifest",
+          "children": [
+            {
+              "name": "Update-MetaModuleManifest"
+            }
+          ]
+        },
+        {
+          "name": "ModuleManifestEx",
+          "children": [
+            {
+              "name": "Update-ModuleManifestEx"
+            }
+          ]
+        },
+        {
+          "name": "MultipleModulePanifest",
+          "children": [
+            {
+              "name": "Update-MultipleModulePanifest"
+            }
+          ]
+        },
+        {
+          "name": "SingleModuleManifest",
+          "children": [
+            {
+              "name": "Update-SingleModuleManifest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PwSh.Fw.Core",
+      "companyName": "Unknown",
+      "author": "Charles Antoine Degennes",
+      "children": [
+        {
+          "name": "PSModulePath",
+          "children": [
+            {
+              "name": "Add-PSModulePath"
+            },
+            {
+              "name": "Get-PSModulePath"
+            }
+          ]
+        },
+        {
+          "name": "ToLogFile",
+          "children": [
+            {
+              "name": "Add-ToLogFile"
+            },
+            {
+              "name": "Write-ToLogFile"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "children": [
+            {
+              "name": "Convert-Size"
+            }
+          ]
+        },
+        {
+          "name": "Base64",
+          "children": [
+            {
+              "name": "ConvertFrom-Base64"
+            },
+            {
+              "name": "ConvertTo-Base64"
+            }
+          ]
+        },
+        {
+          "name": "ConfigFile",
+          "children": [
+            {
+              "name": "ConvertFrom-ConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "Plist",
+          "children": [
+            {
+              "name": "ConvertFrom-Plist"
+            }
+          ]
+        },
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "ConvertFrom-Xml"
+            }
+          ]
+        },
+        {
+          "name": "CamelCase",
+          "children": [
+            {
+              "name": "ConvertTo-CamelCase"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            },
+            {
+              "name": "Sort-HashTable"
+            }
+          ]
+        },
+        {
+          "name": "PascalCase",
+          "children": [
+            {
+              "name": "ConvertTo-PascalCase"
+            }
+          ]
+        },
+        {
+          "name": "PSCustomObject",
+          "children": [
+            {
+              "name": "ConvertTo-PSCustomObject"
+            }
+          ]
+        },
+        {
+          "name": "SingleString",
+          "children": [
+            {
+              "name": "ConvertTo-SingleString"
+            }
+          ]
+        },
+        {
+          "name": "StringData",
+          "children": [
+            {
+              "name": "ConvertTo-StringData"
+            }
+          ]
+        },
+        {
+          "name": "UnixStylePath",
+          "children": [
+            {
+              "name": "ConvertTo-UnixStylePath"
+            }
+          ]
+        },
+        {
+          "name": "WindowsStylePath",
+          "children": [
+            {
+              "name": "ConvertTo-WindowsStylePath"
+            }
+          ]
+        },
+        {
+          "name": "Command",
+          "children": [
+            {
+              "name": "Execute-Command"
+            }
+          ]
+        },
+        {
+          "name": "CustomObjectProperties",
+          "children": [
+            {
+              "name": "Get-CustomObjectProperties"
+            }
+          ]
+        },
+        {
+          "name": "ObjectProperties",
+          "children": [
+            {
+              "name": "Get-ObjectProperties"
+            }
+          ]
+        },
+        {
+          "name": "PropertyValueFromFile",
+          "children": [
+            {
+              "name": "Get-PropertyValueFromFile"
+            }
+          ]
+        },
+        {
+          "name": "PwShFwConfiguration",
+          "children": [
+            {
+              "name": "Get-PwShFwConfiguration"
+            },
+            {
+              "name": "Reset-PwShFwConfiguration"
+            },
+            {
+              "name": "Set-PwShFwConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "PwShFwDisplayConfiguration",
+          "children": [
+            {
+              "name": "Get-PwShFwDisplayConfiguration"
+            },
+            {
+              "name": "Set-PwShFwDisplayConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "RawItemPropertyValue",
+          "children": [
+            {
+              "name": "Get-RawItemPropertyValue"
+            }
+          ]
+        },
+        {
+          "name": "ReturnCodeColor",
+          "children": [
+            {
+              "name": "Get-ReturnCodeColor"
+            }
+          ]
+        },
+        {
+          "name": "ReturnCodeId",
+          "children": [
+            {
+              "name": "Get-ReturnCodeId"
+            }
+          ]
+        },
+        {
+          "name": "ReturnCodeString",
+          "children": [
+            {
+              "name": "Get-ReturnCodeString"
+            }
+          ]
+        },
+        {
+          "name": "ValidValuesFromPath",
+          "children": [
+            {
+              "name": "Get-ValidValuesFromPath"
+            }
+          ]
+        },
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Load-Module"
+            }
+          ]
+        },
+        {
+          "name": "Hashtables",
+          "children": [
+            {
+              "name": "Merge-Hashtables"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Merge-Object"
+            },
+            {
+              "name": "Write-Object"
+            }
+          ]
+        },
+        {
+          "name": "TemplateFunction",
+          "children": [
+            {
+              "name": "New-TemplateFunction"
+            }
+          ]
+        },
+        {
+          "name": "PlistNode",
+          "children": [
+            {
+              "name": "Read-PlistNode"
+            }
+          ]
+        },
+        {
+          "name": "StringLatinCharacters",
+          "children": [
+            {
+              "name": "Remove-StringLatinCharacters"
+            }
+          ]
+        },
+        {
+          "name": "Indent",
+          "children": [
+            {
+              "name": "Reset-Indent"
+            },
+            {
+              "name": "Set-Indent"
+            },
+            {
+              "name": "Write-Indent"
+            }
+          ]
+        },
+        {
+          "name": "Image",
+          "children": [
+            {
+              "name": "Resize-Image"
+            }
+          ]
+        },
+        {
+          "name": "Boolean",
+          "children": [
+            {
+              "name": "Resolve-Boolean"
+            }
+          ]
+        },
+        {
+          "name": "PathExtended",
+          "children": [
+            {
+              "name": "Resolve-PathExtended"
+            }
+          ]
+        },
+        {
+          "name": "ReturnCodePosition",
+          "children": [
+            {
+              "name": "Set-ReturnCodePosition"
+            }
+          ]
+        },
+        {
+          "name": "ByProperties",
+          "children": [
+            {
+              "name": "Sort-ByProperties"
+            }
+          ]
+        },
+        {
+          "name": "DirExist",
+          "children": [
+            {
+              "name": "Test-DirExist"
+            }
+          ]
+        },
+        {
+          "name": "FileExist",
+          "children": [
+            {
+              "name": "Test-FileExist"
+            }
+          ]
+        },
+        {
+          "name": "IsUNCPath",
+          "children": [
+            {
+              "name": "Test-IsUNCPath"
+            }
+          ]
+        },
+        {
+          "name": "RegKeyExist",
+          "children": [
+            {
+              "name": "Test-RegKeyExist"
+            }
+          ]
+        },
+        {
+          "name": "RegValueExist",
+          "children": [
+            {
+              "name": "Test-RegValueExist"
+            }
+          ]
+        },
+        {
+          "name": "Variable",
+          "children": [
+            {
+              "name": "Test-Variable"
+            }
+          ]
+        },
+        {
+          "name": "Add",
+          "children": [
+            {
+              "name": "Write-Add"
+            }
+          ]
+        },
+        {
+          "name": "Begin",
+          "children": [
+            {
+              "name": "Write-Begin"
+            }
+          ]
+        },
+        {
+          "name": "Debug",
+          "children": [
+            {
+              "name": "Write-Debug"
+            }
+          ]
+        },
+        {
+          "name": "Devel",
+          "children": [
+            {
+              "name": "Write-Devel"
+            }
+          ]
+        },
+        {
+          "name": "End",
+          "children": [
+            {
+              "name": "Write-End"
+            }
+          ]
+        },
+        {
+          "name": "Enter",
+          "children": [
+            {
+              "name": "Write-Enter"
+            }
+          ]
+        },
+        {
+          "name": "EnterFunction",
+          "children": [
+            {
+              "name": "Write-EnterFunction"
+            }
+          ]
+        },
+        {
+          "name": "Error",
+          "children": [
+            {
+              "name": "Write-Error"
+            }
+          ]
+        },
+        {
+          "name": "Fatal",
+          "children": [
+            {
+              "name": "Write-Fatal"
+            }
+          ]
+        },
+        {
+          "name": "Info",
+          "children": [
+            {
+              "name": "Write-Info"
+            }
+          ]
+        },
+        {
+          "name": "Leave",
+          "children": [
+            {
+              "name": "Write-Leave"
+            }
+          ]
+        },
+        {
+          "name": "LeaveFunction",
+          "children": [
+            {
+              "name": "Write-LeaveFunction"
+            }
+          ]
+        },
+        {
+          "name": "LineBreak",
+          "children": [
+            {
+              "name": "Write-LineBreak"
+            }
+          ]
+        },
+        {
+          "name": "Message",
+          "children": [
+            {
+              "name": "Write-Message"
+            }
+          ]
+        },
+        {
+          "name": "MyDebug",
+          "children": [
+            {
+              "name": "Write-MyDebug"
+            }
+          ]
+        },
+        {
+          "name": "MyError",
+          "children": [
+            {
+              "name": "Write-MyError"
+            }
+          ]
+        },
+        {
+          "name": "MyVerbose",
+          "children": [
+            {
+              "name": "Write-MyVerbose"
+            }
+          ]
+        },
+        {
+          "name": "MyWarning",
+          "children": [
+            {
+              "name": "Write-MyWarning"
+            }
+          ]
+        },
+        {
+          "name": "Outdent",
+          "children": [
+            {
+              "name": "Write-Outdent"
+            }
+          ]
+        },
+        {
+          "name": "Question",
+          "children": [
+            {
+              "name": "Write-Question"
+            }
+          ]
+        },
+        {
+          "name": "ReturnCode",
+          "children": [
+            {
+              "name": "Write-ReturnCode"
+            }
+          ]
+        },
+        {
+          "name": "Title",
+          "children": [
+            {
+              "name": "Write-Title"
+            }
+          ]
+        },
+        {
+          "name": "Todo",
+          "children": [
+            {
+              "name": "Write-Todo"
+            }
+          ]
+        },
+        {
+          "name": "Verbose",
+          "children": [
+            {
+              "name": "Write-Verbose"
+            }
+          ]
+        },
+        {
+          "name": "Warning",
+          "children": [
+            {
+              "name": "Write-Warning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PwSh.Fw.Iso",
+      "companyName": "Charles Antoine Degennes",
+      "author": "Charles Antoine Degennes",
+      "children": [
+        {
+          "name": "IsoFile",
+          "children": [
+            {
+              "name": "New-IsoFile"
+            }
+          ]
+        },
+        {
+          "name": "IsoFileLinux",
+          "children": [
+            {
+              "name": "New-IsoFileLinux"
+            }
+          ]
+        },
+        {
+          "name": "IsoFileMacOS",
+          "children": [
+            {
+              "name": "New-IsoFileMacOS"
+            }
+          ]
+        },
+        {
+          "name": "IsoFileWindows",
+          "children": [
+            {
+              "name": "New-IsoFileWindows"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PwSh.Fw.Network.DHCPv4",
+      "companyName": "Unknown",
+      "author": "Charles Antoine Degennes",
+      "children": [
+        {
+          "name": "BytesToHex",
+          "children": [
+            {
+              "name": "Convert-BytesToHex"
+            }
+          ]
+        },
+        {
+          "name": "DHCPv4Packet",
+          "children": [
+            {
+              "name": "Receive-DHCPv4Packet"
+            },
+            {
+              "name": "Send-DHCPv4Packet"
+            }
+          ]
+        },
+        {
+          "name": "BytesToInt",
+          "children": [
+            {
+              "name": "Convert-BytesToInt"
+            }
+          ]
+        },
+        {
+          "name": "BytesToString",
+          "children": [
+            {
+              "name": "Convert-BytesToString"
+            }
+          ]
+        },
+        {
+          "name": "HexToByteArray",
+          "children": [
+            {
+              "name": "Convert-HexToByteArray"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PwSh.Fw.Web",
+      "companyName": "Unknown",
+      "author": "Charles Antoine Degennes",
+      "children": [
+        {
+          "name": "QueryString",
+          "children": [
+            {
+              "name": "ConvertTo-QueryString"
+            }
+          ]
+        },
+        {
+          "name": "File",
+          "children": [
+            {
+              "name": "Download-File"
+            }
+          ]
+        },
+        {
+          "name": "FileWithRC",
+          "children": [
+            {
+              "name": "Download-FileWithRC"
+            }
+          ]
+        },
+        {
+          "name": "UriWebRc",
+          "children": [
+            {
+              "name": "Get-UriWebRc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

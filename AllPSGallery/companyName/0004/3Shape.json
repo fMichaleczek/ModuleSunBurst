@@ -1,0 +1,275 @@
+{
+  "name": "3Shape",
+  "children": [
+    {
+      "name": "Docker-CI",
+      "companyName": "3Shape",
+      "author": "3Shape A S",
+      "children": [
+        {
+          "name": "DockerSocket",
+          "children": [
+            {
+              "name": "Find-DockerSocket"
+            }
+          ]
+        },
+        {
+          "name": "ImageName",
+          "children": [
+            {
+              "name": "Find-ImageName"
+            }
+          ]
+        },
+        {
+          "name": "DockerTag",
+          "children": [
+            {
+              "name": "Format-DockerTag"
+            },
+            {
+              "name": "Invoke-DockerTag"
+            }
+          ]
+        },
+        {
+          "name": "DockerBuild",
+          "children": [
+            {
+              "name": "Invoke-DockerBuild"
+            }
+          ]
+        },
+        {
+          "name": "DockerLint",
+          "children": [
+            {
+              "name": "Invoke-DockerLint"
+            }
+          ]
+        },
+        {
+          "name": "DockerLogin",
+          "children": [
+            {
+              "name": "Invoke-DockerLogin"
+            }
+          ]
+        },
+        {
+          "name": "DockerPull",
+          "children": [
+            {
+              "name": "Invoke-DockerPull"
+            }
+          ]
+        },
+        {
+          "name": "DockerPush",
+          "children": [
+            {
+              "name": "Invoke-DockerPush"
+            }
+          ]
+        },
+        {
+          "name": "DockerTests",
+          "children": [
+            {
+              "name": "Invoke-DockerTests"
+            }
+          ]
+        },
+        {
+          "name": "ChangelogFromTestReport",
+          "children": [
+            {
+              "name": "Read-ChangelogFromTestReport"
+            }
+          ]
+        },
+        {
+          "name": "TestResults",
+          "children": [
+            {
+              "name": "Write-TestResults"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Docker.Build",
+      "companyName": "3Shape",
+      "author": "3Shape A S",
+      "children": [
+        {
+          "name": "ImageName",
+          "children": [
+            {
+              "name": "Find-ImageName"
+            }
+          ]
+        },
+        {
+          "name": "DockerTag",
+          "children": [
+            {
+              "name": "Format-DockerTag"
+            },
+            {
+              "name": "Invoke-DockerTag"
+            }
+          ]
+        },
+        {
+          "name": "DockerBuild",
+          "children": [
+            {
+              "name": "Invoke-DockerBuild"
+            }
+          ]
+        },
+        {
+          "name": "DockerLint",
+          "children": [
+            {
+              "name": "Invoke-DockerLint"
+            }
+          ]
+        },
+        {
+          "name": "DockerLogin",
+          "children": [
+            {
+              "name": "Invoke-DockerLogin"
+            }
+          ]
+        },
+        {
+          "name": "DockerPull",
+          "children": [
+            {
+              "name": "Invoke-DockerPull"
+            }
+          ]
+        },
+        {
+          "name": "DockerPush",
+          "children": [
+            {
+              "name": "Invoke-DockerPush"
+            }
+          ]
+        },
+        {
+          "name": "DockerTests",
+          "children": [
+            {
+              "name": "Invoke-DockerTests"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jenkins.Api",
+      "companyName": "3Shape",
+      "author": "3Shape A S",
+      "children": [
+        {
+          "name": "JenkinsUserFullName",
+          "children": [
+            {
+              "name": "Get-JenkinsUserFullName"
+            }
+          ]
+        },
+        {
+          "name": "Jenkins",
+          "children": [
+            {
+              "name": "Initialize-Jenkins"
+            },
+            {
+              "name": "Invoke-Jenkins"
+            }
+          ]
+        },
+        {
+          "name": "JenkinsForm",
+          "children": [
+            {
+              "name": "Invoke-JenkinsForm"
+            }
+          ]
+        },
+        {
+          "name": "JenkinsRequest",
+          "children": [
+            {
+              "name": "Invoke-JenkinsRequest"
+            }
+          ]
+        },
+        {
+          "name": "JenkinsJob",
+          "children": [
+            {
+              "name": "New-JenkinsJob"
+            },
+            {
+              "name": "Remove-Jenkinsjob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ThreeShape.Jenkins",
+      "companyName": "3Shape",
+      "author": "Team BAT",
+      "children": [
+        {
+          "name": "Jenkins",
+          "children": [
+            {
+              "name": "Invoke-Jenkins"
+            },
+            {
+              "name": "Initialize-Jenkins"
+            }
+          ]
+        },
+        {
+          "name": "JenkinsForm",
+          "children": [
+            {
+              "name": "Invoke-JenkinsForm"
+            }
+          ]
+        },
+        {
+          "name": "JenkinsRequest",
+          "children": [
+            {
+              "name": "Invoke-JenkinsRequest"
+            }
+          ]
+        },
+        {
+          "name": "JenkinsJob",
+          "children": [
+            {
+              "name": "Remove-JenkinsJob"
+            },
+            {
+              "name": "New-JenkinsJob"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

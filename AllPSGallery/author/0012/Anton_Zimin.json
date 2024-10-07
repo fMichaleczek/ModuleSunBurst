@@ -1,0 +1,533 @@
+{
+  "name": "Anton Zimin",
+  "children": [
+    {
+      "name": "Saritasa.AppDeploy",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "DesktopProjectDeployment",
+          "children": [
+            {
+              "name": "Invoke-DesktopProjectDeployment"
+            }
+          ]
+        },
+        {
+          "name": "ServiceProjectDeployment",
+          "children": [
+            {
+              "name": "Invoke-ServiceProjectDeployment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.Build",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "DotnetConfig",
+          "children": [
+            {
+              "name": "Copy-DotnetConfig"
+            }
+          ]
+        },
+        {
+          "name": "MSBuild",
+          "children": [
+            {
+              "name": "Initialize-MSBuild"
+            }
+          ]
+        },
+        {
+          "name": "EFMigrate",
+          "children": [
+            {
+              "name": "Invoke-EFMigrate"
+            }
+          ]
+        },
+        {
+          "name": "NugetCli",
+          "children": [
+            {
+              "name": "Install-NugetCli"
+            }
+          ]
+        },
+        {
+          "name": "NugetRestore",
+          "children": [
+            {
+              "name": "Invoke-NugetRestore"
+            }
+          ]
+        },
+        {
+          "name": "ProjectBuild",
+          "children": [
+            {
+              "name": "Invoke-ProjectBuild"
+            }
+          ]
+        },
+        {
+          "name": "SolutionBuild",
+          "children": [
+            {
+              "name": "Invoke-SolutionBuild"
+            }
+          ]
+        },
+        {
+          "name": "PackageConfigs",
+          "children": [
+            {
+              "name": "Merge-PackageConfigs"
+            }
+          ]
+        },
+        {
+          "name": "RoslynAnalyzer",
+          "children": [
+            {
+              "name": "Remove-RoslynAnalyzer"
+            }
+          ]
+        },
+        {
+          "name": "AssemblyInfoFile",
+          "children": [
+            {
+              "name": "Update-AssemblyInfoFile"
+            }
+          ]
+        },
+        {
+          "name": "VariablesInFile",
+          "children": [
+            {
+              "name": "Update-VariablesInFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.FileSystem",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "EmptyDirectories",
+          "children": [
+            {
+              "name": "Remove-EmptyDirectories"
+            }
+          ]
+        },
+        {
+          "name": "FilesCreatedBeforeDate",
+          "children": [
+            {
+              "name": "Remove-FilesCreatedBeforeDate"
+            }
+          ]
+        },
+        {
+          "name": "FilesNotModifiedAfterDate",
+          "children": [
+            {
+              "name": "Remove-FilesNotModifiedAfterDate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.General",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "CallerPreference",
+          "children": [
+            {
+              "name": "Get-CallerPreference"
+            }
+          ]
+        },
+        {
+          "name": "IsLocalhost",
+          "children": [
+            {
+              "name": "Test-IsLocalhost"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Use-Object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.LocalManagement",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "UserIsAdministrator",
+          "children": [
+            {
+              "name": "Test-UserIsAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "PasswordNeverExpires",
+          "children": [
+            {
+              "name": "Set-PasswordNeverExpires"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.NewRelic",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "NewRelic",
+          "children": [
+            {
+              "name": "Initialize-NewRelic"
+            }
+          ]
+        },
+        {
+          "name": "NewRelicDeployment",
+          "children": [
+            {
+              "name": "Update-NewRelicDeployment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.Prtg",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "Prtg",
+          "children": [
+            {
+              "name": "Initialize-Prtg"
+            }
+          ]
+        },
+        {
+          "name": "PrtgSensorId",
+          "children": [
+            {
+              "name": "Get-PrtgSensorId"
+            }
+          ]
+        },
+        {
+          "name": "PrtgSensor",
+          "children": [
+            {
+              "name": "Start-PrtgSensor"
+            },
+            {
+              "name": "Stop-PrtgSensor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.Publish",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "ApplicationVersion",
+          "children": [
+            {
+              "name": "Set-ApplicationVersion"
+            }
+          ]
+        },
+        {
+          "name": "ApplicationRevision",
+          "children": [
+            {
+              "name": "Update-ApplicationRevision"
+            }
+          ]
+        },
+        {
+          "name": "ProjectBuildAndPublish",
+          "children": [
+            {
+              "name": "Invoke-ProjectBuildAndPublish"
+            }
+          ]
+        },
+        {
+          "name": "FullPublish",
+          "children": [
+            {
+              "name": "Invoke-FullPublish"
+            }
+          ]
+        },
+        {
+          "name": "DatabaseProjectPublish",
+          "children": [
+            {
+              "name": "Invoke-DatabaseProjectPublish"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.RemoteManagement",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "AppPool",
+          "children": [
+            {
+              "name": "Import-AppPool"
+            },
+            {
+              "name": "Export-AppPool"
+            }
+          ]
+        },
+        {
+          "name": "Site",
+          "children": [
+            {
+              "name": "Import-Site"
+            },
+            {
+              "name": "Export-Site"
+            }
+          ]
+        },
+        {
+          "name": "Arr",
+          "children": [
+            {
+              "name": "Install-Arr"
+            }
+          ]
+        },
+        {
+          "name": "Iis",
+          "children": [
+            {
+              "name": "Install-Iis"
+            }
+          ]
+        },
+        {
+          "name": "WebManagementService",
+          "children": [
+            {
+              "name": "Install-WebManagementService"
+            }
+          ]
+        },
+        {
+          "name": "WebDeploy",
+          "children": [
+            {
+              "name": "Install-WebDeploy"
+            }
+          ]
+        },
+        {
+          "name": "UrlRewrite",
+          "children": [
+            {
+              "name": "Install-UrlRewrite"
+            }
+          ]
+        },
+        {
+          "name": "MsiPackage",
+          "children": [
+            {
+              "name": "Install-MsiPackage"
+            }
+          ]
+        },
+        {
+          "name": "PersonalSslCertificate",
+          "children": [
+            {
+              "name": "Import-PersonalSslCertificate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.Web",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "SslCheckProcedure",
+          "children": [
+            {
+              "name": "Update-SslCheckProcedure"
+            }
+          ]
+        },
+        {
+          "name": "TrustedSslCertificate",
+          "children": [
+            {
+              "name": "Import-TrustedSslCertificate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.WebDeploy",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "WebDeploy",
+          "children": [
+            {
+              "name": "Initialize-WebDeploy"
+            }
+          ]
+        },
+        {
+          "name": "PackageBuild",
+          "children": [
+            {
+              "name": "Invoke-PackageBuild"
+            }
+          ]
+        },
+        {
+          "name": "AppPool",
+          "children": [
+            {
+              "name": "Start-AppPool"
+            },
+            {
+              "name": "Stop-AppPool"
+            }
+          ]
+        },
+        {
+          "name": "WebDeployment",
+          "children": [
+            {
+              "name": "Invoke-WebDeployment"
+            }
+          ]
+        },
+        {
+          "name": "WebSiteDeployment",
+          "children": [
+            {
+              "name": "Invoke-WebSiteDeployment"
+            }
+          ]
+        },
+        {
+          "name": "IisApp",
+          "children": [
+            {
+              "name": "Sync-IisApp"
+            }
+          ]
+        },
+        {
+          "name": "WebContent",
+          "children": [
+            {
+              "name": "Sync-WebContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saritasa.WinRM",
+      "companyName": "Saritasa",
+      "author": "Anton Zimin",
+      "children": [
+        {
+          "name": "RemoteManagement",
+          "children": [
+            {
+              "name": "Initialize-RemoteManagement"
+            }
+          ]
+        },
+        {
+          "name": "RemoteSession",
+          "children": [
+            {
+              "name": "Start-RemoteSession"
+            }
+          ]
+        },
+        {
+          "name": "RemoteScript",
+          "children": [
+            {
+              "name": "Invoke-RemoteScript"
+            }
+          ]
+        },
+        {
+          "name": "WinrmHttps",
+          "children": [
+            {
+              "name": "Install-WinrmHttps"
+            }
+          ]
+        },
+        {
+          "name": "RemoteTempPath",
+          "children": [
+            {
+              "name": "Get-RemoteTempPath"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

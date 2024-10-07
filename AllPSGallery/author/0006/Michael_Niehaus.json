@@ -1,0 +1,174 @@
+{
+  "name": "Michael Niehaus",
+  "children": [
+    {
+      "name": "AutopilotUtility",
+      "companyName": "Unknown",
+      "author": "Michael Niehaus",
+      "children": [
+        {
+          "name": "AutopilotHash",
+          "children": [
+            {
+              "name": "ConvertFrom-AutopilotHash"
+            },
+            {
+              "name": "New-AutopilotHash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DHCPClient",
+      "companyName": "Microsoft",
+      "author": "Michael Niehaus",
+      "children": [
+        {
+          "name": "DHCPOptions",
+          "children": [
+            {
+              "name": "Get-DHCPOptions"
+            }
+          ]
+        },
+        {
+          "name": "DHCPOptionString",
+          "children": [
+            {
+              "name": "Get-DHCPOptionString"
+            }
+          ]
+        },
+        {
+          "name": "DHCPTimeZone",
+          "children": [
+            {
+              "name": "Get-DHCPTimeZone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LocalMDM",
+      "companyName": "Unknown",
+      "author": "Michael Niehaus",
+      "children": [
+        {
+          "name": "LocalMDMRequest",
+          "children": [
+            {
+              "name": "Send-LocalMDMRequest"
+            }
+          ]
+        },
+        {
+          "name": "LocalMDM",
+          "children": [
+            {
+              "name": "Unregister-LocalMDM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UEFI",
+      "companyName": "Microsoft",
+      "author": "Michael Niehaus",
+      "children": [
+        {
+          "name": "UEFIVariable",
+          "children": [
+            {
+              "name": "Get-UEFIVariable"
+            },
+            {
+              "name": "Set-UEFIVariable"
+            }
+          ]
+        },
+        {
+          "name": "LHSTokenPrivilege",
+          "children": [
+            {
+              "name": "Set-LHSTokenPrivilege"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UEFIv2",
+      "companyName": "Unknown",
+      "author": "Michael Niehaus",
+      "children": [
+        {
+          "name": "UEFIVariable",
+          "children": [
+            {
+              "name": "Get-UEFIVariable"
+            },
+            {
+              "name": "Set-UEFIVariable"
+            }
+          ]
+        },
+        {
+          "name": "LHSTokenPrivilege",
+          "children": [
+            {
+              "name": "Set-LHSTokenPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "UEFISecureBootCerts",
+          "children": [
+            {
+              "name": "Get-UEFISecureBootCerts"
+            }
+          ]
+        },
+        {
+          "name": "UEFIBootEntry",
+          "children": [
+            {
+              "name": "Get-UEFIBootEntry"
+            },
+            {
+              "name": "Add-UEFIBootEntry"
+            },
+            {
+              "name": "Remove-UEFIBootEntry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WindowsAutopilotPartnerCenter",
+      "companyName": "Microsoft",
+      "author": "Michael Niehaus",
+      "children": [
+        {
+          "name": "AutopilotPartnerCenter",
+          "children": [
+            {
+              "name": "Connect-AutopilotPartnerCenter"
+            }
+          ]
+        },
+        {
+          "name": "AutoPilotPartnerCenterCSV",
+          "children": [
+            {
+              "name": "Import-AutoPilotPartnerCenterCSV"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

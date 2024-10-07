@@ -1,0 +1,252 @@
+{
+  "name": "Jon Waite",
+  "children": [
+    {
+      "name": "CIVMDisks",
+      "companyName": "kiwicloud.ninja",
+      "author": "Jon Waite",
+      "children": [
+        {
+          "name": "CIVMDisk",
+          "children": [
+            {
+              "name": "Get-CIVMDisk"
+            },
+            {
+              "name": "Add-CIVMDisk"
+            },
+            {
+              "name": "Remove-CIVMDisk"
+            }
+          ]
+        },
+        {
+          "name": "CIVMDiskSize",
+          "children": [
+            {
+              "name": "Update-CIVMDiskSize"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Invoke-vCloud",
+      "companyName": "Kiwicloud.Ninja",
+      "author": "Jon Waite",
+      "children": [
+        {
+          "name": "vCloud",
+          "children": [
+            {
+              "name": "Invoke-vCloud"
+            }
+          ]
+        },
+        {
+          "name": "vCloudAPIVersion",
+          "children": [
+            {
+              "name": "Get-vCloudAPIVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerVCAV",
+      "companyName": "Kiwicloud.ninja",
+      "author": "Jon Waite",
+      "children": [
+        {
+          "name": "VCAV",
+          "children": [
+            {
+              "name": "Connect-VCAV"
+            },
+            {
+              "name": "Disconnect-VCAV"
+            }
+          ]
+        },
+        {
+          "name": "VCAVExtend",
+          "children": [
+            {
+              "name": "Connect-VCAVExtend"
+            }
+          ]
+        },
+        {
+          "name": "VCAVToken",
+          "children": [
+            {
+              "name": "Get-VCAVToken"
+            }
+          ]
+        },
+        {
+          "name": "VCAVPagedQuery",
+          "children": [
+            {
+              "name": "Invoke-VCAVPagedQuery"
+            }
+          ]
+        },
+        {
+          "name": "VCAVQuery",
+          "children": [
+            {
+              "name": "Invoke-VCAVQuery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vcd-h5-themes",
+      "companyName": "kiwicloud.ninja",
+      "author": "Jon Waite",
+      "children": [
+        {
+          "name": "Branding",
+          "children": [
+            {
+              "name": "Get-Branding"
+            },
+            {
+              "name": "Set-Branding"
+            }
+          ]
+        },
+        {
+          "name": "Theme",
+          "children": [
+            {
+              "name": "Get-Theme"
+            },
+            {
+              "name": "Set-Theme"
+            },
+            {
+              "name": "Remove-Theme"
+            },
+            {
+              "name": "New-Theme"
+            }
+          ]
+        },
+        {
+          "name": "Css",
+          "children": [
+            {
+              "name": "Publish-Css"
+            },
+            {
+              "name": "Get-Css"
+            }
+          ]
+        },
+        {
+          "name": "Logo",
+          "children": [
+            {
+              "name": "Publish-Logo"
+            },
+            {
+              "name": "Get-Logo"
+            }
+          ]
+        },
+        {
+          "name": "Icon",
+          "children": [
+            {
+              "name": "Publish-Icon"
+            },
+            {
+              "name": "Get-Icon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vCDEdgeSSL",
+      "companyName": "kiwicloud.ninja",
+      "author": "Jon Waite",
+      "children": [
+        {
+          "name": "EdgeSSLCert",
+          "children": [
+            {
+              "name": "Get-EdgeSSLCert"
+            },
+            {
+              "name": "Add-EdgeSSLCert"
+            },
+            {
+              "name": "Remove-EdgeSSLCert"
+            }
+          ]
+        },
+        {
+          "name": "EdgeAppProfile",
+          "children": [
+            {
+              "name": "Get-EdgeAppProfile"
+            }
+          ]
+        },
+        {
+          "name": "EdgeAppProfileCert",
+          "children": [
+            {
+              "name": "Set-EdgeAppProfileCert"
+            },
+            {
+              "name": "Update-EdgeAppProfileCert"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vCDSitePair",
+      "companyName": "kiwicloud.ninja",
+      "author": "Jon Waite",
+      "children": [
+        {
+          "name": "vCloudSiteName",
+          "children": [
+            {
+              "name": "Get-vCloudSiteName"
+            },
+            {
+              "name": "Set-vCloudSiteName"
+            }
+          ]
+        },
+        {
+          "name": "vCloudSiteAssoc",
+          "children": [
+            {
+              "name": "Get-vCloudSiteAssoc"
+            },
+            {
+              "name": "Remove-vCloudSiteAssoc"
+            }
+          ]
+        },
+        {
+          "name": "vCDPairSites",
+          "children": [
+            {
+              "name": "Invoke-vCDPairSites"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

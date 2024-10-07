@@ -1,0 +1,377 @@
+{
+  "name": "mdgrs mei",
+  "children": [
+    {
+      "name": "DynamicTitle",
+      "companyName": "Unknown",
+      "author": "mdgrs mei",
+      "children": [
+        {
+          "name": "DTLegacyApplicationMode",
+          "children": [
+            {
+              "name": "Enter-DTLegacyApplicationMode"
+            },
+            {
+              "name": "Exit-DTLegacyApplicationMode"
+            }
+          ]
+        },
+        {
+          "name": "DTExamplesPath",
+          "children": [
+            {
+              "name": "Get-DTExamplesPath"
+            }
+          ]
+        },
+        {
+          "name": "DTJobLatestOutput",
+          "children": [
+            {
+              "name": "Get-DTJobLatestOutput"
+            }
+          ]
+        },
+        {
+          "name": "DTExample",
+          "children": [
+            {
+              "name": "Start-DTExample"
+            }
+          ]
+        },
+        {
+          "name": "DTJobBackgroundThreadTimer",
+          "children": [
+            {
+              "name": "Start-DTJobBackgroundThreadTimer"
+            }
+          ]
+        },
+        {
+          "name": "DTJobCommandPreExecutionCallback",
+          "children": [
+            {
+              "name": "Start-DTJobCommandPreExecutionCallback"
+            }
+          ]
+        },
+        {
+          "name": "DTJobPromptCallback",
+          "children": [
+            {
+              "name": "Start-DTJobPromptCallback"
+            }
+          ]
+        },
+        {
+          "name": "DTTitle",
+          "children": [
+            {
+              "name": "Start-DTTitle"
+            },
+            {
+              "name": "Stop-DTTitle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FancyClearHost",
+      "companyName": "Unknown",
+      "author": "mdgrs mei",
+      "children": [
+        {
+          "name": "HostFancily",
+          "children": [
+            {
+              "name": "Clear-HostFancily"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoshTaskbarItem",
+      "companyName": "Unknown",
+      "author": "mdgrs mei",
+      "children": [
+        {
+          "name": "TaskbarItemJumpTask",
+          "children": [
+            {
+              "name": "Add-TaskbarItemJumpTask"
+            },
+            {
+              "name": "New-TaskbarItemJumpTask"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarItemThumbButton",
+          "children": [
+            {
+              "name": "Add-TaskbarItemThumbButton"
+            },
+            {
+              "name": "New-TaskbarItemThumbButton"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarItemOverlay",
+          "children": [
+            {
+              "name": "Clear-TaskbarItemOverlay"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarItem",
+          "children": [
+            {
+              "name": "New-TaskbarItem"
+            },
+            {
+              "name": "Show-TaskbarItem"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarItemShortcut",
+          "children": [
+            {
+              "name": "New-TaskbarItemShortcut"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarItemDescription",
+          "children": [
+            {
+              "name": "Set-TaskbarItemDescription"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarItemOverlayBadge",
+          "children": [
+            {
+              "name": "Set-TaskbarItemOverlayBadge"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarItemOverlayIcon",
+          "children": [
+            {
+              "name": "Set-TaskbarItemOverlayIcon"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarItemProgressIndicator",
+          "children": [
+            {
+              "name": "Set-TaskbarItemProgressIndicator"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarItemTimerFunction",
+          "children": [
+            {
+              "name": "Set-TaskbarItemTimerFunction"
+            }
+          ]
+        },
+        {
+          "name": "TaskbarItemFlashing",
+          "children": [
+            {
+              "name": "Start-TaskbarItemFlashing"
+            },
+            {
+              "name": "Stop-TaskbarItemFlashing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellRun",
+      "companyName": "Unknown",
+      "author": "mdgrs mei",
+      "children": [
+        {
+          "name": "PSRunEntryGroup",
+          "children": [
+            {
+              "name": "Add-PSRunEntryGroup"
+            }
+          ]
+        },
+        {
+          "name": "PSRunFavoriteFile",
+          "children": [
+            {
+              "name": "Add-PSRunFavoriteFile"
+            }
+          ]
+        },
+        {
+          "name": "PSRunFavoriteFolder",
+          "children": [
+            {
+              "name": "Add-PSRunFavoriteFolder"
+            }
+          ]
+        },
+        {
+          "name": "PSRunScriptBlock",
+          "children": [
+            {
+              "name": "Add-PSRunScriptBlock"
+            }
+          ]
+        },
+        {
+          "name": "PSRunScriptFile",
+          "children": [
+            {
+              "name": "Add-PSRunScriptFile"
+            }
+          ]
+        },
+        {
+          "name": "PSRunEntry",
+          "children": [
+            {
+              "name": "Enable-PSRunEntry"
+            }
+          ]
+        },
+        {
+          "name": "PSRunDefaultSelectorOption",
+          "children": [
+            {
+              "name": "Get-PSRunDefaultSelectorOption"
+            },
+            {
+              "name": "Set-PSRunDefaultSelectorOption"
+            }
+          ]
+        },
+        {
+          "name": "PSRun",
+          "children": [
+            {
+              "name": "Invoke-PSRun"
+            }
+          ]
+        },
+        {
+          "name": "PSRunPrompt",
+          "children": [
+            {
+              "name": "Invoke-PSRunPrompt"
+            }
+          ]
+        },
+        {
+          "name": "PSRunSelector",
+          "children": [
+            {
+              "name": "Invoke-PSRunSelector"
+            }
+          ]
+        },
+        {
+          "name": "PSRunSelectorCustom",
+          "children": [
+            {
+              "name": "Invoke-PSRunSelectorCustom"
+            }
+          ]
+        },
+        {
+          "name": "PSRunParentSelector",
+          "children": [
+            {
+              "name": "Restore-PSRunParentSelector"
+            }
+          ]
+        },
+        {
+          "name": "PSRunActionKeyBinding",
+          "children": [
+            {
+              "name": "Set-PSRunActionKeyBinding"
+            }
+          ]
+        },
+        {
+          "name": "PSRunDefaultEditorScript",
+          "children": [
+            {
+              "name": "Set-PSRunDefaultEditorScript"
+            }
+          ]
+        },
+        {
+          "name": "PSRunPSReadLineKeyHandler",
+          "children": [
+            {
+              "name": "Set-PSRunPSReadLineKeyHandler"
+            }
+          ]
+        },
+        {
+          "name": "PSRunFunctionRegistration",
+          "children": [
+            {
+              "name": "Start-PSRunFunctionRegistration"
+            },
+            {
+              "name": "Stop-PSRunFunctionRegistration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RestartableSession",
+      "companyName": "Unknown",
+      "author": "mdgrs mei",
+      "children": [
+        {
+          "name": "RSSession",
+          "children": [
+            {
+              "name": "Enter-RSSession"
+            },
+            {
+              "name": "Exit-RSSession"
+            },
+            {
+              "name": "Restart-RSSession"
+            }
+          ]
+        },
+        {
+          "name": "RSRestartFileWatcher",
+          "children": [
+            {
+              "name": "Start-RSRestartFileWatcher"
+            },
+            {
+              "name": "Stop-RSRestartFileWatcher"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

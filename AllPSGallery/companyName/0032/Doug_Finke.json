@@ -1,0 +1,2952 @@
+{
+  "name": "Doug Finke",
+  "children": [
+    {
+      "name": "BuildPromptFromFiles",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "PromptFromFiles",
+          "children": [
+            {
+              "name": "Build-PromptFromFiles"
+            }
+          ]
+        },
+        {
+          "name": "PromptFromGitHubRepo",
+          "children": [
+            {
+              "name": "Build-PromptFromGitHubRepo"
+            }
+          ]
+        },
+        {
+          "name": "GHBranch",
+          "children": [
+            {
+              "name": "Get-GHBranch"
+            }
+          ]
+        },
+        {
+          "name": "GitIgnoreContent",
+          "children": [
+            {
+              "name": "Get-GitIgnoreContent"
+            }
+          ]
+        },
+        {
+          "name": "RepoExists",
+          "children": [
+            {
+              "name": "Test-RepoExists"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConvertFromMarkdown",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "Chapter",
+          "children": [
+            {
+              "name": "Test-Chapter"
+            }
+          ]
+        },
+        {
+          "name": "Markdown",
+          "children": [
+            {
+              "name": "ConvertFrom-Markdown"
+            }
+          ]
+        },
+        {
+          "name": "IsUri",
+          "children": [
+            {
+              "name": "Test-IsUri"
+            }
+          ]
+        },
+        {
+          "name": "Manuscript",
+          "children": [
+            {
+              "name": "Export-Manuscript"
+            }
+          ]
+        },
+        {
+          "name": "PSCodeBlock",
+          "children": [
+            {
+              "name": "Test-PSCodeBlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConvertToClass",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "String",
+          "children": [
+            {
+              "name": "Test-String"
+            }
+          ]
+        },
+        {
+          "name": "Date",
+          "children": [
+            {
+              "name": "Test-Date"
+            }
+          ]
+        },
+        {
+          "name": "Boolean",
+          "children": [
+            {
+              "name": "Test-Boolean"
+            }
+          ]
+        },
+        {
+          "name": "Number",
+          "children": [
+            {
+              "name": "Test-Number"
+            }
+          ]
+        },
+        {
+          "name": "Integer",
+          "children": [
+            {
+              "name": "Test-Integer"
+            }
+          ]
+        },
+        {
+          "name": "PSCustomObject",
+          "children": [
+            {
+              "name": "Test-PSCustomObject"
+            }
+          ]
+        },
+        {
+          "name": "Array",
+          "children": [
+            {
+              "name": "Test-Array"
+            }
+          ]
+        },
+        {
+          "name": "AllTests",
+          "children": [
+            {
+              "name": "Invoke-AllTests"
+            }
+          ]
+        },
+        {
+          "name": "DataType",
+          "children": [
+            {
+              "name": "Get-DataType"
+            }
+          ]
+        },
+        {
+          "name": "ClassName",
+          "children": [
+            {
+              "name": "Get-ClassName"
+            }
+          ]
+        },
+        {
+          "name": "Class",
+          "children": [
+            {
+              "name": "ConvertTo-Class"
+            }
+          ]
+        },
+        {
+          "name": "DoConvert",
+          "children": [
+            {
+              "name": "DoConvert"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ImportExcel",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "ConditionalFormatting",
+          "children": [
+            {
+              "name": "Add-ConditionalFormatting"
+            }
+          ]
+        },
+        {
+          "name": "ExcelChart",
+          "children": [
+            {
+              "name": "Add-ExcelChart"
+            }
+          ]
+        },
+        {
+          "name": "ExcelDataValidationRule",
+          "children": [
+            {
+              "name": "Add-ExcelDataValidationRule"
+            }
+          ]
+        },
+        {
+          "name": "ExcelName",
+          "children": [
+            {
+              "name": "Add-ExcelName"
+            }
+          ]
+        },
+        {
+          "name": "ExcelTable",
+          "children": [
+            {
+              "name": "Add-ExcelTable"
+            }
+          ]
+        },
+        {
+          "name": "PivotTable",
+          "children": [
+            {
+              "name": "Add-PivotTable"
+            }
+          ]
+        },
+        {
+          "name": "Worksheet",
+          "children": [
+            {
+              "name": "Add-Worksheet"
+            },
+            {
+              "name": "Compare-Worksheet"
+            },
+            {
+              "name": "Join-Worksheet"
+            },
+            {
+              "name": "Merge-Worksheet"
+            },
+            {
+              "name": "Remove-Worksheet"
+            },
+            {
+              "name": "Select-Worksheet"
+            }
+          ]
+        },
+        {
+          "name": "BarChart",
+          "children": [
+            {
+              "name": "BarChart"
+            }
+          ]
+        },
+        {
+          "name": "ExcelPackage",
+          "children": [
+            {
+              "name": "Close-ExcelPackage"
+            },
+            {
+              "name": "Open-ExcelPackage"
+            }
+          ]
+        },
+        {
+          "name": "ColumnChart",
+          "children": [
+            {
+              "name": "ColumnChart"
+            }
+          ]
+        },
+        {
+          "name": "ExcelRangeToImage",
+          "children": [
+            {
+              "name": "Convert-ExcelRangeToImage"
+            }
+          ]
+        },
+        {
+          "name": "ExcelData",
+          "children": [
+            {
+              "name": "ConvertFrom-ExcelData"
+            }
+          ]
+        },
+        {
+          "name": "ExcelSheet",
+          "children": [
+            {
+              "name": "ConvertFrom-ExcelSheet"
+            },
+            {
+              "name": "Export-ExcelSheet"
+            }
+          ]
+        },
+        {
+          "name": "ExcelToSQLInsert",
+          "children": [
+            {
+              "name": "ConvertFrom-ExcelToSQLInsert"
+            }
+          ]
+        },
+        {
+          "name": "ExcelXlsx",
+          "children": [
+            {
+              "name": "ConvertTo-ExcelXlsx"
+            }
+          ]
+        },
+        {
+          "name": "ExcelWorksheet",
+          "children": [
+            {
+              "name": "Copy-ExcelWorksheet"
+            }
+          ]
+        },
+        {
+          "name": "DoChart",
+          "children": [
+            {
+              "name": "DoChart"
+            }
+          ]
+        },
+        {
+          "name": "ExcelAutoFilter",
+          "children": [
+            {
+              "name": "Enable-ExcelAutoFilter"
+            }
+          ]
+        },
+        {
+          "name": "ExcelAutofit",
+          "children": [
+            {
+              "name": "Enable-ExcelAutofit"
+            }
+          ]
+        },
+        {
+          "name": "NumberFormat",
+          "children": [
+            {
+              "name": "Expand-NumberFormat"
+            }
+          ]
+        },
+        {
+          "name": "Excel",
+          "children": [
+            {
+              "name": "Export-Excel"
+            },
+            {
+              "name": "Import-Excel"
+            }
+          ]
+        },
+        {
+          "name": "ExcelColumnName",
+          "children": [
+            {
+              "name": "Get-ExcelColumnName"
+            }
+          ]
+        },
+        {
+          "name": "ExcelFileSchema",
+          "children": [
+            {
+              "name": "Get-ExcelFileSchema"
+            }
+          ]
+        },
+        {
+          "name": "ExcelFileSummary",
+          "children": [
+            {
+              "name": "Get-ExcelFileSummary"
+            }
+          ]
+        },
+        {
+          "name": "ExcelSheetDimensionAddress",
+          "children": [
+            {
+              "name": "Get-ExcelSheetDimensionAddress"
+            }
+          ]
+        },
+        {
+          "name": "ExcelSheetInfo",
+          "children": [
+            {
+              "name": "Get-ExcelSheetInfo"
+            }
+          ]
+        },
+        {
+          "name": "ExcelWorkbookInfo",
+          "children": [
+            {
+              "name": "Get-ExcelWorkbookInfo"
+            }
+          ]
+        },
+        {
+          "name": "HtmlTable",
+          "children": [
+            {
+              "name": "Get-HtmlTable"
+            }
+          ]
+        },
+        {
+          "name": "Range",
+          "children": [
+            {
+              "name": "Get-Range"
+            }
+          ]
+        },
+        {
+          "name": "XYRange",
+          "children": [
+            {
+              "name": "Get-XYRange"
+            }
+          ]
+        },
+        {
+          "name": "Html",
+          "children": [
+            {
+              "name": "Import-Html"
+            }
+          ]
+        },
+        {
+          "name": "UPS",
+          "children": [
+            {
+              "name": "Import-UPS"
+            }
+          ]
+        },
+        {
+          "name": "USPS",
+          "children": [
+            {
+              "name": "Import-USPS"
+            }
+          ]
+        },
+        {
+          "name": "AllTests",
+          "children": [
+            {
+              "name": "Invoke-AllTests"
+            }
+          ]
+        },
+        {
+          "name": "ExcelQuery",
+          "children": [
+            {
+              "name": "Invoke-ExcelQuery"
+            }
+          ]
+        },
+        {
+          "name": "Sum",
+          "children": [
+            {
+              "name": "Invoke-Sum"
+            }
+          ]
+        },
+        {
+          "name": "LineChart",
+          "children": [
+            {
+              "name": "LineChart"
+            }
+          ]
+        },
+        {
+          "name": "MultipleSheets",
+          "children": [
+            {
+              "name": "Merge-MultipleSheets"
+            }
+          ]
+        },
+        {
+          "name": "ConditionalFormattingIconSet",
+          "children": [
+            {
+              "name": "New-ConditionalFormattingIconSet"
+            }
+          ]
+        },
+        {
+          "name": "ConditionalText",
+          "children": [
+            {
+              "name": "New-ConditionalText"
+            }
+          ]
+        },
+        {
+          "name": "ExcelChartDefinition",
+          "children": [
+            {
+              "name": "New-ExcelChartDefinition"
+            }
+          ]
+        },
+        {
+          "name": "ExcelStyle",
+          "children": [
+            {
+              "name": "New-ExcelStyle"
+            }
+          ]
+        },
+        {
+          "name": "PivotTableDefinition",
+          "children": [
+            {
+              "name": "New-PivotTableDefinition"
+            }
+          ]
+        },
+        {
+          "name": "Plot",
+          "children": [
+            {
+              "name": "New-Plot"
+            }
+          ]
+        },
+        {
+          "name": "PSItem",
+          "children": [
+            {
+              "name": "New-PSItem"
+            }
+          ]
+        },
+        {
+          "name": "PieChart",
+          "children": [
+            {
+              "name": "PieChart"
+            }
+          ]
+        },
+        {
+          "name": "Pivot",
+          "children": [
+            {
+              "name": "Pivot"
+            }
+          ]
+        },
+        {
+          "name": "Clipboard",
+          "children": [
+            {
+              "name": "Read-Clipboard"
+            }
+          ]
+        },
+        {
+          "name": "OleDbData",
+          "children": [
+            {
+              "name": "Read-OleDbData"
+            }
+          ]
+        },
+        {
+          "name": "ReadClipboardImpl",
+          "children": [
+            {
+              "name": "ReadClipboardImpl"
+            }
+          ]
+        },
+        {
+          "name": "SQLDataToExcel",
+          "children": [
+            {
+              "name": "Send-SQLDataToExcel"
+            }
+          ]
+        },
+        {
+          "name": "CellComment",
+          "children": [
+            {
+              "name": "Set-CellComment"
+            }
+          ]
+        },
+        {
+          "name": "CellStyle",
+          "children": [
+            {
+              "name": "Set-CellStyle"
+            }
+          ]
+        },
+        {
+          "name": "ExcelColumn",
+          "children": [
+            {
+              "name": "Set-ExcelColumn"
+            }
+          ]
+        },
+        {
+          "name": "ExcelRange",
+          "children": [
+            {
+              "name": "Set-ExcelRange"
+            }
+          ]
+        },
+        {
+          "name": "ExcelRow",
+          "children": [
+            {
+              "name": "Set-ExcelRow"
+            }
+          ]
+        },
+        {
+          "name": "WorksheetProtection",
+          "children": [
+            {
+              "name": "Set-WorksheetProtection"
+            }
+          ]
+        },
+        {
+          "name": "Boolean",
+          "children": [
+            {
+              "name": "Test-Boolean"
+            }
+          ]
+        },
+        {
+          "name": "Date",
+          "children": [
+            {
+              "name": "Test-Date"
+            }
+          ]
+        },
+        {
+          "name": "Integer",
+          "children": [
+            {
+              "name": "Test-Integer"
+            }
+          ]
+        },
+        {
+          "name": "Number",
+          "children": [
+            {
+              "name": "Test-Number"
+            }
+          ]
+        },
+        {
+          "name": "String",
+          "children": [
+            {
+              "name": "Test-String"
+            }
+          ]
+        },
+        {
+          "name": "FirstObjectProperties",
+          "children": [
+            {
+              "name": "Update-FirstObjectProperties"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InstallModuleFromGitHub",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "ModuleFromGitHub",
+          "children": [
+            {
+              "name": "Install-ModuleFromGitHub"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NPMTabCompletion",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "NPMCompletion",
+          "children": [
+            {
+              "name": "NPMCompletion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OutTabulatorView",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "TabulatorView",
+          "children": [
+            {
+              "name": "Out-TabulatorView"
+            }
+          ]
+        },
+        {
+          "name": "ColumnOption",
+          "children": [
+            {
+              "name": "New-ColumnOption"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PoShLucene",
+      "companyName": "Doug Finke",
+      "author": "Doug Finke",
+      "children": [
+        {
+          "name": "PoshLucene",
+          "children": [
+            {
+              "name": "Invoke-PoshLucene"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellAzureFunctions",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "AzureLogin",
+          "children": [
+            {
+              "name": "Invoke-AzureLogin"
+            }
+          ]
+        },
+        {
+          "name": "FunctionApp",
+          "children": [
+            {
+              "name": "Get-FunctionApp"
+            }
+          ]
+        },
+        {
+          "name": "Sitename",
+          "children": [
+            {
+              "name": "Get-Sitename"
+            }
+          ]
+        },
+        {
+          "name": "AzureFunction",
+          "children": [
+            {
+              "name": "Publish-AzureFunction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellJsonObject",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "psjo",
+          "children": [
+            {
+              "name": "psjo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellNotebook",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "NotebookCode",
+          "children": [
+            {
+              "name": "Add-NotebookCode"
+            }
+          ]
+        },
+        {
+          "name": "NotebookMarkdown",
+          "children": [
+            {
+              "name": "Add-NotebookMarkdown"
+            }
+          ]
+        },
+        {
+          "name": "MarkdownToNoteBook",
+          "children": [
+            {
+              "name": "Convert-MarkdownToNoteBook"
+            }
+          ]
+        },
+        {
+          "name": "DIB",
+          "children": [
+            {
+              "name": "ConvertFrom-DIB"
+            },
+            {
+              "name": "ConvertTo-Dib"
+            }
+          ]
+        },
+        {
+          "name": "IPYNB",
+          "children": [
+            {
+              "name": "ConvertFrom-IPYNB"
+            }
+          ]
+        },
+        {
+          "name": "NotebookToMarkdown",
+          "children": [
+            {
+              "name": "ConvertFrom-NotebookToMarkdown"
+            }
+          ]
+        },
+        {
+          "name": "NotebookToHTML",
+          "children": [
+            {
+              "name": "ConvertFrom-NotebookToHTML"
+            }
+          ]
+        },
+        {
+          "name": "PowerShellNoteBook",
+          "children": [
+            {
+              "name": "ConvertTo-PowerShellNoteBook"
+            },
+            {
+              "name": "Invoke-PowerShellNotebook"
+            }
+          ]
+        },
+        {
+          "name": "SQLNoteBook",
+          "children": [
+            {
+              "name": "ConvertTo-SQLNoteBook"
+            },
+            {
+              "name": "New-SQLNotebook"
+            }
+          ]
+        },
+        {
+          "name": "NotebookToPowerShellScript",
+          "children": [
+            {
+              "name": "Export-NotebookToPowerShellScript"
+            }
+          ]
+        },
+        {
+          "name": "NotebookToSqlScript",
+          "children": [
+            {
+              "name": "Export-NotebookToSqlScript"
+            }
+          ]
+        },
+        {
+          "name": "AsPowerShellNotebook",
+          "children": [
+            {
+              "name": "Export-AsPowerShellNotebook"
+            }
+          ]
+        },
+        {
+          "name": "ParameterizedCell",
+          "children": [
+            {
+              "name": "Find-ParameterizedCell"
+            }
+          ]
+        },
+        {
+          "name": "DIBBlock",
+          "children": [
+            {
+              "name": "Get-DIBBlock"
+            }
+          ]
+        },
+        {
+          "name": "Notebook",
+          "children": [
+            {
+              "name": "Get-Notebook"
+            }
+          ]
+        },
+        {
+          "name": "NotebookContent",
+          "children": [
+            {
+              "name": "Get-NotebookContent"
+            }
+          ]
+        },
+        {
+          "name": "ParameterInsertionIndex",
+          "children": [
+            {
+              "name": "Get-ParameterInsertionIndex"
+            }
+          ]
+        },
+        {
+          "name": "ParsedSql",
+          "children": [
+            {
+              "name": "Get-ParsedSql"
+            }
+          ]
+        },
+        {
+          "name": "ParsedSqlOffsets",
+          "children": [
+            {
+              "name": "Get-ParsedSqlOffsets"
+            }
+          ]
+        },
+        {
+          "name": "ExecuteNotebook",
+          "children": [
+            {
+              "name": "Invoke-ExecuteNotebook"
+            }
+          ]
+        },
+        {
+          "name": "loadScriptDomModules",
+          "children": [
+            {
+              "name": "loadScriptDomModules"
+            }
+          ]
+        },
+        {
+          "name": "CodeCell",
+          "children": [
+            {
+              "name": "New-CodeCell"
+            }
+          ]
+        },
+        {
+          "name": "GistNotebook",
+          "children": [
+            {
+              "name": "New-GistNotebook"
+            }
+          ]
+        },
+        {
+          "name": "PSNotebook",
+          "children": [
+            {
+              "name": "New-PSNotebook"
+            }
+          ]
+        },
+        {
+          "name": "PSNotebookRunspace",
+          "children": [
+            {
+              "name": "New-PSNotebookRunspace"
+            }
+          ]
+        },
+        {
+          "name": "NotebookToPS",
+          "children": [
+            {
+              "name": "Set-NotebookToPS"
+            }
+          ]
+        },
+        {
+          "name": "HasParameterizedCell",
+          "children": [
+            {
+              "name": "Test-HasParameterizedCell"
+            }
+          ]
+        },
+        {
+          "name": "InteractiveNotebook",
+          "children": [
+            {
+              "name": "New-InteractiveNotebook"
+            },
+            {
+              "name": "Open-InteractiveNotebook"
+            }
+          ]
+        },
+        {
+          "name": "Uri",
+          "children": [
+            {
+              "name": "Test-Uri"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PowerShellPivot",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "AggregateFunctionNames",
+          "children": [
+            {
+              "name": "Get-AggregateFunctionNames"
+            }
+          ]
+        },
+        {
+          "name": "PSMelt",
+          "children": [
+            {
+              "name": "Invoke-PSMelt"
+            }
+          ]
+        },
+        {
+          "name": "PSPivotTable",
+          "children": [
+            {
+              "name": "New-PSPivotTable"
+            }
+          ]
+        },
+        {
+          "name": "SubTotal",
+          "children": [
+            {
+              "name": "Get-SubTotal"
+            }
+          ]
+        },
+        {
+          "name": "CrossTab",
+          "children": [
+            {
+              "name": "ConvertTo-CrossTab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAdvantage",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "Base64String",
+          "children": [
+            {
+              "name": "ConvertTo-Base64String"
+            }
+          ]
+        },
+        {
+          "name": "Template",
+          "children": [
+            {
+              "name": "Expand-Template"
+            }
+          ]
+        },
+        {
+          "name": "GHRepoByUser",
+          "children": [
+            {
+              "name": "Find-GHRepoByUser"
+            }
+          ]
+        },
+        {
+          "name": "GHAllReports",
+          "children": [
+            {
+              "name": "Get-GHAllReports"
+            }
+          ]
+        },
+        {
+          "name": "GHAssest",
+          "children": [
+            {
+              "name": "Get-GHAssest"
+            }
+          ]
+        },
+        {
+          "name": "GHBaseRestURI",
+          "children": [
+            {
+              "name": "Get-GHBaseRestURI"
+            }
+          ]
+        },
+        {
+          "name": "GHFile",
+          "children": [
+            {
+              "name": "Get-GHFile"
+            }
+          ]
+        },
+        {
+          "name": "GHFileSHA",
+          "children": [
+            {
+              "name": "Get-GHFileSHA"
+            }
+          ]
+        },
+        {
+          "name": "GHIssue",
+          "children": [
+            {
+              "name": "Get-GHIssue"
+            },
+            {
+              "name": "New-GHIssue"
+            }
+          ]
+        },
+        {
+          "name": "GHIssueReport",
+          "children": [
+            {
+              "name": "Get-GHIssueReport"
+            }
+          ]
+        },
+        {
+          "name": "GHJob",
+          "children": [
+            {
+              "name": "Get-GHJob"
+            }
+          ]
+        },
+        {
+          "name": "GHJobSteps",
+          "children": [
+            {
+              "name": "Get-GHJobSteps"
+            }
+          ]
+        },
+        {
+          "name": "GHLatestJob",
+          "children": [
+            {
+              "name": "Get-GHLatestJob"
+            }
+          ]
+        },
+        {
+          "name": "GHLatestJobSteps",
+          "children": [
+            {
+              "name": "Get-GHLatestJobSteps"
+            }
+          ]
+        },
+        {
+          "name": "GHLatestRun",
+          "children": [
+            {
+              "name": "Get-GHLatestRun"
+            }
+          ]
+        },
+        {
+          "name": "GHLog",
+          "children": [
+            {
+              "name": "Get-GHLog"
+            }
+          ]
+        },
+        {
+          "name": "GHMetrics",
+          "children": [
+            {
+              "name": "Get-GHMetrics"
+            }
+          ]
+        },
+        {
+          "name": "GHPullRequest",
+          "children": [
+            {
+              "name": "Get-GHPullRequest"
+            }
+          ]
+        },
+        {
+          "name": "GHPullRequestReport",
+          "children": [
+            {
+              "name": "Get-GHPullRequestReport"
+            }
+          ]
+        },
+        {
+          "name": "GHRelease",
+          "children": [
+            {
+              "name": "Get-GHRelease"
+            }
+          ]
+        },
+        {
+          "name": "GHReleaseReport",
+          "children": [
+            {
+              "name": "Get-GHReleaseReport"
+            }
+          ]
+        },
+        {
+          "name": "GHRepo",
+          "children": [
+            {
+              "name": "Get-GHRepo"
+            },
+            {
+              "name": "New-GHRepo"
+            },
+            {
+              "name": "Remove-GHRepo"
+            },
+            {
+              "name": "Test-GHRepo"
+            }
+          ]
+        },
+        {
+          "name": "GHRun",
+          "children": [
+            {
+              "name": "Get-GHRun"
+            },
+            {
+              "name": "Stop-GHRun"
+            }
+          ]
+        },
+        {
+          "name": "GHSecret",
+          "children": [
+            {
+              "name": "Get-GHSecret"
+            },
+            {
+              "name": "Remove-GHSecret"
+            },
+            {
+              "name": "Test-GHSecret"
+            }
+          ]
+        },
+        {
+          "name": "GHStarGazers",
+          "children": [
+            {
+              "name": "Get-GHStarGazers"
+            }
+          ]
+        },
+        {
+          "name": "GHWorkflow",
+          "children": [
+            {
+              "name": "Get-GHWorkflow"
+            },
+            {
+              "name": "Invoke-GHWorkflow"
+            }
+          ]
+        },
+        {
+          "name": "GitHubAuthHeader",
+          "children": [
+            {
+              "name": "Get-GitHubAuthHeader"
+            }
+          ]
+        },
+        {
+          "name": "PSAdvantageConfig",
+          "children": [
+            {
+              "name": "Import-PSAdvantageConfig"
+            }
+          ]
+        },
+        {
+          "name": "Advantage",
+          "children": [
+            {
+              "name": "Invoke-Advantage"
+            }
+          ]
+        },
+        {
+          "name": "GHClone",
+          "children": [
+            {
+              "name": "Invoke-GHClone"
+            }
+          ]
+        },
+        {
+          "name": "GHPush",
+          "children": [
+            {
+              "name": "Invoke-GHPush"
+            }
+          ]
+        },
+        {
+          "name": "GitHubAPI",
+          "children": [
+            {
+              "name": "Invoke-GitHubAPI"
+            }
+          ]
+        },
+        {
+          "name": "GHRepoWorkflowFile",
+          "children": [
+            {
+              "name": "Remove-GHRepoWorkflowFile"
+            }
+          ]
+        },
+        {
+          "name": "GHContent",
+          "children": [
+            {
+              "name": "Set-GHContent"
+            }
+          ]
+        },
+        {
+          "name": "GHRepoVisibility",
+          "children": [
+            {
+              "name": "Set-GHRepoVisibility"
+            }
+          ]
+        },
+        {
+          "name": "GHPath",
+          "children": [
+            {
+              "name": "Test-GHPath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAI",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "OAIToolsToList",
+          "children": [
+            {
+              "name": "Add-OAIToolsToList"
+            }
+          ]
+        },
+        {
+          "name": "MultiPartFormData",
+          "children": [
+            {
+              "name": "Get-MultiPartFormData"
+            }
+          ]
+        },
+        {
+          "name": "OAIBeta",
+          "children": [
+            {
+              "name": "Invoke-OAIBeta"
+            }
+          ]
+        },
+        {
+          "name": "OAIVectorStore",
+          "children": [
+            {
+              "name": "Add-OAIVectorStore"
+            },
+            {
+              "name": "Get-OAIVectorStore"
+            },
+            {
+              "name": "New-OAIVectorStore"
+            },
+            {
+              "name": "Remove-OAIVectorStore"
+            },
+            {
+              "name": "Update-OAIVectorStore"
+            }
+          ]
+        },
+        {
+          "name": "OAIAllItems",
+          "children": [
+            {
+              "name": "Clear-OAIAllItems"
+            }
+          ]
+        },
+        {
+          "name": "OAIAssistants",
+          "children": [
+            {
+              "name": "Clear-OAIAssistants"
+            }
+          ]
+        },
+        {
+          "name": "OAIFiles",
+          "children": [
+            {
+              "name": "Clear-OAIFiles"
+            }
+          ]
+        },
+        {
+          "name": "FunctionDefinition",
+          "children": [
+            {
+              "name": "ConvertFrom-FunctionDefinition"
+            },
+            {
+              "name": "Get-FunctionDefinition"
+            }
+          ]
+        },
+        {
+          "name": "GPTMarkdownTable",
+          "children": [
+            {
+              "name": "ConvertFrom-GPTMarkdownTable"
+            }
+          ]
+        },
+        {
+          "name": "OAIAssistant",
+          "children": [
+            {
+              "name": "ConvertFrom-OAIAssistant"
+            },
+            {
+              "name": "ConvertTo-OAIAssistant"
+            },
+            {
+              "name": "Copy-OAIAssistant"
+            },
+            {
+              "name": "Export-OAIAssistant"
+            },
+            {
+              "name": "Get-OAIAssistant"
+            },
+            {
+              "name": "Import-OAIAssistant"
+            },
+            {
+              "name": "New-OAIAssistant"
+            },
+            {
+              "name": "Remove-OAIAssistant"
+            },
+            {
+              "name": "Update-OAIAssistant"
+            }
+          ]
+        },
+        {
+          "name": "UnixTimestamp",
+          "children": [
+            {
+              "name": "ConvertFrom-UnixTimestamp"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFunctionSpec",
+          "children": [
+            {
+              "name": "ConvertTo-OpenAIFunctionSpec"
+            }
+          ]
+        },
+        {
+          "name": "OpenAIFunctionSpecDataType",
+          "children": [
+            {
+              "name": "ConvertTo-OpenAIFunctionSpecDataType"
+            }
+          ]
+        },
+        {
+          "name": "ToolFormat",
+          "children": [
+            {
+              "name": "ConvertTo-ToolFormat"
+            }
+          ]
+        },
+        {
+          "name": "UnitTesting",
+          "children": [
+            {
+              "name": "Disable-UnitTesting"
+            },
+            {
+              "name": "Enable-UnitTesting"
+            }
+          ]
+        },
+        {
+          "name": "dumpJson",
+          "children": [
+            {
+              "name": "dumpJson"
+            }
+          ]
+        },
+        {
+          "name": "AIShortCutKey",
+          "children": [
+            {
+              "name": "Enable-AIShortCutKey"
+            },
+            {
+              "name": "Reset-AIShortCutKey"
+            }
+          ]
+        },
+        {
+          "name": "OAICodeInterpreter",
+          "children": [
+            {
+              "name": "Enable-OAICodeInterpreter"
+            }
+          ]
+        },
+        {
+          "name": "OAIFileSearchTool",
+          "children": [
+            {
+              "name": "Enable-OAIFileSearchTool"
+            }
+          ]
+        },
+        {
+          "name": "OAIFunctionCall",
+          "children": [
+            {
+              "name": "Format-OAIFunctionCall"
+            }
+          ]
+        },
+        {
+          "name": "AzOAISecrets",
+          "children": [
+            {
+              "name": "Get-AzOAISecrets"
+            },
+            {
+              "name": "Set-AzOAISecrets"
+            }
+          ]
+        },
+        {
+          "name": "OAIAssistantItem",
+          "children": [
+            {
+              "name": "Get-OAIAssistantItem"
+            }
+          ]
+        },
+        {
+          "name": "OAIFile",
+          "children": [
+            {
+              "name": "Get-OAIFile"
+            },
+            {
+              "name": "Remove-OAIFile"
+            }
+          ]
+        },
+        {
+          "name": "OAIFileContent",
+          "children": [
+            {
+              "name": "Get-OAIFileContent"
+            }
+          ]
+        },
+        {
+          "name": "OAIFileItem",
+          "children": [
+            {
+              "name": "Get-OAIFileItem"
+            }
+          ]
+        },
+        {
+          "name": "OAIFunctionCallSpec",
+          "children": [
+            {
+              "name": "Get-OAIFunctionCallSpec"
+            }
+          ]
+        },
+        {
+          "name": "OAIImageGeneration",
+          "children": [
+            {
+              "name": "Get-OAIImageGeneration"
+            }
+          ]
+        },
+        {
+          "name": "OAIMessage",
+          "children": [
+            {
+              "name": "Get-OAIMessage"
+            },
+            {
+              "name": "New-OAIMessage"
+            },
+            {
+              "name": "Remove-OAIMessage"
+            },
+            {
+              "name": "Submit-OAIMessage"
+            },
+            {
+              "name": "Update-OAIMessage"
+            }
+          ]
+        },
+        {
+          "name": "OAIMessageItem",
+          "children": [
+            {
+              "name": "Get-OAIMessageItem"
+            }
+          ]
+        },
+        {
+          "name": "OAIProvider",
+          "children": [
+            {
+              "name": "Get-OAIProvider"
+            },
+            {
+              "name": "Reset-OAIProvider"
+            },
+            {
+              "name": "Set-OAIProvider"
+            }
+          ]
+        },
+        {
+          "name": "OAIRun",
+          "children": [
+            {
+              "name": "Get-OAIRun"
+            },
+            {
+              "name": "New-OAIRun"
+            },
+            {
+              "name": "Stop-OAIRun"
+            },
+            {
+              "name": "Update-OAIRun"
+            }
+          ]
+        },
+        {
+          "name": "OAIRunItem",
+          "children": [
+            {
+              "name": "Get-OAIRunItem"
+            }
+          ]
+        },
+        {
+          "name": "OAIRunStep",
+          "children": [
+            {
+              "name": "Get-OAIRunStep"
+            }
+          ]
+        },
+        {
+          "name": "OAIRunStepItem",
+          "children": [
+            {
+              "name": "Get-OAIRunStepItem"
+            }
+          ]
+        },
+        {
+          "name": "OAIThread",
+          "children": [
+            {
+              "name": "Get-OAIThread"
+            },
+            {
+              "name": "New-OAIThread"
+            },
+            {
+              "name": "Remove-OAIThread"
+            },
+            {
+              "name": "Update-OAIThread"
+            }
+          ]
+        },
+        {
+          "name": "OAIThreadItem",
+          "children": [
+            {
+              "name": "Get-OAIThreadItem"
+            }
+          ]
+        },
+        {
+          "name": "OAIVectorStoreFile",
+          "children": [
+            {
+              "name": "Get-OAIVectorStoreFile"
+            },
+            {
+              "name": "New-OAIVectorStoreFile"
+            },
+            {
+              "name": "Remove-OAIVectorStoreFile"
+            }
+          ]
+        },
+        {
+          "name": "OAIVectorStoreFileBatch",
+          "children": [
+            {
+              "name": "Get-OAIVectorStoreFileBatch"
+            },
+            {
+              "name": "New-OAIVectorStoreFileBatch"
+            },
+            {
+              "name": "Stop-OAIVectorStoreFileBatch"
+            }
+          ]
+        },
+        {
+          "name": "OAIVectorStoreFileItem",
+          "children": [
+            {
+              "name": "Get-OAIVectorStoreFileItem"
+            }
+          ]
+        },
+        {
+          "name": "OAIVectorStoreFilesInBatch",
+          "children": [
+            {
+              "name": "Get-OAIVectorStoreFilesInBatch"
+            }
+          ]
+        },
+        {
+          "name": "OAIVectorStoreItem",
+          "children": [
+            {
+              "name": "Get-OAIVectorStoreItem"
+            }
+          ]
+        },
+        {
+          "name": "OpenAISpecDescriptions",
+          "children": [
+            {
+              "name": "Get-OpenAISpecDescriptions"
+            }
+          ]
+        },
+        {
+          "name": "UnitTestingData",
+          "children": [
+            {
+              "name": "Get-UnitTestingData"
+            }
+          ]
+        },
+        {
+          "name": "UnitTestingStatus",
+          "children": [
+            {
+              "name": "Get-UnitTestingStatus"
+            }
+          ]
+        },
+        {
+          "name": "AIExplain",
+          "children": [
+            {
+              "name": "Invoke-AIExplain"
+            }
+          ]
+        },
+        {
+          "name": "AIPrompt",
+          "children": [
+            {
+              "name": "Invoke-AIPrompt"
+            }
+          ]
+        },
+        {
+          "name": "FilesToPrompt",
+          "children": [
+            {
+              "name": "Invoke-FilesToPrompt"
+            }
+          ]
+        },
+        {
+          "name": "OAIChat",
+          "children": [
+            {
+              "name": "Invoke-OAIChat"
+            }
+          ]
+        },
+        {
+          "name": "OAIChatCompletion",
+          "children": [
+            {
+              "name": "Invoke-OAIChatCompletion"
+            }
+          ]
+        },
+        {
+          "name": "OAIUploadFile",
+          "children": [
+            {
+              "name": "Invoke-OAIUploadFile"
+            }
+          ]
+        },
+        {
+          "name": "QuickChat",
+          "children": [
+            {
+              "name": "Invoke-QuickChat"
+            }
+          ]
+        },
+        {
+          "name": "SimpleQuestion",
+          "children": [
+            {
+              "name": "Invoke-SimpleQuestion"
+            }
+          ]
+        },
+        {
+          "name": "ChatRequestAssistantMessage",
+          "children": [
+            {
+              "name": "New-ChatRequestAssistantMessage"
+            }
+          ]
+        },
+        {
+          "name": "ChatRequestSystemMessage",
+          "children": [
+            {
+              "name": "New-ChatRequestSystemMessage"
+            }
+          ]
+        },
+        {
+          "name": "ChatRequestToolMessage",
+          "children": [
+            {
+              "name": "New-ChatRequestToolMessage"
+            }
+          ]
+        },
+        {
+          "name": "ChatRequestUserMessage",
+          "children": [
+            {
+              "name": "New-ChatRequestUserMessage"
+            }
+          ]
+        },
+        {
+          "name": "OAIAssistantWithVectorStore",
+          "children": [
+            {
+              "name": "New-OAIAssistantWithVectorStore"
+            }
+          ]
+        },
+        {
+          "name": "OAIChatMessage",
+          "children": [
+            {
+              "name": "New-OAIChatMessage"
+            }
+          ]
+        },
+        {
+          "name": "OAIThreadAndRun",
+          "children": [
+            {
+              "name": "New-OAIThreadAndRun"
+            }
+          ]
+        },
+        {
+          "name": "OAIThreadQuery",
+          "children": [
+            {
+              "name": "New-OAIThreadQuery"
+            }
+          ]
+        },
+        {
+          "name": "OAIMessages",
+          "children": [
+            {
+              "name": "Out-OAIMessages"
+            }
+          ]
+        },
+        {
+          "name": "OAIAPIReferenceWebPage",
+          "children": [
+            {
+              "name": "Show-OAIAPIReferenceWebPage"
+            }
+          ]
+        },
+        {
+          "name": "OAIAssistantWebPage",
+          "children": [
+            {
+              "name": "Show-OAIAssistantWebPage"
+            }
+          ]
+        },
+        {
+          "name": "OAIBilling",
+          "children": [
+            {
+              "name": "Show-OAIBilling"
+            }
+          ]
+        },
+        {
+          "name": "OAIPlaygroundWebPage",
+          "children": [
+            {
+              "name": "Show-OAIPlaygroundWebPage"
+            }
+          ]
+        },
+        {
+          "name": "OAIVectorStoreWebPage",
+          "children": [
+            {
+              "name": "Show-OAIVectorStoreWebPage"
+            }
+          ]
+        },
+        {
+          "name": "OAIToolOutputs",
+          "children": [
+            {
+              "name": "Submit-OAIToolOutputs"
+            }
+          ]
+        },
+        {
+          "name": "JSONReplacement",
+          "children": [
+            {
+              "name": "Test-JSONReplacement"
+            }
+          ]
+        },
+        {
+          "name": "LLMModel",
+          "children": [
+            {
+              "name": "Test-LLMModel"
+            }
+          ]
+        },
+        {
+          "name": "OAIAssistantId",
+          "children": [
+            {
+              "name": "Test-OAIAssistantId"
+            }
+          ]
+        },
+        {
+          "name": "OAIOnRun",
+          "children": [
+            {
+              "name": "Wait-OAIOnRun"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSAIAgent",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "HAL",
+          "children": [
+            {
+              "name": "Invoke-HAL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDuckDB",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "PSDuckDB",
+          "children": [
+            {
+              "name": "Invoke-PSDuckDB"
+            }
+          ]
+        },
+        {
+          "name": "DuckDBConnection",
+          "children": [
+            {
+              "name": "New-DuckDBConnection"
+            }
+          ]
+        },
+        {
+          "name": "DuckData",
+          "children": [
+            {
+              "name": "Out-DuckData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSFuzzySearch",
+      "companyName": "Doug Finke",
+      "author": "Doug Finke",
+      "children": [
+        {
+          "name": "FuzzyPattern",
+          "children": [
+            {
+              "name": "Get-FuzzyPattern"
+            }
+          ]
+        },
+        {
+          "name": "FuzzyString",
+          "children": [
+            {
+              "name": "Select-FuzzyString"
+            }
+          ]
+        },
+        {
+          "name": "Fuzzy",
+          "children": [
+            {
+              "name": "Select-Fuzzy"
+            }
+          ]
+        },
+        {
+          "name": "FuzzyCommand",
+          "children": [
+            {
+              "name": "Select-FuzzyCommand"
+            }
+          ]
+        },
+        {
+          "name": "FuzzyChildItem",
+          "children": [
+            {
+              "name": "Select-FuzzyChildItem"
+            }
+          ]
+        },
+        {
+          "name": "FuzzyEvents",
+          "children": [
+            {
+              "name": "Select-FuzzyEvents"
+            }
+          ]
+        },
+        {
+          "name": "FuzzyVariable",
+          "children": [
+            {
+              "name": "Select-FuzzyVariable"
+            }
+          ]
+        },
+        {
+          "name": "CurrentCommand",
+          "children": [
+            {
+              "name": "Find-CurrentCommand"
+            }
+          ]
+        },
+        {
+          "name": "FuzzyCommandPsReadlineHandler",
+          "children": [
+            {
+              "name": "Invoke-FuzzyCommandPsReadlineHandler"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGistIT",
+      "companyName": "Doug Finke",
+      "author": "Doug Finke",
+      "children": [
+        {
+          "name": "Gist",
+          "children": [
+            {
+              "name": "Export-Gist"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSGitHubChat",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "GitHubModel",
+          "children": [
+            {
+              "name": "Get-GitHubModel"
+            }
+          ]
+        },
+        {
+          "name": "GitHubChat",
+          "children": [
+            {
+              "name": "Invoke-GitHubChat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSImageToText",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "Text",
+          "children": [
+            {
+              "name": "ConvertTo-Text"
+            }
+          ]
+        },
+        {
+          "name": "ImgFromClipboard",
+          "children": [
+            {
+              "name": "Save-ImgFromClipboard"
+            }
+          ]
+        },
+        {
+          "name": "ClipboardToText",
+          "children": [
+            {
+              "name": "ConvertFrom-ClipboardToText"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSKit",
+      "companyName": "Doug Finke",
+      "author": "Doug Finke",
+      "children": [
+        {
+          "name": "Property",
+          "children": [
+            {
+              "name": "ConvertTo-Property"
+            }
+          ]
+        },
+        {
+          "name": "FixedData",
+          "children": [
+            {
+              "name": "ConvertFrom-FixedData"
+            }
+          ]
+        },
+        {
+          "name": "SSV",
+          "children": [
+            {
+              "name": "ConvertFrom-SSV"
+            },
+            {
+              "name": "Import-SSV"
+            }
+          ]
+        },
+        {
+          "name": "IntoCSV",
+          "children": [
+            {
+              "name": "Convert-IntoCSV"
+            }
+          ]
+        },
+        {
+          "name": "GenerateStats",
+          "children": [
+            {
+              "name": "GenerateStats"
+            }
+          ]
+        },
+        {
+          "name": "DataInfo",
+          "children": [
+            {
+              "name": "Get-DataInfo"
+            }
+          ]
+        },
+        {
+          "name": "DataType",
+          "children": [
+            {
+              "name": "Get-DataType"
+            }
+          ]
+        },
+        {
+          "name": "GetDataTypePrecedence",
+          "children": [
+            {
+              "name": "GetDataTypePrecedence"
+            }
+          ]
+        },
+        {
+          "name": "DateRange",
+          "children": [
+            {
+              "name": "Get-DateRange"
+            }
+          ]
+        },
+        {
+          "name": "PropertyName",
+          "children": [
+            {
+              "name": "Get-PropertyName"
+            }
+          ]
+        },
+        {
+          "name": "PropertyStats",
+          "children": [
+            {
+              "name": "Get-PropertyStats"
+            }
+          ]
+        },
+        {
+          "name": "ByAndMeasure",
+          "children": [
+            {
+              "name": "Group-ByAndMeasure"
+            }
+          ]
+        },
+        {
+          "name": "String",
+          "children": [
+            {
+              "name": "Test-String"
+            }
+          ]
+        },
+        {
+          "name": "Date",
+          "children": [
+            {
+              "name": "Test-Date"
+            }
+          ]
+        },
+        {
+          "name": "Boolean",
+          "children": [
+            {
+              "name": "Test-Boolean"
+            }
+          ]
+        },
+        {
+          "name": "Number",
+          "children": [
+            {
+              "name": "Test-Number"
+            }
+          ]
+        },
+        {
+          "name": "Integer",
+          "children": [
+            {
+              "name": "Test-Integer"
+            }
+          ]
+        },
+        {
+          "name": "AllTests",
+          "children": [
+            {
+              "name": "Invoke-AllTests"
+            }
+          ]
+        },
+        {
+          "name": "SQLToPS",
+          "children": [
+            {
+              "name": "ConvertFrom-SQLToPS"
+            }
+          ]
+        },
+        {
+          "name": "PSOp",
+          "children": [
+            {
+              "name": "Add-PSOp"
+            }
+          ]
+        },
+        {
+          "name": "PSLogicOp",
+          "children": [
+            {
+              "name": "Add-PSLogicOp"
+            }
+          ]
+        },
+        {
+          "name": "TranspileSQL",
+          "children": [
+            {
+              "name": "Invoke-TranspileSQL"
+            },
+            {
+              "name": "ConvertFrom-TranspileSQL"
+            }
+          ]
+        },
+        {
+          "name": "DataFrame",
+          "children": [
+            {
+              "name": "New-DataFrame"
+            }
+          ]
+        },
+        {
+          "name": "LookupTable",
+          "children": [
+            {
+              "name": "New-LookupTable"
+            }
+          ]
+        },
+        {
+          "name": "Csv",
+          "children": [
+            {
+              "name": "Read-Csv"
+            }
+          ]
+        },
+        {
+          "name": "ScanProperties",
+          "children": [
+            {
+              "name": "Invoke-ScanProperties"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSMatcher",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "Json",
+          "children": [
+            {
+              "name": "Test-Json"
+            }
+          ]
+        },
+        {
+          "name": "PesterMatchJsonTemplate",
+          "children": [
+            {
+              "name": "PesterMatchJsonTemplate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSProse",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "JSONSession",
+          "children": [
+            {
+              "name": "New-JSONSession"
+            }
+          ]
+        },
+        {
+          "name": "JSONData",
+          "children": [
+            {
+              "name": "Get-JSONData"
+            }
+          ]
+        },
+        {
+          "name": "SplitText",
+          "children": [
+            {
+              "name": "Invoke-SplitText"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSPulumi",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "pulumiCompletion",
+          "children": [
+            {
+              "name": "pulumiCompletion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSPx",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "MarkdownCodeBlock",
+          "children": [
+            {
+              "name": "Get-MarkdownCodeBlock"
+            }
+          ]
+        },
+        {
+          "name": "ExecuteMarkdown",
+          "children": [
+            {
+              "name": "Invoke-ExecuteMarkdown"
+            }
+          ]
+        },
+        {
+          "name": "ScriptAnalyzerMarkdown",
+          "children": [
+            {
+              "name": "Invoke-ScriptAnalyzerMarkdown"
+            }
+          ]
+        },
+        {
+          "name": "ScriptFormatterMarkdown",
+          "children": [
+            {
+              "name": "Invoke-ScriptFormatterMarkdown"
+            }
+          ]
+        },
+        {
+          "name": "UpdateScriptFormat",
+          "children": [
+            {
+              "name": "Invoke-UpdateScriptFormat"
+            }
+          ]
+        },
+        {
+          "name": "MarkdownCodeFormatting",
+          "children": [
+            {
+              "name": "Update-MarkdownCodeFormatting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSSpeak",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "PSSpeak",
+          "children": [
+            {
+              "name": "Invoke-PSSpeak"
+            }
+          ]
+        },
+        {
+          "name": "SpeakGHIssues",
+          "children": [
+            {
+              "name": "Invoke-SpeakGHIssues"
+            }
+          ]
+        },
+        {
+          "name": "Audio",
+          "children": [
+            {
+              "name": "ConvertTo-Audio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSStringScanner",
+      "companyName": "Doug Finke",
+      "author": "Dougl Finke",
+      "children": [
+        {
+          "name": "PSStringScanner",
+          "children": [
+            {
+              "name": "New-PSStringScanner"
+            }
+          ]
+        },
+        {
+          "name": "PSStringScannerEx",
+          "children": [
+            {
+              "name": "New-PSStringScannerEx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSWeave",
+      "companyName": "Doug Finke",
+      "author": "Douglas Finke",
+      "children": [
+        {
+          "name": "PromptPath",
+          "children": [
+            {
+              "name": "Add-PromptPath"
+            }
+          ]
+        },
+        {
+          "name": "WeavePromptPath",
+          "children": [
+            {
+              "name": "Get-WeavePromptPath"
+            }
+          ]
+        },
+        {
+          "name": "WeaveContent",
+          "children": [
+            {
+              "name": "Get-WeaveContent"
+            }
+          ]
+        },
+        {
+          "name": "Weave",
+          "children": [
+            {
+              "name": "Weave"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSYamlQuery",
+      "companyName": "Doug Finke",
+      "author": "Doug Finke",
+      "children": [
+        {
+          "name": "Yaml",
+          "children": [
+            {
+              "name": "Compare-Yaml"
+            },
+            {
+              "name": "ConvertTo-Yaml"
+            },
+            {
+              "name": "Import-Yaml"
+            },
+            {
+              "name": "Merge-Yaml"
+            },
+            {
+              "name": "Update-Yaml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TestPhoneNumber",
+      "companyName": "Doug Finke",
+      "author": "Doug Finke",
+      "children": [
+        {
+          "name": "PhoneNumber",
+          "children": [
+            {
+              "name": "Test-PhoneNumber"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TSDTabCompletion",
+      "companyName": "Doug Finke",
+      "author": "DouglasFinke",
+      "children": [
+        {
+          "name": "TSDCompletion",
+          "children": [
+            {
+              "name": "TSDCompletion"
+            }
+          ]
+        },
+        {
+          "name": "CompletionResult",
+          "children": [
+            {
+              "name": "New-CompletionResult"
+            }
+          ]
+        },
+        {
+          "name": "CompletionPrivateData",
+          "children": [
+            {
+              "name": "Set-CompletionPrivateData"
+            },
+            {
+              "name": "Get-CompletionPrivateData"
+            }
+          ]
+        },
+        {
+          "name": "CommandTree",
+          "children": [
+            {
+              "name": "New-CommandTree"
+            }
+          ]
+        },
+        {
+          "name": "CommandTreeCompletion",
+          "children": [
+            {
+              "name": "Get-CommandTreeCompletion"
+            }
+          ]
+        },
+        {
+          "name": "ArgumentCompleter",
+          "children": [
+            {
+              "name": "Register-ArgumentCompleter"
+            },
+            {
+              "name": "Test-ArgumentCompleter"
+            },
+            {
+              "name": "Get-ArgumentCompleter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VSCETabCompletion",
+      "companyName": "Doug Finke",
+      "author": "DouglasFinke",
+      "children": [
+        {
+          "name": "VSCECompletion",
+          "children": [
+            {
+              "name": "VSCECompletion"
+            }
+          ]
+        },
+        {
+          "name": "CompletionResult",
+          "children": [
+            {
+              "name": "New-CompletionResult"
+            }
+          ]
+        },
+        {
+          "name": "CompletionPrivateData",
+          "children": [
+            {
+              "name": "Set-CompletionPrivateData"
+            },
+            {
+              "name": "Get-CompletionPrivateData"
+            }
+          ]
+        },
+        {
+          "name": "CommandTree",
+          "children": [
+            {
+              "name": "New-CommandTree"
+            }
+          ]
+        },
+        {
+          "name": "CommandTreeCompletion",
+          "children": [
+            {
+              "name": "Get-CommandTreeCompletion"
+            }
+          ]
+        },
+        {
+          "name": "ArgumentCompleter",
+          "children": [
+            {
+              "name": "Register-ArgumentCompleter"
+            },
+            {
+              "name": "Test-ArgumentCompleter"
+            },
+            {
+              "name": "Get-ArgumentCompleter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1380 @@
+{
+  "name": "DonovanBrown",
+  "children": [
+    {
+      "name": "markdownmerge",
+      "companyName": "Unknown",
+      "author": "DonovanBrown",
+      "children": [
+        {
+          "name": "Markdown",
+          "children": [
+            {
+              "name": "Merge-Markdown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Team",
+      "companyName": "Unknown",
+      "author": "DonovanBrown",
+      "children": [
+        {
+          "name": "AzureRMServiceEndpoint",
+          "children": [
+            {
+              "name": "Add-AzureRMServiceEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "SonarQubeEndpoint",
+          "children": [
+            {
+              "name": "Add-SonarQubeEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "Build",
+          "children": [
+            {
+              "name": "Add-Build"
+            },
+            {
+              "name": "Get-Build"
+            },
+            {
+              "name": "Remove-Build"
+            },
+            {
+              "name": "Update-Build"
+            }
+          ]
+        },
+        {
+          "name": "BuildDefinition",
+          "children": [
+            {
+              "name": "Add-BuildDefinition"
+            },
+            {
+              "name": "Get-BuildDefinition"
+            },
+            {
+              "name": "Remove-BuildDefinition"
+            }
+          ]
+        },
+        {
+          "name": "Project",
+          "children": [
+            {
+              "name": "Add-Project"
+            },
+            {
+              "name": "Get-Project"
+            },
+            {
+              "name": "Remove-Project"
+            },
+            {
+              "name": "Update-Project"
+            }
+          ]
+        },
+        {
+          "name": "Release",
+          "children": [
+            {
+              "name": "Add-Release"
+            },
+            {
+              "name": "Get-Release"
+            },
+            {
+              "name": "Remove-Release"
+            }
+          ]
+        },
+        {
+          "name": "ReleaseEnvironment",
+          "children": [
+            {
+              "name": "Add-ReleaseEnvironment"
+            }
+          ]
+        },
+        {
+          "name": "ReleaseDefinition",
+          "children": [
+            {
+              "name": "Add-ReleaseDefinition"
+            },
+            {
+              "name": "Get-ReleaseDefinition"
+            },
+            {
+              "name": "Remove-ReleaseDefinition"
+            }
+          ]
+        },
+        {
+          "name": "TeamAccount",
+          "children": [
+            {
+              "name": "Add-TeamAccount"
+            },
+            {
+              "name": "Remove-TeamAccount"
+            }
+          ]
+        },
+        {
+          "name": "Team",
+          "children": [
+            {
+              "name": "Add-Team"
+            },
+            {
+              "name": "Get-Team"
+            },
+            {
+              "name": "Remove-Team"
+            },
+            {
+              "name": "Update-Team"
+            }
+          ]
+        },
+        {
+          "name": "DefaultProject",
+          "children": [
+            {
+              "name": "Clear-DefaultProject"
+            },
+            {
+              "name": "Set-DefaultProject"
+            }
+          ]
+        },
+        {
+          "name": "Approval",
+          "children": [
+            {
+              "name": "Get-Approval"
+            },
+            {
+              "name": "Set-Approval"
+            }
+          ]
+        },
+        {
+          "name": "CloudSubscription",
+          "children": [
+            {
+              "name": "Get-CloudSubscription"
+            }
+          ]
+        },
+        {
+          "name": "Pool",
+          "children": [
+            {
+              "name": "Get-Pool"
+            }
+          ]
+        },
+        {
+          "name": "Queue",
+          "children": [
+            {
+              "name": "Get-Queue"
+            }
+          ]
+        },
+        {
+          "name": "ServiceEndpoint",
+          "children": [
+            {
+              "name": "Get-ServiceEndpoint"
+            },
+            {
+              "name": "Remove-ServiceEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "TeamInfo",
+          "children": [
+            {
+              "name": "Get-TeamInfo"
+            }
+          ]
+        },
+        {
+          "name": "TeamMember",
+          "children": [
+            {
+              "name": "Get-TeamMember"
+            }
+          ]
+        },
+        {
+          "name": "ReleaseStatus",
+          "children": [
+            {
+              "name": "Set-ReleaseStatus"
+            }
+          ]
+        },
+        {
+          "name": "GitRepository",
+          "children": [
+            {
+              "name": "Get-GitRepository"
+            },
+            {
+              "name": "Add-GitRepository"
+            },
+            {
+              "name": "Remove-GitRepository"
+            }
+          ]
+        },
+        {
+          "name": "BuildLog",
+          "children": [
+            {
+              "name": "Get-BuildLog"
+            }
+          ]
+        },
+        {
+          "name": "BuildTag",
+          "children": [
+            {
+              "name": "Add-BuildTag"
+            },
+            {
+              "name": "Get-BuildTag"
+            },
+            {
+              "name": "Remove-BuildTag"
+            }
+          ]
+        },
+        {
+          "name": "BuildArtifact",
+          "children": [
+            {
+              "name": "Get-BuildArtifact"
+            }
+          ]
+        },
+        {
+          "name": "TeamOption",
+          "children": [
+            {
+              "name": "Get-TeamOption"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trackyon.GoDaddy",
+      "companyName": "Trackyon",
+      "author": "DonovanBrown",
+      "children": [
+        {
+          "name": "GDDomain",
+          "children": [
+            {
+              "name": "Get-GDDomain"
+            }
+          ]
+        },
+        {
+          "name": "GDDomainRecord",
+          "children": [
+            {
+              "name": "Get-GDDomainRecord"
+            },
+            {
+              "name": "Set-GDDomainRecord"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trackyon.Invest",
+      "companyName": "Unknown",
+      "author": "DonovanBrown",
+      "children": [
+        {
+          "name": "TkyAccount",
+          "children": [
+            {
+              "name": "Connect-TkyAccount"
+            },
+            {
+              "name": "Disconnect-TkyAccount"
+            }
+          ]
+        },
+        {
+          "name": "TkyDate",
+          "children": [
+            {
+              "name": "Get-TkyDate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trackyon.Markdown",
+      "companyName": "Trackyon LLC",
+      "author": "DonovanBrown",
+      "children": [
+        {
+          "name": "Markdown",
+          "children": [
+            {
+              "name": "Merge-Markdown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "trackyon.nuget",
+      "companyName": "Trackyon",
+      "author": "DonovanBrown",
+      "children": [
+        {
+          "name": "NuSpec",
+          "children": [
+            {
+              "name": "ConvertTo-NuSpec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trackyon.Utils",
+      "companyName": "Trackyon LLC",
+      "author": "DonovanBrown",
+      "children": [
+        {
+          "name": "Location",
+          "children": [
+            {
+              "name": "Backup-Location"
+            },
+            {
+              "name": "Enter-Location"
+            }
+          ]
+        },
+        {
+          "name": "OperatingSystem",
+          "children": [
+            {
+              "name": "Get-OperatingSystem"
+            }
+          ]
+        },
+        {
+          "name": "Directory",
+          "children": [
+            {
+              "name": "New-Directory"
+            }
+          ]
+        },
+        {
+          "name": "As",
+          "children": [
+            {
+              "name": "Set-As"
+            }
+          ]
+        },
+        {
+          "name": "Browser",
+          "children": [
+            {
+              "name": "Show-Browser"
+            }
+          ]
+        },
+        {
+          "name": "Item",
+          "children": [
+            {
+              "name": "Add-Item"
+            }
+          ]
+        },
+        {
+          "name": "base64",
+          "children": [
+            {
+              "name": "base64"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VSTeam1",
+      "companyName": "Unknown",
+      "author": "DonovanBrown",
+      "children": [
+        {
+          "name": "VSTeam",
+          "children": [
+            {
+              "name": "Add-VSTeam"
+            },
+            {
+              "name": "Get-VSTeam"
+            },
+            {
+              "name": "Remove-VSTeam"
+            },
+            {
+              "name": "Show-VSTeam"
+            },
+            {
+              "name": "Update-VSTeam"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamAccessControlEntry",
+          "children": [
+            {
+              "name": "Add-VSTeamAccessControlEntry"
+            },
+            {
+              "name": "Remove-VSTeamAccessControlEntry"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamArea",
+          "children": [
+            {
+              "name": "Add-VSTeamArea"
+            },
+            {
+              "name": "Get-VSTeamArea"
+            },
+            {
+              "name": "Remove-VSTeamArea"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamAzureRMServiceEndpoint",
+          "children": [
+            {
+              "name": "Add-VSTeamAzureRMServiceEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamBuild",
+          "children": [
+            {
+              "name": "Add-VSTeamBuild"
+            },
+            {
+              "name": "Get-VSTeamBuild"
+            },
+            {
+              "name": "Remove-VSTeamBuild"
+            },
+            {
+              "name": "Show-VSTeamBuild"
+            },
+            {
+              "name": "Stop-VSTeamBuild"
+            },
+            {
+              "name": "Update-VSTeamBuild"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamBuildDefinition",
+          "children": [
+            {
+              "name": "Add-VSTeamBuildDefinition"
+            },
+            {
+              "name": "Get-VSTeamBuildDefinition"
+            },
+            {
+              "name": "Remove-VSTeamBuildDefinition"
+            },
+            {
+              "name": "Show-VSTeamBuildDefinition"
+            },
+            {
+              "name": "Update-VSTeamBuildDefinition"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamBuildPermission",
+          "children": [
+            {
+              "name": "Add-VSTeamBuildPermission"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamBuildTag",
+          "children": [
+            {
+              "name": "Add-VSTeamBuildTag"
+            },
+            {
+              "name": "Get-VSTeamBuildTag"
+            },
+            {
+              "name": "Remove-VSTeamBuildTag"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamClassificationNode",
+          "children": [
+            {
+              "name": "Add-VSTeamClassificationNode"
+            },
+            {
+              "name": "Get-VSTeamClassificationNode"
+            },
+            {
+              "name": "Remove-VSTeamClassificationNode"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamExtension",
+          "children": [
+            {
+              "name": "Add-VSTeamExtension"
+            },
+            {
+              "name": "Get-VSTeamExtension"
+            },
+            {
+              "name": "Remove-VSTeamExtension"
+            },
+            {
+              "name": "Update-VSTeamExtension"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamFeed",
+          "children": [
+            {
+              "name": "Add-VSTeamFeed"
+            },
+            {
+              "name": "Get-VSTeamFeed"
+            },
+            {
+              "name": "Remove-VSTeamFeed"
+            },
+            {
+              "name": "Show-VSTeamFeed"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamGitRepository",
+          "children": [
+            {
+              "name": "Add-VSTeamGitRepository"
+            },
+            {
+              "name": "Get-VSTeamGitRepository"
+            },
+            {
+              "name": "Remove-VSTeamGitRepository"
+            },
+            {
+              "name": "Show-VSTeamGitRepository"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamGitRepositoryPermission",
+          "children": [
+            {
+              "name": "Add-VSTeamGitRepositoryPermission"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamIteration",
+          "children": [
+            {
+              "name": "Add-VSTeamIteration"
+            },
+            {
+              "name": "Get-VSTeamIteration"
+            },
+            {
+              "name": "Remove-VSTeamIteration"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamKubernetesEndpoint",
+          "children": [
+            {
+              "name": "Add-VSTeamKubernetesEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamMembership",
+          "children": [
+            {
+              "name": "Add-VSTeamMembership"
+            },
+            {
+              "name": "Get-VSTeamMembership"
+            },
+            {
+              "name": "Remove-VSTeamMembership"
+            },
+            {
+              "name": "Test-VSTeamMembership"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamNuGetEndpoint",
+          "children": [
+            {
+              "name": "Add-VSTeamNuGetEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamPolicy",
+          "children": [
+            {
+              "name": "Add-VSTeamPolicy"
+            },
+            {
+              "name": "Get-VSTeamPolicy"
+            },
+            {
+              "name": "Remove-VSTeamPolicy"
+            },
+            {
+              "name": "Update-VSTeamPolicy"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamPool",
+          "children": [
+            {
+              "name": "Add-VSTeamPool"
+            },
+            {
+              "name": "Get-VSTeamPool"
+            },
+            {
+              "name": "Remove-VSTeamPool"
+            },
+            {
+              "name": "Update-VSTeamPool"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamProfile",
+          "children": [
+            {
+              "name": "Add-VSTeamProfile"
+            },
+            {
+              "name": "Get-VSTeamProfile"
+            },
+            {
+              "name": "Remove-VSTeamProfile"
+            },
+            {
+              "name": "Update-VSTeamProfile"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamProject",
+          "children": [
+            {
+              "name": "Add-VSTeamProject"
+            },
+            {
+              "name": "Get-VSTeamProject"
+            },
+            {
+              "name": "Remove-VSTeamProject"
+            },
+            {
+              "name": "Show-VSTeamProject"
+            },
+            {
+              "name": "Update-VSTeamProject"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamProjectPermission",
+          "children": [
+            {
+              "name": "Add-VSTeamProjectPermission"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamPullRequest",
+          "children": [
+            {
+              "name": "Add-VSTeamPullRequest"
+            },
+            {
+              "name": "Get-VSTeamPullRequest"
+            },
+            {
+              "name": "Show-VSTeamPullRequest"
+            },
+            {
+              "name": "Update-VSTeamPullRequest"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamRelease",
+          "children": [
+            {
+              "name": "Add-VSTeamRelease"
+            },
+            {
+              "name": "Get-VSTeamRelease"
+            },
+            {
+              "name": "Remove-VSTeamRelease"
+            },
+            {
+              "name": "Show-VSTeamRelease"
+            },
+            {
+              "name": "Update-VSTeamRelease"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamReleaseDefinition",
+          "children": [
+            {
+              "name": "Add-VSTeamReleaseDefinition"
+            },
+            {
+              "name": "Get-VSTeamReleaseDefinition"
+            },
+            {
+              "name": "Remove-VSTeamReleaseDefinition"
+            },
+            {
+              "name": "Show-VSTeamReleaseDefinition"
+            },
+            {
+              "name": "Update-VSTeamReleaseDefinition"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamServiceEndpoint",
+          "children": [
+            {
+              "name": "Add-VSTeamServiceEndpoint"
+            },
+            {
+              "name": "Get-VSTeamServiceEndpoint"
+            },
+            {
+              "name": "Remove-VSTeamServiceEndpoint"
+            },
+            {
+              "name": "Update-VSTeamServiceEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamServiceFabricEndpoint",
+          "children": [
+            {
+              "name": "Add-VSTeamServiceFabricEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamSonarQubeEndpoint",
+          "children": [
+            {
+              "name": "Add-VSTeamSonarQubeEndpoint"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamTaskGroup",
+          "children": [
+            {
+              "name": "Add-VSTeamTaskGroup"
+            },
+            {
+              "name": "Get-VSTeamTaskGroup"
+            },
+            {
+              "name": "Remove-VSTeamTaskGroup"
+            },
+            {
+              "name": "Update-VSTeamTaskGroup"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamUserEntitlement",
+          "children": [
+            {
+              "name": "Add-VSTeamUserEntitlement"
+            },
+            {
+              "name": "Get-VSTeamUserEntitlement"
+            },
+            {
+              "name": "Remove-VSTeamUserEntitlement"
+            },
+            {
+              "name": "Update-VSTeamUserEntitlement"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamVariableGroup",
+          "children": [
+            {
+              "name": "Add-VSTeamVariableGroup"
+            },
+            {
+              "name": "Get-VSTeamVariableGroup"
+            },
+            {
+              "name": "Remove-VSTeamVariableGroup"
+            },
+            {
+              "name": "Update-VSTeamVariableGroup"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamWiki",
+          "children": [
+            {
+              "name": "Add-VSTeamWiki"
+            },
+            {
+              "name": "Get-VSTeamWiki"
+            },
+            {
+              "name": "Remove-VSTeamWiki"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamWorkItem",
+          "children": [
+            {
+              "name": "Add-VSTeamWorkItem"
+            },
+            {
+              "name": "Get-VSTeamWorkItem"
+            },
+            {
+              "name": "Remove-VSTeamWorkItem"
+            },
+            {
+              "name": "Show-VSTeamWorkItem"
+            },
+            {
+              "name": "Update-VSTeamWorkItem"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamWorkItemAreaPermission",
+          "children": [
+            {
+              "name": "Add-VSTeamWorkItemAreaPermission"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamWorkItemIterationPermission",
+          "children": [
+            {
+              "name": "Add-VSTeamWorkItemIterationPermission"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamDefaultAPITimeout",
+          "children": [
+            {
+              "name": "Clear-VSTeamDefaultAPITimeout"
+            },
+            {
+              "name": "Set-VSTeamDefaultAPITimeout"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamDefaultProject",
+          "children": [
+            {
+              "name": "Clear-VSTeamDefaultProject"
+            },
+            {
+              "name": "Set-VSTeamDefaultProject"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamDefaultProjectCount",
+          "children": [
+            {
+              "name": "Clear-VSTeamDefaultProjectCount"
+            },
+            {
+              "name": "Set-VSTeamDefaultProjectCount"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamAgent",
+          "children": [
+            {
+              "name": "Disable-VSTeamAgent"
+            },
+            {
+              "name": "Enable-VSTeamAgent"
+            },
+            {
+              "name": "Get-VSTeamAgent"
+            },
+            {
+              "name": "Remove-VSTeamAgent"
+            },
+            {
+              "name": "Update-VSTeamAgent"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamAccessControlList",
+          "children": [
+            {
+              "name": "Get-VSTeamAccessControlList"
+            },
+            {
+              "name": "Remove-VSTeamAccessControlList"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamAccountBilling",
+          "children": [
+            {
+              "name": "Get-VSTeamAccountBilling"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamAccounts",
+          "children": [
+            {
+              "name": "Get-VSTeamAccounts"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamAgentPoolMaintenance",
+          "children": [
+            {
+              "name": "Get-VSTeamAgentPoolMaintenance"
+            },
+            {
+              "name": "Set-VSTeamAgentPoolMaintenance"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamAPIVersion",
+          "children": [
+            {
+              "name": "Get-VSTeamAPIVersion"
+            },
+            {
+              "name": "Set-VSTeamAPIVersion"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamApproval",
+          "children": [
+            {
+              "name": "Get-VSTeamApproval"
+            },
+            {
+              "name": "Set-VSTeamApproval"
+            },
+            {
+              "name": "Show-VSTeamApproval"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamBuildArtifact",
+          "children": [
+            {
+              "name": "Get-VSTeamBuildArtifact"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamBuildLog",
+          "children": [
+            {
+              "name": "Get-VSTeamBuildLog"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamBuildTimeline",
+          "children": [
+            {
+              "name": "Get-VSTeamBuildTimeline"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamCloudSubscription",
+          "children": [
+            {
+              "name": "Get-VSTeamCloudSubscription"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamDescriptor",
+          "children": [
+            {
+              "name": "Get-VSTeamDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamGitCommit",
+          "children": [
+            {
+              "name": "Get-VSTeamGitCommit"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamGitRef",
+          "children": [
+            {
+              "name": "Get-VSTeamGitRef"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamGitStat",
+          "children": [
+            {
+              "name": "Get-VSTeamGitStat"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamGroup",
+          "children": [
+            {
+              "name": "Get-VSTeamGroup"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamInfo",
+          "children": [
+            {
+              "name": "Get-VSTeamInfo"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamJobRequest",
+          "children": [
+            {
+              "name": "Get-VSTeamJobRequest"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamMember",
+          "children": [
+            {
+              "name": "Get-VSTeamMember"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamOption",
+          "children": [
+            {
+              "name": "Get-VSTeamOption"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamPackage",
+          "children": [
+            {
+              "name": "Get-VSTeamPackage"
+            },
+            {
+              "name": "Show-VSTeamPackage"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamPackageVersion",
+          "children": [
+            {
+              "name": "Get-VSTeamPackageVersion"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamPermissionInheritance",
+          "children": [
+            {
+              "name": "Get-VSTeamPermissionInheritance"
+            },
+            {
+              "name": "Set-VSTeamPermissionInheritance"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamPolicyType",
+          "children": [
+            {
+              "name": "Get-VSTeamPolicyType"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamProcess",
+          "children": [
+            {
+              "name": "Get-VSTeamProcess"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamQuery",
+          "children": [
+            {
+              "name": "Get-VSTeamQuery"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamQueue",
+          "children": [
+            {
+              "name": "Get-VSTeamQueue"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamResourceArea",
+          "children": [
+            {
+              "name": "Get-VSTeamResourceArea"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamSecurityNamespace",
+          "children": [
+            {
+              "name": "Get-VSTeamSecurityNamespace"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamServiceEndpointType",
+          "children": [
+            {
+              "name": "Get-VSTeamServiceEndpointType"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamTfvcBranch",
+          "children": [
+            {
+              "name": "Get-VSTeamTfvcBranch"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamTfvcRootBranch",
+          "children": [
+            {
+              "name": "Get-VSTeamTfvcRootBranch"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamUser",
+          "children": [
+            {
+              "name": "Get-VSTeamUser"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamUserProfile",
+          "children": [
+            {
+              "name": "Get-VSTeamUserProfile"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamWiql",
+          "children": [
+            {
+              "name": "Get-VSTeamWiql"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamWorkItemType",
+          "children": [
+            {
+              "name": "Get-VSTeamWorkItemType"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamRequest",
+          "children": [
+            {
+              "name": "Invoke-VSTeamRequest"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamAccount",
+          "children": [
+            {
+              "name": "Remove-VSTeamAccount"
+            },
+            {
+              "name": "Set-VSTeamAccount"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamAlias",
+          "children": [
+            {
+              "name": "Set-VSTeamAlias"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamEnvironmentStatus",
+          "children": [
+            {
+              "name": "Set-VSTeamEnvironmentStatus"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamPipelineAuthorization",
+          "children": [
+            {
+              "name": "Set-VSTeamPipelineAuthorization"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamPipelineBilling",
+          "children": [
+            {
+              "name": "Set-VSTeamPipelineBilling"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamReleaseStatus",
+          "children": [
+            {
+              "name": "Set-VSTeamReleaseStatus"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamYamlPipeline",
+          "children": [
+            {
+              "name": "Test-VSTeamYamlPipeline"
+            }
+          ]
+        },
+        {
+          "name": "VSTeamNuGetPackageVersion",
+          "children": [
+            {
+              "name": "Update-VSTeamNuGetPackageVersion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "dotpwsh",
+  "children": [
+    {
+      "name": "PSAbuseIPDB",
+      "companyName": "dotpwsh",
+      "author": "dotpwsh",
+      "children": [
+        {
+          "name": "AbuseIPDBIPAddress",
+          "children": [
+            {
+              "name": "Clear-AbuseIPDBIPAddress"
+            },
+            {
+              "name": "Get-AbuseIPDBIPAddress"
+            }
+          ]
+        },
+        {
+          "name": "AbuseIPDBBlacklist",
+          "children": [
+            {
+              "name": "Get-AbuseIPDBBlacklist"
+            }
+          ]
+        },
+        {
+          "name": "AbuseIPDBIPBlock",
+          "children": [
+            {
+              "name": "Get-AbuseIPDBIPBlock"
+            }
+          ]
+        },
+        {
+          "name": "AbuseIPDB",
+          "children": [
+            {
+              "name": "Initialize-AbuseIPDB"
+            }
+          ]
+        },
+        {
+          "name": "AbuseIPDBReport",
+          "children": [
+            {
+              "name": "Submit-AbuseIPDBReport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSPasswordly",
+      "companyName": "dotpwsh",
+      "author": "Mads Moi Aune",
+      "children": [
+        {
+          "name": "Passwordly",
+          "children": [
+            {
+              "name": "Invoke-Passwordly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StretchReminder",
+      "companyName": "dotpwsh",
+      "author": "Mads  dotpwsh  Moi Aune",
+      "children": [
+        {
+          "name": "StretchReminder",
+          "children": [
+            {
+              "name": "Start-StretchReminder"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

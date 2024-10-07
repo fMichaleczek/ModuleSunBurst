@@ -1,0 +1,127 @@
+{
+  "name": "Isabella Muerte",
+  "children": [
+    {
+      "name": "Atmosphere",
+      "companyName": "Unknown",
+      "author": "Isabella Muerte",
+      "children": [
+        {
+          "name": "EnvironmentVariable",
+          "children": [
+            {
+              "name": "Get-EnvironmentVariable"
+            },
+            {
+              "name": "Set-EnvironmentVariable"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentPath",
+          "children": [
+            {
+              "name": "Get-EnvironmentPath"
+            }
+          ]
+        },
+        {
+          "name": "LDLibraryPath",
+          "children": [
+            {
+              "name": "Get-LDLibraryPath"
+            },
+            {
+              "name": "Update-LDLibraryPath"
+            }
+          ]
+        },
+        {
+          "name": "PkgConfigPath",
+          "children": [
+            {
+              "name": "Get-PkgConfigPath"
+            },
+            {
+              "name": "Update-PkgConfigPath"
+            }
+          ]
+        },
+        {
+          "name": "PSModulePath",
+          "children": [
+            {
+              "name": "Get-PSModulePath"
+            },
+            {
+              "name": "Update-PSModulePath"
+            }
+          ]
+        },
+        {
+          "name": "PythonPath",
+          "children": [
+            {
+              "name": "Get-PythonPath"
+            },
+            {
+              "name": "Update-PythonPath"
+            }
+          ]
+        },
+        {
+          "name": "SystemPath",
+          "children": [
+            {
+              "name": "Get-SystemPath"
+            },
+            {
+              "name": "Update-SystemPath"
+            }
+          ]
+        },
+        {
+          "name": "Environment",
+          "children": [
+            {
+              "name": "Push-Environment"
+            },
+            {
+              "name": "Pop-Environment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VCVars",
+      "companyName": "Unknown",
+      "author": "Isabella Muerte",
+      "children": [
+        {
+          "name": "VCVars",
+          "children": [
+            {
+              "name": "Invoke-VCVars"
+            },
+            {
+              "name": "Clear-VCVars"
+            },
+            {
+              "name": "Find-VCVars"
+            },
+            {
+              "name": "Push-VCVars"
+            },
+            {
+              "name": "Pop-VCVars"
+            },
+            {
+              "name": "Set-VCVars"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

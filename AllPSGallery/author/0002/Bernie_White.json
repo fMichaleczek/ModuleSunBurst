@@ -1,0 +1,125 @@
+{
+  "name": "Bernie White",
+  "children": [
+    {
+      "name": "DevOpsKitDsc",
+      "companyName": "Microsoft Corporation",
+      "author": "Bernie White",
+      "children": [
+        {
+          "name": "DOKDsc",
+          "children": [
+            {
+              "name": "Initialize-DOKDsc"
+            }
+          ]
+        },
+        {
+          "name": "DOKDscNodeConfiguration",
+          "children": [
+            {
+              "name": "Import-DOKDscNodeConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "DOKDscNode",
+          "children": [
+            {
+              "name": "Register-DOKDscNode"
+            }
+          ]
+        },
+        {
+          "name": "DOKDscBuild",
+          "children": [
+            {
+              "name": "Invoke-DOKDscBuild"
+            }
+          ]
+        },
+        {
+          "name": "DOKDscCollection",
+          "children": [
+            {
+              "name": "Publish-DOKDscCollection"
+            },
+            {
+              "name": "New-DOKDscCollection"
+            },
+            {
+              "name": "Get-DOKDscCollection"
+            }
+          ]
+        },
+        {
+          "name": "DOKDscCollectionOption",
+          "children": [
+            {
+              "name": "Set-DOKDscCollectionOption"
+            }
+          ]
+        },
+        {
+          "name": "DOKDscWorkspaceSetting",
+          "children": [
+            {
+              "name": "Import-DOKDscWorkspaceSetting"
+            }
+          ]
+        },
+        {
+          "name": "DOKDscWorkspaceOption",
+          "children": [
+            {
+              "name": "Set-DOKDscWorkspaceOption"
+            },
+            {
+              "name": "Get-DOKDscWorkspaceOption"
+            }
+          ]
+        },
+        {
+          "name": "DOKDscModule",
+          "children": [
+            {
+              "name": "Add-DOKDscModule"
+            },
+            {
+              "name": "Get-DOKDscModule"
+            },
+            {
+              "name": "Publish-DOKDscModule"
+            },
+            {
+              "name": "Restore-DOKDscModule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSDocs.Dsc",
+      "companyName": "Bernie White",
+      "author": "Bernie White",
+      "children": [
+        {
+          "name": "DscNodeDocument",
+          "children": [
+            {
+              "name": "Invoke-DscNodeDocument"
+            }
+          ]
+        },
+        {
+          "name": "DscMofDocument",
+          "children": [
+            {
+              "name": "Get-DscMofDocument"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

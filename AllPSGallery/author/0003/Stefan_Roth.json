@@ -1,0 +1,53 @@
+{
+  "name": "Stefan Roth",
+  "children": [
+    {
+      "name": "PSMaintenanceMode",
+      "companyName": "stefanroth.net",
+      "author": "Stefan Roth",
+      "children": [
+        {
+          "name": "SCOMAgentMaintenanceMode",
+          "children": [
+            {
+              "name": "Start-SCOMAgentMaintenanceMode"
+            },
+            {
+              "name": "Reset-SCOMAgentMaintenanceMode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RunAsAccount",
+      "companyName": "stefanroth.net",
+      "author": "Stefan Roth",
+      "children": [
+        {
+          "name": "RunAsCredential",
+          "children": [
+            {
+              "name": "Get-RunAsCredential"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SendEffectiveConfiguration",
+      "companyName": "stefanroth.net",
+      "author": "Stefan Roth",
+      "children": [
+        {
+          "name": "EffectiveConfiguration",
+          "children": [
+            {
+              "name": "Send-EffectiveConfiguration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

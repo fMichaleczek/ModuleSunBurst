@@ -1,0 +1,557 @@
+{
+  "name": "Joakim Olsson  joakim.olsson adicitus.cloud",
+  "children": [
+    {
+      "name": "ACGCore",
+      "companyName": "Adicitus Concepts Group",
+      "author": "Joakim Olsson  joakim.olsson adicitus.cloud",
+      "children": [
+        {
+          "name": "ConfigFile",
+          "children": [
+            {
+              "name": "Read-ConfigFile"
+            },
+            {
+              "name": "Write-ConfigFile"
+            }
+          ]
+        },
+        {
+          "name": "RegexPatterns",
+          "children": [
+            {
+              "name": "RegexPatterns"
+            }
+          ]
+        },
+        {
+          "name": "Template",
+          "children": [
+            {
+              "name": "Format-Template"
+            }
+          ]
+        },
+        {
+          "name": "Condition",
+          "children": [
+            {
+              "name": "Test-Condition"
+            },
+            {
+              "name": "Wait-Condition"
+            }
+          ]
+        },
+        {
+          "name": "Module",
+          "children": [
+            {
+              "name": "Reset-Module"
+            }
+          ]
+        },
+        {
+          "name": "Shortcut",
+          "children": [
+            {
+              "name": "New-Shortcut"
+            }
+          ]
+        },
+        {
+          "name": "ACGCoreRegexPattern",
+          "children": [
+            {
+              "name": "Get-ACGCoreRegexPattern"
+            },
+            {
+              "name": "Test-ACGCoreRegexPattern"
+            }
+          ]
+        },
+        {
+          "name": "ACGCoreRegexPatternNames",
+          "children": [
+            {
+              "name": "Get-ACGCoreRegexPatternNames"
+            }
+          ]
+        },
+        {
+          "name": "SecureString",
+          "children": [
+            {
+              "name": "Unlock-SecureString"
+            },
+            {
+              "name": "Import-SecureString"
+            },
+            {
+              "name": "Export-SecureString"
+            }
+          ]
+        },
+        {
+          "name": "CertificateSecuredString",
+          "children": [
+            {
+              "name": "ConvertTo-CertificateSecuredString"
+            },
+            {
+              "name": "ConvertFrom-CertificateSecuredString"
+            }
+          ]
+        },
+        {
+          "name": "PSCredential",
+          "children": [
+            {
+              "name": "Restore-PSCredential"
+            },
+            {
+              "name": "New-PSCredential"
+            },
+            {
+              "name": "Save-PSCredential"
+            },
+            {
+              "name": "ConvertFrom-PSCredential"
+            },
+            {
+              "name": "ConvertTo-PSCredential"
+            }
+          ]
+        },
+        {
+          "name": "LogonOp",
+          "children": [
+            {
+              "name": "Add-LogonOp"
+            },
+            {
+              "name": "Remove-LogonOp"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentPath",
+          "children": [
+            {
+              "name": "Add-EnvironmentPath"
+            },
+            {
+              "name": "Remove-EnvironmentPath"
+            }
+          ]
+        },
+        {
+          "name": "RegValue",
+          "children": [
+            {
+              "name": "Get-RegValue"
+            },
+            {
+              "name": "Set-RegValue"
+            }
+          ]
+        },
+        {
+          "name": "EnvironmentPaths",
+          "children": [
+            {
+              "name": "Get-EnvironmentPaths"
+            }
+          ]
+        },
+        {
+          "name": "ProcessPrivilege",
+          "children": [
+            {
+              "name": "Set-ProcessPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "RegKeyOwner",
+          "children": [
+            {
+              "name": "Set-RegKeyOwner"
+            }
+          ]
+        },
+        {
+          "name": "WinAutoLogon",
+          "children": [
+            {
+              "name": "Set-WinAutoLogon"
+            }
+          ]
+        },
+        {
+          "name": "Base64String",
+          "children": [
+            {
+              "name": "ConvertTo-Base64String"
+            },
+            {
+              "name": "ConvertFrom-Base64String"
+            }
+          ]
+        },
+        {
+          "name": "UnicodeEscapedString",
+          "children": [
+            {
+              "name": "ConvertTo-UnicodeEscapedString"
+            },
+            {
+              "name": "ConvertFrom-UnicodeEscapedString"
+            }
+          ]
+        },
+        {
+          "name": "RandomString",
+          "children": [
+            {
+              "name": "New-RandomString"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MDTDatabase",
+      "companyName": "N A",
+      "author": "Joakim Olsson  joakim.olsson adicitus.cloud",
+      "children": [
+        {
+          "name": "MDTComputerAdministrator",
+          "children": [
+            {
+              "name": "Clear-MDTComputerAdministrator"
+            },
+            {
+              "name": "Get-MDTComputerAdministrator"
+            },
+            {
+              "name": "Set-MDTComputerAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "MDTComputerApplication",
+          "children": [
+            {
+              "name": "Clear-MDTComputerApplication"
+            },
+            {
+              "name": "Get-MDTComputerApplication"
+            },
+            {
+              "name": "Set-MDTComputerApplication"
+            }
+          ]
+        },
+        {
+          "name": "MDTComputerPackage",
+          "children": [
+            {
+              "name": "Clear-MDTComputerPackage"
+            },
+            {
+              "name": "Get-MDTComputerPackage"
+            },
+            {
+              "name": "Set-MDTComputerPackage"
+            }
+          ]
+        },
+        {
+          "name": "MDTComputerRole",
+          "children": [
+            {
+              "name": "Clear-MDTComputerRole"
+            },
+            {
+              "name": "Get-MDTComputerRole"
+            },
+            {
+              "name": "Set-MDTComputerRole"
+            }
+          ]
+        },
+        {
+          "name": "MDTLocationAdministrator",
+          "children": [
+            {
+              "name": "Clear-MDTLocationAdministrator"
+            },
+            {
+              "name": "Get-MDTLocationAdministrator"
+            },
+            {
+              "name": "Set-MDTLocationAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "MDTLocationApplication",
+          "children": [
+            {
+              "name": "Clear-MDTLocationApplication"
+            },
+            {
+              "name": "Get-MDTLocationApplication"
+            },
+            {
+              "name": "Set-MDTLocationApplication"
+            }
+          ]
+        },
+        {
+          "name": "MDTLocationPackage",
+          "children": [
+            {
+              "name": "Clear-MDTLocationPackage"
+            },
+            {
+              "name": "Get-MDTLocationPackage"
+            },
+            {
+              "name": "Set-MDTLocationPackage"
+            }
+          ]
+        },
+        {
+          "name": "MDTMakeModelAdministrator",
+          "children": [
+            {
+              "name": "Clear-MDTMakeModelAdministrator"
+            },
+            {
+              "name": "Get-MDTMakeModelAdministrator"
+            },
+            {
+              "name": "Set-MDTMakeModelAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "MDTMakeModelApplication",
+          "children": [
+            {
+              "name": "Clear-MDTMakeModelApplication"
+            },
+            {
+              "name": "Get-MDTMakeModelApplication"
+            },
+            {
+              "name": "Set-MDTMakeModelApplication"
+            }
+          ]
+        },
+        {
+          "name": "MDTMakeModelPackage",
+          "children": [
+            {
+              "name": "Clear-MDTMakeModelPackage"
+            },
+            {
+              "name": "Get-MDTMakeModelPackage"
+            },
+            {
+              "name": "Set-MDTMakeModelPackage"
+            }
+          ]
+        },
+        {
+          "name": "MDTMakeModelRole",
+          "children": [
+            {
+              "name": "Clear-MDTMakeModelRole"
+            },
+            {
+              "name": "Get-MDTMakeModelRole"
+            },
+            {
+              "name": "Set-MDTMakeModelRole"
+            }
+          ]
+        },
+        {
+          "name": "MDTRoleAdministrator",
+          "children": [
+            {
+              "name": "Clear-MDTRoleAdministrator"
+            },
+            {
+              "name": "Get-MDTRoleAdministrator"
+            },
+            {
+              "name": "Set-MDTRoleAdministrator"
+            }
+          ]
+        },
+        {
+          "name": "MDTRoleApplication",
+          "children": [
+            {
+              "name": "Clear-MDTRoleApplication"
+            },
+            {
+              "name": "Get-MDTRoleApplication"
+            },
+            {
+              "name": "Set-MDTRoleApplication"
+            }
+          ]
+        },
+        {
+          "name": "MDTRolePackage",
+          "children": [
+            {
+              "name": "Clear-MDTRolePackage"
+            },
+            {
+              "name": "Get-MDTRolePackage"
+            },
+            {
+              "name": "Set-MDTRolePackage"
+            }
+          ]
+        },
+        {
+          "name": "MDTRoleRole",
+          "children": [
+            {
+              "name": "Clear-MDTRoleRole"
+            },
+            {
+              "name": "Get-MDTRoleRole"
+            },
+            {
+              "name": "Set-MDTRoleRole"
+            }
+          ]
+        },
+        {
+          "name": "MDTDatabase",
+          "children": [
+            {
+              "name": "Connect-MDTDatabase"
+            }
+          ]
+        },
+        {
+          "name": "MDTComputer",
+          "children": [
+            {
+              "name": "Get-MDTComputer"
+            },
+            {
+              "name": "New-MDTComputer"
+            },
+            {
+              "name": "Remove-MDTComputer"
+            },
+            {
+              "name": "Set-MDTComputer"
+            }
+          ]
+        },
+        {
+          "name": "MDTComputerIdentity",
+          "children": [
+            {
+              "name": "Get-MDTComputerIdentity"
+            },
+            {
+              "name": "Set-MDTComputerIdentity"
+            }
+          ]
+        },
+        {
+          "name": "MDTLocation",
+          "children": [
+            {
+              "name": "Get-MDTLocation"
+            },
+            {
+              "name": "New-MDTLocation"
+            },
+            {
+              "name": "Remove-MDTLocation"
+            },
+            {
+              "name": "Set-MDTLocation"
+            }
+          ]
+        },
+        {
+          "name": "MDTLocationRole",
+          "children": [
+            {
+              "name": "Get-MDTLocationRole"
+            },
+            {
+              "name": "Set-MDTLocationRole"
+            }
+          ]
+        },
+        {
+          "name": "MDTMakeModel",
+          "children": [
+            {
+              "name": "Get-MDTMakeModel"
+            },
+            {
+              "name": "New-MDTMakeModel"
+            },
+            {
+              "name": "Remove-MDTMakeModel"
+            },
+            {
+              "name": "Set-MDTMakeModel"
+            }
+          ]
+        },
+        {
+          "name": "MDTPackageMapping",
+          "children": [
+            {
+              "name": "Get-MDTPackageMapping"
+            },
+            {
+              "name": "New-MDTPackageMapping"
+            },
+            {
+              "name": "Remove-MDTPackageMapping"
+            },
+            {
+              "name": "Set-MDTPackageMapping"
+            }
+          ]
+        },
+        {
+          "name": "MDTRole",
+          "children": [
+            {
+              "name": "Get-MDTRole"
+            },
+            {
+              "name": "New-MDTRole"
+            },
+            {
+              "name": "Remove-MDTRole"
+            },
+            {
+              "name": "Set-MDTRole"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

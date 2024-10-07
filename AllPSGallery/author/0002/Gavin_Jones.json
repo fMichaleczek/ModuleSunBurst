@@ -1,0 +1,105 @@
+{
+  "name": "Gavin Jones",
+  "children": [
+    {
+      "name": "PFCore",
+      "companyName": "Power Farming",
+      "author": "Gavin Jones",
+      "children": [
+        {
+          "name": "TextColumnsToObject",
+          "children": [
+            {
+              "name": "Convert-TextColumnsToObject"
+            }
+          ]
+        },
+        {
+          "name": "ChildDirectories",
+          "children": [
+            {
+              "name": "Find-ChildDirectories"
+            }
+          ]
+        },
+        {
+          "name": "ChildItems",
+          "children": [
+            {
+              "name": "Find-ChildItems"
+            }
+          ]
+        },
+        {
+          "name": "ParentPathSegments",
+          "children": [
+            {
+              "name": "Get-ParentPathSegments"
+            }
+          ]
+        },
+        {
+          "name": "SignChildren",
+          "children": [
+            {
+              "name": "Invoke-SignChildren"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "children": [
+            {
+              "name": "Join-Object"
+            },
+            {
+              "name": "Merge-Object"
+            },
+            {
+              "name": "Use-Object"
+            }
+          ]
+        },
+        {
+          "name": "Hash",
+          "children": [
+            {
+              "name": "Merge-Hash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PFDockerCore",
+      "companyName": "Power Farming",
+      "author": "Gavin Jones",
+      "children": [
+        {
+          "name": "DockerRunningInContainer",
+          "children": [
+            {
+              "name": "Test-DockerRunningInContainer"
+            }
+          ]
+        },
+        {
+          "name": "DockerInfraNetworks",
+          "children": [
+            {
+              "name": "Update-DockerInfraNetworks"
+            }
+          ]
+        },
+        {
+          "name": "DockerInfraVolumes",
+          "children": [
+            {
+              "name": "Update-DockerInfraVolumes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4092 @@
+{
+  "name": "BAMCIS",
+  "children": [
+    {
+      "name": "ActiveDirectoryStig",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "ActiveDirectoryStigItems",
+          "children": [
+            {
+              "name": "Set-ActiveDirectoryStigItems"
+            }
+          ]
+        },
+        {
+          "name": "NTDSFilePermissions",
+          "children": [
+            {
+              "name": "Set-NTDSFilePermissions"
+            }
+          ]
+        },
+        {
+          "name": "RIDManagerAuditing",
+          "children": [
+            {
+              "name": "Set-RIDManagerAuditing"
+            }
+          ]
+        },
+        {
+          "name": "PolicyContainerAuditing",
+          "children": [
+            {
+              "name": "Set-PolicyContainerAuditing"
+            }
+          ]
+        },
+        {
+          "name": "MaxConnectionIdleTime",
+          "children": [
+            {
+              "name": "Set-MaxConnectionIdleTime"
+            }
+          ]
+        },
+        {
+          "name": "InfrastructureObjectAuditing",
+          "children": [
+            {
+              "name": "Set-InfrastructureObjectAuditing"
+            }
+          ]
+        },
+        {
+          "name": "DsHeuristics",
+          "children": [
+            {
+              "name": "Set-DsHeuristics"
+            }
+          ]
+        },
+        {
+          "name": "DomainControllersOUAuditing",
+          "children": [
+            {
+              "name": "Set-DomainControllersOUAuditing"
+            }
+          ]
+        },
+        {
+          "name": "DomainAuditing",
+          "children": [
+            {
+              "name": "Set-DomainAuditing"
+            }
+          ]
+        },
+        {
+          "name": "AdminSDHolderAuditing",
+          "children": [
+            {
+              "name": "Set-AdminSDHolderAuditing"
+            }
+          ]
+        },
+        {
+          "name": "Auditing",
+          "children": [
+            {
+              "name": "Set-Auditing"
+            }
+          ]
+        },
+        {
+          "name": "InfrastructureObjectAuditRuleSet",
+          "children": [
+            {
+              "name": "New-InfrastructureObjectAuditRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "DomainControllersAuditRuleSet",
+          "children": [
+            {
+              "name": "New-DomainControllersAuditRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "EveryoneAuditRuleSet",
+          "children": [
+            {
+              "name": "New-EveryoneAuditRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "DomainAuditRuleSet",
+          "children": [
+            {
+              "name": "New-DomainAuditRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "PolicyContainerAuditRuleSet",
+          "children": [
+            {
+              "name": "New-PolicyContainerAuditRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "RIDManagerAuditRuleSet",
+          "children": [
+            {
+              "name": "New-RIDManagerAuditRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "ForestDomains",
+          "children": [
+            {
+              "name": "Get-ForestDomains"
+            }
+          ]
+        },
+        {
+          "name": "Results",
+          "children": [
+            {
+              "name": "Write-Results"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ActiveDirectoryTools",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "WmiFiltersFromJson",
+          "children": [
+            {
+              "name": "Import-WmiFiltersFromJson"
+            }
+          ]
+        },
+        {
+          "name": "GPOPermissionsFromJson",
+          "children": [
+            {
+              "name": "Import-GPOPermissionsFromJson"
+            }
+          ]
+        },
+        {
+          "name": "GPOBackupsAndWmiFilters",
+          "children": [
+            {
+              "name": "Export-GPOBackupsAndWmiFilters"
+            }
+          ]
+        },
+        {
+          "name": "GPOPermissions",
+          "children": [
+            {
+              "name": "Export-GPOPermissions"
+            }
+          ]
+        },
+        {
+          "name": "FullGPOBackups",
+          "children": [
+            {
+              "name": "Import-FullGPOBackups"
+            }
+          ]
+        },
+        {
+          "name": "WmiFilter",
+          "children": [
+            {
+              "name": "Get-WmiFilter"
+            }
+          ]
+        },
+        {
+          "name": "StandardGPOWmiFilters",
+          "children": [
+            {
+              "name": "New-StandardGPOWmiFilters"
+            }
+          ]
+        },
+        {
+          "name": "GPOWmiFilter",
+          "children": [
+            {
+              "name": "New-GPOWmiFilter"
+            }
+          ]
+        },
+        {
+          "name": "PDCEmulatorSrvRecords",
+          "children": [
+            {
+              "name": "Set-PDCEmulatorSrvRecords"
+            }
+          ]
+        },
+        {
+          "name": "SDProp",
+          "children": [
+            {
+              "name": "Start-SDProp"
+            }
+          ]
+        },
+        {
+          "name": "SDPropSchedule",
+          "children": [
+            {
+              "name": "Set-SDPropSchedule"
+            }
+          ]
+        },
+        {
+          "name": "SPNWriteOnProtectedADObjects",
+          "children": [
+            {
+              "name": "Grant-SPNWriteOnProtectedADObjects"
+            }
+          ]
+        },
+        {
+          "name": "ADObjectAcl",
+          "children": [
+            {
+              "name": "Set-ADObjectAcl"
+            }
+          ]
+        },
+        {
+          "name": "KerberosDelegationInformation",
+          "children": [
+            {
+              "name": "Get-KerberosDelegationInformation"
+            }
+          ]
+        },
+        {
+          "name": "IsEnterpriseAdmin",
+          "children": [
+            {
+              "name": "Test-IsEnterpriseAdmin"
+            }
+          ]
+        },
+        {
+          "name": "IsEnterpriseOrDomainAdmin",
+          "children": [
+            {
+              "name": "Test-IsEnterpriseOrDomainAdmin"
+            }
+          ]
+        },
+        {
+          "name": "IsDomainAdmin",
+          "children": [
+            {
+              "name": "Test-IsDomainAdmin"
+            }
+          ]
+        },
+        {
+          "name": "ADObject",
+          "children": [
+            {
+              "name": "ConvertTo-ADObject"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupMembershipChangeSummary",
+          "children": [
+            {
+              "name": "Get-ADGroupMembershipChangeSummary"
+            }
+          ]
+        },
+        {
+          "name": "ADObjectPropertyChangeInfo",
+          "children": [
+            {
+              "name": "Get-ADObjectPropertyChangeInfo"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupMembershipAddInfo",
+          "children": [
+            {
+              "name": "Get-ADGroupMembershipAddInfo"
+            }
+          ]
+        },
+        {
+          "name": "ADPrincipalDetails",
+          "children": [
+            {
+              "name": "Get-ADPrincipalDetails"
+            }
+          ]
+        },
+        {
+          "name": "ADPrincipalGroupMembership",
+          "children": [
+            {
+              "name": "Get-ADPrincipalGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "ADGroupMembers",
+          "children": [
+            {
+              "name": "Get-ADGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "OldADUsers",
+          "children": [
+            {
+              "name": "Get-OldADUsers"
+            }
+          ]
+        },
+        {
+          "name": "ADUserAccountControl",
+          "children": [
+            {
+              "name": "Get-ADUserAccountControl"
+            }
+          ]
+        },
+        {
+          "name": "ADComputerSite",
+          "children": [
+            {
+              "name": "Get-ADComputerSite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ASN.1",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "ASN1Content",
+          "children": [
+            {
+              "name": "Read-ASN1Content"
+            }
+          ]
+        },
+        {
+          "name": "ASN1ValueLength",
+          "children": [
+            {
+              "name": "Get-ASN1ValueLength"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AssetInventory",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "AssetInventory",
+          "children": [
+            {
+              "name": "Get-AssetInventory"
+            }
+          ]
+        },
+        {
+          "name": "Host",
+          "children": [
+            {
+              "name": "Ping-Host"
+            }
+          ]
+        },
+        {
+          "name": "RegistryEntry",
+          "children": [
+            {
+              "name": "Test-RegistryEntry"
+            }
+          ]
+        },
+        {
+          "name": "UDPPorts",
+          "children": [
+            {
+              "name": "Get-UDPPorts"
+            }
+          ]
+        },
+        {
+          "name": "TCPPorts",
+          "children": [
+            {
+              "name": "Get-TCPPorts"
+            }
+          ]
+        },
+        {
+          "name": "SystemServices",
+          "children": [
+            {
+              "name": "Get-SystemServices"
+            }
+          ]
+        },
+        {
+          "name": "USBDevices",
+          "children": [
+            {
+              "name": "Get-USBDevices"
+            }
+          ]
+        },
+        {
+          "name": "PendingReboots",
+          "children": [
+            {
+              "name": "Get-PendingReboots"
+            }
+          ]
+        },
+        {
+          "name": "MicrosoftUpdates",
+          "children": [
+            {
+              "name": "Get-MicrosoftUpdates"
+            }
+          ]
+        },
+        {
+          "name": "MissingWindowsUpdates",
+          "children": [
+            {
+              "name": "Get-MissingWindowsUpdates"
+            }
+          ]
+        },
+        {
+          "name": "64BitSoftware",
+          "children": [
+            {
+              "name": "Get-64BitSoftware"
+            }
+          ]
+        },
+        {
+          "name": "32BitSoftware",
+          "children": [
+            {
+              "name": "Get-32BitSoftware"
+            }
+          ]
+        },
+        {
+          "name": "NetworkAdapters",
+          "children": [
+            {
+              "name": "Get-NetworkAdapters"
+            }
+          ]
+        },
+        {
+          "name": "MemoryStatistics",
+          "children": [
+            {
+              "name": "Get-MemoryStatistics"
+            }
+          ]
+        },
+        {
+          "name": "OperatingSystem",
+          "children": [
+            {
+              "name": "Get-OperatingSystem"
+            }
+          ]
+        },
+        {
+          "name": "CPU",
+          "children": [
+            {
+              "name": "Get-CPU"
+            }
+          ]
+        },
+        {
+          "name": "BIOS",
+          "children": [
+            {
+              "name": "Get-BIOS"
+            }
+          ]
+        },
+        {
+          "name": "DiskInformation",
+          "children": [
+            {
+              "name": "Get-DiskInformation"
+            }
+          ]
+        },
+        {
+          "name": "ComputerSystemInformation",
+          "children": [
+            {
+              "name": "Get-ComputerSystemInformation"
+            }
+          ]
+        },
+        {
+          "name": "DnsInformation",
+          "children": [
+            {
+              "name": "Get-DnsInformation"
+            }
+          ]
+        },
+        {
+          "name": "InstalledWindowsFeatures",
+          "children": [
+            {
+              "name": "Get-InstalledWindowsFeatures"
+            }
+          ]
+        },
+        {
+          "name": "GPResult",
+          "children": [
+            {
+              "name": "Get-GPResult"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AWSPriceList",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "AWSPriceListProductInformation",
+          "children": [
+            {
+              "name": "Get-AWSPriceListProductInformation"
+            }
+          ]
+        },
+        {
+          "name": "AWSPriceListServices",
+          "children": [
+            {
+              "name": "Get-AWSPriceListServices"
+            }
+          ]
+        },
+        {
+          "name": "AWSPriceListCurrentOfferUrls",
+          "children": [
+            {
+              "name": "Get-AWSPriceListCurrentOfferUrls"
+            }
+          ]
+        },
+        {
+          "name": "AWSPriceListOffersIndexFile",
+          "children": [
+            {
+              "name": "Get-AWSPriceListOffersIndexFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AwsUtilities",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "S3ETagCalculation",
+          "children": [
+            {
+              "name": "Get-S3ETagCalculation"
+            }
+          ]
+        },
+        {
+          "name": "EC2InstanceRegion",
+          "children": [
+            {
+              "name": "Get-EC2InstanceRegion"
+            }
+          ]
+        },
+        {
+          "name": "EC2InstanceId",
+          "children": [
+            {
+              "name": "Get-EC2InstanceId"
+            }
+          ]
+        },
+        {
+          "name": "EC2InstanceByNameOrId",
+          "children": [
+            {
+              "name": "Get-EC2InstanceByNameOrId"
+            }
+          ]
+        },
+        {
+          "name": "EC2InstanceState",
+          "children": [
+            {
+              "name": "Set-EC2InstanceState"
+            }
+          ]
+        },
+        {
+          "name": "EC2CurrentImageIds",
+          "children": [
+            {
+              "name": "Get-EC2CurrentImageIds"
+            }
+          ]
+        },
+        {
+          "name": "EC2Instance",
+          "children": [
+            {
+              "name": "Move-EC2Instance"
+            }
+          ]
+        },
+        {
+          "name": "EC2InstanceLaunchParameters",
+          "children": [
+            {
+              "name": "Copy-EC2InstanceLaunchParameters"
+            }
+          ]
+        },
+        {
+          "name": "EC2InstanceNetworkInterfaces",
+          "children": [
+            {
+              "name": "Dismount-EC2InstanceNetworkInterfaces"
+            }
+          ]
+        },
+        {
+          "name": "EC2NetworkInterfaceAttachmentWait",
+          "children": [
+            {
+              "name": "Invoke-EC2NetworkInterfaceAttachmentWait"
+            }
+          ]
+        },
+        {
+          "name": "EC2InstanceImageId",
+          "children": [
+            {
+              "name": "Update-EC2InstanceImageId"
+            }
+          ]
+        },
+        {
+          "name": "AWSAccountId",
+          "children": [
+            {
+              "name": "Get-AWSAccountId"
+            }
+          ]
+        },
+        {
+          "name": "AWSIAMPrincipalId",
+          "children": [
+            {
+              "name": "Get-AWSIAMPrincipalId"
+            }
+          ]
+        },
+        {
+          "name": "AWSFederationLogonUrl",
+          "children": [
+            {
+              "name": "Get-AWSFederationLogonUrl"
+            }
+          ]
+        },
+        {
+          "name": "AWSIAMRoleSummary",
+          "children": [
+            {
+              "name": "Get-AWSIAMRoleSummary"
+            }
+          ]
+        },
+        {
+          "name": "AWSSessionTokenCredential",
+          "children": [
+            {
+              "name": "Get-AWSSessionTokenCredential"
+            }
+          ]
+        },
+        {
+          "name": "AWSCrossAccountCommand",
+          "children": [
+            {
+              "name": "Invoke-AWSCrossAccountCommand"
+            }
+          ]
+        },
+        {
+          "name": "EBSAutomatedSnapshot",
+          "children": [
+            {
+              "name": "New-EBSAutomatedSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "EBSVolume",
+          "children": [
+            {
+              "name": "Copy-EBSVolume"
+            }
+          ]
+        },
+        {
+          "name": "EBSVolumes",
+          "children": [
+            {
+              "name": "Mount-EBSVolumes"
+            },
+            {
+              "name": "Dismount-EBSVolumes"
+            }
+          ]
+        },
+        {
+          "name": "EBSVolumeAttachmentWait",
+          "children": [
+            {
+              "name": "Invoke-EBSVolumeAttachmentWait"
+            }
+          ]
+        },
+        {
+          "name": "AWSSplat",
+          "children": [
+            {
+              "name": "New-AWSSplat"
+            }
+          ]
+        },
+        {
+          "name": "AWSUtilitiesSplat",
+          "children": [
+            {
+              "name": "New-AWSUtilitiesSplat"
+            }
+          ]
+        },
+        {
+          "name": "AWSKMSEncryptString",
+          "children": [
+            {
+              "name": "Invoke-AWSKMSEncryptString"
+            }
+          ]
+        },
+        {
+          "name": "AWSKMSDecryptString",
+          "children": [
+            {
+              "name": "Invoke-AWSKMSDecryptString"
+            }
+          ]
+        },
+        {
+          "name": "AWSVpcEndpointsByLocation",
+          "children": [
+            {
+              "name": "Get-AWSVpcEndpointsByLocation"
+            }
+          ]
+        },
+        {
+          "name": "AWSVpcPeeringSummary",
+          "children": [
+            {
+              "name": "Get-AWSVpcPeeringSummary"
+            }
+          ]
+        },
+        {
+          "name": "AWSCloudTrailLogs",
+          "children": [
+            {
+              "name": "Get-AWSCloudTrailLogs"
+            }
+          ]
+        },
+        {
+          "name": "AWSSupportCaseList",
+          "children": [
+            {
+              "name": "Get-AWSSupportCaseList"
+            }
+          ]
+        },
+        {
+          "name": "AWSNetworkAdapterFixOnOfflineDisk",
+          "children": [
+            {
+              "name": "Invoke-AWSNetworkAdapterFixOnOfflineDisk"
+            }
+          ]
+        },
+        {
+          "name": "AWSNetworkAdapterFixOnRemoteInstance",
+          "children": [
+            {
+              "name": "Invoke-AWSNetworkAdapterFixOnRemoteInstance"
+            }
+          ]
+        },
+        {
+          "name": "EnableCloudWatch",
+          "children": [
+            {
+              "name": "Invoke-EnableCloudWatch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.Base64",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "Base64UrlEscape",
+          "children": [
+            {
+              "name": "Invoke-Base64UrlEscape"
+            }
+          ]
+        },
+        {
+          "name": "Base64UrlUnescape",
+          "children": [
+            {
+              "name": "Invoke-Base64UrlUnescape"
+            }
+          ]
+        },
+        {
+          "name": "Base64UrlEncoding",
+          "children": [
+            {
+              "name": "ConvertTo-Base64UrlEncoding"
+            },
+            {
+              "name": "ConvertFrom-Base64UrlEncoding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.ByteArrays",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "ByteArrayPadding",
+          "children": [
+            {
+              "name": "Set-ByteArrayPadding"
+            },
+            {
+              "name": "Remove-ByteArrayPadding"
+            }
+          ]
+        },
+        {
+          "name": "ByteArrayTrim",
+          "children": [
+            {
+              "name": "Invoke-ByteArrayTrim"
+            }
+          ]
+        },
+        {
+          "name": "Hex",
+          "children": [
+            {
+              "name": "Out-Hex"
+            }
+          ]
+        },
+        {
+          "name": "OIDString",
+          "children": [
+            {
+              "name": "ConvertTo-OIDString"
+            },
+            {
+              "name": "ConvertFrom-OIDString"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.Common",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "RegistryKeyEntries",
+          "children": [
+            {
+              "name": "Get-RegistryKeyEntries"
+            }
+          ]
+        },
+        {
+          "name": "WhereNotMatchIn",
+          "children": [
+            {
+              "name": "Invoke-WhereNotMatchIn"
+            }
+          ]
+        },
+        {
+          "name": "RegistryKeyProperty",
+          "children": [
+            {
+              "name": "Test-RegistryKeyProperty"
+            }
+          ]
+        },
+        {
+          "name": "IsLocalAdmin",
+          "children": [
+            {
+              "name": "Test-IsLocalAdmin"
+            }
+          ]
+        },
+        {
+          "name": "ForEachParallel",
+          "children": [
+            {
+              "name": "Invoke-ForEachParallel"
+            }
+          ]
+        },
+        {
+          "name": "CommandInNewRunspace",
+          "children": [
+            {
+              "name": "Invoke-CommandInNewRunspace"
+            }
+          ]
+        },
+        {
+          "name": "ProcessWait",
+          "children": [
+            {
+              "name": "Start-ProcessWait"
+            }
+          ]
+        },
+        {
+          "name": "Using",
+          "children": [
+            {
+              "name": "Invoke-Using"
+            }
+          ]
+        },
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "ConvertFrom-Xml"
+            }
+          ]
+        },
+        {
+          "name": "HtmlTable",
+          "children": [
+            {
+              "name": "ConvertTo-HtmlTable"
+            }
+          ]
+        },
+        {
+          "name": "Hashtables",
+          "children": [
+            {
+              "name": "Merge-Hashtables"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "SecureStringToString",
+          "children": [
+            {
+              "name": "Convert-SecureStringToString"
+            }
+          ]
+        },
+        {
+          "name": "UnixTimestamp",
+          "children": [
+            {
+              "name": "ConvertFrom-UnixTimestamp"
+            },
+            {
+              "name": "ConvertTo-UnixTimestamp"
+            }
+          ]
+        },
+        {
+          "name": "Assembly",
+          "children": [
+            {
+              "name": "Import-Assembly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.CredentialManager",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "CredManCredential",
+          "children": [
+            {
+              "name": "Get-CredManCredential"
+            },
+            {
+              "name": "Set-CredManCredential"
+            },
+            {
+              "name": "Remove-CredManCredential"
+            }
+          ]
+        },
+        {
+          "name": "CredManCredentialList",
+          "children": [
+            {
+              "name": "Get-CredManCredentialList"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.Crypto",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "RSAPrivateKeyPEM",
+          "children": [
+            {
+              "name": "ConvertFrom-RSAPrivateKeyPEM"
+            }
+          ]
+        },
+        {
+          "name": "RSAPublicKeyPEM",
+          "children": [
+            {
+              "name": "ConvertFrom-RSAPublicKeyPEM"
+            }
+          ]
+        },
+        {
+          "name": "DSAPrivateKeyPEM",
+          "children": [
+            {
+              "name": "ConvertFrom-DSAPrivateKeyPEM"
+            }
+          ]
+        },
+        {
+          "name": "DSAPublicKeyPEM",
+          "children": [
+            {
+              "name": "ConvertFrom-DSAPublicKeyPEM"
+            }
+          ]
+        },
+        {
+          "name": "PrivateKeyPEM",
+          "children": [
+            {
+              "name": "ConvertFrom-PrivateKeyPEM"
+            }
+          ]
+        },
+        {
+          "name": "PublicKeyPEM",
+          "children": [
+            {
+              "name": "ConvertFrom-PublicKeyPEM"
+            }
+          ]
+        },
+        {
+          "name": "PEM",
+          "children": [
+            {
+              "name": "ConvertFrom-PEM"
+            }
+          ]
+        },
+        {
+          "name": "RSACryptoServiceProvider",
+          "children": [
+            {
+              "name": "New-RSACryptoServiceProvider"
+            }
+          ]
+        },
+        {
+          "name": "DSACryptoServiceProvider",
+          "children": [
+            {
+              "name": "New-DSACryptoServiceProvider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.DynamicParam",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "UnboundParameterCode",
+          "children": [
+            {
+              "name": "Import-UnboundParameterCode"
+            }
+          ]
+        },
+        {
+          "name": "DynamicParameter",
+          "children": [
+            {
+              "name": "New-DynamicParameter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.FileIO",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "FileSecurity",
+          "children": [
+            {
+              "name": "Set-FileSecurity"
+            }
+          ]
+        },
+        {
+          "name": "Owner",
+          "children": [
+            {
+              "name": "Set-Owner"
+            }
+          ]
+        },
+        {
+          "name": "ForceDelete",
+          "children": [
+            {
+              "name": "Invoke-ForceDelete"
+            }
+          ]
+        },
+        {
+          "name": "FileOrDirectory",
+          "children": [
+            {
+              "name": "Rename-FileOrDirectory"
+            }
+          ]
+        },
+        {
+          "name": "FileVersion",
+          "children": [
+            {
+              "name": "Get-FileVersion"
+            }
+          ]
+        },
+        {
+          "name": "ExtractZip",
+          "children": [
+            {
+              "name": "Invoke-ExtractZip"
+            }
+          ]
+        },
+        {
+          "name": "ExtractGZip",
+          "children": [
+            {
+              "name": "Invoke-ExtractGZip"
+            }
+          ]
+        },
+        {
+          "name": "ISO",
+          "children": [
+            {
+              "name": "New-ISO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.Logging",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        },
+        {
+          "name": "CMTraceLog",
+          "children": [
+            {
+              "name": "Write-CMTraceLog"
+            }
+          ]
+        },
+        {
+          "name": "CallerPreference",
+          "children": [
+            {
+              "name": "Get-CallerPreference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.Networking",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "Port",
+          "children": [
+            {
+              "name": "Test-Port"
+            }
+          ]
+        },
+        {
+          "name": "InUsePorts",
+          "children": [
+            {
+              "name": "Get-InUsePorts"
+            }
+          ]
+        },
+        {
+          "name": "NetAdapterDnsSuffix",
+          "children": [
+            {
+              "name": "Set-NetAdapterDnsSuffix"
+            }
+          ]
+        },
+        {
+          "name": "NetAdapterErrorCode",
+          "children": [
+            {
+              "name": "Get-NetAdapterErrorCode"
+            }
+          ]
+        },
+        {
+          "name": "IPv6ConfigurationOptions",
+          "children": [
+            {
+              "name": "Get-IPv6ConfigurationOptions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.OffensiveSecurity",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "PortScan",
+          "children": [
+            {
+              "name": "Start-PortScan"
+            }
+          ]
+        },
+        {
+          "name": "WebHistory",
+          "children": [
+            {
+              "name": "Get-WebHistory"
+            }
+          ]
+        },
+        {
+          "name": "LsaSecret",
+          "children": [
+            {
+              "name": "Get-LsaSecret"
+            }
+          ]
+        },
+        {
+          "name": "WifiProfiles",
+          "children": [
+            {
+              "name": "Get-WifiProfiles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.TokenManipulation",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "TokenGroups",
+          "children": [
+            {
+              "name": "Get-TokenGroups"
+            }
+          ]
+        },
+        {
+          "name": "TokenGroupMembership",
+          "children": [
+            {
+              "name": "Update-TokenGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "ProcessToken",
+          "children": [
+            {
+              "name": "Get-ProcessToken"
+            },
+            {
+              "name": "Set-ProcessToken"
+            },
+            {
+              "name": "Reset-ProcessToken"
+            }
+          ]
+        },
+        {
+          "name": "TokenPrivilege",
+          "children": [
+            {
+              "name": "Set-TokenPrivilege"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAMCIS.UserAccounts",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "UserProfiles",
+          "children": [
+            {
+              "name": "Get-UserProfiles"
+            }
+          ]
+        },
+        {
+          "name": "UserProfile",
+          "children": [
+            {
+              "name": "Remove-UserProfile"
+            }
+          ]
+        },
+        {
+          "name": "AccountSid",
+          "children": [
+            {
+              "name": "Get-AccountSid"
+            }
+          ]
+        },
+        {
+          "name": "AccountTranslatedNTName",
+          "children": [
+            {
+              "name": "Get-AccountTranslatedNTName"
+            }
+          ]
+        },
+        {
+          "name": "LocalGroupMembers",
+          "children": [
+            {
+              "name": "Get-LocalGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "DomainMemberToLocalGroup",
+          "children": [
+            {
+              "name": "Add-DomainMemberToLocalGroup"
+            }
+          ]
+        },
+        {
+          "name": "LocalAdminPassword",
+          "children": [
+            {
+              "name": "Set-LocalAdminPassword"
+            }
+          ]
+        },
+        {
+          "name": "IsLocalAdmin",
+          "children": [
+            {
+              "name": "Test-IsLocalAdmin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CloudEndure",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "CEProfile",
+          "children": [
+            {
+              "name": "New-CEProfile"
+            },
+            {
+              "name": "Get-CEProfile"
+            },
+            {
+              "name": "Remove-CEProfile"
+            }
+          ]
+        },
+        {
+          "name": "CESession",
+          "children": [
+            {
+              "name": "New-CESession"
+            },
+            {
+              "name": "Get-CESession"
+            },
+            {
+              "name": "Remove-CESession"
+            }
+          ]
+        },
+        {
+          "name": "CEBlueprint",
+          "children": [
+            {
+              "name": "New-CEBlueprint"
+            },
+            {
+              "name": "Get-CEBlueprint"
+            },
+            {
+              "name": "Set-CEBlueprint"
+            }
+          ]
+        },
+        {
+          "name": "CEMachineRecoveryPoints",
+          "children": [
+            {
+              "name": "Get-CEMachineRecoveryPoints"
+            }
+          ]
+        },
+        {
+          "name": "CEMachineBandwidth",
+          "children": [
+            {
+              "name": "Get-CEMachineBandwidth"
+            },
+            {
+              "name": "Set-CEMachineBandwidth"
+            }
+          ]
+        },
+        {
+          "name": "CEReplicationConfiguration",
+          "children": [
+            {
+              "name": "New-CEReplicationConfiguration"
+            },
+            {
+              "name": "Get-CEReplicationConfiguration"
+            },
+            {
+              "name": "Set-CEReplicationConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "CEUser",
+          "children": [
+            {
+              "name": "Get-CEUser"
+            }
+          ]
+        },
+        {
+          "name": "CEConsolePassword",
+          "children": [
+            {
+              "name": "Set-CEConsolePassword"
+            }
+          ]
+        },
+        {
+          "name": "CEEmailNotifications",
+          "children": [
+            {
+              "name": "Set-CEEmailNotifications"
+            }
+          ]
+        },
+        {
+          "name": "CEAccount",
+          "children": [
+            {
+              "name": "Get-CEAccount"
+            }
+          ]
+        },
+        {
+          "name": "CEAccountExtendedInfo",
+          "children": [
+            {
+              "name": "Get-CEAccountExtendedInfo"
+            }
+          ]
+        },
+        {
+          "name": "CELicense",
+          "children": [
+            {
+              "name": "Get-CELicense"
+            }
+          ]
+        },
+        {
+          "name": "CEProject",
+          "children": [
+            {
+              "name": "Get-CEProject"
+            },
+            {
+              "name": "Set-CEProject"
+            },
+            {
+              "name": "New-CEProject"
+            },
+            {
+              "name": "Remove-CEProject"
+            }
+          ]
+        },
+        {
+          "name": "CECloudCredential",
+          "children": [
+            {
+              "name": "New-CECloudCredential"
+            },
+            {
+              "name": "Get-CECloudCredential"
+            },
+            {
+              "name": "Set-CECloudCredential"
+            }
+          ]
+        },
+        {
+          "name": "CECloud",
+          "children": [
+            {
+              "name": "Get-CECloud"
+            }
+          ]
+        },
+        {
+          "name": "CECloudRegion",
+          "children": [
+            {
+              "name": "Get-CECloudRegion"
+            }
+          ]
+        },
+        {
+          "name": "CETargetCloud",
+          "children": [
+            {
+              "name": "Get-CETargetCloud"
+            }
+          ]
+        },
+        {
+          "name": "CESourceCloud",
+          "children": [
+            {
+              "name": "Get-CESourceCloud"
+            }
+          ]
+        },
+        {
+          "name": "CEMachine",
+          "children": [
+            {
+              "name": "Get-CEMachine"
+            },
+            {
+              "name": "Remove-CEMachine"
+            },
+            {
+              "name": "Set-CEMachine"
+            },
+            {
+              "name": "Move-CEMachine"
+            }
+          ]
+        },
+        {
+          "name": "CEMachineReplica",
+          "children": [
+            {
+              "name": "Get-CEMachineReplica"
+            }
+          ]
+        },
+        {
+          "name": "CEInstallationToken",
+          "children": [
+            {
+              "name": "New-CEInstallationToken"
+            },
+            {
+              "name": "Get-CEInstallationToken"
+            }
+          ]
+        },
+        {
+          "name": "CEDataReplication",
+          "children": [
+            {
+              "name": "Start-CEDataReplication"
+            },
+            {
+              "name": "Stop-CEDataReplication"
+            },
+            {
+              "name": "Suspend-CEDataReplication"
+            }
+          ]
+        },
+        {
+          "name": "CEMachineFailover",
+          "children": [
+            {
+              "name": "Invoke-CEMachineFailover"
+            }
+          ]
+        },
+        {
+          "name": "CEMachineTest",
+          "children": [
+            {
+              "name": "Invoke-CEMachineTest"
+            }
+          ]
+        },
+        {
+          "name": "CEMachineCutover",
+          "children": [
+            {
+              "name": "Invoke-CEMachineCutover"
+            }
+          ]
+        },
+        {
+          "name": "CEReplicaCleanup",
+          "children": [
+            {
+              "name": "Invoke-CEReplicaCleanup"
+            }
+          ]
+        },
+        {
+          "name": "CEJobs",
+          "children": [
+            {
+              "name": "Get-CEJobs"
+            }
+          ]
+        },
+        {
+          "name": "CELaunchTargetMachine",
+          "children": [
+            {
+              "name": "Invoke-CELaunchTargetMachine"
+            }
+          ]
+        },
+        {
+          "name": "CEWindowsInstaller",
+          "children": [
+            {
+              "name": "Get-CEWindowsInstaller"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DISA_STIG",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "STIG",
+          "children": [
+            {
+              "name": "Get-STIG"
+            }
+          ]
+        },
+        {
+          "name": "STIGComparison",
+          "children": [
+            {
+              "name": "Get-STIGComparison"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DnsStig",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "DnsServerStig",
+          "children": [
+            {
+              "name": "Set-DnsServerStig"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerProhibitedRecords",
+          "children": [
+            {
+              "name": "Remove-DnsServerProhibitedRecords"
+            },
+            {
+              "name": "Get-DnsServerProhibitedRecords"
+            }
+          ]
+        },
+        {
+          "name": "DnsServersRunningIPv6",
+          "children": [
+            {
+              "name": "Get-DnsServersRunningIPv6"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerNotifySecondaryServers",
+          "children": [
+            {
+              "name": "Set-DnsServerNotifySecondaryServers"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerWINSForwardLookup",
+          "children": [
+            {
+              "name": "Remove-DnsServerWINSForwardLookup"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerCryptoFolderPermissions",
+          "children": [
+            {
+              "name": "Set-DnsServerCryptoFolderPermissions"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerLogPermissions",
+          "children": [
+            {
+              "name": "Set-DnsServerLogPermissions"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerZoneTransfers",
+          "children": [
+            {
+              "name": "Set-DnsServerZoneTransfers"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerZoneIPv6LinkLocalAddresses",
+          "children": [
+            {
+              "name": "Remove-DnsServerZoneIPv6LinkLocalAddresses"
+            }
+          ]
+        },
+        {
+          "name": "InactiveDnsServers",
+          "children": [
+            {
+              "name": "Get-InactiveDnsServers"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerDisableRootHints",
+          "children": [
+            {
+              "name": "Set-DnsServerDisableRootHints"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerRecursionAndForwarders",
+          "children": [
+            {
+              "name": "Set-DnsServerRecursionAndForwarders"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerZoneSecureUpdates",
+          "children": [
+            {
+              "name": "Set-DnsServerZoneSecureUpdates"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerLogging",
+          "children": [
+            {
+              "name": "Set-DnsServerLogging"
+            }
+          ]
+        },
+        {
+          "name": "DnsServerVersionQuery",
+          "children": [
+            {
+              "name": "Set-DnsServerVersionQuery"
+            }
+          ]
+        },
+        {
+          "name": "ForestDnsServers",
+          "children": [
+            {
+              "name": "Get-ForestDnsServers"
+            }
+          ]
+        },
+        {
+          "name": "ForestDnsZones",
+          "children": [
+            {
+              "name": "Get-ForestDnsZones"
+            }
+          ]
+        },
+        {
+          "name": "SpecificServerDnsZones",
+          "children": [
+            {
+              "name": "Get-SpecificServerDnsZones"
+            }
+          ]
+        },
+        {
+          "name": "ForestDnsServerScavenging",
+          "children": [
+            {
+              "name": "Set-ForestDnsServerScavenging"
+            }
+          ]
+        },
+        {
+          "name": "EventLogAccessRuleSet",
+          "children": [
+            {
+              "name": "New-EventLogAccessRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "CryptoFolderAccessRuleSet",
+          "children": [
+            {
+              "name": "New-CryptoFolderAccessRuleSet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ESAE",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "SecureADForest",
+          "children": [
+            {
+              "name": "New-SecureADForest"
+            },
+            {
+              "name": "Install-SecureADForest"
+            }
+          ]
+        },
+        {
+          "name": "ADForestSecurityConfiguration",
+          "children": [
+            {
+              "name": "Set-ADForestSecurityConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ESAEForestConfiguration",
+          "children": [
+            {
+              "name": "Set-ESAEForestConfiguration"
+            }
+          ]
+        },
+        {
+          "name": "ADDSWindowsFeature",
+          "children": [
+            {
+              "name": "Add-ADDSWindowsFeature"
+            }
+          ]
+        },
+        {
+          "name": "LocalAdminPassword",
+          "children": [
+            {
+              "name": "Set-LocalAdminPassword"
+            }
+          ]
+        },
+        {
+          "name": "LocalComputer",
+          "children": [
+            {
+              "name": "Rename-LocalComputer"
+            }
+          ]
+        },
+        {
+          "name": "ADSite",
+          "children": [
+            {
+              "name": "Rename-ADSite"
+            }
+          ]
+        },
+        {
+          "name": "ADSiteSubnet",
+          "children": [
+            {
+              "name": "Add-ADSiteSubnet"
+            }
+          ]
+        },
+        {
+          "name": "ADRecycleBin",
+          "children": [
+            {
+              "name": "Enable-ADRecycleBin"
+            }
+          ]
+        },
+        {
+          "name": "CentralPolicyStore",
+          "children": [
+            {
+              "name": "New-CentralPolicyStore"
+            }
+          ]
+        },
+        {
+          "name": "AdmxBundleToCentralPolicyStore",
+          "children": [
+            {
+              "name": "Add-AdmxBundleToCentralPolicyStore"
+            }
+          ]
+        },
+        {
+          "name": "MSSGPOSettings",
+          "children": [
+            {
+              "name": "New-MSSGPOSettings"
+            }
+          ]
+        },
+        {
+          "name": "StandardForestGroups",
+          "children": [
+            {
+              "name": "New-StandardForestGroups"
+            }
+          ]
+        },
+        {
+          "name": "ManagementGroups",
+          "children": [
+            {
+              "name": "New-ManagementGroups"
+            }
+          ]
+        },
+        {
+          "name": "OUStructure",
+          "children": [
+            {
+              "name": "Set-OUStructure"
+            }
+          ]
+        },
+        {
+          "name": "RecursiveOUStructure",
+          "children": [
+            {
+              "name": "New-RecursiveOUStructure"
+            }
+          ]
+        },
+        {
+          "name": "ADUsers",
+          "children": [
+            {
+              "name": "Import-ADUsers"
+            }
+          ]
+        },
+        {
+          "name": "SysvolFiles",
+          "children": [
+            {
+              "name": "Add-SysvolFiles"
+            }
+          ]
+        },
+        {
+          "name": "GPPMigrationValues",
+          "children": [
+            {
+              "name": "Set-GPPMigrationValues"
+            }
+          ]
+        },
+        {
+          "name": "GPOMigrationTable",
+          "children": [
+            {
+              "name": "New-GPOMigrationTable"
+            }
+          ]
+        },
+        {
+          "name": "GPOLinks",
+          "children": [
+            {
+              "name": "New-GPOLinks"
+            }
+          ]
+        },
+        {
+          "name": "ADForestTrust",
+          "children": [
+            {
+              "name": "New-ADForestTrust"
+            }
+          ]
+        },
+        {
+          "name": "ADForestTrustSelectiveAuthentication",
+          "children": [
+            {
+              "name": "Set-ADForestTrustSelectiveAuthentication"
+            }
+          ]
+        },
+        {
+          "name": "ADForestTrustKerberosSupport",
+          "children": [
+            {
+              "name": "Set-ADForestTrustKerberosSupport"
+            }
+          ]
+        },
+        {
+          "name": "ADForestTrustRelationship",
+          "children": [
+            {
+              "name": "Get-ADForestTrustRelationship"
+            }
+          ]
+        },
+        {
+          "name": "ADForestTrustSIDFiltering",
+          "children": [
+            {
+              "name": "Set-ADForestTrustSIDFiltering"
+            }
+          ]
+        },
+        {
+          "name": "SaveEncryptedPasswordTask",
+          "children": [
+            {
+              "name": "New-SaveEncryptedPasswordTask"
+            }
+          ]
+        },
+        {
+          "name": "InstallSecureADForestScheduledTask",
+          "children": [
+            {
+              "name": "New-InstallSecureADForestScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "FinishSecureADForestInstallationScheduledTask",
+          "children": [
+            {
+              "name": "New-FinishSecureADForestInstallationScheduledTask"
+            }
+          ]
+        },
+        {
+          "name": "RpcAvailability",
+          "children": [
+            {
+              "name": "Test-RpcAvailability"
+            }
+          ]
+        },
+        {
+          "name": "ConfigurationFile",
+          "children": [
+            {
+              "name": "New-ConfigurationFile"
+            }
+          ]
+        },
+        {
+          "name": "CommandText",
+          "children": [
+            {
+              "name": "Get-CommandText"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ESENT",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "ESEDatabase",
+          "children": [
+            {
+              "name": "Get-ESEDatabase"
+            },
+            {
+              "name": "Close-ESEDatabase"
+            }
+          ]
+        },
+        {
+          "name": "ESEDatabaseSession",
+          "children": [
+            {
+              "name": "New-ESEDatabaseSession"
+            }
+          ]
+        },
+        {
+          "name": "ESEDatabaseTableNames",
+          "children": [
+            {
+              "name": "Get-ESEDatabaseTableNames"
+            }
+          ]
+        },
+        {
+          "name": "ESEDatabaseTableColumns",
+          "children": [
+            {
+              "name": "Get-ESEDatabaseTableColumns"
+            }
+          ]
+        },
+        {
+          "name": "ESEDatabaseTableData",
+          "children": [
+            {
+              "name": "Get-ESEDatabaseTableData"
+            }
+          ]
+        },
+        {
+          "name": "ESEDatabaseTableRowData",
+          "children": [
+            {
+              "name": "Get-ESEDatabaseTableRowData"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GoogleAdminDirectory",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "GoogleDirectoryGroup",
+          "children": [
+            {
+              "name": "New-GoogleDirectoryGroup"
+            },
+            {
+              "name": "Set-GoogleDirectoryGroup"
+            },
+            {
+              "name": "Get-GoogleDirectoryGroup"
+            },
+            {
+              "name": "Remove-GoogleDirectoryGroup"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryGroupList",
+          "children": [
+            {
+              "name": "Get-GoogleDirectoryGroupList"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryGroupsForUser",
+          "children": [
+            {
+              "name": "Get-GoogleDirectoryGroupsForUser"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryGroupAlias",
+          "children": [
+            {
+              "name": "New-GoogleDirectoryGroupAlias"
+            },
+            {
+              "name": "Get-GoogleDirectoryGroupAlias"
+            },
+            {
+              "name": "Remove-GoogleDirectoryGroupAlias"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryGroupMember",
+          "children": [
+            {
+              "name": "Add-GoogleDirectoryGroupMember"
+            },
+            {
+              "name": "Remove-GoogleDirectoryGroupMember"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryGroupMemberRole",
+          "children": [
+            {
+              "name": "Set-GoogleDirectoryGroupMemberRole"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryGroupMembership",
+          "children": [
+            {
+              "name": "Get-GoogleDirectoryGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryUser",
+          "children": [
+            {
+              "name": "New-GoogleDirectoryUser"
+            },
+            {
+              "name": "Get-GoogleDirectoryUser"
+            },
+            {
+              "name": "Set-GoogleDirectoryUser"
+            },
+            {
+              "name": "Remove-GoogleDirectoryUser"
+            },
+            {
+              "name": "Restore-GoogleDirectoryUser"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryUserList",
+          "children": [
+            {
+              "name": "Get-GoogleDirectoryUserList"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryMakeAdmin",
+          "children": [
+            {
+              "name": "Invoke-GoogleDirectoryMakeAdmin"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryUserAlias",
+          "children": [
+            {
+              "name": "New-GoogleDirectoryUserAlias"
+            },
+            {
+              "name": "Get-GoogleDirectoryUserAlias"
+            },
+            {
+              "name": "Remove-GoogleDirectoryUserAlias"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryUserPhoto",
+          "children": [
+            {
+              "name": "Get-GoogleDirectoryUserPhoto"
+            },
+            {
+              "name": "Set-GoogleDirectoryUserPhoto"
+            },
+            {
+              "name": "Remove-GoogleDirectoryUserPhoto"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryOU",
+          "children": [
+            {
+              "name": "New-GoogleDirectoryOU"
+            },
+            {
+              "name": "Set-GoogleDirectoryOU"
+            },
+            {
+              "name": "Get-GoogleDirectoryOU"
+            },
+            {
+              "name": "Remove-GoogleDirectoryOU"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryOUChildren",
+          "children": [
+            {
+              "name": "Get-GoogleDirectoryOUChildren"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryPrivileges",
+          "children": [
+            {
+              "name": "Get-GoogleDirectoryPrivileges"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryRoleList",
+          "children": [
+            {
+              "name": "Get-GoogleDirectoryRoleList"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryRole",
+          "children": [
+            {
+              "name": "New-GoogleDirectoryRole"
+            }
+          ]
+        },
+        {
+          "name": "GoogleDirectoryRoleAssignment",
+          "children": [
+            {
+              "name": "New-GoogleDirectoryRoleAssignment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GoogleOAuth2",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "GoogleOAuth2ApiScopes",
+          "children": [
+            {
+              "name": "Get-GoogleOAuth2ApiScopes"
+            }
+          ]
+        },
+        {
+          "name": "GoogleOAuth2Code",
+          "children": [
+            {
+              "name": "Get-GoogleOAuth2Code"
+            },
+            {
+              "name": "Convert-GoogleOAuth2Code"
+            }
+          ]
+        },
+        {
+          "name": "GoogleOAuth2JWT",
+          "children": [
+            {
+              "name": "Convert-GoogleOAuth2JWT"
+            }
+          ]
+        },
+        {
+          "name": "GoogleServiceAccountJWT",
+          "children": [
+            {
+              "name": "New-GoogleServiceAccountJWT"
+            }
+          ]
+        },
+        {
+          "name": "GoogleOAuth2Token",
+          "children": [
+            {
+              "name": "Request-GoogleOAuth2Token"
+            },
+            {
+              "name": "Update-GoogleOAuth2Token"
+            },
+            {
+              "name": "Get-GoogleOAuth2Token"
+            }
+          ]
+        },
+        {
+          "name": "IsGoogleOAuth2TokenExpired",
+          "children": [
+            {
+              "name": "Test-IsGoogleOAuth2TokenExpired"
+            }
+          ]
+        },
+        {
+          "name": "GoogleOAuth2TokenInfo",
+          "children": [
+            {
+              "name": "Get-GoogleOAuth2TokenInfo"
+            }
+          ]
+        },
+        {
+          "name": "GoogleOAuth2Profile",
+          "children": [
+            {
+              "name": "Get-GoogleOAuth2Profile"
+            },
+            {
+              "name": "Set-GoogleOAuth2Profile"
+            },
+            {
+              "name": "Remove-GoogleOAuth2Profile"
+            }
+          ]
+        },
+        {
+          "name": "GoogleOAuth2ProfileCache",
+          "children": [
+            {
+              "name": "Sync-GoogleOAuth2ProfileCache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HDFS",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "HDFSSession",
+          "children": [
+            {
+              "name": "New-HDFSSession"
+            },
+            {
+              "name": "Remove-HDFSSession"
+            },
+            {
+              "name": "Get-HDFSSession"
+            }
+          ]
+        },
+        {
+          "name": "HDFSItem",
+          "children": [
+            {
+              "name": "Get-HDFSItem"
+            },
+            {
+              "name": "New-HDFSItem"
+            },
+            {
+              "name": "Remove-HDFSItem"
+            },
+            {
+              "name": "Merge-HDFSItem"
+            },
+            {
+              "name": "Rename-HDFSItem"
+            },
+            {
+              "name": "Resize-HDFSItem"
+            },
+            {
+              "name": "Set-HDFSItem"
+            }
+          ]
+        },
+        {
+          "name": "HDFSChildItem",
+          "children": [
+            {
+              "name": "Get-HDFSChildItem"
+            }
+          ]
+        },
+        {
+          "name": "HDFSHomeDirectory",
+          "children": [
+            {
+              "name": "Get-HDFSHomeDirectory"
+            }
+          ]
+        },
+        {
+          "name": "HDFSTrashRoot",
+          "children": [
+            {
+              "name": "Get-HDFSTrashRoot"
+            }
+          ]
+        },
+        {
+          "name": "HDFSContent",
+          "children": [
+            {
+              "name": "Get-HDFSContent"
+            },
+            {
+              "name": "Add-HDFSContent"
+            }
+          ]
+        },
+        {
+          "name": "HDFSAcl",
+          "children": [
+            {
+              "name": "Get-HDFSAcl"
+            },
+            {
+              "name": "Set-HDFSAcl"
+            }
+          ]
+        },
+        {
+          "name": "HDFSAccess",
+          "children": [
+            {
+              "name": "Test-HDFSAccess"
+            }
+          ]
+        },
+        {
+          "name": "HDFSStoragePolicy",
+          "children": [
+            {
+              "name": "Get-HDFSStoragePolicy"
+            },
+            {
+              "name": "Set-HDFSStoragePolicy"
+            },
+            {
+              "name": "Remove-HDFSStoragePolicy"
+            }
+          ]
+        },
+        {
+          "name": "HDFSFileBlockLocations",
+          "children": [
+            {
+              "name": "Get-HDFSFileBlockLocations"
+            }
+          ]
+        },
+        {
+          "name": "HDFSXAttr",
+          "children": [
+            {
+              "name": "Get-HDFSXAttr"
+            },
+            {
+              "name": "Set-HDFSXAttr"
+            },
+            {
+              "name": "Remove-HDFSXAttr"
+            }
+          ]
+        },
+        {
+          "name": "HDFSSnapshot",
+          "children": [
+            {
+              "name": "New-HDFSSnapshot"
+            },
+            {
+              "name": "Rename-HDFSSnapshot"
+            },
+            {
+              "name": "Remove-HDFSSnapshot"
+            }
+          ]
+        },
+        {
+          "name": "HDFSDelegationToken",
+          "children": [
+            {
+              "name": "Get-HDFSDelegationToken"
+            },
+            {
+              "name": "Update-HDFSDelegationToken"
+            },
+            {
+              "name": "Revoke-HDFSDelegationToken"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HostUtilities",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "WindowsUpdate",
+          "children": [
+            {
+              "name": "Reset-WindowsUpdate"
+            }
+          ]
+        },
+        {
+          "name": "TokenGroups",
+          "children": [
+            {
+              "name": "Get-TokenGroups"
+            }
+          ]
+        },
+        {
+          "name": "TokenGroupMembership",
+          "children": [
+            {
+              "name": "Update-TokenGroupMembership"
+            }
+          ]
+        },
+        {
+          "name": "WithImpersonation",
+          "children": [
+            {
+              "name": "Start-WithImpersonation"
+            }
+          ]
+        },
+        {
+          "name": "WinRM",
+          "children": [
+            {
+              "name": "Enable-WinRM"
+            }
+          ]
+        },
+        {
+          "name": "EmptyTestFile",
+          "children": [
+            {
+              "name": "New-EmptyTestFile"
+            }
+          ]
+        },
+        {
+          "name": "PortScan",
+          "children": [
+            {
+              "name": "Start-PortScan"
+            }
+          ]
+        },
+        {
+          "name": "JavaInstallations",
+          "children": [
+            {
+              "name": "Remove-JavaInstallations"
+            }
+          ]
+        },
+        {
+          "name": "RegistryKeyEntries",
+          "children": [
+            {
+              "name": "Get-RegistryKeyEntries"
+            }
+          ]
+        },
+        {
+          "name": "TaskSchedulerHistory",
+          "children": [
+            {
+              "name": "Enable-TaskSchedulerHistory"
+            }
+          ]
+        },
+        {
+          "name": "KerberosTraceLog",
+          "children": [
+            {
+              "name": "Start-KerberosTraceLog"
+            },
+            {
+              "name": "Stop-KerberosTraceLog"
+            }
+          ]
+        },
+        {
+          "name": "IsLocalAdmin",
+          "children": [
+            {
+              "name": "Test-IsLocalAdmin"
+            }
+          ]
+        },
+        {
+          "name": "CCMLogFormat",
+          "children": [
+            {
+              "name": "Write-CCMLogFormat"
+            }
+          ]
+        },
+        {
+          "name": "IPv6ConfigurationOptions",
+          "children": [
+            {
+              "name": "Get-IPv6ConfigurationOptions"
+            }
+          ]
+        },
+        {
+          "name": "ProcessToken",
+          "children": [
+            {
+              "name": "Get-ProcessToken"
+            },
+            {
+              "name": "Set-ProcessToken"
+            },
+            {
+              "name": "Reset-ProcessToken"
+            }
+          ]
+        },
+        {
+          "name": "LsaSecret",
+          "children": [
+            {
+              "name": "Get-LsaSecret"
+            }
+          ]
+        },
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "ConvertFrom-Xml"
+            }
+          ]
+        },
+        {
+          "name": "WebHistory",
+          "children": [
+            {
+              "name": "Get-WebHistory"
+            }
+          ]
+        },
+        {
+          "name": "UserProfiles",
+          "children": [
+            {
+              "name": "Get-UserProfiles"
+            }
+          ]
+        },
+        {
+          "name": "HtmlTable",
+          "children": [
+            {
+              "name": "ConvertTo-HtmlTable"
+            }
+          ]
+        },
+        {
+          "name": "Port",
+          "children": [
+            {
+              "name": "Test-Port"
+            }
+          ]
+        },
+        {
+          "name": "AutoLogon",
+          "children": [
+            {
+              "name": "Set-AutoLogon"
+            }
+          ]
+        },
+        {
+          "name": "FileSecurity",
+          "children": [
+            {
+              "name": "Set-FileSecurity"
+            }
+          ]
+        },
+        {
+          "name": "Owner",
+          "children": [
+            {
+              "name": "Set-Owner"
+            }
+          ]
+        },
+        {
+          "name": "RegistryKeyProperty",
+          "children": [
+            {
+              "name": "Test-RegistryKeyProperty"
+            }
+          ]
+        },
+        {
+          "name": "ObjectParallel",
+          "children": [
+            {
+              "name": "ForEach-ObjectParallel"
+            }
+          ]
+        },
+        {
+          "name": "CommandInNewRunspace",
+          "children": [
+            {
+              "name": "Invoke-CommandInNewRunspace"
+            }
+          ]
+        },
+        {
+          "name": "WindowsActivationInformation",
+          "children": [
+            {
+              "name": "Get-WindowsActivationInformation"
+            }
+          ]
+        },
+        {
+          "name": "CertificatePrivateKeyAccess",
+          "children": [
+            {
+              "name": "Set-CertificatePrivateKeyAccess"
+            }
+          ]
+        },
+        {
+          "name": "GptVolume",
+          "children": [
+            {
+              "name": "New-GptVolume"
+            }
+          ]
+        },
+        {
+          "name": "NotMatchIn",
+          "children": [
+            {
+              "name": "Where-NotMatchIn"
+            }
+          ]
+        },
+        {
+          "name": "AccountSid",
+          "children": [
+            {
+              "name": "Get-AccountSid"
+            }
+          ]
+        },
+        {
+          "name": "AccountTranslatedNTName",
+          "children": [
+            {
+              "name": "Get-AccountTranslatedNTName"
+            }
+          ]
+        },
+        {
+          "name": "SecureStringToString",
+          "children": [
+            {
+              "name": "Convert-SecureStringToString"
+            }
+          ]
+        },
+        {
+          "name": "LocalGroupMembers",
+          "children": [
+            {
+              "name": "Get-LocalGroupMembers"
+            }
+          ]
+        },
+        {
+          "name": "DomainMemberToLocalGroup",
+          "children": [
+            {
+              "name": "Add-DomainMemberToLocalGroup"
+            }
+          ]
+        },
+        {
+          "name": "PSExecutionPolicy",
+          "children": [
+            {
+              "name": "Get-PSExecutionPolicy"
+            }
+          ]
+        },
+        {
+          "name": "PendingReboots",
+          "children": [
+            {
+              "name": "Test-PendingReboots"
+            }
+          ]
+        },
+        {
+          "name": "Credentials",
+          "children": [
+            {
+              "name": "Test-Credentials"
+            }
+          ]
+        },
+        {
+          "name": "Log",
+          "children": [
+            {
+              "name": "Write-Log"
+            }
+          ]
+        },
+        {
+          "name": "UAC",
+          "children": [
+            {
+              "name": "Set-UAC"
+            }
+          ]
+        },
+        {
+          "name": "IEESC",
+          "children": [
+            {
+              "name": "Set-IEESC"
+            }
+          ]
+        },
+        {
+          "name": "OpenFileSecurityWarning",
+          "children": [
+            {
+              "name": "Set-OpenFileSecurityWarning"
+            }
+          ]
+        },
+        {
+          "name": "LocalFQDNHostname",
+          "children": [
+            {
+              "name": "Get-LocalFQDNHostname"
+            }
+          ]
+        },
+        {
+          "name": "Pagefile",
+          "children": [
+            {
+              "name": "Set-Pagefile"
+            }
+          ]
+        },
+        {
+          "name": "HighPerformancePowerPlan",
+          "children": [
+            {
+              "name": "Set-HighPerformancePowerPlan"
+            }
+          ]
+        },
+        {
+          "name": "NETVersion",
+          "children": [
+            {
+              "name": "Get-NETVersion"
+            }
+          ]
+        },
+        {
+          "name": "NET461InstallBlock",
+          "children": [
+            {
+              "name": "Set-NET461InstallBlock"
+            }
+          ]
+        },
+        {
+          "name": "ProcessWait",
+          "children": [
+            {
+              "name": "Start-ProcessWait"
+            }
+          ]
+        },
+        {
+          "name": "FileVersion",
+          "children": [
+            {
+              "name": "Get-FileVersion"
+            }
+          ]
+        },
+        {
+          "name": "SSLv3",
+          "children": [
+            {
+              "name": "Disable-SSLv3"
+            }
+          ]
+        },
+        {
+          "name": "PackageInstallation",
+          "children": [
+            {
+              "name": "Test-PackageInstallation"
+            },
+            {
+              "name": "Start-PackageInstallation"
+            }
+          ]
+        },
+        {
+          "name": "WebPackage",
+          "children": [
+            {
+              "name": "Get-WebPackage"
+            }
+          ]
+        },
+        {
+          "name": "RunOnceScript",
+          "children": [
+            {
+              "name": "Set-RunOnceScript"
+            }
+          ]
+        },
+        {
+          "name": "ZipFile",
+          "children": [
+            {
+              "name": "Extract-ZipFile"
+            }
+          ]
+        },
+        {
+          "name": "RandomPassword",
+          "children": [
+            {
+              "name": "New-RandomPassword"
+            }
+          ]
+        },
+        {
+          "name": "EncryptedPassword",
+          "children": [
+            {
+              "name": "New-EncryptedPassword"
+            },
+            {
+              "name": "Get-EncryptedPassword"
+            }
+          ]
+        },
+        {
+          "name": "CertificateSAN",
+          "children": [
+            {
+              "name": "Get-CertificateSAN"
+            }
+          ]
+        },
+        {
+          "name": "DiskFree",
+          "children": [
+            {
+              "name": "Get-DiskFree"
+            }
+          ]
+        },
+        {
+          "name": "ForceDelete",
+          "children": [
+            {
+              "name": "Invoke-ForceDelete"
+            }
+          ]
+        },
+        {
+          "name": "Using",
+          "children": [
+            {
+              "name": "Invoke-Using"
+            }
+          ]
+        },
+        {
+          "name": "WmiRepositoryRebuild",
+          "children": [
+            {
+              "name": "Invoke-WmiRepositoryRebuild"
+            }
+          ]
+        },
+        {
+          "name": "Hashtables",
+          "children": [
+            {
+              "name": "Merge-Hashtables"
+            }
+          ]
+        },
+        {
+          "name": "Hashtable",
+          "children": [
+            {
+              "name": "ConvertTo-Hashtable"
+            }
+          ]
+        },
+        {
+          "name": "PropertyValue",
+          "children": [
+            {
+              "name": "Get-PropertyValue"
+            }
+          ]
+        },
+        {
+          "name": "UnboundParameterValue",
+          "children": [
+            {
+              "name": "Get-UnboundParameterValue"
+            }
+          ]
+        },
+        {
+          "name": "UnboundParameterCode",
+          "children": [
+            {
+              "name": "Import-UnboundParameterCode"
+            }
+          ]
+        },
+        {
+          "name": "DynamicParameter",
+          "children": [
+            {
+              "name": "New-DynamicParameter"
+            }
+          ]
+        },
+        {
+          "name": "NetAdapterDnsSuffix",
+          "children": [
+            {
+              "name": "Set-NetAdapterDnsSuffix"
+            }
+          ]
+        },
+        {
+          "name": "NetAdapterErrorCode",
+          "children": [
+            {
+              "name": "Get-NetAdapterErrorCode"
+            }
+          ]
+        },
+        {
+          "name": "LocalAdminPassword",
+          "children": [
+            {
+              "name": "Set-LocalAdminPassword"
+            }
+          ]
+        },
+        {
+          "name": "TokenPrivilege",
+          "children": [
+            {
+              "name": "Set-TokenPrivilege"
+            }
+          ]
+        },
+        {
+          "name": "ComputerDomain",
+          "children": [
+            {
+              "name": "Get-ComputerDomain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hyper-VAdministration",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "KillVM",
+          "children": [
+            {
+              "name": "Invoke-KillVM"
+            }
+          ]
+        },
+        {
+          "name": "VMPermissions",
+          "children": [
+            {
+              "name": "Repair-VMPermissions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InfobloxGrid",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "IBXSession",
+          "children": [
+            {
+              "name": "Enter-IBXSession"
+            },
+            {
+              "name": "New-IBXSession"
+            },
+            {
+              "name": "Exit-IBXSession"
+            }
+          ]
+        },
+        {
+          "name": "IBXObject",
+          "children": [
+            {
+              "name": "Get-IBXObject"
+            },
+            {
+              "name": "New-IBXObject"
+            },
+            {
+              "name": "Set-IBXObject"
+            },
+            {
+              "name": "Remove-IBXObject"
+            }
+          ]
+        },
+        {
+          "name": "IBXGrid",
+          "children": [
+            {
+              "name": "Get-IBXGrid"
+            }
+          ]
+        },
+        {
+          "name": "IBXZoneObject",
+          "children": [
+            {
+              "name": "New-IBXZoneObject"
+            },
+            {
+              "name": "Set-IBXZoneObject"
+            }
+          ]
+        },
+        {
+          "name": "IBXDhcpObject",
+          "children": [
+            {
+              "name": "New-IBXDhcpObject"
+            },
+            {
+              "name": "Set-IBXDhcpObject"
+            }
+          ]
+        },
+        {
+          "name": "IBXIPAddressToHostRecord",
+          "children": [
+            {
+              "name": "Add-IBXIPAddressToHostRecord"
+            }
+          ]
+        },
+        {
+          "name": "IBXDnsHostRecord",
+          "children": [
+            {
+              "name": "New-IBXDnsHostRecord"
+            },
+            {
+              "name": "Set-IBXDnsHostRecord"
+            }
+          ]
+        },
+        {
+          "name": "IBXDnsRecord",
+          "children": [
+            {
+              "name": "New-IBXDnsRecord"
+            },
+            {
+              "name": "Set-IBXDnsRecord"
+            }
+          ]
+        },
+        {
+          "name": "IBXIPAddressFromHostRecord",
+          "children": [
+            {
+              "name": "Remove-IBXIPAddressFromHostRecord"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InstallExchange",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "ExchangeInstallationMedia",
+          "children": [
+            {
+              "name": "Get-ExchangeInstallationMedia"
+            }
+          ]
+        },
+        {
+          "name": "TextVersion",
+          "children": [
+            {
+              "name": "Get-TextVersion"
+            }
+          ]
+        },
+        {
+          "name": "ForestRootNC",
+          "children": [
+            {
+              "name": "Get-ForestRootNC"
+            }
+          ]
+        },
+        {
+          "name": "DomainNC",
+          "children": [
+            {
+              "name": "Get-DomainNC"
+            }
+          ]
+        },
+        {
+          "name": "ForestFunctionalLevel",
+          "children": [
+            {
+              "name": "Get-ForestFunctionalLevel"
+            }
+          ]
+        },
+        {
+          "name": "DomainNativeMode",
+          "children": [
+            {
+              "name": "Test-DomainNativeMode"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeOrganization",
+          "children": [
+            {
+              "name": "Get-ExchangeOrganization"
+            },
+            {
+              "name": "Test-ExchangeOrganization"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeForestLevel",
+          "children": [
+            {
+              "name": "Get-ExchangeForestLevel"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeDomainLevel",
+          "children": [
+            {
+              "name": "Get-ExchangeDomainLevel"
+            }
+          ]
+        },
+        {
+          "name": "AutodiscoverServiceConnectionPoint",
+          "children": [
+            {
+              "name": "Remove-AutodiscoverServiceConnectionPoint"
+            },
+            {
+              "name": "Add-AutodiscoverServiceConnectionPoint"
+            }
+          ]
+        },
+        {
+          "name": "IFilters",
+          "children": [
+            {
+              "name": "Enable-IFilters"
+            }
+          ]
+        },
+        {
+          "name": "DisableSharedCacheServiceProbe",
+          "children": [
+            {
+              "name": "Set-DisableSharedCacheServiceProbe"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeCleanup",
+          "children": [
+            {
+              "name": "Start-ExchangeCleanup"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeFixIt",
+          "children": [
+            {
+              "name": "Start-ExchangeFixIt"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeReadiness",
+          "children": [
+            {
+              "name": "Test-ExchangeReadiness"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeADPrep",
+          "children": [
+            {
+              "name": "Start-ExchangeADPrep"
+            }
+          ]
+        },
+        {
+          "name": "ExchangeInstallation",
+          "children": [
+            {
+              "name": "Start-ExchangeInstallation"
+            }
+          ]
+        },
+        {
+          "name": "Exchange",
+          "children": [
+            {
+              "name": "Install-Exchange"
+            }
+          ]
+        },
+        {
+          "name": "InstallExchangeScheduledTask",
+          "children": [
+            {
+              "name": "New-InstallExchangeScheduledTask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SqlStig",
+      "companyName": "BAMCIS",
+      "author": "Michael Haken",
+      "children": [
+        {
+          "name": "SQLInstanceStigItems",
+          "children": [
+            {
+              "name": "Set-SQLInstanceStigItems"
+            }
+          ]
+        },
+        {
+          "name": "SQLDatabaseStigItems",
+          "children": [
+            {
+              "name": "Set-SQLDatabaseStigItems"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceForceEncryption",
+          "children": [
+            {
+              "name": "Set-SQLInstanceForceEncryption"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceDatabaseFilePermissions",
+          "children": [
+            {
+              "name": "Set-SQLInstanceDatabaseFilePermissions"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceInstallationFilesPermissionsAndAuditing",
+          "children": [
+            {
+              "name": "Set-SQLInstanceInstallationFilesPermissionsAndAuditing"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceAuditFilePermissions",
+          "children": [
+            {
+              "name": "Set-SQLInstanceAuditFilePermissions"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceAuditors",
+          "children": [
+            {
+              "name": "Set-SQLInstanceAuditors"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceAuditing",
+          "children": [
+            {
+              "name": "Set-SQLInstanceAuditing"
+            }
+          ]
+        },
+        {
+          "name": "SQLDatabaseAuditing",
+          "children": [
+            {
+              "name": "Set-SQLDatabaseAuditing"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceManagementRoles",
+          "children": [
+            {
+              "name": "Set-SQLInstanceManagementRoles"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceLogin",
+          "children": [
+            {
+              "name": "Get-SQLInstanceLogin"
+            },
+            {
+              "name": "Add-SQLInstanceLogin"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceAccount",
+          "children": [
+            {
+              "name": "Rename-SQLInstanceAccount"
+            },
+            {
+              "name": "Disable-SQLInstanceAccount"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceXPCmdShell",
+          "children": [
+            {
+              "name": "Set-SQLInstanceXPCmdShell"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceLoginPasswordPolicies",
+          "children": [
+            {
+              "name": "Set-SQLInstanceLoginPasswordPolicies"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceProtocols",
+          "children": [
+            {
+              "name": "Set-SQLInstanceProtocols"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceDefaultTrace",
+          "children": [
+            {
+              "name": "Set-SQLInstanceDefaultTrace"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceServerRole",
+          "children": [
+            {
+              "name": "Add-SQLInstanceServerRole"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceJobCategory",
+          "children": [
+            {
+              "name": "New-SQLInstanceJobCategory"
+            }
+          ]
+        },
+        {
+          "name": "SQLAgentJob",
+          "children": [
+            {
+              "name": "New-SQLAgentJob"
+            }
+          ]
+        },
+        {
+          "name": "SQLAgentJobStep",
+          "children": [
+            {
+              "name": "New-SQLAgentJobStep"
+            }
+          ]
+        },
+        {
+          "name": "SQLAgentJobSchedule",
+          "children": [
+            {
+              "name": "New-SQLAgentJobSchedule"
+            }
+          ]
+        },
+        {
+          "name": "SQLDatabaseTrustworthy",
+          "children": [
+            {
+              "name": "Set-SQLDatabaseTrustworthy"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceServerRoleMembership",
+          "children": [
+            {
+              "name": "Get-SQLInstanceServerRoleMembership"
+            }
+          ]
+        },
+        {
+          "name": "SQLDatabaseDDLTrigger",
+          "children": [
+            {
+              "name": "New-SQLDatabaseDDLTrigger"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceErrorLogPath",
+          "children": [
+            {
+              "name": "Get-SQLInstanceErrorLogPath"
+            }
+          ]
+        },
+        {
+          "name": "SQLServer",
+          "children": [
+            {
+              "name": "Get-SQLServer"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceVersion",
+          "children": [
+            {
+              "name": "Get-SQLInstanceVersion"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceDetails",
+          "children": [
+            {
+              "name": "Get-SQLInstanceDetails"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceDataDirectories",
+          "children": [
+            {
+              "name": "Get-SQLInstanceDataDirectories"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceDatabaseMail",
+          "children": [
+            {
+              "name": "Enable-SQLInstanceDatabaseMail"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceDatabaseMailSmtpAccount",
+          "children": [
+            {
+              "name": "New-SQLInstanceDatabaseMailSmtpAccount"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceDatabaseMailProfile",
+          "children": [
+            {
+              "name": "New-SQLInstanceDatabaseMailProfile"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceAgentMail",
+          "children": [
+            {
+              "name": "Set-SQLInstanceAgentMail"
+            }
+          ]
+        },
+        {
+          "name": "SQLAgentService",
+          "children": [
+            {
+              "name": "Wait-SQLAgentService"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceDefaultTraceFile",
+          "children": [
+            {
+              "name": "Get-SQLInstanceDefaultTraceFile"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceAuditCommandText",
+          "children": [
+            {
+              "name": "Get-SQLInstanceAuditCommandText"
+            }
+          ]
+        },
+        {
+          "name": "SQLDatabaseDdlTriggerCommandText",
+          "children": [
+            {
+              "name": "Get-SQLDatabaseDdlTriggerCommandText"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceDatabaseDirectoryAccessRuleSet",
+          "children": [
+            {
+              "name": "New-SQLInstanceDatabaseDirectoryAccessRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceAuditLogAccessRuleSet",
+          "children": [
+            {
+              "name": "New-SQLInstanceAuditLogAccessRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceInstallationDirectoryAccessRuleSet",
+          "children": [
+            {
+              "name": "New-SQLInstanceInstallationDirectoryAccessRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "SQLInstanceInstallationDirectoryAuditRuleSet",
+          "children": [
+            {
+              "name": "New-SQLInstanceInstallationDirectoryAuditRuleSet"
+            }
+          ]
+        },
+        {
+          "name": "SQLAuditObjectTypes",
+          "children": [
+            {
+              "name": "Get-SQLAuditObjectTypes"
+            }
+          ]
+        },
+        {
+          "name": "SqlModule",
+          "children": [
+            {
+              "name": "Import-SqlModule"
+            }
+          ]
+        },
+        {
+          "name": "SQLLoginIsSysAdmin",
+          "children": [
+            {
+              "name": "Test-SQLLoginIsSysAdmin"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

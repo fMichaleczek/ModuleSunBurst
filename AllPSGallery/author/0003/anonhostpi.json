@@ -1,0 +1,117 @@
+{
+  "name": "anonhostpi",
+  "children": [
+    {
+      "name": "Import-Package",
+      "companyName": "github.com pwsh cs tools",
+      "author": "anonhostpi",
+      "children": [
+        {
+          "name": "Package",
+          "children": [
+            {
+              "name": "Import-Package"
+            },
+            {
+              "name": "Read-Package"
+            }
+          ]
+        },
+        {
+          "name": "Dotnet",
+          "children": [
+            {
+              "name": "Get-Dotnet"
+            }
+          ]
+        },
+        {
+          "name": "Runtime",
+          "children": [
+            {
+              "name": "Get-Runtime"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New-DispatchThread",
+      "companyName": "github.com pwsh cs tools",
+      "author": "anonhostpi",
+      "children": [
+        {
+          "name": "Threads",
+          "children": [
+            {
+              "name": "Get-Threads"
+            }
+          ]
+        },
+        {
+          "name": "Invoker",
+          "children": [
+            {
+              "name": "Get-Invoker"
+            }
+          ]
+        },
+        {
+          "name": "DispatcherFactory",
+          "children": [
+            {
+              "name": "Set-DispatcherFactory"
+            }
+          ]
+        },
+        {
+          "name": "DispatchThread",
+          "children": [
+            {
+              "name": "New-DispatchThread"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New-ThreadController",
+      "companyName": "github.com pwsh cs tools",
+      "author": "anonhostpi",
+      "children": [
+        {
+          "name": "ThreadController",
+          "children": [
+            {
+              "name": "New-ThreadController"
+            }
+          ]
+        },
+        {
+          "name": "DispatcherFactory",
+          "children": [
+            {
+              "name": "Update-DispatcherFactory"
+            }
+          ]
+        },
+        {
+          "name": "Threads",
+          "children": [
+            {
+              "name": "Get-Threads"
+            }
+          ]
+        },
+        {
+          "name": "Async",
+          "children": [
+            {
+              "name": "Async"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

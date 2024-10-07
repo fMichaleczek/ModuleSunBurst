@@ -1,0 +1,39 @@
+{
+  "name": "Trelica",
+  "children": [
+    {
+      "name": "Trelica",
+      "companyName": "Trelica",
+      "author": "Richard Kirby",
+      "children": [
+        {
+          "name": "TrelicaCredentials",
+          "children": [
+            {
+              "name": "Initialize-TrelicaCredentials"
+            },
+            {
+              "name": "Get-TrelicaCredentials"
+            }
+          ]
+        },
+        {
+          "name": "TrelicaContext",
+          "children": [
+            {
+              "name": "Get-TrelicaContext"
+            }
+          ]
+        },
+        {
+          "name": "TrelicaRequest",
+          "children": [
+            {
+              "name": "Invoke-TrelicaRequest"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "name": "OCram85",
+  "children": [
+    {
+      "name": "apvr-test",
+      "companyName": "OCram85",
+      "author": "OCram85",
+      "children": [
+        {
+          "name": "Test",
+          "children": [
+            {
+              "name": "Get-Test"
+            },
+            {
+              "name": "Set-Test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DroneHelper",
+      "companyName": "Unknown",
+      "author": "OCram85",
+      "children": [
+        {
+          "name": "ModuleRoot",
+          "children": [
+            {
+              "name": "Merge-ModuleRoot"
+            }
+          ]
+        },
+        {
+          "name": "BuildPackage",
+          "children": [
+            {
+              "name": "New-BuildPackage"
+            }
+          ]
+        },
+        {
+          "name": "ModuleMeta",
+          "children": [
+            {
+              "name": "Update-ModuleMeta"
+            }
+          ]
+        },
+        {
+          "name": "Changelog",
+          "children": [
+            {
+              "name": "Update-Changelog"
+            }
+          ]
+        },
+        {
+          "name": "Publish",
+          "children": [
+            {
+              "name": "Invoke-Publish"
+            }
+          ]
+        },
+        {
+          "name": "ModuleDependency",
+          "children": [
+            {
+              "name": "Install-ModuleDependency"
+            }
+          ]
+        },
+        {
+          "name": "InstallDependency",
+          "children": [
+            {
+              "name": "Invoke-InstallDependency"
+            }
+          ]
+        },
+        {
+          "name": "Docs",
+          "children": [
+            {
+              "name": "New-Docs"
+            },
+            {
+              "name": "Update-Docs"
+            }
+          ]
+        },
+        {
+          "name": "FileLinter",
+          "children": [
+            {
+              "name": "Invoke-FileLinter"
+            }
+          ]
+        },
+        {
+          "name": "FileBOM",
+          "children": [
+            {
+              "name": "Test-FileBOM"
+            }
+          ]
+        },
+        {
+          "name": "FileEncoding",
+          "children": [
+            {
+              "name": "Test-FileEncoding"
+            }
+          ]
+        },
+        {
+          "name": "FileEOF",
+          "children": [
+            {
+              "name": "Test-FileEOF"
+            }
+          ]
+        },
+        {
+          "name": "FileEOL",
+          "children": [
+            {
+              "name": "Test-FileEOL"
+            }
+          ]
+        },
+        {
+          "name": "FileTab",
+          "children": [
+            {
+              "name": "Test-FileTab"
+            }
+          ]
+        },
+        {
+          "name": "FileTailingWhitespace",
+          "children": [
+            {
+              "name": "Test-FileTailingWhitespace"
+            }
+          ]
+        },
+        {
+          "name": "RepoPath",
+          "children": [
+            {
+              "name": "Get-RepoPath"
+            }
+          ]
+        },
+        {
+          "name": "EOL",
+          "children": [
+            {
+              "name": "Set-EOL"
+            }
+          ]
+        },
+        {
+          "name": "UnitTest",
+          "children": [
+            {
+              "name": "Invoke-UnitTest"
+            }
+          ]
+        },
+        {
+          "name": "PRComment",
+          "children": [
+            {
+              "name": "Send-PRComment"
+            }
+          ]
+        },
+        {
+          "name": "Linter",
+          "children": [
+            {
+              "name": "Invoke-Linter"
+            }
+          ]
+        },
+        {
+          "name": "BuildState",
+          "children": [
+            {
+              "name": "Invoke-BuildState"
+            }
+          ]
+        },
+        {
+          "name": "FailureStateFile",
+          "children": [
+            {
+              "name": "Write-FailureStateFile"
+            }
+          ]
+        },
+        {
+          "name": "ResultFile",
+          "children": [
+            {
+              "name": "Write-ResultFile"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ponduit",
+      "companyName": "OCram85",
+      "author": "OCram85",
+      "children": [
+        {
+          "name": "ConduitConfig",
+          "children": [
+            {
+              "name": "Get-ConduitConfig"
+            },
+            {
+              "name": "Set-ConduitConfig"
+            }
+          ]
+        },
+        {
+          "name": "ConduitMethods",
+          "children": [
+            {
+              "name": "Update-ConduitMethods"
+            }
+          ]
+        },
+        {
+          "name": "ConduitMethod",
+          "children": [
+            {
+              "name": "Invoke-ConduitMethod"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSCoverage",
+      "companyName": "Unknown",
+      "author": "OCram85",
+      "children": [
+        {
+          "name": "CoverageReport",
+          "children": [
+            {
+              "name": "New-CoverageReport"
+            },
+            {
+              "name": "Publish-CoverageReport"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSCredentialStore",
+      "companyName": "Unknown",
+      "author": "OCram85",
+      "children": [
+        {
+          "name": "CSCertificate",
+          "children": [
+            {
+              "name": "Get-CSCertificate"
+            },
+            {
+              "name": "Import-CSCertificate"
+            },
+            {
+              "name": "New-CSCertificate"
+            },
+            {
+              "name": "Test-CSCertificate"
+            },
+            {
+              "name": "Use-CSCertificate"
+            }
+          ]
+        },
+        {
+          "name": "CSCertAttribute",
+          "children": [
+            {
+              "name": "New-CSCertAttribute"
+            }
+          ]
+        },
+        {
+          "name": "To",
+          "children": [
+            {
+              "name": "Connect-To"
+            }
+          ]
+        },
+        {
+          "name": "From",
+          "children": [
+            {
+              "name": "Disconnect-From"
+            }
+          ]
+        },
+        {
+          "name": "CSConnection",
+          "children": [
+            {
+              "name": "Test-CSConnection"
+            }
+          ]
+        },
+        {
+          "name": "CredentialStoreItem",
+          "children": [
+            {
+              "name": "Get-CredentialStoreItem"
+            },
+            {
+              "name": "New-CredentialStoreItem"
+            },
+            {
+              "name": "Remove-CredentialStoreItem"
+            },
+            {
+              "name": "Set-CredentialStoreItem"
+            },
+            {
+              "name": "Test-CredentialStoreItem"
+            }
+          ]
+        },
+        {
+          "name": "CredentialStore",
+          "children": [
+            {
+              "name": "Get-CredentialStore"
+            },
+            {
+              "name": "New-CredentialStore"
+            },
+            {
+              "name": "Test-CredentialStore"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

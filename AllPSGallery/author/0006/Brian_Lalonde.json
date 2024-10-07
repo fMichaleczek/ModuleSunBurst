@@ -1,0 +1,297 @@
+{
+  "name": "Brian Lalonde",
+  "children": [
+    {
+      "name": "CertAdmin",
+      "companyName": "Unknown",
+      "author": "Brian Lalonde",
+      "children": [
+        {
+          "name": "CertificateAccess",
+          "children": [
+            {
+              "name": "Block-CertificateAccess"
+            },
+            {
+              "name": "Grant-CertificateAccess"
+            },
+            {
+              "name": "Revoke-CertificateAccess"
+            },
+            {
+              "name": "Unblock-CertificateAccess"
+            }
+          ]
+        },
+        {
+          "name": "Certificate",
+          "children": [
+            {
+              "name": "Disable-Certificate"
+            },
+            {
+              "name": "Enable-Certificate"
+            },
+            {
+              "name": "Find-Certificate"
+            }
+          ]
+        },
+        {
+          "name": "CertificatePath",
+          "children": [
+            {
+              "name": "Get-CertificatePath"
+            }
+          ]
+        },
+        {
+          "name": "CertificatePermissions",
+          "children": [
+            {
+              "name": "Get-CertificatePermissions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detextive",
+      "companyName": "Unknown",
+      "author": "Brian Lalonde",
+      "children": [
+        {
+          "name": "TextFile",
+          "children": [
+            {
+              "name": "Test-TextFile"
+            }
+          ]
+        },
+        {
+          "name": "BinaryFile",
+          "children": [
+            {
+              "name": "Test-BinaryFile"
+            }
+          ]
+        },
+        {
+          "name": "Utf8Signature",
+          "children": [
+            {
+              "name": "Test-Utf8Signature"
+            },
+            {
+              "name": "Add-Utf8Signature"
+            },
+            {
+              "name": "Remove-Utf8Signature"
+            }
+          ]
+        },
+        {
+          "name": "Utf8Encoding",
+          "children": [
+            {
+              "name": "Test-Utf8Encoding"
+            }
+          ]
+        },
+        {
+          "name": "FinalNewline",
+          "children": [
+            {
+              "name": "Test-FinalNewline"
+            }
+          ]
+        },
+        {
+          "name": "FileEncoding",
+          "children": [
+            {
+              "name": "Get-FileEncoding"
+            }
+          ]
+        },
+        {
+          "name": "FileIndents",
+          "children": [
+            {
+              "name": "Get-FileIndents"
+            }
+          ]
+        },
+        {
+          "name": "FileLineEndings",
+          "children": [
+            {
+              "name": "Get-FileLineEndings"
+            }
+          ]
+        },
+        {
+          "name": "FileContentsInfo",
+          "children": [
+            {
+              "name": "Get-FileContentsInfo"
+            }
+          ]
+        },
+        {
+          "name": "BrokenEncoding",
+          "children": [
+            {
+              "name": "Test-BrokenEncoding"
+            }
+          ]
+        },
+        {
+          "name": "Encoding",
+          "children": [
+            {
+              "name": "Repair-Encoding"
+            }
+          ]
+        },
+        {
+          "name": "FileEditorConfig",
+          "children": [
+            {
+              "name": "Get-FileEditorConfig"
+            },
+            {
+              "name": "Test-FileEditorConfig"
+            },
+            {
+              "name": "Repair-FileEditorConfig"
+            }
+          ]
+        },
+        {
+          "name": "Unicode",
+          "children": [
+            {
+              "name": "Optimize-Unicode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HtmlToMarkdown",
+      "companyName": "Unknown",
+      "author": "Brian Lalonde",
+      "children": [
+        {
+          "name": "HtmlToMarkdown",
+          "children": [
+            {
+              "name": "Convert-HtmlToMarkdown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pretendpoint",
+      "companyName": "Unknown",
+      "author": "Brian Lalonde",
+      "children": [
+        {
+          "name": "WebRequestBody",
+          "children": [
+            {
+              "name": "Get-WebRequestBody"
+            }
+          ]
+        },
+        {
+          "name": "WebRequest",
+          "children": [
+            {
+              "name": "Read-WebRequest"
+            }
+          ]
+        },
+        {
+          "name": "HttpContext",
+          "children": [
+            {
+              "name": "Receive-HttpContext"
+            }
+          ]
+        },
+        {
+          "name": "HttpListener",
+          "children": [
+            {
+              "name": "Restart-HttpListener"
+            },
+            {
+              "name": "Start-HttpListener"
+            },
+            {
+              "name": "Stop-HttpListener"
+            },
+            {
+              "name": "Suspend-HttpListener"
+            }
+          ]
+        },
+        {
+          "name": "WebResponse",
+          "children": [
+            {
+              "name": "Write-WebResponse"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SelectHtml",
+      "companyName": "Unknown",
+      "author": "Brian Lalonde",
+      "children": [
+        {
+          "name": "Html",
+          "children": [
+            {
+              "name": "Select-Html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SelectXmlExtensions",
+      "companyName": "Unknown",
+      "author": "Brian Lalonde",
+      "children": [
+        {
+          "name": "Xml",
+          "children": [
+            {
+              "name": "Add-Xml"
+            },
+            {
+              "name": "Remove-Xml"
+            }
+          ]
+        },
+        {
+          "name": "XmlValue",
+          "children": [
+            {
+              "name": "Get-XmlValue"
+            },
+            {
+              "name": "Set-XmlValue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

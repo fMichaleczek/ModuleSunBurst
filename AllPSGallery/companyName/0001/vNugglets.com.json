@@ -1,0 +1,167 @@
+{
+  "name": "vNugglets.com",
+  "children": [
+    {
+      "name": "vNugglets.Utility",
+      "companyName": "vNugglets.com",
+      "author": "Matt Boren",
+      "children": [
+        {
+          "name": "VNVIServer",
+          "children": [
+            {
+              "name": "Connect-VNVIServer"
+            },
+            {
+              "name": "Disconnect-VNVIServer"
+            }
+          ]
+        },
+        {
+          "name": "VNVIRole",
+          "children": [
+            {
+              "name": "Copy-VNVIRole"
+            }
+          ]
+        },
+        {
+          "name": "VNVMWithDuplicateMACAddress",
+          "children": [
+            {
+              "name": "Find-VNVMWithDuplicateMACAddress"
+            }
+          ]
+        },
+        {
+          "name": "VNInventoryType",
+          "children": [
+            {
+              "name": "Get-VNInventoryType"
+            }
+          ]
+        },
+        {
+          "name": "VNNetworkClusterInfo",
+          "children": [
+            {
+              "name": "Get-VNNetworkClusterInfo"
+            }
+          ]
+        },
+        {
+          "name": "VNUplinkNicForVM",
+          "children": [
+            {
+              "name": "Get-VNUplinkNicForVM"
+            }
+          ]
+        },
+        {
+          "name": "VNVMByAddress",
+          "children": [
+            {
+              "name": "Get-VNVMByAddress"
+            }
+          ]
+        },
+        {
+          "name": "VNVMByRDM",
+          "children": [
+            {
+              "name": "Get-VNVMByRDM"
+            }
+          ]
+        },
+        {
+          "name": "VNVMByVirtualPortGroup",
+          "children": [
+            {
+              "name": "Get-VNVMByVirtualPortGroup"
+            }
+          ]
+        },
+        {
+          "name": "VNVMDiskAndRDM",
+          "children": [
+            {
+              "name": "Get-VNVMDiskAndRDM"
+            }
+          ]
+        },
+        {
+          "name": "VNVMEVCInfo",
+          "children": [
+            {
+              "name": "Get-VNVMEVCInfo"
+            }
+          ]
+        },
+        {
+          "name": "VNVMHostBrokenUplink",
+          "children": [
+            {
+              "name": "Get-VNVMHostBrokenUplink"
+            }
+          ]
+        },
+        {
+          "name": "VNVMHostFirmwareInfo",
+          "children": [
+            {
+              "name": "Get-VNVMHostFirmwareInfo"
+            }
+          ]
+        },
+        {
+          "name": "VNVMHostHBAWWN",
+          "children": [
+            {
+              "name": "Get-VNVMHostHBAWWN"
+            }
+          ]
+        },
+        {
+          "name": "VNVMHostLogicalVolumeInfo",
+          "children": [
+            {
+              "name": "Get-VNVMHostLogicalVolumeInfo"
+            }
+          ]
+        },
+        {
+          "name": "VNVMHostNICFirmwareAndDriverInfo",
+          "children": [
+            {
+              "name": "Get-VNVMHostNICFirmwareAndDriverInfo"
+            }
+          ]
+        },
+        {
+          "name": "VNEvacuateDatastore",
+          "children": [
+            {
+              "name": "Invoke-VNEvacuateDatastore"
+            }
+          ]
+        },
+        {
+          "name": "VNTemplateFromVMHost",
+          "children": [
+            {
+              "name": "Move-VNTemplateFromVMHost"
+            }
+          ]
+        },
+        {
+          "name": "VNTitleBarForPowerCLI",
+          "children": [
+            {
+              "name": "Update-VNTitleBarForPowerCLI"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
